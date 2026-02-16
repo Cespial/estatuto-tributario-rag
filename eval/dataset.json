@@ -1,0 +1,321 @@
+{
+  "version": "1.0",
+  "description": "Evaluation dataset for Estatuto Tributario RAG system",
+  "questions": [
+    {
+      "id": "factual-1",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Cuál es la tarifa general del IVA en Colombia?",
+      "expected_articles": ["Art. 468"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["19%"]
+    },
+    {
+      "id": "factual-2",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Cuál es la tarifa del impuesto de renta para personas jurídicas?",
+      "expected_articles": ["Art. 240"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["35%"]
+    },
+    {
+      "id": "factual-3",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Qué es el hecho generador de la obligación tributaria?",
+      "expected_articles": ["Art. 1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["obligación tributaria sustancial"]
+    },
+    {
+      "id": "factual-4",
+      "category": "factual",
+      "difficulty": "medium",
+      "question": "¿Cuál es la tarifa del GMF o 4x1000?",
+      "expected_articles": ["Art. 871"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["cuatro por mil"]
+    },
+    {
+      "id": "factual-5",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Quiénes son contribuyentes del impuesto sobre la renta?",
+      "expected_articles": ["Art. 2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["contribuyentes"]
+    },
+    {
+      "id": "factual-6",
+      "category": "factual",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los bienes excluidos del IVA?",
+      "expected_articles": ["Art. 424"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["excluidos"]
+    },
+    {
+      "id": "factual-7",
+      "category": "factual",
+      "difficulty": "medium",
+      "question": "¿Qué son los ingresos no constitutivos de renta?",
+      "expected_articles": ["Art. 36"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no constitutivos"]
+    },
+    {
+      "id": "factual-8",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Qué dice el artículo 4 del Estatuto Tributario?",
+      "expected_articles": ["Art. 4"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sinónimos"]
+    },
+    {
+      "id": "comparative-1",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia en la tarifa de renta entre personas naturales y jurídicas?",
+      "expected_articles": ["Art. 240", "Art. 241"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["35%", "personas naturales"]
+    },
+    {
+      "id": "comparative-2",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿En qué se diferencian los bienes exentos de los excluidos del IVA?",
+      "expected_articles": ["Art. 424", "Art. 477"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["exentos", "excluidos"]
+    },
+    {
+      "id": "comparative-3",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las diferencias entre la retención en la fuente por salarios y por servicios?",
+      "expected_articles": ["Art. 383", "Art. 392"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retención", "salarios"]
+    },
+    {
+      "id": "comparative-4",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre responsables y contribuyentes?",
+      "expected_articles": ["Art. 2", "Art. 3"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["responsables", "contribuyentes"]
+    },
+    {
+      "id": "comparative-5",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cómo se compara el régimen tributario especial con el ordinario?",
+      "expected_articles": ["Art. 19"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["régimen tributario especial"]
+    },
+    {
+      "id": "comparative-6",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre deducciones y costos en el impuesto de renta?",
+      "expected_articles": ["Art. 107"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["deducciones"]
+    },
+    {
+      "id": "procedural-1",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se calcula la retención en la fuente por salarios?",
+      "expected_articles": ["Art. 383", "Art. 388"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retención", "salarios"]
+    },
+    {
+      "id": "procedural-2",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para solicitar devolución de saldos a favor?",
+      "expected_articles": ["Art. 850"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["devolución"]
+    },
+    {
+      "id": "procedural-3",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los plazos para presentar la declaración de renta?",
+      "expected_articles": ["Art. 574"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["declaración"]
+    },
+    {
+      "id": "procedural-4",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo funciona el procedimiento de cobro coactivo?",
+      "expected_articles": ["Art. 823"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["cobro coactivo"]
+    },
+    {
+      "id": "procedural-5",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cómo se determina la renta presuntiva?",
+      "expected_articles": ["Art. 188"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta presuntiva"]
+    },
+    {
+      "id": "procedural-6",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son las obligaciones del agente retenedor?",
+      "expected_articles": ["Art. 375"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["agente retenedor"]
+    },
+    {
+      "id": "temporal-1",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿La tarifa del IVA siempre ha sido del 19%?",
+      "expected_articles": ["Art. 468"],
+      "expected_chunk_types": ["contenido", "texto_anterior"],
+      "expected_answer_contains": ["19%"]
+    },
+    {
+      "id": "temporal-2",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo ha cambiado la tarifa de renta para personas jurídicas?",
+      "expected_articles": ["Art. 240"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["tarifa"]
+    },
+    {
+      "id": "temporal-3",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Qué modificaciones ha tenido el artículo 240?",
+      "expected_articles": ["Art. 240"],
+      "expected_chunk_types": ["modificaciones"],
+      "expected_answer_contains": ["modificac"]
+    },
+    {
+      "id": "temporal-4",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Qué decía anteriormente el artículo sobre ganancias ocasionales?",
+      "expected_articles": ["Art. 299"],
+      "expected_chunk_types": ["texto_anterior"],
+      "expected_answer_contains": ["ganancia ocasional"]
+    },
+    {
+      "id": "temporal-5",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Cuál era la anterior tarifa del impuesto de timbre?",
+      "expected_articles": ["Art. 519"],
+      "expected_chunk_types": ["texto_anterior"],
+      "expected_answer_contains": ["timbre"]
+    },
+    {
+      "id": "temporal-6",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Qué reformas tributarias han modificado el régimen del IVA?",
+      "expected_articles": ["Art. 468"],
+      "expected_chunk_types": ["modificaciones"],
+      "expected_answer_contains": ["ley", "reforma"]
+    },
+    {
+      "id": "temporal-7",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Cuándo fue derogado el ajuste integral por inflación?",
+      "expected_articles": ["Art. 329"],
+      "expected_chunk_types": ["contenido", "texto_anterior"],
+      "expected_answer_contains": ["inflación"]
+    },
+    {
+      "id": "edge-1",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Los fondos de capital privado son contribuyentes del impuesto de renta?",
+      "expected_articles": ["Art. 23-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["fondos"]
+    },
+    {
+      "id": "edge-2",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Qué tratamiento tributario tienen las entidades sin ánimo de lucro?",
+      "expected_articles": ["Art. 19"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sin ánimo de lucro"]
+    },
+    {
+      "id": "edge-3",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cuál es el tratamiento del impuesto de renta para las zonas francas?",
+      "expected_articles": ["Art. 240-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["zona franca"]
+    },
+    {
+      "id": "edge-4",
+      "category": "edge_case",
+      "difficulty": "medium",
+      "question": "¿Qué artículo regula los precios de transferencia?",
+      "expected_articles": ["Art. 260-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["precios de transferencia"]
+    },
+    {
+      "id": "edge-5",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cómo tributan los dividendos en Colombia?",
+      "expected_articles": ["Art. 242"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["dividendos"]
+    },
+    {
+      "id": "sanction-1",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no presentar declaración de renta?",
+      "expected_articles": ["Art. 643"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sanción", "no declarar"]
+    },
+    {
+      "id": "sanction-2",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por extemporaneidad en la declaración?",
+      "expected_articles": ["Art. 641"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["extemporaneidad"]
+    },
+    {
+      "id": "sanction-3",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción mínima en el Estatuto Tributario?",
+      "expected_articles": ["Art. 639"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sanción mínima", "UVT"]
+    }
+  ]
+}

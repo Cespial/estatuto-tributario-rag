@@ -1,0 +1,41 @@
+export const LIBROS = [
+  { key: "titulo-preliminar", label: "Título Preliminar", filter: "Título Preliminar" },
+  { key: "libro-i", label: "Libro I - Renta", filter: "I - Impuesto sobre la Renta y Complementarios" },
+  { key: "libro-ii", label: "Libro II - Retención", filter: "II - Retención en la Fuente" },
+  { key: "libro-iii", label: "Libro III - IVA", filter: "III - Impuesto sobre las Ventas" },
+  { key: "libro-iv", label: "Libro IV - Timbre", filter: "IV - Impuesto de Timbre Nacional" },
+  { key: "libro-v", label: "Libro V - Procedimiento", filter: "V - Procedimiento Tributario" },
+  { key: "libro-vi", label: "Libro VI - GMF", filter: "VI - Gravamen a los Movimientos Financieros" },
+] as const;
+
+export type LibroKey = (typeof LIBROS)[number]["key"];
+
+export const LIBRO_KEYWORD_MAP: Record<string, string> = {
+  renta: "I - Impuesto sobre la Renta y Complementarios",
+  "impuesto de renta": "I - Impuesto sobre la Renta y Complementarios",
+  "personas jurídicas": "I - Impuesto sobre la Renta y Complementarios",
+  "personas naturales": "I - Impuesto sobre la Renta y Complementarios",
+  patrimonio: "I - Impuesto sobre la Renta y Complementarios",
+  "ganancias ocasionales": "I - Impuesto sobre la Renta y Complementarios",
+  retención: "II - Retención en la Fuente",
+  retefuente: "II - Retención en la Fuente",
+  "retención en la fuente": "II - Retención en la Fuente",
+  iva: "III - Impuesto sobre las Ventas",
+  "impuesto sobre las ventas": "III - Impuesto sobre las Ventas",
+  "impuesto a las ventas": "III - Impuesto sobre las Ventas",
+  timbre: "IV - Impuesto de Timbre Nacional",
+  "impuesto de timbre": "IV - Impuesto de Timbre Nacional",
+  sanción: "V - Procedimiento Tributario",
+  sanciones: "V - Procedimiento Tributario",
+  procedimiento: "V - Procedimiento Tributario",
+  declaración: "V - Procedimiento Tributario",
+  devolución: "V - Procedimiento Tributario",
+  devoluciones: "V - Procedimiento Tributario",
+  cobro: "V - Procedimiento Tributario",
+  "cobro coactivo": "V - Procedimiento Tributario",
+  gmf: "VI - Gravamen a los Movimientos Financieros",
+  "4x1000": "VI - Gravamen a los Movimientos Financieros",
+  "4 por mil": "VI - Gravamen a los Movimientos Financieros",
+  "gravamen financiero": "VI - Gravamen a los Movimientos Financieros",
+  "movimientos financieros": "VI - Gravamen a los Movimientos Financieros",
+};
