@@ -57,8 +57,8 @@ export function Header() {
         </div>
         <div className="flex items-center gap-2">
           {/* Mobile nav */}
-          <nav className="flex items-center gap-1 sm:hidden">
-            {NAV_ITEMS.map(({ href, icon: Icon }) => {
+          <nav className="flex items-center gap-1 sm:hidden" aria-label="Navegación principal">
+            {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
               const isActive =
                 href === "/"
                   ? pathname === "/"
@@ -67,6 +67,8 @@ export function Header() {
                 <Link
                   key={href}
                   href={href}
+                  aria-label={label}
+                  title={label}
                   className={clsx(
                     "rounded-md p-2 transition-colors",
                     isActive
@@ -82,8 +84,8 @@ export function Header() {
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="rounded-md p-2 hover:bg-muted"
-              aria-label="Toggle theme"
+              className="rounded-md p-2 hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+              aria-label="Cambiar tema"
             >
               {theme === "dark" ? (
                 <Sun className="h-4 w-4" />

@@ -60,14 +60,46 @@ async function getArticle(slug: string): Promise<ArticleData | null> {
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const indexPath = join(process.cwd(), "public", "data", "articles-index.json");
+    const raw = await readFile(indexPath, "utf-8");
+    const articles: Array<{ slug: string }> = JSON.parse(raw);
+    return articles.map((a) => ({ slug: a.slug }));
+  } catch {
+    return [];
+  }
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const article = await getArticle(slug);
-  if (!article) return { title: "Articulo no encontrado" };
+  if (!article) return { title: "Artículo no encontrado" };
   return {
     title: `${article.id_articulo} - ${article.titulo_corto} | Estatuto Tributario`,
     description: article.contenido_texto?.slice(0, 160),
   };
+}
+
+function ArticleJsonLd({ article }: { article: ArticleData }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Legislation",
+    name: article.titulo,
+    legislationIdentifier: article.id_articulo,
+    inLanguage: "es",
+    isPartOf: {
+      "@type": "Legislation",
+      name: "Estatuto Tributario de Colombia",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -78,6 +110,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="flex min-h-screen flex-col">
+      <ArticleJsonLd article={article} />
       <Header />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
         <div className="flex flex-col gap-8 lg:flex-row">

@@ -24,7 +24,7 @@ export function ArticleGrid({ articles, total }: ArticleGridProps) {
   return (
     <div>
       <p className="mb-3 text-sm text-muted-foreground">
-        Mostrando {articles.length} de {total} articulos
+        Mostrando {articles.length} de {total} artículos
       </p>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {articles.map((art) => (
@@ -45,7 +45,7 @@ export function ArticleGrid({ articles, total }: ArticleGridProps) {
       </div>
       {articles.length === 0 && (
         <div className="py-12 text-center text-muted-foreground">
-          No se encontraron articulos con esos filtros.
+          No se encontraron artículos con esos filtros. Intenta buscar por número de artículo o una palabra clave diferente.
         </div>
       )}
     </div>

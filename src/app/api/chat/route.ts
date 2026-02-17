@@ -2,8 +2,12 @@ import { streamText, UIMessage } from "ai";
 import { anthropic } from "@ai-sdk/anthropic";
 import { runRAGPipeline } from "@/lib/rag/pipeline";
 import { LIBROS } from "@/config/categories";
+import { ChatRequestSchema, validateMessageLength } from "@/lib/api/validation";
+import { checkRateLimit } from "@/lib/api/rate-limiter";
 
 export const maxDuration = 60;
+
+const CHAT_MODEL = process.env.CHAT_MODEL || "claude-sonnet-4-5-20250929";
 
 function getTextFromMessage(message: UIMessage): string {
   return message.parts
@@ -12,17 +16,71 @@ function getTextFromMessage(message: UIMessage): string {
     .join("");
 }
 
+function getClientIP(req: Request): string {
+  const forwarded = req.headers.get("x-forwarded-for");
+  if (forwarded) return forwarded.split(",")[0].trim();
+  return "unknown";
+}
+
 export async function POST(req: Request) {
-  const body = await req.json();
-  const messages: UIMessage[] = body.messages ?? [];
-  const filters = body.filters as { libro?: string } | undefined;
+  // Rate limiting
+  const ip = getClientIP(req);
+  const { allowed, retryAfter } = checkRateLimit(ip);
+  if (!allowed) {
+    return new Response(
+      JSON.stringify({ error: "Demasiadas solicitudes. Intenta de nuevo en unos segundos." }),
+      {
+        status: 429,
+        headers: {
+          "Content-Type": "application/json",
+          "Retry-After": String(retryAfter),
+        },
+      }
+    );
+  }
+
+  // Parse and validate request body
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    return new Response(
+      JSON.stringify({ error: "Cuerpo de solicitud inválido." }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+  const parsed = ChatRequestSchema.safeParse(body);
+  if (!parsed.success) {
+    return new Response(
+      JSON.stringify({
+        error: "Solicitud inválida.",
+        details: parsed.error.issues.map((i) => i.message),
+      }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+  const { messages, filters } = parsed.data;
+
+  // Validate message length
+  const lengthError = validateMessageLength(messages);
+  if (lengthError) {
+    return new Response(
+      JSON.stringify({ error: lengthError }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
+  }
 
   const lastMessage = messages[messages.length - 1];
   if (!lastMessage || lastMessage.role !== "user") {
-    return new Response("Missing user message", { status: 400 });
+    return new Response(
+      JSON.stringify({ error: "Falta mensaje del usuario." }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
   }
 
-  const userQuery = getTextFromMessage(lastMessage);
+  const userQuery = getTextFromMessage(lastMessage as unknown as UIMessage);
 
   // Resolve libro filter
   let libroFilter: string | undefined;
@@ -37,7 +95,7 @@ export async function POST(req: Request) {
   });
 
   const result = streamText({
-    model: anthropic("claude-sonnet-4-5-20250929"),
+    model: anthropic(CHAT_MODEL),
     system,
     messages: [
       { role: "user" as const, content: contextBlock },

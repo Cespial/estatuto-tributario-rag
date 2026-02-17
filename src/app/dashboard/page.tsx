@@ -40,19 +40,34 @@ interface DashboardStats {
   }>;
 }
 
-async function getDashboardStats(): Promise<DashboardStats> {
-  const filePath = join(process.cwd(), "public", "data", "dashboard-stats.json");
-  const raw = await readFile(filePath, "utf-8");
-  return JSON.parse(raw);
+async function getDashboardStats(): Promise<DashboardStats | null> {
+  try {
+    const filePath = join(process.cwd(), "public", "data", "dashboard-stats.json");
+    const raw = await readFile(filePath, "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
 }
 
 export const metadata = {
-  title: "Dashboard | Estatuto Tributario",
-  description: "Analitica del Estatuto Tributario de Colombia",
+  title: "Dashboard Analítico | Estatuto Tributario",
+  description: "Analítica del Estatuto Tributario de Colombia",
 };
 
 export default async function DashboardPage() {
   const stats = await getDashboardStats();
+
+  if (!stats) {
+    return (
+      <div className="flex min-h-screen flex-col">
+        <Header />
+        <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col items-center justify-center px-4 py-6">
+          <p className="text-muted-foreground">No se pudieron cargar las estadísticas del dashboard.</p>
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div className="flex min-h-screen flex-col">

@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { ExternalLink } from "lucide-react";
 import { clsx } from "clsx";
 import { useArticlePanel } from "@/contexts/article-panel-context";
@@ -19,7 +20,13 @@ const ESTADO_DOT: Record<string, string> = {
   derogado: "bg-red-500",
 };
 
-export function SourceCitation({
+const ESTADO_LABEL: Record<string, string> = {
+  vigente: "Vigente",
+  modificado: "Modificado",
+  derogado: "Derogado",
+};
+
+function SourceCitationInner({
   idArticulo,
   url,
   categoriaLibro,
@@ -40,7 +47,8 @@ export function SourceCitation({
     <span className="inline-flex items-center gap-1">
       <button
         onClick={handleClick}
-        className="inline-flex items-center gap-1 rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
+        className="inline-flex items-center gap-1 rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-foreground transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+        aria-label={`Ver artículo ${idArticulo}`}
       >
         {estado && (
           <span
@@ -48,6 +56,7 @@ export function SourceCitation({
               "h-1.5 w-1.5 rounded-full",
               ESTADO_DOT[estado] || "bg-gray-500"
             )}
+            title={ESTADO_LABEL[estado] || estado}
           />
         )}
         {idArticulo}
@@ -59,11 +68,14 @@ export function SourceCitation({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="rounded-full p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+        className="rounded-full p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
         title="Ver en estatuto.co"
+        aria-label={`Ver ${idArticulo} en estatuto.co`}
       >
         <ExternalLink className="h-3 w-3" />
       </a>
     </span>
   );
 }
+
+export const SourceCitation = memo(SourceCitationInner);

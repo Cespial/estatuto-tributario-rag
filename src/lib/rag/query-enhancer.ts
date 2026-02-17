@@ -37,11 +37,16 @@ async function rewriteQuery(query: string): Promise<string> {
       model: anthropic("claude-haiku-4-5-20251001"),
       maxOutputTokens: 200,
       system:
-        "Eres un experto en el Estatuto Tributario colombiano. Reescribe la consulta del usuario usando terminología legal precisa del Estatuto Tributario. Responde SOLO con la consulta reescrita, sin explicaciones.",
+        "Eres un experto en el Estatuto Tributario colombiano (Decreto 624 de 1989). " +
+        "Reescribe la consulta del usuario usando terminología legal precisa del Estatuto Tributario. " +
+        "Ejemplos de terminología: 'renta líquida gravable', 'retención en la fuente', 'hecho generador', " +
+        "'base gravable', 'tarifa impositiva', 'período gravable', 'contribuyente', 'responsable del impuesto'. " +
+        "Responde SOLO con la consulta reescrita, sin explicaciones.",
       prompt: query,
     });
     return text.trim() || query;
-  } catch {
+  } catch (error) {
+    console.error("[query-enhancer] rewriteQuery failed:", error);
     return query;
   }
 }
@@ -53,7 +58,7 @@ function shouldUseHyDE(
 ): boolean {
   if (forceHyDE !== undefined) return forceHyDE;
   if (detectedArticles.length > 0) return false;
-  if (query.length < 50) return false;
+  // Enable HyDE for short queries (< 50 chars) since they benefit most from expansion
   return true;
 }
 
@@ -67,7 +72,8 @@ async function generateHyDE(query: string): Promise<string> {
       prompt: query,
     });
     return text.trim();
-  } catch {
+  } catch (error) {
+    console.error("[query-enhancer] generateHyDE failed:", error);
     return "";
   }
 }
@@ -94,7 +100,8 @@ async function decomposeQuery(query: string): Promise<string[]> {
       .map((l) => l.trim())
       .filter((l) => l.length > 10)
       .slice(0, 3);
-  } catch {
+  } catch (error) {
+    console.error("[query-enhancer] decomposeQuery failed:", error);
     return [];
   }
 }

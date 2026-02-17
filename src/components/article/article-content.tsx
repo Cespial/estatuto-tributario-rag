@@ -1,3 +1,5 @@
+import DOMPurify from "isomorphic-dompurify";
+
 interface ArticleContentProps {
   contenidoTexto: string;
   contenidoHtml: string;
@@ -7,7 +9,7 @@ export function ArticleContent({ contenidoTexto, contenidoHtml }: ArticleContent
   if (!contenidoTexto && !contenidoHtml) {
     return (
       <div className="rounded-lg border border-border bg-muted/50 p-4 text-sm text-muted-foreground">
-        Este articulo no tiene contenido vigente disponible.
+        Este artículo no tiene contenido vigente disponible.
       </div>
     );
   }
@@ -17,7 +19,7 @@ export function ArticleContent({ contenidoTexto, contenidoHtml }: ArticleContent
       <h2 className="mb-3 text-lg font-semibold">Contenido vigente</h2>
       <div className="prose-chat rounded-lg border border-border bg-muted/30 p-4 text-sm leading-relaxed">
         {contenidoHtml ? (
-          <div dangerouslySetInnerHTML={{ __html: contenidoHtml }} />
+          <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(contenidoHtml) }} />
         ) : (
           <p className="whitespace-pre-wrap">{contenidoTexto}</p>
         )}

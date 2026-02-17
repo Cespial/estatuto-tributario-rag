@@ -33,23 +33,45 @@ export async function runRAGPipeline(
   options: PipelineOptions = {}
 ): Promise<PipelineResult> {
   // 1. Enhance query
-  const enhancedQuery = await enhanceQuery(query, {
-    useHyDE: options.useHyDE ?? RAG_CONFIG.useHyDE,
-    useQueryExpansion: options.useQueryExpansion ?? RAG_CONFIG.useQueryExpansion,
-  });
+  let enhancedQuery;
+  try {
+    enhancedQuery = await enhanceQuery(query, {
+      useHyDE: options.useHyDE ?? RAG_CONFIG.useHyDE,
+      useQueryExpansion: options.useQueryExpansion ?? RAG_CONFIG.useQueryExpansion,
+    });
+  } catch (error) {
+    console.error("[rag-pipeline] Query enhancement failed, using raw query:", error);
+    enhancedQuery = {
+      original: query,
+      rewritten: query,
+      detectedArticles: [],
+    };
+  }
 
   // 2. Retrieve from Pinecone
-  const retrievalResult = await retrieve(enhancedQuery, {
-    libroFilter: options.libroFilter || undefined,
-  });
+  let retrievalResult;
+  try {
+    retrievalResult = await retrieve(enhancedQuery, {
+      libroFilter: options.libroFilter || undefined,
+    });
+  } catch (error) {
+    console.error("[rag-pipeline] Retrieval failed:", error);
+    throw new Error("No se pudieron recuperar los artículos relevantes.");
+  }
 
   // 3. Rerank
   const reranked = heuristicRerank(retrievalResult.chunks, enhancedQuery);
 
   // 4. Assemble context
-  const context = await assembleContext(reranked, {
-    useSiblingRetrieval: options.useSiblingRetrieval ?? RAG_CONFIG.useSiblingRetrieval,
-  });
+  let context;
+  try {
+    context = await assembleContext(reranked, {
+      useSiblingRetrieval: options.useSiblingRetrieval ?? RAG_CONFIG.useSiblingRetrieval,
+    });
+  } catch (error) {
+    console.error("[rag-pipeline] Context assembly failed:", error);
+    throw new Error("Error al ensamblar el contexto de respuesta.");
+  }
 
   // 5. Build prompt
   const { system, contextBlock } = buildMessages(query, context);

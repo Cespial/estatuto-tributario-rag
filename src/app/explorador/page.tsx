@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState, useMemo, useCallback } from "react";
-import { Grid3X3, GitBranch } from "lucide-react";
+import { Suspense, useEffect, useState, useMemo, useCallback } from "react";
+import { Grid3X3, GitBranch, AlertCircle } from "lucide-react";
 import { clsx } from "clsx";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { SearchBar } from "@/components/explorer/search-bar";
 import { FilterPanel } from "@/components/explorer/filter-panel";
@@ -46,25 +47,70 @@ interface Filters {
 const PAGE_SIZE = 60;
 
 export default function ExploradorPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen flex-col">
+        <Header />
+        <main className="flex flex-1 items-center justify-center">
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+        </main>
+      </div>
+    }>
+      <ExploradorContent />
+    </Suspense>
+  );
+}
+
+function ExploradorContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [articles, setArticles] = useState<ArticleIndex[]>([]);
   const [graphData, setGraphData] = useState<GraphData | null>(null);
+  const [graphError, setGraphError] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [search, setSearch] = useState("");
+
+  // Initialize from URL params
+  const [search, setSearch] = useState(searchParams.get("q") || "");
   const [filters, setFilters] = useState<Filters>({
-    libro: "",
-    estado: "",
-    hasMods: null,
-    hasNormas: null,
+    libro: searchParams.get("libro") || "",
+    estado: searchParams.get("estado") || "",
+    hasMods: searchParams.get("hasMods") === "true" ? true : null,
+    hasNormas: searchParams.get("hasNormas") === "true" ? true : null,
   });
-  const [view, setView] = useState<"grid" | "graph">("grid");
+  const [view, setView] = useState<"grid" | "graph">(
+    (searchParams.get("view") as "grid" | "graph") || "grid"
+  );
   const [page, setPage] = useState(0);
 
-  // Load data
+  // Sync filters to URL
   useEffect(() => {
-    Promise.all([
-      fetch("/data/articles-index.json").then((r) => r.json()),
-      fetch("/data/graph-data.json").then((r) => r.json()),
-    ]).then(([idx, graph]) => {
+    const params = new URLSearchParams();
+    if (search) params.set("q", search);
+    if (filters.libro) params.set("libro", filters.libro);
+    if (filters.estado) params.set("estado", filters.estado);
+    if (filters.hasMods === true) params.set("hasMods", "true");
+    if (filters.hasNormas === true) params.set("hasNormas", "true");
+    if (view !== "grid") params.set("view", view);
+
+    const paramString = params.toString();
+    router.replace(`/explorador${paramString ? `?${paramString}` : ""}`, { scroll: false });
+  }, [search, filters, view, router]);
+
+  // Load data with individual error handling
+  useEffect(() => {
+    const loadArticles = fetch("/data/articles-index.json")
+      .then((r) => r.json())
+      .catch(() => [] as ArticleIndex[]);
+
+    const loadGraph = fetch("/data/graph-data.json")
+      .then((r) => r.json())
+      .catch(() => {
+        setGraphError(true);
+        return null;
+      });
+
+    Promise.all([loadArticles, loadGraph]).then(([idx, graph]) => {
       setArticles(idx);
       setGraphData(graph);
       setLoading(false);
@@ -167,13 +213,20 @@ export default function ExploradorPage() {
                   onClick={() => setPage((p) => p + 1)}
                   className="rounded-lg border border-border px-6 py-2 text-sm font-medium transition-colors hover:bg-muted"
                 >
-                  Cargar mas ({filtered.length - paginated.length} restantes)
+                  Cargar más ({filtered.length - paginated.length} restantes)
                 </button>
               </div>
             )}
           </>
+        ) : graphError || !graphData ? (
+          <div className="flex flex-col items-center justify-center rounded-lg border border-border bg-muted/50 py-16">
+            <AlertCircle className="mb-3 h-8 w-8 text-muted-foreground" />
+            <p className="text-sm text-muted-foreground">
+              El grafo de relaciones no está disponible en este momento.
+            </p>
+          </div>
         ) : (
-          graphData && <RelationshipGraph data={graphData} maxNodes={200} />
+          <RelationshipGraph data={graphData} maxNodes={200} />
         )}
       </main>
     </div>

@@ -16,9 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Estatuto Tributario de Colombia - Consulta IA",
+  title: "Estatuto Tributario de Colombia - Consulta con IA",
   description:
-    "Consulta inteligente de los 1,294 artículos del Estatuto Tributario colombiano con IA.",
+    "Consulta inteligente de los 1,294 artículos del Estatuto Tributario colombiano con IA. Busca artículos, analiza modificaciones y explora relaciones entre normas.",
+  openGraph: {
+    title: "Estatuto Tributario de Colombia",
+    description:
+      "Consulta inteligente de los 1,294 artículos del Estatuto Tributario con IA",
+    type: "website",
+    locale: "es_CO",
+    siteName: "Estatuto Tributario IA",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

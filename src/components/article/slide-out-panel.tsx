@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { X, ExternalLink, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import DOMPurify from "isomorphic-dompurify";
 import { useArticlePanel } from "@/contexts/article-panel-context";
 import { clsx } from "clsx";
 
@@ -16,6 +17,7 @@ interface ArticleData {
   estado: string;
   complexity_score: number;
   contenido_texto: string;
+  contenido_html?: string;
   total_modificaciones: number;
   ultima_modificacion_year: number | null;
   modificaciones_parsed: Array<{ tipo: string; norma_tipo: string; norma_numero: string; norma_year: number }>;
@@ -28,20 +30,40 @@ const ESTADO_COLORS: Record<string, string> = {
   derogado: "bg-red-500",
 };
 
+const ESTADO_LABELS: Record<string, string> = {
+  vigente: "Vigente",
+  modificado: "Modificado",
+  derogado: "Derogado",
+};
+
 export function SlideOutPanel() {
   const { isOpen, slug, closePanel } = useArticlePanel();
   const [article, setArticle] = useState<ArticleData | null>(null);
   const [loading, setLoading] = useState(false);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const cacheRef = useRef<Map<string, ArticleData>>(new Map());
 
   useEffect(() => {
     if (!slug) {
       setArticle(null);
       return;
     }
+
+    // Check cache first
+    const cached = cacheRef.current.get(slug);
+    if (cached) {
+      setArticle(cached);
+      return;
+    }
+
     setLoading(true);
     fetch(`/data/articles/${slug}.json`)
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
+        if (data) {
+          cacheRef.current.set(slug, data);
+        }
         setArticle(data);
         setLoading(false);
       })
@@ -57,6 +79,42 @@ export function SlideOutPanel() {
     return () => document.removeEventListener("keydown", handleKey);
   }, [isOpen, closePanel]);
 
+  // Focus trap
+  const handleFocusTrap = useCallback(
+    (e: KeyboardEvent) => {
+      if (!isOpen || e.key !== "Tab" || !panelRef.current) return;
+
+      const focusable = panelRef.current.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    },
+    [isOpen]
+  );
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleFocusTrap);
+    return () => document.removeEventListener("keydown", handleFocusTrap);
+  }, [handleFocusTrap]);
+
+  // Focus close button when panel opens
+  useEffect(() => {
+    if (isOpen && closeButtonRef.current) {
+      closeButtonRef.current.focus();
+    }
+  }, [isOpen]);
+
   return (
     <>
       {/* Backdrop */}
@@ -66,9 +124,14 @@ export function SlideOutPanel() {
           isOpen ? "opacity-100" : "pointer-events-none opacity-0"
         )}
         onClick={closePanel}
+        aria-hidden="true"
       />
       {/* Panel */}
       <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label={article ? `Detalle del ${article.id_articulo}` : "Detalle del artículo"}
         className={clsx(
           "fixed right-0 top-0 z-50 h-full w-full max-w-md overflow-y-auto border-l border-border bg-background shadow-xl transition-transform duration-300",
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -83,6 +146,7 @@ export function SlideOutPanel() {
                   "h-2.5 w-2.5 rounded-full",
                   ESTADO_COLORS[article.estado] || "bg-gray-500"
                 )}
+                title={ESTADO_LABELS[article.estado] || article.estado}
               />
             )}
             <span className="font-semibold">
@@ -90,8 +154,10 @@ export function SlideOutPanel() {
             </span>
           </div>
           <button
+            ref={closeButtonRef}
             onClick={closePanel}
-            className="rounded-md p-1.5 hover:bg-muted"
+            className="rounded-md p-1.5 hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+            aria-label="Cerrar panel"
           >
             <X className="h-4 w-4" />
           </button>
@@ -119,7 +185,7 @@ export function SlideOutPanel() {
               </div>
               <div className="rounded-lg bg-muted p-2 text-center">
                 <div className="text-lg font-bold">{article.ultima_modificacion_year || "N/A"}</div>
-                <div className="text-xs text-muted-foreground">Ultima mod.</div>
+                <div className="text-xs text-muted-foreground">Última mod.</div>
               </div>
               <div className="rounded-lg bg-muted p-2 text-center">
                 <div className="text-lg font-bold">{article.complexity_score}/10</div>
@@ -130,9 +196,16 @@ export function SlideOutPanel() {
             {/* Content preview */}
             <div>
               <h4 className="mb-1 text-sm font-semibold">Contenido</h4>
-              <p className="line-clamp-6 text-sm text-muted-foreground">
-                {article.contenido_texto || "Sin contenido disponible"}
-              </p>
+              {article.contenido_html ? (
+                <div
+                  className="line-clamp-6 text-sm text-muted-foreground"
+                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(article.contenido_html) }}
+                />
+              ) : (
+                <p className="line-clamp-6 text-sm text-muted-foreground">
+                  {article.contenido_texto || "Sin contenido disponible"}
+                </p>
+              )}
             </div>
 
             {/* Mini timeline */}
@@ -163,7 +236,7 @@ export function SlideOutPanel() {
                   ))}
                   {article.modificaciones_parsed.length > 5 && (
                     <p className="text-xs text-muted-foreground">
-                      +{article.modificaciones_parsed.length - 5} mas...
+                      +{article.modificaciones_parsed.length - 5} más...
                     </p>
                   )}
                 </div>
@@ -194,7 +267,7 @@ export function SlideOutPanel() {
             <div className="flex gap-2 pt-2">
               <Link
                 href={`/articulo/${article.slug}`}
-                className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+                className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
                 onClick={closePanel}
               >
                 Ver ficha completa
@@ -204,7 +277,8 @@ export function SlideOutPanel() {
                 href={article.url_origen}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm transition-colors hover:bg-muted"
+                className="flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+                aria-label="Ver en estatuto.co"
               >
                 <ExternalLink className="h-4 w-4" />
               </a>

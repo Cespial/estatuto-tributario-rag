@@ -4,16 +4,31 @@ import dynamic from "next/dynamic";
 import { useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const ForceGraph2D = dynamic(() => import("react-force-graph-2d") as any, {
-  ssr: false,
-  loading: () => (
-    <div className="flex h-full items-center justify-center text-muted-foreground">
-      Cargando grafo...
-    </div>
-  ),
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-}) as any;
+interface ForceGraphComponentProps {
+  graphData: { nodes: GraphNode[]; links: { source: string; target: string }[] };
+  nodeLabel: (node: GraphNode) => string;
+  nodeColor: (node: GraphNode) => string;
+  nodeVal: (node: GraphNode) => number;
+  linkColor: () => string;
+  linkWidth: number;
+  linkDirectionalArrowLength: number;
+  linkDirectionalArrowRelPos: number;
+  onNodeClick: (node: GraphNode) => void;
+  cooldownTicks: number;
+  nodeCanvasObject: (node: GraphNode & { x: number; y: number }, ctx: CanvasRenderingContext2D, globalScale: number) => void;
+}
+
+const ForceGraph2D = dynamic(
+  () => import("react-force-graph-2d") as Promise<{ default: React.ComponentType<ForceGraphComponentProps> }>,
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex h-full items-center justify-center text-muted-foreground">
+        Cargando grafo...
+      </div>
+    ),
+  }
+) as React.ComponentType<ForceGraphComponentProps>;
 
 interface GraphNode {
   id: string;
@@ -67,28 +82,23 @@ export function RelationshipGraph({ data, maxNodes = 200 }: RelationshipGraphPro
     };
   }, [data, maxNodes]);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const handleNodeClick = useCallback((node: any) => {
+  const handleNodeClick = useCallback((node: GraphNode) => {
     if (node.id) router.push(`/articulo/${node.id}`);
   }, [router]);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const nodeColor = useCallback((node: any) => {
+  const nodeColor = useCallback((node: GraphNode) => {
     return LIBRO_COLORS[node.libro] || "#6b7280";
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const nodeVal = useCallback((node: any) => {
+  const nodeVal = useCallback((node: GraphNode) => {
     return 3 + (node.complexity || 0) * 0.8;
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const nodeLabel = useCallback((node: any) => {
+  const nodeLabel = useCallback((node: GraphNode) => {
     return `${node.label}: ${node.titulo}\n(${node.libro}, ${node.estado})`;
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
+  const nodeCanvasObject = useCallback((node: GraphNode & { x: number; y: number }, ctx: CanvasRenderingContext2D, globalScale: number) => {
     const size = 3 + (node.complexity || 0) * 0.8;
     const color = LIBRO_COLORS[node.libro] || "#6b7280";
 

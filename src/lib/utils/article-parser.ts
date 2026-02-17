@@ -35,5 +35,6 @@ export function buildArticleUrl(articleId: string): string {
 }
 
 export function estimateTokens(text: string): number {
-  return Math.ceil(text.length / 4);
+  // Spanish text averages ~3.5 chars per token (longer tokens than English)
+  return Math.ceil(text.length / 3.5);
 }

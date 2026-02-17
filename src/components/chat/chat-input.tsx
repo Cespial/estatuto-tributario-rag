@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useRef, useEffect } from "react";
+import { FormEvent, useRef, useEffect, useCallback } from "react";
 import { Send } from "lucide-react";
 
 interface ChatInputProps {
@@ -17,6 +17,7 @@ export function ChatInput({
   isLoading,
 }: ChatInputProps) {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     if (textareaRef.current) {
@@ -26,32 +27,42 @@ export function ChatInput({
     }
   }, [input]);
 
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        if (input.trim() && !isLoading && formRef.current) {
+          formRef.current.requestSubmit();
+        }
+      }
+    },
+    [input, isLoading]
+  );
+
   return (
-    <form onSubmit={onSubmit} className="border-t border-border p-4">
+    <form ref={formRef} onSubmit={onSubmit} className="border-t border-border p-4">
       <div className="mx-auto flex max-w-4xl items-end gap-2">
         <div className="relative flex-1">
+          <label htmlFor="chat-input" className="sr-only">
+            Pregunta sobre el Estatuto Tributario
+          </label>
           <textarea
+            id="chat-input"
             ref={textareaRef}
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && !e.shiftKey) {
-                e.preventDefault();
-                if (input.trim() && !isLoading) {
-                  onSubmit(e as unknown as FormEvent<HTMLFormElement>);
-                }
-              }
-            }}
+            onKeyDown={handleKeyDown}
             placeholder="Pregunta sobre el Estatuto Tributario..."
             rows={1}
-            className="w-full resize-none rounded-xl border border-border bg-muted px-4 py-3 pr-12 text-sm outline-none transition-colors focus:border-primary"
+            className="w-full resize-none rounded-xl border border-border bg-muted px-4 py-3 pr-12 text-sm outline-none transition-colors focus:border-primary focus-visible:ring-2 focus-visible:ring-primary"
             disabled={isLoading}
           />
         </div>
         <button
           type="submit"
           disabled={!input.trim() || isLoading}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground transition-opacity disabled:opacity-50"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground transition-opacity disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+          aria-label="Enviar mensaje"
         >
           <Send className="h-4 w-4" />
         </button>

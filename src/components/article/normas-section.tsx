@@ -30,13 +30,21 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
     <section className="mb-6">
       <h2 className="mb-3 text-lg font-semibold">Normas relacionadas</h2>
       {/* Tabs */}
-      <div className="mb-3 flex gap-1 overflow-x-auto border-b border-border">
+      <div
+        className="mb-3 flex gap-1 overflow-x-auto border-b border-border"
+        role="tablist"
+        aria-label="Categorías de normas"
+      >
         {nonEmptyTabs.map((tab) => (
           <button
             key={tab.key}
+            role="tab"
+            id={`tab-${tab.key}`}
+            aria-selected={activeTab === tab.key}
+            aria-controls={`panel-${tab.key}`}
             onClick={() => setActiveTab(tab.key)}
             className={clsx(
-              "whitespace-nowrap px-3 py-2 text-sm font-medium transition-colors",
+              "whitespace-nowrap px-3 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
               activeTab === tab.key
                 ? "border-b-2 border-primary text-primary"
                 : "text-muted-foreground hover:text-foreground"
@@ -50,7 +58,12 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
         ))}
       </div>
       {/* Content */}
-      <div className="space-y-1.5">
+      <div
+        role="tabpanel"
+        id={`panel-${activeTab}`}
+        aria-labelledby={`tab-${activeTab}`}
+        className="space-y-1.5"
+      >
         {items.map((item, i) => (
           <div
             key={i}
