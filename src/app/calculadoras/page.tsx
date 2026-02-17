@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { ArrowLeftRight, Receipt, Landmark, AlertTriangle, Banknote, ShoppingCart } from "lucide-react";
+import { ArrowLeftRight, Receipt, Landmark, AlertTriangle, Banknote, ShoppingCart, Users } from "lucide-react";
 import { CalculatorCard } from "@/components/calculators/calculator-card";
 
 export const metadata: Metadata = {
   title: "Calculadoras Tributarias | Estatuto Tributario",
   description:
-    "Calculadoras tributarias colombianas: conversor UVT, retencion en la fuente, renta personas naturales, sanciones, GMF 4x1000 e IVA.",
+    "Calculadoras tributarias colombianas: conversor UVT, retencion en la fuente, renta personas naturales, sanciones, GMF 4x1000, IVA y comparador de contratacion.",
   openGraph: {
     title: "Calculadoras Tributarias Colombianas",
     description: "Herramientas de calculo tributario integradas con el Estatuto Tributario de Colombia.",
@@ -57,6 +57,13 @@ const CALCULATORS = [
     description: "Calcula y extrae IVA del 19% y 5%. Referencia rapida exento vs excluido.",
     icon: ShoppingCart,
     articles: ["468", "477", "424"],
+  },
+  {
+    href: "/calculadoras/comparador",
+    title: "Comparador de Contratacion",
+    description: "Compara Laboral, Salario Integral y Prestacion de Servicios. Costo empresa, neto trabajador y retencion.",
+    icon: Users,
+    articles: ["383", "241", "905"],
   },
 ];
 
