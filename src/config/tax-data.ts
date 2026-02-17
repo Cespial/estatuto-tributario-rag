@@ -121,3 +121,30 @@ export const SIMPLE_BRACKETS = [
   { from: 15_000, to: 30_000,  rates: [0.054, 0.039, 0.120, 0.039, 0.042] },
   { from: 30_000, to: 100_000, rates: [0.067, 0.052, 0.145, 0.052, 0.052] },
 ];
+
+// ── Seguridad Social 2026 ──
+
+/** ARL clases de riesgo — Decreto 1295/1994 Art. 26 */
+export const ARL_CLASSES = [
+  { clase: "I",   rate: 0.00522, description: "Riesgo minimo (oficinas, administrativo)" },
+  { clase: "II",  rate: 0.01044, description: "Riesgo bajo (manufactura liviana)" },
+  { clase: "III", rate: 0.02436, description: "Riesgo medio (transporte, electromecanica)" },
+  { clase: "IV",  rate: 0.04350, description: "Riesgo alto (mineria, metalurgia)" },
+  { clase: "V",   rate: 0.06960, description: "Riesgo maximo (asbesto, bomberos, explosivos)" },
+] as const;
+
+/** Fondo de Solidaridad Pensional — Ley 797/2003 Art. 8 (reforma 2024 SUSPENDIDA) */
+export const FSP_BRACKETS = [
+  { fromSMLMV: 4,  toSMLMV: 16, rate: 0.010, detail: "0.5% solidaridad + 0.5% subsistencia" },
+  { fromSMLMV: 16, toSMLMV: 17, rate: 0.012, detail: "0.5% solidaridad + 0.7% subsistencia" },
+  { fromSMLMV: 17, toSMLMV: 18, rate: 0.014, detail: "0.5% solidaridad + 0.9% subsistencia" },
+  { fromSMLMV: 18, toSMLMV: 19, rate: 0.016, detail: "0.5% solidaridad + 1.1% subsistencia" },
+  { fromSMLMV: 19, toSMLMV: 20, rate: 0.018, detail: "0.5% solidaridad + 1.3% subsistencia" },
+  { fromSMLMV: 20, toSMLMV: Infinity, rate: 0.020, detail: "0.5% solidaridad + 1.5% subsistencia" },
+] as const;
+
+export const IBC_MIN_SMLMV = 1;
+export const IBC_MAX_SMLMV = 25;
+export const SS_PENSION_TOTAL_RATE = 0.16;
+export const SS_SALUD_TOTAL_RATE = 0.125;
+export const EXONERATION_THRESHOLD_SMLMV = 10;

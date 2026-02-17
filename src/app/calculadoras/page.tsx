@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { ArrowLeftRight, Receipt, Landmark, AlertTriangle, Banknote, ShoppingCart, Users } from "lucide-react";
+import { ArrowLeftRight, Receipt, Landmark, AlertTriangle, Banknote, ShoppingCart, Users, Shield } from "lucide-react";
 import { CalculatorCard } from "@/components/calculators/calculator-card";
 
 export const metadata: Metadata = {
   title: "Calculadoras Tributarias | Estatuto Tributario",
   description:
-    "Calculadoras tributarias colombianas: conversor UVT, retencion en la fuente, renta personas naturales, sanciones, GMF 4x1000, IVA y comparador de contratacion.",
+    "Calculadoras tributarias colombianas: conversor UVT, retencion en la fuente, renta personas naturales, sanciones, GMF 4x1000, IVA, comparador de contratacion y aportes a seguridad social.",
   openGraph: {
     title: "Calculadoras Tributarias Colombianas",
     description: "Herramientas de calculo tributario integradas con el Estatuto Tributario de Colombia.",
@@ -64,6 +64,13 @@ const CALCULATORS = [
     description: "Compara Laboral, Salario Integral y Prestacion de Servicios. Costo empresa, neto trabajador y retencion.",
     icon: Users,
     articles: ["383", "241", "905"],
+  },
+  {
+    href: "/calculadoras/seguridad-social",
+    title: "Aportes a Seguridad Social",
+    description: "Calcula aportes a salud, pension, ARL y parafiscales para dependientes, independientes y salario integral.",
+    icon: Shield,
+    articles: ["204"],
   },
 ];
 
