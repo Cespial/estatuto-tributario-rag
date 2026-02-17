@@ -92,8 +92,7 @@ async function runSingleQuestion(
   const contextString = buildContextString(context);
   const citationAcc = citationAccuracy(
     contextString,
-    question.expected_articles,
-    context.sources
+    question.expected_articles
   );
   const sourcePresenceScore = sourcePresence(
     context.sources,

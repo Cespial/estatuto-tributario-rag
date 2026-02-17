@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 import { AlertCircle, RefreshCw } from "lucide-react";
 
 interface ErrorProps {
@@ -28,12 +29,12 @@ export default function ErrorBoundary({ error, reset }: ErrorProps) {
           <RefreshCw className="h-4 w-4" />
           Reintentar
         </button>
-        <a
+        <Link
           href="/"
           className="rounded-lg border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
         >
           Volver al inicio
-        </a>
+        </Link>
       </div>
     </div>
   );

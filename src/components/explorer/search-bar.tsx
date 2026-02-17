@@ -18,6 +18,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
   }, [local, onChange]);
 
   // Sync external changes
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setLocal(value), [value]);
 
   return (

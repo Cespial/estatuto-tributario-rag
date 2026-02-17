@@ -2,8 +2,7 @@ import { SourceCitation } from "@/types/rag";
 
 export function citationAccuracy(
   answer: string,
-  expectedArticles: string[],
-  sources: SourceCitation[]
+  expectedArticles: string[]
 ): number {
   // Check how many expected articles are cited in the answer
   let cited = 0;

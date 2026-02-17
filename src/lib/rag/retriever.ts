@@ -1,5 +1,5 @@
 import { getIndex } from "@/lib/pinecone/client";
-import { embedQuery, embedQueries } from "@/lib/pinecone/embedder";
+import { embedQueries } from "@/lib/pinecone/embedder";
 import { EnhancedQuery, RetrievalResult } from "@/types/rag";
 import { ScoredChunk, ChunkMetadata } from "@/types/pinecone";
 import { RAG_CONFIG } from "@/config/constants";

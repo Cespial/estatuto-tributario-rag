@@ -43,9 +43,9 @@ export function SlideOutPanel() {
   const panelRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const cacheRef = useRef<Map<string, ArticleData>>(new Map());
-
   useEffect(() => {
     if (!slug) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setArticle(null);
       return;
     }

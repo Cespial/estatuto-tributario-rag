@@ -118,6 +118,7 @@ function ExploradorContent() {
   }, []);
 
   // Reset page on filter/search change
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setPage(0), [search, filters]);
 
   // Filter articles

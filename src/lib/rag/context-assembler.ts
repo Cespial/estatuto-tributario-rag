@@ -1,7 +1,7 @@
 import { getIndex } from "@/lib/pinecone/client";
 import { RerankedChunk, ArticleGroup, AssembledContext, SourceCitation } from "@/types/rag";
 import { ChunkMetadata } from "@/types/pinecone";
-import { buildArticleUrl, estimateTokens } from "@/lib/utils/article-parser";
+import { estimateTokens } from "@/lib/utils/article-parser";
 import { RAG_CONFIG } from "@/config/constants";
 
 export async function assembleContext(
