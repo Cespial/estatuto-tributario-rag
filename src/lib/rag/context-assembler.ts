@@ -32,13 +32,16 @@ export async function assembleContext(
   // Apply token budget
   const { articles, totalTokens } = applyTokenBudget(groups, maxTokens);
 
-  // Build source citations
+  // Build source citations with enriched fields
   const sources: SourceCitation[] = articles.map((g) => ({
     idArticulo: g.idArticulo,
     titulo: g.titulo,
     url: g.urlOrigen,
     categoriaLibro: g.categoriaLibro,
     relevanceScore: g.maxScore,
+    estado: g.estado,
+    totalModificaciones: g.totalModificaciones,
+    slug: g.slug,
   }));
 
   return {
@@ -142,6 +145,10 @@ function groupByArticle(chunks: RerankedChunk[]): ArticleGroup[] {
         modificaciones: [],
         textoAnterior: [],
         maxScore: 0,
+        // Enriched fields from v2 metadata
+        estado: chunk.metadata.estado,
+        totalModificaciones: chunk.metadata.total_modificaciones,
+        slug: chunk.metadata.slug,
       };
       groups.set(artId, group);
     }
@@ -193,6 +200,9 @@ export function formatArticleForContext(group: ArticleGroup): string {
   parts.push(`## ${group.titulo}`);
   parts.push(`Categoría: ${group.categoriaLibro} > ${group.categoriaTitulo}`);
   parts.push(`URL: ${group.urlOrigen}`);
+  if (group.estado) {
+    parts.push(`Estado: ${group.estado}`);
+  }
   parts.push("");
 
   if (group.contenido.length > 0) {

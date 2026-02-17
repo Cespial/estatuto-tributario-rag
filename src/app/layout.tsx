@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import { ArticlePanelProvider } from "@/contexts/article-panel-context";
+import { SlideOutPanel } from "@/components/article/slide-out-panel";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,7 +32,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
+          <ArticlePanelProvider>
+            {children}
+            <SlideOutPanel />
+          </ArticlePanelProvider>
         </ThemeProvider>
       </body>
     </html>

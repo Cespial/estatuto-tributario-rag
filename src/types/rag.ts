@@ -28,6 +28,10 @@ export interface ArticleGroup {
   modificaciones: string[];
   textoAnterior: string[];
   maxScore: number;
+  // Enriched fields
+  estado?: "vigente" | "modificado" | "derogado";
+  totalModificaciones?: number;
+  slug?: string;
 }
 
 export interface AssembledContext {
@@ -42,6 +46,10 @@ export interface SourceCitation {
   url: string;
   categoriaLibro: string;
   relevanceScore: number;
+  // Enriched fields
+  estado?: "vigente" | "modificado" | "derogado";
+  totalModificaciones?: number;
+  slug?: string;
 }
 
 export interface RAGConfig {

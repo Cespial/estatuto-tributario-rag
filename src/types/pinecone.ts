@@ -10,6 +10,17 @@ export interface ChunkMetadata {
   has_derogated_text: boolean;
   url_origen: string;
   text: string;
+  // Enriched fields (v2)
+  estado?: "vigente" | "modificado" | "derogado";
+  total_modificaciones?: number;
+  ultima_modificacion_year?: number;
+  leyes_modificatorias?: string[];
+  cross_ref_articles?: string[];
+  has_concordancias?: boolean;
+  has_normas_jurisprudencia?: boolean;
+  has_doctrina_dian?: boolean;
+  complexity_score?: number;
+  slug?: string;
 }
 
 export interface ScoredChunk {

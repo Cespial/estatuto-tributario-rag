@@ -32,7 +32,7 @@ export async function POST(req: Request) {
   }
 
   // Run RAG pipeline
-  const { system, contextBlock, sources } = await runRAGPipeline(userQuery, {
+  const { system, contextBlock, sources, debugInfo } = await runRAGPipeline(userQuery, {
     libroFilter,
   });
 
@@ -47,7 +47,14 @@ export async function POST(req: Request) {
   return result.toUIMessageStreamResponse({
     messageMetadata: ({ part }) => {
       if (part.type === "finish") {
-        return { sources };
+        return {
+          sources,
+          ragMetadata: {
+            chunksRetrieved: debugInfo?.chunksRetrieved,
+            tokensUsed: debugInfo?.tokensUsed,
+            queryEnhanced: debugInfo?.queryEnhanced,
+          },
+        };
       }
       return undefined;
     },

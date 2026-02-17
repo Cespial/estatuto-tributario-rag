@@ -36,6 +36,8 @@ export function MessageList({ messages, sources, isLoading }: MessageListProps) 
                     titulo={source.titulo}
                     url={source.url}
                     categoriaLibro={source.categoriaLibro}
+                    estado={source.estado}
+                    slug={source.slug}
                   />
                 ))}
               </div>

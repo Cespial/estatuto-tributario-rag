@@ -124,3 +124,38 @@ body {
   background: var(--muted);
   font-weight: 600;
 }
+
+/* Article content HTML styles */
+.prose-chat span,
+.prose-chat div {
+  line-height: 1.6;
+}
+
+.prose-chat .ct-span {
+  display: block;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Recharts responsive container fix */
+.recharts-responsive-container {
+  min-height: 0;
+}
+
+/* Force graph canvas styles */
+.force-graph-container canvas {
+  border-radius: 0.5rem;
+}

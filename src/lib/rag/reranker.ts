@@ -10,6 +10,10 @@ export function heuristicRerank(
   const queryLower = query.original.toLowerCase();
   const isHistoryQuery = /histor|anteri|derogad|cambio|modificac/i.test(queryLower);
 
+  // Detect if query mentions a specific law
+  const leyMatch = queryLower.match(/ley\s+(\d+)/);
+  const queryLey = leyMatch ? leyMatch[1] : null;
+
   const reranked: RerankedChunk[] = chunks.map((chunk) => {
     let boost = 0;
     const meta = chunk.metadata;
@@ -43,6 +47,29 @@ export function heuristicRerank(
     // Boost derogated content for history queries
     if (isHistoryQuery && meta.chunk_type === "texto_anterior") {
       boost += 0.20;
+    }
+
+    // --- v2 enriched boosts ---
+
+    // Boost vigente articles for non-history queries
+    if (!isHistoryQuery && meta.estado === "vigente") {
+      boost += 0.05;
+    }
+
+    // Boost when query mentions a specific ley and article was modified by it
+    if (queryLey && meta.leyes_modificatorias) {
+      const hasLey = meta.leyes_modificatorias.some(
+        (l) => l.includes(`Ley ${queryLey}`)
+      );
+      if (hasLey) {
+        boost += 0.15;
+      }
+    }
+
+    // Minor complexity factor: slightly prefer more complex articles
+    // as they tend to be more substantive
+    if (meta.complexity_score && meta.complexity_score >= 5) {
+      boost += 0.02;
     }
 
     return {

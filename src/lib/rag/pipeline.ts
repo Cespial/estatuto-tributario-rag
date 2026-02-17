@@ -14,11 +14,18 @@ export interface PipelineOptions {
   useSiblingRetrieval?: boolean;
 }
 
+export interface DebugInfo {
+  chunksRetrieved: number;
+  tokensUsed: number;
+  queryEnhanced: boolean;
+}
+
 export interface PipelineResult {
   system: string;
   contextBlock: string;
   sources: SourceCitation[];
   context: AssembledContext;
+  debugInfo: DebugInfo;
 }
 
 export async function runRAGPipeline(
@@ -52,5 +59,10 @@ export async function runRAGPipeline(
     contextBlock,
     sources: context.sources,
     context,
+    debugInfo: {
+      chunksRetrieved: retrievalResult.chunks.length,
+      tokensUsed: context.totalTokensEstimate,
+      queryEnhanced: enhancedQuery.rewritten !== query,
+    },
   };
 }
