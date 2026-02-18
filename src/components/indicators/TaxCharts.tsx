@@ -68,7 +68,7 @@ export function UvtHistoryChart() {
                 borderRadius: "8px",
                 fontSize: "12px"
               }}
-              formatter={(value: string | number) => [formatCurrency(Number(value)), "Valor UVT"]}
+              formatter={(value: string | number | undefined) => [formatCurrency(Number(value ?? 0)), "Valor UVT"]}
             />
             <Area 
               type="monotone" 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Search, BookOpen, ExternalLink, Hash, ChevronRight } from "lucide-react";
 import { GLOSARIO } from "@/config/glosario-data";
@@ -12,19 +12,16 @@ export default function GlosarioPage() {
 
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  const filteredGlosario = useMemo(() => {
-    const filtered = search
-      ? GLOSARIO.filter((term) => {
-          const lowerSearch = search.toLowerCase();
-          return term.termino.toLowerCase().includes(lowerSearch) ||
-            term.definicion.toLowerCase().includes(lowerSearch) ||
-            term.relacionados?.some(r => r.toLowerCase().includes(lowerSearch));
-        })
-      : GLOSARIO;
-    return [...filtered].sort((a, b) => a.termino.localeCompare(b.termino));
-  }, [search]);
+  const filteredGlosario = search
+    ? [...GLOSARIO.filter((term) => {
+        const lowerSearch = search.toLowerCase();
+        return term.termino.toLowerCase().includes(lowerSearch) ||
+          term.definicion.toLowerCase().includes(lowerSearch) ||
+          term.relacionados?.some(r => r.toLowerCase().includes(lowerSearch));
+      })].sort((a, b) => a.termino.localeCompare(b.termino))
+    : [...GLOSARIO].sort((a, b) => a.termino.localeCompare(b.termino));
 
-  const groupedGlosario = useMemo(() => {
+  const groupedGlosario = (() => {
     const groups: Record<string, typeof GLOSARIO> = {};
     filteredGlosario.forEach((term) => {
       const firstLetter = term.termino[0].toUpperCase();
@@ -32,7 +29,7 @@ export default function GlosarioPage() {
       groups[firstLetter].push(term);
     });
     return groups;
-  }, [filteredGlosario]);
+  })();
 
   const scrollToLetter = (letter: string) => {
     const element = document.getElementById(`letter-${letter}`);
