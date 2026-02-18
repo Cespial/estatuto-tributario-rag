@@ -12,6 +12,7 @@ export interface PipelineOptions {
   useLLMRerank?: boolean;
   useQueryExpansion?: boolean;
   useSiblingRetrieval?: boolean;
+  conversationHistory?: string;
 }
 
 export interface DebugInfo {
@@ -74,7 +75,7 @@ export async function runRAGPipeline(
   }
 
   // 5. Build prompt
-  const { system, contextBlock } = buildMessages(query, context);
+  const { system, contextBlock } = buildMessages(query, context, options.conversationHistory);
 
   return {
     system,

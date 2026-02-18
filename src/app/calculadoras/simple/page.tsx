@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { CurrencyInput, SelectInput, NumberInput } from "@/components/calculators/shared-inputs";
+import { CurrencyInput, SelectInput, NumberInput, ToggleInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
 import { CalculatorSources } from "@/components/calculators/calculator-sources";
 import { UVT_VALUES, CURRENT_UVT_YEAR, SIMPLE_GROUPS, SIMPLE_BRACKETS, RENTA_BRACKETS } from "@/config/tax-data";
@@ -20,6 +20,10 @@ export default function SimplePage() {
   const [ingresos, setIngresos] = useState(0);
   const [grupoId, setGrupoId] = useState("1");
   const [tarifaICA, setTarifaICA] = useState(0);
+  const [usaCostosReales, setUsaCostosReales] = useState(false);
+  const [margenUtilidad, setMargenUtilidad] = useState(30);
+  const [costosDeducciones, setCostosDeducciones] = useState(0);
+  const [rentasExentas, setRentasExentas] = useState(0);
 
   const uvt = UVT_VALUES[CURRENT_UVT_YEAR];
 
@@ -57,15 +61,18 @@ export default function SimplePage() {
     const tasaEfectiva = (impuestoCOP / ingresos) * 100;
 
     // Estimacion Renta Ordinaria (Simplificada para comparacion)
-    // Se asume PN Cedula General con utilidad del 30%
-    const utilidadEstimada = ingresos * 0.3;
-    const utilidadUVT = utilidadEstimada / uvt;
+    const utilidadEstimada = usaCostosReales
+      ? Math.max(0, ingresos - costosDeducciones)
+      : ingresos * (margenUtilidad / 100);
+    const baseDepurada = Math.max(0, utilidadEstimada - rentasExentas);
+    const utilidadUVT = baseDepurada / uvt;
+    
     let rentaOrdinariaUVT = 0;
-    for (let i = 0; i < RENTA_BRACKETS.length; i++) {
+    for (let i = RENTA_BRACKETS.length - 1; i >= 0; i--) {
       const b = RENTA_BRACKETS[i];
       if (utilidadUVT > b.from) {
-        const base = Math.min(utilidadUVT, b.to) - b.from;
-        rentaOrdinariaUVT += base * b.rate;
+        rentaOrdinariaUVT = (utilidadUVT - b.from) * b.rate + b.base;
+        break;
       }
     }
     const rentaOrdinariaCOP = rentaOrdinariaUVT * uvt;
@@ -80,7 +87,7 @@ export default function SimplePage() {
       rentaOrdinariaCOP,
       ahorro: rentaOrdinariaCOP - impuestoCOP
     };
-  }, [ingresos, grupoId, tarifaICA, uvt]);
+  }, [ingresos, grupoId, tarifaICA, uvt, usaCostosReales, margenUtilidad, costosDeducciones, rentasExentas]);
 
   return (
     <div className="container max-w-4xl py-10">
@@ -121,6 +128,41 @@ export default function SimplePage() {
             onChange={setTarifaICA}
             placeholder="Ej: 7.7"
           />
+
+          <div className="space-y-4 rounded-lg border border-border p-4">
+            <h3 className="text-sm font-semibold text-muted-foreground">Parámetros comparación Ordinario</h3>
+            <ToggleInput
+              label={usaCostosReales ? "Usando costos reales" : "Usando margen estimado %"}
+              pressed={usaCostosReales}
+              onToggle={setUsaCostosReales}
+            />
+            {usaCostosReales ? (
+              <CurrencyInput
+                id="costos-deducciones"
+                label="Costos y deducciones reales"
+                value={costosDeducciones}
+                onChange={setCostosDeducciones}
+                placeholder="Ej: 60.000.000"
+              />
+            ) : (
+              <NumberInput
+                id="margen-utilidad"
+                label="Margen de utilidad estimado (%)"
+                value={margenUtilidad}
+                onChange={setMargenUtilidad}
+                min={1}
+                max={100}
+                placeholder="30"
+              />
+            )}
+            <CurrencyInput
+              id="rentas-exentas"
+              label="Rentas exentas (Art. 206 ET)"
+              value={rentasExentas}
+              onChange={setRentasExentas}
+              placeholder="Ej: 10.000.000"
+            />
+          </div>
 
           {calculo?.superaTope && (
             <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800 dark:border-yellow-900/50 dark:bg-yellow-950/30 dark:text-yellow-400">
@@ -163,6 +205,14 @@ export default function SimplePage() {
                     <span>{formatCOP(Math.abs(calculo.ahorro))}</span>
                   </div>
                 </div>
+              </div>
+
+              <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-3 text-xs text-yellow-800 dark:border-yellow-900/50 dark:bg-yellow-950/30 dark:text-yellow-400">
+                La comparación con régimen ordinario es estimada. Use el{" "}
+                <Link href="/calculadoras/comparador-regimenes" className="font-semibold underline hover:text-yellow-900 dark:hover:text-yellow-300">
+                  Comparador de Regímenes
+                </Link>{" "}
+                para un análisis detallado.
               </div>
 
               <div className="rounded-lg border p-4">

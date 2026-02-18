@@ -4,6 +4,8 @@ import { runRAGPipeline } from "@/lib/rag/pipeline";
 import { LIBROS } from "@/config/categories";
 import { ChatRequestSchema, validateMessageLength } from "@/lib/api/validation";
 import { checkRateLimit } from "@/lib/api/rate-limiter";
+import { buildConversationContext } from "@/lib/chat/session-memory";
+import { suggestCalculators } from "@/lib/chat/calculator-context";
 
 export const maxDuration = 60;
 
@@ -11,9 +13,9 @@ const CHAT_MODEL = process.env.CHAT_MODEL || "claude-sonnet-4-5-20250929";
 
 function getTextFromMessage(message: UIMessage): string {
   return message.parts
-    .filter((p): p is { type: "text"; text: string } => p.type === "text")
-    .map((p) => p.text)
-    .join("");
+    ?.filter((p) => p.type === "text")
+    .map((p) => (p as { type: "text"; text: string }).text)
+    .join("") || "";
 }
 
 function getClientIP(req: Request): string {
@@ -89,10 +91,17 @@ export async function POST(req: Request) {
     if (libro) libroFilter = libro.filter;
   }
 
+  // Session Memory
+  const conversationHistory = buildConversationContext(messages as Array<Record<string, unknown>>);
+
   // Run RAG pipeline
   const { system, contextBlock, sources, debugInfo } = await runRAGPipeline(userQuery, {
     libroFilter,
+    conversationHistory,
   });
+
+  // Suggest Calculators
+  const suggestedCalculators = suggestCalculators(userQuery);
 
   const result = streamText({
     model: anthropic(CHAT_MODEL),
@@ -107,6 +116,7 @@ export async function POST(req: Request) {
       if (part.type === "finish") {
         return {
           sources,
+          suggestedCalculators,
           ragMetadata: {
             chunksRetrieved: debugInfo?.chunksRetrieved,
             tokensUsed: debugInfo?.tokensUsed,

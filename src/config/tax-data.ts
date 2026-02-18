@@ -94,7 +94,7 @@ export const EMPLOYER_RATES = {
   cesantias: 0.0833, intCesantias: 0.01, prima: 0.0833, vacaciones: 0.0417,
 };
 
-export const EMPLOYEE_RATES = { salud: 0.04, pension: 0.05 };
+export const EMPLOYEE_RATES = { salud: 0.04, pension: 0.04 };
 
 export const INDEPENDENT_RATES = {
   baseSS: 0.40, salud: 0.125, pension: 0.17, arl: 0.00522,

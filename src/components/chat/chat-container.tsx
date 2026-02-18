@@ -8,6 +8,8 @@ import { MessageList } from "./message-list";
 import { ChatInput } from "./chat-input";
 import { SuggestedQuestions } from "./suggested-questions";
 import { FilterChips } from "./filter-chips";
+import { CalculatorSuggestions } from "./calculator-suggestions";
+import { suggestCalculators } from "@/lib/chat/calculator-context";
 import type { SourceCitation } from "@/types/rag";
 
 export function ChatContainer() {
@@ -51,6 +53,16 @@ export function ChatContainer() {
   const sources: SourceCitation[] =
     (lastAssistant?.metadata as { sources?: SourceCitation[] } | undefined)?.sources ?? [];
 
+  // Find last user message to generate calculator suggestions
+  const lastUserMessage = [...messages].reverse().find((m) => m.role === "user");
+  const userText = lastUserMessage
+    ? lastUserMessage.parts
+        ?.filter((p) => p.type === "text")
+        .map((p) => (p as { type: "text"; text: string }).text)
+        .join("") || ""
+    : "";
+  const suggestions = userText ? suggestCalculators(userText) : [];
+
   const isEmpty = messages.length === 0;
 
   return (
@@ -88,6 +100,10 @@ export function ChatContainer() {
           sources={sources}
           isLoading={isLoading}
         />
+      )}
+
+      {messages.length > 0 && suggestions.length > 0 && (
+        <CalculatorSuggestions suggestions={suggestions} />
       )}
 
       <ChatInput

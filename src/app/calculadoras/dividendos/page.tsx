@@ -16,11 +16,11 @@ function formatCOP(n: number): string {
   return "$" + Math.round(n).toLocaleString("es-CO");
 }
 
-function calculateTax(uvtValue: number, uvtRate: number): number {
-  for (const bracket of RENTA_BRACKETS) {
-    if (uvtValue > bracket.from) {
-      const base = Math.min(uvtValue, bracket.to) - bracket.from;
-      return (base * bracket.rate + bracket.base) * uvtRate;
+function calculateTax(rentaUVT: number): number {
+  for (let i = RENTA_BRACKETS.length - 1; i >= 0; i--) {
+    const b = RENTA_BRACKETS[i];
+    if (rentaUVT > b.from) {
+      return (rentaUVT - b.from) * b.rate + b.base;
     }
   }
   return 0;
@@ -52,7 +52,7 @@ export default function DividendosPage() {
       const baseTotalCOP = otrosIngresos + porcionGravada + remanenteB;
       const baseTotalUVT = baseTotalCOP / uvt;
       
-      const impuestoBrutoTotal = calculateTax(baseTotalUVT, uvt);
+      const impuestoBrutoTotal = calculateTax(baseTotalUVT) * uvt;
       // 3. Descuento Tributario (Art. 254-1)
       // 19% sobre dividendos que excedan 1090 UVT
       const dividendosSujetosDescuento = Math.max(0, (porcionGravada + remanenteB) - (1090 * uvt));

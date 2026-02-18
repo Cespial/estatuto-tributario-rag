@@ -13,6 +13,11 @@ import {
   Table,
   Activity,
   Book,
+  Newspaper,
+  FileText,
+  GraduationCap,
+  Bookmark,
+  History,
 } from "lucide-react";
 
 import { useSyncExternalStore } from "react";
@@ -24,11 +29,16 @@ const NAV_ITEMS = [
   { href: "/", label: "Chat", icon: MessageSquare },
   { href: "/dashboard", label: "Dashboard", icon: BarChart3 },
   { href: "/explorador", label: "Explorador", icon: Search },
+  { href: "/comparar", label: "Comparar", icon: History },
   { href: "/calculadoras", label: "Calculadoras", icon: Calculator },
   { href: "/calendario", label: "Calendario", icon: Calendar },
   { href: "/tablas/retencion", label: "Tablas", icon: Table },
   { href: "/indicadores", label: "Indicadores", icon: Activity },
   { href: "/glosario", label: "Glosario", icon: Book },
+  { href: "/novedades", label: "Novedades", icon: Newspaper },
+  { href: "/doctrina", label: "Doctrina", icon: FileText },
+  { href: "/guias", label: "Guías", icon: GraduationCap },
+  { href: "/favoritos", label: "Favoritos", icon: Bookmark },
 ];
 
 export function Header() {
@@ -43,15 +53,20 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <div className="flex items-center gap-4">
-          <Link href="/" className="flex items-center gap-2">
+        <div className="flex flex-1 items-center gap-4 overflow-hidden">
+          <Link href="/" className="flex shrink-0 items-center gap-2">
             <Scale className="h-5 w-5 text-primary" />
-            <h1 className="text-lg font-semibold">SuperApp Tributaria</h1>
-            <span className="hidden text-sm text-muted-foreground sm:inline">
-              Colombia
-            </span>
+            <h1 className="text-lg font-semibold whitespace-nowrap">SuperApp Tributaria</h1>
           </Link>
-          <nav className="ml-4 hidden items-center gap-1 sm:flex">
+          
+          <nav 
+            className="flex flex-1 items-center gap-1 overflow-x-auto px-2 scrollbar-none mask-fade-right" 
+            style={{ 
+              msOverflowStyle: 'none', 
+              scrollbarWidth: 'none',
+              WebkitMaskImage: 'linear-gradient(to right, black 85%, transparent 100%)'
+            }}
+          >
             {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
               const isActive =
                 href === "/"
@@ -62,45 +77,21 @@ export function Header() {
                   key={href}
                   href={href}
                   className={clsx(
-                    "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+                    "flex items-center gap-1.5 shrink-0 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
                     isActive
                       ? "bg-primary/10 text-primary"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   )}
                 >
                   <Icon className="h-4 w-4" />
-                  {label}
+                  <span className={clsx(isActive ? "block" : "hidden lg:block")}>{label}</span>
                 </Link>
               );
             })}
           </nav>
         </div>
-        <div className="flex items-center gap-2">
-          {/* Mobile nav */}
-          <nav className="flex items-center gap-1 sm:hidden" aria-label="Navegación principal">
-            {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
-              const isActive =
-                href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(href);
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  aria-label={label}
-                  title={label}
-                  className={clsx(
-                    "rounded-md p-2 transition-colors",
-                    isActive
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:bg-muted"
-                  )}
-                >
-                  <Icon className="h-4 w-4" />
-                </Link>
-              );
-            })}
-          </nav>
+
+        <div className="flex items-center gap-2 ml-4">
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
