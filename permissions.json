@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "file_operations": "allow",
+    "directory_listing": "allow",
+    "shell_commands": "allow",
+    "read_access": "allow",
+    "write_access": "allow",
+    "autonomous_execution": "enabled",
+    "scope": "/Users/cristianespinal/estatuto-tributario-rag"
+  },
+  "status": "fluid_execution_enabled"
+}

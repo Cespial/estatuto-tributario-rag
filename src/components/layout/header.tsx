@@ -1,7 +1,20 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Moon, Sun, Scale, MessageSquare, BarChart3, Search, Calculator } from "lucide-react";
+import {
+  Moon,
+  Sun,
+  Scale,
+  MessageSquare,
+  BarChart3,
+  Search,
+  Calculator,
+  Calendar,
+  Table,
+  Activity,
+  Book,
+} from "lucide-react";
+
 import { useSyncExternalStore } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,6 +25,10 @@ const NAV_ITEMS = [
   { href: "/dashboard", label: "Dashboard", icon: BarChart3 },
   { href: "/explorador", label: "Explorador", icon: Search },
   { href: "/calculadoras", label: "Calculadoras", icon: Calculator },
+  { href: "/calendario", label: "Calendario", icon: Calendar },
+  { href: "/tablas/retencion", label: "Tablas", icon: Table },
+  { href: "/indicadores", label: "Indicadores", icon: Activity },
+  { href: "/glosario", label: "Glosario", icon: Book },
 ];
 
 export function Header() {
