@@ -46,7 +46,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-2">
             <Scale className="h-5 w-5 text-primary" />
-            <h1 className="text-lg font-semibold">Estatuto Tributario</h1>
+            <h1 className="text-lg font-semibold">SuperApp Tributaria</h1>
             <span className="hidden text-sm text-muted-foreground sm:inline">
               Colombia
             </span>

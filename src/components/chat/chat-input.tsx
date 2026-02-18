@@ -44,7 +44,7 @@ export function ChatInput({
       <div className="mx-auto flex max-w-4xl items-end gap-2">
         <div className="relative flex-1">
           <label htmlFor="chat-input" className="sr-only">
-            Pregunta sobre el Estatuto Tributario
+            Pregunta sobre tributaria colombiana
           </label>
           <textarea
             id="chat-input"

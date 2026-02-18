@@ -51,7 +51,7 @@ async function getDashboardStats(): Promise<DashboardStats | null> {
 }
 
 export const metadata = {
-  title: "Dashboard Analítico | Estatuto Tributario",
+  title: "Dashboard Analítico | SuperApp Tributaria Colombia",
   description: "Analítica del Estatuto Tributario de Colombia",
 };
 

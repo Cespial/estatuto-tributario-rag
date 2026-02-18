@@ -71,7 +71,7 @@ export function ChatContainer() {
               </div>
             </div>
             <h2 className="mb-2 text-2xl font-bold">
-              Estatuto Tributario de Colombia
+              SuperApp Tributaria Colombia
             </h2>
             <p className="flex items-center justify-center gap-1.5 text-muted-foreground">
               <BookOpen className="h-4 w-4" />

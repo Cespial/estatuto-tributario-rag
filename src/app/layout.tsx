@@ -16,16 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Estatuto Tributario de Colombia - Consulta con IA",
+  title: "SuperApp Tributaria Colombia",
   description:
-    "Consulta inteligente de los 1,294 artículos del Estatuto Tributario colombiano con IA. Busca artículos, analiza modificaciones y explora relaciones entre normas.",
+    "La super app tributaria de Colombia: 26 calculadoras, consulta inteligente con IA de los 1,294 artículos del Estatuto Tributario, calendario, indicadores, glosario y más.",
   openGraph: {
-    title: "Estatuto Tributario de Colombia",
+    title: "SuperApp Tributaria Colombia",
     description:
-      "Consulta inteligente de los 1,294 artículos del Estatuto Tributario con IA",
+      "26 calculadoras tributarias, consulta con IA del Estatuto Tributario, calendario fiscal, indicadores y glosario.",
     type: "website",
     locale: "es_CO",
-    siteName: "Estatuto Tributario IA",
+    siteName: "SuperApp Tributaria Colombia",
   },
   twitter: {
     card: "summary_large_image",

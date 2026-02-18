@@ -3,7 +3,7 @@ import { readFile } from "fs/promises";
 import { join } from "path";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://estatuto-tributario-rag.vercel.app";
+  const baseUrl = "https://superapp-tributaria-colombia.vercel.app";
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [

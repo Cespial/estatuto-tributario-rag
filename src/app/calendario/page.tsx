@@ -154,7 +154,7 @@ export default function CalendarioPage() {
                           <AddToCalendarButton 
                             title={`${item.obligacion} (NIT ${item.ultimoDigito})`}
                             date={item.fecha}
-                            description={`Vencimiento ${item.obligacion} - Periodo ${item.periodo}. Fuente: Estatuto Tributario RAG.`}
+                            description={`Vencimiento ${item.obligacion} - Periodo ${item.periodo}. Fuente: SuperApp Tributaria Colombia.`}
                           />
                         )}
                       </td>

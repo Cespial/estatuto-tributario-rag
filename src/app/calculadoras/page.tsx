@@ -30,15 +30,15 @@ import {
 import { CalculatorCard } from "@/components/calculators/calculator-card";
 
 export const metadata: Metadata = {
-  title: "Calculadoras Tributarias | Estatuto Tributario",
+  title: "Calculadoras Tributarias | SuperApp Tributaria Colombia",
   description:
     "Herramientas tributarias integrales: UVT, retencion, renta, sanciones, GMF, IVA, contratacion, seguridad social, ganancias ocasionales, herencias, dividendos, patrimonio, renta PJ, debo declarar, anticipo, timbre, liquidacion laboral, horas extras, intereses mora, SIMPLE y mas.",
   openGraph: {
     title: "Calculadoras Tributarias Colombianas",
-    description: "Herramientas de calculo tributario integradas con el Estatuto Tributario de Colombia.",
+    description: "26 calculadoras tributarias integradas con el Estatuto Tributario de Colombia.",
     type: "website",
     locale: "es_CO",
-    siteName: "Estatuto Tributario IA",
+    siteName: "SuperApp Tributaria Colombia",
   },
 };
 

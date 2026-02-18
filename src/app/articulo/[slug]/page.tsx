@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = await getArticle(slug);
   if (!article) return { title: "Artículo no encontrado" };
   return {
-    title: `${article.id_articulo} - ${article.titulo_corto} | Estatuto Tributario`,
+    title: `${article.id_articulo} - ${article.titulo_corto} | SuperApp Tributaria Colombia`,
     description: article.contenido_texto?.slice(0, 160),
   };
 }
