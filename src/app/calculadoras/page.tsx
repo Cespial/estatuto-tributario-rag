@@ -26,16 +26,17 @@ import {
   Wallet,
   TrendingDown,
   Coffee,
+  MapPin,
 } from "lucide-react";
 import { CalculatorCard } from "@/components/calculators/calculator-card";
 
 export const metadata: Metadata = {
   title: "Calculadoras Tributarias | SuperApp Tributaria Colombia",
   description:
-    "Herramientas tributarias integrales: UVT, retencion, renta, sanciones, GMF, IVA, contratacion, seguridad social, ganancias ocasionales, herencias, dividendos, patrimonio, renta PJ, debo declarar, anticipo, timbre, liquidacion laboral, horas extras, intereses mora, SIMPLE y mas.",
+    "Herramientas tributarias integrales: UVT, retencion, renta, sanciones, GMF, IVA, contratacion, seguridad social, ganancias ocasionales, herencias, dividendos, patrimonio, renta PJ, debo declarar, anticipo, timbre, liquidacion laboral, horas extras, intereses mora, SIMPLE, ICA y mas.",
   openGraph: {
     title: "Calculadoras Tributarias Colombianas",
-    description: "26 calculadoras tributarias integradas con el Estatuto Tributario de Colombia.",
+    description: "27 calculadoras tributarias integradas con el Estatuto Tributario de Colombia.",
     type: "website",
     locale: "es_CO",
     siteName: "SuperApp Tributaria Colombia",
@@ -224,6 +225,13 @@ const CALCULATORS = [
     description: "Impuesto nacional al consumo para restaurantes, telefonia y vehiculos.",
     icon: Coffee,
     articles: ["512-1"],
+  },
+  {
+    href: "/calculadoras/ica",
+    title: "Impuesto ICA (Industria y Comercio)",
+    description: "Calcula el ICA con el formulario oficial de 38 renglones. Tarifas por municipio, avisos, sobretasas y pronto pago.",
+    icon: MapPin,
+    articles: [],
   },
 ];
 
