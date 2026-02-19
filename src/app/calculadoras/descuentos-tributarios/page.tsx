@@ -67,12 +67,12 @@ export default function DescuentosTributariosPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Base de Impuesto</h2>
             <CurrencyInput id="imp" label="Impuesto de Renta Líquido" value={impuestoRentaLiquido} onChange={setImpuestoRentaLiquido} />
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Conceptos de Descuento</h2>
             <div className="space-y-4">
               <CurrencyInput id="iva" label="IVA Activos Productivos" value={ivaActivosProductivos} onChange={setIvaActivosProductivos} />
@@ -92,7 +92,7 @@ export default function DescuentosTributariosPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold tracking-tight">Liquidación Final</h2>
                 <CalculatorResult items={[
                   { label: "Total Descuentos", value: formatCOP(results.descuentoEfectivo) },
@@ -101,13 +101,13 @@ export default function DescuentosTributariosPage() {
               </div>
 
               {results.superaLimite && (
-                <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+                <div className="flex gap-3 rounded-lg border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
                   <AlertTriangle className="h-5 w-5 shrink-0" />
                   <p><strong>Límite Art. 259:</strong> Los descuentos exceden el impuesto de renta líquido. Solo se pueden tomar hasta por el valor del impuesto.</p>
                 </div>
               )}
 
-              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <h3 className="mb-2 font-semibold">Desglose Técnico</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">
@@ -126,7 +126,7 @@ export default function DescuentosTributariosPage() {
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa el impuesto de renta para calcular los descuentos.</p>
             </div>
           )}

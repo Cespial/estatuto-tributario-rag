@@ -52,7 +52,7 @@ export function ArticleCard({
 
   return (
     <div
-      className="group flex cursor-pointer flex-col rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md"
+      className="group flex cursor-pointer flex-col rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md"
       onClick={() => openPanel(slug)}
     >
       {/* Header */}

@@ -46,7 +46,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -194,7 +194,7 @@ export default function LiquidacionLaboralPage() {
             ]}
           />
 
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
@@ -240,7 +240,7 @@ export default function LiquidacionLaboralPage() {
           </div>
 
           {!results.applyIndem && motivoTerminacion !== "despido_sin_justa" && (
-            <div className="flex gap-3 rounded-xl bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
+            <div className="flex gap-3 rounded-lg bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
               <Info className="h-4 w-4 shrink-0" />
               <p>No aplica indemnización por {motivoTerminacion.replace("_", " ")}. Solo aplica para despido sin justa causa.</p>
             </div>
@@ -293,7 +293,7 @@ export default function LiquidacionLaboralPage() {
           </ul>
         </CollapsibleSection>
 
-        <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
+        <div className="rounded-lg border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
           <p className="font-medium">Base legal:</p>
           <p>Código Sustantivo del Trabajo (CST) Art. 64 (indemnización), Art. 249 (cesantías), Art. 306 (prima), Art. 186 (vacaciones), Ley 50 de 1990 Art. 99 (intereses cesantías).</p>
         </div>

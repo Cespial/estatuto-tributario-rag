@@ -111,7 +111,7 @@ export default function CompararPage() {
       <div className="grid gap-8 lg:grid-cols-4">
         {/* Sidebar Controls */}
         <div className="lg:col-span-1 space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
             <ArticleVersionSelector onSelect={setSlug} selectedSlug={slug} />
 
             {article && (
@@ -159,7 +159,7 @@ export default function CompararPage() {
             )}
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
+          <div className="rounded-lg border border-border/60 bg-muted/30 p-4">
             <div className="flex gap-3">
               <Info className="h-5 w-5 text-foreground/70 shrink-0" />
               <div className="text-[11px] leading-relaxed text-muted-foreground">
@@ -173,7 +173,7 @@ export default function CompararPage() {
         {/* Main Content / Diff Viewer */}
         <div className="lg:col-span-3">
           {!slug ? (
-            <div className="flex h-[400px] flex-col items-center justify-center rounded-xl border-2 border-dashed border-border/60 bg-muted/10 p-12 text-center">
+            <div className="flex h-[400px] flex-col items-center justify-center rounded-lg border-2 border-dashed border-border/60 bg-muted/10 p-12 text-center">
               <div className="mb-4 rounded-full bg-muted p-4">
                 <Scale className="h-10 w-10 text-foreground/70" />
               </div>
@@ -196,7 +196,7 @@ export default function CompararPage() {
               </div>
 
               {versionA === versionB ? (
-                <div className="flex items-center gap-3 rounded-xl border border-border/60 bg-muted/30 p-4 text-foreground">
+                <div className="flex items-center gap-3 rounded-lg border border-border/60 bg-muted/30 p-4 text-foreground">
                   <AlertTriangle className="h-5 w-5 text-foreground/70" />
                   <p className="text-sm font-medium">Está comparando la misma versión. Por favor seleccione una versión diferente en el panel lateral.</p>
                 </div>

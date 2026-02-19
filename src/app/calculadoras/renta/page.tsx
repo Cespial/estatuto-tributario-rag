@@ -137,12 +137,12 @@ export default function RentaPage() {
       {result?.warnings && (
         <div className="mb-4 space-y-1">
           {result.warnings.exentasCapped && (
-            <p className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
+            <p className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-sm">
               Rentas exentas limitadas a {LEY_2277_LIMITS.rentasExentasMaxUVT} UVT ({formatCOP(LEY_2277_LIMITS.rentasExentasMaxUVT * uvt)}).
             </p>
           )}
           {result.warnings.combinadoCapped && (
-            <p className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
+            <p className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-sm">
               Total deducciones + exentas limitado a {LEY_2277_LIMITS.deduccionesExentasMaxUVT} UVT ({formatCOP(LEY_2277_LIMITS.deduccionesExentasMaxUVT * uvt)}).
             </p>
           )}
@@ -159,7 +159,7 @@ export default function RentaPage() {
       {result && result.breakdown.length > 0 && (
         <div className="mb-6">
           <h2 className="mb-3 text-lg font-semibold">Desglose marginal</h2>
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
@@ -189,7 +189,7 @@ export default function RentaPage() {
       {/* Tabla Art. 241 */}
       <div className="mb-6">
         <h2 className="mb-3 text-lg font-semibold">Tabla Art. 241 ET</h2>
-        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+        <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">

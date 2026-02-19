@@ -69,7 +69,7 @@ export default function ConsumoPage() {
             placeholder="Ej: 100.000"
           />
 
-          <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
+          <div className="rounded-lg border border-border/60 bg-muted/30 p-4">
             <h4 className="mb-2 text-sm font-semibold flex items-center gap-2">
               <Tag className="h-4 w-4 text-foreground/70" />
               Información de Tarifa
@@ -97,7 +97,7 @@ export default function ConsumoPage() {
                 ]}
               />
 
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold tracking-tight">Resumen de Operación</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -116,14 +116,14 @@ export default function ConsumoPage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Selecciona el tipo de operación e ingresa el valor base
             </div>
           )}
         </div>
       </div>
 
-      <div className="mt-10 overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+      <div className="mt-10 overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
         <table className="w-full text-left text-sm">
           <thead className="bg-muted/30">
             <tr>

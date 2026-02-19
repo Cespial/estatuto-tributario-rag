@@ -69,13 +69,13 @@ export default function Home() {
         {/* Hero content — left-aligned like Harvey.ai */}
         <div className="relative z-10 flex h-full items-center">
           <div className="mx-auto w-full max-w-6xl px-6 pb-32 md:px-8">
-            <h1 className="max-w-2xl font-[family-name:var(--font-playfair)] text-5xl font-bold leading-[1.05] tracking-tight text-white md:text-7xl lg:text-8xl">
+            <h1 className="max-w-2xl font-[family-name:var(--font-playfair)] text-6xl font-normal leading-[1.05] tracking-[-0.0175em] text-white md:text-8xl lg:text-[7rem]">
               Tributaria
               <br />
               Colombia
             </h1>
 
-            <p className="mt-8 max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
+            <p className="mt-8 max-w-lg text-lg leading-relaxed text-white/80 md:text-xl">
               La plataforma tributaria mas completa del pais.
               35 calculadoras, 1,294 articulos del Estatuto Tributario,
               calendario fiscal y asistente con IA.
@@ -84,13 +84,13 @@ export default function Home() {
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
                 href="/calculadoras"
-                className="inline-flex items-center gap-2 rounded-none border border-white bg-white px-8 py-4 text-sm font-medium tracking-wide text-black transition-all hover:bg-white/90"
+                className="inline-flex h-12 items-center gap-2 rounded border border-white bg-white px-5 text-sm font-medium tracking-wide text-black transition-all hover:bg-white/90"
               >
                 Explorar Calculadoras
               </Link>
               <Link
                 href="#asistente"
-                className="inline-flex items-center gap-2 rounded-none border border-white/40 px-8 py-4 text-sm font-medium tracking-wide text-white transition-all hover:border-white hover:bg-white/10"
+                className="inline-flex h-12 items-center gap-2 rounded border border-white/40 px-5 text-sm font-medium tracking-wide text-white transition-all hover:border-white hover:bg-white/10"
               >
                 Asistente IA
               </Link>
@@ -126,12 +126,12 @@ export default function Home() {
          ────────────────────────────────────────────── */}
       <main>
         {/* Quick Access Grid */}
-        <section className="px-4 py-20 md:py-28">
+        <section className="px-4 py-24 md:py-32">
           <div className="mx-auto max-w-5xl">
             <h2 className="mb-4 text-center font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">
               Herramientas Populares
             </h2>
-            <p className="mx-auto mb-14 max-w-xl text-center text-sm text-muted-foreground">
+            <p className="mx-auto mb-16 max-w-xl text-center text-sm text-muted-foreground">
               Acceso rapido a las calculadoras mas utilizadas por contadores y
               tributaristas colombianos.
             </p>
@@ -141,7 +141,7 @@ export default function Home() {
                 <Link
                   key={calc.href}
                   href={calc.href}
-                  className="group flex flex-col gap-4 rounded-2xl border border-transparent bg-card p-8 shadow-sm transition-all hover:border-border hover:shadow-md"
+                  className="group flex flex-col gap-4 rounded-lg border border-transparent bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
                 >
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-muted">
                     <calc.icon className="h-5 w-5 text-foreground/70" />
@@ -171,7 +171,7 @@ export default function Home() {
         </section>
 
         {/* Chat Section */}
-        <section id="asistente" className="bg-muted/30 px-4 py-20 md:py-28">
+        <section id="asistente" className="bg-muted/30 px-4 py-24 md:py-32">
           <div className="mx-auto max-w-5xl">
             <h2 className="mb-4 text-center font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">
               Asistente Tributario
@@ -181,7 +181,7 @@ export default function Home() {
               inteligencia artificial.
             </p>
 
-            <div className="flex h-[650px] flex-col overflow-hidden rounded-2xl border border-border/50 bg-card shadow-lg">
+            <div className="flex h-[650px] flex-col overflow-hidden rounded-lg border border-border/50 bg-card shadow-lg">
               <div className="border-b border-border bg-muted/30 px-5 py-4">
                 <h3 className="font-medium text-foreground">
                   Asistente con IA

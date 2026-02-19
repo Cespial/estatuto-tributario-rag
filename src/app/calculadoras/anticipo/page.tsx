@@ -90,7 +90,7 @@ export default function AnticipoPage() {
 
       <div className="mb-6">
         <h3 className="mb-3 text-lg font-semibold tracking-tight">Comparativa de Opciones (Art. 807)</h3>
-        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+        <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border/60 bg-muted/30">

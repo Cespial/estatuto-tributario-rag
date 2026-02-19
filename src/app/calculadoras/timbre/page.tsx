@@ -72,7 +72,7 @@ export default function TimbrePage() {
       </div>
 
       {result.noAplica && valor > 0 && (
-        <div className="mb-6 text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex items-start gap-3">
+        <div className="mb-6 text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex items-start gap-3">
           <AlertCircle className="mt-0.5 h-5 w-5" />
           <div className="text-sm">
             <p className="font-semibold">No aplica impuesto de timbre</p>
@@ -83,7 +83,7 @@ export default function TimbrePage() {
 
       <div className="mb-6">
         <h3 className="mb-3 text-lg font-semibold">Umbrales de Impuesto de Timbre</h3>
-        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+        <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">

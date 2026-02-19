@@ -65,7 +65,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -277,7 +277,7 @@ export default function SeguridadSocialPage() {
           {result.warnings.length > 0 && (
             <div className="space-y-1">
               {result.warnings.map((w) => (
-                <p key={w} className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
+                <p key={w} className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-sm">
                   {w}
                 </p>
               ))}
@@ -312,7 +312,7 @@ export default function SeguridadSocialPage() {
           {/* ════ B. Tabla de Aportes ════ */}
           <div>
             <h2 className="mb-3 text-lg font-semibold">Tabla de Aportes</h2>
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
@@ -421,7 +421,7 @@ export default function SeguridadSocialPage() {
 
           {/* ════ C. FSP Detalle ════ */}
           <CollapsibleSection title="Fondo de Solidaridad Pensional — Detalle">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
@@ -513,7 +513,7 @@ export default function SeguridadSocialPage() {
 
           {/* ════ E. Referencia ARL ════ */}
           <CollapsibleSection title="Tabla de Referencia — Clases de Riesgo ARL">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">

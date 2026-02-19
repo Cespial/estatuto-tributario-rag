@@ -14,7 +14,7 @@ export function CalculatorSources({ articles }: CalculatorSourcesProps) {
         <Link
           key={art}
           href={`/articulo/${art}`}
-          className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-foreground transition-colors hover:bg-muted"
+          className="rounded border border-border bg-card px-3 py-1 text-xs font-medium text-foreground transition-colors duration-200 hover:bg-muted"
         >
           Art. {art}
         </Link>

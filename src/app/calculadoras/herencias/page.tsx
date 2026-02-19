@@ -84,7 +84,7 @@ export default function HerenciasPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos de la Asignación</h2>
             <div className="space-y-4">
               <CurrencyInput id="valor-bienes" label="Valor de los Bienes" value={valorBienes} onChange={setValorBienes} />
@@ -103,7 +103,7 @@ export default function HerenciasPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado</h2>
                 <CalculatorResult items={[
                   { label: "Valor Recibido", value: formatCOP(valorBienes) },
@@ -113,7 +113,7 @@ export default function HerenciasPage() {
                 ]} />
               </div>
 
-              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <h3 className="mb-2 font-semibold tracking-tight">Desglose de Exenciones</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">
@@ -128,7 +128,7 @@ export default function HerenciasPage() {
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa los valores para ver el desglose.</p>
             </div>
           )}

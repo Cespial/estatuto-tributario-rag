@@ -58,7 +58,7 @@ export default function DeboDeclararPage() {
       </p>
 
       {/* Paso 0: Residencia */}
-      <div className="mb-8 rounded-xl border border-border/60 bg-muted/50 p-4">
+      <div className="mb-8 rounded-lg border border-border/60 bg-muted/50 p-4">
         <div className="mb-3 flex items-center gap-2 font-semibold text-foreground">
           <Globe className="h-5 w-5 text-foreground/70" />
           <span>Paso 0: Residencia Fiscal</span>
@@ -72,7 +72,7 @@ export default function DeboDeclararPage() {
           />
         </div>
         {!esResidente && (
-          <p className="mt-3 text-xs text-foreground bg-muted/50 border border-border/60 rounded-xl p-4">
+          <p className="mt-3 text-xs text-foreground bg-muted/50 border border-border/60 rounded-lg p-4">
             * Los no residentes estan obligados a declarar si sus ingresos de fuente nacional no estuvieron sujetos a la retencion total del Art. 407 a 411.
           </p>
         )}
@@ -88,7 +88,7 @@ export default function DeboDeclararPage() {
         </div>
       </div>
 
-      <div className={`mb-8 flex items-center gap-4 rounded-xl border p-6 ${evaluation.debeDeclarar
+      <div className={`mb-8 flex items-center gap-4 rounded-lg border p-6 ${evaluation.debeDeclarar
         ? "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-900/50"
         : "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-900/50"}`}>
         {evaluation.debeDeclarar ? (
@@ -114,7 +114,7 @@ export default function DeboDeclararPage() {
 
       <div className="mb-6">
         <h3 className="mb-3 text-lg font-semibold tracking-tight">Tabla de verificacion (UVT $49,799)</h3>
-        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+        <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border/60 bg-muted/30">

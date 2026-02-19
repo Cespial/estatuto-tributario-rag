@@ -29,7 +29,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -216,7 +216,7 @@ export default function ICAPage() {
         {/* COLUMNA IZQUIERDA: INPUTS */}
         <div className="space-y-6">
           {/* Bloque 1: Municipio y ano */}
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold tracking-tight">A. Seleccion</h3>
             <SelectInput
               id="municipio"
@@ -243,7 +243,7 @@ export default function ICAPage() {
 
           {/* Bloque 2: Config personalizada */}
           {isCustom && (
-            <div className="rounded-xl border border-dashed border-border/60 p-6 space-y-4">
+            <div className="rounded-lg border border-dashed border-border/60 p-6 space-y-4">
               <h3 className="text-sm font-bold text-muted-foreground uppercase">Configuracion personalizada</h3>
               <div className="grid gap-4 sm:grid-cols-2">
                 <ToggleInput
@@ -329,7 +329,7 @@ export default function ICAPage() {
           )}
 
           {/* Bloque 3: Base gravable */}
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold tracking-tight">B. Base gravable</h3>
             <div className="space-y-4">
               <CurrencyInput
@@ -373,7 +373,7 @@ export default function ICAPage() {
           </div>
 
           {/* Bloque 4: Actividades economicas */}
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <div className="flex items-center justify-between">
               <h3 className="font-semibold tracking-tight">C. Actividades economicas</h3>
               <button
@@ -455,7 +455,7 @@ export default function ICAPage() {
           </div>
 
           {/* Bloque 5: Retenciones y anticipos */}
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold tracking-tight">D. Retenciones y anticipos</h3>
             <div className="grid gap-4 sm:grid-cols-2">
               <CurrencyInput id="r27" label="R27. Retenciones practicadas" value={retencionesPracticadas} onChange={setRetencionesPracticadas} />
@@ -475,7 +475,7 @@ export default function ICAPage() {
               {showAdvanced ? "Ocultar campos avanzados" : "Mostrar campos avanzados"}
             </button>
             {showAdvanced && (
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4 animate-in fade-in slide-in-from-top-2 duration-300">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4 animate-in fade-in slide-in-from-top-2 duration-300">
                 <CurrencyInput id="r31" label="R31. Sanciones" value={sanciones} onChange={setSanciones} />
                 <CurrencyInput id="r26" label="R26. Exenciones" value={exenciones} onChange={setExenciones} />
                 <CurrencyInput id="r37" label="R37. Intereses de mora" value={interesesMora} onChange={setInteresesMora} />
@@ -488,7 +488,7 @@ export default function ICAPage() {
         {/* COLUMNA DERECHA: RESULTADOS */}
         <div className="space-y-6">
           {!resultado ? (
-            <div className="flex flex-col items-center justify-center h-full rounded-xl border border-dashed p-10 text-center text-muted-foreground min-h-[400px]">
+            <div className="flex flex-col items-center justify-center h-full rounded-lg border border-dashed p-10 text-center text-muted-foreground min-h-[400px]">
               <MapPin className="h-16 w-16 opacity-20 mb-4" />
               <p>Ingresa los datos del balance para calcular el ICA</p>
             </div>
@@ -498,7 +498,7 @@ export default function ICAPage() {
               <CalculatorResult items={resultItems} />
 
               {/* Bloque R2: Resumen descriptivo */}
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
                 <h3 className="font-semibold tracking-tight border-b border-border/60 pb-2">Resumen de liquidacion</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between border-b pb-1">
@@ -573,7 +573,7 @@ export default function ICAPage() {
 
               {/* Bloque R3: Banner saldo a favor */}
               {resultado.renglon34 > 0 && (
-                <div className="rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground flex gap-3">
+                <div className="rounded-lg border border-border/60 bg-muted/50 p-4 text-sm text-foreground flex gap-3">
                   <AlertTriangle className="h-5 w-5 shrink-0" />
                   <p>Tiene un saldo a favor de {formatCOP(resultado.renglon34)}. Puede solicitar compensacion o devolucion ante la administracion municipal.</p>
                 </div>
@@ -589,7 +589,7 @@ export default function ICAPage() {
           {/* Bloque T1: Formulario oficial */}
           <div className="space-y-4">
             <h2 className="text-xl font-bold tracking-tight">Formulario Oficial (Declaracion Privada)</h2>
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm min-w-[500px]">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
@@ -676,7 +676,7 @@ export default function ICAPage() {
               {errores.length > 0 && (
                 <div className="space-y-2">
                   {errores.map((e, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-red-500 bg-muted/50 p-3 rounded-xl border border-border/60">
+                    <div key={i} className="flex items-center gap-2 text-sm text-red-500 bg-muted/50 p-3 rounded-lg border border-border/60">
                       <AlertTriangle className="h-4 w-4 shrink-0" />
                       <span>{e}</span>
                     </div>
@@ -686,7 +686,7 @@ export default function ICAPage() {
               {warnings.length > 0 && (
                 <div className="space-y-2">
                   {warnings.map((w, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-foreground bg-muted/50 p-3 rounded-xl border border-border/60">
+                    <div key={i} className="flex items-center gap-2 text-sm text-foreground bg-muted/50 p-3 rounded-lg border border-border/60">
                       <AlertTriangle className="h-4 w-4 shrink-0" />
                       <span>{w}</span>
                     </div>

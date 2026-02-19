@@ -51,7 +51,7 @@ export default function RetencionPage() {
         />
       </div>
 
-      <div className="rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm">
+      <div className="rounded-lg border border-border/60 bg-card overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead className="bg-muted/30 border-b border-border">
@@ -114,7 +114,7 @@ export default function RetencionPage() {
         </div>
       </div>
 
-      <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
+      <div className="rounded-lg border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
         <p><strong>Nota:</strong> Las tarifas aquí expresadas son las generales. Algunos contribuyentes pueden estar sujetos a tarifas diferenciales o convenios para evitar la doble imposición.</p>
       </div>
     </ReferencePageLayout>

@@ -81,7 +81,7 @@ export default function GuiaInteractivaPage() {
         </div>
       </div>
 
-      <div className="relative overflow-hidden rounded-xl border border-border/60 bg-card p-8 shadow-sm">
+      <div className="relative overflow-hidden rounded-lg border border-border/60 bg-card p-8 shadow-sm">
         {currentNode?.tipo === "pregunta" ? (
           <div className="space-y-8">
             <div className="flex items-start gap-4">
@@ -96,7 +96,7 @@ export default function GuiaInteractivaPage() {
                 <button
                   key={i}
                   onClick={() => handleOptionSelect(opcion.nextNodeId)}
-                  className="group flex items-center justify-between rounded-xl border border-border bg-card p-4 text-left transition-all hover:border-foreground/30 hover:shadow-sm active:scale-95"
+                  className="group flex items-center justify-between rounded-lg border border-border bg-card p-4 text-left transition-all hover:border-foreground/30 hover:shadow-sm active:scale-95"
                 >
                   <span className="font-semibold">{opcion.label}</span>
                   <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-foreground/70 transition-transform group-hover:translate-x-1" />
@@ -128,7 +128,7 @@ export default function GuiaInteractivaPage() {
                   <Link
                     key={i}
                     href={enlace.href}
-                    className="flex items-center justify-between rounded-xl border border-border bg-muted/50 px-4 py-3 text-sm font-bold text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
+                    className="flex items-center justify-between rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-bold text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
                   >
                     {enlace.label}
                     <ExternalLink className="h-4 w-4 text-foreground/70" />
@@ -139,7 +139,7 @@ export default function GuiaInteractivaPage() {
 
             <button
               onClick={handleReset}
-              className="flex w-full items-center justify-center gap-2 rounded-xl border-2 border-dashed border-border py-4 font-bold text-muted-foreground transition-all hover:border-foreground/30 hover:text-foreground"
+              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-border py-4 font-bold text-muted-foreground transition-all hover:border-foreground/30 hover:text-foreground"
             >
               <RotateCcw className="h-4 w-4" />
               Reiniciar autodiagnóstico

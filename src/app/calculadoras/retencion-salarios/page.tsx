@@ -23,7 +23,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -171,7 +171,7 @@ export default function RetencionSalariosPage() {
             ]}
           />
 
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
@@ -225,13 +225,13 @@ export default function RetencionSalariosPage() {
           </div>
 
           {results.limitType && (
-            <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-xs">
+            <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex gap-3 text-xs">
               <AlertTriangle className="h-4 w-4 shrink-0" />
               <p>Las deducciones y rentas exentas superaron el límite de {results.limitType} del ingreso neto. Solo se aplicó el límite legal.</p>
             </div>
           )}
 
-          <div className="flex gap-3 rounded-xl bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
+          <div className="flex gap-3 rounded-lg bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
             <ShieldCheck className="h-4 w-4 shrink-0 text-foreground/70" />
             <div>
               <p className="font-semibold text-foreground">Rango Tabla Art. 383:</p>

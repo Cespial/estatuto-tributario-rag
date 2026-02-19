@@ -133,7 +133,7 @@ export default function FavoritosPage() {
       {activeTab === "favoritos" ? (
         <div className="space-y-6">
           {bookmarks.length === 0 ? (
-            <div className="rounded-xl border border-border/60 border-dashed py-20 text-center">
+            <div className="rounded-lg border border-border/60 border-dashed py-20 text-center">
               <Bookmark className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
               <p className="text-muted-foreground">No tienes favoritos guardados aún.</p>
             </div>
@@ -153,7 +153,7 @@ export default function FavoritosPage() {
                   {items.map((item) => {
                     const Icon = TYPE_ICONS[item.type as keyof typeof TYPE_ICONS] || FileText;
                     return (
-                      <div key={item.id} className="group relative flex items-center justify-between rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
+                      <div key={item.id} className="group relative flex items-center justify-between rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
                         <Link href={item.href} className="flex flex-1 items-center gap-3">
                           <div className="rounded-lg bg-muted p-2 text-foreground/70">
                             <Icon className="h-4 w-4" />
@@ -184,14 +184,14 @@ export default function FavoritosPage() {
       ) : (
         <div className="space-y-6">
           {notes.length === 0 ? (
-            <div className="rounded-xl border border-border/60 border-dashed py-20 text-center">
+            <div className="rounded-lg border border-border/60 border-dashed py-20 text-center">
               <StickyNote className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
               <p className="text-muted-foreground">No tienes notas creadas aún.</p>
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2">
               {notes.map((note) => (
-                <div key={note.id} className="flex flex-col rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
+                <div key={note.id} className="flex flex-col rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
                   <div className="mb-3 flex items-center justify-between border-b border-border/40 pb-2">
                     <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
                       Nota en {new Date(note.createdAt).toLocaleDateString()}

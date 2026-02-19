@@ -32,7 +32,7 @@ export function UvtHistoryChart() {
   };
 
   return (
-    <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+    <div className="rounded-lg border border-border bg-card p-6 shadow-sm">
       <div className="mb-6">
         <h3 className="font-[family-name:var(--font-playfair)] text-lg font-semibold tracking-tight text-foreground">Evolución UVT (Últimos 10 años)</h3>
         <p className="text-sm text-muted-foreground">Incremento histórico del valor de la Unidad de Valor Tributario</p>

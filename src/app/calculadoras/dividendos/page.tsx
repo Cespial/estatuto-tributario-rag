@@ -85,7 +85,7 @@ export default function DividendosPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Ingresos del Socio</h2>
             <div className="space-y-4">
               <CurrencyInput id="otros-ingresos" label="Otros Ingresos Gravables (Salarios, etc)" value={otrosIngresos} onChange={setOtrosIngresos} />
@@ -101,7 +101,7 @@ export default function DividendosPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold tracking-tight">Estimación Fiscal</h2>
                 <CalculatorResult items={[
                   { label: "Impuesto Estimado", value: formatCOP(results.impuestoFinal) },
@@ -110,12 +110,12 @@ export default function DividendosPage() {
                 ]} />
               </div>
 
-              <div className="rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+              <div className="rounded-lg border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
                 <p><strong>Nota:</strong> Desde 2023, los dividendos se suman a tus demás ingresos. Esta calculadora estima el impacto marginal.</p>
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa tus ingresos para calcular el impuesto.</p>
             </div>
           )}

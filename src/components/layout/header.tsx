@@ -40,12 +40,12 @@ export function Header({ variant = "default" }: HeaderProps) {
 
   return (
     <header className={clsx(
-      "sticky top-0 z-50",
+      "sticky top-0 z-50 transition-all duration-300",
       isTransparent
         ? "border-b border-transparent bg-transparent"
         : "border-b border-border/40 bg-background/80 backdrop-blur-md"
     )}>
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+      <div className="mx-auto flex h-[72px] max-w-6xl items-center justify-between px-4">
         <div className="flex flex-1 items-center gap-6 overflow-hidden">
           {/* Logo — Harvey.ai inspired: elegant serif feel */}
           <Link href="/" className="flex shrink-0 items-center gap-2.5">
@@ -109,9 +109,9 @@ export function Header({ variant = "default" }: HeaderProps) {
               aria-label="Cambiar tema"
             >
               {theme === "dark" ? (
-                <Sun className="h-3.5 w-3.5" />
+                <Sun className="h-4 w-4" />
               ) : (
-                <Moon className="h-3.5 w-3.5" />
+                <Moon className="h-4 w-4" />
               )}
             </button>
           )}

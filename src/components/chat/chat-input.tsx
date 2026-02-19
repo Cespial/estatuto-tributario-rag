@@ -54,14 +54,14 @@ export function ChatInput({
             onKeyDown={handleKeyDown}
             placeholder="Pregunta sobre el Estatuto Tributario..."
             rows={1}
-            className="w-full resize-none rounded-xl border border-border/60 bg-card px-4 py-3 pr-12 text-sm outline-none transition-colors focus:border-foreground/40 focus-visible:ring-1 focus-visible:ring-foreground/20"
+            className="w-full resize-none rounded-lg border border-border/60 bg-card px-4 py-3 pr-12 text-sm outline-none transition-colors focus:border-foreground/40 focus-visible:ring-1 focus-visible:ring-foreground/20"
             disabled={isLoading}
           />
         </div>
         <button
           type="submit"
           disabled={!input.trim() || isLoading}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-foreground text-background transition-opacity disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-foreground text-background transition-opacity disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
           aria-label="Enviar mensaje"
         >
           <Send className="h-4 w-4" />

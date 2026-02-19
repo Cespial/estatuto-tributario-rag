@@ -143,7 +143,7 @@ export default function RetencionPage() {
       {isSalarios && (
         <div className="mb-6">
           <h2 className="mb-3 text-lg font-semibold">Tabla progresiva Art. 383</h2>
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">

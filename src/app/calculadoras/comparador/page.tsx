@@ -76,7 +76,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -397,7 +397,7 @@ export default function ComparadorPage() {
         <div className="space-y-6">
           {/* Integral N/A warning */}
           {result.int.na && (
-            <p className="text-sm text-foreground bg-muted/50 border border-border/60 rounded-xl p-4">
+            <p className="text-sm text-foreground bg-muted/50 border border-border/60 rounded-lg p-4">
               Salario Integral no aplica: el salario calculado ({formatCOP(result.int.salario)}) es inferior al minimo
               de {SALARIO_INTEGRAL_MIN_SMLMV} SMLMV ({formatCOP(SALARIO_INTEGRAL_MIN_SMLMV * SMLMV_2026)}).
             </p>
@@ -406,7 +406,7 @@ export default function ComparadorPage() {
           {/* ════ A. TABLA COMPARATIVA PRINCIPAL ════ */}
           <div>
             <h2 className="mb-3 text-lg font-semibold tracking-tight">Tabla Comparativa</h2>
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
@@ -484,7 +484,7 @@ export default function ComparadorPage() {
 
           {/* ════ B. RETENCION EN LA FUENTE ════ */}
           <CollapsibleSection title="Retencion en la Fuente — Proc. 1 Art. 383">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
@@ -518,7 +518,7 @@ export default function ComparadorPage() {
 
           {/* ════ C. RENTA ANUAL ════ */}
           <CollapsibleSection title="Proyeccion Renta Anual — Art. 241">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
@@ -560,7 +560,7 @@ export default function ComparadorPage() {
 
           {/* ════ D. SIMPLE vs ORDINARIA ════ */}
           <CollapsibleSection title="SIMPLE vs Ordinaria — Solo Independiente">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
@@ -599,7 +599,7 @@ export default function ComparadorPage() {
 
           {/* ════ E. PROS Y CONTRAS ════ */}
           <CollapsibleSection title="Pros y Contras por Modalidad">
-            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+            <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">

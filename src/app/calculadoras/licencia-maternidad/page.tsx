@@ -129,7 +129,7 @@ export default function LicenciaMaternidadPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
               <Baby className="h-4 w-4 text-foreground/70" /> Informacion de la Licencia
             </h3>
@@ -170,7 +170,7 @@ export default function LicenciaMaternidadPage() {
             )}
           </div>
 
-          <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-xs flex gap-3">
+          <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-xs flex gap-3">
             <Info className="h-4 w-4 shrink-0 text-foreground/70" />
             <div className="space-y-2">
               <p><strong>Maternidad:</strong> 18 semanas remuneradas con el 100% del salario.</p>
@@ -184,12 +184,12 @@ export default function LicenciaMaternidadPage() {
           <CalculatorResult items={resultItems} />
 
           {results.nota && (
-            <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm font-medium">
+            <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-sm font-medium">
               {results.nota}
             </div>
           )}
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm">
+          <div className="rounded-lg border bg-card p-6 shadow-sm">
             <h3 className="mb-4 font-semibold">Requisitos Legales</h3>
             <ul className="text-xs space-y-3 text-muted-foreground list-disc pl-4">
               <li>Estar afiliado a salud como cotizante.</li>

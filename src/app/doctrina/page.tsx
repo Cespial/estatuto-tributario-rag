@@ -170,7 +170,7 @@ export default function DoctrinaPage() {
             return (
               <div
                 key={doc.id}
-                className="group rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm transition-all hover:border-border hover:shadow-md"
+                className="group rounded-lg border border-border/60 bg-card overflow-hidden shadow-sm transition-all hover:border-border hover:shadow-md"
               >
                 {/* Card header */}
                 <div className="p-6 pb-4">
@@ -240,7 +240,7 @@ export default function DoctrinaPage() {
 
                   {/* Collapsible synthesis */}
                   {isExpanded && (
-                    <div className="mt-4 rounded-xl bg-muted/30 p-4 text-sm text-muted-foreground leading-relaxed animate-in slide-in-from-top-2 duration-200">
+                    <div className="mt-4 rounded-lg bg-muted/30 p-4 text-sm text-muted-foreground leading-relaxed animate-in slide-in-from-top-2 duration-200">
                       {doc.sintesis}
                     </div>
                   )}
@@ -287,7 +287,7 @@ export default function DoctrinaPage() {
             );
           })
         ) : (
-          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border/60 border-dashed">
+          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-lg border border-border/60 border-dashed">
             <Filter className="h-10 w-10 mx-auto mb-4 opacity-20" />
             <p className="text-lg font-medium">No se encontraron documentos</p>
             <p className="text-sm">Intente con otra busqueda o modifique los filtros.</p>
@@ -307,7 +307,7 @@ export default function DoctrinaPage() {
       </div>
 
       {/* Legal note */}
-      <div className="mt-8 rounded-xl border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
+      <div className="mt-8 rounded-lg border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
         <p>
           <strong>Nota legal:</strong> Los conceptos y oficios presentados son de caracter
           informativo. La doctrina DIAN puede ser revocada o modificada. Consulte siempre la base

@@ -13,10 +13,10 @@ export function CalculatorCard({ href, title, description, icon: Icon, articles 
   return (
     <Link
       href={href}
-      className="group flex flex-col rounded-xl border border-transparent bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
+      className="group flex flex-col rounded-lg border border-transparent bg-card p-6 shadow-sm transition-all duration-300 hover:border-border hover:shadow"
     >
       <div className="mb-4 flex items-center gap-2">
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-muted">
+        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-muted">
           <Icon className="h-4 w-4 text-foreground/70" />
         </div>
         <h2 className="text-sm font-semibold text-foreground">{title}</h2>

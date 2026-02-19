@@ -17,7 +17,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -109,7 +109,7 @@ export default function InteresesMoraPage() {
             />
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-muted/50 p-4">
+          <div className="rounded-lg border border-border/60 bg-muted/50 p-4">
             <div className="flex gap-3">
               <Info className="h-5 w-5 text-foreground/70" />
               <div className="text-sm text-foreground">
@@ -133,7 +133,7 @@ export default function InteresesMoraPage() {
                 ]}
               />
 
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold tracking-tight">Resumen de Liquidación</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -177,7 +177,7 @@ export default function InteresesMoraPage() {
               </CollapsibleSection>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Ingresa los datos para ver la liquidación de intereses
             </div>
           )}

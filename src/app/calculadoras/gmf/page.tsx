@@ -65,7 +65,7 @@ export default function GMFPage() {
         </div>
       )}
 
-      <div className="mb-6 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+      <div className="mb-6 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
         <h2 className="mb-2 text-sm font-semibold tracking-tight">Sobre el GMF</h2>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li>El Gravamen a los Movimientos Financieros es del 4 por mil (0.4%).</li>

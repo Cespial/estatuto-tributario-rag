@@ -113,7 +113,7 @@ export default function CalendarioPage() {
         </select>
       </div>
 
-      <div className="rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm">
+      <div className="rounded-lg border border-border/60 bg-card overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead className="bg-muted/50 border-b border-border">
@@ -176,7 +176,7 @@ export default function CalendarioPage() {
         </div>
       </div>
 
-      <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
+      <div className="rounded-lg border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
         <p><strong>Nota legal:</strong> {CALENDARIO_DISCLAIMER}</p>
       </div>
     </ReferencePageLayout>

@@ -134,7 +134,7 @@ export default function PensionPage() {
               />
 
               <div className="grid gap-4 sm:grid-cols-2">
-                <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-center">
+                <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-center">
                   <User className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Edad al Retiro</p>
                   <p className={`text-xl font-bold ${calculo.cumpleEdad ? "text-green-600" : "text-foreground"}`}>
@@ -142,7 +142,7 @@ export default function PensionPage() {
                   </p>
                   <p className="text-[10px] text-muted-foreground">Meta: {calculo.edadRequerida}</p>
                 </div>
-                <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-center">
+                <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-center">
                   <Award className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Semanas Meta</p>
                   <p className={`text-xl font-bold ${calculo.cumpleSemanas ? "text-green-600" : "text-foreground"}`}>
@@ -152,7 +152,7 @@ export default function PensionPage() {
                 </div>
               </div>
 
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold">Hoja de Ruta</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -170,18 +170,18 @@ export default function PensionPage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Ingresa tus datos para ver la proyección de pensión
             </div>
           )}
         </div>
       </div>
 
-      <div className="mt-10 text-foreground bg-muted/50 border border-border/60 rounded-xl p-6">
+      <div className="mt-10 text-foreground bg-muted/50 border border-border/60 rounded-lg p-6">
         <h3 className="mb-4 text-lg font-bold">Cronograma Reducción Semanas (Mujeres)</h3>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-6">
           {SEMANAS_MUJERES_PROGRESIVO.map((item, idx) => (
-            <div key={idx} className="rounded-xl border border-border/60 bg-card p-2 text-center shadow-sm">
+            <div key={idx} className="rounded-lg border border-border/60 bg-card p-2 text-center shadow-sm">
               <p className="text-[10px] font-bold text-muted-foreground">{item.anio}</p>
               <p className="text-sm font-bold">{item.semanas}</p>
             </div>

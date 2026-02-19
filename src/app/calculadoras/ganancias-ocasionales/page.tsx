@@ -79,7 +79,7 @@ export default function GananciasOcasionalesPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos del Activo</h2>
             <div className="space-y-4">
               <CurrencyInput 
@@ -134,7 +134,7 @@ export default function GananciasOcasionalesPage() {
           </div>
 
           {!posesionMas2Anos && (
-            <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+            <div className="flex gap-3 rounded-lg border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
               <AlertTriangle className="h-5 w-5 shrink-0 text-foreground/70" />
               <p>
                 <strong>Atención:</strong> Activos poseídos menos de 2 años tributan como 
@@ -147,7 +147,7 @@ export default function GananciasOcasionalesPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado del Cálculo</h2>
                 <CalculatorResult items={[
                   { label: "Ganancia Bruta", value: formatCOP(results.gananciaBruta) },
@@ -163,7 +163,7 @@ export default function GananciasOcasionalesPage() {
 
               <div className="space-y-4">
                 <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Desglose Técnico</h3>
-                <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm text-sm">
+                <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm text-sm">
                   <table className="w-full">
                     <tbody>
                       <tr className="border-b border-border">
@@ -194,7 +194,7 @@ export default function GananciasOcasionalesPage() {
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa los datos para ver el cálculo.</p>
             </div>
           )}

@@ -18,7 +18,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -186,7 +186,7 @@ export default function SancionesAmpliadasPage() {
           </div>
         )}
 
-        <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+        <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
           <ToggleInput label="Aplica reduccion Art. 640 (50%)" pressed={aplicaReduccion640} onToggle={setAplicaReduccion640} />
           <p className="mt-2 text-xs text-muted-foreground">
             <strong>Requisito:</strong> No haber cometido la misma infraccion en los 2 años anteriores. La sancion resultante no puede ser menor a la minima ({formatCOP(sancionMinima)}).

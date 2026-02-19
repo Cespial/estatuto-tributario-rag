@@ -128,7 +128,7 @@ export default function SancionesPage() {
         </div>
       )}
 
-      <div className="mb-6 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+      <div className="mb-6 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
         <h2 className="mb-2 text-sm font-semibold">Como se calcula</h2>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li><strong>Sin emplazamiento (Art. 641):</strong> 5% del impuesto por cada mes o fraccion de retraso, tope 100% del impuesto.</li>

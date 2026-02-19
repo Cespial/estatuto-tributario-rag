@@ -67,7 +67,7 @@ export default function DividendosJuridicasPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos de la Sociedad</h2>
             <div className="space-y-4">
               <CurrencyInput id="gravados" label="Dividendos Gravados (Art. 49 P3)" value={dividendosGravados} onChange={setDividendosGravados} />
@@ -93,7 +93,7 @@ export default function DividendosJuridicasPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold tracking-tight">Resumen de Tributación</h2>
                 <CalculatorResult items={[
                   { label: "Impuesto Total", value: formatCOP(results.totalImpuesto) },
@@ -102,7 +102,7 @@ export default function DividendosJuridicasPage() {
                 ]} />
               </div>
 
-              <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+              <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
                 <table className="w-full text-sm">
                   <thead className="bg-muted/30">
                     <tr>
@@ -132,7 +132,7 @@ export default function DividendosJuridicasPage() {
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa los montos de los dividendos para ver el cálculo.</p>
             </div>
           )}

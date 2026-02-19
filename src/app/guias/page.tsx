@@ -79,7 +79,7 @@ export default function GuiasPage() {
               <Link
                 key={guia.id}
                 href={`/guias/${guia.id}`}
-                className="group relative flex flex-col overflow-hidden rounded-xl border border-border/60 bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md hover:-translate-y-0.5"
+                className="group relative flex flex-col overflow-hidden rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md hover:-translate-y-0.5"
               >
                 <div className="mb-4 flex items-start justify-between">
                   <div className="rounded-lg bg-muted p-2.5 text-foreground/70 group-hover:bg-foreground group-hover:text-background transition-colors">
@@ -126,7 +126,7 @@ export default function GuiasPage() {
           </div>
 
           {guiasFiltradas.length === 0 && (
-            <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border/60 border-dashed">
+            <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-lg border border-border/60 border-dashed">
               <GraduationCap className="h-10 w-10 mx-auto mb-4 opacity-20" />
               <p className="text-lg font-medium">No hay guías en esta categoría</p>
               <p className="text-sm">Seleccione otra categoría para ver guías disponibles.</p>

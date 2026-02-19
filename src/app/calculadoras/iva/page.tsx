@@ -91,7 +91,7 @@ export default function IVAPage() {
       <div className="mb-6 space-y-4">
         <h2 className="text-lg font-semibold">Exento vs Excluido</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="mb-2 text-sm font-semibold text-foreground">Excluido (Art. 424)</h3>
             <p className="mb-2 text-sm text-muted-foreground">
               No causa IVA. El productor/prestador NO puede descontar el IVA pagado en insumos.
@@ -103,7 +103,7 @@ export default function IVAPage() {
               <li>- Servicios publicos (estratos 1-2)</li>
             </ul>
           </div>
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="mb-2 text-sm font-semibold text-foreground">Exento (Art. 477)</h3>
             <p className="mb-2 text-sm text-muted-foreground">
               Tarifa 0%, pero el productor SI puede solicitar devolucion del IVA pagado en insumos.

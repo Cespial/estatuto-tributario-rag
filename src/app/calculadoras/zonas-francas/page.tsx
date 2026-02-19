@@ -60,7 +60,7 @@ export default function ZonasFrancasPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold">Datos del Usuario</h2>
             <div className="space-y-4">
               <CurrencyInput id="renta" label="Renta Líquida Gravable" value={rentaLiquida} onChange={setRentaLiquida} />
@@ -96,7 +96,7 @@ export default function ZonasFrancasPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold">Liquidación ZF</h2>
                 <CalculatorResult items={[
                   { label: "Tarifa Aplicada", value: (results.tarifa * 100) + "%" },
@@ -106,13 +106,13 @@ export default function ZonasFrancasPage() {
               </div>
 
               {results.ajusteTTD && (
-                <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-sm">
+                <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex gap-3 text-sm">
                   <Info className="h-5 w-5 shrink-0" />
                   <p><strong>Ajuste TTD:</strong> El impuesto se incrementó para alcanzar la Tasa de Tributación Depurada mínima del 15%.</p>
                 </div>
               )}
 
-              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <h3 className="mb-2 font-semibold">Indicadores</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">
@@ -127,7 +127,7 @@ export default function ZonasFrancasPage() {
               </div>
             </>
           ) : (
-            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <div className="flex h-full min-h-[300px] flex-col items-center justify-center rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
               <p>Ingresa la renta líquida para proyectar el impuesto.</p>
             </div>
           )}

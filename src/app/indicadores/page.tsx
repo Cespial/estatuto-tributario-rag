@@ -79,7 +79,7 @@ export default function IndicadoresPage() {
           <div className="grid gap-6 md:grid-cols-2">
             {filteredIndicadores.length > 0 ? (
               filteredIndicadores.map((cat, idx) => (
-                <div key={idx} className="flex flex-col gap-4 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <div key={idx} className="flex flex-col gap-4 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                   <h2 className="text-lg font-bold border-b border-border pb-2 text-foreground font-[family-name:var(--font-playfair)] flex items-center gap-2">
                     {cat.categoria}
                   </h2>
@@ -134,7 +134,7 @@ export default function IndicadoresPage() {
         <div className="space-y-6">
           <UvtHistoryChart />
           
-          <div className="rounded-xl border border-border/60 bg-muted/30 p-6">
+          <div className="rounded-lg border border-border/60 bg-muted/30 p-6">
             <h3 className="font-semibold text-foreground mb-2">Enlaces Rápidos</h3>
             <ul className="space-y-2 text-sm">
               <li>

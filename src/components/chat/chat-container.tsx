@@ -78,7 +78,7 @@ export function ChatContainer() {
         <div className="flex flex-1 flex-col items-center justify-center p-4">
           <div className="mb-8 text-center">
             <div className="mb-4 flex justify-center">
-              <div className="rounded-2xl bg-muted p-4">
+              <div className="rounded-lg bg-muted p-4">
                 <Scale className="h-10 w-10 text-foreground" />
               </div>
             </div>

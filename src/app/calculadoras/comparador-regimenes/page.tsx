@@ -93,14 +93,14 @@ export default function ComparadorRegimenesPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold tracking-tight border-b pb-2">Informacion Financiera</h3>
             <CurrencyInput id="ingresos" label="Ingresos Brutos Anuales" value={ingresosBrutos} onChange={setIngresosBrutos} />
             <CurrencyInput id="costos" label="Costos y Deducciones" value={costosDeducciones} onChange={setCostosDeducciones} />
             <CurrencyInput id="exentas" label="Rentas Exentas" value={rentasExentas} onChange={setRentasExentas} />
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold tracking-tight border-b pb-2">Configuracion</h3>
             <div className="flex gap-4">
               <ToggleInput label="Es Persona Juridica" pressed={esPersonaJuridica} onToggle={setEsPersonaJuridica} />
@@ -117,7 +117,7 @@ export default function ComparadorRegimenesPage() {
         </div>
 
         <div className="space-y-6">
-          <div className={`rounded-xl border p-6 shadow-sm ${results.ahorro > 0 ? "bg-green-50 dark:bg-green-950/30 border-green-200" : "border-border/60 bg-card"}`}>
+          <div className={`rounded-lg border p-6 shadow-sm ${results.ahorro > 0 ? "bg-green-50 dark:bg-green-950/30 border-green-200" : "border-border/60 bg-card"}`}>
             <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">Recomendacion</h3>
             <div className="flex items-center gap-3 mb-2">
               <CheckCircle2 className={`h-8 w-8 ${results.ahorro > 0 ? "text-green-600" : "text-foreground/70"}`} />
@@ -128,7 +128,7 @@ export default function ComparadorRegimenesPage() {
             </p>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-muted/30">
                 <tr>
@@ -168,7 +168,7 @@ export default function ComparadorRegimenesPage() {
             </table>
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="mb-4 font-semibold tracking-tight">Ventajas del SIMPLE</h3>
             <ul className="text-xs space-y-2 text-muted-foreground list-disc pl-4">
               <li>Sustituye el impuesto de renta, el nacional al consumo y el ICA municipal.</li>

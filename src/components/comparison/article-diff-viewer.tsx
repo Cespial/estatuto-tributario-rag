@@ -50,7 +50,7 @@ export function ArticleDiffViewer({
       </div>
 
       {/* Diff Content */}
-      <div className="rounded-xl border border-border bg-card p-6 shadow-sm sm:p-8">
+      <div className="rounded-lg border border-border bg-card p-6 shadow-sm sm:p-8">
         <div className="prose prose-sm max-w-none dark:prose-invert leading-relaxed text-foreground whitespace-pre-wrap font-sans">
           {diff.map((segment, idx) => (
             <DiffSegmentComponent key={idx} segment={segment} />

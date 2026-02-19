@@ -88,7 +88,7 @@ export default function AuditoriaPage() {
             placeholder="Ej: 10.000.000"
           />
 
-          <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-sm">
+          <div className="rounded-lg border border-border/60 bg-muted/30 p-4 text-sm">
             <h4 className="mb-2 font-semibold">Requisitos Clave:</h4>
             <ul className="list-inside list-disc space-y-1 text-muted-foreground">
               <li>Impuesto neto ≥ 71 UVT ({formatCOP(impuestoMinimo)})</li>
@@ -102,7 +102,7 @@ export default function AuditoriaPage() {
         <div>
           {calculo ? (
             <div className="space-y-6">
-              <div className={`rounded-xl border p-6 shadow-sm ${
+              <div className={`rounded-lg border p-6 shadow-sm ${
                 calculo.status === "success" ? "border-green-200 bg-green-50 dark:border-green-900/50 dark:bg-green-950/20" :
                 calculo.status === "warning" ? "border-border/60 bg-muted/50" :
                 "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-red-950/20"
@@ -145,7 +145,7 @@ export default function AuditoriaPage() {
               />
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Ingresa los valores de los impuestos para validar el beneficio
             </div>
           )}

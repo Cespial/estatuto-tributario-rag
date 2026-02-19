@@ -123,7 +123,7 @@ export default function NovedadesPage() {
             return (
               <div
                 key={novedad.id}
-                className="group rounded-xl border border-border/60 bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
+                className="group rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
               >
                 {/* Top row: date + badges */}
                 <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -203,7 +203,7 @@ export default function NovedadesPage() {
             );
           })
         ) : (
-          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border/60 border-dashed">
+          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-lg border border-border/60 border-dashed">
             <Filter className="h-10 w-10 mx-auto mb-4 opacity-20" />
             <p className="text-lg font-medium">No se encontraron novedades</p>
             <p className="text-sm">Intente con otra busqueda o modifique los filtros.</p>
@@ -222,7 +222,7 @@ export default function NovedadesPage() {
       </div>
 
       {/* Legal note */}
-      <div className="mt-8 rounded-xl border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
+      <div className="mt-8 rounded-lg border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
         <p>
           <strong>Nota legal:</strong> La informacion presentada es de caracter informativo y no
           constituye asesoria legal o tributaria. Consulte siempre las fuentes oficiales (Diario

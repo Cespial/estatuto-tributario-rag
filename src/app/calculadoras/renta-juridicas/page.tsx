@@ -18,7 +18,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -100,7 +100,7 @@ export default function RentaJuridicasPage() {
             onChange={setSector}
             options={PJ_RATES.map((r) => ({ value: r.sector, label: r.label }))}
           />
-          <div className="flex items-start gap-2 rounded-xl bg-muted/50 border border-border/60 p-4 text-xs text-muted-foreground">
+          <div className="flex items-start gap-2 rounded-lg bg-muted/50 border border-border/60 p-4 text-xs text-muted-foreground">
             <Info className="h-4 w-4 shrink-0" />
             <p>La Utilidad Depurada se usa para calcular la Tasa de Tributacion Depurada (TTD). Segun Art. 240, esta no puede ser inferior al 15%.</p>
           </div>
@@ -108,7 +108,7 @@ export default function RentaJuridicasPage() {
       </div>
 
       {result.requiereAjusteTTD && (
-        <div className="mb-6 text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex items-center gap-3">
+        <div className="mb-6 text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex items-center gap-3">
           <AlertTriangle className="h-5 w-5" />
           <div className="text-sm">
             <strong>Alerta TTD:</strong> El impuesto calculado es menor al 15% de la utilidad depurada. Se ha ajustado el impuesto a {formatCOP(result.impuestoAjustadoTTD)}.
@@ -143,7 +143,7 @@ export default function RentaJuridicasPage() {
 
       <div className="mb-6">
         <CollapsibleSection title="Tabla de tarifas 2026 (Dto 1474)" defaultOpen>
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">

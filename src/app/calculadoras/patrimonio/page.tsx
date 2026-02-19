@@ -67,7 +67,7 @@ export default function PatrimonioPage() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold">Activos y Pasivos</h2>
             <div className="space-y-4">
               <CurrencyInput id="p-bruto" label="Patrimonio Bruto Total" value={patrimonioBruto} onChange={setPatrimonioBruto} />
@@ -86,7 +86,7 @@ export default function PatrimonioPage() {
         <div className="space-y-6">
           {results && (
             <>
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold">Resumen de Liquidación</h2>
                 <CalculatorResult items={[
                   { label: "Base Gravable", value: formatCOP(results.baseGravableCOP) },
@@ -96,14 +96,14 @@ export default function PatrimonioPage() {
               </div>
 
               {results.exclusionViviendaEfectiva > 0 && (
-                <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-sm">
+                <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex gap-3 text-sm">
                   <ShieldCheck className="h-5 w-5 shrink-0" />
                   <p>Estás ahorrando el impuesto sobre <strong>{formatCOP(results.exclusionViviendaEfectiva)}</strong> por concepto de vivienda de habitación.</p>
                 </div>
               )}
 
               {!results.aplica && patrimonioBruto > 0 && (
-                <div className="p-4 rounded-xl bg-muted/50 border border-border/60 text-center text-sm">
+                <div className="p-4 rounded-lg bg-muted/50 border border-border/60 text-center text-sm">
                   La base gravable es inferior al umbral de {PATRIMONIO_THRESHOLD_UVT.toLocaleString()} UVT. No se genera impuesto.
                 </div>
               )}

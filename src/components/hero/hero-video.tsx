@@ -17,6 +17,11 @@ export function HeroVideo() {
   const videoARef = useRef<HTMLVideoElement>(null);
   const videoBRef = useRef<HTMLVideoElement>(null);
   const [activeSlot, setActiveSlot] = useState<"A" | "B">("A");
+  const [nextReady, setNextReady] = useState(false);
+
+  const getActiveVideo = useCallback(() => {
+    return activeSlot === "A" ? videoARef.current : videoBRef.current;
+  }, [activeSlot]);
 
   const getInactiveVideo = useCallback(() => {
     return activeSlot === "A" ? videoBRef.current : videoARef.current;
@@ -27,6 +32,7 @@ export function HeroVideo() {
     (nextIndex: number) => {
       const inactive = getInactiveVideo();
       if (inactive) {
+        setNextReady(false);
         inactive.src = SCENES[nextIndex];
         inactive.load();
       }
@@ -34,27 +40,58 @@ export function HeroVideo() {
     [getInactiveVideo]
   );
 
+  // Handle canplaythrough on inactive video — marks it as ready
+  const handleCanPlayThrough = useCallback(
+    (slot: "A" | "B") => {
+      // Only mark ready if this slot is the inactive one
+      if (slot !== activeSlot) {
+        setNextReady(true);
+      }
+    },
+    [activeSlot]
+  );
+
   // Transition to next scene
   const transitionToNext = useCallback(() => {
+    // Don't transition if the next video isn't buffered yet
+    if (!nextReady) return;
+
     const nextIndex = (currentScene + 1) % SCENES.length;
+    const inactiveVideo = getInactiveVideo();
+
+    // Ensure the inactive video is playing BEFORE starting the visual transition
+    if (inactiveVideo) {
+      inactiveVideo.currentTime = 0;
+      const playPromise = inactiveVideo.play();
+      if (playPromise) {
+        playPromise.catch(() => {});
+      }
+    }
 
     setIsTransitioning(true);
 
     // After fade completes, swap slots
     setTimeout(() => {
+      // Use functional updates to avoid stale closure issues
       setActiveSlot((prev) => (prev === "A" ? "B" : "A"));
       setCurrentScene(nextIndex);
       setIsTransitioning(false);
+      setNextReady(false);
 
-      // Start playing the now-active video
-      const nowActive = activeSlot === "A" ? videoBRef.current : videoARef.current;
-      nowActive?.play().catch(() => {});
-
-      // Preload the next one
+      // Preload the next scene after a short delay
       const nextNext = (nextIndex + 1) % SCENES.length;
-      setTimeout(() => preloadNext(nextNext), 1000);
+      setTimeout(() => preloadNext(nextNext), 500);
     }, FADE_DURATION);
-  }, [currentScene, activeSlot, preloadNext]);
+  }, [currentScene, nextReady, getInactiveVideo, preloadNext]);
+
+  // Handle video ended — loop by resetting currentTime
+  const handleVideoEnded = useCallback((videoRef: React.RefObject<HTMLVideoElement | null>) => {
+    const video = videoRef.current;
+    if (video) {
+      video.currentTime = 0;
+      video.play().catch(() => {});
+    }
+  }, []);
 
   // Initialize first video
   useEffect(() => {
@@ -65,15 +102,39 @@ export function HeroVideo() {
       videoA.play().catch(() => {});
     }
 
-    // Preload second scene
-    setTimeout(() => preloadNext(1), 2000);
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    // Preload second scene aggressively — start immediately after first loads
+    const preloadTimer = setTimeout(() => {
+      const videoB = videoBRef.current;
+      if (videoB) {
+        videoB.src = SCENES[1];
+        videoB.load();
+      }
+    }, 500);
+
+    return () => clearTimeout(preloadTimer);
+  }, []);
 
   // Scene rotation timer
   useEffect(() => {
     const timer = setInterval(transitionToNext, SCENE_DURATION);
     return () => clearInterval(timer);
   }, [transitionToNext]);
+
+  // Preload next video as soon as current scene changes
+  useEffect(() => {
+    const activeVideo = getActiveVideo();
+    if (activeVideo) {
+      const handlePlaying = () => {
+        const nextIndex = (currentScene + 1) % SCENES.length;
+        const inactive = getInactiveVideo();
+        if (inactive && inactive.src !== window.location.origin + SCENES[nextIndex]) {
+          preloadNext(nextIndex);
+        }
+      };
+      activeVideo.addEventListener("playing", handlePlaying);
+      return () => activeVideo.removeEventListener("playing", handlePlaying);
+    }
+  }, [currentScene, getActiveVideo, getInactiveVideo, preloadNext]);
 
   return (
     <div className="absolute inset-0 overflow-hidden">
@@ -83,6 +144,9 @@ export function HeroVideo() {
         muted
         playsInline
         loop
+        preload="auto"
+        onCanPlayThrough={() => handleCanPlayThrough("A")}
+        onEnded={() => handleVideoEnded(videoARef)}
         className="absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out"
         style={{
           transitionDuration: `${FADE_DURATION}ms`,
@@ -96,6 +160,9 @@ export function HeroVideo() {
         muted
         playsInline
         loop
+        preload="auto"
+        onCanPlayThrough={() => handleCanPlayThrough("B")}
+        onEnded={() => handleVideoEnded(videoBRef)}
         className="absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out"
         style={{
           transitionDuration: `${FADE_DURATION}ms`,

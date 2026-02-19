@@ -16,7 +16,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
+    <div className="rounded-lg border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
@@ -133,7 +133,7 @@ export default function HorasExtrasPage() {
             ]} 
           />
 
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30">
                 <tr>
@@ -160,7 +160,7 @@ export default function HorasExtrasPage() {
             </table>
           </div>
 
-          <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+          <div className="flex gap-3 rounded-lg border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
             <Clock className="h-4 w-4 shrink-0 text-foreground/70" />
             <div>
               <p className="font-semibold">Nota sobre Jornada Nocturna:</p>

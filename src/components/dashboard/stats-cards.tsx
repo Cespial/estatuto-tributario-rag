@@ -30,7 +30,7 @@ export function StatsCards({ total, modificados, modificadosPct, conDerogado, co
       {CARDS.map(({ key, label, icon: Icon, color }) => {
         const v = values[key];
         return (
-          <div key={key} className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
+          <div key={key} className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
             <div className="flex items-center gap-2">
               <Icon className={`h-5 w-5 ${color}`} />
               <span className="text-xs uppercase tracking-wide font-medium text-muted-foreground">{label}</span>

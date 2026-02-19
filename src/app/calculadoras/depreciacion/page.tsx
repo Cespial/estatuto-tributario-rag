@@ -133,7 +133,7 @@ export default function DepreciacionPage() {
                 ]}
               />
 
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm overflow-hidden">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm overflow-hidden">
                 <div className="mb-4 flex items-center gap-2">
                   <TableIcon className="h-4 w-4 text-foreground/70" />
                   <h3 className="font-semibold tracking-tight">Tabla de Amortización</h3>
@@ -161,7 +161,7 @@ export default function DepreciacionPage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Ingresa los datos del activo para generar la tabla de depreciación
             </div>
           )}

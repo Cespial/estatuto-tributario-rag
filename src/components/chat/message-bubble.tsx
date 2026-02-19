@@ -43,7 +43,7 @@ function MessageBubbleInner({ message }: MessageBubbleProps) {
       </div>
       <div className="relative max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl">
         <div
-          className={`rounded-2xl px-4 py-3 ${
+          className={`rounded-lg px-4 py-3 ${
             isUser ? "bg-foreground text-background" : "bg-muted"
           }`}
         >

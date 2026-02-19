@@ -16,7 +16,7 @@ export function SuggestedQuestions({ onSelect }: SuggestedQuestionsProps) {
           <button
             key={q}
             onClick={() => onSelect(q)}
-            className="flex items-start gap-2 rounded-xl border border-border bg-card px-4 py-3 text-left text-sm text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
+            className="flex items-start gap-2 rounded-lg border border-border bg-card px-4 py-3 text-left text-sm text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
           >
             <MessageSquare className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
             <span>{q}</span>

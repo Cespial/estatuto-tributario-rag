@@ -99,7 +99,7 @@ export default function NominaCompletaPage() {
       <div className="grid gap-8 lg:grid-cols-3">
         {/* INPUTS */}
         <div className="lg:col-span-1 space-y-6">
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
               <User className="h-4 w-4 text-foreground/70" /> Datos del Trabajador
             </h3>
@@ -107,7 +107,7 @@ export default function NominaCompletaPage() {
             <CurrencyInput id="comisiones" label="Comisiones / Horas Extras" value={comisiones} onChange={setComisiones} />
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
               <Building2 className="h-4 w-4 text-foreground/70" /> Configuracion Empresa
             </h3>
@@ -128,17 +128,17 @@ export default function NominaCompletaPage() {
         {/* OUTPUTS */}
         <div className="lg:col-span-2 space-y-6">
           <div className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-xl border border-foreground/10 bg-card p-6 shadow-sm">
+            <div className="rounded-lg border border-foreground/10 bg-card p-6 shadow-sm">
               <span className="text-xs font-bold uppercase text-muted-foreground">Neto Mensual Trabajador</span>
               <div className="text-2xl font-bold text-foreground">{formatCOP(results.trabajador.netoTrabajador)}</div>
             </div>
-            <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
+            <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
               <span className="text-xs font-bold uppercase text-muted-foreground">Costo Mensual Empresa</span>
               <div className="text-2xl font-bold">{formatCOP(results.costoEmpleador)}</div>
             </div>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
+          <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
@@ -179,7 +179,7 @@ export default function NominaCompletaPage() {
             </table>
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">COSTO TOTAL ANUAL</span>
               <span className="text-2xl font-black text-foreground">{formatCOP(results.costoAnual)}</span>

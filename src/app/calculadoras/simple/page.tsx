@@ -129,7 +129,7 @@ export default function SimplePage() {
             placeholder="Ej: 7.7"
           />
 
-          <div className="space-y-4 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+          <div className="space-y-4 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="text-sm font-semibold text-muted-foreground">Parámetros comparación Ordinario</h3>
             <ToggleInput
               label={usaCostosReales ? "Usando costos reales" : "Usando margen estimado %"}
@@ -165,7 +165,7 @@ export default function SimplePage() {
           </div>
 
           {calculo?.superaTope && (
-            <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
+            <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-sm">
               <p className="font-bold">Atención: Supera el tope</p>
               <p>Tus ingresos ({formatUVT(calculo.ingresosUVT)}) superan el límite de 100.000 UVT para pertenecer al Régimen SIMPLE.</p>
             </div>
@@ -185,7 +185,7 @@ export default function SimplePage() {
                 ]}
               />
 
-              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold">Comparativa y Detalles</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -207,7 +207,7 @@ export default function SimplePage() {
                 </div>
               </div>
 
-              <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-xs">
+              <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 text-xs">
                 La comparación con régimen ordinario es estimada. Use el{" "}
                 <Link href="/calculadoras/comparador-regimenes" className="font-semibold underline hover:text-foreground">
                   Comparador de Regímenes
@@ -215,7 +215,7 @@ export default function SimplePage() {
                 para un análisis detallado.
               </div>
 
-              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
+              <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
                 <h4 className="mb-2 text-sm font-semibold">Desglose por Rangos</h4>
                 <div className="space-y-2 text-xs">
                   {calculo.desgloseBrackets.map((b, i) => (
@@ -228,7 +228,7 @@ export default function SimplePage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border border-dashed p-10 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
               Ingresa tus ingresos para proyectar el impuesto SIMPLE
             </div>
           )}

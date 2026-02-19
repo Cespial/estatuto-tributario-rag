@@ -1,21 +1,26 @@
 @import "tailwindcss";
 
-/* ─── Light mode: warm, premium Harvey.ai palette ─── */
+/* ─── Light mode: Harvey.ai premium warm-gray palette ─── */
 :root {
-  --background: #faf9f7;      /* warm off-white */
-  --foreground: #1a1a17;      /* warm near-black */
-  --card: #ffffff;             /* pure white cards on warm bg */
-  --card-foreground: #1a1a17;
-  --muted: #f0ede8;           /* warm beige-gray */
-  --muted-foreground: #78756e; /* warm medium gray */
-  --border: #e8e4de;          /* warm subtle border */
-  --primary: #1a1a17;         /* near-black primary (Harvey style) */
-  --primary-foreground: #faf9f7;
-  --accent: #f5f2ed;          /* warm accent surface */
-  --accent-foreground: #1a1a17;
-  --ring: #1a1a17;
+  --background: #fafaf9;
+  --foreground: #0f0e0d;
+  --card: #ffffff;
+  --card-foreground: #0f0e0d;
+  --muted: #f2f1f0;
+  --muted-foreground: #706d66;
+  --border: #e5e5e3;
+  --primary: #0f0e0d;
+  --primary-foreground: #fafaf9;
+  --accent: #f2f1f0;
+  --accent-foreground: #0f0e0d;
+  --ring: #0f0e0d;
   --destructive: #dc2626;
   --success: #16a34a;
+
+  /* Custom easing curves — premium feel */
+  --ease-in: cubic-bezier(0.7, 0, 1, 0.3);
+  --ease-out: cubic-bezier(0, 0.7, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 @theme inline {
@@ -40,18 +45,18 @@
 
 /* ─── Dark mode: warm dark ─── */
 .dark {
-  --background: #0c0c0a;      /* warm near-black */
-  --foreground: #e8e4dd;      /* warm light text */
-  --card: #161614;            /* slightly lighter dark card */
-  --card-foreground: #e8e4dd;
-  --muted: #1e1e1a;           /* warm dark surface */
-  --muted-foreground: #9a968e; /* warm medium gray */
-  --border: #2a2a25;          /* warm dark border */
-  --primary: #e8e4dd;         /* light primary on dark bg */
-  --primary-foreground: #0c0c0a;
-  --accent: #1a1a15;
-  --accent-foreground: #e8e4dd;
-  --ring: #e8e4dd;
+  --background: #0f0e0d;
+  --foreground: #fafaf9;
+  --card: #1f1d1a;
+  --card-foreground: #fafaf9;
+  --muted: #1f1d1a;
+  --muted-foreground: #8f8b85;
+  --border: #33312c;
+  --primary: #fafaf9;
+  --primary-foreground: #0f0e0d;
+  --accent: #1f1d1a;
+  --accent-foreground: #fafaf9;
+  --ring: #fafaf9;
   --destructive: #ef4444;
   --success: #22c55e;
 }
@@ -60,7 +65,7 @@
 * {
   transition-property: color, background-color, border-color, box-shadow, opacity;
   transition-duration: 150ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--ease-in-out, cubic-bezier(0.7, 0, 0.3, 1));
 }
 
 body {
@@ -111,32 +116,33 @@ body {
 
 /* ─── Harvey-style utility classes ─── */
 
-/* Premium heading typography */
+/* Premium heading typography — weight 400 like Harvey.ai */
 .heading-serif {
   font-family: var(--font-serif, 'Playfair Display', Georgia, serif);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.0175em;
+  line-height: 1.05;
+  font-feature-settings: "liga" on, "calt" on;
 }
 
 /* Subtle card surface */
 .surface-card {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
-/* Premium hover lift effect */
+/* Premium hover lift effect — subtle 1px shift */
 .hover-lift {
-  transition: transform 200ms ease, box-shadow 200ms ease;
+  transition: transform 300ms var(--ease-in-out), box-shadow 300ms var(--ease-in-out);
 }
 .hover-lift:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.08), 0 4px 10px -6px rgba(0, 0, 0, 0.04);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.06), 0 2px 6px -2px rgba(0, 0, 0, 0.03);
 }
 
 .dark .hover-lift:hover {
-  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.4), 0 4px 10px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.3), 0 2px 6px -2px rgba(0, 0, 0, 0.2);
 }
 
 /* ─── Markdown styles in chat ─── */

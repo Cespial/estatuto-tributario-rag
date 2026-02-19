@@ -101,7 +101,7 @@ export default function GlosarioPage() {
         {Object.keys(groupedGlosario).sort().map((letter) => (
           <div key={letter} id={`letter-${letter}`} className="scroll-mt-40">
             <div className="flex items-center gap-4 mb-8">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-muted text-2xl font-black text-foreground/70">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted text-2xl font-black text-foreground/70">
                 {letter}
               </div>
               <div className="h-px flex-1 bg-border" />
@@ -109,7 +109,7 @@ export default function GlosarioPage() {
             
             <div className="grid gap-6 md:grid-cols-2">
               {groupedGlosario[letter].map((term, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-xl border border-border/60 bg-card p-6 shadow-sm transition-all hover:shadow-md hover:border-border">
+                <div key={idx} className="group relative overflow-hidden rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:shadow-md hover:border-border">
                   <div className="mb-3">
                     <h3 className="text-lg font-bold text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
                       <HighlightText text={term.termino} highlight={search} />
@@ -164,7 +164,7 @@ export default function GlosarioPage() {
         ))}
 
         {Object.keys(groupedGlosario).length === 0 && (
-          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border border-dashed">
+          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-lg border border-border border-dashed">
             <Search className="h-10 w-10 mx-auto mb-4 opacity-20" />
             <p className="text-lg font-medium">No se encontraron términos</p>
             <p className="text-sm">Intente con otra búsqueda o revise la ortografía.</p>
