@@ -233,7 +233,7 @@ export default function SeguridadSocialPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Aportes a Seguridad Social 2026</h1>
+      <h1 className="mb-2 heading-serif text-3xl">Aportes a Seguridad Social 2026</h1>
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">

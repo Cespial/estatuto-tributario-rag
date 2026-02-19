@@ -58,8 +58,8 @@ export default function ComparacionPatrimonialPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Renta por Comparacion Patrimonial</h1>
-        <p className="mt-2 mb-10 text-muted-foreground">
+        <h1 className="heading-serif text-3xl">Renta por Comparacion Patrimonial</h1>
+        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">
           Verifique si el incremento de su patrimonio esta debidamente justificado (Art. 236 - 239 ET).
         </p>
       </div>

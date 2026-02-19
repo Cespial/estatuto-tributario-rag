@@ -24,7 +24,7 @@ export function TopReferencedTable({ articles }: TopReferencedTableProps) {
 
   return (
     <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
-      <h3 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Top 10 mas referenciados</h3>
+      <h3 className="heading-serif mb-3 text-lg">Top 10 mas referenciados</h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead className="bg-muted/50">

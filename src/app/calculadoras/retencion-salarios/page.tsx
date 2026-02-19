@@ -137,8 +137,8 @@ export default function RetencionSalariosPage() {
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver a calculadoras
         </Link>
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Retención en la Fuente — Salarios</h1>
-        <p className="mt-2 text-muted-foreground">Depuración mensual completa según Procedimiento 1 (Art. 388 ET) para el año 2026.</p>
+        <h1 className="heading-serif text-3xl">Retención en la Fuente — Salarios</h1>
+        <p className="mt-2 text-base leading-relaxed text-muted-foreground">Depuración mensual completa según Procedimiento 1 (Art. 388 ET) para el año 2026.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">

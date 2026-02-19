@@ -86,8 +86,8 @@ export default function FavoritosPage() {
       <div className="mx-auto w-full max-w-5xl flex-1 px-4 py-10">
       <div className="mb-12 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Mi Espacio</h1>
-          <p className="mt-2 text-sm text-muted-foreground">Gestiona tus favoritos, notas y datos guardados.</p>
+          <h1 className="heading-serif text-3xl">Mi Espacio</h1>
+          <p className="mt-2 text-base leading-relaxed text-muted-foreground">Gestiona tus favoritos, notas y datos guardados.</p>
         </div>
         <div className="flex gap-2">
           <button

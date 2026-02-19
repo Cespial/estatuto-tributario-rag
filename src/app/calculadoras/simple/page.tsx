@@ -97,8 +97,8 @@ export default function SimplePage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Régimen SIMPLE de Tributación</h1>
-        <p className="mt-2 text-muted-foreground">
+        <h1 className="heading-serif text-3xl">Régimen SIMPLE de Tributación</h1>
+        <p className="mt-2 text-base leading-relaxed text-muted-foreground">
           Calcula el impuesto unificado para el año gravable {CURRENT_UVT_YEAR} (Art. 903-916 ET).
         </p>
       </div>

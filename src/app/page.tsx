@@ -14,6 +14,7 @@ import { HeroVideo } from "@/components/hero/hero-video";
 import { UseCaseTicker } from "@/components/landing/use-case-ticker";
 import { MetricsSection } from "@/components/landing/metrics-section";
 import { FooterLinks } from "@/components/landing/footer-links";
+import { Reveal } from "@/components/ui/reveal";
 
 const QUICK_ACCESS = [
   {
@@ -70,8 +71,7 @@ export default function Home() {
         <div className="relative z-10 flex h-full items-center">
           <div className="mx-auto w-full max-w-6xl px-6 pb-32 md:px-8">
             <h1
-              className="max-w-2xl font-[family-name:var(--font-playfair)] text-6xl font-normal leading-none tracking-[-0.0175em] text-white md:text-8xl lg:text-[7rem]"
-              style={{ lineHeight: "1.05" }}
+              className="heading-serif max-w-2xl text-6xl text-white md:text-8xl lg:text-[7rem]"
             >
               Tributaria
               <br />
@@ -87,13 +87,13 @@ export default function Home() {
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
                 href="/calculadoras"
-                className="inline-flex h-12 items-center gap-2 rounded bg-white px-6 text-sm font-medium tracking-wide text-black transition-all duration-300 hover:bg-white/85"
+                className="inline-flex h-12 items-center gap-2 rounded bg-white px-6 text-sm font-medium text-black transition-all duration-300 hover:bg-white/85"
               >
                 Explorar Calculadoras
               </Link>
               <Link
                 href="#asistente"
-                className="inline-flex h-12 items-center gap-2 rounded border border-white/30 px-6 text-sm font-medium tracking-wide text-white transition-all duration-300 hover:border-white/60 hover:bg-white/10"
+                className="inline-flex h-12 items-center gap-2 rounded border border-white/30 px-6 text-sm font-medium text-white transition-all duration-300 hover:border-white/60 hover:bg-white/10"
               >
                 Asistente IA
               </Link>
@@ -104,7 +104,7 @@ export default function Home() {
         {/* Bottom stats bar */}
         <div className="absolute bottom-0 left-0 right-0 z-10 bg-black/40 backdrop-blur-sm">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-8">
-            <div className="flex items-center gap-8 text-[13px] tracking-wide text-white/50">
+            <div className="flex items-center gap-8 text-[13px] tracking-[0.05em] text-white/50">
               <span>35 Calculadoras</span>
               <span className="hidden text-white/20 sm:inline">|</span>
               <span className="hidden sm:inline">1,294 Articulos ET</span>
@@ -128,10 +128,9 @@ export default function Home() {
           SECTION 2: PRODUCT SIZZLE — Ivory background
          ═══════════════════════════════════════════════ */}
       <section className="bg-background px-6 py-28 md:px-8 md:py-36">
-        <div className="mx-auto max-w-4xl">
+        <Reveal className="mx-auto max-w-4xl">
           <h2
-            className="font-[family-name:var(--font-playfair)] text-3xl font-normal leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl"
-            style={{ lineHeight: "1.1" }}
+            className="heading-serif text-3xl text-foreground md:text-5xl lg:text-6xl"
           >
             La plataforma tributaria mas completa del pais.{" "}
             <span className="text-muted-foreground">
@@ -139,14 +138,14 @@ export default function Home() {
               calendario fiscal y asistente con IA — todo en un solo lugar.
             </span>
           </h2>
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════
           SECTION 3: USE CASE TICKER — Ivory continues
          ═══════════════════════════════════════════════ */}
       <section className="bg-background px-6 py-24 md:px-8 md:py-32">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-20">
+        <Reveal className="mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-20" delay={100}>
           <div className="shrink-0 lg:w-64">
             <p className="text-sm font-medium text-foreground">
               Los profesionales tributarios
@@ -163,18 +162,18 @@ export default function Home() {
           <div className="flex-1">
             <UseCaseTicker />
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════
           SECTION 4: FEATURES — Gray background for rhythm
          ═══════════════════════════════════════════════ */}
       <section className="bg-muted/40 px-6 py-24 md:px-8 md:py-32">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="mb-4 text-center font-[family-name:var(--font-playfair)] text-3xl font-normal tracking-tight">
+        <Reveal className="mx-auto max-w-5xl" delay={100}>
+          <h2 className="heading-serif mb-4 text-center text-3xl">
             Herramientas Profesionales
           </h2>
-          <p className="mx-auto mb-16 max-w-xl text-center text-base text-muted-foreground">
+          <p className="mx-auto mb-16 max-w-xl text-center text-lg text-muted-foreground">
             Acceso rapido a las calculadoras mas utilizadas por contadores y
             tributaristas colombianos.
           </p>
@@ -210,16 +209,16 @@ export default function Home() {
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════
           SECTION 5: METRICS — Ivory
          ═══════════════════════════════════════════════ */}
       <section className="bg-background px-6 py-24 md:px-8 md:py-32">
-        <div className="mx-auto max-w-5xl">
+        <Reveal className="mx-auto max-w-5xl" delay={100}>
           <MetricsSection />
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════
@@ -229,54 +228,53 @@ export default function Home() {
         id="asistente"
         className="bg-foreground px-6 py-24 md:px-8 md:py-32"
       >
-        <div className="mx-auto max-w-5xl">
-          <h2 className="mb-4 text-center font-[family-name:var(--font-playfair)] text-3xl font-normal tracking-tight text-background">
+        <Reveal className="mx-auto max-w-5xl" delay={100}>
+          <h2 className="heading-serif mb-4 text-center text-3xl text-background">
             Asistente Tributario
           </h2>
-          <p className="mx-auto mb-14 max-w-xl text-center text-base text-background/60">
+          <p className="mx-auto mb-14 max-w-xl text-center text-lg text-background/60">
             Consulte los 1,294 articulos del Estatuto Tributario con
             inteligencia artificial.
           </p>
 
-          <div className="flex h-[650px] flex-col overflow-hidden rounded-lg border border-background/10 bg-card shadow-sm">
-            <div className="border-b border-border bg-muted/30 px-5 py-4">
+          <div className="flex h-[600px] flex-col overflow-hidden rounded-lg border border-background/10 bg-background shadow-sm md:h-[650px]">
+            <div className="border-b border-border/40 bg-muted/30 px-5 py-4">
               <h3 className="font-medium text-foreground">Asistente con IA</h3>
             </div>
             <ChatContainer />
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════
           SECTION 7: CTA FINAL — Dark continues
          ═══════════════════════════════════════════════ */}
       <section className="bg-foreground px-6 py-24 md:px-8 md:py-32">
-        <div className="mx-auto max-w-3xl text-center">
+        <Reveal className="mx-auto max-w-3xl text-center" delay={100}>
           <h2
-            className="font-[family-name:var(--font-playfair)] text-4xl font-normal tracking-tight text-background md:text-5xl lg:text-6xl"
-            style={{ lineHeight: "1.05" }}
+            className="heading-serif text-4xl text-background md:text-5xl lg:text-6xl"
           >
             Domine la tributaria colombiana
           </h2>
-          <p className="mx-auto mt-6 max-w-lg text-base text-background/60">
+          <p className="mx-auto mt-6 max-w-lg text-lg text-background/60">
             Calculadoras, Estatuto Tributario, calendario fiscal y asistente con
             IA — la herramienta definitiva para profesionales tributarios.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/calculadoras"
-              className="inline-flex h-12 items-center gap-2 rounded bg-background px-6 text-sm font-medium tracking-wide text-foreground transition-all duration-300 hover:bg-background/85"
+              className="inline-flex h-12 items-center gap-2 rounded bg-background px-6 text-sm font-medium text-foreground transition-all duration-300 hover:bg-background/85"
             >
               Explorar Calculadoras
             </Link>
             <Link
               href="/explorador"
-              className="inline-flex h-12 items-center gap-2 rounded border border-background/30 px-6 text-sm font-medium tracking-wide text-background transition-all duration-300 hover:border-background/60 hover:bg-background/10"
+              className="inline-flex h-12 items-center gap-2 rounded border border-background/30 px-6 text-sm font-medium text-background transition-all duration-300 hover:border-background/60 hover:bg-background/10"
             >
               Consultar Estatuto
             </Link>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ═══════════════════════════════════════════════

@@ -11,7 +11,7 @@ export function CrossReferences({ crossReferences, referencedBy }: CrossReferenc
 
   return (
     <section className="mb-6">
-      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Cross-references</h2>
+      <h2 className="heading-serif mb-3 text-lg">Cross-references</h2>
 
       {crossReferences.length > 0 && (
         <div className="mb-4">

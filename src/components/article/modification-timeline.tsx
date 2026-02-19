@@ -35,7 +35,7 @@ export function ModificationTimeline({ modifications, leyesModificatorias }: Mod
 
   return (
     <section className="mb-6">
-      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">
+      <h2 className="heading-serif mb-3 text-lg">
         Timeline de modificaciones ({modifications.length})
       </h2>
       <div className="relative ml-3 border-l-2 border-foreground/20 pl-6">

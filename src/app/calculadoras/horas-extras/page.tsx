@@ -92,8 +92,8 @@ export default function HorasExtrasPage() {
           <ArrowLeft className="h-4 w-4" />
           Volver a calculadoras
         </Link>
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Horas Extras y Recargos</h1>
-        <p className="mb-10 text-muted-foreground">Calcula recargos según la Reforma Laboral (Ley 2466/2025) y reducción de jornada (Ley 2101/2021).</p>
+        <h1 className="heading-serif text-3xl">Horas Extras y Recargos</h1>
+        <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula recargos según la Reforma Laboral (Ley 2466/2025) y reducción de jornada (Ley 2101/2021).</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">

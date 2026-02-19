@@ -51,7 +51,7 @@ export default function UVTPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Conversor UVT ↔ COP</h1>
+      <h1 className="mb-2 heading-serif text-3xl">Conversor UVT ↔ COP</h1>
 
       <div className="mb-6 space-y-4">
         {/* Direction toggle */}

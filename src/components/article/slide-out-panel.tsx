@@ -149,7 +149,7 @@ export function SlideOutPanel() {
                 title={ESTADO_LABELS[article.estado] || article.estado}
               />
             )}
-            <span className="font-[family-name:var(--font-playfair)] font-semibold">
+            <span className="heading-serif">
               {article?.id_articulo || "Cargando..."}
             </span>
           </div>
@@ -173,7 +173,7 @@ export function SlideOutPanel() {
           <div className="space-y-4 p-4">
             {/* Title */}
             <div>
-              <h3 className="font-[family-name:var(--font-playfair)] text-lg font-semibold tracking-tight">{article.titulo_corto}</h3>
+              <h3 className="heading-serif text-lg">{article.titulo_corto}</h3>
               <p className="mt-1 text-sm text-muted-foreground">{article.libro}</p>
             </div>
 

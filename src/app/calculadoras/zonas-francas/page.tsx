@@ -55,8 +55,8 @@ export default function ZonasFrancasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Zonas Francas</h1>
-      <p className="mb-10 text-muted-foreground">Calcula el impuesto de renta para usuarios de Zona Franca y valida la TTD mínima.</p>
+      <h1 className="mb-2 heading-serif text-3xl">Zonas Francas</h1>
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula el impuesto de renta para usuarios de Zona Franca y valida la TTD mínima.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">

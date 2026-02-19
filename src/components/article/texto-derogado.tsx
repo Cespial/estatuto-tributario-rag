@@ -32,7 +32,7 @@ export function TextoDerogado({ items, textoDerogadoRaw }: TextoDerogadoProps) {
 
   return (
     <section className="mb-6">
-      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">
+      <h2 className="heading-serif mb-3 text-lg">
         Versiones anteriores ({items.length})
       </h2>
       <div className="space-y-2">

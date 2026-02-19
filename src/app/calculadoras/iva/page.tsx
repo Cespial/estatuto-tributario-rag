@@ -45,7 +45,7 @@ export default function IVAPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Referencia IVA</h1>
+      <h1 className="mb-2 heading-serif text-3xl">Referencia IVA</h1>
 
       <div className="mb-6 space-y-4">
         {/* Mode toggle */}

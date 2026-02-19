@@ -97,11 +97,11 @@ export default function DoctrinaPage() {
           <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Scale className="h-8 w-8" />
           </div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
+          <h1 className="heading-serif text-3xl text-foreground">
             Doctrina DIAN
           </h1>
         </div>
-        <p className="mt-2 text-sm text-muted-foreground max-w-2xl">
+        <p className="mt-2 text-base leading-relaxed text-muted-foreground max-w-2xl">
           Conceptos y oficios de la Direccion de Impuestos y Aduanas Nacionales
         </p>
       </div>

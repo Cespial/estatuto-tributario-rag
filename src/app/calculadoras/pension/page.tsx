@@ -73,8 +73,8 @@ export default function PensionPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Verificador de Pensión</h1>
-        <p className="mt-2 text-muted-foreground">
+        <h1 className="heading-serif text-3xl">Verificador de Pensión</h1>
+        <p className="mt-2 text-base leading-relaxed text-muted-foreground">
           Proyecta el cumplimiento de requisitos de pensión bajo la Ley 100/1993 y la Reforma 2024.
         </p>
       </div>

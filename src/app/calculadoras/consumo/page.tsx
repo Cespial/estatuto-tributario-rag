@@ -45,8 +45,8 @@ export default function ConsumoPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Impuesto Nacional al Consumo</h1>
-        <p className="mt-2 mb-10 text-muted-foreground">
+        <h1 className="heading-serif text-3xl">Impuesto Nacional al Consumo</h1>
+        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">
           Calcula el INC para servicios de restaurante, telefonía y vehículos (Art. 512-1 ET).
         </p>
       </div>

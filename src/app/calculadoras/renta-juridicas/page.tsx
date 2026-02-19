@@ -84,8 +84,8 @@ export default function RentaJuridicasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Renta Personas Juridicas 2026</h1>
-      <p className="mb-10 text-sm text-muted-foreground">Incluye medidas de emergencia del Decreto 1474 de 2025 y TTD del 15%.</p>
+      <h1 className="mb-2 heading-serif text-3xl">Renta Personas Juridicas 2026</h1>
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">Incluye medidas de emergencia del Decreto 1474 de 2025 y TTD del 15%.</p>
 
       <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div className="space-y-4">

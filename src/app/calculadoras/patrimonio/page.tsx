@@ -62,8 +62,8 @@ export default function PatrimonioPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Impuesto al Patrimonio</h1>
-      <p className="mb-10 text-muted-foreground">Perfeccionado con exclusión de vivienda (12.000 UVT).</p>
+      <h1 className="mb-2 heading-serif text-3xl">Impuesto al Patrimonio</h1>
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">Perfeccionado con exclusión de vivienda (12.000 UVT).</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">

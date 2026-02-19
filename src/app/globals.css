@@ -271,6 +271,27 @@ body {
   color: var(--background);
 }
 
+/* ─── Callout/info box standard ─── */
+.callout-info {
+  background: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--foreground);
+}
+
+.callout-info strong {
+  font-weight: 600;
+}
+
+.callout-info ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
 /* ─── Scroll reveal animation ─── */
 @keyframes reveal-up {
   from {
@@ -284,7 +305,7 @@ body {
 }
 
 .reveal-on-scroll {
-  animation: reveal-up 0.6s var(--ease-out) both;
+  animation: reveal-up 0.7s var(--ease-out) both;
 }
 
 /* ─── Text wrap utility for headings ─── */

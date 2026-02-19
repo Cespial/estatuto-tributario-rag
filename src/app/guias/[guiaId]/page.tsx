@@ -28,7 +28,7 @@ export default function GuiaInteractivaPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <div className="container py-20 text-center">
-          <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold">Guía no encontrada</h1>
+          <h1 className="heading-serif text-2xl">Guía no encontrada</h1>
           <p className="mt-2 text-muted-foreground">La guía que buscas no existe o fue removida.</p>
           <Link href="/guias" className="mt-4 inline-block text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground">Volver al índice de guías</Link>
         </div>
@@ -66,7 +66,7 @@ export default function GuiaInteractivaPage() {
       </Link>
 
       <div className="mb-12">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">{guia.titulo}</h1>
+        <h1 className="heading-serif text-3xl">{guia.titulo}</h1>
         <p className="mt-2 text-sm text-muted-foreground">{guia.descripcion}</p>
 
         {/* Progress breadcrumb */}
@@ -88,7 +88,7 @@ export default function GuiaInteractivaPage() {
               <div className="mt-1 rounded-full bg-muted p-2 text-foreground/70">
                 <HelpCircle className="h-6 w-6" />
               </div>
-              <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold leading-tight">{currentNode.texto}</h2>
+              <h2 className="heading-serif text-2xl">{currentNode.texto}</h2>
             </div>
 
             <div className="grid gap-3 sm:grid-cols-2">
@@ -111,7 +111,7 @@ export default function GuiaInteractivaPage() {
                 <CheckCircle2 className="h-6 w-6" />
               </div>
               <div>
-                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-foreground leading-tight">
+                <h2 className="heading-serif text-2xl text-foreground">
                   {currentNode?.texto}
                 </h2>
                 {currentNode?.recomendacion && (

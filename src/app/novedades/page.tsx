@@ -60,11 +60,11 @@ export default function NovedadesPage() {
           <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Newspaper className="h-8 w-8" />
           </div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
+          <h1 className="heading-serif text-3xl text-foreground">
             Novedades Normativas
           </h1>
         </div>
-        <p className="mt-2 text-sm text-muted-foreground max-w-2xl">
+        <p className="mt-2 text-base leading-relaxed text-muted-foreground max-w-2xl">
           Cambios recientes en legislacion tributaria colombiana
         </p>
       </div>

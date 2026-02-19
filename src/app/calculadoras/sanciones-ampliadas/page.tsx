@@ -123,8 +123,8 @@ export default function SancionesAmpliadasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Sanciones Tributarias Ampliadas</h1>
-      <p className="mb-10 text-sm text-muted-foreground">Calculos actualizados al Estatuto Tributario y UVT 2026.</p>
+      <h1 className="mb-2 heading-serif text-3xl">Sanciones Tributarias Ampliadas</h1>
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calculos actualizados al Estatuto Tributario y UVT 2026.</p>
 
       <div className="mb-6 space-y-4">
         <SelectInput

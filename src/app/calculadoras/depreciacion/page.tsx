@@ -76,8 +76,8 @@ export default function DepreciacionPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Depreciación Fiscal</h1>
-        <p className="mt-2 mb-10 text-muted-foreground">
+        <h1 className="heading-serif text-3xl">Depreciación Fiscal</h1>
+        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">
           Calcula la alícuota de depreciación según los límites máximos del Art. 137 ET.
         </p>
       </div>

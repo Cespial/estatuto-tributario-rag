@@ -87,8 +87,8 @@ export default function ComparadorRegimenesPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Comparador Ordinario vs SIMPLE</h1>
-        <p className="mt-2 mb-10 text-muted-foreground">Analice cual regimen tributario le conviene mas para el ano {CURRENT_UVT_YEAR}.</p>
+        <h1 className="heading-serif text-3xl">Comparador Ordinario vs SIMPLE</h1>
+        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">Analice cual regimen tributario le conviene mas para el ano {CURRENT_UVT_YEAR}.</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">

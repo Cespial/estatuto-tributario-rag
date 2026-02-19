@@ -302,10 +302,10 @@ const CALCULATORS = [
 export default function CalculadorasPage() {
   return (
     <>
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">
+      <h1 className="mb-2 heading-serif text-3xl">
         Calculadoras Tributarias
       </h1>
-      <p className="mb-10 text-sm text-muted-foreground">
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         35 herramientas de calculo tributario integradas con el Estatuto Tributario de Colombia.
       </p>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

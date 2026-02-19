@@ -60,8 +60,8 @@ export default function AnticipoPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Anticipo de Renta</h1>
-      <p className="mb-10 text-sm text-muted-foreground">
+      <h1 className="mb-2 heading-serif text-3xl">Anticipo de Renta</h1>
+      <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         Calcule el anticipo para el año siguiente segun el Art. 807 del Estatuto Tributario.
       </p>
 

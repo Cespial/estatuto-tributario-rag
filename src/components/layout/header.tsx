@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes";
 import { Moon, Sun, Scale } from "lucide-react";
 
-import { useSyncExternalStore } from "react";
+import { useSyncExternalStore, useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
@@ -38,10 +38,25 @@ export function Header({ variant = "default" }: HeaderProps) {
   );
   const pathname = usePathname();
 
+  // Scroll-aware: when transparent header scrolls past hero, transition to solid
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (variant !== "transparent") return;
+    const handleScroll = () => {
+      setScrolled(window.scrollY > window.innerHeight * 0.85);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [variant]);
+
+  // Effective transparent state: transparent only when not scrolled
+  const showTransparent = isTransparent && !scrolled;
+
   return (
     <header className={clsx(
       "sticky top-0 z-50 will-change-transform transition-all duration-300",
-      isTransparent
+      showTransparent
         ? "border-b border-transparent bg-transparent"
         : "border-b border-border/40 bg-background/80 backdrop-blur-md"
     )}>
@@ -49,8 +64,8 @@ export function Header({ variant = "default" }: HeaderProps) {
         <div className="flex flex-1 items-center gap-6 overflow-hidden">
           {/* Logo — Harvey.ai inspired: elegant serif feel */}
           <Link href="/" className="flex shrink-0 items-center gap-2.5">
-            <Scale className={clsx("h-5 w-5", isTransparent ? "text-white" : "text-foreground")} />
-            <h1 className={clsx("whitespace-nowrap text-lg tracking-tight", isTransparent && "text-white")}>
+            <Scale className={clsx("h-5 w-5", showTransparent ? "text-white" : "text-foreground")} />
+            <h1 className={clsx("whitespace-nowrap text-lg tracking-tight", showTransparent && "text-white")}>
               <span className="font-light">SuperApp</span>{" "}
               <span className="font-semibold">Tributaria</span>
             </h1>
@@ -79,21 +94,21 @@ export function Header({ variant = "default" }: HeaderProps) {
                     className={clsx(
                       "relative shrink-0 snap-start py-1 text-[13px] font-medium uppercase tracking-[0.05em] transition-colors",
                       isActive
-                        ? isTransparent ? "text-white font-semibold" : "text-foreground font-semibold"
-                        : isTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
+                        ? showTransparent ? "text-white font-semibold" : "text-foreground font-semibold"
+                        : showTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
                     )}
                   >
                     {label}
                     {/* Subtle active underline indicator */}
                     {isActive && (
-                      <span className={clsx("absolute inset-x-0 -bottom-[1px] h-[1.5px] rounded-full", isTransparent ? "bg-white" : "bg-foreground")} />
+                      <span className={clsx("absolute inset-x-0 -bottom-[1px] h-[1.5px] rounded-full", showTransparent ? "bg-white" : "bg-foreground")} />
                     )}
                   </Link>
                 );
               })}
             </div>
             {/* Right fade overlay for scroll indication */}
-            <div className={clsx("pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l to-transparent", isTransparent ? "from-transparent" : "from-background/80")} />
+            <div className={clsx("pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l to-transparent", showTransparent ? "from-transparent" : "from-background/80")} />
           </nav>
         </div>
 
@@ -104,7 +119,7 @@ export function Header({ variant = "default" }: HeaderProps) {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className={clsx(
                 "rounded-md p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary",
-                isTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
+                showTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
               )}
               aria-label="Cambiar tema"
             >

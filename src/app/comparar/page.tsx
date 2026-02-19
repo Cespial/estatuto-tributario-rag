@@ -96,11 +96,11 @@ export default function CompararPage() {
           </Link>
           <div className="flex items-center gap-3">
             <History className="h-8 w-8 text-foreground/70" />
-            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">
+            <h1 className="heading-serif text-3xl">
               Comparador Multi-año
             </h1>
           </div>
-          <p className="mt-2 text-sm text-muted-foreground">Analice la evolución de los artículos tras las reformas tributarias.</p>
+          <p className="mt-2 text-base leading-relaxed text-muted-foreground">Analice la evolución de los artículos tras las reformas tributarias.</p>
         </div>
 
         {article && (
@@ -177,7 +177,7 @@ export default function CompararPage() {
               <div className="mb-4 rounded-full bg-muted p-4">
                 <Scale className="h-10 w-10 text-foreground/70" />
               </div>
-              <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold">Inicie una comparación</h3>
+              <h3 className="heading-serif text-xl">Inicie una comparación</h3>
               <p className="mt-2 max-w-sm text-sm text-muted-foreground">
                 Seleccione un artículo modificado del panel lateral para visualizar los cambios palabra por palabra.
               </p>
@@ -191,7 +191,7 @@ export default function CompararPage() {
           ) : article ? (
             <div className="space-y-6">
               <div className="flex flex-col gap-2">
-                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-foreground">{article.id_articulo}</h2>
+                <h2 className="heading-serif text-2xl text-foreground">{article.id_articulo}</h2>
                 <p className="text-sm font-medium text-muted-foreground">{article.titulo}</p>
               </div>
 

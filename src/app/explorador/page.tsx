@@ -173,15 +173,15 @@ function ExploradorContent() {
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 pb-16">
         <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Explorador</h1>
-            <p className="mt-2 text-sm text-muted-foreground">Navegue y filtre los articulos del Estatuto Tributario.</p>
+            <h1 className="heading-serif text-3xl">Explorador</h1>
+            <p className="mt-2 text-base leading-relaxed text-muted-foreground">Navegue y filtre los articulos del Estatuto Tributario.</p>
           </div>
           {/* View toggle */}
           <div className="flex items-center gap-1 rounded-lg border border-border p-1">
             <button
               onClick={() => setView("grid")}
               className={clsx(
-                "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm transition-colors",
+                "flex items-center gap-1.5 rounded px-4 py-2 text-sm transition-colors",
                 view === "grid" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
               )}
             >
@@ -191,7 +191,7 @@ function ExploradorContent() {
             <button
               onClick={() => setView("graph")}
               className={clsx(
-                "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm transition-colors",
+                "flex items-center gap-1.5 rounded px-4 py-2 text-sm transition-colors",
                 view === "graph" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
               )}
             >

@@ -80,7 +80,7 @@ export default function IndicadoresPage() {
             {filteredIndicadores.length > 0 ? (
               filteredIndicadores.map((cat, idx) => (
                 <div key={idx} className="flex flex-col gap-4 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                  <h2 className="text-lg font-semibold border-b border-border pb-2 text-foreground font-[family-name:var(--font-playfair)] flex items-center gap-2">
+                  <h2 className="text-lg border-b border-border pb-2 text-foreground heading-serif flex items-center gap-2">
                     {cat.categoria}
                   </h2>
                   <div className="grid gap-4">

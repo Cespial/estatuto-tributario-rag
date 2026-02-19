@@ -208,8 +208,8 @@ export default function ICAPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Impuesto ICA (Industria y Comercio)</h1>
-        <p className="mb-10 text-muted-foreground">Declaracion privada — Ano Gravable {anoGravable}</p>
+        <h1 className="heading-serif text-3xl">Impuesto ICA (Industria y Comercio)</h1>
+        <p className="mb-10 text-base leading-relaxed text-muted-foreground">Declaracion privada — Ano Gravable {anoGravable}</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">

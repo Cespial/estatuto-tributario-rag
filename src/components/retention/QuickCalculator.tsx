@@ -44,7 +44,7 @@ export function QuickCalculator({ concepto, tarifa, baseMinUVT, uvtValue }: Quic
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 animate-in fade-in duration-200">
       <div className="w-full max-w-sm rounded-lg border border-border bg-card p-6 shadow">
         <div className="mb-4 flex items-center justify-between">
-          <h3 className="font-[family-name:var(--font-playfair)] text-lg font-semibold tracking-tight">Calculadora Rápida</h3>
+          <h3 className="heading-serif text-lg">Calculadora Rápida</h3>
           <button onClick={() => setIsOpen(false)} className="text-muted-foreground hover:text-foreground">
             <X className="h-5 w-5" />
           </button>

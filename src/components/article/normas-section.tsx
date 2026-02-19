@@ -28,7 +28,7 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
 
   return (
     <section className="mb-6">
-      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Normas relacionadas</h2>
+      <h2 className="heading-serif mb-3 text-lg">Normas relacionadas</h2>
       {/* Tabs */}
       <div
         className="mb-3 flex gap-1 overflow-x-auto border-b border-border"
