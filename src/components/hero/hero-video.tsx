@@ -13,162 +13,100 @@ const FADE_DURATION = 1500; // 1.5s crossfade
 
 export function HeroVideo() {
   const [currentScene, setCurrentScene] = useState(0);
+  const [nextScene, setNextScene] = useState<number | null>(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
-  const videoARef = useRef<HTMLVideoElement>(null);
-  const videoBRef = useRef<HTMLVideoElement>(null);
-  const [activeSlot, setActiveSlot] = useState<"A" | "B">("A");
-  const [nextReady, setNextReady] = useState(false);
+  const videosRef = useRef<(HTMLVideoElement | null)[]>([null, null, null]);
+  const callbackRef = useRef<() => void>(() => {});
+  const transitioningRef = useRef(false);
+  const timerRef = useRef<ReturnType<typeof setTimeout>>();
 
-  const getActiveVideo = useCallback(() => {
-    return activeSlot === "A" ? videoARef.current : videoBRef.current;
-  }, [activeSlot]);
+  // Ref-stable transition callback — avoids stale closures entirely
+  useEffect(() => {
+    callbackRef.current = () => {
+      if (transitioningRef.current) return;
 
-  const getInactiveVideo = useCallback(() => {
-    return activeSlot === "A" ? videoBRef.current : videoARef.current;
-  }, [activeSlot]);
+      const next = (currentScene + 1) % SCENES.length;
+      const nextVideo = videosRef.current[next];
 
-  // Preload next scene into inactive video
-  const preloadNext = useCallback(
-    (nextIndex: number) => {
-      const inactive = getInactiveVideo();
-      if (inactive) {
-        setNextReady(false);
-        inactive.src = SCENES[nextIndex];
-        inactive.load();
+      if (!nextVideo) return;
+
+      // Start playing the next video before crossfade
+      nextVideo.currentTime = 0;
+      nextVideo.play().catch(() => {});
+
+      setNextScene(next);
+      setIsTransitioning(true);
+      transitioningRef.current = true;
+
+      // After crossfade completes, finalize and schedule next
+      setTimeout(() => {
+        const oldVideo = videosRef.current[currentScene];
+        if (oldVideo) {
+          oldVideo.pause();
+          oldVideo.currentTime = 0;
+        }
+
+        setCurrentScene(next);
+        setNextScene(null);
+        setIsTransitioning(false);
+        transitioningRef.current = false;
+
+        // Schedule next transition — each scene gets full SCENE_DURATION of solo time
+        timerRef.current = setTimeout(() => callbackRef.current(), SCENE_DURATION);
+      }, FADE_DURATION);
+    };
+  }, [currentScene]);
+
+  // Kick off the first transition after SCENE_DURATION
+  useEffect(() => {
+    timerRef.current = setTimeout(() => callbackRef.current(), SCENE_DURATION);
+    return () => clearTimeout(timerRef.current);
+  }, []);
+
+  // Initialize: play first video, preload all others
+  useEffect(() => {
+    const videos = videosRef.current;
+    videos.forEach((video, i) => {
+      if (!video) return;
+      if (i === 0) {
+        video.play().catch(() => {});
       }
-    },
-    [getInactiveVideo]
-  );
+    });
+  }, []);
 
-  // Handle canplaythrough on inactive video — marks it as ready
-  const handleCanPlayThrough = useCallback(
-    (slot: "A" | "B") => {
-      // Only mark ready if this slot is the inactive one
-      if (slot !== activeSlot) {
-        setNextReady(true);
-      }
-    },
-    [activeSlot]
-  );
-
-  // Transition to next scene
-  const transitionToNext = useCallback(() => {
-    // Don't transition if the next video isn't buffered yet
-    if (!nextReady) return;
-
-    const nextIndex = (currentScene + 1) % SCENES.length;
-    const inactiveVideo = getInactiveVideo();
-
-    // Ensure the inactive video is playing BEFORE starting the visual transition
-    if (inactiveVideo) {
-      inactiveVideo.currentTime = 0;
-      const playPromise = inactiveVideo.play();
-      if (playPromise) {
-        playPromise.catch(() => {});
-      }
-    }
-
-    setIsTransitioning(true);
-
-    // After fade completes, swap slots
-    setTimeout(() => {
-      // Use functional updates to avoid stale closure issues
-      setActiveSlot((prev) => (prev === "A" ? "B" : "A"));
-      setCurrentScene(nextIndex);
-      setIsTransitioning(false);
-      setNextReady(false);
-
-      // Preload the next scene after a short delay
-      const nextNext = (nextIndex + 1) % SCENES.length;
-      setTimeout(() => preloadNext(nextNext), 500);
-    }, FADE_DURATION);
-  }, [currentScene, nextReady, getInactiveVideo, preloadNext]);
-
-  // Handle video ended — loop by resetting currentTime
-  const handleVideoEnded = useCallback((videoRef: React.RefObject<HTMLVideoElement | null>) => {
-    const video = videoRef.current;
+  // Handle video ended — seamless loop without `loop` attribute
+  const handleEnded = useCallback((index: number) => {
+    const video = videosRef.current[index];
     if (video) {
       video.currentTime = 0;
       video.play().catch(() => {});
     }
   }, []);
 
-  // Initialize first video
-  useEffect(() => {
-    const videoA = videoARef.current;
-    if (videoA) {
-      videoA.src = SCENES[0];
-      videoA.load();
-      videoA.play().catch(() => {});
-    }
-
-    // Preload second scene aggressively — start immediately after first loads
-    const preloadTimer = setTimeout(() => {
-      const videoB = videoBRef.current;
-      if (videoB) {
-        videoB.src = SCENES[1];
-        videoB.load();
-      }
-    }, 500);
-
-    return () => clearTimeout(preloadTimer);
-  }, []);
-
-  // Scene rotation timer
-  useEffect(() => {
-    const timer = setInterval(transitionToNext, SCENE_DURATION);
-    return () => clearInterval(timer);
-  }, [transitionToNext]);
-
-  // Preload next video as soon as current scene changes
-  useEffect(() => {
-    const activeVideo = getActiveVideo();
-    if (activeVideo) {
-      const handlePlaying = () => {
-        const nextIndex = (currentScene + 1) % SCENES.length;
-        const inactive = getInactiveVideo();
-        if (inactive && inactive.src !== window.location.origin + SCENES[nextIndex]) {
-          preloadNext(nextIndex);
-        }
-      };
-      activeVideo.addEventListener("playing", handlePlaying);
-      return () => activeVideo.removeEventListener("playing", handlePlaying);
-    }
-  }, [currentScene, getActiveVideo, getInactiveVideo, preloadNext]);
-
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* Video A */}
-      <video
-        ref={videoARef}
-        muted
-        playsInline
-        loop
-        preload="auto"
-        onCanPlayThrough={() => handleCanPlayThrough("A")}
-        onEnded={() => handleVideoEnded(videoARef)}
-        className="absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out"
-        style={{
-          transitionDuration: `${FADE_DURATION}ms`,
-          opacity: activeSlot === "A" ? (isTransitioning ? 0 : 1) : (isTransitioning ? 1 : 0),
-        }}
-      />
-
-      {/* Video B */}
-      <video
-        ref={videoBRef}
-        muted
-        playsInline
-        loop
-        preload="auto"
-        onCanPlayThrough={() => handleCanPlayThrough("B")}
-        onEnded={() => handleVideoEnded(videoBRef)}
-        className="absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out"
-        style={{
-          transitionDuration: `${FADE_DURATION}ms`,
-          opacity: activeSlot === "B" ? (isTransitioning ? 0 : 1) : (isTransitioning ? 1 : 0),
-        }}
-      />
+      {SCENES.map((src, i) => (
+        <video
+          key={src}
+          ref={(el) => { videosRef.current[i] = el; }}
+          src={src}
+          muted
+          playsInline
+          preload="auto"
+          onEnded={() => handleEnded(i)}
+          className="absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out"
+          style={{
+            willChange: "opacity",
+            transitionDuration: `${FADE_DURATION}ms`,
+            opacity:
+              i === currentScene
+                ? 1
+                : i === nextScene && isTransitioning
+                  ? 1
+                  : 0,
+          }}
+        />
+      ))}
 
       {/* Dark overlay gradient — left side readable, right side shows video */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
