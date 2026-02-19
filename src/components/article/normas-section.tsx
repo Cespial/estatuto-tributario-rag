@@ -27,7 +27,7 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
   const items = normasParsed[activeTab] || [];
 
   return (
-    <section className="mb-6">
+    <section id="normas" className="mb-6">
       <h2 className="heading-serif mb-3 text-lg">Normas relacionadas</h2>
       {/* Tabs */}
       <div

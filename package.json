@@ -5,8 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ci": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:strict": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run lint:strict && npm run typecheck && npm run build:ci",
+    "data:build": "node scripts/build-analytics-datasets.mjs",
+    "data:verify": "node scripts/verify-data-integrity.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.44",

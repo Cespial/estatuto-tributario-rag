@@ -3,15 +3,20 @@ import { anthropic } from "@ai-sdk/anthropic";
 import { EnhancedQuery } from "@/types/rag";
 import { extractArticleRefs, articleNumberToId } from "@/lib/utils/article-parser";
 import { detectLibro, expandQuery } from "@/lib/utils/legal-terms";
+import { ChatPageContext } from "@/types/chat-history";
 
 export async function enhanceQuery(
   query: string,
-  options: { useHyDE?: boolean; useQueryExpansion?: boolean } = {}
+  options: {
+    useHyDE?: boolean;
+    useQueryExpansion?: boolean;
+    pageContext?: ChatPageContext;
+  } = {}
 ): Promise<EnhancedQuery> {
   const detectedArticles = extractArticleRefs(query).map(articleNumberToId);
   const detectedLibro = detectLibro(query);
-
-  const expanded = options.useQueryExpansion !== false ? expandQuery(query) : query;
+  const contextualized = applyPageContextHint(query, options.pageContext);
+  const expanded = options.useQueryExpansion !== false ? expandQuery(contextualized) : contextualized;
 
   const [rewritten, hyde, subQueries] = await Promise.all([
     rewriteQuery(expanded),
@@ -29,6 +34,23 @@ export async function enhanceQuery(
     detectedArticles,
     detectedLibro,
   };
+}
+
+function applyPageContextHint(query: string, pageContext?: ChatPageContext): string {
+  if (!pageContext) return query;
+  if (pageContext.module === "tablas-retencion") {
+    return `${query} (retención en la fuente, base mínima UVT, tarifas Art. 383/392/401)`;
+  }
+  if (pageContext.module === "calculadora" && pageContext.calculatorSlug?.includes("renta")) {
+    return `${query} (renta personas naturales, Art. 241 ET, depuración de renta)`;
+  }
+  if (pageContext.module === "calculadora" && pageContext.calculatorSlug?.includes("retencion")) {
+    return `${query} (retención en la fuente, Art. 383 y 392 ET)`;
+  }
+  if (pageContext.module === "comparar") {
+    return `${query} (análisis de cambios normativos y versión vigente vs histórica)`;
+  }
+  return query;
 }
 
 async function rewriteQuery(query: string): Promise<string> {

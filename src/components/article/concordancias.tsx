@@ -9,7 +9,7 @@ export function Concordancias({ concordancias, doctrinaDian, notasEditoriales }:
   if (!hasContent) return null;
 
   return (
-    <section className="mb-6">
+    <section id="concordancias" className="mb-6">
       {concordancias && (
         <div className="mb-4">
           <h2 className="heading-serif mb-2 text-lg">Concordancias</h2>

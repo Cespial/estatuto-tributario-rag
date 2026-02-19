@@ -8,6 +8,7 @@ import type { UIMessage } from "ai";
 
 interface MessageBubbleProps {
   message: UIMessage;
+  timestamp?: string;
 }
 
 function getMessageText(message: UIMessage): string {
@@ -17,7 +18,7 @@ function getMessageText(message: UIMessage): string {
     .join("");
 }
 
-function MessageBubbleInner({ message }: MessageBubbleProps) {
+function MessageBubbleInner({ message, timestamp }: MessageBubbleProps) {
   const isUser = message.role === "user";
   const text = getMessageText(message);
   const [copied, setCopied] = useState(false);
@@ -35,11 +36,13 @@ function MessageBubbleInner({ message }: MessageBubbleProps) {
   return (
     <div className={`group flex gap-3 ${isUser ? "flex-row-reverse" : ""}`}>
       <div
-        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${
-          isUser ? "bg-foreground text-background" : "bg-muted"
+        className={`mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${
+          isUser
+            ? "bg-foreground text-background"
+            : "border border-border bg-gradient-to-br from-muted to-card"
         }`}
       >
-        {isUser ? <User className="h-4 w-4" /> : <Bot className="h-4 w-4" />}
+        {isUser ? <User className="h-4 w-4" /> : <Bot className="h-4 w-4 text-foreground" />}
       </div>
       <div className="relative max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl">
         <div
@@ -79,6 +82,15 @@ function MessageBubbleInner({ message }: MessageBubbleProps) {
               <Copy className="h-3.5 w-3.5" />
             )}
           </button>
+        )}
+        {timestamp && (
+          <p
+            className={`mt-1 text-[11px] ${
+              isUser ? "text-right text-muted-foreground/80" : "text-muted-foreground/80"
+            }`}
+          >
+            {timestamp}
+          </p>
         )}
       </div>
     </div>

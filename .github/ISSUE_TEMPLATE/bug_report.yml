@@ -1,0 +1,50 @@
+name: Bug report
+description: Reporta un error funcional o técnico
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Describe el error en una frase
+      placeholder: Ej. El build falla en la ruta /calculadoras/comparador
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Incluye pasos exactos y datos de prueba
+      placeholder: |
+        1. Ir a ...
+        2. Hacer click en ...
+        3. Ver error ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      description: Local, Preview Vercel o Producción
+      placeholder: Ej. Preview Vercel
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / capturas
+      description: Pega stack trace o URL de preview afectada

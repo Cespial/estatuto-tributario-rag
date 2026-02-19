@@ -9,7 +9,8 @@ import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
 
 const NAV_ITEMS = [
-  { href: "/", label: "Chat" },
+  { href: "/", label: "Inicio" },
+  { href: "/asistente", label: "Asistente" },
   { href: "/dashboard", label: "Dashboard" },
   { href: "/explorador", label: "Explorador" },
   { href: "/comparar", label: "Comparar" },
@@ -66,10 +67,10 @@ export function Header({ variant = "default" }: HeaderProps) {
           {/* Logo — Harvey.ai inspired: elegant serif feel */}
           <Link href="/" className="flex shrink-0 items-center gap-2.5">
             <Scale className={clsx("h-5 w-5", showTransparent ? "text-white" : "text-foreground")} />
-            <h1 className={clsx("whitespace-nowrap text-lg tracking-tight", showTransparent && "text-white")}>
+            <p className={clsx("whitespace-nowrap text-lg tracking-tight", showTransparent && "text-white")}>
               <span className="font-light">SuperApp</span>{" "}
               <span className="font-semibold">Tributaria</span>
-            </h1>
+            </p>
           </Link>
 
           {/* Navigation — text-only, uppercase, generous spacing */}
@@ -121,6 +122,8 @@ export function Header({ variant = "default" }: HeaderProps) {
             showTransparent ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"
           )}
           aria-label="Menu de navegacion"
+          aria-expanded={mobileMenuOpen}
+          aria-controls="mobile-navigation"
         >
           {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
@@ -154,7 +157,10 @@ export function Header({ variant = "default" }: HeaderProps) {
             onClick={() => setMobileMenuOpen(false)}
           />
           {/* Slide-in panel */}
-          <nav className="fixed right-0 top-[72px] z-50 h-[calc(100vh-72px)] w-72 overflow-y-auto border-l border-border/40 bg-background p-6 shadow-lg md:hidden">
+          <nav
+            id="mobile-navigation"
+            className="fixed right-0 top-[72px] z-50 h-[calc(100vh-72px)] w-72 overflow-y-auto border-l border-border/40 bg-background p-6 shadow-lg md:hidden"
+          >
             <div className="flex flex-col gap-1">
               {NAV_ITEMS.map(({ href, label }) => {
                 const isActive =

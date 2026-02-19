@@ -1,234 +1,212 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { Search, Newspaper, Filter, ExternalLink, Tag } from "lucide-react";
-import { NOVEDADES, type NovedadNormativa } from "@/config/novedades-data";
-import { clsx } from "clsx";
+import { Suspense, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { Search, Newspaper, Filter } from "lucide-react";
+import {
+  NOVEDADES_ENRIQUECIDAS,
+  type NovedadAudiencia,
+  type NovedadEnriquecida,
+} from "@/config/novedades-data";
+import { NovedadAudienceFilter, type AudienceFilterValue } from "@/components/novedades/NovedadAudienceFilter";
+import { NovedadExpandableCard } from "@/components/novedades/NovedadExpandableCard";
+import { NovedadesWeeklyDigest } from "@/components/novedades/NovedadesWeeklyDigest";
+import { NovedadTimeline } from "@/components/novedades/NovedadTimeline";
 
-const TIPO_CONFIG: Record<NovedadNormativa["tipo"], { label: string; color: string }> = {
-  ley: { label: "Ley", color: "bg-muted text-foreground border-border" },
-  decreto: { label: "Decreto", color: "bg-muted text-foreground border-border" },
-  resolucion: { label: "Resolucion", color: "bg-muted text-foreground border-border" },
-  circular: { label: "Circular", color: "bg-muted text-foreground border-border" },
-  sentencia: { label: "Sentencia", color: "bg-muted text-foreground border-border" },
-  concepto: { label: "Concepto", color: "bg-muted text-foreground border-border" },
-};
-
-const IMPACTO_CONFIG: Record<NovedadNormativa["impacto"], { label: string; color: string }> = {
-  alto: { label: "Alto", color: "bg-foreground text-background border-foreground" },
-  medio: { label: "Medio", color: "bg-muted text-foreground border-border" },
-  bajo: { label: "Bajo", color: "border border-border text-muted-foreground bg-transparent" },
-};
-
-function formatFecha(fecha: string): string {
-  const date = new Date(fecha + "T12:00:00");
-  return date.toLocaleDateString("es-CO", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+function toDate(fechaIso: string): Date {
+  const [year, month, day] = fechaIso.split("-").map(Number);
+  return new Date(year, (month ?? 1) - 1, day ?? 1);
 }
 
-export default function NovedadesPage() {
+function withinDays(fechaIso: string, days: number): boolean {
+  const now = new Date();
+  const threshold = new Date(now.getFullYear(), now.getMonth(), now.getDate() - days);
+  return toDate(fechaIso) >= threshold;
+}
+
+function computeWeeklyItems(items: NovedadEnriquecida[]) {
+  const latestWeek = items.filter((item) => withinDays(item.fecha, 7));
+  if (latestWeek.length > 0) {
+    return {
+      title: "Lo más relevante esta semana",
+      items: latestWeek.slice(0, 3),
+    };
+  }
+
+  const latest30Days = items.filter((item) => withinDays(item.fecha, 30));
+  if (latest30Days.length > 0) {
+    return {
+      title: "Lo más relevante (últimos 30 días)",
+      items: latest30Days.slice(0, 3),
+    };
+  }
+
+  return {
+    title: "Últimas novedades más relevantes",
+    items: items.slice(0, 3),
+  };
+}
+
+function NovedadesPageContent() {
+  const searchParams = useSearchParams();
+  const highlightedId = searchParams.get("id");
+
   const [search, setSearch] = useState("");
   const [tipoFiltro, setTipoFiltro] = useState<string>("todos");
   const [impactoFiltro, setImpactoFiltro] = useState<string>("todos");
+  const [audienciaFiltro, setAudienciaFiltro] = useState<AudienceFilterValue>("todos");
+  const [expandedIds, setExpandedIds] = useState<string[]>(() => (highlightedId ? [highlightedId] : []));
+
+  const orderedItems = useMemo(() => {
+    return [...NOVEDADES_ENRIQUECIDAS].sort((a, b) => b.fecha.localeCompare(a.fecha));
+  }, []);
+
+  const weeklyDigest = useMemo(() => computeWeeklyItems(orderedItems), [orderedItems]);
 
   const filtered = useMemo(() => {
-    return NOVEDADES
-      .filter((n) => {
-        const lowerSearch = search.toLowerCase();
-        const matchesSearch =
-          !search ||
-          n.titulo.toLowerCase().includes(lowerSearch) ||
-          n.resumen.toLowerCase().includes(lowerSearch) ||
-          n.numero.toLowerCase().includes(lowerSearch) ||
-          n.tags.some((t) => t.toLowerCase().includes(lowerSearch));
-        const matchesTipo = tipoFiltro === "todos" || n.tipo === tipoFiltro;
-        const matchesImpacto = impactoFiltro === "todos" || n.impacto === impactoFiltro;
-        return matchesSearch && matchesTipo && matchesImpacto;
-      })
-      .sort((a, b) => b.fecha.localeCompare(a.fecha));
-  }, [search, tipoFiltro, impactoFiltro]);
+    const lowerSearch = search.toLowerCase().trim();
+
+    return orderedItems.filter((item) => {
+      const matchesSearch =
+        !lowerSearch ||
+        item.titulo.toLowerCase().includes(lowerSearch) ||
+        item.resumen.toLowerCase().includes(lowerSearch) ||
+        item.numero.toLowerCase().includes(lowerSearch) ||
+        item.tags.some((tag) => tag.toLowerCase().includes(lowerSearch));
+
+      const matchesTipo = tipoFiltro === "todos" || item.tipo === tipoFiltro;
+      const matchesImpacto = impactoFiltro === "todos" || item.impactoVisual === impactoFiltro;
+      const matchesAudience =
+        audienciaFiltro === "todos" || item.afectaA.includes(audienciaFiltro as NovedadAudiencia);
+
+      return matchesSearch && matchesTipo && matchesImpacto && matchesAudience;
+    });
+  }, [orderedItems, search, tipoFiltro, impactoFiltro, audienciaFiltro]);
+
+  const toggleExpanded = (id: string) => {
+    setExpandedIds((prev) =>
+      prev.includes(id) ? prev.filter((itemId) => itemId !== id) : [...prev, id]
+    );
+  };
 
   return (
     <div className="animate-in fade-in duration-500">
-      {/* Header */}
-      <div className="mb-12 pb-6">
-        <div className="flex items-center gap-3 mb-3">
+      <div className="mb-8 pb-4">
+        <div className="mb-3 flex items-center gap-3">
           <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Newspaper className="h-8 w-8" />
           </div>
-          <h1 className="heading-serif text-3xl text-foreground">
-            Novedades Normativas
-          </h1>
+          <h1 className="heading-serif text-3xl text-foreground">Novedades Normativas</h1>
         </div>
-        <p className="mt-2 text-base leading-relaxed text-muted-foreground max-w-2xl">
-          Cambios recientes en legislacion tributaria colombiana
+        <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
+          Timeline actualizado para decidir rápido: qué cambió, a quién impacta y qué acción práctica debes ejecutar hoy.
         </p>
       </div>
 
-      {/* Filters */}
-      <div className="grid gap-4 md:grid-cols-3 mb-10">
-        <div className="relative md:col-span-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-          <input
-            type="text"
-            placeholder="Buscar por titulo, contenido, numero o tags..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded border border-border/60 bg-card px-4 h-12 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
-          />
-        </div>
+      <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
+        <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
+          <NovedadesWeeklyDigest title={weeklyDigest.title} items={weeklyDigest.items} />
+          <NovedadTimeline items={filtered} activeId={highlightedId} />
+        </aside>
 
-        <select
-          value={tipoFiltro}
-          onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded border border-border/60 bg-card px-4 h-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
-        >
-          <option value="todos">Todos los tipos</option>
-          <option value="ley">Ley</option>
-          <option value="decreto">Decreto</option>
-          <option value="resolucion">Resolucion</option>
-          <option value="circular">Circular</option>
-          <option value="sentencia">Sentencia</option>
-          <option value="concepto">Concepto</option>
-        </select>
-
-        <select
-          value={impactoFiltro}
-          onChange={(e) => setImpactoFiltro(e.target.value)}
-          className="w-full rounded border border-border/60 bg-card px-4 h-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
-        >
-          <option value="todos">Todos los impactos</option>
-          <option value="alto">Impacto Alto</option>
-          <option value="medio">Impacto Medio</option>
-          <option value="bajo">Impacto Bajo</option>
-        </select>
-      </div>
-
-      {/* Results count */}
-      <div className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
-        {filtered.length} novedad{filtered.length !== 1 ? "es" : ""} encontrada{filtered.length !== 1 ? "s" : ""}
-      </div>
-
-      {/* Cards */}
-      <div className="space-y-4">
-        {filtered.length > 0 ? (
-          filtered.map((novedad) => {
-            const tipoConf = TIPO_CONFIG[novedad.tipo];
-            const impactoConf = IMPACTO_CONFIG[novedad.impacto];
-
-            return (
-              <div
-                key={novedad.id}
-                className="group rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
-              >
-                {/* Top row: date + badges */}
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground">
-                    {formatFecha(novedad.fecha)}
-                  </span>
-                  <span
-                    className={clsx(
-                      "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium",
-                      tipoConf.color
-                    )}
-                  >
-                    {tipoConf.label}
-                  </span>
-                  <span
-                    className={clsx(
-                      "inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium",
-                      impactoConf.color
-                    )}
-                  >
-                    Impacto {impactoConf.label}
-                  </span>
-                </div>
-
-                {/* Title */}
-                <h3 className="heading-serif text-lg text-foreground transition-colors mb-1">
-                  {novedad.titulo}
-                </h3>
-
-                {/* Number + source */}
-                <p className="text-sm text-muted-foreground mb-3">
-                  {novedad.fuente} &mdash; {novedad.numero}
-                </p>
-
-                {/* Summary */}
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  {novedad.resumen}
-                </p>
-
-                {/* Footer: tags + ET articles */}
-                <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-border/40">
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-1.5">
-                    {novedad.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="inline-flex items-center gap-1 rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground"
-                      >
-                        <Tag className="h-2.5 w-2.5" />
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* ET Articles */}
-                  {novedad.articulosET && novedad.articulosET.length > 0 && (
-                    <div className="flex items-center gap-2 ml-auto">
-                      <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">
-                        E.T.:
-                      </span>
-                      <div className="flex flex-wrap gap-1">
-                        {novedad.articulosET.map((art) => (
-                          <Link
-                            key={art}
-                            href={`/articulo/${art}`}
-                            className="text-xs font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground flex items-center gap-0.5 px-1.5 py-0.5 rounded"
-                          >
-                            Art. {art}
-                            <ExternalLink className="h-2 w-2 opacity-50" />
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
+        <section className="space-y-4">
+          <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
+            <div className="grid gap-3 md:grid-cols-3">
+              <div className="relative md:col-span-1">
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+                <input
+                  type="text"
+                  placeholder="Buscar por título, número, tags..."
+                  value={search}
+                  onChange={(event) => setSearch(event.target.value)}
+                  className="h-11 w-full rounded border border-border/60 bg-background pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+                />
               </div>
-            );
-          })
-        ) : (
-          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-lg border border-border/60 border-dashed">
-            <Filter className="h-10 w-10 mx-auto mb-4 opacity-20" />
-            <p className="text-lg font-medium">No se encontraron novedades</p>
-            <p className="text-sm">Intente con otra busqueda o modifique los filtros.</p>
-            <button
-              onClick={() => {
-                setSearch("");
-                setTipoFiltro("todos");
-                setImpactoFiltro("todos");
-              }}
-              className="mt-4 text-sm text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground font-medium"
-            >
-              Limpiar filtros
-            </button>
-          </div>
-        )}
-      </div>
 
-      {/* Legal note */}
-      <div className="mt-8 rounded-lg border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
-        <p>
-          <strong>Nota legal:</strong> La informacion presentada es de caracter informativo y no
-          constituye asesoria legal o tributaria. Consulte siempre las fuentes oficiales (Diario
-          Oficial, pagina web de la DIAN) y un profesional habilitado.
-        </p>
+              <select
+                value={tipoFiltro}
+                onChange={(event) => setTipoFiltro(event.target.value)}
+                className="h-11 rounded border border-border/60 bg-background px-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+              >
+                <option value="todos">Todos los tipos</option>
+                <option value="ley">Ley</option>
+                <option value="decreto">Decreto</option>
+                <option value="resolucion">Resolución</option>
+                <option value="circular">Circular</option>
+                <option value="sentencia">Sentencia</option>
+                <option value="concepto">Concepto</option>
+              </select>
+
+              <select
+                value={impactoFiltro}
+                onChange={(event) => setImpactoFiltro(event.target.value)}
+                className="h-11 rounded border border-border/60 bg-background px-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+              >
+                <option value="todos">Todos los impactos</option>
+                <option value="alto">Alto</option>
+                <option value="medio">Medio</option>
+                <option value="informativo">Informativo</option>
+              </select>
+            </div>
+
+            <div className="mt-3 border-t border-border/40 pt-3">
+              <NovedadAudienceFilter value={audienciaFiltro} onChange={setAudienciaFiltro} />
+            </div>
+          </div>
+
+          <div className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
+            {filtered.length} novedad{filtered.length !== 1 ? "es" : ""} encontrada
+            {filtered.length !== 1 ? "s" : ""}
+          </div>
+
+          {filtered.length > 0 ? (
+            <div className="space-y-3">
+              {filtered.map((novedad) => (
+                <NovedadExpandableCard
+                  key={novedad.id}
+                  novedad={novedad}
+                  expanded={expandedIds.includes(novedad.id)}
+                  highlighted={highlightedId === novedad.id}
+                  onToggle={() => toggleExpanded(novedad.id)}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="rounded-lg border border-border/60 border-dashed bg-muted/20 py-16 text-center text-muted-foreground">
+              <Filter className="mx-auto mb-3 h-8 w-8 opacity-30" />
+              <p className="text-lg font-medium text-foreground">No se encontraron novedades</p>
+              <p className="mt-1 text-sm">Prueba otro perfil afectado o limpia filtros de impacto/tipo.</p>
+              <button
+                type="button"
+                onClick={() => {
+                  setSearch("");
+                  setTipoFiltro("todos");
+                  setImpactoFiltro("todos");
+                  setAudienciaFiltro("todos");
+                }}
+                className="mt-3 text-sm font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
+              >
+                Limpiar filtros
+              </button>
+            </div>
+          )}
+
+          <div className="rounded-lg border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
+            <p>
+              <strong>Nota legal:</strong> La información es de carácter orientativo y no reemplaza lectura de la
+              fuente oficial. Verifica siempre texto vigente en DIAN, Diario Oficial o entidad emisora.
+            </p>
+          </div>
+        </section>
       </div>
     </div>
+  );
+}
+
+export default function NovedadesPage() {
+  return (
+    <Suspense fallback={<div className="p-6 text-sm text-muted-foreground">Cargando novedades...</div>}>
+      <NovedadesPageContent />
+    </Suspense>
   );
 }

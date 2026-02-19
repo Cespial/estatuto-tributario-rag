@@ -1,13 +1,15 @@
 "use client";
 
 import { FormEvent, useRef, useEffect, useCallback } from "react";
-import { Send } from "lucide-react";
+import { MessageSquarePlus, Send } from "lucide-react";
 
 interface ChatInputProps {
   input: string;
   setInput: (value: string) => void;
   onSubmit: (e: FormEvent<HTMLFormElement>) => void;
   isLoading: boolean;
+  onNewConversation?: () => void;
+  contextLabel?: string;
 }
 
 export function ChatInput({
@@ -15,6 +17,8 @@ export function ChatInput({
   setInput,
   onSubmit,
   isLoading,
+  onNewConversation,
+  contextLabel,
 }: ChatInputProps) {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
@@ -41,6 +45,21 @@ export function ChatInput({
 
   return (
     <form ref={formRef} onSubmit={onSubmit} className="border-t border-border/40 p-4">
+      <div className="mx-auto mb-2 flex max-w-4xl items-center justify-between gap-2">
+        <p className="text-[11px] text-muted-foreground">
+          {contextLabel || "Asistente IA del Estatuto Tributario"}
+        </p>
+        {onNewConversation && (
+          <button
+            type="button"
+            onClick={onNewConversation}
+            className="inline-flex items-center gap-1 rounded-md border border-border px-2 py-1 text-xs text-muted-foreground hover:bg-muted hover:text-foreground"
+          >
+            <MessageSquarePlus className="h-3.5 w-3.5" />
+            Nueva conversación
+          </button>
+        )}
+      </div>
       <div className="mx-auto flex max-w-4xl items-end gap-2">
         <div className="relative flex-1">
           <label htmlFor="chat-input" className="sr-only">

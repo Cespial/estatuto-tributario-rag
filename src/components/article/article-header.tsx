@@ -1,10 +1,13 @@
 import { clsx } from "clsx";
 import Link from "next/link";
+import { BookmarkButton } from "@/components/bookmarks/BookmarkButton";
+import { getFormalBookLabel } from "@/lib/constants/et-books";
 
 interface ArticleHeaderProps {
   idArticulo: string;
   titulo: string;
   tituloCort: string;
+  slug: string;
   libro: string;
   libroFull: string;
   estado: string;
@@ -16,8 +19,9 @@ const ESTADO_CONFIG: Record<string, { label: string; color: string }> = {
   derogado: { label: "Derogado", color: "bg-muted text-muted-foreground border border-border line-through" },
 };
 
-export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: ArticleHeaderProps) {
+export function ArticleHeader({ idArticulo, titulo, slug, libro, libroFull, estado }: ArticleHeaderProps) {
   const estadoConfig = ESTADO_CONFIG[estado] || ESTADO_CONFIG.vigente;
+  const breadcrumbLibro = getFormalBookLabel(libro).split(":")[0];
 
   return (
     <div className="mb-6">
@@ -27,7 +31,7 @@ export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: 
           Explorador
         </Link>
         <span>/</span>
-        <span>{libro}</span>
+        <span>{breadcrumbLibro}</span>
         <span>/</span>
         <span className="text-foreground">{idArticulo}</span>
       </nav>
@@ -42,6 +46,18 @@ export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: 
         >
           {estadoConfig.label}
         </span>
+        <div className="mt-1">
+          <BookmarkButton
+            id={idArticulo}
+            type="art"
+            title={`${idArticulo} — ${titulo}`}
+            href={`/articulo/${slug}`}
+            preview={titulo}
+            showLabel
+            allowWorkspacePicker
+            className="rounded-md border border-border px-2 py-1"
+          />
+        </div>
       </div>
       <p className="mt-1 text-sm text-muted-foreground">{libroFull}</p>
     </div>

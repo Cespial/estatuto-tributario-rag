@@ -13,6 +13,8 @@ interface ArticleIndex {
   total_referenced_by: number;
   complexity: number;
   has_normas: boolean;
+  ultima_modificacion_year?: number | null;
+  has_derogado_text?: boolean;
 }
 
 interface ArticleGridProps {
@@ -40,6 +42,8 @@ export function ArticleGrid({ articles, total }: ArticleGridProps) {
             totalReferencedBy={art.total_referenced_by}
             complexity={art.complexity}
             hasNormas={art.has_normas}
+            ultimaModYear={art.ultima_modificacion_year}
+            hasDerogadoText={art.has_derogado_text}
           />
         ))}
       </div>

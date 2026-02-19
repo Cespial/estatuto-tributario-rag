@@ -1,5 +1,8 @@
-import { ExternalLink, Activity, Calendar, Hash, BarChart2 } from "lucide-react";
+import Link from "next/link";
+import { ExternalLink, Activity, Calendar, Hash, BarChart2, Scale } from "lucide-react";
 import { clsx } from "clsx";
+import type { DoctrinaEnriched } from "@/types/knowledge";
+import { VigenciaBadge } from "@/components/knowledge/VigenciaBadge";
 
 interface ArticleSidebarProps {
   totalMods: number;
@@ -10,6 +13,8 @@ interface ArticleSidebarProps {
   totalReferencedBy: number;
   estado: string;
   urlOrigen: string;
+  articuloNumero: string;
+  doctrinaRelacionada: DoctrinaEnriched[];
 }
 
 const ESTADO_DOT: Record<string, string> = {
@@ -27,6 +32,8 @@ export function ArticleSidebar({
   totalReferencedBy,
   estado,
   urlOrigen,
+  articuloNumero,
+  doctrinaRelacionada,
 }: ArticleSidebarProps) {
   return (
     <div className="space-y-4">
@@ -87,6 +94,41 @@ export function ArticleSidebar({
           </div>
         </div>
       </div>
+
+      {doctrinaRelacionada.length > 0 && (
+        <div className="rounded-lg border border-border p-4">
+          <h3 className="mb-2 flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
+            <Scale className="h-3.5 w-3.5" />
+            Doctrina DIAN
+          </h3>
+          <p className="mb-3 text-xs text-muted-foreground">
+            {doctrinaRelacionada.length} documento{doctrinaRelacionada.length === 1 ? "" : "s"} interpretan el Art.{" "}
+            {articuloNumero}
+          </p>
+          <div className="space-y-2">
+            {doctrinaRelacionada.slice(0, 4).map((doc) => (
+              <Link
+                key={doc.id}
+                href={`/doctrina?doc=${doc.id}`}
+                className="block rounded-md border border-border/70 p-2.5 hover:bg-muted"
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-xs font-medium text-foreground line-clamp-2">{doc.numero}</span>
+                  <VigenciaBadge status={doc.vigencia} />
+                </div>
+                <p className="mt-1 text-xs text-muted-foreground line-clamp-2">{doc.tema}</p>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href={`/doctrina?articulo=${articuloNumero}`}
+            className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
+          >
+            Ver toda la doctrina de este artículo
+            <ExternalLink className="h-3 w-3" />
+          </Link>
+        </div>
+      )}
 
       {/* External link */}
       <a

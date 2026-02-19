@@ -5,6 +5,7 @@ import { assembleContext } from "./context-assembler";
 import { buildMessages } from "./prompt-builder";
 import { AssembledContext, SourceCitation } from "@/types/rag";
 import { RAG_CONFIG } from "@/config/constants";
+import { ChatPageContext } from "@/types/chat-history";
 
 export interface PipelineOptions {
   libroFilter?: string;
@@ -13,6 +14,7 @@ export interface PipelineOptions {
   useQueryExpansion?: boolean;
   useSiblingRetrieval?: boolean;
   conversationHistory?: string;
+  pageContext?: ChatPageContext;
 }
 
 export interface DebugInfo {
@@ -39,6 +41,7 @@ export async function runRAGPipeline(
     enhancedQuery = await enhanceQuery(query, {
       useHyDE: options.useHyDE ?? RAG_CONFIG.useHyDE,
       useQueryExpansion: options.useQueryExpansion ?? RAG_CONFIG.useQueryExpansion,
+      pageContext: options.pageContext,
     });
   } catch (error) {
     console.error("[rag-pipeline] Query enhancement failed, using raw query:", error);
@@ -54,6 +57,7 @@ export async function runRAGPipeline(
   try {
     retrievalResult = await retrieve(enhancedQuery, {
       libroFilter: options.libroFilter || undefined,
+      pageContext: options.pageContext,
     });
   } catch (error) {
     console.error("[rag-pipeline] Retrieval failed:", error);
@@ -75,7 +79,12 @@ export async function runRAGPipeline(
   }
 
   // 5. Build prompt
-  const { system, contextBlock } = buildMessages(query, context, options.conversationHistory);
+  const { system, contextBlock } = buildMessages(
+    query,
+    context,
+    options.conversationHistory,
+    options.pageContext
+  );
 
   return {
     system,

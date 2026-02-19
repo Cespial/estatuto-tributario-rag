@@ -57,13 +57,36 @@ npm install
 
 # Variables de entorno
 cp .env.example .env.local
-# Configurar: ANTHROPIC_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME
+# Configurar: ANTHROPIC_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME, CHAT_MODEL (opcional)
 
 # Ejecutar
 npm run dev
 ```
 
 Abrir [http://localhost:3000](http://localhost:3000).
+
+## Calidad y Validacion
+
+```bash
+# Lint (incluye reglas de React/Next)
+npm run lint
+
+# Lint estricto (falla con warnings)
+npm run lint:strict
+
+# TypeScript global
+npm run typecheck
+
+# Validacion completa de release
+npm run verify
+```
+
+## CI/CD
+
+- CI de GitHub: `.github/workflows/ci.yml` ejecuta `lint:strict`, `typecheck` y `build`.
+- Deploy: Vercel conectado a rama `main` para producción.
+- Runbook de release/rollback: `docs/release-runbook.md`.
+- Matriz de variables por entorno: `docs/vercel-environment-matrix.md`.
 
 ## Estructura del Proyecto
 

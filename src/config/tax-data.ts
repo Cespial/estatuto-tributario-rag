@@ -20,7 +20,7 @@ export const UVT_VALUES: Record<number, number> = {
   2023: 42_412,
   2024: 47_065,
   2025: 49_799,
-  2026: 52_374,
+  2026: 49_799,
 };
 
 export const CURRENT_UVT_YEAR = 2026;
@@ -84,7 +84,7 @@ export const GMF_EXEMPT_UVT = 350;
 export const IVA_RATES = { general: 0.19, reducido: 0.05 };
 
 // ── Comparador de Contratacion 2026 ──
-export const SMLMV_2026 = 1_750_905;
+export const SMLMV_2026 = 1_423_500;
 export const AUXILIO_TRANSPORTE_2026 = 249_095;
 export const SALARIO_INTEGRAL_MIN_SMLMV = 13;
 

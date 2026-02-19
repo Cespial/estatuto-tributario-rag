@@ -14,6 +14,25 @@ export interface NovedadNormativa {
   tags: string[];
 }
 
+export type NovedadImpactoVisual = "alto" | "medio" | "informativo";
+export type NovedadAudiencia =
+  | "personas_naturales"
+  | "personas_juridicas"
+  | "grandes_contribuyentes"
+  | "independientes"
+  | "empleadores"
+  | "facturadores_electronicos";
+
+export interface NovedadEnriquecida extends NovedadNormativa {
+  impactoVisual: NovedadImpactoVisual;
+  afectaA: NovedadAudiencia[];
+  queSignificaParaTi: string;
+  accionRecomendada: string;
+  detalleCompleto: string;
+  cambiaCalendario: boolean;
+  calendarioRefs: string[];
+}
+
 export const NOVEDADES: NovedadNormativa[] = [
   // ── 2026 ──
   {
@@ -363,3 +382,146 @@ export const NOVEDADES: NovedadNormativa[] = [
     tags: ["ICA", "industria y comercio", "territorial", "armonizacion"],
   },
 ];
+
+const EXTRA_BY_ID: Record<
+  string,
+  Partial<Pick<NovedadEnriquecida, "afectaA" | "queSignificaParaTi" | "accionRecomendada" | "cambiaCalendario" | "calendarioRefs" | "detalleCompleto">>
+> = {
+  "nov-001": {
+    afectaA: ["personas_juridicas", "personas_naturales", "grandes_contribuyentes"],
+    queSignificaParaTi:
+      "Si manejas varios clientes, esta resolución redefine tus fechas límite de presentación y pago durante 2026.",
+    accionRecomendada:
+      "Cruza hoy tus NIT con el calendario y exporta recordatorios para los próximos 30 días.",
+    cambiaCalendario: true,
+    calendarioRefs: [
+      "Declaracion de Renta Personas Naturales",
+      "Declaracion de Renta Personas Juridicas",
+      "Retencion en la Fuente (mensual)",
+    ],
+    detalleCompleto:
+      "La resolución define secuencias de vencimiento por último dígito y consolida plazos para obligaciones nacionales. El incumplimiento genera sanción e intereses.",
+  },
+  "nov-002": {
+    afectaA: ["personas_naturales", "personas_juridicas", "independientes"],
+    queSignificaParaTi:
+      "Todos los cálculos en UVT cambian de inmediato: topes para declarar, sanciones, deducciones y tarifas referenciadas.",
+    accionRecomendada:
+      "Actualiza tus plantillas y simulaciones con el nuevo valor UVT antes de presentar declaraciones.",
+    detalleCompleto:
+      "La actualización de UVT impacta transversalmente formularios, sanciones mínimas y comparaciones históricas entre años gravables.",
+  },
+  "nov-005": {
+    afectaA: ["facturadores_electronicos", "personas_juridicas", "independientes"],
+    queSignificaParaTi:
+      "Debes ajustar tus validaciones técnicas y flujos de emisión para evitar rechazo de documentos por parte de la DIAN.",
+    accionRecomendada:
+      "Revisa proveedor tecnológico y realiza pruebas de validación antes del plazo de implementación.",
+    detalleCompleto:
+      "Se actualizan reglas de factura electrónica, documento soporte y notas de ajuste, con exigencias operativas para equipos contables y de sistemas.",
+  },
+  "nov-007": {
+    afectaA: ["personas_naturales", "personas_juridicas", "grandes_contribuyentes"],
+    queSignificaParaTi:
+      "Se mantiene vigente la obligación de liquidar impuesto al patrimonio para contribuyentes en el umbral aplicable.",
+    accionRecomendada:
+      "Recalcula base gravable con tus cierres más recientes y agenda con antelación el pago de la obligación.",
+    detalleCompleto:
+      "La sentencia confirma constitucionalidad y continuidad del impuesto bajo esquema de tarifas progresivas.",
+  },
+  "nov-010": {
+    afectaA: ["personas_juridicas", "grandes_contribuyentes"],
+    queSignificaParaTi:
+      "Si tienes saldos a favor recurrentes, puedes reducir tiempos de caja al usar el nuevo esquema automatizado.",
+    accionRecomendada:
+      "Verifica requisitos de trazabilidad documental para acceder al trámite abreviado.",
+    detalleCompleto:
+      "El sistema de devolución automática busca disminuir tiempos de respuesta y priorizar contribuyentes con historial de cumplimiento.",
+  },
+  "nov-025": {
+    afectaA: ["independientes", "personas_naturales", "personas_juridicas"],
+    queSignificaParaTi:
+      "Cambia la forma práctica de calcular retenciones en servicios profesionales según condición de declarante.",
+    accionRecomendada:
+      "Ajusta matrices de retención y contratos para evitar diferencias en anticipos durante el periodo.",
+    detalleCompleto:
+      "La DIAN aclara bases y diferencias por perfil tributario, con implicaciones directas en flujo de caja.",
+  },
+  "nov-028": {
+    afectaA: ["personas_juridicas", "grandes_contribuyentes", "independientes"],
+    queSignificaParaTi:
+      "Si operas en varios municipios, este decreto puede simplificar o redefinir la carga administrativa del ICA territorial.",
+    accionRecomendada:
+      "Mapea municipios con operación activa y valida cambios de procedimiento con tu equipo fiscal.",
+    detalleCompleto:
+      "La reglamentación apunta a armonizar criterios territoriales del ICA para facilitar cumplimiento en presencia multi-ciudad.",
+  },
+};
+
+function normalizeImpact(impacto: NovedadNormativa["impacto"]): NovedadImpactoVisual {
+  if (impacto === "bajo") return "informativo";
+  return impacto;
+}
+
+function inferAudienceFromTags(tags: string[]): NovedadAudiencia[] {
+  const lowerTags = tags.map((tag) => tag.toLowerCase());
+  const audiences = new Set<NovedadAudiencia>();
+
+  if (lowerTags.some((tag) => tag.includes("factura") || tag.includes("nomina"))) {
+    audiences.add("facturadores_electronicos");
+    audiences.add("empleadores");
+  }
+  if (lowerTags.some((tag) => tag.includes("simple") || tag.includes("retencion") || tag.includes("renta"))) {
+    audiences.add("personas_juridicas");
+    audiences.add("personas_naturales");
+    audiences.add("independientes");
+  }
+  if (lowerTags.some((tag) => tag.includes("patrimonio") || tag.includes("grandes"))) {
+    audiences.add("grandes_contribuyentes");
+  }
+  if (lowerTags.some((tag) => tag.includes("laboral") || tag.includes("nomina"))) {
+    audiences.add("empleadores");
+  }
+  if (audiences.size === 0) {
+    audiences.add("personas_naturales");
+    audiences.add("personas_juridicas");
+  }
+
+  return Array.from(audiences);
+}
+
+function defaultQueSignifica(novedad: NovedadNormativa): string {
+  if (novedad.impacto === "alto") {
+    return "Este cambio tiene efecto inmediato en planeación tributaria, priorización de vencimientos y riesgo de sanción.";
+  }
+  if (novedad.impacto === "medio") {
+    return "Este cambio puede alterar procesos contables y soportes; conviene revisarlo antes del próximo cierre.";
+  }
+  return "Es una actualización informativa útil para mantener criterio técnico y contexto normativo.";
+}
+
+function defaultAccion(novedad: NovedadNormativa): string {
+  if (novedad.tipo === "resolucion" || novedad.tipo === "decreto") {
+    return "Contrasta el texto oficial y valida si debes ajustar cronogramas, formatos o procedimientos internos.";
+  }
+  if (novedad.tipo === "concepto" || novedad.tipo === "circular") {
+    return "Revisa impacto operativo en tus casos activos y documenta criterio aplicable.";
+  }
+  return "Registra esta novedad como antecedente para análisis y sustentación tributaria.";
+}
+
+export const NOVEDADES_ENRIQUECIDAS: NovedadEnriquecida[] = NOVEDADES.map((novedad) => {
+  const override = EXTRA_BY_ID[novedad.id];
+  const inferredAudience = inferAudienceFromTags(novedad.tags);
+
+  return {
+    ...novedad,
+    impactoVisual: normalizeImpact(novedad.impacto),
+    afectaA: override?.afectaA ?? inferredAudience,
+    queSignificaParaTi: override?.queSignificaParaTi ?? defaultQueSignifica(novedad),
+    accionRecomendada: override?.accionRecomendada ?? defaultAccion(novedad),
+    detalleCompleto: override?.detalleCompleto ?? novedad.resumen,
+    cambiaCalendario: override?.cambiaCalendario ?? novedad.tags.some((tag) => /calendario|plazos|vencimientos/i.test(tag)),
+    calendarioRefs: override?.calendarioRefs ?? [],
+  };
+});

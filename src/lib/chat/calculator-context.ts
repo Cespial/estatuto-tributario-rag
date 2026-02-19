@@ -1,3 +1,5 @@
+import { ChatPageContext } from "@/types/chat-history";
+
 export interface CalculatorSuggestion {
   name: string;
   href: string;
@@ -79,7 +81,11 @@ const CALCULATOR_KEYWORDS: Array<{ keywords: string[]; calculator: CalculatorSug
   },
 ];
 
-export function suggestCalculators(query: string, maxResults = 3): CalculatorSuggestion[] {
+export function suggestCalculators(
+  query: string,
+  maxResults = 3,
+  pageContext?: ChatPageContext
+): CalculatorSuggestion[] {
   const q = query.toLowerCase();
   const scored: Array<{ calculator: CalculatorSuggestion; score: number }> = [];
 
@@ -89,6 +95,16 @@ export function suggestCalculators(query: string, maxResults = 3): CalculatorSug
       if (q.includes(keyword)) {
         score += keyword.length; // Longer keyword matches are more specific
       }
+    }
+    if (
+      pageContext?.module === "calculadora" &&
+      pageContext.calculatorSlug &&
+      entry.calculator.href.includes(pageContext.calculatorSlug)
+    ) {
+      score += 100;
+    }
+    if (pageContext?.module === "tablas-retencion" && entry.calculator.href.includes("retencion")) {
+      score += 80;
     }
     if (score > 0) {
       scored.push({ calculator: entry.calculator, score });

@@ -1,109 +1,258 @@
 "use client";
 
 import { clsx } from "clsx";
+import { X } from "lucide-react";
+import { ET_BOOKS } from "@/lib/constants/et-books";
 
-interface Filters {
+export interface ExplorerFilters {
   libro: string;
   estado: string;
   hasMods: boolean | null;
   hasNormas: boolean | null;
+  law: string;
+  modYear: number | null;
+}
+
+interface FacetCount {
+  key: string;
+  label: string;
+  count: number;
+}
+
+interface ExplorerFacets {
+  libros: FacetCount[];
+  estados: FacetCount[];
+  mod_years: Array<{ year: number; count: number }>;
+  laws: Array<{ key: string; label: string; count: number }>;
 }
 
 interface FilterPanelProps {
-  filters: Filters;
-  onChange: (filters: Filters) => void;
+  filters: ExplorerFilters;
+  facets: ExplorerFacets | null;
+  onChange: (filters: ExplorerFilters) => void;
 }
 
-const LIBROS = [
-  { value: "", label: "Todos" },
-  { value: "Titulo Preliminar", label: "Título Preliminar" },
-  { value: "Libro I - Renta", label: "I - Renta" },
-  { value: "Libro II - Retencion", label: "II - Retención" },
-  { value: "Libro III - IVA", label: "III - IVA" },
-  { value: "Libro IV - Timbre", label: "IV - Timbre" },
-  { value: "Libro V - Procedimiento", label: "V - Procedimiento" },
-  { value: "Libro VI - GMF", label: "VI - GMF" },
-];
+const ESTADO_LABELS: Record<string, string> = {
+  vigente: "Vigente",
+  modificado: "Modificado",
+  derogado: "Derogado",
+};
 
-const ESTADOS = [
-  { value: "", label: "Todos" },
-  { value: "vigente", label: "Vigente" },
-  { value: "modificado", label: "Modificado" },
-  { value: "derogado", label: "Derogado" },
-];
+export function FilterPanel({ filters, facets, onChange }: FilterPanelProps) {
+  const updateFilters = (partial: Partial<ExplorerFilters>) => {
+    onChange({ ...filters, ...partial });
+  };
 
-export function FilterPanel({ filters, onChange }: FilterPanelProps) {
+  const lawOptions = (facets?.laws || []).slice(0, 80);
+  const activeFilterLabels: Array<{ key: string; label: string }> = [];
+
+  if (filters.libro) {
+    activeFilterLabels.push({ key: "libro", label: filters.libro });
+  }
+  if (filters.estado) {
+    activeFilterLabels.push({
+      key: "estado",
+      label: `Estado: ${ESTADO_LABELS[filters.estado] || filters.estado}`,
+    });
+  }
+  if (filters.modYear) {
+    activeFilterLabels.push({
+      key: "modYear",
+      label: `Modificado ${filters.modYear}`,
+    });
+  }
+  if (filters.law) {
+    activeFilterLabels.push({
+      key: "law",
+      label: `Ley: ${filters.law}`,
+    });
+  }
+  if (filters.hasMods === true) {
+    activeFilterLabels.push({ key: "hasMods", label: "Con modificaciones" });
+  }
+  if (filters.hasNormas === true) {
+    activeFilterLabels.push({ key: "hasNormas", label: "Con normas" });
+  }
+
+  const clearFilter = (key: string) => {
+    switch (key) {
+      case "libro":
+        updateFilters({ libro: "" });
+        break;
+      case "estado":
+        updateFilters({ estado: "" });
+        break;
+      case "modYear":
+        updateFilters({ modYear: null });
+        break;
+      case "law":
+        updateFilters({ law: "" });
+        break;
+      case "hasMods":
+        updateFilters({ hasMods: null });
+        break;
+      case "hasNormas":
+        updateFilters({ hasNormas: null });
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
-    <div className="flex flex-wrap items-center gap-3">
-      {/* Libro */}
-      <div className="flex items-center gap-1.5">
-        <label htmlFor="filter-libro" className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
-          Libro
-        </label>
-        <select
-          id="filter-libro"
-          value={filters.libro}
-          onChange={(e) => onChange({ ...filters, libro: e.target.value })}
-          className="rounded border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
-        >
-          {LIBROS.map(({ value, label }) => (
-            <option key={value} value={value}>{label}</option>
-          ))}
-        </select>
+    <div className="space-y-3">
+      <div className="rounded-lg border border-border/60 bg-card p-3">
+        <div className="mb-2 flex items-center justify-between">
+          <p className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
+            Libros del ET
+          </p>
+          <button
+            onClick={() =>
+              onChange({
+                libro: "",
+                estado: "",
+                hasMods: null,
+                hasNormas: null,
+                law: "",
+                modYear: null,
+              })
+            }
+            className="text-xs text-muted-foreground hover:text-foreground"
+          >
+            Limpiar filtros
+          </button>
+        </div>
+        <div className="flex flex-wrap gap-1.5">
+          <button
+            onClick={() => updateFilters({ libro: "" })}
+            className={clsx(
+              "rounded-full border px-3 py-1 text-xs font-medium transition-colors",
+              !filters.libro
+                ? "border-foreground bg-foreground text-background"
+                : "border-border text-muted-foreground hover:text-foreground"
+            )}
+          >
+            Todos
+          </button>
+          {ET_BOOKS.map((book) => {
+            const count =
+              facets?.libros.find((entry) => entry.key === book.value)?.count || 0;
+            const selected = filters.libro === book.value;
+            return (
+              <button
+                key={book.key}
+                onClick={() =>
+                  updateFilters({ libro: selected ? "" : book.value })
+                }
+                className={clsx(
+                  "rounded-full border px-3 py-1 text-xs font-medium transition-colors",
+                  selected
+                    ? "border-foreground bg-foreground text-background"
+                    : "border-border text-muted-foreground hover:text-foreground"
+                )}
+              >
+                {book.shortLabel}{" "}
+                <span className={clsx(selected ? "text-background/80" : "text-muted-foreground/80")}>
+                  ({count})
+                </span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* Estado */}
-      <div className="flex items-center gap-1.5">
-        <label htmlFor="filter-estado" className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
-          Estado
-        </label>
+      <div className="grid gap-2 md:grid-cols-4">
         <select
-          id="filter-estado"
           value={filters.estado}
-          onChange={(e) => onChange({ ...filters, estado: e.target.value })}
-          className="rounded border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
+          onChange={(e) => updateFilters({ estado: e.target.value })}
+          className="h-10 rounded border border-border bg-card px-3 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
         >
-          {ESTADOS.map(({ value, label }) => (
-            <option key={value} value={value}>{label}</option>
+          <option value="">Estado: Todos</option>
+          {(facets?.estados || []).map((estado) => (
+            <option key={estado.key} value={estado.key}>
+              {ESTADO_LABELS[estado.key] || estado.label} ({estado.count})
+            </option>
           ))}
         </select>
+
+        <select
+          value={filters.modYear ?? ""}
+          onChange={(e) =>
+            updateFilters({
+              modYear: e.target.value ? Number(e.target.value) : null,
+            })
+          }
+          className="h-10 rounded border border-border bg-card px-3 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
+        >
+          <option value="">Año de modificación</option>
+          {(facets?.mod_years || []).map((entry) => (
+            <option key={entry.year} value={entry.year}>
+              {entry.year} ({entry.count})
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={filters.law}
+          onChange={(e) => updateFilters({ law: e.target.value })}
+          className="h-10 rounded border border-border bg-card px-3 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
+        >
+          <option value="">Modificado por Ley / Decreto</option>
+          {lawOptions.map((law) => (
+            <option key={law.key} value={law.label}>
+              {law.label} ({law.count})
+            </option>
+          ))}
+        </select>
+
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() =>
+              updateFilters({ hasMods: filters.hasMods === true ? null : true })
+            }
+            className={clsx(
+              "h-10 flex-1 rounded border px-3 text-sm transition-colors",
+              filters.hasMods === true
+                ? "border-foreground bg-foreground text-background"
+                : "border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+            )}
+            aria-pressed={filters.hasMods === true}
+          >
+            Con modificaciones
+          </button>
+          <button
+            onClick={() =>
+              updateFilters({
+                hasNormas: filters.hasNormas === true ? null : true,
+              })
+            }
+            className={clsx(
+              "h-10 flex-1 rounded border px-3 text-sm transition-colors",
+              filters.hasNormas === true
+                ? "border-foreground bg-foreground text-background"
+                : "border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+            )}
+            aria-pressed={filters.hasNormas === true}
+          >
+            Con normas
+          </button>
+        </div>
       </div>
 
-      {/* Toggle buttons */}
-      <button
-        onClick={() =>
-          onChange({
-            ...filters,
-            hasMods: filters.hasMods === true ? null : true,
-          })
-        }
-        className={clsx(
-          "rounded border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
-          filters.hasMods === true
-            ? "border-foreground bg-foreground text-background"
-            : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
-        )}
-        aria-pressed={filters.hasMods === true}
-      >
-        Con modificaciones
-      </button>
-      <button
-        onClick={() =>
-          onChange({
-            ...filters,
-            hasNormas: filters.hasNormas === true ? null : true,
-          })
-        }
-        className={clsx(
-          "rounded border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
-          filters.hasNormas === true
-            ? "border-foreground bg-foreground text-background"
-            : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
-        )}
-        aria-pressed={filters.hasNormas === true}
-      >
-        Con normas
-      </button>
+      {activeFilterLabels.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2">
+          {activeFilterLabels.map((filter) => (
+            <button
+              key={filter.key}
+              onClick={() => clearFilter(filter.key)}
+              className="inline-flex items-center gap-1 rounded-full border border-border bg-muted px-2.5 py-1 text-xs text-muted-foreground hover:text-foreground"
+            >
+              {filter.label}
+              <X className="h-3 w-3" />
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

@@ -14,21 +14,33 @@ interface ArticleIndexItem {
 interface ArticleVersionSelectorProps {
   onSelect: (slug: string) => void;
   selectedSlug?: string;
+  label?: string;
+  placeholder?: string;
+  includeOnlyModified?: boolean;
+  excludeSlug?: string;
 }
 
-export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersionSelectorProps) {
+export function ArticleVersionSelector({
+  onSelect,
+  selectedSlug,
+  label = "Seleccionar Artículo",
+  placeholder = "Buscar artículo...",
+  includeOnlyModified = true,
+  excludeSlug,
+}: ArticleVersionSelectorProps) {
   const [articles, setArticles] = useState<ArticleIndexItem[]>([]);
   const [search, setSearch] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     async function loadArticles() {
       try {
         const response = await fetch("/data/articles-index.json");
         const data: ArticleIndexItem[] = await response.json();
-        // Only show articles that have modifications
-        setArticles(data.filter(a => a.total_mods > 0));
+        const filtered = includeOnlyModified ? data.filter((a) => a.total_mods > 0) : data;
+        setArticles(filtered);
       } catch (error) {
         console.error("Failed to load articles index:", error);
       } finally {
@@ -36,18 +48,22 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
       }
     }
     loadArticles();
-  }, []);
+  }, [includeOnlyModified]);
 
   const filteredArticles = useMemo(() => {
-    if (!search) return articles.slice(0, 100);
+    const list = excludeSlug
+      ? articles.filter((article) => article.slug !== excludeSlug)
+      : articles;
+
+    if (!search) return list.slice(0, 120);
     const lowSearch = search.toLowerCase();
-    return articles
-      .filter(a => 
+    return list
+      .filter((a) =>
         a.id.toLowerCase().includes(lowSearch) || 
         a.titulo.toLowerCase().includes(lowSearch)
       )
-      .slice(0, 50);
-  }, [articles, search]);
+      .slice(0, 80);
+  }, [articles, search, excludeSlug]);
 
   const selectedArticle = articles.find(a => a.slug === selectedSlug);
 
@@ -55,18 +71,21 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
     <div className="relative w-full">
       <div className="flex flex-col gap-2">
         <label className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
-          Seleccionar Artículo con Historia
+          {label}
         </label>
         <button
           type="button"
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => {
+            setIsOpen(!isOpen);
+            setActiveIndex(0);
+          }}
           className={clsx(
             "flex w-full items-center justify-between rounded border border-border bg-card px-4 py-3 text-left shadow-sm transition-all duration-300 hover:border-foreground/40 focus:outline-none focus:ring-2 focus:ring-foreground/20",
             isOpen && "border-foreground/40 ring-2 ring-foreground/20"
           )}
         >
           <span className={clsx("block truncate", !selectedArticle && "text-muted-foreground")}>
-            {selectedArticle ? `${selectedArticle.id}: ${selectedArticle.titulo}` : "Buscar artículo..."}
+            {selectedArticle ? `${selectedArticle.id}: ${selectedArticle.titulo}` : placeholder}
           </span>
           <ChevronDown className={clsx("h-5 w-5 text-muted-foreground transition-transform", isOpen && "rotate-180")} />
         </button>
@@ -82,6 +101,24 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
               placeholder="Ej: Art. 241 o 'dividendos'..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "ArrowDown") {
+                  e.preventDefault();
+                  setActiveIndex((prev) => Math.min(prev + 1, filteredArticles.length - 1));
+                } else if (e.key === "ArrowUp") {
+                  e.preventDefault();
+                  setActiveIndex((prev) => Math.max(prev - 1, 0));
+                } else if (e.key === "Enter") {
+                  e.preventDefault();
+                  const article = filteredArticles[activeIndex];
+                  if (!article) return;
+                  onSelect(article.slug);
+                  setIsOpen(false);
+                  setSearch("");
+                } else if (e.key === "Escape") {
+                  setIsOpen(false);
+                }
+              }}
               className="w-full rounded-md border-none bg-muted/50 py-2 pl-10 pr-4 text-sm outline-none focus:ring-1 focus:ring-foreground/20"
             />
           </div>
@@ -90,7 +127,7 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
             {isLoading ? (
               <div className="p-4 text-center text-sm text-muted-foreground italic">Cargando artículos...</div>
             ) : filteredArticles.length > 0 ? (
-              filteredArticles.map((article) => (
+              filteredArticles.map((article, index) => (
                 <button
                   key={article.slug}
                   onClick={() => {
@@ -100,7 +137,8 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
                   }}
                   className={clsx(
                     "flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm transition-colors hover:bg-muted hover:text-foreground",
-                    selectedSlug === article.slug ? "bg-muted font-semibold text-foreground" : "text-foreground"
+                    selectedSlug === article.slug ? "bg-muted font-semibold text-foreground" : "text-foreground",
+                    index === activeIndex && "bg-muted/70"
                   )}
                 >
                   <div className="flex flex-col truncate">

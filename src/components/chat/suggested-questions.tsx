@@ -5,14 +5,20 @@ import { SUGGESTED_QUESTIONS } from "@/config/constants";
 
 interface SuggestedQuestionsProps {
   onSelect: (question: string) => void;
+  questions?: string[];
+  title?: string;
 }
 
-export function SuggestedQuestions({ onSelect }: SuggestedQuestionsProps) {
+export function SuggestedQuestions({
+  onSelect,
+  questions = SUGGESTED_QUESTIONS,
+  title = "Preguntas sugeridas",
+}: SuggestedQuestionsProps) {
   return (
     <div>
-      <p className="mb-3 text-xs uppercase tracking-[0.05em] text-muted-foreground">Preguntas sugeridas</p>
+      <p className="mb-3 text-xs uppercase tracking-[0.05em] text-muted-foreground">{title}</p>
       <div className="grid gap-2 sm:grid-cols-2">
-        {SUGGESTED_QUESTIONS.map((q) => (
+        {questions.map((q) => (
           <button
             key={q}
             onClick={() => onSelect(q)}

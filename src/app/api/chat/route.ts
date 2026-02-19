@@ -6,6 +6,7 @@ import { ChatRequestSchema, validateMessageLength } from "@/lib/api/validation";
 import { checkRateLimit } from "@/lib/api/rate-limiter";
 import { buildConversationContext } from "@/lib/chat/session-memory";
 import { suggestCalculators } from "@/lib/chat/calculator-context";
+import type { ChatPageContext } from "@/types/chat-history";
 
 export const maxDuration = 60;
 
@@ -63,7 +64,7 @@ export async function POST(req: Request) {
     );
   }
 
-  const { messages, filters } = parsed.data;
+  const { messages, filters, pageContext, conversationId } = parsed.data;
 
   // Validate message length
   const lengthError = validateMessageLength(messages);
@@ -92,16 +93,25 @@ export async function POST(req: Request) {
   }
 
   // Session Memory
-  const conversationHistory = buildConversationContext(messages as Array<Record<string, unknown>>);
+  const conversationHistory = buildConversationContext(
+    messages as Array<Record<string, unknown>>,
+    5,
+    pageContext as ChatPageContext | undefined
+  );
 
   // Run RAG pipeline
   const { system, contextBlock, sources, debugInfo } = await runRAGPipeline(userQuery, {
     libroFilter,
     conversationHistory,
+    pageContext: pageContext as ChatPageContext | undefined,
   });
 
   // Suggest Calculators
-  const suggestedCalculators = suggestCalculators(userQuery);
+  const suggestedCalculators = suggestCalculators(
+    userQuery,
+    3,
+    pageContext as ChatPageContext | undefined
+  );
 
   const result = streamText({
     model: anthropic(CHAT_MODEL),
@@ -117,6 +127,8 @@ export async function POST(req: Request) {
         return {
           sources,
           suggestedCalculators,
+          timestamp: new Date().toLocaleString("es-CO"),
+          conversationId,
           ragMetadata: {
             chunksRetrieved: debugInfo?.chunksRetrieved,
             tokensUsed: debugInfo?.tokensUsed,

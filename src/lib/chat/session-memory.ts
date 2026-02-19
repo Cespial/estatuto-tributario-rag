@@ -1,6 +1,9 @@
+import { ChatPageContext } from "@/types/chat-history";
+
 export function buildConversationContext(
   messages: Array<Record<string, unknown>>,
-  maxTurns = 5
+  maxTurns = 5,
+  pageContext?: ChatPageContext
 ): string {
   const relevant = messages
     .filter((m) => m.role === "user" || m.role === "assistant")
@@ -26,5 +29,9 @@ export function buildConversationContext(
     })
     .join("\n");
 
-  return `<conversation_history>\n${summary}\n</conversation_history>`;
+  const contextPrefix = pageContext
+    ? `<navigation_context>\n${JSON.stringify(pageContext, null, 2)}\n</navigation_context>\n`
+    : "";
+
+  return `${contextPrefix}<conversation_history>\n${summary}\n</conversation_history>`;
 }

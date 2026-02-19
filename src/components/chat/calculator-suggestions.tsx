@@ -19,6 +19,7 @@ export function CalculatorSuggestions({ suggestions }: CalculatorSuggestionsProp
           key={calc.href}
           href={calc.href}
           className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
+          title={calc.description}
         >
           <Calculator className="h-3 w-3" />
           {calc.name}

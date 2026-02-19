@@ -1,0 +1,1707 @@
+{
+  "generated_at": "2026-02-19T18:36:47.285Z",
+  "years": [
+    1988,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1997,
+    1998,
+    2000,
+    2001,
+    2002,
+    2003,
+    2005,
+    2006,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2016,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "latest_year": 2024,
+  "granularity_notice": "Las métricas temporales provienen de datos agregados por año de reforma.",
+  "ranges": [
+    {
+      "key": "historico",
+      "label": "Histórico completo",
+      "modified_articles": 840,
+      "modified_percentage": 64.9,
+      "with_normas": 151,
+      "with_derogado_text": 286,
+      "granularity": "year"
+    },
+    {
+      "key": "ultima_reforma",
+      "label": "Última reforma (2024)",
+      "modified_articles": 3,
+      "modified_percentage": 0.2,
+      "with_normas": 2,
+      "with_derogado_text": 0,
+      "granularity": "year"
+    },
+    {
+      "key": "ultimos_12_meses",
+      "label": "Últimos 12 meses (aprox.)",
+      "modified_articles": 3,
+      "modified_percentage": 0.2,
+      "with_normas": 2,
+      "with_derogado_text": 0,
+      "granularity": "year",
+      "note": "El dataset disponible está agregado por año. Se usa 2024 como último periodo."
+    }
+  ],
+  "reform_timeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "laws": [
+        {
+          "name": "Ley 488 de 1988",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "total": 28,
+      "laws": [
+        {
+          "name": "Ley 49 de 1990",
+          "count": 27
+        },
+        {
+          "name": "Ley 10 de 1990",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "total": 28,
+      "laws": [
+        {
+          "name": "Decreto 1643 de 1991",
+          "count": 21
+        },
+        {
+          "name": "Decreto 1744 de 1991",
+          "count": 4
+        },
+        {
+          "name": "Decreto 1655 de 1991",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "total": 117,
+      "laws": [
+        {
+          "name": "Ley 6 de 1992",
+          "count": 117
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "total": 1,
+      "laws": [
+        {
+          "name": "Ley 98 de 1993",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "total": 5,
+      "laws": [
+        {
+          "name": "Ley 174 de 1994",
+          "count": 4
+        },
+        {
+          "name": "Ley 223 de 1994",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "total": 138,
+      "laws": [
+        {
+          "name": "Ley 223 de 1995",
+          "count": 137
+        },
+        {
+          "name": "Ley 181 de 1995",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "total": 24,
+      "laws": [
+        {
+          "name": "Ley 383 de 1997",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "total": 40,
+      "laws": [
+        {
+          "name": "Ley 488 de 1998",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "total": 51,
+      "laws": [
+        {
+          "name": "Ley 633 de 2000",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "total": 4,
+      "laws": [
+        {
+          "name": "Ley 716 de 2001",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "total": 64,
+      "laws": [
+        {
+          "name": "Ley 788 de 2002",
+          "count": 62
+        },
+        {
+          "name": "Ley 88 de 2002",
+          "count": 1
+        },
+        {
+          "name": "Ley 863 de 2002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "total": 52,
+      "laws": [
+        {
+          "name": "Ley 863 de 2003",
+          "count": 52
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "total": 8,
+      "laws": [
+        {
+          "name": "Ley 1004 de 2005",
+          "count": 5
+        },
+        {
+          "name": "Ley 962 de 2005",
+          "count": 2
+        },
+        {
+          "name": "Ley 964 de 2005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "total": 93,
+      "laws": [
+        {
+          "name": "Ley 1111 de 2006",
+          "count": 85
+        },
+        {
+          "name": "Ley 1066 de 2006",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "total": 12,
+      "laws": [
+        {
+          "name": "Ley 1370 de 2009",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "total": 34,
+      "laws": [
+        {
+          "name": "Ley 1430 de 2010",
+          "count": 32
+        },
+        {
+          "name": "Ley 2010 de 2010",
+          "count": 1
+        },
+        {
+          "name": "Ley 1393 de 2010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "total": 2,
+      "laws": [
+        {
+          "name": "Ley 1450 de 2011",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "total": 156,
+      "laws": [
+        {
+          "name": "Ley 1607 de 2012",
+          "count": 153
+        },
+        {
+          "name": "Decreto 19 de 2012",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "laws": [
+        {
+          "name": "Decreto 1070 de 2013",
+          "count": 1
+        },
+        {
+          "name": "Ley 1694 de 2013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "total": 24,
+      "laws": [
+        {
+          "name": "Ley 1739 de 2014",
+          "count": 22
+        },
+        {
+          "name": "Ley 1731 de 2014",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 341,
+      "laws": [
+        {
+          "name": "Ley 1819 de 2016",
+          "count": 341
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 167,
+      "laws": [
+        {
+          "name": "Ley 1943 de 2018",
+          "count": 167
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 143,
+      "laws": [
+        {
+          "name": "Ley 2010 de 2019",
+          "count": 129
+        },
+        {
+          "name": "Decreto Ley 2106 de 2019",
+          "count": 8
+        },
+        {
+          "name": "Ley 1955 de 2019",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 7,
+      "laws": [
+        {
+          "name": "Ley 2069 de 2020",
+          "count": 3
+        },
+        {
+          "name": "Ley 2068 de 2020",
+          "count": 2
+        },
+        {
+          "name": "Decreto Legislativo 575 de 2020",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 14,
+      "laws": [
+        {
+          "name": "Ley 2155 de 2021",
+          "count": 11
+        },
+        {
+          "name": "Ley 2152 de 2021",
+          "count": 2
+        },
+        {
+          "name": "Ley 2130 de 2021",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 60,
+      "laws": [
+        {
+          "name": "Ley 2277 de 2022",
+          "count": 59
+        },
+        {
+          "name": "Ley 277 de 2022",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "laws": [
+        {
+          "name": "Ley 2294 de 2023",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 3,
+      "laws": [
+        {
+          "name": "Ley 2380 de 2024",
+          "count": 2
+        },
+        {
+          "name": "Ley 2411 de 2024",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "laws_totals": [
+    {
+      "name": "Ley 1819 de 2016",
+      "count": 341
+    },
+    {
+      "name": "Ley 1943 de 2018",
+      "count": 167
+    },
+    {
+      "name": "Ley 1607 de 2012",
+      "count": 153
+    },
+    {
+      "name": "Ley 223 de 1995",
+      "count": 137
+    },
+    {
+      "name": "Ley 2010 de 2019",
+      "count": 129
+    },
+    {
+      "name": "Ley 6 de 1992",
+      "count": 117
+    },
+    {
+      "name": "Ley 1111 de 2006",
+      "count": 85
+    },
+    {
+      "name": "Ley 788 de 2002",
+      "count": 62
+    },
+    {
+      "name": "Ley 2277 de 2022",
+      "count": 59
+    },
+    {
+      "name": "Ley 863 de 2003",
+      "count": 52
+    },
+    {
+      "name": "Ley 633 de 2000",
+      "count": 51
+    },
+    {
+      "name": "Ley 488 de 1998",
+      "count": 40
+    },
+    {
+      "name": "Ley 1430 de 2010",
+      "count": 32
+    },
+    {
+      "name": "Ley 49 de 1990",
+      "count": 27
+    },
+    {
+      "name": "Ley 383 de 1997",
+      "count": 24
+    },
+    {
+      "name": "Ley 1739 de 2014",
+      "count": 22
+    },
+    {
+      "name": "Decreto 1643 de 1991",
+      "count": 21
+    },
+    {
+      "name": "Ley 1370 de 2009",
+      "count": 12
+    },
+    {
+      "name": "Ley 2155 de 2021",
+      "count": 11
+    },
+    {
+      "name": "Ley 1066 de 2006",
+      "count": 8
+    },
+    {
+      "name": "Decreto Ley 2106 de 2019",
+      "count": 8
+    },
+    {
+      "name": "Ley 1955 de 2019",
+      "count": 6
+    },
+    {
+      "name": "Ley 1004 de 2005",
+      "count": 5
+    },
+    {
+      "name": "Decreto 1744 de 1991",
+      "count": 4
+    },
+    {
+      "name": "Ley 174 de 1994",
+      "count": 4
+    },
+    {
+      "name": "Ley 716 de 2001",
+      "count": 4
+    },
+    {
+      "name": "Decreto 1655 de 1991",
+      "count": 3
+    },
+    {
+      "name": "Decreto 19 de 2012",
+      "count": 3
+    },
+    {
+      "name": "Ley 2069 de 2020",
+      "count": 3
+    },
+    {
+      "name": "Ley 962 de 2005",
+      "count": 2
+    },
+    {
+      "name": "Ley 1450 de 2011",
+      "count": 2
+    },
+    {
+      "name": "Ley 1731 de 2014",
+      "count": 2
+    },
+    {
+      "name": "Ley 2068 de 2020",
+      "count": 2
+    },
+    {
+      "name": "Decreto Legislativo 575 de 2020",
+      "count": 2
+    },
+    {
+      "name": "Ley 2152 de 2021",
+      "count": 2
+    },
+    {
+      "name": "Ley 2294 de 2023",
+      "count": 2
+    },
+    {
+      "name": "Ley 2380 de 2024",
+      "count": 2
+    },
+    {
+      "name": "Ley 488 de 1988",
+      "count": 1
+    },
+    {
+      "name": "Ley 10 de 1990",
+      "count": 1
+    },
+    {
+      "name": "Ley 98 de 1993",
+      "count": 1
+    },
+    {
+      "name": "Ley 223 de 1994",
+      "count": 1
+    },
+    {
+      "name": "Ley 181 de 1995",
+      "count": 1
+    },
+    {
+      "name": "Ley 88 de 2002",
+      "count": 1
+    },
+    {
+      "name": "Ley 863 de 2002",
+      "count": 1
+    },
+    {
+      "name": "Ley 964 de 2005",
+      "count": 1
+    },
+    {
+      "name": "Ley 2010 de 2010",
+      "count": 1
+    },
+    {
+      "name": "Ley 1393 de 2010",
+      "count": 1
+    },
+    {
+      "name": "Decreto 1070 de 2013",
+      "count": 1
+    },
+    {
+      "name": "Ley 1694 de 2013",
+      "count": 1
+    },
+    {
+      "name": "Ley 2130 de 2021",
+      "count": 1
+    },
+    {
+      "name": "Ley 277 de 2022",
+      "count": 1
+    },
+    {
+      "name": "Ley 2411 de 2024",
+      "count": 1
+    }
+  ],
+  "article_modification_trends": [
+    {
+      "slug": "879",
+      "id": "Art. 879",
+      "titulo": "Art. 879. Exenciones del GMF.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 4
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 2
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "206",
+      "id": "Art. 206",
+      "titulo": "Art. 206. Rentas de trabajo exentas.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 6
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "855",
+      "id": "Art. 855",
+      "titulo": "Art. 855. Termino para efectuar la devolución.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 1
+        },
+        {
+          "year": 2019,
+          "count": 2
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 1
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "905",
+      "id": "Art. 905",
+      "titulo": "Art. 905. Sujetos pasivos",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 2
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 2
+        },
+        {
+          "year": 2019,
+          "count": 3
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 1
+        },
+        {
+          "year": 2022,
+          "count": 2
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "25",
+      "id": "Art. 25",
+      "titulo": "Art. 25. Ingresos que no se consideran de fuente nacional.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 2
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "428",
+      "id": "Art. 428",
+      "titulo": "Art. 428. Importaciones que no causan impuesto.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 1
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "530",
+      "id": "Art. 530",
+      "titulo": "Art. 530. Se encuentran exentos del impuesto de timbre.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "850",
+      "id": "Art. 850",
+      "titulo": "Art. 850. Devolución de saldos a favor.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 1
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "36-1",
+      "id": "Art. 36-1",
+      "titulo": "Art. 36-1. Utilidad en la enajenación de acciones.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 1
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "408",
+      "id": "Art. 408",
+      "titulo": "Art. 408. Tarifas para rentas de capital y de trabajo.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 2
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 2
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "19",
+      "id": "Art. 19",
+      "titulo": "Art. 19. Contribuyentes del régimen tributario especial.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "49",
+      "id": "Art. 49",
+      "titulo": "Art. 49. Determinación de los dividendos y participaciones no gravados.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 1
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "260-1",
+      "id": "Art. 260-1",
+      "titulo": "Art. 260-1. Criterios de vinculación.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "651",
+      "id": "Art. 651",
+      "titulo": "Art. 651. Sanción por no enviar información.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "240",
+      "id": "Art. 240",
+      "titulo": "Art. 240. Tarifa general para para personas juridicas.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 1
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "476",
+      "id": "Art. 476",
+      "titulo": "Art. 476. Servicios excluidos del impuesto sobre las ventas.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "477",
+      "id": "Art. 477",
+      "titulo": "Art. 477. Bienes que se encuentran exentos del impuesto.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 1
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 1
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "485",
+      "id": "Art. 485",
+      "titulo": "Art. 485. Impuestos descontables.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 0
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "slug": "257",
+      "id": "Art. 257",
+      "titulo": "Art. 257. Descuento por donaciones a entidades sin ánimo de lucro pertenecientes al régimen especial.",
+      "series": [
+        {
+          "year": 2013,
+          "count": 0
+        },
+        {
+          "year": 2014,
+          "count": 0
+        },
+        {
+          "year": 2015,
+          "count": 0
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 0
+        },
+        {
+          "year": 2018,
+          "count": 0
+        },
+        {
+          "year": 2019,
+          "count": 1
+        },
+        {
+          "year": 2020,
+          "count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0
+        },
+        {
+          "year": 2023,
+          "count": 0
+        },
+        {
+          "year": 2024,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

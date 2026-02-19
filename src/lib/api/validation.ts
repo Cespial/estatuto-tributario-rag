@@ -11,13 +11,31 @@ const UIMessageSchema = z.object({
   parts: z.array(MessagePartSchema),
 });
 
+const PageContextSchema = z.object({
+  pathname: z.string(),
+  module: z.enum([
+    "home",
+    "comparar",
+    "favoritos",
+    "tablas-retencion",
+    "calculadora",
+    "articulo",
+    "other",
+  ]),
+  calculatorSlug: z.string().optional(),
+  articleSlug: z.string().optional(),
+  workspaceId: z.string().optional(),
+});
+
 export const ChatRequestSchema = z.object({
   messages: z.array(UIMessageSchema).min(1).max(50),
+  conversationId: z.string().optional(),
   filters: z
     .object({
       libro: z.string().optional(),
     })
     .optional(),
+  pageContext: PageContextSchema.optional(),
 });
 
 export const MAX_MESSAGE_LENGTH = 5000;

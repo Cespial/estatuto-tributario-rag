@@ -1,6 +1,10 @@
 export interface DiffSegment {
-  type: "same" | "added" | "removed";
+  id: string;
+  type: "same" | "added" | "removed" | "modified";
   text: string;
+  oldText?: string;
+  newText?: string;
+  wordCount: number;
 }
 
 // LCS (Longest Common Subsequence) word-level diff
@@ -26,7 +30,7 @@ export function computeWordDiff(textA: string, textB: string): DiffSegment[] {
   }
 
   // Backtrack to build diff
-  const segments: DiffSegment[] = [];
+  const segments: Array<{ type: "same" | "added" | "removed"; text: string }> = [];
   let i = m, j = n;
   const result: Array<{ type: "same" | "added" | "removed"; word: string }> = [];
 
@@ -53,20 +57,139 @@ export function computeWordDiff(textA: string, textB: string): DiffSegment[] {
     }
   }
 
-  return segments;
+  return normalizeSegments(segments);
 }
 
 function tokenize(text: string): string[] {
   return text.split(/\s+/).filter(Boolean);
 }
 
-export function countChanges(segments: DiffSegment[]): { added: number; removed: number; same: number } {
-  let added = 0, removed = 0, same = 0;
+function normalizeSegments(
+  input: Array<{ type: "same" | "added" | "removed"; text: string }>
+): DiffSegment[] {
+  const normalized: DiffSegment[] = [];
+  let pointer = 0;
+
+  while (pointer < input.length) {
+    const current = input[pointer];
+    const next = input[pointer + 1];
+
+    if (
+      current.type === "removed" &&
+      next &&
+      next.type === "added"
+    ) {
+      const oldText = current.text.trim();
+      const newText = next.text.trim();
+      const wordCount = Math.max(
+        oldText ? oldText.split(/\s+/).length : 0,
+        newText ? newText.split(/\s+/).length : 0
+      );
+      normalized.push({
+        id: `seg-${pointer}`,
+        type: "modified",
+        text: newText,
+        oldText,
+        newText,
+        wordCount,
+      });
+      pointer += 2;
+      continue;
+    }
+
+    const text = current.text.trim();
+    normalized.push({
+      id: `seg-${pointer}`,
+      type: current.type,
+      text,
+      wordCount: text ? text.split(/\s+/).length : 0,
+    });
+    pointer += 1;
+  }
+
+  return normalized;
+}
+
+export interface DiffStats {
+  added: number;
+  removed: number;
+  modified: number;
+  same: number;
+}
+
+export function countChanges(segments: DiffSegment[]): DiffStats {
+  let added = 0, removed = 0, modified = 0, same = 0;
   for (const seg of segments) {
-    const words = seg.text.split(/\s+/).length;
+    const words = seg.wordCount || seg.text.split(/\s+/).length;
     if (seg.type === "added") added += words;
     else if (seg.type === "removed") removed += words;
+    else if (seg.type === "modified") modified += words;
     else same += words;
   }
-  return { added, removed, same };
+  return { added, removed, modified, same };
+}
+
+export interface SideBySideDiffRow {
+  id: string;
+  changeType: "same" | "added" | "removed" | "modified";
+  leftText: string;
+  rightText: string;
+}
+
+export function buildSideBySideRows(segments: DiffSegment[]): SideBySideDiffRow[] {
+  return segments.map((segment) => {
+    if (segment.type === "same") {
+      return {
+        id: segment.id,
+        changeType: "same",
+        leftText: segment.text,
+        rightText: segment.text,
+      };
+    }
+
+    if (segment.type === "added") {
+      return {
+        id: segment.id,
+        changeType: "added",
+        leftText: "",
+        rightText: segment.text,
+      };
+    }
+
+    if (segment.type === "removed") {
+      return {
+        id: segment.id,
+        changeType: "removed",
+        leftText: segment.text,
+        rightText: "",
+      };
+    }
+
+    return {
+      id: segment.id,
+      changeType: "modified",
+      leftText: segment.oldText || "",
+      rightText: segment.newText || segment.text,
+    };
+  });
+}
+
+export interface DiffSummary {
+  totalWords: number;
+  totalChanges: number;
+  changeRatio: number;
+  stats: DiffStats;
+}
+
+export function summarizeDiff(segments: DiffSegment[]): DiffSummary {
+  const stats = countChanges(segments);
+  const totalWords = stats.added + stats.removed + stats.modified + stats.same;
+  const totalChanges = stats.added + stats.removed + stats.modified;
+  const changeRatio = totalWords > 0 ? totalChanges / totalWords : 0;
+  return {
+    totalWords,
+    totalChanges,
+    changeRatio,
+    stats,
+  };
 }

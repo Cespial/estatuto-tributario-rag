@@ -1,177 +1,133 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { BarChart3, Copy, Check, ExternalLink, Search } from "lucide-react";
-import { INDICADORES_2026 } from "@/config/indicadores-data";
+import { useMemo, useState } from "react";
+import { BarChart3, Search } from "lucide-react";
+import {
+  INDICADORES_CATEGORIAS,
+  INDICADORES_DESTACADOS_IDS,
+  INDICADORES_MAP,
+  UVT_COMPARATIVO,
+  type IndicatorCategory,
+  type IndicatorItem,
+} from "@/config/indicadores-data";
 import { ReferencePageLayout } from "@/components/layout/ReferencePageLayout";
-import { UvtHistoryChart } from "@/components/indicators/TaxCharts";
+import { IndicatorsHero } from "@/components/indicators/IndicatorsHero";
+import { IndicatorTrendChart } from "@/components/indicators/IndicatorTrendChart";
+import { UvtCopInlineCalculator } from "@/components/indicators/UvtCopInlineCalculator";
+import { UvtYoyTable } from "@/components/indicators/UvtYoyTable";
+import { IndicatorCard } from "@/components/indicators/IndicatorCard";
+import { Toast } from "@/components/ui/Toast";
 
-function CopyButton({ value }: { value: string }) {
-  const [copied, setCopied] = useState(false);
-  
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(value);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error("Error al copiar:", err);
-    }
-  };
+function useFilteredCategories(search: string): IndicatorCategory[] {
+  return useMemo(() => {
+    if (!search.trim()) return INDICADORES_CATEGORIAS;
 
-  return (
-    <button
-      type="button"
-      onClick={handleCopy}
-      className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-xs text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
-      title="Copiar valor"
-    >
-      {copied ? (
-        <>
-          <Check className="h-3 w-3 text-foreground" />
-          <span className="text-foreground">Copiado</span>
-        </>
-      ) : (
-        <>
-          <Copy className="h-3 w-3" />
-          <span>Copiar</span>
-        </>
-      )}
-    </button>
-  );
+    const lowerSearch = search.toLowerCase().trim();
+    return INDICADORES_CATEGORIAS.map((category) => ({
+      ...category,
+      items: category.items.filter(
+        (item) =>
+          item.nombre.toLowerCase().includes(lowerSearch) ||
+          item.valor.toLowerCase().includes(lowerSearch) ||
+          item.paraQueSirve.toLowerCase().includes(lowerSearch) ||
+          item.fechaCorte.toLowerCase().includes(lowerSearch)
+      ),
+    })).filter((category) => category.items.length > 0);
+  }, [search]);
 }
 
 export default function IndicadoresPage() {
   const [search, setSearch] = useState("");
+  const [toastVisible, setToastVisible] = useState(false);
+  const [toastMessage, setToastMessage] = useState("");
 
-  const filteredIndicadores = useMemo(() => {
-    if (!search) return INDICADORES_2026;
-    
-    return INDICADORES_2026.map(cat => ({
-      ...cat,
-      items: cat.items.filter(item => 
-        item.nombre.toLowerCase().includes(search.toLowerCase()) ||
-        item.valor.toLowerCase().includes(search.toLowerCase()) ||
-        (item.notas && item.notas.toLowerCase().includes(search.toLowerCase()))
-      )
-    })).filter(cat => cat.items.length > 0);
-  }, [search]);
+  const highlightedIndicators = INDICADORES_DESTACADOS_IDS.map((id) => INDICADORES_MAP[id]).filter(
+    Boolean
+  ) as IndicatorItem[];
+  const filteredCategories = useFilteredCategories(search);
+  const uvtValue = INDICADORES_MAP.uvt?.valorNumerico ?? 0;
+
+  const triggerToast = (message: string) => {
+    setToastMessage(message);
+    setToastVisible(true);
+    setTimeout(() => setToastVisible(false), 2200);
+  };
+
+  const handleCopy = async (item: IndicatorItem) => {
+    const payload = item.valorNumerico.toString();
+    try {
+      await navigator.clipboard.writeText(payload);
+      triggerToast(`Valor copiado: ${item.nombre}`);
+    } catch {
+      triggerToast("No fue posible copiar el valor");
+    }
+  };
 
   return (
     <ReferencePageLayout
-      title="Indicadores 2026"
-      description="Principales valores, topes y tarifas vigentes para el año gravable 2026."
+      title="Indicadores Económicos 2026"
+      description="Monitorea los indicadores críticos para cálculos tributarios, convierte UVT en segundos y proyecta decisiones con contexto histórico."
       icon={BarChart3}
     >
-      <div className="grid gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2 space-y-8">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Buscar indicador, valor o concepto..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full rounded-lg border border-border/60 bg-card py-3 pl-4 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20 shadow-sm"
-            />
-          </div>
+      <IndicatorsHero indicators={highlightedIndicators} />
 
-          <div className="grid gap-6 md:grid-cols-2">
-            {filteredIndicadores.length > 0 ? (
-              filteredIndicadores.map((cat, idx) => (
-                <div key={idx} className="flex flex-col gap-4 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                  <h2 className="text-lg border-b border-border pb-2 text-foreground heading-serif flex items-center gap-2">
-                    {cat.categoria}
-                  </h2>
-                  <div className="grid gap-4">
-                    {cat.items.map((item, itemIdx) => (
-                      <div 
-                        key={itemIdx} 
-                        className="group relative"
-                      >
-                        <div className="flex items-center justify-between gap-4">
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2">
-                              <span className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-colors">
-                                {item.nombre}
-                              </span>
-                              {item.articulo && (
-                                <Link 
-                                  href={`/articulo/${item.articulo}`}
-                                  className="inline-flex items-center gap-0.5 text-[10px] text-foreground/70 hover:underline opacity-0 group-hover:opacity-100 transition-opacity"
-                                >
-                                  Art. {item.articulo}
-                                  <ExternalLink className="h-2.5 w-2.5" />
-                                </Link>
-                              )}
-                            </div>
-                            <div className="mt-1 flex items-baseline justify-between">
-                              <div className="text-xl font-semibold tracking-tight text-foreground">
-                                {item.valor}
-                              </div>
-                              <CopyButton value={item.valorNumerico?.toString() || item.valor} />
-                            </div>
-                            {item.notas && (
-                              <p className="mt-1 text-xs text-muted-foreground italic border-l-2 border-border pl-2">
-                                {item.notas}
-                              </p>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))
-            ) : (
-              <div className="col-span-2 flex flex-col items-center justify-center py-20 text-center">
-                <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted">
-                  <Search className="h-8 w-8 text-muted-foreground/40" />
-                </div>
-                <h3 className="heading-serif text-xl text-foreground">
-                  Sin resultados
-                </h3>
-                <p className="mt-2 max-w-sm text-base leading-relaxed text-muted-foreground">
-                  No se encontraron indicadores que coincidan con su busqueda.
-                  Intente con otro termino o explore las categorias disponibles.
-                </p>
-                <button
-                  onClick={() => setSearch("")}
-                  className="mt-8 inline-flex h-10 items-center gap-2 rounded border border-border px-4 text-sm font-medium text-foreground transition-colors hover:bg-muted"
-                >
-                  Limpiar busqueda
-                </button>
-              </div>
-            )}
-          </div>
-        </div>
-
-        <div className="space-y-6">
-          <UvtHistoryChart />
-          
-          <div className="rounded-lg border border-border/60 bg-muted/30 p-6">
-            <h3 className="font-semibold text-foreground mb-2">Enlaces Rápidos</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/tablas/retencion" className="flex items-center gap-2 hover:underline">
-                  <span className="h-1.5 w-1.5 rounded-full bg-foreground/40" />
-                  Tabla de Retención
-                </Link>
-              </li>
-              <li>
-                <Link href="/calendario" className="flex items-center gap-2 hover:underline">
-                  <span className="h-1.5 w-1.5 rounded-full bg-foreground/40" />
-                  Calendario Tributario
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div className="grid gap-4 lg:grid-cols-2">
+        <UvtCopInlineCalculator uvtValue={uvtValue} />
+        <UvtYoyTable rows={UVT_COMPARATIVO} />
       </div>
 
-      <div className="mt-12 text-center text-xs text-muted-foreground pt-8">
-        <p>Última actualización: Febrero 2026. Estos valores están sujetos a cambios legislativos o reglamentarios.</p>
+      <section className="space-y-4">
+        <div className="relative">
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+          <input
+            type="text"
+            placeholder="Buscar indicador, utilidad o fecha de corte..."
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            className="h-12 w-full rounded border border-border bg-card pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          />
+        </div>
+
+        <div className="grid gap-5 lg:grid-cols-2">
+          {filteredCategories.length > 0 ? (
+            filteredCategories.map((category) => (
+              <section key={category.id} className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
+                <h2 className="heading-serif mb-3 text-xl text-foreground">{category.categoria}</h2>
+                <div className="space-y-3">
+                  {category.items.map((item) => (
+                    <IndicatorCard key={item.id} item={item} onCopy={handleCopy} />
+                  ))}
+                </div>
+              </section>
+            ))
+          ) : (
+            <div className="lg:col-span-2 rounded-lg border border-border/60 bg-muted/20 p-10 text-center">
+              <p className="text-lg heading-serif text-foreground">Sin resultados</p>
+              <p className="mt-2 text-sm text-muted-foreground">
+                No encontramos ese indicador. Prueba con UVT, TRM o usura.
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <section>
+        <h3 className="mb-3 heading-serif text-2xl text-foreground">Tendencias históricas clave (5-10 años)</h3>
+        <div className="grid gap-4 lg:grid-cols-2">
+          {highlightedIndicators.map((indicator) => (
+            <IndicatorTrendChart key={indicator.id} indicator={indicator} />
+          ))}
+        </div>
+      </section>
+
+      <div className="rounded-lg border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
+        <p>
+          <strong>Nota:</strong> Corte de datos interno al 19 de febrero de 2026. Para liquidaciones oficiales,
+          confirme valores diarios/mensuales en la fuente regulatoria correspondiente.
+        </p>
       </div>
+
+      <Toast message={toastMessage} visible={toastVisible} />
     </ReferencePageLayout>
   );
 }

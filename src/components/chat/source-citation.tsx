@@ -28,6 +28,7 @@ const ESTADO_LABEL: Record<string, string> = {
 
 function SourceCitationInner({
   idArticulo,
+  titulo,
   url,
   categoriaLibro,
   estado,
@@ -49,6 +50,7 @@ function SourceCitationInner({
         onClick={handleClick}
         className="inline-flex items-center gap-1 rounded-full border border-border bg-card px-2.5 py-0.5 text-xs font-medium text-foreground transition-colors hover:bg-foreground hover:text-background focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
         aria-label={`Ver artículo ${idArticulo}`}
+        title={`${idArticulo} · ${titulo}`}
       >
         {estado && (
           <span

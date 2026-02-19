@@ -4,12 +4,11 @@ const FOOTER_COLUMNS = [
   {
     title: "Calculadoras",
     links: [
-      { label: "Renta Personas Naturales", href: "/calculadoras/renta" },
-      { label: "Retencion en la Fuente", href: "/calculadoras/retencion" },
+      { label: "Debo declarar renta", href: "/calculadoras/debo-declarar" },
+      { label: "Renta personas naturales", href: "/calculadoras/renta" },
+      { label: "Retencion en la fuente", href: "/calculadoras/retencion" },
+      { label: "IVA", href: "/calculadoras/iva" },
       { label: "Regimen SIMPLE", href: "/calculadoras/simple" },
-      { label: "GMF (4x1000)", href: "/calculadoras/gmf" },
-      { label: "Patrimonio", href: "/calculadoras/patrimonio" },
-      { label: "Dividendos", href: "/calculadoras/dividendos" },
       { label: "Ver las 35", href: "/calculadoras" },
     ],
   },
@@ -17,19 +16,19 @@ const FOOTER_COLUMNS = [
     title: "Referencia",
     links: [
       { label: "Estatuto Tributario", href: "/explorador" },
-      { label: "Calendario Fiscal", href: "/calendario" },
+      { label: "Calendario fiscal", href: "/calendario" },
       { label: "Indicadores", href: "/indicadores" },
       { label: "Glosario", href: "/glosario" },
-      { label: "Tablas de Retencion", href: "/tablas/retencion" },
+      { label: "Tablas de retencion", href: "/tablas/retencion" },
     ],
   },
   {
     title: "Herramientas",
     links: [
-      { label: "Comparador de Articulos", href: "/comparar" },
-      { label: "Novedades Normativas", href: "/novedades" },
+      { label: "Comparador de articulos", href: "/comparar" },
+      { label: "Novedades normativas", href: "/novedades" },
       { label: "Doctrina DIAN", href: "/doctrina" },
-      { label: "Guias Interactivas", href: "/guias" },
+      { label: "Guias interactivas", href: "/guias" },
       { label: "Favoritos", href: "/favoritos" },
     ],
   },
@@ -38,27 +37,27 @@ const FOOTER_COLUMNS = [
     links: [
       { label: "Dashboard", href: "/dashboard" },
       { label: "Asistente IA", href: "#asistente" },
-      { label: "Todas las Calculadoras", href: "/calculadoras" },
+      { label: "FAQ", href: "#faq" },
+      { label: "Comparativa", href: "#comparativa" },
     ],
   },
-];
+] as const;
 
 export function FooterLinks() {
   return (
     <footer>
-      {/* Link columns */}
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-12">
-        {FOOTER_COLUMNS.map((col) => (
-          <div key={col.title}>
-            <h4 className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-background/50">
-              {col.title}
-            </h4>
+        {FOOTER_COLUMNS.map((column) => (
+          <div key={column.title}>
+            <h3 className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-background/55">
+              {column.title}
+            </h3>
             <ul className="space-y-3">
-              {col.links.map((link) => (
+              {column.links.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-background/70 transition-colors hover:text-background"
+                    className="text-sm text-background/75 transition-colors hover:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background"
                   >
                     {link.label}
                   </Link>
@@ -69,11 +68,14 @@ export function FooterLinks() {
         ))}
       </div>
 
-      {/* Copyright */}
       <div className="mt-16 border-t border-background/10 pt-8">
-        <p className="text-xs text-background/40">
-          &copy; 2026 SuperApp Tributaria Colombia. Herramienta informativa. No
-          constituye asesoria tributaria profesional.
+        <p className="text-xs leading-relaxed text-background/45">
+          (c) 2026 SuperApp Tributaria Colombia. Herramienta informativa de apoyo
+          tributario. No constituye asesoria legal o contable personalizada.
+        </p>
+        <p className="mt-2 text-xs leading-relaxed text-background/40">
+          Basada en normativa tributaria colombiana y consulta del Estatuto
+          Tributario.
         </p>
       </div>
     </footer>

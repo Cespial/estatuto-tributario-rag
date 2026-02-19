@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { ArrowLeft, ChevronDown } from "lucide-react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { ChevronDown } from "lucide-react";
 import {
   UVT_VALUES,
   CURRENT_UVT_YEAR,
@@ -22,6 +22,17 @@ import {
 } from "@/config/tax-data";
 import { CurrencyInput, ToggleInput, SelectInput } from "@/components/calculators/shared-inputs";
 import { CalculatorSources } from "@/components/calculators/calculator-sources";
+import { CalculatorBreadcrumb } from "@/components/calculators/calculator-breadcrumb";
+import { CalculatorActions } from "@/components/calculators/calculator-actions";
+import { ScenarioSlider } from "@/components/calculators/scenario-slider";
+import { CalculationStepsTable } from "@/components/calculators/calculation-steps-table";
+import { CalculatorDisclaimer } from "@/components/calculators/calculator-disclaimer";
+import { RelatedCalculators } from "@/components/calculators/related-calculators";
+import { ComparadorModesChart } from "@/components/calculators/charts/comparador-modes-chart";
+import { PrintWrapper } from "@/components/pdf/print-wrapper";
+import { usePrintExport } from "@/lib/pdf/use-print-export";
+import { buildShareUrl, readBooleanParam, readNumberParam, readStringParam, replaceUrlQuery } from "@/lib/calculators/url-state";
+import { trackCalculatorUsage } from "@/lib/calculators/popularity";
 
 // ── Helpers ──
 
@@ -94,10 +105,37 @@ function CollapsibleSection({
 
 // ── Main Page ──
 
-export default function ComparadorPage() {
-  const [presupuesto, setPresupuesto] = useState(0);
-  const [esPensionado, setEsPensionado] = useState(false);
-  const [grupoSimple, setGrupoSimple] = useState("2");
+function ComparadorPageContent() {
+  const searchParams = useSearchParams();
+  const initialValues = useMemo(() => {
+    const parsedGroup = readStringParam(searchParams, "g", "2");
+
+    return {
+      presupuesto: readNumberParam(searchParams, "p", 0, { min: 0 }),
+      esPensionado: readBooleanParam(searchParams, "pen", false),
+      grupoSimple: SIMPLE_GROUPS.some((group) => String(group.id) === parsedGroup) ? parsedGroup : "2",
+    };
+  }, [searchParams]);
+
+  const [presupuesto, setPresupuesto] = useState(initialValues.presupuesto);
+  const [esPensionado, setEsPensionado] = useState(initialValues.esPensionado);
+  const [grupoSimple, setGrupoSimple] = useState(initialValues.grupoSimple);
+
+  const { contentRef, handlePrint } = usePrintExport({
+    title: "Comparador de Contratacion",
+  });
+
+  useEffect(() => {
+    trackCalculatorUsage("comparador");
+  }, []);
+
+  useEffect(() => {
+    replaceUrlQuery({
+      p: presupuesto,
+      pen: esPensionado,
+      g: grupoSimple,
+    });
+  }, [presupuesto, esPensionado, grupoSimple]);
 
   const uvt = UVT_VALUES[CURRENT_UVT_YEAR];
   const groupIndex = parseInt(grupoSimple) - 1;
@@ -359,17 +397,154 @@ export default function ComparadorPage() {
   const bestCol = (i: number) =>
     result && result.bestIndex === i ? "bg-muted/50 font-semibold" : "";
 
+  const shareUrl = buildShareUrl("/calculadoras/comparador", {
+    p: presupuesto,
+    pen: esPensionado,
+    g: grupoSimple,
+  });
+
+  const chartRows = result
+    ? [
+        {
+          mode: "Laboral",
+          costoEmpresa: result.lab.costoEmpresa,
+          netoAnual: result.lab.netoAnual,
+          impuestoRenta: result.lab.impuestoRenta,
+          descuentosHastaNeto: Math.max(0, result.lab.ingresoBrutoAnual - result.lab.netoAnual),
+        },
+        ...(!result.int.na
+          ? [
+              {
+                mode: "Integral",
+                costoEmpresa: result.int.costoEmpresa,
+                netoAnual: result.int.netoAnual,
+                impuestoRenta: result.int.impuestoRenta,
+                descuentosHastaNeto: Math.max(0, result.int.ingresoBrutoAnual - result.int.netoAnual),
+              },
+            ]
+          : []),
+        {
+          mode: "Independiente",
+          costoEmpresa: result.ind.honorario,
+          netoAnual: result.ind.netoAnual,
+          impuestoRenta: result.ind.impuestoRenta,
+          descuentosHastaNeto: Math.max(0, result.ind.ingresoBrutoAnual - result.ind.netoAnual),
+        },
+      ]
+    : [];
+
+  const stepRows = result
+    ? result.bestIndex === 0
+      ? [
+          {
+            id: "lab-ingreso",
+            label: "Ingreso laboral anual (incluye prestaciones)",
+            value: formatCOP(result.lab.ingresoBrutoAnual),
+            explanation: "Suma salario anual mas prestaciones sociales en la modalidad laboral ordinaria.",
+          },
+          {
+            id: "lab-ss",
+            label: "(-) Aportes obligatorios trabajador",
+            value: formatCOP(result.lab.ssAnual),
+            explanation: "Aportes a salud y pension que reducen el ingreso neto gravable.",
+            tone: "muted" as const,
+          },
+          {
+            id: "lab-renta",
+            label: "Impuesto de renta estimado",
+            value: formatCOP(result.lab.impuestoRenta),
+            explanation: "Impuesto anual aplicando tabla marginal del Art. 241 ET.",
+            tone: "subtotal" as const,
+          },
+          {
+            id: "lab-neto",
+            label: "Neto anual para trabajador",
+            value: formatCOP(result.lab.netoAnual),
+            explanation: "Ingreso anual neto sin incluir eventuales descuentos adicionales no modelados.",
+            tone: "total" as const,
+          },
+        ]
+      : result.bestIndex === 1
+        ? [
+            {
+              id: "int-ingreso",
+              label: "Ingreso integral anual",
+              value: formatCOP(result.int.ingresoBrutoAnual),
+              explanation: "Ingreso anual bajo salario integral (sin prestaciones separadas).",
+            },
+            {
+              id: "int-base",
+              label: "Base SS (70%)",
+              value: formatCOP(result.int.base70 * 12),
+              explanation: "Seguridad social sobre el 70% del salario integral.",
+              tone: "muted" as const,
+            },
+            {
+              id: "int-renta",
+              label: "Impuesto de renta estimado",
+              value: formatCOP(result.int.impuestoRenta),
+              explanation: "Impuesto anual estimado en modalidad integral.",
+              tone: "subtotal" as const,
+            },
+            {
+              id: "int-neto",
+              label: "Neto anual para trabajador",
+              value: formatCOP(result.int.netoAnual),
+              explanation: "Resultado neto anual para el trabajador en modalidad integral.",
+              tone: "total" as const,
+            },
+          ]
+        : [
+            {
+              id: "ind-ingreso",
+              label: "Honorarios anuales",
+              value: formatCOP(result.ind.ingresoBrutoAnual),
+              explanation: "Ingresos anuales del contratista por prestacion de servicios.",
+            },
+            {
+              id: "ind-ss",
+              label: "(-) Seguridad social independiente",
+              value: formatCOP(result.ind.ssAnual),
+              explanation: "Aportes a salud, pension y ARL sobre base del 40% del ingreso.",
+              tone: "muted" as const,
+            },
+            {
+              id: "ind-renta",
+              label: "Impuesto de renta estimado",
+              value: formatCOP(result.ind.impuestoRenta),
+              explanation: "Impuesto anual estimado para modalidad independiente.",
+              tone: "subtotal" as const,
+            },
+            {
+              id: "ind-neto",
+              label: "Neto anual para trabajador",
+              value: formatCOP(result.ind.netoAnual),
+              explanation: "Resultado neto anual del independiente despues de aportes.",
+              tone: "total" as const,
+            },
+          ]
+    : [];
+
   return (
     <>
-      <Link
-        href="/calculadoras"
-        className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
-      >
-        <ArrowLeft className="h-4 w-4" />
-        Calculadoras
-      </Link>
+      <CalculatorBreadcrumb
+        items={[
+          { label: "Calculadoras", href: "/calculadoras" },
+          { label: "Comparador de Contratacion" },
+        ]}
+      />
 
-      <h1 className="mb-6 heading-serif text-3xl">Comparador de Contratacion</h1>
+      <h1 className="mb-2 heading-serif text-3xl">Comparador de Contratacion</h1>
+      <p className="mb-6 text-sm text-muted-foreground">
+        Compara laboral, integral e independiente con enfoque en costo empresa, neto trabajador y carga tributaria.
+      </p>
+
+      <CalculatorActions
+        title="Comparador de Contratacion"
+        shareText="Consulta este escenario del comparador de contratacion"
+        shareUrl={shareUrl}
+        onExportPdf={handlePrint}
+      />
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">
@@ -393,6 +568,17 @@ export default function ComparadorPage() {
         </div>
       </div>
 
+      <ScenarioSlider
+        label="Escenario: Que pasa si el presupuesto mensual cambia?"
+        helper="Mueve el control para simular un presupuesto mayor o menor y comparar modalidades en tiempo real."
+        min={0}
+        max={40_000_000}
+        step={250_000}
+        value={presupuesto}
+        onChange={setPresupuesto}
+        formatValue={formatCOP}
+      />
+
       {result && (
         <div className="space-y-6">
           {/* Integral N/A warning */}
@@ -401,6 +587,16 @@ export default function ComparadorPage() {
               Salario Integral no aplica: el salario calculado ({formatCOP(result.int.salario)}) es inferior al minimo
               de {SALARIO_INTEGRAL_MIN_SMLMV} SMLMV ({formatCOP(SALARIO_INTEGRAL_MIN_SMLMV * SMLMV_2026)}).
             </p>
+          )}
+
+          {chartRows.length > 0 && <ComparadorModesChart rows={chartRows} />}
+
+          {stepRows.length > 0 && (
+            <CalculationStepsTable
+              title={`Paso a paso de modalidad recomendada (${result.bestIndex === 0 ? "Laboral" : result.bestIndex === 1 ? "Integral" : "Independiente"})`}
+              rows={stepRows}
+              valueColumnTitle="Valor anual"
+            />
           )}
 
           {/* ════ A. TABLA COMPARATIVA PRINCIPAL ════ */}
@@ -626,7 +822,47 @@ export default function ComparadorPage() {
       )}
 
       <div className="mt-6">
-        <CalculatorSources articles={["383", "241", "905", "206"]} />
+        <CalculatorSources
+          articles={[
+            { id: "383", reason: "Tabla de retencion mensual para rentas de trabajo." },
+            { id: "241", reason: "Tabla marginal del impuesto de renta anual." },
+            { id: "905", reason: "Marco del regimen SIMPLE para independientes." },
+            { id: "206", reason: "Renta exenta del 25% y limites aplicables." },
+          ]}
+        />
+      </div>
+
+      <CalculatorDisclaimer
+        references={[
+          "Art. 383 ET",
+          "Art. 241 ET",
+          "Art. 905 ET",
+          "Art. 206 ET",
+        ]}
+        message="Comparador orientativo con supuestos simplificados. Antes de decidir una modalidad contractual, valide riesgos laborales, seguridad social y efectos tributarios con su asesor."
+      />
+
+      <RelatedCalculators currentId="comparador" />
+
+      <div className="hidden">
+        <div ref={contentRef}>
+          <PrintWrapper
+            title="Comparador de Contratacion"
+            subtitle="Resumen ejecutivo del escenario comparado"
+          >
+            {result && (
+              <div className="space-y-2 text-sm">
+                <p>Presupuesto mensual: {formatCOP(presupuesto)}</p>
+                <p>Condicion pensionado: {esPensionado ? "Si" : "No"}</p>
+                <p>Grupo SIMPLE: {SIMPLE_GROUPS[groupIndex].label}</p>
+                <p>Neto anual laboral: {formatCOP(result.lab.netoAnual)}</p>
+                <p>Neto anual integral: {result.int.na ? "N/A" : formatCOP(result.int.netoAnual)}</p>
+                <p>Neto anual independiente: {formatCOP(result.ind.netoAnual)}</p>
+                <p>Modalidad recomendada: {result.bestIndex === 0 ? "Laboral" : result.bestIndex === 1 ? "Integral" : "Independiente"}</p>
+              </div>
+            )}
+          </PrintWrapper>
+        </div>
       </div>
     </>
   );
@@ -761,3 +997,11 @@ const PROS_CONTRAS = [
     independiente: "No cotiza pension sobre 40%",
   },
 ];
+
+export default function ComparadorPage() {
+  return (
+    <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Cargando calculadora...</div>}>
+      <ComparadorPageContent />
+    </Suspense>
+  );
+}

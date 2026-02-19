@@ -3,11 +3,13 @@ import { embedQueries } from "@/lib/pinecone/embedder";
 import { EnhancedQuery, RetrievalResult } from "@/types/rag";
 import { ScoredChunk, ChunkMetadata } from "@/types/pinecone";
 import { RAG_CONFIG } from "@/config/constants";
+import { ChatPageContext } from "@/types/chat-history";
 
 interface RetrieveOptions {
   topK?: number;
   similarityThreshold?: number;
   libroFilter?: string;
+  pageContext?: ChatPageContext;
 }
 
 export async function retrieve(
@@ -19,7 +21,7 @@ export async function retrieve(
   } = options;
 
   const topK = determineTopK(query, options.topK);
-  const filter = buildFilter(query, options.libroFilter);
+  const filter = buildFilter(query, options.libroFilter, options.pageContext);
 
   // Build all query texts for parallel embedding
   const queryTexts: string[] = [query.original];
@@ -100,7 +102,8 @@ function determineTopK(query: EnhancedQuery, override?: number): number {
 
 function buildFilter(
   query: EnhancedQuery,
-  libroFilter?: string
+  libroFilter?: string,
+  pageContext?: ChatPageContext
 ): Record<string, unknown> | null {
   const conditions: Record<string, unknown>[] = [];
 
@@ -108,6 +111,17 @@ function buildFilter(
     conditions.push({ categoria_libro: { $eq: libroFilter } });
   } else if (query.detectedLibro) {
     conditions.push({ categoria_libro: { $eq: query.detectedLibro } });
+  } else if (pageContext?.module === "tablas-retencion") {
+    conditions.push({ categoria_libro: { $eq: "II - Retención en la Fuente" } });
+  } else if (pageContext?.module === "calculadora" && pageContext.calculatorSlug?.includes("renta")) {
+    conditions.push({
+      categoria_libro: { $eq: "I - Impuesto sobre la Renta y Complementarios" },
+    });
+  } else if (
+    pageContext?.module === "calculadora" &&
+    pageContext.calculatorSlug?.includes("retencion")
+  ) {
+    conditions.push({ categoria_libro: { $eq: "II - Retención en la Fuente" } });
   }
 
   if (conditions.length === 0) return null;

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { clsx } from "clsx";
 import { useArticlePanel } from "@/contexts/article-panel-context";
+import { ET_BOOK_COLOR_MAP } from "@/lib/constants/et-books";
 
 interface ArticleCardProps {
   id: string;
@@ -15,6 +16,8 @@ interface ArticleCardProps {
   totalReferencedBy: number;
   complexity: number;
   hasNormas: boolean;
+  ultimaModYear?: number | null;
+  hasDerogadoText?: boolean;
 }
 
 const ESTADO_CONFIG: Record<string, { label: string; dot: string; badge: string }> = {
@@ -46,9 +49,17 @@ export function ArticleCard({
   totalReferencedBy,
   complexity,
   hasNormas,
+  ultimaModYear = null,
+  hasDerogadoText = false,
 }: ArticleCardProps) {
   const { openPanel } = useArticlePanel();
   const estadoCfg = ESTADO_CONFIG[estado] || ESTADO_CONFIG.vigente;
+  const libroColor = ET_BOOK_COLOR_MAP[libro] || "#6b7280";
+  const badges = [
+    ultimaModYear ? `Modificado ${ultimaModYear}` : null,
+    hasDerogadoText ? "Con texto derogado" : null,
+    hasNormas ? "Con normas" : null,
+  ].filter(Boolean) as string[];
 
   return (
     <div
@@ -57,7 +68,14 @@ export function ArticleCard({
     >
       {/* Header */}
       <div className="mb-2 flex items-start justify-between">
-        <span className="text-sm font-semibold text-foreground">{id}</span>
+        <div className="flex items-center gap-2">
+          <span
+            className="h-2.5 w-2.5 rounded-full"
+            style={{ backgroundColor: libroColor }}
+            aria-hidden="true"
+          />
+          <span className="text-sm font-semibold text-foreground">{id}</span>
+        </div>
         <span
           className={clsx(
             "rounded-full px-2 py-0.5 text-[10px] font-medium",
@@ -72,12 +90,25 @@ export function ArticleCard({
         {titulo}
       </h3>
       <p className="mb-3 text-xs text-muted-foreground">{libro}</p>
+
+      {badges.length > 0 && (
+        <div className="mb-3 flex flex-wrap gap-1.5">
+          {badges.slice(0, 2).map((badge) => (
+            <span
+              key={badge}
+              className="rounded-full border border-border bg-muted px-2 py-0.5 text-[10px] text-muted-foreground"
+            >
+              {badge}
+            </span>
+          ))}
+        </div>
+      )}
+
       {/* Stats row */}
       <div className="mt-auto flex items-center gap-3 text-xs text-muted-foreground">
         {totalMods > 0 && <span>{totalMods} mods</span>}
         {totalRefs > 0 && <span>{totalRefs} refs</span>}
         {totalReferencedBy > 0 && <span>{totalReferencedBy} cited</span>}
-        {hasNormas && <span>normas</span>}
         <span className="ml-auto">{complexity}/10</span>
       </div>
       {/* Complexity bar */}

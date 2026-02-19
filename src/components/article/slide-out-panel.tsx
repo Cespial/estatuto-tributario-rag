@@ -6,6 +6,7 @@ import Link from "next/link";
 import DOMPurify from "isomorphic-dompurify";
 import { useArticlePanel } from "@/contexts/article-panel-context";
 import { clsx } from "clsx";
+import { useRecents } from "@/hooks/useRecents";
 
 interface ArticleData {
   id_articulo: string;
@@ -38,6 +39,7 @@ const ESTADO_LABELS: Record<string, string> = {
 
 export function SlideOutPanel() {
   const { isOpen, slug, closePanel } = useArticlePanel();
+  const { trackRecent } = useRecents();
   const [article, setArticle] = useState<ArticleData | null>(null);
   const [loading, setLoading] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -69,6 +71,17 @@ export function SlideOutPanel() {
       })
       .catch(() => setLoading(false));
   }, [slug]);
+
+  useEffect(() => {
+    if (!article || !isOpen) return;
+    trackRecent({
+      id: article.id_articulo,
+      title: article.titulo_corto || article.titulo,
+      href: `/articulo/${article.slug}`,
+      slug: article.slug,
+      type: "art",
+    });
+  }, [article, isOpen, trackRecent]);
 
   // Close on Escape
   useEffect(() => {
