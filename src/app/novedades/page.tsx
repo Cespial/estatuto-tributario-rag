@@ -78,14 +78,14 @@ export default function NovedadesPage() {
             placeholder="Buscar por titulo, contenido, numero o tags..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded border border-border/60 bg-card px-4 py-2.5 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+            className="w-full rounded border border-border/60 bg-card px-4 h-12 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
         <select
           value={tipoFiltro}
           onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border/60 bg-card px-4 h-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los tipos</option>
           <option value="ley">Ley</option>
@@ -99,7 +99,7 @@ export default function NovedadesPage() {
         <select
           value={impactoFiltro}
           onChange={(e) => setImpactoFiltro(e.target.value)}
-          className="w-full rounded border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border/60 bg-card px-4 h-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los impactos</option>
           <option value="alto">Impacto Alto</option>
@@ -149,7 +149,7 @@ export default function NovedadesPage() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-foreground transition-colors mb-1">
+                <h3 className="heading-serif text-lg text-foreground transition-colors mb-1">
                   {novedad.titulo}
                 </h3>
 

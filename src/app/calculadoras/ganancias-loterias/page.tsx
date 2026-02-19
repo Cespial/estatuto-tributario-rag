@@ -48,13 +48,13 @@ export default function LoteriasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Loterías, Rifas y Apuestas</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Loterías, Rifas y Apuestas</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula el impuesto a las ganancias ocasionales sobre premios y sorteos.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos del Premio</h2>
+            <h2 className="mb-4 heading-serif text-lg">Datos del Premio</h2>
             <div className="space-y-4">
               <CurrencyInput id="premio" label="Valor Bruto del Premio" value={premioBruto} onChange={setPremioBruto} />
 
@@ -93,7 +93,7 @@ export default function LoteriasPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado</h2>
+                <h2 className="mb-4 heading-serif text-lg">Resultado</h2>
                 <CalculatorResult items={[
                   { label: "Base Gravable", value: formatCOP(results.baseGravable) },
                   { label: "Impuesto (20%)", value: formatCOP(results.impuesto) },

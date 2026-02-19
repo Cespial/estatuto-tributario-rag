@@ -52,7 +52,7 @@ export default function DeboDeclararPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">¿Debo Declarar Renta 2025? (PN)</h1>
+      <h1 className="mb-6 heading-serif text-3xl">¿Debo Declarar Renta 2025? (PN)</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         Basado en los topes del Art. 592, 593 y 594-3 del ET para el año gravable 2025.
       </p>
@@ -113,15 +113,15 @@ export default function DeboDeclararPage() {
       </div>
 
       <div className="mb-6">
-        <h3 className="mb-3 text-lg font-semibold tracking-tight">Tabla de verificacion (UVT $49,799)</h3>
+        <h3 className="mb-4 heading-serif text-lg">Tabla de verificacion (UVT $49,799)</h3>
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border/60 bg-muted/30">
-                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tope ($)</th>
-                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Su valor</th>
-                <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Supera?</th>
+                <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tope ($)</th>
+                <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Su valor</th>
+                <th className="px-4 py-3 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Supera?</th>
               </tr>
             </thead>
             <tbody>
@@ -133,10 +133,10 @@ export default function DeboDeclararPage() {
                 { label: "Compras y Consumos (1,400 UVT)", limit: thresholds.compras, value: compras, exceeds: evaluation.exceeds.compras },
               ].map((row, i) => (
                 <tr key={i} className={`border-b border-border last:border-0 ${row.exceeds ? "bg-muted/30" : ""}`}>
-                  <td className="px-4 py-2 font-medium">{row.label}</td>
-                  <td className="px-4 py-2 text-right text-muted-foreground">{formatCOP(row.limit)}</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(row.value)}</td>
-                  <td className="px-4 py-2 text-center">
+                  <td className="px-4 py-3 font-medium">{row.label}</td>
+                  <td className="px-4 py-3 text-right text-muted-foreground">{formatCOP(row.limit)}</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(row.value)}</td>
+                  <td className="px-4 py-3 text-center">
                     {row.exceeds ? (
                       <span className="inline-block rounded bg-foreground px-2 py-0.5 text-xs font-medium text-background">SI</span>
                     ) : (

@@ -80,13 +80,13 @@ export default function DividendosPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Dividendos y Participaciones</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Dividendos y Participaciones</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Integrado a Cédula General (Ley 2277/2022).</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Ingresos del Socio</h2>
+            <h2 className="mb-4 heading-serif text-lg">Ingresos del Socio</h2>
             <div className="space-y-4">
               <CurrencyInput id="otros-ingresos" label="Otros Ingresos Gravables (Salarios, etc)" value={otrosIngresos} onChange={setOtrosIngresos} />
               <CurrencyInput id="p-gravada" label="Dividendos Gravados (Art. 49 P3)" value={porcionGravada} onChange={setPorcionGravada} />
@@ -102,7 +102,7 @@ export default function DividendosPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Estimación Fiscal</h2>
+                <h2 className="mb-4 heading-serif text-lg">Estimación Fiscal</h2>
                 <CalculatorResult items={[
                   { label: "Impuesto Estimado", value: formatCOP(results.impuestoFinal) },
                   { label: "Descuento Art 254-1", value: formatCOP(results.descuentoArt254), sublabel: "Ahorro por ley" },

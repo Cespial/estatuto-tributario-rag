@@ -53,7 +53,7 @@ export function FooterLinks() {
             <h4 className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-background/50">
               {col.title}
             </h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-3">
               {col.links.map((link) => (
                 <li key={link.href}>
                   <Link

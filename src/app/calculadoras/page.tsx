@@ -302,7 +302,7 @@ const CALCULATORS = [
 export default function CalculadorasPage() {
   return (
     <>
-      <h1 className="mb-2 heading-serif text-3xl">
+      <h1 className="mb-6 heading-serif text-3xl">
         Calculadoras Tributarias
       </h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">

@@ -137,19 +137,19 @@ export default function HorasExtrasPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30">
                 <tr>
-                  <th className="px-4 py-2 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tipo</th>
-                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Factor</th>
-                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Horas</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Total</th>
+                  <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tipo</th>
+                  <th className="px-4 py-3 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Factor</th>
+                  <th className="px-4 py-3 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Horas</th>
+                  <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Total</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
                 {results.details.map((row, i) => (
                   <tr key={i} className={row.hours > 0 ? "bg-muted/50" : ""}>
-                    <td className="px-4 py-2">{row.label}</td>
-                    <td className="px-4 py-2 text-center text-xs text-muted-foreground">{row.factor.toFixed(2)}</td>
-                    <td className="px-4 py-2 text-center font-mono">{row.hours}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(row.value)}</td>
+                    <td className="px-4 py-3">{row.label}</td>
+                    <td className="px-4 py-3 text-center text-xs text-muted-foreground">{row.factor.toFixed(2)}</td>
+                    <td className="px-4 py-3 text-center font-mono">{row.hours}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(row.value)}</td>
                   </tr>
                 ))}
                 <tr className="bg-muted/30 font-bold">

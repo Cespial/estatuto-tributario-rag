@@ -42,7 +42,7 @@ export default function GMFPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">GMF (4×1000)</h1>
+      <h1 className="mb-6 heading-serif text-3xl">GMF (4×1000)</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula el Gravamen a los Movimientos Financieros.</p>
 
       <div className="mb-6 space-y-4">

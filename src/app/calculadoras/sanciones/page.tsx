@@ -85,7 +85,7 @@ export default function SancionesPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Sancion por Extemporaneidad</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Sancion por Extemporaneidad</h1>
 
       <div className="mb-6 space-y-4">
         <CurrencyInput id="sancion-impuesto" label="Impuesto a cargo" value={impuesto} onChange={setImpuesto} />

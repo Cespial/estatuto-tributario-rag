@@ -22,7 +22,7 @@ export function UseCaseTicker() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center gap-2 md:gap-3">
+    <div className="flex flex-col items-center gap-3 md:gap-4">
       {USE_CASES.map((useCase, i) => (
         <span
           key={useCase}

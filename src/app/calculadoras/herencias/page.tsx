@@ -79,13 +79,13 @@ export default function HerenciasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Herencias y Donaciones</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Herencias y Donaciones</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Perfeccionado con topes Ley 2277/2022.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos de la Asignación</h2>
+            <h2 className="mb-4 heading-serif text-lg">Datos de la Asignación</h2>
             <div className="space-y-4">
               <CurrencyInput id="valor-bienes" label="Valor de los Bienes" value={valorBienes} onChange={setValorBienes} />
               <SelectInput id="tipo-bien" label="Tipo de Bien" value={tipoBien} onChange={setTipoBien} options={TIPO_BIEN_OPTIONS} />
@@ -104,7 +104,7 @@ export default function HerenciasPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado</h2>
+                <h2 className="mb-4 heading-serif text-lg">Resultado</h2>
                 <CalculatorResult items={[
                   { label: "Valor Recibido", value: formatCOP(valorBienes) },
                   { label: "Exención Total", value: formatCOP(results.totalExencion), sublabel: "Art. 307 ET" },

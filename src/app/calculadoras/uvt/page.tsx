@@ -51,7 +51,7 @@ export default function UVTPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Conversor UVT ↔ COP</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Conversor UVT ↔ COP</h1>
 
       <div className="mb-6 space-y-4">
         {/* Direction toggle */}
@@ -97,13 +97,13 @@ export default function UVTPage() {
 
       {/* Historical table */}
       <div className="mb-6">
-        <h2 className="mb-3 text-lg font-semibold">Historico UVT</h2>
+        <h2 className="mb-4 heading-serif text-lg">Historico UVT</h2>
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                <th className="px-4 py-2 text-left">Ano</th>
-                <th className="px-4 py-2 text-right">Valor UVT</th>
+                <th className="px-4 py-3 text-left">Ano</th>
+                <th className="px-4 py-3 text-right">Valor UVT</th>
               </tr>
             </thead>
             <tbody>
@@ -111,8 +111,8 @@ export default function UVTPage() {
                 .sort(([a], [b]) => Number(b) - Number(a))
                 .map(([y, v]) => (
                   <tr key={y} className={clsx("border-b border-border last:border-0", y === year && "bg-muted/50")}>
-                    <td className="px-4 py-2">{y}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(v)}</td>
+                    <td className="px-4 py-3">{y}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(v)}</td>
                   </tr>
                 ))}
             </tbody>

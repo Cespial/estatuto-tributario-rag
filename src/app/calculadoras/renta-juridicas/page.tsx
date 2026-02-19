@@ -84,7 +84,7 @@ export default function RentaJuridicasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Renta Personas Juridicas 2026</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Renta Personas Juridicas 2026</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Incluye medidas de emergencia del Decreto 1474 de 2025 y TTD del 15%.</p>
 
       <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -147,17 +147,17 @@ export default function RentaJuridicasPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                  <th className="px-4 py-2 text-left">Sector</th>
-                  <th className="px-4 py-2 text-right">Tarifa Total</th>
-                  <th className="px-4 py-2 text-left">Referencia</th>
+                  <th className="px-4 py-3 text-left">Sector</th>
+                  <th className="px-4 py-3 text-right">Tarifa Total</th>
+                  <th className="px-4 py-3 text-left">Referencia</th>
                 </tr>
               </thead>
               <tbody>
                 {PJ_RATES.map((r) => (
                   <tr key={r.sector} className={`border-b border-border last:border-0 ${r.sector === sector ? "bg-muted font-semibold" : ""}`}>
-                    <td className="px-4 py-2">{r.label}</td>
-                    <td className="px-4 py-2 text-right">{(r.rate * 100).toFixed(0)}%</td>
-                    <td className="px-4 py-2">{r.article}</td>
+                    <td className="px-4 py-3">{r.label}</td>
+                    <td className="px-4 py-3 text-right">{(r.rate * 100).toFixed(0)}%</td>
+                    <td className="px-4 py-3">{r.article}</td>
                   </tr>
                 ))}
               </tbody>

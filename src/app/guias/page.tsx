@@ -105,7 +105,7 @@ export default function GuiasPage() {
                   </div>
                 </div>
 
-                <h3 className="mb-2 text-lg font-semibold text-foreground transition-colors">
+                <h3 className="mb-2 heading-serif text-lg text-foreground transition-colors">
                   {guia.titulo}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2 mb-4 flex-1">

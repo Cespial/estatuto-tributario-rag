@@ -45,7 +45,7 @@ export default function IVAPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Referencia IVA</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Referencia IVA</h1>
 
       <div className="mb-6 space-y-4">
         {/* Mode toggle */}
@@ -89,7 +89,7 @@ export default function IVAPage() {
 
       {/* Educational section */}
       <div className="mb-6 space-y-4">
-        <h2 className="text-lg font-semibold">Exento vs Excluido</h2>
+        <h2 className="heading-serif text-lg">Exento vs Excluido</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="mb-2 text-sm font-semibold text-foreground">Excluido (Art. 424)</h3>

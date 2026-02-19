@@ -142,8 +142,8 @@ export default function NominaCompletaPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                  <th className="px-4 py-2 text-left">Desglose de Nomina</th>
-                  <th className="px-4 py-2 text-right">Valor Unitario</th>
+                  <th className="px-4 py-3 text-left">Desglose de Nomina</th>
+                  <th className="px-4 py-3 text-right">Valor Unitario</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
@@ -201,8 +201,8 @@ export default function NominaCompletaPage() {
 function TableRow({ label, value, bold, negative }: { label: string; value: number; bold?: boolean; negative?: boolean }) {
   return (
     <tr className={bold ? "font-bold" : ""}>
-      <td className="px-4 py-2 text-muted-foreground">{label}</td>
-      <td className={`px-4 py-2 text-right font-mono ${negative ? "text-muted-foreground" : ""}`}>
+      <td className="px-4 py-3 text-muted-foreground">{label}</td>
+      <td className={`px-4 py-3 text-right font-mono ${negative ? "text-muted-foreground" : ""}`}>
         {negative ? "-" : ""}{formatCOP(value)}
       </td>
     </tr>

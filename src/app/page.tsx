@@ -130,7 +130,7 @@ export default function Home() {
       <section className="bg-background px-6 py-28 md:px-8 md:py-36">
         <Reveal className="mx-auto max-w-4xl">
           <h2
-            className="heading-serif text-3xl text-foreground md:text-5xl lg:text-6xl"
+            className="heading-serif text-3xl text-balance text-foreground md:text-5xl lg:text-6xl"
           >
             La plataforma tributaria mas completa del pais.{" "}
             <span className="text-muted-foreground">
@@ -170,22 +170,22 @@ export default function Home() {
          ═══════════════════════════════════════════════ */}
       <section className="bg-muted/40 px-6 py-24 md:px-8 md:py-32">
         <Reveal className="mx-auto max-w-5xl" delay={100}>
-          <h2 className="heading-serif mb-4 text-center text-3xl">
+          <h2 className="heading-serif mb-6 text-center text-3xl text-balance md:text-4xl">
             Herramientas Profesionales
           </h2>
-          <p className="mx-auto mb-16 max-w-xl text-center text-lg text-muted-foreground">
+          <p className="mx-auto mb-20 max-w-xl text-center text-lg leading-relaxed text-muted-foreground">
             Acceso rapido a las calculadoras mas utilizadas por contadores y
             tributaristas colombianos.
           </p>
 
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {QUICK_ACCESS.map((calc) => (
               <Link
                 key={calc.href}
                 href={calc.href}
                 className="group flex flex-col gap-4 rounded-lg border border-transparent bg-card p-6 shadow-sm transition-all duration-300 hover:border-border hover:shadow"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-muted">
+                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-muted">
                   <calc.icon className="h-5 w-5 text-foreground/70" />
                 </div>
                 <div>
@@ -229,10 +229,10 @@ export default function Home() {
         className="bg-foreground px-6 py-24 md:px-8 md:py-32"
       >
         <Reveal className="mx-auto max-w-5xl" delay={100}>
-          <h2 className="heading-serif mb-4 text-center text-3xl text-background">
+          <h2 className="heading-serif mb-6 text-center text-3xl text-balance text-background md:text-4xl">
             Asistente Tributario
           </h2>
-          <p className="mx-auto mb-14 max-w-xl text-center text-lg text-background/60">
+          <p className="mx-auto mb-16 max-w-xl text-center text-lg leading-relaxed text-background/60">
             Consulte los 1,294 articulos del Estatuto Tributario con
             inteligencia artificial.
           </p>
@@ -252,7 +252,7 @@ export default function Home() {
       <section className="bg-foreground px-6 py-24 md:px-8 md:py-32">
         <Reveal className="mx-auto max-w-3xl text-center" delay={100}>
           <h2
-            className="heading-serif text-4xl text-background md:text-5xl lg:text-6xl"
+            className="heading-serif text-4xl text-balance text-background md:text-5xl lg:text-6xl"
           >
             Domine la tributaria colombiana
           </h2>
@@ -280,7 +280,7 @@ export default function Home() {
       {/* ═══════════════════════════════════════════════
           SECTION 8: FOOTER — Dark continues (no border-top!)
          ═══════════════════════════════════════════════ */}
-      <section className="bg-foreground px-6 pb-12 pt-16 md:px-8">
+      <section className="bg-foreground px-6 pb-16 pt-16 md:px-8">
         <div className="mx-auto max-w-5xl">
           <FooterLinks />
         </div>

@@ -110,7 +110,7 @@ export default function RentaPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Renta Personas Naturales</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Renta Personas Naturales</h1>
 
       <div className="mb-6 space-y-4">
         <CurrencyInput id="renta-ingreso" label="Ingreso bruto anual" value={ingresoBruto} onChange={setIngresoBruto} />
@@ -158,26 +158,26 @@ export default function RentaPage() {
       {/* Desglose marginal */}
       {result && result.breakdown.length > 0 && (
         <div className="mb-6">
-          <h2 className="mb-3 text-lg font-semibold">Desglose marginal</h2>
+          <h2 className="mb-4 heading-serif text-lg">Desglose marginal</h2>
           <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                  <th className="px-4 py-2 text-left">Rango (UVT)</th>
-                  <th className="px-4 py-2 text-right">Tarifa</th>
-                  <th className="px-4 py-2 text-right">Impuesto (UVT)</th>
-                  <th className="px-4 py-2 text-right">Impuesto (COP)</th>
+                  <th className="px-4 py-3 text-left">Rango (UVT)</th>
+                  <th className="px-4 py-3 text-right">Tarifa</th>
+                  <th className="px-4 py-3 text-right">Impuesto (UVT)</th>
+                  <th className="px-4 py-3 text-right">Impuesto (COP)</th>
                 </tr>
               </thead>
               <tbody>
                 {result.breakdown.map((b, i) => (
                   <tr key={i} className="border-b border-border last:border-0">
-                    <td className="px-4 py-2">
+                    <td className="px-4 py-3">
                       {b.from.toLocaleString("es-CO")} - {b.to === Infinity ? "∞" : b.to.toLocaleString("es-CO")}
                     </td>
-                    <td className="px-4 py-2 text-right">{(b.rate * 100).toFixed(0)}%</td>
-                    <td className="px-4 py-2 text-right">{b.impuesto.toFixed(2)}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(b.impuesto * uvt)}</td>
+                    <td className="px-4 py-3 text-right">{(b.rate * 100).toFixed(0)}%</td>
+                    <td className="px-4 py-3 text-right">{b.impuesto.toFixed(2)}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(b.impuesto * uvt)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -188,22 +188,22 @@ export default function RentaPage() {
 
       {/* Tabla Art. 241 */}
       <div className="mb-6">
-        <h2 className="mb-3 text-lg font-semibold">Tabla Art. 241 ET</h2>
+        <h2 className="mb-4 heading-serif text-lg">Tabla Art. 241 ET</h2>
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                <th className="px-4 py-2 text-left">Desde (UVT)</th>
-                <th className="px-4 py-2 text-left">Hasta (UVT)</th>
-                <th className="px-4 py-2 text-right">Tarifa marginal</th>
+                <th className="px-4 py-3 text-left">Desde (UVT)</th>
+                <th className="px-4 py-3 text-left">Hasta (UVT)</th>
+                <th className="px-4 py-3 text-right">Tarifa marginal</th>
               </tr>
             </thead>
             <tbody>
               {RENTA_BRACKETS.map((b, i) => (
                 <tr key={i} className="border-b border-border last:border-0">
-                  <td className="px-4 py-2">{b.from.toLocaleString("es-CO")}</td>
-                  <td className="px-4 py-2">{b.to === Infinity ? "En adelante" : b.to.toLocaleString("es-CO")}</td>
-                  <td className="px-4 py-2 text-right">{(b.rate * 100).toFixed(0)}%</td>
+                  <td className="px-4 py-3">{b.from.toLocaleString("es-CO")}</td>
+                  <td className="px-4 py-3">{b.to === Infinity ? "En adelante" : b.to.toLocaleString("es-CO")}</td>
+                  <td className="px-4 py-3 text-right">{(b.rate * 100).toFixed(0)}%</td>
                 </tr>
               ))}
             </tbody>

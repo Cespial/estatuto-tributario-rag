@@ -15,13 +15,13 @@ export function CalculatorCard({ href, title, description, icon: Icon, articles 
       href={href}
       className="group flex flex-col rounded-lg border border-transparent bg-card p-6 shadow-sm transition-all duration-300 hover:border-border hover:shadow"
     >
-      <div className="mb-4 flex items-center gap-2">
-        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-muted">
-          <Icon className="h-4 w-4 text-foreground/70" />
+      <div className="mb-4 flex items-center gap-3">
+        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-muted">
+          <Icon className="h-5 w-5 text-foreground/70" />
         </div>
         <h2 className="text-sm font-semibold text-foreground">{title}</h2>
       </div>
-      <p className="mb-4 flex-1 text-[13px] leading-relaxed text-muted-foreground">{description}</p>
+      <p className="mb-4 flex-1 text-sm leading-relaxed text-muted-foreground">{description}</p>
       <div className="flex items-center justify-between">
         <span className="text-[11px] text-muted-foreground/70">
           {articles.map((a) => `Art. ${a}`).join(" · ")}

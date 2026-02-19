@@ -62,13 +62,13 @@ export default function DividendosJuridicasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Dividendos PJ</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Dividendos PJ</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Retención y tributación de dividendos para socios personas jurídicas.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos de la Sociedad</h2>
+            <h2 className="mb-4 heading-serif text-lg">Datos de la Sociedad</h2>
             <div className="space-y-4">
               <CurrencyInput id="gravados" label="Dividendos Gravados (Art. 49 P3)" value={dividendosGravados} onChange={setDividendosGravados} />
               <CurrencyInput id="no-gravados" label="Dividendos NO Gravados (Art. 49 P2)" value={dividendosNoGravados} onChange={setDividendosNoGravados} />
@@ -94,7 +94,7 @@ export default function DividendosJuridicasPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resumen de Tributación</h2>
+                <h2 className="mb-4 heading-serif text-lg">Resumen de Tributación</h2>
                 <CalculatorResult items={[
                   { label: "Impuesto Total", value: formatCOP(results.totalImpuesto) },
                   { label: "Valor Neto Socio", value: formatCOP(results.netaSocio), sublabel: `Corresponde al ${participacion}%` },
@@ -106,24 +106,24 @@ export default function DividendosJuridicasPage() {
                 <table className="w-full text-sm">
                   <thead className="bg-muted/30">
                     <tr>
-                      <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                      <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Impuesto</th>
+                      <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                      <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Impuesto</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-t border-border">
-                      <td className="px-4 py-2 text-muted-foreground">Sobre porción gravada</td>
-                      <td className="px-4 py-2 text-right">{formatCOP(results.impuestoGravados)}</td>
+                      <td className="px-4 py-3 text-muted-foreground">Sobre porción gravada</td>
+                      <td className="px-4 py-3 text-right">{formatCOP(results.impuestoGravados)}</td>
                     </tr>
                     {tipoSociedad !== "cdi" && (
                       <>
                         <tr className="border-t border-border">
-                          <td className="px-4 py-2 text-muted-foreground">Sobre no gravados (Tarifa 35%)</td>
-                          <td className="px-4 py-2 text-right">{formatCOP(results.impuestoNoGravados)}</td>
+                          <td className="px-4 py-3 text-muted-foreground">Sobre no gravados (Tarifa 35%)</td>
+                          <td className="px-4 py-3 text-right">{formatCOP(results.impuestoNoGravados)}</td>
                         </tr>
                         <tr className="border-t border-border">
-                          <td className="px-4 py-2 text-muted-foreground">Retención sobre remanente</td>
-                          <td className="px-4 py-2 text-right">{formatCOP(results.impuestoRemanente)}</td>
+                          <td className="px-4 py-3 text-muted-foreground">Retención sobre remanente</td>
+                          <td className="px-4 py-3 text-right">{formatCOP(results.impuestoRemanente)}</td>
                         </tr>
                       </>
                     )}

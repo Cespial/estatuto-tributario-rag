@@ -16,7 +16,7 @@ export function CalculatorResult({ items }: CalculatorResultProps) {
       {items.map((item) => (
         <div key={item.label} className="rounded-lg border border-border/60 bg-card p-6">
           <div className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">{item.label}</div>
-          <div className="mt-1 font-mono text-2xl font-bold tracking-tight">{item.value}</div>
+          <div className="mt-1.5 heading-serif text-2xl">{item.value}</div>
           {item.sublabel && (
             <div className="mt-0.5 text-sm text-muted-foreground">{item.sublabel}</div>
           )}

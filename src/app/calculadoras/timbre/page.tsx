@@ -47,7 +47,7 @@ export default function TimbrePage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Impuesto de Timbre Nacional</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Impuesto de Timbre Nacional</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         Decreto 175/2025 reactivo el impuesto de timbre al 1%. Aplica sobre instrumentos publicos y documentos privados que superen el umbral.
       </p>
@@ -82,26 +82,26 @@ export default function TimbrePage() {
       )}
 
       <div className="mb-6">
-        <h3 className="mb-3 text-lg font-semibold">Umbrales de Impuesto de Timbre</h3>
+        <h3 className="mb-4 heading-serif text-lg">Umbrales de Impuesto de Timbre</h3>
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                <th className="px-4 py-2 text-left">Tipo de Instrumento</th>
-                <th className="px-4 py-2 text-right">Umbral (UVT)</th>
-                <th className="px-4 py-2 text-right">Umbral ($)</th>
+                <th className="px-4 py-3 text-left">Tipo de Instrumento</th>
+                <th className="px-4 py-3 text-right">Umbral (UVT)</th>
+                <th className="px-4 py-3 text-right">Umbral ($)</th>
               </tr>
             </thead>
             <tbody>
               <tr className={`border-b border-border ${tipo !== "escritura_publica" ? "bg-muted/50 font-medium" : ""}`}>
-                <td className="px-4 py-2">General (Documentos privados/publicos)</td>
-                <td className="px-4 py-2 text-right">{TIMBRE_THRESHOLD_UVT.toLocaleString("es-CO")}</td>
-                <td className="px-4 py-2 text-right text-muted-foreground">{formatCOP(TIMBRE_THRESHOLD_UVT * uvt)}</td>
+                <td className="px-4 py-3">General (Documentos privados/publicos)</td>
+                <td className="px-4 py-3 text-right">{TIMBRE_THRESHOLD_UVT.toLocaleString("es-CO")}</td>
+                <td className="px-4 py-3 text-right text-muted-foreground">{formatCOP(TIMBRE_THRESHOLD_UVT * uvt)}</td>
               </tr>
               <tr className={`border-b border-border ${tipo === "escritura_publica" ? "bg-muted/50 font-medium" : ""}`}>
-                <td className="px-4 py-2">Escrituras publicas (Bienes raices)</td>
-                <td className="px-4 py-2 text-right">{TIMBRE_INMUEBLES_UVT.toLocaleString("es-CO")}</td>
-                <td className="px-4 py-2 text-right text-muted-foreground">{formatCOP(TIMBRE_INMUEBLES_UVT * uvt)}</td>
+                <td className="px-4 py-3">Escrituras publicas (Bienes raices)</td>
+                <td className="px-4 py-3 text-right">{TIMBRE_INMUEBLES_UVT.toLocaleString("es-CO")}</td>
+                <td className="px-4 py-3 text-right text-muted-foreground">{formatCOP(TIMBRE_INMUEBLES_UVT * uvt)}</td>
               </tr>
             </tbody>
           </table>

@@ -369,7 +369,7 @@ export default function ComparadorPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Comparador de Contratacion</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Comparador de Contratacion</h1>
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">
@@ -405,15 +405,15 @@ export default function ComparadorPage() {
 
           {/* ════ A. TABLA COMPARATIVA PRINCIPAL ════ */}
           <div>
-            <h2 className="mb-3 text-lg font-semibold tracking-tight">Tabla Comparativa</h2>
+            <h2 className="mb-4 heading-serif text-lg">Tabla Comparativa</h2>
             <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className={`px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
+                    <th className={`px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
+                    <th className={`px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -488,10 +488,10 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -502,10 +502,10 @@ export default function ComparadorPage() {
                   <SimpleRow label="= Base gravable" vals={[result.lab.baseGravable, result.int.na ? null : result.int.baseGravable, result.ind.baseGravable]} />
                   <SimpleRow label="Base gravable (UVT)" vals={[result.lab.baseGravableUVT, result.int.na ? null : result.int.baseGravableUVT, result.ind.baseGravableUVT]} isUVT />
                   <tr className="border-b border-border bg-muted/20 font-semibold">
-                    <td className="px-4 py-2">Retencion mensual</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.lab.reteFte)}</td>
-                    <td className="px-4 py-2 text-right">{result.int.na ? "N/A" : formatCOP(result.int.reteFte)}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.ind.reteFte)}</td>
+                    <td className="px-4 py-3">Retencion mensual</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.lab.reteFte)}</td>
+                    <td className="px-4 py-3 text-right">{result.int.na ? "N/A" : formatCOP(result.int.reteFte)}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.ind.reteFte)}</td>
                   </tr>
                 </tbody>
               </table>
@@ -522,10 +522,10 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -535,23 +535,23 @@ export default function ComparadorPage() {
                   <SimpleRow label="= Renta liquida gravable" vals={[result.lab.rentaLiquida, result.int.na ? null : result.int.rentaLiquida, result.ind.rentaLiquida]} />
                   <SimpleRow label="Renta liquida (UVT)" vals={[result.lab.rentaLiquidaUVT, result.int.na ? null : result.int.rentaLiquidaUVT, result.ind.rentaLiquidaUVT]} isUVT />
                   <tr className="border-b border-border">
-                    <td className="px-4 py-2 font-semibold">Impuesto de renta</td>
-                    <td className="px-4 py-2 text-right font-semibold">{formatCOP(result.lab.impuestoRenta)}</td>
-                    <td className="px-4 py-2 text-right font-semibold">{result.int.na ? "N/A" : formatCOP(result.int.impuestoRenta)}</td>
-                    <td className="px-4 py-2 text-right font-semibold">{formatCOP(result.ind.impuestoRenta)}</td>
+                    <td className="px-4 py-3 font-semibold">Impuesto de renta</td>
+                    <td className="px-4 py-3 text-right font-semibold">{formatCOP(result.lab.impuestoRenta)}</td>
+                    <td className="px-4 py-3 text-right font-semibold">{result.int.na ? "N/A" : formatCOP(result.int.impuestoRenta)}</td>
+                    <td className="px-4 py-3 text-right font-semibold">{formatCOP(result.ind.impuestoRenta)}</td>
                   </tr>
                   <SimpleRow label="(-) Retenciones anuales" vals={[result.lab.retencionesAnuales, result.int.na ? null : result.int.retencionesAnuales, result.ind.retencionesAnuales]} negative />
                   <tr className="border-b border-border bg-muted/20 font-semibold">
-                    <td className="px-4 py-2">Saldo a pagar / (a favor)</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.lab.saldoRenta)}</td>
-                    <td className="px-4 py-2 text-right">{result.int.na ? "N/A" : formatCOP(result.int.saldoRenta)}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.ind.saldoRenta)}</td>
+                    <td className="px-4 py-3">Saldo a pagar / (a favor)</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.lab.saldoRenta)}</td>
+                    <td className="px-4 py-3 text-right">{result.int.na ? "N/A" : formatCOP(result.int.saldoRenta)}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.ind.saldoRenta)}</td>
                   </tr>
                   <tr className="border-b border-border last:border-0">
-                    <td className="px-4 py-2 text-muted-foreground">Tasa efectiva</td>
-                    <td className="px-4 py-2 text-right">{(result.lab.tasaEfectiva * 100).toFixed(2)}%</td>
-                    <td className="px-4 py-2 text-right">{result.int.na ? "N/A" : `${(result.int.tasaEfectiva * 100).toFixed(2)}%`}</td>
-                    <td className="px-4 py-2 text-right">{(result.ind.tasaEfectiva * 100).toFixed(2)}%</td>
+                    <td className="px-4 py-3 text-muted-foreground">Tasa efectiva</td>
+                    <td className="px-4 py-3 text-right">{(result.lab.tasaEfectiva * 100).toFixed(2)}%</td>
+                    <td className="px-4 py-3 text-right">{result.int.na ? "N/A" : `${(result.int.tasaEfectiva * 100).toFixed(2)}%`}</td>
+                    <td className="px-4 py-3 text-right">{(result.ind.tasaEfectiva * 100).toFixed(2)}%</td>
                   </tr>
                 </tbody>
               </table>
@@ -564,26 +564,26 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Valor</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Valor</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-border">
-                    <td className="px-4 py-2">Ingresos brutos anuales</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.ind.ingresoBrutoAnual)}</td>
+                    <td className="px-4 py-3">Ingresos brutos anuales</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.ind.ingresoBrutoAnual)}</td>
                   </tr>
                   <tr className="border-b border-border">
-                    <td className="px-4 py-2">Impuesto SIMPLE ({SIMPLE_GROUPS[groupIndex].label})</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.simple.impuesto)}</td>
+                    <td className="px-4 py-3">Impuesto SIMPLE ({SIMPLE_GROUPS[groupIndex].label})</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.simple.impuesto)}</td>
                   </tr>
                   <tr className="border-b border-border">
-                    <td className="px-4 py-2">Impuesto Renta Ordinaria</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.simple.ordinaria)}</td>
+                    <td className="px-4 py-3">Impuesto Renta Ordinaria</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.simple.ordinaria)}</td>
                   </tr>
                   <tr className="border-b border-border bg-muted/20 font-semibold">
-                    <td className="px-4 py-2">Diferencia (Ordinaria - SIMPLE)</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.simple.diferencia)}</td>
+                    <td className="px-4 py-3">Diferencia (Ordinaria - SIMPLE)</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.simple.diferencia)}</td>
                   </tr>
                 </tbody>
               </table>
@@ -603,19 +603,19 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Aspecto</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Aspecto</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
                   {PROS_CONTRAS.map((row) => (
                     <tr key={row.aspecto} className="border-b border-border last:border-0">
-                      <td className="px-4 py-2 font-medium">{row.aspecto}</td>
-                      <td className="px-4 py-2">{row.laboral}</td>
-                      <td className="px-4 py-2">{row.integral}</td>
-                      <td className="px-4 py-2">{row.independiente}</td>
+                      <td className="px-4 py-3 font-medium">{row.aspecto}</td>
+                      <td className="px-4 py-3">{row.laboral}</td>
+                      <td className="px-4 py-3">{row.integral}</td>
+                      <td className="px-4 py-3">{row.independiente}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -652,13 +652,13 @@ function Row({
   const bestColFn = (i: number) => (best === i ? "bg-muted/50" : "");
   return (
     <tr className="border-b border-border last:border-0">
-      <td className="px-4 py-2">
+      <td className="px-4 py-3">
         {label}
         {note && <span className="ml-1 text-xs text-muted-foreground">({note})</span>}
       </td>
-      <td className={`px-4 py-2 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
-      <td className={`px-4 py-2 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
-      <td className={`px-4 py-2 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
     </tr>
   );
 }
@@ -681,10 +681,10 @@ function RowTotal({
   const bestColFn = (i: number) => (best === i ? "bg-muted/50" : "");
   return (
     <tr className={`border-b border-border font-semibold ${highlight ? "bg-muted/20" : ""}`}>
-      <td className="px-4 py-2">{label}</td>
-      <td className={`px-4 py-2 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
-      <td className={`px-4 py-2 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
-      <td className={`px-4 py-2 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
+      <td className="px-4 py-3">{label}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
+      <td className={`px-4 py-3 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
     </tr>
   );
 }
@@ -707,10 +707,10 @@ function SimpleRow({
   };
   return (
     <tr className="border-b border-border last:border-0">
-      <td className={`px-4 py-2 ${negative ? "text-muted-foreground" : ""}`}>{label}</td>
-      <td className="px-4 py-2 text-right">{fmt(vals[0])}</td>
-      <td className="px-4 py-2 text-right">{fmt(vals[1])}</td>
-      <td className="px-4 py-2 text-right">{fmt(vals[2])}</td>
+      <td className={`px-4 py-3 ${negative ? "text-muted-foreground" : ""}`}>{label}</td>
+      <td className="px-4 py-3 text-right">{fmt(vals[0])}</td>
+      <td className="px-4 py-3 text-right">{fmt(vals[1])}</td>
+      <td className="px-4 py-3 text-right">{fmt(vals[2])}</td>
     </tr>
   );
 }

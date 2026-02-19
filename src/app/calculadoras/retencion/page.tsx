@@ -107,7 +107,7 @@ export default function RetencionPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Retencion en la Fuente</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Retencion en la Fuente</h1>
 
       <div className="mb-6 space-y-4">
         <SelectInput
@@ -142,22 +142,22 @@ export default function RetencionPage() {
       {/* Tabla progresiva salarios */}
       {isSalarios && (
         <div className="mb-6">
-          <h2 className="mb-3 text-lg font-semibold">Tabla progresiva Art. 383</h2>
+          <h2 className="mb-4 heading-serif text-lg">Tabla progresiva Art. 383</h2>
           <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                  <th className="px-4 py-2 text-left">Desde (UVT)</th>
-                  <th className="px-4 py-2 text-left">Hasta (UVT)</th>
-                  <th className="px-4 py-2 text-right">Tarifa</th>
+                  <th className="px-4 py-3 text-left">Desde (UVT)</th>
+                  <th className="px-4 py-3 text-left">Hasta (UVT)</th>
+                  <th className="px-4 py-3 text-right">Tarifa</th>
                 </tr>
               </thead>
               <tbody>
                 {RETENCION_SALARIOS_BRACKETS.map((b, i) => (
                   <tr key={i} className="border-b border-border last:border-0">
-                    <td className="px-4 py-2">{b.from}</td>
-                    <td className="px-4 py-2">{b.to === Infinity ? "En adelante" : b.to}</td>
-                    <td className="px-4 py-2 text-right">{(b.rate * 100).toFixed(0)}%</td>
+                    <td className="px-4 py-3">{b.from}</td>
+                    <td className="px-4 py-3">{b.to === Infinity ? "En adelante" : b.to}</td>
+                    <td className="px-4 py-3 text-right">{(b.rate * 100).toFixed(0)}%</td>
                   </tr>
                 ))}
               </tbody>

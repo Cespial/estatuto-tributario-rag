@@ -60,7 +60,7 @@ export default function AnticipoPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Anticipo de Renta</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Anticipo de Renta</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         Calcule el anticipo para el año siguiente segun el Art. 807 del Estatuto Tributario.
       </p>
@@ -89,26 +89,26 @@ export default function AnticipoPage() {
       </div>
 
       <div className="mb-6">
-        <h3 className="mb-3 text-lg font-semibold tracking-tight">Comparativa de Opciones (Art. 807)</h3>
+        <h3 className="mb-4 heading-serif text-lg">Comparativa de Opciones (Art. 807)</h3>
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border/60 bg-muted/30">
-                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Metodo</th>
-                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Calculo</th>
-                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Resultado</th>
+                <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Metodo</th>
+                <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Calculo</th>
+                <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Resultado</th>
               </tr>
             </thead>
             <tbody>
               <tr className={`border-b border-border ${result.isOpcionA ? "bg-muted/50 font-medium" : ""}`}>
-                <td className="px-4 py-2">Opcion A</td>
-                <td className="px-4 py-2 text-muted-foreground">Impuesto actual ({formatCOP(impuestoActual)}) × {(result.porcentaje * 100)}%</td>
-                <td className="px-4 py-2 text-right">{formatCOP(result.opcionA)}</td>
+                <td className="px-4 py-3">Opcion A</td>
+                <td className="px-4 py-3 text-muted-foreground">Impuesto actual ({formatCOP(impuestoActual)}) × {(result.porcentaje * 100)}%</td>
+                <td className="px-4 py-3 text-right">{formatCOP(result.opcionA)}</td>
               </tr>
               <tr className={`border-b border-border ${!result.isOpcionA ? "bg-muted/50 font-medium" : ""}`}>
-                <td className="px-4 py-2">Opcion B</td>
-                <td className="px-4 py-2 text-muted-foreground">Promedio ({formatCOP(result.promedio)}) × {(result.porcentaje * 100)}%</td>
-                <td className="px-4 py-2 text-right">{formatCOP(result.opcionB)}</td>
+                <td className="px-4 py-3">Opcion B</td>
+                <td className="px-4 py-3 text-muted-foreground">Promedio ({formatCOP(result.promedio)}) × {(result.porcentaje * 100)}%</td>
+                <td className="px-4 py-3 text-right">{formatCOP(result.opcionB)}</td>
               </tr>
             </tbody>
           </table>

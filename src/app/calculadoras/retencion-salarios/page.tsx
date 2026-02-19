@@ -175,46 +175,46 @@ export default function RetencionSalariosPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
-                  <th className="px-4 py-2">Concepto</th>
-                  <th className="px-4 py-2 text-right">Valor</th>
+                  <th className="px-4 py-3">Concepto</th>
+                  <th className="px-4 py-3 text-right">Valor</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
                 <tr>
-                  <td className="px-4 py-2">(+) Ingreso Bruto</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.totalPagos)}</td>
+                  <td className="px-4 py-3">(+) Ingreso Bruto</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.totalPagos)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">(-) Aportes Obligatorios SS</td>
-                  <td className="px-4 py-2 text-right text-muted-foreground">-{formatCOP(results.incrngo)}</td>
+                  <td className="px-4 py-3">(-) Aportes Obligatorios SS</td>
+                  <td className="px-4 py-3 text-right text-muted-foreground">-{formatCOP(results.incrngo)}</td>
                 </tr>
                 <tr className="bg-muted/20 font-medium">
-                  <td className="px-4 py-2">(=) Subtotal 1 (Ingreso Neto)</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.subtotal1)}</td>
+                  <td className="px-4 py-3">(=) Subtotal 1 (Ingreso Neto)</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.subtotal1)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">(-) Deducción Dependientes</td>
-                  <td className="px-4 py-2 text-right">-{formatCOP(results.dependienteDeduccion)}</td>
+                  <td className="px-4 py-3">(-) Deducción Dependientes</td>
+                  <td className="px-4 py-3 text-right">-{formatCOP(results.dependienteDeduccion)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">(-) Otros (Vivienda, Salud)</td>
-                  <td className="px-4 py-2 text-right">-{formatCOP(results.interesesVivienda + results.medicinaLimitada)}</td>
+                  <td className="px-4 py-3">(-) Otros (Vivienda, Salud)</td>
+                  <td className="px-4 py-3 text-right">-{formatCOP(results.interesesVivienda + results.medicinaLimitada)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">(-) Aportes Voluntarios / AFC</td>
-                  <td className="px-4 py-2 text-right">-{formatCOP(results.totalVoluntarios)}</td>
+                  <td className="px-4 py-3">(-) Aportes Voluntarios / AFC</td>
+                  <td className="px-4 py-3 text-right">-{formatCOP(results.totalVoluntarios)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">(-) Renta Exenta 25%</td>
-                  <td className="px-4 py-2 text-right">-{formatCOP(results.rentaExenta25)}</td>
+                  <td className="px-4 py-3">(-) Renta Exenta 25%</td>
+                  <td className="px-4 py-3 text-right">-{formatCOP(results.rentaExenta25)}</td>
                 </tr>
                 <tr className="bg-muted/50 italic">
-                  <td className="px-4 py-2">Suma deducciones + exentas</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.totalDeduccionesExentas)}</td>
+                  <td className="px-4 py-3">Suma deducciones + exentas</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.totalDeduccionesExentas)}</td>
                 </tr>
                 <tr className="bg-muted/50 font-bold">
-                  <td className="px-4 py-2">Total aplicado (limitado)</td>
-                  <td className="px-4 py-2 text-right text-foreground">-{formatCOP(results.totalAplicado)}</td>
+                  <td className="px-4 py-3">Total aplicado (limitado)</td>
+                  <td className="px-4 py-3 text-right text-foreground">-{formatCOP(results.totalAplicado)}</td>
                 </tr>
                 <tr className="bg-muted/30 font-bold">
                   <td className="px-4 py-3">(=) BASE GRAVABLE</td>

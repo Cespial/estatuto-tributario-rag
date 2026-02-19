@@ -198,37 +198,37 @@ export default function LiquidacionLaboralPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
-                  <th className="px-4 py-2">Concepto</th>
-                  <th className="px-4 py-2">Fórmula / Días</th>
-                  <th className="px-4 py-2 text-right">Valor</th>
+                  <th className="px-4 py-3">Concepto</th>
+                  <th className="px-4 py-3">Fórmula / Días</th>
+                  <th className="px-4 py-3 text-right">Valor</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
                 <tr>
-                  <td className="px-4 py-2">Cesantías</td>
-                  <td className="px-4 py-2 text-xs text-muted-foreground">(Base × {results.diasTrabajados}) / 360</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.cesantias)}</td>
+                  <td className="px-4 py-3">Cesantías</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">(Base × {results.diasTrabajados}) / 360</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.cesantias)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Intereses Cesantías</td>
-                  <td className="px-4 py-2 text-xs text-muted-foreground">(Ces. × {results.diasTrabajados} × 12%) / 360</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.interesesCesantias)}</td>
+                  <td className="px-4 py-3">Intereses Cesantías</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">(Ces. × {results.diasTrabajados} × 12%) / 360</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.interesesCesantias)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Prima de Servicios</td>
-                  <td className="px-4 py-2 text-xs text-muted-foreground">(Base × {results.diasSemestre} días sem.) / 360</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.prima)}</td>
+                  <td className="px-4 py-3">Prima de Servicios</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">(Base × {results.diasSemestre} días sem.) / 360</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.prima)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Vacaciones</td>
-                  <td className="px-4 py-2 text-xs text-muted-foreground">(Salario × {results.diasTrabajados}) / 720</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.vacaciones)}</td>
+                  <td className="px-4 py-3">Vacaciones</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">(Salario × {results.diasTrabajados}) / 720</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.vacaciones)}</td>
                 </tr>
                 {results.applyIndem && (
                   <tr className="bg-muted/50">
-                    <td className="px-4 py-2 font-medium">Indemnización</td>
-                    <td className="px-4 py-2 text-xs text-muted-foreground">Art. 64 CST</td>
-                    <td className="px-4 py-2 text-right font-medium">{formatCOP(results.indemnizacion)}</td>
+                    <td className="px-4 py-3 font-medium">Indemnización</td>
+                    <td className="px-4 py-3 text-xs text-muted-foreground">Art. 64 CST</td>
+                    <td className="px-4 py-3 text-right font-medium">{formatCOP(results.indemnizacion)}</td>
                   </tr>
                 )}
                 <tr className="bg-muted/30 font-bold">

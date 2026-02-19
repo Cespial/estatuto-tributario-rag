@@ -132,35 +132,35 @@ export default function ComparadorRegimenesPage() {
             <table className="w-full text-sm">
               <thead className="bg-muted/30">
                 <tr>
-                  <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Ordinario</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">SIMPLE</th>
+                  <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                  <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Ordinario</th>
+                  <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">SIMPLE</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
                 <tr>
-                  <td className="px-4 py-2">Renta Liquida / Ingresos Brutos</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.rentaLiquida)}</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(ingresosBrutos)}</td>
+                  <td className="px-4 py-3">Renta Liquida / Ingresos Brutos</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.rentaLiquida)}</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(ingresosBrutos)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Impuesto Renta / SIMPLE</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.impuestoOrd)}</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.totalSimple)}</td>
+                  <td className="px-4 py-3">Impuesto Renta / SIMPLE</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.impuestoOrd)}</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.totalSimple)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">ICA (Consolidado en SIMPLE)</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.icaOrd)}</td>
-                  <td className="px-4 py-2 text-right text-muted-foreground italic">Incluido</td>
+                  <td className="px-4 py-3">ICA (Consolidado en SIMPLE)</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.icaOrd)}</td>
+                  <td className="px-4 py-3 text-right text-muted-foreground italic">Incluido</td>
                 </tr>
                 <tr className="font-bold bg-muted/20">
-                  <td className="px-4 py-2">TOTAL CARGA TRIBUTARIA</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.totalOrd)}</td>
-                  <td className="px-4 py-2 text-right">{formatCOP(results.totalSimple)}</td>
+                  <td className="px-4 py-3">TOTAL CARGA TRIBUTARIA</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.totalOrd)}</td>
+                  <td className="px-4 py-3 text-right">{formatCOP(results.totalSimple)}</td>
                 </tr>
                 <tr className="font-semibold">
-                  <td className="px-4 py-2">Diferencia</td>
-                  <td colSpan={2} className="px-4 py-2 text-right">
+                  <td className="px-4 py-3">Diferencia</td>
+                  <td colSpan={2} className="px-4 py-3 text-right">
                     {formatCOP(Math.abs(results.ahorro))} a favor de {results.recomendacion}
                   </td>
                 </tr>

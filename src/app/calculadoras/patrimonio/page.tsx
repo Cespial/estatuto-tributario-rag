@@ -62,13 +62,13 @@ export default function PatrimonioPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Impuesto al Patrimonio</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Impuesto al Patrimonio</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Perfeccionado con exclusión de vivienda (12.000 UVT).</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Activos y Pasivos</h2>
+            <h2 className="mb-4 heading-serif text-lg">Activos y Pasivos</h2>
             <div className="space-y-4">
               <CurrencyInput id="p-bruto" label="Patrimonio Bruto Total" value={patrimonioBruto} onChange={setPatrimonioBruto} />
               <CurrencyInput id="deudas" label="Total Deudas" value={deudas} onChange={setDeudas} />
@@ -87,7 +87,7 @@ export default function PatrimonioPage() {
           {results && (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Resumen de Liquidación</h2>
+                <h2 className="mb-4 heading-serif text-lg">Resumen de Liquidación</h2>
                 <CalculatorResult items={[
                   { label: "Base Gravable", value: formatCOP(results.baseGravableCOP) },
                   { label: "Base en UVT", value: results.baseGravableUVT.toLocaleString(undefined, {maximumFractionDigits: 0}) },

@@ -233,7 +233,7 @@ export default function SeguridadSocialPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Aportes a Seguridad Social 2026</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Aportes a Seguridad Social 2026</h1>
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">
@@ -286,7 +286,7 @@ export default function SeguridadSocialPage() {
 
           {/* ════ A. Resumen IBC ════ */}
           <div>
-            <h2 className="mb-3 text-lg font-semibold">Ingreso Base de Cotizacion (IBC)</h2>
+            <h2 className="mb-4 heading-serif text-lg">Ingreso Base de Cotizacion (IBC)</h2>
             <CalculatorResult
               items={[
                 { label: "Ingreso bruto", value: formatCOP(ingresoBruto) },
@@ -311,17 +311,17 @@ export default function SeguridadSocialPage() {
 
           {/* ════ B. Tabla de Aportes ════ */}
           <div>
-            <h2 className="mb-3 text-lg font-semibold">Tabla de Aportes</h2>
+            <h2 className="mb-4 heading-serif text-lg">Tabla de Aportes</h2>
             <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                    <th className="px-4 py-2 text-left">Concepto</th>
-                    <th className="px-4 py-2 text-right">Trab. %</th>
-                    <th className="px-4 py-2 text-right">Trab. $</th>
-                    <th className="px-4 py-2 text-right">Empl. %</th>
-                    <th className="px-4 py-2 text-right">Empl. $</th>
-                    <th className="px-4 py-2 text-right">Total $</th>
+                    <th className="px-4 py-3 text-left">Concepto</th>
+                    <th className="px-4 py-3 text-right">Trab. %</th>
+                    <th className="px-4 py-3 text-right">Trab. $</th>
+                    <th className="px-4 py-3 text-right">Empl. %</th>
+                    <th className="px-4 py-3 text-right">Empl. $</th>
+                    <th className="px-4 py-3 text-right">Total $</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -397,12 +397,12 @@ export default function SeguridadSocialPage() {
                   )}
                   {/* TOTAL row */}
                   <tr className="border-b border-border bg-muted/20 font-semibold">
-                    <td className="px-4 py-2">TOTAL</td>
-                    <td className="px-4 py-2 text-right"></td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.totalTrabajador)}</td>
-                    <td className="px-4 py-2 text-right"></td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.totalEmpleador)}</td>
-                    <td className="px-4 py-2 text-right">{formatCOP(result.totalTrabajador + result.totalEmpleador)}</td>
+                    <td className="px-4 py-3">TOTAL</td>
+                    <td className="px-4 py-3 text-right"></td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.totalTrabajador)}</td>
+                    <td className="px-4 py-3 text-right"></td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.totalEmpleador)}</td>
+                    <td className="px-4 py-3 text-right">{formatCOP(result.totalTrabajador + result.totalEmpleador)}</td>
                   </tr>
                 </tbody>
               </table>
@@ -425,9 +425,9 @@ export default function SeguridadSocialPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                    <th className="px-4 py-2 text-left">Rango IBC</th>
-                    <th className="px-4 py-2 text-right">Tasa</th>
-                    <th className="px-4 py-2 text-left">Detalle</th>
+                    <th className="px-4 py-3 text-left">Rango IBC</th>
+                    <th className="px-4 py-3 text-right">Tasa</th>
+                    <th className="px-4 py-3 text-left">Detalle</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -438,9 +438,9 @@ export default function SeguridadSocialPage() {
                         : ""
                     }`}
                   >
-                    <td className="px-4 py-2">&lt; 4 SMLMV</td>
-                    <td className="px-4 py-2 text-right">0%</td>
-                    <td className="px-4 py-2">No aplica</td>
+                    <td className="px-4 py-3">&lt; 4 SMLMV</td>
+                    <td className="px-4 py-3 text-right">0%</td>
+                    <td className="px-4 py-3">No aplica</td>
                   </tr>
                   {FSP_BRACKETS.map((b) => {
                     const active =
@@ -454,11 +454,11 @@ export default function SeguridadSocialPage() {
                           active ? "bg-muted font-semibold" : ""
                         }`}
                       >
-                        <td className="px-4 py-2">
+                        <td className="px-4 py-3">
                           {b.fromSMLMV} — {b.toSMLMV === Infinity ? "+" : b.toSMLMV} SMLMV
                         </td>
-                        <td className="px-4 py-2 text-right">{(b.rate * 100).toFixed(1)}%</td>
-                        <td className="px-4 py-2">{b.detail}</td>
+                        <td className="px-4 py-3 text-right">{(b.rate * 100).toFixed(1)}%</td>
+                        <td className="px-4 py-3">{b.detail}</td>
                       </tr>
                     );
                   })}
@@ -472,7 +472,7 @@ export default function SeguridadSocialPage() {
 
           {/* ════ D. Resumen Neto ════ */}
           <div>
-            <h2 className="mb-3 text-lg font-semibold">Resumen Neto</h2>
+            <h2 className="mb-4 heading-serif text-lg">Resumen Neto</h2>
             <CalculatorResult
               items={[
                 { label: "Ingreso bruto mensual", value: formatCOP(ingresoBruto) },
@@ -517,9 +517,9 @@ export default function SeguridadSocialPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
-                    <th className="px-4 py-2 text-left">Clase</th>
-                    <th className="px-4 py-2 text-right">Tasa</th>
-                    <th className="px-4 py-2 text-left">Descripcion</th>
+                    <th className="px-4 py-3 text-left">Clase</th>
+                    <th className="px-4 py-3 text-right">Tasa</th>
+                    <th className="px-4 py-3 text-left">Descripcion</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -530,9 +530,9 @@ export default function SeguridadSocialPage() {
                         c.clase === claseARL ? "bg-muted font-semibold" : ""
                       }`}
                     >
-                      <td className="px-4 py-2">{c.clase}</td>
-                      <td className="px-4 py-2 text-right">{formatPct(c.rate)}</td>
-                      <td className="px-4 py-2">{c.description}</td>
+                      <td className="px-4 py-3">{c.clase}</td>
+                      <td className="px-4 py-3 text-right">{formatPct(c.rate)}</td>
+                      <td className="px-4 py-3">{c.description}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -573,15 +573,15 @@ function AporteRow({
 }) {
   return (
     <tr className="border-b border-border last:border-0">
-      <td className="px-4 py-2">
+      <td className="px-4 py-3">
         {label}
         {note && <span className="ml-1 text-xs text-muted-foreground">({note})</span>}
       </td>
-      <td className="px-4 py-2 text-right">{trabPct === null ? "—" : formatPct(trabPct)}</td>
-      <td className="px-4 py-2 text-right">{trabPct === null ? "—" : formatCOP(trabVal)}</td>
-      <td className="px-4 py-2 text-right">{empPct === null ? "—" : formatPct(empPct)}</td>
-      <td className="px-4 py-2 text-right">{empPct === null ? "—" : formatCOP(empVal)}</td>
-      <td className="px-4 py-2 text-right">{formatCOP(total)}</td>
+      <td className="px-4 py-3 text-right">{trabPct === null ? "—" : formatPct(trabPct)}</td>
+      <td className="px-4 py-3 text-right">{trabPct === null ? "—" : formatCOP(trabVal)}</td>
+      <td className="px-4 py-3 text-right">{empPct === null ? "—" : formatPct(empPct)}</td>
+      <td className="px-4 py-3 text-right">{empPct === null ? "—" : formatCOP(empVal)}</td>
+      <td className="px-4 py-3 text-right">{formatCOP(total)}</td>
     </tr>
   );
 }

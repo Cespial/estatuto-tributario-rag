@@ -72,7 +72,7 @@ export default function GananciasOcasionalesPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Ganancias Ocasionales</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Ganancias Ocasionales</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">
         Calcula el impuesto por la venta de activos fijos poseídos por más de 2 años.
       </p>
@@ -80,7 +80,7 @@ export default function GananciasOcasionalesPage() {
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos del Activo</h2>
+            <h2 className="mb-4 heading-serif text-lg">Datos del Activo</h2>
             <div className="space-y-4">
               <CurrencyInput 
                 id="precio-venta" 
@@ -148,7 +148,7 @@ export default function GananciasOcasionalesPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado del Cálculo</h2>
+                <h2 className="mb-4 heading-serif text-lg">Resultado del Cálculo</h2>
                 <CalculatorResult items={[
                   { label: "Ganancia Bruta", value: formatCOP(results.gananciaBruta) },
                   { 
@@ -167,26 +167,26 @@ export default function GananciasOcasionalesPage() {
                   <table className="w-full">
                     <tbody>
                       <tr className="border-b border-border">
-                        <td className="px-4 py-2">Precio de Venta</td>
-                        <td className="px-4 py-2 text-right">{formatCOP(precioVenta)}</td>
+                        <td className="px-4 py-3">Precio de Venta</td>
+                        <td className="px-4 py-3 text-right">{formatCOP(precioVenta)}</td>
                       </tr>
                       <tr className="border-b border-border">
-                        <td className="px-4 py-2 text-muted-foreground italic">Costo Ajustado (Art. 73)</td>
-                        <td className="px-4 py-2 text-right">{formatCOP(results.costoAjustado)}</td>
+                        <td className="px-4 py-3 text-muted-foreground italic">Costo Ajustado (Art. 73)</td>
+                        <td className="px-4 py-3 text-right">{formatCOP(results.costoAjustado)}</td>
                       </tr>
                       <tr className="border-b border-border font-medium">
-                        <td className="px-4 py-2">Ganancia Bruta</td>
-                        <td className="px-4 py-2 text-right">{formatCOP(results.gananciaBruta)}</td>
+                        <td className="px-4 py-3">Ganancia Bruta</td>
+                        <td className="px-4 py-3 text-right">{formatCOP(results.gananciaBruta)}</td>
                       </tr>
                       {tipoActivo === "inmueble_vivienda" && (
                         <tr className="border-b border-border text-muted-foreground">
-                          <td className="px-4 py-2">Exención Vivienda</td>
-                          <td className="px-4 py-2 text-right">-{formatCOP(results.exencion)}</td>
+                          <td className="px-4 py-3">Exención Vivienda</td>
+                          <td className="px-4 py-3 text-right">-{formatCOP(results.exencion)}</td>
                         </tr>
                       )}
                       <tr className="bg-muted font-bold">
-                        <td className="px-4 py-2">BASE GRAVABLE</td>
-                        <td className="px-4 py-2 text-right">{formatCOP(results.gananciaGravable)}</td>
+                        <td className="px-4 py-3">BASE GRAVABLE</td>
+                        <td className="px-4 py-3 text-right">{formatCOP(results.gananciaGravable)}</td>
                       </tr>
                     </tbody>
                   </table>

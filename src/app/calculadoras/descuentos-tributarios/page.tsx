@@ -62,18 +62,18 @@ export default function DescuentosTributariosPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Descuentos Tributarios</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Descuentos Tributarios</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula los descuentos aplicables al impuesto de renta y sus límites legales.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Base de Impuesto</h2>
+            <h2 className="mb-4 heading-serif text-lg">Base de Impuesto</h2>
             <CurrencyInput id="imp" label="Impuesto de Renta Líquido" value={impuestoRentaLiquido} onChange={setImpuestoRentaLiquido} />
           </div>
 
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold tracking-tight">Conceptos de Descuento</h2>
+            <h2 className="mb-4 heading-serif text-lg">Conceptos de Descuento</h2>
             <div className="space-y-4">
               <CurrencyInput id="iva" label="IVA Activos Productivos" value={ivaActivosProductivos} onChange={setIvaActivosProductivos} />
               <CurrencyInput id="don" label="Donaciones Realizadas" value={donaciones} onChange={setDonaciones} />
@@ -93,7 +93,7 @@ export default function DescuentosTributariosPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold tracking-tight">Liquidación Final</h2>
+                <h2 className="mb-4 heading-serif text-lg">Liquidación Final</h2>
                 <CalculatorResult items={[
                   { label: "Total Descuentos", value: formatCOP(results.descuentoEfectivo) },
                   { label: "Impuesto Neto", value: formatCOP(results.impuestoNeto) },

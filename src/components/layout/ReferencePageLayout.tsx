@@ -20,7 +20,7 @@ export function ReferencePageLayout({
   rightContent,
 }: ReferencePageLayoutProps) {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-10 animate-in fade-in duration-500">
+    <div className="mx-auto max-w-6xl px-6 py-12 animate-in fade-in duration-500">
       <Link
         href="/"
         className="mb-6 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -31,7 +31,7 @@ export function ReferencePageLayout({
 
       <div className="mb-12 flex flex-col md:flex-row md:items-end md:justify-between gap-6 pb-6">
         <div>
-          <h1 className="flex items-center gap-3 heading-serif text-3xl text-foreground">
+          <h1 className="flex items-center gap-3 heading-serif text-2xl sm:text-3xl text-foreground">
             <div className="rounded-lg bg-muted p-2.5 text-foreground/70">
               <Icon className="h-7 w-7" />
             </div>

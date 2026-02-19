@@ -111,7 +111,7 @@ export default function GlosarioPage() {
               {groupedGlosario[letter].map((term, idx) => (
                 <div key={idx} className="group relative overflow-hidden rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:shadow-md hover:border-border">
                   <div className="mb-3">
-                    <h3 className="text-lg font-semibold text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
+                    <h3 className="heading-serif text-lg text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
                       <HighlightText text={term.termino} highlight={search} />
                       <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-foreground/70" />
                     </h3>

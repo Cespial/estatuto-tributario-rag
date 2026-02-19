@@ -593,9 +593,9 @@ export default function ICAPage() {
               <table className="w-full text-sm min-w-[500px]">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground w-16">Item</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto / Renglon</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Valor</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground w-16">Item</th>
+                    <th className="px-4 py-3 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto / Renglon</th>
+                    <th className="px-4 py-3 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Valor</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -614,12 +614,12 @@ export default function ICAPage() {
                   <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">C. Actividades Economicas</td></tr>
                   {resultado.actividades?.map((act, i) => (
                     <tr key={i} className="border-b border-border last:border-0 hover:bg-muted/30">
-                      <td className="px-4 py-2 text-muted-foreground font-mono text-xs">{act.codigo}</td>
-                      <td className="px-4 py-2 flex flex-col">
+                      <td className="px-4 py-3 text-muted-foreground font-mono text-xs">{act.codigo}</td>
+                      <td className="px-4 py-3 flex flex-col">
                         <span>{act.nombre}</span>
                         <span className="text-[10px] text-muted-foreground italic">Tarifa: {act.tarifa} x 1000 | Base: {formatCOP(act.ingresos)}</span>
                       </td>
-                      <td className="px-4 py-2 text-right font-mono">{formatCOP(act.impuesto)}</td>
+                      <td className="px-4 py-3 text-right font-mono">{formatCOP(act.impuesto)}</td>
                     </tr>
                   ))}
                   <FormRow n={16} label="Total ingresos gravados" value={resultado.renglon16} />
@@ -731,9 +731,9 @@ function FormRow({
       "border-b border-border last:border-0 hover:bg-muted/30 transition-colors",
       highlight && "bg-muted/50"
     )}>
-      <td className="px-4 py-2 text-muted-foreground font-mono text-xs">{n}</td>
-      <td className={clsx("px-4 py-2", bold && "font-semibold")}>{label}</td>
-      <td className={clsx("px-4 py-2 text-right font-mono", bold && "font-bold", color)}>{formatCOP(value)}</td>
+      <td className="px-4 py-3 text-muted-foreground font-mono text-xs">{n}</td>
+      <td className={clsx("px-4 py-3", bold && "font-semibold")}>{label}</td>
+      <td className={clsx("px-4 py-3 text-right font-mono", bold && "font-bold", color)}>{formatCOP(value)}</td>
     </tr>
   );
 }

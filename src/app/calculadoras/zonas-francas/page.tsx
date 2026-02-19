@@ -55,13 +55,13 @@ export default function ZonasFrancasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 heading-serif text-3xl">Zonas Francas</h1>
+      <h1 className="mb-6 heading-serif text-3xl">Zonas Francas</h1>
       <p className="mb-10 text-base leading-relaxed text-muted-foreground">Calcula el impuesto de renta para usuarios de Zona Franca y valida la TTD mínima.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Datos del Usuario</h2>
+            <h2 className="mb-4 heading-serif text-lg">Datos del Usuario</h2>
             <div className="space-y-4">
               <CurrencyInput id="renta" label="Renta Líquida Gravable" value={rentaLiquida} onChange={setRentaLiquida} />
 
@@ -97,7 +97,7 @@ export default function ZonasFrancasPage() {
           {results ? (
             <>
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Liquidación ZF</h2>
+                <h2 className="mb-4 heading-serif text-lg">Liquidación ZF</h2>
                 <CalculatorResult items={[
                   { label: "Tarifa Aplicada", value: (results.tarifa * 100) + "%" },
                   { label: "Impuesto Final", value: formatCOP(results.impuestoFinal) },
