@@ -20,10 +20,17 @@ interface TrackRecentInput {
   slug?: string;
 }
 
+let _recentsCache: { raw: string; parsed: RecentItem[] } | null = null;
+
 function getRecents(): RecentItem[] {
-  return readJsonStorage<RecentItem[]>(STORAGE_KEYS.recents, []).sort(
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(STORAGE_KEYS.recents) ?? "";
+  if (_recentsCache && _recentsCache.raw === raw) return _recentsCache.parsed;
+  const parsed = readJsonStorage<RecentItem[]>(STORAGE_KEYS.recents, []).sort(
     (a, b) => b.visitedAt - a.visitedAt
   );
+  _recentsCache = { raw, parsed };
+  return parsed;
 }
 
 const subscribe = (callback: () => void) => {
@@ -40,6 +47,7 @@ export function useRecents() {
   const recents = useSyncExternalStore(subscribe, getRecents, () => []);
 
   const save = useCallback((next: RecentItem[]) => {
+    _recentsCache = null;
     writeJsonStorage(
       STORAGE_KEYS.recents,
       next

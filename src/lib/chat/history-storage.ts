@@ -22,17 +22,25 @@ function sanitizeConversation(conversation: ChatConversation): ChatConversation 
   };
 }
 
+let _conversationsCache: { raw: string; parsed: ChatConversation[] } | null = null;
+
 export function readConversations(): ChatConversation[] {
-  return readJsonStorage<ChatConversation[]>(STORAGE_KEYS.chatConversations, [])
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(STORAGE_KEYS.chatConversations) ?? "";
+  if (_conversationsCache && _conversationsCache.raw === raw) return _conversationsCache.parsed;
+  const parsed = readJsonStorage<ChatConversation[]>(STORAGE_KEYS.chatConversations, [])
     .map((conversation) => ({
       ...conversation,
       title: conversation.title || "Conversación sin título",
       messages: Array.isArray(conversation.messages) ? conversation.messages : [],
     }))
     .sort((a, b) => b.updatedAt - a.updatedAt);
+  _conversationsCache = { raw, parsed };
+  return parsed;
 }
 
 export function writeConversations(conversations: ChatConversation[]): void {
+  _conversationsCache = null;
   const cleaned = conversations
     .map(sanitizeConversation)
     .sort((a, b) => b.updatedAt - a.updatedAt)
@@ -56,8 +64,15 @@ export function getConversation(conversationId: string): ChatConversation | unde
   return readConversations().find((c) => c.id === conversationId);
 }
 
+let _feedbackCache: { raw: string; parsed: ChatMessageFeedback[] } | null = null;
+
 export function readFeedback(): ChatMessageFeedback[] {
-  return readJsonStorage<ChatMessageFeedback[]>(STORAGE_KEYS.chatFeedback, []);
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(STORAGE_KEYS.chatFeedback) ?? "";
+  if (_feedbackCache && _feedbackCache.raw === raw) return _feedbackCache.parsed;
+  const parsed = readJsonStorage<ChatMessageFeedback[]>(STORAGE_KEYS.chatFeedback, []);
+  _feedbackCache = { raw, parsed };
+  return parsed;
 }
 
 export function upsertFeedback(nextFeedback: ChatMessageFeedback): void {
@@ -70,6 +85,7 @@ export function upsertFeedback(nextFeedback: ChatMessageFeedback): void {
       )
   );
   next.push(nextFeedback);
+  _feedbackCache = null;
   writeJsonStorage(STORAGE_KEYS.chatFeedback, next);
   dispatchStorageEvent(STORAGE_EVENTS.chatFeedback);
 }

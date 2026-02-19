@@ -25,13 +25,26 @@ function ensureWorkspaceDefaults(items: Workspace[]): Workspace[] {
   return [{ ...DEFAULT_WORKSPACE, createdAt: Date.now(), updatedAt: Date.now() }, ...items];
 }
 
+let _workspacesCache: { raw: string; parsed: Workspace[] } | null = null;
+
 function getWorkspaces(): Workspace[] {
+  if (typeof window === "undefined") return [DEFAULT_WORKSPACE];
+  const raw = localStorage.getItem(STORAGE_KEYS.workspaces) ?? "";
+  if (_workspacesCache && _workspacesCache.raw === raw) return _workspacesCache.parsed;
   const stored = readJsonStorage<Workspace[]>(STORAGE_KEYS.workspaces, []);
-  const withDefaults = ensureWorkspaceDefaults(stored).sort((a, b) => a.order - b.order);
-  if (typeof window !== "undefined" && withDefaults.length !== stored.length) {
-    writeJsonStorage(STORAGE_KEYS.workspaces, withDefaults);
+  const parsed = ensureWorkspaceDefaults(stored).sort((a, b) => a.order - b.order);
+  _workspacesCache = { raw, parsed };
+  return parsed;
+}
+
+function ensureDefaultsPersisted() {
+  if (typeof window === "undefined") return;
+  const stored = readJsonStorage<Workspace[]>(STORAGE_KEYS.workspaces, []);
+  const withDefaults = ensureWorkspaceDefaults(stored);
+  if (withDefaults.length !== stored.length) {
+    writeJsonStorage(STORAGE_KEYS.workspaces, withDefaults.sort((a, b) => a.order - b.order));
+    _workspacesCache = null;
   }
-  return withDefaults;
 }
 
 const subscribe = (callback: () => void) => {
@@ -47,7 +60,11 @@ const subscribe = (callback: () => void) => {
 export function useWorkspaces() {
   const workspaces = useSyncExternalStore(subscribe, getWorkspaces, () => [DEFAULT_WORKSPACE]);
 
+  // Ensure defaults on first client mount
+  if (typeof window !== "undefined") ensureDefaultsPersisted();
+
   const save = useCallback((next: Workspace[]) => {
+    _workspacesCache = null;
     writeJsonStorage(
       STORAGE_KEYS.workspaces,
       next.sort((a, b) => a.order - b.order)

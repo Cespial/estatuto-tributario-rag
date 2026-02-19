@@ -73,7 +73,12 @@ function migrateLegacyBookmarks(): BookmarkItem[] {
   return migrated;
 }
 
+let _bookmarksCache: { raw: string; parsed: BookmarkItem[] } | null = null;
+
 function getBookmarks(): BookmarkItem[] {
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(STORAGE_KEYS.bookmarks) ?? "";
+  if (_bookmarksCache && _bookmarksCache.raw === raw) return _bookmarksCache.parsed;
   const current = readJsonStorage<BookmarkItem[]>(STORAGE_KEYS.bookmarks, []);
   const source = current.length > 0 ? current : migrateLegacyBookmarks();
   const normalized = source.map((item) => ({
@@ -84,7 +89,9 @@ function getBookmarks(): BookmarkItem[] {
     updatedAt: item.updatedAt || item.createdAt || Date.now(),
     order: typeof item.order === "number" ? item.order : 0,
   }));
-  return sortBookmarks(normalized);
+  const parsed = sortBookmarks(normalized);
+  _bookmarksCache = { raw, parsed };
+  return parsed;
 }
 
 const subscribe = (callback: () => void) => {
@@ -98,6 +105,7 @@ const subscribe = (callback: () => void) => {
 };
 
 function saveBookmarks(next: BookmarkItem[]) {
+  _bookmarksCache = null;
   writeJsonStorage(STORAGE_KEYS.bookmarks, sortBookmarks(next));
   dispatchStorageEvent(STORAGE_EVENTS.bookmarks);
 }

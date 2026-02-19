@@ -78,10 +78,15 @@ function migrateLegacyNotes(): NoteItem[] {
   return migrated;
 }
 
+let _notesCache: { raw: string; parsed: NoteItem[] } | null = null;
+
 function getNotes(): NoteItem[] {
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(STORAGE_KEYS.notes) ?? "";
+  if (_notesCache && _notesCache.raw === raw) return _notesCache.parsed;
   const current = readJsonStorage<NoteItem[]>(STORAGE_KEYS.notes, []);
   const source = current.length > 0 ? current : migrateLegacyNotes();
-  return source
+  const parsed = source
     .map((item) => ({
       ...item,
       workspaceId: item.workspaceId || DEFAULT_WORKSPACE_ID,
@@ -96,6 +101,8 @@ function getNotes(): NoteItem[] {
       if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
       return b.updatedAt - a.updatedAt;
     });
+  _notesCache = { raw, parsed };
+  return parsed;
 }
 
 const subscribe = (callback: () => void) => {
@@ -109,6 +116,7 @@ const subscribe = (callback: () => void) => {
 };
 
 function saveNotes(next: NoteItem[]) {
+  _notesCache = null;
   writeJsonStorage(STORAGE_KEYS.notes, next);
   dispatchStorageEvent(STORAGE_EVENTS.notes);
 }
