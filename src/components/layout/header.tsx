@@ -77,7 +77,7 @@ export function Header({ variant = "default" }: HeaderProps) {
                     key={href}
                     href={href}
                     className={clsx(
-                      "relative shrink-0 snap-start py-1 text-[13px] font-medium uppercase tracking-wide transition-colors",
+                      "relative shrink-0 snap-start py-1 text-[13px] font-medium uppercase tracking-[0.05em] transition-colors",
                       isActive
                         ? isTransparent ? "text-white font-semibold" : "text-foreground font-semibold"
                         : isTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"

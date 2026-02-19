@@ -315,7 +315,7 @@ export default function SeguridadSocialPage() {
             <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                     <th className="px-4 py-2 text-left">Concepto</th>
                     <th className="px-4 py-2 text-right">Trab. %</th>
                     <th className="px-4 py-2 text-right">Trab. $</th>
@@ -363,7 +363,7 @@ export default function SeguridadSocialPage() {
                   {isEmpleador(tipo) && (
                     <>
                       <tr className="border-b border-border bg-muted/30">
-                        <td colSpan={6} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                        <td colSpan={6} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                           Parafiscales {tipo === "integral" ? "(base: salario completo)" : "(base: IBC)"}
                         </td>
                       </tr>
@@ -424,7 +424,7 @@ export default function SeguridadSocialPage() {
             <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                     <th className="px-4 py-2 text-left">Rango IBC</th>
                     <th className="px-4 py-2 text-right">Tasa</th>
                     <th className="px-4 py-2 text-left">Detalle</th>
@@ -516,7 +516,7 @@ export default function SeguridadSocialPage() {
             <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                     <th className="px-4 py-2 text-left">Clase</th>
                     <th className="px-4 py-2 text-right">Tasa</th>
                     <th className="px-4 py-2 text-left">Descripcion</th>

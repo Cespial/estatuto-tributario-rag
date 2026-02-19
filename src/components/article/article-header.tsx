@@ -33,7 +33,7 @@ export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: 
       </nav>
       {/* Title + badge */}
       <div className="flex flex-wrap items-start gap-3">
-        <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-bold tracking-tight">{titulo}</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold tracking-tight">{titulo}</h1>
         <span
           className={clsx(
             "mt-1 inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium",

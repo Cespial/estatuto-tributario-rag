@@ -33,7 +33,7 @@ export function ArticleSidebar({
       {/* Estado */}
       <div className="rounded-lg border border-border p-4">
         <div className="mb-3 flex items-center gap-2">
-          <span className={clsx("h-3 w-3 rounded-full", ESTADO_DOT[estado] || "bg-gray-500")} />
+          <span className={clsx("h-3 w-3 rounded-full", ESTADO_DOT[estado] || "bg-foreground/40")} />
           <span className="text-sm font-semibold capitalize">{estado}</span>
         </div>
         <div className="space-y-3">
@@ -75,7 +75,7 @@ export function ArticleSidebar({
 
       {/* References count */}
       <div className="rounded-lg border border-border p-4">
-        <h3 className="mb-2 text-xs uppercase tracking-wide font-medium text-muted-foreground">Referencias</h3>
+        <h3 className="mb-2 text-xs uppercase tracking-[0.05em] font-medium text-muted-foreground">Referencias</h3>
         <div className="space-y-2 text-sm">
           <div className="flex justify-between">
             <span className="text-muted-foreground">Referencia a</span>

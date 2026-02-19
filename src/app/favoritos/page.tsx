@@ -146,7 +146,7 @@ export default function FavoritosPage() {
               }, {} as Record<string, typeof bookmarks>)
             ).map(([type, items]) => (
               <div key={type} className="space-y-3">
-                <h2 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                <h2 className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
                   {TYPE_LABELS[type as keyof typeof TYPE_LABELS]}
                 </h2>
                 <div className="grid gap-3 sm:grid-cols-2">

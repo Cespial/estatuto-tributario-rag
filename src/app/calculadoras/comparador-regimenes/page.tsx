@@ -132,9 +132,9 @@ export default function ComparadorRegimenesPage() {
             <table className="w-full text-sm">
               <thead className="bg-muted/30">
                 <tr>
-                  <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Ordinario</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">SIMPLE</th>
+                  <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Ordinario</th>
+                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">SIMPLE</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">

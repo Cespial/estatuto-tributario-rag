@@ -137,10 +137,10 @@ export default function HorasExtrasPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-muted/30">
                 <tr>
-                  <th className="px-4 py-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Tipo</th>
-                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Factor</th>
-                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Horas</th>
-                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Total</th>
+                  <th className="px-4 py-2 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tipo</th>
+                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Factor</th>
+                  <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Horas</th>
+                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Total</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">

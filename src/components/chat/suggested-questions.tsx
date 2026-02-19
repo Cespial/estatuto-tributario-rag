@@ -10,7 +10,7 @@ interface SuggestedQuestionsProps {
 export function SuggestedQuestions({ onSelect }: SuggestedQuestionsProps) {
   return (
     <div>
-      <p className="mb-3 text-xs uppercase tracking-wide text-muted-foreground">Preguntas sugeridas</p>
+      <p className="mb-3 text-xs uppercase tracking-[0.05em] text-muted-foreground">Preguntas sugeridas</p>
       <div className="grid gap-2 sm:grid-cols-2">
         {SUGGESTED_QUESTIONS.map((q) => (
           <button

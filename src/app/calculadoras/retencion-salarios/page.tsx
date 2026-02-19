@@ -173,7 +173,7 @@ export default function RetencionSalariosPage() {
 
           <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
-              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
                   <th className="px-4 py-2">Concepto</th>
                   <th className="px-4 py-2 text-right">Valor</th>
@@ -245,7 +245,7 @@ export default function RetencionSalariosPage() {
         <CollapsibleSection title="Tabla de Retención Art. 383 ET">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
                   <th className="px-3 py-2">Desde (UVT)</th>
                   <th className="px-3 py-2">Hasta (UVT)</th>

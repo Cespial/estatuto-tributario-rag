@@ -48,18 +48,18 @@ export function ModificationTimeline({ modifications, leyesModificatorias }: Mod
                 <div
                   className={clsx(
                     "h-2 w-2 rounded-full",
-                    TIPO_COLORS[mods[0].tipo] || "bg-gray-500"
+                    TIPO_COLORS[mods[0].tipo] || "bg-foreground/40"
                   )}
                 />
               </div>
-              <div className="text-sm font-bold text-foreground">{year}</div>
+              <div className="text-sm font-semibold text-foreground">{year}</div>
               <div className="mt-1 space-y-1">
                 {mods.map((mod, i) => (
                   <div key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
                     <span
                       className={clsx(
                         "h-1.5 w-1.5 rounded-full",
-                        TIPO_COLORS[mod.tipo] || "bg-gray-500"
+                        TIPO_COLORS[mod.tipo] || "bg-foreground/40"
                       )}
                     />
                     <span>

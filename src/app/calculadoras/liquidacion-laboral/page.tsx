@@ -196,7 +196,7 @@ export default function LiquidacionLaboralPage() {
 
           <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
-              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
                   <th className="px-4 py-2">Concepto</th>
                   <th className="px-4 py-2">Fórmula / Días</th>
@@ -252,7 +252,7 @@ export default function LiquidacionLaboralPage() {
         <CollapsibleSection title="Tabla de Indemnización (Art. 64 CST)">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <tr>
                   <th className="px-3 py-2">Tipo de Contrato</th>
                   <th className="px-3 py-2">Condición</th>

@@ -73,7 +73,7 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
       </div>
 
       {isOpen && (
-        <div className="absolute z-50 mt-2 w-full rounded-lg border border-border/60 bg-card p-2 shadow-xl animate-in fade-in zoom-in-95 duration-200">
+        <div className="absolute z-50 mt-2 w-full rounded-lg border border-border/60 bg-card p-2 shadow animate-in fade-in zoom-in-95 duration-200">
           <div className="relative mb-2">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <input

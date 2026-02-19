@@ -82,7 +82,7 @@ export function ChatContainer() {
                 <Scale className="h-10 w-10 text-foreground" />
               </div>
             </div>
-            <h2 className="mb-2 font-[family-name:var(--font-playfair)] text-2xl font-bold">
+            <h2 className="mb-2 font-[family-name:var(--font-playfair)] text-2xl font-semibold">
               SuperApp Tributaria Colombia
             </h2>
             <p className="flex items-center justify-center gap-1.5 text-muted-foreground">

@@ -10,7 +10,7 @@ interface DateInputProps {
 export function DateInput({ id, label, value, onChange }: DateInputProps) {
   return (
     <div>
-      <label htmlFor={id} className="text-xs uppercase tracking-wide font-medium text-muted-foreground mb-1.5 block">
+      <label htmlFor={id} className="text-xs uppercase tracking-[0.05em] font-medium text-muted-foreground mb-1.5 block">
         {label}
       </label>
       <input

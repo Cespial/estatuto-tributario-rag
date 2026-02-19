@@ -12,7 +12,7 @@ export function CalculatorSuggestions({ suggestions }: CalculatorSuggestionsProp
 
   return (
     <div className="border-t border-border/40 px-4 py-3">
-      <p className="mb-2 text-xs uppercase tracking-wide text-muted-foreground">Calculadoras sugeridas</p>
+      <p className="mb-2 text-xs uppercase tracking-[0.05em] text-muted-foreground">Calculadoras sugeridas</p>
       <div className="flex flex-wrap gap-2">
       {suggestions.map((calc) => (
         <Link

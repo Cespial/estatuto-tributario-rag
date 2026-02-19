@@ -109,7 +109,7 @@ export default function NovedadesPage() {
       </div>
 
       {/* Results count */}
-      <div className="mb-4 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+      <div className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
         {filtered.length} novedad{filtered.length !== 1 ? "es" : ""} encontrada{filtered.length !== 1 ? "s" : ""}
       </div>
 

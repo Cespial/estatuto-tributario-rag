@@ -117,7 +117,7 @@ export default function CompararPage() {
             {article && (
               <div className="mt-8 space-y-6 animate-in fade-in slide-in-from-left-4 duration-500">
                 <div className="space-y-3">
-                  <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Versión A (Base)</label>
+                  <label className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">Versión A (Base)</label>
                   <div className="flex flex-col gap-2">
                     {versions.map((v) => (
                       <button
@@ -137,7 +137,7 @@ export default function CompararPage() {
                 </div>
 
                 <div className="space-y-3">
-                  <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Versión B (Comparar)</label>
+                  <label className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">Versión B (Comparar)</label>
                   <div className="flex flex-col gap-2">
                     {versions.map((v) => (
                       <button

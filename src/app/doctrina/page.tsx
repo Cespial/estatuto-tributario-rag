@@ -156,7 +156,7 @@ export default function DoctrinaPage() {
       </div>
 
       {/* Results count */}
-      <div className="mb-4 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+      <div className="mb-4 text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
         {filtered.length} documento{filtered.length !== 1 ? "s" : ""} encontrado{filtered.length !== 1 ? "s" : ""}
       </div>
 

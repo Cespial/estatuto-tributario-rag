@@ -118,10 +118,10 @@ export default function DeboDeclararPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border/60 bg-muted/30">
-                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Tope ($)</th>
-                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Su valor</th>
-                <th className="px-4 py-2 text-center text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Supera?</th>
+                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tope ($)</th>
+                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Su valor</th>
+                <th className="px-4 py-2 text-center text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Supera?</th>
               </tr>
             </thead>
             <tbody>

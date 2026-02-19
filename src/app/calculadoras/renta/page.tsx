@@ -162,7 +162,7 @@ export default function RentaPage() {
           <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                   <th className="px-4 py-2 text-left">Rango (UVT)</th>
                   <th className="px-4 py-2 text-right">Tarifa</th>
                   <th className="px-4 py-2 text-right">Impuesto (UVT)</th>
@@ -192,7 +192,7 @@ export default function RentaPage() {
         <div className="overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
-              <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+              <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
                 <th className="px-4 py-2 text-left">Desde (UVT)</th>
                 <th className="px-4 py-2 text-left">Hasta (UVT)</th>
                 <th className="px-4 py-2 text-right">Tarifa marginal</th>

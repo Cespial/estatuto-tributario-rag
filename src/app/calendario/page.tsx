@@ -118,12 +118,12 @@ export default function CalendarioPage() {
           <table className="w-full text-left text-sm">
             <thead className="bg-muted/50 border-b border-border">
               <tr>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Obligación</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Periodo</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">NIT</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Vencimiento</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Estado</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Acciones</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Obligación</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Periodo</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">NIT</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Vencimiento</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Estado</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Acciones</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">

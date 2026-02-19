@@ -410,16 +410,16 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
-                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
                   {/* INGRESOS */}
                   <tr className="border-b border-border bg-muted/30">
-                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                       Ingresos
                     </td>
                   </tr>
@@ -428,7 +428,7 @@ export default function ComparadorPage() {
 
                   {/* COSTO EMPRESA */}
                   <tr className="border-b border-border bg-muted/30">
-                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                       Costo Empresa
                     </td>
                   </tr>
@@ -446,7 +446,7 @@ export default function ComparadorPage() {
 
                   {/* DESCUENTOS TRABAJADOR */}
                   <tr className="border-b border-border bg-muted/30">
-                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                       Descuentos Trabajador / SS Independiente
                     </td>
                   </tr>
@@ -457,7 +457,7 @@ export default function ComparadorPage() {
 
                   {/* IVA */}
                   <tr className="border-b border-border bg-muted/30">
-                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                       IVA
                     </td>
                   </tr>
@@ -465,7 +465,7 @@ export default function ComparadorPage() {
 
                   {/* NETO */}
                   <tr className="border-b border-border bg-muted/30">
-                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    <td colSpan={4} className="px-4 py-1.5 text-xs font-bold uppercase tracking-[0.05em] text-muted-foreground">
                       Neto (sin ReteFte)
                     </td>
                   </tr>
@@ -488,10 +488,10 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -522,10 +522,10 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -564,8 +564,8 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Valor</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Valor</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -603,10 +603,10 @@ export default function ComparadorPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border/60 bg-muted/30">
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Aspecto</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Aspecto</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>

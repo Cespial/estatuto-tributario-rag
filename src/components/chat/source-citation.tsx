@@ -54,7 +54,7 @@ function SourceCitationInner({
           <span
             className={clsx(
               "h-1.5 w-1.5 rounded-full",
-              ESTADO_DOT[estado] || "bg-gray-500"
+              ESTADO_DOT[estado] || "bg-foreground/40"
             )}
             title={ESTADO_LABEL[estado] || estado}
           />

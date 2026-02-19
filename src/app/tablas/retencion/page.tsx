@@ -56,13 +56,13 @@ export default function RetencionPage() {
           <table className="w-full text-left text-sm">
             <thead className="bg-muted/50 border-b border-border">
               <tr>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Base Min (UVT)</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-right">Base Min ($)</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Tarifa</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Artículo</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Notas</th>
-                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Calculadora</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Concepto</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground text-center">Base Min (UVT)</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground text-right">Base Min ($)</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground text-center">Tarifa</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground text-center">Artículo</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Notas</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground text-center">Calculadora</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">

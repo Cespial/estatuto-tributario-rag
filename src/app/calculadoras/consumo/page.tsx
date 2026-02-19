@@ -127,9 +127,9 @@ export default function ConsumoPage() {
         <table className="w-full text-left text-sm">
           <thead className="bg-muted/30">
             <tr>
-              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Hecho Generador</th>
-              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Tarifa</th>
-              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Art. ET</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Hecho Generador</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tarifa</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Art. ET</th>
             </tr>
           </thead>
           <tbody className="divide-y">

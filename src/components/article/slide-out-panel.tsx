@@ -133,7 +133,7 @@ export function SlideOutPanel() {
         aria-modal="true"
         aria-label={article ? `Detalle del ${article.id_articulo}` : "Detalle del artículo"}
         className={clsx(
-          "fixed right-0 top-0 z-50 h-full w-full max-w-md overflow-y-auto border-l border-border/60 bg-background shadow-xl transition-transform duration-300",
+          "fixed right-0 top-0 z-50 h-full w-full max-w-md overflow-y-auto border-l border-border/60 bg-background shadow transition-transform duration-300",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
