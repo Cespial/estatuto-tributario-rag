@@ -1,5 +1,6 @@
 import { readFile } from "fs/promises";
 import { join } from "path";
+import { AlertCircle } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { StatsCards } from "@/components/dashboard/stats-cards";
 import { ReformTimelineChart } from "@/components/dashboard/reform-timeline-chart";
@@ -63,7 +64,18 @@ export default async function DashboardPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col items-center justify-center px-4 py-10">
-          <p className="text-muted-foreground">No se pudieron cargar las estadísticas del dashboard.</p>
+          <div className="flex flex-col items-center justify-center py-20 text-center">
+            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted">
+              <AlertCircle className="h-8 w-8 text-muted-foreground/40" />
+            </div>
+            <h3 className="heading-serif text-xl text-foreground">
+              Error al cargar datos
+            </h3>
+            <p className="mt-2 max-w-sm text-base leading-relaxed text-muted-foreground">
+              No se pudieron cargar las estadisticas del dashboard.
+              Intente recargar la pagina.
+            </p>
+          </div>
         </main>
       </div>
     );

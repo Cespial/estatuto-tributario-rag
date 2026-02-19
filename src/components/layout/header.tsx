@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Moon, Sun, Scale } from "lucide-react";
+import { Moon, Sun, Scale, Menu, X } from "lucide-react";
 
 import { useSyncExternalStore, useState, useEffect } from "react";
 import Link from "next/link";
@@ -40,6 +40,7 @@ export function Header({ variant = "default" }: HeaderProps) {
 
   // Scroll-aware: when transparent header scrolls past hero, transition to solid
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (variant !== "transparent") return;
@@ -73,7 +74,7 @@ export function Header({ variant = "default" }: HeaderProps) {
 
           {/* Navigation — text-only, uppercase, generous spacing */}
           <nav
-            className="relative flex flex-1 items-center overflow-hidden"
+            className="relative hidden flex-1 items-center overflow-hidden md:flex"
           >
             <div
               className="flex items-center gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-none"
@@ -112,6 +113,18 @@ export function Header({ variant = "default" }: HeaderProps) {
           </nav>
         </div>
 
+        {/* Mobile menu button */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className={clsx(
+            "rounded p-2 transition-colors md:hidden",
+            showTransparent ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"
+          )}
+          aria-label="Menu de navegacion"
+        >
+          {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+        </button>
+
         {/* Theme toggle — subtle, minimal */}
         <div className="ml-6 flex shrink-0 items-center">
           {mounted && (
@@ -132,6 +145,42 @@ export function Header({ variant = "default" }: HeaderProps) {
           )}
         </div>
       </div>
+      {/* Mobile navigation panel */}
+      {mobileMenuOpen && (
+        <>
+          {/* Backdrop overlay */}
+          <div
+            className="fixed inset-0 top-[72px] z-40 bg-foreground/20 backdrop-blur-sm md:hidden"
+            onClick={() => setMobileMenuOpen(false)}
+          />
+          {/* Slide-in panel */}
+          <nav className="fixed right-0 top-[72px] z-50 h-[calc(100vh-72px)] w-72 overflow-y-auto border-l border-border/40 bg-background p-6 shadow-lg md:hidden">
+            <div className="flex flex-col gap-1">
+              {NAV_ITEMS.map(({ href, label }) => {
+                const isActive =
+                  href === "/"
+                    ? pathname === "/"
+                    : pathname.startsWith(href);
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className={clsx(
+                      "rounded px-3 py-2.5 text-sm font-medium transition-colors",
+                      isActive
+                        ? "bg-muted text-foreground"
+                        : "text-muted-foreground hover:bg-muted/50 hover:text-foreground"
+                    )}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
+            </div>
+          </nav>
+        </>
+      )}
     </header>
   );
 }

@@ -133,9 +133,31 @@ export default function FavoritosPage() {
       {activeTab === "favoritos" ? (
         <div className="space-y-6">
           {bookmarks.length === 0 ? (
-            <div className="rounded-lg border border-border/60 border-dashed py-20 text-center">
-              <Bookmark className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
-              <p className="text-muted-foreground">No tienes favoritos guardados aún.</p>
+            <div className="flex flex-col items-center justify-center py-20 text-center">
+              <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted">
+                <Bookmark className="h-8 w-8 text-muted-foreground/40" />
+              </div>
+              <h3 className="heading-serif text-xl text-foreground">
+                Sin favoritos guardados
+              </h3>
+              <p className="mt-2 max-w-sm text-base leading-relaxed text-muted-foreground">
+                Guarde articulos, calculadoras y guias para acceder rapidamente
+                desde este espacio.
+              </p>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+                <Link
+                  href="/calculadoras"
+                  className="inline-flex h-10 items-center gap-2 rounded border border-border px-4 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                >
+                  Explorar calculadoras
+                </Link>
+                <Link
+                  href="/explorador"
+                  className="inline-flex h-10 items-center gap-2 rounded border border-border px-4 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                >
+                  Ver Estatuto
+                </Link>
+              </div>
             </div>
           ) : (
             Object.entries(
@@ -184,9 +206,17 @@ export default function FavoritosPage() {
       ) : (
         <div className="space-y-6">
           {notes.length === 0 ? (
-            <div className="rounded-lg border border-border/60 border-dashed py-20 text-center">
-              <StickyNote className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
-              <p className="text-muted-foreground">No tienes notas creadas aún.</p>
+            <div className="flex flex-col items-center justify-center py-20 text-center">
+              <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted">
+                <StickyNote className="h-8 w-8 text-muted-foreground/40" />
+              </div>
+              <h3 className="heading-serif text-xl text-foreground">
+                Sin notas creadas
+              </h3>
+              <p className="mt-2 max-w-sm text-base leading-relaxed text-muted-foreground">
+                Agregue notas personales a articulos y calculadoras para
+                recordar observaciones importantes.
+              </p>
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2">

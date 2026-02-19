@@ -237,7 +237,7 @@ export default function Home() {
             inteligencia artificial.
           </p>
 
-          <div className="flex h-[600px] flex-col overflow-hidden rounded-lg border border-background/10 bg-background shadow-sm md:h-[650px]">
+          <div className="flex h-[400px] sm:h-[500px] md:h-[600px] lg:h-[650px] flex-col overflow-hidden rounded-lg border border-background/10 bg-background shadow-sm">
             <div className="border-b border-border/40 bg-muted/30 px-5 py-4">
               <h3 className="font-medium text-foreground">Asistente con IA</h3>
             </div>

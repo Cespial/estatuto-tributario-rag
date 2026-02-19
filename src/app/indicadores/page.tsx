@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { BarChart3, Copy, Check, ExternalLink } from "lucide-react";
+import { BarChart3, Copy, Check, ExternalLink, Search } from "lucide-react";
 import { INDICADORES_2026 } from "@/config/indicadores-data";
 import { ReferencePageLayout } from "@/components/layout/ReferencePageLayout";
 import { UvtHistoryChart } from "@/components/indicators/TaxCharts";
@@ -124,8 +124,23 @@ export default function IndicadoresPage() {
                 </div>
               ))
             ) : (
-              <div className="col-span-2 py-12 text-center text-muted-foreground">
-                No se encontraron indicadores que coincidan con su búsqueda.
+              <div className="col-span-2 flex flex-col items-center justify-center py-20 text-center">
+                <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted">
+                  <Search className="h-8 w-8 text-muted-foreground/40" />
+                </div>
+                <h3 className="heading-serif text-xl text-foreground">
+                  Sin resultados
+                </h3>
+                <p className="mt-2 max-w-sm text-base leading-relaxed text-muted-foreground">
+                  No se encontraron indicadores que coincidan con su busqueda.
+                  Intente con otro termino o explore las categorias disponibles.
+                </p>
+                <button
+                  onClick={() => setSearch("")}
+                  className="mt-8 inline-flex h-10 items-center gap-2 rounded border border-border px-4 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                >
+                  Limpiar busqueda
+                </button>
               </div>
             )}
           </div>

@@ -45,9 +45,20 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_CO",
     siteName: "SuperApp Tributaria Colombia",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SuperApp Tributaria Colombia",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "SuperApp Tributaria Colombia",
+    description: "La plataforma tributaria mas completa de Colombia.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
