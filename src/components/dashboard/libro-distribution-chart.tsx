@@ -18,8 +18,8 @@ interface LibroDistributionChartProps {
 }
 
 const COLORS = [
-  "#2563eb", "#dc2626", "#16a34a", "#ca8a04",
-  "#9333ea", "#0891b2", "#e11d48",
+  "hsl(0, 0%, 15%)", "hsl(0, 0%, 30%)", "hsl(0, 0%, 45%)", "hsl(0, 0%, 55%)",
+  "hsl(0, 0%, 65%)", "hsl(0, 0%, 75%)", "hsl(0, 0%, 85%)",
 ];
 
 export function LibroDistributionChart({ data }: LibroDistributionChartProps) {

@@ -52,12 +52,12 @@ export function ArticleCard({
 
   return (
     <div
-      className="group flex cursor-pointer flex-col rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md"
+      className="group flex cursor-pointer flex-col rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all duration-300 hover:-translate-y-px hover:border-border hover:shadow"
       onClick={() => openPanel(slug)}
     >
       {/* Header */}
       <div className="mb-2 flex items-start justify-between">
-        <span className="text-sm font-bold text-foreground">{id}</span>
+        <span className="text-sm font-semibold text-foreground">{id}</span>
         <span
           className={clsx(
             "rounded-full px-2 py-0.5 text-[10px] font-medium",

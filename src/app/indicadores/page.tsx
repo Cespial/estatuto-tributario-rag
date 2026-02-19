@@ -80,7 +80,7 @@ export default function IndicadoresPage() {
             {filteredIndicadores.length > 0 ? (
               filteredIndicadores.map((cat, idx) => (
                 <div key={idx} className="flex flex-col gap-4 rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                  <h2 className="text-lg font-bold border-b border-border pb-2 text-foreground font-[family-name:var(--font-playfair)] flex items-center gap-2">
+                  <h2 className="text-lg font-semibold border-b border-border pb-2 text-foreground font-[family-name:var(--font-playfair)] flex items-center gap-2">
                     {cat.categoria}
                   </h2>
                   <div className="grid gap-4">
@@ -106,7 +106,7 @@ export default function IndicadoresPage() {
                               )}
                             </div>
                             <div className="mt-1 flex items-baseline justify-between">
-                              <div className="text-xl font-bold tracking-tight text-foreground">
+                              <div className="text-xl font-semibold tracking-tight text-foreground">
                                 {item.valor}
                               </div>
                               <CopyButton value={item.valorNumerico?.toString() || item.valor} />

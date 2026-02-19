@@ -28,7 +28,7 @@ export default function GuiaInteractivaPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <div className="container py-20 text-center">
-          <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-bold">Guía no encontrada</h1>
+          <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold">Guía no encontrada</h1>
           <p className="mt-2 text-muted-foreground">La guía que buscas no existe o fue removida.</p>
           <Link href="/guias" className="mt-4 inline-block text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground">Volver al índice de guías</Link>
         </div>
@@ -66,7 +66,7 @@ export default function GuiaInteractivaPage() {
       </Link>
 
       <div className="mb-12">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">{guia.titulo}</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">{guia.titulo}</h1>
         <p className="mt-2 text-sm text-muted-foreground">{guia.descripcion}</p>
 
         {/* Progress breadcrumb */}
@@ -111,7 +111,7 @@ export default function GuiaInteractivaPage() {
                 <CheckCircle2 className="h-6 w-6" />
               </div>
               <div>
-                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-foreground leading-tight">
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-foreground leading-tight">
                   {currentNode?.texto}
                 </h2>
                 {currentNode?.recomendacion && (
@@ -128,7 +128,7 @@ export default function GuiaInteractivaPage() {
                   <Link
                     key={i}
                     href={enlace.href}
-                    className="flex items-center justify-between rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-bold text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
+                    className="flex items-center justify-between rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-medium text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
                   >
                     {enlace.label}
                     <ExternalLink className="h-4 w-4 text-foreground/70" />
@@ -139,7 +139,7 @@ export default function GuiaInteractivaPage() {
 
             <button
               onClick={handleReset}
-              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-border py-4 font-bold text-muted-foreground transition-all hover:border-foreground/30 hover:text-foreground"
+              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-border py-4 font-medium text-muted-foreground transition-all hover:border-foreground/30 hover:text-foreground"
             >
               <RotateCcw className="h-4 w-4" />
               Reiniciar autodiagnóstico
@@ -151,7 +151,7 @@ export default function GuiaInteractivaPage() {
           <button
             onClick={handleBack}
             disabled={history.length === 0}
-            className="flex items-center gap-2 text-sm font-bold text-muted-foreground transition-colors hover:text-foreground disabled:opacity-30"
+            className="flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground disabled:opacity-30"
           >
             <Undo2 className="h-4 w-4" />
             Volver atrás

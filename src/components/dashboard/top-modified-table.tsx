@@ -27,12 +27,12 @@ export function TopModifiedTable({ articles }: TopModifiedTableProps) {
       <h3 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Top 10 mas modificados</h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
-          <thead>
-            <tr className="border-b border-border text-left">
-              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">#</th>
-              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Articulo</th>
-              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Titulo</th>
-              <th className="pb-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Mods</th>
+          <thead className="bg-muted/50">
+            <tr className="border-b border-border/60 text-left">
+              <th className="pb-2 pt-2 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">#</th>
+              <th className="pb-2 pt-2 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Articulo</th>
+              <th className="pb-2 pt-2 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Titulo</th>
+              <th className="pb-2 pt-2 text-right text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Mods</th>
             </tr>
           </thead>
           <tbody>
@@ -47,7 +47,7 @@ export function TopModifiedTable({ articles }: TopModifiedTableProps) {
                     <span
                       className={clsx(
                         "h-2 w-2 rounded-full",
-                        ESTADO_DOT[art.estado] || "bg-gray-500"
+                        ESTADO_DOT[art.estado] || "bg-foreground/40"
                       )}
                     />
                     {art.id}

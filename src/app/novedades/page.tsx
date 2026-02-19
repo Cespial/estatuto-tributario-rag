@@ -60,7 +60,7 @@ export default function NovedadesPage() {
           <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Newspaper className="h-8 w-8" />
           </div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-foreground">
+          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
             Novedades Normativas
           </h1>
         </div>
@@ -149,7 +149,7 @@ export default function NovedadesPage() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-bold text-foreground transition-colors mb-1">
+                <h3 className="text-lg font-semibold text-foreground transition-colors mb-1">
                   {novedad.titulo}
                 </h3>
 

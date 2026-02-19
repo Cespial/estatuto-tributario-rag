@@ -87,7 +87,7 @@ export default function CompararPage() {
   const labelB = versions.find(v => v.id === versionB)?.label || "";
 
   return (
-    <div className="mx-auto max-w-6xl p-4 md:p-8">
+    <div className="mx-auto max-w-6xl px-4 py-10 md:px-8">
       <div className="mb-12 flex flex-wrap items-center justify-between gap-4">
         <div className="flex flex-col gap-1">
           <Link href="/" className="mb-2 flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -96,7 +96,7 @@ export default function CompararPage() {
           </Link>
           <div className="flex items-center gap-3">
             <History className="h-8 w-8 text-foreground/70" />
-            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">
+            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">
               Comparador Multi-año
             </h1>
           </div>
@@ -126,7 +126,7 @@ export default function CompararPage() {
                         className={clsx(
                           "w-full rounded-lg px-3 py-2 text-left text-xs transition-all",
                           versionA === v.id
-                            ? "border border-foreground bg-foreground text-background font-bold"
+                            ? "border border-foreground bg-foreground text-background font-semibold"
                             : "border border-border/60 bg-card text-muted-foreground hover:border-foreground/30"
                         )}
                       >
@@ -146,7 +146,7 @@ export default function CompararPage() {
                         className={clsx(
                           "w-full rounded-lg px-3 py-2 text-left text-xs transition-all",
                           versionB === v.id
-                            ? "border border-foreground bg-foreground text-background font-bold"
+                            ? "border border-foreground bg-foreground text-background font-semibold"
                             : "border border-border/60 bg-card text-muted-foreground hover:border-foreground/30"
                         )}
                       >
@@ -163,7 +163,7 @@ export default function CompararPage() {
             <div className="flex gap-3">
               <Info className="h-5 w-5 text-foreground/70 shrink-0" />
               <div className="text-[11px] leading-relaxed text-muted-foreground">
-                <p className="font-bold mb-1 uppercase tracking-tight text-foreground/80">Sobre la base de datos</p>
+                <p className="font-semibold mb-1 uppercase tracking-tight text-foreground/80">Sobre la base de datos</p>
                 <p>Las versiones anteriores provienen de los parágrafos derogados y registros históricos integrados en el sistema RAG de esta plataforma.</p>
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function CompararPage() {
               <div className="mb-4 rounded-full bg-muted p-4">
                 <Scale className="h-10 w-10 text-foreground/70" />
               </div>
-              <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold">Inicie una comparación</h3>
+              <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold">Inicie una comparación</h3>
               <p className="mt-2 max-w-sm text-sm text-muted-foreground">
                 Seleccione un artículo modificado del panel lateral para visualizar los cambios palabra por palabra.
               </p>
@@ -191,7 +191,7 @@ export default function CompararPage() {
           ) : article ? (
             <div className="space-y-6">
               <div className="flex flex-col gap-2">
-                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-foreground">{article.id_articulo}</h2>
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-foreground">{article.id_articulo}</h2>
                 <p className="text-sm font-medium text-muted-foreground">{article.titulo}</p>
               </div>
 
@@ -213,7 +213,7 @@ export default function CompararPage() {
               <div className="hidden">
                 <div ref={contentRef}>
                   <PrintWrapper title={`Comparación: ${article.id_articulo}`} subtitle={article.titulo}>
-                    <div className="mb-6 flex items-center justify-between border-b pb-4 text-sm font-bold">
+                    <div className="mb-6 flex items-center justify-between border-b pb-4 text-sm font-semibold">
                       <span className="text-muted-foreground">A: {labelA}</span>
                       <span className="text-muted-foreground">VS</span>
                       <span className="text-foreground">B: {labelB}</span>

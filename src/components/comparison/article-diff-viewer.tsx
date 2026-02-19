@@ -43,7 +43,7 @@ export function ArticleDiffViewer({
             <span className="text-muted-foreground">{newLabel} (Adicionado)</span>
           </div>
         </div>
-        <div className="flex items-center gap-4 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+        <div className="flex items-center gap-4 text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
           <span className="text-muted-foreground">-{stats.removed} palabras</span>
           <span className="text-foreground">+{stats.added} palabras</span>
         </div>

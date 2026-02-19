@@ -37,7 +37,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
     <div className="flex flex-wrap items-center gap-3">
       {/* Libro */}
       <div className="flex items-center gap-1.5">
-        <label htmlFor="filter-libro" className="text-xs font-medium text-muted-foreground">
+        <label htmlFor="filter-libro" className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
           Libro
         </label>
         <select
@@ -54,7 +54,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
 
       {/* Estado */}
       <div className="flex items-center gap-1.5">
-        <label htmlFor="filter-estado" className="text-xs font-medium text-muted-foreground">
+        <label htmlFor="filter-estado" className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
           Estado
         </label>
         <select
@@ -78,7 +78,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           })
         }
         className={clsx(
-          "rounded-lg border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
+          "rounded border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
           filters.hasMods === true
             ? "border-foreground bg-foreground text-background"
             : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
@@ -95,7 +95,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           })
         }
         className={clsx(
-          "rounded-lg border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
+          "rounded border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
           filters.hasNormas === true
             ? "border-foreground bg-foreground text-background"
             : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"

@@ -54,14 +54,14 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
   return (
     <div className="relative w-full">
       <div className="flex flex-col gap-2">
-        <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
+        <label className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
           Seleccionar Artículo con Historia
         </label>
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
           className={clsx(
-            "flex w-full items-center justify-between rounded-lg border border-border bg-card px-4 py-3 text-left shadow-sm transition-all hover:border-foreground/40 focus:outline-none focus:ring-2 focus:ring-foreground/20",
+            "flex w-full items-center justify-between rounded border border-border bg-card px-4 py-3 text-left shadow-sm transition-all duration-300 hover:border-foreground/40 focus:outline-none focus:ring-2 focus:ring-foreground/20",
             isOpen && "border-foreground/40 ring-2 ring-foreground/20"
           )}
         >
@@ -73,7 +73,7 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
       </div>
 
       {isOpen && (
-        <div className="absolute z-50 mt-2 w-full rounded-lg border border-border bg-card p-2 shadow-xl animate-in fade-in zoom-in-95 duration-200">
+        <div className="absolute z-50 mt-2 w-full rounded-lg border border-border/60 bg-card p-2 shadow-xl animate-in fade-in zoom-in-95 duration-200">
           <div className="relative mb-2">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <input
@@ -104,7 +104,7 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
                   )}
                 >
                   <div className="flex flex-col truncate">
-                    <span className="font-bold">{article.id}</span>
+                    <span className="font-semibold">{article.id}</span>
                     <span className="truncate text-xs opacity-70">{article.titulo}</span>
                   </div>
                   {selectedSlug === article.slug && <Check className="h-4 w-4 shrink-0" />}

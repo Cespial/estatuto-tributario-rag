@@ -97,7 +97,7 @@ export default function DoctrinaPage() {
           <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Scale className="h-8 w-8" />
           </div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-foreground">
+          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
             Doctrina DIAN
           </h1>
         </div>
@@ -142,7 +142,7 @@ export default function DoctrinaPage() {
         </select>
 
         <div className="relative">
-          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-bold text-muted-foreground">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-medium text-muted-foreground">
             Art.
           </span>
           <input
@@ -204,7 +204,7 @@ export default function DoctrinaPage() {
                   </div>
 
                   {/* Tema */}
-                  <h3 className="text-lg font-bold text-foreground transition-colors mb-2">
+                  <h3 className="text-lg font-semibold text-foreground transition-colors mb-2">
                     {doc.tema}
                   </h3>
 

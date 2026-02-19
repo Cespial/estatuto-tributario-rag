@@ -33,9 +33,9 @@ export function StatsCards({ total, modificados, modificadosPct, conDerogado, co
           <div key={key} className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
             <div className="flex items-center gap-2">
               <Icon className={`h-5 w-5 ${color}`} />
-              <span className="text-xs uppercase tracking-wide font-medium text-muted-foreground">{label}</span>
+              <span className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">{label}</span>
             </div>
-            <div className="mt-2 text-2xl font-bold tracking-tight">{v.count.toLocaleString()}</div>
+            <div className="mt-2 font-mono text-2xl font-semibold tracking-tight">{v.count.toLocaleString()}</div>
             {v.pct !== undefined && (
               <div className="text-sm text-muted-foreground">{v.pct}%</div>
             )}

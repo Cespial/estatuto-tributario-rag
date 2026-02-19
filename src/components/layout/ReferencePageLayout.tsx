@@ -29,7 +29,7 @@ export function ReferencePageLayout({
         Volver al Inicio
       </Link>
 
-      <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-border/40 pb-8">
+      <div className="mb-12 flex flex-col md:flex-row md:items-end md:justify-between gap-6 pb-6">
         <div>
           <h1 className="flex items-center gap-3 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
             <div className="rounded-lg bg-muted p-2.5 text-foreground/70">

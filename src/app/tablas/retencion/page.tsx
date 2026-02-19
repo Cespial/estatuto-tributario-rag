@@ -36,7 +36,7 @@ export default function RetencionPage() {
       rightContent={
         <div className="rounded-lg border border-border bg-card px-4 py-3 shadow-sm">
           <div className="text-xs font-medium text-muted-foreground">Valor UVT {CURRENT_UVT_YEAR}</div>
-          <div className="text-2xl font-bold text-foreground">{formatCurrency(uvtValue)}</div>
+          <div className="text-2xl font-semibold text-foreground">{formatCurrency(uvtValue)}</div>
         </div>
       }
     >
@@ -54,7 +54,7 @@ export default function RetencionPage() {
       <div className="rounded-lg border border-border/60 bg-card overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
-            <thead className="bg-muted/30 border-b border-border">
+            <thead className="bg-muted/50 border-b border-border">
               <tr>
                 <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
                 <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Base Min (UVT)</th>
@@ -74,7 +74,7 @@ export default function RetencionPage() {
                     <td className="px-4 py-3 text-right font-mono text-xs">
                       {item.baseMinUVT > 0 ? formatCurrency(item.baseMinUVT * uvtValue) : "$ 0"}
                     </td>
-                    <td className="px-4 py-3 text-center font-bold text-foreground">
+                    <td className="px-4 py-3 text-center font-semibold text-foreground">
                       {(item.tarifa * 100).toFixed(item.tarifa < 0.01 ? 1 : 1)}%
                     </td>
                     <td className="px-4 py-3 text-center">

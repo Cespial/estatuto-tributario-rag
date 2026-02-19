@@ -63,7 +63,7 @@ export default function GlosarioPage() {
       icon={BookOpen}
     >
       {/* A-Z Quick Nav */}
-      <div className="sticky top-0 z-10 -mx-6 bg-background/95 px-6 py-4 backdrop-blur shadow-sm border-b border-border mb-8">
+      <div className="sticky top-0 z-10 -mx-6 bg-background/95 px-6 py-4 backdrop-blur shadow-sm mb-8">
         <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 mb-4">
           {alphabet.map((letter) => {
             const hasItems = groupedGlosario[letter];
@@ -73,7 +73,7 @@ export default function GlosarioPage() {
                 onClick={() => scrollToLetter(letter)}
                 disabled={!hasItems}
                 className={clsx(
-                  "flex h-8 w-8 items-center justify-center rounded-lg text-xs font-bold transition-all",
+                  "flex h-8 w-8 items-center justify-center rounded-lg text-xs font-semibold transition-all",
                   hasItems
                     ? "bg-muted hover:bg-foreground hover:text-background cursor-pointer shadow-sm"
                     : "text-muted-foreground/20 cursor-not-allowed"
@@ -101,7 +101,7 @@ export default function GlosarioPage() {
         {Object.keys(groupedGlosario).sort().map((letter) => (
           <div key={letter} id={`letter-${letter}`} className="scroll-mt-40">
             <div className="flex items-center gap-4 mb-8">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted text-2xl font-black text-foreground/70">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted text-2xl font-bold text-foreground/70">
                 {letter}
               </div>
               <div className="h-px flex-1 bg-border" />
@@ -111,7 +111,7 @@ export default function GlosarioPage() {
               {groupedGlosario[letter].map((term, idx) => (
                 <div key={idx} className="group relative overflow-hidden rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-all hover:shadow-md hover:border-border">
                   <div className="mb-3">
-                    <h3 className="text-lg font-bold text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
+                    <h3 className="text-lg font-semibold text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
                       <HighlightText text={term.termino} highlight={search} />
                       <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-foreground/70" />
                     </h3>

@@ -86,7 +86,7 @@ export default function FavoritosPage() {
       <div className="mx-auto w-full max-w-5xl flex-1 px-4 py-10">
       <div className="mb-12 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Mi Espacio</h1>
+          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Mi Espacio</h1>
           <p className="mt-2 text-sm text-muted-foreground">Gestiona tus favoritos, notas y datos guardados.</p>
         </div>
         <div className="flex gap-2">
@@ -111,7 +111,7 @@ export default function FavoritosPage() {
         <button
           onClick={() => setActiveTab("favoritos")}
           className={clsx(
-            "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-bold transition-colors",
+            "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-medium transition-colors",
             activeTab === "favoritos" ? "border-foreground text-foreground" : "border-transparent text-muted-foreground hover:text-foreground"
           )}
         >
@@ -121,7 +121,7 @@ export default function FavoritosPage() {
         <button
           onClick={() => setActiveTab("notas")}
           className={clsx(
-            "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-bold transition-colors",
+            "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-medium transition-colors",
             activeTab === "notas" ? "border-foreground text-foreground" : "border-transparent text-muted-foreground hover:text-foreground"
           )}
         >
@@ -211,7 +211,7 @@ export default function FavoritosPage() {
                   <div className="mt-4 flex justify-end">
                     <Link
                       href={`/explorador?art=${note.targetId}`}
-                      className="flex items-center gap-1 text-[10px] font-bold text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
+                      className="flex items-center gap-1 text-[10px] font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
                     >
                       Ver referencia
                       <ExternalLink className="h-3 w-3" />

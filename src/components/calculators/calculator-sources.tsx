@@ -9,7 +9,7 @@ export function CalculatorSources({ articles }: CalculatorSourcesProps) {
 
   return (
     <div className="mt-8 flex flex-wrap items-center gap-2 pt-6 text-sm">
-      <span className="text-xs uppercase tracking-wide text-muted-foreground">Articulos relacionados:</span>
+      <span className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">Articulos relacionados:</span>
       {articles.map((art) => (
         <Link
           key={art}

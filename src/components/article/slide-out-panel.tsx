@@ -144,7 +144,7 @@ export function SlideOutPanel() {
               <span
                 className={clsx(
                   "h-2.5 w-2.5 rounded-full",
-                  ESTADO_COLORS[article.estado] || "bg-gray-500"
+                  ESTADO_COLORS[article.estado] || "bg-foreground/40"
                 )}
                 title={ESTADO_LABELS[article.estado] || article.estado}
               />
@@ -180,15 +180,15 @@ export function SlideOutPanel() {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-2">
               <div className="rounded-lg bg-muted p-2 text-center">
-                <div className="text-lg font-bold">{article.total_modificaciones}</div>
+                <div className="font-mono text-lg font-semibold">{article.total_modificaciones}</div>
                 <div className="text-xs text-muted-foreground">Modificaciones</div>
               </div>
               <div className="rounded-lg bg-muted p-2 text-center">
-                <div className="text-lg font-bold">{article.ultima_modificacion_year || "N/A"}</div>
+                <div className="font-mono text-lg font-semibold">{article.ultima_modificacion_year || "N/A"}</div>
                 <div className="text-xs text-muted-foreground">Última mod.</div>
               </div>
               <div className="rounded-lg bg-muted p-2 text-center">
-                <div className="text-lg font-bold">{article.complexity_score}/10</div>
+                <div className="font-mono text-lg font-semibold">{article.complexity_score}/10</div>
                 <div className="text-xs text-muted-foreground">Complejidad</div>
               </div>
             </div>
@@ -267,7 +267,7 @@ export function SlideOutPanel() {
             <div className="flex gap-2 pt-2">
               <Link
                 href={`/articulo/${article.slug}`}
-                className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-foreground px-4 py-2 text-sm font-medium text-background transition-colors hover:bg-foreground/90 focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
+                className="flex flex-1 items-center justify-center gap-2 rounded bg-foreground px-4 py-2 text-sm font-medium text-background transition-colors duration-300 hover:bg-foreground/90 focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
                 onClick={closePanel}
               >
                 Ver ficha completa
@@ -277,7 +277,7 @@ export function SlideOutPanel() {
                 href={article.url_origen}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
+                className="flex items-center gap-1 rounded border border-border px-3 py-2 text-sm transition-colors duration-300 hover:bg-muted focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
                 aria-label="Ver en estatuto.co"
               >
                 <ExternalLink className="h-4 w-4" />
