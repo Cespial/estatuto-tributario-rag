@@ -357,7 +357,7 @@ export default function ComparadorPage() {
   }, [presupuesto, esPensionado, groupIndex, uvt]);
 
   const bestCol = (i: number) =>
-    result && result.bestIndex === i ? "bg-green-50 dark:bg-green-950/30 font-semibold" : "";
+    result && result.bestIndex === i ? "bg-muted/50 font-semibold" : "";
 
   return (
     <>
@@ -477,7 +477,7 @@ export default function ComparadorPage() {
             </div>
             {result.bestIndex !== -1 && (
               <p className="mt-2 text-xs text-muted-foreground">
-                La columna destacada en verde es la de mayor neto anual para el trabajador.
+                La columna destacada es la de mayor neto anual para el trabajador.
               </p>
             )}
           </div>
@@ -649,16 +649,16 @@ function Row({
   best: number;
   note?: string;
 }) {
-  const bestCol = (i: number) => (best === i ? "bg-green-50 dark:bg-green-950/30" : "");
+  const bestColFn = (i: number) => (best === i ? "bg-muted/50" : "");
   return (
     <tr className="border-b border-border last:border-0">
       <td className="px-4 py-2">
         {label}
         {note && <span className="ml-1 text-xs text-muted-foreground">({note})</span>}
       </td>
-      <td className={`px-4 py-2 text-right ${bestCol(0)}`}>{formatCOP(lab)}</td>
-      <td className={`px-4 py-2 text-right ${bestCol(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
-      <td className={`px-4 py-2 text-right ${bestCol(2)}`}>{formatCOP(ind)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
     </tr>
   );
 }
@@ -678,13 +678,13 @@ function RowTotal({
   best: number;
   highlight?: boolean;
 }) {
-  const bestCol = (i: number) => (best === i ? "bg-green-50 dark:bg-green-950/30" : "");
+  const bestColFn = (i: number) => (best === i ? "bg-muted/50" : "");
   return (
     <tr className={`border-b border-border font-semibold ${highlight ? "bg-muted/20" : ""}`}>
       <td className="px-4 py-2">{label}</td>
-      <td className={`px-4 py-2 text-right ${bestCol(0)}`}>{formatCOP(lab)}</td>
-      <td className={`px-4 py-2 text-right ${bestCol(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
-      <td className={`px-4 py-2 text-right ${bestCol(2)}`}>{formatCOP(ind)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(0)}`}>{formatCOP(lab)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(1)}`}>{int_ === null ? "N/A" : formatCOP(int_)}</td>
+      <td className={`px-4 py-2 text-right ${bestColFn(2)}`}>{formatCOP(ind)}</td>
     </tr>
   );
 }

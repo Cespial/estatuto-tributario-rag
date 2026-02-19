@@ -103,20 +103,20 @@ export default function AuditoriaPage() {
           {calculo ? (
             <div className="space-y-6">
               <div className={`rounded-lg border p-6 shadow-sm ${
-                calculo.status === "success" ? "border-green-200 bg-green-50 dark:border-green-900/50 dark:bg-green-950/20" :
+                calculo.status === "success" ? "border-border/60 bg-muted/50" :
                 calculo.status === "warning" ? "border-border/60 bg-muted/50" :
-                "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-red-950/20"
+                "border-border/60 bg-muted/50"
               }`}>
                 <div className="flex items-center gap-3 mb-4">
                   {calculo.status === "success" ? (
-                    <CheckCircle2 className="h-6 w-6 text-green-600" />
+                    <CheckCircle2 className="h-6 w-6 text-foreground" />
                   ) : (
-                    <AlertCircle className="h-6 w-6 text-foreground/70" />
+                    <AlertCircle className="h-6 w-6 text-muted-foreground" />
                   )}
                   <h3 className={`text-lg font-bold ${
-                    calculo.status === "success" ? "text-green-800 dark:text-green-400" :
+                    calculo.status === "success" ? "text-foreground" :
                     calculo.status === "warning" ? "text-foreground" :
-                    "text-red-800 dark:text-red-400"
+                    "text-muted-foreground"
                   }`}>
                     {calculo.resultado}
                   </h3>

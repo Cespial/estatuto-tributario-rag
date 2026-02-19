@@ -128,7 +128,7 @@ export default function RentaJuridicasPage() {
               <span>{formatCOP(result.impuestoBase)}</span>
             </div>
             {result.sobretasa > 0 && (
-              <div className="flex justify-between border-b border-border py-1 text-red-500">
+              <div className="flex justify-between border-b border-border py-1 text-muted-foreground">
                 <span>Sobretasa financiera (15%)</span>
                 <span>{formatCOP(result.sobretasa)}</span>
               </div>

@@ -137,7 +137,7 @@ export default function PensionPage() {
                 <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-center">
                   <User className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Edad al Retiro</p>
-                  <p className={`text-xl font-bold ${calculo.cumpleEdad ? "text-green-600" : "text-foreground"}`}>
+                  <p className={`text-xl font-bold ${calculo.cumpleEdad ? "text-foreground" : "text-foreground"}`}>
                     {calculo.edadAlRetiro} años
                   </p>
                   <p className="text-[10px] text-muted-foreground">Meta: {calculo.edadRequerida}</p>
@@ -145,7 +145,7 @@ export default function PensionPage() {
                 <div className="rounded-lg border border-border/60 bg-card p-5 shadow-sm text-center">
                   <Award className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Semanas Meta</p>
-                  <p className={`text-xl font-bold ${calculo.cumpleSemanas ? "text-green-600" : "text-foreground"}`}>
+                  <p className={`text-xl font-bold ${calculo.cumpleSemanas ? "text-foreground" : "text-foreground"}`}>
                     {calculo.semanasRequeridas}
                   </p>
                   <p className="text-[10px] text-muted-foreground">Actuales: {semanasActuales}</p>

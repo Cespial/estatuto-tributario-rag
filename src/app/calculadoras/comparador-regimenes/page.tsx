@@ -117,10 +117,10 @@ export default function ComparadorRegimenesPage() {
         </div>
 
         <div className="space-y-6">
-          <div className={`rounded-lg border p-6 shadow-sm ${results.ahorro > 0 ? "bg-green-50 dark:bg-green-950/30 border-green-200" : "border-border/60 bg-card"}`}>
+          <div className={`rounded-lg border p-6 shadow-sm ${results.ahorro > 0 ? "bg-muted/50 border-border/60" : "border-border/60 bg-card"}`}>
             <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">Recomendacion</h3>
             <div className="flex items-center gap-3 mb-2">
-              <CheckCircle2 className={`h-8 w-8 ${results.ahorro > 0 ? "text-green-600" : "text-foreground/70"}`} />
+              <CheckCircle2 className={`h-8 w-8 ${results.ahorro > 0 ? "text-foreground" : "text-muted-foreground"}`} />
               <span className="text-2xl font-bold">{results.recomendacion}</span>
             </div>
             <p className="text-muted-foreground">

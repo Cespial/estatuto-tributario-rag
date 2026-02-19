@@ -115,14 +115,14 @@ export default function DoctrinaPage() {
             placeholder="Buscar en doctrina..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+            className="w-full rounded border border-border/60 bg-card px-4 py-2.5 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
         <select
           value={tipoFiltro}
           onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los tipos</option>
           <option value="concepto">Concepto</option>
@@ -134,7 +134,7 @@ export default function DoctrinaPage() {
         <select
           value={vigenciaFiltro}
           onChange={(e) => setVigenciaFiltro(e.target.value)}
-          className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Vigencia: Todos</option>
           <option value="vigente">Vigente</option>
@@ -150,7 +150,7 @@ export default function DoctrinaPage() {
             placeholder="Ej: 240, 383..."
             value={articuloFiltro}
             onChange={(e) => setArticuloFiltro(e.target.value)}
-            className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 pl-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+            className="w-full rounded border border-border/60 bg-card px-4 py-2.5 pl-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
       </div>
@@ -191,7 +191,7 @@ export default function DoctrinaPage() {
                       {tipoConf.label}
                     </span>
                     {doc.vigente ? (
-                      <span className="inline-flex items-center gap-1 text-xs font-medium text-green-700 dark:text-green-400">
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-foreground">
                         <CheckCircle2 className="h-3.5 w-3.5" />
                         Vigente
                       </span>

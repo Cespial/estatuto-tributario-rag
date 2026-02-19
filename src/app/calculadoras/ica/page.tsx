@@ -389,7 +389,7 @@ export default function ICAPage() {
                   <div className="flex justify-between items-center">
                     <span className="text-xs font-bold text-muted-foreground uppercase">Actividad {idx + 1}</span>
                     {actividades.length > 0 && (
-                      <button onClick={() => removeActividad(idx)} className="text-muted-foreground hover:text-red-500">
+                      <button onClick={() => removeActividad(idx)} className="text-muted-foreground hover:text-foreground">
                         <Trash2 className="h-4 w-4" />
                       </button>
                     )}
@@ -447,7 +447,7 @@ export default function ICAPage() {
             <div className="mt-3 rounded-md bg-muted/30 px-3 py-2 text-xs">
               Suma actividades: {formatCOP(sumaActividades)} / Ingresos gravables (R15): {formatCOP(ingresosGravablesCalculado)}
               {coinciden ? (
-                <span className="ml-2 text-green-600">✓ Coinciden</span>
+                <span className="ml-2 text-foreground font-medium">✓ Coinciden</span>
               ) : (
                 <span className="ml-2 text-foreground/70">Diferencia: {formatCOP(diff)}</span>
               )}
@@ -542,20 +542,20 @@ export default function ICAPage() {
                     <span>{formatCOP(resultado.renglon30)}</span>
                   </div>
                   {resultado.renglon31 && resultado.renglon31 > 0 ? (
-                    <div className="flex justify-between border-b pb-1 text-red-500">
-                      <span className="text-red-500">+ Sanciones (R31)</span>
+                    <div className="flex justify-between border-b pb-1 text-muted-foreground">
+                      <span>+ Sanciones (R31)</span>
                       <span>{formatCOP(resultado.renglon31)}</span>
                     </div>
                   ) : null}
                   {resultado.renglon37 && resultado.renglon37 > 0 ? (
-                    <div className="flex justify-between border-b pb-1 text-red-500">
-                      <span className="text-red-500">+ Intereses mora (R37)</span>
+                    <div className="flex justify-between border-b pb-1 text-muted-foreground">
+                      <span>+ Intereses mora (R37)</span>
                       <span>{formatCOP(resultado.renglon37)}</span>
                     </div>
                   ) : null}
                   <div className={clsx(
                     "flex justify-between border-b pb-1 text-lg font-bold",
-                    resultado.renglon33 > 0 ? "text-red-600" : "text-green-600"
+                    resultado.renglon33 > 0 ? "text-foreground" : "text-foreground"
                   )}>
                     <span>= Saldo neto (R33)</span>
                     <span>{formatCOP(resultado.renglon33)}</span>
@@ -642,7 +642,7 @@ export default function ICAPage() {
                   <FormRow n={31} label="Mas sanciones" value={resultado.renglon31 || 0} />
                   <FormRow n={32} label="Menos saldo a favor periodo anterior" value={resultado.renglon32} />
                   <FormRow n={33} label="TOTAL SALDO A CARGO (25-26-27-28-29+30+31-32)" value={resultado.renglon33} bold />
-                  <FormRow n={34} label="O SALDO A FAVOR" value={resultado.renglon34} bold color="text-green-600" />
+                  <FormRow n={34} label="O SALDO A FAVOR" value={resultado.renglon34} bold color="text-foreground" />
 
                   {/* SECCION E */}
                   <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">E. Pago</td></tr>
@@ -676,7 +676,7 @@ export default function ICAPage() {
               {errores.length > 0 && (
                 <div className="space-y-2">
                   {errores.map((e, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-red-500 bg-muted/50 p-3 rounded-lg border border-border/60">
+                    <div key={i} className="flex items-center gap-2 text-sm text-muted-foreground bg-muted/50 p-3 rounded-lg border border-border/60">
                       <AlertTriangle className="h-4 w-4 shrink-0" />
                       <span>{e}</span>
                     </div>

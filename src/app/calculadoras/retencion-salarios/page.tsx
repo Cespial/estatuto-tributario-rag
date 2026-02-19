@@ -186,7 +186,7 @@ export default function RetencionSalariosPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-2">(-) Aportes Obligatorios SS</td>
-                  <td className="px-4 py-2 text-right text-red-500">-{formatCOP(results.incrngo)}</td>
+                  <td className="px-4 py-2 text-right text-muted-foreground">-{formatCOP(results.incrngo)}</td>
                 </tr>
                 <tr className="bg-muted/20 font-medium">
                   <td className="px-4 py-2">(=) Subtotal 1 (Ingreso Neto)</td>

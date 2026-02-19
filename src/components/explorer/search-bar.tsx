@@ -30,7 +30,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
         onChange={(e) => setLocal(e.target.value)}
         placeholder="Buscar por número, título o palabra clave..."
         aria-label="Buscar artículos"
-        className="w-full rounded-lg border border-border bg-card py-2.5 pl-10 pr-10 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+        className="w-full rounded border border-border bg-card py-2.5 pl-10 pr-10 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
       />
       {local && (
         <button

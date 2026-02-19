@@ -35,17 +35,17 @@ export function ArticleDiffViewer({
       <div className="flex flex-wrap items-center justify-between gap-4 rounded-lg border border-border bg-muted/30 px-4 py-3">
         <div className="flex items-center gap-6 text-sm">
           <div className="flex items-center gap-2">
-            <span className="h-3 w-3 rounded-sm bg-red-500/20 ring-1 ring-red-500/50" />
+            <span className="h-3 w-3 rounded-sm bg-muted ring-1 ring-border line-through" />
             <span className="text-muted-foreground">{oldLabel} (Eliminado)</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="h-3 w-3 rounded-sm bg-green-500/20 ring-1 ring-green-500/50" />
+            <span className="h-3 w-3 rounded-sm bg-foreground/10 ring-1 ring-foreground/40 underline" />
             <span className="text-muted-foreground">{newLabel} (Adicionado)</span>
           </div>
         </div>
         <div className="flex items-center gap-4 text-xs font-medium uppercase tracking-wider text-muted-foreground">
-          <span className="text-red-600">-{stats.removed} palabras</span>
-          <span className="text-green-600">+{stats.added} palabras</span>
+          <span className="text-muted-foreground">-{stats.removed} palabras</span>
+          <span className="text-foreground">+{stats.added} palabras</span>
         </div>
       </div>
 
@@ -64,7 +64,7 @@ export function ArticleDiffViewer({
 function DiffSegmentComponent({ segment }: { segment: DiffSegment }) {
   if (segment.type === "added") {
     return (
-      <span className="bg-green-500/20 text-green-900 dark:text-green-100 ring-1 ring-green-500/30 rounded-sm px-0.5 mx-0.5 inline transition-colors">
+      <span className="bg-foreground/10 underline decoration-foreground/40 rounded-sm px-0.5 mx-0.5 inline transition-colors">
         {segment.text}
       </span>
     );
@@ -72,7 +72,7 @@ function DiffSegmentComponent({ segment }: { segment: DiffSegment }) {
 
   if (segment.type === "removed") {
     return (
-      <span className="bg-red-500/20 text-red-900 dark:text-red-100 ring-1 ring-red-500/30 rounded-sm px-0.5 mx-0.5 inline line-through decoration-red-500/50 transition-colors">
+      <span className="bg-muted line-through text-muted-foreground rounded-sm px-0.5 mx-0.5 inline transition-colors">
         {segment.text}
       </span>
     );

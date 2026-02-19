@@ -105,9 +105,11 @@ export default function LoteriasPage() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Sujeto a retención:</span>
-                    <span className={results.sujetoRetencion ? "text-green-600 font-medium" : "text-red-600 font-medium"}>
-                      {results.sujetoRetencion ? "SÍ" : "NO"}
-                    </span>
+                    {results.sujetoRetencion ? (
+                      <span className="inline-block rounded bg-foreground px-2 py-0.5 text-xs font-medium text-background">SÍ</span>
+                    ) : (
+                      <span className="inline-block rounded bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">NO</span>
+                    )}
                   </div>
                   <div className="flex justify-between border-t pt-2">
                     <span className="text-muted-foreground text-xs italic">

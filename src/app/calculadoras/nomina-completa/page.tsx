@@ -202,7 +202,7 @@ function TableRow({ label, value, bold, negative }: { label: string; value: numb
   return (
     <tr className={bold ? "font-bold" : ""}>
       <td className="px-4 py-2 text-muted-foreground">{label}</td>
-      <td className={`px-4 py-2 text-right font-mono ${negative ? "text-red-500" : ""}`}>
+      <td className={`px-4 py-2 text-right font-mono ${negative ? "text-muted-foreground" : ""}`}>
         {negative ? "-" : ""}{formatCOP(value)}
       </td>
     </tr>

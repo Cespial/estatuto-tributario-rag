@@ -75,7 +75,7 @@ export default function CalendarioPage() {
             placeholder="Buscar obligacion..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-lg border border-border bg-card py-2 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+            className="w-full rounded border border-border bg-card py-2 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
@@ -86,14 +86,14 @@ export default function CalendarioPage() {
             placeholder="Últimos dígitos"
             value={nit}
             onChange={(e) => setNit(e.target.value)}
-            className="w-full rounded-lg border border-border bg-card py-2 pl-12 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+            className="w-full rounded border border-border bg-card py-2 pl-12 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
         <select
           value={tipoFiltro}
           onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded-lg border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los contribuyentes</option>
           <option value="naturales">Personas Naturales</option>
@@ -104,7 +104,7 @@ export default function CalendarioPage() {
         <select
           value={obligacionFiltro}
           onChange={(e) => setObligacionFiltro(e.target.value)}
-          className="w-full rounded-lg border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
+          className="w-full rounded border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todas">Todas las obligaciones</option>
           {uniqueObligations.map(o => (

@@ -179,7 +179,7 @@ export default function GananciasOcasionalesPage() {
                         <td className="px-4 py-2 text-right">{formatCOP(results.gananciaBruta)}</td>
                       </tr>
                       {tipoActivo === "inmueble_vivienda" && (
-                        <tr className="border-b border-border text-green-600">
+                        <tr className="border-b border-border text-muted-foreground">
                           <td className="px-4 py-2">Exención Vivienda</td>
                           <td className="px-4 py-2 text-right">-{formatCOP(results.exencion)}</td>
                         </tr>

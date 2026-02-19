@@ -107,11 +107,11 @@ export default function GuiaInteractivaPage() {
         ) : (
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-1 rounded-full bg-muted p-2 text-green-700 dark:text-green-400">
+              <div className="mt-1 rounded-full bg-muted p-2 text-foreground">
                 <CheckCircle2 className="h-6 w-6" />
               </div>
               <div>
-                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-green-700 dark:text-green-400 leading-tight">
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-foreground leading-tight">
                   {currentNode?.texto}
                 </h2>
                 {currentNode?.recomendacion && (

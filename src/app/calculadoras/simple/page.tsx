@@ -200,7 +200,7 @@ export default function SimplePage() {
                     <span className="text-muted-foreground">Est. Renta Ordinaria:</span>
                     <span className="font-medium">{formatCOP(calculo.rentaOrdinariaCOP)}</span>
                   </div>
-                  <div className={`flex justify-between pt-2 text-lg font-bold ${calculo.ahorro > 0 ? "text-green-600" : "text-red-500"}`}>
+                  <div className={`flex justify-between pt-2 text-lg font-bold ${calculo.ahorro > 0 ? "text-foreground" : "text-muted-foreground"}`}>
                     <span>{calculo.ahorro > 0 ? "Ahorro estimado:" : "Diferencia:"}</span>
                     <span>{formatCOP(Math.abs(calculo.ahorro))}</span>
                   </div>

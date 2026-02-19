@@ -44,7 +44,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           id="filter-libro"
           value={filters.libro}
           onChange={(e) => onChange({ ...filters, libro: e.target.value })}
-          className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
+          className="rounded border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
         >
           {LIBROS.map(({ value, label }) => (
             <option key={value} value={value}>{label}</option>
@@ -61,7 +61,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           id="filter-estado"
           value={filters.estado}
           onChange={(e) => onChange({ ...filters, estado: e.target.value })}
-          className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
+          className="rounded border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
         >
           {ESTADOS.map(({ value, label }) => (
             <option key={value} value={value}>{label}</option>

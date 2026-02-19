@@ -92,7 +92,7 @@ export default function GlosarioPage() {
             placeholder="Buscar término, definición o relacionado..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-lg border border-border/60 bg-card py-3 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20 shadow-sm"
+            className="w-full rounded border border-border/60 bg-card py-3 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20 shadow-sm"
           />
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function ErrorBoundary({ error, reset }: ErrorProps) {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-4">
-      <AlertCircle className="mb-4 h-12 w-12 text-red-500" />
+      <AlertCircle className="mb-4 h-12 w-12 text-muted-foreground" />
       <h2 className="mb-2 text-xl font-semibold">Algo salió mal</h2>
       <p className="mb-6 max-w-md text-center text-sm text-muted-foreground">
         Ocurrió un error inesperado. Puedes intentar recargar la página o volver al inicio.

@@ -168,7 +168,7 @@ export default function FavoritosPage() {
                         <div className="ml-4 flex items-center gap-2">
                           <button
                             onClick={() => removeBookmark(item.id)}
-                            className="rounded-md p-2 text-muted-foreground hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-900/20"
+                            className="rounded-md p-2 text-muted-foreground hover:bg-muted hover:text-foreground"
                           >
                             <Trash2 className="h-4 w-4" />
                           </button>
@@ -198,7 +198,7 @@ export default function FavoritosPage() {
                     </span>
                     <button
                       onClick={() => deleteNote(note.targetId)}
-                      className="text-muted-foreground hover:text-red-600"
+                      className="text-muted-foreground hover:text-foreground"
                     >
                       <Trash2 className="h-3.5 w-3.5" />
                     </button>

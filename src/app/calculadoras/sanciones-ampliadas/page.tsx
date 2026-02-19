@@ -216,7 +216,7 @@ export default function SancionesAmpliadasPage() {
               <span>{formatCOP(result.sancionBase)}</span>
             </div>
             {aplicaReduccion640 && (
-              <div className="flex justify-between border-b border-border py-1 text-green-600">
+              <div className="flex justify-between border-b border-border py-1 text-foreground">
                 <span>Reduccion Art. 640 (50%)</span>
                 <span>-{formatCOP(result.sancionAntesDeReduccion * 0.5)}</span>
               </div>

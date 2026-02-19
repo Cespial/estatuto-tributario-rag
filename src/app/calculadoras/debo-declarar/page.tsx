@@ -89,24 +89,24 @@ export default function DeboDeclararPage() {
       </div>
 
       <div className={`mb-8 flex items-center gap-4 rounded-lg border p-6 ${evaluation.debeDeclarar
-        ? "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-900/50"
-        : "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-900/50"}`}>
+        ? "bg-muted/50 border-border/60"
+        : "bg-muted/50 border-border/60"}`}>
         {evaluation.debeDeclarar ? (
           <>
-            <AlertTriangle className="h-10 w-10 text-red-600 dark:text-red-400" />
+            <AlertTriangle className="h-10 w-10 text-muted-foreground" />
             <div>
-              <h2 className="text-xl font-bold text-red-700 dark:text-red-300">ESTA OBLIGADO a declarar renta 2025</h2>
-              <p className="text-sm text-red-600 dark:text-red-400">
+              <h2 className="text-xl font-bold text-foreground">ESTA OBLIGADO a declarar renta 2025</h2>
+              <p className="text-sm text-muted-foreground">
                 {!esResidente ? "Por ser No Residente (sujeto a validacion de retenciones)" : "Su situacion fiscal supera uno o mas topes."}
               </p>
             </div>
           </>
         ) : (
           <>
-            <CheckCircle2 className="h-10 w-10 text-green-600 dark:text-green-400" />
+            <CheckCircle2 className="h-10 w-10 text-foreground" />
             <div>
-              <h2 className="text-xl font-bold text-green-700 dark:text-green-300">No esta obligado a declarar renta 2025</h2>
-              <p className="text-sm text-green-600 dark:text-green-400">Sus valores se encuentran por debajo de los topes legales.</p>
+              <h2 className="text-xl font-bold text-foreground">No esta obligado a declarar renta 2025</h2>
+              <p className="text-sm text-muted-foreground">Sus valores se encuentran por debajo de los topes legales.</p>
             </div>
           </>
         )}
@@ -132,15 +132,15 @@ export default function DeboDeclararPage() {
                 { label: "Consumos Tarjeta (1,400 UVT)", limit: thresholds.consumos, value: consumosTarjeta, exceeds: evaluation.exceeds.consumos },
                 { label: "Compras y Consumos (1,400 UVT)", limit: thresholds.compras, value: compras, exceeds: evaluation.exceeds.compras },
               ].map((row, i) => (
-                <tr key={i} className={`border-b border-border last:border-0 ${row.exceeds ? "bg-red-500/5" : ""}`}>
+                <tr key={i} className={`border-b border-border last:border-0 ${row.exceeds ? "bg-muted/30" : ""}`}>
                   <td className="px-4 py-2 font-medium">{row.label}</td>
                   <td className="px-4 py-2 text-right text-muted-foreground">{formatCOP(row.limit)}</td>
                   <td className="px-4 py-2 text-right">{formatCOP(row.value)}</td>
                   <td className="px-4 py-2 text-center">
                     {row.exceeds ? (
-                      <span className="font-bold text-red-600">SI</span>
+                      <span className="inline-block rounded bg-foreground px-2 py-0.5 text-xs font-medium text-background">SI</span>
                     ) : (
-                      <span className="font-bold text-green-600">NO</span>
+                      <span className="inline-block rounded bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">NO</span>
                     )}
                   </td>
                 </tr>

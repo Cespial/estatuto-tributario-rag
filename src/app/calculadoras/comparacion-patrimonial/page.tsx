@@ -96,18 +96,18 @@ export default function ComparacionPatrimonialPage() {
           />
 
           {!results.esValido ? (
-            <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-900/50 dark:bg-red-950/30">
-              <div className="flex items-center gap-2 text-red-800 dark:text-red-400 font-bold mb-2">
+            <div className="rounded-lg border border-border/60 bg-muted/50 p-4">
+              <div className="flex items-center gap-2 text-muted-foreground font-bold mb-2">
                 <AlertTriangle className="h-5 w-5" />
                 <span>Patrimonio No Justificado</span>
               </div>
-              <p className="text-sm text-red-700 dark:text-red-400">
+              <p className="text-sm text-muted-foreground">
                 El incremento patrimonial supera las rentas declaradas por {formatCOP(results.rentaNoJustificada)}.
                 Esto puede generar una renta gravable adicional y sanciones por parte de la DIAN.
               </p>
             </div>
           ) : (
-            <div className="rounded-lg border border-green-200 bg-green-50 p-4 dark:border-green-900/50 dark:bg-green-950/30 text-green-800 dark:text-green-400">
+            <div className="rounded-lg border border-border/60 bg-muted/50 p-4 text-foreground">
               <div className="flex items-center gap-2 font-bold mb-2">
                 <CheckCircle2 className="h-5 w-5" />
                 <span>Patrimonio Justificado</span>

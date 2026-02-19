@@ -214,9 +214,9 @@ export default function CompararPage() {
                 <div ref={contentRef}>
                   <PrintWrapper title={`Comparación: ${article.id_articulo}`} subtitle={article.titulo}>
                     <div className="mb-6 flex items-center justify-between border-b pb-4 text-sm font-bold">
-                      <span className="text-red-600">A: {labelA}</span>
+                      <span className="text-muted-foreground">A: {labelA}</span>
                       <span className="text-muted-foreground">VS</span>
-                      <span className="text-green-600">B: {labelB}</span>
+                      <span className="text-foreground">B: {labelB}</span>
                     </div>
                     <ArticleDiffViewer
                       oldText={textA}
