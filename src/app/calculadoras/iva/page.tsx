@@ -40,12 +40,12 @@ export default function IVAPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Referencia IVA</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Referencia IVA</h1>
 
       <div className="mb-6 space-y-4">
         {/* Mode toggle */}
@@ -54,7 +54,7 @@ export default function IVAPage() {
             onClick={() => { setMode("calculo"); setMonto(0); }}
             className={clsx(
               "flex-1 rounded-md px-3 py-1.5 text-sm transition-colors",
-              mode === "calculo" ? "bg-primary text-primary-foreground" : "hover:bg-muted",
+              mode === "calculo" ? "bg-foreground text-background" : "hover:bg-muted",
             )}
           >
             Calcular IVA
@@ -63,7 +63,7 @@ export default function IVAPage() {
             onClick={() => { setMode("extraccion"); setMonto(0); }}
             className={clsx(
               "flex-1 rounded-md px-3 py-1.5 text-sm transition-colors",
-              mode === "extraccion" ? "bg-primary text-primary-foreground" : "hover:bg-muted",
+              mode === "extraccion" ? "bg-foreground text-background" : "hover:bg-muted",
             )}
           >
             Extraer IVA
@@ -91,8 +91,8 @@ export default function IVAPage() {
       <div className="mb-6 space-y-4">
         <h2 className="text-lg font-semibold">Exento vs Excluido</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <div className="rounded-lg border border-border p-4">
-            <h3 className="mb-2 text-sm font-semibold text-primary">Excluido (Art. 424)</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h3 className="mb-2 text-sm font-semibold text-foreground">Excluido (Art. 424)</h3>
             <p className="mb-2 text-sm text-muted-foreground">
               No causa IVA. El productor/prestador NO puede descontar el IVA pagado en insumos.
             </p>
@@ -103,8 +103,8 @@ export default function IVAPage() {
               <li>- Servicios publicos (estratos 1-2)</li>
             </ul>
           </div>
-          <div className="rounded-lg border border-border p-4">
-            <h3 className="mb-2 text-sm font-semibold text-primary">Exento (Art. 477)</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h3 className="mb-2 text-sm font-semibold text-foreground">Exento (Art. 477)</h3>
             <p className="mb-2 text-sm text-muted-foreground">
               Tarifa 0%, pero el productor SI puede solicitar devolucion del IVA pagado en insumos.
             </p>

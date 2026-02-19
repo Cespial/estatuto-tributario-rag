@@ -3,14 +3,14 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft, ChevronDown, Info } from "lucide-react";
-import { 
-  SMLMV_2026, 
+import {
+  SMLMV_2026,
   AUXILIO_TRANSPORTE_2026,
 } from "@/config/tax-data";
-import { 
-  INDEMNIZACION_INDEFINIDO, 
-  INDEMNIZACION_FIJO_MIN_DIAS, 
-  INTERES_CESANTIAS_RATE 
+import {
+  INDEMNIZACION_INDEFINIDO,
+  INDEMNIZACION_FIJO_MIN_DIAS,
+  INTERES_CESANTIAS_RATE
 } from "@/config/tax-data-laboral";
 import { CurrencyInput, SelectInput, ToggleInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
@@ -46,13 +46,13 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
         <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -129,12 +129,12 @@ export default function LiquidacionLaboralPage() {
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-6">
       <div className="mb-6">
-        <Link href="/calculadoras" className="mb-4 flex items-center text-sm text-muted-foreground hover:text-primary">
+        <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver a calculadoras
         </Link>
-        <h1 className="text-3xl font-bold tracking-tight">Liquidación de Contrato Laboral</h1>
-        <p className="text-muted-foreground">Calcula prestaciones sociales e indemnizaciones según la ley colombiana para 2026.</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Liquidación de Contrato Laboral</h1>
+        <p className="mt-2 text-muted-foreground">Calcula prestaciones sociales e indemnizaciones según la ley colombiana para 2026.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -142,42 +142,42 @@ export default function LiquidacionLaboralPage() {
           <DateInput id="inicio" label="Fecha de inicio" value={fechaInicio} onChange={setFechaInicio} />
           <DateInput id="terminacion" label="Fecha de terminación" value={fechaTerminacion} onChange={setFechaTerminacion} />
           <CurrencyInput id="salario" label="Salario mensual básico" value={salario} onChange={setSalario} />
-          
-          <SelectInput 
-            id="tipoContrato" 
-            label="Tipo de contrato" 
-            value={tipoContrato} 
-            onChange={setTipoContrato} 
+
+          <SelectInput
+            id="tipoContrato"
+            label="Tipo de contrato"
+            value={tipoContrato}
+            onChange={setTipoContrato}
             options={[
               { value: "indefinido", label: "Término Indefinido" },
               { value: "fijo", label: "Término Fijo" },
               { value: "obra_labor", label: "Obra o Labor" },
-            ]} 
+            ]}
           />
 
           {tipoContrato === "fijo" && (
             <DateInput id="finFijo" label="Fecha fin pactada (Contrato Fijo)" value={fechaFinFijo} onChange={setFechaFinFijo} />
           )}
 
-          <SelectInput 
-            id="motivo" 
-            label="Motivo de terminación" 
-            value={motivoTerminacion} 
-            onChange={setMotivoTerminacion} 
+          <SelectInput
+            id="motivo"
+            label="Motivo de terminación"
+            value={motivoTerminacion}
+            onChange={setMotivoTerminacion}
             options={[
               { value: "renuncia", label: "Renuncia voluntaria" },
               { value: "mutuo_acuerdo", label: "Mutuo acuerdo" },
               { value: "despido_sin_justa", label: "Despido sin justa causa" },
               { value: "despido_con_justa", label: "Despido con justa causa" },
               { value: "fin_termino", label: "Fin de término / obra" },
-            ]} 
+            ]}
           />
 
           <div className="pt-2">
-            <ToggleInput 
+            <ToggleInput
               label={`Auxilio de transporte: ${results.auxilio > 0 ? "SI (Aplica)" : "NO (No aplica)"}`}
-              pressed={results.auxilio > 0} 
-              onToggle={() => {}} 
+              pressed={results.auxilio > 0}
+              onToggle={() => {}}
             />
             <p className="mt-1 text-xs text-muted-foreground italic">
               Se aplica automáticamente si el salario es ≤ 2 SMLMV.
@@ -186,21 +186,21 @@ export default function LiquidacionLaboralPage() {
         </div>
 
         <div className="space-y-6">
-          <CalculatorResult 
+          <CalculatorResult
             items={[
               { label: "Días trabajados", value: results.diasTrabajados.toString() },
               { label: "Base prestaciones", value: formatCOP(results.baseCesantiasPrima) },
               { label: "Total Liquidación", value: formatCOP(results.totalLiquidacion) },
-            ]} 
+            ]}
           />
 
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
-              <thead className="bg-muted/50">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
-                  <th className="px-4 py-2 font-medium">Concepto</th>
-                  <th className="px-4 py-2 font-medium">Fórmula / Días</th>
-                  <th className="px-4 py-2 text-right font-medium">Valor</th>
+                  <th className="px-4 py-2">Concepto</th>
+                  <th className="px-4 py-2">Fórmula / Días</th>
+                  <th className="px-4 py-2 text-right">Valor</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
@@ -225,7 +225,7 @@ export default function LiquidacionLaboralPage() {
                   <td className="px-4 py-2 text-right">{formatCOP(results.vacaciones)}</td>
                 </tr>
                 {results.applyIndem && (
-                  <tr className="bg-yellow-50/50 dark:bg-yellow-900/10">
+                  <tr className="bg-muted/50">
                     <td className="px-4 py-2 font-medium">Indemnización</td>
                     <td className="px-4 py-2 text-xs text-muted-foreground">Art. 64 CST</td>
                     <td className="px-4 py-2 text-right font-medium">{formatCOP(results.indemnizacion)}</td>
@@ -233,14 +233,14 @@ export default function LiquidacionLaboralPage() {
                 )}
                 <tr className="bg-muted/30 font-bold">
                   <td className="px-4 py-3" colSpan={2}>TOTAL LIQUIDACIÓN</td>
-                  <td className="px-4 py-3 text-right text-primary">{formatCOP(results.totalLiquidacion)}</td>
+                  <td className="px-4 py-3 text-right text-foreground">{formatCOP(results.totalLiquidacion)}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           {!results.applyIndem && motivoTerminacion !== "despido_sin_justa" && (
-            <div className="flex gap-3 rounded-md bg-muted/50 p-3 text-sm text-muted-foreground">
+            <div className="flex gap-3 rounded-xl bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
               <Info className="h-4 w-4 shrink-0" />
               <p>No aplica indemnización por {motivoTerminacion.replace("_", " ")}. Solo aplica para despido sin justa causa.</p>
             </div>
@@ -252,7 +252,7 @@ export default function LiquidacionLaboralPage() {
         <CollapsibleSection title="Tabla de Indemnización (Art. 64 CST)">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="bg-muted">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
                   <th className="px-3 py-2">Tipo de Contrato</th>
                   <th className="px-3 py-2">Condición</th>
@@ -293,7 +293,7 @@ export default function LiquidacionLaboralPage() {
           </ul>
         </CollapsibleSection>
 
-        <div className="mt-6 text-sm text-muted-foreground">
+        <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
           <p className="font-medium">Base legal:</p>
           <p>Código Sustantivo del Trabajo (CST) Art. 64 (indemnización), Art. 249 (cesantías), Art. 306 (prima), Art. 186 (vacaciones), Ley 50 de 1990 Art. 99 (intereses cesantías).</p>
         </div>

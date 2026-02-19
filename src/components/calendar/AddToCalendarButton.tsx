@@ -24,7 +24,7 @@ export function AddToCalendarButton({ title, date, description }: AddToCalendarB
   return (
     <button
       onClick={handleAddToCalendar}
-      className="inline-flex items-center gap-1.5 rounded-md bg-primary/10 px-2.5 py-1.5 text-xs font-medium text-primary hover:bg-primary/20 transition-colors"
+      className="inline-flex items-center gap-1.5 rounded-md bg-muted px-2.5 py-1.5 text-xs font-medium text-foreground hover:bg-muted/80 transition-colors"
       title="Agregar a Google Calendar"
     >
       <CalendarPlus className="h-3.5 w-3.5" />

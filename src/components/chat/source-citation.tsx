@@ -15,9 +15,9 @@ interface SourceCitationProps {
 }
 
 const ESTADO_DOT: Record<string, string> = {
-  vigente: "bg-green-500",
-  modificado: "bg-yellow-500",
-  derogado: "bg-red-500",
+  vigente: "bg-foreground",
+  modificado: "bg-foreground/60",
+  derogado: "bg-foreground/30",
 };
 
 const ESTADO_LABEL: Record<string, string> = {
@@ -47,7 +47,7 @@ function SourceCitationInner({
     <span className="inline-flex items-center gap-1">
       <button
         onClick={handleClick}
-        className="inline-flex items-center gap-1 rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-foreground transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+        className="inline-flex items-center gap-1 rounded-full border border-border bg-card px-2.5 py-0.5 text-xs font-medium text-foreground transition-colors hover:bg-foreground hover:text-background focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
         aria-label={`Ver artículo ${idArticulo}`}
       >
         {estado && (
@@ -68,7 +68,7 @@ function SourceCitationInner({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="rounded-full p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+        className="rounded-full p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
         title="Ver en estatuto.co"
         aria-label={`Ver ${idArticulo} en estatuto.co`}
       >

@@ -76,7 +76,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -363,13 +363,13 @@ export default function ComparadorPage() {
     <>
       <Link
         href="/calculadoras"
-        className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+        className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
       >
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Comparador de Contratacion</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Comparador de Contratacion</h1>
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">
@@ -397,7 +397,7 @@ export default function ComparadorPage() {
         <div className="space-y-6">
           {/* Integral N/A warning */}
           {result.int.na && (
-            <p className="text-sm text-yellow-600 dark:text-yellow-400">
+            <p className="text-sm text-foreground bg-muted/50 border border-border/60 rounded-xl p-4">
               Salario Integral no aplica: el salario calculado ({formatCOP(result.int.salario)}) es inferior al minimo
               de {SALARIO_INTEGRAL_MIN_SMLMV} SMLMV ({formatCOP(SALARIO_INTEGRAL_MIN_SMLMV * SMLMV_2026)}).
             </p>
@@ -405,15 +405,15 @@ export default function ComparadorPage() {
 
           {/* ════ A. TABLA COMPARATIVA PRINCIPAL ════ */}
           <div>
-            <h2 className="mb-3 text-lg font-semibold">Tabla Comparativa</h2>
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <h2 className="mb-3 text-lg font-semibold tracking-tight">Tabla Comparativa</h2>
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                    <th className={`px-4 py-2 text-right font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
-                    <th className={`px-4 py-2 text-right font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
-                    <th className={`px-4 py-2 text-right font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(0)}`}>Laboral</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(1)}`}>Integral</th>
+                    <th className={`px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground ${bestCol(2)}`}>Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -484,14 +484,14 @@ export default function ComparadorPage() {
 
           {/* ════ B. RETENCION EN LA FUENTE ════ */}
           <CollapsibleSection title="Retencion en la Fuente — Proc. 1 Art. 383">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Independiente</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -518,14 +518,14 @@ export default function ComparadorPage() {
 
           {/* ════ C. RENTA ANUAL ════ */}
           <CollapsibleSection title="Proyeccion Renta Anual — Art. 241">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Independiente</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -560,12 +560,12 @@ export default function ComparadorPage() {
 
           {/* ════ D. SIMPLE vs ORDINARIA ════ */}
           <CollapsibleSection title="SIMPLE vs Ordinaria — Solo Independiente">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Valor</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Valor</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -599,14 +599,14 @@ export default function ComparadorPage() {
 
           {/* ════ E. PROS Y CONTRAS ════ */}
           <CollapsibleSection title="Pros y Contras por Modalidad">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Aspecto</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Laboral</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Integral</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Independiente</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Aspecto</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Laboral</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Integral</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Independiente</th>
                   </tr>
                 </thead>
                 <tbody>

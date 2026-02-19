@@ -24,7 +24,7 @@ export default function ZonasFrancasPage() {
 
     // 1. Determinar Tarifa (Comercial paga 35%, Industrial/Servicios 20%)
     const tarifa = tipoUsuario === "comercial" ? 0.35 : 0.20;
-    
+
     // 2. Impuesto según tarifa preferencial
     const impuestoBase = rentaLiquida * tarifa;
 
@@ -50,25 +50,25 @@ export default function ZonasFrancasPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Zonas Francas</h1>
-      <p className="mb-8 text-muted-foreground">Calcula el impuesto de renta para usuarios de Zona Franca y valida la TTD mínima.</p>
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Zonas Francas</h1>
+      <p className="mb-10 text-muted-foreground">Calcula el impuesto de renta para usuarios de Zona Franca y valida la TTD mínima.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold">Datos del Usuario</h2>
             <div className="space-y-4">
               <CurrencyInput id="renta" label="Renta Líquida Gravable" value={rentaLiquida} onChange={setRentaLiquida} />
-              
-              <SelectInput 
-                id="tipo" 
-                label="Tipo de Usuario" 
-                value={tipoUsuario} 
+
+              <SelectInput
+                id="tipo"
+                label="Tipo de Usuario"
+                value={tipoUsuario}
                 onChange={setTipoUsuario}
                 options={[
                   { value: "industrial", label: "Usuario Industrial" },
@@ -96,7 +96,7 @@ export default function ZonasFrancasPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold">Liquidación ZF</h2>
                 <CalculatorResult items={[
                   { label: "Tarifa Aplicada", value: (results.tarifa * 100) + "%" },
@@ -106,13 +106,13 @@ export default function ZonasFrancasPage() {
               </div>
 
               {results.ajusteTTD && (
-                <div className="flex gap-3 rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800 dark:bg-yellow-950/20 dark:text-yellow-400">
+                <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-sm">
                   <Info className="h-5 w-5 shrink-0" />
                   <p><strong>Ajuste TTD:</strong> El impuesto se incrementó para alcanzar la Tasa de Tributación Depurada mínima del 15%.</p>
                 </div>
               )}
 
-              <div className="rounded-lg border border-border p-4 text-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <h3 className="mb-2 font-semibold">Indicadores</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">

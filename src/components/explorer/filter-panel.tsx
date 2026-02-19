@@ -44,7 +44,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           id="filter-libro"
           value={filters.libro}
           onChange={(e) => onChange({ ...filters, libro: e.target.value })}
-          className="rounded-md border border-border bg-background px-3 py-1.5 text-sm outline-none focus:border-primary focus-visible:ring-2 focus-visible:ring-primary"
+          className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
         >
           {LIBROS.map(({ value, label }) => (
             <option key={value} value={value}>{label}</option>
@@ -61,7 +61,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           id="filter-estado"
           value={filters.estado}
           onChange={(e) => onChange({ ...filters, estado: e.target.value })}
-          className="rounded-md border border-border bg-background px-3 py-1.5 text-sm outline-none focus:border-primary focus-visible:ring-2 focus-visible:ring-primary"
+          className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:border-foreground/40 focus-visible:ring-2 focus-visible:ring-foreground/20"
         >
           {ESTADOS.map(({ value, label }) => (
             <option key={value} value={value}>{label}</option>
@@ -78,10 +78,10 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           })
         }
         className={clsx(
-          "rounded-md border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
+          "rounded-lg border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
           filters.hasMods === true
-            ? "border-primary bg-primary/10 text-primary"
-            : "border-border text-muted-foreground hover:bg-muted"
+            ? "border-foreground bg-foreground text-background"
+            : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
         )}
         aria-pressed={filters.hasMods === true}
       >
@@ -95,10 +95,10 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
           })
         }
         className={clsx(
-          "rounded-md border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
+          "rounded-lg border px-3 py-1.5 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
           filters.hasNormas === true
-            ? "border-primary bg-primary/10 text-primary"
-            : "border-border text-muted-foreground hover:bg-muted"
+            ? "border-foreground bg-foreground text-background"
+            : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
         )}
         aria-pressed={filters.hasNormas === true}
       >

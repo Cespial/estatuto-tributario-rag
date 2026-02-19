@@ -14,11 +14,11 @@ interface ModificationTimelineProps {
 }
 
 const TIPO_COLORS: Record<string, string> = {
-  modificado: "bg-yellow-500",
-  derogado: "bg-red-500",
-  adicionado: "bg-blue-500",
-  sustituido: "bg-purple-500",
-  reglamentado: "bg-green-500",
+  modificado: "bg-foreground/60",
+  derogado: "bg-foreground/30",
+  adicionado: "bg-foreground/80",
+  sustituido: "bg-foreground/50",
+  reglamentado: "bg-foreground/70",
 };
 
 export function ModificationTimeline({ modifications, leyesModificatorias }: ModificationTimelineProps) {
@@ -35,10 +35,10 @@ export function ModificationTimeline({ modifications, leyesModificatorias }: Mod
 
   return (
     <section className="mb-6">
-      <h2 className="mb-3 text-lg font-semibold">
+      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">
         Timeline de modificaciones ({modifications.length})
       </h2>
-      <div className="relative ml-3 border-l-2 border-border pl-6">
+      <div className="relative ml-3 border-l-2 border-foreground/20 pl-6">
         {years.map((year) => {
           const mods = byYear.get(year)!;
           return (

@@ -33,7 +33,7 @@ export default function DescuentosTributariosPage() {
     );
 
     // 3. Impuesto Exterior (Art. 254) - Límite proporcional al impuesto
-    const limiteExterior = rentaLiquidaTotal > 0 
+    const limiteExterior = rentaLiquidaTotal > 0
       ? impuestoRentaLiquido * (rentaLiquidaExterior / rentaLiquidaTotal)
       : 0;
     const descuentoExterior = Math.min(impuestoExterior, limiteExterior);
@@ -41,7 +41,7 @@ export default function DescuentosTributariosPage() {
     // 4. Límite Art. 259: No pueden exceder el impuesto de renta
     const sumaDescuentos = descuentoIVA + descuentoDonaciones + descuentoExterior;
     const descuentoEfectivo = Math.min(sumaDescuentos, impuestoRentaLiquido);
-    
+
     const impuestoNeto = Math.max(0, impuestoRentaLiquido - descuentoEfectivo);
 
     return {
@@ -57,23 +57,23 @@ export default function DescuentosTributariosPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Descuentos Tributarios</h1>
-      <p className="mb-8 text-muted-foreground">Calcula los descuentos aplicables al impuesto de renta y sus límites legales.</p>
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Descuentos Tributarios</h1>
+      <p className="mb-10 text-muted-foreground">Calcula los descuentos aplicables al impuesto de renta y sus límites legales.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Base de Impuesto</h2>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h2 className="mb-4 text-lg font-semibold tracking-tight">Base de Impuesto</h2>
             <CurrencyInput id="imp" label="Impuesto de Renta Líquido" value={impuestoRentaLiquido} onChange={setImpuestoRentaLiquido} />
           </div>
 
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Conceptos de Descuento</h2>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h2 className="mb-4 text-lg font-semibold tracking-tight">Conceptos de Descuento</h2>
             <div className="space-y-4">
               <CurrencyInput id="iva" label="IVA Activos Productivos" value={ivaActivosProductivos} onChange={setIvaActivosProductivos} />
               <CurrencyInput id="don" label="Donaciones Realizadas" value={donaciones} onChange={setDonaciones} />
@@ -92,8 +92,8 @@ export default function DescuentosTributariosPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Liquidación Final</h2>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h2 className="mb-4 text-lg font-semibold tracking-tight">Liquidación Final</h2>
                 <CalculatorResult items={[
                   { label: "Total Descuentos", value: formatCOP(results.descuentoEfectivo) },
                   { label: "Impuesto Neto", value: formatCOP(results.impuestoNeto) },
@@ -101,13 +101,13 @@ export default function DescuentosTributariosPage() {
               </div>
 
               {results.superaLimite && (
-                <div className="flex gap-3 rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800 dark:bg-yellow-950/20 dark:text-yellow-400">
+                <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
                   <AlertTriangle className="h-5 w-5 shrink-0" />
                   <p><strong>Límite Art. 259:</strong> Los descuentos exceden el impuesto de renta líquido. Solo se pueden tomar hasta por el valor del impuesto.</p>
                 </div>
               )}
 
-              <div className="rounded-lg border border-border p-4 text-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <h3 className="mb-2 font-semibold">Desglose Técnico</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">

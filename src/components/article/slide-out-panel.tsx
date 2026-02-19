@@ -25,9 +25,9 @@ interface ArticleData {
 }
 
 const ESTADO_COLORS: Record<string, string> = {
-  vigente: "bg-green-500",
-  modificado: "bg-yellow-500",
-  derogado: "bg-red-500",
+  vigente: "bg-foreground",
+  modificado: "bg-foreground/60",
+  derogado: "bg-foreground/30",
 };
 
 const ESTADO_LABELS: Record<string, string> = {
@@ -133,7 +133,7 @@ export function SlideOutPanel() {
         aria-modal="true"
         aria-label={article ? `Detalle del ${article.id_articulo}` : "Detalle del artículo"}
         className={clsx(
-          "fixed right-0 top-0 z-50 h-full w-full max-w-md overflow-y-auto border-l border-border bg-background shadow-xl transition-transform duration-300",
+          "fixed right-0 top-0 z-50 h-full w-full max-w-md overflow-y-auto border-l border-border/60 bg-background shadow-xl transition-transform duration-300",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
@@ -149,14 +149,14 @@ export function SlideOutPanel() {
                 title={ESTADO_LABELS[article.estado] || article.estado}
               />
             )}
-            <span className="font-semibold">
+            <span className="font-[family-name:var(--font-playfair)] font-semibold">
               {article?.id_articulo || "Cargando..."}
             </span>
           </div>
           <button
             ref={closeButtonRef}
             onClick={closePanel}
-            className="rounded-md p-1.5 hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+            className="rounded-md p-1.5 hover:bg-muted focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
             aria-label="Cerrar panel"
           >
             <X className="h-4 w-4" />
@@ -165,7 +165,7 @@ export function SlideOutPanel() {
 
         {loading && (
           <div className="flex items-center justify-center p-8">
-            <div className="h-6 w-6 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+            <div className="h-6 w-6 animate-spin rounded-full border-2 border-foreground border-t-transparent" />
           </div>
         )}
 
@@ -173,7 +173,7 @@ export function SlideOutPanel() {
           <div className="space-y-4 p-4">
             {/* Title */}
             <div>
-              <h3 className="text-lg font-semibold">{article.titulo_corto}</h3>
+              <h3 className="font-[family-name:var(--font-playfair)] text-lg font-semibold tracking-tight">{article.titulo_corto}</h3>
               <p className="mt-1 text-sm text-muted-foreground">{article.libro}</p>
             </div>
 
@@ -223,7 +223,7 @@ export function SlideOutPanel() {
                       <span
                         className={clsx(
                           "h-1.5 w-1.5 rounded-full",
-                          mod.tipo === "derogado" ? "bg-red-500" : "bg-yellow-500"
+                          mod.tipo === "derogado" ? "bg-foreground/30" : "bg-foreground/60"
                         )}
                       />
                       <span>
@@ -267,7 +267,7 @@ export function SlideOutPanel() {
             <div className="flex gap-2 pt-2">
               <Link
                 href={`/articulo/${article.slug}`}
-                className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+                className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-foreground px-4 py-2 text-sm font-medium text-background transition-colors hover:bg-foreground/90 focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
                 onClick={closePanel}
               >
                 Ver ficha completa
@@ -277,7 +277,7 @@ export function SlideOutPanel() {
                 href={article.url_origen}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+                className="flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none"
                 aria-label="Ver en estatuto.co"
               >
                 <ExternalLink className="h-4 w-4" />

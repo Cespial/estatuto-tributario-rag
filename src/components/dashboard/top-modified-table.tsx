@@ -14,25 +14,25 @@ interface TopModifiedTableProps {
 }
 
 const ESTADO_DOT: Record<string, string> = {
-  vigente: "bg-green-500",
-  modificado: "bg-yellow-500",
-  derogado: "bg-red-500",
+  vigente: "bg-foreground",
+  modificado: "bg-foreground/60",
+  derogado: "bg-foreground/30",
 };
 
 export function TopModifiedTable({ articles }: TopModifiedTableProps) {
   if (articles.length === 0) return null;
 
   return (
-    <div className="rounded-lg border border-border p-4">
-      <h3 className="mb-3 text-lg font-semibold">Top 10 mas modificados</h3>
+    <div className="rounded-xl border border-border/60 bg-card p-4 shadow-sm">
+      <h3 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Top 10 mas modificados</h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-border text-left">
-              <th className="pb-2 font-medium text-muted-foreground">#</th>
-              <th className="pb-2 font-medium text-muted-foreground">Articulo</th>
-              <th className="pb-2 font-medium text-muted-foreground">Titulo</th>
-              <th className="pb-2 text-right font-medium text-muted-foreground">Mods</th>
+              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">#</th>
+              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Articulo</th>
+              <th className="pb-2 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Titulo</th>
+              <th className="pb-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Mods</th>
             </tr>
           </thead>
           <tbody>
@@ -42,7 +42,7 @@ export function TopModifiedTable({ articles }: TopModifiedTableProps) {
                 <td className="py-2">
                   <Link
                     href={`/articulo/${art.slug}`}
-                    className="flex items-center gap-1.5 font-medium text-primary hover:underline"
+                    className="flex items-center gap-1.5 font-medium text-foreground hover:underline"
                   >
                     <span
                       className={clsx(

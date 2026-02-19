@@ -24,8 +24,8 @@ const COLORS = [
 
 export function LibroDistributionChart({ data }: LibroDistributionChartProps) {
   return (
-    <div className="rounded-lg border border-border p-4">
-      <h3 className="mb-4 text-lg font-semibold">Distribucion por Libro</h3>
+    <div className="rounded-xl border border-border/60 bg-card p-4 shadow-sm">
+      <h3 className="font-[family-name:var(--font-playfair)] mb-4 text-lg font-semibold tracking-tight">Distribucion por Libro</h3>
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>

@@ -46,12 +46,12 @@ export default function UVTPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Conversor UVT ↔ COP</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Conversor UVT ↔ COP</h1>
 
       <div className="mb-6 space-y-4">
         {/* Direction toggle */}
@@ -60,7 +60,7 @@ export default function UVTPage() {
             onClick={() => { setDirection("uvt-to-cop"); setAmount(0); }}
             className={clsx(
               "flex-1 rounded-md px-3 py-1.5 text-sm transition-colors",
-              direction === "uvt-to-cop" ? "bg-primary text-primary-foreground" : "hover:bg-muted",
+              direction === "uvt-to-cop" ? "bg-foreground text-background" : "hover:bg-muted",
             )}
           >
             UVT → COP
@@ -69,7 +69,7 @@ export default function UVTPage() {
             onClick={() => { setDirection("cop-to-uvt"); setAmount(0); }}
             className={clsx(
               "flex-1 rounded-md px-3 py-1.5 text-sm transition-colors",
-              direction === "cop-to-uvt" ? "bg-primary text-primary-foreground" : "hover:bg-muted",
+              direction === "cop-to-uvt" ? "bg-foreground text-background" : "hover:bg-muted",
             )}
           >
             COP → UVT
@@ -98,19 +98,19 @@ export default function UVTPage() {
       {/* Historical table */}
       <div className="mb-6">
         <h2 className="mb-3 text-lg font-semibold">Historico UVT</h2>
-        <div className="overflow-x-auto rounded-lg border border-border">
+        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-border bg-muted/50">
-                <th className="px-4 py-2 text-left font-medium text-muted-foreground">Ano</th>
-                <th className="px-4 py-2 text-right font-medium text-muted-foreground">Valor UVT</th>
+              <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                <th className="px-4 py-2 text-left">Ano</th>
+                <th className="px-4 py-2 text-right">Valor UVT</th>
               </tr>
             </thead>
             <tbody>
               {Object.entries(UVT_VALUES)
                 .sort(([a], [b]) => Number(b) - Number(a))
                 .map(([y, v]) => (
-                  <tr key={y} className={clsx("border-b border-border last:border-0", y === year && "bg-primary/5")}>
+                  <tr key={y} className={clsx("border-b border-border last:border-0", y === year && "bg-muted/50")}>
                     <td className="px-4 py-2">{y}</td>
                     <td className="px-4 py-2 text-right">{formatCOP(v)}</td>
                   </tr>

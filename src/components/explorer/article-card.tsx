@@ -20,18 +20,18 @@ interface ArticleCardProps {
 const ESTADO_CONFIG: Record<string, { label: string; dot: string; badge: string }> = {
   vigente: {
     label: "Vigente",
-    dot: "bg-green-500",
-    badge: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400",
+    dot: "bg-foreground",
+    badge: "bg-muted text-foreground border border-border",
   },
   modificado: {
     label: "Modificado",
-    dot: "bg-yellow-500",
-    badge: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400",
+    dot: "bg-foreground/60",
+    badge: "bg-muted text-foreground border border-border",
   },
   derogado: {
     label: "Derogado",
-    dot: "bg-red-500",
-    badge: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400",
+    dot: "bg-foreground/30",
+    badge: "bg-muted text-muted-foreground border border-border",
   },
 };
 
@@ -52,12 +52,12 @@ export function ArticleCard({
 
   return (
     <div
-      className="group flex cursor-pointer flex-col rounded-lg border border-border p-3 transition-all hover:border-primary/50 hover:shadow-sm"
+      className="group flex cursor-pointer flex-col rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md"
       onClick={() => openPanel(slug)}
     >
       {/* Header */}
       <div className="mb-2 flex items-start justify-between">
-        <span className="text-sm font-bold text-primary">{id}</span>
+        <span className="text-sm font-bold text-foreground">{id}</span>
         <span
           className={clsx(
             "rounded-full px-2 py-0.5 text-[10px] font-medium",
@@ -83,14 +83,14 @@ export function ArticleCard({
       {/* Complexity bar */}
       <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-muted">
         <div
-          className="h-full rounded-full bg-primary/60 transition-all"
+          className="h-full rounded-full bg-foreground/40 transition-all"
           style={{ width: `${complexity * 10}%` }}
         />
       </div>
       {/* Full link */}
       <Link
         href={`/articulo/${slug}`}
-        className="mt-2 text-xs text-primary opacity-0 transition-opacity group-hover:opacity-100"
+        className="mt-2 text-xs text-foreground opacity-0 transition-opacity group-hover:opacity-100"
         onClick={(e) => e.stopPropagation()}
       >
         Ver ficha completa →

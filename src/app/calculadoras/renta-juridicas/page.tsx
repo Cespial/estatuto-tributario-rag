@@ -18,13 +18,13 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
         <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -41,7 +41,7 @@ export default function RentaJuridicasPage() {
     const rentaUVT = rentaLiquida / uvt;
 
     const impuestoBase = rentaLiquida * selectedRate.rate;
-    
+
     let sobretasa = 0;
     if (sector === "financiero" && rentaUVT > SOBRETASA_FINANCIERO_THRESHOLD_UVT) {
       const baseExcedente = rentaLiquida - (SOBRETASA_FINANCIERO_THRESHOLD_UVT * uvt);
@@ -79,13 +79,13 @@ export default function RentaJuridicasPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 text-2xl font-bold">Renta Personas Juridicas 2026</h1>
-      <p className="mb-6 text-sm text-muted-foreground">Incluye medidas de emergencia del Decreto 1474 de 2025 y TTD del 15%.</p>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Renta Personas Juridicas 2026</h1>
+      <p className="mb-10 text-sm text-muted-foreground">Incluye medidas de emergencia del Decreto 1474 de 2025 y TTD del 15%.</p>
 
       <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div className="space-y-4">
@@ -100,7 +100,7 @@ export default function RentaJuridicasPage() {
             onChange={setSector}
             options={PJ_RATES.map((r) => ({ value: r.sector, label: r.label }))}
           />
-          <div className="flex items-start gap-2 rounded-lg bg-muted/50 p-3 text-xs text-muted-foreground">
+          <div className="flex items-start gap-2 rounded-xl bg-muted/50 border border-border/60 p-4 text-xs text-muted-foreground">
             <Info className="h-4 w-4 shrink-0" />
             <p>La Utilidad Depurada se usa para calcular la Tasa de Tributacion Depurada (TTD). Segun Art. 240, esta no puede ser inferior al 15%.</p>
           </div>
@@ -108,9 +108,9 @@ export default function RentaJuridicasPage() {
       </div>
 
       {result.requiereAjusteTTD && (
-        <div className="mb-6 flex items-center gap-3 rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-900/50 dark:bg-yellow-950/20">
-          <AlertTriangle className="h-5 w-5 text-yellow-600" />
-          <div className="text-sm text-yellow-700 dark:text-yellow-400">
+        <div className="mb-6 text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex items-center gap-3">
+          <AlertTriangle className="h-5 w-5" />
+          <div className="text-sm">
             <strong>Alerta TTD:</strong> El impuesto calculado es menor al 15% de la utilidad depurada. Se ha ajustado el impuesto a {formatCOP(result.impuestoAjustadoTTD)}.
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function RentaJuridicasPage() {
               <span>{formatCOP(result.impuestoBase)}</span>
             </div>
             {result.sobretasa > 0 && (
-              <div className="flex justify-between border-b border-border py-1 text-red-600 dark:text-red-400">
+              <div className="flex justify-between border-b border-border py-1 text-red-500">
                 <span>Sobretasa financiera (15%)</span>
                 <span>{formatCOP(result.sobretasa)}</span>
               </div>
@@ -143,18 +143,18 @@ export default function RentaJuridicasPage() {
 
       <div className="mb-6">
         <CollapsibleSection title="Tabla de tarifas 2026 (Dto 1474)" defaultOpen>
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border bg-muted/50">
-                  <th className="px-4 py-2 text-left font-medium text-muted-foreground">Sector</th>
-                  <th className="px-4 py-2 text-right font-medium text-muted-foreground">Tarifa Total</th>
-                  <th className="px-4 py-2 text-left font-medium text-muted-foreground">Referencia</th>
+                <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                  <th className="px-4 py-2 text-left">Sector</th>
+                  <th className="px-4 py-2 text-right">Tarifa Total</th>
+                  <th className="px-4 py-2 text-left">Referencia</th>
                 </tr>
               </thead>
               <tbody>
                 {PJ_RATES.map((r) => (
-                  <tr key={r.sector} className={`border-b border-border last:border-0 ${r.sector === sector ? "bg-primary/10 font-semibold" : ""}`}>
+                  <tr key={r.sector} className={`border-b border-border last:border-0 ${r.sector === sector ? "bg-muted font-semibold" : ""}`}>
                     <td className="px-4 py-2">{r.label}</td>
                     <td className="px-4 py-2 text-right">{(r.rate * 100).toFixed(0)}%</td>
                     <td className="px-4 py-2">{r.article}</td>

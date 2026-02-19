@@ -75,7 +75,7 @@ export default function CalendarioPage() {
             placeholder="Buscar obligacion..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-md border border-border bg-background py-2 pl-10 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+            className="w-full rounded-lg border border-border bg-card py-2 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
@@ -86,14 +86,14 @@ export default function CalendarioPage() {
             placeholder="Últimos dígitos"
             value={nit}
             onChange={(e) => setNit(e.target.value)}
-            className="w-full rounded-md border border-border bg-background py-2 pl-12 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+            className="w-full rounded-lg border border-border bg-card py-2 pl-12 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
         <select
           value={tipoFiltro}
           onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+          className="w-full rounded-lg border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los contribuyentes</option>
           <option value="naturales">Personas Naturales</option>
@@ -104,7 +104,7 @@ export default function CalendarioPage() {
         <select
           value={obligacionFiltro}
           onChange={(e) => setObligacionFiltro(e.target.value)}
-          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+          className="w-full rounded-lg border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todas">Todas las obligaciones</option>
           {uniqueObligations.map(o => (
@@ -113,17 +113,17 @@ export default function CalendarioPage() {
         </select>
       </div>
 
-      <div className="rounded-lg border border-border bg-background overflow-hidden shadow-sm">
+      <div className="rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead className="bg-muted/50 border-b border-border">
               <tr>
-                <th className="px-4 py-3 font-semibold">Obligación</th>
-                <th className="px-4 py-3 font-semibold">Periodo</th>
-                <th className="px-4 py-3 font-semibold">NIT</th>
-                <th className="px-4 py-3 font-semibold">Vencimiento</th>
-                <th className="px-4 py-3 font-semibold">Estado</th>
-                <th className="px-4 py-3 font-semibold">Acciones</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Obligación</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Periodo</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">NIT</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Vencimiento</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Estado</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Acciones</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -143,8 +143,8 @@ export default function CalendarioPage() {
                         <span className={clsx(
                           "inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium border",
                           status === "pasado" && "bg-muted text-muted-foreground border-border",
-                          status === "proximo" && "bg-amber-500/10 text-amber-600 border-amber-500/20",
-                          status === "vigente" && "bg-emerald-500/10 text-emerald-600 border-emerald-500/20"
+                          status === "proximo" && "bg-foreground text-background border-foreground",
+                          status === "vigente" && "bg-muted text-foreground border-border"
                         )}>
                           {status === "pasado" ? "Vencido" : status === "proximo" ? "Próximo" : "Vigente"}
                         </span>
@@ -176,7 +176,7 @@ export default function CalendarioPage() {
         </div>
       </div>
 
-      <div className="rounded-lg border border-border bg-muted/30 p-4 text-xs text-muted-foreground">
+      <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
         <p><strong>Nota legal:</strong> {CALENDARIO_DISCLAIMER}</p>
       </div>
     </ReferencePageLayout>

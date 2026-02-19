@@ -4,9 +4,9 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { UVT_VALUES, CURRENT_UVT_YEAR, RENTA_BRACKETS } from "@/config/tax-data";
-import { 
+import {
   DIVIDENDOS_NO_GRAVADOS_RATE,
-  DIVIDENDOS_DESCUENTO_RATE 
+  DIVIDENDOS_DESCUENTO_RATE
 } from "@/config/tax-data-ganancias";
 import { CurrencyInput, ToggleInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
@@ -51,7 +51,7 @@ export default function DividendosPage() {
       // 2. Base Gravable Total (Cédula General)
       const baseTotalCOP = otrosIngresos + porcionGravada + remanenteB;
       const baseTotalUVT = baseTotalCOP / uvt;
-      
+
       const impuestoBrutoTotal = calculateTax(baseTotalUVT) * uvt;
       // 3. Descuento Tributario (Art. 254-1)
       // 19% sobre dividendos que excedan 1090 UVT
@@ -75,18 +75,18 @@ export default function DividendosPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Dividendos y Participaciones</h1>
-      <p className="mb-8 text-muted-foreground">Integrado a Cédula General (Ley 2277/2022).</p>
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Dividendos y Participaciones</h1>
+      <p className="mb-10 text-muted-foreground">Integrado a Cédula General (Ley 2277/2022).</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Ingresos del Socio</h2>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h2 className="mb-4 text-lg font-semibold tracking-tight">Ingresos del Socio</h2>
             <div className="space-y-4">
               <CurrencyInput id="otros-ingresos" label="Otros Ingresos Gravables (Salarios, etc)" value={otrosIngresos} onChange={setOtrosIngresos} />
               <CurrencyInput id="p-gravada" label="Dividendos Gravados (Art. 49 P3)" value={porcionGravada} onChange={setPorcionGravada} />
@@ -101,8 +101,8 @@ export default function DividendosPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Estimación Fiscal</h2>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h2 className="mb-4 text-lg font-semibold tracking-tight">Estimación Fiscal</h2>
                 <CalculatorResult items={[
                   { label: "Impuesto Estimado", value: formatCOP(results.impuestoFinal) },
                   { label: "Descuento Art 254-1", value: formatCOP(results.descuentoArt254), sublabel: "Ahorro por ley" },
@@ -110,7 +110,7 @@ export default function DividendosPage() {
                 ]} />
               </div>
 
-              <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-800 dark:bg-blue-900/20 dark:text-blue-400">
+              <div className="rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
                 <p><strong>Nota:</strong> Desde 2023, los dividendos se suman a tus demás ingresos. Esta calculadora estima el impacto marginal.</p>
               </div>
             </>

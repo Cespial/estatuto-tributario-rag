@@ -67,20 +67,20 @@ export default function GananciasOcasionalesPage() {
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
       <Link href="/calculadoras"
-        className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+        className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Ganancias Ocasionales</h1>
-      <p className="mb-8 text-muted-foreground">
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Ganancias Ocasionales</h1>
+      <p className="mb-10 text-muted-foreground">
         Calcula el impuesto por la venta de activos fijos poseídos por más de 2 años.
       </p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Datos del Activo</h2>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos del Activo</h2>
             <div className="space-y-4">
               <CurrencyInput 
                 id="precio-venta" 
@@ -134,8 +134,8 @@ export default function GananciasOcasionalesPage() {
           </div>
 
           {!posesionMas2Anos && (
-            <div className="flex gap-3 rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800 dark:border-yellow-900/50 dark:bg-yellow-900/20 dark:text-yellow-400">
-              <AlertTriangle className="h-5 w-5 shrink-0" />
+            <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+              <AlertTriangle className="h-5 w-5 shrink-0 text-foreground/70" />
               <p>
                 <strong>Atención:</strong> Activos poseídos menos de 2 años tributan como 
                 <strong> Renta Ordinaria</strong>.
@@ -147,8 +147,8 @@ export default function GananciasOcasionalesPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Resultado del Cálculo</h2>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado del Cálculo</h2>
                 <CalculatorResult items={[
                   { label: "Ganancia Bruta", value: formatCOP(results.gananciaBruta) },
                   { 
@@ -163,7 +163,7 @@ export default function GananciasOcasionalesPage() {
 
               <div className="space-y-4">
                 <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Desglose Técnico</h3>
-                <div className="overflow-x-auto rounded-lg border border-border text-sm">
+                <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm text-sm">
                   <table className="w-full">
                     <tbody>
                       <tr className="border-b border-border">
@@ -184,7 +184,7 @@ export default function GananciasOcasionalesPage() {
                           <td className="px-4 py-2 text-right">-{formatCOP(results.exencion)}</td>
                         </tr>
                       )}
-                      <tr className="bg-primary/10 font-bold">
+                      <tr className="bg-muted font-bold">
                         <td className="px-4 py-2">BASE GRAVABLE</td>
                         <td className="px-4 py-2 text-right">{formatCOP(results.gananciaGravable)}</td>
                       </tr>

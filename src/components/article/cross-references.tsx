@@ -11,7 +11,7 @@ export function CrossReferences({ crossReferences, referencedBy }: CrossReferenc
 
   return (
     <section className="mb-6">
-      <h2 className="mb-3 text-lg font-semibold">Cross-references</h2>
+      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Cross-references</h2>
 
       {crossReferences.length > 0 && (
         <div className="mb-4">
@@ -24,7 +24,7 @@ export function CrossReferences({ crossReferences, referencedBy }: CrossReferenc
               <Link
                 key={slug}
                 href={`/articulo/${slug}`}
-                className="rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium transition-colors hover:bg-primary hover:text-primary-foreground"
+                className="rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium transition-colors hover:bg-foreground hover:text-background"
               >
                 Art. {slug}
               </Link>
@@ -44,7 +44,7 @@ export function CrossReferences({ crossReferences, referencedBy }: CrossReferenc
               <Link
                 key={slug}
                 href={`/articulo/${slug}`}
-                className="rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium transition-colors hover:bg-primary hover:text-primary-foreground"
+                className="rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium transition-colors hover:bg-foreground hover:text-background"
               >
                 Art. {slug}
               </Link>

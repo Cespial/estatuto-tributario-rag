@@ -51,29 +51,29 @@ export default function ComparacionPatrimonialPage() {
   }, [patrimonioActual, patrimonioAnterior, rentaLiquidaDeclarada, gananciasOcasionales, rentasExentas, ingresosNoGravados, uvt]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Renta por Comparacion Patrimonial</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Renta por Comparacion Patrimonial</h1>
+        <p className="mt-2 mb-10 text-muted-foreground">
           Verifique si el incremento de su patrimonio esta debidamente justificado (Art. 236 - 239 ET).
         </p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold border-b pb-2">Patrimonio</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight border-b pb-2">Patrimonio</h3>
             <CurrencyInput id="pat-actual" label="Patrimonio Liquido Ano Actual" value={patrimonioActual} onChange={setPatrimonioActual} />
             <CurrencyInput id="pat-anterior" label="Patrimonio Liquido Ano Anterior" value={patrimonioAnterior} onChange={setPatrimonioAnterior} />
           </div>
 
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold border-b pb-2">Rentas y Justificaciones</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight border-b pb-2">Rentas y Justificaciones</h3>
             <CurrencyInput id="renta-liq" label="Renta Liquida Gravable Declarada" value={rentaLiquidaDeclarada} onChange={setRentaLiquidaDeclarada} />
             <CurrencyInput id="go" label="Ganancias Ocasionales Netas" value={gananciasOcasionales} onChange={setGananciasOcasionales} />
             <CurrencyInput id="exentas" label="Rentas Exentas" value={rentasExentas} onChange={setRentasExentas} />
@@ -96,7 +96,7 @@ export default function ComparacionPatrimonialPage() {
           />
 
           {!results.esValido ? (
-            <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-900/50 dark:bg-red-950/30">
+            <div className="rounded-xl border border-red-200 bg-red-50 p-4 dark:border-red-900/50 dark:bg-red-950/30">
               <div className="flex items-center gap-2 text-red-800 dark:text-red-400 font-bold mb-2">
                 <AlertTriangle className="h-5 w-5" />
                 <span>Patrimonio No Justificado</span>
@@ -107,7 +107,7 @@ export default function ComparacionPatrimonialPage() {
               </p>
             </div>
           ) : (
-            <div className="rounded-lg border border-green-200 bg-green-50 p-4 dark:border-green-900/50 dark:bg-green-950/30 text-green-800 dark:text-green-400">
+            <div className="rounded-xl border border-green-200 bg-green-50 p-4 dark:border-green-900/50 dark:bg-green-950/30 text-green-800 dark:text-green-400">
               <div className="flex items-center gap-2 font-bold mb-2">
                 <CheckCircle2 className="h-5 w-5" />
                 <span>Patrimonio Justificado</span>
@@ -118,8 +118,8 @@ export default function ComparacionPatrimonialPage() {
             </div>
           )}
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm">
-            <h3 className="mb-4 font-semibold">Explicacion Legal</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h3 className="mb-4 font-semibold tracking-tight">Explicacion Legal</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">
               Segun el Art. 236 del ET, cuando el patrimonio liquido en el ultimo dia del ano gravable sea superior al del
               ultimo dia del ano anterior, dicha diferencia se considera renta liquida, a menos que el contribuyente

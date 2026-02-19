@@ -25,7 +25,7 @@ export default function AuditoriaPage() {
 
     const incremento = (impuestoActual - impuestoAnterior) / impuestoAnterior;
     const cumpleMinimo = impuestoActual >= impuestoMinimo;
-    
+
     let resultado = "";
     let status: "success" | "warning" | "error" = "error";
     let meses = 0;
@@ -57,15 +57,15 @@ export default function AuditoriaPage() {
   }, [impuestoActual, impuestoAnterior, impuestoMinimo]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Beneficio de Auditoría</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Beneficio de Auditoría</h1>
+        <p className="mt-2 mb-10 text-muted-foreground">
           Verifica si tu declaración de renta puede quedar en firme en 6 o 12 meses (Art. 689-3 ET).
         </p>
       </div>
@@ -88,7 +88,7 @@ export default function AuditoriaPage() {
             placeholder="Ej: 10.000.000"
           />
 
-          <div className="rounded-lg border bg-muted/30 p-4 text-sm">
+          <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-sm">
             <h4 className="mb-2 font-semibold">Requisitos Clave:</h4>
             <ul className="list-inside list-disc space-y-1 text-muted-foreground">
               <li>Impuesto neto ≥ 71 UVT ({formatCOP(impuestoMinimo)})</li>
@@ -103,25 +103,25 @@ export default function AuditoriaPage() {
           {calculo ? (
             <div className="space-y-6">
               <div className={`rounded-xl border p-6 shadow-sm ${
-                calculo.status === "success" ? "border-green-200 bg-green-50 dark:border-green-900/50 dark:bg-green-950/20" : 
-                calculo.status === "warning" ? "border-yellow-200 bg-yellow-50 dark:border-yellow-900/50 dark:bg-yellow-950/20" :
+                calculo.status === "success" ? "border-green-200 bg-green-50 dark:border-green-900/50 dark:bg-green-950/20" :
+                calculo.status === "warning" ? "border-border/60 bg-muted/50" :
                 "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-red-950/20"
               }`}>
                 <div className="flex items-center gap-3 mb-4">
                   {calculo.status === "success" ? (
                     <CheckCircle2 className="h-6 w-6 text-green-600" />
                   ) : (
-                    <AlertCircle className="h-6 w-6 text-amber-600" />
+                    <AlertCircle className="h-6 w-6 text-foreground/70" />
                   )}
                   <h3 className={`text-lg font-bold ${
-                    calculo.status === "success" ? "text-green-800 dark:text-green-400" : 
-                    calculo.status === "warning" ? "text-amber-800 dark:text-amber-400" :
+                    calculo.status === "success" ? "text-green-800 dark:text-green-400" :
+                    calculo.status === "warning" ? "text-foreground" :
                     "text-red-800 dark:text-red-400"
                   }`}>
                     {calculo.resultado}
                   </h3>
                 </div>
-                
+
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="opacity-70">Incremento real:</span>
@@ -136,8 +136,8 @@ export default function AuditoriaPage() {
 
               <CalculatorResult
                 items={[
-                  { 
-                    label: "Incremento del Impuesto", 
+                  {
+                    label: "Incremento del Impuesto",
                     value: formatCOP(calculo.diferencia),
                     sublabel: "Sobre el año anterior"
                   }

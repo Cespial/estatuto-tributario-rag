@@ -52,7 +52,7 @@ export default function ExploradorPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <main className="flex flex-1 items-center justify-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-foreground border-t-transparent" />
         </main>
       </div>
     }>
@@ -161,7 +161,7 @@ function ExploradorContent() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <main className="flex flex-1 items-center justify-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-foreground border-t-transparent" />
         </main>
       </div>
     );
@@ -170,16 +170,19 @@ function ExploradorContent() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
+      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 pb-16">
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <h1 className="text-2xl font-bold">Explorador</h1>
+          <div>
+            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Explorador</h1>
+            <p className="mt-1 text-sm text-muted-foreground">Navegue y filtre los articulos del Estatuto Tributario.</p>
+          </div>
           {/* View toggle */}
           <div className="flex items-center gap-1 rounded-lg border border-border p-1">
             <button
               onClick={() => setView("grid")}
               className={clsx(
                 "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm transition-colors",
-                view === "grid" ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                view === "grid" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
               )}
             >
               <Grid3X3 className="h-4 w-4" />
@@ -189,7 +192,7 @@ function ExploradorContent() {
               onClick={() => setView("graph")}
               className={clsx(
                 "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm transition-colors",
-                view === "graph" ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                view === "graph" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
               )}
             >
               <GitBranch className="h-4 w-4" />

@@ -116,22 +116,22 @@ export default function LicenciaMaternidadPage() {
   }
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">Licencia de Maternidad y Paternidad</h1>
-        <p className="text-muted-foreground">Calcule el tiempo y el auxilio economico por el nacimiento de su hijo.</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Licencia de Maternidad y Paternidad</h1>
+        <p className="mt-2 text-muted-foreground">Calcule el tiempo y el auxilio economico por el nacimiento de su hijo.</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-lg border border-border p-4 space-y-4">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
-              <Baby className="h-4 w-4 text-primary" /> Informacion de la Licencia
+              <Baby className="h-4 w-4 text-foreground/70" /> Informacion de la Licencia
             </h3>
 
             <SelectInput
@@ -170,8 +170,8 @@ export default function LicenciaMaternidadPage() {
             )}
           </div>
 
-          <div className="rounded-lg bg-muted/50 p-4 text-xs text-muted-foreground flex gap-3">
-            <Info className="h-4 w-4 shrink-0 text-primary" />
+          <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-xs flex gap-3">
+            <Info className="h-4 w-4 shrink-0 text-foreground/70" />
             <div className="space-y-2">
               <p><strong>Maternidad:</strong> 18 semanas remuneradas con el 100% del salario.</p>
               <p><strong>Paternidad:</strong> Aumenta progresivamente hasta llegar a 6 semanas en 2026 (Ley 2365/2024).</p>
@@ -184,7 +184,7 @@ export default function LicenciaMaternidadPage() {
           <CalculatorResult items={resultItems} />
 
           {results.nota && (
-            <div className="rounded-lg border border-primary/20 bg-primary/5 p-4 text-sm text-primary font-medium">
+            <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm font-medium">
               {results.nota}
             </div>
           )}

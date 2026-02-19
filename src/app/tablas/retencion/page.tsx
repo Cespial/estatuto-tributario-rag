@@ -36,7 +36,7 @@ export default function RetencionPage() {
       rightContent={
         <div className="rounded-lg border border-border bg-card px-4 py-3 shadow-sm">
           <div className="text-xs font-medium text-muted-foreground">Valor UVT {CURRENT_UVT_YEAR}</div>
-          <div className="text-2xl font-bold text-primary">{formatCurrency(uvtValue)}</div>
+          <div className="text-2xl font-bold text-foreground">{formatCurrency(uvtValue)}</div>
         </div>
       }
     >
@@ -47,22 +47,22 @@ export default function RetencionPage() {
           placeholder="Buscar concepto, artículo o tarifa..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="w-full rounded-md border border-border bg-background py-2 pl-10 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary shadow-sm"
+          className="w-full rounded-lg border border-border/60 bg-card py-2 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20 shadow-sm"
         />
       </div>
 
-      <div className="rounded-lg border border-border bg-background overflow-hidden shadow-sm">
+      <div className="rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
-            <thead className="bg-muted/50 border-b border-border">
+            <thead className="bg-muted/30 border-b border-border">
               <tr>
-                <th className="px-4 py-3 font-semibold">Concepto</th>
-                <th className="px-4 py-3 font-semibold text-center">Base Min (UVT)</th>
-                <th className="px-4 py-3 font-semibold text-right">Base Min ($)</th>
-                <th className="px-4 py-3 font-semibold text-center">Tarifa</th>
-                <th className="px-4 py-3 font-semibold text-center">Artículo</th>
-                <th className="px-4 py-3 font-semibold">Notas</th>
-                <th className="px-4 py-3 font-semibold text-center">Calculadora</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Base Min (UVT)</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-right">Base Min ($)</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Tarifa</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Artículo</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Notas</th>
+                <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground text-center">Calculadora</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -74,13 +74,13 @@ export default function RetencionPage() {
                     <td className="px-4 py-3 text-right font-mono text-xs">
                       {item.baseMinUVT > 0 ? formatCurrency(item.baseMinUVT * uvtValue) : "$ 0"}
                     </td>
-                    <td className="px-4 py-3 text-center font-bold text-primary">
+                    <td className="px-4 py-3 text-center font-bold text-foreground">
                       {(item.tarifa * 100).toFixed(item.tarifa < 0.01 ? 1 : 1)}%
                     </td>
                     <td className="px-4 py-3 text-center">
                       <Link 
                         href={`/articulo/${item.articulo}`}
-                        className="inline-flex items-center gap-1 text-xs text-primary hover:underline bg-primary/5 px-2 py-0.5 rounded-full"
+                        className="inline-flex items-center gap-1 text-xs text-foreground/70 hover:underline bg-muted px-2 py-0.5 rounded-full"
                       >
                         {item.articulo}
                         <ExternalLink className="h-2.5 w-2.5" />
@@ -114,7 +114,7 @@ export default function RetencionPage() {
         </div>
       </div>
 
-      <div className="rounded-lg border border-border bg-muted/30 p-4 text-xs text-muted-foreground">
+      <div className="rounded-xl border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
         <p><strong>Nota:</strong> Las tarifas aquí expresadas son las generales. Algunos contribuyentes pueden estar sujetos a tarifas diferenciales o convenios para evitar la doble imposición.</p>
       </div>
     </ReferencePageLayout>

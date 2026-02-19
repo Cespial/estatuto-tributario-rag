@@ -38,7 +38,7 @@ export default function DeboDeclararPage() {
       consignaciones: consignaciones > thresholds.consignaciones,
     };
 
-    // Si NO es residente, las reglas cambian (Art 9, 10 ET). 
+    // Si NO es residente, las reglas cambian (Art 9, 10 ET).
     // Para simplificar el "Debo Declarar" rapido, marcamos obligacion si hay ingresos fuente nacional sin retencion total.
     const debeDeclarar = !esResidente || Object.values(exceeds).some(v => v);
 
@@ -47,32 +47,32 @@ export default function DeboDeclararPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 text-2xl font-bold">¿Debo Declarar Renta 2025? (PN)</h1>
-      <p className="mb-6 text-sm text-muted-foreground">
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">¿Debo Declarar Renta 2025? (PN)</h1>
+      <p className="mb-10 text-sm text-muted-foreground">
         Basado en los topes del Art. 592, 593 y 594-3 del ET para el año gravable 2025.
       </p>
 
       {/* Paso 0: Residencia */}
-      <div className="mb-8 rounded-lg border border-primary/20 bg-primary/5 p-4">
-        <div className="mb-3 flex items-center gap-2 font-semibold text-primary">
-          <Globe className="h-5 w-5" />
+      <div className="mb-8 rounded-xl border border-border/60 bg-muted/50 p-4">
+        <div className="mb-3 flex items-center gap-2 font-semibold text-foreground">
+          <Globe className="h-5 w-5 text-foreground/70" />
           <span>Paso 0: Residencia Fiscal</span>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-muted-foreground">¿Permanecio en Colombia mas de 183 dias en 2025?</p>
-          <ToggleInput 
-            label={esResidente ? "SI (Residente)" : "NO (No Residente)"} 
-            pressed={esResidente} 
-            onToggle={setEsResidente} 
+          <ToggleInput
+            label={esResidente ? "SI (Residente)" : "NO (No Residente)"}
+            pressed={esResidente}
+            onToggle={setEsResidente}
           />
         </div>
         {!esResidente && (
-          <p className="mt-3 text-xs text-yellow-600 dark:text-yellow-400">
+          <p className="mt-3 text-xs text-foreground bg-muted/50 border border-border/60 rounded-xl p-4">
             * Los no residentes estan obligados a declarar si sus ingresos de fuente nacional no estuvieron sujetos a la retencion total del Art. 407 a 411.
           </p>
         )}
@@ -88,8 +88,8 @@ export default function DeboDeclararPage() {
         </div>
       </div>
 
-      <div className={`mb-8 flex items-center gap-4 rounded-xl border p-6 ${evaluation.debeDeclarar 
-        ? "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-900/50" 
+      <div className={`mb-8 flex items-center gap-4 rounded-xl border p-6 ${evaluation.debeDeclarar
+        ? "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-900/50"
         : "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-900/50"}`}>
         {evaluation.debeDeclarar ? (
           <>
@@ -113,15 +113,15 @@ export default function DeboDeclararPage() {
       </div>
 
       <div className="mb-6">
-        <h3 className="mb-3 text-lg font-semibold">Tabla de verificacion (UVT $49,799)</h3>
-        <div className="overflow-x-auto rounded-lg border border-border">
+        <h3 className="mb-3 text-lg font-semibold tracking-tight">Tabla de verificacion (UVT $49,799)</h3>
+        <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-border bg-muted/50">
-                <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                <th className="px-4 py-2 text-right font-medium text-muted-foreground">Tope ($)</th>
-                <th className="px-4 py-2 text-right font-medium text-muted-foreground">Su valor</th>
-                <th className="px-4 py-2 text-center font-medium text-muted-foreground">Supera?</th>
+              <tr className="border-b border-border/60 bg-muted/30">
+                <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Tope ($)</th>
+                <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Su valor</th>
+                <th className="px-4 py-2 text-center text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Supera?</th>
               </tr>
             </thead>
             <tbody>

@@ -34,7 +34,7 @@ export function UvtHistoryChart() {
   return (
     <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
       <div className="mb-6">
-        <h3 className="text-lg font-semibold text-foreground">Evolución UVT (Últimos 10 años)</h3>
+        <h3 className="font-[family-name:var(--font-playfair)] text-lg font-semibold tracking-tight text-foreground">Evolución UVT (Últimos 10 años)</h3>
         <p className="text-sm text-muted-foreground">Incremento histórico del valor de la Unidad de Valor Tributario</p>
       </div>
       <div className="h-[300px] w-full">
@@ -42,8 +42,8 @@ export function UvtHistoryChart() {
           <AreaChart data={data} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
             <defs>
               <linearGradient id="colorUvt" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="var(--color-primary, #3b82f6)" stopOpacity={0.3}/>
-                <stop offset="95%" stopColor="var(--color-primary, #3b82f6)" stopOpacity={0}/>
+                <stop offset="5%" stopColor="var(--foreground)" stopOpacity={0.3}/>
+                <stop offset="95%" stopColor="var(--foreground)" stopOpacity={0}/>
               </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" opacity={0.5} />
@@ -73,7 +73,7 @@ export function UvtHistoryChart() {
             <Area 
               type="monotone" 
               dataKey="value" 
-              stroke="var(--color-primary, #3b82f6)" 
+              stroke="var(--foreground)" 
               strokeWidth={2}
               fillOpacity={1} 
               fill="url(#colorUvt)" 

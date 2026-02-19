@@ -80,12 +80,12 @@ export default function SancionesPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Sancion por Extemporaneidad</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Sancion por Extemporaneidad</h1>
 
       <div className="mb-6 space-y-4">
         <CurrencyInput id="sancion-impuesto" label="Impuesto a cargo" value={impuesto} onChange={setImpuesto} />
@@ -128,7 +128,7 @@ export default function SancionesPage() {
         </div>
       )}
 
-      <div className="mb-6 rounded-lg border border-border p-4">
+      <div className="mb-6 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
         <h2 className="mb-2 text-sm font-semibold">Como se calcula</h2>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li><strong>Sin emplazamiento (Art. 641):</strong> 5% del impuesto por cada mes o fraccion de retraso, tope 100% del impuesto.</li>

@@ -72,10 +72,11 @@ export default async function DashboardPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
-        <h1 className="mb-6 text-2xl font-bold">Dashboard</h1>
+      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 pb-16">
+        <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Dashboard Analitico</h1>
+        <p className="mb-10 text-sm text-muted-foreground">Estadisticas y metricas del Estatuto Tributario de Colombia.</p>
 
-        <div className="space-y-6">
+        <div className="space-y-8">
           {/* Stats cards */}
           <StatsCards
             total={stats.stats_cards.total}

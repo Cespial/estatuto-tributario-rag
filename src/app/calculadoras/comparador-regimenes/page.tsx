@@ -80,28 +80,28 @@ export default function ComparadorRegimenesPage() {
   }, [ingresosBrutos, costosDeducciones, rentasExentas, esPersonaJuridica, tarifaICA, groupIdx, uvt]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">Comparador Ordinario vs SIMPLE</h1>
-        <p className="text-muted-foreground">Analice cual regimen tributario le conviene mas para el ano {CURRENT_UVT_YEAR}.</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Comparador Ordinario vs SIMPLE</h1>
+        <p className="mt-2 mb-10 text-muted-foreground">Analice cual regimen tributario le conviene mas para el ano {CURRENT_UVT_YEAR}.</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold border-b pb-2">Informacion Financiera</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight border-b pb-2">Informacion Financiera</h3>
             <CurrencyInput id="ingresos" label="Ingresos Brutos Anuales" value={ingresosBrutos} onChange={setIngresosBrutos} />
             <CurrencyInput id="costos" label="Costos y Deducciones" value={costosDeducciones} onChange={setCostosDeducciones} />
             <CurrencyInput id="exentas" label="Rentas Exentas" value={rentasExentas} onChange={setRentasExentas} />
           </div>
 
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold border-b pb-2">Configuracion</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight border-b pb-2">Configuracion</h3>
             <div className="flex gap-4">
               <ToggleInput label="Es Persona Juridica" pressed={esPersonaJuridica} onToggle={setEsPersonaJuridica} />
             </div>
@@ -117,10 +117,10 @@ export default function ComparadorRegimenesPage() {
         </div>
 
         <div className="space-y-6">
-          <div className={`rounded-xl border p-6 shadow-sm ${results.ahorro > 0 ? "bg-green-50 dark:bg-green-950/30 border-green-200" : "bg-blue-50 dark:bg-blue-950/30 border-blue-200"}`}>
+          <div className={`rounded-xl border p-6 shadow-sm ${results.ahorro > 0 ? "bg-green-50 dark:bg-green-950/30 border-green-200" : "border-border/60 bg-card"}`}>
             <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">Recomendacion</h3>
             <div className="flex items-center gap-3 mb-2">
-              <CheckCircle2 className={`h-8 w-8 ${results.ahorro > 0 ? "text-green-600" : "text-blue-600"}`} />
+              <CheckCircle2 className={`h-8 w-8 ${results.ahorro > 0 ? "text-green-600" : "text-foreground/70"}`} />
               <span className="text-2xl font-bold">{results.recomendacion}</span>
             </div>
             <p className="text-muted-foreground">
@@ -128,13 +128,13 @@ export default function ComparadorRegimenesPage() {
             </p>
           </div>
 
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
-              <thead className="bg-muted/50">
+              <thead className="bg-muted/30">
                 <tr>
-                  <th className="px-4 py-2 text-left">Concepto</th>
-                  <th className="px-4 py-2 text-right">Ordinario</th>
-                  <th className="px-4 py-2 text-right">SIMPLE</th>
+                  <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto</th>
+                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Ordinario</th>
+                  <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">SIMPLE</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
@@ -168,8 +168,8 @@ export default function ComparadorRegimenesPage() {
             </table>
           </div>
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm">
-            <h3 className="mb-4 font-semibold">Ventajas del SIMPLE</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h3 className="mb-4 font-semibold tracking-tight">Ventajas del SIMPLE</h3>
             <ul className="text-xs space-y-2 text-muted-foreground list-disc pl-4">
               <li>Sustituye el impuesto de renta, el nacional al consumo y el ICA municipal.</li>
               <li>Simplifica la declaracion anual en un solo formulario.</li>

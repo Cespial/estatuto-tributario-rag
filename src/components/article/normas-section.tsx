@@ -28,7 +28,7 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
 
   return (
     <section className="mb-6">
-      <h2 className="mb-3 text-lg font-semibold">Normas relacionadas</h2>
+      <h2 className="font-[family-name:var(--font-playfair)] mb-3 text-lg font-semibold tracking-tight">Normas relacionadas</h2>
       {/* Tabs */}
       <div
         className="mb-3 flex gap-1 overflow-x-auto border-b border-border"
@@ -44,9 +44,9 @@ export function NormasSection({ normasParsed }: NormasSectionProps) {
             aria-controls={`panel-${tab.key}`}
             onClick={() => setActiveTab(tab.key)}
             className={clsx(
-              "whitespace-nowrap px-3 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
+              "whitespace-nowrap px-3 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
               activeTab === tab.key
-                ? "border-b-2 border-primary text-primary"
+                ? "border-b-2 border-foreground text-foreground"
                 : "text-muted-foreground hover:text-foreground"
             )}
           >

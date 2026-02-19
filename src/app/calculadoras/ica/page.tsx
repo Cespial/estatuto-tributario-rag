@@ -29,7 +29,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -43,7 +43,7 @@ function CollapsibleSection({
           )}
         />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -201,23 +201,23 @@ export default function ICAPage() {
   }, [resultado]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
-        <ArrowLeft className="mr-2 h-4 w-4" />
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+        <ArrowLeft className="h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">Impuesto ICA (Industria y Comercio)</h1>
-        <p className="text-muted-foreground">Declaracion privada — Ano Gravable {anoGravable}</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Impuesto ICA (Industria y Comercio)</h1>
+        <p className="mb-10 text-muted-foreground">Declaracion privada — Ano Gravable {anoGravable}</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">
         {/* COLUMNA IZQUIERDA: INPUTS */}
         <div className="space-y-6">
           {/* Bloque 1: Municipio y ano */}
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold">A. Seleccion</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight">A. Seleccion</h3>
             <SelectInput
               id="municipio"
               label="Municipio"
@@ -243,7 +243,7 @@ export default function ICAPage() {
 
           {/* Bloque 2: Config personalizada */}
           {isCustom && (
-            <div className="rounded-lg border border-dashed border-border p-4 space-y-4">
+            <div className="rounded-xl border border-dashed border-border/60 p-6 space-y-4">
               <h3 className="text-sm font-bold text-muted-foreground uppercase">Configuracion personalizada</h3>
               <div className="grid gap-4 sm:grid-cols-2">
                 <ToggleInput
@@ -329,8 +329,8 @@ export default function ICAPage() {
           )}
 
           {/* Bloque 3: Base gravable */}
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold">B. Base gravable</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight">B. Base gravable</h3>
             <div className="space-y-4">
               <CurrencyInput
                 id="r8"
@@ -373,12 +373,12 @@ export default function ICAPage() {
           </div>
 
           {/* Bloque 4: Actividades economicas */}
-          <div className="rounded-lg border border-border p-4 space-y-4">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="font-semibold">C. Actividades economicas</h3>
+              <h3 className="font-semibold tracking-tight">C. Actividades economicas</h3>
               <button
                 onClick={addActividad}
-                className="flex items-center gap-1 text-xs font-medium text-primary hover:underline"
+                className="flex items-center gap-1 text-xs font-medium text-foreground hover:underline"
               >
                 <Plus className="h-3 w-3" /> Agregar
               </button>
@@ -449,14 +449,14 @@ export default function ICAPage() {
               {coinciden ? (
                 <span className="ml-2 text-green-600">✓ Coinciden</span>
               ) : (
-                <span className="ml-2 text-yellow-600">Diferencia: {formatCOP(diff)}</span>
+                <span className="ml-2 text-foreground/70">Diferencia: {formatCOP(diff)}</span>
               )}
             </div>
           </div>
 
           {/* Bloque 5: Retenciones y anticipos */}
-          <div className="rounded-lg border border-border p-4 space-y-4">
-            <h3 className="font-semibold">D. Retenciones y anticipos</h3>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+            <h3 className="font-semibold tracking-tight">D. Retenciones y anticipos</h3>
             <div className="grid gap-4 sm:grid-cols-2">
               <CurrencyInput id="r27" label="R27. Retenciones practicadas" value={retencionesPracticadas} onChange={setRetencionesPracticadas} />
               <CurrencyInput id="r28" label="R28. Autorretenciones" value={autorretenciones} onChange={setAutorretenciones} />
@@ -469,13 +469,13 @@ export default function ICAPage() {
           <div className="space-y-4">
             <button
               onClick={() => setShowAdvanced(!showAdvanced)}
-              className="text-xs font-medium text-muted-foreground hover:text-primary flex items-center gap-1"
+              className="text-xs font-medium text-muted-foreground hover:text-foreground flex items-center gap-1"
             >
               <ChevronDown className={clsx("h-3 w-3 transition-transform", showAdvanced && "rotate-180")} />
               {showAdvanced ? "Ocultar campos avanzados" : "Mostrar campos avanzados"}
             </button>
             {showAdvanced && (
-              <div className="rounded-lg border border-border p-4 space-y-4 bg-muted/10 animate-in fade-in slide-in-from-top-2 duration-300">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4 animate-in fade-in slide-in-from-top-2 duration-300">
                 <CurrencyInput id="r31" label="R31. Sanciones" value={sanciones} onChange={setSanciones} />
                 <CurrencyInput id="r26" label="R26. Exenciones" value={exenciones} onChange={setExenciones} />
                 <CurrencyInput id="r37" label="R37. Intereses de mora" value={interesesMora} onChange={setInteresesMora} />
@@ -498,8 +498,8 @@ export default function ICAPage() {
               <CalculatorResult items={resultItems} />
 
               {/* Bloque R2: Resumen descriptivo */}
-              <div className="rounded-xl border bg-card p-6 shadow-sm space-y-4">
-                <h3 className="font-semibold border-b pb-2">Resumen de liquidacion</h3>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
+                <h3 className="font-semibold tracking-tight border-b border-border/60 pb-2">Resumen de liquidacion</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between border-b pb-1">
                     <span className="text-muted-foreground">Total ICA (R20)</span>
@@ -564,7 +564,7 @@ export default function ICAPage() {
                     <span className="text-muted-foreground">− Descuento pronto pago (R36)</span>
                     <span>{formatCOP(resultado.renglon36)}</span>
                   </div>
-                  <div className="flex justify-between pt-3 border-t-2 border-primary text-xl font-bold text-primary">
+                  <div className="flex justify-between pt-3 border-t-2 border-foreground text-xl font-bold text-foreground">
                     <span>TOTAL A PAGAR (R38)</span>
                     <span>{formatCOP(resultado.renglon38)}</span>
                   </div>
@@ -573,7 +573,7 @@ export default function ICAPage() {
 
               {/* Bloque R3: Banner saldo a favor */}
               {resultado.renglon34 > 0 && (
-                <div className="rounded-lg border border-green-200 bg-green-50 p-4 text-sm text-green-800 dark:border-green-900/50 dark:bg-green-950/30 dark:text-green-400 flex gap-3">
+                <div className="rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground flex gap-3">
                   <AlertTriangle className="h-5 w-5 shrink-0" />
                   <p>Tiene un saldo a favor de {formatCOP(resultado.renglon34)}. Puede solicitar compensacion o devolucion ante la administracion municipal.</p>
                 </div>
@@ -588,19 +588,19 @@ export default function ICAPage() {
         <div className="mt-12 space-y-10">
           {/* Bloque T1: Formulario oficial */}
           <div className="space-y-4">
-            <h2 className="text-xl font-bold">Formulario Oficial (Declaracion Privada)</h2>
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <h2 className="text-xl font-bold tracking-tight">Formulario Oficial (Declaracion Privada)</h2>
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm min-w-[500px]">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground w-16">Item</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto / Renglon</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Valor</th>
+                  <tr className="border-b border-border/60 bg-muted/30">
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground w-16">Item</th>
+                    <th className="px-4 py-2 text-left text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Concepto / Renglon</th>
+                    <th className="px-4 py-2 text-right text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Valor</th>
                   </tr>
                 </thead>
                 <tbody>
                   {/* SECCION B */}
-                  <tr className="bg-blue-500/5"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-widest">B. Base Gravable</td></tr>
+                  <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">B. Base Gravable</td></tr>
                   <FormRow n={8} label="Ingresos brutos ordinarios y extraordinarios en todo el pais" value={resultado.renglon8} />
                   <FormRow n={9} label="Menos ingresos fuera de este municipio" value={resultado.renglon9} />
                   <FormRow n={10} label="Total ingresos brutos en este municipio (8-9)" value={resultado.renglon10} />
@@ -608,10 +608,10 @@ export default function ICAPage() {
                   <FormRow n={12} label="Menos exportaciones y enajenacion de activos fijos" value={resultado.renglon12} />
                   <FormRow n={13} label="Menos actividades no sujetas o excluidas y otras deducciones" value={resultado.renglon13} />
                   <FormRow n={14} label="Menos ingresos por actividades exentas" value={resultado.renglon14} />
-                  <FormRow n={15} label="TOTAL INGRESOS GRAVABLES (10-11-12-13-14)" value={resultado.renglon15} bold color="text-primary" />
+                  <FormRow n={15} label="TOTAL INGRESOS GRAVABLES (10-11-12-13-14)" value={resultado.renglon15} bold color="text-foreground" />
 
                   {/* SECCION C */}
-                  <tr className="bg-green-500/5"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-green-600 dark:text-green-400 uppercase tracking-widest">C. Actividades Economicas</td></tr>
+                  <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">C. Actividades Economicas</td></tr>
                   {resultado.actividades?.map((act, i) => (
                     <tr key={i} className="border-b border-border last:border-0 hover:bg-muted/30">
                       <td className="px-4 py-2 text-muted-foreground font-mono text-xs">{act.codigo}</td>
@@ -627,7 +627,7 @@ export default function ICAPage() {
                   {resultado.renglon19 ? <FormRow n={19} label="Impuesto de industria y comercio" value={resultado.renglon19} /> : null}
 
                   {/* SECCION D */}
-                  <tr className="bg-amber-500/5"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest">D. Liquidacion Privada</td></tr>
+                  <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">D. Liquidacion Privada</td></tr>
                   <FormRow n={20} label="Impuesto de industria y comercio (R17)" value={resultado.renglon20} />
                   <FormRow n={21} label="Impuesto de avisos y tableros (15% de R20)" value={resultado.renglon21} />
                   {resultado.renglon22 ? <FormRow n={22} label="Unidades comerciales adicionales" value={resultado.renglon22} /> : null}
@@ -645,7 +645,7 @@ export default function ICAPage() {
                   <FormRow n={34} label="O SALDO A FAVOR" value={resultado.renglon34} bold color="text-green-600" />
 
                   {/* SECCION E */}
-                  <tr className="bg-purple-500/5"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-purple-600 dark:text-purple-400 uppercase tracking-widest">E. Pago</td></tr>
+                  <tr className="bg-muted/30"><td colSpan={3} className="px-4 py-1 text-[10px] font-bold text-foreground/70 uppercase tracking-widest">E. Pago</td></tr>
                   <FormRow n={35} label="Valor a pagar" value={resultado.renglon35} />
                   <FormRow n={36} label="Menos descuentos por pronto pago" value={resultado.renglon36} />
                   <FormRow n={37} label="Mas intereses de mora" value={resultado.renglon37 || 0} />
@@ -672,11 +672,11 @@ export default function ICAPage() {
           {/* Bloque T3: Warnings y errores */}
           {(errores.length > 0 || warnings.length > 0) && (
             <div className="space-y-4">
-              <h3 className="font-semibold">Validaciones y Alertas</h3>
+              <h3 className="font-semibold tracking-tight">Validaciones y Alertas</h3>
               {errores.length > 0 && (
                 <div className="space-y-2">
                   {errores.map((e, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-red-600 bg-red-50 dark:bg-red-950/20 p-3 rounded-lg border border-red-200">
+                    <div key={i} className="flex items-center gap-2 text-sm text-red-500 bg-muted/50 p-3 rounded-xl border border-border/60">
                       <AlertTriangle className="h-4 w-4 shrink-0" />
                       <span>{e}</span>
                     </div>
@@ -686,7 +686,7 @@ export default function ICAPage() {
               {warnings.length > 0 && (
                 <div className="space-y-2">
                   {warnings.map((w, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-yellow-700 bg-yellow-50 dark:bg-yellow-950/20 p-3 rounded-lg border border-yellow-200">
+                    <div key={i} className="flex items-center gap-2 text-sm text-foreground bg-muted/50 p-3 rounded-xl border border-border/60">
                       <AlertTriangle className="h-4 w-4 shrink-0" />
                       <span>{w}</span>
                     </div>
@@ -701,7 +701,7 @@ export default function ICAPage() {
       {/* FOOTER */}
       <div className="mt-12 pt-8 border-t border-border space-y-4">
         <CalculatorSources articles={[]} />
-        <p className="text-[10px] text-muted-foreground leading-relaxed">
+        <p className="text-[10px] text-muted-foreground/70 leading-relaxed">
           <strong>Nota legal:</strong> Los calculos presentados son una proyeccion informativa basada en el Formulario Unico Nacional de ICA y las normativas municipales vigentes (Ley 14 de 1983, Ley 1575 de 2012). Esta herramienta no sustituye la asesoria de un profesional contable ni exime de la obligacion de verificar los datos ante la secretaria de hacienda correspondiente.
         </p>
       </div>
@@ -729,7 +729,7 @@ function FormRow({
   return (
     <tr className={clsx(
       "border-b border-border last:border-0 hover:bg-muted/30 transition-colors",
-      highlight && "bg-primary/5"
+      highlight && "bg-muted/50"
     )}>
       <td className="px-4 py-2 text-muted-foreground font-mono text-xs">{n}</td>
       <td className={clsx("px-4 py-2", bold && "font-semibold")}>{label}</td>

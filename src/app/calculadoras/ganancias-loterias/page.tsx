@@ -22,14 +22,14 @@ export default function LoteriasPage() {
     if (premioBruto <= 0) return null;
 
     // Art. 306: En apuestas hípicas se resta el valor de la apuesta
-    const baseGravable = tipoJuego === "apuesta_hipica" 
-      ? Math.max(0, premioBruto - valorApuesta) 
+    const baseGravable = tipoJuego === "apuesta_hipica"
+      ? Math.max(0, premioBruto - valorApuesta)
       : premioBruto;
 
     const impuesto = baseGravable * LOTERIAS_RATE;
     const retencionCalculada = yaRetenido ? impuesto : 0;
     const saldoAPagar = Math.max(0, impuesto - retencionCalculada);
-    
+
     const sujetoRetencion = premioBruto >= LOTERIAS_MIN_RETENCION;
 
     return {
@@ -43,25 +43,25 @@ export default function LoteriasPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Loterías, Rifas y Apuestas</h1>
-      <p className="mb-8 text-muted-foreground">Calcula el impuesto a las ganancias ocasionales sobre premios y sorteos.</p>
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Loterías, Rifas y Apuestas</h1>
+      <p className="mb-10 text-muted-foreground">Calcula el impuesto a las ganancias ocasionales sobre premios y sorteos.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="mb-4 text-lg font-semibold">Datos del Premio</h2>
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+            <h2 className="mb-4 text-lg font-semibold tracking-tight">Datos del Premio</h2>
             <div className="space-y-4">
               <CurrencyInput id="premio" label="Valor Bruto del Premio" value={premioBruto} onChange={setPremioBruto} />
-              
-              <SelectInput 
-                id="tipo" 
-                label="Tipo de Juego" 
-                value={tipoJuego} 
+
+              <SelectInput
+                id="tipo"
+                label="Tipo de Juego"
+                value={tipoJuego}
                 onChange={setTipoJuego}
                 options={[
                   { value: "loteria", label: "Lotería o Rifa" },
@@ -80,8 +80,8 @@ export default function LoteriasPage() {
             </div>
           </div>
 
-          <div className="flex gap-3 rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-800 dark:bg-blue-950/20 dark:text-blue-400">
-            <Info className="h-5 w-5 shrink-0" />
+          <div className="flex gap-3 rounded-xl border border-border/60 bg-muted/50 p-4 text-sm text-foreground">
+            <Info className="h-5 w-5 shrink-0 text-foreground/70" />
             <div>
               <p className="font-semibold">Retención en la fuente (Art. 317)</p>
               <p>Solo se practica retención si el premio es igual o superior a 48 UVT ({formatCOP(LOTERIAS_MIN_RETENCION)}).</p>
@@ -92,8 +92,8 @@ export default function LoteriasPage() {
         <div className="space-y-6">
           {results ? (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-                <h2 className="mb-4 text-lg font-semibold">Resultado</h2>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h2 className="mb-4 text-lg font-semibold tracking-tight">Resultado</h2>
                 <CalculatorResult items={[
                   { label: "Base Gravable", value: formatCOP(results.baseGravable) },
                   { label: "Impuesto (20%)", value: formatCOP(results.impuesto) },
@@ -101,7 +101,7 @@ export default function LoteriasPage() {
                 ]} />
               </div>
 
-              <div className="rounded-lg border border-border p-4 text-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-sm">
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Sujeto a retención:</span>

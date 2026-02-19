@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft, ShieldCheck } from "lucide-react";
 import { UVT_VALUES, CURRENT_UVT_YEAR } from "@/config/tax-data";
-import { 
+import {
   PATRIMONIO_THRESHOLD_UVT,
   PATRIMONIO_BRACKETS,
   PATRIMONIO_VIVIENDA_EXCLUSION_UVT
@@ -27,10 +27,10 @@ export default function PatrimonioPage() {
 
   const results = useMemo(() => {
     const patrimonioLiquido = Math.max(0, patrimonioBruto - deudas);
-    
+
     // Aplicación exclusión vivienda (Max 12.000 UVT)
     const exclusionViviendaEfectiva = Math.min(valorVivienda, PATRIMONIO_VIVIENDA_EXCLUSION_UVT * uvt);
-    
+
     const baseGravableCOP = Math.max(0, patrimonioLiquido - exclusionViviendaEfectiva - otrasExclusiones);
     const baseGravableUVT = baseGravableCOP / uvt;
 
@@ -57,17 +57,17 @@ export default function PatrimonioPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-8">
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
-      
-      <h1 className="mb-2 text-3xl font-bold">Impuesto al Patrimonio</h1>
-      <p className="mb-8 text-muted-foreground">Perfeccionado con exclusión de vivienda (12.000 UVT).</p>
+
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Impuesto al Patrimonio</h1>
+      <p className="mb-10 text-muted-foreground">Perfeccionado con exclusión de vivienda (12.000 UVT).</p>
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-6">
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
             <h2 className="mb-4 text-lg font-semibold">Activos y Pasivos</h2>
             <div className="space-y-4">
               <CurrencyInput id="p-bruto" label="Patrimonio Bruto Total" value={patrimonioBruto} onChange={setPatrimonioBruto} />
@@ -86,7 +86,7 @@ export default function PatrimonioPage() {
         <div className="space-y-6">
           {results && (
             <>
-              <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
                 <h2 className="mb-4 text-lg font-semibold">Resumen de Liquidación</h2>
                 <CalculatorResult items={[
                   { label: "Base Gravable", value: formatCOP(results.baseGravableCOP) },
@@ -96,14 +96,14 @@ export default function PatrimonioPage() {
               </div>
 
               {results.exclusionViviendaEfectiva > 0 && (
-                <div className="flex gap-3 rounded-lg border border-green-100 bg-green-50 p-4 text-sm text-green-800 dark:bg-green-900/20 dark:text-green-400">
+                <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-sm">
                   <ShieldCheck className="h-5 w-5 shrink-0" />
                   <p>Estás ahorrando el impuesto sobre <strong>{formatCOP(results.exclusionViviendaEfectiva)}</strong> por concepto de vivienda de habitación.</p>
                 </div>
               )}
 
               {!results.aplica && patrimonioBruto > 0 && (
-                <div className="p-4 rounded-lg bg-muted text-center text-sm">
+                <div className="p-4 rounded-xl bg-muted/50 border border-border/60 text-center text-sm">
                   La base gravable es inferior al umbral de {PATRIMONIO_THRESHOLD_UVT.toLocaleString()} UVT. No se genera impuesto.
                 </div>
               )}

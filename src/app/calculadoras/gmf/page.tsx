@@ -37,12 +37,13 @@ export default function GMFPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">GMF (4×1000)</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">GMF (4×1000)</h1>
+      <p className="mb-10 text-muted-foreground">Calcula el Gravamen a los Movimientos Financieros.</p>
 
       <div className="mb-6 space-y-4">
         <CurrencyInput
@@ -64,8 +65,8 @@ export default function GMFPage() {
         </div>
       )}
 
-      <div className="mb-6 rounded-lg border border-border p-4">
-        <h2 className="mb-2 text-sm font-semibold">Sobre el GMF</h2>
+      <div className="mb-6 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+        <h2 className="mb-2 text-sm font-semibold tracking-tight">Sobre el GMF</h2>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li>El Gravamen a los Movimientos Financieros es del 4 por mil (0.4%).</li>
           <li>Cada persona natural puede marcar una cuenta como exenta hasta 350 UVT mensuales ({formatCOP(GMF_EXEMPT_UVT * uvt)} en {CURRENT_UVT_YEAR}).</li>

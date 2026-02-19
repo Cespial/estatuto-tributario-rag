@@ -102,12 +102,12 @@ export default function RetencionPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Retencion en la Fuente</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Retencion en la Fuente</h1>
 
       <div className="mb-6 space-y-4">
         <SelectInput
@@ -143,13 +143,13 @@ export default function RetencionPage() {
       {isSalarios && (
         <div className="mb-6">
           <h2 className="mb-3 text-lg font-semibold">Tabla progresiva Art. 383</h2>
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border bg-muted/50">
-                  <th className="px-4 py-2 text-left font-medium text-muted-foreground">Desde (UVT)</th>
-                  <th className="px-4 py-2 text-left font-medium text-muted-foreground">Hasta (UVT)</th>
-                  <th className="px-4 py-2 text-right font-medium text-muted-foreground">Tarifa</th>
+                <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                  <th className="px-4 py-2 text-left">Desde (UVT)</th>
+                  <th className="px-4 py-2 text-left">Hasta (UVT)</th>
+                  <th className="px-4 py-2 text-right">Tarifa</th>
                 </tr>
               </thead>
               <tbody>

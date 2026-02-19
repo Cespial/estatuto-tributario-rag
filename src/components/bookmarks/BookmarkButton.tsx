@@ -33,7 +33,7 @@ export function BookmarkButton({
       }}
       className={clsx(
         "flex items-center gap-1.5 transition-all active:scale-90",
-        bookmarked ? "text-primary" : "text-muted-foreground hover:text-primary",
+        bookmarked ? "text-foreground" : "text-muted-foreground hover:text-foreground",
         className
       )}
       title={bookmarked ? "Quitar de favoritos" : "Guardar en favoritos"}

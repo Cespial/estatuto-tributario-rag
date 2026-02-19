@@ -66,15 +66,15 @@ export default function PensionPage() {
   }, [genero, nacimiento, semanasActuales, anoRetiro]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Verificador de Pensión</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Verificador de Pensión</h1>
+        <p className="mt-2 text-muted-foreground">
           Proyecta el cumplimiento de requisitos de pensión bajo la Ley 100/1993 y la Reforma 2024.
         </p>
       </div>
@@ -134,25 +134,25 @@ export default function PensionPage() {
               />
 
               <div className="grid gap-4 sm:grid-cols-2">
-                <div className="rounded-lg border p-4 text-center">
+                <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-center">
                   <User className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Edad al Retiro</p>
-                  <p className={`text-xl font-bold ${calculo.cumpleEdad ? "text-green-600" : "text-amber-600"}`}>
+                  <p className={`text-xl font-bold ${calculo.cumpleEdad ? "text-green-600" : "text-foreground"}`}>
                     {calculo.edadAlRetiro} años
                   </p>
                   <p className="text-[10px] text-muted-foreground">Meta: {calculo.edadRequerida}</p>
                 </div>
-                <div className="rounded-lg border p-4 text-center">
+                <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm text-center">
                   <Award className="mx-auto mb-2 h-5 w-5 text-muted-foreground" />
                   <p className="text-xs uppercase text-muted-foreground">Semanas Meta</p>
-                  <p className={`text-xl font-bold ${calculo.cumpleSemanas ? "text-green-600" : "text-amber-600"}`}>
+                  <p className={`text-xl font-bold ${calculo.cumpleSemanas ? "text-green-600" : "text-foreground"}`}>
                     {calculo.semanasRequeridas}
                   </p>
                   <p className="text-[10px] text-muted-foreground">Actuales: {semanasActuales}</p>
                 </div>
               </div>
 
-              <div className="rounded-xl border bg-card p-6 shadow-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold">Hoja de Ruta</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -177,17 +177,17 @@ export default function PensionPage() {
         </div>
       </div>
 
-      <div className="mt-10 rounded-lg border border-blue-100 bg-blue-50 p-6 dark:border-blue-900/50 dark:bg-blue-950/20">
-        <h3 className="mb-4 text-lg font-bold text-blue-900 dark:text-blue-300">Cronograma Reducción Semanas (Mujeres)</h3>
+      <div className="mt-10 text-foreground bg-muted/50 border border-border/60 rounded-xl p-6">
+        <h3 className="mb-4 text-lg font-bold">Cronograma Reducción Semanas (Mujeres)</h3>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-6">
           {SEMANAS_MUJERES_PROGRESIVO.map((item, idx) => (
-            <div key={idx} className="rounded border bg-background p-2 text-center">
+            <div key={idx} className="rounded-xl border border-border/60 bg-card p-2 text-center shadow-sm">
               <p className="text-[10px] font-bold text-muted-foreground">{item.anio}</p>
               <p className="text-sm font-bold">{item.semanas}</p>
             </div>
           ))}
         </div>
-        <p className="mt-4 text-[11px] text-blue-800/70 dark:text-blue-400/70">
+        <p className="mt-4 text-[11px] text-muted-foreground">
           Fuente: Ley 2381 de 2024 y Sentencia C-197 de 2023 de la Corte Constitucional.
         </p>
       </div>

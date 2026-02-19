@@ -45,7 +45,7 @@ export default function DepreciacionPage() {
       const tasa = selectedType.tasaMax;
       let saldo = baseDepreciable;
       depAnualBase = baseDepreciable * tasa; // Primer año
-      
+
       for (let i = 1; i <= vidaUtil; i++) {
         const dep = saldo * tasa;
         saldo -= dep;
@@ -69,15 +69,15 @@ export default function DepreciacionPage() {
   }, [tipo, costo, valorResidual, metodo]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Depreciación Fiscal</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Depreciación Fiscal</h1>
+        <p className="mt-2 mb-10 text-muted-foreground">
           Calcula la alícuota de depreciación según los límites máximos del Art. 137 ET.
         </p>
       </div>
@@ -133,10 +133,10 @@ export default function DepreciacionPage() {
                 ]}
               />
 
-              <div className="rounded-xl border bg-card p-6 shadow-sm overflow-hidden">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm overflow-hidden">
                 <div className="mb-4 flex items-center gap-2">
-                  <TableIcon className="h-4 w-4 text-primary" />
-                  <h3 className="font-semibold">Tabla de Amortización</h3>
+                  <TableIcon className="h-4 w-4 text-foreground/70" />
+                  <h3 className="font-semibold tracking-tight">Tabla de Amortización</h3>
                 </div>
                 <div className="max-h-[300px] overflow-y-auto pr-2">
                   <table className="w-full text-left text-xs">

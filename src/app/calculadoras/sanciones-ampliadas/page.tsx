@@ -18,13 +18,13 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
         <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -118,13 +118,13 @@ export default function SancionesAmpliadasPage() {
 
   return (
     <>
-      <Link href="/calculadoras" className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 text-2xl font-bold">Sanciones Tributarias Ampliadas</h1>
-      <p className="mb-6 text-sm text-muted-foreground">Calculos actualizados al Estatuto Tributario y UVT 2026.</p>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Sanciones Tributarias Ampliadas</h1>
+      <p className="mb-10 text-sm text-muted-foreground">Calculos actualizados al Estatuto Tributario y UVT 2026.</p>
 
       <div className="mb-6 space-y-4">
         <SelectInput
@@ -186,7 +186,7 @@ export default function SancionesAmpliadasPage() {
           </div>
         )}
 
-        <div className="rounded-lg border border-border p-4">
+        <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
           <ToggleInput label="Aplica reduccion Art. 640 (50%)" pressed={aplicaReduccion640} onToggle={setAplicaReduccion640} />
           <p className="mt-2 text-xs text-muted-foreground">
             <strong>Requisito:</strong> No haber cometido la misma infraccion en los 2 años anteriores. La sancion resultante no puede ser menor a la minima ({formatCOP(sancionMinima)}).

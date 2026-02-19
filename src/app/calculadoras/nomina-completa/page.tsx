@@ -85,31 +85,31 @@ export default function NominaCompletaPage() {
   }, [salarioBasico, comisiones, aplicaExoneracion, claseARL]);
 
   return (
-    <div className="container max-w-5xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-5xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">Calculadora de Nomina Completa 2026</h1>
-        <p className="text-muted-foreground">Calculo integral de costos laborales y deducciones de ley.</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Calculadora de Nomina Completa 2026</h1>
+        <p className="mt-2 text-muted-foreground">Calculo integral de costos laborales y deducciones de ley.</p>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-3">
         {/* INPUTS */}
         <div className="lg:col-span-1 space-y-6">
-          <div className="rounded-lg border border-border p-4 space-y-4">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
-              <User className="h-4 w-4 text-primary" /> Datos del Trabajador
+              <User className="h-4 w-4 text-foreground/70" /> Datos del Trabajador
             </h3>
             <CurrencyInput id="salario" label="Salario Basico" value={salarioBasico} onChange={setSalarioBasico} />
             <CurrencyInput id="comisiones" label="Comisiones / Horas Extras" value={comisiones} onChange={setComisiones} />
           </div>
 
-          <div className="rounded-lg border border-border p-4 space-y-4">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm space-y-4">
             <h3 className="font-semibold border-b pb-2 flex items-center gap-2">
-              <Building2 className="h-4 w-4 text-primary" /> Configuracion Empresa
+              <Building2 className="h-4 w-4 text-foreground/70" /> Configuracion Empresa
             </h3>
             <SelectInput
               id="arl"
@@ -128,20 +128,20 @@ export default function NominaCompletaPage() {
         {/* OUTPUTS */}
         <div className="lg:col-span-2 space-y-6">
           <div className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-xl border bg-primary/5 p-4 border-primary/20">
+            <div className="rounded-xl border border-foreground/10 bg-card p-6 shadow-sm">
               <span className="text-xs font-bold uppercase text-muted-foreground">Neto Mensual Trabajador</span>
-              <div className="text-2xl font-bold text-primary">{formatCOP(results.trabajador.netoTrabajador)}</div>
+              <div className="text-2xl font-bold text-foreground">{formatCOP(results.trabajador.netoTrabajador)}</div>
             </div>
-            <div className="rounded-xl border bg-card p-4 border-border shadow-sm">
+            <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
               <span className="text-xs font-bold uppercase text-muted-foreground">Costo Mensual Empresa</span>
               <div className="text-2xl font-bold">{formatCOP(results.costoEmpleador)}</div>
             </div>
           </div>
 
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-muted/50 border-b border-border text-[10px] uppercase tracking-wider font-bold text-muted-foreground">
+                <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                   <th className="px-4 py-2 text-left">Desglose de Nomina</th>
                   <th className="px-4 py-2 text-right">Valor Unitario</th>
                 </tr>
@@ -179,7 +179,7 @@ export default function NominaCompletaPage() {
             </table>
           </div>
 
-          <div className="rounded-xl border bg-muted/30 p-6">
+          <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">COSTO TOTAL ANUAL</span>
               <span className="text-2xl font-black text-foreground">{formatCOP(results.costoAnual)}</span>

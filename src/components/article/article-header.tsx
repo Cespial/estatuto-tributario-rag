@@ -11,9 +11,9 @@ interface ArticleHeaderProps {
 }
 
 const ESTADO_CONFIG: Record<string, { label: string; color: string }> = {
-  vigente: { label: "Vigente", color: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400" },
-  modificado: { label: "Modificado", color: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400" },
-  derogado: { label: "Derogado", color: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400" },
+  vigente: { label: "Vigente", color: "bg-muted text-foreground border border-border" },
+  modificado: { label: "Modificado", color: "bg-muted text-foreground border border-border" },
+  derogado: { label: "Derogado", color: "bg-muted text-muted-foreground border border-border line-through" },
 };
 
 export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: ArticleHeaderProps) {
@@ -33,7 +33,7 @@ export function ArticleHeader({ idArticulo, titulo, libro, libroFull, estado }: 
       </nav>
       {/* Title + badge */}
       <div className="flex flex-wrap items-start gap-3">
-        <h1 className="text-2xl font-bold">{titulo}</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-bold tracking-tight">{titulo}</h1>
         <span
           className={clsx(
             "mt-1 inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium",

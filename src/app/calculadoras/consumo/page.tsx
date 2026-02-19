@@ -38,15 +38,15 @@ export default function ConsumoPage() {
   }, [tipo, valor]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Impuesto Nacional al Consumo</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Impuesto Nacional al Consumo</h1>
+        <p className="mt-2 mb-10 text-muted-foreground">
           Calcula el INC para servicios de restaurante, telefonía y vehículos (Art. 512-1 ET).
         </p>
       </div>
@@ -69,9 +69,9 @@ export default function ConsumoPage() {
             placeholder="Ej: 100.000"
           />
 
-          <div className="rounded-lg border bg-muted/30 p-4">
+          <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
             <h4 className="mb-2 text-sm font-semibold flex items-center gap-2">
-              <Tag className="h-4 w-4" />
+              <Tag className="h-4 w-4 text-foreground/70" />
               Información de Tarifa
             </h4>
             {calculo?.selected && (
@@ -97,8 +97,8 @@ export default function ConsumoPage() {
                 ]}
               />
 
-              <div className="rounded-xl border bg-card p-6 shadow-sm">
-                <h3 className="mb-4 font-semibold">Resumen de Operación</h3>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h3 className="mb-4 font-semibold tracking-tight">Resumen de Operación</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
                     <span className="text-muted-foreground">Base gravable:</span>
@@ -108,7 +108,7 @@ export default function ConsumoPage() {
                     <span className="text-muted-foreground">Impuesto ({calculo.tarifaLabel}):</span>
                     <span className="font-medium">{formatCOP(calculo.impuesto)}</span>
                   </div>
-                  <div className="flex justify-between pt-2 text-lg font-bold text-primary">
+                  <div className="flex justify-between pt-2 text-lg font-bold text-foreground">
                     <span>Total a pagar:</span>
                     <span>{formatCOP(calculo.total)}</span>
                   </div>
@@ -123,13 +123,13 @@ export default function ConsumoPage() {
         </div>
       </div>
 
-      <div className="mt-10 overflow-x-auto rounded-lg border">
+      <div className="mt-10 overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
         <table className="w-full text-left text-sm">
-          <thead className="bg-muted">
+          <thead className="bg-muted/30">
             <tr>
-              <th className="px-4 py-3 font-semibold">Hecho Generador</th>
-              <th className="px-4 py-3 font-semibold">Tarifa</th>
-              <th className="px-4 py-3 font-semibold">Art. ET</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Hecho Generador</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Tarifa</th>
+              <th className="px-4 py-3 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">Art. ET</th>
             </tr>
           </thead>
           <tbody className="divide-y">

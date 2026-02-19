@@ -65,7 +65,7 @@ function CollapsibleSection({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -76,7 +76,7 @@ function CollapsibleSection({
           className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`}
         />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -227,13 +227,13 @@ export default function SeguridadSocialPage() {
     <>
       <Link
         href="/calculadoras"
-        className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+        className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
       >
         <ArrowLeft className="h-4 w-4" />
         Calculadoras
       </Link>
 
-      <h1 className="mb-6 text-2xl font-bold">Aportes a Seguridad Social 2026</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Aportes a Seguridad Social 2026</h1>
 
       {/* ── Inputs ── */}
       <div className="mb-6 space-y-4">
@@ -277,7 +277,7 @@ export default function SeguridadSocialPage() {
           {result.warnings.length > 0 && (
             <div className="space-y-1">
               {result.warnings.map((w) => (
-                <p key={w} className="text-sm text-yellow-600 dark:text-yellow-400">
+                <p key={w} className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
                   {w}
                 </p>
               ))}
@@ -312,16 +312,16 @@ export default function SeguridadSocialPage() {
           {/* ════ B. Tabla de Aportes ════ */}
           <div>
             <h2 className="mb-3 text-lg font-semibold">Tabla de Aportes</h2>
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Concepto</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Trab. %</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Trab. $</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Empl. %</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Empl. $</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Total $</th>
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                    <th className="px-4 py-2 text-left">Concepto</th>
+                    <th className="px-4 py-2 text-right">Trab. %</th>
+                    <th className="px-4 py-2 text-right">Trab. $</th>
+                    <th className="px-4 py-2 text-right">Empl. %</th>
+                    <th className="px-4 py-2 text-right">Empl. $</th>
+                    <th className="px-4 py-2 text-right">Total $</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -421,20 +421,20 @@ export default function SeguridadSocialPage() {
 
           {/* ════ C. FSP Detalle ════ */}
           <CollapsibleSection title="Fondo de Solidaridad Pensional — Detalle">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Rango IBC</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Tasa</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Detalle</th>
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                    <th className="px-4 py-2 text-left">Rango IBC</th>
+                    <th className="px-4 py-2 text-right">Tasa</th>
+                    <th className="px-4 py-2 text-left">Detalle</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr
                     className={`border-b border-border last:border-0 ${
                       !esPensionado && result.ibcSMLMV < 4
-                        ? "bg-primary/10 font-semibold"
+                        ? "bg-muted font-semibold"
                         : ""
                     }`}
                   >
@@ -451,7 +451,7 @@ export default function SeguridadSocialPage() {
                       <tr
                         key={b.fromSMLMV}
                         className={`border-b border-border last:border-0 ${
-                          active ? "bg-primary/10 font-semibold" : ""
+                          active ? "bg-muted font-semibold" : ""
                         }`}
                       >
                         <td className="px-4 py-2">
@@ -513,13 +513,13 @@ export default function SeguridadSocialPage() {
 
           {/* ════ E. Referencia ARL ════ */}
           <CollapsibleSection title="Tabla de Referencia — Clases de Riesgo ARL">
-            <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Clase</th>
-                    <th className="px-4 py-2 text-right font-medium text-muted-foreground">Tasa</th>
-                    <th className="px-4 py-2 text-left font-medium text-muted-foreground">Descripcion</th>
+                  <tr className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
+                    <th className="px-4 py-2 text-left">Clase</th>
+                    <th className="px-4 py-2 text-right">Tasa</th>
+                    <th className="px-4 py-2 text-left">Descripcion</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -527,7 +527,7 @@ export default function SeguridadSocialPage() {
                     <tr
                       key={c.clase}
                       className={`border-b border-border last:border-0 ${
-                        c.clase === claseARL ? "bg-primary/10 font-semibold" : ""
+                        c.clase === claseARL ? "bg-muted font-semibold" : ""
                       }`}
                     >
                       <td className="px-4 py-2">{c.clase}</td>

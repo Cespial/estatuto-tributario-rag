@@ -3,9 +3,9 @@
 import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, ChevronDown, ShieldCheck, AlertTriangle } from "lucide-react";
-import { 
-  UVT_VALUES, 
-  CURRENT_UVT_YEAR, 
+import {
+  UVT_VALUES,
+  CURRENT_UVT_YEAR,
   RETENCION_SALARIOS_BRACKETS,
   LEY_2277_LIMITS
 } from "@/config/tax-data";
@@ -23,13 +23,13 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
         <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -52,7 +52,7 @@ export default function RetencionSalariosPage() {
 
   const results = useMemo(() => {
     const uvt = UVT_VALUES[CURRENT_UVT_YEAR];
-    
+
     // Step 1: Total pagos
     const totalPagos = ingresoBruto;
 
@@ -66,7 +66,7 @@ export default function RetencionSalariosPage() {
     const dependienteDeduccion = numDependientes > 0
       ? Math.min(subtotal1 * DEPURACION_LIMITS.dependientePct, DEPURACION_LIMITS.dependienteMaxUVTMensual * uvt)
       : 0;
-    
+
     const medicinaLimitada = Math.min(medicinaPrepagada, DEPURACION_LIMITS.medicinaPrepagadaMaxUVTMensual * uvt);
     const totalDeducciones = dependienteDeduccion + interesesVivienda + medicinaLimitada;
 
@@ -83,8 +83,8 @@ export default function RetencionSalariosPage() {
     const limiteUVTMensual = (LEY_2277_LIMITS.deduccionesExentasMaxUVT * uvt) / 12;
 
     const totalAplicado = Math.min(totalDeduccionesExentas, limiteGlobal, limiteUVTMensual);
-    const limitType = totalDeduccionesExentas > totalAplicado 
-      ? (totalAplicado === limiteGlobal ? "40%" : "1,340 UVT") 
+    const limitType = totalDeduccionesExentas > totalAplicado
+      ? (totalAplicado === limiteGlobal ? "40%" : "1,340 UVT")
       : null;
 
     // Step 8: Base gravable
@@ -133,18 +133,18 @@ export default function RetencionSalariosPage() {
   return (
     <div className="mx-auto max-w-4xl p-4 md:p-6">
       <div className="mb-6">
-        <Link href="/calculadoras" className="mb-4 flex items-center text-sm text-muted-foreground hover:text-primary">
+        <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver a calculadoras
         </Link>
-        <h1 className="text-3xl font-bold tracking-tight">Retención en la Fuente — Salarios</h1>
-        <p className="text-muted-foreground">Depuración mensual completa según Procedimiento 1 (Art. 388 ET) para el año 2026.</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Retención en la Fuente — Salarios</h1>
+        <p className="mt-2 text-muted-foreground">Depuración mensual completa según Procedimiento 1 (Art. 388 ET) para el año 2026.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
         <div className="space-y-4">
           <CurrencyInput id="ingreso" label="Ingreso mensual bruto laboral" value={ingresoBruto} onChange={setIngresoBruto} />
-          
+
           <div className="grid grid-cols-2 gap-4">
             <CurrencyInput id="salud" label="Salud Oblig. (4%)" value={aporteSalud} onChange={setAporteSalud} />
             <CurrencyInput id="pension" label="Pensión Oblig. (4%)" value={aportePension} onChange={setAportePension} />
@@ -162,21 +162,21 @@ export default function RetencionSalariosPage() {
         </div>
 
         <div className="space-y-6">
-          <CalculatorResult 
+          <CalculatorResult
             items={[
               { label: "Base Gravable", value: formatCOP(results.baseGravable) },
               { label: "Base en UVT", value: results.baseGravableUVT.toFixed(2) },
               { label: "Retención Mensual", value: formatCOP(results.retencionCOP) },
               { label: "Tasa Efectiva", value: `${results.tasaEfectiva.toFixed(2)}%` },
-            ]} 
+            ]}
           />
 
-          <div className="overflow-x-auto rounded-lg border border-border">
+          <div className="overflow-x-auto rounded-xl border border-border/60 bg-card shadow-sm">
             <table className="w-full text-left text-sm">
-              <thead className="bg-muted/50">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
-                  <th className="px-4 py-2 font-medium">Concepto</th>
-                  <th className="px-4 py-2 text-right font-medium">Valor</th>
+                  <th className="px-4 py-2">Concepto</th>
+                  <th className="px-4 py-2 text-right">Valor</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
@@ -186,7 +186,7 @@ export default function RetencionSalariosPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-2">(-) Aportes Obligatorios SS</td>
-                  <td className="px-4 py-2 text-right text-red-600 dark:text-red-400">-{formatCOP(results.incrngo)}</td>
+                  <td className="px-4 py-2 text-right text-red-500">-{formatCOP(results.incrngo)}</td>
                 </tr>
                 <tr className="bg-muted/20 font-medium">
                   <td className="px-4 py-2">(=) Subtotal 1 (Ingreso Neto)</td>
@@ -208,13 +208,13 @@ export default function RetencionSalariosPage() {
                   <td className="px-4 py-2">(-) Renta Exenta 25%</td>
                   <td className="px-4 py-2 text-right">-{formatCOP(results.rentaExenta25)}</td>
                 </tr>
-                <tr className="bg-primary/5 italic">
+                <tr className="bg-muted/50 italic">
                   <td className="px-4 py-2">Suma deducciones + exentas</td>
                   <td className="px-4 py-2 text-right">{formatCOP(results.totalDeduccionesExentas)}</td>
                 </tr>
-                <tr className="bg-primary/5 font-bold">
+                <tr className="bg-muted/50 font-bold">
                   <td className="px-4 py-2">Total aplicado (limitado)</td>
-                  <td className="px-4 py-2 text-right text-primary">-{formatCOP(results.totalAplicado)}</td>
+                  <td className="px-4 py-2 text-right text-foreground">-{formatCOP(results.totalAplicado)}</td>
                 </tr>
                 <tr className="bg-muted/30 font-bold">
                   <td className="px-4 py-3">(=) BASE GRAVABLE</td>
@@ -225,14 +225,14 @@ export default function RetencionSalariosPage() {
           </div>
 
           {results.limitType && (
-            <div className="flex gap-3 rounded-md border border-yellow-200 bg-yellow-50/50 p-3 text-xs text-yellow-800 dark:border-yellow-900/30 dark:bg-yellow-900/10 dark:text-yellow-400">
+            <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 flex gap-3 text-xs">
               <AlertTriangle className="h-4 w-4 shrink-0" />
               <p>Las deducciones y rentas exentas superaron el límite de {results.limitType} del ingreso neto. Solo se aplicó el límite legal.</p>
             </div>
           )}
 
-          <div className="flex gap-3 rounded-md bg-muted/50 p-3 text-sm text-muted-foreground">
-            <ShieldCheck className="h-4 w-4 shrink-0 text-primary" />
+          <div className="flex gap-3 rounded-xl bg-muted/50 border border-border/60 p-4 text-sm text-muted-foreground">
+            <ShieldCheck className="h-4 w-4 shrink-0 text-foreground/70" />
             <div>
               <p className="font-semibold text-foreground">Rango Tabla Art. 383:</p>
               <p>Base en UVT: {results.baseGravableUVT.toFixed(2)}. Tarifa aplicada: {(results.bracketFound.rate * 100).toFixed(0)}%.</p>
@@ -245,7 +245,7 @@ export default function RetencionSalariosPage() {
         <CollapsibleSection title="Tabla de Retención Art. 383 ET">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="bg-muted">
+              <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-wide font-medium text-muted-foreground">
                 <tr>
                   <th className="px-3 py-2">Desde (UVT)</th>
                   <th className="px-3 py-2">Hasta (UVT)</th>
@@ -255,7 +255,7 @@ export default function RetencionSalariosPage() {
               </thead>
               <tbody className="divide-y divide-border text-muted-foreground">
                 {RETENCION_SALARIOS_BRACKETS.map((b, i) => (
-                  <tr key={i} className={results.baseGravableUVT > b.from && results.baseGravableUVT <= (b.to || Infinity) ? "bg-primary/10 text-primary font-bold" : ""}>
+                  <tr key={i} className={results.baseGravableUVT > b.from && results.baseGravableUVT <= (b.to || Infinity) ? "bg-muted font-bold text-foreground" : ""}>
                     <td className="px-3 py-2">{b.from}</td>
                     <td className="px-3 py-2">{b.to === Infinity ? "En adelante" : b.to}</td>
                     <td className="px-3 py-2">{(b.rate * 100).toFixed(0)}%</td>

@@ -22,8 +22,8 @@ interface ReformTimelineChartProps {
 
 export function ReformTimelineChart({ data }: ReformTimelineChartProps) {
   return (
-    <div className="rounded-lg border border-border p-4">
-      <h3 className="mb-4 text-lg font-semibold">Reformas por año</h3>
+    <div className="rounded-xl border border-border/60 bg-card p-4 shadow-sm">
+      <h3 className="font-[family-name:var(--font-playfair)] mb-4 text-lg font-semibold tracking-tight">Reformas por año</h3>
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} margin={{ top: 5, right: 5, bottom: 5, left: 5 }}>
@@ -48,7 +48,7 @@ export function ReformTimelineChart({ data }: ReformTimelineChartProps) {
             />
             <Bar
               dataKey="total"
-              fill="var(--primary)"
+              fill="var(--foreground)"
               radius={[4, 4, 0, 0]}
               maxBarSize={40}
             />

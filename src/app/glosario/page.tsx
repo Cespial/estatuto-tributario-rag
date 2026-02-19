@@ -47,7 +47,7 @@ export default function GlosarioPage() {
       <span>
         {parts.map((part, i) => 
           part.toLowerCase() === highlight.toLowerCase() ? (
-            <mark key={i} className="bg-yellow-200 dark:bg-yellow-800 text-foreground rounded px-0.5">{part}</mark>
+            <mark key={i} className="bg-foreground/10 dark:bg-foreground/20 text-foreground rounded px-0.5">{part}</mark>
           ) : (
             part
           )
@@ -73,9 +73,9 @@ export default function GlosarioPage() {
                 onClick={() => scrollToLetter(letter)}
                 disabled={!hasItems}
                 className={clsx(
-                  "flex h-8 w-8 items-center justify-center rounded-md text-xs font-bold transition-all",
-                  hasItems 
-                    ? "bg-muted hover:bg-primary hover:text-primary-foreground cursor-pointer shadow-sm" 
+                  "flex h-8 w-8 items-center justify-center rounded-lg text-xs font-bold transition-all",
+                  hasItems
+                    ? "bg-muted hover:bg-foreground hover:text-background cursor-pointer shadow-sm"
                     : "text-muted-foreground/20 cursor-not-allowed"
                 )}
               >
@@ -92,7 +92,7 @@ export default function GlosarioPage() {
             placeholder="Buscar término, definición o relacionado..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-md border border-border bg-background py-3 pl-10 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary shadow-sm"
+            className="w-full rounded-lg border border-border/60 bg-card py-3 pl-10 pr-3 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20 shadow-sm"
           />
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function GlosarioPage() {
         {Object.keys(groupedGlosario).sort().map((letter) => (
           <div key={letter} id={`letter-${letter}`} className="scroll-mt-40">
             <div className="flex items-center gap-4 mb-8">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-2xl font-black text-primary">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-muted text-2xl font-black text-foreground/70">
                 {letter}
               </div>
               <div className="h-px flex-1 bg-border" />
@@ -109,11 +109,11 @@ export default function GlosarioPage() {
             
             <div className="grid gap-6 md:grid-cols-2">
               {groupedGlosario[letter].map((term, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-xl border border-border bg-card p-6 transition-all hover:shadow-md hover:border-primary/50">
+                <div key={idx} className="group relative overflow-hidden rounded-xl border border-border/60 bg-card p-6 shadow-sm transition-all hover:shadow-md hover:border-border">
                   <div className="mb-3">
-                    <h3 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors flex items-center justify-between">
+                    <h3 className="text-lg font-bold text-foreground group-hover:text-foreground transition-colors flex items-center justify-between">
                       <HighlightText text={term.termino} highlight={search} />
-                      <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-primary" />
+                      <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-foreground/70" />
                     </h3>
                   </div>
                   
@@ -130,7 +130,7 @@ export default function GlosarioPage() {
                             <Link 
                               key={art} 
                               href={`/articulo/${art}`}
-                              className="text-xs font-medium text-primary hover:underline flex items-center gap-0.5 bg-primary/5 px-1.5 py-0.5 rounded"
+                              className="text-xs font-medium text-foreground/70 hover:underline flex items-center gap-0.5 bg-muted px-1.5 py-0.5 rounded"
                             >
                               Art. {art}
                               <ExternalLink className="h-2 w-2 opacity-50" />
@@ -148,7 +148,7 @@ export default function GlosarioPage() {
                             <button
                               key={rel}
                               onClick={() => { setSearch(rel); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-                              className="text-[10px] bg-muted px-2 py-0.5 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors cursor-pointer"
+                              className="text-[10px] bg-muted px-2 py-0.5 rounded-full hover:bg-foreground hover:text-background transition-colors cursor-pointer"
                             >
                               {rel}
                             </button>
@@ -170,7 +170,7 @@ export default function GlosarioPage() {
             <p className="text-sm">Intente con otra búsqueda o revise la ortografía.</p>
             <button 
               onClick={() => setSearch("")}
-              className="mt-4 text-sm text-primary hover:underline font-medium"
+              className="mt-4 text-sm text-foreground hover:underline font-medium"
             >
               Limpiar búsqueda
             </button>
@@ -181,7 +181,7 @@ export default function GlosarioPage() {
       <div className="mt-20 border-t border-border pt-8 text-center">
         <button 
           onClick={() => { setSearch(""); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           <div className="h-8 w-8 rounded-full bg-muted flex items-center justify-center">
             <ChevronRight className="h-4 w-4 -rotate-90" />

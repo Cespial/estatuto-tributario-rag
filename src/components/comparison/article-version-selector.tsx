@@ -54,15 +54,15 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
   return (
     <div className="relative w-full">
       <div className="flex flex-col gap-2">
-        <label className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+        <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
           Seleccionar Artículo con Historia
         </label>
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
           className={clsx(
-            "flex w-full items-center justify-between rounded-lg border border-border bg-card px-4 py-3 text-left shadow-sm transition-all hover:border-primary/50 focus:outline-none focus:ring-2 focus:ring-primary/20",
-            isOpen && "border-primary ring-2 ring-primary/20"
+            "flex w-full items-center justify-between rounded-lg border border-border bg-card px-4 py-3 text-left shadow-sm transition-all hover:border-foreground/40 focus:outline-none focus:ring-2 focus:ring-foreground/20",
+            isOpen && "border-foreground/40 ring-2 ring-foreground/20"
           )}
         >
           <span className={clsx("block truncate", !selectedArticle && "text-muted-foreground")}>
@@ -82,7 +82,7 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
               placeholder="Ej: Art. 241 o 'dividendos'..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full rounded-md border-none bg-muted/50 py-2 pl-10 pr-4 text-sm outline-none focus:ring-1 focus:ring-primary"
+              className="w-full rounded-md border-none bg-muted/50 py-2 pl-10 pr-4 text-sm outline-none focus:ring-1 focus:ring-foreground/20"
             />
           </div>
 
@@ -99,8 +99,8 @@ export function ArticleVersionSelector({ onSelect, selectedSlug }: ArticleVersio
                     setSearch("");
                   }}
                   className={clsx(
-                    "flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm transition-colors hover:bg-primary/10 hover:text-primary",
-                    selectedSlug === article.slug ? "bg-primary/5 font-semibold text-primary" : "text-foreground"
+                    "flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm transition-colors hover:bg-muted hover:text-foreground",
+                    selectedSlug === article.slug ? "bg-muted font-semibold text-foreground" : "text-foreground"
                   )}
                 >
                   <div className="flex flex-col truncate">

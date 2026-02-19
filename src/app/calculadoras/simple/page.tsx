@@ -32,7 +32,7 @@ export default function SimplePage() {
 
     const ingresosUVT = ingresos / uvt;
     const groupIdx = parseInt(grupoId) - 1;
-    
+
     // Validacion tope 100k UVT
     const superaTope = ingresosUVT > 100000;
 
@@ -66,7 +66,7 @@ export default function SimplePage() {
       : ingresos * (margenUtilidad / 100);
     const baseDepurada = Math.max(0, utilidadEstimada - rentasExentas);
     const utilidadUVT = baseDepurada / uvt;
-    
+
     let rentaOrdinariaUVT = 0;
     for (let i = RENTA_BRACKETS.length - 1; i >= 0; i--) {
       const b = RENTA_BRACKETS[i];
@@ -90,15 +90,15 @@ export default function SimplePage() {
   }, [ingresos, grupoId, tarifaICA, uvt, usaCostosReales, margenUtilidad, costosDeducciones, rentasExentas]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Régimen SIMPLE de Tributación</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Régimen SIMPLE de Tributación</h1>
+        <p className="mt-2 text-muted-foreground">
           Calcula el impuesto unificado para el año gravable {CURRENT_UVT_YEAR} (Art. 903-916 ET).
         </p>
       </div>
@@ -129,7 +129,7 @@ export default function SimplePage() {
             placeholder="Ej: 7.7"
           />
 
-          <div className="space-y-4 rounded-lg border border-border p-4">
+          <div className="space-y-4 rounded-xl border border-border/60 bg-card p-6 shadow-sm">
             <h3 className="text-sm font-semibold text-muted-foreground">Parámetros comparación Ordinario</h3>
             <ToggleInput
               label={usaCostosReales ? "Usando costos reales" : "Usando margen estimado %"}
@@ -165,8 +165,8 @@ export default function SimplePage() {
           </div>
 
           {calculo?.superaTope && (
-            <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800 dark:border-yellow-900/50 dark:bg-yellow-950/30 dark:text-yellow-400">
-              <p className="font-bold">⚠️ Atención: Supera el tope</p>
+            <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-sm">
+              <p className="font-bold">Atención: Supera el tope</p>
               <p>Tus ingresos ({formatUVT(calculo.ingresosUVT)}) superan el límite de 100.000 UVT para pertenecer al Régimen SIMPLE.</p>
             </div>
           )}
@@ -185,7 +185,7 @@ export default function SimplePage() {
                 ]}
               />
 
-              <div className="rounded-xl border bg-card p-6 shadow-sm">
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
                 <h3 className="mb-4 font-semibold">Comparativa y Detalles</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
@@ -200,22 +200,22 @@ export default function SimplePage() {
                     <span className="text-muted-foreground">Est. Renta Ordinaria:</span>
                     <span className="font-medium">{formatCOP(calculo.rentaOrdinariaCOP)}</span>
                   </div>
-                  <div className={`flex justify-between pt-2 text-lg font-bold ${calculo.ahorro > 0 ? "text-green-600" : "text-red-600"}`}>
+                  <div className={`flex justify-between pt-2 text-lg font-bold ${calculo.ahorro > 0 ? "text-green-600" : "text-red-500"}`}>
                     <span>{calculo.ahorro > 0 ? "Ahorro estimado:" : "Diferencia:"}</span>
                     <span>{formatCOP(Math.abs(calculo.ahorro))}</span>
                   </div>
                 </div>
               </div>
 
-              <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-3 text-xs text-yellow-800 dark:border-yellow-900/50 dark:bg-yellow-950/30 dark:text-yellow-400">
+              <div className="text-foreground bg-muted/50 border border-border/60 rounded-xl p-4 text-xs">
                 La comparación con régimen ordinario es estimada. Use el{" "}
-                <Link href="/calculadoras/comparador-regimenes" className="font-semibold underline hover:text-yellow-900 dark:hover:text-yellow-300">
+                <Link href="/calculadoras/comparador-regimenes" className="font-semibold underline hover:text-foreground">
                   Comparador de Regímenes
                 </Link>{" "}
                 para un análisis detallado.
               </div>
 
-              <div className="rounded-lg border p-4">
+              <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
                 <h4 className="mb-2 text-sm font-semibold">Desglose por Rangos</h4>
                 <div className="space-y-2 text-xs">
                   {calculo.desgloseBrackets.map((b, i) => (

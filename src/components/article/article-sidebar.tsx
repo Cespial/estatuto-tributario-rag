@@ -13,9 +13,9 @@ interface ArticleSidebarProps {
 }
 
 const ESTADO_DOT: Record<string, string> = {
-  vigente: "bg-green-500",
-  modificado: "bg-yellow-500",
-  derogado: "bg-red-500",
+  vigente: "bg-foreground",
+  modificado: "bg-foreground/60",
+  derogado: "bg-foreground/30",
 };
 
 export function ArticleSidebar({
@@ -66,7 +66,7 @@ export function ArticleSidebar({
         <div className="mt-3">
           <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
             <div
-              className="h-full rounded-full bg-primary transition-all"
+              className="h-full rounded-full bg-foreground/40 transition-all"
               style={{ width: `${complexity * 10}%` }}
             />
           </div>
@@ -75,7 +75,7 @@ export function ArticleSidebar({
 
       {/* References count */}
       <div className="rounded-lg border border-border p-4">
-        <h3 className="mb-2 text-sm font-semibold">Referencias</h3>
+        <h3 className="mb-2 text-xs uppercase tracking-wide font-medium text-muted-foreground">Referencias</h3>
         <div className="space-y-2 text-sm">
           <div className="flex justify-between">
             <span className="text-muted-foreground">Referencia a</span>

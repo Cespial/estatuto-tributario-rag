@@ -17,13 +17,13 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="rounded-lg border border-border">
+    <div className="rounded-xl border border-border/60 bg-card shadow-sm">
       <button type="button" onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-muted/50">
         {title}
         <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
-      {open && <div className="border-t border-border px-4 py-4">{children}</div>}
+      {open && <div className="border-t border-border/60 px-4 py-4">{children}</div>}
     </div>
   );
 }
@@ -64,15 +64,15 @@ export default function InteresesMoraPage() {
   }, [deuda, fechaVencimiento, fechaPago]);
 
   return (
-    <div className="container max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
-        <ArrowLeft className="mr-2 h-4 w-4" />
+    <div className="mx-auto max-w-4xl py-10">
+      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+        <ArrowLeft className="h-4 w-4" />
         Volver a calculadoras
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Intereses Moratorios DIAN</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Intereses Moratorios DIAN</h1>
+        <p className="mb-10 text-muted-foreground">
           Calcula los intereses de mora para deudas tributarias nacionales (Art. 634 y 635 ET).
         </p>
       </div>
@@ -109,10 +109,10 @@ export default function InteresesMoraPage() {
             />
           </div>
 
-          <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-950/30">
+          <div className="rounded-xl border border-border/60 bg-muted/50 p-4">
             <div className="flex gap-3">
-              <Info className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-              <div className="text-sm text-blue-800 dark:text-blue-300">
+              <Info className="h-5 w-5 text-foreground/70" />
+              <div className="text-sm text-foreground">
                 <p className="font-semibold">Nota sobre el cálculo:</p>
                 <p>Esta calculadora aplica la tasa vigente a la fecha de pago sobre el total de días de mora, siguiendo la metodología de interés simple establecida en el Estatuto Tributario.</p>
               </div>
@@ -133,8 +133,8 @@ export default function InteresesMoraPage() {
                 ]}
               />
 
-              <div className="rounded-xl border bg-card p-6 shadow-sm">
-                <h3 className="mb-4 font-semibold">Resumen de Liquidación</h3>
+              <div className="rounded-xl border border-border/60 bg-card p-6 shadow-sm">
+                <h3 className="mb-4 font-semibold tracking-tight">Resumen de Liquidación</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between border-b pb-2">
                     <span className="text-muted-foreground">Capital:</span>
@@ -150,7 +150,7 @@ export default function InteresesMoraPage() {
                   </div>
                   <div className="flex justify-between pt-2 text-lg font-bold">
                     <span>Total a pagar:</span>
-                    <span className="text-primary">{formatCOP(calculo.totalPagar)}</span>
+                    <span className="text-foreground">{formatCOP(calculo.totalPagar)}</span>
                   </div>
                 </div>
               </div>
