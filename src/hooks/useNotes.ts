@@ -99,6 +99,7 @@ function getNotes(): NoteItem[] {
 }
 
 const subscribe = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
   window.addEventListener("storage", callback);
   window.addEventListener(STORAGE_EVENTS.notes, callback);
   return () => {

@@ -13,6 +13,7 @@ import { STORAGE_EVENTS } from "@/lib/storage/productivity-storage";
 import { ChatConversation } from "@/types/chat-history";
 
 const subscribeConversations = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
   window.addEventListener("storage", callback);
   window.addEventListener(STORAGE_EVENTS.chatConversations, callback);
   return () => {
@@ -22,6 +23,7 @@ const subscribeConversations = (callback: () => void) => {
 };
 
 const subscribeFeedback = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
   window.addEventListener("storage", callback);
   window.addEventListener(STORAGE_EVENTS.chatFeedback, callback);
   return () => {

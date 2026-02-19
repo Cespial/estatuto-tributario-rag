@@ -35,6 +35,7 @@ function getWorkspaces(): Workspace[] {
 }
 
 const subscribe = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
   window.addEventListener("storage", callback);
   window.addEventListener(STORAGE_EVENTS.workspaces, callback);
   return () => {

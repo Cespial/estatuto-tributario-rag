@@ -73,7 +73,7 @@ export const DEFAULT_WORKSPACE: Workspace = {
   name: "General",
   color: "#0f0e0d",
   icon: "briefcase",
-  createdAt: Date.now(),
-  updatedAt: Date.now(),
+  createdAt: 0,
+  updatedAt: 0,
   order: 0,
 };
