@@ -52,7 +52,7 @@ export default function DeboDeclararPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">¿Debo Declarar Renta 2025? (PN)</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">¿Debo Declarar Renta 2025? (PN)</h1>
       <p className="mb-10 text-sm text-muted-foreground">
         Basado en los topes del Art. 592, 593 y 594-3 del ET para el año gravable 2025.
       </p>

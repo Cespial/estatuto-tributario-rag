@@ -154,7 +154,7 @@ export default function IndicadoresPage() {
         </div>
       </div>
 
-      <div className="mt-12 text-center text-xs text-muted-foreground border-t border-border pt-8">
+      <div className="mt-12 text-center text-xs text-muted-foreground pt-8">
         <p>Última actualización: Febrero 2026. Estos valores están sujetos a cambios legislativos o reglamentarios.</p>
       </div>
     </ReferencePageLayout>

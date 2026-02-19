@@ -110,7 +110,7 @@ export default function RentaPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Renta Personas Naturales</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Renta Personas Naturales</h1>
 
       <div className="mb-6 space-y-4">
         <CurrencyInput id="renta-ingreso" label="Ingreso bruto anual" value={ingresoBruto} onChange={setIngresoBruto} />

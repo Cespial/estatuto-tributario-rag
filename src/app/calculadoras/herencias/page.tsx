@@ -79,7 +79,7 @@ export default function HerenciasPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Herencias y Donaciones</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Herencias y Donaciones</h1>
       <p className="mb-10 text-muted-foreground">Perfeccionado con topes Ley 2277/2022.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">

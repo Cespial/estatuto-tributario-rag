@@ -64,7 +64,7 @@ export default function AuditoriaPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Beneficio de Auditoría</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Beneficio de Auditoría</h1>
         <p className="mt-2 mb-10 text-muted-foreground">
           Verifica si tu declaración de renta puede quedar en firme en 6 o 12 meses (Art. 689-3 ET).
         </p>

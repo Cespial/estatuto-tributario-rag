@@ -208,7 +208,7 @@ export default function ICAPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Impuesto ICA (Industria y Comercio)</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Impuesto ICA (Industria y Comercio)</h1>
         <p className="mb-10 text-muted-foreground">Declaracion privada — Ano Gravable {anoGravable}</p>
       </div>
 
@@ -699,7 +699,7 @@ export default function ICAPage() {
       )}
 
       {/* FOOTER */}
-      <div className="mt-12 pt-8 border-t border-border space-y-4">
+      <div className="mt-12 pt-8 space-y-4">
         <CalculatorSources articles={[]} />
         <p className="text-[10px] text-muted-foreground/70 leading-relaxed">
           <strong>Nota legal:</strong> Los calculos presentados son una proyeccion informativa basada en el Formulario Unico Nacional de ICA y las normativas municipales vigentes (Ley 14 de 1983, Ley 1575 de 2012). Esta herramienta no sustituye la asesoria de un profesional contable ni exime de la obligacion de verificar los datos ante la secretaria de hacienda correspondiente.

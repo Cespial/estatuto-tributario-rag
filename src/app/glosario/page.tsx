@@ -178,7 +178,7 @@ export default function GlosarioPage() {
         )}
       </div>
 
-      <div className="mt-20 border-t border-border pt-8 text-center">
+      <div className="mt-20 pt-8 text-center">
         <button 
           onClick={() => { setSearch(""); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"

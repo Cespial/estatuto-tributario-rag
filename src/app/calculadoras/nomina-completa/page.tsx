@@ -92,7 +92,7 @@ export default function NominaCompletaPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Calculadora de Nomina Completa 2026</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Calculadora de Nomina Completa 2026</h1>
         <p className="mt-2 text-muted-foreground">Calculo integral de costos laborales y deducciones de ley.</p>
       </div>
 

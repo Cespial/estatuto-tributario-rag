@@ -147,7 +147,7 @@ export default function GuiaInteractivaPage() {
           </div>
         )}
 
-        <div className="mt-10 flex justify-between border-t border-border/40 pt-6">
+        <div className="mt-10 flex justify-between pt-6">
           <button
             onClick={handleBack}
             disabled={history.length === 0}

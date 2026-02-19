@@ -62,7 +62,7 @@ export default function DescuentosTributariosPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Descuentos Tributarios</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Descuentos Tributarios</h1>
       <p className="mb-10 text-muted-foreground">Calcula los descuentos aplicables al impuesto de renta y sus límites legales.</p>
 
       <div className="grid gap-8 lg:grid-cols-2">

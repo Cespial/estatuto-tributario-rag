@@ -71,7 +71,7 @@ export default function InteresesMoraPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Intereses Moratorios DIAN</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Intereses Moratorios DIAN</h1>
         <p className="mb-10 text-muted-foreground">
           Calcula los intereses de mora para deudas tributarias nacionales (Art. 634 y 635 ET).
         </p>

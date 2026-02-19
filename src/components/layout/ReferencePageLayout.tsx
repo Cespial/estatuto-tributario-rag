@@ -31,7 +31,7 @@ export function ReferencePageLayout({
 
       <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-border/40 pb-8">
         <div>
-          <h1 className="flex items-center gap-3 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-foreground">
+          <h1 className="flex items-center gap-3 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight text-foreground">
             <div className="rounded-lg bg-muted p-2.5 text-foreground/70">
               <Icon className="h-7 w-7" />
             </div>

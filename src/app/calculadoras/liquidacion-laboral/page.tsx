@@ -133,7 +133,7 @@ export default function LiquidacionLaboralPage() {
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver a calculadoras
         </Link>
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Liquidación de Contrato Laboral</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Liquidación de Contrato Laboral</h1>
         <p className="mt-2 text-muted-foreground">Calcula prestaciones sociales e indemnizaciones según la ley colombiana para 2026.</p>
       </div>
 

@@ -8,7 +8,7 @@ export function CalculatorSources({ articles }: CalculatorSourcesProps) {
   if (articles.length === 0) return null;
 
   return (
-    <div className="mt-8 flex flex-wrap items-center gap-2 border-t border-border/40 pt-6 text-sm">
+    <div className="mt-8 flex flex-wrap items-center gap-2 pt-6 text-sm">
       <span className="text-xs uppercase tracking-wide text-muted-foreground">Articulos relacionados:</span>
       {articles.map((art) => (
         <Link

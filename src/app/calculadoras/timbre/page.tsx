@@ -47,7 +47,7 @@ export default function TimbrePage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Impuesto de Timbre Nacional</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Impuesto de Timbre Nacional</h1>
       <p className="mb-10 text-sm text-muted-foreground">
         Decreto 175/2025 reactivo el impuesto de timbre al 1%. Aplica sobre instrumentos publicos y documentos privados que superen el umbral.
       </p>

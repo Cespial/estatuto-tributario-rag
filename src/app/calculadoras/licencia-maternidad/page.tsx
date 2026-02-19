@@ -123,7 +123,7 @@ export default function LicenciaMaternidadPage() {
       </Link>
 
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Licencia de Maternidad y Paternidad</h1>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Licencia de Maternidad y Paternidad</h1>
         <p className="mt-2 text-muted-foreground">Calcule el tiempo y el auxilio economico por el nacimiento de su hijo.</p>
       </div>
 

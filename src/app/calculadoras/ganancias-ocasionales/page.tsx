@@ -72,7 +72,7 @@ export default function GananciasOcasionalesPage() {
         Calculadoras
       </Link>
 
-      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Ganancias Ocasionales</h1>
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold tracking-tight">Ganancias Ocasionales</h1>
       <p className="mb-10 text-muted-foreground">
         Calcula el impuesto por la venta de activos fijos poseídos por más de 2 años.
       </p>
