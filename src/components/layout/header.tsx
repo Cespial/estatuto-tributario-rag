@@ -24,7 +24,12 @@ const NAV_ITEMS = [
   { href: "/favoritos", label: "Favoritos" },
 ];
 
-export function Header() {
+interface HeaderProps {
+  variant?: "default" | "transparent";
+}
+
+export function Header({ variant = "default" }: HeaderProps) {
+  const isTransparent = variant === "transparent";
   const { theme, setTheme } = useTheme();
   const mounted = useSyncExternalStore(
     () => () => {},
@@ -34,13 +39,18 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
+    <header className={clsx(
+      "sticky top-0 z-50",
+      isTransparent
+        ? "border-b border-transparent bg-transparent"
+        : "border-b border-border/40 bg-background/80 backdrop-blur-md"
+    )}>
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <div className="flex flex-1 items-center gap-6 overflow-hidden">
           {/* Logo — Harvey.ai inspired: elegant serif feel */}
           <Link href="/" className="flex shrink-0 items-center gap-2.5">
-            <Scale className="h-5 w-5 text-foreground" />
-            <h1 className="whitespace-nowrap text-lg tracking-tight">
+            <Scale className={clsx("h-5 w-5", isTransparent ? "text-white" : "text-foreground")} />
+            <h1 className={clsx("whitespace-nowrap text-lg tracking-tight", isTransparent && "text-white")}>
               <span className="font-light">SuperApp</span>{" "}
               <span className="font-semibold">Tributaria</span>
             </h1>
@@ -69,21 +79,21 @@ export function Header() {
                     className={clsx(
                       "relative shrink-0 snap-start py-1 text-[13px] font-medium uppercase tracking-wide transition-colors",
                       isActive
-                        ? "text-foreground font-semibold"
-                        : "text-muted-foreground hover:text-foreground"
+                        ? isTransparent ? "text-white font-semibold" : "text-foreground font-semibold"
+                        : isTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
                     )}
                   >
                     {label}
                     {/* Subtle active underline indicator */}
                     {isActive && (
-                      <span className="absolute inset-x-0 -bottom-[1px] h-[1.5px] rounded-full bg-foreground" />
+                      <span className={clsx("absolute inset-x-0 -bottom-[1px] h-[1.5px] rounded-full", isTransparent ? "bg-white" : "bg-foreground")} />
                     )}
                   </Link>
                 );
               })}
             </div>
             {/* Right fade overlay for scroll indication */}
-            <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-background/80 to-transparent" />
+            <div className={clsx("pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l to-transparent", isTransparent ? "from-transparent" : "from-background/80")} />
           </nav>
         </div>
 
@@ -92,7 +102,10 @@ export function Header() {
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              className={clsx(
+                "rounded-md p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary",
+                isTransparent ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
+              )}
               aria-label="Cambiar tema"
             >
               {theme === "dark" ? (
