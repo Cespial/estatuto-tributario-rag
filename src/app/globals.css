@@ -1,53 +1,83 @@
 @import "tailwindcss";
 
+/* ─── Light mode: warm, premium Harvey.ai palette ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --muted: #f5f5f5;
-  --muted-foreground: #737373;
-  --border: #e5e5e5;
-  --primary: #2563eb;
-  --primary-foreground: #ffffff;
-  --accent: #f0f9ff;
+  --background: #faf9f7;      /* warm off-white */
+  --foreground: #1a1a17;      /* warm near-black */
+  --card: #ffffff;             /* pure white cards on warm bg */
+  --card-foreground: #1a1a17;
+  --muted: #f0ede8;           /* warm beige-gray */
+  --muted-foreground: #78756e; /* warm medium gray */
+  --border: #e8e4de;          /* warm subtle border */
+  --primary: #1a1a17;         /* near-black primary (Harvey style) */
+  --primary-foreground: #faf9f7;
+  --accent: #f5f2ed;          /* warm accent surface */
+  --accent-foreground: #1a1a17;
+  --ring: #1a1a17;
+  --destructive: #dc2626;
+  --success: #16a34a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-playfair);
 }
 
+/* ─── Dark mode: warm dark ─── */
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --muted: #262626;
-  --muted-foreground: #a3a3a3;
-  --border: #404040;
-  --primary: #3b82f6;
-  --primary-foreground: #ffffff;
-  --accent: #1e293b;
+  --background: #0c0c0a;      /* warm near-black */
+  --foreground: #e8e4dd;      /* warm light text */
+  --card: #161614;            /* slightly lighter dark card */
+  --card-foreground: #e8e4dd;
+  --muted: #1e1e1a;           /* warm dark surface */
+  --muted-foreground: #9a968e; /* warm medium gray */
+  --border: #2a2a25;          /* warm dark border */
+  --primary: #e8e4dd;         /* light primary on dark bg */
+  --primary-foreground: #0c0c0a;
+  --accent: #1a1a15;
+  --accent-foreground: #e8e4dd;
+  --ring: #e8e4dd;
+  --destructive: #ef4444;
+  --success: #22c55e;
+}
+
+/* ─── Global transition defaults ─── */
+* {
+  transition-property: color, background-color, border-color, box-shadow, opacity;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  font-family: var(--font-sans, 'Inter', system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Focus visible global style */
+/* ─── Focus visible global style ─── */
 :focus-visible {
-  outline: 2px solid var(--primary);
+  outline: 2px solid var(--ring);
   outline-offset: 2px;
 }
 
-/* Respect prefers-reduced-motion */
+/* ─── Respect prefers-reduced-motion ─── */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -59,7 +89,7 @@ body {
   }
 }
 
-/* Scrollbar — Webkit */
+/* ─── Scrollbar — Webkit ─── */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -73,13 +103,43 @@ body {
   border-radius: 3px;
 }
 
-/* Scrollbar — Firefox */
+/* ─── Scrollbar — Firefox ─── */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
 }
 
-/* Markdown styles in chat */
+/* ─── Harvey-style utility classes ─── */
+
+/* Premium heading typography */
+.heading-serif {
+  font-family: var(--font-serif, 'Playfair Display', Georgia, serif);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* Subtle card surface */
+.surface-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+}
+
+/* Premium hover lift effect */
+.hover-lift {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.08), 0 4px 10px -6px rgba(0, 0, 0, 0.04);
+}
+
+.dark .hover-lift:hover {
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.4), 0 4px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+/* ─── Markdown styles in chat ─── */
 .prose-chat h3 {
   font-size: 1rem;
   font-weight: 600;
@@ -108,12 +168,14 @@ body {
 }
 
 .prose-chat a {
-  color: var(--primary);
+  color: inherit;
   text-decoration: underline;
   text-underline-offset: 2px;
+  text-decoration-color: var(--muted-foreground);
 }
 
 .prose-chat a:hover {
+  text-decoration-color: var(--foreground);
   opacity: 0.8;
 }
 
@@ -159,7 +221,7 @@ body {
   display: block;
 }
 
-/* Line clamp utility */
+/* ─── Line clamp utility ─── */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -174,17 +236,17 @@ body {
   overflow: hidden;
 }
 
-/* Recharts responsive container fix */
+/* ─── Recharts responsive container fix ─── */
 .recharts-responsive-container {
   min-height: 0;
 }
 
-/* Force graph canvas styles */
+/* ─── Force graph canvas styles ─── */
 .force-graph-container canvas {
   border-radius: 0.5rem;
 }
 
-/* Screen reader only utility */
+/* ─── Screen reader only utility ─── */
 .sr-only {
   position: absolute;
   width: 1px;

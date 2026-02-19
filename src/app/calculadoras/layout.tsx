@@ -4,7 +4,7 @@ export default function CalculadorasLayout({ children }: { children: React.React
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">{children}</main>
+      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 pb-16">{children}</main>
     </div>
   );
 }

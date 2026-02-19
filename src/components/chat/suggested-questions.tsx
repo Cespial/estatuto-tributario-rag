@@ -9,17 +9,20 @@ interface SuggestedQuestionsProps {
 
 export function SuggestedQuestions({ onSelect }: SuggestedQuestionsProps) {
   return (
-    <div className="grid gap-2 sm:grid-cols-2">
-      {SUGGESTED_QUESTIONS.map((q) => (
-        <button
-          key={q}
-          onClick={() => onSelect(q)}
-          className="flex items-start gap-2 rounded-lg border border-border p-3 text-left text-sm transition-colors hover:bg-muted"
-        >
-          <MessageSquare className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-          <span>{q}</span>
-        </button>
-      ))}
+    <div>
+      <p className="mb-3 text-xs uppercase tracking-wide text-muted-foreground">Preguntas sugeridas</p>
+      <div className="grid gap-2 sm:grid-cols-2">
+        {SUGGESTED_QUESTIONS.map((q) => (
+          <button
+            key={q}
+            onClick={() => onSelect(q)}
+            className="flex items-start gap-2 rounded-xl border border-border bg-card px-4 py-3 text-left text-sm text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
+          >
+            <MessageSquare className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+            <span>{q}</span>
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

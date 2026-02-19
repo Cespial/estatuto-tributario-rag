@@ -19,7 +19,7 @@ import { clsx } from "clsx";
 export default function GuiaInteractivaPage() {
   const { guiaId } = useParams();
   const guia = useMemo(() => GUIAS_EDUCATIVAS.find(g => g.id === guiaId), [guiaId]);
-  
+
   const [currentNodeId, setCurrentNodeId] = useState(guia?.nodoInicial || "");
   const [history, setHistory] = useState<string[]>([]);
 
@@ -28,9 +28,9 @@ export default function GuiaInteractivaPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <div className="container py-20 text-center">
-          <h1 className="text-2xl font-bold">Guía no encontrada</h1>
+          <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-bold">Guía no encontrada</h1>
           <p className="mt-2 text-muted-foreground">La guía que buscas no existe o fue removida.</p>
-          <Link href="/guias" className="mt-4 inline-block text-primary hover:underline">Volver al índice de guías</Link>
+          <Link href="/guias" className="mt-4 inline-block text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground">Volver al índice de guías</Link>
         </div>
       </div>
     );
@@ -60,35 +60,35 @@ export default function GuiaInteractivaPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <div className="mx-auto w-full max-w-3xl flex-1 px-4 py-10">
-      <Link href="/guias" className="mb-8 flex items-center text-sm font-medium text-muted-foreground hover:text-primary">
+      <Link href="/guias" className="mb-8 flex items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Volver a guías
       </Link>
 
-      <div className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">{guia.titulo}</h1>
-        <p className="text-muted-foreground">{guia.descripcion}</p>
-        
+      <div className="mb-12">
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">{guia.titulo}</h1>
+        <p className="mt-2 text-sm text-muted-foreground">{guia.descripcion}</p>
+
         {/* Progress breadcrumb */}
         <div className="mt-6 flex flex-wrap items-center gap-2">
-          <div className={clsx("h-2 w-12 rounded-full", history.length >= 0 ? "bg-primary" : "bg-muted")} />
+          <div className={clsx("h-2 w-12 rounded-full", history.length >= 0 ? "bg-foreground" : "bg-muted")} />
           {history.map((_, i) => (
             <div key={i} className="flex items-center gap-2">
               <ChevronRight className="h-4 w-4 text-muted-foreground/30" />
-              <div className="h-2 w-12 rounded-full bg-primary" />
+              <div className="h-2 w-12 rounded-full bg-foreground" />
             </div>
           ))}
         </div>
       </div>
 
-      <div className="relative overflow-hidden rounded-3xl border border-border bg-card p-8 shadow-xl">
+      <div className="relative overflow-hidden rounded-xl border border-border/60 bg-card p-8 shadow-sm">
         {currentNode?.tipo === "pregunta" ? (
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-1 rounded-full bg-primary/10 p-2 text-primary">
+              <div className="mt-1 rounded-full bg-muted p-2 text-foreground/70">
                 <HelpCircle className="h-6 w-6" />
               </div>
-              <h2 className="text-2xl font-semibold leading-tight">{currentNode.texto}</h2>
+              <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold leading-tight">{currentNode.texto}</h2>
             </div>
 
             <div className="grid gap-3 sm:grid-cols-2">
@@ -96,10 +96,10 @@ export default function GuiaInteractivaPage() {
                 <button
                   key={i}
                   onClick={() => handleOptionSelect(opcion.nextNodeId)}
-                  className="group flex items-center justify-between rounded-xl border border-border p-4 text-left transition-all hover:border-primary hover:bg-primary/5 active:scale-95"
+                  className="group flex items-center justify-between rounded-xl border border-border bg-card p-4 text-left transition-all hover:border-foreground/30 hover:shadow-sm active:scale-95"
                 >
                   <span className="font-semibold">{opcion.label}</span>
-                  <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-transform group-hover:translate-x-1" />
+                  <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-foreground/70 transition-transform group-hover:translate-x-1" />
                 </button>
               ))}
             </div>
@@ -107,11 +107,11 @@ export default function GuiaInteractivaPage() {
         ) : (
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-1 rounded-full bg-green-100 p-2 text-green-600 dark:bg-green-900/30 dark:text-green-400">
+              <div className="mt-1 rounded-full bg-muted p-2 text-green-700 dark:text-green-400">
                 <CheckCircle2 className="h-6 w-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-green-700 dark:text-green-400 leading-tight">
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-green-700 dark:text-green-400 leading-tight">
                   {currentNode?.texto}
                 </h2>
                 {currentNode?.recomendacion && (
@@ -128,10 +128,10 @@ export default function GuiaInteractivaPage() {
                   <Link
                     key={i}
                     href={enlace.href}
-                    className="flex items-center justify-between rounded-xl bg-primary/10 px-4 py-3 text-sm font-bold text-primary transition-colors hover:bg-primary/20"
+                    className="flex items-center justify-between rounded-xl border border-border bg-muted/50 px-4 py-3 text-sm font-bold text-foreground transition-all hover:border-foreground/30 hover:shadow-sm"
                   >
                     {enlace.label}
-                    <ExternalLink className="h-4 w-4" />
+                    <ExternalLink className="h-4 w-4 text-foreground/70" />
                   </Link>
                 ))}
               </div>
@@ -139,7 +139,7 @@ export default function GuiaInteractivaPage() {
 
             <button
               onClick={handleReset}
-              className="flex w-full items-center justify-center gap-2 rounded-xl border-2 border-dashed border-border py-4 font-bold text-muted-foreground transition-all hover:border-primary hover:text-primary"
+              className="flex w-full items-center justify-center gap-2 rounded-xl border-2 border-dashed border-border py-4 font-bold text-muted-foreground transition-all hover:border-foreground/30 hover:text-foreground"
             >
               <RotateCcw className="h-4 w-4" />
               Reiniciar autodiagnóstico
@@ -147,11 +147,11 @@ export default function GuiaInteractivaPage() {
           </div>
         )}
 
-        <div className="mt-10 flex justify-between border-t pt-6">
+        <div className="mt-10 flex justify-between border-t border-border/40 pt-6">
           <button
             onClick={handleBack}
             disabled={history.length === 0}
-            className="flex items-center gap-2 text-sm font-bold text-muted-foreground transition-colors hover:text-primary disabled:opacity-30"
+            className="flex items-center gap-2 text-sm font-bold text-muted-foreground transition-colors hover:text-foreground disabled:opacity-30"
           >
             <Undo2 className="h-4 w-4" />
             Volver atrás

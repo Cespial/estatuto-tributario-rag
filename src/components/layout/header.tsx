@@ -1,24 +1,7 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import {
-  Moon,
-  Sun,
-  Scale,
-  MessageSquare,
-  BarChart3,
-  Search,
-  Calculator,
-  Calendar,
-  Table,
-  Activity,
-  Book,
-  Newspaper,
-  FileText,
-  GraduationCap,
-  Bookmark,
-  History,
-} from "lucide-react";
+import { Moon, Sun, Scale } from "lucide-react";
 
 import { useSyncExternalStore } from "react";
 import Link from "next/link";
@@ -26,19 +9,19 @@ import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
 
 const NAV_ITEMS = [
-  { href: "/", label: "Chat", icon: MessageSquare },
-  { href: "/dashboard", label: "Dashboard", icon: BarChart3 },
-  { href: "/explorador", label: "Explorador", icon: Search },
-  { href: "/comparar", label: "Comparar", icon: History },
-  { href: "/calculadoras", label: "Calculadoras", icon: Calculator },
-  { href: "/calendario", label: "Calendario", icon: Calendar },
-  { href: "/tablas/retencion", label: "Tablas", icon: Table },
-  { href: "/indicadores", label: "Indicadores", icon: Activity },
-  { href: "/glosario", label: "Glosario", icon: Book },
-  { href: "/novedades", label: "Novedades", icon: Newspaper },
-  { href: "/doctrina", label: "Doctrina", icon: FileText },
-  { href: "/guias", label: "Guías", icon: GraduationCap },
-  { href: "/favoritos", label: "Favoritos", icon: Bookmark },
+  { href: "/", label: "Chat" },
+  { href: "/dashboard", label: "Dashboard" },
+  { href: "/explorador", label: "Explorador" },
+  { href: "/comparar", label: "Comparar" },
+  { href: "/calculadoras", label: "Calculadoras" },
+  { href: "/calendario", label: "Calendario" },
+  { href: "/tablas/retencion", label: "Tablas" },
+  { href: "/indicadores", label: "Indicadores" },
+  { href: "/glosario", label: "Glosario" },
+  { href: "/novedades", label: "Novedades" },
+  { href: "/doctrina", label: "Doctrina" },
+  { href: "/guias", label: "Guías" },
+  { href: "/favoritos", label: "Favoritos" },
 ];
 
 export function Header() {
@@ -51,57 +34,71 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <div className="flex flex-1 items-center gap-4 overflow-hidden">
-          <Link href="/" className="flex shrink-0 items-center gap-2">
-            <Scale className="h-5 w-5 text-primary" />
-            <h1 className="text-lg font-semibold whitespace-nowrap">SuperApp Tributaria</h1>
+    <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+        <div className="flex flex-1 items-center gap-6 overflow-hidden">
+          {/* Logo — Harvey.ai inspired: elegant serif feel */}
+          <Link href="/" className="flex shrink-0 items-center gap-2.5">
+            <Scale className="h-5 w-5 text-foreground" />
+            <h1 className="whitespace-nowrap text-lg tracking-tight">
+              <span className="font-light">SuperApp</span>{" "}
+              <span className="font-semibold">Tributaria</span>
+            </h1>
           </Link>
-          
-          <nav 
-            className="flex flex-1 items-center gap-1 overflow-x-auto px-2 scrollbar-none mask-fade-right" 
-            style={{ 
-              msOverflowStyle: 'none', 
-              scrollbarWidth: 'none',
-              WebkitMaskImage: 'linear-gradient(to right, black 85%, transparent 100%)'
-            }}
+
+          {/* Navigation — text-only, uppercase, generous spacing */}
+          <nav
+            className="relative flex flex-1 items-center overflow-hidden"
           >
-            {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
-              const isActive =
-                href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(href);
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  className={clsx(
-                    "flex items-center gap-1.5 shrink-0 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
-                    isActive
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                  )}
-                >
-                  <Icon className="h-4 w-4" />
-                  <span className={clsx(isActive ? "block" : "hidden lg:block")}>{label}</span>
-                </Link>
-              );
-            })}
+            <div
+              className="flex items-center gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-none"
+              style={{
+                msOverflowStyle: "none",
+                scrollbarWidth: "none",
+              }}
+            >
+              {NAV_ITEMS.map(({ href, label }) => {
+                const isActive =
+                  href === "/"
+                    ? pathname === "/"
+                    : pathname.startsWith(href);
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={clsx(
+                      "relative shrink-0 snap-start py-1 text-[13px] font-medium uppercase tracking-wide transition-colors",
+                      isActive
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    {label}
+                    {/* Subtle active underline indicator */}
+                    {isActive && (
+                      <span className="absolute inset-x-0 -bottom-[1px] h-[1.5px] rounded-full bg-foreground" />
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+            {/* Right fade overlay for scroll indication */}
+            <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-background/80 to-transparent" />
           </nav>
         </div>
 
-        <div className="flex items-center gap-2 ml-4">
+        {/* Theme toggle — subtle, minimal */}
+        <div className="ml-6 flex shrink-0 items-center">
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="rounded-md p-2 hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+              className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
               aria-label="Cambiar tema"
             >
               {theme === "dark" ? (
-                <Sun className="h-4 w-4" />
+                <Sun className="h-3.5 w-3.5" />
               ) : (
-                <Moon className="h-4 w-4" />
+                <Moon className="h-3.5 w-3.5" />
               )}
             </button>
           )}

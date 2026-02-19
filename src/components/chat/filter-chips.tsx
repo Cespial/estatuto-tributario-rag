@@ -12,10 +12,10 @@ export function FilterChips({ selected, onChange }: FilterChipsProps) {
     <div className="flex flex-wrap gap-1.5">
       <button
         onClick={() => onChange(undefined)}
-        className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+        className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
           !selected
-            ? "bg-primary text-primary-foreground"
-            : "bg-muted text-muted-foreground hover:bg-border"
+            ? "border border-foreground bg-foreground text-background"
+            : "border border-border text-muted-foreground hover:border-foreground/30 hover:text-foreground"
         }`}
       >
         Todos
@@ -26,10 +26,10 @@ export function FilterChips({ selected, onChange }: FilterChipsProps) {
           onClick={() =>
             onChange(selected === libro.key ? undefined : libro.key)
           }
-          className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
             selected === libro.key
-              ? "bg-primary text-primary-foreground"
-              : "bg-muted text-muted-foreground hover:bg-border"
+              ? "border border-foreground bg-foreground text-background"
+              : "border border-border text-muted-foreground hover:border-foreground/30 hover:text-foreground"
           }`}
         >
           {libro.label}

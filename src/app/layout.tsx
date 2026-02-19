@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { ArticlePanelProvider } from "@/contexts/article-panel-context";
 import { SlideOutPanel } from "@/components/article/slide-out-panel";
@@ -15,8 +15,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const viewport: Viewport = {
-  themeColor: "#2563eb",
+  themeColor: "#1a1a17",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
@@ -25,7 +31,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "SuperApp Tributaria Colombia",
   description:
-    "La super app tributaria de Colombia: 26 calculadoras, consulta inteligente con IA de los 1,294 artículos del Estatuto Tributario, calendario, indicadores, glosario y más.",
+    "La super app tributaria de Colombia: 35 calculadoras, consulta inteligente con IA de los 1,294 artículos del Estatuto Tributario, calendario, indicadores, glosario y más.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -35,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SuperApp Tributaria Colombia",
     description:
-      "26 calculadoras tributarias, consulta con IA del Estatuto Tributario, calendario fiscal, indicadores y glosario.",
+      "35 calculadoras tributarias, consulta con IA del Estatuto Tributario, calendario fiscal, indicadores y glosario.",
     type: "website",
     locale: "es_CO",
     siteName: "SuperApp Tributaria Colombia",
@@ -60,7 +66,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ArticlePanelProvider>

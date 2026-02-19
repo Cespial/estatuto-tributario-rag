@@ -13,18 +13,20 @@ export function CalculatorCard({ href, title, description, icon: Icon, articles 
   return (
     <Link
       href={href}
-      className="group flex flex-col rounded-lg border border-border p-4 transition-all hover:border-primary/50 hover:shadow-sm"
+      className="group flex flex-col rounded-xl border border-transparent bg-card p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
     >
-      <div className="mb-3 flex items-center gap-2">
-        <Icon className="h-5 w-5 text-primary" />
-        <h2 className="text-sm font-semibold">{title}</h2>
+      <div className="mb-4 flex items-center gap-2">
+        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-muted">
+          <Icon className="h-4 w-4 text-foreground/70" />
+        </div>
+        <h2 className="text-sm font-semibold text-foreground">{title}</h2>
       </div>
-      <p className="mb-4 flex-1 text-sm text-muted-foreground">{description}</p>
+      <p className="mb-4 flex-1 text-[13px] leading-relaxed text-muted-foreground">{description}</p>
       <div className="flex items-center justify-between">
-        <span className="text-xs text-muted-foreground">
+        <span className="text-[11px] text-muted-foreground/70">
           {articles.map((a) => `Art. ${a}`).join(" · ")}
         </span>
-        <span className="text-xs text-primary opacity-0 transition-opacity group-hover:opacity-100">
+        <span className="text-[11px] font-medium text-foreground opacity-0 transition-opacity group-hover:opacity-100">
           Abrir →
         </span>
       </div>

@@ -8,13 +8,13 @@ export function CalculatorSources({ articles }: CalculatorSourcesProps) {
   if (articles.length === 0) return null;
 
   return (
-    <div className="flex flex-wrap items-center gap-2 text-sm">
-      <span className="text-muted-foreground">Articulos relacionados:</span>
+    <div className="mt-8 flex flex-wrap items-center gap-2 border-t border-border/40 pt-6 text-sm">
+      <span className="text-xs uppercase tracking-wide text-muted-foreground">Articulos relacionados:</span>
       {articles.map((art) => (
         <Link
           key={art}
           href={`/articulo/${art}`}
-          className="text-xs text-primary hover:underline"
+          className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-foreground transition-colors hover:bg-muted"
         >
           Art. {art}
         </Link>

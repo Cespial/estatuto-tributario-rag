@@ -68,7 +68,7 @@ export function ChatContainer() {
   return (
     <div className="flex h-[calc(100vh-3.5rem)] flex-col">
       {/* Filter chips */}
-      <div className="border-b border-border px-4 py-2">
+      <div className="border-b border-border/40 px-4 py-2">
         <div className="mx-auto max-w-4xl">
           <FilterChips selected={libroFilter} onChange={setLibroFilter} />
         </div>
@@ -78,11 +78,11 @@ export function ChatContainer() {
         <div className="flex flex-1 flex-col items-center justify-center p-4">
           <div className="mb-8 text-center">
             <div className="mb-4 flex justify-center">
-              <div className="rounded-2xl bg-primary/10 p-4">
-                <Scale className="h-10 w-10 text-primary" />
+              <div className="rounded-2xl bg-muted p-4">
+                <Scale className="h-10 w-10 text-foreground" />
               </div>
             </div>
-            <h2 className="mb-2 text-2xl font-bold">
+            <h2 className="mb-2 font-[family-name:var(--font-playfair)] text-2xl font-bold">
               SuperApp Tributaria Colombia
             </h2>
             <p className="flex items-center justify-center gap-1.5 text-muted-foreground">

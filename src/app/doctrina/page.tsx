@@ -18,19 +18,19 @@ import { clsx } from "clsx";
 const TIPO_DOC_CONFIG: Record<DoctrinaDIAN["tipoDocumento"], { label: string; color: string }> = {
   concepto: {
     label: "Concepto",
-    color: "bg-blue-500/10 text-blue-700 border-blue-500/20 dark:text-blue-400",
+    color: "bg-muted text-foreground border-border",
   },
   oficio: {
     label: "Oficio",
-    color: "bg-emerald-500/10 text-emerald-700 border-emerald-500/20 dark:text-emerald-400",
+    color: "bg-muted text-foreground border-border",
   },
   "doctrina-general": {
     label: "Doctrina General",
-    color: "bg-purple-500/10 text-purple-700 border-purple-500/20 dark:text-purple-400",
+    color: "bg-muted text-foreground border-border",
   },
   circular: {
     label: "Circular",
-    color: "bg-orange-500/10 text-orange-700 border-orange-500/20 dark:text-orange-400",
+    color: "bg-muted text-foreground border-border",
   },
 };
 
@@ -92,20 +92,22 @@ export default function DoctrinaPage() {
   return (
     <div className="animate-in fade-in duration-500">
       {/* Header */}
-      <div className="mb-8 border-b border-border pb-6">
-        <h1 className="flex items-center gap-3 text-3xl font-bold tracking-tight text-foreground">
-          <div className="rounded-lg bg-primary/10 p-2 text-primary">
+      <div className="mb-12 pb-6">
+        <div className="flex items-center gap-3 mb-3">
+          <div className="rounded-lg bg-muted p-2 text-foreground/70">
             <Scale className="h-8 w-8" />
           </div>
-          Doctrina DIAN
-        </h1>
-        <p className="mt-3 text-lg text-muted-foreground max-w-2xl">
+          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-foreground">
+            Doctrina DIAN
+          </h1>
+        </div>
+        <p className="mt-2 text-sm text-muted-foreground max-w-2xl">
           Conceptos y oficios de la Direccion de Impuestos y Aduanas Nacionales
         </p>
       </div>
 
       {/* Filters */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-8">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-10">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <input
@@ -113,14 +115,14 @@ export default function DoctrinaPage() {
             placeholder="Buscar en doctrina..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full rounded-md border border-border bg-background py-2 pl-10 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+            className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 pl-10 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
 
         <select
           value={tipoFiltro}
           onChange={(e) => setTipoFiltro(e.target.value)}
-          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+          className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Todos los tipos</option>
           <option value="concepto">Concepto</option>
@@ -132,7 +134,7 @@ export default function DoctrinaPage() {
         <select
           value={vigenciaFiltro}
           onChange={(e) => setVigenciaFiltro(e.target.value)}
-          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+          className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
         >
           <option value="todos">Vigencia: Todos</option>
           <option value="vigente">Vigente</option>
@@ -148,13 +150,13 @@ export default function DoctrinaPage() {
             placeholder="Ej: 240, 383..."
             value={articuloFiltro}
             onChange={(e) => setArticuloFiltro(e.target.value)}
-            className="w-full rounded-md border border-border bg-background py-2 pl-12 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+            className="w-full rounded-lg border border-border/60 bg-card px-4 py-2.5 pl-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
           />
         </div>
       </div>
 
       {/* Results count */}
-      <div className="mb-4 text-sm text-muted-foreground">
+      <div className="mb-4 text-xs font-medium uppercase tracking-wide text-muted-foreground">
         {filtered.length} documento{filtered.length !== 1 ? "s" : ""} encontrado{filtered.length !== 1 ? "s" : ""}
       </div>
 
@@ -168,7 +170,7 @@ export default function DoctrinaPage() {
             return (
               <div
                 key={doc.id}
-                className="group rounded-xl border border-border bg-card overflow-hidden transition-all hover:shadow-md hover:border-primary/30"
+                className="group rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm transition-all hover:border-border hover:shadow-md"
               >
                 {/* Card header */}
                 <div className="p-6 pb-4">
@@ -182,19 +184,19 @@ export default function DoctrinaPage() {
                     </span>
                     <span
                       className={clsx(
-                        "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold ml-auto",
+                        "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium ml-auto",
                         tipoConf.color
                       )}
                     >
                       {tipoConf.label}
                     </span>
                     {doc.vigente ? (
-                      <span className="inline-flex items-center gap-1 text-xs font-medium text-emerald-600 dark:text-emerald-400">
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-green-700 dark:text-green-400">
                         <CheckCircle2 className="h-3.5 w-3.5" />
                         Vigente
                       </span>
                     ) : (
-                      <span className="inline-flex items-center gap-1 text-xs font-medium text-red-500 dark:text-red-400">
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground line-through">
                         <XCircle className="h-3.5 w-3.5" />
                         No vigente
                       </span>
@@ -202,7 +204,7 @@ export default function DoctrinaPage() {
                   </div>
 
                   {/* Tema */}
-                  <h3 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors mb-2">
+                  <h3 className="text-lg font-bold text-foreground transition-colors mb-2">
                     {doc.tema}
                   </h3>
 
@@ -212,7 +214,7 @@ export default function DoctrinaPage() {
                   </p>
 
                   {/* Conclusion clave - always visible */}
-                  <div className="bg-primary/5 border-l-4 border-primary p-3 rounded-r-md mb-4">
+                  <div className="bg-muted/50 border-l-4 border-foreground/20 p-3 rounded-r-md mb-4">
                     <p className="text-sm font-medium text-foreground leading-relaxed">
                       {doc.conclusionClave}
                     </p>
@@ -221,7 +223,7 @@ export default function DoctrinaPage() {
                   {/* Expand/collapse button */}
                   <button
                     onClick={() => toggleExpand(doc.id)}
-                    className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                    className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
                   >
                     {isExpanded ? (
                       <>
@@ -238,14 +240,14 @@ export default function DoctrinaPage() {
 
                   {/* Collapsible synthesis */}
                   {isExpanded && (
-                    <div className="mt-4 rounded-lg bg-muted/30 p-4 text-sm text-muted-foreground leading-relaxed animate-in slide-in-from-top-2 duration-200">
+                    <div className="mt-4 rounded-xl bg-muted/30 p-4 text-sm text-muted-foreground leading-relaxed animate-in slide-in-from-top-2 duration-200">
                       {doc.sintesis}
                     </div>
                   )}
                 </div>
 
                 {/* Card footer */}
-                <div className="px-6 py-4 bg-muted/20 border-t border-border/50">
+                <div className="px-6 py-4 bg-muted/20 border-t border-border/40">
                   <div className="flex flex-wrap items-center gap-3">
                     {/* ET Articles */}
                     {doc.articulosET.length > 0 && (
@@ -258,7 +260,7 @@ export default function DoctrinaPage() {
                             <Link
                               key={art}
                               href={`/articulo/${art}`}
-                              className="text-xs font-medium text-primary hover:underline flex items-center gap-0.5 bg-primary/5 px-1.5 py-0.5 rounded"
+                              className="text-xs font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground flex items-center gap-0.5 px-1.5 py-0.5 rounded"
                             >
                               Art. {art}
                               <ExternalLink className="h-2 w-2 opacity-50" />
@@ -273,7 +275,7 @@ export default function DoctrinaPage() {
                       {doc.descriptores.map((desc) => (
                         <span
                           key={desc}
-                          className="inline-flex items-center rounded-full bg-muted px-2 py-0.5 text-[10px] text-muted-foreground"
+                          className="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground"
                         >
                           {desc}
                         </span>
@@ -285,7 +287,7 @@ export default function DoctrinaPage() {
             );
           })
         ) : (
-          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border border-dashed">
+          <div className="py-20 text-center text-muted-foreground bg-muted/30 rounded-xl border border-border/60 border-dashed">
             <Filter className="h-10 w-10 mx-auto mb-4 opacity-20" />
             <p className="text-lg font-medium">No se encontraron documentos</p>
             <p className="text-sm">Intente con otra busqueda o modifique los filtros.</p>
@@ -296,7 +298,7 @@ export default function DoctrinaPage() {
                 setVigenciaFiltro("todos");
                 setArticuloFiltro("");
               }}
-              className="mt-4 text-sm text-primary hover:underline font-medium"
+              className="mt-4 text-sm text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground font-medium"
             >
               Limpiar filtros
             </button>
@@ -305,7 +307,7 @@ export default function DoctrinaPage() {
       </div>
 
       {/* Legal note */}
-      <div className="mt-8 rounded-lg border border-border bg-muted/30 p-4 text-xs text-muted-foreground">
+      <div className="mt-8 rounded-xl border border-border/60 bg-card p-4 text-xs text-muted-foreground shadow-sm">
         <p>
           <strong>Nota legal:</strong> Los conceptos y oficios presentados son de caracter
           informativo. La doctrina DIAN puede ser revocada o modificada. Consulte siempre la base

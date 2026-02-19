@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { 
-  Bookmark, 
-  StickyNote, 
-  Trash2, 
-  ExternalLink, 
-  Download, 
+import {
+  Bookmark,
+  StickyNote,
+  Trash2,
+  ExternalLink,
+  Download,
   Upload,
   Calendar,
   FileText,
@@ -84,35 +84,35 @@ export default function FavoritosPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <div className="mx-auto w-full max-w-5xl flex-1 px-4 py-10">
-      <div className="mb-8 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+      <div className="mb-12 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Mi Espacio</h1>
-          <p className="text-muted-foreground">Gestiona tus favoritos, notas y datos guardados.</p>
+          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">Mi Espacio</h1>
+          <p className="mt-2 text-sm text-muted-foreground">Gestiona tus favoritos, notas y datos guardados.</p>
         </div>
         <div className="flex gap-2">
           <button
             onClick={importData}
-            className="flex items-center gap-2 rounded-md border border-border px-3 py-1.5 text-sm font-medium hover:bg-muted"
+            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-1.5 text-sm font-medium shadow-sm transition-all hover:border-border hover:shadow-md"
           >
-            <Upload className="h-4 w-4" />
+            <Upload className="h-4 w-4 text-foreground/70" />
             Importar
           </button>
           <button
             onClick={exportData}
-            className="flex items-center gap-2 rounded-md border border-border px-3 py-1.5 text-sm font-medium hover:bg-muted"
+            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-1.5 text-sm font-medium shadow-sm transition-all hover:border-border hover:shadow-md"
           >
-            <Download className="h-4 w-4" />
+            <Download className="h-4 w-4 text-foreground/70" />
             Exportar
           </button>
         </div>
       </div>
 
-      <div className="mb-8 flex border-b">
+      <div className="mb-10 flex border-b border-border/60">
         <button
           onClick={() => setActiveTab("favoritos")}
           className={clsx(
             "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-bold transition-colors",
-            activeTab === "favoritos" ? "border-primary text-primary" : "border-transparent text-muted-foreground hover:text-foreground"
+            activeTab === "favoritos" ? "border-foreground text-foreground" : "border-transparent text-muted-foreground hover:text-foreground"
           )}
         >
           <Bookmark className="h-4 w-4" />
@@ -122,7 +122,7 @@ export default function FavoritosPage() {
           onClick={() => setActiveTab("notas")}
           className={clsx(
             "flex items-center gap-2 border-b-2 px-6 py-3 text-sm font-bold transition-colors",
-            activeTab === "notas" ? "border-primary text-primary" : "border-transparent text-muted-foreground hover:text-foreground"
+            activeTab === "notas" ? "border-foreground text-foreground" : "border-transparent text-muted-foreground hover:text-foreground"
           )}
         >
           <StickyNote className="h-4 w-4" />
@@ -133,7 +133,7 @@ export default function FavoritosPage() {
       {activeTab === "favoritos" ? (
         <div className="space-y-6">
           {bookmarks.length === 0 ? (
-            <div className="rounded-3xl border border-dashed py-20 text-center">
+            <div className="rounded-xl border border-border/60 border-dashed py-20 text-center">
               <Bookmark className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
               <p className="text-muted-foreground">No tienes favoritos guardados aún.</p>
             </div>
@@ -146,16 +146,16 @@ export default function FavoritosPage() {
               }, {} as Record<string, typeof bookmarks>)
             ).map(([type, items]) => (
               <div key={type} className="space-y-3">
-                <h2 className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted-foreground">
+                <h2 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
                   {TYPE_LABELS[type as keyof typeof TYPE_LABELS]}
                 </h2>
                 <div className="grid gap-3 sm:grid-cols-2">
                   {items.map((item) => {
                     const Icon = TYPE_ICONS[item.type as keyof typeof TYPE_ICONS] || FileText;
                     return (
-                      <div key={item.id} className="group relative flex items-center justify-between rounded-xl border border-border bg-card p-4 transition-all hover:border-primary/50">
+                      <div key={item.id} className="group relative flex items-center justify-between rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
                         <Link href={item.href} className="flex flex-1 items-center gap-3">
-                          <div className="rounded-lg bg-primary/10 p-2 text-primary">
+                          <div className="rounded-lg bg-muted p-2 text-foreground/70">
                             <Icon className="h-4 w-4" />
                           </div>
                           <div className="overflow-hidden">
@@ -184,16 +184,16 @@ export default function FavoritosPage() {
       ) : (
         <div className="space-y-6">
           {notes.length === 0 ? (
-            <div className="rounded-3xl border border-dashed py-20 text-center">
+            <div className="rounded-xl border border-border/60 border-dashed py-20 text-center">
               <StickyNote className="mx-auto mb-4 h-12 w-12 text-muted-foreground/20" />
               <p className="text-muted-foreground">No tienes notas creadas aún.</p>
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2">
               {notes.map((note) => (
-                <div key={note.id} className="flex flex-col rounded-xl border border-border bg-card p-4">
-                  <div className="mb-3 flex items-center justify-between border-b pb-2">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+                <div key={note.id} className="flex flex-col rounded-xl border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-border hover:shadow-md">
+                  <div className="mb-3 flex items-center justify-between border-b border-border/40 pb-2">
+                    <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
                       Nota en {new Date(note.createdAt).toLocaleDateString()}
                     </span>
                     <button
@@ -211,7 +211,7 @@ export default function FavoritosPage() {
                   <div className="mt-4 flex justify-end">
                     <Link
                       href={`/explorador?art=${note.targetId}`}
-                      className="flex items-center gap-1 text-[10px] font-bold text-primary hover:underline"
+                      className="flex items-center gap-1 text-[10px] font-bold text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
                     >
                       Ver referencia
                       <ExternalLink className="h-3 w-3" />

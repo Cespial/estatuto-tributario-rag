@@ -302,8 +302,13 @@ const CALCULATORS = [
 export default function CalculadorasPage() {
   return (
     <>
-      <h1 className="mb-6 text-2xl font-bold">Calculadoras Tributarias</h1>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <h1 className="mb-2 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">
+        Calculadoras Tributarias
+      </h1>
+      <p className="mb-10 text-sm text-muted-foreground">
+        35 herramientas de calculo tributario integradas con el Estatuto Tributario de Colombia.
+      </p>
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {CALCULATORS.map((calc) => (
           <CalculatorCard key={calc.href} {...calc} />
         ))}

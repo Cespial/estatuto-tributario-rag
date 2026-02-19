@@ -49,11 +49,11 @@ export function CurrencyInput({
 
   return (
     <div>
-      <label htmlFor={id} className="mb-1 block text-sm font-medium text-muted-foreground">
+      <label htmlFor={id} className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
         {label}
       </label>
       <div className="relative">
-        <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground">
+        <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground/60">
           {prefix}
         </span>
         <input
@@ -64,7 +64,7 @@ export function CurrencyInput({
           value={value ? formatCOP(value) : ""}
           onChange={handleChange}
           placeholder={placeholder}
-          className="w-full rounded-md border border-border bg-background py-2 pl-7 pr-3 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+          className="w-full rounded-lg border border-border bg-card py-2.5 pl-8 pr-3 text-sm outline-none focus:border-foreground focus:ring-1 focus:ring-foreground/20"
         />
       </div>
     </div>
@@ -85,7 +85,7 @@ interface NumberInputProps {
 export function NumberInput({ id, label, value, onChange, min, max, placeholder = "0" }: NumberInputProps) {
   return (
     <div>
-      <label htmlFor={id} className="mb-1 block text-sm font-medium text-muted-foreground">
+      <label htmlFor={id} className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
         {label}
       </label>
       <input
@@ -101,7 +101,7 @@ export function NumberInput({ id, label, value, onChange, min, max, placeholder 
         min={min}
         max={max}
         placeholder={placeholder}
-        className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+        className="w-full rounded-lg border border-border bg-card px-3 py-2.5 text-sm outline-none focus:border-foreground focus:ring-1 focus:ring-foreground/20"
       />
     </div>
   );
@@ -124,14 +124,14 @@ interface SelectInputProps {
 export function SelectInput({ id, label, value, onChange, options }: SelectInputProps) {
   return (
     <div>
-      <label htmlFor={id} className="mb-1 block text-sm font-medium text-muted-foreground">
+      <label htmlFor={id} className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
         {label}
       </label>
       <select
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary focus-visible:ring-2 focus-visible:ring-primary"
+        className="w-full rounded-lg border border-border bg-card px-3 py-2.5 text-sm outline-none focus:border-foreground focus-visible:ring-2 focus-visible:ring-foreground/20"
       >
         {options.map((o) => (
           <option key={o.value} value={o.value}>
@@ -157,10 +157,10 @@ export function ToggleInput({ label, pressed, onToggle }: ToggleInputProps) {
       onClick={() => onToggle(!pressed)}
       aria-pressed={pressed}
       className={clsx(
-        "rounded-md border px-3 py-2 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
+        "rounded-lg border px-3 py-2 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:outline-none",
         pressed
-          ? "border-primary bg-primary/10 text-primary"
-          : "border-border text-muted-foreground hover:bg-muted",
+          ? "border-foreground bg-foreground/5 text-foreground"
+          : "border-border text-muted-foreground hover:border-foreground/30 hover:text-foreground",
       )}
     >
       {label}

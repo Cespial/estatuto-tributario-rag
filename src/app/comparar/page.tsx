@@ -34,8 +34,8 @@ export default function CompararPage() {
   const [versionA, setVersionA] = useState<number>(-1); // -1 is current, 0+ are historical
   const [versionB, setVersionB] = useState<number>(-1);
 
-  const { contentRef, handlePrint } = usePrintExport({ 
-    title: article ? `Comparación ${article.id_articulo}` : "Comparación de Artículo" 
+  const { contentRef, handlePrint } = usePrintExport({
+    title: article ? `Comparación ${article.id_articulo}` : "Comparación de Artículo"
   });
 
   useEffect(() => {
@@ -70,14 +70,14 @@ export default function CompararPage() {
         year: mod?.norma_year
       };
     });
-    
+
     list.push({
       id: -1,
       label: "Versión Vigente (Actual)",
       text: article.contenido_texto,
       year: new Date().getFullYear()
     });
-    
+
     return list;
   }, [article]);
 
@@ -88,19 +88,21 @@ export default function CompararPage() {
 
   return (
     <div className="mx-auto max-w-6xl p-4 md:p-8">
-      <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
+      <div className="mb-12 flex flex-wrap items-center justify-between gap-4">
         <div className="flex flex-col gap-1">
-          <Link href="/" className="mb-2 flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
+          <Link href="/" className="mb-2 flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors">
             <ArrowLeft className="h-4 w-4" />
             Volver al inicio
           </Link>
-          <h1 className="text-3xl font-bold tracking-tight flex items-center gap-3">
-            <History className="h-8 w-8 text-primary" />
-            Comparador Multi-año
-          </h1>
-          <p className="text-muted-foreground">Analice la evolución de los artículos tras las reformas tributarias.</p>
+          <div className="flex items-center gap-3">
+            <History className="h-8 w-8 text-foreground/70" />
+            <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight">
+              Comparador Multi-año
+            </h1>
+          </div>
+          <p className="mt-2 text-sm text-muted-foreground">Analice la evolución de los artículos tras las reformas tributarias.</p>
         </div>
-        
+
         {article && (
           <PdfExportButton onClick={handlePrint} />
         )}
@@ -109,23 +111,23 @@ export default function CompararPage() {
       <div className="grid gap-8 lg:grid-cols-4">
         {/* Sidebar Controls */}
         <div className="lg:col-span-1 space-y-6">
-          <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
+          <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
             <ArticleVersionSelector onSelect={setSlug} selectedSlug={slug} />
-            
+
             {article && (
               <div className="mt-8 space-y-6 animate-in fade-in slide-in-from-left-4 duration-500">
                 <div className="space-y-3">
-                  <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Versión A (Base)</label>
+                  <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Versión A (Base)</label>
                   <div className="flex flex-col gap-2">
                     {versions.map((v) => (
                       <button
                         key={v.id}
                         onClick={() => setVersionA(v.id)}
                         className={clsx(
-                          "w-full rounded-md px-3 py-2 text-left text-xs transition-all",
-                          versionA === v.id 
-                            ? "bg-primary text-primary-foreground font-bold shadow-md" 
-                            : "bg-muted/50 text-muted-foreground hover:bg-muted"
+                          "w-full rounded-lg px-3 py-2 text-left text-xs transition-all",
+                          versionA === v.id
+                            ? "border border-foreground bg-foreground text-background font-bold"
+                            : "border border-border/60 bg-card text-muted-foreground hover:border-foreground/30"
                         )}
                       >
                         {v.label}
@@ -135,17 +137,17 @@ export default function CompararPage() {
                 </div>
 
                 <div className="space-y-3">
-                  <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Versión B (Comparar)</label>
+                  <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Versión B (Comparar)</label>
                   <div className="flex flex-col gap-2">
                     {versions.map((v) => (
                       <button
                         key={v.id}
                         onClick={() => setVersionB(v.id)}
                         className={clsx(
-                          "w-full rounded-md px-3 py-2 text-left text-xs transition-all",
-                          versionB === v.id 
-                            ? "bg-primary text-primary-foreground font-bold shadow-md" 
-                            : "bg-muted/50 text-muted-foreground hover:bg-muted"
+                          "w-full rounded-lg px-3 py-2 text-left text-xs transition-all",
+                          versionB === v.id
+                            ? "border border-foreground bg-foreground text-background font-bold"
+                            : "border border-border/60 bg-card text-muted-foreground hover:border-foreground/30"
                         )}
                       >
                         {v.label}
@@ -157,11 +159,11 @@ export default function CompararPage() {
             )}
           </div>
 
-          <div className="rounded-xl border border-blue-100 bg-blue-50/50 p-4 dark:border-blue-900/20 dark:bg-blue-950/10">
+          <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
             <div className="flex gap-3">
-              <Info className="h-5 w-5 text-blue-600 shrink-0" />
-              <div className="text-[11px] leading-relaxed text-blue-800 dark:text-blue-300">
-                <p className="font-bold mb-1 uppercase tracking-tight">Sobre la base de datos</p>
+              <Info className="h-5 w-5 text-foreground/70 shrink-0" />
+              <div className="text-[11px] leading-relaxed text-muted-foreground">
+                <p className="font-bold mb-1 uppercase tracking-tight text-foreground/80">Sobre la base de datos</p>
                 <p>Las versiones anteriores provienen de los parágrafos derogados y registros históricos integrados en el sistema RAG de esta plataforma.</p>
               </div>
             </div>
@@ -171,11 +173,11 @@ export default function CompararPage() {
         {/* Main Content / Diff Viewer */}
         <div className="lg:col-span-3">
           {!slug ? (
-            <div className="flex h-[400px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-border bg-muted/20 p-12 text-center">
-              <div className="mb-4 rounded-full bg-primary/10 p-4">
-                <Scale className="h-10 w-10 text-primary" />
+            <div className="flex h-[400px] flex-col items-center justify-center rounded-xl border-2 border-dashed border-border/60 bg-muted/10 p-12 text-center">
+              <div className="mb-4 rounded-full bg-muted p-4">
+                <Scale className="h-10 w-10 text-foreground/70" />
               </div>
-              <h3 className="text-xl font-bold">Inicie una comparación</h3>
+              <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold">Inicie una comparación</h3>
               <p className="mt-2 max-w-sm text-sm text-muted-foreground">
                 Seleccione un artículo modificado del panel lateral para visualizar los cambios palabra por palabra.
               </p>
@@ -189,21 +191,21 @@ export default function CompararPage() {
           ) : article ? (
             <div className="space-y-6">
               <div className="flex flex-col gap-2">
-                <h2 className="text-2xl font-bold text-foreground">{article.id_articulo}</h2>
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-foreground">{article.id_articulo}</h2>
                 <p className="text-sm font-medium text-muted-foreground">{article.titulo}</p>
               </div>
 
               {versionA === versionB ? (
-                <div className="flex items-center gap-3 rounded-lg border border-amber-200 bg-amber-50 p-4 text-amber-800 dark:border-amber-900/50 dark:bg-amber-950/20 dark:text-amber-400">
-                  <AlertTriangle className="h-5 w-5" />
+                <div className="flex items-center gap-3 rounded-xl border border-border/60 bg-muted/30 p-4 text-foreground">
+                  <AlertTriangle className="h-5 w-5 text-foreground/70" />
                   <p className="text-sm font-medium">Está comparando la misma versión. Por favor seleccione una versión diferente en el panel lateral.</p>
                 </div>
               ) : (
-                <ArticleDiffViewer 
-                  oldText={textA} 
-                  newText={textB} 
-                  oldLabel={labelA} 
-                  newLabel={labelB} 
+                <ArticleDiffViewer
+                  oldText={textA}
+                  newText={textB}
+                  oldLabel={labelA}
+                  newLabel={labelB}
                 />
               )}
 
@@ -216,11 +218,11 @@ export default function CompararPage() {
                       <span className="text-muted-foreground">VS</span>
                       <span className="text-green-600">B: {labelB}</span>
                     </div>
-                    <ArticleDiffViewer 
-                      oldText={textA} 
-                      newText={textB} 
-                      oldLabel={labelA} 
-                      newLabel={labelB} 
+                    <ArticleDiffViewer
+                      oldText={textA}
+                      newText={textB}
+                      oldLabel={labelA}
+                      newLabel={labelB}
                     />
                   </PrintWrapper>
                 </div>
