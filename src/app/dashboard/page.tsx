@@ -67,6 +67,7 @@ export default async function DashboardPage() {
   const [stats, timeseries, articleIndex] = await Promise.all([
     readJsonFile<DashboardStats>("dashboard-stats.json"),
     readJsonFile<DashboardTimeSeries>("dashboard-timeseries.json"),
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     readJsonFile<any[]>("articles-index.json"),
   ]);
 

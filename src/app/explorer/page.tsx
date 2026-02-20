@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import CytoscapeComponent from "react-cytoscapejs";
 
 // Professional graph styles
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const stylesheet: any = [
   {
     selector: "node",
@@ -80,8 +81,11 @@ const stylesheet: any = [
 
 export default function GraphExplorer() {
   const [query, setQuery] = useState("");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [graphData, setGraphData] = useState<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectedNode, setSelectedNode] = useState<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const cyRef = useRef<any>(null);
 
   const searchGraph = async () => {
@@ -185,11 +189,13 @@ export default function GraphExplorer() {
               layout={{ 
                 name: "cose", 
                 animate: true,
-                nodeRepulsion: (node: any) => 400000,
-                idealEdgeLength: (edge: any) => 100,
+                nodeRepulsion: (_node: any) => 400000,
+                idealEdgeLength: (_edge: any) => 100,
               }}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               cy={(cy: any) => {
                 cyRef.current = cy;
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 cy.on("tap", "node", (evt: any) => {
                   const node = evt.target;
                   setSelectedNode({

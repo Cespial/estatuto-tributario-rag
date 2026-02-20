@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useMemo, useRef } from "react";
 import CytoscapeComponent from "react-cytoscapejs";
-import { Network, Globe, Filter, Calendar, BookOpen, Loader2, Maximize2, RotateCcw } from "lucide-react";
+import { Network, Globe, Loader2, RotateCcw } from "lucide-react";
 import { clsx } from "clsx";
 
 interface AssistantGraphViewProps {
@@ -30,8 +30,11 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
     text: theme === "light" ? "#706d66" : "#8f8b85",
   };
 
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   const stylesheet: any = [
     {
+// ... (rest of the stylesheet remains same) ...
+
       selector: "node",
       style: {
         "background-color": colors.estatuto,

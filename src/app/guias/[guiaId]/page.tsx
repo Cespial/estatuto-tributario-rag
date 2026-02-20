@@ -84,6 +84,7 @@ function deserializeSelectedOptions(value: string): SelectedOption[] | null {
     const parsed = JSON.parse(safeBase64Decode(value));
     if (!Array.isArray(parsed)) return null;
     return parsed.map(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (item: any) => ({
         nodeId: item[0],
         label: item[1],

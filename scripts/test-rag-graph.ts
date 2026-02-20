@@ -27,7 +27,7 @@ const mockChunks: RerankedChunk[] = [
       text: "La tarifa general del impuesto sobre la renta aplicable a las sociedades nacionales y sus asimiladas... será del 35%.",
       total_chunks: 1,
       // Metadata fields
-      estado: "Vigente",
+      estado: "vigente",
       slug: "240"
     }
   }
