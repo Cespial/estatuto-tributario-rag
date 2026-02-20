@@ -321,30 +321,29 @@ export function ChatContainer() {
                   <FilterChips selected={libroFilter} onChange={setLibroFilter} />
                 </div>
                 
-                {!isEmpty && (
-                  <div className="flex bg-muted p-0.5 rounded-lg border border-border/50">
-                    <button
-                      onClick={() => setActiveView("chat")}
-                      className={clsx(
-                        "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
-                        activeView === "chat" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
-                      )}
-                    >
-                      <MessageSquare className="h-3 w-3" />
-                      Chat
-                    </button>
-                    <button
-                      onClick={() => setActiveView("graph")}
-                      className={clsx(
-                        "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
-                        activeView === "graph" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
-                      )}
-                    >
-                      <Network className="h-3 w-3" />
-                      Mapa Legal
-                    </button>
-                  </div>
-                )}
+                {/* Tab Selector - Always visible if not in landing or after first interaction */}
+                <div className="flex bg-muted p-0.5 rounded-lg border border-border/50">
+                  <button
+                    onClick={() => setActiveView("chat")}
+                    className={clsx(
+                      "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
+                      activeView === "chat" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    <MessageSquare className="h-3 w-3" />
+                    Chat
+                  </button>
+                  <button
+                    onClick={() => setActiveView("graph")}
+                    className={clsx(
+                      "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
+                      activeView === "graph" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    <Network className="h-3 w-3" />
+                    Mapa Legal
+                  </button>
+                </div>
               </div>
               
               {!isEmpty && (
