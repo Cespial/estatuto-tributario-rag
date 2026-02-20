@@ -19,8 +19,9 @@ import { ChatConversation, ChatPageContext } from "@/types/chat-history";
 import { ConversationSidebar } from "./conversation-sidebar";
 import { trackEvent } from "@/lib/telemetry/events";
 import { ChatBottomSheet } from "./chat-bottom-sheet";
-import { Download, FileJson, Copy as CopyIcon, Check } from "lucide-react";
+import { Download, FileJson, Copy as CopyIcon, Check, MessageSquare, Network } from "lucide-react";
 import { clsx } from "clsx";
+import { AssistantGraphView } from "./assistant-graph-view";
 
 function getMessageText(message: { parts?: Array<{ type: string; text?: string }> }): string {
   return (
@@ -69,6 +70,8 @@ export function ChatContainer() {
   }, [searchParams]);
 
   const [libroFilter, setLibroFilter] = useState<string | undefined>(undefined);
+  const [activeView, setActiveView] = useState<"chat" | "graph">("chat");
+  const [detectedArticles, setDetectedArticles] = useState<string[]>([]);
   const [input, setInput] = useState(prefilledInput);
   const [selectedConversationId, setSelectedConversationId] = useState("");
   const [typingLabel, setTypingLabel] = useState("Buscando en el Estatuto Tributario...");
@@ -108,6 +111,18 @@ export function ChatContainer() {
   });
 
   const isLoading = status === "submitted" || status === "streaming";
+
+  // Detect articles from assistant sources to sync with the graph
+  useEffect(() => {
+    const lastAssistant = [...messages].reverse().find((m) => m.role === "assistant");
+    const sources: SourceCitation[] =
+      (lastAssistant?.metadata as { sources?: SourceCitation[] } | undefined)?.sources ?? [];
+    
+    if (sources.length > 0) {
+      const ids = sources.map(s => s.idArticulo).filter(Boolean);
+      setDetectedArticles(ids);
+    }
+  }, [messages]);
 
   useEffect(() => {
     if (status === "submitted") {
@@ -301,8 +316,35 @@ export function ChatContainer() {
         <ChatBottomSheet>
           <div className="flex h-full flex-col">
             <div className="flex items-center justify-between border-b border-border/40 px-4 py-2">
-              <div className="max-w-md flex-1">
-                <FilterChips selected={libroFilter} onChange={setLibroFilter} />
+              <div className="flex items-center gap-4 flex-1">
+                <div className="max-w-md">
+                  <FilterChips selected={libroFilter} onChange={setLibroFilter} />
+                </div>
+                
+                {!isEmpty && (
+                  <div className="flex bg-muted p-0.5 rounded-lg border border-border/50">
+                    <button
+                      onClick={() => setActiveView("chat")}
+                      className={clsx(
+                        "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
+                        activeView === "chat" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
+                      )}
+                    >
+                      <MessageSquare className="h-3 w-3" />
+                      Chat
+                    </button>
+                    <button
+                      onClick={() => setActiveView("graph")}
+                      className={clsx(
+                        "flex items-center gap-1.5 px-3 py-1 text-[11px] font-medium rounded-md transition-all",
+                        activeView === "graph" ? "bg-background shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"
+                      )}
+                    >
+                      <Network className="h-3 w-3" />
+                      Mapa Legal
+                    </button>
+                  </div>
+                )}
               </div>
               
               {!isEmpty && (
@@ -363,36 +405,45 @@ export function ChatContainer() {
                 </div>
               </div>
             ) : (
-              <MessageList
-                messages={messages}
-                sources={sources}
-                isLoading={isLoading}
-                typingLabel={typingLabel}
-                conversationId={selectedConversationId}
-                onAskAgain={(text) =>
-                  sendMessage({ text: `Responde de nuevo con otro enfoque profesional:\n\n${text}` })
-                }
-                onDeepen={(text) =>
-                  sendMessage({
-                    text: `Profundiza jurídicamente esta respuesta con mayor detalle técnico:\n\n${text}`,
-                  })
-                }
-                onShare={shareResponse}
-                onFeedback={(messageId, value) => {
-                  setFeedback(selectedConversationId, messageId, value);
-                  trackEvent("chat_feedback_submitted", {
-                    conversationId: selectedConversationId,
-                    messageId,
-                    value,
-                  });
-                }}
-                getFeedback={(messageId) =>
-                  getFeedback(selectedConversationId, messageId)?.value
-                }
-              />
+              <div className="flex-1 overflow-hidden relative">
+                {activeView === "chat" ? (
+                  <MessageList
+                    messages={messages}
+                    sources={sources}
+                    isLoading={isLoading}
+                    typingLabel={typingLabel}
+                    conversationId={selectedConversationId}
+                    onAskAgain={(text) =>
+                      sendMessage({ text: `Responde de nuevo con otro enfoque profesional:\n\n${text}` })
+                    }
+                    onDeepen={(text) =>
+                      sendMessage({
+                        text: `Profundiza jurídicamente esta respuesta con mayor detalle técnico:\n\n${text}`,
+                      })
+                    }
+                    onShare={shareResponse}
+                    onFeedback={(messageId, value) => {
+                      setFeedback(selectedConversationId, messageId, value);
+                      trackEvent("chat_feedback_submitted", {
+                        conversationId: selectedConversationId,
+                        messageId,
+                        value,
+                      });
+                    }}
+                    getFeedback={(messageId) =>
+                      getFeedback(selectedConversationId, messageId)?.value
+                    }
+                  />
+                ) : (
+                  <AssistantGraphView 
+                    articleIds={detectedArticles} 
+                    theme={typeof document !== "undefined" && document.documentElement.classList.contains("dark") ? "dark" : "light"}
+                  />
+                )}
+              </div>
             )}
 
-            {messages.length > 0 && suggestions.length > 0 && (
+            {messages.length > 0 && suggestions.length > 0 && activeView === "chat" && (
               <CalculatorSuggestions suggestions={suggestions} />
             )}
 
