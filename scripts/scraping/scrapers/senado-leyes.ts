@@ -9,7 +9,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { fetchHtml, stripHtml } from "../utils/html-fetcher";
-import { createGovScraper, RateLimiter } from "../utils/rate-limiter";
+import { createGovScraper } from "../utils/rate-limiter";
 import { extractArticleRefs } from "../utils/regex-patterns";
 
 const OUTPUT_DIR = path.resolve("data/scraped/leyes");
