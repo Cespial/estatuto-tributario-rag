@@ -188,9 +188,9 @@ export default function GraphExplorer() {
                 nodeRepulsion: (node: any) => 400000,
                 idealEdgeLength: (edge: any) => 100,
               }}
-              cy={(cy) => {
+              cy={(cy: any) => {
                 cyRef.current = cy;
-                cy.on("tap", "node", (evt) => {
+                cy.on("tap", "node", (evt: any) => {
                   const node = evt.target;
                   setSelectedNode({
                     id: node.id(),

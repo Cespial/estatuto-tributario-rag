@@ -229,9 +229,9 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
               nodeRepulsion: 8000,
               idealEdgeLength: 80,
             }}
-            cy={(cy) => {
+            cy={(cy: any) => {
               cyRef.current = cy;
-              cy.on("tap", "node", (evt) => {
+              cy.on("tap", "node", (evt: any) => {
                 // Focus animation on click
                 cy.animate({ center: { elef: evt.target }, zoom: 1.2 }, { duration: 400 });
               });
