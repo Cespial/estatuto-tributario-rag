@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import CytoscapeComponent from "react-cytoscapejs";
-import { Network, ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
+import { Network, Globe, Map as MapIcon, Loader2 } from "lucide-react";
+import { clsx } from "clsx";
 
 interface AssistantGraphViewProps {
   articleIds: string[];
@@ -12,12 +13,14 @@ interface AssistantGraphViewProps {
 export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGraphViewProps) {
   const [graphData, setGraphData] = useState<any>(null);
   const [loading, setLoading] = useState(false);
+  const [viewMode, setViewMode] = useState<"context" | "general">("context");
 
   // Colors based on globals.css
   const colors = {
     estatuto: theme === "light" ? "#0f0e0d" : "#fafaf9",
     ley: "#38A169",
     decreto: "#DD6B20",
+    libro: "#3182CE",
     edge: theme === "light" ? "#e5e5e3" : "#33312c",
     text: theme === "light" ? "#706d66" : "#8f8b85",
     bg: theme === "light" ? "#fafaf9" : "#0f0e0d",
@@ -50,6 +53,26 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
       style: { "background-color": colors.decreto }
     },
     {
+      selector: "node[type = 'libro']",
+      style: { 
+        "background-color": colors.libro,
+        width: 40,
+        height: 40,
+        "font-size": "12px",
+        "font-weight": "bold"
+      }
+    },
+    {
+      selector: "node[type = 'root']",
+      style: { 
+        "background-color": colors.estatuto,
+        width: 50,
+        height: 50,
+        "font-size": "14px",
+        "font-weight": "bold"
+      }
+    },
+    {
       selector: "edge",
       style: {
         width: 1.5,
@@ -63,13 +86,30 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
   ];
 
   useEffect(() => {
-    if (articleIds.length === 0) return;
+    // Si no hay artículos, forzar vista general
+    if (articleIds.length === 0 && viewMode === "context") {
+      setViewMode("general");
+    }
+  }, [articleIds]);
 
-    const fetchSubGraph = async () => {
+  useEffect(() => {
+    const fetchGraph = async () => {
       setLoading(true);
       try {
-        // Query the first detected article for now, or all if API supports it
-        const res = await fetch(`/api/tax-graph?q=${encodeURIComponent(articleIds[0])}`);
+        let url = "/api/tax-graph";
+        
+        if (viewMode === "general") {
+          url += "?mode=general";
+        } else if (articleIds.length > 0) {
+          // Join IDs for multi-node query
+          const idsParam = articleIds.join(",");
+          url += `?ids=${encodeURIComponent(idsParam)}`;
+        } else {
+          // Fallback to general if context is empty
+          url += "?mode=general";
+        }
+
+        const res = await fetch(url);
         const data = await res.json();
         setGraphData(data);
       } catch (err) {
@@ -79,28 +119,46 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
       }
     };
 
-    fetchSubGraph();
-  }, [articleIds]);
-
-  if (articleIds.length === 0) {
-    return (
-      <div className="h-full flex flex-col items-center justify-center text-center p-8 space-y-4">
-        <Network className="w-12 h-12 text-muted-foreground opacity-20" />
-        <p className="text-sm text-muted-foreground max-w-[240px]">
-          Las conexiones legales aparecerán aquí cuando menciones artículos del Estatuto.
-        </p>
-      </div>
-    );
-  }
+    fetchGraph();
+  }, [articleIds, viewMode]);
 
   return (
-    <div className="h-full w-full relative bg-background flex flex-col">
+    <div className="h-full w-full relative bg-background flex flex-col group">
       {loading && (
-        <div className="absolute inset-0 z-10 flex items-center justify-center bg-background/50 backdrop-blur-sm">
-          <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+        <div className="absolute inset-0 z-10 flex items-center justify-center bg-background/50 backdrop-blur-sm transition-opacity">
+          <Loader2 className="w-6 h-6 text-primary animate-spin" />
         </div>
       )}
       
+      {/* View Toggle - Floating */}
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex bg-card/80 backdrop-blur border border-border p-1 rounded-full shadow-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <button
+          onClick={() => setViewMode("context")}
+          disabled={articleIds.length === 0}
+          className={clsx(
+            "flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-medium rounded-full transition-all",
+            viewMode === "context" 
+              ? "bg-primary text-primary-foreground shadow-sm" 
+              : "text-muted-foreground hover:text-foreground disabled:opacity-50"
+          )}
+        >
+          <Network className="w-3 h-3" />
+          Contexto
+        </button>
+        <button
+          onClick={() => setViewMode("general")}
+          className={clsx(
+            "flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-medium rounded-full transition-all",
+            viewMode === "general" 
+              ? "bg-primary text-primary-foreground shadow-sm" 
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
+          <Globe className="w-3 h-3" />
+          Mapa General
+        </button>
+      </div>
+
       <div className="flex-1">
         {graphData && (
           <CytoscapeComponent
@@ -108,20 +166,28 @@ export function AssistantGraphView({ articleIds, theme = "light" }: AssistantGra
             style={{ width: "100%", height: "100%" }}
             stylesheet={stylesheet}
             layout={{ 
-              name: "cose", 
+              name: viewMode === "general" ? "breadthfirst" : "cose", 
               animate: true,
+              animationDuration: 500,
+              padding: 20,
               componentSpacing: 60,
-              nodeRepulsion: 10000 
+              nodeRepulsion: 10000,
+              // Specific options for breadthfirst (tree-like)
+              directed: true,
+              circle: false,
+              spacingFactor: 1.5,
             }}
             cy={(cy) => {
               cy.userZoomingEnabled(true);
+              cy.minZoom(0.5);
+              cy.maxZoom(2);
             }}
           />
         )}
       </div>
 
       {/* Mini Legend */}
-      <div className="p-3 border-t border-border flex gap-4 justify-center">
+      <div className="p-3 border-t border-border flex gap-4 justify-center bg-card/50 backdrop-blur-sm">
         <span className="flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
           <span className="w-2 h-2 rounded-full bg-primary"></span> Estatuto
         </span>
