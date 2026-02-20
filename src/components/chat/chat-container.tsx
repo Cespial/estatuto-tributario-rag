@@ -21,7 +21,20 @@ import { trackEvent } from "@/lib/telemetry/events";
 import { ChatBottomSheet } from "./chat-bottom-sheet";
 import { Download, FileJson, Copy as CopyIcon, Check, MessageSquare, Network } from "lucide-react";
 import { clsx } from "clsx";
-import { AssistantGraphView } from "./assistant-graph-view";
+import dynamic from "next/dynamic";
+
+// Dynamic import for graph to avoid SSR issues
+const AssistantGraphView = dynamic(
+  () => import("./assistant-graph-view").then((mod) => mod.AssistantGraphView),
+  { 
+    ssr: false,
+    loading: () => (
+      <div className="h-full w-full flex items-center justify-center bg-background/50">
+        <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    )
+  }
+);
 
 function getMessageText(message: { parts?: Array<{ type: string; text?: string }> }): string {
   return (
@@ -114,15 +127,21 @@ export function ChatContainer() {
 
   // Detect articles from assistant sources to sync with the graph
   useEffect(() => {
+    // Only update graph after streaming is done to avoid loops
+    if (status !== "ready") return;
+
     const lastAssistant = [...messages].reverse().find((m) => m.role === "assistant");
     const sources: SourceCitation[] =
       (lastAssistant?.metadata as { sources?: SourceCitation[] } | undefined)?.sources ?? [];
     
     if (sources.length > 0) {
       const ids = sources.map(s => s.idArticulo).filter(Boolean);
-      setDetectedArticles(ids);
+      // Avoid updating if the IDs are the same
+      if (JSON.stringify(ids) !== JSON.stringify(detectedArticles)) {
+        setDetectedArticles(ids);
+      }
     }
-  }, [messages]);
+  }, [messages, status, detectedArticles]);
 
   useEffect(() => {
     if (status === "submitted") {
