@@ -1,1 +1,259 @@
-{"id_articulo": "Art. 345", "titulo": "Art. 345. Ajuste del patrimonio.", "titulo_corto": "Ajuste del patrimonio.", "slug": "345", "url_origen": "https://estatuto.co/345", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía. Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio. La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía.</del></span></p>\n<p><span style=\"color: #339966;\"><del>Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.</del></span></p>\n<p><span style=\"color: #339966;\"><del>La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios.</del></span></p>\n</span>", "modificaciones_raw": "*Derogado por el Decreto 1744 de 1991 Art. 11.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Decreto", "norma_numero": "1744", "norma_year": 1991, "norma_articulo": "11"}], "total_modificaciones": 1, "ultima_modificacion_year": 1991, "leyes_modificatorias": ["Decreto 1744 de 1991"], "texto_derogado": ["*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía.", "Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.", "La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios."], "texto_derogado_parsed": [{"index": 0, "snippet": "*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevar...", "full_length": 266}, {"index": 1, "snippet": "Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.", "full_length": 193}, {"index": 2, "snippet": "La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá d...", "full_length": 494}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 345",
+  "titulo": "Art. 345. Ajuste del patrimonio.",
+  "titulo_corto": "Ajuste del patrimonio.",
+  "slug": "345",
+  "url_origen": "https://estatuto.co/345",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía. Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio. La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía.</del></span></p>\n<p><span style=\"color: #339966;\"><del>Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.</del></span></p>\n<p><span style=\"color: #339966;\"><del>La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios.</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por el Decreto 1744 de 1991 Art. 11.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Decreto",
+      "norma_numero": "1744",
+      "norma_year": 1991,
+      "norma_articulo": "11"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1991,
+  "leyes_modificatorias": [
+    "Decreto 1744 de 1991"
+  ],
+  "texto_derogado": [
+    "*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevará un débito a la cuenta de Corrección Monetaria por igual cuantía.",
+    "Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.",
+    "La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá distribuirse como utilidad a los socios o accionistas, hasta tanto se liquide la empresa o se capitalice tal valor de conformidad con lo previsto en el artículo 36-3 del Estatuto Tributario, en cuyo caso se distribuirá como un ingreso no gravado con el Impuesto sobre la Renta y Complementarios."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*El patrimonio líquido al comienzo de cada período, debe ajustarse con base en el PAAG, salvo cuando dicho patrimonio sea negativo, en cuyo caso no se efectúa este ajuste. Como contrapartida se llevar...",
+      "full_length": 266
+    },
+    {
+      "index": 1,
+      "snippet": "Para efectos comerciales, el patrimonio inicial de cada año debe ser objeto de tal ajuste, registrando el mismo como un mayor valor del patrimonio en la cuenta de Revalorización del Patrimonio.",
+      "full_length": 193
+    },
+    {
+      "index": 2,
+      "snippet": "La cuenta de Revalorización del Patrimonio forma parte del patrimonio de los años siguientes, para efectos del cálculo a que se refiere el inciso anterior. El valor reflejado en esta cuenta no podrá d...",
+      "full_length": 494
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 20705 (2019-08-20): Dividendos o participaciones en utilidades\noficio 86579 (2008-01-01): Retenci&oacute;n en la fuente sobre los remanentes pagados como resultado de la liquidaci&oacute;n del Banco del Estado S.A., al Fondo de Garant&iacute;as de Instituciones Financieras - FOGAFIN, en su condici&oacute;n de accionista del mismo\nconcepto 0070755 (2005-01-01): &iquest;C&oacute;mo se determina la renta exenta de las empresas que se acogieron al beneficio de la Ley P&aacute;ez, cuando el t&eacute;rmino de los 10 a&ntilde;os que trata el art&igrave;culo 2 de la Ley 218 de 1995 y el art&iacute;culo 15 del Decreto 529 de 1996 finaliza antes del 31 de diciembre del a&ntilde;o gravable?\nconcepto 0001851 (2005-01-01): &iquest;los pasivos correspondientes a anticipos recibidos por las agencias o filiales en Colombia de la casa principal del exterior por concepto de facturaci&oacute;n de mercanc&iacute;a exportada y endoso de facturaci&oacute;n a otros clientes, se consideran para efectos tributarios como patrimonio propio y por tanto base para calcular los ajustes por inflaci&oacute;n?\nconcepto 0013161 (2004-03-05): &iquest;Es deducible la correcci&oacute;n monetaria originada sobre la actualizaci&oacute;n del patrimonio contemplada en el art&iacute;culo 80 de la ley 788 de 2002?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-20705-2019",
+      "tipo": "oficio",
+      "numero": "20705",
+      "fecha": "2019-08-20",
+      "tema": "Dividendos o participaciones en utilidades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86579-2008",
+      "tipo": "oficio",
+      "numero": "86579",
+      "fecha": "2008-01-01",
+      "tema": "Retenci&oacute;n en la fuente sobre los remanentes pagados como resultado de la liquidaci&oacute;n del Banco del Estado S.A., al Fondo de Garant&iacute;as de Instituciones Financieras - FOGAFIN, en su condici&oacute;n de accionista del mismo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070755-2005",
+      "tipo": "concepto",
+      "numero": "0070755",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se determina la renta exenta de las empresas que se acogieron al beneficio de la Ley P&aacute;ez, cuando el t&eacute;rmino de los 10 a&ntilde;os que trata el art&igrave;culo 2 de la Ley 218 de 1995 y el art&iacute;culo 15 del Decreto 529 de 1996 finaliza antes del 31 de diciembre del a&ntilde;o gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001851-2005",
+      "tipo": "concepto",
+      "numero": "0001851",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;los pasivos correspondientes a anticipos recibidos por las agencias o filiales en Colombia de la casa principal del exterior por concepto de facturaci&oacute;n de mercanc&iacute;a exportada y endoso de facturaci&oacute;n a otros clientes, se consideran para efectos tributarios como patrimonio propio y por tanto base para calcular los ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013161-2004",
+      "tipo": "concepto",
+      "numero": "0013161",
+      "fecha": "2004-03-05",
+      "tema": "&iquest;Es deducible la correcci&oacute;n monetaria originada sobre la actualizaci&oacute;n del patrimonio contemplada en el art&iacute;culo 80 de la ley 788 de 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-000007-2026",
+      "tipo": "concepto",
+      "numero": "000007",
+      "fecha": "",
+      "tema": "Por medio del cual se corrige la respuesta a la pregunta n&uacute;mero 46 del Concepto 6 del 20 de septiembre de 2002",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000007-2002",
+      "tipo": "concepto",
+      "numero": "0000007",
+      "fecha": "2002-01-01",
+      "tema": "Por medio del cual se corrige la respuesta a la pregunta N&ordm; 46 del concepto 006 del 20 de septiembre de 2002",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-000006-2026",
+      "tipo": "concepto",
+      "numero": "000006",
+      "fecha": "",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-000005-2026",
+      "tipo": "concepto",
+      "numero": "000005",
+      "fecha": "",
+      "tema": "Sobre el impuesto para preservar la seguridad democr&aacute;tica de 2002",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108287-2000",
+      "tipo": "concepto",
+      "numero": "0108287",
+      "fecha": "2000-11-03",
+      "tema": "&iquest;Deben declararse los Certificados de Reembolso Tributario cuando realmente se han recibido o los causados? &iquest;Se debe ajustar el patrimonio l&iacute;quido cuando todos los activos son no monetarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093125-2000",
+      "tipo": "concepto",
+      "numero": "0093125",
+      "fecha": "2000-09-25",
+      "tema": "&iquest;Se debe disminuir el patrimonio l&iacute;quido de un contribuyente con el saldo de la cuenta por cobrar a los socios para efecto de aplicar los ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053887-2000",
+      "tipo": "concepto",
+      "numero": "0053887",
+      "fecha": "2000-06-07",
+      "tema": "&iquest;Se encuentra sujeto a ajustes integrales por inflaci&oacute;n el capital suscrito por cobrar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079122-1998",
+      "tipo": "concepto",
+      "numero": "0079122",
+      "fecha": "1998-10-07",
+      "tema": "&iquest;Es ingreso no gravado la distribuci&oacute;n del saldo de la cuenta de revalorizaci&oacute;n del patrimonio al momento de liquidar la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055912-1998",
+      "tipo": "concepto",
+      "numero": "0055912",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Es deducible la p&eacute;rdida en venta de activos fijos o movibles, con base a costos ajustados por inflaci&oacute;n?&iquest;En la liquidaci&oacute;n de sociedades es gravable en cabeza de los socios y accionistas a revalorizaci&oacute;n del patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040118-1996",
+      "tipo": "concepto",
+      "numero": "0040118",
+      "fecha": "1996-05-14",
+      "tema": "&iquest;Es posible que se pueda netear la cuenta de correcci&oacute;n monetaria (cargo o cr&eacute;dito por) para reclasificar el nuevo saldo o llevar a la p&eacute;rdida el activo o registrar como utilidad el pasivo? &iquest;Qu&eacute; efecto tiene aumentar la cuenta de revalorizaci&oacute;n del patrimonio cuando al liquidar una sociedad las p&eacute;rdidas arrojadas por la sociedad dan como resultado un patrimonio negativo? &iquest;C&oacute;mo se concilian las normas fiscales y con las normas contables con otras disciplinas jur&iacute;dicas?",
+      "vigente": true
+    }
+  ]
+}

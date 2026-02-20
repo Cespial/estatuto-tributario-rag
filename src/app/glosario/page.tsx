@@ -111,25 +111,57 @@ function HighlightText({ text, highlight }: { text: string; highlight: string })
 function FormulaBlock({ term }: { term: GlosarioTermEnriched }) {
   if (!term.formula) return null;
 
+  // Simple LaTeX-like rendering for common tax formulas
+  const renderedFormula = term.formula.expresion
+    .replace(/\s*=\s*/, " \\approx ")
+    .replace(/\s*\*\s*/g, " \\times ")
+    .replace(/\s*\/\s*/g, " \\div ");
+
   return (
-    <div className="rounded-lg border border-border/60 bg-muted/40 p-3">
-      <div className="mb-1 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-        <Sigma className="h-3.5 w-3.5" />
-        Fórmula
+    <div className="rounded-lg border border-border/60 bg-muted/40 p-4">
+      <div className="mb-2 flex items-center justify-between">
+        <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          <Sigma className="h-3.5 w-3.5" />
+          Fórmula Matemática
+        </div>
+        <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">
+          TAX-MATH v1
+        </span>
       </div>
-      <p className="rounded bg-card px-2 py-1.5 font-mono text-xs text-foreground sm:text-sm">
-        {term.formula.expresion}
-      </p>
-      <p className="mt-2 text-xs leading-relaxed text-muted-foreground">{term.formula.lectura}</p>
-      {term.formula.variables.length > 0 && (
-        <ul className="mt-2 space-y-1 text-xs text-muted-foreground">
-          {term.formula.variables.map((item) => (
-            <li key={item.simbolo}>
-              <span className="font-semibold text-foreground">{item.simbolo}:</span> {item.significado}
-            </li>
+      
+      <div className="my-3 flex items-center justify-center rounded-lg bg-card/50 py-4 shadow-inner">
+        <p className="heading-serif text-lg font-medium text-foreground tracking-tight sm:text-xl">
+          {term.formula.expresion.split("=").map((part, i) => (
+            <span key={i}>
+              {i > 0 && <span className="mx-2 text-primary">=</span>}
+              {part.trim().split(" ").map((word, j) => {
+                if (["*", "/", "+", "-"].includes(word)) {
+                  return <span key={j} className="mx-1 text-primary font-bold">{word === "*" ? "×" : word}</span>;
+                }
+                return <span key={j} className={clsx(i === 0 ? "text-foreground" : "text-foreground/80")}>{word} </span>;
+              })}
+            </span>
           ))}
-        </ul>
-      )}
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">Lectura</p>
+          <p className="mt-0.5 text-xs leading-relaxed text-muted-foreground">{term.formula.lectura}</p>
+        </div>
+        
+        {term.formula.variables.length > 0 && (
+          <div className="grid grid-cols-2 gap-2 border-t border-border/40 pt-2">
+            {term.formula.variables.map((item) => (
+              <div key={item.simbolo} className="flex flex-col">
+                <span className="font-mono text-[10px] font-bold text-primary">{item.simbolo}</span>
+                <span className="text-[10px] text-muted-foreground leading-tight">{item.significado}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -139,19 +171,24 @@ function DiagramBlock({ term }: { term: GlosarioTermEnriched }) {
   const diagram = term.diagrama;
 
   return (
-    <div className="rounded-lg border border-border/60 bg-muted/30 p-3">
-      <div className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+    <div className="rounded-lg border border-border/60 bg-muted/30 p-4">
+      <div className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         <Workflow className="h-3.5 w-3.5" />
-        Diagrama rápido
+        Flujo de Proceso
       </div>
-      <div className="flex flex-wrap items-center gap-1.5">
+      
+      <div className="relative flex flex-col gap-4">
         {diagram.nodos.map((node, index) => (
-          <div key={node.id} className="flex items-center gap-1.5">
-            <span className="rounded-md border border-border bg-card px-2 py-1 text-[11px] text-foreground">
-              {node.etiqueta}
-            </span>
+          <div key={node.id} className="group/node relative flex items-center gap-3">
+            <div className="relative z-10 flex h-7 w-7 items-center justify-center rounded-full border-2 border-primary/30 bg-card text-[10px] font-bold text-primary shadow-sm transition-colors group-hover/node:border-primary group-hover/node:bg-primary group-hover/node:text-primary-foreground">
+              {index + 1}
+            </div>
+            <div className="flex-1 rounded-lg border border-border/50 bg-card/80 p-2 shadow-sm transition-all group-hover/node:border-primary/40 group-hover/node:bg-card">
+              <span className="text-xs font-medium text-foreground">{node.etiqueta}</span>
+            </div>
+            
             {index < diagram.nodos.length - 1 && (
-              <ChevronRight className="h-3 w-3 text-muted-foreground" />
+              <div className="absolute left-[13px] top-7 z-0 h-4 w-0.5 bg-gradient-to-b from-primary/30 to-primary/10" />
             )}
           </div>
         ))}
@@ -163,10 +200,40 @@ function DiagramBlock({ term }: { term: GlosarioTermEnriched }) {
 function TermCard({ term, search }: { term: GlosarioTermEnriched; search: string }) {
   const Icon = CATEGORY_ICON[term.categoria];
   const resources = getRelatedResourcesForTerm(term.id);
+  const [isSaved, setIsSaved] = useState(() => {
+    if (typeof window === "undefined") return false;
+    const saved = JSON.parse(localStorage.getItem("tc_glosario_saved") ?? "[]");
+    return saved.includes(term.id);
+  });
+
+  const toggleSave = () => {
+    const saved = JSON.parse(localStorage.getItem("tc_glosario_saved") ?? "[]");
+    let nextSaved;
+    if (isSaved) {
+      nextSaved = saved.filter((id: string) => id !== term.id);
+    } else {
+      nextSaved = [...saved, term.id];
+    }
+    localStorage.setItem("tc_glosario_saved", JSON.stringify(nextSaved));
+    setIsSaved(!isSaved);
+  };
 
   return (
-    <article className="group rounded-xl border border-border/60 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-border hover:shadow-md">
-      <div className="mb-3 flex items-start justify-between gap-3">
+    <article className="group relative rounded-xl border border-border/60 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-border hover:shadow-md">
+      <button
+        onClick={toggleSave}
+        className={clsx(
+          "absolute right-4 top-4 rounded-full p-2 transition-colors",
+          isSaved 
+            ? "bg-primary/10 text-primary" 
+            : "bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground"
+        )}
+        title={isSaved ? "Quitar de mis términos" : "Guardar término"}
+      >
+        <Sparkles className={clsx("h-4 w-4", isSaved && "fill-current")} />
+      </button>
+
+      <div className="mb-3 flex items-start gap-3">
         <div className="flex items-start gap-2">
           <div
             className={clsx(
@@ -177,14 +244,14 @@ function TermCard({ term, search }: { term: GlosarioTermEnriched; search: string
             <Icon className="h-4 w-4" />
           </div>
           <div>
-            <h3 className="heading-serif text-lg text-foreground">
+            <h3 className="heading-serif text-lg text-foreground pr-8">
               <HighlightText text={term.termino} highlight={search} />
             </h3>
             <p className="text-xs text-muted-foreground">Nivel {LEVEL_LABEL[term.nivel]}</p>
           </div>
         </div>
 
-        <span className="rounded-full border border-border px-2 py-0.5 text-[11px] text-muted-foreground">
+        <span className="hidden sm:inline-block rounded-full border border-border px-2 py-0.5 text-[11px] text-muted-foreground">
           {term.categoria}
         </span>
       </div>
@@ -309,19 +376,30 @@ function GlosarioPageContent() {
       description="Definiciones, ejemplos y conexiones prácticas del lenguaje tributario colombiano."
       icon={BookOpen}
       rightContent={
-        <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
+        <div className="group relative rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-primary/40">
           <p className="text-xs uppercase tracking-wide text-muted-foreground">Término del día</p>
           <p className="mt-1 heading-serif text-xl text-foreground">{termOfTheDay.termino}</p>
           <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{termOfTheDay.explicacionSimple}</p>
-          <p className="mt-2 text-xs text-muted-foreground">
-            Llevas {streakDays} día{streakDays === 1 ? "" : "s"} seguidos fortaleciendo conceptos.
-          </p>
+          <div className="mt-3 flex items-center gap-2">
+            <div className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-[10px] font-bold text-amber-600 dark:bg-amber-900/30">
+              {streakDays}
+            </div>
+            <p className="text-[11px] font-medium text-muted-foreground">
+              Racha de {streakDays} día{streakDays === 1 ? "" : "s"}
+            </p>
+          </div>
+          
+          {/* Streak Tooltip */}
+          <div className="absolute -left-4 -top-12 z-20 hidden w-48 rounded-md bg-foreground p-2 text-[10px] text-background shadow-lg group-hover:block">
+            Tu racha aumenta cada día que consultas el glosario. ¡Mantén la disciplina para dominar el Estatuto!
+            <div className="absolute -bottom-1 left-6 h-2 w-2 rotate-45 bg-foreground" />
+          </div>
         </div>
       }
     >
       <section className="rounded-xl border border-border/60 bg-card p-4 shadow-sm">
         <div className="mb-3 flex items-center gap-2 text-sm font-medium text-foreground">
-          <Sparkles className="h-4 w-4" />
+          <Sparkles className="h-4 w-4 text-amber-500" />
           Términos frecuentes para empezar rápido
         </div>
         <div className="flex flex-wrap gap-2">
@@ -332,7 +410,7 @@ function GlosarioPageContent() {
                 setSearch(term.termino);
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }}
-              className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground hover:border-foreground/30 hover:text-foreground"
+              className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground transition-all hover:border-primary/50 hover:bg-primary/5 hover:text-primary"
             >
               {term.termino}
             </button>
@@ -341,20 +419,20 @@ function GlosarioPageContent() {
       </section>
 
       <div className="sticky top-0 z-10 -mx-6 mb-8 bg-background/95 px-6 py-4 shadow-sm backdrop-blur">
-        <div className="mb-4 flex flex-wrap items-center justify-center gap-1 sm:gap-2">
+        <div className="mb-4 flex flex-wrap items-center justify-center gap-1 sm:gap-1.5">
           {alphabet.map((letter) => {
             const hasItems = groupedGlosario[letter];
 
             return (
               <button
                 key={letter}
-                onClick={() => scrollToLetter(letter)}
-                disabled={!hasItems}
+                onClick={() => hasItems && scrollToLetter(letter)}
+                title={hasItems ? `Ir a la letra ${letter}` : "No hay términos con esta letra"}
                 className={clsx(
-                  "flex h-8 w-8 items-center justify-center rounded-lg text-xs font-semibold transition-all",
+                  "flex h-7 w-7 items-center justify-center rounded-md text-[11px] font-bold transition-all",
                   hasItems
-                    ? "cursor-pointer bg-muted shadow-sm hover:bg-foreground hover:text-background"
-                    : "cursor-not-allowed text-muted-foreground/20"
+                    ? "cursor-pointer bg-muted text-foreground shadow-sm hover:bg-primary hover:text-primary-foreground"
+                    : "cursor-default bg-muted/30 text-muted-foreground/40 opacity-50"
                 )}
               >
                 {letter}

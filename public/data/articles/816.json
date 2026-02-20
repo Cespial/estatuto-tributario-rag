@@ -1,1 +1,572 @@
-{"id_articulo": "Art. 816", "titulo": "Art. 816. Término para solicitar la compensación.", "titulo_corto": "Término para solicitar la compensación.", "slug": "816", "url_origen": "https://estatuto.co/816", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*La solicitud de compensación de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Para la compensación de impuestos de que trata el inciso segundo del parágrafo del artículo 815 de este Estatuto, este término será de un mes, contado a partir de la fecha de presentación de la declaración del impuesto sobre la renta y complementarios correspondiente al periodo gravable en el cual se generaron los respectivos saldos. Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la compensación, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo. Parágrafo. En todos los casos, la compensación se efectuará oficiosamente por la Administración cuando se hubiese solicitado la devolución de un saldo y existan deudas fiscales a cargo del solicitante.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La solicitud de compensación de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Para la compensación de impuestos de que trata el inciso segundo del parágrafo del <a href=\"https://estatuto.co/815\" rel=\"noopener\" target=\"_blank\">artículo 815</a> de este Estatuto, este término será de un mes, contado a partir de la fecha de presentación de la declaración del impuesto sobre la renta y complementarios correspondiente al periodo gravable en el cual se generaron los respectivos saldos.</p>\n<p>Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la compensación, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>En todos los casos, la compensación se efectuará oficiosamente por la Administración cuando se hubiese solicitado la devolución de un saldo y existan deudas fiscales a cargo del solicitante.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 65.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "65"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["815"], "referenced_by": ["477"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 816",
+  "titulo": "Art. 816. Término para solicitar la compensación.",
+  "titulo_corto": "Término para solicitar la compensación.",
+  "slug": "816",
+  "url_origen": "https://estatuto.co/816",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*La solicitud de compensación de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Para la compensación de impuestos de que trata el inciso segundo del parágrafo del artículo 815 de este Estatuto, este término será de un mes, contado a partir de la fecha de presentación de la declaración del impuesto sobre la renta y complementarios correspondiente al periodo gravable en el cual se generaron los respectivos saldos. Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la compensación, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo. Parágrafo. En todos los casos, la compensación se efectuará oficiosamente por la Administración cuando se hubiese solicitado la devolución de un saldo y existan deudas fiscales a cargo del solicitante.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La solicitud de compensación de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Para la compensación de impuestos de que trata el inciso segundo del parágrafo del <a href=\"https://estatuto.co/815\" rel=\"noopener\" target=\"_blank\">artículo 815</a> de este Estatuto, este término será de un mes, contado a partir de la fecha de presentación de la declaración del impuesto sobre la renta y complementarios correspondiente al periodo gravable en el cual se generaron los respectivos saldos.</p>\n<p>Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la compensación, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>En todos los casos, la compensación se efectuará oficiosamente por la Administración cuando se hubiese solicitado la devolución de un saldo y existan deudas fiscales a cargo del solicitante.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 65.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "65"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "815"
+  ],
+  "referenced_by": [
+    "477"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 10156 (2025-07-29): Procedimiento Tributario\noficio 0521 (2023-02-02): Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Saldos a favor\noficio 900221 (2022-01-13): Devoluci&oacute;n del impuesto sobre las ventas\noficio 915328 (2021-12-15): Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s\noficio 915281 (2021-12-15): Correcci&oacute;n de las declaraciones tributarias",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-10156-2025",
+      "tipo": "oficio",
+      "numero": "10156",
+      "fecha": "2025-07-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0521-2023",
+      "tipo": "oficio",
+      "numero": "0521",
+      "fecha": "2023-02-02",
+      "tema": "Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900221-2022",
+      "tipo": "oficio",
+      "numero": "900221",
+      "fecha": "2022-01-13",
+      "tema": "Devoluci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915328-2021",
+      "tipo": "oficio",
+      "numero": "915328",
+      "fecha": "2021-12-15",
+      "tema": "Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915281-2021",
+      "tipo": "oficio",
+      "numero": "915281",
+      "fecha": "2021-12-15",
+      "tema": "Correcci&oacute;n de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901275-2020",
+      "tipo": "oficio",
+      "numero": "901275",
+      "fecha": "2020-04-28",
+      "tema": "Correcci&oacute;n de Errores e Inconsistencias en Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1186-2019",
+      "tipo": "oficio",
+      "numero": "1186",
+      "fecha": "2019-01-16",
+      "tema": "Cruce de Cuentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15690-2018",
+      "tipo": "oficio",
+      "numero": "15690",
+      "fecha": "2018-06-15",
+      "tema": "Consecuencias tributarias que se derivan de la exportaci&oacute;n de filetes de tilapia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20493-2017",
+      "tipo": "oficio",
+      "numero": "20493",
+      "fecha": "2017-08-02",
+      "tema": "Impuesto sobre las Ven&iacute;as Bienes exentos con derecho a devoluci&oacute;n y-o compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35816-2016",
+      "tipo": "oficio",
+      "numero": "35816",
+      "fecha": "2016-12-23",
+      "tema": "&iquest;Es requisito de procedibilidad de la solicitud de devoluci&oacute;n conforme con el par&aacute;grafo 2 del art&iacute;culo 477 del Estatuto Tributario, que los saldos a favor de las declaraciones del impuesto sobre las ventas respecto de los cuales se va a solicitar la devoluci&oacute;n, se acumulen en la declaraci&oacute;n del tercer o sexto bimestre del a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000707-2016",
+      "tipo": "concepto",
+      "numero": "0000707",
+      "fecha": "2016-07-18",
+      "tema": "La fecha de pago a la que alude el art&iacute;culo 803 del Estatuto Tributario, es la fecha de extinci&oacute;n de la obligaci&oacute;n o corresponde la fecha de corte para liquidar intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31476-2015",
+      "tipo": "oficio",
+      "numero": "31476",
+      "fecha": "2015-10-30",
+      "tema": "&iquest;Es viable frente a saldos a favor objeto de solicitud de devoluci&oacute;n, con rechazo definitivo en oportunidad anterior, por haber pagado extempor&aacute;neamente algunas declaraciones de retenci&oacute;n en la fuente y otros detalles de forma, imputar esos saldos en declaraciones siguientes y al encontrarse ya acreditadas las retenciones respectivas, si los mismos pueden ser objeto de solicitud de devoluci&oacute;n dentro de la declaraci&oacute;n en la cual se imputaron o si ante un rechazo definitivo de un saldo a favor, tiene lugar la p&eacute;rdida del mismo por esa situaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31370-2015",
+      "tipo": "oficio",
+      "numero": "31370",
+      "fecha": "2015-11-17",
+      "tema": "&iquest;Es viable desconocer un saldo a favor, cuando con ocasi&oacute;n de un proceso de verificaci&oacute;n de una solicitud de devoluci&oacute;n y-o compensaci&oacute;n se observa que este es improcedente y que los periodos que dieron lugar al mismo se encuentran en firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27287-2015",
+      "tipo": "oficio",
+      "numero": "27287",
+      "fecha": "2015-10-01",
+      "tema": "(Int 1280) Forma de pago de las obligaciones tributarias en las entidades financieras - Cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25533-2015",
+      "tipo": "oficio",
+      "numero": "25533",
+      "fecha": "2015-09-02",
+      "tema": "solicita se complemente la respuesta suministrada con el Oficio No. 001057 del 16 de julio de 2015 al radicado No. 026200 del 1o de julio de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23070-2015",
+      "tipo": "oficio",
+      "numero": "23070",
+      "fecha": "2015-08-06",
+      "tema": "Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 066587 del 16 de diciembre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12127-2015",
+      "tipo": "oficio",
+      "numero": "12127",
+      "fecha": "2015-04-27",
+      "tema": "Identificaci&oacute;n declaraciones y recibos oficiales de pago en bancos - Fusi&oacute;n de sociedades - Compensaciones de deudas fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11997-2015",
+      "tipo": "oficio",
+      "numero": "11997",
+      "fecha": "2015-04-27",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento adoptado para realizar las imputaciones a que se hace referencia en la norma, y de igual forma para presentar la solicitud de compensaci&oacute;n y\\o devoluci&oacute;n por los pagos en exceso, correspondiente a las declaraciones de retenci&oacute;n en la fuente de enero y febrero del a&ntilde;o 2013, motivo de esta consulta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4136-2015",
+      "tipo": "oficio",
+      "numero": "4136",
+      "fecha": "2015-02-16",
+      "tema": "Normatividad aplicable en lo referente a la firma de contador en declaraciones de IVA presentadas por productores de bienes exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66587-2014",
+      "tipo": "oficio",
+      "numero": "66587",
+      "fecha": "2014-12-16",
+      "tema": "&iquest;Es acertado entender que el impuesto descontable del 35%, acumulado como saldo a favor, se puede aplicar al impuesto de ventas generado en operaciones futuras, o en ultimas solicitarse la devoluci&oacute;n si se tiene la calidad de exportador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60437-2014",
+      "tipo": "oficio",
+      "numero": "60437",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;Es viable el tr&aacute;mite de la solicitud de devoluci&oacute;n sin ser objeto de rechazo definitivo de dicha solicitud al no haberse practicado la retenci&oacute;n del IVA en los periodos anotados anteriormente, toda vez que a la fecha dichas declaraciones ya est&aacute;n en firme y no se pueden corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54404-2014",
+      "tipo": "oficio",
+      "numero": "54404",
+      "fecha": "2014-09-01",
+      "tema": "Impuesto sobre la renta para la equidad - CREE - Declaraci&oacute;n y pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51928-2014",
+      "tipo": "oficio",
+      "numero": "51928",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Es viable iniciar un proceso declarativo de bien mostrenco, frente a unos saldos a favor por concepto de impuesto sobre las ventas, los cuales no fueron solicitados en devoluci&oacute;n o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0041870-2014",
+      "tipo": "concepto",
+      "numero": "0041870",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Es procedente compensar los saldos a pagar de la declaraci&oacute;n de impuesto sobre la renta para la equidad-CREE, con saldos a favor generados en otros impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0041868-2014",
+      "tipo": "concepto",
+      "numero": "0041868",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Es procedente compensar los saldos a pagar de la declaraci&oacute;n de impuesto sobre la renta para la equidad-CREE, con saldos a favor generados en otros impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41865-2014",
+      "tipo": "oficio",
+      "numero": "41865",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Para los productores de bienes exentos de que trata el art&iacute;culo 477 del Estatuto Tributario, la ley consagra alguna regla o limitaci&oacute;n para determinar el saldo a favor susceptible de devoluci&oacute;n en el periodo de causaci&oacute;n del IVA descontable, cuando solamente se tienen ingresos provenientes de operaciones exentas? &iquest;Existe alguna disposici&oacute;n legal que de manera clara e inequ&iacute;voca faculta a los funcionarios de la Administraci&oacute;n de Impuestos para devolver solamente la parte del saldo a favor imputable a los bienes que han sido consumidos en las diferentes etapas del proceso productivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40724-2014",
+      "tipo": "oficio",
+      "numero": "40724",
+      "fecha": "2014-06-07",
+      "tema": "&iquest;Cu&aacute;l es la forma de reflejar los ajustes a que se refiere el Oficio 106957 del 30 de diciembre de 2009, en la declaraci&oacute;n del impuesto sobre las ventas del per&iacute;odo en el cual se efect&uacute;a el reintegro del IVA pagado al adquirente, cuando inicialmente se ha cobrado el IVA en la venta de bienes excluidos de que trata el numeral 4o del art&iacute;culo 424-5 del Estatuto Tributario y posteriormente el comprador allega la correspondiente certificaci&oacute;n del Ministerio de Ambiente, Vivienda y Desarrollo Territorial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30269-2014",
+      "tipo": "oficio",
+      "numero": "30269",
+      "fecha": "2014-05-16",
+      "tema": "Solicita la aclaraci&oacute;n o revocatoria parcial o total de la respuesta No. 2 del Concepto Jur&iacute;dico No. 048129 del 02-08-2013, para lo cual se sustenta en los art&iacute;culos 815, 815-1, 816, 850, 689-1, 854 y 857 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30263-2014",
+      "tipo": "oficio",
+      "numero": "30263",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;Se configura la ineficacia de la declaraci&oacute;n de retenci&oacute;n en la fuente presentada con pago parcial, cuando el agente de retenci&oacute;n titular de un saldo a favor superior a ochenta y dos mil UVT, dentro de los seis (6) meses siguientes decide no solicitar su compensaci&oacute;n y en cambio pagar el saldo faltante con los intereses correspondientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27420-2014",
+      "tipo": "oficio",
+      "numero": "27420",
+      "fecha": "2014-05-06",
+      "tema": "Aclaraci&oacute;n y complemento del alcance del Oficio n&uacute;mero 71630 del 8 de noviembre de 2013, conforme con el cual, la Administraci&oacute;n Tributaria previamente a la compensaci&oacute;n de saldos debe tener en cuenta los pagos parciales efectuados por los contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1960-2014",
+      "tipo": "oficio",
+      "numero": "1960",
+      "fecha": "2014-01-07",
+      "tema": "Cuando la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria por ser extempor&aacute;nea, &iquest;procede su imputaci&oacute;n en la declaraci&oacute;n del periodo siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77395-2013",
+      "tipo": "oficio",
+      "numero": "77395",
+      "fecha": "2013-12-03",
+      "tema": "&iquest;Se consideran productores de pescado y dem&aacute;s productos marinos se&ntilde;alados en el art&iacute;culo 477 del Estatuto Tributario aquellos que se dedican a su procesamiento, con el prop&oacute;sito de conocer la procedencia de solicitar la devoluci&oacute;n del IVA cancelado en la adquisici&oacute;n de bienes y servicios que constituyan costo o gasto para su producci&oacute;n y comercializaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76746-2013",
+      "tipo": "oficio",
+      "numero": "76746",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Las entidades que tienen asignada en su RUT la responsabilidad 10",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68291-2013",
+      "tipo": "oficio",
+      "numero": "68291",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Para efectos del art&iacute;culo 481 literal g) del Estatuto Tributario, qu&eacute; se entiende por productor y en ese sentido si se considera productor la persona natural o jur&iacute;dica que importa o adquiere bienes y posteriormente los acondiciona (de valor agregado) para la venta al productor final?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57717-2013",
+      "tipo": "oficio",
+      "numero": "57717",
+      "fecha": "2013-09-12",
+      "tema": "&iquest;Tiene derecho a la devoluci&oacute;n del impuesto sobre las ventas IVA, cobrado por los proveedores de los bienes y servicios, una sociedad, que como parte de su actividad industrial se dedica a la compra de bienes exentos, pescados y mariscos de los indicados en las posiciones arancelarias 03.02, 03.03, 03.04, 03.06.17, 03.06.26.00.00, 03.06.27, con los alcances establecidos en el par&aacute;grafo 2o del art&iacute;culo 477 del Estatuto Tributario, tal como qued&oacute; modificado por el art&iacute;culo 54 de la Ley 1607 de 2012, y que a estos bienes les agrega varios procesos de producci&oacute;n consistentes en fileteado y limpieza, empacado al vac&iacute;o y procesos t&eacute;cnicos de refrigerado y congelado, que no les cambia la naturaleza establecida en el art&iacute;culo 477 ya mencionado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48644-2013",
+      "tipo": "oficio",
+      "numero": "48644",
+      "fecha": "2013-08-05",
+      "tema": "Factura electr&oacute;nica para los productores de bienes exentos que trata el art&iacute;culo 477 del Estatuto Tributario y los requisitos indispensables seg&uacute;n el art&iacute;culo 55 de la Ley 1607 de 2012 modificatorio del art&iacute;culo 481 del E. T. sobre bienes y servicios exentos con derecho a devoluci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48129-2013",
+      "tipo": "oficio",
+      "numero": "48129",
+      "fecha": "2013-08-02",
+      "tema": "&iquest;Se puede imputar el saldo a favor originado en una declaraci&oacute;n del impuesto sobre la renta que se encuentra en firme, mediante la correcci&oacute;n de la declaraci&oacute;n del periodo gravable inmediatamente siguiente? - &iquest;Cu&aacute;ndo la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria, procede su imputaci&oacute;n en la declaraci&oacute;n del periodo gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14422-2013",
+      "tipo": "oficio",
+      "numero": "14422",
+      "fecha": "2013-03-12",
+      "tema": "El par&aacute;grafo 2o del art&iacute;culo 477 del Estatuto Tributario, le es aplicable a las solicitudes de devoluci&oacute;n y\\o compensaci&oacute;n de saldos a favor de impuesto sobre las ventas originados en declaraciones de impuesto sobre las ventas de los periodos gravables del a&ntilde;o 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28807-2012",
+      "tipo": "oficio",
+      "numero": "28807",
+      "fecha": "2012-05-04",
+      "tema": "- (Tributario) &iquest;Producido el rechazo de las solicitudes de devoluci&oacute;n en los casos de los numerales 1 (solicitud extempor&aacute;nea) o 3 (exportaciones con anterioridad a inscripci&oacute;n en el RUT) del art&iacute;culo 857 del Estatuto Tributario, procede la Imputaci&oacute;n del mismo saldo a favor?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0038650-2009",
+      "tipo": "concepto",
+      "numero": "0038650",
+      "fecha": "2009-05-14",
+      "tema": "&iquest;Opera el beneficio de auditor&iacute;a y por ende el t&eacute;rmino especial de firmeza de dieciocho (18), doce (12) o seis (6) meses siguientes a la fecha de la presentaci&oacute;n de las declaraciones de renta con saldo a favor, en las cuales no se determine o compense una p&eacute;rdida fiscal, aunque el contribuyente solicite la devoluci&oacute;n del saldo a favor d&iacute;as antes de cumplirse dicho t&eacute;rmino?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108798-2008",
+      "tipo": "oficio",
+      "numero": "108798",
+      "fecha": "2008-10-31",
+      "tema": "alcance de la tesis y las interpretaciones jur&iacute;dicas contenidas en los conceptos 059295 y 039724 emitidos por &eacute;sta Oficina el 14 de julio de 2006 y el 29 de mayo de 2007 respectivamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067015-2007",
+      "tipo": "concepto",
+      "numero": "0067015",
+      "fecha": "2007-08-29",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor l&iacute;quidados en las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40212-2007",
+      "tipo": "oficio",
+      "numero": "40212",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Quien goza del beneficio de auditoria y no hace uso del derecho de devoluci&oacute;n como tampoco del mecanismo de la compensaci&oacute;n dentro del t&eacute;rmino especial de firmeza que contempla el art&iacute;culo 689-1 del Estatuto Tributario, conserva la posibilidad de imputar el saldo a favor en el periodo siguiente dentro del t&eacute;rmino general indicado en el art&iacute;culo 815 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039724-2007",
+      "tipo": "concepto",
+      "numero": "0039724",
+      "fecha": "2007-05-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento y el t&eacute;rmino para corregir los errores u omisiones de imputaci&oacute;n o arrastre de saldos a favor del per&iacute;odo anterior sin solicitud de devoluci&oacute;n y\\o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013331-2007",
+      "tipo": "concepto",
+      "numero": "0013331",
+      "fecha": "2007-02-21",
+      "tema": "&iquest;Se causan intereses de mora sobre deudas por concepto de impuestos, anticipos y retenciones susceptibles de ser compensadas con saldos a favor, producto de imputaciones sucesivas, cuando el t&eacute;rmino para el pago de las obligaciones objeto de la compensaci&oacute;n venci&oacute; con anterioridad a la fecha en que se consolid&oacute; el saldo a favor que se compensa?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-9653-2007",
+      "tipo": "oficio",
+      "numero": "9653",
+      "fecha": "2007-02-09",
+      "tema": "Consulta sobre compensaci&oacute;n de saldos a favor, pagos en exceso, de lo no debido o cualquier otro sobrante a favor del contribuyente, responsable o agente retenedor, en los casos en que con anterioridad se han efectuado pagos parciales sobre las mismas obligaciones tributarias que se solicita compensar.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108392-2006",
+      "tipo": "oficio",
+      "numero": "108392",
+      "fecha": "2006-12-28",
+      "tema": "&iquest;Respecto de los procesos de liquidaci&oacute;n obligatoria es procedente entender que el cr&eacute;dito fiscal a cargo de entidades que entran en estos procesos deben recibir el tratamiento de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76457-2006",
+      "tipo": "oficio",
+      "numero": "76457",
+      "fecha": "2006-09-07",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de saldos a favor, cuando corrigen la declaraci&oacute;n tributaria disminuyendo dicho saldo a favor, con motivo de un requerimiento especial proferido por la administraci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059295-2006",
+      "tipo": "concepto",
+      "numero": "0059295",
+      "fecha": "2006-07-14",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento y el t&eacute;rmino para corregir los errores u omisiones de imputaci&oacute;n o arrastre de saldos a favor del per&iacute;odo anterior sin solicitud de devoluci&oacute;n y\\o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077148-2004",
+      "tipo": "concepto",
+      "numero": "0077148",
+      "fecha": "2004-11-10",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor reconocidos mediante actos administrativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015934-2004",
+      "tipo": "concepto",
+      "numero": "0015934",
+      "fecha": "2004-03-17",
+      "tema": "&iquest;Es procedente solicitar a la administraci&oacute;n tributaria compensaci&oacute;n de los valores a favor de los contribuyentes, responsables y agentes de retenci&oacute;n, consignados con ocasi&oacute;n del acuerdo conciliatorio de la ley 633 de 2000, para ser imputados de conformidad con lo previsto en el art&iacute;culo 32 de la ley 863 de 2003?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039294-2003",
+      "tipo": "concepto",
+      "numero": "0039294",
+      "fecha": "2003-07-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53700-2002",
+      "tipo": "concepto",
+      "numero": "53700",
+      "fecha": "2002-08-22",
+      "tema": "Extraordinario de Revocatoria Directa - Compensaci&oacute;n previa a la devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-23704-2002",
+      "tipo": "concepto",
+      "numero": "23704",
+      "fecha": "2002-04-22",
+      "tema": "T&eacute;rmino de correcci&oacute;n de las declaraciones del impuesto sobre las ventas para disminuir el valor a pagar o aumentar el saldo a favor, cuando por error se factura el impuesto pese a tratarse de un bien o de un servicio excluido",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003132-2002",
+      "tipo": "concepto",
+      "numero": "0003132",
+      "fecha": "2002-01-18",
+      "tema": "&iquest;En qu&eacute; forma debe presentarse el escrito de solicitud de devoluci&oacute;n y-o compensaci&oacute;n ante la Administraci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096731-1998",
+      "tipo": "concepto",
+      "numero": "0096731",
+      "fecha": "1998-12-16",
+      "tema": "&iquest;Tienen o no aplicaci&oacute;n los t&eacute;rminos contenidos en los art&iacute;culos 816 y 854 del estatuto tributario para determinar la oportunidad de solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor que arroja una liquidaci&oacute;n oficial de correcci&oacute;n? &iquest;Tiene o no aplicaci&oacute;n el t&eacute;rmino contenido en el art&iacute;culo 816 del estatuto tributario para determinar la oportunidad de solicitar la imputaci&oacute;n del saldo a favor que arroja una liquidaci&oacute;n privada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080951-1998",
+      "tipo": "concepto",
+      "numero": "0080951",
+      "fecha": "1998-10-15",
+      "tema": "&iquest;Pueden los agentes retenedores abstenerse de consignar las retenciones en la fuente por corresponder las mismas a sumas que ser&aacute;n objeto de compensaci&oacute;n por saldos a favor existentes en las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057296-1998",
+      "tipo": "concepto",
+      "numero": "0057296",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Puede uno de los socios de una sociedad disuelta y liquidada presentar solicitud de devoluci&oacute;n de un saldo a favor con el fin de compensar las deudas que tiene con la DIAN y en este evento podr&iacute;a acogerse al beneficio consagrado en el art&iacute;culo 793 del estatuto Tributario y pedir que dicha compensaci&oacute;n sea aplicada &uacute;nicamente al pago de los impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045980-1998",
+      "tipo": "concepto",
+      "numero": "0045980",
+      "fecha": "1998-06-12",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005928-1995",
+      "tipo": "concepto",
+      "numero": "0005928",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Conforme a lo dispuesto en el art&iacute;culo 815 del estatuto tributario, el plazo de dos (2) a&ntilde;os, se hace extensivo a la imputaci&oacute;n de saldos a favor? &iquest;Se presentar&iacute;a alguna irregularidad sancionable si el presunto saldo a favor que resultar&iacute;a, se lleva como anticipo para el a&ntilde;o siguiente (sin estar obliga do a determinar anticipo), de manera que no resulte ni saldo a pagar ni saldo a favor, para que el t&eacute;rmino de revisi&oacute;n pueda contarse desde el momento de la presentaci&oacute;n de la declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035070-1994",
+      "tipo": "concepto",
+      "numero": "0035070",
+      "fecha": "1994-05-20",
+      "tema": "&iquest;Debe entenderse que el impuesto a las ventas que otorga derecho devoluci&oacute;n seg&uacute;n el Decreto 2627 de 1993, es el efectivamente pagado, o debe acudirse a las normas que regulan la causaci&oacute;n del impuesto; esto es, la fecha de emisi&oacute;n de la factura o documento equivalente? &iquest;Es procedente que la solicitud y el recurso de reposici&oacute;n se presenten por interpuesta persona? &iquest;Qu&eacute; actitud debe tomarse cuando las facturas correspondan a proveedores no inscritos en el R&eacute;gimen Com&uacute;n del Registro Nacional de Vendedores? &iquest;Respecto de entidades p&uacute;blicas que no tienen personer&iacute;a jur&iacute;dica independiente y act&uacute;an a trav&eacute;s del NIT de la instituci&oacute;n de la cual dependen, se podr&iacute;a compensar de oficio a deudas por retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

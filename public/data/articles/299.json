@@ -1,1 +1,405 @@
-{"id_articulo": "Art. 299", "titulo": "Art. 299. Ingresos constitutivos de ganancia ocasional.", "titulo_corto": "Ingresos constitutivos de ganancia ocasional.", "slug": "299", "url_origen": "https://estatuto.co/299", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Se consideran ingresos constitutivos de ganancia ocasional los contemplados en los siguientes artículos, salvo cuando hayan sido taxativamente señalados como no constitutivos de renta ni ganancia ocasional en el Título I de este Libro.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se consideran ingresos constitutivos de ganancia ocasional los contemplados en los siguientes artículos, salvo cuando hayan sido taxativamente señalados como no constitutivos de renta ni ganancia ocasional en el Título I de este Libro.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 299",
+  "titulo": "Art. 299. Ingresos constitutivos de ganancia ocasional.",
+  "titulo_corto": "Ingresos constitutivos de ganancia ocasional.",
+  "slug": "299",
+  "url_origen": "https://estatuto.co/299",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Se consideran ingresos constitutivos de ganancia ocasional los contemplados en los siguientes artículos, salvo cuando hayan sido taxativamente señalados como no constitutivos de renta ni ganancia ocasional en el Título I de este Libro.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se consideran ingresos constitutivos de ganancia ocasional los contemplados en los siguientes artículos, salvo cuando hayan sido taxativamente señalados como no constitutivos de renta ni ganancia ocasional en el Título I de este Libro.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 1401 (2024-02-28): (Int 411) Impuesto sobre la renta y complementarios - Indemnizaci&oacute;n por seguros - Reconsidera parcialmente el Oficio 018485 de julio 17 de 2019\noficio 16511 (2023-09-29): (Int 1497) Reconsidera Oficios 904129 - interno 668 de mayo 24 de 2022 y 907496 - interno 1286 de octubre 6 de 2022 - Impuesto sobre la Renta - Proyectos de vivienda de inter&eacute;s social y-o de vivienda de inter&eacute;s prioritario\noficio 3188 (2023-05-24): (Int 610) Determinaci&oacute;n de la renta bruta en la enajenaci&oacute;n de activos - Ganancia ocasional\noficio 0081 (2023-01-10): Impuesto sobre la renta - Deducciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1401-2024",
+      "tipo": "oficio",
+      "numero": "1401",
+      "fecha": "2024-02-28",
+      "tema": "(Int 411) Impuesto sobre la renta y complementarios - Indemnizaci&oacute;n por seguros - Reconsidera parcialmente el Oficio 018485 de julio 17 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16511-2023",
+      "tipo": "oficio",
+      "numero": "16511",
+      "fecha": "2023-09-29",
+      "tema": "(Int 1497) Reconsidera Oficios 904129 - interno 668 de mayo 24 de 2022 y 907496 - interno 1286 de octubre 6 de 2022 - Impuesto sobre la Renta - Proyectos de vivienda de inter&eacute;s social y-o de vivienda de inter&eacute;s prioritario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3188-2023",
+      "tipo": "oficio",
+      "numero": "3188",
+      "fecha": "2023-05-24",
+      "tema": "(Int 610) Determinaci&oacute;n de la renta bruta en la enajenaci&oacute;n de activos - Ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0081-2023",
+      "tipo": "oficio",
+      "numero": "0081",
+      "fecha": "2023-01-10",
+      "tema": "Impuesto sobre la renta - Deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908057-2022",
+      "tipo": "oficio",
+      "numero": "908057",
+      "fecha": "2022-10-31",
+      "tema": "(Int 1325) Donaci&oacute;n - Creaci&oacute;n legal de un fondo parafiscal que desarrolla proyectos y destina sus recursos para apoyar diferentes situaciones de los miembros del sector que lo integran",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907878-2022",
+      "tipo": "oficio",
+      "numero": "907878",
+      "fecha": "2022-10-21",
+      "tema": "- (Tributario) Ganancias ocasionales - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907496-2022",
+      "tipo": "oficio",
+      "numero": "907496",
+      "fecha": "2022-10-06",
+      "tema": "Rentas exentas asociadas a la vivienda de inter&eacute;s social y a la vivienda de inter&eacute;s prioritario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904129-2022",
+      "tipo": "oficio",
+      "numero": "904129",
+      "fecha": "2022-05-24",
+      "tema": "Rentas exentas - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903565-2022",
+      "tipo": "oficio",
+      "numero": "903565",
+      "fecha": "2022-05-09",
+      "tema": "Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914973-2021",
+      "tipo": "oficio",
+      "numero": "914973",
+      "fecha": "2021-12-06",
+      "tema": "Retenci&oacute;n en la fuente por loter&iacute;as - Ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-910056-2021",
+      "tipo": "oficio",
+      "numero": "910056",
+      "fecha": "2021-09-17",
+      "tema": "Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908609-2021",
+      "tipo": "oficio",
+      "numero": "908609",
+      "fecha": "2021-08-25",
+      "tema": "Obligados a declarar - Ganancia ocasional - Retenci&oacute;n en la fuente por loter&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904247-2021",
+      "tipo": "oficio",
+      "numero": "904247",
+      "fecha": "2021-05-12",
+      "tema": "Enajenaci&oacute;n de activos intangibles - Derechos deportivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910870-2020",
+      "tipo": "oficio",
+      "numero": "910870",
+      "fecha": "2020-12-17",
+      "tema": "- (Tributario) R&eacute;gimen tributario previsto en el ordenamiento jur&iacute;dico para efectos del comercio de criptomonedas en Colombia y en el exterior",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-903433-2020",
+      "tipo": "oficio",
+      "numero": "903433",
+      "fecha": "2020-07-23",
+      "tema": "&iquest;Un contribuyente que tiene un capital en un Fondo de Ahorros de Pensiones Voluntarias Privado, si lo destina como legado a favor de un tercero, qui&eacute;n tributa, el contribuyente, el fondo o el legatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30470-2019",
+      "tipo": "oficio",
+      "numero": "30470",
+      "fecha": "2019-12-11",
+      "tema": "- (Tributario) Criptoactivos - Causaci&oacute;n de la Retenci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-24704-2019",
+      "tipo": "oficio",
+      "numero": "24704",
+      "fecha": "2019-09-30",
+      "tema": "Exportaciones exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24380-2019",
+      "tipo": "oficio",
+      "numero": "24380",
+      "fecha": "2019-09-26",
+      "tema": "Pagos al Exterior Sujetos a Retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21924-2019",
+      "tipo": "oficio",
+      "numero": "21924",
+      "fecha": "2019-09-03",
+      "tema": "Cobro del impuesto sobre la renta y complementario de ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19738-2019",
+      "tipo": "oficio",
+      "numero": "19738",
+      "fecha": "2019-08-08",
+      "tema": "Ganancia ocasional exenta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18957-2019",
+      "tipo": "oficio",
+      "numero": "18957",
+      "fecha": "2019-07-23",
+      "tema": "&iquest;Las entidades del sector cooperativo est&aacute;n obligadas a liquidar y pagar el impuesto complementario de ganancias ocasionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14244-2019",
+      "tipo": "oficio",
+      "numero": "14244",
+      "fecha": "2019-06-04",
+      "tema": "- (Tributario) Impuesto sobre la Renta y Complementarios. Impuesto Sobre las Ventas – IVA. Activos. Determinaci&oacute;n de Costos. Servicios Excluidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8714-2019",
+      "tipo": "oficio",
+      "numero": "8714",
+      "fecha": "2019-04-10",
+      "tema": "Contratos Interadministrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1357-2019",
+      "tipo": "oficio",
+      "numero": "1357",
+      "fecha": "2019-06-05",
+      "tema": "impuesto sobre las ventas IVA - Venta o cesi&oacute;n de derechos sobre activos intangibles asociados con la propiedad industrial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0618-2018",
+      "tipo": "oficio",
+      "numero": "0618",
+      "fecha": "2018-04-25",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0176-2018",
+      "tipo": "oficio",
+      "numero": "0176",
+      "fecha": "2018-02-19",
+      "tema": "Ganancia ocasional como ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8607-2017",
+      "tipo": "oficio",
+      "numero": "8607",
+      "fecha": "2017-04-12",
+      "tema": "&iquest;Con posterioridad a la aprobaci&oacute;n de la Ley 1819 de 2016, contin&uacute;a aplic&aacute;ndose el r&eacute;gimen del impuesto a las ganancias ocasionales sobre los ingresos por herencias, legados y donaciones percibidos por las personas naturales a partir del a&ntilde;o gravable 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29801-2016",
+      "tipo": "oficio",
+      "numero": "29801",
+      "fecha": "2016-11-03",
+      "tema": "Impuesto sobre la Renta y Complementarios - Ingresos Constitutivos de Ganancia Ocasional - Ingresos Constitutivos de Renta Gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3249-2016",
+      "tipo": "oficio",
+      "numero": "3249",
+      "fecha": "2016-02-23",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para aplicar la tarifa del impuesto de ganancia ocasional, en el caso de un premio en especie, espec&iacute;ficamente un autom&oacute;vil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67189-2014",
+      "tipo": "oficio",
+      "numero": "67189",
+      "fecha": "2014-12-22",
+      "tema": "Tratamiento tributario que se le debe dar a estos ingresos por la venta de un bien inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57999-2014",
+      "tipo": "oficio",
+      "numero": "57999",
+      "fecha": "2014-10-09",
+      "tema": "Convenio entre la Rep&uacute;blica de Colombia y la Confederaci&oacute;n Suiza para evitar la Doble Imposici&oacute;n en materia de Impuestos sobre la Renta y Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0663-2014",
+      "tipo": "oficio",
+      "numero": "0663",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la renta y complementarios - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66746-2012",
+      "tipo": "oficio",
+      "numero": "66746",
+      "fecha": "2012-10-24",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de los gastos en que incurre el locatario en la ejecuci&oacute;n de un contrato de leasing habitacional? &iquest;Cuando en un contrato de leasing habitacional se ejerce la opci&oacute;n de compra hay lugar a liquidar ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36641-2011",
+      "tipo": "oficio",
+      "numero": "36641",
+      "fecha": "2011-05-20",
+      "tema": "&iquest;Se causa el impuesto de ganancia ocasional para el deudor aceptado en el proceso de Liquidaci&oacute;n Judicial, sobre los bienes de su propiedad que son adjudicados a sus acreedores conforme al art&iacute;culo 58 de la Ley 1116 de 2006?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012018-1998",
+      "tipo": "concepto",
+      "numero": "0012018",
+      "fecha": "1998-02-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000983-1991",
+      "tipo": "concepto",
+      "numero": "0000983",
+      "fecha": "1991-09-09",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030281-1989",
+      "tipo": "concepto",
+      "numero": "0030281",
+      "fecha": "1989-12-29",
+      "tema": "Sobre la viabilidad de devoluci&oacute;n del Impuesto de Timbre Nacional pagado por adelantado antes de perfeccionarse el contrato, el cual estaba sujeto a la aprobaci&oacute;n del Consejo de Ministros. De acuerdo con la cuant&iacute;a del contrato, el art&iacute;culo 49 del Decreto 222 de 1983, conocido como el Estatuto de Contrataci&oacute;n, requiere concepto favorable del nombrado Consejo previo estudio de la Secretar&iacute;a Jur&iacute;dica de la Presidencia de la Rep&uacute;blica. Los contratos no podr&aacute;n ejecutarse mientras no est&eacute;n debidamente perfeccionados seg&uacute;n mandato del art&iacute;culo 299 de dicho decreto que establece la prohibici&oacute;n de ejecutar contratos no perfeccionados. Concordancia: art&iacute;culo 51 del Decreto 222 de 1983",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

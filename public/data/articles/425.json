@@ -1,1 +1,128 @@
-{"id_articulo": "Art. 425", "titulo": "Art. 425. Otros bienes que no causan el impuesto.", "titulo_corto": "Otros bienes que no causan el impuesto.", "slug": "425", "url_origen": "https://estatuto.co/425", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Se consideran bienes que no causan, el petróleo crudo destinado a su refinación, el gas natural, los butanos y la gasolina natural.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\">*</span><span class=\"tachado verde\">Se consideran bienes que no causan, el petróleo crudo destinado a su refinación, el gas natural, los butanos y la gasolina natural.</span></p>\n</span>", "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 425",
+  "titulo": "Art. 425. Otros bienes que no causan el impuesto.",
+  "titulo_corto": "Otros bienes que no causan el impuesto.",
+  "slug": "425",
+  "url_origen": "https://estatuto.co/425",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Se consideran bienes que no causan, el petróleo crudo destinado a su refinación, el gas natural, los butanos y la gasolina natural.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\">*</span><span class=\"tachado verde\">Se consideran bienes que no causan, el petróleo crudo destinado a su refinación, el gas natural, los butanos y la gasolina natural.</span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8852 (2024-11-13): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8852-2024",
+      "tipo": "oficio",
+      "numero": "8852",
+      "fecha": "2024-11-13",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61417-2014",
+      "tipo": "oficio",
+      "numero": "61417",
+      "fecha": "2014-10-31",
+      "tema": "Consulta sobre la vigencia de la exclusi&oacute;n en el impuesto sobre las ventas, consagrada en el art&iacute;culo 424-5 numeral 4o del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98406-2008",
+      "tipo": "oficio",
+      "numero": "98406",
+      "fecha": "2008-10-06",
+      "tema": "&iquest;C&oacute;mo se determina la base gravable en la venta de gas natural vehicular para las declaraciones de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044760-2006",
+      "tipo": "concepto",
+      "numero": "0044760",
+      "fecha": "2006-05-30",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del Impuesto Sobre las Ventas pagado en la importaci&oacute;n o adquisici&oacute;n de maquinaria industrial utilizada en la prestaci&oacute;n de servicios intermedio en la exploraci&oacute;n y explotaci&oacute;n de hidrocarburos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-28281-2002",
+      "tipo": "concepto",
+      "numero": "28281",
+      "fecha": "2002-05-14",
+      "tema": "Impuesto a las ventas sobre la carne de conejo empacada y congelada",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069128-1995",
+      "tipo": "concepto",
+      "numero": "0069128",
+      "fecha": "1995-10-03",
+      "tema": "&iquest;Es responsable del impuesto sobre las ventas una sociedad an&oacute;nima que se dedica a la exploraci&oacute;n, explotaci&oacute;n y transporte de petr&oacute;leo crudo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013515-1995",
+      "tipo": "concepto",
+      "numero": "0013515",
+      "fecha": "1995-03-14",
+      "tema": "&iquest;Los productos de icopor para la construcci&oacute;n, se encuentran sometidas al Impuesto sobre las Ventas?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

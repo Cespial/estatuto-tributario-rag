@@ -106,6 +106,34 @@ export function useCalendarProfiles() {
     [persist, storage]
   );
 
+  const importProfiles = useCallback(
+    (json: string) => {
+      try {
+        const imported = JSON.parse(json);
+        if (Array.isArray(imported)) {
+          // Backward compatibility or direct array import
+          persist({ activeProfileId: null, profiles: imported.slice(0, 50) });
+          return true;
+        }
+        if (imported.profiles && Array.isArray(imported.profiles)) {
+          persist({
+            activeProfileId: imported.activeProfileId ?? null,
+            profiles: imported.profiles.slice(0, 50),
+          });
+          return true;
+        }
+        return false;
+      } catch {
+        return false;
+      }
+    },
+    [persist]
+  );
+
+  const exportProfiles = useCallback(() => {
+    return JSON.stringify(storage, null, 2);
+  }, [storage]);
+
   const activeProfile = useMemo(
     () => storage.profiles.find((profile) => profile.id === storage.activeProfileId) ?? null,
     [storage.activeProfileId, storage.profiles]
@@ -118,6 +146,8 @@ export function useCalendarProfiles() {
     saveProfile,
     deleteProfile,
     setActiveProfile,
+    importProfiles,
+    exportProfiles,
   };
 }
 

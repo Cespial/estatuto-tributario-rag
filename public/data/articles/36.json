@@ -1,1 +1,896 @@
-{"id_articulo": "Art. 36", "titulo": "Art. 36. Prima en colocación de acciones o de cuotas sociales.", "titulo_corto": "Prima en colocación de acciones o de cuotas sociales.", "slug": "36", "url_origen": "https://estatuto.co/36", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "*Para todos los efectos tributarios, el superávit de capital correspondiente a la prima en colocación de acciones o de cuotas sociales, según el caso, hace parte del aporte y, por tanto, estará sometido a las mismas reglas tributarias aplicables al capital, entre otras, integrará el costo fiscal respecto de las acciones o cuotas suscritas exclusivamente para quien la aporte y será reembolsable en los términos de la ley mercantil. Por lo tanto, la capitalización de la prima en colocación de acciones o cuotas no generará ingreso tributario ni dará lugar a costo fiscal de las acciones o cuotas emitidas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para todos los efectos tributarios, el superávit de capital correspondiente a la prima en colocación de acciones o de cuotas sociales, según el caso, hace parte del aporte y, por tanto, estará sometido a las mismas reglas tributarias aplicables al capital, entre otras, integrará el costo fiscal respecto de las acciones o cuotas suscritas exclusivamente para quien la aporte y será reembolsable en los términos de la ley mercantil.</p>\n<p>Por lo tanto, la capitalización de la prima en colocación de acciones o cuotas no generará ingreso tributario ni dará lugar a costo fiscal de las acciones o cuotas emitidas.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "* -Modificado- Ley 1607 de 2012 Art. 92", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 36",
+  "titulo": "Art. 36. Prima en colocación de acciones o de cuotas sociales.",
+  "titulo_corto": "Prima en colocación de acciones o de cuotas sociales.",
+  "slug": "36",
+  "url_origen": "https://estatuto.co/36",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "*Para todos los efectos tributarios, el superávit de capital correspondiente a la prima en colocación de acciones o de cuotas sociales, según el caso, hace parte del aporte y, por tanto, estará sometido a las mismas reglas tributarias aplicables al capital, entre otras, integrará el costo fiscal respecto de las acciones o cuotas suscritas exclusivamente para quien la aporte y será reembolsable en los términos de la ley mercantil. Por lo tanto, la capitalización de la prima en colocación de acciones o cuotas no generará ingreso tributario ni dará lugar a costo fiscal de las acciones o cuotas emitidas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para todos los efectos tributarios, el superávit de capital correspondiente a la prima en colocación de acciones o de cuotas sociales, según el caso, hace parte del aporte y, por tanto, estará sometido a las mismas reglas tributarias aplicables al capital, entre otras, integrará el costo fiscal respecto de las acciones o cuotas suscritas exclusivamente para quien la aporte y será reembolsable en los términos de la ley mercantil.</p>\n<p>Por lo tanto, la capitalización de la prima en colocación de acciones o cuotas no generará ingreso tributario ni dará lugar a costo fiscal de las acciones o cuotas emitidas.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "* -Modificado- Ley 1607 de 2012 Art. 92",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 28 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 0130 (2026-01-06): Impuesto sobre la Renta y Complementarios\noficio 17222 (2025-12-03): Procedimiento Tributario\noficio 14524 (2025-10-20): Impuesto sobre la Renta y Complementarios\noficio 10452 (2025-08-04): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0130-2026",
+      "tipo": "oficio",
+      "numero": "0130",
+      "fecha": "2026-01-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17222-2025",
+      "tipo": "oficio",
+      "numero": "17222",
+      "fecha": "2025-12-03",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14524-2025",
+      "tipo": "oficio",
+      "numero": "14524",
+      "fecha": "2025-10-20",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10452-2025",
+      "tipo": "oficio",
+      "numero": "10452",
+      "fecha": "2025-08-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4512-2025",
+      "tipo": "oficio",
+      "numero": "4512",
+      "fecha": "2025-04-09",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3406-2025",
+      "tipo": "oficio",
+      "numero": "3406",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2065-2025",
+      "tipo": "oficio",
+      "numero": "2065",
+      "fecha": "2025-02-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2780-2024",
+      "tipo": "oficio",
+      "numero": "2780",
+      "fecha": "2024-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6191-2023",
+      "tipo": "oficio",
+      "numero": "6191",
+      "fecha": "2023-10-24",
+      "tema": "(Int 1112) Ingresos gravados - Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta. &iquest;Se encuentra gravado con el impuesto sobre la renta y sometido a retenci&oacute;n en la fuente el ingreso obtenido por la venta de un",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0401-2023",
+      "tipo": "oficio",
+      "numero": "0401",
+      "fecha": "2023-01-26",
+      "tema": "Impuesto sobre la renta - Realizaci&oacute;n del ingreso - Autorretenedores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905781-2020",
+      "tipo": "oficio",
+      "numero": "905781",
+      "fecha": "2020-10-08",
+      "tema": "“&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente a t&iacute;tulo de renta, que se le debe practicar a los socios (personas naturales) excluidos como consecuencia de un reembolso de aportes en una sociedad de responsabilidad Ltda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29919-2019",
+      "tipo": "oficio",
+      "numero": "29919",
+      "fecha": "2019-12-02",
+      "tema": "Reconocimiento econ&oacute;mico por desintegraci&oacute;n f&iacute;sica total",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24508-2019",
+      "tipo": "oficio",
+      "numero": "24508",
+      "fecha": "2019-09-26",
+      "tema": "Valor Patrimonial de los T&iacute;tulos, Bonos y Seguros de Vida prima por Colocaci&oacute;n de Acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22457-2019",
+      "tipo": "oficio",
+      "numero": "22457",
+      "fecha": "2019-09-05",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20980-2019",
+      "tipo": "oficio",
+      "numero": "20980",
+      "fecha": "2019-08-23",
+      "tema": "&iquest;Las personas naturales que tienen acciones o participaciones en diferentes sociedades o empresas que no cotizan en bolsa deben declarar su participaci&oacute;n por el valor patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32237-2018",
+      "tipo": "oficio",
+      "numero": "32237",
+      "fecha": "2018-10-30",
+      "tema": "&iquest;Los nacionales colombianos no residentes que presentan de forma peri&oacute;dica la declaraci&oacute;n de renta dpueden reportar una sustituci&oacute;n por inversi&oacute;n directa de capital en la declaraci&oacute;n de renta del a&ntilde;o gravable correspondiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0786-2018",
+      "tipo": "oficio",
+      "numero": "0786",
+      "fecha": "2018-05-22",
+      "tema": "Prima por Colocaci&oacute;n de Acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0741-2018",
+      "tipo": "oficio",
+      "numero": "0741",
+      "fecha": "2018-05-15",
+      "tema": "&iquest;En el caso de una reducci&oacute;n del valor nominal de las acciones de una sociedad que se realiza para enervar una causal de disoluci&oacute;n, se tiene la obligaci&oacute;n de presentar la declaraci&oacute;n del impuesto sobre la renta por",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0105-2018",
+      "tipo": "oficio",
+      "numero": "0105",
+      "fecha": "2018-02-12",
+      "tema": "Armonizaci&oacute;n del tratamiento tributario y contable del arrendamiento financiero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26197-2017",
+      "tipo": "oficio",
+      "numero": "26197",
+      "fecha": "2017-09-26",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre las ventas - IVA - los derechos de participaci&oacute;n cobrados a los arrendatarios de locales comerciales por un centro comercial no sometido al r&eacute;gimen de propiedad horizontal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34760-2015",
+      "tipo": "oficio",
+      "numero": "34760",
+      "fecha": "2015-12-04",
+      "tema": "&iquest;De qu&eacute; manera debe registrarse en la declaraci&oacute;n del impuesto sobre la renta un ingreso que, en virtud de un Convenio Internacional para evitar la Doble Tributaci&oacute;n, no est&aacute; gravado en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29433-2015",
+      "tipo": "oficio",
+      "numero": "29433",
+      "fecha": "2015-10-08",
+      "tema": "Vigencia de los conceptos emitidos por la DIAN, 1) Concepto No 1300054119 de 28 de agosto de 2013 y 2) Concepto No 10020822100706 de 26 de mayo de 2015, concernientes a los Servicios Excluidos del Impuesto sobre las Ventas previstos en el Numeral 3o del Art. 476 ET",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18844-2015",
+      "tipo": "oficio",
+      "numero": "18844",
+      "fecha": "2015-06-26",
+      "tema": "Contribuci&oacute;n Especial por Contratos de Obra p&uacute;blica - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61714-2014",
+      "tipo": "oficio",
+      "numero": "61714",
+      "fecha": "2014-11-05",
+      "tema": "&iquest;Cu&aacute;ndo se entiende realizado el ingreso proveniente de un pago laboral retroactivo y en qu&eacute; vigencia fiscal se debe declarar?&iquest;Se pueden considerar los ingresos de a&ntilde;os anteriores, declarados pero no realizados, como ingresos no constitutivos de renta o renta exenta, o por el contrario se debe solicitar la correcci&oacute;n de la declaraci&oacute;n a la luz del art&iacute;culo 589 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61350-2014",
+      "tipo": "oficio",
+      "numero": "61350",
+      "fecha": "2014-10-31",
+      "tema": "&iquest;Cu&aacute;l es la consecuencia jur&iacute;dica para los contribuyentes que no realizan la presentaci&oacute;n personal de las respuestas a los actos administrativos de tr&aacute;mites, tales como: pliego de cargos, requerimientos especiales entre otros?&iquest;Es subsanable la presentaci&oacute;n posterior al plazo perentorio establecido en las diferentes normas del Estatuto Tributario para dar respuesta a los diferentes actos administrativos de tramite?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53399-2014",
+      "tipo": "oficio",
+      "numero": "53399",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Las compa&ntilde;&iacute;as que estaban clasificadas como grandes contribuyentes antes de la expedici&oacute;n de la Resoluci&oacute;n No. 0041 del 30 de enero de 2014, sus fechas de vencimiento del plazo para presentar la declaraci&oacute;n de renta y la informaci&oacute;n en medios magn&eacute;ticos, son las de los grandes contribuyentes o las de las personas jur&iacute;dicas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50282-2014",
+      "tipo": "oficio",
+      "numero": "50282",
+      "fecha": "2014-08-20",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 45740 del 24 de julio de 2013, en el cual se concluy&oacute; que el art&iacute;culo 5o del Decreto Reglamentario 3750 de 1986 no aplica para efectos de la retenci&oacute;n en la fuente m&iacute;nima de que trata el art&iacute;culo 384 del Estatuto Tributario y por consecuencia los pagos por educaci&oacute;n y salud se entienden como pagos indirectos que forman parte de la base de la retenci&oacute;n m&iacute;nima, de la cual solo se pueden detraer los aportes al sistema de seguridad social a cargo del trabajador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47198-2014",
+      "tipo": "oficio",
+      "numero": "47198",
+      "fecha": "2014-08-05",
+      "tema": "&iquest;La fiduciaria, encargada de la administraci&oacute;n de los recursos provenientes del funcionamiento y desarrollo del sistema, debe practicar la retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y complementarios, IVA y CREE sobre los pagos efectuados por las entidades p&uacute;blicas y privadas que contratan la prestaci&oacute;n del servicio de transporte p&uacute;blico y masivo de pasajeros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0663-2014",
+      "tipo": "oficio",
+      "numero": "0663",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la renta y complementarios - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28932-2013",
+      "tipo": "oficio",
+      "numero": "28932",
+      "fecha": "2013-05-14",
+      "tema": "R&eacute;gimen aplicable en los casos de repatriaci&oacute;n de capitales a sus sociedades matrices en Espa&ntilde;a relativos a inversiones que aquellas tienen en sociedades filiales en Colombia; o lo que es lo mismo, el retiro de inversi&oacute;n en una sociedad en Colombia por parte de un socio extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74671-2012",
+      "tipo": "oficio",
+      "numero": "74671",
+      "fecha": "2012-11-29",
+      "tema": "&iquest;Qui&eacute;n debe cumplir las obligaciones previstas en el art&iacute;culo 4 del Decreto 953 de 2003 cuando la maquinaria es importada por una compa&ntilde;&iacute;a leasing?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52670-2012",
+      "tipo": "oficio",
+      "numero": "52670",
+      "fecha": "2012-08-17",
+      "tema": "Obligaciones tributarias de las v&iacute;ctimas del conflicto armado, con ocasi&oacute;n de ingresos percibidos por concepto de indemnizaciones judiciales en el marco de la Ley 975 de 2005",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49119-2011",
+      "tipo": "oficio",
+      "numero": "49119",
+      "fecha": "2011-07-05",
+      "tema": "Aplicaci&oacute;n del numeral 14 del art&iacute;culo 879 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40374-2011",
+      "tipo": "oficio",
+      "numero": "40374",
+      "fecha": "2011-06-03",
+      "tema": "Forma de liquidar y pagar el impuesto de timbre aplicable a un contrato de concesi&oacute;n con valor estimado y un t&eacute;rmino de ejecuci&oacute;n de veinte a&ntilde;os, as&iacute; como la normativa aplicable en materia de dicho tributo desde el a&ntilde;o 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66902-2009",
+      "tipo": "oficio",
+      "numero": "66902",
+      "fecha": "2009-08-19",
+      "tema": "Consulta con fundamento en los art&iacute;culos 36 y 36-3 del Estatuto Tributario y en el Oficio n&uacute;mero 051657 del 17 de agosto de 2004 si la capitalizaci&oacute;n de la prima en colocaci&oacute;n de acciones pagada &iacute;ntegramente por los socios originales y la posterior disminuci&oacute;n del capital social, en un monto que afecte dicha prima, &iquest;convierte los reembolsos entregados a los socios originales en ingreso gravable para la sociedad y para los accionistas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28419-2009",
+      "tipo": "oficio",
+      "numero": "28419",
+      "fecha": "2009-04-07",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26258-2009",
+      "tipo": "oficio",
+      "numero": "26258",
+      "fecha": "2009-03-31",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0101181-2007",
+      "tipo": "concepto",
+      "numero": "0101181",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de impuesto sobre las ventas aplicable a los veh&iacute;culos automotores y camperos de la partida arancelaria 87.03 y pick-up de la partida 87.04 cuyo valor FOB o equivalente sea igual o superior a treinta mil dolares de Norteam&eacute;rica (Ps 30.000), as&iacute; como sus chasises y carrocer&iacute;as inclu&iacute;das las cabinas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48572-2007",
+      "tipo": "oficio",
+      "numero": "48572",
+      "fecha": "2007-06-28",
+      "tema": "&iquest;Cu&aacute;l es el manejo fiscal de los costos en desarrollo de un contrato PPA (Power Purshase Agreement) o CCCA (Contratos de compra de Capacidad de Energ&iacute;a), y sobre la procedencia de la sanci&oacute;n por inexactitud cuando no se tipifican los hechos previstos en las normas vigentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30734-2007",
+      "tipo": "oficio",
+      "numero": "30734",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La prestaci&oacute;n del servicio de ingenier&iacute;a se puede soportar en el Tratado Grupo de los Tres y si una empresa extranjera debe pagar impuestos en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101752-2006",
+      "tipo": "oficio",
+      "numero": "101752",
+      "fecha": "2006-12-04",
+      "tema": "Impuesto sobre la renta y complementarios - Reembolso de aportes - Prima en colocaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91291-2006",
+      "tipo": "oficio",
+      "numero": "91291",
+      "fecha": "2006-10-25",
+      "tema": "Solicita saber cu&aacute;l es el criterio de &eacute;ste despacho respecto de las normas objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004388-2006",
+      "tipo": "concepto",
+      "numero": "0004388",
+      "fecha": "2006-01-16",
+      "tema": "&iquest;Constituye ingreso gravable con el impuesto sobre la renta el valor de los aportes reembolsado o restituido a los socios, como resultado de la disminuci&oacute;n del capital de la sociedad, cuando dicha disminuci&oacute;n opera sobre el valor inicialmente capitalizado de las utilidades o de las cuentas previstas en el art&iacute;culo 36-3 del Estatuto Tributario?&iquest;La capitalizaci&oacute;n de la prima en colocaci&oacute;n de acciones y la posterior disminuci&oacute;n del capital de la sociedad, en un monto que afecte el valor inicialmente calculado e dicha prima, genera un ingreso gravable para la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026737-2002",
+      "tipo": "concepto",
+      "numero": "0026737",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; retenciones en la fuente deben aplicarse a los pagos o abonos en cuenta efectuados en desarrollo de un contrato de franquicia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001082-2002",
+      "tipo": "concepto",
+      "numero": "0001082",
+      "fecha": "2002-01-10",
+      "tema": "&iquest;Qu&eacute; procedimiento debe aplicarse y qu&eacute; funcionario es competente, cuando en un ejecutivo hipotecario con embargo vigente, concurre un embargo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065549-2001",
+      "tipo": "concepto",
+      "numero": "0065549",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Los inversionistas extranjeros sin residencia o domicilio en el pa&iacute;s, cuando tengan registrada la inversi&oacute;n ante el Banco de la Rep&uacute;blica, est&aacute;n obligados a presentar declaraci&oacute;n de renta y complementarios en el a&ntilde;o en que enajenen la inversi&oacute;n que tienen en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028348-2001",
+      "tipo": "concepto",
+      "numero": "0028348",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;La base gravable, de un contrato de daci&oacute;n en pago, para efectos del impuesto de timbre incluye el capital m&aacute;s los intereses causados, teniendo en cuenta que el mismo deriva de un contrato anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025669-2000",
+      "tipo": "concepto",
+      "numero": "0025669",
+      "fecha": "2000-03-22",
+      "tema": "&iquest;Cu&aacute;l es el mecanismo para probar el pago del impuesto de timbre? &iquest;Cual es el procedimiento a seguir en caso de haber cancelado un impuesto de timbre sin que hubiera lugar a ello?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053526-1999",
+      "tipo": "concepto",
+      "numero": "0053526",
+      "fecha": "1999-06-09",
+      "tema": "&iquest;la prima por colocaci&oacute;n de acciones est&aacute; gravada con el impuesto de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049337-1999",
+      "tipo": "concepto",
+      "numero": "0049337",
+      "fecha": "1999-12-16",
+      "tema": "&iquest;Constituye renta exenta los ingresos recibidos por concepto de intereses moratorios generados en la cancelaci&oacute;n extempor&aacute;neo de los servicios de acueducto y alcantarillado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055912-1998",
+      "tipo": "concepto",
+      "numero": "0055912",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Es deducible la p&eacute;rdida en venta de activos fijos o movibles, con base a costos ajustados por inflaci&oacute;n?&iquest;En la liquidaci&oacute;n de sociedades es gravable en cabeza de los socios y accionistas a revalorizaci&oacute;n del patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047550-1998",
+      "tipo": "concepto",
+      "numero": "0047550",
+      "fecha": "1998-06-19",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023711-1998",
+      "tipo": "concepto",
+      "numero": "0023711",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018749-1998",
+      "tipo": "concepto",
+      "numero": "0018749",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006699-1997",
+      "tipo": "concepto",
+      "numero": "0006699",
+      "fecha": "1997-09-03",
+      "tema": "&iquest;Las personas naturales o jur&iacute;dicas obligadas a retener en la fuente, el porcentaje legal y porqu&eacute; transacciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087338-1996",
+      "tipo": "concepto",
+      "numero": "0087338",
+      "fecha": "1996-11-18",
+      "tema": "&iquest;Cu&aacute;l es el n&uacute;mero de identificaci&oacute;n tributaria con que deben presentar las declaraciones de retenci&oacute;n las entidades de derecho p&uacute;blico por cada oficina retenedora teniendo en cuenta que la tarjeta de NIT, la posee la oficina principal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030534-1996",
+      "tipo": "concepto",
+      "numero": "0030534",
+      "fecha": "1996-04-12",
+      "tema": "Acerca del tratamiento tributario aplicable a los pagos o abonos en cuenta por concepto del INCENTIVO A LA CAPITALIZACI&Oacute;N RURAL -lCR- que efect&uacute;a FINAGRO a las Personas Naturales o Jur&iacute;dicas, beneficiarias de dicho incentivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015417-1996",
+      "tipo": "concepto",
+      "numero": "0015417",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007629-1991",
+      "tipo": "concepto",
+      "numero": "0007629",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Las normas jur&iacute;dicas existentes con relaci&oacute;n a la creaci&oacute;n de impuestos por parte de Consejos Municipales de algunos municipios del sur del Magdalena a profesiones como la Odontolog&iacute;a, excluyendo de este proceso al resto de las profesiones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026999-1989",
+      "tipo": "concepto",
+      "numero": "0026999",
+      "fecha": "1989-01-01",
+      "tema": "&iquest;C&uacute;al es el alcance del art&iacute;culo 1 del Decreto 1000 de 1989?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021229-1989",
+      "tipo": "concepto",
+      "numero": "0021229",
+      "fecha": "1989-01-01",
+      "tema": "Prima de colocaci&oacute;n de acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015649-1988",
+      "tipo": "concepto",
+      "numero": "0015649",
+      "fecha": "1988-08-11",
+      "tema": "Contenido de la declaraci&oacute;n",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-t-553-1994",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "553",
+      "year": 1994
+    },
+    {
+      "id": "cc-c-595-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "595",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1021-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1021",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-337-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "337",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    }
+  ]
+}

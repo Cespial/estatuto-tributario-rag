@@ -1,1 +1,66 @@
-{"id_articulo": "Art. 843-2", "titulo": "Art. 843-2. Aplicación de depósitos.", "titulo_corto": "Aplicación de depósitos.", "slug": "843-2", "url_origen": "https://estatuto.co/843-2", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los títulos de depósito que se efectúen a favor de la Administración de Impuestos Nacionales y que correspondan a procesos administrativos de cobro, adelantados por dicha entidad, que no fueren reclamados por el contribuyente dentro del año siguiente a la terminación del proceso, así como aquellos de los cuales no se hubiere localizado su titular, ingresarán como recursos del Fondo de Gestión Tributaria.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los títulos de depósito que se efectúen a favor de la Administración de Impuestos Nacionales y que correspondan a procesos administrativos de cobro, adelantados por dicha entidad, que no fueren reclamados por el contribuyente dentro del año siguiente a la terminación del proceso, así como aquellos de los cuales no se hubiere localizado su titular, ingresarán como recursos del Fondo de Gestión Tributaria.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 104.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "104"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - Artículo declarado EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1515-00 de 8 de noviembre de 2000, Magistrada Ponente Dra. Martha Victoria Sáchica Méndez."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 843-2",
+  "titulo": "Art. 843-2. Aplicación de depósitos.",
+  "titulo_corto": "Aplicación de depósitos.",
+  "slug": "843-2",
+  "url_origen": "https://estatuto.co/843-2",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los títulos de depósito que se efectúen a favor de la Administración de Impuestos Nacionales y que correspondan a procesos administrativos de cobro, adelantados por dicha entidad, que no fueren reclamados por el contribuyente dentro del año siguiente a la terminación del proceso, así como aquellos de los cuales no se hubiere localizado su titular, ingresarán como recursos del Fondo de Gestión Tributaria.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los títulos de depósito que se efectúen a favor de la Administración de Impuestos Nacionales y que correspondan a procesos administrativos de cobro, adelantados por dicha entidad, que no fueren reclamados por el contribuyente dentro del año siguiente a la terminación del proceso, así como aquellos de los cuales no se hubiere localizado su titular, ingresarán como recursos del Fondo de Gestión Tributaria.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 104.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "104"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - Artículo declarado EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1515-00 de 8 de noviembre de 2000, Magistrada Ponente Dra. Martha Victoria Sáchica Méndez."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 54603 (2014-09-12): &iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    }
+  ]
+}

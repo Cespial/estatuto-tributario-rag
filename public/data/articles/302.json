@@ -1,1 +1,561 @@
-{"id_articulo": "Art. 302", "titulo": "Art. 302. Origen.", "titulo_corto": "Origen.", "slug": "302", "url_origen": "https://estatuto.co/302", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Se consideran ganancias ocasionales para los contribuyentes sometidos a este impuesto, las provenientes de herencias, legados, donaciones, o cualquier otro acto jurídico celebrado inter vivos a título gratuito, y lo percibido como porción conyugal.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Se consideran ganancias ocasionales para los contribuyentes sometidos a este impuesto, las provenientes de herencias, legados, donaciones, o cualquier otro acto jurídico celebrado inter vivos a título gratuito, y lo percibido como porción conyugal.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012. Art. 102.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["303"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 302",
+  "titulo": "Art. 302. Origen.",
+  "titulo_corto": "Origen.",
+  "slug": "302",
+  "url_origen": "https://estatuto.co/302",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Se consideran ganancias ocasionales para los contribuyentes sometidos a este impuesto, las provenientes de herencias, legados, donaciones, o cualquier otro acto jurídico celebrado inter vivos a título gratuito, y lo percibido como porción conyugal.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Se consideran ganancias ocasionales para los contribuyentes sometidos a este impuesto, las provenientes de herencias, legados, donaciones, o cualquier otro acto jurídico celebrado inter vivos a título gratuito, y lo percibido como porción conyugal.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012. Art. 102.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "303"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 19 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 15513 (2025-11-05): Impuesto sobre la Renta y Complementarios\noficio 11212 (2025-08-20): Otros Temas\noficio 8856 (2025-07-08): Otros Temas\noficio 5917 (2024-08-27): Otras Disposiciones\noficio 2626 (2024-04-17): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-15513-2025",
+      "tipo": "oficio",
+      "numero": "15513",
+      "fecha": "2025-11-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11212-2025",
+      "tipo": "oficio",
+      "numero": "11212",
+      "fecha": "2025-08-20",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8856-2025",
+      "tipo": "oficio",
+      "numero": "8856",
+      "fecha": "2025-07-08",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5917-2024",
+      "tipo": "oficio",
+      "numero": "5917",
+      "fecha": "2024-08-27",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2626-2024",
+      "tipo": "oficio",
+      "numero": "2626",
+      "fecha": "2024-04-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1456-2024",
+      "tipo": "oficio",
+      "numero": "1456",
+      "fecha": "2024-03-01",
+      "tema": "(Int 130) Impuesto sobre la renta y complementarios - Ganancias ocasionales - Condonaci&oacute;n - Personas jur&iacute;dicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1238-2024",
+      "tipo": "oficio",
+      "numero": "1238",
+      "fecha": "2024-02-20",
+      "tema": "(Int 106) Impuesto sobre la renta y complementarios - Donaci&oacute;n - Ingresos constitutivos de ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5639-2023",
+      "tipo": "oficio",
+      "numero": "5639",
+      "fecha": "2023-09-29",
+      "tema": "(Int 1033) Impuesto sobre la Renta - Condonaci&oacute;n de deudas - Ganancias ocasionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3188-2023",
+      "tipo": "oficio",
+      "numero": "3188",
+      "fecha": "2023-05-24",
+      "tema": "(Int 610) Determinaci&oacute;n de la renta bruta en la enajenaci&oacute;n de activos - Ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2561-2023",
+      "tipo": "oficio",
+      "numero": "2561",
+      "fecha": "2023-04-26",
+      "tema": "(Int 525) Ingresos de Fuente Nacional - Liquidaci&oacute;n de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908576-2022",
+      "tipo": "oficio",
+      "numero": "908576",
+      "fecha": "2022-11-25",
+      "tema": "Impuesto sobre la renta - Obligaci&oacute;n de declarar - Contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907878-2022",
+      "tipo": "oficio",
+      "numero": "907878",
+      "fecha": "2022-10-21",
+      "tema": "- (Tributario) Ganancias ocasionales - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907038-2022",
+      "tipo": "oficio",
+      "numero": "907038",
+      "fecha": "2022-09-22",
+      "tema": "Ganancia Ocasional - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905217-2022",
+      "tipo": "oficio",
+      "numero": "905217",
+      "fecha": "2022-07-06",
+      "tema": "Impuesto sobre la renta - Herencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-909173-2021",
+      "tipo": "oficio",
+      "numero": "909173",
+      "fecha": "2021-09-06",
+      "tema": "Impuesto sobre la renta - Impuesto complementario de ganancias ocasionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908610-2021",
+      "tipo": "oficio",
+      "numero": "908610",
+      "fecha": "2021-08-25",
+      "tema": "Impuesto sobre la renta y complementarios - Ganancias ocasionales exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908238-2021",
+      "tipo": "oficio",
+      "numero": "908238",
+      "fecha": "2021-08-17",
+      "tema": "Ganancia Ocasional Exenta por Asignaci&oacute;n por Causa de Muerte",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904247-2021",
+      "tipo": "oficio",
+      "numero": "904247",
+      "fecha": "2021-05-12",
+      "tema": "Enajenaci&oacute;n de activos intangibles - Derechos deportivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902628-2021",
+      "tipo": "oficio",
+      "numero": "902628",
+      "fecha": "2021-03-26",
+      "tema": "(Int 0104) Impuesto sobre la renta - Renta vitalicia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906855-2020",
+      "tipo": "oficio",
+      "numero": "906855",
+      "fecha": "2020-11-06",
+      "tema": "Impuesto sobre la renta. Ingresos. Ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905417-2020",
+      "tipo": "oficio",
+      "numero": "905417",
+      "fecha": "2020-09-30",
+      "tema": "Ganancias ocasionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4184-2020",
+      "tipo": "oficio",
+      "numero": "4184",
+      "fecha": "2020-02-26",
+      "tema": "Hecho Generador del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1973-2020",
+      "tipo": "oficio",
+      "numero": "1973",
+      "fecha": "2020-01-28",
+      "tema": "&iquest;En el caso de que una persona no residente, obtenga ingresos respecto de los cuales no se les haya practicado retenci&oacute;n en la fuente, debe atenderse a los topes de ingresos y patrimonio consagrados en el numeral 1 del art&iacute;culo 592 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29885-2019",
+      "tipo": "oficio",
+      "numero": "29885",
+      "fecha": "2019-11-28",
+      "tema": "Costo de los activos fijos enajenados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29884-2019",
+      "tipo": "oficio",
+      "numero": "29884",
+      "fecha": "2019-11-28",
+      "tema": "Donaciones a entidades no pertenecientes al r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26836-2019",
+      "tipo": "oficio",
+      "numero": "26836",
+      "fecha": "2019-10-24",
+      "tema": "Norma y tr&aacute;mite a seguir con el fin de la cesi&oacute;n a t&iacute;tulo gratuito de acciones sea demostrado como una daci&oacute;n en pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21330-2019",
+      "tipo": "oficio",
+      "numero": "21330",
+      "fecha": "2019-08-26",
+      "tema": "Ganancia ocasional por proyecto social",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13148-2019",
+      "tipo": "oficio",
+      "numero": "13148",
+      "fecha": "2019-05-27",
+      "tema": "Impuesto sobre la Renta y Complementarios. Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6720-2019",
+      "tipo": "oficio",
+      "numero": "6720",
+      "fecha": "2019-03-18",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional - Ingreso constitutivo de renta - Ingreso Gravable Costo de los Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006184-2019",
+      "tipo": "concepto",
+      "numero": "0006184",
+      "fecha": "2019-03-12",
+      "tema": "- (Tributario) Ganancia Ocasional Actos que Implican Transferencia de Dominio Donaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1449-2019",
+      "tipo": "oficio",
+      "numero": "1449",
+      "fecha": "2019-01-15",
+      "tema": "Intervenci&oacute;n de la Administraci&oacute;n de Impuestos en Procesos de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901514-2018",
+      "tipo": "oficio",
+      "numero": "901514",
+      "fecha": "2018-11-29",
+      "tema": "Efectos de la transferencia de la nuda propiedad del acuerdo con el numeral 11 del art&iacute;culo 303 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900402-2018",
+      "tipo": "oficio",
+      "numero": "900402",
+      "fecha": "2018-11-20",
+      "tema": "Retenci&oacute;n en la fuente en auxilios y subsidios a trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34690-2018",
+      "tipo": "oficio",
+      "numero": "34690",
+      "fecha": "2018-12-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de pagar impuesto para una persona que hace inversiones en la bolsa de New York con acciones y opciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3933-2018",
+      "tipo": "oficio",
+      "numero": "3933",
+      "fecha": "2018-02-16",
+      "tema": "&iquest;En una sucesi&oacute;n, qui&eacute;n es el beneficiario de la exenci&oacute;n del Impuesto Sobre la Renta y Complementarios por la enajenaci&oacute;n de un inmueble destinado a la construcci&oacute;n de un proyecto de inter&eacute;s social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20524-2017",
+      "tipo": "oficio",
+      "numero": "20524",
+      "fecha": "2017-08-02",
+      "tema": "Club deportivo fue sancionado con la imposibilidad de que sus aficionados asistieran a los encuentros que jugara de local. Sin embargo, el club decidi&oacute; poner a la venta boleter&iacute;a para dichos partidos, aun cuando la misma no otorgaba ninguna clase de beneficios. De acuerdo a lo anterior consulta: &iquest;Cu&aacute;l es el tratamiento tributario y contable de dicho ingreso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8607-2017",
+      "tipo": "oficio",
+      "numero": "8607",
+      "fecha": "2017-04-12",
+      "tema": "&iquest;Con posterioridad a la aprobaci&oacute;n de la Ley 1819 de 2016, contin&uacute;a aplic&aacute;ndose el r&eacute;gimen del impuesto a las ganancias ocasionales sobre los ingresos por herencias, legados y donaciones percibidos por las personas naturales a partir del a&ntilde;o gravable 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29801-2016",
+      "tipo": "oficio",
+      "numero": "29801",
+      "fecha": "2016-11-03",
+      "tema": "Impuesto sobre la Renta y Complementarios - Ingresos Constitutivos de Ganancia Ocasional - Ingresos Constitutivos de Renta Gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2016",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2016-09-06",
+      "tema": "Declaraci&oacute;n de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4098-2016",
+      "tipo": "oficio",
+      "numero": "4098",
+      "fecha": "2016-03-01",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30872-2015",
+      "tipo": "oficio",
+      "numero": "30872",
+      "fecha": "2015-10-26",
+      "tema": "A qu&eacute; impuesto est&aacute; sometida la Partici&oacute;n del Patrimonio en Vida, introducida por el par&aacute;grafo del Art. 487 de la Ley 1564 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28636-2015",
+      "tipo": "oficio",
+      "numero": "28636",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cuando se donan de padre a hijo, acciones no inscritas en bolsa, cu&aacute;l es el valor que se debe tomar para efectos tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25529-2015",
+      "tipo": "oficio",
+      "numero": "25529",
+      "fecha": "2015-09-02",
+      "tema": "Regulaci&oacute;n y la forma en que se calcula el impuesto complementario de ganancia ocasional en el caso de las herencias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49408-2014",
+      "tipo": "oficio",
+      "numero": "49408",
+      "fecha": "2014-08-15",
+      "tema": "&iquest;C&oacute;mo se registra en la declaraci&oacute;n de renta por el a&ntilde;o gravable 2013 la utilidad obtenida por la enajenaci&oacute;n de activos fijos pose&iacute;dos por menos de 2 a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30274-2014",
+      "tipo": "oficio",
+      "numero": "30274",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa por el Sistema IMAN se deben tener en cuenta los factores se&ntilde;alados en el art&iacute;culo 2&deg; del Decreto 1070 de 2013, para establecer la retenci&oacute;n en la fuente en la categor&iacute;a de empleados?&iquest;La deducci&oacute;n por dependientes se debe solicitar solo por los meses en que existi&oacute; esa relaci&oacute;n de dependencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79810-2013",
+      "tipo": "oficio",
+      "numero": "79810",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Al tenor del art&iacute;culo 103 de la Ley 1607 de 2012, cual es el valor que se debe tener en cuenta en los actos de enajenaci&oacute;n con reserva de usufructo si el 100% o el 70% del aval&uacute;o catastral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079522-2013",
+      "tipo": "concepto",
+      "numero": "0079522",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;De acuerdo con el par&aacute;grafo 2 del art&iacute;culo 303 del Estatuto Tributario adicionado por el art&iacute;culo 103 de la Ley 1607 de 2012, relativo a la exclusi&oacute;n del impuesto de ganancias ocasionales en la consolidaci&oacute;n del usufructo en el nudo propietario, esta exclusi&oacute;n aplica a cualquier evento de consolidaci&oacute;n de la nuda propiedad y el usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36695-2007",
+      "tipo": "oficio",
+      "numero": "36695",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de una herencia representada en un bien ra&iacute;z que se recibe en el a&ntilde;o 2006 y en el mismo a&ntilde;o se vende?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000326-2002",
+      "tipo": "concepto",
+      "numero": "0000326",
+      "fecha": "2002-01-01",
+      "tema": "Puede darse a los Laudos Arbitrales el mismo tratamiento de sentencias o conciliaciones judiciales, para efectos de la aplicaci&oacute;n del art&iacute;culo 29 de la Ley 344 de 1.996?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0071484-2001",
+      "tipo": "concepto",
+      "numero": "0071484",
+      "fecha": "2001-08-08",
+      "tema": "&iquest;Para determinar la ganancia ocasional por concepto de herencias de los legitimarios, se puede solicitar como deducciones los pagos por concepto de impuestos, registro, honorarios del abogado etc.. Estas ganancias se pueden afectar con p&eacute;rdidas ocasionales por otros conceptos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042089-2001",
+      "tipo": "concepto",
+      "numero": "0042089",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;Deben las personas naturales que reciban herencias presentar declaraci&oacute;n de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066040-2000",
+      "tipo": "concepto",
+      "numero": "0066040",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;Los auxilios por calamidad domestica que un fondo de empleados realiza a sus asociados est&aacute;n sometidos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030276-1998",
+      "tipo": "concepto",
+      "numero": "0030276",
+      "fecha": "1998-04-30",
+      "tema": "&iquest;Dentro de los ingresos se&ntilde;alados por la ley para no encontrarse obligado a presentar declaraci&oacute;n de renta y complementarios, pueden excluirse los recibidos por concepto de herencias, conforme a lo previsto en el par&aacute;grafo 2o del art&iacute;culo 593 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030260-1998",
+      "tipo": "concepto",
+      "numero": "0030260",
+      "fecha": "1998-04-30",
+      "tema": "&iquest;Cual es el tratamiento impositivo relativo al impuesto a la renta y complementarios aplicable en materia de sucesiones, tanto a las personas extranjeras residentes y no residentes en Colombia, as&iacute; como a las nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007456-1997",
+      "tipo": "concepto",
+      "numero": "0007456",
+      "fecha": "1997-09-05",
+      "tema": "&iquest;En el caso de cesi&oacute;n de derechos en forma gratuita al c&oacute;nyuge, debe acreditarse el pago del impuesto por donaci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    }
+  ]
+}

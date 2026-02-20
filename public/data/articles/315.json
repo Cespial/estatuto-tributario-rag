@@ -1,1 +1,96 @@
-{"id_articulo": "Art. 315", "titulo": "Art. 315. El impuesto de ganancia ocasional para los no declarantes.", "titulo_corto": "El impuesto de ganancia ocasional para los no declarantes.", "slug": "315", "url_origen": "https://estatuto.co/315", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado verde\">*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": ["*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, s...", "full_length": 245}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 315",
+  "titulo": "Art. 315. El impuesto de ganancia ocasional para los no declarantes.",
+  "titulo_corto": "El impuesto de ganancia ocasional para los no declarantes.",
+  "slug": "315",
+  "url_origen": "https://estatuto.co/315",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado verde\">*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [
+    "*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, se regirán por lo dispuesto en el artículo 6o."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los asalariados no obligados a presentar declaración de renta y complementarios y los demás contribuyentes no obligados a declarar, que hayan percibido ingresos constitutivos de ganancia ocasional, s...",
+      "full_length": 245
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 61417 (2014-10-31): Consulta sobre la vigencia de la exclusi&oacute;n en el impuesto sobre las ventas, consagrada en el art&iacute;culo 424-5 numeral 4o del Estatuto Tributario\noficio 74527 (2013-11-20): Giros al exterior en divisas extranjeras - Retenci&oacute;n en la fuente",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-61417-2014",
+      "tipo": "oficio",
+      "numero": "61417",
+      "fecha": "2014-10-31",
+      "tema": "Consulta sobre la vigencia de la exclusi&oacute;n en el impuesto sobre las ventas, consagrada en el art&iacute;culo 424-5 numeral 4o del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74527-2013",
+      "tipo": "oficio",
+      "numero": "74527",
+      "fecha": "2013-11-20",
+      "tema": "Giros al exterior en divisas extranjeras - Retenci&oacute;n en la fuente",
+      "vigente": true
+    }
+  ]
+}

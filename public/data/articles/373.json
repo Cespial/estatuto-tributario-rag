@@ -1,1 +1,309 @@
-{"id_articulo": "Art. 373", "titulo": "Art. 373. Los valores retenidos se imputan en la liquidación privada.", "titulo_corto": "Los valores retenidos se imputan en la liquidación privada.", "slug": "373", "url_origen": "https://estatuto.co/373", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En las respectivas liquidaciones privadas los contribuyentes deducirán del total del impuesto sobre la renta y complementarios el valor del impuesto que les haya sido retenido. La diferencia que resulte será pagada en la proporción y dentro de los términos ordinarios señalados para el pago de la liquidación privada.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En las respectivas liquidaciones privadas los contribuyentes deducirán del total del impuesto sobre la renta y complementarios el valor del impuesto que les haya sido retenido. La diferencia que resulte será pagada en la proporción y dentro de los términos ordinarios señalados para el pago de la liquidación privada.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 373",
+  "titulo": "Art. 373. Los valores retenidos se imputan en la liquidación privada.",
+  "titulo_corto": "Los valores retenidos se imputan en la liquidación privada.",
+  "slug": "373",
+  "url_origen": "https://estatuto.co/373",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En las respectivas liquidaciones privadas los contribuyentes deducirán del total del impuesto sobre la renta y complementarios el valor del impuesto que les haya sido retenido. La diferencia que resulte será pagada en la proporción y dentro de los términos ordinarios señalados para el pago de la liquidación privada.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En las respectivas liquidaciones privadas los contribuyentes deducirán del total del impuesto sobre la renta y complementarios el valor del impuesto que les haya sido retenido. La diferencia que resulte será pagada en la proporción y dentro de los términos ordinarios señalados para el pago de la liquidación privada.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 17321 (2025-12-10): Retenci&oacute;n en la fuente\noficio 16116 (2025-11-18): Procedimiento Tributario\noficio 7336 (2025-06-04): Retenci&oacute;n en la fuente\noficio 0354 (2025-01-20): Retenci&oacute;n en la fuente\noficio 20776 (2024-11-15): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-17321-2025",
+      "tipo": "oficio",
+      "numero": "17321",
+      "fecha": "2025-12-10",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7336-2025",
+      "tipo": "oficio",
+      "numero": "7336",
+      "fecha": "2025-06-04",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0354-2025",
+      "tipo": "oficio",
+      "numero": "0354",
+      "fecha": "2025-01-20",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20776-2024",
+      "tipo": "oficio",
+      "numero": "20776",
+      "fecha": "2024-11-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10222-2024",
+      "tipo": "oficio",
+      "numero": "10222",
+      "fecha": "2024-12-10",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1513-2024",
+      "tipo": "oficio",
+      "numero": "1513",
+      "fecha": "2024-03-04",
+      "tema": "(Int 447) Certificados de retenci&oacute;n en la fuente - Confirma Oficio 011657 de abril 23 de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906765-2022",
+      "tipo": "oficio",
+      "numero": "906765",
+      "fecha": "2022-09-08",
+      "tema": "Autorretenci&oacute;n a t&iacute;tulo del impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903531-2022",
+      "tipo": "oficio",
+      "numero": "903531",
+      "fecha": "2022-05-06",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902143-2022",
+      "tipo": "oficio",
+      "numero": "902143",
+      "fecha": "2022-03-17",
+      "tema": "Devoluciones de saldos a favor - Declaraciones informativas de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900977-2022",
+      "tipo": "oficio",
+      "numero": "900977",
+      "fecha": "2022-02-09",
+      "tema": "Impuesto sobre la renta - Pagos basados en acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900613-2022",
+      "tipo": "oficio",
+      "numero": "900613",
+      "fecha": "2022-01-28",
+      "tema": "Retenci&oacute;n en la fuente, causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915363-2021",
+      "tipo": "oficio",
+      "numero": "915363",
+      "fecha": "2021-12-16",
+      "tema": "Retenci&oacute;n en la fuente - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910511-2021",
+      "tipo": "oficio",
+      "numero": "910511",
+      "fecha": "2021-09-23",
+      "tema": "&iquest;el comercializador de minerales es Agente de retenci&oacute;n de regal&iacute;as, a estas retenciones se les debe dar el mismo tratamiento tributario por parte del comercializador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908206-2021",
+      "tipo": "oficio",
+      "numero": "908206",
+      "fecha": "2021-08-13",
+      "tema": "Retenci&oacute;n en la fuente por dividendos - Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901490-2021",
+      "tipo": "oficio",
+      "numero": "901490",
+      "fecha": "2021-11-19",
+      "tema": "Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0361-2020",
+      "tipo": "oficio",
+      "numero": "0361",
+      "fecha": "2020-03-26",
+      "tema": "Correcci&oacute;n de Actos Administrativos Sanci&oacute;n por Correcci&oacute;n de las Declaraciones Tributarias Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0496-2016",
+      "tipo": "oficio",
+      "numero": "0496",
+      "fecha": "2016-05-31",
+      "tema": "&iquest;Son eficaces las declaraciones de retenci&oacute;n en la fuente que se presentan sin pago concomitante, pero que el mismo se materializa con posterioridad: mediante la expedici&oacute;n de actos administrativos que deben ser proferidos por la DIAN, en atenci&oacute;n a lo establecido en normas especiales que permiten realizar el pago con mecanismos diferentes al efectivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16395-2015",
+      "tipo": "oficio",
+      "numero": "16395",
+      "fecha": "2015-06-03",
+      "tema": "&iquest;Cu&aacute;les son los requisitos para transar el 100% de las sanciones e intereses, toda vez que el pr&oacute;ximo 29 de abril de 2015 vence para acogerse a la opci&oacute;n, conforme se establece en el art&iacute;culo 56 de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52332-2014",
+      "tipo": "oficio",
+      "numero": "52332",
+      "fecha": "2014-08-28",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta - Pago de servicio de transporte escolar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19735-2014",
+      "tipo": "oficio",
+      "numero": "19735",
+      "fecha": "2014-03-25",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59042-2012",
+      "tipo": "oficio",
+      "numero": "59042",
+      "fecha": "2012-09-18",
+      "tema": "&iquest;Qu&eacute; implicaciones legales y fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99597-2006",
+      "tipo": "oficio",
+      "numero": "99597",
+      "fecha": "2006-11-24",
+      "tema": "&iquest;En qu&eacute; momento deben imputarse a la declaraci&oacute;n de renta y complementarios las retenciones en la fuente practicadas sobre los ingresos provenientes de un contrato de cuentas en participaci&oacute;n? Retenci&oacute;n en la fuente imputable a la declaraci&oacute;n privada",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051022-2005",
+      "tipo": "concepto",
+      "numero": "0051022",
+      "fecha": "2005-07-29",
+      "tema": "&iquest;Procede el beneficio de auditor&iacute;a de que trata el art&iacute;culo 689-1 del estatuto tributario, cuando la declaraci&oacute;n de renta que se ha acogido a &eacute;l es objeto de una correcci&oacute;n que disminuye el valor de las retenciones en la fuente declaradas, por corresponder estas a otro periodo gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33980-2005",
+      "tipo": "oficio",
+      "numero": "33980",
+      "fecha": "2005-06-07",
+      "tema": "&iquest;Qu&eacute; hacer con los problemas que se le presentan a una persona jur&iacute;dica obligada a llevar contabilidad por el sistema de causaci&oacute;n, cuando le presta servicios a entidades oficiales que ejecutan el presupuesto de la naci&oacute;n y que llevan contabilidad por el sistema de caja?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077280-2003",
+      "tipo": "concepto",
+      "numero": "0077280",
+      "fecha": "2003-12-02",
+      "tema": "&iquest;Debe practicarse retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta sobre pagos o abonos en cuenta que efect&uacute;en sociedades dedicadas al aprovechamiento de plantaciones de &aacute;rboles maderables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070192-2000",
+      "tipo": "concepto",
+      "numero": "0070192",
+      "fecha": "2000-07-25",
+      "tema": "&iquest;Las sociedades colombianas constituidas con capital extranjero que tienen como objeto social la prestaci&oacute;n de servicios al sector de petrolero, son sujetos pasivos del impuesto complementario de remesas respecto de los pagos o abonos en cuenta relativos a la prestaci&oacute;n de esos servicios que les sean consignados en cuentas de compensaci&oacute;n que las beneficiarias del pago tienen en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052757-2000",
+      "tipo": "concepto",
+      "numero": "0052757",
+      "fecha": "2000-06-02",
+      "tema": "&iquest;Los ingresos provenientes de una inversi&oacute;n en el exterior realizada por una persona natural, est&aacute;n gravados en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043058-1998",
+      "tipo": "concepto",
+      "numero": "0043058",
+      "fecha": "1998-06-10",
+      "tema": "&iquest;Es procedente el pago al agente retenedor de la retenci&oacute;n en la fuente que este por olvido no efectu&oacute; en su oportunidad? &iquest;Cuando las sumas por concepto de retenci&oacute;n se cancelan en un periodo gravable diferente a aquel en el cual se causaron, en que periodo se deben contabilizar y hacer valer dichos pagos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062467-1996",
+      "tipo": "concepto",
+      "numero": "0062467",
+      "fecha": "1996-08-06",
+      "tema": "&iquest;Cu&aacute;l es el per&iacute;odo en que debe contabilizarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

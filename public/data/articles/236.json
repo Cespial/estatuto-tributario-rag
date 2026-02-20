@@ -1,1 +1,389 @@
-{"id_articulo": "Art. 236", "titulo": "Art. 236. Renta por comparación patrimonial.", "titulo_corto": "Renta por comparación patrimonial.", "slug": "236", "url_origen": "https://estatuto.co/236", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Cuando la suma de la renta gravable, las rentas exentas y la ganancia ocasional neta, resultare inferior a la diferencia entre el patrimonio líquido del último período gravable y el patrimonio líquido del período inmediatamente anterior, dicha diferencia se considera renta gravable, a menos que el contribuyente demuestre que el aumento patrimonial obedece a causas justificativas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Cuando la suma de la renta gravable, las rentas exentas y la ganancia ocasional neta, resultare inferior a la diferencia entre el patrimonio líquido del último período gravable y el patrimonio líquido del período inmediatamente anterior, dicha diferencia se considera renta gravable, a menos que el contribuyente demuestre que el aumento patrimonial obedece a causas justificativas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 236",
+  "titulo": "Art. 236. Renta por comparación patrimonial.",
+  "titulo_corto": "Renta por comparación patrimonial.",
+  "slug": "236",
+  "url_origen": "https://estatuto.co/236",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Cuando la suma de la renta gravable, las rentas exentas y la ganancia ocasional neta, resultare inferior a la diferencia entre el patrimonio líquido del último período gravable y el patrimonio líquido del período inmediatamente anterior, dicha diferencia se considera renta gravable, a menos que el contribuyente demuestre que el aumento patrimonial obedece a causas justificativas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Cuando la suma de la renta gravable, las rentas exentas y la ganancia ocasional neta, resultare inferior a la diferencia entre el patrimonio líquido del último período gravable y el patrimonio líquido del período inmediatamente anterior, dicha diferencia se considera renta gravable, a menos que el contribuyente demuestre que el aumento patrimonial obedece a causas justificativas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s). Jurisprudencia: 6 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 5207 (2024-07-30): Impuesto sobre la Renta y Complementarios\noficio 4918 (2023-08-28): (Int 923) Impuesto sobre la Renta y Complementarios - Renta por Comparaci&oacute;n Patrimonial\noficio 3570 (2023-06-14): (Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio\noficio 905865 (2022-08-02): Impuesto sobre la renta -- Renta por comparaci&oacute;n patrimonial\noficio 915595 (2021-12-22): Impuesto sobre la Renta - Impuesto complementario de normalizaci&oacute;n tributaria",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-5207-2024",
+      "tipo": "oficio",
+      "numero": "5207",
+      "fecha": "2024-07-30",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4918-2023",
+      "tipo": "oficio",
+      "numero": "4918",
+      "fecha": "2023-08-28",
+      "tema": "(Int 923) Impuesto sobre la Renta y Complementarios - Renta por Comparaci&oacute;n Patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905865-2022",
+      "tipo": "oficio",
+      "numero": "905865",
+      "fecha": "2022-08-02",
+      "tema": "Impuesto sobre la renta -- Renta por comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915595-2021",
+      "tipo": "oficio",
+      "numero": "915595",
+      "fecha": "2021-12-22",
+      "tema": "Impuesto sobre la Renta - Impuesto complementario de normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914062-2021",
+      "tipo": "oficio",
+      "numero": "914062",
+      "fecha": "2021-11-17",
+      "tema": "Activo declarado por menor valoraci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909836-2021",
+      "tipo": "oficio",
+      "numero": "909836",
+      "fecha": "2021-09-15",
+      "tema": "Sociedad en liquidaci&oacute;n, comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904241-2021",
+      "tipo": "oficio",
+      "numero": "904241",
+      "fecha": "2021-06-12",
+      "tema": "Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907761-2020",
+      "tipo": "oficio",
+      "numero": "907761",
+      "fecha": "2020-12-02",
+      "tema": "Renta por Comparaci&oacute;n Patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905134-2020",
+      "tipo": "oficio",
+      "numero": "905134",
+      "fecha": "2020-09-24",
+      "tema": "Renta por comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0634-2019",
+      "tipo": "oficio",
+      "numero": "0634",
+      "fecha": "2019-03-27",
+      "tema": "(Int 634) Leasing Sistema Operativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29889-2019",
+      "tipo": "oficio",
+      "numero": "29889",
+      "fecha": "2019-11-28",
+      "tema": "Aplicaci&oacute;n de los nuevos incentivos tributarios para cerrar las brechas de desigualdad socioecon&oacute;mica en las zonas m&aacute;s afectadas por el conflicto armado (ZOMAC)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7157-2019",
+      "tipo": "oficio",
+      "numero": "7157",
+      "fecha": "2019-03-22",
+      "tema": "Una sociedad cuyo patrimonio l&iacute;quido fue negativo en el a&ntilde;o gravable 2017 producto de los pasivos acumulados con la casa matriz en el exterior, capitaliza dichas obligaciones en el a&ntilde;o gravable 2018, &iquest;En la declaraci&oacute;n de renta del a&ntilde;o gravable 2018, qu&eacute; tratamiento tiene la diferencia en cambio que resulta de la capitalizaci&oacute;n de pasivos acumulados durante varios a&ntilde;os? &iquest;La disminuci&oacute;n de pasivos y por ende el aumento en el patrimonio l&iacute;quido, resultado de la capitalizaci&oacute;n de las deudas con la casa matriz en el exterior, qu&eacute; efectos tiene en la renta por comparaci&oacute;n patrimonial, toda vez que se constituye en incremento del capital social de la empresa en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902565-2018",
+      "tipo": "oficio",
+      "numero": "902565",
+      "fecha": "2018-12-05",
+      "tema": "&iquest;Cu&aacute;les son las causas justificativas para la demostraci&oacute;n del aumento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019193-2018",
+      "tipo": "concepto",
+      "numero": "0019193",
+      "fecha": "2018-08-13",
+      "tema": "&iquest;Para calcular la renta por comparaci&oacute;n patrimonial es procedente comparar el patrimonio l&iacute;quido del a&ntilde;o gravable determinado en la Liquidaci&oacute;n Oficial de Revisi&oacute;n, con el patrimonio l&iacute;quido declarado por el contribuyente en el a&ntilde;o gravable anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34065-2017",
+      "tipo": "oficio",
+      "numero": "34065",
+      "fecha": "2017-12-20",
+      "tema": "&iquest;Qu&eacute; valor se lleva a la escritura de un inmueble adquirido a trav&eacute;s de un derecho litigioso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7792-2016",
+      "tipo": "oficio",
+      "numero": "7792",
+      "fecha": "2016-04-08",
+      "tema": "&iquest;Cu&aacute;l es la jurisdicci&oacute;n en la cual tiene su domicilio el mencionado marinero para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014? - &iquest;De qu&eacute; forma se puede acreditar la jurisdicci&oacute;n en la cual se tenga el domicilio para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35259-2015",
+      "tipo": "oficio",
+      "numero": "35259",
+      "fecha": "2015-12-11",
+      "tema": "&iquest;El mayor valor generado por la diferencia en cambio se toma como renta gravable? - &iquest;Esta diferencia, se tomar&aacute; en cuenta en la declaraci&oacute;n del impuesto sobre la renta del a&ntilde;o 2015, para establecer la renta por comparaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23858-2015",
+      "tipo": "oficio",
+      "numero": "23858",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Hay un ingreso gravado con impuesto de renta, en el caso de una sociedad que recibe un aporte en dinero o en especie y emite acciones nuevas, pero las partes no declaran expresamente en el documento del aporte que se acogen al art&iacute;culo 319 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34107-2014",
+      "tipo": "oficio",
+      "numero": "34107",
+      "fecha": "2014-06-06",
+      "tema": "&iquest;En la comparaci&oacute;n patrimonial, una vez obtenida la renta l&iacute;quida, el contribuyente puede descontar la retenci&oacute;n en la fuente que le practicaron a t&iacute;tulo de impuesto sobre la renta y tambi&eacute;n la retenci&oacute;n a t&iacute;tulo de impuesto sobre la renta para la equidad-CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0659-2008",
+      "tipo": "oficio",
+      "numero": "0659",
+      "fecha": "2008-01-04",
+      "tema": "&iquest;La Liquidaci&oacute;n Oficial de Revisi&oacute;n puede contener la determinaci&oacute;n del impuesto sobre la renta por los dos sistemas: ordinario y comparaci&oacute;n patrimonial, en forma independiente y uno en subsidio del otro?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0077117-2007",
+      "tipo": "concepto",
+      "numero": "0077117",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;El beneficio de auditor&iacute;a procede a&uacute;n en los casos en que exista diferencia por comparaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61064-2007",
+      "tipo": "oficio",
+      "numero": "61064",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Es viable dar aplicaci&oacute;n al art&iacute;culo 239-1 citado adicionado al estatuto Tributario mediante la Ley 863 de 2003, respecto de declaraciones de renta y complementarios correspondientes al a&ntilde;o gravable 2003 sometidas al procedimiento de revisi&oacute;n, cuando los contribuyentes con ocasi&oacute;n de la respuesta al requerimiento especial corrigen sus declaraciones de renta de ese a&ntilde;o incluyendo los activos no declarados y autoliquid&aacute;ndose la sanci&oacute;n de que trata el art&iacute;culo 649 transitorio del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38337-2006",
+      "tipo": "oficio",
+      "numero": "38337",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;En una devoluci&oacute;n se resuelve en forma inhibitoria por no haber demostrado con documento de fecha cierta una cuenta por cobrar, cu&aacute;l ser&iacute;a el patrimonio del a&ntilde;o siguiente para determinar la conciliaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90280-2005",
+      "tipo": "oficio",
+      "numero": "90280",
+      "fecha": "2005-12-06",
+      "tema": "&iquest;C&oacute;mo podr&iacute;a el contribuyente corregir la liquidaci&oacute;n privada para incluir en la declaraci&oacute;n los mayores valores aceptados y la sanci&oacute;n de inexactitud reducida cuando el requerimiento especial plantea la determinaci&oacute;n del impuesto de renta simult&aacute;neamente por el sistema ordinario y por el sistema de comparaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051651-2004",
+      "tipo": "concepto",
+      "numero": "0051651",
+      "fecha": "2004-08-17",
+      "tema": "&iquest;Un contribuyente obligado a llevar contabilidad por el sistema de causaci&oacute;n cuando toma la renta gravable para justificar la diferencia patrimonial &iquest;debe o no, restar la provisi&oacute;n de impuestos sin tener en cuenta los anticipos y la retenci&oacute;n en la fuente practicada?&iquest;Los contribuyentes obligados a realizar ajustes por inflaci&oacute;n &iquest;pueden, o no, justificar el incremento patrimonial con el ajuste por inflaci&oacute;n al patrimonio, es decir, con el incremento de la revalorizaci&oacute;n patrimonial, con base en el art&iacute;culo 236 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009117-2004",
+      "tipo": "concepto",
+      "numero": "0009117",
+      "fecha": "2004-02-16",
+      "tema": "&iquest;Constituye causa justificativa de la diferencia patrimonial la compensaci&oacute;n de p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060371-2001",
+      "tipo": "concepto",
+      "numero": "0060371",
+      "fecha": "2001-07-03",
+      "tema": "&iquest;Se puede determinar renta por el sistema de comparaci&oacute;n patrimonial cuando se desconocen pasivos por falta de requisitos y no fueron comprobados plenamente?&iquest;Se deben aceptar los pasivos y por tanto desvirtuar la comparaci&oacute;n patrimonial si el contribuyente paga el 5% como sanci&oacute;n de los pasivos inexistentes incluidos en a&ntilde;os anteriores?&iquest;Se debe proponer reliquidaci&oacute;n de sanci&oacute;n por extemporaneidad cuando se propone la modificaci&oacute;n con base en el nuevo valor a pagar?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0119960-2000",
+      "tipo": "concepto",
+      "numero": "0119960",
+      "fecha": "2000-12-12",
+      "tema": "&iquest;Los usuarios de zonas francas se encuentran obligados a determinar la renta l&iacute;quida por el sistema de",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097597-2000",
+      "tipo": "concepto",
+      "numero": "0097597",
+      "fecha": "2000-10-06",
+      "tema": "&iquest;Se puede desvirtuar la diferencia patrimonial de una sociedad con el desaparecimiento de pasivos a favor de los socios con base en el hecho en que se les entregaron acciones a cambio de los pasivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057223-2000",
+      "tipo": "concepto",
+      "numero": "0057223",
+      "fecha": "2000-06-16",
+      "tema": "&iquest;Los reajustes fiscales justifican el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031190-1999",
+      "tipo": "concepto",
+      "numero": "0031190",
+      "fecha": "1999-04-06",
+      "tema": "&iquest; Para determinar la renta por comparaci&oacute;n patrimonial, cu&aacute;les rentas capitalizables se toman en cuenta: las del mismo a&ntilde;o o las del a&ntilde;o inmediatamente anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048499-1997",
+      "tipo": "concepto",
+      "numero": "0048499",
+      "fecha": "1997-06-12",
+      "tema": "sobre los descuentos de la base de retenci&oacute;n de los asalariados",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025075-1997",
+      "tipo": "concepto",
+      "numero": "0025075",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059378-1994",
+      "tipo": "concepto",
+      "numero": "0059378",
+      "fecha": "1994-10-07",
+      "tema": "&iquest;Los ingresos representados en la pensi&oacute;n de jubilaci&oacute;n y aquellos no constitutivos de renta ni de ganancia ocasional, no gravables, pierden esta condici&oacute;n cuando la renta es determinada por el sistema de comparaci&oacute;n patrimonial seg&uacute;n lo dispuesto por el art&iacute;culo 236 y 237 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009842-1992",
+      "tipo": "concepto",
+      "numero": "0009842",
+      "fecha": "1992-01-01",
+      "tema": "Si bien contablemente constituye un gasto, &eacute;ste tributariamente no es deducible, con una excepci&oacute;n expresamente se&ntilde;alada en la ley tributaria para los organismos descentralizados",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.1.19.4",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.1.19.4",
+      "vigente": true
+    }
+  ]
+}

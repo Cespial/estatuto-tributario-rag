@@ -1,1 +1,517 @@
-{"id_articulo": "Art. 282", "titulo": "Art. 282. Concepto", "titulo_corto": "Concepto", "slug": "282", "url_origen": "https://estatuto.co/282", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El patrimonio líquido gravable se determina restando del patrimonio bruto poseído por el contribuyente en el último día del año o período gravable el monto de las deudas a cargo del mismo, vigentes en esa fecha.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El patrimonio líquido gravable se determina restando del patrimonio bruto poseído por el contribuyente en el último día del año o período gravable el monto de las deudas a cargo del mismo, vigentes en esa fecha.</p>\n</span>", "modificaciones_raw": "- El nuevo Impuesto al patrimonio se crea nuevamente con el Decreto 4825 de 2010.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 282",
+  "titulo": "Art. 282. Concepto",
+  "titulo_corto": "Concepto",
+  "slug": "282",
+  "url_origen": "https://estatuto.co/282",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El patrimonio líquido gravable se determina restando del patrimonio bruto poseído por el contribuyente en el último día del año o período gravable el monto de las deudas a cargo del mismo, vigentes en esa fecha.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El patrimonio líquido gravable se determina restando del patrimonio bruto poseído por el contribuyente en el último día del año o período gravable el monto de las deudas a cargo del mismo, vigentes en esa fecha.</p>\n</span>",
+  "modificaciones_raw": "- El nuevo Impuesto al patrimonio se crea nuevamente con el Decreto 4825 de 2010.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 4120 (2024-06-21): Impuesto al Patrimonio",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4120-2024",
+      "tipo": "oficio",
+      "numero": "4120",
+      "fecha": "2024-06-21",
+      "tema": "Impuesto al Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907761-2020",
+      "tipo": "oficio",
+      "numero": "907761",
+      "fecha": "2020-12-02",
+      "tema": "Renta por Comparaci&oacute;n Patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906176-2020",
+      "tipo": "oficio",
+      "numero": "906176",
+      "fecha": "2020-10-19",
+      "tema": "Normas que actualmente rigen para la emisi&oacute;n de la certificaci&oacute;n de subcapitalizaci&oacute;n por de que trata el par&aacute;grafo 1&deg; del art&iacute;culo 118-1 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1394-2020",
+      "tipo": "oficio",
+      "numero": "1394",
+      "fecha": "2020-01-24",
+      "tema": "Efectos tributarios de un pr&eacute;stamo de libre inversi&oacute;n obtenido en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0472-2020",
+      "tipo": "oficio",
+      "numero": "0472",
+      "fecha": "2020-07-10",
+      "tema": "Compensaci&oacute;n de p&eacute;rdidas fiscales de sociedades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28852-2019",
+      "tipo": "oficio",
+      "numero": "28852",
+      "fecha": "2019-11-20",
+      "tema": "Beneficios tributarios consagrados por el art&iacute;culo 268 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26836-2019",
+      "tipo": "oficio",
+      "numero": "26836",
+      "fecha": "2019-10-24",
+      "tema": "Norma y tr&aacute;mite a seguir con el fin de la cesi&oacute;n a t&iacute;tulo gratuito de acciones sea demostrado como una daci&oacute;n en pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3340-2019",
+      "tipo": "oficio",
+      "numero": "3340",
+      "fecha": "2019-01-29",
+      "tema": "Aplicaci&oacute;n del principio de favorabilidad en etapa de cobro - Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27447-2018",
+      "tipo": "oficio",
+      "numero": "27447",
+      "fecha": "2018-11-07",
+      "tema": "&iquest;Son los principios de lesividad, proporcionalidad, gradualidad y favorabilidad en el r&eacute;gimen sancionatorio, previstos en el art&iacute;culo 640 del estatuto tributario, aplicables cuando ya se ha proferido requerimiento especial y liquidaci&oacute;n oficial de revisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15839-2018",
+      "tipo": "oficio",
+      "numero": "15839",
+      "fecha": "2018-06-19",
+      "tema": "&iquest;La declaraci&oacute;n del Impuesto sobre la renta correspondiente al a&ntilde;o gravable 2017 debe presentarse con base en los Estados Financieros elaborados con base en las NIIF? &iquest;Ser&aacute; obligatorio presentar informaci&oacute;n ex&oacute;gena con base en NIIF para el a&ntilde;o 2017 y siguientes? &iquest;Las cuentas de ajustes bajo NIIF deber&aacute;n ser tenidas en cuenta para liquidar el Impuesto Sobre la renta por renta presuntiva para el a&ntilde;o gravable 2017? &iquest;La sociedad estar&iacute;a obligada a liquidar sus impuestos sobre el mayor valor del patrimonio resultante de las cuentas de ajustes de las normas NIIF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1669-2018",
+      "tipo": "oficio",
+      "numero": "1669",
+      "fecha": "2018-09-25",
+      "tema": "Tratamiento tributario aplicable a las condonaciones de deudas, entre compa&ntilde;&iacute;as vinculadas a partes relacionadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25398-2017",
+      "tipo": "oficio",
+      "numero": "25398",
+      "fecha": "2017-09-20",
+      "tema": "Intereses de mora aplicables a obligaciones anteriores al art&iacute;culo 635 del Estatuto Tributario modificado por el art&iacute;culo 279 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15397-2017",
+      "tipo": "oficio",
+      "numero": "15397",
+      "fecha": "2017-08-09",
+      "tema": "&iquest;C&oacute;mo se aplica el art&iacute;culo 282 de la ley 1819 de 2016 que modific&oacute; el art&iacute;culo 640 del Estatuto Tributario sobre los principios de lesividad, proporcionalidad, gradualidad y lesividad en el r&eacute;gimen sancionatorio frente a la reducci&oacute;n de sanci&oacute;n establecida en el art&iacute;culo 651 del mismo Estatuto de sanci&oacute;n por no enviar informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14907-2017",
+      "tipo": "oficio",
+      "numero": "14907",
+      "fecha": "2017-06-09",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6414-2017",
+      "tipo": "oficio",
+      "numero": "6414",
+      "fecha": "2017-03-23",
+      "tema": "Procedimiento Tributario - Sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6234-2017",
+      "tipo": "oficio",
+      "numero": "6234",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la renta para la equidad - CREE - Presentaci&oacute;n de la declaraci&oacute;n de retenci&oacute;n cree",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4907-2017",
+      "tipo": "oficio",
+      "numero": "4907",
+      "fecha": "2017-06-09",
+      "tema": "Sanci&oacute;n por Inexactitud en las Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13734-2016",
+      "tipo": "oficio",
+      "numero": "13734",
+      "fecha": "2016-06-02",
+      "tema": "&iquest;Los pasivos vigentes, como impuestos, se pueden detraer del patrimonio bruto para obtener el l&iacute;quido conforme lo establece el art&iacute;culo 282 del Estatuto Tributario, conforme con la definici&oacute;n de pasivos prevista en el art&iacute;culo 36 del Decreto 2649 de 1993?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9858-2016",
+      "tipo": "oficio",
+      "numero": "9858",
+      "fecha": "2016-04-27",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24973-2015",
+      "tipo": "oficio",
+      "numero": "24973",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Para establecer la base del Impuesto a la Riqueza, es v&aacute;lido utilizar el P. L&iacute;quido a 31 de diciembre de 2014, mismo con que amanece el 1o de enero de 2015, o se debe conformar con los aval&uacute;os para prediales de 2015? - &iquest;El Impuesto a la Riqueza, deroga la Renta Presuntiva en la Declaraci&oacute;n de Renta? - &iquest;Es indispensable presentar la declaraci&oacute;n a la Riqueza y de Normalizaci&oacute;n (Formulario 440) en forma electr&oacute;nica, mediante el uso de la Firma Digital, o es posible hacerlo litogr&aacute;ficamente? - &iquest;Para obtener la Firma Digital, es necesaria la presencia del mismo contribuyente, o la puede tramitar un tercero?, &iquest;en tal caso qu&eacute; se requiere? - &iquest;Para declarar el Impuesto a la Riqueza, es necesario actualizar otra vez el RUT? - &iquest;Si se declara Riqueza electr&oacute;nicamente, es posible continuar (por quienes lo vienen haciendo) declarando renta en forma litogr&aacute;fica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21725-2015",
+      "tipo": "oficio",
+      "numero": "21725",
+      "fecha": "2015-07-24",
+      "tema": "&iquest;Una sociedad cuyo patrimonio l&iacute;quido est&aacute; conformado solamente por acciones y que no tuvo ingresos en el a&ntilde;o gravable, sobre qu&eacute; tributa en la declaraci&oacute;n del impuesto sobre la renta o mediante renta presuntiva, si no tiene base gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18719-2015",
+      "tipo": "oficio",
+      "numero": "18719",
+      "fecha": "2015-06-25",
+      "tema": "De conformidad con lo consagrado en los art&iacute;culos 20 y 20-2 del Estatuto Tributario, &iquest;c&oacute;mo debe establecerse la base de la renta presuntiva prevista en el art&iacute;culo 188 ib&iacute;dem, para los Establecimientos Permanentes?, &iquest;se requiere un estudio adicional para estos efectos? o, &iquest;hay una derogaci&oacute;n t&aacute;cita del art&iacute;culo 188 para los Establecimientos Permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15166-2015",
+      "tipo": "oficio",
+      "numero": "15166",
+      "fecha": "2015-05-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12391-2015",
+      "tipo": "oficio",
+      "numero": "12391",
+      "fecha": "2015-04-30",
+      "tema": "Impuesto al Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78486-2014",
+      "tipo": "oficio",
+      "numero": "78486",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Qu&eacute; efectos fiscales traer&iacute;a la disminuci&oacute;n del patrimonio de una sociedad, debido a un activo intangible know how- no formado, sin que se pueda probar t&eacute;cnicamente dicha disminuci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35174-2012",
+      "tipo": "oficio",
+      "numero": "35174",
+      "fecha": "2012-06-01",
+      "tema": "&iquest;Los bienes incorporales (activos intangibles) integran la base gravable para calcular la renta presuntiva y el impuesto al patrimonio?&iquest;Los derechos de producci&oacute;n o explotaci&oacute;n sobre las reservas de hidrocarburos son un bien incorporal y c&oacute;mo se calcula el costo de que trata el art&iacute;culo 75 del Estatuto Tributario, cuando los bienes incorporales (activos intangibles) est&aacute;n en cuentas de orden y no fueron incluidos en la declaraci&oacute;n de renta y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34916-2012",
+      "tipo": "oficio",
+      "numero": "34916",
+      "fecha": "2012-05-31",
+      "tema": "&iquest;Est&aacute; obligada al pago del impuesto al patrimonio establecido en la Ley 1370 de 2009, una sociedad mixta de car&aacute;cter an&oacute;nima, constituida en el a&ntilde;o 2009, cuyo capital social aportado por los socios privados corresponde a los bienes por ellos recibidos como pago de sus acreencias en calidad de trabajadores en la liquidaci&oacute;n obligatoria de una sociedad?&iquest;Para los efectos de los impuestos al patrimonio, hace parte de la riqueza de una persona los bienes recibidos como pago de sus acreencias - en calidad de trabajadores- en la liquidaci&oacute;n obligatoria de una sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0597-2011",
+      "tipo": "oficio",
+      "numero": "0597",
+      "fecha": "2011-01-07",
+      "tema": "Al tenor de lo establecido en la Circular No. 000066 del 16 de octubre de 2009, se puede colegir que al no haber utilidad gravada por dividendos o participaciones no se puede amortizar el cr&eacute;dito mercantil adquirido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91302-2008",
+      "tipo": "oficio",
+      "numero": "91302",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Procede la aplicaci&oacute;n del art&iacute;culo 239-1 del Estatuto Tributario, por la no inclusi&oacute;n en el patrimonio l&iacute;quido de la respectiva declaraci&oacute;n de renta, de una cuenta por cobrar a cargo de una sociedad ubicada en un pa&iacute;s que hace parte de la Comunidad Andina de Naciones CAN?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-71174-2008",
+      "tipo": "oficio",
+      "numero": "71174",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;El saldo a 31 de diciembre de la cuenta por cobrar a la casa matriz se debe reclasificar fiscalmente a una cuenta de patrimonio y si al realizar esta reclasificaci&oacute;n no hace parte del saldo para liquidar el Impuesto de Patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33042-2008",
+      "tipo": "oficio",
+      "numero": "33042",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A cargo de qui&eacute;n est&aacute; la obligaci&oacute;n de pagar el impuesto de patrimonio en un caso particular y concreto por parte de una empresa industrial y comercial del Estado, prestadora de servicios p&uacute;blicos domiciliarios, intervenida por la superintendencia y que por decisi&oacute;n de la interventora se transforma en una sociedad an&oacute;nima con capital p&uacute;blico que entrega todos los activos por un tiempo determinado a un nuevo operador que llega a prestar el servicio p&uacute;blico domiciliario, superando dichos activos el tope establecido como base para liquidar el impuesto al patrimonio, quedando con el producto de una participaci&oacute;n relativamente baja que le da el nuevo operador, a cargo de Los pensionados y sin ning&uacute;n otro ingreso por prestaci&oacute;n de servicios p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70308-2007",
+      "tipo": "oficio",
+      "numero": "70308",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los aportes de capital, junto con sus accesorios, efectuados por parte de la Naci&oacute;n, los entes territoriales y las entidades descentralizadas en empresas oficiales de servicios p&uacute;blicos domiciliarios, no hacen parte de la base imponible del impuesto al patrimonio, para las mencionadas empresas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51088-2007",
+      "tipo": "oficio",
+      "numero": "51088",
+      "fecha": "2007-07-10",
+      "tema": "&iquest;Cu&aacute;l es la base para liquidar el impuesto al patrimonio y cu&aacute;l es el valor de las deudas en el exterior con la casa matriz, agencias, sucursales o filiales teniendo en cuenta lo previsto por el art&iacute;culo 287 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38337-2006",
+      "tipo": "oficio",
+      "numero": "38337",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;En una devoluci&oacute;n se resuelve en forma inhibitoria por no haber demostrado con documento de fecha cierta una cuenta por cobrar, cu&aacute;l ser&iacute;a el patrimonio del a&ntilde;o siguiente para determinar la conciliaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001851-2005",
+      "tipo": "concepto",
+      "numero": "0001851",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;los pasivos correspondientes a anticipos recibidos por las agencias o filiales en Colombia de la casa principal del exterior por concepto de facturaci&oacute;n de mercanc&iacute;a exportada y endoso de facturaci&oacute;n a otros clientes, se consideran para efectos tributarios como patrimonio propio y por tanto base para calcular los ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051651-2004",
+      "tipo": "concepto",
+      "numero": "0051651",
+      "fecha": "2004-08-17",
+      "tema": "&iquest;Un contribuyente obligado a llevar contabilidad por el sistema de causaci&oacute;n cuando toma la renta gravable para justificar la diferencia patrimonial &iquest;debe o no, restar la provisi&oacute;n de impuestos sin tener en cuenta los anticipos y la retenci&oacute;n en la fuente practicada?&iquest;Los contribuyentes obligados a realizar ajustes por inflaci&oacute;n &iquest;pueden, o no, justificar el incremento patrimonial con el ajuste por inflaci&oacute;n al patrimonio, es decir, con el incremento de la revalorizaci&oacute;n patrimonial, con base en el art&iacute;culo 236 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29191-2004",
+      "tipo": "oficio",
+      "numero": "29191",
+      "fecha": "2004-05-11",
+      "tema": "&iquest;La persona que no ha sido declarante en el periodo anterior, puede determinar qu&eacute; patrimonio bruto y qu&eacute; patrimonio l&iacute;quido pose&iacute;a a 31 de diciembre del a&ntilde;o anterior al que va a declarar y con ellos determinar su renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020835-2004",
+      "tipo": "concepto",
+      "numero": "0020835",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;las cooperativas, para efectos de establecer la base del impuesto al patrimonio pueden excluir las provisiones, inventarios, propiedad, planta y equipo y pasivos estimados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039172-2003",
+      "tipo": "concepto",
+      "numero": "0039172",
+      "fecha": "2003-07-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029272-2003",
+      "tipo": "concepto",
+      "numero": "0029272",
+      "fecha": "2003-01-01",
+      "tema": "Los aportes de los asociados por ser una exigibilidad a la vista constituye un pasivo para la cooperativa y por ende deben detraerse del patrimonio bruto para establecer el patrimonio l&iacute;quido de la cooperativa",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077936-2002",
+      "tipo": "concepto",
+      "numero": "0077936",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Al incluir el valor de los inmuebles dentro de la base para liquidar el impuesto para preservar la seguridad democr&aacute;tica no se estar&iacute;a violando el Art&iacute;culo 317 de la Constituci&oacute;n Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065906-2002",
+      "tipo": "concepto",
+      "numero": "0065906",
+      "fecha": "2002-10-09",
+      "tema": "&iquest;Los bienes inmuebles declarados por los municipios como de inter&eacute;s cultural de la Naci&oacute;n, pueden excluirse de la base para calcular el Impuesto para Preservar la Seguridad Democr&aacute;tica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097597-2000",
+      "tipo": "concepto",
+      "numero": "0097597",
+      "fecha": "2000-10-06",
+      "tema": "&iquest;Se puede desvirtuar la diferencia patrimonial de una sociedad con el desaparecimiento de pasivos a favor de los socios con base en el hecho en que se les entregaron acciones a cambio de los pasivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067207-1999",
+      "tipo": "concepto",
+      "numero": "0067207",
+      "fecha": "1999-07-26",
+      "tema": "&iquest;Est&aacute; obligada a efectuar inversi&oacute;n forzosa en bonos de solidaridad para la paz una Caja de Compensaci&oacute;n Familiar que en el a&ntilde;o 1998 present&oacute; p&eacute;rdida respecto de la actividad de mercadeo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062294-1999",
+      "tipo": "concepto",
+      "numero": "0062294",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Un fondo para la prestaci&oacute;n de servicios de inter&eacute;s social con car&aacute;cter de protecci&oacute;n econ&oacute;mica para los asociados y sus familiares, aprobado mediante Estatutos de un fondo de empleados, hace parte del patrimonio bruto de este o puede desagregarse como un patrimonio aut&oacute;nomo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031695-1999",
+      "tipo": "concepto",
+      "numero": "0031695",
+      "fecha": "1999-04-07",
+      "tema": "&iquest;Qu&eacute; incidencia tiene fiscalmente, el mantener un pasivo hipotecario cuando el bien sobre el cual recae la deuda es titular otra persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023707-1998",
+      "tipo": "concepto",
+      "numero": "0023707",
+      "fecha": "1998-04-13",
+      "tema": "&iquest;C&oacute;mo se establece el patrimonio l&iacute;quido de una sociedad an&oacute;nima?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056352-1997",
+      "tipo": "concepto",
+      "numero": "0056352",
+      "fecha": "1997-07-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054675-1995",
+      "tipo": "concepto",
+      "numero": "0054675",
+      "fecha": "1995-08-08",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento aplicable en la determinaci&oacute;n de la renta presuntiva cuando en el a&ntilde;o anterior no existe patrimonio l&iacute;quido?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    }
+  ]
+}

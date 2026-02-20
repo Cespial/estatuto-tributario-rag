@@ -1,1 +1,367 @@
-{"id_articulo": "Art. 807", "titulo": "Art. 807. Cálculo y aplicación del anticipo.", "titulo_corto": "Cálculo y aplicación del anticipo.", "slug": "807", "url_origen": "https://estatuto.co/807", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Los contribuyentes del impuesto sobre la renta están obligados a pagar un setenta y cinco por ciento (75%) del impuesto de renta, determinado en su liquidación privada, a título de anticipo del impuesto de renta del año siguiente al gravable. Para determinar la base del anticipo, al impuesto neto de renta, o al promedio de los dos (2) últimos años a opción del contribuyente, se aplica el porcentaje previsto en el inciso anterior. Del resultado así obtenido se descuenta el valor de la retención en la fuente correspondiente al respectivo ejercicio fiscal, con lo cual se obtiene el anticipo a pagar. En el caso de contribuyentes que declaran por primera vez, el porcentaje de anticipo de que trata este artículo será del veinticinco por ciento (25%) para el primer año, cincuenta por ciento (50%) para el segundo año y setenta y cinco por ciento (75%) para los años siguientes. En las respectivas liquidaciones privadas del impuesto sobre la renta y complementarios los contribuyentes agregarán al total liquidado el valor del anticipo. Del resultado anterior deducirán el valor del anticipo consignado de acuerdo con la liquidación del año o período gravable inmediatamente anterior, el valor retenido en la fuente y el saldo a favor del período anterior, cuando fuere del caso. La diferencia se cancelará en la proporción y dentro de los términos señalados para el pago de la liquidación privada. Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo 248-1.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes del impuesto sobre la renta están obligados a pagar un setenta y cinco por ciento (75%) del impuesto de renta, determinado en su liquidación privada, a título de anticipo del impuesto de renta del año siguiente al gravable.</p>\n<p>Para determinar la base del anticipo, al impuesto neto de renta, o al promedio de los dos (2) últimos años a opción del contribuyente, se aplica el porcentaje previsto en el inciso anterior. Del resultado así obtenido se descuenta el valor de la retención en la fuente correspondiente al respectivo ejercicio fiscal, con lo cual se obtiene el anticipo a pagar.</p>\n<p>En el caso de contribuyentes que declaran por primera vez, el porcentaje de anticipo de que trata este artículo será del veinticinco por ciento (25%) para el primer año, cincuenta por ciento (50%) para el segundo año y setenta y cinco por ciento (75%) para los años siguientes.</p>\n<p>En las respectivas liquidaciones privadas del impuesto sobre la renta y complementarios los contribuyentes agregarán al total liquidado el valor del anticipo. Del resultado anterior deducirán el valor del anticipo consignado de acuerdo con la liquidación del año o período gravable inmediatamente anterior, el valor retenido en la fuente y el saldo a favor del período anterior, cuando fuere del caso. La diferencia se cancelará en la proporción y dentro de los términos señalados para el pago de la liquidación privada.</p>\n<p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>Parágrafo Transitorio.</strong> Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario_pr010.html#248-1\" style=\"color: #339966;\">248-1</a>.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Derogado Ley 223 de 1995 Art. 285.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "285"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 6 de 1992"], "texto_derogado": ["Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo 248-1."], "texto_derogado_parsed": [{"index": 0, "snippet": "Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la co...", "full_length": 274}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 807",
+  "titulo": "Art. 807. Cálculo y aplicación del anticipo.",
+  "titulo_corto": "Cálculo y aplicación del anticipo.",
+  "slug": "807",
+  "url_origen": "https://estatuto.co/807",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Los contribuyentes del impuesto sobre la renta están obligados a pagar un setenta y cinco por ciento (75%) del impuesto de renta, determinado en su liquidación privada, a título de anticipo del impuesto de renta del año siguiente al gravable. Para determinar la base del anticipo, al impuesto neto de renta, o al promedio de los dos (2) últimos años a opción del contribuyente, se aplica el porcentaje previsto en el inciso anterior. Del resultado así obtenido se descuenta el valor de la retención en la fuente correspondiente al respectivo ejercicio fiscal, con lo cual se obtiene el anticipo a pagar. En el caso de contribuyentes que declaran por primera vez, el porcentaje de anticipo de que trata este artículo será del veinticinco por ciento (25%) para el primer año, cincuenta por ciento (50%) para el segundo año y setenta y cinco por ciento (75%) para los años siguientes. En las respectivas liquidaciones privadas del impuesto sobre la renta y complementarios los contribuyentes agregarán al total liquidado el valor del anticipo. Del resultado anterior deducirán el valor del anticipo consignado de acuerdo con la liquidación del año o período gravable inmediatamente anterior, el valor retenido en la fuente y el saldo a favor del período anterior, cuando fuere del caso. La diferencia se cancelará en la proporción y dentro de los términos señalados para el pago de la liquidación privada. Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo 248-1.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes del impuesto sobre la renta están obligados a pagar un setenta y cinco por ciento (75%) del impuesto de renta, determinado en su liquidación privada, a título de anticipo del impuesto de renta del año siguiente al gravable.</p>\n<p>Para determinar la base del anticipo, al impuesto neto de renta, o al promedio de los dos (2) últimos años a opción del contribuyente, se aplica el porcentaje previsto en el inciso anterior. Del resultado así obtenido se descuenta el valor de la retención en la fuente correspondiente al respectivo ejercicio fiscal, con lo cual se obtiene el anticipo a pagar.</p>\n<p>En el caso de contribuyentes que declaran por primera vez, el porcentaje de anticipo de que trata este artículo será del veinticinco por ciento (25%) para el primer año, cincuenta por ciento (50%) para el segundo año y setenta y cinco por ciento (75%) para los años siguientes.</p>\n<p>En las respectivas liquidaciones privadas del impuesto sobre la renta y complementarios los contribuyentes agregarán al total liquidado el valor del anticipo. Del resultado anterior deducirán el valor del anticipo consignado de acuerdo con la liquidación del año o período gravable inmediatamente anterior, el valor retenido en la fuente y el saldo a favor del período anterior, cuando fuere del caso. La diferencia se cancelará en la proporción y dentro de los términos señalados para el pago de la liquidación privada.</p>\n<p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>Parágrafo Transitorio.</strong> Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario_pr010.html#248-1\" style=\"color: #339966;\">248-1</a>.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 223 de 1995 Art. 285.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "285"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [
+    "Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la contribución especial del respectivo ejercicio, que trata el artículo 248-1."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "Parágrafo Transitorio. Para los años gravables 1993 a 1997, el anticipo contemplado en este artículo, será del setenta y cinco por ciento (75%) y deberá liquidarse sobre el impuesto de renta más la co...",
+      "full_length": 274
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 10 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6038 (2024-03-22): (Int 202) Octava adici&oacute;n al Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022 - Impuesto sobre la renta y complementarios - Diferencias permanentes que aumentan la renta liquida - Consolidaci&oacute;n de Estados Financieros\noficio 6363 (2023-05-29): (Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 14396 (2025-10-15): Procedimiento Tributario\noficio 3404 (2025-03-19): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6038-2024",
+      "tipo": "oficio",
+      "numero": "6038",
+      "fecha": "2024-03-22",
+      "tema": "(Int 202) Octava adici&oacute;n al Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022 - Impuesto sobre la renta y complementarios - Diferencias permanentes que aumentan la renta liquida - Consolidaci&oacute;n de Estados Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6363-2023",
+      "tipo": "oficio",
+      "numero": "6363",
+      "fecha": "2023-05-29",
+      "tema": "(Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14396-2025",
+      "tipo": "oficio",
+      "numero": "14396",
+      "fecha": "2025-10-15",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3404-2025",
+      "tipo": "oficio",
+      "numero": "3404",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7927-2024",
+      "tipo": "oficio",
+      "numero": "7927",
+      "fecha": "2024-10-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906728-2022",
+      "tipo": "oficio",
+      "numero": "906728",
+      "fecha": "2022-09-06",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE. Sujetos pasivos Obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904277-2022",
+      "tipo": "oficio",
+      "numero": "904277",
+      "fecha": "2022-06-03",
+      "tema": "R&eacute;gimen especial en materia tributaria - ZESE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902965-2022",
+      "tipo": "oficio",
+      "numero": "902965",
+      "fecha": "2022-04-07",
+      "tema": "Reorganizaci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903877-2021",
+      "tipo": "oficio",
+      "numero": "903877",
+      "fecha": "2021-05-03",
+      "tema": "Impuesto sobre la renta y complementarios -R&eacute;gimen Especial en materia tributaria -ZESE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904279-2020",
+      "tipo": "oficio",
+      "numero": "904279",
+      "fecha": "2020-08-21",
+      "tema": "devoluci&oacute;n de saldos a favor y la correcci&oacute;n de la declaraci&oacute;n del impuesto de renta y complementarios de los contribuyentes que liquidaron el anticipo del impuesto de renta del a&ntilde;o gravable 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000599-2020",
+      "tipo": "concepto",
+      "numero": "0000599",
+      "fecha": "2020-05-22",
+      "tema": "(Int 599) Aplicaci&oacute;n del Decreto Legislativo 560 de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900579-2020",
+      "tipo": "oficio",
+      "numero": "900579",
+      "fecha": "2020-03-04",
+      "tema": "Anticipo del Impuesto Sobre la Renta y Complementarios Anticipo del Impuesto Sobre la Renta y Complementarios - Calculo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24084-2019",
+      "tipo": "oficio",
+      "numero": "24084",
+      "fecha": "2019-09-23",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21918-2019",
+      "tipo": "oficio",
+      "numero": "21918",
+      "fecha": "2019-09-03",
+      "tema": "Anticipo de impuesto liquidado como contribuyente de Impuesto a la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18957-2019",
+      "tipo": "oficio",
+      "numero": "18957",
+      "fecha": "2019-07-23",
+      "tema": "&iquest;Las entidades del sector cooperativo est&aacute;n obligadas a liquidar y pagar el impuesto complementario de ganancias ocasionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005323-2017",
+      "tipo": "concepto",
+      "numero": "0005323",
+      "fecha": "2017-03-14",
+      "tema": "&iquest;Para el a&ntilde;o 2017 se debe liquidar el anticipo a la sobretasa del Impuesto sobre la Renta para la Equidad (CREE)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68198-2014",
+      "tipo": "oficio",
+      "numero": "68198",
+      "fecha": "2014-12-30",
+      "tema": "Retenci&oacute;n en la fuente - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37634-2014",
+      "tipo": "oficio",
+      "numero": "37634",
+      "fecha": "2014-06-20",
+      "tema": "Impuesto sobre la renta y complementarios - Beneficio de Progresividad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31454-2013",
+      "tipo": "oficio",
+      "numero": "31454",
+      "fecha": "2013-05-23",
+      "tema": "Anticipo del impuesto sobre la renta de que trata el art&iacute;culo 809 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98920-2011",
+      "tipo": "oficio",
+      "numero": "98920",
+      "fecha": "2011-12-19",
+      "tema": "&iquest;Teniendo un saldo a favor generado por una declaraci&oacute;n del &uacute;ltimo bimestre del IVA, se puede presentar la declaraci&oacute;n de renta sin pagar el anticipo y solicitar mediante compensaci&oacute;n el pago de este y a su vez, poderse acoger al beneficio de auditor&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73016-2008",
+      "tipo": "oficio",
+      "numero": "73016",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Tiene derecho a devoluci&oacute;n un contribuyente que liquid&oacute; anticipo de renta o de la sobretasa para el per&iacute;odo fiscal siguiente, cuando los mismos por efecto de liquidaci&oacute;n o por no existir la obligaci&oacute;n de declarar en el periodo inmediatamente siguiente, quedan pendientes de su utilizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101178-2007",
+      "tipo": "oficio",
+      "numero": "101178",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es el alcance que tiene el par&aacute;grafo del art&iacute;culo 589 del Estatuto Tributario respecto de la referencia que hace a que el impuesto no se incremente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012730-2006",
+      "tipo": "concepto",
+      "numero": "0012730",
+      "fecha": "2006-02-13",
+      "tema": "&iquest;Es viable que las empresas que se encuentran en acuerdo de reestructuraci&oacute;n, en los t&eacute;rminos de la Ley 550 de 1999, para efectos del c&aacute;lculo del anticipo del impuesto de renta, descuenten el valor de las retenciones en la fuente que les fueron practicadas, cuando dichas retenciones han sido objeto de devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093903-2005",
+      "tipo": "concepto",
+      "numero": "0093903",
+      "fecha": "2005-12-15",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento aplicable para corregir una declaraci&oacute;n de renta en la cual se liquid&oacute; un anticipo de cero (0) existiendo la obligaci&oacute;n de calcularlo, de conformidad con el art&iacute;culo 807 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55350-2005",
+      "tipo": "oficio",
+      "numero": "55350",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Para un asalariado tanto las primas de alimentaci&oacute;n como el subsidio familiar son ingresos y no deducciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017407-2005",
+      "tipo": "concepto",
+      "numero": "0017407",
+      "fecha": "2005-03-31",
+      "tema": "&iquest;Es jur&iacute;dicamente viable modificar el anticipo mediante liquidaci&oacute;n oficial de revisi&oacute;n, cuando el contribuyente ya ha presentado la declaraci&oacute;n de renta del per&iacute;odo siguiente, as&iacute; no se vaya a exigir su pago y con el solo prop&oacute;sito de liquidar intereses moratorios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033555-2002",
+      "tipo": "concepto",
+      "numero": "0033555",
+      "fecha": "2002-01-01",
+      "tema": "Determinaci&oacute;n del antici&oacute; en el impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067535-2001",
+      "tipo": "concepto",
+      "numero": "0067535",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Debe incluirse en el acta de terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, el anticipo propuesto en el requerimiento especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031696-1999",
+      "tipo": "concepto",
+      "numero": "0031696",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0026769-1999",
+      "tipo": "concepto",
+      "numero": "0026769",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082979-1998",
+      "tipo": "concepto",
+      "numero": "0082979",
+      "fecha": "1998-10-23",
+      "tema": "&iquest;Hay lugar a devolver o compensar la cantidad correspondiente a un anticipo determinado y pagado por un contribuyente en una correcci&oacute;n efectuada a una declaraci&oacute;n de renta, que no se traslad&oacute; a la declaraci&oacute;n de renta del a&ntilde;o siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083258-1995",
+      "tipo": "concepto",
+      "numero": "0083258",
+      "fecha": "1995-11-27",
+      "tema": "&iquest;En los casos en que una sociedad se liquida, debe efectuar ajustes por inflaci&oacute;n? Es obligatorio en el caso de las declaraciones de renta que se presentan por la fracci&oacute;n del &uacute;ltimo a&ntilde;o de las sociedades que se liquidan, liquidar anticipo para el a&ntilde;o gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028490-1993",
+      "tipo": "concepto",
+      "numero": "0028490",
+      "fecha": "1993-01-01",
+      "tema": "Devoluci&oacute;n y compensaci&oacute;n por pago de lo no debido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17522-1993",
+      "tipo": "oficio",
+      "numero": "17522",
+      "fecha": "1993-05-03",
+      "tema": "&iquest;En la declaraci&oacute;n de renta y complementarios correspondiente al a&ntilde;o gravable de 1992 se incluye un anticipo del 75% sobre el valor a pagar el contribuyente como contribuci&oacute;n especial por el a&ntilde;o gravable de 199, dicho contribuyente cuando tiene derecho a la deducci&oacute;n en 1993 est&aacute; pagando efectivamente el 75% y el saldo que corresponda, de acuerdo con la liquidaci&oacute;n que se efect&uacute;e seg&uacute;n declaraci&oacute;n de renta de 1993, lo pagar&iacute;a efectivamente en el a&ntilde;o 1994?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

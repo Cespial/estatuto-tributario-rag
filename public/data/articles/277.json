@@ -1,1 +1,507 @@
-{"id_articulo": "Art. 277", "titulo": "Art. 277. Valor patrimonial de los inmuebles.", "titulo_corto": "Valor patrimonial de los inmuebles.", "slug": "277", "url_origen": "https://estatuto.co/277", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Los contribuyentes obligados a llevar libros de contabilidad deben declarar los inmuebles por el costo fiscal, determinado de acuerdo con lo dispuesto en los Capítulos I y III del Título II del Libro I de este Estatuto y en el artículo 65 de la Ley 75 de 1986. Los contribuyentes no obligados a llevar libros de contabilidad deben declarar los inmuebles por el mayor valor entre el costo de adquisición, el costo fiscal, el auto-avalúo o el avalúo catastral actualizado al final del ejercicio, sin perjuicio de lo dispuesto en el artículo 72 y artículo 73 de este Estatuto. Las construcciones o mejoras no incorporadas para efectos del avalúo o el costo fiscal del respectivo in mueble deben ser declaradas por separado. Lo previsto en este artículo se aplicará sin perjuicio de lo dispuesto en el artículo 90-2 de este Estatuto.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los contribuyentes obligados a llevar libros de contabilidad deben declarar los inmuebles por el costo fiscal, determinado de acuerdo con lo dispuesto en los Capítulos I y III del Título II del Libro I de este Estatuto y en el artículo 65 de la <a href=\"https://accounter.co/normatividad/leyes/7956-por-la-cual-se-expiden-normas-en-materia-tributaria-de-catastro-de-fortalecimiento-y-democratizacion-del-mercado-de-capitales-se-conceden-unas-facultades-extraordinarias-y-se-dictan-otras-disposiciones-.html\" rel=\"noopener\" target=\"_blank\">Ley 75 de 1986</a>.</p>\n<p>Los contribuyentes no obligados a llevar libros de contabilidad deben declarar los inmuebles por el mayor valor entre el costo de adquisición, el costo fiscal, el auto-avalúo o el avalúo catastral actualizado al final del ejercicio, sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/72\" rel=\"noopener\" target=\"_blank\">artículo 72</a> y <a href=\"https://estatuto.co/73\" rel=\"noopener\" target=\"_blank\">artículo 73</a> de este Estatuto. Las construcciones o mejoras no incorporadas para efectos del avalúo o el costo fiscal del respectivo in mueble deben ser declaradas por separado.</p>\n<p>Lo previsto en este artículo se aplicará sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/90-2\" rel=\"noopener\" target=\"_blank\">artículo 90-2</a> de este Estatuto.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art 20.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "20"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["72", "73", "90-2"], "referenced_by": ["303"], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 277",
+  "titulo": "Art. 277. Valor patrimonial de los inmuebles.",
+  "titulo_corto": "Valor patrimonial de los inmuebles.",
+  "slug": "277",
+  "url_origen": "https://estatuto.co/277",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Los contribuyentes obligados a llevar libros de contabilidad deben declarar los inmuebles por el costo fiscal, determinado de acuerdo con lo dispuesto en los Capítulos I y III del Título II del Libro I de este Estatuto y en el artículo 65 de la Ley 75 de 1986. Los contribuyentes no obligados a llevar libros de contabilidad deben declarar los inmuebles por el mayor valor entre el costo de adquisición, el costo fiscal, el auto-avalúo o el avalúo catastral actualizado al final del ejercicio, sin perjuicio de lo dispuesto en el artículo 72 y artículo 73 de este Estatuto. Las construcciones o mejoras no incorporadas para efectos del avalúo o el costo fiscal del respectivo in mueble deben ser declaradas por separado. Lo previsto en este artículo se aplicará sin perjuicio de lo dispuesto en el artículo 90-2 de este Estatuto.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los contribuyentes obligados a llevar libros de contabilidad deben declarar los inmuebles por el costo fiscal, determinado de acuerdo con lo dispuesto en los Capítulos I y III del Título II del Libro I de este Estatuto y en el artículo 65 de la <a href=\"https://accounter.co/normatividad/leyes/7956-por-la-cual-se-expiden-normas-en-materia-tributaria-de-catastro-de-fortalecimiento-y-democratizacion-del-mercado-de-capitales-se-conceden-unas-facultades-extraordinarias-y-se-dictan-otras-disposiciones-.html\" rel=\"noopener\" target=\"_blank\">Ley 75 de 1986</a>.</p>\n<p>Los contribuyentes no obligados a llevar libros de contabilidad deben declarar los inmuebles por el mayor valor entre el costo de adquisición, el costo fiscal, el auto-avalúo o el avalúo catastral actualizado al final del ejercicio, sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/72\" rel=\"noopener\" target=\"_blank\">artículo 72</a> y <a href=\"https://estatuto.co/73\" rel=\"noopener\" target=\"_blank\">artículo 73</a> de este Estatuto. Las construcciones o mejoras no incorporadas para efectos del avalúo o el costo fiscal del respectivo in mueble deben ser declaradas por separado.</p>\n<p>Lo previsto en este artículo se aplicará sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/90-2\" rel=\"noopener\" target=\"_blank\">artículo 90-2</a> de este Estatuto.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art 20.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "20"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "72",
+    "73",
+    "90-2"
+  ],
+  "referenced_by": [
+    "303"
+  ],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8692 (2023-07-11): (Int 770) Impuesto al patrimonio - Base gravable del impuesto\noficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8692-2023",
+      "tipo": "oficio",
+      "numero": "8692",
+      "fecha": "2023-07-11",
+      "tema": "(Int 770) Impuesto al patrimonio - Base gravable del impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11212-2025",
+      "tipo": "oficio",
+      "numero": "11212",
+      "fecha": "2025-08-20",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908569-2022",
+      "tipo": "oficio",
+      "numero": "908569",
+      "fecha": "2022-11-24",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914062-2021",
+      "tipo": "oficio",
+      "numero": "914062",
+      "fecha": "2021-11-17",
+      "tema": "Activo declarado por menor valoraci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912705-2021",
+      "tipo": "oficio",
+      "numero": "912705",
+      "fecha": "2021-10-11",
+      "tema": "&iquest;Los bienes de inter&eacute;s cultural forman parte del patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908610-2021",
+      "tipo": "oficio",
+      "numero": "908610",
+      "fecha": "2021-08-25",
+      "tema": "Impuesto sobre la renta y complementarios - Ganancias ocasionales exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908238-2021",
+      "tipo": "oficio",
+      "numero": "908238",
+      "fecha": "2021-08-17",
+      "tema": "Ganancia Ocasional Exenta por Asignaci&oacute;n por Causa de Muerte",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903255-2021",
+      "tipo": "oficio",
+      "numero": "903255",
+      "fecha": "2021-01-01",
+      "tema": "Costo fiscal de bienes inmuebles - Autoaval&uacute;o o aval&uacute;o aceptable como costo fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902628-2021",
+      "tipo": "oficio",
+      "numero": "902628",
+      "fecha": "2021-03-26",
+      "tema": "(Int 0104) Impuesto sobre la renta - Renta vitalicia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5286-2020",
+      "tipo": "oficio",
+      "numero": "5286",
+      "fecha": "2020-03-10",
+      "tema": "&iquest;C&oacute;mo se determina el valor patrimonial de un inmueble, situado en Colombia, cuyo propietario es una sociedad extranjera que est&aacute; obligada a llevar contabilidad seg&uacute;n la legislaci&oacute;n de la jurisdicci&oacute;n donde est&aacute; domiciliada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1422-2020",
+      "tipo": "oficio",
+      "numero": "1422",
+      "fecha": "2020-01-24",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal de los bienes inmuebles que ya se encuentran depreciados pero que siguen teniendo vida &uacute;til?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0457-2020",
+      "tipo": "oficio",
+      "numero": "0457",
+      "fecha": "2020-01-09",
+      "tema": "Aportes a Sociedades Nacionales - Enajenaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29885-2019",
+      "tipo": "oficio",
+      "numero": "29885",
+      "fecha": "2019-11-28",
+      "tema": "Costo de los activos fijos enajenados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26722-2019",
+      "tipo": "oficio",
+      "numero": "26722",
+      "fecha": "2019-10-23",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20981-2019",
+      "tipo": "oficio",
+      "numero": "20981",
+      "fecha": "2019-08-23",
+      "tema": "&iquest;En el caso de bienes inmuebles de personas naturales no obligadas a llevar contabilidad para los efectos del hecho generador del impuesto al patrimonio, el valor fiscal de los bienes inmuebles que se debe tener en cuenta cuando del mayor es el avalo catastral correspondiente al a&ntilde;o 2018, o el valor del aval&uacute;o a 1 de enero de 2019?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13148-2019",
+      "tipo": "oficio",
+      "numero": "13148",
+      "fecha": "2019-05-27",
+      "tema": "Impuesto sobre la Renta y Complementarios. Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7286-2019",
+      "tipo": "oficio",
+      "numero": "7286",
+      "fecha": "2019-03-27",
+      "tema": "Sucesiones Il&iacute;quidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6720-2019",
+      "tipo": "oficio",
+      "numero": "6720",
+      "fecha": "2019-03-18",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional - Ingreso constitutivo de renta - Ingreso Gravable Costo de los Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006184-2019",
+      "tipo": "concepto",
+      "numero": "0006184",
+      "fecha": "2019-03-12",
+      "tema": "- (Tributario) Ganancia Ocasional Actos que Implican Transferencia de Dominio Donaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4609-2019",
+      "tipo": "oficio",
+      "numero": "4609",
+      "fecha": "2019-02-25",
+      "tema": "Aplicaci&oacute;n de la estimaci&oacute;n del aval&uacute;o catastral aceptado por el Instituto Geogr&aacute;fico Agust&iacute;n Codazzi en la declaraci&oacute;n de renta del contribuyente del a&ntilde;o anterior o en el a&ntilde;o gravable actual",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-1449-2019",
+      "tipo": "oficio",
+      "numero": "1449",
+      "fecha": "2019-01-15",
+      "tema": "Intervenci&oacute;n de la Administraci&oacute;n de Impuestos en Procesos de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901514-2018",
+      "tipo": "oficio",
+      "numero": "901514",
+      "fecha": "2018-11-29",
+      "tema": "Efectos de la transferencia de la nuda propiedad del acuerdo con el numeral 11 del art&iacute;culo 303 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29883-2015",
+      "tipo": "oficio",
+      "numero": "29883",
+      "fecha": "2015-10-16",
+      "tema": "&iquest;Cu&aacute;l es el costo de venta para los activos omitidos y normalizados en virtud del art&iacute;culo 35 de la Ley 1739 de 2014, enajenados o vendidos en el mismo periodo en que se acogieron o se acojan a esta disposici&oacute;n, para estos casos en particular no aplicar&iacute;a el art&iacute;culo 72 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027751-2015",
+      "tipo": "concepto",
+      "numero": "0027751",
+      "fecha": "2015-10-07",
+      "tema": "&iquest;Est&aacute;n obligados a presentar la Declaraci&oacute;n Anual de Activos en el Exterior los residentes en Colombia para efectos fiscales del periodo gravable 2014 y\\o 2015? - &iquest;C&oacute;mo debe determinarse el valor patrimonial de los bienes inmuebles que se posean en el exterior? - &iquest;Debe registrarse la obligaci&oacute;n de Declaraci&oacute;n Anual de Activos en el Exterior en el Registro &Uacute;nico Tributario (RUT), antes de la presentaci&oacute;n de dicha declaraci&oacute;n? - &iquest;Qu&eacute; c&oacute;digo &uacute;nico correspondiente a la identificaci&oacute;n del bien debe registrarse en la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;C&oacute;mo deben declararse los derechos fiduciarios que se posean en patrimonios aut&oacute;nomos cuyos subyacentes son activos en el exterior? - &iquest;Las inversiones temporales, las cuentas bancarias, los anticipos y los dep&oacute;sitos en el exterior deben declararse? - &iquest;Los desembolsos de cr&eacute;dito y cuentas por cobrar son objeto de la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;Se deben declarar las mercanc&iacute;as - inventarios- en tr&aacute;nsito de las cuales se tiene factura, no obstante no ha operado la entrega material? - &iquest;A qu&eacute; se refiere la casilla 38",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22581-2015",
+      "tipo": "oficio",
+      "numero": "22581",
+      "fecha": "2015-08-03",
+      "tema": "&iquest;Si una persona natural que ingresa al pa&iacute;s el 1 de abril de 2014 y permanece el tiempo restante del a&ntilde;o en Colombia, o ingresa el 1 de enero y sale el 31 de agosto de 2014 ser&aacute; considerada residente para efectos fiscales por el a&ntilde;o gravable 2014 y deber&aacute; incluir la informaci&oacute;n sobre rentas mundiales por todo el a&ntilde;o? o &iquest;solamente por los meses que estuvo en el pa&iacute;s y que le dan el estatus de residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10773-2015",
+      "tipo": "oficio",
+      "numero": "10773",
+      "fecha": "2015-04-15",
+      "tema": "&iquest;Cu&aacute;l es la forma de valorar activos o bienes para efectos de determinar la base gravable del impuesto a la riqueza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51930-2014",
+      "tipo": "oficio",
+      "numero": "51930",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Un inversionista de un Fondo de Inversi&oacute;n Colectiva Cerrado podr&iacute;a, por ejemplo, modificar el m&eacute;todo de depreciaci&oacute;n del de l&iacute;nea recta por el de costo de unidades de producci&oacute;n, previa autorizaci&oacute;n de la DIAN, sin perder el beneficio por inversiones en activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79810-2013",
+      "tipo": "oficio",
+      "numero": "79810",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Al tenor del art&iacute;culo 103 de la Ley 1607 de 2012, cual es el valor que se debe tener en cuenta en los actos de enajenaci&oacute;n con reserva de usufructo si el 100% o el 70% del aval&uacute;o catastral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75199-2012",
+      "tipo": "oficio",
+      "numero": "75199",
+      "fecha": "2012-12-01",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial del derecho de usufructo cuyo origen es un fedeicomiso civil constituido sobre un inmueble cuando ha sido cedido a t&iacute;tulo gratuito y el valor patrimonial de dicho bien &eacute;l tiene por objeto la limitaci&oacute;n del dominio mediante el fideicomiso civil y, cu&aacute;l el de un bien inmueble que ha sido objeto de limitaci&oacute;n del dominio mediante la constituci&oacute;n de un fideicomiso cuando se ha cedido el derecho de usufructo a un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17682-2010",
+      "tipo": "oficio",
+      "numero": "17682",
+      "fecha": "2010-03-12",
+      "tema": "Solicita ampliar la respuesta dada al radicado 86489 de septiembre 9 de 2009, en cuanto a cu&aacute;l es el valor para determinar la ganancia ocasional en la declaraci&oacute;n de renta del a&ntilde;o gravable 2008 de los herederos, de una sucesi&oacute;n il&iacute;quida cuya partici&oacute;n de los bienes inmuebles se protocoliza a&ntilde;os despu&eacute;s de ocurrido el fallecimiento del causante, por un valor diferente al costo fiscal",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-74321-2009",
+      "tipo": "oficio",
+      "numero": "74321",
+      "fecha": "2009-09-11",
+      "tema": "Solicita se corrobore si la interpretaci&oacute;n que efect&uacute;a al pronunciamiento emitido por este despacho a trav&eacute;s del Oficio No. 003577 del 18 de noviembre de 2008 es correcta - &iquest;La estimaci&oacute;n del aval&uacute;o catastral a que se refiere el art&iacute;culo 13 de la Ley 14 de 1983, presentada antes del 30 de junio del a&ntilde;o, puede ser llevada a la declaraci&oacute;n de renta y complementarios en ese mismo a&ntilde;o como valor patrimonial por los contribuyentes no obligados a llevar contabilidad, y en consecuencia, si tal valor puede ser tomado como costo fiscal en caso de que el inmueble se enajene al a&ntilde;o siguiente de la estimaci&oacute;n?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-95985-2007",
+      "tipo": "oficio",
+      "numero": "95985",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Al desaparecer los ajustes por inflaci&oacute;n para los contribuyentes obligados a llevar contabilidad, el valor patrimonial en el caso de los inmuebles, las acciones y aportes en sociedades a partir del a&ntilde;o gravable 2007 es el costo fiscal ajustado por inflaci&oacute;n hasta el 31 de diciembre de 2006m&aacute;s el porcentaje de la UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19350-2007",
+      "tipo": "oficio",
+      "numero": "19350",
+      "fecha": "2007-03-12",
+      "tema": "Sobre los efectos en impuestos del orden nacional del incremento de los autoaval&uacute;os y aval&uacute;os catastrales vigente a primero de enero de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68417-2006",
+      "tipo": "oficio",
+      "numero": "68417",
+      "fecha": "2006-08-16",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial por el cual una entidad sin &aacute;nimo de lucro del r&eacute;gimen tributario especial, debe declarar los activos fijos inmuebles totalmente depreciados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034196-2005",
+      "tipo": "concepto",
+      "numero": "0034196",
+      "fecha": "2005-06-07",
+      "tema": "&iquest;Es procedente disminuir de la base gravable del impuesto al patrimonio, el monto del ajuste efectuado en el a&ntilde;o gravable 1995 como consecuencia de haber tra&iacute;do al valor comercial los bienes ra&iacute;ces con fundamento en el art&iacute;culo 90-2 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091434-2004",
+      "tipo": "concepto",
+      "numero": "0091434",
+      "fecha": "2004-12-30",
+      "tema": "&iquest;Un contribuyente que en el a&ntilde;o gravable 1995, en virtud de lo establecido en el art&iacute;culo 90-2 del estatuto tributario, ajust&oacute; al valor comercial los bienes ra&iacute;ces, puede excluir este valor, debidamente ajustado, del patrimonio base para liquidar el impuesto para preservar la seguridad democr&aacute;tica y el impuesto al patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018749-1998",
+      "tipo": "concepto",
+      "numero": "0018749",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091815-1996",
+      "tipo": "concepto",
+      "numero": "0091815",
+      "fecha": "1996-11-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0086487-1996",
+      "tipo": "concepto",
+      "numero": "0086487",
+      "fecha": "1996-11-12",
+      "tema": "&iquest;Para efectos de la renta presuntiva por 1995 de contribuyentes obligados a efectuar ajustes integrales por inflaci&oacute;n, el valor base de c&aacute;lculo para los bienes inmuebles es el aval&uacute;o catastral por 1994? &iquest;Qu&eacute; tratamiento se aplica en materia tributaria al giro de regal&iacute;as al exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071427-1996",
+      "tipo": "concepto",
+      "numero": "0071427",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057814-1996",
+      "tipo": "concepto",
+      "numero": "0057814",
+      "fecha": "1996-07-22",
+      "tema": "&iquest;Cuales son los efectos que tendr&iacute;a el saneamiento de bienes ra&iacute;ces de que trata el art&iacute;culo 80 de la Ley 223 de 1995, con respecto al impuesto predial unificado? &iquest;Puede un contribuyente enajenar un bien inmueble por un precio inferior al valor comercial que aparece declarado como costo fiscal-valor patrimonial conforme al saneamiento de bienes ra&iacute;ces en la declaraci&oacute;n de renta del a&ntilde;o de 1995?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

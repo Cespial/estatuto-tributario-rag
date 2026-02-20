@@ -1,5 +1,7 @@
 "use client";
 
+import { Download } from "lucide-react";
+
 interface UvtComparativeRow {
   year: number;
   value: number;
@@ -32,9 +34,36 @@ export function UvtYoyTable({ rows }: UvtYoyTableProps) {
     return { ...row, delta, deltaPct };
   });
 
+  const handleExportCsv = () => {
+    const headers = ["Año", "Valor UVT", "Variación $", "Variación %"];
+    const csvRows = enriched.map((row) => [
+      row.year,
+      row.value,
+      row.delta ?? 0,
+      row.deltaPct ? row.deltaPct.toFixed(2) + "%" : "0%",
+    ]);
+
+    const csvContent = [headers, ...csvRows].map((e) => e.join(",")).join("\n");
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `comparativo-uvt-${new Date().getFullYear()}.csv`;
+    link.click();
+  };
+
   return (
     <section className="rounded-lg border border-border/60 bg-card p-5 shadow-sm">
-      <h3 className="mb-3 font-semibold text-foreground">Comparativo UVT año a año</h3>
+      <div className="mb-3 flex items-center justify-between">
+        <h3 className="font-semibold text-foreground">Comparativo UVT año a año</h3>
+        <button
+          onClick={handleExportCsv}
+          className="inline-flex h-8 w-8 items-center justify-center rounded border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          title="Exportar CSV"
+        >
+          <Download className="h-4 w-4" />
+        </button>
+      </div>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>

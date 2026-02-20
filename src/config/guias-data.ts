@@ -5,6 +5,7 @@ export interface DecisionNode {
   opciones?: Array<{ label: string; nextNodeId: string }>;
   recomendacion?: string;
   enlaces?: Array<{ label: string; href: string }>;
+  ayudaRapida?: string;
 }
 
 export interface GuiaEducativa {
@@ -30,6 +31,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "residencia",
         tipo: "pregunta",
         texto: "¿Eres residente fiscal en Colombia? (Permanencia > 183 días o familia/bienes en el país)",
+        ayudaRapida: "La residencia fiscal no depende de la nacionalidad, sino de tu permanencia o vínculos económicos/familiares.",
         opciones: [
           { label: "Sí", nextNodeId: "patrimonio" },
           { label: "No", nextNodeId: "no-residente" },
@@ -39,6 +41,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "patrimonio",
         tipo: "pregunta",
         texto: "¿Tu patrimonio bruto al 31 de dic de 2025 fue superior a 4.500 UVT ($224.095.500)?",
+        ayudaRapida: "Suma tus bienes (casa, carro, ahorros, acciones) sin restar las deudas que tengas sobre ellos.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-declara" },
           { label: "No", nextNodeId: "ingresos" },
@@ -48,6 +51,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "ingresos",
         tipo: "pregunta",
         texto: "¿Tus ingresos brutos en 2025 fueron superiores a 1.400 UVT ($69.718.600)?",
+        ayudaRapida: "Incluye salarios, honorarios, arriendos, rendimientos financieros y pensiones recibidos en el año.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-declara" },
           { label: "No", nextNodeId: "tarjetas" },
@@ -57,6 +61,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tarjetas",
         tipo: "pregunta",
         texto: "¿Tus consumos con tarjeta de crédito superaron los 1.400 UVT ($69.718.600)?",
+        ayudaRapida: "Suma todos los pagos realizados con tus tarjetas, incluso si son compras para terceros.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-declara" },
           { label: "No", nextNodeId: "consignaciones" },
@@ -66,6 +71,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "consignaciones",
         tipo: "pregunta",
         texto: "¿El valor total de tus consignaciones o inversiones superó los 1.400 UVT ($69.718.600)?",
+        ayudaRapida: "Cuenta todo el dinero que entró a tus cuentas bancarias, incluyendo préstamos o traslados.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-declara" },
           { label: "No", nextNodeId: "resultado-no-declara" },
@@ -105,6 +111,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "ingresos-tope",
         tipo: "pregunta",
         texto: "¿Tus ingresos brutos anuales son inferiores a 100.000 UVT ($5.237.400.000)?",
+        ayudaRapida: "Este es el tope general para pertenecer al SIMPLE para la mayoría de actividades empresariales.",
         opciones: [
           { label: "Sí", nextNodeId: "tipo-actividad" },
           { label: "No", nextNodeId: "ordinario-obligatorio" },
@@ -114,6 +121,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tipo-actividad",
         tipo: "pregunta",
         texto: "¿Tu actividad es de servicios profesionales (consultoría, profesiones liberales)?",
+        ayudaRapida: "Las profesiones liberales tienen un tope de ingresos menor y tarifas diferentes en el SIMPLE.",
         opciones: [
           { label: "Sí", nextNodeId: "tope-profesionales" },
           { label: "No", nextNodeId: "costos-altos" },
@@ -123,6 +131,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tope-profesionales",
         tipo: "pregunta",
         texto: "¿Tus ingresos como profesional son inferiores a 12.000 UVT ($628.488.000)?",
+        ayudaRapida: "Si superas este tope como profesional, el SIMPLE deja de ser una opción legal por sentencia de la Corte.",
         opciones: [
           { label: "Sí", nextNodeId: "costos-altos" },
           { label: "No", nextNodeId: "ordinario-mejor-prof" },
@@ -132,6 +141,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "costos-altos",
         tipo: "pregunta",
         texto: "¿Tus costos y gastos reales superan el 70% de tus ingresos?",
+        ayudaRapida: "Como el SIMPLE paga sobre ingresos brutos, si tienes costos muy altos podrías terminar pagando más impuesto.",
         opciones: [
           { label: "Sí", nextNodeId: "ordinario-mejor-costos" },
           { label: "No", nextNodeId: "nomina-empleados" },
@@ -141,6 +151,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "nomina-empleados",
         tipo: "pregunta",
         texto: "¿Tienes empleados por nómina con aportes a pensión?",
+        ayudaRapida: "En el SIMPLE puedes descontar el 100% de tus aportes a pensión de tus empleados del impuesto a pagar.",
         opciones: [
           { label: "Sí", nextNodeId: "simple-ideal" },
           { label: "No", nextNodeId: "simple-conveniente" },
@@ -192,6 +203,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "ingresos-3500",
         tipo: "pregunta",
         texto: "¿Tus ingresos brutos por actividades gravadas en 2024 o 2025 superaron los 3.500 UVT ($174.296.500)?",
+        ayudaRapida: "Suma solo los ingresos que provienen de bienes o servicios que tienen IVA (la mayoría, salvo excepciones).",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-si-iva" },
           { label: "No", nextNodeId: "establecimientos" },
@@ -201,6 +213,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "establecimientos",
         tipo: "pregunta",
         texto: "¿Tienes más de un establecimiento de comercio, oficina o local?",
+        ayudaRapida: "Tener dos locales abiertos al público te obliga automáticamente a ser responsable de IVA.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-si-iva" },
           { label: "No", nextNodeId: "franquicias" },
@@ -210,6 +223,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "franquicias",
         tipo: "pregunta",
         texto: "¿Desarrollas actividades bajo franquicia, marca o concesión?",
+        ayudaRapida: "Si tu negocio es una franquicia (ej. Servientrega, cosecha, etc.), eres responsable de IVA.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-si-iva" },
           { label: "No", nextNodeId: "aduana" },
@@ -219,6 +233,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "aduana",
         tipo: "pregunta",
         texto: "¿Eres usuario aduanero?",
+        ayudaRapida: "Si realizas importaciones o exportaciones formales ante la DIAN, sueles ser responsable de IVA.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-si-iva" },
           { label: "No", nextNodeId: "consignaciones-iva" },
@@ -228,6 +243,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "consignaciones-iva",
         tipo: "pregunta",
         texto: "¿Tus consignaciones bancarias en el año superaron los 3.500 UVT?",
+        ayudaRapida: "Al igual que en renta, mover más de $174 millones en tus cuentas te obliga a recaudar IVA.",
         opciones: [
           { label: "Sí", nextNodeId: "resultado-si-iva" },
           { label: "No", nextNodeId: "resultado-no-iva" },
@@ -260,6 +276,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tipo-falta",
         tipo: "pregunta",
         texto: "¿Cuál es tu situación actual?",
+        ayudaRapida: "Identifica si el error es por tiempo (presentar tarde) o por contenido (corregir datos).",
         opciones: [
           { label: "No presenté la declaración a tiempo", nextNodeId: "pago-previo" },
           { label: "Debo corregir una declaración ya presentada", nextNodeId: "aumenta-impuesto" },
@@ -269,6 +286,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "pago-previo",
         tipo: "pregunta",
         texto: "¿La declaración arroja un impuesto a pagar?",
+        ayudaRapida: "Si la declaración da saldo a favor, la sanción suele calcularse sobre ingresos o patrimonio.",
         opciones: [
           { label: "Sí", nextNodeId: "extemporaneidad-con-pago" },
           { label: "No", nextNodeId: "extemporaneidad-sin-pago" },
@@ -278,6 +296,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "aumenta-impuesto",
         tipo: "pregunta",
         texto: "¿La corrección aumenta el impuesto o disminuye el saldo a favor?",
+        ayudaRapida: "Corregir para pagar más genera sanción; corregir para pagar menos no (pero requiere proceso especial).",
         opciones: [
           { label: "Sí", nextNodeId: "sancion-correccion" },
           { label: "No", nextNodeId: "sin-sancion-correccion" },
@@ -322,6 +341,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tipo-vinculacion",
         tipo: "pregunta",
         texto: "¿Recibes tus ingresos como asalariado o como trabajador independiente?",
+        ayudaRapida: "Los asalariados tienen un sistema de depuración mensual; los independientes pueden tener costos o tabla del 383.",
         opciones: [
           { label: "Asalariado (contrato laboral)", nextNodeId: "procedimiento" },
           { label: "Independiente (prestación de servicios)", nextNodeId: "resultado-independiente" },
@@ -341,6 +361,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "procedimiento",
         tipo: "pregunta",
         texto: "¿Tu empleador aplica el Procedimiento 1 o el Procedimiento 2?",
+        ayudaRapida: "El P1 es mensual fijo; el P2 usa un porcentaje que cambia cada 6 meses (en junio y diciembre).",
         opciones: [
           { label: "Procedimiento 1 (depuración mensual)", nextNodeId: "dependientes" },
           { label: "Procedimiento 2 (porcentaje fijo semestral)", nextNodeId: "resultado-p2" },
@@ -351,6 +372,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "dependientes",
         tipo: "pregunta",
         texto: "¿Tienes personas a cargo (dependientes económicos)?",
+        ayudaRapida: "Hijos menores de 18 (o hasta 23 si estudian), cónyuge o padres sin ingresos propios.",
         opciones: [
           { label: "Sí, tengo dependientes", nextNodeId: "aportes-voluntarios" },
           { label: "No tengo dependientes", nextNodeId: "resultado-p1-basico" },
@@ -360,6 +382,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "aportes-voluntarios",
         tipo: "pregunta",
         texto: "¿Realizas aportes voluntarios a pensión o cuentas AFC?",
+        ayudaRapida: "Ahorrar en fondos de pensiones voluntarias o cuentas de vivienda reduce tu base de retención.",
         opciones: [
           { label: "Sí, hago aportes voluntarios", nextNodeId: "resultado-p1-completo" },
           { label: "No realizo aportes voluntarios", nextNodeId: "resultado-p1-basico" },
@@ -409,6 +432,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "actividad-gravada",
         tipo: "pregunta",
         texto: "¿Vendes bienes o prestas servicios gravados con IVA?",
+        ayudaRapida: "La mayoría de bienes en Colombia tienen IVA del 19%. Algunos son exentos (tarifa 0) o excluidos.",
         opciones: [
           { label: "Sí, vendo bienes/servicios gravados", nextNodeId: "tipo-persona" },
           { label: "No, solo excluidos o exentos", nextNodeId: "resultado-no-responsable" },
@@ -425,6 +449,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "tipo-persona",
         tipo: "pregunta",
         texto: "¿Eres persona natural o persona jurídica?",
+        ayudaRapida: "Las empresas (SAS, Ltda, etc.) suelen ser responsables de IVA por el solo hecho de ser personas jurídicas.",
         opciones: [
           { label: "Persona natural", nextNodeId: "ingresos-iva" },
           { label: "Persona jurídica", nextNodeId: "resultado-responsable-pj" },
@@ -441,6 +466,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "ingresos-iva",
         tipo: "pregunta",
         texto: "¿Tus ingresos brutos del año anterior superaron 3.500 UVT ($174.296.500)?",
+        ayudaRapida: "Este es el tope de ingresos para personas naturales; superarlo te obliga a cobrar IVA.",
         opciones: [
           { label: "Sí, los superaron", nextNodeId: "resultado-responsable-ingresos" },
           { label: "No, fueron menores", nextNodeId: "varios-locales" },
@@ -457,6 +483,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "varios-locales",
         tipo: "pregunta",
         texto: "¿Tienes más de un establecimiento de comercio u oficina?",
+        ayudaRapida: "Incluso si ganas poco, tener dos locales te obliga a ser responsable de IVA.",
         opciones: [
           { label: "Sí, tengo más de uno", nextNodeId: "resultado-responsable-locales" },
           { label: "No, solo uno o ninguno", nextNodeId: "en-simple" },
@@ -473,6 +500,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "en-simple",
         tipo: "pregunta",
         texto: "¿Estás inscrito en el Régimen SIMPLE de Tributación?",
+        ayudaRapida: "El SIMPLE simplifica el recaudo de IVA pero tiene reglas especiales para peluquerías y restaurantes.",
         opciones: [
           { label: "Sí, estoy en el SIMPLE", nextNodeId: "resultado-simple-iva" },
           { label: "No", nextNodeId: "resultado-no-responsable-cumple" },
@@ -509,6 +537,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "es-persona-natural",
         tipo: "pregunta",
         texto: "¿Eres persona natural?",
+        ayudaRapida: "Este impuesto aplica principalmente a personas naturales y sucesiones ilíquidas con altos patrimonios.",
         opciones: [
           { label: "Sí, soy persona natural", nextNodeId: "patrimonio-72k" },
           { label: "No, soy persona jurídica", nextNodeId: "resultado-no-aplica-pj" },
@@ -525,6 +554,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "patrimonio-72k",
         tipo: "pregunta",
         texto: "¿Tu patrimonio líquido al 1 de enero supera las 72.000 UVT ($3.771 millones)?",
+        ayudaRapida: "Patrimonio líquido = Bienes totales menos deudas totales.",
         opciones: [
           { label: "Sí, supera 72.000 UVT", nextNodeId: "residencia-fiscal" },
           { label: "No, es menor", nextNodeId: "resultado-no-aplica-tope" },
@@ -544,6 +574,7 @@ export const GUIAS_EDUCATIVAS: GuiaEducativa[] = [
         id: "residencia-fiscal",
         tipo: "pregunta",
         texto: "¿Eres residente fiscal colombiano?",
+        ayudaRapida: "Si eres residente, pagas sobre tus bienes en todo el mundo. Si no, solo sobre tus bienes en Colombia.",
         opciones: [
           { label: "Sí, soy residente fiscal", nextNodeId: "resultado-debe-pagar-residente" },
           { label: "No, soy no residente", nextNodeId: "resultado-debe-pagar-no-residente" },

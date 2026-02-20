@@ -1,1 +1,436 @@
-{"id_articulo": "Art. 489", "titulo": "Art. 489. Impuestos descontables susceptíbles de devolución bimestral de impuestos.", "titulo_corto": "Impuestos descontables susceptíbles de devolución bimestral de impuestos.", "slug": "489", "url_origen": "https://estatuto.co/489", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*En el caso de las operaciones de que trata el artículo 481 de este Estatuto, y sin perjuicio de la devolución del IVA retenido, habrá lugar a descuento y devolución bimestral únicamente cuando quien efectúe la operación se trate de un responsable del impuesto sobre las ventas según lo establecido en el artículo 481 de este Estatuto. Cuando el responsable tenga saldo a favor en el bimestre y en dicho período haya generado ingresos gravados y de los que trata el artículo 481 de este Estatuto, el procedimiento para determinar el valor susceptible de devolución será: 1. Se determinará la proporción de ingresos brutos por operaciones del artículo 481 de este Estatuto del total de ingresos brutos, calculados como la sumatoria de los ingresos brutos gravados más los ingresos brutos por operaciones del artículo 481 de este Estatuto. 2. La proporción o porcentaje así determinado será aplicado al total de los impuestos descontables del período en el impuesto sobre las ventas. 3. Si el valor resultante es superior al del saldo a favor, el valor susceptible a devolución será el total del saldo a favor; y si es inferior, el valor susceptible a devolución será ese valor inferior.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En el caso de las operaciones de que trata el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto, y sin perjuicio de la devolución del IVA retenido, habrá lugar a descuento y devolución bimestral únicamente cuando quien efectúe la operación se trate de un responsable del impuesto sobre las ventas según lo establecido en el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto.</p>\n<p>Cuando el responsable tenga saldo a favor en el bimestre y en dicho período haya generado ingresos gravados y de los que trata el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto, el procedimiento para determinar el valor susceptible de devolución será:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Se determinará la proporción de ingresos brutos por operaciones del <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto del total de ingresos brutos, calculados como la sumatoria de los ingresos brutos gravados más los ingresos brutos por operaciones del <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La proporción o porcentaje así determinado será aplicado al total de los impuestos descontables del período en el impuesto sobre las ventas.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Si el valor resultante es superior al del saldo a favor, el valor susceptible a devolución será el total del saldo a favor; y si es inferior, el valor susceptible a devolución será ese valor inferior.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 59.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "59"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["481"], "referenced_by": ["485-2"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 489",
+  "titulo": "Art. 489. Impuestos descontables susceptíbles de devolución bimestral de impuestos.",
+  "titulo_corto": "Impuestos descontables susceptíbles de devolución bimestral de impuestos.",
+  "slug": "489",
+  "url_origen": "https://estatuto.co/489",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*En el caso de las operaciones de que trata el artículo 481 de este Estatuto, y sin perjuicio de la devolución del IVA retenido, habrá lugar a descuento y devolución bimestral únicamente cuando quien efectúe la operación se trate de un responsable del impuesto sobre las ventas según lo establecido en el artículo 481 de este Estatuto. Cuando el responsable tenga saldo a favor en el bimestre y en dicho período haya generado ingresos gravados y de los que trata el artículo 481 de este Estatuto, el procedimiento para determinar el valor susceptible de devolución será: 1. Se determinará la proporción de ingresos brutos por operaciones del artículo 481 de este Estatuto del total de ingresos brutos, calculados como la sumatoria de los ingresos brutos gravados más los ingresos brutos por operaciones del artículo 481 de este Estatuto. 2. La proporción o porcentaje así determinado será aplicado al total de los impuestos descontables del período en el impuesto sobre las ventas. 3. Si el valor resultante es superior al del saldo a favor, el valor susceptible a devolución será el total del saldo a favor; y si es inferior, el valor susceptible a devolución será ese valor inferior.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En el caso de las operaciones de que trata el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto, y sin perjuicio de la devolución del IVA retenido, habrá lugar a descuento y devolución bimestral únicamente cuando quien efectúe la operación se trate de un responsable del impuesto sobre las ventas según lo establecido en el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto.</p>\n<p>Cuando el responsable tenga saldo a favor en el bimestre y en dicho período haya generado ingresos gravados y de los que trata el <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto, el procedimiento para determinar el valor susceptible de devolución será:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Se determinará la proporción de ingresos brutos por operaciones del <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto del total de ingresos brutos, calculados como la sumatoria de los ingresos brutos gravados más los ingresos brutos por operaciones del <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">artículo 481</a> de este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La proporción o porcentaje así determinado será aplicado al total de los impuestos descontables del período en el impuesto sobre las ventas.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Si el valor resultante es superior al del saldo a favor, el valor susceptible a devolución será el total del saldo a favor; y si es inferior, el valor susceptible a devolución será ese valor inferior.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 59.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "59"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "481"
+  ],
+  "referenced_by": [
+    "485-2"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 16117 (2025-11-18): Impuesto Sobre las Ventas - IVA\noficio 13688 (2025-08-26): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 5408 (2025-04-25): Impuesto Sobre las Ventas - IVA\noficio 4567 (2025-03-14): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16117-2025",
+      "tipo": "oficio",
+      "numero": "16117",
+      "fecha": "2025-11-18",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13688-2025",
+      "tipo": "oficio",
+      "numero": "13688",
+      "fecha": "2025-08-26",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5408-2025",
+      "tipo": "oficio",
+      "numero": "5408",
+      "fecha": "2025-04-25",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4567-2025",
+      "tipo": "oficio",
+      "numero": "4567",
+      "fecha": "2025-03-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11044-2024",
+      "tipo": "oficio",
+      "numero": "11044",
+      "fecha": "2024-12-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9014-2024",
+      "tipo": "oficio",
+      "numero": "9014",
+      "fecha": "2024-11-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2884-2023",
+      "tipo": "oficio",
+      "numero": "2884",
+      "fecha": "2023-05-11",
+      "tema": "(Int 555) Solicitudes de Devoluci&oacute;n o Compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915816-2021",
+      "tipo": "oficio",
+      "numero": "915816",
+      "fecha": "2021-12-27",
+      "tema": "Impuesto sobre las ventas - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912700-2021",
+      "tipo": "oficio",
+      "numero": "912700",
+      "fecha": "2021-10-11",
+      "tema": "Devoluci&oacute;n y-o compensaci&oacute;n de saldos a favor en las declaraciones del impuesto sobre las ventas, bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907842-2021",
+      "tipo": "oficio",
+      "numero": "907842",
+      "fecha": "2021-08-05",
+      "tema": "&iquest;Qui&eacute;nes pueden solicitar devoluci&oacute;n y-o compensaci&oacute;n en el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907110-2021",
+      "tipo": "oficio",
+      "numero": "907110",
+      "fecha": "2021-07-19",
+      "tema": "Impuesto sobre las ventas - Impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903288-2021",
+      "tipo": "oficio",
+      "numero": "903288",
+      "fecha": "2021-04-16",
+      "tema": "Impuestos descontables - Proporcionalidad de gastos comunes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901983-2021",
+      "tipo": "oficio",
+      "numero": "901983",
+      "fecha": "2021-03-12",
+      "tema": "Servicios Excluidos del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901780-2021",
+      "tipo": "oficio",
+      "numero": "901780",
+      "fecha": "2021-03-05",
+      "tema": "IVA con derecho a devoluci&oacute;n productores y distribuidores de veh&iacute;culos para reposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901779-2021",
+      "tipo": "oficio",
+      "numero": "901779",
+      "fecha": "2021-03-05",
+      "tema": "Exenci&oacute;n impuesto sobre las ventas - servicios tur&iacute;sticos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1395-2020",
+      "tipo": "oficio",
+      "numero": "1395",
+      "fecha": "2020-01-24",
+      "tema": "Imputaci&oacute;n de Saldos a Favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29754-2019",
+      "tipo": "oficio",
+      "numero": "29754",
+      "fecha": "2019-11-28",
+      "tema": "Responsables en la Venta de Productos Derivados del Petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0259-2018",
+      "tipo": "oficio",
+      "numero": "0259",
+      "fecha": "2018-03-06",
+      "tema": "El descuento del IVA en la base gravable de renta de que trata el art&iacute;culo 115-2 del E.T. solamente es aplicable en caso de que la importaci&oacute;n o adquisici&oacute;n se haga por medio de leasing con opci&oacute;n de compra, o es extensible a&uacute;n as&iacute; no se haga por leasing tal como lo expresa el par&aacute;grafo 2o del Art. 115-2 del E.T. (Art&iacute;culo 67ley 1819 de 2016) Este beneficio tambi&eacute;n es extensible a los repuestos de esos bienes de capital? &iquest;Si solicito la deducci&oacute;n del IVA en Renta en aplicaci&oacute;n de Art. 115-2 E.T. entonces el saldo de IVA no recuperado por este medio ya no puedo recuperarlo v&iacute;a depreciaci&oacute;n y autom&aacute;ticamente se vuelve costo? Ser&iacute;a una manera de beneficio concurrente? O puedo elegir descontarlos todo v&iacute;a depreciaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23070-2015",
+      "tipo": "oficio",
+      "numero": "23070",
+      "fecha": "2015-08-06",
+      "tema": "Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 066587 del 16 de diciembre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4136-2015",
+      "tipo": "oficio",
+      "numero": "4136",
+      "fecha": "2015-02-16",
+      "tema": "Normatividad aplicable en lo referente a la firma de contador en declaraciones de IVA presentadas por productores de bienes exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1089-2015",
+      "tipo": "oficio",
+      "numero": "1089",
+      "fecha": "2015-01-16",
+      "tema": "&iquest;Una sociedad cuya producci&oacute;n se vende en un 100% a una sociedad comercializadora internacional para su exportaci&oacute;n, tiene derecho a solicitar la devoluci&oacute;n y-o compensaci&oacute;n del impuesto sobre las ventas pagado por concepto de servicios integrales de administraci&oacute;n (legales, contables, inform&aacute;ticos y de comunicaciones, de recursos humanos, financieros, de representaci&oacute;n legal, servicios t&eacute;cnicos, asistencia t&eacute;cnica y consultor&iacute;a, en general administraci&oacute;n integral empresarial)?&iquest;Cu&aacute;l ser&iacute;a el porcentaje de la devoluci&oacute;n y-o compensaci&oacute;n sobre el total del IVA pagado a la tarifa del 16%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66587-2014",
+      "tipo": "oficio",
+      "numero": "66587",
+      "fecha": "2014-12-16",
+      "tema": "&iquest;Es acertado entender que el impuesto descontable del 35%, acumulado como saldo a favor, se puede aplicar al impuesto de ventas generado en operaciones futuras, o en ultimas solicitarse la devoluci&oacute;n si se tiene la calidad de exportador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50600-2013",
+      "tipo": "oficio",
+      "numero": "50600",
+      "fecha": "2013-08-14",
+      "tema": "&iquest;Est&aacute; vigente el art&iacute;culo 1o del Decreto Reglamentario n&uacute;mero 653 de 1990? - Si una Sociedad de Comercializaci&oacute;n Internacional exporta bienes calificados como excluidos de IVA en los t&eacute;rminos del art&iacute;culo 424 del Estatuto Tributario &iquest;los bienes pierden el car&aacute;cter de exentos con derecho a la devoluci&oacute;n en los t&eacute;rminos del literal a) del art&iacute;culo 481 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7213-2013",
+      "tipo": "oficio",
+      "numero": "7213",
+      "fecha": "2013-02-08",
+      "tema": "&iquest;Los licores que se exporten o vendan en el pa&iacute;s a las sociedades de comercializaci&oacute;n internacional conservan la calidad de exentos con derecho a devoluci&oacute;n de los impuestos a las ventas pagados en las adquisiciones de bienes y servicios gravados incorporados o vinculados directamente a los licores exportados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20252-2012",
+      "tipo": "oficio",
+      "numero": "20252",
+      "fecha": "2012-03-26",
+      "tema": "&iquest;Es procedente el descuento del IVA pagado en gastos relacionados con la actividad de la empresa, cuando cumple con los requisitos del art&iacute;culo 107 del Estatuto Tributario, De no ser posible procede tomarlo como mayor valor del gasto?&iquest;En las sociedades cuyo objeto exclusivo es la exportaci&oacute;n de bienes todo el IVA pagado en la adquisici&oacute;n de bienes est&aacute; vinculado con los bienes exportados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31849-2010",
+      "tipo": "oficio",
+      "numero": "31849",
+      "fecha": "2010-05-05",
+      "tema": "Tratamiento tributario del subsidio a la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12682-2009",
+      "tipo": "oficio",
+      "numero": "12682",
+      "fecha": "2009-02-13",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a comercializadora que exporta bienes que de venderse dentro del pa&iacute;s ser&iacute;an excluidos, puede descontarse el IVA que constituye costo de venta de los bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32712-2007",
+      "tipo": "oficio",
+      "numero": "32712",
+      "fecha": "2007-05-03",
+      "tema": "&iquest;Un usuario industrial de zona franca desee ingresar insumos con exenci&oacute;n de IVA acogi&eacute;ndose a Ley 1004 de 2005 y la factura que presentan al usuario operador cita dicha ley, tales bienes se pueden ingresar como una compraventa nacional sin necesidad de cargar estos insumos al inventario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102045-2006",
+      "tipo": "oficio",
+      "numero": "102045",
+      "fecha": "2006-12-04",
+      "tema": "&iquest;Se encuentra exenta la venta de larvas de camar&oacute;n a una sociedad de comercializaci&oacute;n internacional? Bienes exentos, devoluci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081763-2006",
+      "tipo": "concepto",
+      "numero": "0081763",
+      "fecha": "2006-09-22",
+      "tema": "&iquest;Pueden los responsables del impuesto sobre las ventas solicitar como descontable el impuesto pagado en la contrataci&oacute;n de todos los servicios susceptibles de imputarse como costo o gasto de la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47300-2005",
+      "tipo": "oficio",
+      "numero": "47300",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Un contratista, que en la fecha de celebraci&oacute;n del contrato de prestaci&oacute;n de servicios, se encontraba inscrito en el r&eacute;gimen simplificado, y que al momento de liquidar el contrato est&aacute; inscrito en el r&eacute;gimen com&uacute;n, &iquest;debe facturar el IVA sobre los honorarios y quien debe asumir este impuesto teniendo en cuenta que en el contrato no qued&oacute; estipulado ning&uacute;n tipo de gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33346-2004",
+      "tipo": "oficio",
+      "numero": "33346",
+      "fecha": "2004-05-31",
+      "tema": "&iquest;Un comercializador que &uacute;nicamente vende bienes exentos, como es la venta a sociedades de comercializaci&oacute;n internacional, es o no responsable del impuesto sobre las ventas -IVA- y en tal sentido cu&aacute;les son las obligaciones sustanciales y formales y m&aacute;s espec&iacute;ficamente las relacionadas con la inscripci&oacute;n en el registro &uacute;nico tributario RUT?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0066923-1999",
+      "tipo": "concepto",
+      "numero": "0066923",
+      "fecha": "1999-07-23",
+      "tema": "&iquest;C&oacute;mo deben tratar las personas jur&iacute;dicas y asimiladas el Impuesto sobre las Ventas pagado en la adquisici&oacute;n o nacionalizaci&oacute;n de bienes de capital, de equipo de computaci&oacute;n, y para las empresas transportadoras, adicionalmente de equipo de transporte, como deducci&oacute;n o como mayor costo de los bienes? &iquest;Deben los contribuyentes que optaron por tomar el impuesto a las ventas como deducci&oacute;n en el impuesto sobre la renta, constituir la reserva de que trata el art&iacute;culo 130 del Estatuto Tributario? &iquest;Qu&eacute; tratamiento fiscal debe darse al impuesto obre las ventas pagados durante el ejercicio de 1998, por bienes de capital construidos, y por empresas en proceso de reconversi&oacute;n industrial, al no encontrarse estos en condiciones de utilizaci&oacute;n en el a&ntilde;o gravable de 1998? &iquest;Debe capitalizarse como un mayor valor del bien el impuesto sobre las ventas pagado en la adquisici&oacute;n de activos amortizables? &iquest;Qu&eacute; tratamiento debe darse al impuesto sobre las ventas pagado por los activos adquiridos con anterioridad al 31 de diciembre de 1998, y que fue descontado en la declaraci&oacute;n de renta del respectivo a&ntilde;o gravable de su adquisici&oacute;n, cuando se enajenen a partir del 1o de enero de 1999, sin haber transcurrido la totalidad del tiempo de vida &uacute;til? &iquest;Qu&eacute; efectos tributarios tiene la enajenaci&oacute;n de bienes de capital cuyo impuesto sobre las ventas pagado en la adquisici&oacute;n se tom&oacute; como deducci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007306-1999",
+      "tipo": "concepto",
+      "numero": "0007306",
+      "fecha": "1999-02-02",
+      "tema": "&iquest;Los exportadores de caf&eacute; est&aacute;n obligados a inscribirse en el r&eacute;gimen com&uacute;n, as&iacute; como tambi&eacute;n deben asumir la retenci&oacute;n en la fuente por IVA cuando adquieran bienes y servicios de quienes pertenecen al r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051935-1998",
+      "tipo": "concepto",
+      "numero": "0051935",
+      "fecha": "1998-07-02",
+      "tema": "&iquest;Solicita con base en el Concepto 28587 del 4 de abril de 1997, se ratifique o rectifique lo all&iacute; manifestado? &iquest;Se solicita manifestar si las conclusiones del consultante en los puntos 1o, 4o, 5o y 6o son correctas, o si por el contrario son equivocadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029318-1998",
+      "tipo": "concepto",
+      "numero": "0029318",
+      "fecha": "1998-04-27",
+      "tema": "&iquest;Es responsable del impuesto sobre las ventas con derecho a devoluci&oacute;n del mismo, una sociedad de comercializaci&oacute;n internacional que compra bienes excluidos y los exporta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003141-1997",
+      "tipo": "concepto",
+      "numero": "0003141",
+      "fecha": "1997-01-17",
+      "tema": "&iquest;El IVA pagado por intereses moratorios debe formar parte de la proporcionalidad del respectivo per&iacute;odo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001580-1997",
+      "tipo": "concepto",
+      "numero": "0001580",
+      "fecha": "1997-01-13",
+      "tema": "Mediante los oficios de la referencia, solicita reconsideraci&oacute;n de los conceptos 57930 y 71587 de 1996, mediante los cuales se interpret&oacute; que los profesionales independientes pertenecientes al r&eacute;gimen com&uacute;n del impuesto sobre las ventas, est&aacute;n obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072589-1996",
+      "tipo": "concepto",
+      "numero": "0072589",
+      "fecha": "1996-09-16",
+      "tema": "Qu&eacute; tratamiento se da a la retenci&oacute;n en la fuente generada en operaciones con responsables del r&eacute;gimen simplificado cuando el agente retenedor tiene actividades gravadas y excluidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012680-1993",
+      "tipo": "concepto",
+      "numero": "0012680",
+      "fecha": "1993-03-29",
+      "tema": "&iquest;Algunas compa&ntilde;&iacute;as exportadoras vienen registrando en las declaraciones de ventas los CERT causados en el rengl&oacute;n dos (2) del formulario, junto con los ingresos exentos del impuesto; otros, los declaran en el rengl&oacute;n siguiente como excluidos. En qu&eacute; rengl&oacute;n se deben declarar los CERT? Qu&eacute; tratamiento se debe dar a la diferencia en cambio por la venta de productos a cr&eacute;dito? Deben tenerse en cuenta los anteriores conceptos para la proporcionalidad de impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005583-1992",
+      "tipo": "concepto",
+      "numero": "0005583",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Los exportadores de productos excluidos deben inscribirse en el Registro Nacional de Vendedores, agrega que el art&iacute;culo 489 del Estatuto Tributario debe interpretarse en el sentido de conceder a los exportadores de bienes que no causan el impuesto, el beneficio de solicitar descuento sin considerarlos como contribuyentes del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001245-1992",
+      "tipo": "concepto",
+      "numero": "0001245",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas descontable en el proceso de adecuaci&oacute;n e implantaci&oacute;n de una finca bananera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011277-1990",
+      "tipo": "concepto",
+      "numero": "0011277",
+      "fecha": "1990-05-15",
+      "tema": "&iquest;El IVA facturado por las Compa&ntilde;&iacute;as de Seguros y por la Empresa de Tel&eacute;fonos es descontable o no?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008632-1990",
+      "tipo": "concepto",
+      "numero": "0008632",
+      "fecha": "1990-04-17",
+      "tema": "&iquest;Una empresa, sociedad de responsabilidad limitada, es productora de bienes que se encuentran gravados con el impuesto sobre las ventas",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

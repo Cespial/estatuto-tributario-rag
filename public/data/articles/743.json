@@ -1,1 +1,436 @@
-{"id_articulo": "Art. 743", "titulo": "Art. 743. Idoneidad de los medios de prueba.", "titulo_corto": "Idoneidad de los medios de prueba.", "slug": "743", "url_origen": "https://estatuto.co/743", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "La idoneidad de los medios de prueba depende, en primer término, de las exigencias que para establecer determinados hechos preceptúen las leyes tributarias o las leyes que regulan el hecho por demostrarse y a falta de unas y otras, de su mayor o menor conexión con el hecho que trata de probarse y del valor de convencimiento que pueda atribuírseles de acuerdo con las reglas de la sana crítica.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La idoneidad de los medios de prueba depende, en primer término, de las exigencias que para establecer determinados hechos preceptúen las leyes tributarias o las leyes que regulan el hecho por demostrarse y a falta de unas y otras, de su mayor o menor conexión con el hecho que trata de probarse y del valor de convencimiento que pueda atribuírseles de acuerdo con las reglas de la sana crítica.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 743",
+  "titulo": "Art. 743. Idoneidad de los medios de prueba.",
+  "titulo_corto": "Idoneidad de los medios de prueba.",
+  "slug": "743",
+  "url_origen": "https://estatuto.co/743",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "La idoneidad de los medios de prueba depende, en primer término, de las exigencias que para establecer determinados hechos preceptúen las leyes tributarias o las leyes que regulan el hecho por demostrarse y a falta de unas y otras, de su mayor o menor conexión con el hecho que trata de probarse y del valor de convencimiento que pueda atribuírseles de acuerdo con las reglas de la sana crítica.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La idoneidad de los medios de prueba depende, en primer término, de las exigencias que para establecer determinados hechos preceptúen las leyes tributarias o las leyes que regulan el hecho por demostrarse y a falta de unas y otras, de su mayor o menor conexión con el hecho que trata de probarse y del valor de convencimiento que pueda atribuírseles de acuerdo con las reglas de la sana crítica.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 22 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 17280 (2025-12-05): Impuesto Sobre las Ventas - IVA\noficio 9462 (2025-07-17): Impuesto Sobre las Ventas - IVA\noficio 5935 (2025-05-09): Impuesto sobre la Renta y Complementarios\noficio 2234 (2025-02-19): Impuesto sobre la Renta y Complementarios\noficio 1932 (2025-02-13): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-17280-2025",
+      "tipo": "oficio",
+      "numero": "17280",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9462-2025",
+      "tipo": "oficio",
+      "numero": "9462",
+      "fecha": "2025-07-17",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5935-2025",
+      "tipo": "oficio",
+      "numero": "5935",
+      "fecha": "2025-05-09",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2234-2025",
+      "tipo": "oficio",
+      "numero": "2234",
+      "fecha": "2025-02-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1932-2025",
+      "tipo": "oficio",
+      "numero": "1932",
+      "fecha": "2025-02-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1475-2025",
+      "tipo": "oficio",
+      "numero": "1475",
+      "fecha": "2025-02-12",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0101-2025",
+      "tipo": "oficio",
+      "numero": "0101",
+      "fecha": "2025-01-09",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6258-2024",
+      "tipo": "oficio",
+      "numero": "6258",
+      "fecha": "2024-09-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5201-2024",
+      "tipo": "oficio",
+      "numero": "5201",
+      "fecha": "2024-07-29",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2269-2024",
+      "tipo": "oficio",
+      "numero": "2269",
+      "fecha": "2024-04-05",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1533-2024",
+      "tipo": "oficio",
+      "numero": "1533",
+      "fecha": "2024-03-01",
+      "tema": "(Int 137) Facturaci&oacute;n Electr&oacute;nica - Facturaci&oacute;n - Regal&iacute;as, impuestos, tasas, contribuciones, contraprestaciones econ&oacute;micas - Soporte costos, deducciones e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907545-2022",
+      "tipo": "oficio",
+      "numero": "907545",
+      "fecha": "2022-10-06",
+      "tema": "Deducci&oacute;n de costos y gastos en el impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906447-2022",
+      "tipo": "oficio",
+      "numero": "906447",
+      "fecha": "2022-08-22",
+      "tema": "Procedimiento tributario - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906175-2022",
+      "tipo": "oficio",
+      "numero": "906175",
+      "fecha": "2022-08-10",
+      "tema": "Procedimiento tributario Retenci&oacute;n en la fuente - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904850-2022",
+      "tipo": "oficio",
+      "numero": "904850",
+      "fecha": "2022-06-21",
+      "tema": "Procedimiento tributario Retenci&oacute;n en la fuente - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta - Retenci&oacute;n en la fuente a t&iacute;tulo de IVA Retenci&oacute;n en la fuente a t&iacute;tulo de renta Convenios de Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904278-2022",
+      "tipo": "oficio",
+      "numero": "904278",
+      "fecha": "2022-06-03",
+      "tema": "Investigaci&oacute;n previa a la devoluci&oacute;n o compensaci&oacute;n - Indicio de inexactitud en la declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900983-2022",
+      "tipo": "oficio",
+      "numero": "900983",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900757-2022",
+      "tipo": "oficio",
+      "numero": "900757",
+      "fecha": "2022-02-03",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900594-2022",
+      "tipo": "oficio",
+      "numero": "900594",
+      "fecha": "2022-01-27",
+      "tema": "Renta, deducciones, Soporte id&oacute;neo para la deducci&oacute;n de los pagos por planes institucionales de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914800-2021",
+      "tipo": "oficio",
+      "numero": "914800",
+      "fecha": "2021-12-03",
+      "tema": "Procedimiento tributario - Factura electr&oacute;nica de venta empresa transportadora",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909578-2021",
+      "tipo": "oficio",
+      "numero": "909578",
+      "fecha": "2021-10-10",
+      "tema": "Generalidades sobre sanciones en materia de obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908125-2021",
+      "tipo": "oficio",
+      "numero": "908125",
+      "fecha": "2021-08-12",
+      "tema": "Documento Soporte de pago de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901811-2021",
+      "tipo": "oficio",
+      "numero": "901811",
+      "fecha": "2021-11-25",
+      "tema": "Procedimiento tributario - Reclasificaci&oacute;n oficiosa a los no responsables en responsables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901683-2021",
+      "tipo": "oficio",
+      "numero": "901683",
+      "fecha": "2021-03-03",
+      "tema": "Naturaleza de los Descuentos Tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910623-2020",
+      "tipo": "oficio",
+      "numero": "910623",
+      "fecha": "2020-12-14",
+      "tema": "Deducci&oacute;n de gastos realizados por pagos efectuados por el empleador al teletrabajador como aporte para cancelar los servicios de energ&iacute;a e internet de la vivienda del empleado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32096-2019",
+      "tipo": "oficio",
+      "numero": "32096",
+      "fecha": "2019-12-31",
+      "tema": "Exentos del impuesto de timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16611-2019",
+      "tipo": "oficio",
+      "numero": "16611",
+      "fecha": "2019-06-26",
+      "tema": "Pago de las obligaciones fiscales de herederos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14693-2019",
+      "tipo": "oficio",
+      "numero": "14693",
+      "fecha": "2019-06-06",
+      "tema": "Exenci&oacute;n del impuesto de timbre consagrada en el numeral 31 del art&iacute;culo 530 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10019-2019",
+      "tipo": "oficio",
+      "numero": "10019",
+      "fecha": "2019-04-29",
+      "tema": "Informaci&oacute;n Ex&oacute;gena - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4799-2019",
+      "tipo": "oficio",
+      "numero": "4799",
+      "fecha": "2019-02-27",
+      "tema": "Exenci&oacute;n del impuesto de timbre, contenida en el numeral 31 del art&iacute;culo 530 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32083-2018",
+      "tipo": "oficio",
+      "numero": "32083",
+      "fecha": "2018-10-23",
+      "tema": "Prueba documental-valor probatorio de facturas escaneadas para efectos de la procedencia de costos y gastos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2018",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2018-03-15",
+      "tema": "Pruebas documentales para la extensi&oacute;n en el Impuesto de Timbre para la expedici&oacute;n del pasaporte de trabajadores Manuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6225-2017",
+      "tipo": "oficio",
+      "numero": "6225",
+      "fecha": "2017-03-21",
+      "tema": "Exenciones del impuesto de timbre - Exenciones del impuesto de timbre - &iquest;Que documentos o requisitos han aportado, y-o deben aportar los ciudadanos referidos en esta norma, ante los Consulados de dichos pa&iacute;ses para obtener tal exenci&oacute;n? &iquest;Que documentos o requisitos han aportado, y-o deben aportar los ciudadanos referidos en esta norma, ante los Consulados de dichos pa&iacute;ses para obtener tal exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18686-2016",
+      "tipo": "oficio",
+      "numero": "18686",
+      "fecha": "2016-07-15",
+      "tema": "Exenci&oacute;n del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13733-2016",
+      "tipo": "oficio",
+      "numero": "13733",
+      "fecha": "2016-06-02",
+      "tema": "Exenci&oacute;n del Impuesto de timbre prevista en el art&iacute;culo 530 Numerales 33 y 31 del Estatuto Tributario, respectivamente, para pasaportes de residentes en Venezuela, Ecuador y Panam&aacute; de trabajadores manuales - &iquest;Cu&aacute;les documentos y cu&aacute;les requisitos deben adjuntar: y cumplir los interesados ante los consulados respectivos? &iquest;Es indiferente la situaci&oacute;n de inmigrante regular o irregular en esos pa&iacute;ses? &iquest;El citado pasaporte, previa comprobaci&oacute;n de que el colombiano reside en tales pa&iacute;ses, se debe tramitar ante las diferentes dependencias del Ministerios de Relaciones Exteriores? &iquest;Para el efecto de la presente exenci&oacute;n que se entiende por",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1931-2015",
+      "tipo": "oficio",
+      "numero": "1931",
+      "fecha": "2015-01-26",
+      "tema": "Impuesto sobre la Renta y Complementarios - Deducci&oacute;n por Donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53369-2014",
+      "tipo": "oficio",
+      "numero": "53369",
+      "fecha": "2014-09-03",
+      "tema": "Exenci&oacute;n al impuesto de timbre establecida en el numeral 31 del art&iacute;culo 530 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79365-2013",
+      "tipo": "oficio",
+      "numero": "79365",
+      "fecha": "2013-12-11",
+      "tema": "Solciita reconsideraci&oacute;n del aparte final del Oficio n&uacute;mero 50941 del 12 de julio de 2011 proferido por esta Dependencia, en donde al hacer el an&aacute;lisis de la procedencia de la sanci&oacute;n por inexactitud prevista en el art&iacute;culo 647 del Estatuto Tributario, se consider&oacute;:",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21443-2013",
+      "tipo": "oficio",
+      "numero": "21443",
+      "fecha": "2013-04-15",
+      "tema": "Obligaci&oacute;n de emitir factura cuando la AEROCIVIL recibe de los concesionarios la contraprestaci&oacute;n pactada dentro de los contratos de Concesi&oacute;n para la construcci&oacute;n, explotaci&oacute;n y administraci&oacute;n de la infraestructura del aeropuerto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0617-2012",
+      "tipo": "oficio",
+      "numero": "0617",
+      "fecha": "2012-09-14",
+      "tema": "&iquest;Para constatar la infracci&oacute;n por no expedir factura o hacerlo sin requisitos es necesario que se designe por parte del Jefe de Fiscalizaci&oacute;n dos funcionarios para este efecto?&iquest;Es necesario recepcionar adicionalmente testimonios o es suficiente como prueba de la infracci&oacute;n la atestaci&oacute;n de los funcionarios en el acta de la diligencia realizada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089685-2009",
+      "tipo": "concepto",
+      "numero": "0089685",
+      "fecha": "2009-11-03",
+      "tema": "&iquest;Cu&aacute;l es el documento id&oacute;neo para soportar ante la Administraci&oacute;n Tributar&iacute;a los costos correspondientes al pago de regal&iacute;as a una entidad p&uacute;blica por la explotaci&oacute;n de recursos naturales no renovables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042364-2004",
+      "tipo": "concepto",
+      "numero": "0042364",
+      "fecha": "2004-07-13",
+      "tema": "&iquest;Son procedentes los costos, deducciones e impuestos descontables por operaciones realizadas con terceros no inscritos en el Rut, o que estando inscritos no aparecen como responsables del r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055823-2003",
+      "tipo": "concepto",
+      "numero": "0055823",
+      "fecha": "2003-09-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021851-2002",
+      "tipo": "concepto",
+      "numero": "0021851",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;ndo una factura no cumpla con los requisitos legales para la procedencia de los costos y deducci&oacute;n, son aceptables otros medios de prueba para su reconocimiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095356-2001",
+      "tipo": "concepto",
+      "numero": "0095356",
+      "fecha": "2001-10-29",
+      "tema": "Con el fin de no efectuarse retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta por concepto de ingresos en divisas provenientes del exterior, basta la manifestaci&oacute;n por parte del beneficiario de los ingresos en el sentido de que corresponden a ingresos exceptuados de la retenci&oacute;n, o debe probarse ante el intermediario del mercado cambiario la naturaleza del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062367-2001",
+      "tipo": "concepto",
+      "numero": "0062367",
+      "fecha": "2001-07-09",
+      "tema": "&iquest;las empresas asociativas de trabajo est&aacute;n obligadas a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074997-2000",
+      "tipo": "concepto",
+      "numero": "0074997",
+      "fecha": "2000-08-09",
+      "tema": "&iquest;Cu&aacute;les soportes respaldan la declaraci&oacute;n de renta cuando no se est&aacute; obligado a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051177-1999",
+      "tipo": "concepto",
+      "numero": "0051177",
+      "fecha": "1999-06-30",
+      "tema": "&iquest;Cuando se trate de remisi&oacute;n de las mercanc&iacute;as a los clientes, resulta procedente la retenci&oacute;n de las mercanc&iacute;as al adquirente que no exhiba la factura o documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068406-1996",
+      "tipo": "concepto",
+      "numero": "0068406",
+      "fecha": "1996-09-02",
+      "tema": "&iquest;C&oacute;mo se prueban los costos, deducciones, exenciones, pasivos, etc., cuando ocurre la p&eacute;rdida, extrav&iacute;o, hurto o robo de los libros de contabilidad, facturas, comprobantes internos o externos?",
+      "vigente": true
+    }
+  ]
+}

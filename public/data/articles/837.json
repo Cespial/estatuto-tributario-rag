@@ -1,1 +1,466 @@
-{"id_articulo": "Art. 837", "titulo": "Art. 837. Medidas preventivas.", "titulo_corto": "Medidas preventivas.", "slug": "837", "url_origen": "https://estatuto.co/837", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Previa o simultáneamente con el mandamiento de pago, el funcionario podrá decretar el embargo y secuestro preventivo de los bienes del deudor que se hayan establecido como de su propiedad. Para este efecto, los funcionarios competentes podrán identificar los bienes del deudor por medio de las informaciones tributarias, o de las informaciones suministradas por entidades públicas o privadas, que estarán obligadas en todos los casos a dar pronta y cumplida respuesta a la Administración, so pena de ser sancionadas al tenor del artículo 651 literal a). *Parágrafo. Cuando se hubieren decretado medidas cautelares y el deudor demuestre que se ha admitido demanda contra el título ejecutivo y que esta se encuentra pendiente de fallo ante la Jurisdicción de lo Contencioso Administrativo se ordenará levantarlas. Las medidas cautelares también podrán levantarse cuando admitida la demanda ante la jurisdicción de lo contencioso administrativo contra las resoluciones que fallan las excepciones y ordenan llevar adelante la ejecución, se presta garantía bancaria o de compañía de seguros, por el valor adeudado.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Previa o simultáneamente con el mandamiento de pago, el funcionario podrá decretar el embargo y secuestro preventivo de los bienes del deudor que se hayan establecido como de su propiedad.</p>\n<p>Para este efecto, los funcionarios competentes podrán identificar los bienes del deudor por medio de las informaciones tributarias, o de las informaciones suministradas por entidades públicas o privadas, que estarán obligadas en todos los casos a dar pronta y cumplida respuesta a la Administración, so pena de ser sancionadas al tenor del <a href=\"https://estatuto.co/651\" rel=\"noopener\" target=\"_blank\">artículo 651</a> literal a).</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">*Parágrafo. </span></strong>Cuando se hubieren decretado medidas cautelares y el deudor demuestre que se ha admitido demanda contra el título ejecutivo y que esta se encuentra pendiente de fallo ante la Jurisdicción de lo Contencioso Administrativo se ordenará levantarlas.</p>\n<p>Las medidas cautelares también podrán levantarse cuando admitida la demanda ante la jurisdicción de lo contencioso administrativo contra las resoluciones que fallan las excepciones y ordenan llevar adelante la ejecución, se presta garantía bancaria o de compañía de seguros, por el valor adeudado.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 85.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "85"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["651"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 837",
+  "titulo": "Art. 837. Medidas preventivas.",
+  "titulo_corto": "Medidas preventivas.",
+  "slug": "837",
+  "url_origen": "https://estatuto.co/837",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Previa o simultáneamente con el mandamiento de pago, el funcionario podrá decretar el embargo y secuestro preventivo de los bienes del deudor que se hayan establecido como de su propiedad. Para este efecto, los funcionarios competentes podrán identificar los bienes del deudor por medio de las informaciones tributarias, o de las informaciones suministradas por entidades públicas o privadas, que estarán obligadas en todos los casos a dar pronta y cumplida respuesta a la Administración, so pena de ser sancionadas al tenor del artículo 651 literal a). *Parágrafo. Cuando se hubieren decretado medidas cautelares y el deudor demuestre que se ha admitido demanda contra el título ejecutivo y que esta se encuentra pendiente de fallo ante la Jurisdicción de lo Contencioso Administrativo se ordenará levantarlas. Las medidas cautelares también podrán levantarse cuando admitida la demanda ante la jurisdicción de lo contencioso administrativo contra las resoluciones que fallan las excepciones y ordenan llevar adelante la ejecución, se presta garantía bancaria o de compañía de seguros, por el valor adeudado.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Previa o simultáneamente con el mandamiento de pago, el funcionario podrá decretar el embargo y secuestro preventivo de los bienes del deudor que se hayan establecido como de su propiedad.</p>\n<p>Para este efecto, los funcionarios competentes podrán identificar los bienes del deudor por medio de las informaciones tributarias, o de las informaciones suministradas por entidades públicas o privadas, que estarán obligadas en todos los casos a dar pronta y cumplida respuesta a la Administración, so pena de ser sancionadas al tenor del <a href=\"https://estatuto.co/651\" rel=\"noopener\" target=\"_blank\">artículo 651</a> literal a).</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">*Parágrafo. </span></strong>Cuando se hubieren decretado medidas cautelares y el deudor demuestre que se ha admitido demanda contra el título ejecutivo y que esta se encuentra pendiente de fallo ante la Jurisdicción de lo Contencioso Administrativo se ordenará levantarlas.</p>\n<p>Las medidas cautelares también podrán levantarse cuando admitida la demanda ante la jurisdicción de lo contencioso administrativo contra las resoluciones que fallan las excepciones y ordenan llevar adelante la ejecución, se presta garantía bancaria o de compañía de seguros, por el valor adeudado.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 85.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "85"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "651"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 16 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7087 (2023-06-13): (Int 660) Procedimiento Tributario - T&iacute;tulos de dep&oacute;sito judicial - Cuarta adici&oacute;n al Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022\noficio 1328 (2023-02-07): (165) Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022\noficio 914779 (2021-12-13): Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Adici&oacute;n al Concepto General N 913636\noficio 913636 (2021-11-05): Reducci&oacute;n transitoria de sanciones\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7087-2023",
+      "tipo": "oficio",
+      "numero": "7087",
+      "fecha": "2023-06-13",
+      "tema": "(Int 660) Procedimiento Tributario - T&iacute;tulos de dep&oacute;sito judicial - Cuarta adici&oacute;n al Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1328-2023",
+      "tipo": "oficio",
+      "numero": "1328",
+      "fecha": "2023-02-07",
+      "tema": "(165) Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914779-2021",
+      "tipo": "oficio",
+      "numero": "914779",
+      "fecha": "2021-12-13",
+      "tema": "Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Adici&oacute;n al Concepto General N 913636",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913636-2021",
+      "tipo": "oficio",
+      "numero": "913636",
+      "fecha": "2021-11-05",
+      "tema": "Reducci&oacute;n transitoria de sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15494-2025",
+      "tipo": "oficio",
+      "numero": "15494",
+      "fecha": "2025-11-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13059-2025",
+      "tipo": "oficio",
+      "numero": "13059",
+      "fecha": "2025-09-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6041-2025",
+      "tipo": "oficio",
+      "numero": "6041",
+      "fecha": "2025-05-13",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0011-2025",
+      "tipo": "oficio",
+      "numero": "0011",
+      "fecha": "2025-01-02",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20580-2024",
+      "tipo": "oficio",
+      "numero": "20580",
+      "fecha": "2024-11-08",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914512-2021",
+      "tipo": "oficio",
+      "numero": "914512",
+      "fecha": "2021-11-25",
+      "tema": "Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910835-2021",
+      "tipo": "oficio",
+      "numero": "910835",
+      "fecha": "2021-09-28",
+      "tema": "Cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908901-2021",
+      "tipo": "oficio",
+      "numero": "908901",
+      "fecha": "2021-08-30",
+      "tema": "Procedimiento Tributario - Medidas preventivas - Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-911430-2020",
+      "tipo": "oficio",
+      "numero": "911430",
+      "fecha": "2020-12-30",
+      "tema": "Limite de Inembargabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0020-2020",
+      "tipo": "oficio",
+      "numero": "0020",
+      "fecha": "2020-01-03",
+      "tema": "L&iacute;mite de inembargabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18978-2019",
+      "tipo": "oficio",
+      "numero": "18978",
+      "fecha": "2019-07-23",
+      "tema": "C&oacute;mo opera el l&iacute;mite de inembargabilidad sobre sumas de dinero consignadas con posterioridad a una orden de embargo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4583-2019",
+      "tipo": "oficio",
+      "numero": "4583",
+      "fecha": "2019-02-25",
+      "tema": "Cobro Administrativo Coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4966-2017",
+      "tipo": "oficio",
+      "numero": "4966",
+      "fecha": "2017-03-10",
+      "tema": "Los intereses contemplados en la Ley 99 de 1993, pueden ser descontados total o parcialmente y bajo qu&eacute; argumento jur&iacute;dico se puede realizar dicho tr&aacute;mite, puesto que de conformidad con lo establecido en la Ley 1066 de 2006 las entidades que tengan a cargo cuentas por cobrar podr&aacute;n ejercer jurisdicci&oacute;n coactiva de acuerdo con el Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28949-2016",
+      "tipo": "oficio",
+      "numero": "28949",
+      "fecha": "2016-10-18",
+      "tema": "Reconsiderar nuevamente la tesis vigente expuesta en el concepto 026628 del 9 de abril de 2007, en el que se indic&oacute; que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31635-2015",
+      "tipo": "oficio",
+      "numero": "31635",
+      "fecha": "2015-10-23",
+      "tema": "&iquest;Procede el Decreto de medidas cautelares no obstante que con ocasi&oacute;n de la discusi&oacute;n en v&iacute;a gubernativa contra los actos de determinaci&oacute;n oficial del impuesto el contribuyente se ofrezca cauci&oacute;n de la compa&ntilde;&iacute;a de seguros por el doble de lo que se discute en el proceso y haya entregado formalmente esa cauci&oacute;n?Es legalmente v&aacute;lido que no se acepten o no se emita pronunciamiento alguno sobre el ofrecimiento y entrega de cauci&oacute;n que haga el contribuyente con ocasi&oacute;n de la discusi&oacute;n en v&iacute;a gubernativa contra los actos de determinaci&oacute;n oficial del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27287-2015",
+      "tipo": "oficio",
+      "numero": "27287",
+      "fecha": "2015-10-01",
+      "tema": "(Int 1280) Forma de pago de las obligaciones tributarias en las entidades financieras - Cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11216-2015",
+      "tipo": "oficio",
+      "numero": "11216",
+      "fecha": "2015-04-21",
+      "tema": "Limite de Inembargabilidad - Proceso de cobro coactivo de las deudas fiscales por concepto de impuestos, anticipos, retenciones, intereses y sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5821-2015",
+      "tipo": "oficio",
+      "numero": "5821",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Puede darse inicio al proceso administrativo de cobro coactivo (i) librando mandamiento de pago y (ii) disponiendo el Decreto de medidas cautelares, si inmediatamente (enti&eacute;ndase el mismo d&iacute;a o al d&iacute;a siguiente) despu&eacute;s de la notificaci&oacute;n de la resoluci&oacute;n del recurso de reconsideraci&oacute;n interpuesto contra el acto de liquidaci&oacute;n oficial el contribuyente presenta acci&oacute;n de nulidad y restablecimiento del derecho contra esos actos administrativos, e informa a la administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0540-2012",
+      "tipo": "oficio",
+      "numero": "0540",
+      "fecha": "2012-08-27",
+      "tema": "Ejecutoria de los actos administrativos en los procesos de cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036381-2010",
+      "tipo": "concepto",
+      "numero": "0036381",
+      "fecha": "2010-05-21",
+      "tema": "&iquest;Cu&aacute;l es el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39555-2009",
+      "tipo": "oficio",
+      "numero": "39555",
+      "fecha": "2009-05-18",
+      "tema": "&iquest;En el numeral 4 del art&iacute;culo 828 del E.T., est&aacute; incluido como t&iacute;tulo ejecutivo la Resoluci&oacute;n que declara sin vigencia una facilidad para el pago y en consecuencia respecto del citado acto es viable predicar la ejecutoria de los actos prevista en el art&iacute;culo 829 ib&iacute;dem, por ser un acto que sirve de fundamento al cobro coactivo, o si la firmeza que se debe aplicar es la consagrada en el art&iacute;culo 62 del C.C.A, dado que la referida resoluci&oacute;n es un acto que no sirve de fundamento al cobro coactivo por no estar comprendido en la relaci&oacute;n taxativa del art&iacute;culo 828 ib&iacute;dem?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20033-2009",
+      "tipo": "oficio",
+      "numero": "20033",
+      "fecha": "2009-03-09",
+      "tema": "&iquest;La garant&iacute;a por el 100% del valor en discusi&oacute;n a que se refiere el inciso quinto del art&iacute;culo 837-1 del Estatuto Tributario, incluye los intereses de mora y en caso afirmativo qu&eacute; valor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76458-2008",
+      "tipo": "oficio",
+      "numero": "76458",
+      "fecha": "2008-01-01",
+      "tema": "TIDIS - Orden de embargo - Consignaci&oacute;n en cuentas de dep&oacute;sito judicial",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022634-2008",
+      "tipo": "concepto",
+      "numero": "0022634",
+      "fecha": "2008-03-04",
+      "tema": "&iquest;Cu&aacute;ndo prospera la excepci&oacute;n de interposici&oacute;n de demanda de nulidad y restablecimiento del derecho o proceso de revisi&oacute;n de impuestos ante la jurisdicci&oacute;n de lo contencioso administrativo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14520-2008",
+      "tipo": "oficio",
+      "numero": "14520",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Pprobadas las excepciones propuestas contra el mandamiento de pago procede levantar las medidas cautelares previamente decretadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013442-2008",
+      "tipo": "concepto",
+      "numero": "0013442",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Opera la congelaci&oacute;n de recursos de las cuentas bancarias del deudor cuando se hubiere iniciado el proceso de cobro con actos administrativos ejecutoriados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8385-2008",
+      "tipo": "oficio",
+      "numero": "8385",
+      "fecha": "2008-01-01",
+      "tema": "Normas aplicables en el proceso de obro coactivo durante el periodo de 1998 a 2005, en lo relacionado con la efectivizaci&oacute;n de las garant&iacute;as dadas para el otorgamiento de una facilidad para el pago, la adjudicaci&oacute;n de bienes a favor de la Naci&oacute;n por falta de postor en el remate y la prescripci&oacute;n de la acci&oacute;n de cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056418-2005",
+      "tipo": "concepto",
+      "numero": "0056418",
+      "fecha": "2005-08-18",
+      "tema": "&iquest;Pueden aplicarse causales de interrupci&oacute;n del t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro diferentes a las consagradas en el art&iacute;culo 818 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48184-2005",
+      "tipo": "oficio",
+      "numero": "48184",
+      "fecha": "2005-07-19",
+      "tema": "&iquest;Cu&aacute;ndo se entiende ejecutoriado el Acto Administrativo para que sirva de t&iacute;tulo ejecutivo base del Proceso Administrativo de cobro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008756-2005",
+      "tipo": "concepto",
+      "numero": "0008756",
+      "fecha": "2005-02-17",
+      "tema": "&iquest;Procede la autorizaci&oacute;n de enajenaci&oacute;n de bienes embargados en el proceso administrativo de cobro coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89042-2004",
+      "tipo": "oficio",
+      "numero": "89042",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;Es posible que un bien dado como garant&iacute;a de una determinada obligaci&oacute;n, pueda respaldar otras deudas surgidas posteriormente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080007-2003",
+      "tipo": "concepto",
+      "numero": "0080007",
+      "fecha": "2003-12-17",
+      "tema": "&iquest;Debe atenderse al origen de los recursos en dep&oacute;sito para efectos de decretar o mantener el embargo de las sumas de dinero depositadas en establecimientos bancarios y similares, por los deudores de obligaciones administradas por la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049393-2003",
+      "tipo": "concepto",
+      "numero": "0049393",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;En el proceso administrativo de cobro coactivo, procede la autorizaci&oacute;n del funcionario a cargo para la venta de un bien embargado?&iquest;Pueden decretarse medidas cautelares cuando no se ha declarado el incumplimiento de una facilidad de pago?&iquest;Puede declararse sin vigencia el plazo concedido en una facilidad por el no pago de obligaciones por concepto de bonos de solidaridad para la paz?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000270-2003",
+      "tipo": "concepto",
+      "numero": "0000270",
+      "fecha": "2003-01-01",
+      "tema": "La solicitud de compensaci&oacute;n suspende la iniciaci&oacute;n del proceso administrativo de cobro coactivo y del proceso penal por el delito de Omisi&oacute;n del Agente Retenedor o Recaudador contemplado en el art&iacute;culo 402 del C&oacute;digo Penal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073271-2002",
+      "tipo": "concepto",
+      "numero": "0073271",
+      "fecha": "2002-11-13",
+      "tema": "Procedimiento administrativo de cobro coactivo - &iquest;En qu&eacute; momento es viable decretar medidas cautelares cuando se ha incumplido una facilidad de pago, otorgada sin existir proceso de cobro coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024785-2002",
+      "tipo": "concepto",
+      "numero": "0024785",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; consecuencias acarrea que dentro del proceso administrativo de cobro, se rematen bienes que resultan ser de un tercero ajeno al proceso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001297-1997",
+      "tipo": "concepto",
+      "numero": "0001297",
+      "fecha": "1997-01-10",
+      "tema": "&iquest;Qu&eacute; sucede si en el momento del vencimiento del t&eacute;rmino estipulado para la restituci&oacute;n de las sumas depositadas y sus rendimientos, generados por un certificado de dep&oacute;sito a t&eacute;rmino que se encuentra embargado por la Direcci&oacute;n de Impuestos y Aduanas Nacionales, su titular NO se presenta con el respectivo t&iacute;tulo valor para su cobro, cuando en el texto del certificado de dep&oacute;sito a t&eacute;rmino se pact&oacute; que ante el silencio y no cobro por parte de su titular al vencimiento del plazo estipulado el mismo se prorroga autom&aacute;ticamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051014-1996",
+      "tipo": "concepto",
+      "numero": "0051014",
+      "fecha": "1996-06-25",
+      "tema": "&iquest;Cu&aacute;l es el tr&aacute;mite para el embargo por parte de la administraci&oacute;n de impuestos de certificados nominativos de dep&oacute;sito expedido por un establecimiento de cr&eacute;dito, cuando su titular o beneficiario es un contribuyente contra el cual se adelanta un proceso administrativo de cobro coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060225-1994",
+      "tipo": "concepto",
+      "numero": "0060225",
+      "fecha": "1994-10-12",
+      "tema": "&iquest;Procede decretar las medidas cautelares de embargo y secuestro dentro del procedimiento administrativo de cobro, cuando los bienes objeto de las mismas, son de dominio p&uacute;blico o de uso p&uacute;blico del orden municipal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032355-1990",
+      "tipo": "concepto",
+      "numero": "0032355",
+      "fecha": "1990-12-26",
+      "tema": "&iquest;Cu&aacute;l es la base para efectos de exigir coactivamente, a los herederos, por deudas del causante, el pago de las obligaciones fiscales surgidas con posterioridad a la ejecutoria de la sentencia que aprueba la participaci&oacute;n de los bienes de la sucesi&oacute;n? Proferido un auto de cancelaci&oacute;n dentro del proceso de cobro coactivo administrativo, se encuentran documentos falsos, (recibo de pago), &iquest;puede revocarse dicho auto?. &iquest;Ser&iacute;a procedente formular demanda de nulidad ante el tribunal administrativo?. &iquest;C&oacute;mo se reinicia el proceso de cobro? Qu&eacute; incidencia de tipo legal tendr&iacute;a el hecho de que cuando se env&iacute;an numerosos oficios a igual n&uacute;mero de entidades bancarias averiguando por dep&oacute;sitos de un mismo contribuyente no se anexe al expediente copia de los oficios enviados, sino una sola constancia en la que se se&ntilde;ale el env&iacute;o de aqu&eacute;llos y proceder en igual forma con las respuestas De conformidad con el art&iacute;culo 794 del Estatuto Tributario, por los a&ntilde;os gravables de 1987 y siguientes, los socios responden por impuestos de la sociedad (no disuelta) a prorrata de sus aportes. Pero (si a pesar de tratarse de impuestos de 1987 y siguientes) la sociedad se halla disuelta, la norma a aplicar ser&iacute;a el literal b) del art&iacute;culo 793?. &iquest;Qu&eacute; pasa si se disuelve pero no se liquida? Al tenor del art&iacute;culo 837 del Estatuto Tributario, debe entenderse que si los embargos no se decretan antes de proferirse el mandamiento o al proferirlo, la &uacute;nica oportunidad legal para decretarlos ser&iacute;a del art&iacute;culo 836 del Estatuto Tributario?. Orden de ejecuci&oacute;n En el caso de una sociedad de hecho, como la liquidaci&oacute;n de revisi&oacute;n est&aacute; a nombre de la sociedad, contra quien debe expedirse el mandamiento de pago: contra &eacute;sta y los asociados? contra uno de ellos?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ]
+}

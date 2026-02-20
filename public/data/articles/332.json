@@ -1,1 +1,639 @@
-{"id_articulo": "Art. 332", "titulo": "Art. 332. Rentas exentas y deducciones.", "titulo_corto": "Rentas exentas y deducciones.", "slug": "332", "url_origen": "https://estatuto.co/332", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Solo podrán restarse beneficios tributarios en las cédulas en las que se tengan ingresos. No se podrá imputar en más de una cédula una misma renta exenta o deducción.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Solo podrán restarse beneficios tributarios en las cédulas en las que se tengan ingresos. No se podrá imputar en más de una cédula una misma renta exenta o deducción.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 332",
+  "titulo": "Art. 332. Rentas exentas y deducciones.",
+  "titulo_corto": "Rentas exentas y deducciones.",
+  "slug": "332",
+  "url_origen": "https://estatuto.co/332",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Solo podrán restarse beneficios tributarios en las cédulas en las que se tengan ingresos. No se podrá imputar en más de una cédula una misma renta exenta o deducción.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Solo podrán restarse beneficios tributarios en las cédulas en las que se tengan ingresos. No se podrá imputar en más de una cédula una misma renta exenta o deducción.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 26734 (2019-10-23): Aplicaci&oacute;n del art. 244 de la Ley 1955 de 2019\noficio 19334 (2019-08-02): Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales\noficio 7480 (2018-03-23): &iquest;Debe entenderse que tal exenci&oacute;n se mantiene de manera ilimitada para las Personas Natural? O &iquest;Se encuentra limitada por el sistema cedular previsto en los art&iacute;culos primero y subsiguientes de la misma Ley 1819 de 2016?\noficio 6459 (2018-03-15): Retenci&oacute;n en el Impuesto Sobre la Renta - Personas naturales - Retenci&oacute;n en la fuente\noficio 27297 (2017-10-06): Impuesto a las ventas - Base gravable en la venta de productos derivados del petr&oacute;leo",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-26734-2019",
+      "tipo": "oficio",
+      "numero": "26734",
+      "fecha": "2019-10-23",
+      "tema": "Aplicaci&oacute;n del art. 244 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19334-2019",
+      "tipo": "oficio",
+      "numero": "19334",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7480-2018",
+      "tipo": "oficio",
+      "numero": "7480",
+      "fecha": "2018-03-23",
+      "tema": "&iquest;Debe entenderse que tal exenci&oacute;n se mantiene de manera ilimitada para las Personas Natural? O &iquest;Se encuentra limitada por el sistema cedular previsto en los art&iacute;culos primero y subsiguientes de la misma Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6459-2018",
+      "tipo": "oficio",
+      "numero": "6459",
+      "fecha": "2018-03-15",
+      "tema": "Retenci&oacute;n en el Impuesto Sobre la Renta - Personas naturales - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27297-2017",
+      "tipo": "oficio",
+      "numero": "27297",
+      "fecha": "2017-10-06",
+      "tema": "Impuesto a las ventas - Base gravable en la venta de productos derivados del petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1077-2017",
+      "tipo": "oficio",
+      "numero": "1077",
+      "fecha": "2017-10-18",
+      "tema": "&iquest;Qu&eacute; pasa con las deducciones en que incurran las personas naturales que contraten trabajadores y no se cumplan los dos condiciones del ac&aacute;pite anterior, debiendo estas declarar sus ingresos por honorarios en las rentas cedulares de trabajo, pudiendo solamente solicitar deducciones imputables a esta rentas y no los gastos procedentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003552-2016",
+      "tipo": "concepto",
+      "numero": "0003552",
+      "fecha": "2016-02-25",
+      "tema": "&iquest;Se genera el impuesto sobre las ventas por el consumo de petr&oacute;leo crudo realizado por el operador de una concesi&oacute;n para efectos de sus operaciones antes del punto de fiscalizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1344-2016",
+      "tipo": "oficio",
+      "numero": "1344",
+      "fecha": "2016-02-04",
+      "tema": "Alcance de la Sentencia C-492 de 2015 de la Corte Constitucional en donde el alto &oacute;rgano jurisdiccional declar&oacute; la constitucionalidad condicionada del art&iacute;culo 10 de la Ley 1607 de 2012, bajo el entendido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31633-2015",
+      "tipo": "oficio",
+      "numero": "31633",
+      "fecha": "2015-11-04",
+      "tema": "&iquest;Es posible detraer en la determinaci&oacute;n de la Renta Gravable Alternativa del Impuesto M&iacute;nimo Alternativo Nacional (IMAN) para personas naturales empleados, lo contenido en el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27288-2015",
+      "tipo": "oficio",
+      "numero": "27288",
+      "fecha": "2015-09-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25526-2015",
+      "tipo": "oficio",
+      "numero": "25526",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Una persona natural que recibe ingresos equivalentes al 78% por concepto de prestaci&oacute;n de servicios de manera personal y 22% por concepto de comisi&oacute;n por venta de software a qu&eacute; categor&iacute;a para definir el impuesto sobre la renta pertenece?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24178-2015",
+      "tipo": "oficio",
+      "numero": "24178",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Se debe efectuar un estudio sobre las funciones, activos, riesgos y personal involucrados en la obtenci&oacute;n de las rentas y de las ganancias ocasionales atribuidos a ellos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20779-2015",
+      "tipo": "oficio",
+      "numero": "20779",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7201-2015",
+      "tipo": "oficio",
+      "numero": "7201",
+      "fecha": "2015-03-06",
+      "tema": "Inquietudes en relaci&oacute;n con el Concepto 885 de julio 31 de 2014 y el Oficio n&uacute;mero 648 de julio 28 de 2014 - Declaraci&oacute;n del Impuesto sobre la renta - Personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6240-2015",
+      "tipo": "oficio",
+      "numero": "6240",
+      "fecha": "2015-02-27",
+      "tema": "Se plantea si el empleado al momento de realizar la determinaci&oacute;n de su impuesto a trav&eacute;s del Sistema M&iacute;nimo Alternativo IMAS-(Formulario 230), puede descontar las cesant&iacute;as que le entrega directamente su empleador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1813-2015",
+      "tipo": "oficio",
+      "numero": "1813",
+      "fecha": "2015-01-26",
+      "tema": "&iquest;Seg&uacute;n el inciso 2o del art&iacute;culo 57-2, las empresas que realicen pagos a sus empleados que retribuyan la labor relacionada con proyectos calificados por el Consejo Nacional de Beneficios Tributarios como de investigaci&oacute;n o desarrollo tecnol&oacute;gico, podr&aacute;n considerarlos como ingresos no constitutivos de renta ni ganancia ocasional y por tanto no someterlos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1812-2015",
+      "tipo": "oficio",
+      "numero": "1812",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento de las cesant&iacute;as que fueron percibidas directamente por el empleador, conforme al r&eacute;gimen anterior a la Ley 50 de 1990, para la determinaci&oacute;n de la Renta Gravable Alternativa de los trabajadores que pertenecen al R&eacute;gimen Tradicional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-0738-2015",
+      "tipo": "oficio",
+      "numero": "0738",
+      "fecha": "2015-06-03",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0321-2015",
+      "tipo": "oficio",
+      "numero": "0321",
+      "fecha": "2015-01-06",
+      "tema": "&iquest;El beneficio tributario consagrado en el numeral 1 del art&iacute;culo 206 del Estatuto Tributario, aplica tanto para las indemnizaciones como para las incapacidades reconocidas por accidentes laborales o enfermedades, independientemente que la entidad que reconoce el pago sea una EPS o ARL? - &iquest;Puede disminuirse la base de retenci&oacute;n en la fuente por salarios con la renta exenta de que trata el numeral 1 del art&iacute;culo 206 del Estatuto Tributario, cuando se trate de trabajadores declarantes de renta, cuya retenci&oacute;n en la fuente deba determinarse por el IMAN, independientemente que quien reconozca el pago a ser considerado como renta exenta sea la EPS o una ARL?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67071-2014",
+      "tipo": "oficio",
+      "numero": "67071",
+      "fecha": "2014-01-01",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a personas naturales que prestan el servicio de transporte de carretera y los requisitos para deducir en el impuesto de renta los gastos en que incurre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64367-2014",
+      "tipo": "oficio",
+      "numero": "64367",
+      "fecha": "2014-11-27",
+      "tema": "Impuesto m&iacute;nimo alternativo nacional - IMAN Costos y Deducciones - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61157-2014",
+      "tipo": "oficio",
+      "numero": "61157",
+      "fecha": "2014-10-30",
+      "tema": "&iquest;Qu&eacute; diferencia existe jur&iacute;dicamente entre la Renta gravable alternativa y la renta l&iacute;quida ordinaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58318-2014",
+      "tipo": "oficio",
+      "numero": "58318",
+      "fecha": "2014-10-03",
+      "tema": "Impuesto M&iacute;nimo Alternativo Nacional - IMAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54960-2014",
+      "tipo": "oficio",
+      "numero": "54960",
+      "fecha": "2014-09-16",
+      "tema": "Posibilidad para aquellas personas naturales, que pertenezcan a la categor&iacute;a tributaria de empleado, de presentar su declaraci&oacute;n y pagar su impuesto sobre la renta y complementarios bajo el sistema IMAS cuando su Renta Gravable Alternativa (en adelante RGA) sea inferior a 1.548 UVT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50282-2014",
+      "tipo": "oficio",
+      "numero": "50282",
+      "fecha": "2014-08-20",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 45740 del 24 de julio de 2013, en el cual se concluy&oacute; que el art&iacute;culo 5o del Decreto Reglamentario 3750 de 1986 no aplica para efectos de la retenci&oacute;n en la fuente m&iacute;nima de que trata el art&iacute;culo 384 del Estatuto Tributario y por consecuencia los pagos por educaci&oacute;n y salud se entienden como pagos indirectos que forman parte de la base de la retenci&oacute;n m&iacute;nima, de la cual solo se pueden detraer los aportes al sistema de seguridad social a cargo del trabajador",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049178-2014",
+      "tipo": "concepto",
+      "numero": "0049178",
+      "fecha": "2014-08-14",
+      "tema": "&iquest;Es posible aplicar la exenci&oacute;n de que trata el art&iacute;culo 27 de la Ley 488 de 1998 sobre las bonificaciones y-o indemnizaciones que reciban los empleados de una empresa de servicios p&uacute;blicos mixta en programas de retiro de personal, al realizar la depuraci&oacute;n del impuesto de renta tanto por el sistema ordinario como por el Impuesto M&iacute;nimo Alternativo Nacional -IMAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45542-2014",
+      "tipo": "oficio",
+      "numero": "45542",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Retenci&oacute;n en la fuente - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41872-2014",
+      "tipo": "oficio",
+      "numero": "41872",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen del impuesto sobre la renta en el que se clasifican los Curadores Urbanos y en consecuencia cual sistema de determinaci&oacute;n les es aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39503-2014",
+      "tipo": "oficio",
+      "numero": "39503",
+      "fecha": "2014-07-04",
+      "tema": "Incentivos fiscales que existen para el sector salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30274-2014",
+      "tipo": "oficio",
+      "numero": "30274",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa por el Sistema IMAN se deben tener en cuenta los factores se&ntilde;alados en el art&iacute;culo 2&deg; del Decreto 1070 de 2013, para establecer la retenci&oacute;n en la fuente en la categor&iacute;a de empleados?&iquest;La deducci&oacute;n por dependientes se debe solicitar solo por los meses en que existi&oacute; esa relaci&oacute;n de dependencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13196-2014",
+      "tipo": "oficio",
+      "numero": "13196",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Para efectos de determinar la base de c&aacute;lculo de la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario, cuales deducciones son procedentes?&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa se puede detraer la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11352-2014",
+      "tipo": "oficio",
+      "numero": "11352",
+      "fecha": "2014-11-12",
+      "tema": "Solicita se resuelvan problemas jur&iacute;dicos en relaci&oacute;n con el Concepto n&uacute;mero 885 del 31 de julio de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11170-2014",
+      "tipo": "oficio",
+      "numero": "11170",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las primas de los servidores p&uacute;blicos o empleados privados, legales y extralegales, hacen parte del ingreso bruto gravable por el IMAN para personas naturales empleadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1113-2014",
+      "tipo": "oficio",
+      "numero": "1113",
+      "fecha": "2014-01-13",
+      "tema": "&iquest;Una renta de trabajo exenta de las establecidas en el art&iacute;culo 206 del Estatuto Tributario, que no se encuentre se&ntilde;alada expresamente como factor de depuraci&oacute;n en la determinaci&oacute;n de la base gravable del Impuesto M&iacute;nimo Alternativo Nacional- IMAN., puede restarse de la base gravable de este sistema?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0004-2014",
+      "tipo": "oficio",
+      "numero": "0004",
+      "fecha": "2014-01-13",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71636-2013",
+      "tipo": "oficio",
+      "numero": "71636",
+      "fecha": "2013-11-08",
+      "tema": "&iquest;La exenci&oacute;n contemplada cubre los ingresos pactados como no constitutivos de salario, as&iacute; como otros pagos que se reciban que no hacen parte de ese salario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45740-2013",
+      "tipo": "oficio",
+      "numero": "45740",
+      "fecha": "2013-07-24",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 22872 del 19 de abril de 2013, en el sentido de que se se&ntilde;ale que para efectos de la retenci&oacute;n en la fuente m&iacute;nima de los empleados, solo se tenga en cuenta del plan educacional la parte que exceda del promedio que el empleador reconoce al com&uacute;n de sus trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32672-2013",
+      "tipo": "oficio",
+      "numero": "32672",
+      "fecha": "2013-05-29",
+      "tema": "Solicita aclaraci&oacute;n sobre la base gravable de liquidaci&oacute;n del Impuesto M&iacute;nimo Alternativo Nacional (IMAN) para empleados y explicaci&oacute;n sobre el alcance del literal i) del art&iacute;culo 332 del Estatuto Tributario para los colombianos catalogados como oficiales de la reserva de segunda clase de la Fuerza A&eacute;rea y oficiales de la reserva de primera y segunda clase de las Fuerzas Militares cobijados por el Decreto 672 de 1965, 1790 de 2000 y 1428 de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18090-2013",
+      "tipo": "oficio",
+      "numero": "18090",
+      "fecha": "2013-03-27",
+      "tema": "&iquest;C&oacute;mo se calcula el Impuesto M&iacute;nimo Alternativo Nacional (IMAN), para los colombianos catalogados como reservistas de la Fuerza A&eacute;rea, cobijados por el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68042-2007",
+      "tipo": "oficio",
+      "numero": "68042",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;El valor de las reservas detectado el a&ntilde;o anterior por una empresa explotadora de carb&oacute;n, y que no se encuentra registrado en la contabilidad, puede ser activado fiscal y contablemente con el fin de reconocer en los estados financieros el valor patrimonial y el costo por agotamiento la mina y su deducci&oacute;n fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7522-2007",
+      "tipo": "oficio",
+      "numero": "7522",
+      "fecha": "2007-02-01",
+      "tema": "El ajuste por inflaci&oacute;n de la depreciaci&oacute;n acumulada fiscal en exceso sobre la contable, est&aacute; sometido a la condici&oacute;n restrictiva contemplada en el art&iacute;culo 130 del Estatuto Tributario.Legislaci{on vigente antes de la Ley 1111 de 2006 que derog&oacute; el sistema integral de ajustes por inflaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052245-2006",
+      "tipo": "concepto",
+      "numero": "0052245",
+      "fecha": "2006-06-20",
+      "tema": "&iquest;Con fundamento en el numeral 7&ordm; del art&iacute;culo 8&ordm; del Decreto 2075 de 1992, modificado por el art&iacute;culo 4&ordm; del Decreto 2591 de 1993; el valor patrimonial por el cual se deben declarar las acciones o aportes en sociedades es el valor intr&iacute;nseco o el valor en bolsa cuando &eacute;stos son inferiores al costo por el PAAG?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070755-2005",
+      "tipo": "concepto",
+      "numero": "0070755",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se determina la renta exenta de las empresas que se acogieron al beneficio de la Ley P&aacute;ez, cuando el t&eacute;rmino de los 10 a&ntilde;os que trata el art&igrave;culo 2 de la Ley 218 de 1995 y el art&iacute;culo 15 del Decreto 529 de 1996 finaliza antes del 31 de diciembre del a&ntilde;o gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061188-2005",
+      "tipo": "concepto",
+      "numero": "0061188",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es v&aacute;lido entender que el numeral 6 del art&iacute;culo 332 del estatuto tributario fue t&aacute;citamente derogado por el art&iacute;culo 4&ordm; de la ley 174 de 1994 (norma posterior) que expresamente modific&oacute; el art&iacute;culo 72 del mismo estatuto, autorizando tomar como costo fiscal de los inmuebles que constituyan activos fijos del contribuyente el valor del aval&uacute;o catastral o el autoeval&uacute;o declarado para los fines del impuesto predial unificado?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0055691-2005",
+      "tipo": "concepto",
+      "numero": "0055691",
+      "fecha": "2005-08-16",
+      "tema": "&iquest;Es amortizable el valor de las inversiones infructuosas efectuadas desde 1992 en un proyecto de exploraci&oacute;n minera que, al momento de la entrada en vigencia de la ley 685 de 2001, no hab&iacute;a entrado en etapa de producci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89041-2004",
+      "tipo": "oficio",
+      "numero": "89041",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;El pago por regal&iacute;as que acredita el exportador de esmeraldas al realizar la exportaci&oacute;n es deducible en el impuesto de renta, bajo los enunciados de los art&iacute;culos 107, 115 y 116 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085083-2004",
+      "tipo": "concepto",
+      "numero": "0085083",
+      "fecha": "2004-12-02",
+      "tema": "&iquest;Las adiciones, mejoras o reparaciones locativas no deducidas, incrementan el costo fiscal de un inmueble para efectos de determinar la al&iacute;cuota para depreciaci&oacute;n dentro del t&eacute;rmino que falta para depreciar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032965-2004",
+      "tipo": "concepto",
+      "numero": "0032965",
+      "fecha": "2004-05-28",
+      "tema": "Cuando se aportan bienes para capitalizar una sociedad y se reciben a cambio acciones de &eacute;sta, &iquest;no se genera renta gravable para el aportante cuando el valor intr&iacute;nseco de las acciones emitidas es igual al aval&uacute;o comercial de los bienes aportados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077915-2002",
+      "tipo": "concepto",
+      "numero": "0077915",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Son deducibles las amortizaciones de los costos de intangibles que deban suprimirse de los estados financieros por disposici&oacute;n del organismo que contra&iacute;a a su titular, en el mismo a&ntilde;o en que deban suprimirse?&iquest;Existe diferencia en el tratamiento fiscal del costo de adquisici&oacute;n de un bien intangible y el de sus valorizaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068081-1998",
+      "tipo": "concepto",
+      "numero": "0068081",
+      "fecha": "1998-08-31",
+      "tema": "&iquest;Se deben restar las valorizaciones de inmuebles por exceso o diferencia entre el aval&uacute;o catastral o el costo fiscal del bien ajustado por el PAAG para depurar la base para determinar la renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057302-1998",
+      "tipo": "concepto",
+      "numero": "0057302",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Para efectos fiscales como se establece el costo fiscal de las acciones y aportes en sociedades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024005-1996",
+      "tipo": "concepto",
+      "numero": "0024005",
+      "fecha": "1996-03-15",
+      "tema": "patrimonial contable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022155-1996",
+      "tipo": "concepto",
+      "numero": "0022155",
+      "fecha": "1996-05-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007629-1996",
+      "tipo": "concepto",
+      "numero": "0007629",
+      "fecha": "1996-02-07",
+      "tema": "&iquest;C&oacute;mo se determina la depreciaci&oacute;n de un bien sometido a turnos adicionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021235-1989",
+      "tipo": "concepto",
+      "numero": "0021235",
+      "fecha": "1989-01-01",
+      "tema": "&iquest;que debe entenderse por valor patrimonial de los bienes adquiridos antes de 1992?",
+      "vigente": true
+    }
+  ]
+}

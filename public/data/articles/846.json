@@ -1,1 +1,104 @@
-{"id_articulo": "Art. 846", "titulo": "Art. 846. En otros procesos.", "titulo_corto": "En otros procesos.", "slug": "846", "url_origen": "https://estatuto.co/846", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "En los procesos de concurso de acreedores, de quiebra, de intervención, de liquidación judicial o administrativa, el Juez o funcionario informará dentro de los diez (10) días siguientes a la solicitud o al acto que inicie el proceso, a la oficina de cobranzas de la Administración del lugar que le corresponda, con el fin de que ésta se haga parte en el proceso y haga valer las deudas fiscales de plazo vencido, y las que surjan hasta el momento de la liquidación o terminación del respectivo proceso. Para este efecto, los jueces o funcionarios deberán respetar la prelación de los créditos fiscales señalada en la ley, al proceder a la cancelación de los pasivos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los procesos de <em>concurso de acreedores</em>, <span style=\"color: #339966;\"><del>de quiebra</del></span>, de intervención, de liquidación judicial o administrativa, el Juez o funcionario informará dentro de los diez (10) días siguientes a la solicitud o al acto que inicie el proceso, a la oficina de cobranzas de la Administración del lugar que le corresponda, con el fin de que ésta se haga parte en el proceso y haga valer las deudas fiscales de plazo vencido, y las que surjan hasta el momento de la liquidación o terminación del respectivo proceso. Para este efecto, los jueces o funcionarios deberán respetar la prelación de los créditos fiscales señalada en la ley, al proceder a la cancelación de los pasivos.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": ["de quiebra"], "texto_derogado_parsed": [{"index": 0, "snippet": "de quiebra", "full_length": 10}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": ["El Título II del Libro Sexto del Código de Comercio, que trata del concepto de quiebra, fue derogado expresa e íntegramente por el artículo 242 de la Ley 222 de 1995, publicada en el Diario Oficial No. 42.156 del 20 de diciembre de 1995."], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 846",
+  "titulo": "Art. 846. En otros procesos.",
+  "titulo_corto": "En otros procesos.",
+  "slug": "846",
+  "url_origen": "https://estatuto.co/846",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "En los procesos de concurso de acreedores, de quiebra, de intervención, de liquidación judicial o administrativa, el Juez o funcionario informará dentro de los diez (10) días siguientes a la solicitud o al acto que inicie el proceso, a la oficina de cobranzas de la Administración del lugar que le corresponda, con el fin de que ésta se haga parte en el proceso y haga valer las deudas fiscales de plazo vencido, y las que surjan hasta el momento de la liquidación o terminación del respectivo proceso. Para este efecto, los jueces o funcionarios deberán respetar la prelación de los créditos fiscales señalada en la ley, al proceder a la cancelación de los pasivos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los procesos de <em>concurso de acreedores</em>, <span style=\"color: #339966;\"><del>de quiebra</del></span>, de intervención, de liquidación judicial o administrativa, el Juez o funcionario informará dentro de los diez (10) días siguientes a la solicitud o al acto que inicie el proceso, a la oficina de cobranzas de la Administración del lugar que le corresponda, con el fin de que ésta se haga parte en el proceso y haga valer las deudas fiscales de plazo vencido, y las que surjan hasta el momento de la liquidación o terminación del respectivo proceso. Para este efecto, los jueces o funcionarios deberán respetar la prelación de los créditos fiscales señalada en la ley, al proceder a la cancelación de los pasivos.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [
+    "de quiebra"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "de quiebra",
+      "full_length": 10
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [
+      "El Título II del Libro Sexto del Código de Comercio, que trata del concepto de quiebra, fue derogado expresa e íntegramente por el artículo 242 de la Ley 222 de 1995, publicada en el Diario Oficial No. 42.156 del 20 de diciembre de 1995."
+    ],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13277 (2025-09-30): Procedimiento Tributario\noficio 9093 (2024-11-22): Procedimiento Tributario\noficio 3778 (2023-06-29): (Int 731) Procedimiento tributario - Cobro administrativo coactivo - Rretenciones en la fuente pendientes de pago al fisco y practicadas por las Entidades Promotoras de Salud que se encuentran en liquidaci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13277-2025",
+      "tipo": "oficio",
+      "numero": "13277",
+      "fecha": "2025-09-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9093-2024",
+      "tipo": "oficio",
+      "numero": "9093",
+      "fecha": "2024-11-22",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3778-2023",
+      "tipo": "oficio",
+      "numero": "3778",
+      "fecha": "2023-06-29",
+      "tema": "(Int 731) Procedimiento tributario - Cobro administrativo coactivo - Rretenciones en la fuente pendientes de pago al fisco y practicadas por las Entidades Promotoras de Salud que se encuentran en liquidaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19638-2019",
+      "tipo": "oficio",
+      "numero": "19638",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Es aplicable o no a la DIAN lo dispuesto en el art&iacute;culo 66 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0105928-2009",
+      "tipo": "concepto",
+      "numero": "0105928",
+      "fecha": "2009-12-24",
+      "tema": "&iquest;En el marco de la Ley 1116 de 2006, para el acuerdo extrajudicial de reorganizaci&oacute;n, pueden otorgarse facilidades de pago que incluyan obligaciones vencidas por concepto de retenci&oacute;n en la fuente, con plazos mayores a los contemplados por el Estatuto Tributario y qu&eacute; sucede con las retenciones en la fuente causadas durante el proceso de reorganizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056418-2005",
+      "tipo": "concepto",
+      "numero": "0056418",
+      "fecha": "2005-08-18",
+      "tema": "&iquest;Pueden aplicarse causales de interrupci&oacute;n del t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro diferentes a las consagradas en el art&iacute;culo 818 del estatuto tributario?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

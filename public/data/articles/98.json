@@ -1,1 +1,307 @@
-{"id_articulo": "Art. 98", "titulo": "Art. 98. Reserva matemática y reserva técnica.", "titulo_corto": "Reserva matemática y reserva técnica.", "slug": "98", "url_origen": "https://estatuto.co/98", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Por reserva matemática se entiende la fijada por las compañías de seguros de vida y por las de capitalización, y no puede exceder los límites establecidos, en cada caso, por la Superintendencia Bancaria. Por reserva técnica se entiende la fijada por las compañías de seguros generales y no puede exceder del porcentaje de las primas netas recibidas en el año o período gravable menos el valor de los reaseguros cedidos, ni de los límites fijados por la ley. Parágrafo. Las compañías de seguros o de capitalización deben conservar copia auténtica de la tabla numérica prescrita por la Superintendencia Bancaria que sirvió para computar la reserva matemática o técnica del respectivo año o período gravable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Por reserva matemática se entiende la fijada por las compañías de seguros de vida y por las de capitalización, y no puede exceder los límites establecidos, en cada caso, por la Superintendencia Bancaria.<br/>\nPor reserva técnica se entiende la fijada por las compañías de seguros generales y no puede exceder del porcentaje de las primas netas recibidas en el año o período gravable menos el valor de los reaseguros cedidos, ni de los límites fijados por la ley.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo.</span> </span></strong> Las compañías de seguros o de capitalización deben conservar copia auténtica de la tabla numérica prescrita por la Superintendencia Bancaria que sirvió para computar la reserva matemática o técnica del respectivo año o período gravable.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["59", "105"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 98",
+  "titulo": "Art. 98. Reserva matemática y reserva técnica.",
+  "titulo_corto": "Reserva matemática y reserva técnica.",
+  "slug": "98",
+  "url_origen": "https://estatuto.co/98",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Por reserva matemática se entiende la fijada por las compañías de seguros de vida y por las de capitalización, y no puede exceder los límites establecidos, en cada caso, por la Superintendencia Bancaria. Por reserva técnica se entiende la fijada por las compañías de seguros generales y no puede exceder del porcentaje de las primas netas recibidas en el año o período gravable menos el valor de los reaseguros cedidos, ni de los límites fijados por la ley. Parágrafo. Las compañías de seguros o de capitalización deben conservar copia auténtica de la tabla numérica prescrita por la Superintendencia Bancaria que sirvió para computar la reserva matemática o técnica del respectivo año o período gravable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Por reserva matemática se entiende la fijada por las compañías de seguros de vida y por las de capitalización, y no puede exceder los límites establecidos, en cada caso, por la Superintendencia Bancaria.<br/>\nPor reserva técnica se entiende la fijada por las compañías de seguros generales y no puede exceder del porcentaje de las primas netas recibidas en el año o período gravable menos el valor de los reaseguros cedidos, ni de los límites fijados por la ley.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo.</span> </span></strong> Las compañías de seguros o de capitalización deben conservar copia auténtica de la tabla numérica prescrita por la Superintendencia Bancaria que sirvió para computar la reserva matemática o técnica del respectivo año o período gravable.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "59",
+    "105"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 13 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1040 (2026-01-23): Impuesto sobre la Renta y Complementarios\noficio 4669 (2025-04-11): Impuesto sobre la Renta y Complementarios\noficio 902345 (2022-03-23): Impuesto sobre la renta - Servicios funerarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1040-2026",
+      "tipo": "oficio",
+      "numero": "1040",
+      "fecha": "2026-01-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4669-2025",
+      "tipo": "oficio",
+      "numero": "4669",
+      "fecha": "2025-04-11",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902345-2022",
+      "tipo": "oficio",
+      "numero": "902345",
+      "fecha": "2022-03-23",
+      "tema": "Impuesto sobre la renta - Servicios funerarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901716-2021",
+      "tipo": "oficio",
+      "numero": "901716",
+      "fecha": "2021-03-04",
+      "tema": "Posibilidad de deducir en el a&ntilde;o gravable 2020 los pagos por vacaciones anticipadas de los a&ntilde;os 2021 y 2022 que fueron objeto de aportes al sistema de protecci&oacute;n social y retenci&oacute;n en la fuente por ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907762-2020",
+      "tipo": "oficio",
+      "numero": "907762",
+      "fecha": "2020-12-02",
+      "tema": "Deducciones por salarios y aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7610-2019",
+      "tipo": "oficio",
+      "numero": "7610",
+      "fecha": "2019-03-27",
+      "tema": "Bajo normas internacionales NIIF es aplicable el registro del ingreso sin factura en el periodo 2018, donde tambi&eacute;n quedaron registrados los costos asociados estos ingresos?&iquest;Fiscalmente debo reconocer los costos en renta y no debo reconocer el ingreso que no se factur&oacute;, s&oacute;lo est&aacute; reconocido para NIIF y s&oacute;lo reconocerlo en renta en el a&ntilde;o 2019?&iquest;Los impuestos de estos ingresos registrados sin factura en el per&iacute;odo 2018 (IVA y Rte. f&iacute;e.), se deben reconocer &uacute;nicamente en el siguiente per&iacute;odo donde se emite la factura f&iacute;sica, es decir en el a&ntilde;o 2019?&iquest;Si es aceptable un informe financiero que difiere del fiscal, como ser&iacute;a el tratamiento para medios magn&eacute;ticos, debo informarlo s&oacute;lo en el siguiente per&iacute;odo 2019 cuando esta la factura legal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1829-2018",
+      "tipo": "oficio",
+      "numero": "1829",
+      "fecha": "2018-10-17",
+      "tema": "Contratos por servicios de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20526-2017",
+      "tipo": "oficio",
+      "numero": "20526",
+      "fecha": "2017-08-02",
+      "tema": "Deducci&oacute;n por inversi&oacute;n en centros de reclusi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8770-2017",
+      "tipo": "oficio",
+      "numero": "8770",
+      "fecha": "2017-04-17",
+      "tema": "Manejo de env&iacute;o de dinero de reaseguros del exterior (reglas de impuestos) - Dividendos: restricciones e impuestos para el pago de Dividendos a accionistas del exterior - Impuestos en general relacionados a seguros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2037-2017",
+      "tipo": "oficio",
+      "numero": "2037",
+      "fecha": "2017-12-29",
+      "tema": "&iquest;Es deducible el deterioro de activos no inventariados que han sufrido obsolescencia, en la declaraci&oacute;n de renta de un contribuyente persona jur&iacute;dica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14973-2016",
+      "tipo": "oficio",
+      "numero": "14973",
+      "fecha": "2016-06-14",
+      "tema": "Fondo regional de garant&iacute;as que ofrece aval a aquellas personas que no pueden contar con un fiador y que al acceder al cr&eacute;dito de entidades financieras se les exige una garant&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60442-2014",
+      "tipo": "oficio",
+      "numero": "60442",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;Como liquidador de una sociedad, al recibir una indemnizaci&oacute;n a nombre debe la misma debe pagar alg&uacute;n gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080768-2013",
+      "tipo": "concepto",
+      "numero": "0080768",
+      "fecha": "2013-12-17",
+      "tema": "&iquest;La reorganizaci&oacute;n de empresas que comporta fusi&oacute;n por absorci&oacute;n que una sociedad subordinada hace de su matriz que a la vez es accionista mayoritaria de la absorbente, para efectos tributarios constituye enajenaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73236-2013",
+      "tipo": "oficio",
+      "numero": "73236",
+      "fecha": "2013-11-18",
+      "tema": "R&eacute;gimen tributario aplicable a las reorganizaciones empresariales gravadas, las no gravadas, los aportes a sociedades",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070848-2013",
+      "tipo": "concepto",
+      "numero": "0070848",
+      "fecha": "2013-01-01",
+      "tema": "&iquest;En el caso de fusi&oacute;n de sociedades, es exigible el requisito de participaci&oacute;n accionaria establecido en el literal a) del art&iacute;culo 319-6 del Estatuto Tributario, respecto de una sociedad que a t&iacute;tulo propio, es soda de la otra con quien se fusiona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80676-2007",
+      "tipo": "oficio",
+      "numero": "80676",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Si los recursos con los cuales las EPS est&aacute;n en la obligaci&oacute;n de constituir las reservas t&eacute;cnicas para la financiaci&oacute;n de los servicios del Plan Obligatorio de Salud - POS, son deducibles para la determinaci&oacute;n del Impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044607-2006",
+      "tipo": "concepto",
+      "numero": "0044607",
+      "fecha": "2006-05-26",
+      "tema": "&iquest;Cu&aacute;ndo se entiende realizado, para todos los efectos tributarios, el ingreso por la venta de bienes corporales muebles que se exportan, en la fecha de emisi&oacute;n de la factura o documento equivalente, o en la fecha del documento de exportaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7757-2006",
+      "tipo": "oficio",
+      "numero": "7757",
+      "fecha": "2006-01-26",
+      "tema": "&iquest;Es procedente solicitar como deducci&oacute;n en el periodo gravable 2005 el costo estimado de una venta, teniendo en cuenta que la mercanc&iacute;a ser&aacute; entregada por el vendedor al comprador en el periodo gravable 2006 y que s&oacute;lo cuando se realice dicha entrega se puede liquidar el costo efectivo de la operaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096520-2000",
+      "tipo": "concepto",
+      "numero": "0096520",
+      "fecha": "2000-10-04",
+      "tema": "&iquest;La disposici&oacute;n de recursos en la cuenta de dep&oacute;sito del Banco de la Rep&uacute;blica se encuentra sometida al gravamen del dos por mil? &iquest;Se causa el impuesto a las transacciones financieras en los desembolsos de cr&eacute;ditos a no vigilados por las Superintendencias Bancaria o de Valores, realizados a trav&eacute;s de las cuentas de dep&oacute;sito del Banco de la Rep&uacute;blica? &iquest;Causa el impuesto a las transacciones financieras el pago de capital e intereses de certificados de dep&oacute;sito a t&eacute;rmino o de bonos a personas o entidades no vigilados por las Superintendencias Bancaria o de Valores, realizados a trav&eacute;s de del dep&oacute;sito centralizado de valores y a trav&eacute;s de la cuenta de dep&oacute;sito del Banco de la Rep&uacute;blica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096199-2000",
+      "tipo": "concepto",
+      "numero": "0096199",
+      "fecha": "2000-10-03",
+      "tema": "&iquest;Se consulta si el Banco de la Rep&uacute;blica puede ser considerado como sujeto pasivo del impuesto a las transacciones financieras, bajo el r&eacute;gimen de decretos 955 y 966 de 2.000?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011577-1994",
+      "tipo": "concepto",
+      "numero": "0011577",
+      "fecha": "1994-03-08",
+      "tema": "El ingreso no constitutivo de renta ni de ganancia ocasional, recibido por una sociedad, diferente a dividendos y participaciones, se puede distribuir a los socios conservando su naturaleza de ingreso no gravado? Para los socios que reciban unas acciones producto de la capitalizaci&oacute;n de la cuenta de revalorizaci&oacute;n del patrimonio, lo recibido constituye un super&aacute;vit, un ingreso no constitutivo de renta ni de ganancia ocasional?, c&oacute;mo declara el socio tales acciones? Y c&oacute;mo los contabiliza?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-477-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "477",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    }
+  ]
+}

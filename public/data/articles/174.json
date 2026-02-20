@@ -1,1 +1,343 @@
-{"id_articulo": "Art. 174", "titulo": "Art. 174. Deducción por sumas pagadas como renta vitalicia.", "titulo_corto": "Deducción por sumas pagadas como renta vitalicia.", "slug": "174", "url_origen": "https://estatuto.co/174", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, son deducibles en la forma prevista en el artículo 101.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, son deducibles en la forma prevista en el <a href=\"https://estatuto.co/101\" rel=\"noopener\" target=\"_blank\">artículo 101</a>.</span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["101"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 174",
+  "titulo": "Art. 174. Deducción por sumas pagadas como renta vitalicia.",
+  "titulo_corto": "Deducción por sumas pagadas como renta vitalicia.",
+  "slug": "174",
+  "url_origen": "https://estatuto.co/174",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, son deducibles en la forma prevista en el artículo 101.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, son deducibles en la forma prevista en el <a href=\"https://estatuto.co/101\" rel=\"noopener\" target=\"_blank\">artículo 101</a>.</span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "101"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 10623 (2024-12-18): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-10623-2024",
+      "tipo": "oficio",
+      "numero": "10623",
+      "fecha": "2024-12-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1699-2019",
+      "tipo": "oficio",
+      "numero": "1699",
+      "fecha": "2019-07-29",
+      "tema": "(Int 1699) Aplicaci&oacute;n del beneficio tributario consagrado en el art&iacute;culo 11 de la Ley 1715 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0355-2018",
+      "tipo": "oficio",
+      "numero": "0355",
+      "fecha": "2018-03-15",
+      "tema": "Exclusi&oacute;n Temporal del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1876-2017",
+      "tipo": "oficio",
+      "numero": "1876",
+      "fecha": "2017-04-03",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas &iquest;En el contexto del art&iacute;culo 153 de la Ley 1819 de 2016 el contenido aplica a las entidades no contribuyentes se&ntilde;aladas en el art&iacute;culo 23 del Estatuto Tributario, espec&iacute;ficamente para las entidades contempladas en el numeral 3) del art&iacute;culo 19, cuando no realicen actividades industriales o de mercadeo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24445-2015",
+      "tipo": "oficio",
+      "numero": "24445",
+      "fecha": "2015-08-24",
+      "tema": "&iquest;Una sociedad por acciones simplificada, en reorganizaci&oacute;n, que se acogi&oacute; a la Ley 1116 de 2006 en el a&ntilde;o 2014 por encontrarse en esa condici&oacute;n se encuentra exonerada del pago del impuesto sobre la renta para la equidad - CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50270-2014",
+      "tipo": "oficio",
+      "numero": "50270",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;C&oacute;mo opera la deducci&oacute;n de la provisi&oacute;n para el pago de futuras pensiones prevista en los art&iacute;culos 112 y 113 del Estatuto Tributario, para efectos de la depuraci&oacute;n de la base gravable del impuesto sobre la renta para la equidad - CREE para el periodo gravable 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14904-2014",
+      "tipo": "oficio",
+      "numero": "14904",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto sobre la renta para la equidad- CREE - Pago o abono en cuenta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2385-2014",
+      "tipo": "oficio",
+      "numero": "2385",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1660-2014",
+      "tipo": "oficio",
+      "numero": "1660",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1656-2014",
+      "tipo": "oficio",
+      "numero": "1656",
+      "fecha": "2014-01-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1655-2014",
+      "tipo": "oficio",
+      "numero": "1655",
+      "fecha": "2014-01-13",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta para la equidad CREE - Expensas ordinarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45064-2013",
+      "tipo": "oficio",
+      "numero": "45064",
+      "fecha": "2013-07-22",
+      "tema": "Impuesto Nacional a la Gasolina y al ACPM - Base gravable y tarifa para el di&eacute;sel marino",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043508-2002",
+      "tipo": "concepto",
+      "numero": "0043508",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Dado que el art&iacute;culo 20 de la Ley 716 de 2001 establece que las p&eacute;;rdidas de las sociedades no son trasladables a las sociedades absorbentes o a las que resulten de una fusi&oacute;n cuando la actividad generadora de renta de la sociedad absorbida o de la fusionada sea distinta, qu&eacute; fecha debe tenerse en cuenta para dar aplicaci&oacute;n a esta nueva disposici&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-1052-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1052",
+      "year": 2001,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    }
+  ]
+}

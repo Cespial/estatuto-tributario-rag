@@ -15,6 +15,7 @@ interface ArticleIndex {
   has_normas: boolean;
   ultima_modificacion_year?: number | null;
   has_derogado_text?: boolean;
+  preview_snippet?: string;
 }
 
 interface ArticleGridProps {
@@ -44,6 +45,7 @@ export function ArticleGrid({ articles, total }: ArticleGridProps) {
             hasNormas={art.has_normas}
             ultimaModYear={art.ultima_modificacion_year}
             hasDerogadoText={art.has_derogado_text}
+            previewSnippet={art.preview_snippet}
           />
         ))}
       </div>

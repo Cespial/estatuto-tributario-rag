@@ -1,1 +1,415 @@
-{"id_articulo": "Art. 333", "titulo": "Art. 333. Base de renta presuntiva.", "titulo_corto": "Base de renta presuntiva.", "slug": "333", "url_origen": "https://estatuto.co/333", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*Para efectos de los artículos 188 y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos de los <a href=\"https://estatuto.co/188\" rel=\"noopener\" target=\"_blank\">artículos 188</a> y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 39. *Modificado Ley 1943 de 2018 Art. 31. *Modificado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "39"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "31"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Para efectos de los artículos 188 y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general."]}, "total_normas": 1, "cross_references": ["188"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 333",
+  "titulo": "Art. 333. Base de renta presuntiva.",
+  "titulo_corto": "Base de renta presuntiva.",
+  "slug": "333",
+  "url_origen": "https://estatuto.co/333",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*Para efectos de los artículos 188 y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos de los <a href=\"https://estatuto.co/188\" rel=\"noopener\" target=\"_blank\">artículos 188</a> y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 39. *Modificado Ley 1943 de 2018 Art. 31. *Modificado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "39"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "31"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Para efectos de los artículos 188 y siguientes de este Estatuto, la base de renta presuntiva del contribuyente se comparará con la renta de la cédula general."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "188"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 23 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11044 (2025-07-17): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11044-2025",
+      "tipo": "oficio",
+      "numero": "11044",
+      "fecha": "2025-07-17",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16321-2019",
+      "tipo": "oficio",
+      "numero": "16321",
+      "fecha": "2019-06-21",
+      "tema": "Principio de no confiscatoriedad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20964-2017",
+      "tipo": "oficio",
+      "numero": "20964",
+      "fecha": "2017-08-04",
+      "tema": "Monotributo - Firmeza declaraciones tributarias - R&eacute;gimen aplicable IVA - Exoneraci&oacute;n aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4979-2017",
+      "tipo": "oficio",
+      "numero": "4979",
+      "fecha": "2017-03-10",
+      "tema": "Aplicaci&oacute;n de retenci&oacute;n en la fuente por IMAS e IMAN durante la vigencia 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28750-2015",
+      "tipo": "oficio",
+      "numero": "28750",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento impositivo para ciudadanos colombianos que, por intermedio de la asesor&iacute;a de un br&oacute;ker financiero domiciliado en el exterior, invierten recursos fuera de Colombia obteniendo unas ganancias que en unos casos depositan en cuentas bancarias colombianas y en otros en cuentas bancarias extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67157-2014",
+      "tipo": "oficio",
+      "numero": "67157",
+      "fecha": "2014-12-22",
+      "tema": "Convenio para evitar la doble Imposici&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58318-2014",
+      "tipo": "oficio",
+      "numero": "58318",
+      "fecha": "2014-10-03",
+      "tema": "Impuesto M&iacute;nimo Alternativo Nacional - IMAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84596-2007",
+      "tipo": "oficio",
+      "numero": "84596",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;El obligado a obtener y acreditar la certificaci&oacute;n ISO 9001-2000, &eacute;sta obligaci&oacute;n es para el obligado a facturar, el tercero o ambos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025304-1998",
+      "tipo": "concepto",
+      "numero": "0025304",
+      "fecha": "1998-04-20",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048995-1997",
+      "tipo": "concepto",
+      "numero": "0048995",
+      "fecha": "1997-06-16",
+      "tema": "&iquest;Proceden los ajustes integrales por inflaci&oacute;n, en mercanc&iacute;as de naturaleza perecedera como las frutas en raz&oacute;n a que en vez de garantizar un mayor valor nominal conlleva con frecuencia p&eacute;rdidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047245-1997",
+      "tipo": "concepto",
+      "numero": "0047245",
+      "fecha": "1997-06-06",
+      "tema": "&iquest;Los ajustes por inflaci&oacute;n, constituyen mayor valor de costo de enajenaci&oacute;n y forman parte de la base para calcular el Impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057656-1996",
+      "tipo": "concepto",
+      "numero": "0057656",
+      "fecha": "1996-07-22",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-379-2020",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "379",
+      "year": 2020,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-385-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "385",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-541-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "541",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-153-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "153",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

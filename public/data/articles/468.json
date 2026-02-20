@@ -1,1 +1,1383 @@
-{"id_articulo": "Art. 468", "titulo": "Art. 468. Tarifa general del impuesto sobre las ventas.", "titulo_corto": "Tarifa general del impuesto sobre las ventas.", "slug": "468", "url_origen": "https://estatuto.co/468", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*La tarifa general del impuesto sobre las ventas es del diecinueve por ciento (19%) salvo las excepciones contempladas en este título A partir del año gravable 2017, del recaudo del impuesto sobre las ventas un (1) punto se destinará así: a) 0.5 puntos se destinarán a la financiación del aseguramiento en el marco del Sistema General de Seguridad Social en Salud. b) 0.5 puntos se destinarán a la financiación de la educación. El cuarenta por ciento (40%) de este recaudo se destinará a la financiación de la Educación Superior Pública. **Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La tarifa general del impuesto sobre las ventas es del diecinueve por ciento (19%) salvo las excepciones contempladas en este título</p>\n<p>A partir del año gravable 2017, del recaudo del impuesto sobre las ventas un (1) punto se destinará así:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>0.5 puntos se destinarán a la financiación del aseguramiento en el marco del Sistema General de Seguridad Social en Salud.</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>0.5 puntos se destinarán a la financiación de la educación. El cuarenta por ciento (40%) de este recaudo se destinará a la financiación de la Educación Superior Pública.</p>\n<p><span style=\"color: #339966;\"><del><strong>**Parágrafo 1</strong>.<span class=\"tachado\"> Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 184. **Derogado Ley 1943 de 2018 Art 122. Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "184"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}], "total_modificaciones": 4, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 488 de 1998", "Ley 633 de 2000"], "texto_derogado": ["**Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso."], "texto_derogado_parsed": [{"index": 0, "snippet": "**Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.", "full_length": 162}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 468",
+  "titulo": "Art. 468. Tarifa general del impuesto sobre las ventas.",
+  "titulo_corto": "Tarifa general del impuesto sobre las ventas.",
+  "slug": "468",
+  "url_origen": "https://estatuto.co/468",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*La tarifa general del impuesto sobre las ventas es del diecinueve por ciento (19%) salvo las excepciones contempladas en este título A partir del año gravable 2017, del recaudo del impuesto sobre las ventas un (1) punto se destinará así: a) 0.5 puntos se destinarán a la financiación del aseguramiento en el marco del Sistema General de Seguridad Social en Salud. b) 0.5 puntos se destinarán a la financiación de la educación. El cuarenta por ciento (40%) de este recaudo se destinará a la financiación de la Educación Superior Pública. **Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La tarifa general del impuesto sobre las ventas es del diecinueve por ciento (19%) salvo las excepciones contempladas en este título</p>\n<p>A partir del año gravable 2017, del recaudo del impuesto sobre las ventas un (1) punto se destinará así:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>0.5 puntos se destinarán a la financiación del aseguramiento en el marco del Sistema General de Seguridad Social en Salud.</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>0.5 puntos se destinarán a la financiación de la educación. El cuarenta por ciento (40%) de este recaudo se destinará a la financiación de la Educación Superior Pública.</p>\n<p><span style=\"color: #339966;\"><del><strong>**Parágrafo 1</strong>.<span class=\"tachado\"> Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 184. **Derogado Ley 1943 de 2018 Art 122. Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "184"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 4,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 488 de 1998",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [
+    "**Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "**Parágrafo 1. Los directorios telefónicos quedarán gravados a la tarifa general del impuesto sobre las ventas, únicamente cuando se transfieran a título oneroso.",
+      "full_length": 162
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 26 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1489 (2017-01-30): Primer Concepto general del impuesto a las ventas (IVA)\noficio 18044 (2025-12-29): Impuesto Sobre las Ventas - IVA\noficio 13287 (2025-10-01): Impuesto Sobre las Ventas - IVA\noficio 13129 (2025-09-29): Impuesto Sobre las Ventas - IVA\noficio 8922 (2025-07-10): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1489-2017",
+      "tipo": "oficio",
+      "numero": "1489",
+      "fecha": "2017-01-30",
+      "tema": "Primer Concepto general del impuesto a las ventas (IVA)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18044-2025",
+      "tipo": "oficio",
+      "numero": "18044",
+      "fecha": "2025-12-29",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13287-2025",
+      "tipo": "oficio",
+      "numero": "13287",
+      "fecha": "2025-10-01",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13129-2025",
+      "tipo": "oficio",
+      "numero": "13129",
+      "fecha": "2025-09-29",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8922-2025",
+      "tipo": "oficio",
+      "numero": "8922",
+      "fecha": "2025-07-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8857-2025",
+      "tipo": "oficio",
+      "numero": "8857",
+      "fecha": "2025-07-08",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7653-2025",
+      "tipo": "oficio",
+      "numero": "7653",
+      "fecha": "2025-05-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5673-2025",
+      "tipo": "oficio",
+      "numero": "5673",
+      "fecha": "2025-05-07",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3320-2025",
+      "tipo": "oficio",
+      "numero": "3320",
+      "fecha": "2025-02-24",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0207-2025",
+      "tipo": "oficio",
+      "numero": "0207",
+      "fecha": "2025-01-14",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10763-2024",
+      "tipo": "oficio",
+      "numero": "10763",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3311-2024",
+      "tipo": "oficio",
+      "numero": "3311",
+      "fecha": "2024-05-17",
+      "tema": "(Int 355) Impuesto sobre las ventas IVA - Exclusi&oacute;n - Tarifas diferenciales - Subpartida arancelaria 87.11.60.00.90",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2168-2024",
+      "tipo": "oficio",
+      "numero": "2168",
+      "fecha": "2024-04-02",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2147-2024",
+      "tipo": "oficio",
+      "numero": "2147",
+      "fecha": "2024-04-01",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908748-2022",
+      "tipo": "oficio",
+      "numero": "908748",
+      "fecha": "2022-12-09",
+      "tema": "Valor de IVA para los servicios de turismo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908591-2022",
+      "tipo": "oficio",
+      "numero": "908591",
+      "fecha": "2022-11-28",
+      "tema": "Impuesto sobre las ventas - IVA Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908081-2022",
+      "tipo": "oficio",
+      "numero": "908081",
+      "fecha": "2022-11-08",
+      "tema": "Impuesto sobre las ventas - Bienes exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906767-2022",
+      "tipo": "oficio",
+      "numero": "906767",
+      "fecha": "2022-09-08",
+      "tema": "Impuesto sobre las ventas- Hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906450-2022",
+      "tipo": "oficio",
+      "numero": "906450",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre las ventas - Bienes gravados con la tarifa del 5 por ciento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906444-2022",
+      "tipo": "oficio",
+      "numero": "906444",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre las ventas - Procedimiento tributario Sistema de facturaci&oacute;n electr&oacute;nica Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903539-2022",
+      "tipo": "oficio",
+      "numero": "903539",
+      "fecha": "2022-05-06",
+      "tema": "Tarifa del impuesto sobre las ventas - IVA, Surtidores de gas combustible vehicular",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902147-2022",
+      "tipo": "oficio",
+      "numero": "902147",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre las ventas, servicios gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912697-2021",
+      "tipo": "oficio",
+      "numero": "912697",
+      "fecha": "2021-10-10",
+      "tema": "&iquest;En los contratos celebrados con las administraciones p&uacute;blicas, el IVA recae sobre el objeto contractual o las actividades que hacen parte del objeto contractual, y en su efecto qu&eacute; tarifa se aplica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-911028-2021",
+      "tipo": "oficio",
+      "numero": "911028",
+      "fecha": "2021-10-01",
+      "tema": "Impuesto sobre las ventas - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910051-2021",
+      "tipo": "oficio",
+      "numero": "910051",
+      "fecha": "2021-09-17",
+      "tema": "Aproximaci&oacute;n de valores en las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907360-2021",
+      "tipo": "oficio",
+      "numero": "907360",
+      "fecha": "2021-07-26",
+      "tema": "Impuesto nacional al consumo - Hecho generador - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903994-2020",
+      "tipo": "oficio",
+      "numero": "903994",
+      "fecha": "2020-08-14",
+      "tema": "Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903191-2020",
+      "tipo": "oficio",
+      "numero": "903191",
+      "fecha": "2020-07-16",
+      "tema": "tratamiento tributario en la celebraci&oacute;n de un contrato para la construcci&oacute;n de libro de ofertas y colocaci&oacute;n en firme de t&iacute;tulos de tesorer&iacute;a -TES clase B, emitidos por la Naci&oacute;n, celebrado entre &eacute;sta &uacute;ltima y entidades financieras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901477-2020",
+      "tipo": "oficio",
+      "numero": "901477",
+      "fecha": "2020-05-11",
+      "tema": "Tratamiento tributario del impuesto a las ventas dentro de los contratos de suministro y otros contratos de licitaci&oacute;n p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901193-2020",
+      "tipo": "oficio",
+      "numero": "901193",
+      "fecha": "2020-04-20",
+      "tema": "Servicios integrales de aseo y cafeter&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901189-2020",
+      "tipo": "oficio",
+      "numero": "901189",
+      "fecha": "2020-04-20",
+      "tema": "Aplicaci&oacute;n del par&aacute;grafo 6 del art&iacute;culo 657 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901024-2020",
+      "tipo": "oficio",
+      "numero": "901024",
+      "fecha": "2020-04-02",
+      "tema": "Bases Gravables Especiales en la Prestaci&oacute;n de Servicios - Servicios Integrales de Aseo y cafeter&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5285-2020",
+      "tipo": "oficio",
+      "numero": "5285",
+      "fecha": "2020-03-11",
+      "tema": "IVA en la venta de gasolina y ACPM",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4383-2020",
+      "tipo": "oficio",
+      "numero": "4383",
+      "fecha": "2020-02-28",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de IVA, la tarifa de arancel y de consumo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2528-2020",
+      "tipo": "oficio",
+      "numero": "2528",
+      "fecha": "2020-02-07",
+      "tema": "Bienes Excluidos - Bienes Excluidos - Criterios para Su Determinacion",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1145-2020",
+      "tipo": "oficio",
+      "numero": "1145",
+      "fecha": "2020-01-20",
+      "tema": "Bienes Excluidos - Criterios para Su Determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0353-2020",
+      "tipo": "oficio",
+      "numero": "0353",
+      "fecha": "2020-01-01",
+      "tema": "Tarifa de IVA para (i) los triciclos de carga con valor menor a 50 UVT, (ii) para las patinetas, patines y monopatines cuando su valor exceda de 50 UVT y (iii) para los triciclos para ni&ntilde;o",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27842-2019",
+      "tipo": "oficio",
+      "numero": "27842",
+      "fecha": "2019-11-07",
+      "tema": "Contratos de Mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24705-2019",
+      "tipo": "oficio",
+      "numero": "24705",
+      "fecha": "2019-09-30",
+      "tema": "Bienes gravados a la tarifa general",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24380-2019",
+      "tipo": "oficio",
+      "numero": "24380",
+      "fecha": "2019-09-26",
+      "tema": "Pagos al Exterior Sujetos a Retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22637-2019",
+      "tipo": "oficio",
+      "numero": "22637",
+      "fecha": "2019-09-09",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20432-2019",
+      "tipo": "oficio",
+      "numero": "20432",
+      "fecha": "2019-08-15",
+      "tema": "Bienes gravados a la tarifa general",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20075-2019",
+      "tipo": "oficio",
+      "numero": "20075",
+      "fecha": "2019-08-13",
+      "tema": "&iquest;Una sociedad presta servicios de manteniendo de pisos en construcciones nuevas dej&aacute;ndolas listas para su uso puede aplicar la figura de administraci&oacute;n de imprevistos y utilidad para la facturaci&oacute;n de este tipo de servicios teniendo en cuenta la prestaci&oacute;n de servicios mencionados en los art&iacute;culos 462-1 y 468 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18659-2019",
+      "tipo": "oficio",
+      "numero": "18659",
+      "fecha": "2019-07-19",
+      "tema": "&iquest;El Instituto Geogr&aacute;fico Agust&iacute;n Codazzi (IGAC), debe facturar el Impuesto al Valor Agregado por los certificados catastrales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8714-2019",
+      "tipo": "oficio",
+      "numero": "8714",
+      "fecha": "2019-04-10",
+      "tema": "Contratos Interadministrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5832-2019",
+      "tipo": "oficio",
+      "numero": "5832",
+      "fecha": "2019-03-07",
+      "tema": "&iquest;Se causa el impuesto sobre las ventas en el pago de este contrato suscrito entre esta entidad del Orden Nacional ESE que fue adicionado antes de la vigencia de la Ley 1943 de 2018?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4761-2019",
+      "tipo": "oficio",
+      "numero": "4761",
+      "fecha": "2019-02-26",
+      "tema": "Base Gravable en Contratos de Construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901513-2018",
+      "tipo": "oficio",
+      "numero": "901513",
+      "fecha": "2018-11-29",
+      "tema": "Procedimiento para acceder al beneficio de exclusi&oacute;n del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900406-2018",
+      "tipo": "oficio",
+      "numero": "900406",
+      "fecha": "2018-11-21",
+      "tema": "&iquest;Cu&aacute;les son los efectos tributarios de la adquisici&oacute;n y suscripci&oacute;n de una garant&iacute;a &uacute;nica de cumplimiento para la ejecuci&oacute;n de un contrato estatal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33522-2018",
+      "tipo": "oficio",
+      "numero": "33522",
+      "fecha": "2018-11-19",
+      "tema": "&iquest;En el marco del Convenio de Cooperaci&oacute;n econ&oacute;mica- comercial y cient&iacute;fica - t&eacute;cnica, suscrito entre el Gobierno de Colombia y el Gobierno de la Rep&uacute;blica Federal de Rusia en 1975, los servicios de asistencia t&eacute;cnica, capacitaci&oacute;n y otros servicios t&eacute;cnicos relacionados con la capacitaci&oacute;n t&eacute;cnico - militar se encuentran gravados con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16192-2018",
+      "tipo": "oficio",
+      "numero": "16192",
+      "fecha": "2018-06-21",
+      "tema": "IVA a operadores de los Juegos de Suerte y Azar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16191-2018",
+      "tipo": "oficio",
+      "numero": "16191",
+      "fecha": "2018-06-21",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15232-2018",
+      "tipo": "oficio",
+      "numero": "15232",
+      "fecha": "2018-06-13",
+      "tema": "Tratamiento del impuesto al valor agregado IVA, en la venta de chalecos blindados por parte del Fondo Rotatorio de la Polic&iacute;a a entidades estatales, particulares y Polic&iacute;a Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14083-2018",
+      "tipo": "oficio",
+      "numero": "14083",
+      "fecha": "2018-05-30",
+      "tema": "&iquest;Cu&aacute;l es la forma de calcular la retenci&oacute;n en la fuente a t&iacute;tulo de IVA y de impuesto sobre la renta, en los servicios de ingenier&iacute;a y topograf&iacute;a prestados por empresas en desarrollo de proyectos de construcci&oacute;n de carreteras y obras de infraestructura, y en particular si aplica el IVA respecto del AIU?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8234-2018",
+      "tipo": "oficio",
+      "numero": "8234",
+      "fecha": "2018-04-02",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para calcular el impuesto sobre las Ventas y la retenci&oacute;n en la fuente, en los ingresos obtenidos por trabajos de ingenier&iacute;a y topograf&iacute;a desarrollados en proyectos de construcci&oacute;n de carreteras y obras de infraestructura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6707-2018",
+      "tipo": "oficio",
+      "numero": "6707",
+      "fecha": "2018-03-20",
+      "tema": "Aplicaci&oacute;n y facturaci&oacute;n del IVA sobre las ventas de materiales como tuber&iacute;as y medidores que hace un acueducto rural",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6512-2018",
+      "tipo": "oficio",
+      "numero": "6512",
+      "fecha": "2018-03-16",
+      "tema": "&iquest;El hecho de que el explotador minero de gravas y arenas-materiales de construcci&oacute;n- declare y pague las regal&iacute;as de Ley en boca de mina, lo exonera del IVA, cuando quiera que comercialice estos minerales? &iquest;Estuvieron las gravas y arenas resultantes de la explotaci&oacute;n minera en aluviones o canteras, que se hayan comercializado, exentas en el anterior Estatuto Tributario? Si esta no estuvieron exentas &iquest;Cu&aacute;l fue la tarifa que debieron pagar antes de la &uacute;ltima reforma tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6460-2018",
+      "tipo": "oficio",
+      "numero": "6460",
+      "fecha": "2018-03-14",
+      "tema": "Tarifa del impuesto al consumo de cigarrillos y tabaco elaborado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5282-2018",
+      "tipo": "oficio",
+      "numero": "5282",
+      "fecha": "2018-03-03",
+      "tema": "&iquest;si los contratos catering de alimentaci&oacute;n celebrados en los hospitales y en los cuales se factura la alimentaci&oacute;n al personal de la instituci&oacute;n ejemplo: internos; deben ser gravados con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2929-2018",
+      "tipo": "oficio",
+      "numero": "2929",
+      "fecha": "2018-02-07",
+      "tema": "Solicita aclaraci&oacute;n en relaci&oacute;n con el Concepto 901875 de 9 de marzo de 2017(rad. interno 00324) que se refiere al tratamiento aplicable en materia del IVA a la ven&iacute;a de materias primas y a la mano de obra que una sociedad domiciliada en territorio nacional incorpora a un bien perteneciente a un usuario industrial de bienes, el cual los ha sacado al TAN para un procesamiento parcial y ser&aacute;n reingresados a la zona franca",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0548-2018",
+      "tipo": "oficio",
+      "numero": "0548",
+      "fecha": "2018-04-24",
+      "tema": "Venta y Prestaci&oacute;n de Servicios en el Amazonas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0544-2018",
+      "tipo": "oficio",
+      "numero": "0544",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Cu&aacute;l debe ser el tratamiento del IVA de un bien que se vende a un usuario industrial de bienes y servicios de lona Franca ZF, por parte de una empresa ubicada en el Territorio Aduanero Nacional (TAN)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0441-2018",
+      "tipo": "oficio",
+      "numero": "0441",
+      "fecha": "2018-11-22",
+      "tema": "&iquest;La prestaci&oacute;n remunerada de un servicio de tecnolog&iacute;a a trav&eacute;s de una plataforma web constituye un hecho generador del impuesto al valor agregado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902081-2017",
+      "tipo": "oficio",
+      "numero": "902081",
+      "fecha": "2017-03-24",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34074-2017",
+      "tipo": "oficio",
+      "numero": "34074",
+      "fecha": "2017-12-20",
+      "tema": "Servicios gravados con la tarifa del cinco porciento (5%)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28594-2017",
+      "tipo": "oficio",
+      "numero": "28594",
+      "fecha": "2017-10-20",
+      "tema": "Juegos de suerte y azar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24690-2017",
+      "tipo": "oficio",
+      "numero": "24690",
+      "fecha": "2017-09-13",
+      "tema": "Vigencia del art&iacute;culo 462-1 del Estatuto Tributario, en donde afirma que el IVA diferenciador all&iacute; establecido es el IVA del 19% general por haber sido modificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18895-2017",
+      "tipo": "oficio",
+      "numero": "18895",
+      "fecha": "2017-07-17",
+      "tema": "Impuesto sobre las ventas sobre licores, vinos, aperitivos y similares - base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9314-2017",
+      "tipo": "oficio",
+      "numero": "9314",
+      "fecha": "2017-04-21",
+      "tema": "Tarifa del impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7390-2017",
+      "tipo": "oficio",
+      "numero": "7390",
+      "fecha": "2017-03-31",
+      "tema": "Aplicaci&oacute;n del contenido de los art&iacute;culos 192 y 193 de la Ley 1819 de 2016 y su alcance frente a las diferentes entidades del orden nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7244-2017",
+      "tipo": "oficio",
+      "numero": "7244",
+      "fecha": "2017-03-30",
+      "tema": "Inconformidad en relaci&oacute;n con el incremento de la tarifa del impuesto sobre las ventas (Art. 184 de la Ley 1819 de 2016), frente a las tarifas fijas del servicio de parqueaderos establecidas en el Decreto 550 de 2011, circunstancia que, a su modo de ver hace que el prestador del servicio, termine asumiendo el tres por ciento (3%) adicional del impuesto y no el consumidor del servicio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7082-2017",
+      "tipo": "oficio",
+      "numero": "7082",
+      "fecha": "2017-03-29",
+      "tema": "Impuesto a las ventas - Bienes Gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6883-2017",
+      "tipo": "oficio",
+      "numero": "6883",
+      "fecha": "2017-03-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6878-2017",
+      "tipo": "oficio",
+      "numero": "6878",
+      "fecha": "2017-03-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6621-2017",
+      "tipo": "oficio",
+      "numero": "6621",
+      "fecha": "2017-03-24",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6216-2017",
+      "tipo": "oficio",
+      "numero": "6216",
+      "fecha": "2017-03-21",
+      "tema": "Retenci&oacute;n en la fuente - Cambio de procedimiento &iquest;El art&iacute;culo 384 del Estatuto Tributario derogado por la ley 1819 de 2016, aplica para los meses de enero y febrero de 2017 teniendo en cuenta lo dispuesto por el par&aacute;grafo transitorio del art&iacute;culo 383 del mismo estatuto?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-6158-2017",
+      "tipo": "oficio",
+      "numero": "6158",
+      "fecha": "2017-03-21",
+      "tema": "Impuesto sobre las ventas - Bienes gravados - computadores m&aacute;s de 82 UVTs",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5870-2017",
+      "tipo": "oficio",
+      "numero": "5870",
+      "fecha": "2017-03-10",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5837-2017",
+      "tipo": "oficio",
+      "numero": "5837",
+      "fecha": "2017-03-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5829-2017",
+      "tipo": "oficio",
+      "numero": "5829",
+      "fecha": "2017-03-10",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5788-2017",
+      "tipo": "oficio",
+      "numero": "5788",
+      "fecha": "2017-03-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5315-2017",
+      "tipo": "oficio",
+      "numero": "5315",
+      "fecha": "2017-03-14",
+      "tema": "Impuesto Nacional al Consumo - &iquest;El tratamiento de los fabricantes de cerveza nacional que venden su producto sifones, qu&eacute; impuestos deben aplicar a la venta de dicha cerveza, impuesto a las ventas o impuesto al consumo? &iquest;Cu&aacute;l es la base gravable y la tarifa? &iquest;Cu&aacute;l es el periodo para presentar la declaraci&oacute;n respectiva del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5225-2017",
+      "tipo": "oficio",
+      "numero": "5225",
+      "fecha": "2017-12-19",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5215-2017",
+      "tipo": "oficio",
+      "numero": "5215",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto a las ventas &iquest; Con base en que tarifa se debe calcular lo se&ntilde;alado en el art&iacute;culo 462-1 del Estatuto Tributario con ocasi&oacute;n de la modificaci&oacute;n de la del art&iacute;culo 184 de la Ley 1819 de 2016 a la tarifa general del Impuesto sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3509-2017",
+      "tipo": "oficio",
+      "numero": "3509",
+      "fecha": "2017-05-31",
+      "tema": "Tarifa del impuesto sobre las ventas - Oferta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3290-2017",
+      "tipo": "oficio",
+      "numero": "3290",
+      "fecha": "2017-02-10",
+      "tema": "Prestaci&oacute;n del servicio de catering para efectos del Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1902-2017",
+      "tipo": "oficio",
+      "numero": "1902",
+      "fecha": "2017-03-09",
+      "tema": "Tarifa - Cambio de Legislaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1826-2017",
+      "tipo": "oficio",
+      "numero": "1826",
+      "fecha": "2017-12-12",
+      "tema": "Exenci&oacute;n en el IVA para contratos celebrados con entidades p&uacute;blicas de acuerdo al documento del Primer Concepto General de Impuestos a las ventas - Ley 1819 de 2016, emitido por la DIAN el 30 de enero de 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1727-2017",
+      "tipo": "oficio",
+      "numero": "1727",
+      "fecha": "2017-01-27",
+      "tema": "Bienes de la canasta familiar que se encuentran gravados con el IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1334-2017",
+      "tipo": "oficio",
+      "numero": "1334",
+      "fecha": "2017-01-23",
+      "tema": "Solicitar al Gobierno garantizar que la poblaci&oacute;n no sufra los abusos que los comerciantes inescrupulosos de este pa&iacute;s, que aumentan los precios de los bienes sin que haya un control efectivo sobre los mismos e igualmente se le informe sobre los bienes de la canasta familiar que se encuentran gravados con el IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28967-2016",
+      "tipo": "oficio",
+      "numero": "28967",
+      "fecha": "2016-10-18",
+      "tema": "Impuesto a las ventas - Exportaciones Exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18749-2016",
+      "tipo": "oficio",
+      "numero": "18749",
+      "fecha": "2016-07-15",
+      "tema": "&iquest;Se encuentran excluidos del IVA seg&uacute;n el numeral 6 del art&iacute;culo 424 del Estatuto Tributario o sometidos a la tarifa general del IVA del 16%, seg&uacute;n el art&iacute;culo 468 ib&iacute;dem, el resto de las preparaciones de gasolina que no correspondan a la denominaci&oacute;n de ACPM?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13245-2016",
+      "tipo": "oficio",
+      "numero": "13245",
+      "fecha": "2016-05-26",
+      "tema": "Impuestos que se deben pagar con ocasi&oacute;n a la adjudicaci&oacute;n de un contrato estatal a trav&eacute;s de la modalidad de selecci&oacute;n de licitaci&oacute;n p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2275-2016",
+      "tipo": "oficio",
+      "numero": "2275",
+      "fecha": "2016-02-11",
+      "tema": "Impuesto Nacional al Consumo - Causaci&oacute;n, &iquest;cuando tiene actividad econ&oacute;mica 4724:",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1026-2016",
+      "tipo": "oficio",
+      "numero": "1026",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1020-2016",
+      "tipo": "oficio",
+      "numero": "1020",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0995-2016",
+      "tipo": "oficio",
+      "numero": "0995",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28646-2015",
+      "tipo": "oficio",
+      "numero": "28646",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;En materia aduanera qui&eacute;n responde por las obligaciones que se deriven de la expedici&oacute;n de una liquidaci&oacute;n oficial de revisi&oacute;n de valor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24885-2015",
+      "tipo": "oficio",
+      "numero": "24885",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Se encuentran vigentes el Concepto No. 019265 del 7 de abril de 2005 y el Oficio No. 37735 del 21 de junio de 2005? &iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas y del impuesto sobre la renta y complementarios si aquella presta el servicio de acceso satelital a trav&eacute;s de un sat&eacute;lite ubicado fuera de la &oacute;rbita geoestacionaria colombiana a empresas colombianas que acceden al mismo por intermedio de sus propias plataformas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0654-2015",
+      "tipo": "oficio",
+      "numero": "0654",
+      "fecha": "2015-07-23",
+      "tema": "Normatividad aplicable para el cobro del IVA por el servicio de cursos dictados en los Centros Integrales de Atenci&oacute;n al Conductor sobre normas de tr&aacute;nsito, para acceder a los descuentos en las infracciones de tr&aacute;nsito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53402-2014",
+      "tipo": "oficio",
+      "numero": "53402",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Est&aacute; destinando bienes o &aacute;reas comunes para la explotaci&oacute;n comercial, y como consecuencia perder&iacute;a la calidad de no contribuyente de los impuestos nacionales, seg&uacute;n lo previsto por el art&iacute;culo 186 de la Ley 1607 de 2012?&iquest;Tiene la obligaci&oacute;n de facturar y liquidar el IVA sobre el arrendamiento de esas &aacute;reas comunes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-43103-2014",
+      "tipo": "oficio",
+      "numero": "43103",
+      "fecha": "2014-07-21",
+      "tema": "Impuesto sobre las ventas - Contratos celebrados con entidades p&uacute;blicas - tarifa",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41649-2014",
+      "tipo": "oficio",
+      "numero": "41649",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Servicio de Arrendamiento de Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16647-2014",
+      "tipo": "oficio",
+      "numero": "16647",
+      "fecha": "2014-12-18",
+      "tema": "Efectos de las declaraciones de retenci&oacute;n en la fuente presentadas sin pago total",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79829-2013",
+      "tipo": "oficio",
+      "numero": "79829",
+      "fecha": "2013-12-12",
+      "tema": "Impuesto sobre las ventas y el impuesto nacional al consumo en productos de panader&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45723-2013",
+      "tipo": "oficio",
+      "numero": "45723",
+      "fecha": "2013-07-24",
+      "tema": "&iquest;Un restaurante que desarrolla su actividad bajo franquicia debe cobrar el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45063-2013",
+      "tipo": "oficio",
+      "numero": "45063",
+      "fecha": "2013-07-22",
+      "tema": "Impuesto sobre las Ventas e Impuesto Nacional al Consumo aplicables en la venta de aerodinos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16778-2013",
+      "tipo": "oficio",
+      "numero": "16778",
+      "fecha": "2013-03-20",
+      "tema": "Exenci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16740-2013",
+      "tipo": "oficio",
+      "numero": "16740",
+      "fecha": "2013-03-20",
+      "tema": "Retenci&oacute;n en la fuente, Impuesto sobre la renta para la equidad CREE - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15490-2013",
+      "tipo": "oficio",
+      "numero": "15490",
+      "fecha": "2013-03-14",
+      "tema": "Tarifa diferencial del 5% - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13548-2013",
+      "tipo": "oficio",
+      "numero": "13548",
+      "fecha": "2013-03-06",
+      "tema": "&iquest;Un bien",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10748-2013",
+      "tipo": "oficio",
+      "numero": "10748",
+      "fecha": "2013-02-25",
+      "tema": "&iquest;Cu&aacute;l es la tarifa del IVA para los servicios no integrales de aseo y cafeter&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10434-2013",
+      "tipo": "oficio",
+      "numero": "10434",
+      "fecha": "2013-02-21",
+      "tema": "&iquest;Cu&aacute;l es la tarifa del impuesto sobre las ventas de los bienes de la partida arancelaria 16.01 que no fueron incluidos en el art&iacute;culo 48 de la Ley 1607 de 2012, el cual modific&oacute; el art&iacute;culo 468-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0200-2013",
+      "tipo": "oficio",
+      "numero": "0200",
+      "fecha": "2013-03-06",
+      "tema": "Contratos celebrado con Entidades P&uacute;blicas - Tarifas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97942-2010",
+      "tipo": "oficio",
+      "numero": "97942",
+      "fecha": "2010-12-24",
+      "tema": "&iquest;Est&aacute; sometida a la sanci&oacute;n por correcci&oacute;n contemplada por el par&aacute;grafo 2 del art&iacute;culo 588 del Estatuto Tributario la declaraci&oacute;n que se presenta antes del vencimiento del t&eacute;rmino para presentar la inicial, con el objeto de corregir la inconsistencia del literal d) del art&iacute;culo 580 ib&iacute;dem? &iquest;La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106569-2008",
+      "tipo": "oficio",
+      "numero": "106569",
+      "fecha": "2008-01-01",
+      "tema": "Solicita la reconsideraci&oacute;n del Concepto No 023712 de abril 13 de 1998 por cuanto considera que cuando se afirm&oacute;",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0662-2008",
+      "tipo": "oficio",
+      "numero": "0662",
+      "fecha": "2008-01-04",
+      "tema": "Importaciones excluidas; Armas y municiones para la Defensa Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0101181-2007",
+      "tipo": "concepto",
+      "numero": "0101181",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de impuesto sobre las ventas aplicable a los veh&iacute;culos automotores y camperos de la partida arancelaria 87.03 y pick-up de la partida 87.04 cuyo valor FOB o equivalente sea igual o superior a treinta mil dolares de Norteam&eacute;rica (Ps 30.000), as&iacute; como sus chasises y carrocer&iacute;as inclu&iacute;das las cabinas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77510-2007",
+      "tipo": "oficio",
+      "numero": "77510",
+      "fecha": "2007-09-27",
+      "tema": "&iquest;Qu&eacute; tarifa de impuesto sobre las ventas es aplicable a los botes de salvamento con remos, atendiendo lo dispuesto por el art&iacute;culo 36 de la Ley 1111 del 27 de diciembre de 2006 que modifica el art&iacute;culo 471 del Estatuto Tributario, el cual establece tarifas diferenciales para",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70259-2006",
+      "tipo": "oficio",
+      "numero": "70259",
+      "fecha": "2006-08-22",
+      "tema": "&iquest;Cu&aacute;l es la tarifa del impuesto sobre las ventas aplicable a un producto clasificado en la subpartida arancelaria 19.01.10.90.00?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38331-2006",
+      "tipo": "oficio",
+      "numero": "38331",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;Cu&aacute;l es la base gravable y la tarifa del impuesto sobre las ventas aplicable a un contrato cuyo objeto incluye el suministro de veh&iacute;culos a t&iacute;tulo de arrendamiento, el mantenimiento preventivo y correctivo y los seguros necesarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59197-2005",
+      "tipo": "oficio",
+      "numero": "59197",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;A las precooperativas se aplica el art&iacute;culo 102-3 del Estatuto Tributario, y si como consecuencia del contenido del mismo, debe facturar el impuesto sobre las ventas &uacute;nicamente sobre la administraci&oacute;n, imprevistos y utilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52753-2005",
+      "tipo": "oficio",
+      "numero": "52753",
+      "fecha": "2005-01-01",
+      "tema": "Solicita revisar y ajustar los pronunciamientos emitidos por la Direcci&oacute;n de Impuestos y Aduanas Nacionales, relacionados con el c&aacute;lculo de la base gravable para el pago del Impuesto Sobre las Ventas a cargo de las Cooperativas de Trabajo Asociado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37735-2005",
+      "tipo": "oficio",
+      "numero": "37735",
+      "fecha": "2005-06-21",
+      "tema": "&iquest;El tratamiento tributario de los giros a un proveedor en el exterior, efectuados por la Comisi&oacute;n Nacional de Televisi&oacute;n -CNTV-, con el fin de asegurar el segmento satelital necesario para la televisi&oacute;n p&uacute;blica nacional y regional colombiana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89483-2004",
+      "tipo": "oficio",
+      "numero": "89483",
+      "fecha": "2004-12-21",
+      "tema": "&iquest;Cu&aacute;l es la base gravable y la tarifa del Impuesto sobre las Ventas aplicable a un contrato cuyo objeto es el montaje de unas emisoras, para lo cual el contratista se obliga al suministro, instalaci&oacute;n, puesta en funcionamiento, capacitaci&oacute;n a los operadores y el mantenimiento preventivo durante un tiempo de los equipos y elementos que conforman las estaciones de radiodifusi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89043-2004",
+      "tipo": "oficio",
+      "numero": "89043",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;Al ser arrendado por parte del secuestre un bien inmueble objeto de embargo, se causa el impuesto sobre las ventas por ser el secuestre una junta de copropietarios administradora de propiedad horizontal y no ser el inmueble un bien com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88122-2004",
+      "tipo": "oficio",
+      "numero": "88122",
+      "fecha": "2004-12-15",
+      "tema": "&iquest;Los frigor&iacute;ficos prestan junto al servicio de faenamiento, los servicios de cuartos fr&iacute;os y de empaque al vac&iacute;o, y pregunta s&iacute; estos &uacute;ltimos son exentos o por el contrario estar&iacute;an gravados y a que tarifa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74526-2004",
+      "tipo": "oficio",
+      "numero": "74526",
+      "fecha": "2004-11-02",
+      "tema": "&iquest;Cu&aacute;l es la forma en que debe facturar el IVA un prestador del servicio de ba&ntilde;os port&aacute;tiles, contratista de esa Entidad, por cuanto en su factura de venta &uacute;nicamente establece el IVA a la tarifa del 7% por concepto de aseo sobre la base A.I.U., sin hacer referencia al alquiler de los mismos o al servicio en su totalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69429-2004",
+      "tipo": "oficio",
+      "numero": "69429",
+      "fecha": "2004-10-13",
+      "tema": "&iquest;La tarifa a la que se encuentran gravados con el Impuesto sobre las Ventas los cursos y los eventos sociales que se dictan y celebran en los clubes que pertenecen a las Cajas de Compensaci&oacute;n Familiar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53983-2004",
+      "tipo": "oficio",
+      "numero": "53983",
+      "fecha": "2004-08-23",
+      "tema": "solicita la aclaraci&oacute;n del oficio No. 044217 de fecha 30 de julio de 2003, mediante el cual esta oficina dio respuesta a la consulta radicada con el n&uacute;mero 27491 del 11 de Abril de 2003, donde se planteaba una posible confrontaci&oacute;n entre el numeral 3 del art&iacute;culo 476 del Estatuto Tributario y el art&iacute;culo 468-3 ib&iacute;dem, as&iacute; como el interrogante de si las prestaciones propias de los planes complementarios de salud que presten o contraten las A.R.S. O E.P.S, estar&iacute;an gravadas con la tarifa del 7% o seguir&iacute;an excluidas del Impuesto sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30501-2004",
+      "tipo": "oficio",
+      "numero": "30501",
+      "fecha": "2004-05-18",
+      "tema": "&iquest;Est&aacute;n en la obligaci&oacute;n, las cooperativas de trabajo asociado de cobrar el IVA en la prestaci&oacute;n de sus servicios, cuando provee la mano de obra, as&iacute; como la base gravable y el fundamento legal respecto de su responsabilidad frente al IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30452-2004",
+      "tipo": "oficio",
+      "numero": "30452",
+      "fecha": "2004-05-18",
+      "tema": "&iquest;Cu&aacute;l es la responsabilidad frente al IVA de las Empresas Asociativas de Trabajo Asociado, las Precooperativas y las Cooperativas de Trabajo Asociado, el r&eacute;gimen al que pertenecen y si deben cobrar el impuesto a las entidades estatales y privadas cuando presten el servicio de vigilancia y la tarifa que deben aplicar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28806-2004",
+      "tipo": "oficio",
+      "numero": "28806",
+      "fecha": "2004-05-10",
+      "tema": "&iquest;Las Precooperativas de Trabajo Asociado, pueden prestar servicios temporales de empleo y aplicar lo preceptuado en el art&iacute;culo 52 de la Ley 863 del 29 de diciembre de 2003, para efectos del Impuesto Sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15939-2004",
+      "tipo": "oficio",
+      "numero": "15939",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Algunas herramientas agr&iacute;colas como las palas, picos, palendras, azadones, hachas, rastrillos, escobas de prado se encuentran gravadas o excluidas del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14779-2004",
+      "tipo": "oficio",
+      "numero": "14779",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;En la actualidad el cobro del IVA, en la prestaci&oacute;n del servicio de vigilancia aprobado por la Superintendencia de Vigilancia Privada, se realiza a todos los prestatarios del servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13149-2004",
+      "tipo": "oficio",
+      "numero": "13149",
+      "fecha": "2004-01-01",
+      "tema": "Solicita pronunciamiento sobre el IVA aplicable en la prestaci&oacute;n de servicios de aseo y cafeter&iacute;a, particularizando la situaci&oacute;n propuesta a la participaci&oacute;n en una licitaci&oacute;n p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065597-2001",
+      "tipo": "concepto",
+      "numero": "0065597",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Para efectos de reconocer el derecho a devoluci&oacute;n o compensaci&oacute;n del impuesto sobre las ventas por la adquisici&oacute;n de materiales de construcci&oacute;n para vivienda de inter&eacute;s social, es procedente aplicar la definici&oacute;n de vivienda nueva contenida en el numeral 2.5 del art&iacute;culo 1o del decreto 975 de 2004?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029661-2001",
+      "tipo": "concepto",
+      "numero": "0029661",
+      "fecha": "2001-04-11",
+      "tema": "&iquest;Qu&eacute; tarifa del impuesto sobre las ventas se aplica a un contrato celebrado con una entidad p&uacute;blica adjudicado el 29 de diciembre de 2000?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028373-2001",
+      "tipo": "concepto",
+      "numero": "0028373",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;En desarrollo de un contrato de ganado en compa&ntilde;ia, la proporci&oacute;n de la utilidad que la parte due&ntilde;a de ganado; entrega al que se hizo cargo del levante y ceba del ganado, est&aacute; sometida a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075655-2000",
+      "tipo": "concepto",
+      "numero": "0075655",
+      "fecha": "2000-08-11",
+      "tema": "&iquest;Respecto de contratos celebrados antes del 1o de noviembre de 1999, en qu&eacute; casos puede el proveedor de bienes o de servicios gravados cobrar el IVA a la tarifa del 16% o del 15%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051907-2000",
+      "tipo": "concepto",
+      "numero": "0051907",
+      "fecha": "2000-05-31",
+      "tema": "Impuesto sobre las ventas. Directorios telef&oacute;nicos; servicio de publicidad.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054763-1999",
+      "tipo": "concepto",
+      "numero": "0054763",
+      "fecha": "1999-06-15",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050868-1999",
+      "tipo": "concepto",
+      "numero": "0050868",
+      "fecha": "1999-05-31",
+      "tema": "&iquest;La venta de espacios de publicidad en una revista de car&aacute;cter gremial, est&aacute; gravada con Impuesto sobre las Ventas a la tarifa del diez por ciento (10%)?&iquest;La venta de una revista gremial esta gravada con Impuesto sobre las ventas a la tarifa del diez por ciento (10%)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039949-1999",
+      "tipo": "concepto",
+      "numero": "0039949",
+      "fecha": "1999-04-27",
+      "tema": "&iquest;Cual es el r&eacute;gimen legal del impuesto a las ventas aplicable a bienes que se encontraban exentos o excluidos del IVA, cuando se celebraron contratos administrativos con anterioridad a la entrada en vigencia de la Ley 488 de 1998 y cuya ejecuci&oacute;n, legalizaci&oacute;n y pago se efectuar&aacute;n en el a&ntilde;o 1999?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017815-1999",
+      "tipo": "concepto",
+      "numero": "0017815",
+      "fecha": "1999-01-01",
+      "tema": "de 1999, referente a la aplicaci&oacute;n del IVA en los servicios t&eacute;cnicos de VTR y codificaci&oacute;n, por cuanto considera que en ning&uacute;n momento est&aacute;n asociados a la publicidad, sino que corresponden a servicios de operaci&oacute;n del servicio de televisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040978-1997",
+      "tipo": "concepto",
+      "numero": "0040978",
+      "fecha": "1997-05-16",
+      "tema": "Sobre el r&eacute;gimen del impuesto a la renta y complementarios, ventas y retenci&oacute;n en la fuente respecto de los ingresos percibidos por personas extranjeras sin residencia o domicilio en el pa&iacute;s por concepto de honorarios derivados del contrato de consultor&iacute;a celebrados con entidades estatales o particulares",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030882-1996",
+      "tipo": "concepto",
+      "numero": "0030882",
+      "fecha": "1996-04-15",
+      "tema": "&iquest;Es indispensable la facturaci&oacute;n para reconocimiento de costos y gastos, aun en vigencia del Decreto 2150 de 1995?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013515-1995",
+      "tipo": "concepto",
+      "numero": "0013515",
+      "fecha": "1995-03-14",
+      "tema": "&iquest;Los productos de icopor para la construcci&oacute;n, se encuentran sometidas al Impuesto sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017736-1993",
+      "tipo": "concepto",
+      "numero": "0017736",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Un arrendamiento en persona jur&iacute;dica est&aacute; en la obligaci&oacute;n de efectuar retenci&oacute;n en la fuente al arrendador, persona natural, por el pago mensual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000143-1993",
+      "tipo": "concepto",
+      "numero": "0000143",
+      "fecha": "1993-01-05",
+      "tema": "Consulta sobre la causaci&oacute;n del IVA con ocasi&oacute;n de la expedici&oacute;n de la Ley 6a. de 1992, respecto de una agencia que se dedica a la intermediaci&oacute;n tur&iacute;stica y venta de tiquetes a&eacute;reos y terrestres. La empresa no presta servicio alguno sino que promueve planes tur&iacute;sticos de acuerdo a contratos con condici&oacute;n suspensiva pactando con el suscriptor cuotas mensuales donde se incluyen rubros para administraci&oacute;n y funcionamiento, que no corresponden a ning&uacute;n servicio debido a que no cobra por la intermediaci&oacute;n, puesto que sus ingresos provienen de rendimientos financieros de los dineros que maneja",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011974-1991",
+      "tipo": "concepto",
+      "numero": "0011974",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;La empresa de Tel&eacute;fonos en su facturaci&oacute;n no tiene la discriminaci&oacute;n del cobro del IVA por estrato socio-econ&oacute;mico, cu&aacute;l ser&iacute;a la tarifa aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014067-1990",
+      "tipo": "concepto",
+      "numero": "0014067",
+      "fecha": "1990-01-01",
+      "tema": "Blindaje de veh&iacute;culos, solicitud de modificaci&oacute;n del Concepro 1798 del mismo a&ntilde;o",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011271-1990",
+      "tipo": "concepto",
+      "numero": "0011271",
+      "fecha": "1990-05-15",
+      "tema": "&iquest;La producci&oacute;n y venta de gas carb&oacute;nico (usado en aguas gaseosas, agricultura etc.) se grava con el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002629-1990",
+      "tipo": "concepto",
+      "numero": "0002629",
+      "fecha": "1990-01-30",
+      "tema": "Solicita usted concepto acerca de la aplicaci&oacute;n del Impuesto Sobre las Ventas (IVA) en la venta directa o a trav&eacute;s de un Martillo autorizado, de las mercanc&iacute;as declaradas en abandono a favor de la Naci&oacute;n o decomisadas por las autoridades aduaneras, por parte del Fondo Rotatorio de Aduanas, as&iacute; como, si &eacute;ste es responsable del IVA por las ventas que realice",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022175-1989",
+      "tipo": "concepto",
+      "numero": "0022175",
+      "fecha": "1989-01-01",
+      "tema": "R&eacute;gimen tributario para el algodo de uso quir&uacute;rgico",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-335-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "335",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -5,9 +5,11 @@ import { useSearchParams } from "next/navigation";
 import { Search, Newspaper, Filter } from "lucide-react";
 import {
   NOVEDADES_ENRIQUECIDAS,
+  NOVEDADES_LAST_UPDATE,
   type NovedadAudiencia,
   type NovedadEnriquecida,
 } from "@/config/novedades-data";
+import { ReferencePageLayout } from "@/components/layout/ReferencePageLayout";
 import { NovedadAudienceFilter, type AudienceFilterValue } from "@/components/novedades/NovedadAudienceFilter";
 import { NovedadExpandableCard } from "@/components/novedades/NovedadExpandableCard";
 import { NovedadesWeeklyDigest } from "@/components/novedades/NovedadesWeeklyDigest";
@@ -33,17 +35,12 @@ function computeWeeklyItems(items: NovedadEnriquecida[]) {
     };
   }
 
-  const latest30Days = items.filter((item) => withinDays(item.fecha, 30));
-  if (latest30Days.length > 0) {
-    return {
-      title: "Lo más relevante (últimos 30 días)",
-      items: latest30Days.slice(0, 3),
-    };
-  }
-
+  // Si no hay de la semana, no bajamos a 30 dias automaticamente para no confundir
+  // Mostramos el estado vacio para la semana pero quiza las ultimas 3 generales abajo
   return {
-    title: "Últimas novedades más relevantes",
-    items: items.slice(0, 3),
+    title: "No hay novedades esta semana",
+    items: [],
+    fallbackItems: items.slice(0, 3),
   };
 }
 
@@ -55,6 +52,8 @@ function NovedadesPageContent() {
   const [tipoFiltro, setTipoFiltro] = useState<string>("todos");
   const [impactoFiltro, setImpactoFiltro] = useState<string>("todos");
   const [audienciaFiltro, setAudienciaFiltro] = useState<AudienceFilterValue>("todos");
+  const [fechaDesde, setFechaDesde] = useState("");
+  const [fechaHasta, setFechaHasta] = useState("");
   const [expandedIds, setExpandedIds] = useState<string[]>(() => (highlightedId ? [highlightedId] : []));
 
   const orderedItems = useMemo(() => {
@@ -78,10 +77,13 @@ function NovedadesPageContent() {
       const matchesImpacto = impactoFiltro === "todos" || item.impactoVisual === impactoFiltro;
       const matchesAudience =
         audienciaFiltro === "todos" || item.afectaA.includes(audienciaFiltro as NovedadAudiencia);
+      
+      const matchesDesde = !fechaDesde || item.fecha >= fechaDesde;
+      const matchesHasta = !fechaHasta || item.fecha <= fechaHasta;
 
-      return matchesSearch && matchesTipo && matchesImpacto && matchesAudience;
+      return matchesSearch && matchesTipo && matchesImpacto && matchesAudience && matchesDesde && matchesHasta;
     });
-  }, [orderedItems, search, tipoFiltro, impactoFiltro, audienciaFiltro]);
+  }, [orderedItems, search, tipoFiltro, impactoFiltro, audienciaFiltro, fechaDesde, fechaHasta]);
 
   const toggleExpanded = (id: string) => {
     setExpandedIds((prev) =>
@@ -90,22 +92,19 @@ function NovedadesPageContent() {
   };
 
   return (
-    <div className="animate-in fade-in duration-500">
-      <div className="mb-8 pb-4">
-        <div className="mb-3 flex items-center gap-3">
-          <div className="rounded-lg bg-muted p-2 text-foreground/70">
-            <Newspaper className="h-8 w-8" />
-          </div>
-          <h1 className="heading-serif text-3xl text-foreground">Novedades Normativas</h1>
-        </div>
-        <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
-          Timeline actualizado para decidir rápido: qué cambió, a quién impacta y qué acción práctica debes ejecutar hoy.
-        </p>
-      </div>
-
+    <ReferencePageLayout
+      title="Novedades Normativas"
+      description="Timeline actualizado para decidir rápido: qué cambió, a quién impacta y qué acción práctica debes ejecutar hoy."
+      icon={Newspaper}
+      updatedAt={NOVEDADES_LAST_UPDATE}
+    >
       <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
-          <NovedadesWeeklyDigest title={weeklyDigest.title} items={weeklyDigest.items} />
+          <NovedadesWeeklyDigest 
+            title={weeklyDigest.title} 
+            items={weeklyDigest.items} 
+            fallbackItems={weeklyDigest.fallbackItems}
+          />
           <NovedadTimeline items={filtered} activeId={highlightedId} />
         </aside>
 
@@ -149,6 +148,35 @@ function NovedadesPageContent() {
               </select>
             </div>
 
+            <div className="mt-3 grid gap-3 border-t border-border/40 pt-3 md:grid-cols-2">
+              <div className="flex items-center gap-2">
+                <label className="text-xs font-medium text-muted-foreground whitespace-nowrap">Desde:</label>
+                <input
+                  type="date"
+                  value={fechaDesde}
+                  onChange={(e) => setFechaDesde(e.target.value)}
+                  className="h-9 w-full rounded border border-border/60 bg-background px-2 text-xs outline-none focus:border-foreground/40"
+                />
+              </div>
+              <div className="flex items-center gap-2">
+                <label className="text-xs font-medium text-muted-foreground whitespace-nowrap">Hasta:</label>
+                <input
+                  type="date"
+                  value={fechaHasta}
+                  onChange={(e) => setFechaHasta(e.target.value)}
+                  className="h-9 w-full rounded border border-border/60 bg-background px-2 text-xs outline-none focus:border-foreground/40"
+                />
+                {(fechaDesde || fechaHasta) && (
+                  <button
+                    onClick={() => { setFechaDesde(""); setFechaHasta(""); }}
+                    className="text-[10px] font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    Limpiar
+                  </button>
+                )}
+              </div>
+            </div>
+
             <div className="mt-3 border-t border-border/40 pt-3">
               <NovedadAudienceFilter value={audienciaFiltro} onChange={setAudienciaFiltro} />
             </div>
@@ -183,6 +211,8 @@ function NovedadesPageContent() {
                   setTipoFiltro("todos");
                   setImpactoFiltro("todos");
                   setAudienciaFiltro("todos");
+                  setFechaDesde("");
+                  setFechaHasta("");
                 }}
                 className="mt-3 text-sm font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"
               >
@@ -199,7 +229,7 @@ function NovedadesPageContent() {
           </div>
         </section>
       </div>
-    </div>
+    </ReferencePageLayout>
   );
 }
 

@@ -1,1 +1,95 @@
-{"id_articulo": "Art. 275", "titulo": "Art. 275. Valor patrimonial de las mercancías vendidas a plazos.", "titulo_corto": "Valor patrimonial de las mercancías vendidas a plazos.", "slug": "275", "url_origen": "https://estatuto.co/275", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable."], "texto_derogado_parsed": [{"index": 0, "snippet": "*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del a...", "full_length": 222}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 275",
+  "titulo": "Art. 275. Valor patrimonial de las mercancías vendidas a plazos.",
+  "titulo_corto": "Valor patrimonial de las mercancías vendidas a plazos.",
+  "slug": "275",
+  "url_origen": "https://estatuto.co/275",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del año o período gravable."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*En el sistema de ventas a plazos con pagos periódicos, los activos movibles, así sean bienes raíces o muebles, deben declararse y se computan por el valor registrado en libros, en el último día del a...",
+      "full_length": 222
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 21835 (2019-09-02): Ingreso por Diferencia en Cambio\noficio 5700 (2018-03-07): &iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?\noficio 901801 (2017-03-08): Impuesto Nacional al Consumo\noficio 27784 (2017-10-11): Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    }
+  ]
+}

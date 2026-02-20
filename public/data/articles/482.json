@@ -1,1 +1,572 @@
-{"id_articulo": "Art. 482", "titulo": "Art. 482. Las personas exentas por ley de otros impuestos no lo están del impuesto sobre las ventas.", "titulo_corto": "Las personas exentas por ley de otros impuestos no lo están del impuesto sobre las ventas.", "slug": "482", "url_origen": "https://estatuto.co/482", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Las personas declaradas por ley exentas de pagar impuestos nacionales, departamentales o municipales, no están exentas del impuesto sobre las ventas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas declaradas por ley exentas de pagar impuestos nacionales, departamentales o municipales, no están exentas del impuesto sobre las ventas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 482",
+  "titulo": "Art. 482. Las personas exentas por ley de otros impuestos no lo están del impuesto sobre las ventas.",
+  "titulo_corto": "Las personas exentas por ley de otros impuestos no lo están del impuesto sobre las ventas.",
+  "slug": "482",
+  "url_origen": "https://estatuto.co/482",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Las personas declaradas por ley exentas de pagar impuestos nacionales, departamentales o municipales, no están exentas del impuesto sobre las ventas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas declaradas por ley exentas de pagar impuestos nacionales, departamentales o municipales, no están exentas del impuesto sobre las ventas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 7653 (2025-05-15): Impuesto Sobre las Ventas - IVA\noficio 906708 (2021-07-07): Hecho generador en el impuesto sobre las ventas Entidades sin &aacute;nimo de lucro - ESAL",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7653-2025",
+      "tipo": "oficio",
+      "numero": "7653",
+      "fecha": "2025-05-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906708-2021",
+      "tipo": "oficio",
+      "numero": "906708",
+      "fecha": "2021-07-07",
+      "tema": "Hecho generador en el impuesto sobre las ventas Entidades sin &aacute;nimo de lucro - ESAL",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900820-2021",
+      "tipo": "oficio",
+      "numero": "900820",
+      "fecha": "2021-02-03",
+      "tema": "IVA por aprovechamiento econ&oacute;mico de espacio p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907056-2020",
+      "tipo": "oficio",
+      "numero": "907056",
+      "fecha": "2020-11-12",
+      "tema": "Resposables del Impuesto sobre las ventas -IVA Hecho Generador del Impuesto Sobre las Ventas Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2020",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2020-01-09",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0055-2019",
+      "tipo": "oficio",
+      "numero": "0055",
+      "fecha": "2019-02-14",
+      "tema": "(Int 55) Contrato de arrendamiento a trav&eacute;s de mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0012-2019",
+      "tipo": "oficio",
+      "numero": "0012",
+      "fecha": "2019-02-01",
+      "tema": "(Int 12) Expedici&oacute;n de factura de venta por el concepto de expensas de cuotas de administraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28382-2019",
+      "tipo": "oficio",
+      "numero": "28382",
+      "fecha": "2019-11-15",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20076-2019",
+      "tipo": "oficio",
+      "numero": "20076",
+      "fecha": "2019-08-13",
+      "tema": "Servicios gravados con IVA que involucran utilizaci&oacute;n de inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13677-2019",
+      "tipo": "oficio",
+      "numero": "13677",
+      "fecha": "2019-05-29",
+      "tema": "Procedimiento Tributario. Factura - expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6025-2019",
+      "tipo": "oficio",
+      "numero": "6025",
+      "fecha": "2019-03-11",
+      "tema": "Definici&oacute;n del t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4776-2019",
+      "tipo": "oficio",
+      "numero": "4776",
+      "fecha": "2019-02-26",
+      "tema": "&iquest;En el formulario de la declaraci&oacute;n de renta se deben llevar todos los ingresos, as&iacute; como la totalidad de los gastos, incluso los que forman parte de las expensas comunes? - Responsables del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2019-2019",
+      "tipo": "oficio",
+      "numero": "2019",
+      "fecha": "2019-02-25",
+      "tema": "&iquest;En el formulario de la declaraci&oacute;n de renta se deben llevar todos los ingresos, as&iacute; como la totalidad de los gastos, incluso los que forman parte de las expensas comunes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1702-2019",
+      "tipo": "oficio",
+      "numero": "1702",
+      "fecha": "2019-01-23",
+      "tema": "&iquest;La venta de bonos de almacenes de cadena por parte de una ESAL tiene IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901513-2018",
+      "tipo": "oficio",
+      "numero": "901513",
+      "fecha": "2018-11-29",
+      "tema": "Procedimiento para acceder al beneficio de exclusi&oacute;n del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16044-2018",
+      "tipo": "oficio",
+      "numero": "16044",
+      "fecha": "2018-06-19",
+      "tema": "&iquest;Los servicios de parqueadero para visitantes, parqueadero adicional y estacionamiento de bicicletas, as&iacute; como el servicio de alquiler del sal&oacute;n comunal en una propiedad horizontal conjunto residencial, se encuentran gravados con el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6512-2018",
+      "tipo": "oficio",
+      "numero": "6512",
+      "fecha": "2018-03-16",
+      "tema": "&iquest;El hecho de que el explotador minero de gravas y arenas-materiales de construcci&oacute;n- declare y pague las regal&iacute;as de Ley en boca de mina, lo exonera del IVA, cuando quiera que comercialice estos minerales? &iquest;Estuvieron las gravas y arenas resultantes de la explotaci&oacute;n minera en aluviones o canteras, que se hayan comercializado, exentas en el anterior Estatuto Tributario? Si esta no estuvieron exentas &iquest;Cu&aacute;l fue la tarifa que debieron pagar antes de la &uacute;ltima reforma tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1820-2018",
+      "tipo": "oficio",
+      "numero": "1820",
+      "fecha": "2018-10-22",
+      "tema": "&iquest;La compra de productos clasificados en la nomenclatura arancelaria 8133.20.00.00 en qu&eacute; casos o qu&eacute; condiciones especiales se deben tener en cuenta al momento de su importaci&oacute;n para que no causen el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0819-2018",
+      "tipo": "oficio",
+      "numero": "0819",
+      "fecha": "2018-05-24",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen aplicable para entidades sin &aacute;nimo de lucro para el impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24646-2017",
+      "tipo": "oficio",
+      "numero": "24646",
+      "fecha": "2017-09-13",
+      "tema": "Retenci&oacute;n en la fuente, obligaciones formales - No Contribuyentes - Sindicatos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7131-2017",
+      "tipo": "oficio",
+      "numero": "7131",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Cu&aacute;les son las responsabilidades que actualmente tienen las IGLESIAS en Colombia para con la DIAN? &iquest;Cu&aacute;l es la periodicidad con que deben presentar los respectivos documentos, resultado de esas responsabilidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16235-2016",
+      "tipo": "oficio",
+      "numero": "16235",
+      "fecha": "2016-06-22",
+      "tema": "Pagos no Sujetos a Retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0129-2016",
+      "tipo": "oficio",
+      "numero": "0129",
+      "fecha": "2016-02-18",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35153-2015",
+      "tipo": "oficio",
+      "numero": "35153",
+      "fecha": "2015-12-10",
+      "tema": "&iquest;Cu&aacute;l es la figura jur&iacute;dica que puede utilizar una entidad territorial para arrendar unos locales ubicados en una galer&iacute;a municipal, de forma tal que no generen compromisos con la DIAN, pago del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28629-2015",
+      "tipo": "oficio",
+      "numero": "28629",
+      "fecha": "2015-10-02",
+      "tema": "(Int 1264) Impuesto a las ventas - Impuestos descontables - Impuesto sobre las ventas no descontable - Activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9704-2015",
+      "tipo": "oficio",
+      "numero": "9704",
+      "fecha": "2015-03-31",
+      "tema": "Responsables del Impuesto Sobre las Ventas - Entidades de Derecho P&uacute;blico - Facturaci&oacute;n en Entidades de Derecho P&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66872-2014",
+      "tipo": "oficio",
+      "numero": "66872",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Qu&eacute; derechos confiere al declarante o al importador la Aceptaci&oacute;n de una declaraci&oacute;n de importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41879-2014",
+      "tipo": "oficio",
+      "numero": "41879",
+      "fecha": "2014-07-16",
+      "tema": "R&eacute;gimen tributario aplicable a los Consejos Comunitarios Afrocolomb&iacute;anos y solicita informaci&oacute;n sobre el procedimiento a seguir por &eacute;stos para inscribirse en el Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97958-2010",
+      "tipo": "oficio",
+      "numero": "97958",
+      "fecha": "2010-12-24",
+      "tema": "&iquest;El impuesto sobre las ventas que las entidades beneficiar&iacute;as de las regal&iacute;as asumen en el desarrollo de contratos de prestaci&oacute;n de servicios, genera para &eacute;stas una erogaci&oacute;n de recursos o solo tienen un manejo contable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83539-2010",
+      "tipo": "oficio",
+      "numero": "83539",
+      "fecha": "2010-11-12",
+      "tema": "Impuesto sobre las ventas en la prestaci&oacute;n de servicios financieros para el giro los recursos provenientes de regal&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078258-2010",
+      "tipo": "concepto",
+      "numero": "0078258",
+      "fecha": "2010-10-25",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento en materia de impuesto sobre las ventas para la prestaci&oacute;n de servicios en el territorio nacional contratada con organizaciones sindicales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108852-2008",
+      "tipo": "concepto",
+      "numero": "0108852",
+      "fecha": "2008-10-31",
+      "tema": "&iquest;La prestaci&oacute;n de servicios m&eacute;dicos, odontol&oacute;gicos, hospitalarios, cl&iacute;nicos y de laboratorio, para la salud humana, por parte de las Cooperativas y Precooperativas de Trabajo Asociado, se encuentran excluidos del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87277-2007",
+      "tipo": "oficio",
+      "numero": "87277",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Las operaciones de reporto y las compras definitivas de t&iacute;tulos, efectuadas por esa entidad en uso de la facultad referida, est&aacute;n gravadas con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48952-2007",
+      "tipo": "oficio",
+      "numero": "48952",
+      "fecha": "2007-07-03",
+      "tema": "&iquest;Las Empresas Oficiales de Servicios de Servicios P&uacute;blicos Domiciliarios por ser las &uacute;nicas entidades descentralizadas por servicios que de acuerdo con el art&iacute;culo con el art&iacute;culo 38 de la Ley 489 de 1998 integran la rama ejecutiva del poder p&uacute;blico en el orden nacional, son o no sujetos de renta y complementarios e impuestos al patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33065-2007",
+      "tipo": "oficio",
+      "numero": "33065",
+      "fecha": "2007-05-04",
+      "tema": "&iquest;En desarrollo de un contrato de suministro celebrado entre el Instituto Nacional de V&iacute;as y una sociedad extranjera sin domicilio en Colombia, el contratista est&aacute; obligado a pagar el IVA de la nacionalizaci&oacute;n de los bienes y a facturar el IVA en las cuentas de cobro que presente al INVIAS?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3581-2006",
+      "tipo": "oficio",
+      "numero": "3581",
+      "fecha": "2006-01-12",
+      "tema": "Solicita condonaci&oacute;n o exoneraci&oacute;n del pago de impuestos sobre las ventas de las obligaciones causadas en los a&ntilde;os 2001 y 2002 a cargo de la entidad Fundaci&oacute;n para el desarrollo del Discapacitado",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071923-2005",
+      "tipo": "concepto",
+      "numero": "0071923",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;pueden asimilarse los contratos sindicales a los contratos de trabajo a efectos de hacer efectiva la exenci&oacute;n en el impuesto de timbre contenida en alr&iacute;culo 530 numeral 37 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20192-2005",
+      "tipo": "oficio",
+      "numero": "20192",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se manejar&iacute;a la parte de facturaci&oacute;n en el IVA, cuando se arrienda un inmueble que se utiliza una parte para bodegage y la otra para vivienda por el mismo usuario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19261-2005",
+      "tipo": "oficio",
+      "numero": "19261",
+      "fecha": "2005-04-07",
+      "tema": "&iquest;Cu&aacute;l es la responsabilidad de la Polic&iacute;a Nacional como sujeto pasivo del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30501-2004",
+      "tipo": "oficio",
+      "numero": "30501",
+      "fecha": "2004-05-18",
+      "tema": "&iquest;Est&aacute;n en la obligaci&oacute;n, las cooperativas de trabajo asociado de cobrar el IVA en la prestaci&oacute;n de sus servicios, cuando provee la mano de obra, as&iacute; como la base gravable y el fundamento legal respecto de su responsabilidad frente al IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30452-2004",
+      "tipo": "oficio",
+      "numero": "30452",
+      "fecha": "2004-05-18",
+      "tema": "&iquest;Cu&aacute;l es la responsabilidad frente al IVA de las Empresas Asociativas de Trabajo Asociado, las Precooperativas y las Cooperativas de Trabajo Asociado, el r&eacute;gimen al que pertenecen y si deben cobrar el impuesto a las entidades estatales y privadas cuando presten el servicio de vigilancia y la tarifa que deben aplicar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048778-2002",
+      "tipo": "concepto",
+      "numero": "0048778",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;Las seccionales de la Cruz Roja son contribuyentes del Impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028444-2002",
+      "tipo": "concepto",
+      "numero": "0028444",
+      "fecha": "2002-01-01",
+      "tema": "IVA, mantenimiento a aeronaves, calibraci&oacute;n de equipos y herramientas, prestados por el comando a&eacute;reo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026738-2002",
+      "tipo": "concepto",
+      "numero": "0026738",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Las exclusiones y exenci&oacute;n en materia de impuestos nacionales en cabeza de las cooperativas de asociaciones de municipios, se extienden a los terceros con quienes estas contratan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044914-2001",
+      "tipo": "concepto",
+      "numero": "0044914",
+      "fecha": "2001-05-31",
+      "tema": "&iquest;Qu&eacute; Ley obliga a hacer cruces para compensaciones de obligaciones a cargo del Estado con deudas de los contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028291-2001",
+      "tipo": "concepto",
+      "numero": "0028291",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Causan impuesto de timbre los contratos suscritos entre entidad cooperativa sin &aacute;nimo de lucro y un ente territorial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0114314-2000",
+      "tipo": "concepto",
+      "numero": "0114314",
+      "fecha": "2000-11-22",
+      "tema": "&iquest;La Direcci&oacute;n del Tesoro Nacional del Ministerio de hacienda y cr&eacute;dito p&uacute;blico es sujeto pasivo del IVA, en lo referente a la prima de ejercicio, cuando ejerce opciones PUT para vender divisas la Banco de la Rep&uacute;blica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080372-2000",
+      "tipo": "concepto",
+      "numero": "0080372",
+      "fecha": "2000-08-24",
+      "tema": "&iquest;Se encuentra gravado con el impuesto sobre las ventas el servicio de alimentaci&oacute;n prestado directamente por el estado o a trav&eacute;s de particulares a c&aacute;rceles y penitenciarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091661-1998",
+      "tipo": "concepto",
+      "numero": "0091661",
+      "fecha": "1998-11-30",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088307-1998",
+      "tipo": "concepto",
+      "numero": "0088307",
+      "fecha": "1998-05-17",
+      "tema": "&iquest;Existe alguna disposici&oacute;n que permita devolver el IVA a entidades con las cuales las universidades desarrollan proyectos de investigaci&oacute;n o convenios, por compras en el transcurso de estos, con dineros que dichas entidades aporta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055779-1998",
+      "tipo": "concepto",
+      "numero": "0055779",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Qu&eacute; obligaciones tributarias debe cumplir una junta de copropietarios administradora de un edificio organizado en propiedad horizontal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014748-1998",
+      "tipo": "concepto",
+      "numero": "0014748",
+      "fecha": "1998-03-09",
+      "tema": "&iquest;Los contratos con entidades del orden nacional, departamental, municipal y distrital sobre la venta e instalaci&oacute;n de equipos de aire acondicionado se encuentran sujetos al impuesto a las ventas? &iquest;Cu&aacute;l es la base gravable en los mencionados contratos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051731-1997",
+      "tipo": "concepto",
+      "numero": "0051731",
+      "fecha": "1997-06-24",
+      "tema": "&iquest;Las cooperativas de desarrollo territorial para efectos fiscales se consideran como entidades territoriales descentralizados del orden municipal? &iquest;Puede considerarse a la Cooperativa como una entidad intermediaria entre la entidad territorial y el contratista, en los contratos que suscriba tendientes a ejecutar los planes y programas de desarrollo econ&oacute;mico y social? &iquest;Los servicios prestados por parte de la Cooperativa a la entidad territorial est&aacute;n gravados con el Impuesto sobre las Ventas?&iquest;C&oacute;mo deben facturar ala cooperativa los contratistas para efectos del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043296-1997",
+      "tipo": "concepto",
+      "numero": "0043296",
+      "fecha": "1997-05-23",
+      "tema": "&iquest;Cuales son las obligaciones y exenciones fiscales de los sindicatos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073690-1995",
+      "tipo": "concepto",
+      "numero": "0073690",
+      "fecha": "1995-10-11",
+      "tema": "&iquest;Debe un municipio pagar el impuesto sobre las ventas a las entidades financieras, por la comisi&oacute;n de Aval en las emisiones de bonos de deuda p&uacute;blica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052075-1995",
+      "tipo": "concepto",
+      "numero": "0052075",
+      "fecha": "1995-07-26",
+      "tema": "&iquest;Se encuentra sujeto al impuesto sobre las ventas el servicio de estacionamiento en v&iacute;a p&uacute;blica, cuya autorizaci&oacute;n ha sido otorgada mediante contrato de concesi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043249-1995",
+      "tipo": "concepto",
+      "numero": "0043249",
+      "fecha": "1995-06-27",
+      "tema": "&iquest;Los materiales que se utilicen para la construcci&oacute;n de una obra p&uacute;blica se encuentran excluidos del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039487-1995",
+      "tipo": "concepto",
+      "numero": "0039487",
+      "fecha": "1995-06-12",
+      "tema": "&iquest;Son responsables del impuesto sobre las ventas las Empresas Asociativas de Trabajo, cuando presten servicio en el territorio nacional? &iquest;Son agentes retenedores las Empresas Asociativas de Trabajo? &iquest;Se encuentran exonerados de la retenci&oacute;n en la fuente, los pagos o abonos en cuenta, cuando son efectuados en favor de una Empresa Asociativa de Trabajo? &iquest;En qu&eacute; formulario deben presentar la declaraci&oacute;n de renta y complementarios, las Empresas Asociativas de Trabajo, en su calidad de contribuyentes exentos del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032259-1995",
+      "tipo": "concepto",
+      "numero": "0032259",
+      "fecha": "1995-05-19",
+      "tema": "&iquest;La venta de artesan&iacute;as fabricadas por reclusos que efect&uacute;a una entidad de derecho privado, sin &aacute;nimo de lucro, est&aacute; gravada con el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031627-1995",
+      "tipo": "concepto",
+      "numero": "0031627",
+      "fecha": "1995-05-18",
+      "tema": "&iquest;A las instituciones no contribuyentes o exentas de pagar impuestos se les debe facturar el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008489-1995",
+      "tipo": "concepto",
+      "numero": "0008489",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025472-1993",
+      "tipo": "concepto",
+      "numero": "0025472",
+      "fecha": "1993-01-01",
+      "tema": "Bienes, importaciones y servicios gravados en revisi&oacute;n tecnico mecanica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023449-1993",
+      "tipo": "concepto",
+      "numero": "0023449",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Si los grupos precooperativos, precooperativas, cooperativas de trabajo asociado, dedicados al mantenimiento rutinario de las carreteras nacionales, est&aacute;n sometidos al impuesto de ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003073-1991",
+      "tipo": "concepto",
+      "numero": "0003073",
+      "fecha": "1991-10-03",
+      "tema": "&iquest;Una asociaci&oacute;n de comunicadores sin &aacute;nimo de lucro, donde sus asociados en ratos libres o permanentemente se dedican a actividades relacionadas con las radiocomunicaciones y sus diversas manifestaciones, se debe inscribir como responsable del impuesto a las ventas y cobrar el IVA por la cuota de sostenimiento, si no se factura ning&uacute;n tipo de servicio y los gastos de administraci&oacute;n se cubren con la cuota, as&iacute; el asociado utilice o no el sistema de radiocomunicaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007485-1990",
+      "tipo": "concepto",
+      "numero": "0007485",
+      "fecha": "1990-04-02",
+      "tema": "&iquest;Una Caja, entidad descentralizada del Distrito Especial de Bogot&aacute;, celebr&oacute; un contrato de suministro de prefabricados en hierro y concreto para vivienda popular; el contratista ha solicitado el reconocimiento y pago del impuesto sobre las ventas; la entidad no posee un concepto claro sobre la oportunidad y obligatoriedad del pago de este impuesto, de acuerdo con el art&iacute;culo 60 del Decreto 3541 de 1983 y con el art&iacute;culo 98 de la Ley 9 de 1989,",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000125-1990",
+      "tipo": "concepto",
+      "numero": "0000125",
+      "fecha": "1990-01-03",
+      "tema": "&iquest;Una empresa cinematogr&aacute;fica adquiere del productor nacional o internacional el derecho de autor de que trata la Ley",
+      "vigente": true
+    }
+  ]
+}

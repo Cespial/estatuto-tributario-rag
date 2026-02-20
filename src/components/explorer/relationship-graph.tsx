@@ -288,8 +288,8 @@ export function RelationshipGraph({ data, maxNodes = 220 }: RelationshipGraphPro
           Estado del grafo
         </p>
         <p className="text-muted-foreground">
-          {graphData.nodes.length} nodos y {graphData.totalEdges} relaciones visibles.
-          Haga clic sobre un nodo para abrir su ficha.
+          Mostrando {graphData.nodes.length} de {data.nodes.length} artículos y{" "}
+          {graphData.totalEdges} relaciones visibles. Haga clic para ampliar.
         </p>
         {hoveredNode && (
           <div className="mt-2 border-t border-border/60 pt-2">

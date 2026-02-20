@@ -1,1 +1,517 @@
-{"id_articulo": "Art. 41", "titulo": "Art. 41. Componente inflacionario de rendimientos y gastos financieros.", "titulo_corto": "Componente inflacionario de rendimientos y gastos financieros.", "slug": "41", "url_origen": "https://estatuto.co/41", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*El componente inflacionario de los rendimientos y gastos financieros a que se refiere en el Artículo 40-1, Artículo 81-1 y Artículo 118 de este Estatuto, será aplicable únicamente por las personas naturales y sucesiones ilíquidas no obligadas a llevar libros de contabilidad. Los intereses, los ajustes por diferencia en cambio, así como los demás gastos financieros, en los cuales se incurra para la adquisición o construcción de activos, constituirán un mayor valor del activo hasta cuando haya concluido el proceso de puesta en marcha o tales activos se encuentren en condiciones de utilización o enajenación. Después de este momento constituirán un gasto deducible.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El componente inflacionario de los rendimientos y gastos financieros a que se refiere en el <a href=\"https://estatuto.co/40-1\" rel=\"noopener\" target=\"_blank\">Artículo 40-1</a>, <a href=\"https://estatuto.co/81-1\" rel=\"noopener\" target=\"_blank\">Artículo 81-1</a> y <a href=\"https://estatuto.co/118\" rel=\"noopener\" target=\"_blank\">Artículo 118</a> de este Estatuto, será aplicable únicamente por las personas naturales y sucesiones ilíquidas no obligadas a llevar libros de contabilidad.</p>\n<p>Los intereses, los ajustes por diferencia en cambio, así como los demás gastos financieros, en los cuales se incurra para la adquisición o construcción de activos, constituirán un mayor valor del activo hasta cuando haya concluido el proceso de puesta en marcha o tales activos se encuentren en condiciones de utilización o enajenación. Después de este momento constituirán un gasto deducible.</p>\n</span>", "modificaciones_raw": "*Reviviscencia expresa declarada por la Ley 2010 de 2019 Art 160 *Artículo Derogado Ley 1943 de 2018 Art 122 *Modificado Ley 1111 de 2006 Art 68.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "68"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1943 de 2018"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["40-1", "81-1", "118"], "referenced_by": [], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 41",
+  "titulo": "Art. 41. Componente inflacionario de rendimientos y gastos financieros.",
+  "titulo_corto": "Componente inflacionario de rendimientos y gastos financieros.",
+  "slug": "41",
+  "url_origen": "https://estatuto.co/41",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*El componente inflacionario de los rendimientos y gastos financieros a que se refiere en el Artículo 40-1, Artículo 81-1 y Artículo 118 de este Estatuto, será aplicable únicamente por las personas naturales y sucesiones ilíquidas no obligadas a llevar libros de contabilidad. Los intereses, los ajustes por diferencia en cambio, así como los demás gastos financieros, en los cuales se incurra para la adquisición o construcción de activos, constituirán un mayor valor del activo hasta cuando haya concluido el proceso de puesta en marcha o tales activos se encuentren en condiciones de utilización o enajenación. Después de este momento constituirán un gasto deducible.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El componente inflacionario de los rendimientos y gastos financieros a que se refiere en el <a href=\"https://estatuto.co/40-1\" rel=\"noopener\" target=\"_blank\">Artículo 40-1</a>, <a href=\"https://estatuto.co/81-1\" rel=\"noopener\" target=\"_blank\">Artículo 81-1</a> y <a href=\"https://estatuto.co/118\" rel=\"noopener\" target=\"_blank\">Artículo 118</a> de este Estatuto, será aplicable únicamente por las personas naturales y sucesiones ilíquidas no obligadas a llevar libros de contabilidad.</p>\n<p>Los intereses, los ajustes por diferencia en cambio, así como los demás gastos financieros, en los cuales se incurra para la adquisición o construcción de activos, constituirán un mayor valor del activo hasta cuando haya concluido el proceso de puesta en marcha o tales activos se encuentren en condiciones de utilización o enajenación. Después de este momento constituirán un gasto deducible.</p>\n</span>",
+  "modificaciones_raw": "*Reviviscencia expresa declarada por la Ley 2010 de 2019 Art 160 *Artículo Derogado Ley 1943 de 2018 Art 122 *Modificado Ley 1111 de 2006 Art 68.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "68"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "40-1",
+    "81-1",
+    "118"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s). Jurisprudencia: 29 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14503 (2025-10-17): Impuesto sobre la Renta y Complementarios\noficio 12334 (2025-09-15): Impuesto de Timbre\noficio 10015 (2024-12-04): Impuesto sobre la Renta y Complementarios\noficio 905048 (2022-06-28): Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos\noficio 914969 (2021-12-06): Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14503-2025",
+      "tipo": "oficio",
+      "numero": "14503",
+      "fecha": "2025-10-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12334-2025",
+      "tipo": "oficio",
+      "numero": "12334",
+      "fecha": "2025-09-15",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10015-2024",
+      "tipo": "oficio",
+      "numero": "10015",
+      "fecha": "2024-12-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905048-2022",
+      "tipo": "oficio",
+      "numero": "905048",
+      "fecha": "2022-06-28",
+      "tema": "Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2020",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;A partir de qu&eacute; a&ntilde;o gravable aplica la reviviscencia expresa de que trata el inciso 3 del art&iacute;culo 160 de la Ley 2010 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26851-2019",
+      "tipo": "oficio",
+      "numero": "26851",
+      "fecha": "2019-10-24",
+      "tema": "Factura - Factura de venta o documento equivalente - Factura electr&oacute;nica en los contratos de mandato, consorcio y uniones temporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4862-2019",
+      "tipo": "oficio",
+      "numero": "4862",
+      "fecha": "2019-02-26",
+      "tema": "Ingresos por Rendimientos Financieros en lo referido a un CDT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6889-2016",
+      "tipo": "oficio",
+      "numero": "6889",
+      "fecha": "2016-03-28",
+      "tema": "Componente Inflacionario de los Costos y Gastos Financieros - Componente Inflacionario de los Rendimientos - Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28474-2015",
+      "tipo": "oficio",
+      "numero": "28474",
+      "fecha": "2015-09-29",
+      "tema": "&iquest;La exenci&oacute;n tributarla contenida en el art&iacute;culo 24 del Decreto 1877 de 2004, puede ser extendida a los FICIS y FCP, que tengan como pol&iacute;tica de inversi&oacute;n desarrollar proyectos inmobiliarios destinados a vivienda de inter&eacute;s Social-VIS, Vivienda de Inter&eacute;s Prioritario VIP y Vivienda de Inter&eacute;s Prioritario para ahorradores VIPA, considerando que dichos veh&iacute;culos de inversi&oacute;n no cuentan con regulaci&oacute;n espec&iacute;fica y no contrar&iacute;an las disposiciones de los FINMO?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7151-2015",
+      "tipo": "oficio",
+      "numero": "7151",
+      "fecha": "2015-03-06",
+      "tema": "Solicita se adicionen algunos aspectos relativos al Oficio n&uacute;mero 29006 del 13 de mayo de 2014, &iquest;El ajuste negativo resultado de la diferencia en cambio sobre una inversi&oacute;n en moneda extranjera constituye un Gasto Financiero en el periodo?&iquest;Son Deducibles en el impuesto sobre la renta y en el impuesto sobre la renta CREE, las sumas de dinero a t&iacute;tulo de gasto por diferencia en cambio cuando esta resulte negativa?&iquest;Cu&aacute;les son los casos en los que la diferencia en cambio proveniente de los ajustes de los activos y pasivos representados en moneda extranjera, no debe reconocerse como un ingreso o un gasto financiero, de acuerdo con la salvedad establecida en el inciso 1 del art&iacute;culo 102 del Decreto 2649 de 1993?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49488-2014",
+      "tipo": "oficio",
+      "numero": "49488",
+      "fecha": "2014-08-15",
+      "tema": "Vigencia Decreto 535 de 1987",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4581-2014",
+      "tipo": "oficio",
+      "numero": "4581",
+      "fecha": "2014-01-22",
+      "tema": "&iquest;Sin consideraciones de valores econ&oacute;micos y en consideraci&oacute;n de la opci&oacute;n irrevocable de compra, en un caso determinado en donde al final del contrato no se opte por la compra, cu&aacute;l ser&iacute;a el tratamiento contable y tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0098501-2009",
+      "tipo": "concepto",
+      "numero": "0098501",
+      "fecha": "2009-11-27",
+      "tema": "&iquest;El componente inflacionario de los rendimientos obtenidos por las personas naturales en las operaciones realizadas en las bolsas de bienes agropecuarias, agroindustriales y otros comodities constituye renta o ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23750-2009",
+      "tipo": "oficio",
+      "numero": "23750",
+      "fecha": "2009-03-24",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15384-2009",
+      "tipo": "oficio",
+      "numero": "15384",
+      "fecha": "2009-02-23",
+      "tema": "&iquest;Desde el punto de vista fiscal en la determinaci&oacute;n del valor patrimonial de los activos es viable registrar en d&oacute;lares todas las transacciones de los proyectos, incluidas las que se originan en pesos que por efectos de la negociaci&oacute;n se deben convertir a d&oacute;lares en la fecha del desembolso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95986-2007",
+      "tipo": "oficio",
+      "numero": "95986",
+      "fecha": "2007-11-22",
+      "tema": "Componente inflacionario, Ingresos por rendimientos financieros, Deducci&oacute;n de gastos financieros, R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63289-2007",
+      "tipo": "oficio",
+      "numero": "63289",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La utilidad por diferencia en cambio que se produce como consecuencia de la reexpresi&oacute;n de pasivos en moneda extranjera se encuentra gravada con el impuesto de renta en una empresa en liquidaci&oacute;n voluntaria y cuyos activos son suficientes para cancelar la totalidad del pasivo contratado en d&oacute;lares americanos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59867-2007",
+      "tipo": "oficio",
+      "numero": "59867",
+      "fecha": "2007-08-03",
+      "tema": "&iquest;Cu&aacute;l es le tratamiento a partir del 1&ordm; de enero de 2007 del componente inflacionario de los rendimientos, costos y gastos financieros en las sociedades obligadas a efectuar ajustes integrales por inflaci&oacute;n, ante la supresi&oacute;n total de dicho sistema?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40598-2007",
+      "tipo": "oficio",
+      "numero": "40598",
+      "fecha": "2007-01-01",
+      "tema": "Se consulta sobre la deducci&oacute;n especial del art&iacute;culo 158-3 del E.T, tema sobre el cual se le recuerda al consultante que el art&iacute;culo 8 de la Ley 1111 del 27 de diciembre de 2006",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49419-2006",
+      "tipo": "oficio",
+      "numero": "49419",
+      "fecha": "2006-06-12",
+      "tema": "&iquest;Cu&aacute;ndo un extranjero sin residencia ni domicilio en el pa&iacute;s percibe un ingreso contraprestaci&oacute;n de una compraventa de derechos patrimoniales sobre un software, se considera ese ingreso como no constitutivo de renta para el vendedor teniendo en cuenta que el software no es explotado por &eacute;l en Colombia, y que su ingreso tan solo proviene de la venta de sus derechos patrimoniales sobre el respectivo software, el cual no se entrega en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019056-2003",
+      "tipo": "concepto",
+      "numero": "0019056",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;el contribuyente puede considerar la totalidad de los rendimientos financieros como rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002959-2001",
+      "tipo": "concepto",
+      "numero": "0002959",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Para establecer la sanci&oacute;n por correcci&oacute;n de las declaraciones del IVA el responsable productor o distribuidor de licores no debe tener en cuenta los valores pagados a los Fondos de Salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069043-1999",
+      "tipo": "concepto",
+      "numero": "0069043",
+      "fecha": "1999-07-29",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-575-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "575",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-318-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "318",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-540-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

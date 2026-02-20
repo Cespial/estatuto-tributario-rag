@@ -1,1 +1,119 @@
-{"id_articulo": "Art. 101", "titulo": "Art. 101. Las sumas pagadas como renta vitalicia son deducibles.", "titulo_corto": "Las sumas pagadas como renta vitalicia son deducibles.", "slug": "101", "url_origen": "https://estatuto.co/101", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Son deducibles las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, hasta el total del reembolso del precio o capital. De allí en adelante sólo es deducible el valor de las sumas periódicas que no excedan del límite señalado en el artículo anterior.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son deducibles las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, hasta el total del reembolso del precio o capital. De allí en adelante sólo es deducible el valor de las sumas periódicas que no excedan del límite señalado en el artículo anterior.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["174"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 101",
+  "titulo": "Art. 101. Las sumas pagadas como renta vitalicia son deducibles.",
+  "titulo_corto": "Las sumas pagadas como renta vitalicia son deducibles.",
+  "slug": "101",
+  "url_origen": "https://estatuto.co/101",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Son deducibles las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, hasta el total del reembolso del precio o capital. De allí en adelante sólo es deducible el valor de las sumas periódicas que no excedan del límite señalado en el artículo anterior.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son deducibles las sumas periódicas pagadas en el año o período gravable a título de renta vitalicia, hasta el total del reembolso del precio o capital. De allí en adelante sólo es deducible el valor de las sumas periódicas que no excedan del límite señalado en el artículo anterior.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "174"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 8 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 20682 (2019-08-20): Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, aduaneros y cambiarios\noficio 9218 (2019-04-12): En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-20682-2019",
+      "tipo": "oficio",
+      "numero": "20682",
+      "fecha": "2019-08-20",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9218-2019",
+      "tipo": "oficio",
+      "numero": "9218",
+      "fecha": "2019-04-12",
+      "tema": "En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+      "vigente": true
+    }
+  ]
+}

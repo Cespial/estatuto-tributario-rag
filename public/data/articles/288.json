@@ -1,1 +1,506 @@
-{"id_articulo": "Art. 288", "titulo": "Art. 288. Ajustes por diferencia en cambio.", "titulo_corto": "Ajustes por diferencia en cambio.", "slug": "288", "url_origen": "https://estatuto.co/288", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los ingresos, costos, deducciones, activos y pasivos en moneda extranjera se medirán al momento de su reconocimiento inicial a la tasa representativa del mercado. Las fluctuaciones de las partidas del estado de situación financiera, activos y pasivos, expresadas en moneda extranjera, no tendrán efectos fiscales sino hasta el momento de la enajenación o abono en el caso de los activos, o liquidación o pago parcial en el caso de los pasivos. En los eventos de enajenación o abono, la liquidación o el pago parcial, según sea el caso, se reconocerá a la tasa representativa del mercado del reconocimiento inicial. El ingreso gravado, costo o gasto deducible en los abonos o pagos mencionados anteriormente corresponderá al que se genere por la diferencia entre la tasa representativa del mercado en el reconocimiento inicial y la tasa representativa del mercado en el momento del abono o pago.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los ingresos, costos, deducciones, activos y pasivos en moneda extranjera se medirán al momento de su reconocimiento inicial a la tasa representativa del mercado.</p>\n<p>Las fluctuaciones de las partidas del estado de situación financiera, activos y pasivos, expresadas en moneda extranjera, no tendrán efectos fiscales sino hasta el momento de la enajenación o abono en el caso de los activos, o liquidación o pago parcial en el caso de los pasivos.</p>\n<p>En los eventos de enajenación o abono, la liquidación o el pago parcial, según sea el caso, se reconocerá a la tasa representativa del mercado del reconocimiento inicial.</p>\n<p>El ingreso gravado, costo o gasto deducible en los abonos o pagos mencionados anteriormente corresponderá al que se genere por la diferencia entre la tasa representativa del mercado en el reconocimiento inicial y la tasa representativa del mercado en el momento del abono o pago.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 123.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "123"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["59", "291"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 288",
+  "titulo": "Art. 288. Ajustes por diferencia en cambio.",
+  "titulo_corto": "Ajustes por diferencia en cambio.",
+  "slug": "288",
+  "url_origen": "https://estatuto.co/288",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los ingresos, costos, deducciones, activos y pasivos en moneda extranjera se medirán al momento de su reconocimiento inicial a la tasa representativa del mercado. Las fluctuaciones de las partidas del estado de situación financiera, activos y pasivos, expresadas en moneda extranjera, no tendrán efectos fiscales sino hasta el momento de la enajenación o abono en el caso de los activos, o liquidación o pago parcial en el caso de los pasivos. En los eventos de enajenación o abono, la liquidación o el pago parcial, según sea el caso, se reconocerá a la tasa representativa del mercado del reconocimiento inicial. El ingreso gravado, costo o gasto deducible en los abonos o pagos mencionados anteriormente corresponderá al que se genere por la diferencia entre la tasa representativa del mercado en el reconocimiento inicial y la tasa representativa del mercado en el momento del abono o pago.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los ingresos, costos, deducciones, activos y pasivos en moneda extranjera se medirán al momento de su reconocimiento inicial a la tasa representativa del mercado.</p>\n<p>Las fluctuaciones de las partidas del estado de situación financiera, activos y pasivos, expresadas en moneda extranjera, no tendrán efectos fiscales sino hasta el momento de la enajenación o abono en el caso de los activos, o liquidación o pago parcial en el caso de los pasivos.</p>\n<p>En los eventos de enajenación o abono, la liquidación o el pago parcial, según sea el caso, se reconocerá a la tasa representativa del mercado del reconocimiento inicial.</p>\n<p>El ingreso gravado, costo o gasto deducible en los abonos o pagos mencionados anteriormente corresponderá al que se genere por la diferencia entre la tasa representativa del mercado en el reconocimiento inicial y la tasa representativa del mercado en el momento del abono o pago.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 123.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "123"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "59",
+    "291"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 28 concepto(s) relacionado(s). Jurisprudencia: 6 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 8717 (2024-04-29): Impuesto sobre la Renta y Complementarios\noficio 7933 (2024-10-18): Impuesto sobre la Renta y Complementarios\noficio 6363 (2023-05-29): (Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8717-2024",
+      "tipo": "oficio",
+      "numero": "8717",
+      "fecha": "2024-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7933-2024",
+      "tipo": "oficio",
+      "numero": "7933",
+      "fecha": "2024-10-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6363-2023",
+      "tipo": "oficio",
+      "numero": "6363",
+      "fecha": "2023-05-29",
+      "tema": "(Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16226-2025",
+      "tipo": "oficio",
+      "numero": "16226",
+      "fecha": "2025-11-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15669-2025",
+      "tipo": "oficio",
+      "numero": "15669",
+      "fecha": "2025-11-11",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10065-2024",
+      "tipo": "oficio",
+      "numero": "10065",
+      "fecha": "2024-12-04",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10015-2024",
+      "tipo": "oficio",
+      "numero": "10015",
+      "fecha": "2024-12-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9547-2024",
+      "tipo": "oficio",
+      "numero": "9547",
+      "fecha": "2024-11-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8659-2024",
+      "tipo": "oficio",
+      "numero": "8659",
+      "fecha": "2024-11-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8260-2024",
+      "tipo": "oficio",
+      "numero": "8260",
+      "fecha": "2024-10-24",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4516-2024",
+      "tipo": "oficio",
+      "numero": "4516",
+      "fecha": "2024-07-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5224-2023",
+      "tipo": "oficio",
+      "numero": "5224",
+      "fecha": "2023-09-13",
+      "tema": "(Int 974) Impuesto de renta y complementarios - Contratos de concesi&oacute;n - Ingreso por diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908569-2022",
+      "tipo": "oficio",
+      "numero": "908569",
+      "fecha": "2022-11-24",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906162-2022",
+      "tipo": "oficio",
+      "numero": "906162",
+      "fecha": "2022-08-10",
+      "tema": "Procedimiento tributario - Sistema de facturaci&oacute;n electr&oacute;nica Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura electr&oacute;nica de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904512-2022",
+      "tipo": "oficio",
+      "numero": "904512",
+      "fecha": "2022-06-09",
+      "tema": "- (Tributario) Impuesto sobre la renta - Diferencia en cambio - criptoactivos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-904122-2022",
+      "tipo": "oficio",
+      "numero": "904122",
+      "fecha": "2022-05-24",
+      "tema": "Factura electr&oacute;nica de venta Requisitos de moneda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900962-2022",
+      "tipo": "oficio",
+      "numero": "900962",
+      "fecha": "2022-02-08",
+      "tema": "Impuesto sobre la renta y complementarios - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910510-2021",
+      "tipo": "oficio",
+      "numero": "910510",
+      "fecha": "2021-09-23",
+      "tema": "Inversiones en el exterior, Convenio entre Canada y la Rep&uacute;blica de Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909039-2021",
+      "tipo": "oficio",
+      "numero": "909039",
+      "fecha": "2021-09-01",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907958-2021",
+      "tipo": "oficio",
+      "numero": "907958",
+      "fecha": "2021-08-10",
+      "tema": "Activos en moneda extranjera - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906712-2021",
+      "tipo": "oficio",
+      "numero": "906712",
+      "fecha": "2021-07-07",
+      "tema": "Diferencia en cambio, para efectos fiscales, para pagos realizados al exterior desde una cuenta de compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904102-2021",
+      "tipo": "oficio",
+      "numero": "904102",
+      "fecha": "2021-05-07",
+      "tema": "Entidades Controladas del Exterior Reconocimiento del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1394-2020",
+      "tipo": "oficio",
+      "numero": "1394",
+      "fecha": "2020-01-24",
+      "tema": "Efectos tributarios de un pr&eacute;stamo de libre inversi&oacute;n obtenido en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0779-2019",
+      "tipo": "oficio",
+      "numero": "0779",
+      "fecha": "2019-04-05",
+      "tema": "(Int 779) Ajustes por diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28569-2019",
+      "tipo": "oficio",
+      "numero": "28569",
+      "fecha": "2019-11-18",
+      "tema": "Retenci&oacute;n en la Fuente a Titulo del Impuesto Sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26742-2019",
+      "tipo": "oficio",
+      "numero": "26742",
+      "fecha": "2019-10-23",
+      "tema": "Capitalizaciones. Ajustes por diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24704-2019",
+      "tipo": "oficio",
+      "numero": "24704",
+      "fecha": "2019-09-30",
+      "tema": "Exportaciones exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21321-2019",
+      "tipo": "oficio",
+      "numero": "21321",
+      "fecha": "2019-08-28",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7610-2019",
+      "tipo": "oficio",
+      "numero": "7610",
+      "fecha": "2019-03-27",
+      "tema": "Bajo normas internacionales NIIF es aplicable el registro del ingreso sin factura en el periodo 2018, donde tambi&eacute;n quedaron registrados los costos asociados estos ingresos?&iquest;Fiscalmente debo reconocer los costos en renta y no debo reconocer el ingreso que no se factur&oacute;, s&oacute;lo est&aacute; reconocido para NIIF y s&oacute;lo reconocerlo en renta en el a&ntilde;o 2019?&iquest;Los impuestos de estos ingresos registrados sin factura en el per&iacute;odo 2018 (IVA y Rte. f&iacute;e.), se deben reconocer &uacute;nicamente en el siguiente per&iacute;odo donde se emite la factura f&iacute;sica, es decir en el a&ntilde;o 2019?&iquest;Si es aceptable un informe financiero que difiere del fiscal, como ser&iacute;a el tratamiento para medios magn&eacute;ticos, debo informarlo s&oacute;lo en el siguiente per&iacute;odo 2019 cuando esta la factura legal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7157-2019",
+      "tipo": "oficio",
+      "numero": "7157",
+      "fecha": "2019-03-22",
+      "tema": "Una sociedad cuyo patrimonio l&iacute;quido fue negativo en el a&ntilde;o gravable 2017 producto de los pasivos acumulados con la casa matriz en el exterior, capitaliza dichas obligaciones en el a&ntilde;o gravable 2018, &iquest;En la declaraci&oacute;n de renta del a&ntilde;o gravable 2018, qu&eacute; tratamiento tiene la diferencia en cambio que resulta de la capitalizaci&oacute;n de pasivos acumulados durante varios a&ntilde;os? &iquest;La disminuci&oacute;n de pasivos y por ende el aumento en el patrimonio l&iacute;quido, resultado de la capitalizaci&oacute;n de las deudas con la casa matriz en el exterior, qu&eacute; efectos tiene en la renta por comparaci&oacute;n patrimonial, toda vez que se constituye en incremento del capital social de la empresa en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6471-2019",
+      "tipo": "oficio",
+      "numero": "6471",
+      "fecha": "2019-03-14",
+      "tema": "Autorretenci&oacute;n sobre ajustes por la diferencia en cambio para las entidades financieras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1120-2019",
+      "tipo": "oficio",
+      "numero": "1120",
+      "fecha": "2019-01-15",
+      "tema": "&iquest;Una persona natural no obligada a llevar contabilidad que posee en su patrimonio inversiones en sociedades extranjeras le aplica, para efecto de presentar sus declaraciones de Renta y de activos en el exterior, el r&eacute;gimen de transici&oacute;n por los ajustes de diferencia en cambio contemplado en el literal a y b del numeral 2 del art&iacute;culo 291 del E. T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33632-2018",
+      "tipo": "oficio",
+      "numero": "33632",
+      "fecha": "2018-11-19",
+      "tema": "Aplicaci&oacute;n de la autorretenci&oacute;n a t&iacute;tulo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24136-2018",
+      "tipo": "oficio",
+      "numero": "24136",
+      "fecha": "2018-08-30",
+      "tema": "&iquest;Los resultados de la diferencia en cambio derivados de la suscripci&oacute;n de un contrato de arrendamiento financiero en d&oacute;lares, de equipo fluvial, para la prestaci&oacute;n de servicios de transportes fluvial, deber&iacute;an ser considerados dentro de la depuraci&oacute;n para la determinaci&oacute;n de la renta exenta fluvial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10937-2018",
+      "tipo": "oficio",
+      "numero": "10937",
+      "fecha": "2018-04-27",
+      "tema": "Autorretenci&oacute;n y retenci&oacute;n en la fuente sobre ingresos por diferencia en cambio-procedencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8230-2018",
+      "tipo": "oficio",
+      "numero": "8230",
+      "fecha": "2018-03-28",
+      "tema": "&iquest;Diferencia en cambio para el efectivo: Deber&iacute;a entenderse siempre realizado y permitirse a TRM de cierre, ya que se presentan inconvenientes por las distintas entradas y salidas de divisas, que estar&iacute;an a distintas tasas, lo que en la pr&aacute;ctica har&iacute;a que se lleve una especie de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1829-2018",
+      "tipo": "oficio",
+      "numero": "1829",
+      "fecha": "2018-10-17",
+      "tema": "Contratos por servicios de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0289-2018",
+      "tipo": "oficio",
+      "numero": "0289",
+      "fecha": "2018-03-06",
+      "tema": "Determinaci&oacute;n de la renta gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22223-2017",
+      "tipo": "oficio",
+      "numero": "22223",
+      "fecha": "2017-08-17",
+      "tema": "Causaci&oacute;n del Impuesto Sobre las Ventas - Causaci&oacute;n del Ingreso - Causaci&oacute;n de los Costos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6248-2017",
+      "tipo": "oficio",
+      "numero": "6248",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Subcapitalizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6232-2017",
+      "tipo": "oficio",
+      "numero": "6232",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Ajuste por Diferencias en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5090-2017",
+      "tipo": "oficio",
+      "numero": "5090",
+      "fecha": "2017-03-11",
+      "tema": "Conceptos que deben incluirse para efectos de la autorretenci&oacute;n reglamentada por el Decreto n&uacute;mero 2201 de 2016. En particular, si se debe incluir en la base para liquidar los ingresos, los que correspondan a ingresos por diferencia en cambio de ajuste de inversiones, el reintegro de gastos y las incapacidades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2568-2017",
+      "tipo": "oficio",
+      "numero": "2568",
+      "fecha": "2017-05-24",
+      "tema": "&iquest;Es aplicable el numeral 2) literal a) y b) del art&iacute;culo 291 del E.T. para la determinaci&oacute;n del valor patrimonial de inversiones en moneda extranjera, en acciones o participaciones en sociedades extranjeras que no se enajenen dentro del giro ordinario del negocio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45542-2014",
+      "tipo": "oficio",
+      "numero": "45542",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Retenci&oacute;n en la fuente - Procedimiento Tributario",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ]
+}

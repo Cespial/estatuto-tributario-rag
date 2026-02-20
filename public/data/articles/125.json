@@ -1,1 +1,739 @@
-{"id_articulo": "Art. 125", "titulo": "Art. 125. Incentivo a la donación del sector privado en la red nacional de bibliotecas públicas y biblioteca nacional.", "titulo_corto": "Incentivo a la donación del sector privado en la red nacional de bibliotecas públicas y biblioteca nacional.", "slug": "125", "url_origen": "https://estatuto.co/125", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*Las personas jurídicas obligadas al pago del impuesto sobre la renta por el ejercicio de cualquier tipo de actividad, que realicen donaciones de dinero para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas y de la Biblioteca Nacional también tendrán derecho a deducir el ciento por ciento (100%) del valor real donado para efectos de calcular el impuesto sobre la renta a su cargo correspondiente al período gravable en que se realice la donación. Este incentivo solo será aplicable, previa verificación del valor de la donación y aprobación del Ministerio de Cultura. En el caso de las bibliotecas públicas municipales, distritales o departamentales se requerirá la previa aprobación del Ministerio de Cultura y de la autoridad territorial correspondiente. Para los efectos anteriores, se constituirá un fondo cuenta sin personería jurídica, al que ingresarán los recursos materia de estas donaciones. Dicho fondo será administrado por el Ministerio de Cultura mediante un encargo fiduciario, y no requerirá situación de fondos en materia presupuestal. En caso de que el donante defina la destinación de la donación, si se acepta por el Ministerio de Cultura de conformidad con las políticas y reglamentaciones establecidas en materia de bibliotecas públicas, tal destinación será inmodificable. Estas donaciones darán derecho a un Certificado de Donación Bibliotecaria que será un título valor a la orden transferible por el donante y el cual se emitirá por el Ministerio de Cultura sobre el año en que efectivamente se haga la donación. El monto del incentivo podrá amortizarse en un término de cinco (5) años desde la fecha de la donación. Igual beneficio tendrán los donantes de acervos bibliotecarios, recursos informáticos y en general recursos bibliotecarios, previo avalúo de los respectivos bienes, según reglamentación del Ministerio de Cultura. Para los efectos previstos en este artículo podrán acordarse con el respectivo donante, modalidades de divulgación pública de su participación.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Las personas jurídicas obligadas al pago del impuesto sobre la renta por el ejercicio de cualquier tipo de actividad, que realicen donaciones de dinero para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas y de la Biblioteca Nacional también tendrán derecho a deducir el ciento por ciento (100%) del valor real donado para efectos de calcular el impuesto sobre la renta a su cargo correspondiente al período gravable en que se realice la donación.</p>\n<p>Este incentivo solo será aplicable, previa verificación del valor de la donación y aprobación del Ministerio de Cultura. En el caso de las bibliotecas públicas municipales, distritales o departamentales se requerirá la previa aprobación del Ministerio de Cultura y de la autoridad territorial correspondiente.</p>\n<p>Para los efectos anteriores, se constituirá un fondo cuenta sin personería jurídica, al que ingresarán los recursos materia de estas donaciones. Dicho fondo será administrado por el Ministerio de Cultura mediante un encargo fiduciario, y no requerirá situación de fondos en materia presupuestal.</p>\n<p>En caso de que el donante defina la destinación de la donación, si se acepta por el Ministerio de Cultura de conformidad con las políticas y reglamentaciones establecidas en materia de bibliotecas públicas, tal destinación será inmodificable.</p>\n<p>Estas donaciones darán derecho a un Certificado de Donación Bibliotecaria que será un título valor a la orden transferible por el donante y el cual se emitirá por el Ministerio de Cultura sobre el año en que efectivamente se haga la donación. El monto del incentivo podrá amortizarse en un término de cinco (5) años desde la fecha de la donación.</p>\n<p>Igual beneficio tendrán los donantes de acervos bibliotecarios, recursos informáticos y en general recursos bibliotecarios, previo avalúo de los respectivos bienes, según reglamentación del Ministerio de Cultura.</p>\n<p>Para los efectos previstos en este artículo podrán acordarse con el respectivo donante, modalidades de divulgación pública de su participación.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 75. **Parágrafo adicionado por la Ley 1379 2010 Art. 40.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "75"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 488 de 1998", "Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["-Ley 1286 2009, Creación del Consejo Nacional de Beneficios Tributarios en Ciencia Tecnología e Innovación. -Cpto 31848 2010 El límite del 30% señalado en el inciso 2° del artículo 125 del Estatuto Tributario, no es aplicable respecto de las donaciones realizadas para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas."]}, "total_normas": 1, "cross_references": [], "referenced_by": ["125-4", "126-2", "257"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 125",
+  "titulo": "Art. 125. Incentivo a la donación del sector privado en la red nacional de bibliotecas públicas y biblioteca nacional.",
+  "titulo_corto": "Incentivo a la donación del sector privado en la red nacional de bibliotecas públicas y biblioteca nacional.",
+  "slug": "125",
+  "url_origen": "https://estatuto.co/125",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*Las personas jurídicas obligadas al pago del impuesto sobre la renta por el ejercicio de cualquier tipo de actividad, que realicen donaciones de dinero para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas y de la Biblioteca Nacional también tendrán derecho a deducir el ciento por ciento (100%) del valor real donado para efectos de calcular el impuesto sobre la renta a su cargo correspondiente al período gravable en que se realice la donación. Este incentivo solo será aplicable, previa verificación del valor de la donación y aprobación del Ministerio de Cultura. En el caso de las bibliotecas públicas municipales, distritales o departamentales se requerirá la previa aprobación del Ministerio de Cultura y de la autoridad territorial correspondiente. Para los efectos anteriores, se constituirá un fondo cuenta sin personería jurídica, al que ingresarán los recursos materia de estas donaciones. Dicho fondo será administrado por el Ministerio de Cultura mediante un encargo fiduciario, y no requerirá situación de fondos en materia presupuestal. En caso de que el donante defina la destinación de la donación, si se acepta por el Ministerio de Cultura de conformidad con las políticas y reglamentaciones establecidas en materia de bibliotecas públicas, tal destinación será inmodificable. Estas donaciones darán derecho a un Certificado de Donación Bibliotecaria que será un título valor a la orden transferible por el donante y el cual se emitirá por el Ministerio de Cultura sobre el año en que efectivamente se haga la donación. El monto del incentivo podrá amortizarse en un término de cinco (5) años desde la fecha de la donación. Igual beneficio tendrán los donantes de acervos bibliotecarios, recursos informáticos y en general recursos bibliotecarios, previo avalúo de los respectivos bienes, según reglamentación del Ministerio de Cultura. Para los efectos previstos en este artículo podrán acordarse con el respectivo donante, modalidades de divulgación pública de su participación.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Las personas jurídicas obligadas al pago del impuesto sobre la renta por el ejercicio de cualquier tipo de actividad, que realicen donaciones de dinero para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas y de la Biblioteca Nacional también tendrán derecho a deducir el ciento por ciento (100%) del valor real donado para efectos de calcular el impuesto sobre la renta a su cargo correspondiente al período gravable en que se realice la donación.</p>\n<p>Este incentivo solo será aplicable, previa verificación del valor de la donación y aprobación del Ministerio de Cultura. En el caso de las bibliotecas públicas municipales, distritales o departamentales se requerirá la previa aprobación del Ministerio de Cultura y de la autoridad territorial correspondiente.</p>\n<p>Para los efectos anteriores, se constituirá un fondo cuenta sin personería jurídica, al que ingresarán los recursos materia de estas donaciones. Dicho fondo será administrado por el Ministerio de Cultura mediante un encargo fiduciario, y no requerirá situación de fondos en materia presupuestal.</p>\n<p>En caso de que el donante defina la destinación de la donación, si se acepta por el Ministerio de Cultura de conformidad con las políticas y reglamentaciones establecidas en materia de bibliotecas públicas, tal destinación será inmodificable.</p>\n<p>Estas donaciones darán derecho a un Certificado de Donación Bibliotecaria que será un título valor a la orden transferible por el donante y el cual se emitirá por el Ministerio de Cultura sobre el año en que efectivamente se haga la donación. El monto del incentivo podrá amortizarse en un término de cinco (5) años desde la fecha de la donación.</p>\n<p>Igual beneficio tendrán los donantes de acervos bibliotecarios, recursos informáticos y en general recursos bibliotecarios, previo avalúo de los respectivos bienes, según reglamentación del Ministerio de Cultura.</p>\n<p>Para los efectos previstos en este artículo podrán acordarse con el respectivo donante, modalidades de divulgación pública de su participación.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 75. **Parágrafo adicionado por la Ley 1379 2010 Art. 40.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "75"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 488 de 1998",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "-Ley 1286 2009, Creación del Consejo Nacional de Beneficios Tributarios en Ciencia Tecnología e Innovación. -Cpto 31848 2010 El límite del 30% señalado en el inciso 2° del artículo 125 del Estatuto Tributario, no es aplicable respecto de las donaciones realizadas para la construcción, dotación o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas Públicas."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [
+    "125-4",
+    "126-2",
+    "257"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 14 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14499 (2025-10-17): Otros Temas\noficio 2480 (2025-02-26): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14499-2025",
+      "tipo": "oficio",
+      "numero": "14499",
+      "fecha": "2025-10-17",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2480-2025",
+      "tipo": "oficio",
+      "numero": "2480",
+      "fecha": "2025-02-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25113-2019",
+      "tipo": "oficio",
+      "numero": "25113",
+      "fecha": "2019-10-04",
+      "tema": "&iquest;Cu&aacute;les son los beneficios tributarios a los que pueden acceder los actores dentro de la cadena de suministro de alimentos, relacionadas directa o indirectamente con el sector de los alimentos, que realicen la entrega a t&iacute;tulo gratuito de alimentos en los t&eacute;rminos del par&aacute;grafo 1 del art&iacute;culo 8 y el par&aacute;grafo 1 del art&iacute;culo 10 de la Ley 1990 de 2019?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24025-2019",
+      "tipo": "oficio",
+      "numero": "24025",
+      "fecha": "2019-09-23",
+      "tema": "Entidades no contribuyentes declarantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1782-2018",
+      "tipo": "oficio",
+      "numero": "1782",
+      "fecha": "2018-10-08",
+      "tema": "Deducci&oacute;n por Donaciones a la Red Nacional de Bibliotecas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1202-2018",
+      "tipo": "oficio",
+      "numero": "1202",
+      "fecha": "2018-01-18",
+      "tema": "Porcentaje que puede pedir una fundaci&oacute;n sin &aacute;nimo de lucro para el correspondiente certificado de donaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34117-2017",
+      "tipo": "oficio",
+      "numero": "34117",
+      "fecha": "2017-12-21",
+      "tema": "Beneficios tributarios asociados a las donaciones que se realicen a las entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28731-2017",
+      "tipo": "oficio",
+      "numero": "28731",
+      "fecha": "2017-10-23",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento y-o beneficio tributario para los aportes realizados por terceros (patrocinadores) al programa social complementario de protecci&oacute;n para la vejez denominado beneficios econ&oacute;micos peri&oacute;dicos -BEPS, programa que es administrado por COLPENSIONES?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23843-2017",
+      "tipo": "oficio",
+      "numero": "23843",
+      "fecha": "2017-09-01",
+      "tema": "Beneficios Tributarios a la Donaci&oacute;n o Inversi&oacute;n en Producci&oacute;n Cinematogr&aacute;fica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23106-2017",
+      "tipo": "oficio",
+      "numero": "23106",
+      "fecha": "2017-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21911-2017",
+      "tipo": "oficio",
+      "numero": "21911",
+      "fecha": "2017-08-16",
+      "tema": "Cu&aacute;les son los requisitos legales y contables para que un privado pueda obtener el beneficio de la donaci&oacute;n (acorde con la &uacute;ltima reforma tributaria) por donar recursos a un Patrimonio Aut&oacute;nomo de creaci&oacute;n legal cuyo fideicomitente sea una entidad de car&aacute;cter p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9670-2017",
+      "tipo": "oficio",
+      "numero": "9670",
+      "fecha": "2017-04-25",
+      "tema": "Exenci&oacute;n en las Entidades sin &aacute;nimo de Lucro por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7131-2017",
+      "tipo": "oficio",
+      "numero": "7131",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Cu&aacute;les son las responsabilidades que actualmente tienen las IGLESIAS en Colombia para con la DIAN? &iquest;Cu&aacute;l es la periodicidad con que deben presentar los respectivos documentos, resultado de esas responsabilidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28970-2016",
+      "tipo": "oficio",
+      "numero": "28970",
+      "fecha": "2016-10-18",
+      "tema": "Determinaci&oacute;n de egresos procedentes por adquisici&oacute;n de activos fijos del impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8141-2016",
+      "tipo": "oficio",
+      "numero": "8141",
+      "fecha": "2016-04-12",
+      "tema": "Impuesto sobre la renta - Deducci&oacute;n por donaciones - requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5725-2016",
+      "tipo": "oficio",
+      "numero": "5725",
+      "fecha": "2016-03-15",
+      "tema": "&iquest;A qu&eacute; beneficios tributarios tiene derecho un grupo empresarial que crea una fundaci&oacute;n sin &aacute;nimo de lucro, por contribuir de manera favorable al desarrollo social de diferentes sectores de la poblaci&oacute;n? - &iquest;Existe alg&uacute;n organismo o ente de verificaci&oacute;n de las actividades que realiza la fundaci&oacute;n sin &aacute;nimo de lucro, para la obtenci&oacute;n de los beneficios tributarios que tiene el grupo empresarial por crear la mencionada entidad? - &iquest;El incumplimiento de la actividad misional por la cual fue creada una fundaci&oacute;n es objeto de sanci&oacute;n, y existe la obligaci&oacute;n de reparar a los beneficiarios del sector social que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3672-2016",
+      "tipo": "oficio",
+      "numero": "3672",
+      "fecha": "2016-02-25",
+      "tema": "Impuesto a la renta - Donaciones a clubes promotores del deporte",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0460-2016",
+      "tipo": "oficio",
+      "numero": "0460",
+      "fecha": "2016-06-01",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32338-2015",
+      "tipo": "oficio",
+      "numero": "32338",
+      "fecha": "2015-11-07",
+      "tema": "Impuesto sobre la renta - Deducci&oacute;n por Donaciones - Entidades donatarias Fuentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1931-2015",
+      "tipo": "oficio",
+      "numero": "1931",
+      "fecha": "2015-01-26",
+      "tema": "Impuesto sobre la Renta y Complementarios - Deducci&oacute;n por Donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66790-2014",
+      "tipo": "oficio",
+      "numero": "66790",
+      "fecha": "2014-12-18",
+      "tema": "Impuesto sobre la renta - Deducci&oacute;n por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60389-2014",
+      "tipo": "oficio",
+      "numero": "60389",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;La remisi&oacute;n o condonaci&oacute;n de una deuda por parte de un acreedor a una entidad sin &aacute;nimo de lucro, tiene los mismos efectos de las donaciones referidas en los art&iacute;culos 125 y s.s. del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58755-2014",
+      "tipo": "oficio",
+      "numero": "58755",
+      "fecha": "2014-10-15",
+      "tema": "Inversiones o actividades mineras deducci&oacute;n renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54564-2014",
+      "tipo": "oficio",
+      "numero": "54564",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;A las donaciones a entidades sin &aacute;nimo de lucro se les aplica el art&iacute;culo 125 del Estatuto Tributario, o el art&iacute;culo 126 - 2 del mismo Estatuto (inciso tercero adicionado por la ley 181 de 1995, art&iacute;culo 76)?&iquest;esto es a elecci&oacute;n del donante o de la entidad donataria? &iquest;Cu&aacute;l es el reconocimiento o la autoridad competente para otorgar reconocimientos a las entidades sin &aacute;nimo de lucro, cuando se da aplicaci&oacute;n al art&iacute;culo 126-2 citado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39503-2014",
+      "tipo": "oficio",
+      "numero": "39503",
+      "fecha": "2014-07-04",
+      "tema": "Incentivos fiscales que existen para el sector salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13768-2014",
+      "tipo": "oficio",
+      "numero": "13768",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Es viable jur&iacute;dicamente reducir el valor del impuesto sobre la renta y complementarios mediante donaciones a entidades sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76502-2013",
+      "tipo": "oficio",
+      "numero": "76502",
+      "fecha": "2013-11-27",
+      "tema": "Donaciones a los bancos de alimentos - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45332-2013",
+      "tipo": "oficio",
+      "numero": "45332",
+      "fecha": "2013-07-23",
+      "tema": "Importaciones donadas a asociaciones de municipios, importaciones efectuadas por asociaciones de municipios - Deducci&oacute;n de renta por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-42971-2013",
+      "tipo": "oficio",
+      "numero": "42971",
+      "fecha": "2013-07-12",
+      "tema": "&iquest;La deducci&oacute;n contenida en el art&iacute;culo 6 de la Ley 1536 de 2012 es una deducci&oacute;n o un descuento, en consideraci&oacute;n a que el legislador en la norma en cita dispuso que la deducci&oacute;n se efectuar&aacute; del impuesto de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16777-2013",
+      "tipo": "oficio",
+      "numero": "16777",
+      "fecha": "2013-03-20",
+      "tema": "&iquest;Puede considerarse como donaci&oacute;n susceptible de acceder a los beneficios consagrados en el art&iacute;culo 125 y siguientes del Estatuto Tributario, la presentaci&oacute;n gratuita de publicidad radial de una entidad p&uacute;blica del sector descentralizado del orden nacional, por parte de emisoras radiales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6474-2013",
+      "tipo": "oficio",
+      "numero": "6474",
+      "fecha": "2013-02-04",
+      "tema": "Deducci&oacute;n por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80826-2012",
+      "tipo": "oficio",
+      "numero": "80826",
+      "fecha": "2012-12-28",
+      "tema": "&iquest;El certificado de donaci&oacute;n bibliotecaria (T&iacute;tulo valor a la orden transferible por el donante) contemplado en el art&iacute;culo 40 de la Ley 1379 de 2010 que adicion&oacute; un par&aacute;grafo al art&iacute;culo 125 del Estatuto Tributario, reglamentado por el art&iacute;culo 8 del Decreto 2907 de 2010 procede tanto para las donaciones realizadas en dinero, como para las donaciones en especie de acervos bibliotecarios, teniendo en cuenta que el inciso 7 del art&iacute;culo 40 de la Ley 1379 establece que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72479-2011",
+      "tipo": "oficio",
+      "numero": "72479",
+      "fecha": "2011-09-20",
+      "tema": "&iquest;Para efectos de la deducci&oacute;n por donaciones, las entidades extranjeras sin &aacute;nimo de lucro deben cumplir con los mismos requisitos que el Estatuto Tributario dispone para las entidades nacionales sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0520-2011",
+      "tipo": "oficio",
+      "numero": "0520",
+      "fecha": "2011-01-06",
+      "tema": "Solicita la reconsideraci&oacute;n de la respuesta dada al primer problema jur&iacute;dico del Oficio No. 003358 del 24 de enero de 2005, en el cual se concluy&oacute;, con base en el Concepto No. 069072 del 21 de julio de 2000, que una donaci&oacute;n es deducible si se cumple adem&aacute;s de los requisitos se&ntilde;alados en los art&iacute;culos 125-1 a 125-4 del Estatuto Tributario, con el previsto por el art&iacute;culo 1o del Decreto 1712 de 1989, que modific&oacute; el art&iacute;culo 1458 del C&oacute;digo Civil, en cuanto se cumplan los presupuestos all&iacute; establecidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031848-2010",
+      "tipo": "concepto",
+      "numero": "0031848",
+      "fecha": "2010-05-05",
+      "tema": "&iquest;Debe observarse el l&iacute;mite del 30% de que trata el inciso segundo del art&iacute;culo 125 del Estatuto Tributario respecto de las donaciones realizadas para la construcci&oacute;n, dotaci&oacute;n o mantenimiento de bibliotecas de la Red Nacional de Bibliotecas P&uacute;blicas a que se refiere el art&iacute;culo 40 de la Ley 1379 de enero 15 de 2010?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3358-2010",
+      "tipo": "oficio",
+      "numero": "3358",
+      "fecha": "2010-01-24",
+      "tema": "&iquest;Para que una donaci&oacute;n sea deducible se debe cumplir con el requisito se&ntilde;alado por el art&iacute;culo 1o del Decreto 1712 de 1989, que modific&oacute; el art&iacute;culo 1458 del C&oacute;digo Civil, o este requisito fue sustituido por el art&iacute;culo 125 del Estatuto Tributario y en caso de ser obligatorio quienes deben allanarse a su cumplimiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28419-2009",
+      "tipo": "oficio",
+      "numero": "28419",
+      "fecha": "2009-04-07",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23750-2009",
+      "tipo": "oficio",
+      "numero": "23750",
+      "fecha": "2009-03-24",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23665-2008",
+      "tipo": "oficio",
+      "numero": "23665",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Las donaciones que realicen las empresas suizas al Fondo Cultural Suizo se puedan deducir en la determinaci&oacute;n del impuesto sobre la renta por parte de los donantes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0090700-2007",
+      "tipo": "concepto",
+      "numero": "0090700",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los contribuyentes que efect&uacute;en donanciones al Comit&eacute; Ol&iacute;mpico Colombiano, tienen derecho a deducir de la renta el 125% del valor de la donaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32693-2007",
+      "tipo": "oficio",
+      "numero": "32693",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Es deducible en la declaraci&oacute;n de renta de un contribuyente persona jur&iacute;dica, la donaci&oacute;n efectuada mediante autorizaci&oacute;n de la asamblea de accionistas, cumpliendo los requisitos establecidos en los art&iacute;culos 125 a 125-4 del Estatuto Tributario, la cual afecta directamente las utilidades retenidas en el patrimonio de la empresa, sin registrarse como gasto en el estado de resultados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91291-2006",
+      "tipo": "oficio",
+      "numero": "91291",
+      "fecha": "2006-10-25",
+      "tema": "Solicita saber cu&aacute;l es el criterio de &eacute;ste despacho respecto de las normas objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073040-2006",
+      "tipo": "concepto",
+      "numero": "0073040",
+      "fecha": "2006-08-29",
+      "tema": "&iquest;Se requiere que el car&aacute;cter cient&iacute;fico, tecnol&oacute;gico o de innovaci&oacute;n tecnol&oacute;gica de los proyectos sea previamente calificado o aprobado por el organismo competente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029193-2006",
+      "tipo": "concepto",
+      "numero": "0029193",
+      "fecha": "2006-04-07",
+      "tema": "&iquest;Constituye un egreso procedente en la determinaci&oacute;n del beneficio neto o excedente de una entidad del R&eacute;gimen Tributario especial, la donaci&oacute;n efectuada a una entidad sin &aacute;nimo de lucro que se encuentra domiciliada en el exterior, que desarrolla actividades y programas a las que se refiere el numeral 1&ordm; del art&iacute;culo 19 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11041-2006",
+      "tipo": "oficio",
+      "numero": "11041",
+      "fecha": "2006-02-07",
+      "tema": "&iquest; Las transferencias que haga una Alcald&iacute;a a una Empresa Industrial y Comercial del Municipio se encuentran gravadas con el impuesto de renta, o si por estar aquellas destinadas a brindar soluciones de vivienda a la comunidad, cuentan con alguna exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84746-2005",
+      "tipo": "oficio",
+      "numero": "84746",
+      "fecha": "2005-11-16",
+      "tema": "&iquest;El desarrollo normativo contenido en el Decreto Reglamentario 352 de 2004 y la Resoluci&oacute;n 1292 de 2004, respecto de la ley 814 de 2003, esta acorde con lo requerido en el Concepto 081322 de diciembre 23 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025646-2005",
+      "tipo": "concepto",
+      "numero": "0025646",
+      "fecha": "2005-05-04",
+      "tema": "&iquest;Cu&aacute;ndo son concurrentes las deducciones por donaci&oacute;n e inversi&oacute;n, cu&aacute;l es la base, para el c&aacute;lculo de una y otra? &iquest;El diligenciamiento err&oacute;neo y el no diligenciamiento del c&oacute;digo del municipio, son causales para tener como no presentada una declaraci&oacute;n tributaria ?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085318-2004",
+      "tipo": "concepto",
+      "numero": "0085318",
+      "fecha": "2004-12-03",
+      "tema": "&iquest;Es procedente la deducci&oacute;n de que trata el art&iacute;culo 125 del estatuto tributario en aquellos casos en que las donaciones se transfieren a patrimonios aut&oacute;nomos en virtud de la suscripci&oacute;n de contratos de fiducia mercantil cuyas beneficiarias sean las entidades a que se refieren los numerales 1 y 2 del art&iacute;culo citado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081322-2003",
+      "tipo": "concepto",
+      "numero": "0081322",
+      "fecha": "2003-12-23",
+      "tema": "&iquest;Se aplica la limitaci&oacute;n del treinta por ciento (30%) de la renta l&iacute;quida de que trata el art&iacute;culo 125 del Estatuto Tributario, a la deducci&oacute;n por concepto de donaci&oacute;n o de inversi&oacute;n en producci&oacute;n cinematogr&aacute;fica prevista en el art&iacute;culo 16 de la Ley 814 de 2003?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080803-2003",
+      "tipo": "concepto",
+      "numero": "0080803",
+      "fecha": "2003-12-19",
+      "tema": "Para aceptar la deducci&oacute;n por donaciones efectuadas a las entidades a que se refiere el numeral 2 del art&iacute;culo 125 del Estatuto Tributario, &iquest;es exigible la presentaci&oacute;n de la declaraci&oacute;n de renta o de ingresos y patrimonio correspondiente al a&ntilde;o inmediatamente anterior al de la realizaci&oacute;n de la donaci&oacute;n cuando la entidad donataria se constituye en el mismo per&iacute;odo fiscal en que la percibe?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034977-2003",
+      "tipo": "concepto",
+      "numero": "0034977",
+      "fecha": "2003-06-18",
+      "tema": "&iquest;Los contribuyentes del impuesto sobre la renta obligados a presentar declaraci&oacute;n en el pa&iacute;s, tienen derecho a deducir las donaciones efectuadas a las C&aacute;maras de Comercio durante el per&iacute;odo gravable en el porcentaje que determina la ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080857-2002",
+      "tipo": "concepto",
+      "numero": "0080857",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Procede el beneficio consagrado en el articulo 158-1 del Estatuto Tributario para aquellos contribuyentes declarantes del Impuesto Sobre la Renta y Complementarios que realicen inversiones a trav&eacute;s de un Departamento Administrativo en proyectos calificados como de car&aacute;cter cient&iacute; fico, tecnol&oacute;gico o de innovaci&oacute;n tecnol&oacute;gica por el Consejo Nacional de Ciencia y Tecnolog&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030070-2002",
+      "tipo": "concepto",
+      "numero": "0030070",
+      "fecha": "2002-01-01",
+      "tema": "Las actividades, planes y proyectos de los jardines bot&aacute;nicos no requieren de la calificaci&oacute;n espec&iacute;fica de ser proyectos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093077-2001",
+      "tipo": "concepto",
+      "numero": "0093077",
+      "fecha": "2001-10-19",
+      "tema": "&iquest;Son deducibles las donaciones efectuadas por un contribuyente a una C&aacute;mara de Comercio, que a su vez las transferir&aacute; a un no contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036718-2001",
+      "tipo": "concepto",
+      "numero": "0036718",
+      "fecha": "2001-05-08",
+      "tema": "&iquest;A cu&aacute;les beneficios fiscales tiene derecho quien realiza donaciones para proyectos educativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094762-2000",
+      "tipo": "concepto",
+      "numero": "0094762",
+      "fecha": "2000-09-28",
+      "tema": "&iquest;Son deducibles de la renta gastos como atenci&oacute;n a clientes, atenci&oacute;n a los empleados de la empresa, fiestas de despedida de a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008469-1999",
+      "tipo": "concepto",
+      "numero": "0008469",
+      "fecha": "1999-08-31",
+      "tema": "&iquest;C&oacute;mo se determina el valor de la deducci&oacute;n por donaci&oacute;n de cartera vencida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007410-1999",
+      "tipo": "concepto",
+      "numero": "0007410",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088311-1998",
+      "tipo": "concepto",
+      "numero": "0088311",
+      "fecha": "1998-11-17",
+      "tema": "&iquest;Un club social cre&oacute; un programa de salud para gente sin recursos, y presta servicios sin &aacute;nimo de lucro; qu&eacute; beneficios tributarios tienen quienes hagan donaciones al club con tal fin?&iquest;Cu&aacute;les son los beneficios tributarios que podr&iacute;a obtener el club social, la persona natural o empresa que quiere donar los equipos necesarios para una campa&ntilde;a y los importa, ya sea que estos sean usados o nuevos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060568-1998",
+      "tipo": "concepto",
+      "numero": "0060568",
+      "fecha": "1998-08-03",
+      "tema": "&iquest;Lo previsto en el art&iacute;culo 9o del Decreto Reglamentario 2076 de 1992, relativo a las informaciones sobre programas y proyectos e inversiones en ciencia y tecnolog&iacute;a a las que alude el art&iacute;culo 125 del E.T., son igualmente aplicables para efectos de la deducci&oacute;n por donaciones o inversiones a las que se refiere el art&iacute;culo 126-3 ib. adicionado por la ley 393 de 1997?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029456-1998",
+      "tipo": "concepto",
+      "numero": "0029456",
+      "fecha": "1998-04-27",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050326-1997",
+      "tipo": "concepto",
+      "numero": "0050326",
+      "fecha": "1997-06-19",
+      "tema": "&iquest;Cu&aacute;l es la deducci&oacute;n por donaciones efectuadas en favor de entidades deportivas descentralizadas del orden nacional, departamental o municipal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035739-1997",
+      "tipo": "concepto",
+      "numero": "0035739",
+      "fecha": "1997-12-29",
+      "tema": "&iquest;Para efectos de los descuentos por concepto de donaciones efectuadas a las Universidades aprobadas por el ICFES se requiere que todas las donaciones recibidas por &eacute;stas generen rendimientos, o se pueden destinar a otro tipo de actividad vinculada directamente con la actividad educativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095408-1996",
+      "tipo": "concepto",
+      "numero": "0095408",
+      "fecha": "1996-12-12",
+      "tema": "&iquest;Se deben cumplir los requisitos exigidos para la factura en el caso de donaciones de entidades privadas para fundaciones sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023136-1995",
+      "tipo": "concepto",
+      "numero": "0023136",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005656-1995",
+      "tipo": "concepto",
+      "numero": "0005656",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Con fundamento en lo ordenado por el art&iacute;culo 125 del Estatuto Tributario, modificado por la Ley 6a. de 1992, frente a lo dispuesto en los art&iacute;culos 85 y 177 del mismo Estatuto?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-748-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "748",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

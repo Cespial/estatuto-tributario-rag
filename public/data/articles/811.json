@@ -1,1 +1,106 @@
-{"id_articulo": "Art. 811", "titulo": "Art. 811. Facultad para fijarlos.", "titulo_corto": "Facultad para fijarlos.", "slug": "811", "url_origen": "https://estatuto.co/811", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El pago de los impuestos, anticipos y retenciones, deberá efectuarse dentro de los plazos que para tal efecto señale el Gobierno Nacional. En el caso de importaciones, el impuesto a las ventas se liquidará y pagará conjuntamente con la liquidación y pago de los derechos de aduana.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago de los impuestos, anticipos y retenciones, deberá efectuarse dentro de los plazos que para tal efecto señale el Gobierno Nacional.</p>\n<p>En el caso de importaciones, el impuesto a las ventas se liquidará y pagará conjuntamente con la liquidación y pago de los derechos de aduana.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 811",
+  "titulo": "Art. 811. Facultad para fijarlos.",
+  "titulo_corto": "Facultad para fijarlos.",
+  "slug": "811",
+  "url_origen": "https://estatuto.co/811",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El pago de los impuestos, anticipos y retenciones, deberá efectuarse dentro de los plazos que para tal efecto señale el Gobierno Nacional. En el caso de importaciones, el impuesto a las ventas se liquidará y pagará conjuntamente con la liquidación y pago de los derechos de aduana.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago de los impuestos, anticipos y retenciones, deberá efectuarse dentro de los plazos que para tal efecto señale el Gobierno Nacional.</p>\n<p>En el caso de importaciones, el impuesto a las ventas se liquidará y pagará conjuntamente con la liquidación y pago de los derechos de aduana.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 21020 (2025-12-30): Procedimiento Tributario\noficio 6467 (2024-09-10): Procedimiento Tributario\noficio 915363 (2021-12-16): Retenci&oacute;n en la fuente - Intereses moratorios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21020-2025",
+      "tipo": "oficio",
+      "numero": "21020",
+      "fecha": "2025-12-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915363-2021",
+      "tipo": "oficio",
+      "numero": "915363",
+      "fecha": "2021-12-16",
+      "tema": "Retenci&oacute;n en la fuente - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2020",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;A partir de qu&eacute; a&ntilde;o gravable aplica la reviviscencia expresa de que trata el inciso 3 del art&iacute;culo 160 de la Ley 2010 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104404-2006",
+      "tipo": "oficio",
+      "numero": "104404",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006, el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n? La posibilidad que tiene el agente retenedor de presentar la declaraci&oacute;n tributaria y posteriormente efectuar el pago, dentro de los plazos para declarar y pagar fijados por el Gobierno Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104402-2006",
+      "tipo": "oficio",
+      "numero": "104402",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006 el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75762-2006",
+      "tipo": "oficio",
+      "numero": "75762",
+      "fecha": "2006-09-06",
+      "tema": "&iquest;Un banco se puede abstener de recibir declaraciones tributarias con un saldo a pagar inferior a dos salarios m&iacute;nimos, cuando estas se presentan sin pago?",
+      "vigente": true
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.4.2.82",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.4.2.82",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

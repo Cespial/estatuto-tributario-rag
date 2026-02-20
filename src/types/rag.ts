@@ -1,4 +1,4 @@
-import { ScoredChunk } from "./pinecone";
+import { ScoredChunk, ScoredMultiSourceChunk } from "./pinecone";
 
 export interface EnhancedQuery {
   original: string;
@@ -12,9 +12,15 @@ export interface EnhancedQuery {
 export interface RetrievalResult {
   chunks: ScoredChunk[];
   query: EnhancedQuery;
+  /** Multi-source chunks from additional namespaces */
+  multiSourceChunks?: ScoredMultiSourceChunk[];
 }
 
 export interface RerankedChunk extends ScoredChunk {
+  rerankedScore: number;
+}
+
+export interface RerankedMultiSourceChunk extends ScoredMultiSourceChunk {
   rerankedScore: number;
 }
 
@@ -34,8 +40,32 @@ export interface ArticleGroup {
   slug?: string;
 }
 
+/** Group for doctrina, jurisprudencia, decretos, resoluciones */
+export interface ExternalSourceGroup {
+  docId: string;
+  docType: "doctrina" | "sentencia" | "decreto" | "resolucion" | "ley";
+  numero: string;
+  fecha?: string;
+  tema: string;
+  texto: string[];
+  articulosET: string[];
+  maxScore: number;
+  vigente: boolean;
+  fuenteUrl: string;
+  namespace: string;
+  // Sentencia-specific
+  corte?: string;
+  tipoSentencia?: string;
+  decision?: string;
+  // Decreto-specific
+  decretoNumero?: string;
+  articuloNumero?: string;
+}
+
 export interface AssembledContext {
   articles: ArticleGroup[];
+  /** External legal sources (doctrina, jurisprudencia, decretos, resoluciones) */
+  externalSources: ExternalSourceGroup[];
   sources: SourceCitation[];
   totalTokensEstimate: number;
 }
@@ -50,7 +80,12 @@ export interface SourceCitation {
   estado?: "vigente" | "modificado" | "derogado";
   totalModificaciones?: number;
   slug?: string;
+  // Multi-source fields
+  docType?: string;
+  namespace?: string;
 }
+
+export type PineconeNamespace = "" | "doctrina" | "jurisprudencia" | "decretos" | "resoluciones" | "leyes";
 
 export interface RAGConfig {
   topK: number;
@@ -61,4 +96,10 @@ export interface RAGConfig {
   useLLMRerank: boolean;
   useQueryExpansion: boolean;
   useSiblingRetrieval: boolean;
+  /** Enable multi-namespace retrieval for external sources */
+  useMultiNamespace: boolean;
+  /** Namespaces to query in addition to default */
+  additionalNamespaces: PineconeNamespace[];
+  /** Top-K for each additional namespace */
+  multiNamespaceTopK: number;
 }

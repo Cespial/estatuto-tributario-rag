@@ -1,1 +1,716 @@
-{"id_articulo": "Art. 385", "titulo": "Art. 385. Primera opción frente a la retención.", "titulo_corto": "Primera opción frente a la retención.", "slug": "385", "url_origen": "https://estatuto.co/385", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Para efectos de la retención en la fuente, el retenedor deberá aplicar el procedimiento establecido en este artículo, o en el artículo siguiente: Procedimiento 1. Con relación a los pagos*o abonos en cuenta* gravables diferentes de la cesantía, los intereses sobre cesantía, y la prima mínima legal de servicios del sector privado o de navidad del sector público, el \"valor a retener\" mensualmente es el indicado frente al intervalo de la tabla al cual correspondan la totalidad de dichos pagos*o abonos*que se hagan al trabajador, directa o indirectamente, durante el respectivo mes. Si tales pagos *o abonos en cuenta*se realizan por períodos inferiores a treinta (30) días, su retención podrá calcularse así: a. El valor total de los pagos *o abonos en cuenta* gravables, recibidos directa o indirectamente por el trabajador en el respectivo período, se divide por el número de días a que correspondan tales pagos o abonos y su resultado se multiplica por 30; b. Se determina el porcentaje de retención que figure en la tabla frente al valor obtenido de acuerdo con lo previsto en el literal anterior y dicho porcentaje se aplica a la totalidad de los pagos *o abonos en cuenta* gravables recibidos directa o indirectamente por el trabajador en el respectivo período. La cifra resultante será el \"valor a retener\". Cuando se trate de la prima mínima legal de servicios del sector privado, o de navidad del sector público, el \"valor a retener\" es el que figure frente al intervalo al cual corresponda la respectiva prima.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos de la retención en la fuente, el retenedor deberá aplicar el procedimiento establecido en este artículo, o en el artículo siguiente:</p>\n<p><strong><span style=\"color: #339966;\">Procedimiento 1.</span> </strong>Con relación a los pagos<span style=\"color: #339966;\"><del><span class=\"tachado rojo\"><span class=\"rojo\">*o abonos en cuenta</span>* </span></del></span>gravables diferentes de la cesantía, los intereses sobre cesantía, y la prima mínima legal de servicios del sector privado o de navidad del sector público, el \"valor a retener\" mensualmente es el indicado frente al intervalo de la tabla al cual correspondan la totalidad de dichos pagos<span style=\"color: #339966;\"><del><span class=\"rojo\">*<span class=\"tachado\">o abonos*</span></span></del></span>que se hagan al trabajador, directa o indirectamente, durante el respectivo mes. Si tales pagos<span class=\"tachado rojo\"><span style=\"color: #339966;\"><del> *<span class=\"rojo\">o abonos en cuenta*</span></del></span>se realizan por períodos inferiores a treinta (30) días, su retención podrá calcularse así:</span></p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El valor total de los pagos <span class=\"tachado rojo\"><span style=\"color: #339966;\"><del>*<span class=\"rojo\">o abonos en cuenta*</span></del></span> gravables, recibidos directa o indirectamente por el trabajador en el respectivo período, se divide por el número de días a que correspondan tales pagos <span class=\"rojo\">o abonos </span>y su resultado se multiplica por 30;</span></p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Se determina el porcentaje de retención que figure en la tabla frente al valor obtenido de acuerdo con lo previsto en el literal anterior y dicho porcentaje se aplica a la totalidad de los pagos <span class=\"tachado\"><span style=\"color: #339966;\"><del><span class=\"rojo\"><span class=\"rojo\">*o abonos en cuenta*</span></span></del></span> gravables recibidos directa o indirectamente por el trabajador en el respectivo período. La cifra resultante será el \"valor a retener\".</span></p>\n<p>Cuando se trate de la prima mínima legal de servicios del sector privado, o de navidad del sector público, el \"valor a retener\" es el que figure frente al intervalo al cual corresponda la respectiva prima.</p>\n</span>", "modificaciones_raw": "*Derogado El texto \"Abonos o abonos en cuenta\" por la Ley 6 de 1992 Art. 140.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": ["*o abonos en cuenta*", "*o abonos*"], "texto_derogado_parsed": [{"index": 0, "snippet": "*o abonos en cuenta*", "full_length": 20}, {"index": 1, "snippet": "*o abonos*", "full_length": 10}], "normas_parsed": {"jurisprudencia": ["Corte Constitucional: - Artículo declarado EXEQUIBLE por la Corte Constitucional, mediante Sentencia No. C-421-95 del 21 de septiembre de 1995, Magistrado Ponente, Dr. Jorge Arango Mejía, 'solamente en cuanto estas disposiciones no desconocen el derecho al debido proceso, consagrado en el artículo 29 de la Constitución'."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 385",
+  "titulo": "Art. 385. Primera opción frente a la retención.",
+  "titulo_corto": "Primera opción frente a la retención.",
+  "slug": "385",
+  "url_origen": "https://estatuto.co/385",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Para efectos de la retención en la fuente, el retenedor deberá aplicar el procedimiento establecido en este artículo, o en el artículo siguiente: Procedimiento 1. Con relación a los pagos*o abonos en cuenta* gravables diferentes de la cesantía, los intereses sobre cesantía, y la prima mínima legal de servicios del sector privado o de navidad del sector público, el \"valor a retener\" mensualmente es el indicado frente al intervalo de la tabla al cual correspondan la totalidad de dichos pagos*o abonos*que se hagan al trabajador, directa o indirectamente, durante el respectivo mes. Si tales pagos *o abonos en cuenta*se realizan por períodos inferiores a treinta (30) días, su retención podrá calcularse así: a. El valor total de los pagos *o abonos en cuenta* gravables, recibidos directa o indirectamente por el trabajador en el respectivo período, se divide por el número de días a que correspondan tales pagos o abonos y su resultado se multiplica por 30; b. Se determina el porcentaje de retención que figure en la tabla frente al valor obtenido de acuerdo con lo previsto en el literal anterior y dicho porcentaje se aplica a la totalidad de los pagos *o abonos en cuenta* gravables recibidos directa o indirectamente por el trabajador en el respectivo período. La cifra resultante será el \"valor a retener\". Cuando se trate de la prima mínima legal de servicios del sector privado, o de navidad del sector público, el \"valor a retener\" es el que figure frente al intervalo al cual corresponda la respectiva prima.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos de la retención en la fuente, el retenedor deberá aplicar el procedimiento establecido en este artículo, o en el artículo siguiente:</p>\n<p><strong><span style=\"color: #339966;\">Procedimiento 1.</span> </strong>Con relación a los pagos<span style=\"color: #339966;\"><del><span class=\"tachado rojo\"><span class=\"rojo\">*o abonos en cuenta</span>* </span></del></span>gravables diferentes de la cesantía, los intereses sobre cesantía, y la prima mínima legal de servicios del sector privado o de navidad del sector público, el \"valor a retener\" mensualmente es el indicado frente al intervalo de la tabla al cual correspondan la totalidad de dichos pagos<span style=\"color: #339966;\"><del><span class=\"rojo\">*<span class=\"tachado\">o abonos*</span></span></del></span>que se hagan al trabajador, directa o indirectamente, durante el respectivo mes. Si tales pagos<span class=\"tachado rojo\"><span style=\"color: #339966;\"><del> *<span class=\"rojo\">o abonos en cuenta*</span></del></span>se realizan por períodos inferiores a treinta (30) días, su retención podrá calcularse así:</span></p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El valor total de los pagos <span class=\"tachado rojo\"><span style=\"color: #339966;\"><del>*<span class=\"rojo\">o abonos en cuenta*</span></del></span> gravables, recibidos directa o indirectamente por el trabajador en el respectivo período, se divide por el número de días a que correspondan tales pagos <span class=\"rojo\">o abonos </span>y su resultado se multiplica por 30;</span></p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Se determina el porcentaje de retención que figure en la tabla frente al valor obtenido de acuerdo con lo previsto en el literal anterior y dicho porcentaje se aplica a la totalidad de los pagos <span class=\"tachado\"><span style=\"color: #339966;\"><del><span class=\"rojo\"><span class=\"rojo\">*o abonos en cuenta*</span></span></del></span> gravables recibidos directa o indirectamente por el trabajador en el respectivo período. La cifra resultante será el \"valor a retener\".</span></p>\n<p>Cuando se trate de la prima mínima legal de servicios del sector privado, o de navidad del sector público, el \"valor a retener\" es el que figure frente al intervalo al cual corresponda la respectiva prima.</p>\n</span>",
+  "modificaciones_raw": "*Derogado El texto \"Abonos o abonos en cuenta\" por la Ley 6 de 1992 Art. 140.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [
+    "*o abonos en cuenta*",
+    "*o abonos*"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*o abonos en cuenta*",
+      "full_length": 20
+    },
+    {
+      "index": 1,
+      "snippet": "*o abonos*",
+      "full_length": 10
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional: - Artículo declarado EXEQUIBLE por la Corte Constitucional, mediante Sentencia No. C-421-95 del 21 de septiembre de 1995, Magistrado Ponente, Dr. Jorge Arango Mejía, 'solamente en cuanto estas disposiciones no desconocen el derecho al debido proceso, consagrado en el artículo 29 de la Constitución'."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022\noficio 903232 (2022-04-26): Retenci&oacute;n en la fuente - Ingresos percibidos con ocasi&oacute;n de la liquidaci&oacute;n del contrato de trabajo",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903232-2022",
+      "tipo": "oficio",
+      "numero": "903232",
+      "fecha": "2022-04-26",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos percibidos con ocasi&oacute;n de la liquidaci&oacute;n del contrato de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906935-2021",
+      "tipo": "oficio",
+      "numero": "906935",
+      "fecha": "2021-07-13",
+      "tema": "Deducci&oacute;n por contribuciones a educaci&oacute;n de los empleados - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906476-2021",
+      "tipo": "oficio",
+      "numero": "906476",
+      "fecha": "2021-07-01",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906182-2021",
+      "tipo": "oficio",
+      "numero": "906182",
+      "fecha": "2021-06-28",
+      "tema": "Retenci&oacute;n por salarios acumulados - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901716-2021",
+      "tipo": "oficio",
+      "numero": "901716",
+      "fecha": "2021-03-04",
+      "tema": "Posibilidad de deducir en el a&ntilde;o gravable 2020 los pagos por vacaciones anticipadas de los a&ntilde;os 2021 y 2022 que fueron objeto de aportes al sistema de protecci&oacute;n social y retenci&oacute;n en la fuente por ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903297-2020",
+      "tipo": "oficio",
+      "numero": "903297",
+      "fecha": "2020-07-21",
+      "tema": "Implicaciones tributarias derivadas del reajuste salarial con base en el &iacute;ndice de precios al consumidor -IPC",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0757-2019",
+      "tipo": "oficio",
+      "numero": "0757",
+      "fecha": "2019-04-11",
+      "tema": "(Int 757) Procedimiento 2 para Retenci&oacute;n de ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24535-2019",
+      "tipo": "oficio",
+      "numero": "24535",
+      "fecha": "2019-09-26",
+      "tema": "Procedimiento 1 para Retenci&oacute;n de ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8711-2019",
+      "tipo": "oficio",
+      "numero": "8711",
+      "fecha": "2019-04-10",
+      "tema": "&iquest;El salario integral que se debe tomar como base para el c&aacute;lculo de la retenci&oacute;n en la fuente, debe incluir las cesant&iacute;as y los intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6309-2019",
+      "tipo": "oficio",
+      "numero": "6309",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n - Determinaci&oacute;n de la Retenci&oacute;n para Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32087-2018",
+      "tipo": "oficio",
+      "numero": "32087",
+      "fecha": "2018-10-31",
+      "tema": "Tratamiento tributario que debe d&aacute;rsele a los intereses sobre las cesant&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34091-2017",
+      "tipo": "oficio",
+      "numero": "34091",
+      "fecha": "2017-12-20",
+      "tema": "Para determinar el porcentaje fijo de retenci&oacute;n en la fuente aplicable a los pagos laborales, &iquest;se deben tener en cuenta los factores de depuraci&oacute;n de la renta ordinaria y de la retenci&oacute;n en la fuente modificados por Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19453-2017",
+      "tipo": "oficio",
+      "numero": "19453",
+      "fecha": "2017-07-21",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3514-2017",
+      "tipo": "oficio",
+      "numero": "3514",
+      "fecha": "2017-05-31",
+      "tema": "&iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo? y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8308-2016",
+      "tipo": "oficio",
+      "numero": "8308",
+      "fecha": "2016-04-13",
+      "tema": "Retenci&oacute;n en la Fuente &iquest;Se aplica el descuento de retenci&oacute;n en la fuente a los funcionarios que no son declarantes, pero que sus ingresos mensuales, de manera ocasional, superan el tope establecido por el Estatuto Tributado para ser objeto de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0002-2016",
+      "tipo": "oficio",
+      "numero": "0002",
+      "fecha": "2016-01-18",
+      "tema": "Retenci&oacute;n en la fuente - Bonificaci&oacute;n ocasional - &iquest;El l&iacute;mite de 240 UVT para la bonificaci&oacute;n por retiro definitivo del trabajador para que no sea gravada, igualmente aplica para las bonificaciones que por mera liberalidad ocasionalmente otorga el patrono al trabajador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25598-2015",
+      "tipo": "oficio",
+      "numero": "25598",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Para efectos de la aplicaci&oacute;n del procedimiento se&ntilde;alado en el art&iacute;culo 386 del Estatuto Tributario, es procedente aplicar la retenci&oacute;n en la fuente sobre cada emolumento o se debe acumular a final de mes el valor total pagado y practicar retenci&oacute;n en la fuente a este?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24901-2015",
+      "tipo": "oficio",
+      "numero": "24901",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Las expresiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23577-2015",
+      "tipo": "oficio",
+      "numero": "23577",
+      "fecha": "2015-08-13",
+      "tema": "&iquest;Cu&aacute;les son los ingresos a que se refiere el numeral 1 del art&iacute;culo 2 del Decreto 1070 y si estos hacen parte de los ingresos laborales o tributarios para calcular el 30% a que se refieren los art&iacute;culos 126-1 y 126-4 del Estatuto Tributario? &iquest;Son deducibles por procedimiento uno y dos del art&iacute;culo 383 del Estatuto Tributario los pagos indirectos por salud y educaci&oacute;n que cumplan los requisitos contenidos en el art&iacute;culo 5 del Decreto 3050 de 1986?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23347-2015",
+      "tipo": "oficio",
+      "numero": "23347",
+      "fecha": "2015-08-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11186-2015",
+      "tipo": "oficio",
+      "numero": "11186",
+      "fecha": "2015-04-20",
+      "tema": "&iquest;Cu&aacute;ndo se trate de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8899-2015",
+      "tipo": "oficio",
+      "numero": "8899",
+      "fecha": "2015-03-24",
+      "tema": "Considerando que el par&aacute;grafo 3o del art&iacute;culo 135 de la Ley 100 de 1993, derog&oacute; el art&iacute;culo 388 del Estatuto Tributario, como se entiende el aparte del art&iacute;culo 22 del Decreto Reglamentario 841 de 1998, donde se lee:",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56994-2014",
+      "tipo": "oficio",
+      "numero": "56994",
+      "fecha": "2014-10-02",
+      "tema": "&iquest;Una persona natural que tiene contrato laboral con una entidad universitaria como ejecutivo administrativo, y a su vez con la misma entidad presta servicios de docencia con remuneraci&oacute;n por honorarios, para efectos de la retenci&oacute;n en la fuente en el entendido que el funcionario pertenece a la categor&iacute;a de empleado, deben sum&aacute;rsele los pagos mensuales por concepto de salarios y por concepto de honorarios para aplicar la tabla del art&iacute;culo 383 del E.T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55623-2014",
+      "tipo": "oficio",
+      "numero": "55623",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Se debe hacer el c&aacute;lculo de la deducci&oacute;n de los aportes obligatorios al Sistema General de Seguridad Social de acuerdo con el art&iacute;culo 1o del Decreto 3655 de 2009 y el art&iacute;culo 2&deg; del Decreto 1070 de 2013, en los eventos en que no se ha cumplido un a&ntilde;o de labores o 360 d&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50282-2014",
+      "tipo": "oficio",
+      "numero": "50282",
+      "fecha": "2014-08-20",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 45740 del 24 de julio de 2013, en el cual se concluy&oacute; que el art&iacute;culo 5o del Decreto Reglamentario 3750 de 1986 no aplica para efectos de la retenci&oacute;n en la fuente m&iacute;nima de que trata el art&iacute;culo 384 del Estatuto Tributario y por consecuencia los pagos por educaci&oacute;n y salud se entienden como pagos indirectos que forman parte de la base de la retenci&oacute;n m&iacute;nima, de la cual solo se pueden detraer los aportes al sistema de seguridad social a cargo del trabajador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44455-2014",
+      "tipo": "oficio",
+      "numero": "44455",
+      "fecha": "2014-07-25",
+      "tema": "&iquest;La entidad debe seguir aplicando el porcentaje de retenci&oacute;n con el procedimiento No. 1, a un servidor p&uacute;blico que le aplic&oacute; dicho procedimiento a partir del 1 de enero de 2014, si con posterioridad obtuvo un incremento salarial y le resulta m&aacute;s favorable la aplicaci&oacute;n del procedimiento No. 2?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13207-2014",
+      "tipo": "oficio",
+      "numero": "13207",
+      "fecha": "2014-01-01",
+      "tema": "Retenci&oacute;n en la fuente de los trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77001-2013",
+      "tipo": "oficio",
+      "numero": "77001",
+      "fecha": "2013-11-29",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los pagos laborales en el caso de retiro definitivo, cuando el trabajador labor&oacute; menos de 30 d&iacute;as en el mes y se incluye en la liquidaci&oacute;n definitiva el valor de las vacaciones pendientes por disfrutar. Lo anterior en el contexto del procedimiento de retenci&oacute;n en la fuente No. 1 previsto en el art&iacute;culo 385 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72382-2013",
+      "tipo": "oficio",
+      "numero": "72382",
+      "fecha": "2013-11-13",
+      "tema": "&iquest;En el caso de los trabajadores que laboran menos de treinta (30) d&iacute;as en el mes, los factores de depuraci&oacute;n de la base de retenci&oacute;n en la fuente deben ser proporcionales a los d&iacute;as laborados o pueden ser tomados en su totalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68294-2013",
+      "tipo": "oficio",
+      "numero": "68294",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Aplica el procedimiento 1, y es saber si para el c&aacute;lculo de la retenci&oacute;n en la fuente de dicho procedimiento la prima de servicios en el sector p&uacute;blico debe efectuarse por separado de los otros ingresos, o por el contrario se toma la totalidad de los ingresos del mes y se calcula dicha retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68292-2013",
+      "tipo": "oficio",
+      "numero": "68292",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Dado que la prima m&iacute;nima de servicios o de navidad debe tomarse por separado de los dem&aacute;s pagos salariales para efectos del c&aacute;lculo de retenci&oacute;n en la fuente en los procedimientos 1 y 2, seg&uacute;n lo establece el art&iacute;culo 385 del ET, significa esto que para el c&aacute;lculo de la retenci&oacute;n alternativa del art&iacute;culo 384 del ET (norma que est&aacute; antes del art&iacute;culo 385, as&iacute; se haya introducido en una ley posterior) &iquest;tambi&eacute;n debe liquidarse por separado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49832-2013",
+      "tipo": "oficio",
+      "numero": "49832",
+      "fecha": "2013-08-12",
+      "tema": "&iquest;Cu&aacute;l es la norma de retenci&oacute;n en la fuente aplicable al pago efectuado en el mes de enero de 2013, por concepto de ajuste de nivelaci&oacute;n salarial a&ntilde;os 1997 a 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095254-2007",
+      "tipo": "concepto",
+      "numero": "0095254",
+      "fecha": "2007-11-20",
+      "tema": "&iquest;Es deducible de la base de retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta el 25% del GMF certificado por una entidad financiera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25700-2007",
+      "tipo": "oficio",
+      "numero": "25700",
+      "fecha": "2007-04-02",
+      "tema": "Se encuentran gravados en el pa&iacute;s los ingresos percibidos por una persona natural extranjera con contrato laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia que en virtud del contrato celebrado entre su empleadora y una compa&ntilde;&iacute;a colombiana, presta servicios laborales en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7920-2007",
+      "tipo": "oficio",
+      "numero": "7920",
+      "fecha": "2007-02-02",
+      "tema": "&iquest;Que se entiende como servicios de radio, prensa y televisi&oacute;n, para efectos del alcance de la exclusi&oacute;n de la retenci&oacute;n en la fuente? Alcance del art&iacute;culo 4 del Decreto 2775 de 1983, del art&iacute;culo 14 del Decreto 2026 de 1983 y del art&iacute;culo 8 del Decreto 1512 de 1985. &iquest;El servicio que prestan los periodistas de divulgar informaci&oacute;n como las acciones de gesti&oacute;n de la Administraci&oacute;n, esta exenta de retenci&oacute;n? Interpretaci&oacute;n que debe darse al numeral 1 del art&iacute;culo 14 del decreto 2026 de 1983, recogido en el art&iacute;culo 369 del Estatuto Tributario.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76455-2006",
+      "tipo": "oficio",
+      "numero": "76455",
+      "fecha": "2006-09-07",
+      "tema": "&iquest;Es procedente aplicar simult&aacute;neamente el procedimiento de retenci&oacute;n en la fuente n&uacute;mero uno para algunos empleados y el procedimiento n&uacute;mero dos para otros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003580-2006",
+      "tipo": "concepto",
+      "numero": "0003580",
+      "fecha": "2006-01-12",
+      "tema": "&iquest;Qui&eacute;n es el agente de retenci&oacute;n en la fuente en los negocios fiduciarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87923-2005",
+      "tipo": "oficio",
+      "numero": "87923",
+      "fecha": "2005-11-25",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir y la viabilidad legal si existe para devolver las retenciones por pagos en exceso de varios excontratistas que demandaron al Seguro Social y en sentencia judicial cada juzgado les reconoci&oacute; condici&oacute;n de trabajadores oficiales y no de contratistas de prestaci&oacute;n de servicios, m&aacute;s no orden&oacute; devoluci&oacute;n de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73035-2005",
+      "tipo": "oficio",
+      "numero": "73035",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Los servicios acad&eacute;micos remunerados no deben acumularse a los salarios de los profesores para efectos de la retenci&oacute;n por pagos laborales y si superan los topes que los obliga a presentar declaraci&oacute;n de renta, se convierten en responsables del r&eacute;gimen com&uacute;n del IVA y por lo tanto deben liquidar dicho impuesto en su cuenta de cobro y presentar declaraciones de ventas bimestrales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050670-2005",
+      "tipo": "concepto",
+      "numero": "0050670",
+      "fecha": "2005-07-28",
+      "tema": "&iquest;son deducibles los pagos indirectos que realiza el empleador al trabajador por concepto de salud, educaci&oacute;n y alimentaci&oacute;n, a que hace referencia el art&iacute;culo 5 del decreto 3750 de 1986?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47441-2005",
+      "tipo": "oficio",
+      "numero": "47441",
+      "fecha": "2005-07-15",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos retroactivos realizados a los extrabajadores cuando estos se efect&uacute;an en un s&oacute;lo pago por la totalidad de los salarios acumulados adeudados, pese a que en el momento de su registro en la contabilidad las mensualidades no alcanzaban la base para efectos de la retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015484-2005",
+      "tipo": "concepto",
+      "numero": "0015484",
+      "fecha": "2005-03-16",
+      "tema": "&iquest;Las bonificaciones por Compensaci&oacute;n y de Gesti&oacute;n Judicial forman parte del salario de los magistrados de los tribunales y de sus fiscales, para efectos de la exenci&oacute;n consagrada en el inciso 3&ordm; del numeral 7 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081321-2003",
+      "tipo": "concepto",
+      "numero": "0081321",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Con que descuentos se puede afectar la base de retenci&oacute;n en la fuente en la Prima de Navidad del sector P&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060364-2003",
+      "tipo": "concepto",
+      "numero": "0060364",
+      "fecha": "2003-09-22",
+      "tema": "&iquest;Los pagos que efect&uacute;e un empleador a un trabajador a t&iacute;tulo de pensi&oacute;n de jubilaci&oacute;n anticipada hasta que el ISS le liquide su pensi&oacute;n, est&aacute;n sometidos a retenci&oacute;n en la fuente?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0039644-2003",
+      "tipo": "concepto",
+      "numero": "0039644",
+      "fecha": "2003-07-09",
+      "tema": "El",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039171-2003",
+      "tipo": "concepto",
+      "numero": "0039171",
+      "fecha": "2003-01-01",
+      "tema": "- (Tributario) Se entiende derogado el art&iacute;culo 5 del Decreto 3750 de 1986 con el art&iacute;culo 15 de la Ley 788 de 2002",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0038761-2003",
+      "tipo": "concepto",
+      "numero": "0038761",
+      "fecha": "2003-07-07",
+      "tema": "&iquest;Los pagos que efect&uacute;a una empresa para la estad&iacute;a de un extranjero contratado para la prestaci&oacute;n de sus servicios en Colombia hasta por un a&ntilde;o se deben tomar como base para aplicar la retenci&oacute;n en la fuente por salarios del empleado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053019-2002",
+      "tipo": "concepto",
+      "numero": "0053019",
+      "fecha": "2002-08-20",
+      "tema": "&iquest;En que momento se genera el pago de impuestos en una demanda? &iquest;Cu&aacute;ndo el secuestre de un bien efect&uacute;a pagos a terceros con el fruto de los bienes embargados se genera alguna clase de impuestos? &iquest;Los pagos que se le cancelan a un secuestre causa alguna clase de impuestos, as&iacute; estos judicialmente no est&eacute;n autorizados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021451-2002",
+      "tipo": "concepto",
+      "numero": "0021451",
+      "fecha": "2002-03-08",
+      "tema": "&iquest;Por qu&eacute; concepto se debe efectuar la retenci&oacute;n en la fuente a un extranjero que tiene un contrato de trabajo a t&eacute;rmino de un a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091306-2001",
+      "tipo": "concepto",
+      "numero": "0091306",
+      "fecha": "2001-10-11",
+      "tema": "&iquest;En que momento debe practicarse la retenci&oacute;n en la fuente sobre salarios y dem&aacute;s pagos laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036732-2001",
+      "tipo": "concepto",
+      "numero": "0036732",
+      "fecha": "2001-05-08",
+      "tema": "&iquest;Cu&aacute;l es el concepto de retenci&oacute;n aplicable a los ingresos recibidos por los Diputados de las Asambleas Departamentales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060278-2000",
+      "tipo": "concepto",
+      "numero": "0060278",
+      "fecha": "2000-06-23",
+      "tema": "&iquest;Cu&aacute;l es la Retenci&oacute;n en la Fuente aplicable a los pagos efectuados por concepto de honorarios en la prestaci&oacute;n de servicios con una intensidad horaria de 6 horas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017058-2000",
+      "tipo": "concepto",
+      "numero": "0017058",
+      "fecha": "2000-02-21",
+      "tema": "&iquest;Qu&eacute; porcentaje de retenci&oacute;n en la fuente y por que concepto se debe aplicar a los ingresos recibidos por los empleados, anualmente, como una participaci&oacute;n de utilidades, las cuales no forman parte del salario, por expreso acuerdo entre las partes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049294-1999",
+      "tipo": "concepto",
+      "numero": "0049294",
+      "fecha": "1999-12-16",
+      "tema": "&iquest;Se deben reintegrar, por parte del agente retenedor, los valores retenidos indebidamente o en mayor cuant&iacute;a a los docentes asalariados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032316-1999",
+      "tipo": "concepto",
+      "numero": "0032316",
+      "fecha": "1999-10-27",
+      "tema": "&iquest;Una empresa en per&iacute;odo de liquidaci&oacute;n requiere para la misma una n&oacute;mina, pero carece de recursos tanto para su cancelaci&oacute;n como para la retenci&oacute;n en la fuente, raz&oacute;n por la cual solicita autorizaci&oacute;n para adoptar el sistema de caja u otro sistema no tan gravoso, pues solamente con la venta de los activos puede cancelar la n&oacute;mina y consignar la respectiva retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030962-1999",
+      "tipo": "concepto",
+      "numero": "0030962",
+      "fecha": "1999-10-26",
+      "tema": "&iquest;Cuando el pago de la mesada pensional exceda 50 salarios m&iacute;nimos mensuales que procedimiento se emplea para efectuar la retenci&oacute;n a la parte gravada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077324-1998",
+      "tipo": "concepto",
+      "numero": "0077324",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para compensar o reintegrar el mayor valor descontado por el mecanismo de retenci&oacute;n en la fuente a un asalariado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035545-1998",
+      "tipo": "concepto",
+      "numero": "0035545",
+      "fecha": "1998-05-19",
+      "tema": "&iquest;Se consulta si se debe efectuar retenci&oacute;n en la fuente a las indemnizaciones laborales pagadas por una empresa oficial que se encuentra en liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012400-1998",
+      "tipo": "concepto",
+      "numero": "0012400",
+      "fecha": "1998-02-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004284-1998",
+      "tipo": "concepto",
+      "numero": "0004284",
+      "fecha": "1998-01-27",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035115-1997",
+      "tipo": "concepto",
+      "numero": "0035115",
+      "fecha": "1997-12-26",
+      "tema": "&iquest;Al tenor de lo dispuesto por e! art&iacute;culo 5o del Decreto 3750 de 1986, los",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006699-1997",
+      "tipo": "concepto",
+      "numero": "0006699",
+      "fecha": "1997-09-03",
+      "tema": "&iquest;Las personas naturales o jur&iacute;dicas obligadas a retener en la fuente, el porcentaje legal y porqu&eacute; transacciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071413-1996",
+      "tipo": "concepto",
+      "numero": "0071413",
+      "fecha": "1996-09-11",
+      "tema": "&iquest;Qu&eacute; procedimiento se debe seguir para aplicar la retenci&oacute;n en la fuente, cuando se efect&uacute;an dos n&oacute;minas mensuales, una por concepto de sueldos y la otra por los dem&aacute;s factores salariales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034760-1996",
+      "tipo": "concepto",
+      "numero": "0034760",
+      "fecha": "1996-04-29",
+      "tema": "&iquest;Qu&eacute; tarifa de retenci&oacute;n en la fuente se le aplica a los pagos efectuados a los asesores que prestan sus servicios a empresas que contratan con el Estado por el sistema de factor multiplicador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033459-1996",
+      "tipo": "concepto",
+      "numero": "0033459",
+      "fecha": "1996-04-23",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre la renta y sus complementarios, las sumas que un Ministerio reconoce en favor de los mejores funcionarios como est&iacute;mulo a su eficiencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032343-1996",
+      "tipo": "concepto",
+      "numero": "0032343",
+      "fecha": "1996-04-18",
+      "tema": "&iquest;Como opera la retenci&oacute;n en la fuente en la prestaci&oacute;n de servicios profesionales hospitalarios cuando la entidad factura la totalidad de los servicios y le traslada al m&eacute;dico los ingresos y retenciones que le corresponde?&iquest;Debe la instituci&oacute;n expedir los certificados de ingresos y retenciones efectuadas al m&eacute;dico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061702-1995",
+      "tipo": "concepto",
+      "numero": "0061702",
+      "fecha": "1995-09-05",
+      "tema": "&iquest;Los gastos de Representaci&oacute;n recibidos por un funcionario p&uacute;blico de la Fiscal&iacute;a General de la Naci&oacute;n son exentos? &iquest;Est&aacute;n sometidas a retenci&oacute;n en la fuente la Prima Especial de Servicios reconocida para algunos funcionarios de la Fiscal&iacute;a General de la Naci&oacute;n, y las primas Semestral y de Navidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019946-1995",
+      "tipo": "concepto",
+      "numero": "0019946",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007133-1995",
+      "tipo": "concepto",
+      "numero": "0007133",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Las bonificaciones que reciben ciertos trabajadores por el cobro de cartera, las cuales por convenio no son imputadas para la liquidaci&oacute;n de las prestaciones sociales, deben sumarse a los ingresos salariales mensuales para efectos de aplicar la respectiva retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001305-1995",
+      "tipo": "concepto",
+      "numero": "0001305",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;En el procedimiento n&uacute;mero 2 de retencion, en que momento deben descontarse los conceptos de factor prestacional, intereses, correcci&oacute;n monetaria, salud y educaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019904-1993",
+      "tipo": "concepto",
+      "numero": "0019904",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para aplicar la retenci&oacute;n en la fuente que debe hacerse a los Honorables Diputados Departamentales en el caso de las dietas percibidas, si se hacen por concepto de honorarios o sobre dietas y si se deben tomar las 60 sesiones ordinarias de un a&ntilde;o proporcionales a los 12 meses o se debe hacer sobre los correspondientes ingresos de cada mes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005135-1992",
+      "tipo": "concepto",
+      "numero": "0005135",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Un trabajador que ingres&oacute; en el mes de febrero, recibe una suma en el mes de marzo correspondiente al salario de los meses de febrero y marzo, es procedente aplicar la tabla de retenci&oacute;n en forma separada sobre los valores recibidos o sobre el valor total del pago? &iquest;Si para efectos de calcular el porcentaje fijo de retenci&oacute;n en la fuente de acuerdo al procedimiento 2, este mismo trabajador recibe en los meses de abril y mayo una suma determinada y en el mes de marzo lo correspondiente a &eacute;ste &uacute;ltimo y al mes de febrero, en estas circunstancias",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001999-1992",
+      "tipo": "concepto",
+      "numero": "0001999",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;c&oacute;mo se calcula por los dos procedimientos establecidos en la legislaci&oacute;n tributaria, la retenci&oacute;n en la fuente sobre vacaciones y bonificaciones cuando el trabajador ha pactado el sistema del salario Integral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007435-1991",
+      "tipo": "concepto",
+      "numero": "0007435",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Con base en el art&iacute;culo 13 del Decreto 2026 de 1983, la retenci&oacute;n en la fuente sobre comisiones que perciben las compa&ntilde;&iacute;as corredoras de seguros se debe practicar sobre las efectivamente recibidas o sobre las causadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004995-1990",
+      "tipo": "concepto",
+      "numero": "0004995",
+      "fecha": "1990-03-01",
+      "tema": "&iquest;La retenci&oacute;n que le est&aacute; aplicando la empresa a un empleado que ejerce las funciones de un superior por",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003778-1990",
+      "tipo": "concepto",
+      "numero": "0003778",
+      "fecha": "1990-02-15",
+      "tema": "&iquest;Los vi&aacute;ticos ocasionales no soportados con facturas ni pruebas documentales y por lo tanto sujeto a retenci&oacute;n en la fuente debe incluirse junto con su correspondiente retenci&oacute;n en el certificado de ingresos y retenciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019344-1989",
+      "tipo": "concepto",
+      "numero": "0019344",
+      "fecha": "1989-01-01",
+      "tema": "Salario determinado por el porcentaje de ventas para actividad del trabajador constitutivo de salario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015860-1989",
+      "tipo": "concepto",
+      "numero": "0015860",
+      "fecha": "1989-01-01",
+      "tema": "Los jornales no se encuentran taxativamente exentos de rente, por tanto, son gravables",
+      "vigente": true
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.6.1.5.1",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.6.1.5.1",
+      "vigente": true
+    }
+  ]
+}

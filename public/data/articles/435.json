@@ -1,1 +1,77 @@
-{"id_articulo": "Art. 435", "titulo": "Art. 435. En seguros generales.", "titulo_corto": "En seguros generales.", "slug": "435", "url_origen": "https://estatuto.co/435", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En las pólizas de seguros generales (casco, aviación), para los cuales la Superintendencia permita el fraccionamiento de las primas, el impuesto debe pagarse sobre la prima correspondiente a cada uno de los certificados periódicos que las compañías emitan en aplicación de la póliza original.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En las pólizas de seguros generales (casco, aviación), para los cuales la Superintendencia permita el fraccionamiento de las primas, el impuesto debe pagarse sobre la prima correspondiente a cada uno de los certificados periódicos que las compañías emitan en aplicación de la póliza original.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 435",
+  "titulo": "Art. 435. En seguros generales.",
+  "titulo_corto": "En seguros generales.",
+  "slug": "435",
+  "url_origen": "https://estatuto.co/435",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En las pólizas de seguros generales (casco, aviación), para los cuales la Superintendencia permita el fraccionamiento de las primas, el impuesto debe pagarse sobre la prima correspondiente a cada uno de los certificados periódicos que las compañías emitan en aplicación de la póliza original.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En las pólizas de seguros generales (casco, aviación), para los cuales la Superintendencia permita el fraccionamiento de las primas, el impuesto debe pagarse sobre la prima correspondiente a cada uno de los certificados periódicos que las compañías emitan en aplicación de la póliza original.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 23866 (2017-09-01): Documentos equivalentes a la factura - P&oacute;lizas de seguro\noficio 1510 (2017-05-11): Tarifa aplicable p&oacute;lizas de seguros\nconcepto 0019066 (2001-01-01): &iquest;En seguros estipulados en dolares de Estados Unidos, con fraccionamiento de prima para pago trimestral, qu&eacute; tipo de cambio debe tomarse para liquidar el IVA?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-23866-2017",
+      "tipo": "oficio",
+      "numero": "23866",
+      "fecha": "2017-09-01",
+      "tema": "Documentos equivalentes a la factura - P&oacute;lizas de seguro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1510-2017",
+      "tipo": "oficio",
+      "numero": "1510",
+      "fecha": "2017-05-11",
+      "tema": "Tarifa aplicable p&oacute;lizas de seguros",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019066-2001",
+      "tipo": "concepto",
+      "numero": "0019066",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;En seguros estipulados en dolares de Estados Unidos, con fraccionamiento de prima para pago trimestral, qu&eacute; tipo de cambio debe tomarse para liquidar el IVA?",
+      "vigente": true
+    }
+  ]
+}

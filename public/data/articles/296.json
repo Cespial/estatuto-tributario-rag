@@ -1,1 +1,136 @@
-{"id_articulo": "Art. 296", "titulo": "Art. 296. Tarifa.", "titulo_corto": "Tarifa.", "slug": "296", "url_origen": "https://estatuto.co/296", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "863", "norma_year": 2003, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1943 de 2018", "Ley 863 de 2003"], "texto_derogado": ["*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior."], "texto_derogado_parsed": [{"index": 0, "snippet": "*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.", "full_length": 152}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 296",
+  "titulo": "Art. 296. Tarifa.",
+  "titulo_corto": "Tarifa.",
+  "slug": "296",
+  "url_origen": "https://estatuto.co/296",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "863",
+      "norma_year": 2003,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1943 de 2018",
+    "Ley 863 de 2003"
+  ],
+  "texto_derogado": [
+    "*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*La tarifa del impuesto al patrimonio es del uno punto dos (1.2%) por cada año, de la base gravable establecida de conformidad con el artículo anterior.",
+      "full_length": 152
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000207 (2020-02-20): (Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?\noficio 26853 (2019-10-25): &iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?\noficio 17972 (2019-07-10): &iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?\noficio 27156 (2015-09-17): &iquest;Cu&aacute;l es la posici&oacute;n de esta entidad, en relaci&oacute;n con los Contratos de Estabilidad Jur&iacute;dico-Tributaria, y el Impuesto a la Riqueza creado a trav&eacute;s de la Ley 1739 de 2014?\noficio 76415 (2004-11-08): Solicita rectificar el Concepto 041670 de julio 8 de 2004, en el cual se expres&oacute; que el impuesto al patrimonio no es complementario del impuesto de renta",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27156-2015",
+      "tipo": "oficio",
+      "numero": "27156",
+      "fecha": "2015-09-17",
+      "tema": "&iquest;Cu&aacute;l es la posici&oacute;n de esta entidad, en relaci&oacute;n con los Contratos de Estabilidad Jur&iacute;dico-Tributaria, y el Impuesto a la Riqueza creado a trav&eacute;s de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76415-2004",
+      "tipo": "oficio",
+      "numero": "76415",
+      "fecha": "2004-11-08",
+      "tema": "Solicita rectificar el Concepto 041670 de julio 8 de 2004, en el cual se expres&oacute; que el impuesto al patrimonio no es complementario del impuesto de renta",
+      "vigente": true
+    }
+  ]
+}

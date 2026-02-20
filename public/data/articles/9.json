@@ -1,1 +1,2525 @@
-{"id_articulo": "Art. 9", "titulo": "Art. 9. Impuesto de las personas naturales, residentes y no residentes.", "titulo_corto": "Impuesto de las personas naturales, residentes y no residentes.", "slug": "9", "url_origen": "https://estatuto.co/9", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "Las personas naturales, nacionales o extranjeras, residentes en el país y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, están sujetas al impuesto sobre la renta y complementarios en lo concerniente a sus rentas y ganancias ocasionales, tanto de fuente nacional como de fuente extranjera, y a su patrimonio poseído dentro y fuera del país. ***-El texto fue derogado por la ley 1607 de 2012 Art. 198 Las personas naturales, nacionales o extranjeras, que no tengan residencia en el país y las sucesiones ilíquidas de causantes sin residencia en el país en el momento de su muerte, sólo están sujetas al impuesto sobre la renta y complementarios respecto a sus rentas y ganancias ocasionales de fuente nacional y respecto de su patrimonio poseído en el país. ** -Adicionalmente, los contribuyentes a que se refiere este artículo son sujetos pasivos del impuesto de remesas, conforme a lo establecido en el Título IV de este Libro.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas naturales, nacionales o extranjeras, residentes en el país y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, están sujetas al impuesto sobre la renta y complementarios en lo concerniente a sus rentas y ganancias ocasionales, tanto de fuente nacional como de fuente extranjera, <span class=\"verde\"><span class=\"rojo\">y a su patrimonio </span></span><span class=\"verde\"><span class=\"rojo\">poseído dentro y fuera del país</span></span><span class=\"verde\">.</span></p>\n<p>***-El texto fue derogado por la <strong><span style=\"color: #339966;\"><a href=\"https://accounter.co/normatividad/leyes/15852-ley-1607-por-la-cual-se-expiden-normas-en-materia-tributaria-y-se-dictan-otras-disposiciones.html\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">ley 1607 de 2012 Art. 198</a></span></strong></p>\n<p>Las personas naturales, nacionales o extranjeras, que no tengan residencia en el país y las sucesiones ilíquidas de causantes sin residencia en el país en el momento de su muerte, sólo están sujetas al impuesto sobre la renta y complementarios respecto a sus rentas y ganancias ocasionales de fuente nacional y respecto de su patrimonio poseído en el país.</p>\n<p><strong><span class=\"verde\">** -</span></strong><span class=\"verde\">Adicionalmente, los contribuyentes a que se refiere este artículo son sujetos pasivos del <del>impuesto de remesas</del>, conforme a lo establecido en el Título IV de este Libro.</span></p>\n<p> </p>\n<p></p>\n</span>", "modificaciones_raw": "** -Eliminado ley 1111 de 2006 art. 78 *** - El texto fue derogado por la ley 1607 de 2012 Art. 198", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["ley 1607 de 2012"], "texto_derogado": ["impuesto de remesas"], "texto_derogado_parsed": [{"index": 0, "snippet": "impuesto de remesas", "full_length": 19}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 9",
+  "titulo": "Art. 9. Impuesto de las personas naturales, residentes y no residentes.",
+  "titulo_corto": "Impuesto de las personas naturales, residentes y no residentes.",
+  "slug": "9",
+  "url_origen": "https://estatuto.co/9",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "Las personas naturales, nacionales o extranjeras, residentes en el país y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, están sujetas al impuesto sobre la renta y complementarios en lo concerniente a sus rentas y ganancias ocasionales, tanto de fuente nacional como de fuente extranjera, y a su patrimonio poseído dentro y fuera del país. ***-El texto fue derogado por la ley 1607 de 2012 Art. 198 Las personas naturales, nacionales o extranjeras, que no tengan residencia en el país y las sucesiones ilíquidas de causantes sin residencia en el país en el momento de su muerte, sólo están sujetas al impuesto sobre la renta y complementarios respecto a sus rentas y ganancias ocasionales de fuente nacional y respecto de su patrimonio poseído en el país. ** -Adicionalmente, los contribuyentes a que se refiere este artículo son sujetos pasivos del impuesto de remesas, conforme a lo establecido en el Título IV de este Libro.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas naturales, nacionales o extranjeras, residentes en el país y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, están sujetas al impuesto sobre la renta y complementarios en lo concerniente a sus rentas y ganancias ocasionales, tanto de fuente nacional como de fuente extranjera, <span class=\"verde\"><span class=\"rojo\">y a su patrimonio </span></span><span class=\"verde\"><span class=\"rojo\">poseído dentro y fuera del país</span></span><span class=\"verde\">.</span></p>\n<p>***-El texto fue derogado por la <strong><span style=\"color: #339966;\"><a href=\"https://accounter.co/normatividad/leyes/15852-ley-1607-por-la-cual-se-expiden-normas-en-materia-tributaria-y-se-dictan-otras-disposiciones.html\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">ley 1607 de 2012 Art. 198</a></span></strong></p>\n<p>Las personas naturales, nacionales o extranjeras, que no tengan residencia en el país y las sucesiones ilíquidas de causantes sin residencia en el país en el momento de su muerte, sólo están sujetas al impuesto sobre la renta y complementarios respecto a sus rentas y ganancias ocasionales de fuente nacional y respecto de su patrimonio poseído en el país.</p>\n<p><strong><span class=\"verde\">** -</span></strong><span class=\"verde\">Adicionalmente, los contribuyentes a que se refiere este artículo son sujetos pasivos del <del>impuesto de remesas</del>, conforme a lo establecido en el Título IV de este Libro.</span></p>\n<p> </p>\n<p></p>\n</span>",
+  "modificaciones_raw": "** -Eliminado ley 1111 de 2006 art. 78 *** - El texto fue derogado por la ley 1607 de 2012 Art. 198",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "ley 1607 de 2012"
+  ],
+  "texto_derogado": [
+    "impuesto de remesas"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "impuesto de remesas",
+      "full_length": 19
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 43 concepto(s) relacionado(s). Jurisprudencia: 46 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 1040 (2026-01-23): Impuesto sobre la Renta y Complementarios\noficio 17573 (2025-11-04): Otros Temas\noficio 17323 (2025-12-10): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1040-2026",
+      "tipo": "oficio",
+      "numero": "1040",
+      "fecha": "2026-01-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17573-2025",
+      "tipo": "oficio",
+      "numero": "17573",
+      "fecha": "2025-11-04",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17323-2025",
+      "tipo": "oficio",
+      "numero": "17323",
+      "fecha": "2025-12-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11157-2025",
+      "tipo": "oficio",
+      "numero": "11157",
+      "fecha": "2025-08-22",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4507-2025",
+      "tipo": "oficio",
+      "numero": "4507",
+      "fecha": "2025-04-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2025",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10815-2024",
+      "tipo": "oficio",
+      "numero": "10815",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2091-2024",
+      "tipo": "oficio",
+      "numero": "2091",
+      "fecha": "2024-03-20",
+      "tema": "(Int 198) Impuesto sobre la Renta y Complementarios - &iquest;El valor de un intangible (obras musicales) que se debe declarar por parte de su titular, corresponde a su valor razonable o al obtenido en las negociaciones econ&oacute;micas que se realizan con estas obras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1456-2024",
+      "tipo": "oficio",
+      "numero": "1456",
+      "fecha": "2024-03-01",
+      "tema": "(Int 130) Impuesto sobre la renta y complementarios - Ganancias ocasionales - Condonaci&oacute;n - Personas jur&iacute;dicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9079-2023",
+      "tipo": "oficio",
+      "numero": "9079",
+      "fecha": "2023-07-13",
+      "tema": "(Int 777) Establecimiento permanente - Residencia fiscal - Devoluci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908576-2022",
+      "tipo": "oficio",
+      "numero": "908576",
+      "fecha": "2022-11-25",
+      "tema": "Impuesto sobre la renta - Obligaci&oacute;n de declarar - Contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908351-2022",
+      "tipo": "oficio",
+      "numero": "908351",
+      "fecha": "2022-11-21",
+      "tema": "Impuesto sobre la renta y complementarios - Ingresos de fuente nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908053-2022",
+      "tipo": "oficio",
+      "numero": "908053",
+      "fecha": "2022-10-28",
+      "tema": "Impuesto sobre la renta y complementarios - Obligaci&oacute;n de presentar declaraci&oacute;n de renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907888-2022",
+      "tipo": "oficio",
+      "numero": "907888",
+      "fecha": "2022-10-25",
+      "tema": "Impuesto sobre la renta - Contribuyentes no obligados a presentar declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907659-2022",
+      "tipo": "oficio",
+      "numero": "907659",
+      "fecha": "2022-10-21",
+      "tema": "Impuesto sobre la Renta y Complementarios - Fondos de inversi&oacute;n - Fondos de capital privado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907158-2022",
+      "tipo": "oficio",
+      "numero": "907158",
+      "fecha": "2022-09-27",
+      "tema": "Impuesto sobre la renta - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906697-2022",
+      "tipo": "oficio",
+      "numero": "906697",
+      "fecha": "2022-09-02",
+      "tema": "Impuesto sobre la renta y complementarios. Fondos de inversi&oacute;n - Fondos de capital privado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905114-2022",
+      "tipo": "oficio",
+      "numero": "905114",
+      "fecha": "2022-06-30",
+      "tema": "Impuesto sobre la renta - Ingresos de fuente nacional - Retenci&oacute;n en la Fuente por Pago con Tarjeta de Cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903175-2022",
+      "tipo": "oficio",
+      "numero": "903175",
+      "fecha": "2022-04-22",
+      "tema": "Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902748-2022",
+      "tipo": "oficio",
+      "numero": "902748",
+      "fecha": "2022-03-31",
+      "tema": "Residencia fiscal y obligaci&oacute;n de declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902148-2022",
+      "tipo": "oficio",
+      "numero": "902148",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre la renta, personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901346-2022",
+      "tipo": "oficio",
+      "numero": "901346",
+      "fecha": "2022-02-22",
+      "tema": "Retenci&oacute;n en la fuente, ingresos de fuente nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900987-2022",
+      "tipo": "oficio",
+      "numero": "900987",
+      "fecha": "2022-02-09",
+      "tema": "Impuesto sobre la renta y complementarios - Prestaci&oacute;n de servicios desde el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900979-2022",
+      "tipo": "oficio",
+      "numero": "900979",
+      "fecha": "2022-02-09",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos de fuente nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2022",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2022-01-21",
+      "tema": "Funsiones y decisiones entre entidades extranjeras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915596-2021",
+      "tipo": "oficio",
+      "numero": "915596",
+      "fecha": "2021-12-22",
+      "tema": "Impuesto sobre la Renta - Residencia fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-913888-2021",
+      "tipo": "oficio",
+      "numero": "913888",
+      "fecha": "2021-11-10",
+      "tema": "Tratamiento tributario aplicable a una operaci&oacute;n cambiaria de la cual ser&aacute; beneficiario en el pa&iacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913885-2021",
+      "tipo": "oficio",
+      "numero": "913885",
+      "fecha": "2021-11-10",
+      "tema": "&iquest;La Resoluci&oacute;n 063 de 2021 en su art&iacute;culo 2 modific&oacute; el calendario de implementaci&oacute;n de n&oacute;mina electr&oacute;nica, estipulando como fecha de inicio de habilitaci&oacute;n el d&iacute;a 18 de agosto de 2021. En el caso de una empresa que tiene entre 11 y 100 empleados, la misma tiene como fecha m&aacute;xima para iniciar con la generaci&oacute;n y transmisi&oacute;n el 1 de noviembre de 2021. Si dicha empresa el d&iacute;a 30 de septiembre realiza la habilitaci&oacute;n en el servicio inform&aacute;tico electr&oacute;nico &iquest;en qu&eacute; fecha deber&iacute;a estar haciendo la primera transmisi&oacute;n y generaci&oacute;n de su n&oacute;mina electr&oacute;nica a la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913688-2021",
+      "tipo": "oficio",
+      "numero": "913688",
+      "fecha": "2021-11-08",
+      "tema": "Inversi&oacute;n colombiana en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910510-2021",
+      "tipo": "oficio",
+      "numero": "910510",
+      "fecha": "2021-09-23",
+      "tema": "Inversiones en el exterior, Convenio entre Canada y la Rep&uacute;blica de Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910049-2021",
+      "tipo": "oficio",
+      "numero": "910049",
+      "fecha": "2021-09-17",
+      "tema": "Base gravable, Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909487-2021",
+      "tipo": "oficio",
+      "numero": "909487",
+      "fecha": "2021-09-09",
+      "tema": "- (Tributario) Impuesto sobre la renta - Complementarios - Criptoactivos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-909173-2021",
+      "tipo": "oficio",
+      "numero": "909173",
+      "fecha": "2021-09-06",
+      "tema": "Impuesto sobre la renta - Impuesto complementario de ganancias ocasionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908626-2021",
+      "tipo": "oficio",
+      "numero": "908626",
+      "fecha": "2021-08-26",
+      "tema": "Procedimiento Tributario - Facilidades de pago, Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908619-2021",
+      "tipo": "oficio",
+      "numero": "908619",
+      "fecha": "2021-08-25",
+      "tema": "Impuesto sobre la Renta - Inversi&oacute;n extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908613-2021",
+      "tipo": "oficio",
+      "numero": "908613",
+      "fecha": "2021-08-25",
+      "tema": "Impuesto sobre la Renta - Personas naturales nacionales no residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906389-2021",
+      "tipo": "oficio",
+      "numero": "906389",
+      "fecha": "2021-06-30",
+      "tema": "- (Tributario) Tratamiento de compra y venta de divisas, valores y otros activos como criptomonedas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906179-2021",
+      "tipo": "oficio",
+      "numero": "906179",
+      "fecha": "2021-06-28",
+      "tema": "Impuesto sobre la renta y complementarios - Establecimientos Permanentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905547-2021",
+      "tipo": "oficio",
+      "numero": "905547",
+      "fecha": "2021-06-16",
+      "tema": "Presentaci&oacute;n de declaraciones tributarias - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904866-2021",
+      "tipo": "oficio",
+      "numero": "904866",
+      "fecha": "2021-05-28",
+      "tema": "Hecho generador del impuesto sobre las ventas - Obligaci&oacute;n de expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901902-2021",
+      "tipo": "oficio",
+      "numero": "901902",
+      "fecha": "2021-03-10",
+      "tema": "Residencia para efectos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906852-2020",
+      "tipo": "oficio",
+      "numero": "906852",
+      "fecha": "2020-11-11",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria. Hecho generador. Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905791-2020",
+      "tipo": "oficio",
+      "numero": "905791",
+      "fecha": "2020-10-10",
+      "tema": "Determinaci&oacute;n de impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903441-2020",
+      "tipo": "oficio",
+      "numero": "903441",
+      "fecha": "2020-07-23",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901542-2020",
+      "tipo": "oficio",
+      "numero": "901542",
+      "fecha": "2020-05-13",
+      "tema": "Tratamiento tributario en la venta de bonos y tarjetas de regalo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901481-2020",
+      "tipo": "oficio",
+      "numero": "901481",
+      "fecha": "2020-05-11",
+      "tema": "Cambio de titular de la inversi&oacute;n extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4651-2020",
+      "tipo": "oficio",
+      "numero": "4651",
+      "fecha": "2020-03-05",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas Hecho Generador en la Venta de Bienes Hecho Generador en la Venta de Bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2725-2020",
+      "tipo": "oficio",
+      "numero": "2725",
+      "fecha": "2020-02-10",
+      "tema": "Facturaci&oacute;n de trabajo espor&aacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2136-2020",
+      "tipo": "oficio",
+      "numero": "2136",
+      "fecha": "2020-02-03",
+      "tema": "No residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000577-2020",
+      "tipo": "concepto",
+      "numero": "0000577",
+      "fecha": "2020-10-28",
+      "tema": "(9510) Persona natural no residente en el pa&iacute;s, obligada a presentar declaraci&oacute;n del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0358-2020",
+      "tipo": "oficio",
+      "numero": "0358",
+      "fecha": "2020-03-26",
+      "tema": "R&eacute;gimen de tributaci&oacute;n del personal contratado en las oficinas de agregados comerciales en el exterior y que no tienen la calidad de agentes diplom&aacute;ticos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0353-2020",
+      "tipo": "oficio",
+      "numero": "0353",
+      "fecha": "2020-01-01",
+      "tema": "Tarifa de IVA para (i) los triciclos de carga con valor menor a 50 UVT, (ii) para las patinetas, patines y monopatines cuando su valor exceda de 50 UVT y (iii) para los triciclos para ni&ntilde;o",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30470-2019",
+      "tipo": "oficio",
+      "numero": "30470",
+      "fecha": "2019-12-11",
+      "tema": "- (Tributario) Criptoactivos - Causaci&oacute;n de la Retenci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-30290-2019",
+      "tipo": "oficio",
+      "numero": "30290",
+      "fecha": "2019-12-03",
+      "tema": "Pagos dentro y fuera del territorio nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29262-2019",
+      "tipo": "oficio",
+      "numero": "29262",
+      "fecha": "2019-11-22",
+      "tema": "Renta l&iacute;quida cedular de las rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28380-2019",
+      "tipo": "oficio",
+      "numero": "28380",
+      "fecha": "2019-11-15",
+      "tema": "Ingresos de Fuente Extranjera - Nacional - Retenci&oacute;n en la fuente sobre el pago de salarios a los trabajadores no residentes en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25073-2019",
+      "tipo": "oficio",
+      "numero": "25073",
+      "fecha": "2019-10-04",
+      "tema": "&iquest;Una persona natural no residente en el pa&iacute;s obligada a presentar declaraci&oacute;n del impuesto sobre la renta puede hacer aportes a los Fondos de pensi&oacute;n e invalidez y fondos de cesant&iacute;as y acceder al beneficio de la no retenci&oacute;n y renta exenta por estos valores?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-25011-2019",
+      "tipo": "oficio",
+      "numero": "25011",
+      "fecha": "2019-10-03",
+      "tema": "Contribuciones parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23303-2019",
+      "tipo": "oficio",
+      "numero": "23303",
+      "fecha": "2019-09-13",
+      "tema": "Personas Naturales Residentes en el Pa&iacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22457-2019",
+      "tipo": "oficio",
+      "numero": "22457",
+      "fecha": "2019-09-05",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21924-2019",
+      "tipo": "oficio",
+      "numero": "21924",
+      "fecha": "2019-09-03",
+      "tema": "Cobro del impuesto sobre la renta y complementario de ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21776-2019",
+      "tipo": "oficio",
+      "numero": "21776",
+      "fecha": "2019-09-02",
+      "tema": "Incentivos Tributarios Para Residentes en el Extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21327-2019",
+      "tipo": "oficio",
+      "numero": "21327",
+      "fecha": "2019-08-28",
+      "tema": "Incentivos Tributarios Para Residentes en el Extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20470-2019",
+      "tipo": "oficio",
+      "numero": "20470",
+      "fecha": "2019-08-15",
+      "tema": "&iquest;El impuesto sobre la renta aplica para los no residentes en el territorio nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20419-2019",
+      "tipo": "oficio",
+      "numero": "20419",
+      "fecha": "2019-08-04",
+      "tema": "- (Tributario) Criptomonedas declaradas en la declaraci&oacute;n de renta",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-20047-2019",
+      "tipo": "oficio",
+      "numero": "20047",
+      "fecha": "2019-08-13",
+      "tema": "&iquest;C&oacute;mo funcionan los descuentos de impuestos para extranjeros en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19755-2019",
+      "tipo": "oficio",
+      "numero": "19755",
+      "fecha": "2019-08-08",
+      "tema": "Periodo gravable de los extranjeros que lleguen o se ausenten del pa&iacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17175-2019",
+      "tipo": "oficio",
+      "numero": "17175",
+      "fecha": "2019-07-03",
+      "tema": "Disminuci&oacute;n de la Base de Retenci&oacute;n en la Fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17089-2019",
+      "tipo": "oficio",
+      "numero": "17089",
+      "fecha": "2019-07-03",
+      "tema": "Retenci&oacute;n en la fuente por los pagos hechos a una sociedad extranjera que emite una se&ntilde;al a un sat&eacute;lite geoestacionario que la recibe, la amplifica, la traslada a otra frecuencia para ser retransmitida a la tierra donde es recibida por estaciones ubicadas en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16612-2019",
+      "tipo": "oficio",
+      "numero": "16612",
+      "fecha": "2019-06-26",
+      "tema": "&iquest;Existe un r&eacute;gimen de tributaci&oacute;n especial para las personas naturales extranjeras que se desplazan a Colombia para trabajar durante varios a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16292-2019",
+      "tipo": "oficio",
+      "numero": "16292",
+      "fecha": "2019-06-21",
+      "tema": "&iquest;Cu&aacute;l es la posici&oacute;n actual de la DIAN (conforme a la norma) respecto del IVA descontable en la adquisici&oacute;n de activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14755-2019",
+      "tipo": "oficio",
+      "numero": "14755",
+      "fecha": "2019-06-07",
+      "tema": "Vigencia y aplicabilidad del art&iacute;culo 1 del Decreto 187 de 1975",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14497-2019",
+      "tipo": "oficio",
+      "numero": "14497",
+      "fecha": "2019-06-06",
+      "tema": "&iquest;Cu&aacute;les son los impuestos que recaen sobre los individuos en la legislaci&oacute;n colombiana aplicables a un nacional de Puerto Rico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12896-2019",
+      "tipo": "oficio",
+      "numero": "12896",
+      "fecha": "2019-05-24",
+      "tema": "Impuesto sobre la Renta y Complementarios. Pago de fuente extranjera a residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8758-2019",
+      "tipo": "oficio",
+      "numero": "8758",
+      "fecha": "2019-04-10",
+      "tema": "Beneficio empleadores – desplazados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6246-2019",
+      "tipo": "oficio",
+      "numero": "6246",
+      "fecha": "2019-03-13",
+      "tema": "Doble Tributaci&oacute;n Ingresos de Fuente Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4853-2019",
+      "tipo": "oficio",
+      "numero": "4853",
+      "fecha": "2019-02-26",
+      "tema": "Convenios internacionales referentes a la doble imposici&oacute;n y para prevenir la evasi&oacute;n fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2718-2019",
+      "tipo": "oficio",
+      "numero": "2718",
+      "fecha": "2019-02-01",
+      "tema": "Convenios para evitar la doble tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34690-2018",
+      "tipo": "oficio",
+      "numero": "34690",
+      "fecha": "2018-12-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de pagar impuesto para una persona que hace inversiones en la bolsa de New York con acciones y opciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33257-2018",
+      "tipo": "oficio",
+      "numero": "33257",
+      "fecha": "2018-11-14",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26487-2018",
+      "tipo": "oficio",
+      "numero": "26487",
+      "fecha": "2018-09-18",
+      "tema": "&iquest;Se aplica la tarifa del impuesto sobre la renta del art&iacute;culo 247 del Estatuto Tributario a los pagos que perciba un trabajador no residente o se aplica la tarifa de retenci&oacute;n en la fuente contenida en el art&iacute;culo 408 del mismo estatuto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21281-2018",
+      "tipo": "oficio",
+      "numero": "21281",
+      "fecha": "2018-08-13",
+      "tema": "Retenci&oacute;n en la fuente a factura del exterior correspondiente al arrendamiento de una m&aacute;quina",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16045-2018",
+      "tipo": "oficio",
+      "numero": "16045",
+      "fecha": "2018-06-18",
+      "tema": "Declaraci&oacute;n de renta por parte de personas cuyo &uacute;nico ingreso es una pensi&oacute;n que no excede el valor de 1000 UVT mensuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15225-2018",
+      "tipo": "oficio",
+      "numero": "15225",
+      "fecha": "2018-06-13",
+      "tema": "&iquest;Una empresa inscrita en el registro nacional de turismo de acuerdo con lo establecido en la Ley 300 de 1996 y dedicada a la prestaci&oacute;n de servicios tur&iacute;sticos a residentes del exterior, que se utilizan en el territorio colombiano, est&aacute; obligada a practicar y consignar la autorretenci&oacute;n establecida en el Decreto 2201 de 2016 por los servicios que vende en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15223-2018",
+      "tipo": "oficio",
+      "numero": "15223",
+      "fecha": "2018-06-13",
+      "tema": "Requisitos para declarar no residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14485-2018",
+      "tipo": "oficio",
+      "numero": "14485",
+      "fecha": "2018-06-05",
+      "tema": "&iquest;Si un residente espa&ntilde;ol adquiere una vivienda en Colombia, deber&aacute; tributar por esa vivienda en Colombia o en Espa&ntilde;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12100-2018",
+      "tipo": "oficio",
+      "numero": "12100",
+      "fecha": "2018-05-10",
+      "tema": "&iquest;Con cu&aacute;les pa&iacute;ses Colombia ha suscrito acuerdos o convenios de intercambio de informaci&oacute;n y protocolos de supervisi&oacute;n de que trata el par&aacute;grafo del Art&iacute;culo 23.2 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3933-2018",
+      "tipo": "oficio",
+      "numero": "3933",
+      "fecha": "2018-02-16",
+      "tema": "&iquest;En una sucesi&oacute;n, qui&eacute;n es el beneficiario de la exenci&oacute;n del Impuesto Sobre la Renta y Complementarios por la enajenaci&oacute;n de un inmueble destinado a la construcci&oacute;n de un proyecto de inter&eacute;s social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3912-2018",
+      "tipo": "oficio",
+      "numero": "3912",
+      "fecha": "2018-05-29",
+      "tema": "Certificados de Acreditaci&oacute;n de Residencia y de Situaci&oacute;n Tributaria en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1855-2018",
+      "tipo": "oficio",
+      "numero": "1855",
+      "fecha": "2018-10-17",
+      "tema": "Presentaci&oacute;n declaraci&oacute;n de renta - pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0525-2018",
+      "tipo": "oficio",
+      "numero": "0525",
+      "fecha": "2018-04-24",
+      "tema": "Se encuentra vigente el numeral 2&deg; del art&iacute;culo 1&deg; del Decreto 187 de 1975",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0341-2018",
+      "tipo": "oficio",
+      "numero": "0341",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario aplicable a los negocios que como actividad principal utilizan modelos webcam y cuyos pagos son realizados por clientes a trav&eacute;s de plataformas internacionales (p&aacute;ginas web)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0183-2018",
+      "tipo": "oficio",
+      "numero": "0183",
+      "fecha": "2018-02-21",
+      "tema": "&iquest;El ingreso proveniente de la venta de bonos de carbono se encuentra enmarcado en alguna de las rentas reguladas por el Convenio para evitar la doble imposici&oacute;n celebrado por Colombia y la Confederaci&oacute;n Suiza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2018",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "2018-10-09",
+      "tema": "MC. Se modifica el Concepto 001 de 2012 sobre liquidaci&oacute;n, declaraci&oacute;n y pago de la contribuci&oacute;n parafiscal de los espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33241-2017",
+      "tipo": "oficio",
+      "numero": "33241",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;C&oacute;mo debe declarar un residente colombiano, un inmueble que posee en Suiza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28716-2017",
+      "tipo": "oficio",
+      "numero": "28716",
+      "fecha": "2017-10-23",
+      "tema": "Obligaci&oacute;n Tributaria Formal",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-27532-2017",
+      "tipo": "oficio",
+      "numero": "27532",
+      "fecha": "2017-10-10",
+      "tema": "Responsables del Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23844-2017",
+      "tipo": "oficio",
+      "numero": "23844",
+      "fecha": "2017-09-01",
+      "tema": "Decreto que reglamenta el recaudo y retenci&oacute;n de los impuestos al oro y platino",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20505-2017",
+      "tipo": "oficio",
+      "numero": "20505",
+      "fecha": "2017-08-02",
+      "tema": "Residencia para efectos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20436-2017",
+      "tipo": "oficio",
+      "numero": "20436",
+      "fecha": "2017-08-02",
+      "tema": "- (Tributario) Miner&iacute;a de monedas virtuales est&aacute; gravada con el impuesto de renta",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-13505-2017",
+      "tipo": "oficio",
+      "numero": "13505",
+      "fecha": "2017-05-31",
+      "tema": "Impuesto sobre las ventas - Hecho generador - improcedencia en la venta de bonos de carbono",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6213-2017",
+      "tipo": "oficio",
+      "numero": "6213",
+      "fecha": "2017-03-17",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3505-2017",
+      "tipo": "oficio",
+      "numero": "3505",
+      "fecha": "2017-05-31",
+      "tema": "Hecho generador- improcedencia en la venta de bonos de carbono.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11754-2016",
+      "tipo": "oficio",
+      "numero": "11754",
+      "fecha": "2016-05-13",
+      "tema": "Tributaci&oacute;n personas naturales extranjeras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10486-2016",
+      "tipo": "oficio",
+      "numero": "10486",
+      "fecha": "2016-05-03",
+      "tema": "Impuesto sobre la renta y complementarios - Inversi&oacute;n de capital del exterior - Directa portafolio - Inversi&oacute;n Extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10479-2016",
+      "tipo": "oficio",
+      "numero": "10479",
+      "fecha": "2016-05-03",
+      "tema": "Solicita la modificaci&oacute;n de la doctrina contenida en el Concepto n&uacute;mero 25242 de marzo de 2007, y los Oficios n&uacute;meros 075074 de octubre 11 de 2010, 007254 de marzo 9 de 2015 y 28448 de septiembre 30 de 2015, en los cuales se efectu&oacute; el an&aacute;lisis de la Convenci&oacute;n Internacional sobre la Protecci&oacute;n de los Derechos de todos los Trabajadores Migratorios y de sus Familias, y se afirm&oacute; que tal convenci&oacute;n aplica para los trabajadores en cuanto sean provenientes de los pa&iacute;ses que suscribieron la Convenci&oacute;n, quienes tienen derecho al mismo tratamiento tributario de los nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5468-2016",
+      "tipo": "oficio",
+      "numero": "5468",
+      "fecha": "2016-03-12",
+      "tema": "&iquest;El inversionista de capital del exterior de portafolio que en virtud del Decreto 4800 de 2010 invierte en Colombia a trav&eacute;s de un patrimonio aut&oacute;nomo, tiene un establecimiento permanente en Colombia?&iquest;En caso afirmativo, c&oacute;mo debe aplicarse en este evento, el art&iacute;culo 18-1 del Estatuto Tributario, que regula el r&eacute;gimen tributario de la inversi&oacute;n extrajera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1026-2016",
+      "tipo": "oficio",
+      "numero": "1026",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1020-2016",
+      "tipo": "oficio",
+      "numero": "1020",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0995-2016",
+      "tipo": "oficio",
+      "numero": "0995",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0677-2016",
+      "tipo": "oficio",
+      "numero": "0677",
+      "fecha": "2016-01-13",
+      "tema": "&iquest;Los contribuyentes que act&uacute;en con base en conceptos escritos de la Subdirecci&oacute;n Jur&iacute;dica de la Direcci&oacute;n de Impuestos y Aduanas Nacionales podr&aacute;n sustentar sus actuaciones en la v&iacute;a gubernativa y en la jurisdiccional con base en los mismos. Durante el tiempo en que tales conceptos se encuentren vigentes, las actuaciones tributarias realizadas a su amparo no podr&aacute;n ser objetadas por las autoridades tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0675-2016",
+      "tipo": "oficio",
+      "numero": "0675",
+      "fecha": "2016-07-14",
+      "tema": "Convenio entre Francia y Colombia para evitar la doble tributaci&oacute;n y prevenir la evasi&oacute;n y la elusi&oacute;n fiscal con respecto a los impuestos sobre la renta y sobre el patrimonio y su protocolo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0058-2016",
+      "tipo": "oficio",
+      "numero": "0058",
+      "fecha": "2016-01-29",
+      "tema": "Impuesto sobre la renta y complementarios, deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33112-2015",
+      "tipo": "oficio",
+      "numero": "33112",
+      "fecha": "2015-11-13",
+      "tema": "&iquest;Un nacional colombiano, que no es residente fiscal en el pa&iacute;s y que posee en Colombia el 50% de un bien inmueble entregado en fideicomiso en el a&ntilde;o 2013 y el cual no le genera ning&uacute;n tipo de renta ya que est&aacute; utilizado para vivienda familiar, debe o no presentar declaraci&oacute;n del impuesto sobre la renta y complementario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28750-2015",
+      "tipo": "oficio",
+      "numero": "28750",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento impositivo para ciudadanos colombianos que, por intermedio de la asesor&iacute;a de un br&oacute;ker financiero domiciliado en el exterior, invierten recursos fuera de Colombia obteniendo unas ganancias que en unos casos depositan en cuentas bancarias colombianas y en otros en cuentas bancarias extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28448-2015",
+      "tipo": "oficio",
+      "numero": "28448",
+      "fecha": "2015-09-30",
+      "tema": "&iquest;Contin&uacute;a vigente el Concepto n&uacute;mero 65163 del 20 de agosto de 1998 o se debe entender derogado t&aacute;citamente a partir de la modificaci&oacute;n normativa introducida por el art&iacute;culo 10 de la Ley 1607 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27430-2015",
+      "tipo": "oficio",
+      "numero": "27430",
+      "fecha": "2015-09-22",
+      "tema": "Impuestos generados por el hecho de recibir giros del exterior, abonables en una cuenta de ahorro local, as&iacute;: &iquest;Se debe pagar alg&uacute;n impuesto o tasa de intermediaci&oacute;n para recibir el dinero?, &iquest;A partir de cu&aacute;nto dinero se debe pagar dicho impuesto?, &iquest;Cu&aacute;ntos giros de reintegro y en qu&eacute; montos puede recibir una persona natural?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25590-2015",
+      "tipo": "oficio",
+      "numero": "25590",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Se encuentran exonerados del impuesto sobre la renta para la equidad - CREE, a la luz de la Ley 4 de 1988, los ingresos percibidos por el servicio de transporte a&eacute;reo internacional prestado por una sociedad norteamericana a trav&eacute;s de sucursal ubicada en el territorio nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25576-2015",
+      "tipo": "oficio",
+      "numero": "25576",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Se encuentra exenta, en los t&eacute;rminos del art&iacute;culo 206 del Estatuto Tributario, la pensi&oacute;n de sobrevivientes proveniente del exterior recibida por el-la c&oacute;nyuge sup&eacute;rstite y en que rengl&oacute;n de la declaraci&oacute;n de renta, correspondiente a personas naturales no obligadas a llevar contabilidad, registra ese ingreso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24885-2015",
+      "tipo": "oficio",
+      "numero": "24885",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Se encuentran vigentes el Concepto No. 019265 del 7 de abril de 2005 y el Oficio No. 37735 del 21 de junio de 2005? &iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas y del impuesto sobre la renta y complementarios si aquella presta el servicio de acceso satelital a trav&eacute;s de un sat&eacute;lite ubicado fuera de la &oacute;rbita geoestacionaria colombiana a empresas colombianas que acceden al mismo por intermedio de sus propias plataformas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24300-2015",
+      "tipo": "oficio",
+      "numero": "24300",
+      "fecha": "2015-08-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24193-2015",
+      "tipo": "oficio",
+      "numero": "24193",
+      "fecha": "2015-08-20",
+      "tema": "Tratamiento de retenciones en la fuente en contratos de intermediaci&oacute;n comercial, en virtud de los cuales se reciben ingresos para terceros y sobre reembolsos de pagos por cuenta de terceros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23351-2015",
+      "tipo": "oficio",
+      "numero": "23351",
+      "fecha": "2015-08-11",
+      "tema": "Agentes Retenedores, C&aacute;maras de Comercio - Aplicaci&oacute;n del 1% a personas naturales por enajenaci&oacute;n de activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22581-2015",
+      "tipo": "oficio",
+      "numero": "22581",
+      "fecha": "2015-08-03",
+      "tema": "&iquest;Si una persona natural que ingresa al pa&iacute;s el 1 de abril de 2014 y permanece el tiempo restante del a&ntilde;o en Colombia, o ingresa el 1 de enero y sale el 31 de agosto de 2014 ser&aacute; considerada residente para efectos fiscales por el a&ntilde;o gravable 2014 y deber&aacute; incluir la informaci&oacute;n sobre rentas mundiales por todo el a&ntilde;o? o &iquest;solamente por los meses que estuvo en el pa&iacute;s y que le dan el estatus de residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16385-2015",
+      "tipo": "oficio",
+      "numero": "16385",
+      "fecha": "2015-06-03",
+      "tema": "&iquest;La palabra",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15911-2015",
+      "tipo": "oficio",
+      "numero": "15911",
+      "fecha": "2015-05-29",
+      "tema": "&iquest;Existe alg&uacute;n requisito y-o beneficio tributario del 4 x 1.000, para el giro de dineros desde el extranjero por un nacional para comprar un bien en territorio nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15864-2015",
+      "tipo": "oficio",
+      "numero": "15864",
+      "fecha": "2015-05-29",
+      "tema": "Una persona natural extranjera estuvo en el pa&iacute;s entre el 1o de Enero de 2014 hasta el 31 de Diciembre de 2014. La persona natural extranjera no estar&aacute; en Colombia en el a&ntilde;o 2015 ni un solo d&iacute;a. &iquest;Para el a&ntilde;o 2015 la persona natural extranjera es residente para efectos tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11765-2015",
+      "tipo": "oficio",
+      "numero": "11765",
+      "fecha": "2015-04-24",
+      "tema": "(Int 524) Impuesto sobre la renta y complementarios - Ingresos de Fuente Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7234-2015",
+      "tipo": "oficio",
+      "numero": "7234",
+      "fecha": "2015-03-09",
+      "tema": "Mediante el radicado de la referencia solicita la reconsideraci&oacute;n de la doctrina contenida en el Oficio n&uacute;mero 100208221-1497 de diciembre 22 de 2014, en el cual se consider&oacute; que cuando un extranjero adquiere la residencia para efectos fiscales porque el periodo de permanencia se completa en un mes del a&ntilde;o gravable, est&aacute; obligado a presentar declaraci&oacute;n de renta por el sistema de determinaci&oacute;n que le corresponda y en ella puede incluir todos los factores de depuraci&oacute;n que correspondan al a&ntilde;o gravable y no solo desde el mes -de ese mismo a&ntilde;o- en que adquiri&oacute; la residencia y en consecuencia, en caso de saldo a favor podr&iacute;a solicitar la devoluci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7201-2015",
+      "tipo": "oficio",
+      "numero": "7201",
+      "fecha": "2015-03-06",
+      "tema": "Inquietudes en relaci&oacute;n con el Concepto 885 de julio 31 de 2014 y el Oficio n&uacute;mero 648 de julio 28 de 2014 - Declaraci&oacute;n del Impuesto sobre la renta - Personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1359-2015",
+      "tipo": "oficio",
+      "numero": "1359",
+      "fecha": "2015-10-09",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67157-2014",
+      "tipo": "oficio",
+      "numero": "67157",
+      "fecha": "2014-12-22",
+      "tema": "Convenio para evitar la doble Imposici&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66590-2014",
+      "tipo": "oficio",
+      "numero": "66590",
+      "fecha": "2014-12-16",
+      "tema": "Tratamiento tributario de los contratos de concesi&oacute;n minera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66141-2014",
+      "tipo": "oficio",
+      "numero": "66141",
+      "fecha": "2014-12-11",
+      "tema": "&iquest;Es viable que la persona en comento declare en Colombia &uacute;nicamente el valor de su patrimonio, toda vez que los ingresos laborales obtenidos en el exterior, siendo las &uacute;nicas rentas percibidas en el a&ntilde;o gravable 2013, ya fueron declarados tributariamente en M&eacute;xico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63387-2014",
+      "tipo": "oficio",
+      "numero": "63387",
+      "fecha": "2014-11-20",
+      "tema": "&iquest;Al elaborar la declaraci&oacute;n de renta en el pa&iacute;s puede tomar respecto de los ingresos del exterior, las deducciones, rentas exentas y dem&aacute;s conceptos aplicables a los asalariados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61820-2014",
+      "tipo": "oficio",
+      "numero": "61820",
+      "fecha": "2014-11-06",
+      "tema": "&iquest;Los ingresos de un ciudadano colombiano provenientes de un contrato de consultor&iacute;a con el banco mundial, generan impuesto sobre la renta y complementarios o estar&iacute;an exentos; y si los vi&aacute;ticos habituales constituyen salario para efectos de la presentaci&oacute;n de la declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61417-2014",
+      "tipo": "oficio",
+      "numero": "61417",
+      "fecha": "2014-10-31",
+      "tema": "Consulta sobre la vigencia de la exclusi&oacute;n en el impuesto sobre las ventas, consagrada en el art&iacute;culo 424-5 numeral 4o del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61415-2014",
+      "tipo": "oficio",
+      "numero": "61415",
+      "fecha": "2014-10-31",
+      "tema": "se consulta para el caso de una persona natural con doble nacionalidad (colombiana-estadounidense), declarante del impuesto de renta en ambos pa&iacute;ses por los bienes pose&iacute;dos, si debe incluir los bienes pose&iacute;dos en los Estados Unidos para efectos de la declaraci&oacute;n del impuesto de renta en Colombia, los mecanismos previstos para evitar la doble tributaci&oacute;n en este caso y la vigencia de la Ley 1666 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58303-2014",
+      "tipo": "oficio",
+      "numero": "58303",
+      "fecha": "2014-10-10",
+      "tema": "solicita la reconsideraci&oacute;n y de manera subsidiaria la aclaraci&oacute;n del Oficio n&uacute;mero 16680 del 22 de marzo de 2005",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58201-2014",
+      "tipo": "oficio",
+      "numero": "58201",
+      "fecha": "2014-10-10",
+      "tema": "&iquest;Es v&aacute;lido que un funcionario de la DIAN rechace una solicitud de devoluci&oacute;n de saldo a favor en el impuesto sobre la renta,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57999-2014",
+      "tipo": "oficio",
+      "numero": "57999",
+      "fecha": "2014-10-09",
+      "tema": "Convenio entre la Rep&uacute;blica de Colombia y la Confederaci&oacute;n Suiza para evitar la Doble Imposici&oacute;n en materia de Impuestos sobre la Renta y Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054539-2014",
+      "tipo": "concepto",
+      "numero": "0054539",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;Las personas naturales, nacionales, residentes en Colombia para efectos fiscales y obligadas a presentar declaraci&oacute;n del impuesto sobre la renta y complementarios, deben incluir en la misma los ingresos laborales de fuente extranjera, en concreto, emolumentos reconocidos por la Caja Com&uacute;n de Pensiones del Personal de las Naciones Unidas as&iacute; como por la Corporaci&oacute;n Andina de Fomento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53417-2014",
+      "tipo": "oficio",
+      "numero": "53417",
+      "fecha": "2014-08-26",
+      "tema": "&iquest;En materia de bonificaciones por retiro definitivo de un trabajador se les debe aplicar retenci&oacute;n en la fuente m&iacute;nima de acuerdo al art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-53360-2014",
+      "tipo": "oficio",
+      "numero": "53360",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Una empresa con actividad econ&oacute;mica principal seg&uacute;n el CIU es la 2930, cuando vende materiales de desecho de hierro (viruta), debe liquidar el IVA y hacer la retenci&oacute;n en la fuente a t&iacute;tulo del IVA?&iquest;En el proceso de compra a sus proveedores de materia prima adquirida en el mercado nacional, como lo son el hierro y la chatarra cuya clasificaci&oacute;n arancelaria es la 72.04 - desperdicios y desechos de fundici&oacute;n-, 72.04.30 - desperdicios y desechos de hierro, 72.04.50 - lingotes de chatarra-, &eacute;stos le deben facturar el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53140-2014",
+      "tipo": "oficio",
+      "numero": "53140",
+      "fecha": "2014-08-26",
+      "tema": "&iquest;Est&aacute; obligada a presentar declaraci&oacute;n del impuesto sobre la renta y complementarios siendo trabajadora de la Embajada de la Rep&uacute;blica Federal de Alemania en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51017-2014",
+      "tipo": "oficio",
+      "numero": "51017",
+      "fecha": "2014-08-22",
+      "tema": "Requisitos generales para el cumplimiento de obligaciones formales por parte de inversionistas extranjeros en Colombia - Los inversionistas de capital del exterior de portafolio son contribuyentes del impuesto sobre la renta y complementarios por las utilidades obtenidas en desarrollo de sus actividades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49492-2014",
+      "tipo": "oficio",
+      "numero": "49492",
+      "fecha": "2014-08-15",
+      "tema": "Impuestos y obligaciones fiscales a la que est&aacute; sujeto un mexicano que trabaja con una compa&ntilde;&iacute;a multinacional y decide trasladarlo a la ciudad de Bogot&aacute;, cuya n&oacute;mina estar&aacute; cubierta por la nueva oficina en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49174-2014",
+      "tipo": "oficio",
+      "numero": "49174",
+      "fecha": "2014-08-14",
+      "tema": "Contribuciones al Sistema de Seguridad Social Integral - Deducciones - Ingreso base de cotizaci&oacute;n de los contratistas de prestaci&oacute;n de servicios - Verificaci&oacute;n de afiliaci&oacute;n y aportes Sistema de Seguridad Social Integral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47565-2014",
+      "tipo": "oficio",
+      "numero": "47565",
+      "fecha": "2014-07-28",
+      "tema": "&iquest;Las personas naturales no obligadas a llevar contabilidad, pueden solicitar como deducci&oacute;n en la declaraci&oacute;n de renta y complementarios la depreciaci&oacute;n de los activos fijos tangibles que posean?&iquest;Las primeras ocho mil (8000) UVT de la vivienda de habitaci&oacute;n del contribuyente, que se detraen del patrimonio l&iacute;quido del a&ntilde;o anterior para calcular la renta presuntiva de las personas naturales, se deben restar del patrimonio l&iacute;quido del a&ntilde;o anterior por su valor patrimonial neto o por el valor bruto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47513-2014",
+      "tipo": "oficio",
+      "numero": "47513",
+      "fecha": "2014-08-06",
+      "tema": "&iquest;La persona natural se considera residente fiscal en 2013 por haber completado m&aacute;s de 183 d&iacute;as en un periodo de 365 (contado desde el 1o de mayo de 2012 al 30 de abril de 2013)?&iquest;En caso contrario, los 183 d&iacute;as continuos o discontinuos s&oacute;lo se empiezan a computar a partir del 1&ordm; de enero de 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45542-2014",
+      "tipo": "oficio",
+      "numero": "45542",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Retenci&oacute;n en la fuente - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-42207-2014",
+      "tipo": "oficio",
+      "numero": "42207",
+      "fecha": "2014-07-17",
+      "tema": "&iquest;Una Instituci&oacute;n Prestadora de Salud, est&aacute; obligada a exigir a los m&eacute;dicos que contrata, la prueba del pago de los aportes a la seguridad social y aceptar que tal cotizaci&oacute;n se realice por un salario m&iacute;nimo cuando la prestaci&oacute;n del servicio es por un monto mayor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26582-2014",
+      "tipo": "oficio",
+      "numero": "26582",
+      "fecha": "2014-01-01",
+      "tema": "Consulta sobre el cumplimiento del requisito de la presentaci&oacute;n personal del memorial para efectos de acogerse al beneficio de progresividad establecido en la Ley 1429 de 2010, as&iacute; como la forma de presentarse este escrito y los documentos exigidos ante la Divisi&oacute;n de Gesti&oacute;n de Fiscalizaci&oacute;n o la dependencia que haga sus veces, de la Direcci&oacute;n Seccional de Impuestos Nacionales o de impuestos y Aduanas Nacionales a la que corresponda su domicilio fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019440-2014",
+      "tipo": "concepto",
+      "numero": "0019440",
+      "fecha": "2014-03-25",
+      "tema": "&iquest;La restricci&oacute;n de costos y deducciones en los t&eacute;rminos del art&iacute;culo 124-2 del Estatuto Tributario, aplica para pagos o abonos en cuenta, cuando se realicen a: &iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional y cuyo ingreso sea de fuente nacional?&iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional por concepto de importaciones, cuando el importador es contribuyente del impuesto sobre la renta en Colombia?&iquest;Personas o entidades que NO se encuentran localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional, pero que la cuenta bancaria a la que se efect&uacute;a el giro del dinero, SI se encuentra localizada o funciona en una entidad financiera (banco) constituida, localizada o en funcionamiento en un para&iacute;so fiscal calificado como tal por el Gobierno Nacional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-79818-2013",
+      "tipo": "oficio",
+      "numero": "79818",
+      "fecha": "2013-12-12",
+      "tema": "Convenio Internacional Sobre Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77394-2013",
+      "tipo": "oficio",
+      "numero": "77394",
+      "fecha": "2013-12-03",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los pagos efectuados como resultado de una conciliaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64458-2013",
+      "tipo": "oficio",
+      "numero": "64458",
+      "fecha": "2013-10-09",
+      "tema": "&iquest;Cu&aacute;ndo un distribuidor de derivados del petr&oacute;leo le vende estos productos a un usuario industrial de bienes y servicios ubicado en zona franca para ser utilizados como materia prima o insumo necesario para el desarrollo de su objeto social, puede solicitar la devoluci&oacute;n del impuesto sobre las ventas, teniendo en cuenta la exenci&oacute;n dispuesta en el literal f) del art&iacute;culo 481 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054121-2013",
+      "tipo": "concepto",
+      "numero": "0054121",
+      "fecha": "2013-08-28",
+      "tema": "&iquest;El traslado de los recursos financieros distribuidos y girados por COLJUEGOS a los entes territoriales, COLCIENCIAS y al Fondo Nacional de Pensiones Territoriales - FONPET que corresponden a las rentas obtenidas en el ejercicio de los monopolios de juegos de suerte y azar destinados exclusivamente a los servicios de salud en los t&eacute;rminos del art&iacute;culo 336 de la Constituci&oacute;n Pol&iacute;tica, est&aacute; gravado con el GMF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26847-2013",
+      "tipo": "oficio",
+      "numero": "26847",
+      "fecha": "2013-05-06",
+      "tema": "&iquest;Es viable para una persona natural extranjera residente en Colombia desde hace un a&ntilde;o, facturar a trav&eacute;s de una empresa colombiana de la cual es soda, los servicios de consultor&iacute;a empresarial prestados en el exterior como independiente, y qu&eacute; impuestos puede incluir en la factura por esta operaci&oacute;n o si se considera una exportaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25962-2013",
+      "tipo": "oficio",
+      "numero": "25962",
+      "fecha": "2013-04-30",
+      "tema": "&iquest;Sobre el auto inadmisorio proferido por la administraci&oacute;n tributaria con ocasi&oacute;n de una solicitud de devoluci&oacute;n o compensaci&oacute;n, procede proferir su revocatoria directa a solicitud del administrado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77346-2012",
+      "tipo": "oficio",
+      "numero": "77346",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;Los pagos originados en una indemnizaci&oacute;n por un contrato de trabajo que perciba un funcionario internacional del Fondo Latinoamericano de Reservas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76740-2012",
+      "tipo": "oficio",
+      "numero": "76740",
+      "fecha": "2012-12-10",
+      "tema": "Exchange Traded Funds (ETF) -Ingresos de fuente nacional - impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2026",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "",
+      "tema": "Contribuci&oacute;n parafiscal de los espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72460-2011",
+      "tipo": "oficio",
+      "numero": "72460",
+      "fecha": "2011-09-20",
+      "tema": "&iquest;Podr&iacute;an las facturas ser soporte de los ingresos facturados al exterior, sin necesidad de registrar los contratos, en el Ministerio de Comercio, Industria y Turismo?&iquest;Teniendo en cuenta el principio de territorialidad, se entender&iacute;a que el total de los ingresos facturados por servicios prestados y usados exclusivamente en el exterior, no son gravados con el impuesto sobre la renta en Colombia? &iquest;ese mismo valor se declarar&iacute;a como exento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70087-2011",
+      "tipo": "oficio",
+      "numero": "70087",
+      "fecha": "2011-09-12",
+      "tema": "Tratamiento tributario aplicable a un inversionista Colombiano sobre las utilidades por enajenaci&oacute;n de t&iacute;tulos ETF constituidos en el exterior bajo las normas del mercado americano, con subyacente constituido por acciones listadas en la Bolsa de Valores de Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66216-2011",
+      "tipo": "oficio",
+      "numero": "66216",
+      "fecha": "2011-08-26",
+      "tema": "&iquest;Cu&aacute;l es la calidad que debe tener el apoderado que solicita la inscripci&oacute;n en el RUT, de que trata el literal b) del art&iacute;culo 9 del Decreto 2788 de 2004, modificado por el art&iacute;culo 1 del Decreto 2646 de 2011, teniendo en cuenta lo establecido en el art&iacute;culo 35 del Decreto 196 de 1971?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23978-2011",
+      "tipo": "oficio",
+      "numero": "23978",
+      "fecha": "2011-04-05",
+      "tema": "&iquest;Se debe practicar retenci&oacute;n en la fuente por concepto de impuesto sobre la renta e IVA -por servicios-, a los pagos o abonos en cuenta realizados por usuarios colombianos a favor de una sociedad extranjera, no domiciliada ni residente fiscal en Colombia, que brinda el servicio de comunicaciones de voz, VOIP?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066964-2010",
+      "tipo": "concepto",
+      "numero": "0066964",
+      "fecha": "2010-09-13",
+      "tema": "&iquest;Por cu&aacute;l valor se debe declarar la ganancia ocasional proveniente de herencias o legados recibidos en especies distintas de dinero, cuando los bienes hubieren sido adquiridos por el causante declarante en a&ntilde;os anteriores al de su muerte?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58372-2010",
+      "tipo": "oficio",
+      "numero": "58372",
+      "fecha": "2010-08-13",
+      "tema": "Vigencia de la doctrina contenida en los conceptos DIAN los cuales fueron revisados en el orden cronol&oacute;gico de expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35832-2010",
+      "tipo": "oficio",
+      "numero": "35832",
+      "fecha": "2010-05-20",
+      "tema": "&iquest;El endeudamiento de una sucursal, filial o agencia colombiana con una filial del exterior de la casa matriz, forma parte del patrimonio de aquellas, de conformidad con el art&iacute;culo 287 del Estatuto Tributario modificado por la Ley 1370 de 2009, o si por el hecho de que la filial es reconocida por el Banco de la Rep&uacute;blica como entidad financiera del exterior, este endeudamiento no forma parte del patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-105922-2009",
+      "tipo": "oficio",
+      "numero": "105922",
+      "fecha": "2009-12-24",
+      "tema": "&iquest;Una persona que est&aacute; trabajando fuera del pa&iacute;s, pero que su salario se le paga parte en el exterior y parte en Colombia, al tiempo que mantiene su afiliaci&oacute;n a los servicios de EPS, Fondo de pensiones, ARP y Aportes parafiscales de Sena, ICBF y Caja de Compensaci&oacute;n se considera residente en Colombia y por lo tanto obligado a presentar declaraci&oacute;n del impuesto sobre la renta en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-94485-2009",
+      "tipo": "oficio",
+      "numero": "94485",
+      "fecha": "2009-11-17",
+      "tema": "&iquest;Qu&eacute; retenci&oacute;n se debe aplicar al pago por la compra de software en Colombia a una empresa residenciada en Espa&ntilde;a y sin sucursal en Colombia y de qu&eacute; manera &eacute;ste se debe certificar para efectos de acreditar el repectivo impuesto en Espa&ntilde;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065231-2009",
+      "tipo": "concepto",
+      "numero": "0065231",
+      "fecha": "2009-08-13",
+      "tema": "&iquest;Los contribuyentes nacionales del impuesto sobre la renta que perciban rentas de fuente extranjera y que deban liquidar el impuesto por el sistema especial de renta presuntiva, pueden descontar el impuesto pagado en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108157-2008",
+      "tipo": "oficio",
+      "numero": "108157",
+      "fecha": "2008-10-30",
+      "tema": "&iquest;Se encuentran sometidos al r&eacute;gimen de precios de transferencia los movimiento de bienes y servicios entre la sucursal del exterior de una oficina principal ubicada en Colombia y otro vinculado econ&oacute;mico del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67602-2008",
+      "tipo": "oficio",
+      "numero": "67602",
+      "fecha": "2008-07-15",
+      "tema": "Exenciones tributarias en tratados o convenios internacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60863-2008",
+      "tipo": "oficio",
+      "numero": "60863",
+      "fecha": "2008-01-01",
+      "tema": "R&eacute;gimen impositivo de un fideicomiso irrevocable constituido en el exterior por personas naturales no residentes en el pa&iacute;s, en el que se dan poderes al fiduciario, persona natural, quien realiza una inversi&oacute;n en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054399-2008",
+      "tipo": "concepto",
+      "numero": "0054399",
+      "fecha": "2008-06-03",
+      "tema": "- &iquest;Se consideran ingresos de fuente nacional, los derivados de un contrato laboral suscrito en Colombia por un trabajador no residente en el pa&iacute;s, as&iacute; el servicio sea prestado en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21395-2008",
+      "tipo": "oficio",
+      "numero": "21395",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable en los contratos financiados con recursos de empr&eacute;stitos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11214-2008",
+      "tipo": "oficio",
+      "numero": "11214",
+      "fecha": "2008-12-09",
+      "tema": "Solicita reconsiderar la posici&oacute;n expresada en el oficio 006882 del 18 de enero de 2008, en el que se modific&oacute; la doctrina expuesta por la Divisi&oacute;n de Normativa y Doctrina de la Oficina Jur&iacute;dica, al se&ntilde;alar que los ingresos obtenidos por una persona natural extranjera que tiene relaci&oacute;n laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia y que en virtud de un contrato celebrado entre su empleadora y una Colombiana, presta sus servicios en el pa&iacute;s, se consideran de fuente nacional para el trabajador y como consecuencia de ello gravados en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8382-2008",
+      "tipo": "oficio",
+      "numero": "8382",
+      "fecha": "2008-11-28",
+      "tema": "Cancelaci&oacute;n en el RUT de la responsabilidad del impuesto sobre las ventas, para el caso de las sucesiones il&iacute;quidas y que no obstante las respuestas suministradas, en los puntos de atenci&oacute;n de la DIAN no ha logrado realizar este tr&aacute;mite",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6882-2008",
+      "tipo": "oficio",
+      "numero": "6882",
+      "fecha": "2008-01-18",
+      "tema": "En las consultas de la referencia se solicit&oacute; aclarar si se encontraban gravados en el pa&iacute;s los ingresos percibidos por una persona natural extranjera con contrato laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia que en virtud del contrato celebrado entre su empleadora y una compa&ntilde;&iacute;a colombiana, presta servicios laborales en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92597-2007",
+      "tipo": "oficio",
+      "numero": "92597",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;les son las personas naturales contribuyentes del impuesto sobre la renta y complementarios, de acuerdo con la normativa fiscal vigentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33776-2007",
+      "tipo": "oficio",
+      "numero": "33776",
+      "fecha": "2007-05-08",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los giros al exterior por concepto de donaciones efectuadas por una iglesia en Colombia a favor de otras iglesias en el exterior que no son sedes de la iglesia donante ni hacen parte de &eacute;sta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32282-2007",
+      "tipo": "oficio",
+      "numero": "32282",
+      "fecha": "2007-05-02",
+      "tema": "&iquest;Cu&aacute;les son los impuestos aplicables a empresas ubicadas en Turqu&iacute;a que operan en el &aacute;rea de transporte en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25700-2007",
+      "tipo": "oficio",
+      "numero": "25700",
+      "fecha": "2007-04-02",
+      "tema": "Se encuentran gravados en el pa&iacute;s los ingresos percibidos por una persona natural extranjera con contrato laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia que en virtud del contrato celebrado entre su empleadora y una compa&ntilde;&iacute;a colombiana, presta servicios laborales en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82345-2006",
+      "tipo": "oficio",
+      "numero": "82345",
+      "fecha": "2006-11-10",
+      "tema": "&iquest;Si los servicios son prestados desde el exterior pero est&aacute; dirigido a clientes en Colombia, dicha operaci&oacute;n genera IVA para el usuario?&iquest;Existen impuestos adicionales para el usuario que deba contemplar en este tipo de operaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27767-2006",
+      "tipo": "oficio",
+      "numero": "27767",
+      "fecha": "2006-04-03",
+      "tema": "Solicita se califique la legalidad y la incidencia fiscal de un negocio de inversi&oacute;n en la compra de un seguro de vida en el exterior, que le implicar&iacute;a el giro de los recursos respectivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26202-2006",
+      "tipo": "oficio",
+      "numero": "26202",
+      "fecha": "2006-03-28",
+      "tema": "Solicita se precise la respuesta dada mediante oficio 073723 de octubre 11 de 2005 sobre el tratamiento tributario en el impuesto sobre la renta de los seguros de asistencia a viajeros y los servicios prestados en el exterior derivados de dicho seguro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23258-2006",
+      "tipo": "oficio",
+      "numero": "23258",
+      "fecha": "2006-03-17",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario y aduanero de una inversi&oacute;n a realizar en el extranjero, Cu&aacute;l es el impuesto que genera tal inversi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23250-2006",
+      "tipo": "oficio",
+      "numero": "23250",
+      "fecha": "2006-03-17",
+      "tema": "&iquest;Cu&aacute;l es la base a partir de la cual debe presentar declaraci&oacute;n de renta un trabajador independiente y las obligaciones tributarias que se generen en operaciones denominadas forex donde se obtienen ingresos en moneda extranjera desde el exterior a trav&eacute;s de Internet?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19909-2006",
+      "tipo": "oficio",
+      "numero": "19909",
+      "fecha": "2006-03-07",
+      "tema": "&iquest;Se entiende que cuando existen contratos entre compa&ntilde;&iacute;as ubicadas en dos pa&iacute;ses diferentes, los efectos fiscales originados en dicha contrataci&oacute;n se derivan para las compa&ntilde;&iacute;as contratantes y no de la Decisi&oacute;n 578 de la CAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12336-2006",
+      "tipo": "oficio",
+      "numero": "12336",
+      "fecha": "2006-02-10",
+      "tema": "&iquest;Qu&eacute; implicaciones aduaneras, tributarias y cambiarias se presentan cuando se exporta una franquicia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11050-2006",
+      "tipo": "oficio",
+      "numero": "11050",
+      "fecha": "2006-02-07",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a de E.E.U.U. contrata a una de Colombia para la manufactura de productos que deben ser exportados a otros pa&iacute;ses, el dinero entra a una cuenta de compensaci&oacute;n, de la compa&ntilde;&iacute;a Colombiana para girar la parte de la compa&ntilde;&iacute;a de E.E.U.U. quienes no tienen sede en Colombia A esta parte se le debe hacer retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007142-2006",
+      "tipo": "concepto",
+      "numero": "0007142",
+      "fecha": "2006-01-24",
+      "tema": "&iquest;Es viable para los contribuyentes con R&eacute;gimen Tributario Especial que la Asamblea General o el m&aacute;ximo &oacute;rgano directivo que haga sus veces, delegue en el Consejo Directivo la facultad para destinar la asignaci&oacute;n permanente a otros fines?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3877-2006",
+      "tipo": "oficio",
+      "numero": "3877",
+      "fecha": "2006-01-13",
+      "tema": "&iquest;Antes de la expedici&oacute;n del Decreto 3595 de 2005 se hab&iacute;a reglamentado el concepto de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3875-2006",
+      "tipo": "oficio",
+      "numero": "3875",
+      "fecha": "2006-01-13",
+      "tema": "Manifiesta la inconformidad con la expedici&oacute;n del Decreto 3595 de 2005 relativo a los pagos o abonos en cuenta por concepto de emolumentos eclesi&aacute;sticos, en cuanto que, en su criterio, impone la obligaci&oacute;n de pagar retenci&oacute;n en la fuente sobre los servicios religiosos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094036-2005",
+      "tipo": "concepto",
+      "numero": "0094036",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Pueden los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia deducir los intereses pagados a favor de su casa matriz, sobre pr&eacute;stamos de &eacute;sta, sin tener que practicar retenci&oacute;n en la fuente?&iquest;La posibilidad que tienen los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia de deducir los pagos a favor de sus casas matrices o de sus ganancias, sucursales o filiales con domicilio en el exterior, por concepto de intereses y dem&aacute;s costos y gastos financieros, sobre pr&eacute;stamos de &eacute;stas, en operaciones respecto de las cuales se cumpla dicho r&eacute;gimen, conlleva el reconocimiento fiscal para efectos patrimoniales del pasivo que los origina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0092805-2005",
+      "tipo": "concepto",
+      "numero": "0092805",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Es necesario que una de las partes vinculadas o relacionadas est&eacute; localizada en Colombia para que proceda la aplicaci&oacute;n del r&eacute;gimen de precios de transferencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080610-2005",
+      "tipo": "concepto",
+      "numero": "0080610",
+      "fecha": "2005-11-02",
+      "tema": "&iquest;Procede la devoluci&oacute;n de los saldos a favor que pudieren llegar a generarse en caso de que se hubieren practicado retenciones en la fuente por concepto del Impuesto sobre la Renta en cualquiera de los pa&iacute;ses miembros de la CAN a personas domiciliadas en Colombia, teniendo en cuenta el principio consagrado en el Art&iacute;culo 18 de la Decisi&oacute;n 578 de 2004?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078425-2005",
+      "tipo": "concepto",
+      "numero": "0078425",
+      "fecha": "2005-10-25",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario al que est&aacute;n sometidos los ingresos percibidos por una persona natural, nacional o extranjera, residente o no residente en el pa&iacute;s, por concepto de compensaci&oacute;n de servicios personales, cuando el tomador del servicio es una entidad del estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76658-2005",
+      "tipo": "oficio",
+      "numero": "76658",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario que se debe aplicar a un ciudadano colombiano no residente en Colombia, que genera la totalidad de sus ingresos y los declara en el pa&iacute;s extranjero. Pregunta si est&aacute; obligado a declarar su renta en Colombia, o si por el contrario la declaraci&oacute;n presentada en el exterior valida la colombiana, adicionalmente consulta si existe un tratado entre los pa&iacute;ses andinos que permite validar la declaraci&oacute;n de renta en Colombia efectuada en otro pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074171-2005",
+      "tipo": "concepto",
+      "numero": "0074171",
+      "fecha": "2005-10-12",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y del impuesto complementario de remesas los pagos efectuados a personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, por la venta de obras de car&aacute;cter cient&iacute;fico o cultural, cuyo contenido se suministra a trav&eacute;s de internet, desde servidores ubicados en el exterior?&iquest;Se genera el impuesto sobre las ventas por la venta de obras de car&aacute;cter cient&iacute;fico o cultural, cuyo contenido se suministra a trav&eacute;s de internet, desde servidores ubicados en el exterior, por parte de personas naturales sin residencia en el pa&iacute;s o entidades extranjeras sin domicilio en Colombia?&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y del impuesto complementario de remesas los pagos efectuados a personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, por la prestaci&oacute;n de servicios de acceso a bases de datos, para la consulta de libros de car&aacute;cter cient&iacute;fico o cultural, ejecutados a trav&eacute;s de internet desde servidores ubicados en el exterior? La prestaci&oacute;n de servicios de acceso a bases de datos, para la consulta de libros de car&aacute;cter cient&iacute;fico o cultural, ejecutados a trav&eacute;s de internet desde servidores ubicados en el exterior, por personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, genera el impuesto sobre las ventas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0071190-2005",
+      "tipo": "concepto",
+      "numero": "0071190",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;En una importaci&oacute;n en la que una entidad estatal aparece en la declaraci&oacute;n de aduanas como importador y los tramites de nacionalizaci&oacute;n se hacen por cuenta del proveedor del exterior, debe la entidad estatal contratante, al momento de legalizar los pagos correspondientes al suministro de los bienes, descontar retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y complementario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66813-2005",
+      "tipo": "oficio",
+      "numero": "66813",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal del inversionista extranjero que no reside en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019265-2005",
+      "tipo": "concepto",
+      "numero": "0019265",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Los servicios de acceso satelital cuando son prestados por no residentes o extranjeros sin domicilio enColombia, a trav&eacute;s de sat&eacute;lites ubicados fuera del segmento de la &oacute;rbita geoestacionaria colombiana generan rentas de fuente extranjera no sometidas al impuesto sobre la renta en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89045-2004",
+      "tipo": "oficio",
+      "numero": "89045",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario relacionado con el GMF y retenci&oacute;n en la fuente de los fondos para la administraci&oacute;n, mantenimiento e inversi&oacute;n en obras de los parques distritales administrados por una entidad sin &aacute;nimo de lucro a trav&eacute;s de una fiduciaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078157-2004",
+      "tipo": "concepto",
+      "numero": "0078157",
+      "fecha": "2004-11-12",
+      "tema": "&iquest;Se debe practicar retenci&oacute;n en la fuente por los impuestos de renta y remesas cuando una empresa nacional recompra acciones a uno de sus accionistas del exterior, y no existe utilidad en la venta de las acciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060362-2003",
+      "tipo": "concepto",
+      "numero": "0060362",
+      "fecha": "2003-01-01",
+      "tema": "Un extranjero no residente en Colombia que posee en el pa&iacute;s un patrimonio constituido exclusivamente por aportes en un fondo voluntario de pensiones, debe presentar declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038761-2003",
+      "tipo": "concepto",
+      "numero": "0038761",
+      "fecha": "2003-07-07",
+      "tema": "&iquest;Los pagos que efect&uacute;a una empresa para la estad&iacute;a de un extranjero contratado para la prestaci&oacute;n de sus servicios en Colombia hasta por un a&ntilde;o se deben tomar como base para aplicar la retenci&oacute;n en la fuente por salarios del empleado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020258-2003",
+      "tipo": "concepto",
+      "numero": "0020258",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Los pagos que hace una empresa asociativa de trabajo de profesionales a sus asociados tienen el mismo tratamiento que los pagos que efect&uacute;a una cooperativa de trabajo asociado a sus cooperados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019056-2003",
+      "tipo": "concepto",
+      "numero": "0019056",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;el contribuyente puede considerar la totalidad de los rendimientos financieros como rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008762-2003",
+      "tipo": "concepto",
+      "numero": "0008762",
+      "fecha": "2003-02-24",
+      "tema": "&iquest;El impuesto sobre la renta, el de remesas y el de ingresos en divisas provenientes del exterior que deben soportar los contribuyentes que presten sus servicios en Colombia o en el exterior son independientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0076233-2002",
+      "tipo": "concepto",
+      "numero": "0076233",
+      "fecha": "2002-11-26",
+      "tema": "&iquest;El intermediario que recibe de su proveedor del exterior un ingreso a t&iacute;tulo de bonificaci&oacute;n por ventas, en parte para s&iacute; mismo y en parte para girar a otros distribuidores, debe practicar retenci&oacute;n en la fuente a t&iacute;tulo del Impuesto sobre la Renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068467-2002",
+      "tipo": "concepto",
+      "numero": "0068467",
+      "fecha": "2002-10-21",
+      "tema": "&iquest;Qu&eacute; impuestos genera el pago de un servicio prestado en el exterior por un extranjero contratado por un residente en Colombia, consistente en transformar en el exterior materia prima que &eacute;ste le env&iacute;a y que posteriormente reingresa al pa&iacute;s como bien terminado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-67277-2002",
+      "tipo": "concepto",
+      "numero": "67277",
+      "fecha": "2002-10-16",
+      "tema": "El intermediario que recibe de su proveedor del exterior un ingreso a t&iacute;tulo de bonificaci&oacute;n por ventas, en parte para s&iacute; mismo y en parte para girar a otros distribuidores, &iquest;debe practicar retenci&oacute;n en la fuente a t&iacute;tulo del Impuesto sobre la Renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065305-2002",
+      "tipo": "concepto",
+      "numero": "0065305",
+      "fecha": "2002-10-08",
+      "tema": "&iquest;Procede la retenci&oacute;n en la fuente por renta y remesas cuando se enajena una inversi&oacute;n extranjera, si el cedente inversionista extranjero acredit&oacute; el pago del impuesto de la venta de acciones ante la Direcci&oacute;n General de Impuestos para el cambio de titular de la inversi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021451-2002",
+      "tipo": "concepto",
+      "numero": "0021451",
+      "fecha": "2002-03-08",
+      "tema": "&iquest;Por qu&eacute; concepto se debe efectuar la retenci&oacute;n en la fuente a un extranjero que tiene un contrato de trabajo a t&eacute;rmino de un a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009423-2002",
+      "tipo": "concepto",
+      "numero": "0009423",
+      "fecha": "2002-02-15",
+      "tema": "&iquest;Una persona no residente en Colombia debe pagar impuesto sobre la propiedad y el fideicomiso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071967-2001",
+      "tipo": "concepto",
+      "numero": "0071967",
+      "fecha": "2001-08-09",
+      "tema": "&iquest;Procede la devoluci&oacute;n de IVA por reaprovisionamiento de combustibles para buques en transito internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065628-2001",
+      "tipo": "concepto",
+      "numero": "0065628",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos efectuados en d&oacute;lares a un proveedor en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065549-2001",
+      "tipo": "concepto",
+      "numero": "0065549",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Los inversionistas extranjeros sin residencia o domicilio en el pa&iacute;s, cuando tengan registrada la inversi&oacute;n ante el Banco de la Rep&uacute;blica, est&aacute;n obligados a presentar declaraci&oacute;n de renta y complementarios en el a&ntilde;o en que enajenen la inversi&oacute;n que tienen en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025826-2001",
+      "tipo": "concepto",
+      "numero": "0025826",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Los ingresos provenientes de la venta de licencia de derechos de autor en el exterior, generan IVA en Colombia e impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-23562-2001",
+      "tipo": "concepto",
+      "numero": "23562",
+      "fecha": "2001-03-23",
+      "tema": "Concepto Especial, Retenci&oacute;n en la Fuente Ley 633 de 2000 y Decreto 260 de 2001",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021390-2001",
+      "tipo": "concepto",
+      "numero": "0021390",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Se causa impuesto de renta y de remesas cuando se hace un giro al exterior con el fin de comprar una letor&iacute;a o de pagar estudios de los socios de una compa&ntilde;ia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0115056-2000",
+      "tipo": "concepto",
+      "numero": "0115056",
+      "fecha": "2000-11-24",
+      "tema": "&iquest;Se encuentran sujetos a retenci&oacute;n en la fuente a t&iacute;tulo del Impuesto de Renta y Complementarios, los pagos efectuados por una empresa colombiana a una empresa sin domicilio en Colombia por concepto de arrendamiento de un stand en una feria realizada en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0110433-2000",
+      "tipo": "concepto",
+      "numero": "0110433",
+      "fecha": "2000-11-10",
+      "tema": "&iquest;Las compras efectuadas en el exterior est&aacute;n sometidas a retenci&oacute;n en la fuente cuando estas se pagan a trav&eacute;s de una cuenta en el exterior de propiedad del comprador o de un banco autorizado para hacer giros al exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070925-2000",
+      "tipo": "concepto",
+      "numero": "0070925",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Las personas naturales Colombianas residentes en el pa&iacute;s y las sociedades nacionales que poseen inversiones en el exterior, tributan en Colombia sobre los dividendos que perciban de esas sociedades extranjeras en las cuales tienen la inversi&oacute;n o tributan en el pa&iacute;s en el que tienen origen los dividendos? &iquest;Las sociedades extranjeras que perciban dividendos de sociedades Colombianas est&aacute;n sometidas a gravamen en Colombia sobre esos dividendos o tributan en el pa&iacute;s de la cual es nacional la sociedad beneficiaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052757-2000",
+      "tipo": "concepto",
+      "numero": "0052757",
+      "fecha": "2000-06-02",
+      "tema": "&iquest;Los ingresos provenientes de una inversi&oacute;n en el exterior realizada por una persona natural, est&aacute;n gravados en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032232-1999",
+      "tipo": "concepto",
+      "numero": "0032232",
+      "fecha": "1999-04-03",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los recibidos por una sociedad o una persona natural sin domicilio ni residencia en el pa&iacute;s, por servicios prestados en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014336-1999",
+      "tipo": "concepto",
+      "numero": "0014336",
+      "fecha": "1999-09-15",
+      "tema": "&iquest;Los servicios de transporte terrestre prestados totalmente en el exterior, constituyen renta de fuente nacional, y en consecuencia est&aacute;n sometidos a retenci&oacute;n en la fuente?&iquest;Los servicios de embalaje de mercanc&iacute;as que van a ser importadas al territorio colombiano, que son prestados totalmente en el exterior, causan IVA en Colombia y est&aacute;n sujetos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013967-1999",
+      "tipo": "concepto",
+      "numero": "0013967",
+      "fecha": "1999-02-23",
+      "tema": "&iquest;Al enajenarse inmuebles activos fijos mediante contrato de permuta suscrito entre personas naturales debe practicarse retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013721-1999",
+      "tipo": "concepto",
+      "numero": "0013721",
+      "fecha": "1999-09-14",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008479-1999",
+      "tipo": "concepto",
+      "numero": "0008479",
+      "fecha": "1999-08-31",
+      "tema": "&iquest;La enajenaci&oacute;n de alimentos congelados se encuentra sujeta al impuesto sobre las ventas. Para el efecto, necesario es acudir a lo dispuesto en el art&iacute;culo 424 del Estatuto Tributado, el cual formula expresa, referencia a los bienes excluidos de dicho gravamen, con la salvedad de que los bienes no considerados dentro de la codificaci&oacute;n arancelaria all&iacute; comprendida se encuentran sujetos al impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096822-1998",
+      "tipo": "concepto",
+      "numero": "0096822",
+      "fecha": "1998-12-16",
+      "tema": "&iquest;Un organismo de Derecho Internacional P&uacute;blico, con personer&iacute;a jur&iacute;dica y amparada por una exenci&oacute;n de impuestos reconocida por la ley, que por medio de un contrato de asistencia t&eacute;cnica recibe recursos de entidades u organismos estatales, es agente retenedor con relaci&oacute;n a los pagos que efect&uacute;e a personas naturales por concepto de servicios profesionales o t&eacute;cnicos en desarrollo de dicho contrato de asistencia t&eacute;cnica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089276-1998",
+      "tipo": "concepto",
+      "numero": "0089276",
+      "fecha": "1998-11-20",
+      "tema": "&iquest;Cu&aacute;ndo una cadena de droguer&iacute;as da en concesi&oacute;n o arrendamiento una de sus droguer&iacute;as en qu&eacute; situaci&oacute;n fiscal quedar&iacute;a tanto la due&ntilde;a de la cadena de droguer&iacute;as como el concesionario o arrendatario de la droguer&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087081-1998",
+      "tipo": "concepto",
+      "numero": "0087081",
+      "fecha": "1998-11-11",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen impositivo aplicable a los pagos o abonos en cuenta por concepto de servicios de reservaci&oacute;n en el exterior de habitaciones en hoteles ubicados en territorio Colombiano, cuando son prestados (los servicios de reserva) en el exterior por parte de sociedades extranjeras sin domicilio en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080082-1998",
+      "tipo": "concepto",
+      "numero": "0080082",
+      "fecha": "1998-10-13",
+      "tema": "&iquest;Los salarios, beneficios, cesant&iacute;as etc. provenientes de las Naciones Unidas que seg&uacute;n el Acuerdo al Art&iacute;culo V, Secci&oacute;n 18(b) de la Convenci&oacute;n de Privilegios e Inmunidades de las Naciones Unidas al cual el Gobierno de Colombia ha accedido est&aacute;n exentos de retenci&oacute;n en la Fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074875-1998",
+      "tipo": "concepto",
+      "numero": "0074875",
+      "fecha": "1998-09-22",
+      "tema": "&iquest;Cual es el r&eacute;gimen impositivo relativo al impuesto sobre la renta, ventas, retenci&oacute;n en la fuente y el cambiario aplicable a los ingresos percibidos por las casas de cambio por concepto de comisiones por su intermediaci&oacute;n en las transferencias desde o al exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070897-1998",
+      "tipo": "concepto",
+      "numero": "0070897",
+      "fecha": "1998-09-10",
+      "tema": "C&oacute;mo se computa la permanencia continua o discontinua en el pa&iacute;s, para efectos de establecer la Residencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065163-1998",
+      "tipo": "concepto",
+      "numero": "0065163",
+      "fecha": "1998-08-20",
+      "tema": "- (Tributario) &iquest;Cu&aacute;l es la retenci&oacute;n en la fuente aplicable a los extranjeros sin residencia en el pa&iacute;s, que han suscrito un contrato de trabajo en Colombia por el termino definido de 2 a&ntilde;os debe aplicarse la retenci&oacute;n en la fuente por ingresos laborales o la tarifa del impuesto de renta del 35%?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0065159-1998",
+      "tipo": "concepto",
+      "numero": "0065159",
+      "fecha": "1998-08-20",
+      "tema": "&iquest;Debe practicarse retenci&oacute;n en la fuente sobre el 20% de las rentas provenientes de la generaci&oacute;n de energ&iacute;a el&eacute;ctrica y la de los servicios p&uacute;blicos domiciliarios de gas, telefon&iacute;a m&oacute;vil rural que para 1998 se considera gravado? &iquest;Se debe practicar retenci&oacute;n en la fuente sobre los servicios de telefon&iacute;a de larga distancia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058392-1998",
+      "tipo": "concepto",
+      "numero": "0058392",
+      "fecha": "1998-07-24",
+      "tema": "&iquest;Se puede incluir en la contabilidad de una sucursal de una sociedad extranjera una Cuenta por Pagar a favor de la matriz, por concepto de Honorarios de algunos de sus funcionarios. Cu&aacute;l ser&iacute;a el porcentaje de retenci&oacute;n a t&iacute;tulo de impuesto de renta y remesas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057426-1998",
+      "tipo": "concepto",
+      "numero": "0057426",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;C&oacute;mo se encuentran clasificados los comerciantes del departamento del Amazonas que por necesidades de sus operaciones diarias, reciben o cambian d&oacute;lares, reales, soles y moneda Colombiana? &iquest;Cu&aacute;l es el procedimiento y la norma para el cobro de impuestos sobre utilidades, a ese sector de la econom&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054884-1998",
+      "tipo": "concepto",
+      "numero": "0054884",
+      "fecha": "1998-07-10",
+      "tema": "&iquest;Est&aacute;n sujetas o no a retenci&oacute;n en la fuente, las divisas que colombianos residentes en el exterior env&iacute;an a apoderados suyos radicados en Colombia, con destino a atender gastos y obligaciones que tales colombianos residentes en el exterior mantienen en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047539-1998",
+      "tipo": "concepto",
+      "numero": "0047539",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;Para efectos del art&iacute;culo 31 del Decreto 836 de 1991, &iquest;qu&eacute; son ingresos gravables en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030260-1998",
+      "tipo": "concepto",
+      "numero": "0030260",
+      "fecha": "1998-04-30",
+      "tema": "&iquest;Cual es el tratamiento impositivo relativo al impuesto a la renta y complementarios aplicable en materia de sucesiones, tanto a las personas extranjeras residentes y no residentes en Colombia, as&iacute; como a las nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029865-1997",
+      "tipo": "concepto",
+      "numero": "0029865",
+      "fecha": "1997-12-02",
+      "tema": "&iquest;Cuando no resulten valores a pagar en alg&uacute;n per&iacute;odo por concepto de retenci&oacute;n en la fuente, se debe presentar declaraci&oacute;n tributaria de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019384-1997",
+      "tipo": "concepto",
+      "numero": "0019384",
+      "fecha": "1997-03-04",
+      "tema": "&iquest;Se consideran como ingresos de fuente extranjera o de fuente nacional los ingresos percibidos como contraprestaci&oacute;n por la exportaci&oacute;n de un software, y por los servicios t&eacute;cnicos y de asistencia t&eacute;cnica prestados en el exterior a los compradores del software?&iquest;Se encuentran gravados con el impuesto sobre la renta los ingresos percibidos por una persona natural residente en el pa&iacute;s, o por una sociedad nacional, como contraprestaci&oacute;n por la exportaci&oacute;n de un software y por los servicios t&eacute;cnicos de asistencia t&eacute;cnica presentados en el exterior a los compradores del software?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034632-1996",
+      "tipo": "concepto",
+      "numero": "0034632",
+      "fecha": "1996-04-29",
+      "tema": "Dentro de la competencia atribuida por los art&iacute;culos 57 y 58 del Decreto 2117 de 1992, de interpretar las normas tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004518-1996",
+      "tipo": "concepto",
+      "numero": "0004518",
+      "fecha": "1996-01-29",
+      "tema": "&iquest;Las indemnizaciones por perjuicios causados pagados en el exterior est&aacute; sometida a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063389-1995",
+      "tipo": "concepto",
+      "numero": "0063389",
+      "fecha": "1995-09-12",
+      "tema": "&iquest;Procede la retenci&oacute;n en la fuente por ingresos provenientes del exterior en moneda extranjera, cuando los giros provenientes del exterior llegan al pa&iacute;s en moneda legal colombiana? &iquest;Bastar&iacute;a a un intermediario del mercado cambiario la declaraci&oacute;n bajo la gravedad del juramento del contribuyente para no practicar la retenci&oacute;n en a fuente del 10% por ingresos en moneda extranjera provenientes del exterior? &iquest;Las personas jur&iacute;dicas o naturales que no teniendo el car&aacute;cter de intermediarios del mercado cambiario, en raz&oacute;n a su objeto social o actividad se dedican a prestar servicios de transferencia de divisas, o moneda nacional del exterior hacia Colombia, deben cumplir con las normas de retenci&oacute;n en la fuente por ingresos en moneda extranjera, o sea hacer la retenci&oacute;n del 10%?&iquest;Cuando el beneficiario del ingreso en moneda extranjera proveniente del exterior es una persona natural extranjera, tiene la obligaci&oacute;n de cancelar a retenci&oacute;n por ingresos del exterior en divisas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052982-1995",
+      "tipo": "concepto",
+      "numero": "0052982",
+      "fecha": "1995-07-31",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre la ventas,",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021061-1993",
+      "tipo": "concepto",
+      "numero": "0021061",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario aplicable a los inversionistas extranjeros residentes en el exterior, bien seam personas naturales o juridicas, que adquieran t&iacute;tulos comentados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017256-1993",
+      "tipo": "concepto",
+      "numero": "0017256",
+      "fecha": "1993-01-01",
+      "tema": "Previendo ahora la posibilidad de adquirir bienes en Colombia con lo capitalizado en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012596-1993",
+      "tipo": "concepto",
+      "numero": "0012596",
+      "fecha": "1993-08-23",
+      "tema": "&iquest;Se causa retenci&oacute;n en la fuente por concepto de impuesto de renta?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-896-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "896",
+      "year": 2003
+    },
+    {
+      "id": "cc-c-292-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "292",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-073-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "073",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-230-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "230",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-239-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "239",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-559-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "559",
+      "year": 1999,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-843-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "843",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ]
+}

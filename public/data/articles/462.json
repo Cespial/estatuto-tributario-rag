@@ -1,1 +1,118 @@
-{"id_articulo": "Art. 462", "titulo": "Art. 462. Base gravable para el servicio telefónico.", "titulo_corto": "Base gravable para el servicio telefónico.", "slug": "462", "url_origen": "https://estatuto.co/462", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 1, "contenido_texto": "*La base gravable en el servicio telefónico es la general, contemplada en el artículo 447 del Estatuto Tributario.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La base gravable en el servicio telefónico es la general, contemplada en el<a href=\"https://estatuto.co/447\" rel=\"noopener\" target=\"_blank\"> artículo 447</a> del Estatuto Tributario.</p>\n</span>", "modificaciones_raw": "*Subrogado Ley 488 de 1998 Art 55.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["447"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 462",
+  "titulo": "Art. 462. Base gravable para el servicio telefónico.",
+  "titulo_corto": "Base gravable para el servicio telefónico.",
+  "slug": "462",
+  "url_origen": "https://estatuto.co/462",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "*La base gravable en el servicio telefónico es la general, contemplada en el artículo 447 del Estatuto Tributario.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La base gravable en el servicio telefónico es la general, contemplada en el<a href=\"https://estatuto.co/447\" rel=\"noopener\" target=\"_blank\"> artículo 447</a> del Estatuto Tributario.</p>\n</span>",
+  "modificaciones_raw": "*Subrogado Ley 488 de 1998 Art 55.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "447"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 10 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 0806 (2013-01-01): Solicita aclarar el tratamiento en t&eacute;rminos de IVA para los servicios integrales de aseo y cafeter&iacute;a prestados por empresas, de conformidad con el art&iacute;culo 462-1 del Estatuto Tributario, en concordancia con el art&iacute;culo 12 del Decreto 1794 de 2013\noficio 81076 (2005-01-01): &iquest;Cu&aacute;l es el alcance de lo dispuesto por el art&iacute;culo 447 del Estatuto Tributario, relacionado con la base gravable que se debe tener en cuenta para calcular el impuesto sobre las ventas en las financiaciones, en el servicio telef&oacute;nico?\nconcepto 110433 (2001-12-24): IVA - Cargos por aportes de conexi&oacute;n, telefon&iacute;a\nconcepto 0057220 (2000-06-16): &iquest;El cargo fijo, en el servicio telef&oacute;nico, causa IVA en la medida que constituye elemento de la formula de tarifas donde se traslada al usuario algunos costos en los que incurre la empresa para garantizar la disponibilidad permanente del servicio?\nconcepto 0039083 (1999-11-18): &iquest;Se genera el impuesto sobre las ventas respecto del contrato de conexi&oacute;n al servicio telef&oacute;nico?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0806-2013",
+      "tipo": "oficio",
+      "numero": "0806",
+      "fecha": "2013-01-01",
+      "tema": "Solicita aclarar el tratamiento en t&eacute;rminos de IVA para los servicios integrales de aseo y cafeter&iacute;a prestados por empresas, de conformidad con el art&iacute;culo 462-1 del Estatuto Tributario, en concordancia con el art&iacute;culo 12 del Decreto 1794 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81076-2005",
+      "tipo": "oficio",
+      "numero": "81076",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el alcance de lo dispuesto por el art&iacute;culo 447 del Estatuto Tributario, relacionado con la base gravable que se debe tener en cuenta para calcular el impuesto sobre las ventas en las financiaciones, en el servicio telef&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-110433-2001",
+      "tipo": "concepto",
+      "numero": "110433",
+      "fecha": "2001-12-24",
+      "tema": "IVA - Cargos por aportes de conexi&oacute;n, telefon&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057220-2000",
+      "tipo": "concepto",
+      "numero": "0057220",
+      "fecha": "2000-06-16",
+      "tema": "&iquest;El cargo fijo, en el servicio telef&oacute;nico, causa IVA en la medida que constituye elemento de la formula de tarifas donde se traslada al usuario algunos costos en los que incurre la empresa para garantizar la disponibilidad permanente del servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039083-1999",
+      "tipo": "concepto",
+      "numero": "0039083",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;Se genera el impuesto sobre las ventas respecto del contrato de conexi&oacute;n al servicio telef&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069982-1998",
+      "tipo": "concepto",
+      "numero": "0069982",
+      "fecha": "1998-09-07",
+      "tema": "&iquest;Est&aacute;n excluidas del impuesto sobre las ventas las tarjetas telef&oacute;nicas inteligentes, con las cuales se accede al servicio de telefon&iacute;a p&uacute;blica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038815-1998",
+      "tipo": "concepto",
+      "numero": "0038815",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049586-1994",
+      "tipo": "concepto",
+      "numero": "0049586",
+      "fecha": "1994-08-16",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011974-1991",
+      "tipo": "concepto",
+      "numero": "0011974",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;La empresa de Tel&eacute;fonos en su facturaci&oacute;n no tiene la discriminaci&oacute;n del cobro del IVA por estrato socio-econ&oacute;mico, cu&aacute;l ser&iacute;a la tarifa aplicable?",
+      "vigente": true
+    }
+  ]
+}

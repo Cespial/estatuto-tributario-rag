@@ -1,1 +1,629 @@
-{"id_articulo": "Art. 376", "titulo": "Art. 376. Consignar lo retenido.", "titulo_corto": "Consignar lo retenido.", "slug": "376", "url_origen": "https://estatuto.co/376", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Las personas o entidades obligadas a hacer la retención, deberán consignar el valor retenido en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas o entidades obligadas a hacer la retención, deberán consignar el valor retenido en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 376",
+  "titulo": "Art. 376. Consignar lo retenido.",
+  "titulo_corto": "Consignar lo retenido.",
+  "slug": "376",
+  "url_origen": "https://estatuto.co/376",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Las personas o entidades obligadas a hacer la retención, deberán consignar el valor retenido en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las personas o entidades obligadas a hacer la retención, deberán consignar el valor retenido en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 9 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 20039 (2025-12-11): Procedimiento Tributario\noficio 16116 (2025-11-18): Procedimiento Tributario\noficio 14620 (2025-10-28): Impuesto de Timbre\noficio 13278 (2025-09-30): Impuesto de Timbre\noficio 915820 (2021-12-27): Impuesto sobre la renta - Ingreso gravable con impuesto de renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-20039-2025",
+      "tipo": "oficio",
+      "numero": "20039",
+      "fecha": "2025-12-11",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14620-2025",
+      "tipo": "oficio",
+      "numero": "14620",
+      "fecha": "2025-10-28",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13278-2025",
+      "tipo": "oficio",
+      "numero": "13278",
+      "fecha": "2025-09-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915820-2021",
+      "tipo": "oficio",
+      "numero": "915820",
+      "fecha": "2021-12-27",
+      "tema": "Impuesto sobre la renta - Ingreso gravable con impuesto de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913527-2021",
+      "tipo": "oficio",
+      "numero": "913527",
+      "fecha": "2021-11-03",
+      "tema": "Retenci&oacute;nes a t&iacute;tulo del impuesto sobre la retna e impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912971-2021",
+      "tipo": "oficio",
+      "numero": "912971",
+      "fecha": "2021-10-19",
+      "tema": "Obligaciones formales de facturar, informar y presentar declaraciones, ejecuci&oacute;n de proyectos de inversi&oacute;n financiados con recursos de SGR",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910511-2021",
+      "tipo": "oficio",
+      "numero": "910511",
+      "fecha": "2021-09-23",
+      "tema": "&iquest;el comercializador de minerales es Agente de retenci&oacute;n de regal&iacute;as, a estas retenciones se les debe dar el mismo tratamiento tributario por parte del comercializador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909575-2021",
+      "tipo": "oficio",
+      "numero": "909575",
+      "fecha": "2021-10-09",
+      "tema": "Descripci&oacute;n de algunas obligaciones tributarias a cargo de los establecimientos p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902957-2021",
+      "tipo": "oficio",
+      "numero": "902957",
+      "fecha": "2021-04-07",
+      "tema": "Deducci&oacute;n por contribuciones a educaci&oacute;n de los empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4017-2020",
+      "tipo": "oficio",
+      "numero": "4017",
+      "fecha": "2020-01-01",
+      "tema": "Beneficio tributario establecido en el art&iacute;culo 2.1.4.3.4. del Decreto 1077 de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2015-2019",
+      "tipo": "oficio",
+      "numero": "2015",
+      "fecha": "2019-07-30",
+      "tema": "(Int 2015) Procedimiento para cumplir con las obligaciones sustanciales y formales en materia de retenci&oacute;n en la fuente en el pago al exterior por licenciamiento de software con tarjetas de cr&eacute;dito o d&eacute;bito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29915-2019",
+      "tipo": "oficio",
+      "numero": "29915",
+      "fecha": "2019-11-28",
+      "tema": "Impuesto Nacional al Consumo de Bienes Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26644-2019",
+      "tipo": "oficio",
+      "numero": "26644",
+      "fecha": "2019-10-23",
+      "tema": "Retenci&oacute;n en la Fuente por Enajenaci&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9161-2019",
+      "tipo": "oficio",
+      "numero": "9161",
+      "fecha": "2019-04-12",
+      "tema": "Porcentaje m&aacute;ximo de retenci&oacute;n a t&iacute;tulo del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6398-2019",
+      "tipo": "oficio",
+      "numero": "6398",
+      "fecha": "2019-03-14",
+      "tema": "Impuesto Nacional al Consumo de Bienes Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16047-2018",
+      "tipo": "oficio",
+      "numero": "16047",
+      "fecha": "2018-06-19",
+      "tema": "Vigencia Decreto 1766 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4453-2018",
+      "tipo": "oficio",
+      "numero": "4453",
+      "fecha": "2018-02-22",
+      "tema": "&iquest;La derogatoria del inciso 1 del art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero del 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0630-2018",
+      "tipo": "oficio",
+      "numero": "0630",
+      "fecha": "2018-04-30",
+      "tema": "Base de retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0149-2018",
+      "tipo": "oficio",
+      "numero": "0149",
+      "fecha": "2018-02-12",
+      "tema": "Procedencia de los beneficios de progresividad cuando no se efect&uacute;a el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente dentro de la fecha de vencimiento del plazo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8310-2017",
+      "tipo": "oficio",
+      "numero": "8310",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6234-2017",
+      "tipo": "oficio",
+      "numero": "6234",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la renta para la equidad - CREE - Presentaci&oacute;n de la declaraci&oacute;n de retenci&oacute;n cree",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2055-2017",
+      "tipo": "oficio",
+      "numero": "2055",
+      "fecha": "2017-12-29",
+      "tema": "Exenci&oacute;n en el impuesto sobre la renta en los casos de enajenaci&oacute;n voluntaria de predios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1879-2017",
+      "tipo": "oficio",
+      "numero": "1879",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la renta para la equidad. CREE - Declaraci&oacute;n a&ntilde;o 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19312-2016",
+      "tipo": "oficio",
+      "numero": "19312",
+      "fecha": "2016-07-21",
+      "tema": "Ineficacia de las Declaraciones de Retenci&oacute;n en la Fuente Presentadas Sin Pago Total",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0496-2016",
+      "tipo": "oficio",
+      "numero": "0496",
+      "fecha": "2016-05-31",
+      "tema": "&iquest;Son eficaces las declaraciones de retenci&oacute;n en la fuente que se presentan sin pago concomitante, pero que el mismo se materializa con posterioridad: mediante la expedici&oacute;n de actos administrativos que deben ser proferidos por la DIAN, en atenci&oacute;n a lo establecido en normas especiales que permiten realizar el pago con mecanismos diferentes al efectivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31829-2015",
+      "tipo": "oficio",
+      "numero": "31829",
+      "fecha": "2015-11-05",
+      "tema": "&iquest;Los pagos por multinivel se pueden facturar por concepto de otros ingresos y sin IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29346-2015",
+      "tipo": "oficio",
+      "numero": "29346",
+      "fecha": "2015-10-06",
+      "tema": "&iquest;Es posible realizar los pagos a contratistas de la entidad, sin efectuar retenci&oacute;n, esto con la finalidad de cumplir con las metas previstas en el Plan Anual Mensualizado de Caja?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25524-2015",
+      "tipo": "oficio",
+      "numero": "25524",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Cu&aacute;l es el monto del salario a partir del cual se debe practicar retenci&oacute;n por el salario?&iquest;Cu&aacute;l es la norma que regula lo relacionado con la retenci&oacute;n en la fuente de estos servidores p&uacute;blicos docentes?&iquest;Cu&aacute;l es el monto de salario a partir del cual debe practicarse la retenci&oacute;n a estos trabajadores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25474-2015",
+      "tipo": "oficio",
+      "numero": "25474",
+      "fecha": "2015-09-02",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12014-2015",
+      "tipo": "oficio",
+      "numero": "12014",
+      "fecha": "2015-04-28",
+      "tema": "Retenci&oacute;n en la fuente - Contratos de consultor&iacute;a con entidades estatales - Factor multiplicador Tarifa de retenci&oacute;n por contratos de consultor&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11863-2015",
+      "tipo": "oficio",
+      "numero": "11863",
+      "fecha": "2015-04-27",
+      "tema": "Retenci&oacute;n en la fuente y la entrega de informaci&oacute;n ex&oacute;gena, teniendo en cuenta las responsabilidades que recibi&oacute; el Archivo General de la Naci&oacute;n a partir de la supresi&oacute;n del DAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11780-2015",
+      "tipo": "oficio",
+      "numero": "11780",
+      "fecha": "2015-04-24",
+      "tema": "Retenci&oacute;n en la fuente por entidades ejecutoras del Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11657-2015",
+      "tipo": "oficio",
+      "numero": "11657",
+      "fecha": "2015-04-23",
+      "tema": "Retenci&oacute;n en la fuente que deben practicar las Entidades Ejecutoras de Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8204-2015",
+      "tipo": "oficio",
+      "numero": "8204",
+      "fecha": "2015-03-16",
+      "tema": "&iquest;El art&iacute;culo 29 del Decreto 3050 de 1997, al referirse a las retenciones que debe efectuar el mandante al mandatario por pagos, s&oacute;lo hace alusi&oacute;n a la retenci&oacute;n en la fuente sobre honorarios, o aplica a las comisiones por la intermediaci&oacute;n y-o administraci&oacute;n delegada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000563-2015",
+      "tipo": "concepto",
+      "numero": "0000563",
+      "fecha": "2015-04-24",
+      "tema": "Contratos de consultor&iacute;a con entidades estatales, factor multiplicador de tarifa de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58284-2014",
+      "tipo": "oficio",
+      "numero": "58284",
+      "fecha": "2014-10-10",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Empleados - Clasificaci&oacute;n de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58078-2014",
+      "tipo": "oficio",
+      "numero": "58078",
+      "fecha": "2014-10-09",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57301-2014",
+      "tipo": "oficio",
+      "numero": "57301",
+      "fecha": "2014-10-06",
+      "tema": "El art&iacute;culo 10 del C&oacute;digo de Comercio establece que",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-54620-2014",
+      "tipo": "oficio",
+      "numero": "54620",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En virtud de lo expresado en el art&iacute;culo 329 del Estatuto Tributario y en el art&iacute;culo 2o de los Decretos 099 y 1070 de 2013, las personas vinculadas en virtud de un contrato de prestaci&oacute;n de servicios son beneficiarios de la deducci&oacute;n del 10% por concepto de dependientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53362-2014",
+      "tipo": "oficio",
+      "numero": "53362",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Se debe inscribirse como agente de retenci&oacute;n del impuesto sobre las ventas, quienes realizan una Venta espor&aacute;dica a una comercializadora internacional, sin facturar IVA pero obteniendo el C.P., as&iacute; como quien le vende a la SCI facturando el IVA y no le expiden el C.P.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53354-2014",
+      "tipo": "oficio",
+      "numero": "53354",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir en el caso que una persona natural que transfiere un activo fijo a una entidad de derecho p&uacute;blico, solicita la devoluci&oacute;n de los dineros que cancel&oacute; fruto de la retenci&oacute;n practicada, pero que en el momento de la enajenaci&oacute;n no presenta el certificado que acredita la resoluci&oacute;n ejecutiva que incorpora el inmueble a la entidad y su actividad dentro de su declaratoria de utilidad p&uacute;blica e inter&eacute;s social para su protocolizaci&oacute;n, como fundamento para no practicar la retenci&oacute;n, en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51579-2014",
+      "tipo": "oficio",
+      "numero": "51579",
+      "fecha": "2014-08-25",
+      "tema": "&iquest;Es legal que cuando los pagos no sean efectuados mensualmente, la empresa contratante efect&uacute;e la retenci&oacute;n sin tener en cuenta la retenci&oacute;n mensualizada de que trata el art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73233-2013",
+      "tipo": "oficio",
+      "numero": "73233",
+      "fecha": "2013-11-15",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente por un contrato de prestaci&oacute;n de servicios, cuyo valor mensual devengado es de Ps4.738.000 y sus descuentos corresponden a pagos por cr&eacute;dito hipotecario, por dependientes, ahorro en cuenta de ahorro especial con destino a la adquisici&oacute;n de vivienda abierta en el Fondo Nacional de Ahorro, sin indicar valor alguno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70845-2013",
+      "tipo": "oficio",
+      "numero": "70845",
+      "fecha": "2013-11-06",
+      "tema": "&iquest;A nombre de qu&eacute; ente jur&iacute;dico p&uacute;blico debe expedirse la facturaci&oacute;n de los proveedores y contratistas, derivada de la ejecuci&oacute;n de los recursos de fiscalizaci&oacute;n del SGR?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68293-2013",
+      "tipo": "oficio",
+      "numero": "68293",
+      "fecha": "2013-10-25",
+      "tema": "Registro &Uacute;nico Tributario - Inscripci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50774-2013",
+      "tipo": "oficio",
+      "numero": "50774",
+      "fecha": "2013-08-14",
+      "tema": "Retenci&oacute;n en la fuente que se le debe aplicar de acuerdo con las normas vigentes a la fecha del pago, sobre un contrato de prestaci&oacute;n de servicios profesionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41556-2013",
+      "tipo": "oficio",
+      "numero": "41556",
+      "fecha": "2013-07-08",
+      "tema": "&iquest;Cu&aacute;l tabla de retenci&oacute;n en la fuente le aplica a un empleado de una entidad p&uacute;blica del nivel nacional, en la modalidad de prestaci&oacute;n de servicios con un ingreso mensual promedio de Ps 7.172.000, que cumple las condiciones del art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39876-2013",
+      "tipo": "oficio",
+      "numero": "39876",
+      "fecha": "2013-06-28",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta de los honorarios de los contratistas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59042-2012",
+      "tipo": "oficio",
+      "numero": "59042",
+      "fecha": "2012-09-18",
+      "tema": "&iquest;Qu&eacute; implicaciones legales y fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12845-2012",
+      "tipo": "oficio",
+      "numero": "12845",
+      "fecha": "2012-02-27",
+      "tema": "&iquest;Cu&aacute;les son las acciones contra los agentes retenedores que incumplan con su obligaci&oacute;n legal?&iquest;Cu&aacute;l es la interpretaci&oacute;n de los art&iacute;culos 370, 371, 372, 375, 376 y 382 del Estatuto Tributario?&iquest;La Direcci&oacute;n de Impuestos y Aduanas Nacionales, puede ejercer acciones legales contra el contribuyente al que no se le practic&oacute; la retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26812-2011",
+      "tipo": "oficio",
+      "numero": "26812",
+      "fecha": "2011-04-13",
+      "tema": "&iquest;Se debe inscribirse como agente de retenci&oacute;n del impuesto sobre las ventas, quienes realizan una venta espor&aacute;dica a una comercializadora internacional, sin facturar IVA pero obteniendo el C.P., as&iacute; como quien le vende a la SCI facturando el IVA y no le expiden el C.P?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8570-2009",
+      "tipo": "oficio",
+      "numero": "8570",
+      "fecha": "2009-02-04",
+      "tema": "&iquest;Las condiciones para ser agente de retenci&oacute;n en la fuente se&ntilde;alada en el art&iacute;culo 368 del Estatuto Tributario, no se cumplen en sociedades liquidadas o inactivas porque no realizaron ni realizan actos u operaciones sujetos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-100925-2007",
+      "tipo": "oficio",
+      "numero": "100925",
+      "fecha": "2007-01-01",
+      "tema": "R&eacute;gimen tributario aplicable a Organizaciones no gubernamentales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91750-2007",
+      "tipo": "oficio",
+      "numero": "91750",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La obligaci&oacute;n de presentar la declaraci&oacute;n de retenci&oacute;n en la fuente es para todos los contribuyentes del R&eacute;gimen Com&uacute;n sin distinci&oacute;n, es decir sin consultar el criterio de habitualidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6974-2007",
+      "tipo": "oficio",
+      "numero": "6974",
+      "fecha": "2007-01-31",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104404-2006",
+      "tipo": "oficio",
+      "numero": "104404",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006, el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n? La posibilidad que tiene el agente retenedor de presentar la declaraci&oacute;n tributaria y posteriormente efectuar el pago, dentro de los plazos para declarar y pagar fijados por el Gobierno Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104402-2006",
+      "tipo": "oficio",
+      "numero": "104402",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006 el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99903-2006",
+      "tipo": "oficio",
+      "numero": "99903",
+      "fecha": "2006-11-27",
+      "tema": "&iquest;Los consorcios y las uniones temporales necesariamente tiene que solicitar la expedici&oacute;n del N&uacute;mero de Identificaci&oacute;n Tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042076-2004",
+      "tipo": "concepto",
+      "numero": "0042076",
+      "fecha": "2004-07-12",
+      "tema": "&iquest;Debe un agente retenedor del impuesto sobre la renta que la asume, expedir el correspondiente certificado de retenci&oacute;n a nombre del retenido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100415-2001",
+      "tipo": "concepto",
+      "numero": "0100415",
+      "fecha": "2001-11-20",
+      "tema": "En quienes recae la obligaci&oacute;n de retener el impuesto de timbre de los documentos en los procesos y actuaciones surtidos ante los jueces, conciliadores y tribunales de arbitramento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029315-1998",
+      "tipo": "concepto",
+      "numero": "0029315",
+      "fecha": "1998-04-27",
+      "tema": "&iquest;Se pregunta, porque no es procedente la compensaci&oacute;n de saldos a favor en la declaraci&oacute;n de renta, originados por retenciones en la fuente, de conformidad con el art&iacute;culo 859 del Estatuto Tributario, exigi&eacute;ndose por el contrario la cancelaci&oacute;n de las auto-retenciones involucradas en el saldo a favor, si la compensaci&oacute;n solicitada se cubre con los saldos pagados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084506-1995",
+      "tipo": "concepto",
+      "numero": "0084506",
+      "fecha": "1995-12-01",
+      "tema": "&iquest;Las personas naturales que siendo comerciantes y habiendo tenido en el a&ntilde;o inmediatamente anterior un patrimonio bruto y unos ingresos brutos inferiores a los se&ntilde;alados por la ley para actuar como agentes de retenci&oacute;n, c&oacute;mo deben proceder para dejar de tener tal calidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003866-1993",
+      "tipo": "concepto",
+      "numero": "0003866",
+      "fecha": "1993-02-03",
+      "tema": "&iquest;Una oficina de representaci&oacute;n que carece de personer&iacute;a jur&iacute;dica y no tiene ingresos de Fuente Nacional en el Pa&iacute;s, se encuentra obligada a presentar declaraciones de retenci&oacute;n en la fuente del 10% sobre los pagos que efectu&eacute; en Colombia por concepto de honorarios, comisiones o servicios? Solicita igualmente, se le indique si existen conceptos emitidos por este Despacho, respecto a las obligaciones tributarias de las oficinas de representaci&oacute;n de un banco extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000687-1992",
+      "tipo": "concepto",
+      "numero": "0000687",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Una solicitud por escrito de parte del fideicomitente manifestando este requerimiento, exonerar&iacute;a a la Fiduciaria de responsabilidad por inexactitud o incumplimiento en el manejo de la retenci&oacute;n en la fuente por parte de la Empresa P&uacute;blica Municipal?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    }
+  ]
+}

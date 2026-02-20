@@ -1,1 +1,288 @@
-{"id_articulo": "Art. 498", "titulo": "Art. 498. Impuestos descontables en los servicios.", "titulo_corto": "Impuestos descontables en los servicios.", "slug": "498", "url_origen": "https://estatuto.co/498", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485. La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado verde\">Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo <a href=\"https://estatuto.co/?p=1329\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">485</a>. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado verde\">La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1607 de 2012 Art. 198.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": ["Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485.", "La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo."], "texto_derogado_parsed": [{"index": 0, "snippet": "Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485.", "full_length": 136}, {"index": 1, "snippet": "La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en...", "full_length": 278}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["?p=1329"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 498",
+  "titulo": "Art. 498. Impuestos descontables en los servicios.",
+  "titulo_corto": "Impuestos descontables en los servicios.",
+  "slug": "498",
+  "url_origen": "https://estatuto.co/498",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485. La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado verde\">Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo <a href=\"https://estatuto.co/?p=1329\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">485</a>. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado verde\">La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1607 de 2012 Art. 198.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [
+    "Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485.",
+    "La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en caso que exista, se llevará como un mayor valor del costo o gasto respectivo."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "Los responsables que presten los servicios gravados tendrán derecho a solicitar los impuestos descontables de que trata el artículo 485.",
+      "full_length": 136
+    },
+    {
+      "index": 1,
+      "snippet": "La tarifa para establecer los impuestos descontables a que tienen derecho los responsables que presten los servicios gravados, estará limitada por la tarifa del correspondiente servicio; el exceso, en...",
+      "full_length": 278
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "?p=1329"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 28990 (2019-11-20): Determinaci&oacute;n de impuestos descontables susceptibles de devoluci&oacute;n bimestral\noficio 21940 (2019-09-03): Bienes excluidos del impuesto sobre las ventas que se introducen en los departamentos de Amazona, Guain&iacute;a Y Vaup&eacute;s\noficio 16315 (2019-06-21): Bienes exentos con derecho a devoluci&oacute;n bimestral\noficio 34293 (2018-12-11): IVA en la venta nacional de plantas arom&aacute;ticas\noficio 0655 (2016-06-30): Administrativo",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-28990-2019",
+      "tipo": "oficio",
+      "numero": "28990",
+      "fecha": "2019-11-20",
+      "tema": "Determinaci&oacute;n de impuestos descontables susceptibles de devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21940-2019",
+      "tipo": "oficio",
+      "numero": "21940",
+      "fecha": "2019-09-03",
+      "tema": "Bienes excluidos del impuesto sobre las ventas que se introducen en los departamentos de Amazona, Guain&iacute;a Y Vaup&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16315-2019",
+      "tipo": "oficio",
+      "numero": "16315",
+      "fecha": "2019-06-21",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34293-2018",
+      "tipo": "oficio",
+      "numero": "34293",
+      "fecha": "2018-12-11",
+      "tema": "IVA en la venta nacional de plantas arom&aacute;ticas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0655-2016",
+      "tipo": "oficio",
+      "numero": "0655",
+      "fecha": "2016-06-30",
+      "tema": "Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61417-2014",
+      "tipo": "oficio",
+      "numero": "61417",
+      "fecha": "2014-10-31",
+      "tema": "Consulta sobre la vigencia de la exclusi&oacute;n en el impuesto sobre las ventas, consagrada en el art&iacute;culo 424-5 numeral 4o del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10792-2012",
+      "tipo": "oficio",
+      "numero": "10792",
+      "fecha": "2012-02-17",
+      "tema": "Solicita se revoque la conclusi&oacute;n de los Oficios de los Oficios 017132 de 24 de marzo de 2004 y 008077 del 27 de enero de 2006, seg&uacute;n la cual en estos contratos el IVA pagado en los bienes que se incorporan no tiene el tratamiento de IVA descontable sino como mayor costo o gasto de la obra; considera la consultante que debe otorgarse el mismo tratamiento de los impuestos descontables que en cualquier otra venta, y que la limitaci&oacute;n del IVA descontable establecida en el Decreto 1372 de 1992 est&aacute; dada exclusivamente para el servicio de construcci&oacute;n como hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91692-2009",
+      "tipo": "oficio",
+      "numero": "91692",
+      "fecha": "2009-11-06",
+      "tema": "&iquest;Cu&aacute;l es la tarifa que se debe aplicar a los bienes exentos del impuesto a las ventas en el proceso de nacionalizaci&oacute;n de mercanc&iacute;as importadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62603-2009",
+      "tipo": "oficio",
+      "numero": "62603",
+      "fecha": "2009-08-03",
+      "tema": "&iquest;La baja por hurto de una mercanc&iacute;a importada genera IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108852-2008",
+      "tipo": "concepto",
+      "numero": "0108852",
+      "fecha": "2008-10-31",
+      "tema": "&iquest;La prestaci&oacute;n de servicios m&eacute;dicos, odontol&oacute;gicos, hospitalarios, cl&iacute;nicos y de laboratorio, para la salud humana, por parte de las Cooperativas y Precooperativas de Trabajo Asociado, se encuentran excluidos del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16441-2008",
+      "tipo": "oficio",
+      "numero": "16441",
+      "fecha": "2008-12-30",
+      "tema": "&iquest;Cu&aacute;l es la tarifa a aplicar en todos los servicios prestados por las Cooperativas de Trabajo Asociado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13811-2008",
+      "tipo": "oficio",
+      "numero": "13811",
+      "fecha": "2008-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73615-2007",
+      "tipo": "oficio",
+      "numero": "73615",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Existe doble tributaci&oacute;n a t&iacute;tulo de impuesto sobre las ventas teniendo en cuenta que cuando las aerol&iacute;neas venden los tiquetes a&eacute;reos a las agencias de viajes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60393-2006",
+      "tipo": "oficio",
+      "numero": "60393",
+      "fecha": "2006-07-19",
+      "tema": "Interrogantes respecto del tratamiento del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58886-2005",
+      "tipo": "oficio",
+      "numero": "58886",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se deben diligenciar los renglones 28, 33 y 34 del formulario de la declaraci&oacute;n del IVA a&ntilde;o 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47300-2005",
+      "tipo": "oficio",
+      "numero": "47300",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Un contratista, que en la fecha de celebraci&oacute;n del contrato de prestaci&oacute;n de servicios, se encontraba inscrito en el r&eacute;gimen simplificado, y que al momento de liquidar el contrato est&aacute; inscrito en el r&eacute;gimen com&uacute;n, &iquest;debe facturar el IVA sobre los honorarios y quien debe asumir este impuesto teniendo en cuenta que en el contrato no qued&oacute; estipulado ning&uacute;n tipo de gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19261-2005",
+      "tipo": "oficio",
+      "numero": "19261",
+      "fecha": "2005-04-07",
+      "tema": "&iquest;Cu&aacute;l es la responsabilidad de la Polic&iacute;a Nacional como sujeto pasivo del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028587-1997",
+      "tipo": "concepto",
+      "numero": "0028587",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060009-1995",
+      "tipo": "concepto",
+      "numero": "0060009",
+      "fecha": "1995-08-29",
+      "tema": "&iquest;El impuesto sobre las ventas cancelado en la importaci&oacute;n de cervezas es descontable? &iquest;Si, adem&aacute;s de la cerveza, se importan o compran y comercializan otros art&iacute;culos gravados con el impuesto a las ventas, c&oacute;mo operan los impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001497-1993",
+      "tipo": "concepto",
+      "numero": "0001497",
+      "fecha": "1993-01-14",
+      "tema": "Las comisiones por contratos por ventas de pasajes suscritos por las agencias de viajes con las compa&ntilde;&iacute;as a&eacute;reas generan impoventas? &iquest;Son estos contratos documentos suficientes para soportar lo dispuesto por la norma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020497-1991",
+      "tipo": "concepto",
+      "numero": "0020497",
+      "fecha": "1991-07-09",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008638-1991",
+      "tipo": "concepto",
+      "numero": "0008638",
+      "fecha": "1991-03-22",
+      "tema": "&iquest;Las empresas de servicios temporales pueden descontar el impuesto pagado por el servicio de seguro en su totalidad o deben limitarlo al 4%, conforme al inciso segundo del art&iacute;culo 498 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003812-1991",
+      "tipo": "concepto",
+      "numero": "0003812",
+      "fecha": "1991-02-14",
+      "tema": "&iquest;Debe pagar el Impuesto sobre las Ventas sobre todos los conceptos incluidos en la facturaci&oacute;n de una empresa de servicios temporales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002235-1991",
+      "tipo": "concepto",
+      "numero": "0002235",
+      "fecha": "1991-09-24",
+      "tema": "&iquest;Los establecimientos hoteleros tienen derecho a tomar como descontable el valor pagado por IVA en compras de seguros y a qu&eacute; tarifa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011277-1990",
+      "tipo": "concepto",
+      "numero": "0011277",
+      "fecha": "1990-05-15",
+      "tema": "&iquest;El IVA facturado por las Compa&ntilde;&iacute;as de Seguros y por la Empresa de Tel&eacute;fonos es descontable o no?",
+      "vigente": true
+    }
+  ]
+}

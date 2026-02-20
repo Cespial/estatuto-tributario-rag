@@ -1,12 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { BarChart3, Search } from "lucide-react";
+import { BarChart3, Search, Download, Info } from "lucide-react";
 import {
   INDICADORES_CATEGORIAS,
   INDICADORES_DESTACADOS_IDS,
   INDICADORES_MAP,
+  INDICADORES_ITEMS,
   UVT_COMPARATIVO,
+  INDICADORES_LAST_UPDATE,
   type IndicatorCategory,
   type IndicatorItem,
 } from "@/config/indicadores-data";
@@ -63,11 +65,44 @@ export default function IndicadoresPage() {
     }
   };
 
+  const handleExportCsv = () => {
+    const headers = ["Indicador", "Valor", "Unidad", "Fecha de Corte", "Categoría", "Para qué sirve"];
+    const rows = INDICADORES_ITEMS.map((item) => [
+      item.nombre,
+      item.valor,
+      item.unidad,
+      item.fechaCorte,
+      item.categoria,
+      `"${item.paraQueSirve.replace(/"/g, '""')}"`,
+    ]);
+
+    const csvContent = [headers, ...rows].map((e) => e.join(",")).join("\n");
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `indicadores-economicos-${new Date().toISOString().split("T")[0]}.csv`);
+    link.style.visibility = "hidden";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <ReferencePageLayout
       title="Indicadores Económicos 2026"
       description="Monitorea los indicadores críticos para cálculos tributarios, convierte UVT en segundos y proyecta decisiones con contexto histórico."
       icon={BarChart3}
+      updatedAt={INDICADORES_LAST_UPDATE}
+      rightContent={
+        <button
+          onClick={handleExportCsv}
+          className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-3 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+        >
+          <Download className="h-4 w-4" />
+          Exportar CSV
+        </button>
+      }
     >
       <IndicatorsHero indicators={highlightedIndicators} />
 
@@ -120,10 +155,14 @@ export default function IndicadoresPage() {
         </div>
       </section>
 
-      <div className="rounded-lg border border-border/40 bg-muted/30 p-4 text-xs text-muted-foreground">
-        <p>
-          <strong>Nota:</strong> Corte de datos interno al 19 de febrero de 2026. Para liquidaciones oficiales,
-          confirme valores diarios/mensuales en la fuente regulatoria correspondiente.
+      <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs text-amber-900 dark:border-amber-900/30 dark:bg-amber-900/20 dark:text-amber-200">
+        <p className="flex items-center gap-2">
+          <Info className="h-4 w-4 shrink-0" />
+          <span>
+            <strong>Nota de actualización:</strong> Datos actualizados al {INDICADORES_LAST_UPDATE}. 
+            Esta herramienta es de carácter informativo. Para liquidaciones oficiales y vinculantes, consulte siempre la fuente oficial 
+            (DIAN, Banco de la República, DANE) y verifique el corte diario si aplica.
+          </span>
         </p>
       </div>
 

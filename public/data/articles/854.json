@@ -1,1 +1,512 @@
-{"id_articulo": "Art. 854", "titulo": "Art. 854. Término para solicitar la devolución de saldos a favor.", "titulo_corto": "Término para solicitar la devolución de saldos a favor.", "slug": "854", "url_origen": "https://estatuto.co/854", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 2, "contenido_texto": "La solicitud de devolución de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la devolución, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La solicitud de devolución de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar.</p>\n<p>Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la devolución, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Suprema de Justicia: - Inciso 1. declarado EXEQUIBLE por la Corte Suprema de Justicia, mediante Sentencia No. 017 del 15 de febrero de 1990, Magistrado Ponente, Dr. Jaime Sanín G."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 854",
+  "titulo": "Art. 854. Término para solicitar la devolución de saldos a favor.",
+  "titulo_corto": "Término para solicitar la devolución de saldos a favor.",
+  "slug": "854",
+  "url_origen": "https://estatuto.co/854",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 2,
+  "contenido_texto": "La solicitud de devolución de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar. Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la devolución, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La solicitud de devolución de impuestos deberá presentarse a más tardar dos años después de la fecha de vencimiento del término para declarar.</p>\n<p>Cuando el saldo a favor de las declaraciones del impuesto sobre la renta y complementarios o sobre las ventas, haya sido modificado mediante una liquidación oficial y no se hubiere efectuado la devolución, la parte rechazada no podrá solicitarse aunque dicha liquidación haya sido impugnada, hasta tanto se resuelva definitivamente sobre la procedencia del saldo.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Suprema de Justicia: - Inciso 1. declarado EXEQUIBLE por la Corte Suprema de Justicia, mediante Sentencia No. 017 del 15 de febrero de 1990, Magistrado Ponente, Dr. Jaime Sanín G."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 11 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 16116 (2025-11-18): Procedimiento Tributario\noficio 13688 (2025-08-26): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 13278 (2025-09-30): Impuesto de Timbre\noficio 10648 (2025-08-11): Procedimiento Tributario\noficio 8645 (2025-07-03): Impuesto de Timbre",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13688-2025",
+      "tipo": "oficio",
+      "numero": "13688",
+      "fecha": "2025-08-26",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13278-2025",
+      "tipo": "oficio",
+      "numero": "13278",
+      "fecha": "2025-09-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10648-2025",
+      "tipo": "oficio",
+      "numero": "10648",
+      "fecha": "2025-08-11",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8645-2025",
+      "tipo": "oficio",
+      "numero": "8645",
+      "fecha": "2025-07-03",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9091-2024",
+      "tipo": "oficio",
+      "numero": "9091",
+      "fecha": "2024-11-19",
+      "tema": "Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9014-2024",
+      "tipo": "oficio",
+      "numero": "9014",
+      "fecha": "2024-11-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2713-2024",
+      "tipo": "oficio",
+      "numero": "2713",
+      "fecha": "2024-04-23",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7601-2023",
+      "tipo": "oficio",
+      "numero": "7601",
+      "fecha": "2023-12-22",
+      "tema": "(Int 1260) Devoluci&oacute;n de saldos a favor - Imputaci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901705-2022",
+      "tipo": "oficio",
+      "numero": "901705",
+      "fecha": "2022-03-07",
+      "tema": "Impuestos sobre la renta y complementarios, saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915281-2021",
+      "tipo": "oficio",
+      "numero": "915281",
+      "fecha": "2021-12-15",
+      "tema": "Correcci&oacute;n de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902839-2020",
+      "tipo": "oficio",
+      "numero": "902839",
+      "fecha": "2020-07-01",
+      "tema": "Procedimiento abreviado de devoluci&oacute;n y-o compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901275-2020",
+      "tipo": "oficio",
+      "numero": "901275",
+      "fecha": "2020-04-28",
+      "tema": "Correcci&oacute;n de Errores e Inconsistencias en Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901112-2020",
+      "tipo": "oficio",
+      "numero": "901112",
+      "fecha": "2020-04-14",
+      "tema": "&iquest;Qu&eacute; se entiende por productor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29268-2019",
+      "tipo": "oficio",
+      "numero": "29268",
+      "fecha": "2019-11-22",
+      "tema": "Sanci&oacute;n por improcedencia de las Devoluciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28375-2019",
+      "tipo": "oficio",
+      "numero": "28375",
+      "fecha": "2019-11-14",
+      "tema": "(Int 2664) Impuesto a las ventas - Devoluci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010023-2019",
+      "tipo": "concepto",
+      "numero": "0010023",
+      "fecha": "2019-04-29",
+      "tema": "Declaraciones de iva sin efecto legal alguno",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27608-2018",
+      "tipo": "oficio",
+      "numero": "27608",
+      "fecha": "2018-09-24",
+      "tema": "&iquest;Es necesario presentar el certificado de la AUNAP",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8239-2017",
+      "tipo": "oficio",
+      "numero": "8239",
+      "fecha": "2017-04-07",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0705-2017",
+      "tipo": "oficio",
+      "numero": "0705",
+      "fecha": "2017-06-16",
+      "tema": "Si se presenta una solicitud de devoluci&oacute;n de un saldo a favor originado en una declaraci&oacute;n liquidada por el sistemas IMAS, a dicha declaraci&oacute;n se le aplicar el t&eacute;rmino de firmeza consagrado en el art. 714 del E.T., es decir, de &iquest;3 a&ntilde;os desde la presentaci&oacute;n de la solicitud de devoluci&oacute;n y-o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31476-2015",
+      "tipo": "oficio",
+      "numero": "31476",
+      "fecha": "2015-10-30",
+      "tema": "&iquest;Es viable frente a saldos a favor objeto de solicitud de devoluci&oacute;n, con rechazo definitivo en oportunidad anterior, por haber pagado extempor&aacute;neamente algunas declaraciones de retenci&oacute;n en la fuente y otros detalles de forma, imputar esos saldos en declaraciones siguientes y al encontrarse ya acreditadas las retenciones respectivas, si los mismos pueden ser objeto de solicitud de devoluci&oacute;n dentro de la declaraci&oacute;n en la cual se imputaron o si ante un rechazo definitivo de un saldo a favor, tiene lugar la p&eacute;rdida del mismo por esa situaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31370-2015",
+      "tipo": "oficio",
+      "numero": "31370",
+      "fecha": "2015-11-17",
+      "tema": "&iquest;Es viable desconocer un saldo a favor, cuando con ocasi&oacute;n de un proceso de verificaci&oacute;n de una solicitud de devoluci&oacute;n y-o compensaci&oacute;n se observa que este es improcedente y que los periodos que dieron lugar al mismo se encuentran en firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27287-2015",
+      "tipo": "oficio",
+      "numero": "27287",
+      "fecha": "2015-10-01",
+      "tema": "(Int 1280) Forma de pago de las obligaciones tributarias en las entidades financieras - Cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25533-2015",
+      "tipo": "oficio",
+      "numero": "25533",
+      "fecha": "2015-09-02",
+      "tema": "solicita se complemente la respuesta suministrada con el Oficio No. 001057 del 16 de julio de 2015 al radicado No. 026200 del 1o de julio de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61897-2014",
+      "tipo": "oficio",
+      "numero": "61897",
+      "fecha": "2014-11-06",
+      "tema": "&iquest;La declaraci&oacute;n se presenta por el sistema IMAS en forma extempor&aacute;nea, la firmeza de la declaraci&oacute;n, le aplicar&iacute;a la firmeza general del art&iacute;culo 714 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60437-2014",
+      "tipo": "oficio",
+      "numero": "60437",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;Es viable el tr&aacute;mite de la solicitud de devoluci&oacute;n sin ser objeto de rechazo definitivo de dicha solicitud al no haberse practicado la retenci&oacute;n del IVA en los periodos anotados anteriormente, toda vez que a la fecha dichas declaraciones ya est&aacute;n en firme y no se pueden corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51928-2014",
+      "tipo": "oficio",
+      "numero": "51928",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Es viable iniciar un proceso declarativo de bien mostrenco, frente a unos saldos a favor por concepto de impuesto sobre las ventas, los cuales no fueron solicitados en devoluci&oacute;n o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40724-2014",
+      "tipo": "oficio",
+      "numero": "40724",
+      "fecha": "2014-06-07",
+      "tema": "&iquest;Cu&aacute;l es la forma de reflejar los ajustes a que se refiere el Oficio 106957 del 30 de diciembre de 2009, en la declaraci&oacute;n del impuesto sobre las ventas del per&iacute;odo en el cual se efect&uacute;a el reintegro del IVA pagado al adquirente, cuando inicialmente se ha cobrado el IVA en la venta de bienes excluidos de que trata el numeral 4o del art&iacute;culo 424-5 del Estatuto Tributario y posteriormente el comprador allega la correspondiente certificaci&oacute;n del Ministerio de Ambiente, Vivienda y Desarrollo Territorial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037637-2014",
+      "tipo": "concepto",
+      "numero": "0037637",
+      "fecha": "2014-06-24",
+      "tema": "&iquest;Desde qu&eacute; fecha se computa la causaci&oacute;n de los intereses moratorios, la oportunidad para solicitar la devoluci&oacute;n de un saldo a favor, el plazo para notificar un requerimiento especial y la prescripci&oacute;n de la facilitad sancionatoria cuando el Decreto por el cual se fijan los plazos para la presentaci&oacute;n de las declaraciones tributarias y para el pago de los impuestos, anticipos y retenciones en la fuente es modificado, prorrog&aacute;ndose las fechas para la presentaci&oacute;n y pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30269-2014",
+      "tipo": "oficio",
+      "numero": "30269",
+      "fecha": "2014-05-16",
+      "tema": "Solicita la aclaraci&oacute;n o revocatoria parcial o total de la respuesta No. 2 del Concepto Jur&iacute;dico No. 048129 del 02-08-2013, para lo cual se sustenta en los art&iacute;culos 815, 815-1, 816, 850, 689-1, 854 y 857 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11947-2014",
+      "tipo": "oficio",
+      "numero": "11947",
+      "fecha": "2014-11-18",
+      "tema": "Plazo para solicitar la devoluci&oacute;n o compensaci&oacute;n de saldos a favor que tiene el contribuyente del impuesto de renta y complementarios que opt&oacute; por declarar por el sistema del IMAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010558-2014",
+      "tipo": "concepto",
+      "numero": "0010558",
+      "fecha": "2014-11-06",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar devoluci&oacute;n y-o compensaci&oacute;n del saldo a favor originado en la declaraci&oacute;n del impuesto sobre la renta y complementarios por el sistema M&iacute;nimo Alternativo Simple (IMAS), para empleados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1960-2014",
+      "tipo": "oficio",
+      "numero": "1960",
+      "fecha": "2014-01-07",
+      "tema": "Cuando la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria por ser extempor&aacute;nea, &iquest;procede su imputaci&oacute;n en la declaraci&oacute;n del periodo siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48129-2013",
+      "tipo": "oficio",
+      "numero": "48129",
+      "fecha": "2013-08-02",
+      "tema": "&iquest;Se puede imputar el saldo a favor originado en una declaraci&oacute;n del impuesto sobre la renta que se encuentra en firme, mediante la correcci&oacute;n de la declaraci&oacute;n del periodo gravable inmediatamente siguiente? - &iquest;Cu&aacute;ndo la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria, procede su imputaci&oacute;n en la declaraci&oacute;n del periodo gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37100-2012",
+      "tipo": "oficio",
+      "numero": "37100",
+      "fecha": "2012-06-08",
+      "tema": "Solicita aclarar el alcance del Concepto 81013 de 2011, mediante el cual este Despacho se&ntilde;al&oacute; que el procedimiento vigente para recuperar las retenciones por concepto del impuesto de timbre, efectuadas en exceso o de no lo debido es el contemplado en el art&iacute;culo 6o del Decreto 1189 de 1988",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038650-2009",
+      "tipo": "concepto",
+      "numero": "0038650",
+      "fecha": "2009-05-14",
+      "tema": "&iquest;Opera el beneficio de auditor&iacute;a y por ende el t&eacute;rmino especial de firmeza de dieciocho (18), doce (12) o seis (6) meses siguientes a la fecha de la presentaci&oacute;n de las declaraciones de renta con saldo a favor, en las cuales no se determine o compense una p&eacute;rdida fiscal, aunque el contribuyente solicite la devoluci&oacute;n del saldo a favor d&iacute;as antes de cumplirse dicho t&eacute;rmino?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108798-2008",
+      "tipo": "oficio",
+      "numero": "108798",
+      "fecha": "2008-10-31",
+      "tema": "alcance de la tesis y las interpretaciones jur&iacute;dicas contenidas en los conceptos 059295 y 039724 emitidos por &eacute;sta Oficina el 14 de julio de 2006 y el 29 de mayo de 2007 respectivamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067015-2007",
+      "tipo": "concepto",
+      "numero": "0067015",
+      "fecha": "2007-08-29",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor l&iacute;quidados en las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40212-2007",
+      "tipo": "oficio",
+      "numero": "40212",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Quien goza del beneficio de auditoria y no hace uso del derecho de devoluci&oacute;n como tampoco del mecanismo de la compensaci&oacute;n dentro del t&eacute;rmino especial de firmeza que contempla el art&iacute;culo 689-1 del Estatuto Tributario, conserva la posibilidad de imputar el saldo a favor en el periodo siguiente dentro del t&eacute;rmino general indicado en el art&iacute;culo 815 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039724-2007",
+      "tipo": "concepto",
+      "numero": "0039724",
+      "fecha": "2007-05-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento y el t&eacute;rmino para corregir los errores u omisiones de imputaci&oacute;n o arrastre de saldos a favor del per&iacute;odo anterior sin solicitud de devoluci&oacute;n y\\o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76457-2006",
+      "tipo": "oficio",
+      "numero": "76457",
+      "fecha": "2006-09-07",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de saldos a favor, cuando corrigen la declaraci&oacute;n tributaria disminuyendo dicho saldo a favor, con motivo de un requerimiento especial proferido por la administraci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059295-2006",
+      "tipo": "concepto",
+      "numero": "0059295",
+      "fecha": "2006-07-14",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento y el t&eacute;rmino para corregir los errores u omisiones de imputaci&oacute;n o arrastre de saldos a favor del per&iacute;odo anterior sin solicitud de devoluci&oacute;n y\\o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91944-2005",
+      "tipo": "oficio",
+      "numero": "91944",
+      "fecha": "2005-12-13",
+      "tema": "Solicita se aclare la contradicci&oacute;n que pudiere existir entre los art&iacute;culos 11 y 21 del Decreto 1000 de 1997 y los art&iacute;culos 850 y 854 del Estatuto Tributario en cuanto al t&eacute;rmino que tienen los contribuyentes para solicitar la devoluci&oacute;n de pagos de lo no debido a la DIAN, y el t&eacute;rmino en que &eacute;sta sebe proceder a dicha devoluci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87923-2005",
+      "tipo": "oficio",
+      "numero": "87923",
+      "fecha": "2005-11-25",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir y la viabilidad legal si existe para devolver las retenciones por pagos en exceso de varios excontratistas que demandaron al Seguro Social y en sentencia judicial cada juzgado les reconoci&oacute; condici&oacute;n de trabajadores oficiales y no de contratistas de prestaci&oacute;n de servicios, m&aacute;s no orden&oacute; devoluci&oacute;n de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077148-2004",
+      "tipo": "concepto",
+      "numero": "0077148",
+      "fecha": "2004-11-10",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor reconocidos mediante actos administrativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009797-2004",
+      "tipo": "concepto",
+      "numero": "0009797",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino durante el cual se causan intereses corrientes y moratorios en un proceso de devoluci&oacute;n de impuestos por saldos a favor cuando existe discusi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039294-2003",
+      "tipo": "concepto",
+      "numero": "0039294",
+      "fecha": "2003-07-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073005-2002",
+      "tipo": "concepto",
+      "numero": "0073005",
+      "fecha": "2002-11-12",
+      "tema": "&iquest;Respecto de las declaraciones tributarias de los contribuyentes del impuesto sobre la renta y complementarios que se acogieron al beneficio de auditoria es procedente suspender el t&eacute;rmino para notificar el requerimiento especial, dentro de los doce (12) meses siguientes a la fecha de presentaci&oacute;n de la declaraci&oacute;n, mediante la pr&aacute;ctica de inspecci&oacute;n tributaria de oficio? &iquest;Qu&eacute; t&eacute;rmino tiene el Contribuyente para solicitar la devoluci&oacute;n de saldos a favor registrados en las declaraciones tributarias que se acogieron al beneficio de auditoria y quedaron en firme dentro de los doce (12) meses siguientes a la fecha de su presentaci&oacute;n? &iquest;Puede la DIAN hacer fiscalizaci&oacute;n sobre una declaraci&oacute;n tributar&iacute;a del impuesto sobre la renta y complementarios que, por haberse acogido al beneficio de auditoria ya ha quedado en firme, pero que registr&oacute; saldo a favor solicitado en devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-23704-2002",
+      "tipo": "concepto",
+      "numero": "23704",
+      "fecha": "2002-04-22",
+      "tema": "T&eacute;rmino de correcci&oacute;n de las declaraciones del impuesto sobre las ventas para disminuir el valor a pagar o aumentar el saldo a favor, cuando por error se factura el impuesto pese a tratarse de un bien o de un servicio excluido",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003132-2002",
+      "tipo": "concepto",
+      "numero": "0003132",
+      "fecha": "2002-01-18",
+      "tema": "&iquest;En qu&eacute; forma debe presentarse el escrito de solicitud de devoluci&oacute;n y-o compensaci&oacute;n ante la Administraci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096731-1998",
+      "tipo": "concepto",
+      "numero": "0096731",
+      "fecha": "1998-12-16",
+      "tema": "&iquest;Tienen o no aplicaci&oacute;n los t&eacute;rminos contenidos en los art&iacute;culos 816 y 854 del estatuto tributario para determinar la oportunidad de solicitar la devoluci&oacute;n o compensaci&oacute;n de los saldos a favor que arroja una liquidaci&oacute;n oficial de correcci&oacute;n? &iquest;Tiene o no aplicaci&oacute;n el t&eacute;rmino contenido en el art&iacute;culo 816 del estatuto tributario para determinar la oportunidad de solicitar la imputaci&oacute;n del saldo a favor que arroja una liquidaci&oacute;n privada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057296-1998",
+      "tipo": "concepto",
+      "numero": "0057296",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Puede uno de los socios de una sociedad disuelta y liquidada presentar solicitud de devoluci&oacute;n de un saldo a favor con el fin de compensar las deudas que tiene con la DIAN y en este evento podr&iacute;a acogerse al beneficio consagrado en el art&iacute;culo 793 del estatuto Tributario y pedir que dicha compensaci&oacute;n sea aplicada &uacute;nicamente al pago de los impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054838-1995",
+      "tipo": "concepto",
+      "numero": "0054838",
+      "fecha": "1995-08-09",
+      "tema": "&iquest;Qu&eacute; procedimiento debe utilizar el contribuyente del impuesto sobre la renta para recuperar el mayor valor pagado por concepto de la contribuci&oacute;n especial declarada en 1993, con ocasi&oacute;n de la anulaci&oacute;n por el Consejo de Estado de las instrucciones pertinentes contenidas en los formularios de declaraci&oacute;n de renta por dicho a&ntilde;o gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028490-1993",
+      "tipo": "concepto",
+      "numero": "0028490",
+      "fecha": "1993-01-01",
+      "tema": "Devoluci&oacute;n y compensaci&oacute;n por pago de lo no debido",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023115-1993",
+      "tipo": "concepto",
+      "numero": "0023115",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Es procedente que la divisi&oacute;n de liquidaci&oacute;n apruebe un proyecto de correcci&oacute;n a la declaraci&oacute;n tributaria, para efectos del per&iacute;odo anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030809-1990",
+      "tipo": "concepto",
+      "numero": "0030809",
+      "fecha": "1990-05-29",
+      "tema": "&iquest;En qu&eacute; fecha quedan en firme las declaraciones tributarias (renta, ventas y retenci&oacute;n en la fuente)y que incidencia tiene la correcci&oacute;n en la firmeza de tales declaraciones?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ]
+}

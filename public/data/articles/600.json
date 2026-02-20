@@ -1,1 +1,1038 @@
-{"id_articulo": "Art. 600", "titulo": "Art. 600. Periodo gravable del impuesto sobre las ventas.", "titulo_corto": "Periodo gravable del impuesto sobre las ventas.", "slug": "600", "url_origen": "https://estatuto.co/600", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*El período gravable del impuesto sobre las ventas será así: 1. Declaración y pago bimestral para aquellos responsables de este impuesto, grandes contribuyentes y aquellas personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean iguales o superiores a noventa y dos mil (92.000) UVT y para los responsables de que tratan el artículo 477 y articulo 481 de este Estatuto. Los períodos bimestrales son: enero-febrero; marzo-abril; mayo-junio; julio-agosto; septiembre-octubre; y noviembre-diciembre. 2. Declaración y pago cuatrimestral para aquellos responsables de este impuesto, personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean inferiores a noventa y dos mil (92.000) UVT. Los periodos cuatrimestrales serán enero -abril; mayo -agosto; y septiembre -diciembre. Parágrafo. En el caso de liquidación o terminación de actividades durante el ejercicio, el período gravable se contará desde su iniciación hasta las fechas señaladas en el artículo 595 de este Estatuto. Cuando se inicien actividades durante el ejercicio, el período gravable será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período de acuerdo al numeral primero del presente artículo. En caso de que el contribuyente, de un año a otro, cambie de periodo gravable, deberá informar a la Dirección de Impuestos y Aduanas Nacionales de acuerdo con la reglamentación expedida por el Gobierno Nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El período gravable del impuesto sobre las ventas será así:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Declaración y pago bimestral para aquellos responsables de este impuesto, grandes contribuyentes y aquellas personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean iguales o superiores a noventa y dos mil (92.000) UVT y para los responsables de que tratan el <a href=\"https://estatuto.co/477\" rel=\"noopener\" target=\"_blank\">artículo 477</a> y <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">articulo 481</a> de este Estatuto. Los períodos bimestrales son: enero-febrero; marzo-abril; mayo-junio; julio-agosto; septiembre-octubre; y noviembre-diciembre.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Declaración y pago cuatrimestral para aquellos responsables de este impuesto, personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean inferiores a noventa y dos mil (92.000) UVT. Los periodos cuatrimestrales serán enero -abril; mayo -agosto; y septiembre -diciembre.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo.</span> </strong>En el caso de liquidación o terminación de actividades durante el ejercicio, el período gravable se contará desde su iniciación hasta las fechas señaladas en el <a href=\"https://estatuto.co/595\" rel=\"noopener\" target=\"_blank\">artículo 595</a> de este Estatuto.</p>\n<p>Cuando se inicien actividades durante el ejercicio, el período gravable será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período de acuerdo al numeral primero del presente artículo.</p>\n<p>En caso de que el contribuyente, de un año a otro, cambie de periodo gravable, deberá informar a la Dirección de Impuestos y Aduanas Nacionales de acuerdo con la reglamentación expedida por el Gobierno Nacional.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 196.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "196"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["477", "481", "595"], "referenced_by": ["601"], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 600",
+  "titulo": "Art. 600. Periodo gravable del impuesto sobre las ventas.",
+  "titulo_corto": "Periodo gravable del impuesto sobre las ventas.",
+  "slug": "600",
+  "url_origen": "https://estatuto.co/600",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*El período gravable del impuesto sobre las ventas será así: 1. Declaración y pago bimestral para aquellos responsables de este impuesto, grandes contribuyentes y aquellas personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean iguales o superiores a noventa y dos mil (92.000) UVT y para los responsables de que tratan el artículo 477 y articulo 481 de este Estatuto. Los períodos bimestrales son: enero-febrero; marzo-abril; mayo-junio; julio-agosto; septiembre-octubre; y noviembre-diciembre. 2. Declaración y pago cuatrimestral para aquellos responsables de este impuesto, personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean inferiores a noventa y dos mil (92.000) UVT. Los periodos cuatrimestrales serán enero -abril; mayo -agosto; y septiembre -diciembre. Parágrafo. En el caso de liquidación o terminación de actividades durante el ejercicio, el período gravable se contará desde su iniciación hasta las fechas señaladas en el artículo 595 de este Estatuto. Cuando se inicien actividades durante el ejercicio, el período gravable será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período de acuerdo al numeral primero del presente artículo. En caso de que el contribuyente, de un año a otro, cambie de periodo gravable, deberá informar a la Dirección de Impuestos y Aduanas Nacionales de acuerdo con la reglamentación expedida por el Gobierno Nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El período gravable del impuesto sobre las ventas será así:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Declaración y pago bimestral para aquellos responsables de este impuesto, grandes contribuyentes y aquellas personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean iguales o superiores a noventa y dos mil (92.000) UVT y para los responsables de que tratan el <a href=\"https://estatuto.co/477\" rel=\"noopener\" target=\"_blank\">artículo 477</a> y <a href=\"https://estatuto.co/481\" rel=\"noopener\" target=\"_blank\">articulo 481</a> de este Estatuto. Los períodos bimestrales son: enero-febrero; marzo-abril; mayo-junio; julio-agosto; septiembre-octubre; y noviembre-diciembre.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Declaración y pago cuatrimestral para aquellos responsables de este impuesto, personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean inferiores a noventa y dos mil (92.000) UVT. Los periodos cuatrimestrales serán enero -abril; mayo -agosto; y septiembre -diciembre.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo.</span> </strong>En el caso de liquidación o terminación de actividades durante el ejercicio, el período gravable se contará desde su iniciación hasta las fechas señaladas en el <a href=\"https://estatuto.co/595\" rel=\"noopener\" target=\"_blank\">artículo 595</a> de este Estatuto.</p>\n<p>Cuando se inicien actividades durante el ejercicio, el período gravable será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período de acuerdo al numeral primero del presente artículo.</p>\n<p>En caso de que el contribuyente, de un año a otro, cambie de periodo gravable, deberá informar a la Dirección de Impuestos y Aduanas Nacionales de acuerdo con la reglamentación expedida por el Gobierno Nacional.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 196.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "196"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "477",
+    "481",
+    "595"
+  ],
+  "referenced_by": [
+    "601"
+  ],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 30 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 20055 (2025-12-12): Impuesto Sobre las Ventas - IVA\noficio 18164 (2025-12-30): Impuesto Sobre las Ventas - IVA\noficio 17590 (2025-12-16): Procedimiento Tributario\noficio 15906 (2025-11-19): Impuesto Sobre las Ventas - IVA\noficio 7653 (2025-05-15): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-20055-2025",
+      "tipo": "oficio",
+      "numero": "20055",
+      "fecha": "2025-12-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18164-2025",
+      "tipo": "oficio",
+      "numero": "18164",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17590-2025",
+      "tipo": "oficio",
+      "numero": "17590",
+      "fecha": "2025-12-16",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15906-2025",
+      "tipo": "oficio",
+      "numero": "15906",
+      "fecha": "2025-11-19",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7653-2025",
+      "tipo": "oficio",
+      "numero": "7653",
+      "fecha": "2025-05-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7456-2025",
+      "tipo": "oficio",
+      "numero": "7456",
+      "fecha": "2025-06-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3575-2025",
+      "tipo": "oficio",
+      "numero": "3575",
+      "fecha": "2025-03-27",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3404-2025",
+      "tipo": "oficio",
+      "numero": "3404",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1925-2025",
+      "tipo": "oficio",
+      "numero": "1925",
+      "fecha": "2025-02-13",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7364-2024",
+      "tipo": "oficio",
+      "numero": "7364",
+      "fecha": "2024-10-03",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7602-2023",
+      "tipo": "oficio",
+      "numero": "7602",
+      "fecha": "2023-12-22",
+      "tema": "(Int 1257) Declaraci&oacute;n de IVA - Presentaci&oacute;n de Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0006-2023",
+      "tipo": "oficio",
+      "numero": "0006",
+      "fecha": "2023-01-02",
+      "tema": "Periodicidad del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908749-2022",
+      "tipo": "oficio",
+      "numero": "908749",
+      "fecha": "2022-12-12",
+      "tema": "- (Tributario) Impuestos descontables - Periodicidad del IVA - Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906996-2022",
+      "tipo": "oficio",
+      "numero": "906996",
+      "fecha": "2022-09-19",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. Periodicidad para la declaraci&oacute;n y pago del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905424-2022",
+      "tipo": "oficio",
+      "numero": "905424",
+      "fecha": "2022-07-15",
+      "tema": "Impuesto sobre las ventas - Causaci&oacute;n - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904316-2022",
+      "tipo": "oficio",
+      "numero": "904316",
+      "fecha": "2022-06-03",
+      "tema": "Periodo gravable del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904131-2022",
+      "tipo": "oficio",
+      "numero": "904131",
+      "fecha": "2022-05-24",
+      "tema": "Impuesto sobre las ventas - Devoluciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903750-2022",
+      "tipo": "oficio",
+      "numero": "903750",
+      "fecha": "2022-05-13",
+      "tema": "Impuesto sobre las ventas - Periodicidad - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903663-2022",
+      "tipo": "oficio",
+      "numero": "903663",
+      "fecha": "2022-05-13",
+      "tema": "Deberes Formales del Contribuyente - Declaraci&oacute;n Bimestral del Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903215-2022",
+      "tipo": "oficio",
+      "numero": "903215",
+      "fecha": "2022-04-25",
+      "tema": "Periodo gravable del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901741-2022",
+      "tipo": "oficio",
+      "numero": "901741",
+      "fecha": "2022-03-07",
+      "tema": "Periodicidad en la presentaci&oacute;n de la declaraci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900986-2022",
+      "tipo": "oficio",
+      "numero": "900986",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900204-2022",
+      "tipo": "oficio",
+      "numero": "900204",
+      "fecha": "2022-01-13",
+      "tema": "IVA descontable en prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912700-2021",
+      "tipo": "oficio",
+      "numero": "912700",
+      "fecha": "2021-10-11",
+      "tema": "Devoluci&oacute;n y-o compensaci&oacute;n de saldos a favor en las declaraciones del impuesto sobre las ventas, bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909552-2021",
+      "tipo": "oficio",
+      "numero": "909552",
+      "fecha": "2021-10-09",
+      "tema": "Impuesto sobre las ventas, periodo gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908672-2021",
+      "tipo": "oficio",
+      "numero": "908672",
+      "fecha": "2021-08-26",
+      "tema": "Impuesto sobre las ventas - Servicios excluidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908203-2021",
+      "tipo": "oficio",
+      "numero": "908203",
+      "fecha": "2021-08-13",
+      "tema": "Correcci&oacute;n de las declaraciones tributarias - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907959-2021",
+      "tipo": "oficio",
+      "numero": "907959",
+      "fecha": "2021-08-10",
+      "tema": "Periodicidad en la presentaci&oacute;n de la declaraci&oacute;n del impuesto sobre las ventas- IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907764-2021",
+      "tipo": "oficio",
+      "numero": "907764",
+      "fecha": "2021-08-03",
+      "tema": "Declaraci&oacute;n y pago del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901779-2021",
+      "tipo": "oficio",
+      "numero": "901779",
+      "fecha": "2021-03-05",
+      "tema": "Exenci&oacute;n impuesto sobre las ventas - servicios tur&iacute;sticos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901294-2021",
+      "tipo": "oficio",
+      "numero": "901294",
+      "fecha": "2021-02-19",
+      "tema": "- (Tributario) &iquest;Es aplicable la facultad contenida en el art&iacute;culo 43 de la Ley 962 de 2005, respecto a la correcci&oacute;n de errores cometidos al momento de diligenciar un formulario de una declaraci&oacute;n de IVA, en cuanto al haber presentado declaraciones con periodicidad bimestral, siendo aplicable la periodicidad cuatrimestral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900996-2021",
+      "tipo": "oficio",
+      "numero": "900996",
+      "fecha": "2021-02-10",
+      "tema": "En desarrollo de un contrato de cuentas en participaci&oacute;n &iquest;el socio oculto debe expedir factura electr&oacute;nica al socio gestor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903191-2020",
+      "tipo": "oficio",
+      "numero": "903191",
+      "fecha": "2020-07-16",
+      "tema": "tratamiento tributario en la celebraci&oacute;n de un contrato para la construcci&oacute;n de libro de ofertas y colocaci&oacute;n en firme de t&iacute;tulos de tesorer&iacute;a -TES clase B, emitidos por la Naci&oacute;n, celebrado entre &eacute;sta &uacute;ltima y entidades financieras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902877-2020",
+      "tipo": "oficio",
+      "numero": "902877",
+      "fecha": "2020-07-02",
+      "tema": "Declaraci&oacute;n y pago bimestral del impuesto sobre las ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901025-2020",
+      "tipo": "oficio",
+      "numero": "901025",
+      "fecha": "2020-04-02",
+      "tema": "Periodicidad en IVA, base gravable en m&aacute;quinas tragamonedas y mesas de p&oacute;ker",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5535-2020",
+      "tipo": "oficio",
+      "numero": "5535",
+      "fecha": "2020-03-13",
+      "tema": "Manejo del IVA en peluquer&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4655-2020",
+      "tipo": "oficio",
+      "numero": "4655",
+      "fecha": "2020-03-05",
+      "tema": "Periodo gravable - Periodicidad - Declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31993-2019",
+      "tipo": "oficio",
+      "numero": "31993",
+      "fecha": "2019-12-27",
+      "tema": "Mecanismo de devoluci&oacute;n de saldos a favor de contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20473-2019",
+      "tipo": "oficio",
+      "numero": "20473",
+      "fecha": "2019-08-15",
+      "tema": "Declaraciones de IVA sin efecto legal alguno",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15491-2019",
+      "tipo": "oficio",
+      "numero": "15491",
+      "fecha": "2019-06-12",
+      "tema": "&iquest;El servicio de plantaci&oacute;n del sistema arb&oacute;reo, que dentro de sus costos incluye material vegetal (&aacute;rbol), mano de obra, fertilizantes, tierra, riego, costo de herramientas y otros insumos, se encuentra gravado con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14754-2019",
+      "tipo": "oficio",
+      "numero": "14754",
+      "fecha": "2019-06-07",
+      "tema": "&iquest;Una comisi&oacute;n de venta facturada al exterior se puede considerar como exportaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14493-2019",
+      "tipo": "oficio",
+      "numero": "14493",
+      "fecha": "2019-06-06",
+      "tema": "Con el fin de determinar la periodicidad de IVA &iquest;se deben tener en cuenta los ingresos brutos declarados en renta o la sumatoria de los ingresos brutos declarados en IVA (la cual incluye ingresos no gravados con el impuesto, pero que son solicitados por la declaraci&oacute;n), tomando en consideraci&oacute;n el tratamiento diferencial de ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12738-2019",
+      "tipo": "oficio",
+      "numero": "12738",
+      "fecha": "2019-05-23",
+      "tema": "Procedimiento Tributario. Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6289-2019",
+      "tipo": "oficio",
+      "numero": "6289",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6277-2019",
+      "tipo": "oficio",
+      "numero": "6277",
+      "fecha": "2019-03-13",
+      "tema": "Ingreso Tributario del A&ntilde;o Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5737-2019",
+      "tipo": "oficio",
+      "numero": "5737",
+      "fecha": "2019-03-04",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario en materia de renta e IVA, respecto de la devoluci&oacute;n de bienes vendidos y que se cambian por otro producto que puede tener un valor igual o diferente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28031-2018",
+      "tipo": "oficio",
+      "numero": "28031",
+      "fecha": "2018-09-27",
+      "tema": "Interpretaci&oacute;n del art&iacute;culo 273 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10619-2018",
+      "tipo": "oficio",
+      "numero": "10619",
+      "fecha": "2018-04-25",
+      "tema": "&iquest;Una empresa que inicia actividades en diciembre de 2017, debe declarar IVA teniendo en cuenta el marco normativo anterior o lo dispuesto en la reforma tributaria del a&ntilde;o 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6048-2018",
+      "tipo": "oficio",
+      "numero": "6048",
+      "fecha": "2018-03-12",
+      "tema": "Siendo Prosperidad Social una entidad p&uacute;blica que no realiza actividades gravadas con el impuesto sobre las ventas, y que, por lo tanto, no pertenece al r&eacute;gimen com&uacute;n, al realizar espor&aacute;dicamente operaciones aduaneras - importaci&oacute;n de bienes en calidad de donaciones lo hace responsable del r&eacute;gimen com&uacute;n, de acuerdo al literal d) del art&iacute;culo 437 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5695-2018",
+      "tipo": "oficio",
+      "numero": "5695",
+      "fecha": "2018-03-03",
+      "tema": "&iquest;C&oacute;mo aplicar un mayor valor a favor del contribuyente, generado en el pago del anticipo por concepto de impuesto sobre las ventas anual, a&ntilde;o gravable 2015?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2018",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "2018-10-09",
+      "tema": "MC. Se modifica el Concepto 001 de 2012 sobre liquidaci&oacute;n, declaraci&oacute;n y pago de la contribuci&oacute;n parafiscal de los espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900930-2017",
+      "tipo": "oficio",
+      "numero": "900930",
+      "fecha": "2017-03-02",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22422-2017",
+      "tipo": "oficio",
+      "numero": "22422",
+      "fecha": "2017-08-18",
+      "tema": "Declaraci&oacute;n cuatrimestral del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9615-2017",
+      "tipo": "oficio",
+      "numero": "9615",
+      "fecha": "2017-04-25",
+      "tema": "Exenci&oacute;n del Impuesto Sobre las Ventas en los Tratados - Convenios Convenciones o Acuerdos Internacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7131-2017",
+      "tipo": "oficio",
+      "numero": "7131",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Cu&aacute;les son las responsabilidades que actualmente tienen las IGLESIAS en Colombia para con la DIAN? &iquest;Cu&aacute;l es la periodicidad con que deben presentar los respectivos documentos, resultado de esas responsabilidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7077-2017",
+      "tipo": "oficio",
+      "numero": "7077",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Teniendo en cuenta dicha adici&oacute;n, este sistema debe ser igualmente aplicable para el ingreso gravable en el Impuesto sobre las Ventas? &iquest;Se debe declarar el IVA sobre el ingreso efectivamente facturado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6416-2017",
+      "tipo": "oficio",
+      "numero": "6416",
+      "fecha": "2017-03-23",
+      "tema": "Impuesto a las ventas - Periodicidad - Declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5315-2017",
+      "tipo": "oficio",
+      "numero": "5315",
+      "fecha": "2017-03-14",
+      "tema": "Impuesto Nacional al Consumo - &iquest;El tratamiento de los fabricantes de cerveza nacional que venden su producto sifones, qu&eacute; impuestos deben aplicar a la venta de dicha cerveza, impuesto a las ventas o impuesto al consumo? &iquest;Cu&aacute;l es la base gravable y la tarifa? &iquest;Cu&aacute;l es el periodo para presentar la declaraci&oacute;n respectiva del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2334-2017",
+      "tipo": "oficio",
+      "numero": "2334",
+      "fecha": "2017-02-02",
+      "tema": "&iquest;Cu&aacute;l es el periodo para contabilizar como descontable del IVA el 35% del Impuesto Nacional a la Gasolina y al ACPM, de un consumidor final, responsable del IVA, que adquiere productos a un distribuidor que no es responsable del Impuesto Nacional a la Gasolina y al ACPM?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2221-2017",
+      "tipo": "oficio",
+      "numero": "2221",
+      "fecha": "2017-05-18",
+      "tema": "Periodicidad - Declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1442-2017",
+      "tipo": "oficio",
+      "numero": "1442",
+      "fecha": "2017-07-25",
+      "tema": "Sociedad constructora de vivienda de estratos 5 y 6 cuyas unidades de vivienda est&aacute;n gravadas con el impuesto a las ventas sol&iacute;cita que se regule el procedimiento para su inscripci&oacute;n en el RUT como nuevos responsables y c&oacute;mo puede solicitar el IVA descontable, teniendo en cuenta que inicialmente las declaraciones de ventas van a arrojar saldo a favor hasta tanto no se produzca la venta de las nuevas viviendas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0007-2017",
+      "tipo": "oficio",
+      "numero": "0007",
+      "fecha": "2017-01-23",
+      "tema": "Impuesto a las ventas - Periodo gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34722-2016",
+      "tipo": "oficio",
+      "numero": "34722",
+      "fecha": "2016-12-20",
+      "tema": "- Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 20372 del 2 de agosto de 2016 ya que considera que dicho pronunciamiento viola los art&iacute;culos 481 y 600 del Estatuto Tributario, as&iacute; como los art&iacute;culos 395 del Decreto n&uacute;mero 2685 de 1999 y 34 del Decreto n&uacute;mero 390 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7767-2016",
+      "tipo": "oficio",
+      "numero": "7767",
+      "fecha": "2016-04-08",
+      "tema": "Revocatoria del Oficio n&uacute;mero 1 del 18 de enero de 2016 - Impuesto a las ventas - Per&iacute;odo Gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3281-2016",
+      "tipo": "oficio",
+      "numero": "3281",
+      "fecha": "2016-02-23",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000570-2016",
+      "tipo": "concepto",
+      "numero": "0000570",
+      "fecha": "2016-06-20",
+      "tema": "Aclaraci&oacute;n del Concepto n&uacute;mero 8724 del 20 de marzo de 2015 - Impuesto a las ventas - Periodo gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0366-2016",
+      "tipo": "oficio",
+      "numero": "0366",
+      "fecha": "2016-04-29",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0001-2016",
+      "tipo": "oficio",
+      "numero": "0001",
+      "fecha": "2016-01-18",
+      "tema": "Impuesto a las Ventas - Per&iacute;odo gravable - El art&iacute;culo 26 del Decreto 1794 de 2013, dice con respecto a los anticipos del IVA que el monto m&aacute;ximo para el primer pago es el 30% de lo pagado el a&ntilde;o anterior y que el monto m&aacute;ximo para el segundo pago es el 30% de lo pagado en el a&ntilde;o anterior y que",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-36879-2015",
+      "tipo": "oficio",
+      "numero": "36879",
+      "fecha": "2015-12-29",
+      "tema": "Retenci&oacute;n en la fuente en contratos de consultor&iacute;a en ingenier&iacute;a de proyectos de infraestructura y edificaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2015",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2015-10-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027030-2015",
+      "tipo": "concepto",
+      "numero": "0027030",
+      "fecha": "2015-09-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento de la exenci&oacute;n del Impuesto sobre las Ventas (IVA) de una franquicia constituida en C&uacute;cuta, respecto de la prestaci&oacute;n de servicio de alimentos? - &iquest;Las materias primas que se compren en otros departamentos (lugares distintos de los declarados en la Emergencia Econ&oacute;mica) y que tienen como destino la ciudad de C&uacute;cuta o cualquier otro lugar declarado en Estado de Emergencia, se encuentran con la exenci&oacute;n de IVA prevista en el art&iacute;culo 1o del Decreto n&uacute;mero 1818 de 2015? - &iquest;La exenci&oacute;n del Impuesto sobre las Ventas (IVA) est&aacute; dada para aquellas operaciones de venta que se realizan desde el resto del territorio nacional a un sujeto del r&eacute;gimen simplificado, que est&aacute; domiciliado o con establecimiento de comercio en alguno de los municipios indicados en el Decreto n&uacute;mero 1770 de 2015? - &iquest;Es necesario el cambio de periodo por parte de los sujetos responsables del Impuesto sobre las Ventas (IVA) en la presentaci&oacute;n de la declaraci&oacute;n bimestral para devoluci&oacute;n y\\o compensaci&oacute;n, por tratarse de operaciones con bienes exentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25599-2015",
+      "tipo": "oficio",
+      "numero": "25599",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Qu&eacute; impuestos tasas, contribuciones, etc. Aplican a la generaci&oacute;n y distribuci&oacute;n de energ&iacute;a, al procesamiento de residuos s&oacute;lidos y dem&aacute;s actividades conexas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23334-2015",
+      "tipo": "oficio",
+      "numero": "23334",
+      "fecha": "2015-08-11",
+      "tema": "&iquest;Qu&eacute; cargo de la empresa que representa figura una deuda por concepto de Impuesto sobre las ventas primer periodo 2013, la cual, seg&uacute;n le han informado, obedece a un asunto de inconveniente con el sistema inform&aacute;tico electr&oacute;nico de esta entidad? - &iquest;C&oacute;mo debieron pagarse los anticipos y presentarse la declaraci&oacute;n anual del Impuesto sobre las ventas respecto del a&ntilde;o 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23070-2015",
+      "tipo": "oficio",
+      "numero": "23070",
+      "fecha": "2015-08-06",
+      "tema": "Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 066587 del 16 de diciembre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18127-2015",
+      "tipo": "oficio",
+      "numero": "18127",
+      "fecha": "2015-06-19",
+      "tema": "&iquest;Los ingresos brutos a 31 de diciembre del a&ntilde;o gravable anterior, a que hace referencia el art&iacute;culo 600 del Estatuto Tributario, son contables o fiscales para efectos de la determinaci&oacute;n del periodo gravable del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17392-2015",
+      "tipo": "oficio",
+      "numero": "17392",
+      "fecha": "2015-06-16",
+      "tema": "&iquest;Una empresa exportadora puede opcionalmente presentar sus declaraciones tributarias cuatrimestral, en virtud de los ingresos percibidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008724-2015",
+      "tipo": "concepto",
+      "numero": "0008724",
+      "fecha": "2015-03-20",
+      "tema": "&iquest;Para los nuevos responsables del Impuesto sobre las ventas, el inicio de actividades lo determina la fecha de la constituci&oacute;n e inscripci&oacute;n en la C&aacute;mara de Comercio, que coincide con la informaci&oacute;n del RUT, o la fecha correspondiente a la primera enajenaci&oacute;n de art&iacute;culos gravados o exentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7122-2015",
+      "tipo": "oficio",
+      "numero": "7122",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre las ventas - Arrendamiento de espacio p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6415-2015",
+      "tipo": "oficio",
+      "numero": "6415",
+      "fecha": "2015-01-01",
+      "tema": "Impuesto a la ventas - IVA - Nuevos responsables y per&iacute;odos a declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0473-2015",
+      "tipo": "oficio",
+      "numero": "0473",
+      "fecha": "2015-04-19",
+      "tema": "&iquest;Qu&eacute; se entiende por inicio de actividades, la fecha de constituci&oacute;n de la empresa o el momento en que se empiecen a generar ingresos gravados con IVA?&iquest;La periodicidad del IVA para esta empresa en el a&ntilde;o gravable 2015 es bimestral o anual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4006977-2014",
+      "tipo": "oficio",
+      "numero": "4006977",
+      "fecha": "2014-10-09",
+      "tema": "Solicita se revise y modifique el Oficio 19053 del 20 de marzo de 2014, teniendo en cuenta que el problema jur&iacute;dico planteado versa sobre la validez de las declaraciones de IVA presentadas en forma bimestral, correspondiendo el periodo cuatrimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66587-2014",
+      "tipo": "oficio",
+      "numero": "66587",
+      "fecha": "2014-12-16",
+      "tema": "&iquest;Es acertado entender que el impuesto descontable del 35%, acumulado como saldo a favor, se puede aplicar al impuesto de ventas generado en operaciones futuras, o en ultimas solicitarse la devoluci&oacute;n si se tiene la calidad de exportador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61382-2014",
+      "tipo": "oficio",
+      "numero": "61382",
+      "fecha": "2014-10-31",
+      "tema": "&iquest;Tienen derecho a aplicar los impuestos descontables legalmente autorizados aquellos responsables del impuesto sobre las ventas obligados a declarar anualmente, con ocasi&oacute;n de la pauta establecida en el literal a) del art&iacute;culo 483 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58001-2014",
+      "tipo": "oficio",
+      "numero": "58001",
+      "fecha": "2014-10-09",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para una sociedad que en virtud de la Resoluci&oacute;n No. 041 de 2014 dej&oacute; de ser gran contribuyente, cuando sus ingresos a 31 de diciembre de 2013 fueron inferiores a 92.000 UVT pero iguales o superiores a 15.000 UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57352-2014",
+      "tipo": "oficio",
+      "numero": "57352",
+      "fecha": "2014-10-06",
+      "tema": "Contribuci&oacute;n de espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas Declaraci&oacute;n y pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54555-2014",
+      "tipo": "oficio",
+      "numero": "54555",
+      "fecha": "2014-09-12",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54487-2014",
+      "tipo": "oficio",
+      "numero": "54487",
+      "fecha": "2014-09-11",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54401-2014",
+      "tipo": "oficio",
+      "numero": "54401",
+      "fecha": "2014-09-01",
+      "tema": "&iquest;En el caso de una sociedad constituida el 15 de agosto de 2013, que inici&oacute; actividades a partir de junio de 2014, si est&aacute; obligada a presentar las declaraciones del impuesto sobre las ventas, correspondientes a los bimestres julio-agosto, septiembre-octubre y noviembre-diciembre de 2013? - Per&iacute;odo gravable en el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53522-2014",
+      "tipo": "oficio",
+      "numero": "53522",
+      "fecha": "2014-09-01",
+      "tema": "Medios de Pago para la Aceptaci&oacute;n de Costos, Deducciones, Pasivos e Impuestos Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41886-2014",
+      "tipo": "oficio",
+      "numero": "41886",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Es v&aacute;lido rechazar una imputaci&oacute;n de saldo a favor generado por retenciones de IVA, que se hace hasta el periodo 1 de 2012 y luego en las declaraciones de los periodos 3, 4 y 5 de 2012? &iquest;Es v&aacute;lido corregir la declaraci&oacute;n correspondiente al periodo 3, pagar el impuesto generado en el periodo, con los intereses por mora y la sanci&oacute;n por correcci&oacute;n, pero no corregir los periodos 4 y 5 en virtud de lo se&ntilde;alado en el par&aacute;grafo del art&iacute;culo 13 del Decreto 2277 de 2012 y el concepto 069922 del 28 de octubre de 2003? &iquest;Una peque&ntilde;a nueva empresa creada en el a&ntilde;o 2011 que no alleg&oacute; dentro del t&eacute;rmino los documentos a fin de cumplir con los requisitos consagrados en el art&iacute;culo 6o del Decreto 4910 de 2011, puede presentarlos extempor&aacute;neamente aunque pierda el beneficio consagrado en el primer a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019739-2014",
+      "tipo": "concepto",
+      "numero": "0019739",
+      "fecha": "2014-03-21",
+      "tema": "Procedimiento, contribuci&oacute;n de espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas, declaraci&oacute;n y pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19053-2014",
+      "tipo": "oficio",
+      "numero": "19053",
+      "fecha": "2014-03-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14320-2014",
+      "tipo": "oficio",
+      "numero": "14320",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Bienes Exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14319-2014",
+      "tipo": "oficio",
+      "numero": "14319",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;El impuesto sobre la renta y CREE debe declararse y determinarse por parte de las sociedades intervenidas, quedando como una deuda reconocida para su correspondiente pago posterior?&iquest;En virtud de la toma de posesi&oacute;n puede una sociedad intervenida declarar y pagar el IVA, por un servicio prestado, s&oacute;lo en el momento en que le es efectivamente pagado por parte del tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11373-2014",
+      "tipo": "oficio",
+      "numero": "11373",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Una sociedad que inici&oacute; actividades durante el ejercicio debe presentar su declaraci&oacute;n de impuesto sobre las ventas de forma anual o bimestral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11308-2014",
+      "tipo": "oficio",
+      "numero": "11308",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Una Fundaci&oacute;n que se encuentra en proceso de liquidaci&oacute;n est&aacute; obligada a presentar declaraciones tributarias? como hacer si no se cuenta con la informaci&oacute;n contable por falta de entrega de los registros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4798-2014",
+      "tipo": "oficio",
+      "numero": "4798",
+      "fecha": "2014-01-01",
+      "tema": "Posibilidad de solicitar en devoluci&oacute;n o compensaci&oacute;n para las sociedades Comercializadoras Internacionales, el saldo a favor de las declaraciones del IVA que se origina exclusivamente por el descuento del 35% del Impuesto Nacional a la Gasolina y ACPM",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3208-2014",
+      "tipo": "oficio",
+      "numero": "3208",
+      "fecha": "2014-01-22",
+      "tema": "Periodo gravable del impuesto sobre las ventas - Consorcio - Nuevos periodos gravables del impuesto sobre las venta, declaraci&oacute;n y pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1126-2014",
+      "tipo": "oficio",
+      "numero": "1126",
+      "fecha": "2014-10-17",
+      "tema": "Cambio de periodicidad en el IVA y los posibles inconvenientes de car&aacute;cter t&eacute;cnico y jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79837-2013",
+      "tipo": "oficio",
+      "numero": "79837",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Un consorcio responsable de IVA, constituido en diciembre de 2012, cuyos ingresos al cierre fueron de Ps0 y a quien le corresponde la obligaci&oacute;n de presentar la declaraci&oacute;n de IVA de forma anual, puede cumplir con esta obligaci&oacute;n por fracci&oacute;n del a&ntilde;o. Lo anterior teniendo en cuenta que el consorcio se encuentra en proceso de liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79832-2013",
+      "tipo": "oficio",
+      "numero": "79832",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Cu&aacute;l es el per&iacute;odo gravable del impuesto sobre las ventas para una sociedad constituida en febrero de 2013 y cuyas actividades iniciaron en marzo del mismo a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76746-2013",
+      "tipo": "oficio",
+      "numero": "76746",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Las entidades que tienen asignada en su RUT la responsabilidad 10",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66468-2013",
+      "tipo": "oficio",
+      "numero": "66468",
+      "fecha": "2013-10-18",
+      "tema": "&iquest;La exenci&oacute;n al cobro del impuesto al consumo se extiende a la adquisici&oacute;n de veh&iacute;culos en Colombia que realizan las misiones diplom&aacute;ticas acreditadas en el pa&iacute;s y sus funcionarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55853-2013",
+      "tipo": "oficio",
+      "numero": "55853",
+      "fecha": "2013-09-04",
+      "tema": "Impuestos Nacionales - R&eacute;gimen de las Propiedades Horizontales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0898-2013",
+      "tipo": "oficio",
+      "numero": "0898",
+      "fecha": "2013-01-01",
+      "tema": "&iquest;Cu&aacute;l ser&iacute;a el periodo gravable para presentar la declaraci&oacute;n del impuesto sobre las ventas, trat&aacute;ndose de personas jur&iacute;dicas que pese a reunir las condiciones establecidas en el numeral 2 del art&iacute;culo 600 del Estatuto Tributario para presentar la declaraci&oacute;n y pago en forma cuatrimestral, se encuentran inscritas en el Registro &Uacute;nico Tributario como exportadores, por haber realizado operaciones de exportaci&oacute;n de manera espor&aacute;dica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2026",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "",
+      "tema": "Contribuci&oacute;n parafiscal de los espect&aacute;culos p&uacute;blicos de las artes esc&eacute;nicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38958-2008",
+      "tipo": "oficio",
+      "numero": "38958",
+      "fecha": "2008-04-18",
+      "tema": "R&eacute;gimen tributario que cobija a las entidades extranjeras de naturaleza p&uacute;blica cuyas actividades en Colombia no generan ingresos y act&uacute;a a trav&eacute;s de una oficina de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57805-2007",
+      "tipo": "oficio",
+      "numero": "57805",
+      "fecha": "2007-07-27",
+      "tema": "&iquest;A la luz de la Resoluci&oacute;n 0057 del 4 de enero de 2007 emanada de la DIAN, si un contribuyente que es contador de profesi&oacute;n, obligado a presentar sus declaraciones virtualmente puede firmarlas tambi&eacute;n como contador o si debe contratar a otro contador para que se las firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73048-2006",
+      "tipo": "oficio",
+      "numero": "73048",
+      "fecha": "2006-08-29",
+      "tema": "&iquest;Qu&eacute; consecuencias tiene haber firmado la declaraci&oacute;n el contador en raz&oacute;n a que el revisor fiscal no estaba inscrito en c&aacute;mara y comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50265-2005",
+      "tipo": "oficio",
+      "numero": "50265",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Solicita se aclare, en primer t&eacute;rmino, el significado de per&iacute;odo fiscal y vigencia fiscal, para efectos del Impuesto Sobre las Ventas y en segundo lugar, si en una transacci&oacute;n comercial celebrada entre dos entes estatales en el a&ntilde;o 2004, donde se factura en el a&ntilde;o 2004 y se entrega el documento en el a&ntilde;o 2005, y posteriormente se anula la factura, expidi&eacute;ndose una nueva en el a&ntilde;o 2005, se reporta como compensaci&oacute;n o se debe pagar doblemente el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50263-2005",
+      "tipo": "oficio",
+      "numero": "50263",
+      "fecha": "2005-07-27",
+      "tema": "&iquest;Procede la devoluci&oacute;n del Impuesto sobre las ventas a los funcionarios Internacionales del Sistema de Naciones Unidas debidamente acreditados en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-28864-2002",
+      "tipo": "concepto",
+      "numero": "28864",
+      "fecha": "2002-05-16",
+      "tema": "Hasta cu&aacute;ndo existe la obligaci&oacute;n formal de presentar declaraci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-42137-2001",
+      "tipo": "concepto",
+      "numero": "42137",
+      "fecha": "2001-05-23",
+      "tema": "Renta - Ventas; renta por comparaci&oacute;n patrimonial; obligaci&oacute;n de declarar responsables",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031120-2000",
+      "tipo": "concepto",
+      "numero": "0031120",
+      "fecha": "2000-04-03",
+      "tema": "&iquest;Cuando comienza el per&iacute;odo gravable cuando hay cambio del R&eacute;gimen Simplificado a Com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080008-1995",
+      "tipo": "concepto",
+      "numero": "0080008",
+      "fecha": "1995-11-09",
+      "tema": "&iquest;C&oacute;mo obtener la devoluci&oacute;n del impuesto sobre las ventas pagado durante determinado bimestre, que no fue incluido en la correspondiente solicitud de devoluci&oacute;n por una entidad de educaci&oacute;n superior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016939-1992",
+      "tipo": "concepto",
+      "numero": "0016939",
+      "fecha": "1992-01-01",
+      "tema": "Un contribuyente, persona natural, en el momento de hacer la inscripci&oacute;n al NIT, no inscribieron al IVA, en el r&eacute;gimen simplificado; la contabilidad del contribuyente, es simple, los ingresos que declararon, para el primero, segundo, tercer y cuarto a&ntilde;o, desde 1987 super&oacute; los l&iacute;mites fijados comtemplados en el Decreto 3541 de 1983",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003300-1990",
+      "tipo": "concepto",
+      "numero": "0003300",
+      "fecha": "1990-02-08",
+      "tema": "&iquest;Una sociedad recientemente constituida e inscrita como responsable del impuesto a las ventas, pero que transcurridos varios meses no ha iniciado actividades comerciales, est&aacute; obligada a elaborar y presentar declaraciones de impuestos a las ventas y de retenciones en la fuente? &iquest;Una sociedad en comandita simple que ha cesado en forma definitiva en sus actividades comerciales debe seguir elaborando y presentando declaraciones del impuesto a las ventas y retenciones en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

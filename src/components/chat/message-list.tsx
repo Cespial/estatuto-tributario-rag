@@ -20,6 +20,7 @@ interface MessageListProps {
   messages: UIMessage[];
   sources: SourceType[];
   isLoading: boolean;
+  typingLabel?: string;
   conversationId: string;
   onAskAgain: (prompt: string) => void;
   onDeepen: (prompt: string) => void;
@@ -39,6 +40,7 @@ export function MessageList({
   messages,
   sources,
   isLoading,
+  typingLabel,
   onAskAgain,
   onDeepen,
   onShare,
@@ -102,7 +104,9 @@ export function MessageList({
         );
       })}
 
-      {isLoading && messages[messages.length - 1]?.role === "user" && <TypingIndicator />}
+      {isLoading && messages[messages.length - 1]?.role === "user" && (
+        <TypingIndicator label={typingLabel} />
+      )}
 
       <div ref={bottomRef} />
     </div>

@@ -1,1 +1,582 @@
-{"id_articulo": "Art. 829", "titulo": "Art. 829. Ejecutoria de los actos.", "titulo_corto": "Ejecutoria de los actos.", "slug": "829", "url_origen": "https://estatuto.co/829", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Se entienden ejecutoriados los actos administrativos que sirven de fundamento al cobro coactivo: 1. Cuando contra ellos no proceda recurso alguno. 2. Cuando vencido el término para interponer los recursos, no se hayan interpuesto o no se presenten en debida forma. 3. Cuando se renuncie expresamente a los recursos o se desista de ellos, y 4. Cuando los recursos interpuestos en la vía gubernativa o las acciones de restablecimiento del derecho o de revisión de impuestos se hayan decidido en forma definitiva, según el caso.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se entienden ejecutoriados los actos administrativos que sirven de fundamento al cobro coactivo:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Cuando contra ellos no proceda recurso alguno.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Cuando vencido el término para interponer los recursos, no se hayan interpuesto o no se presenten en debida forma.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Cuando se renuncie expresamente a los recursos o se desista de ellos, y</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Cuando los recursos interpuestos en la vía gubernativa o las acciones de restablecimiento del derecho o de revisión de impuestos se hayan decidido en forma definitiva, según el caso.</p>\n<p> </p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 829",
+  "titulo": "Art. 829. Ejecutoria de los actos.",
+  "titulo_corto": "Ejecutoria de los actos.",
+  "slug": "829",
+  "url_origen": "https://estatuto.co/829",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Se entienden ejecutoriados los actos administrativos que sirven de fundamento al cobro coactivo: 1. Cuando contra ellos no proceda recurso alguno. 2. Cuando vencido el término para interponer los recursos, no se hayan interpuesto o no se presenten en debida forma. 3. Cuando se renuncie expresamente a los recursos o se desista de ellos, y 4. Cuando los recursos interpuestos en la vía gubernativa o las acciones de restablecimiento del derecho o de revisión de impuestos se hayan decidido en forma definitiva, según el caso.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se entienden ejecutoriados los actos administrativos que sirven de fundamento al cobro coactivo:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Cuando contra ellos no proceda recurso alguno.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Cuando vencido el término para interponer los recursos, no se hayan interpuesto o no se presenten en debida forma.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Cuando se renuncie expresamente a los recursos o se desista de ellos, y</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Cuando los recursos interpuestos en la vía gubernativa o las acciones de restablecimiento del derecho o de revisión de impuestos se hayan decidido en forma definitiva, según el caso.</p>\n<p> </p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 13 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1159 (2026-01-26): Procedimiento Tributario\noficio 18159 (2025-12-30): Procedimiento Tributario\noficio 16261 (2025-11-25): Procedimiento Tributario\noficio 15200 (2025-09-23): Procedimiento Tributario\noficio 13073 (2025-08-12): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1159-2026",
+      "tipo": "oficio",
+      "numero": "1159",
+      "fecha": "2026-01-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18159-2025",
+      "tipo": "oficio",
+      "numero": "18159",
+      "fecha": "2025-12-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16261-2025",
+      "tipo": "oficio",
+      "numero": "16261",
+      "fecha": "2025-11-25",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15200-2025",
+      "tipo": "oficio",
+      "numero": "15200",
+      "fecha": "2025-09-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13073-2025",
+      "tipo": "oficio",
+      "numero": "13073",
+      "fecha": "2025-08-12",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4603-2025",
+      "tipo": "oficio",
+      "numero": "4603",
+      "fecha": "2025-03-19",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3135-2025",
+      "tipo": "oficio",
+      "numero": "3135",
+      "fecha": "2025-02-20",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8873-2024",
+      "tipo": "oficio",
+      "numero": "8873",
+      "fecha": "2024-11-15",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8357-2024",
+      "tipo": "oficio",
+      "numero": "8357",
+      "fecha": "2024-10-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5322-2024",
+      "tipo": "oficio",
+      "numero": "5322",
+      "fecha": "2024-03-13",
+      "tema": "(Int 176) Ejecutoria t&iacute;tulo ejecutivo - Vinculaci&oacute;n deudores solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915622-2021",
+      "tipo": "oficio",
+      "numero": "915622",
+      "fecha": "2021-12-28",
+      "tema": "Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s para los sujetos de obligaciones administradas por la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907359-2021",
+      "tipo": "oficio",
+      "numero": "907359",
+      "fecha": "2021-07-26",
+      "tema": "Suspensi&oacute;n de t&eacute;rminos - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903880-2021",
+      "tipo": "oficio",
+      "numero": "903880",
+      "fecha": "2021-05-03",
+      "tema": "Liquidaci&oacute;n provisional - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902444-2020",
+      "tipo": "oficio",
+      "numero": "902444",
+      "fecha": "2020-06-17",
+      "tema": "Conciliaci&oacute;n Contencioso Administrativa Conciliaci&oacute;n Contencioso Administrativa - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26357-2019",
+      "tipo": "oficio",
+      "numero": "26357",
+      "fecha": "2019-10-18",
+      "tema": "Acci&oacute;n Ante Lo Contencioso Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22588-2019",
+      "tipo": "oficio",
+      "numero": "22588",
+      "fecha": "2019-09-06",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20682-2019",
+      "tipo": "oficio",
+      "numero": "20682",
+      "fecha": "2019-08-20",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20462-2019",
+      "tipo": "oficio",
+      "numero": "20462",
+      "fecha": "2019-08-15",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 101 de la Ley 1943 de 2018 que permite la Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17789-2019",
+      "tipo": "oficio",
+      "numero": "17789",
+      "fecha": "2019-07-09",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15338-2019",
+      "tipo": "oficio",
+      "numero": "15338",
+      "fecha": "2019-06-12",
+      "tema": "Aplicaci&oacute;n de la conciliaci&oacute;n en procesos contenciosos administrativos, en materia tributaria, aduanera y cambiaria, la terminaci&oacute;n por mutuo acuerdo y al principio de favorabilidad en etapa de cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8929-2019",
+      "tipo": "oficio",
+      "numero": "8929",
+      "fecha": "2019-04-12",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6439-2019",
+      "tipo": "oficio",
+      "numero": "6439",
+      "fecha": "2019-03-14",
+      "tema": "Principio de favorabilidad en etapa de cobro - Omisi&oacute;n de agente retenedor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6319-2019",
+      "tipo": "oficio",
+      "numero": "6319",
+      "fecha": "2019-03-13",
+      "tema": "Conciliaciones en procesos contenciosos administrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6181-2019",
+      "tipo": "oficio",
+      "numero": "6181",
+      "fecha": "2019-03-11",
+      "tema": "&iquest;Al realizarse una terminaci&oacute;n por mutuo acuerdo de los procedimientos administrativos tributarios, esto tambi&eacute;n trae como consecuencia la terminaci&oacute;n de los procesos administrativos sancionatorios y disciplinarios adelantados por la DIAN en contra de los contadores p&uacute;blicos y revisores fiscales involucrados en los hechos objeto de la terminaci&oacute;n por mutuo acuerdo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1816-2018",
+      "tipo": "oficio",
+      "numero": "1816",
+      "fecha": "2018-10-17",
+      "tema": "Modificaciones para subsanar de manera voluntaria la informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0421-2018",
+      "tipo": "oficio",
+      "numero": "0421",
+      "fecha": "2018-01-05",
+      "tema": "Ejecutoria de actos administrativos en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0316-2018",
+      "tipo": "oficio",
+      "numero": "0316",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Puede un contribuyente hacer uso de los principios consagrados en el art&iacute;culo 640 del Estatuto Tributario, modificado por el art&iacute;culo 282 de la Ley 1819 de 2016, de forma retroactiva, para aminorar la sanci&oacute;n impuesta por la administraci&oacute;n a trav&eacute;s de una Liquidaci&oacute;n Oficial de Revisi&oacute;n la cual cobro firmeza antes de la entrada en vigencia de la Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900198-2017",
+      "tipo": "oficio",
+      "numero": "900198",
+      "fecha": "2017-02-28",
+      "tema": "&iquest;La condici&oacute;n especial que establece la reforma tributaria aplica para las sanciones y comparendos interpuestos por las Secretar&iacute;as de Tr&aacute;nsito, y los impuestos por veh&iacute;culos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10216-2017",
+      "tipo": "oficio",
+      "numero": "10216",
+      "fecha": "2017-04-28",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0999-2017",
+      "tipo": "oficio",
+      "numero": "0999",
+      "fecha": "2017-10-02",
+      "tema": "&iquest;Cu&aacute;ndo se entiende ejecutoriado un acto administrativo materia de cobro, en este caso una liquidaci&oacute;n oficial de revisi&oacute;n de valor, frente a la cual se present&oacute; escrito donde se renuncia a la presentaci&oacute;n del recurso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18868-2016",
+      "tipo": "oficio",
+      "numero": "18868",
+      "fecha": "2016-09-02",
+      "tema": "Liquidaci&oacute;n oficial de revisi&oacute;n de valor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10373-2016",
+      "tipo": "oficio",
+      "numero": "10373",
+      "fecha": "2016-05-02",
+      "tema": "&iquest;Puede la sociedad sancionada debatir la legalidad de la resoluci&oacute;n que interpuso la sanci&oacute;n, despu&eacute;s de haber efectuado el pago de la misma habi&eacute;ndose acogido al beneficio de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0528-2016",
+      "tipo": "oficio",
+      "numero": "0528",
+      "fecha": "2016-06-13",
+      "tema": "Inversi&oacute;n Forzosa- ejecuci&oacute;n- competencia DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24946-2015",
+      "tipo": "oficio",
+      "numero": "24946",
+      "fecha": "2015-08-27",
+      "tema": "Reconsideraci&oacute;n del Oficio n&uacute;mero 253 de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15912-2015",
+      "tipo": "oficio",
+      "numero": "15912",
+      "fecha": "2015-05-29",
+      "tema": "&iquest;Las obligaciones por inversiones en bonos de solidaridad para la paz - Ley 487 de 1998 y bonos de seguridad Ley 345 de 1996, se encuentran dentro de este marco legal. Y, si respecto a su prescripci&oacute;n se podr&iacute;a enmarcar o retomar esta ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014501-2015",
+      "tipo": "concepto",
+      "numero": "0014501",
+      "fecha": "2015-05-19",
+      "tema": "Plantea usted el caso de un municipio al cual se le impuso sanci&oacute;n por no expedir certificados de ingresos y retenciones, con fallo de recurso de reconsideraci&oacute;n que confirm&oacute; la sanci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13626-2015",
+      "tipo": "oficio",
+      "numero": "13626",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Es posible acogerse a la Terminaci&oacute;n por Mutuo Acuerdo prevista en el art&iacute;culo 56 de la ley 1739 de 2014, cuando la Resoluci&oacute;n que resuelve el recurso de reconsideraci&oacute;n fue notificada antes de la entrada en vigencia de la ley, pero respecto de la cual se present&oacute; o se presentar&aacute; demanda ante la Jurisdicci&oacute;n Contenciosa, en el a&ntilde;o 2015?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11216-2015",
+      "tipo": "oficio",
+      "numero": "11216",
+      "fecha": "2015-04-21",
+      "tema": "Limite de Inembargabilidad - Proceso de cobro coactivo de las deudas fiscales por concepto de impuestos, anticipos, retenciones, intereses y sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5821-2015",
+      "tipo": "oficio",
+      "numero": "5821",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Puede darse inicio al proceso administrativo de cobro coactivo (i) librando mandamiento de pago y (ii) disponiendo el Decreto de medidas cautelares, si inmediatamente (enti&eacute;ndase el mismo d&iacute;a o al d&iacute;a siguiente) despu&eacute;s de la notificaci&oacute;n de la resoluci&oacute;n del recurso de reconsideraci&oacute;n interpuesto contra el acto de liquidaci&oacute;n oficial el contribuyente presenta acci&oacute;n de nulidad y restablecimiento del derecho contra esos actos administrativos, e informa a la administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4058-2015",
+      "tipo": "oficio",
+      "numero": "4058",
+      "fecha": "2015-02-13",
+      "tema": "Reconsideraci&oacute;n del Oficio 72855 del 19-12-14",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0962-2015",
+      "tipo": "oficio",
+      "numero": "0962",
+      "fecha": "2015-07-31",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53517-2014",
+      "tipo": "oficio",
+      "numero": "53517",
+      "fecha": "2014-09-04",
+      "tema": "&iquest;Puede considerarse cartera aquellos derechos que por el tiempo de atraso en el pago, y por omisi&oacute;n de la administraci&oacute;n en su liquidaci&oacute;n y notificaci&oacute;n admite un alto riesgo de impago, am&eacute;n de ser susceptible de prescripci&oacute;n o p&eacute;rdida de competencia de la administraci&oacute;n para determinar el tributo?&iquest;Puede ser denominada cartera las acreencias de la administraci&oacute;n Municipal, que no est&aacute;n avaladas por un t&iacute;tulo ejecutivo aunque a&uacute;n no exista competencia temporal para su determinaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50295-2014",
+      "tipo": "oficio",
+      "numero": "50295",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;En los casos en los cuales se autoriz&oacute; la terminaci&oacute;n por mutuo acuerdo y-o conciliaci&oacute;n y al haberse suscrito y aprobado una facilidad para su pago, que fue incumplida, hecho por el que se declar&oacute; el incumplimiento de la facilidad, &iquest;pierden en forma autom&aacute;tica el beneficio de los art&iacute;culos 147 y 148 de la Ley 1607 de 2012, conforme los par&aacute;grafos segundos del tales art&iacute;culos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40884-2013",
+      "tipo": "oficio",
+      "numero": "40884",
+      "fecha": "2013-07-04",
+      "tema": "&iquest;Se pierde el beneficio tributario derivado de la aplicaci&oacute;n de los art&iacute;culos 147, 148 y 149 de la Ley 1607 de 2012, cuando la Administraci&oacute;n Tributaria en ejercicio de las amplias facultades de fiscalizaci&oacute;n, inicia un proceso de determinaci&oacute;n del impuesto y modifica la declaraci&oacute;n privada del contribuyente mediante una Liquidaci&oacute;n Oficial de Revisi&oacute;n que determina un mayor valor a pagar que es objeto de discusi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0540-2012",
+      "tipo": "oficio",
+      "numero": "0540",
+      "fecha": "2012-08-27",
+      "tema": "Ejecutoria de los actos administrativos en los procesos de cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39555-2009",
+      "tipo": "oficio",
+      "numero": "39555",
+      "fecha": "2009-05-18",
+      "tema": "&iquest;En el numeral 4 del art&iacute;culo 828 del E.T., est&aacute; incluido como t&iacute;tulo ejecutivo la Resoluci&oacute;n que declara sin vigencia una facilidad para el pago y en consecuencia respecto del citado acto es viable predicar la ejecutoria de los actos prevista en el art&iacute;culo 829 ib&iacute;dem, por ser un acto que sirve de fundamento al cobro coactivo, o si la firmeza que se debe aplicar es la consagrada en el art&iacute;culo 62 del C.C.A, dado que la referida resoluci&oacute;n es un acto que no sirve de fundamento al cobro coactivo por no estar comprendido en la relaci&oacute;n taxativa del art&iacute;culo 828 ib&iacute;dem?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25839-2008",
+      "tipo": "oficio",
+      "numero": "25839",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Es procedente imponer la sanci&oacute;n por devoluci&oacute;n y-o compensaci&oacute;n improcedente en los casos en que exista una terminaci&oacute;n por mutuo acuerdo o conciliaci&oacute;n con relaci&oacute;n a la liquidaci&oacute;n oficial que modifica o rechaza el saldo a favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022634-2008",
+      "tipo": "concepto",
+      "numero": "0022634",
+      "fecha": "2008-03-04",
+      "tema": "&iquest;Cu&aacute;ndo prospera la excepci&oacute;n de interposici&oacute;n de demanda de nulidad y restablecimiento del derecho o proceso de revisi&oacute;n de impuestos ante la jurisdicci&oacute;n de lo contencioso administrativo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013442-2008",
+      "tipo": "concepto",
+      "numero": "0013442",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Opera la congelaci&oacute;n de recursos de las cuentas bancarias del deudor cuando se hubiere iniciado el proceso de cobro con actos administrativos ejecutoriados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8374-2008",
+      "tipo": "oficio",
+      "numero": "8374",
+      "fecha": "2008-11-28",
+      "tema": "Obligaciones contingentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35675-2007",
+      "tipo": "oficio",
+      "numero": "35675",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Procede la terminaci&oacute;n por mutuo acuerdo consagrada en el art&iacute;culo 55 de la ley 1111 de 2006, cuando el contribuyente sol&iacute;cita la revocatoria directa contra la liquidaci&oacute;n oficial de revisi&oacute;n o la resoluci&oacute;n sancionatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26628-2007",
+      "tipo": "oficio",
+      "numero": "26628",
+      "fecha": "2007-04-09",
+      "tema": "- Mandamiento de pago - Excepciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2854-2006",
+      "tipo": "oficio",
+      "numero": "2854",
+      "fecha": "2006-01-06",
+      "tema": "&iquest;Cu&aacute;ndo debe realizarse la inscripci&oacute;n en los registros p&uacute;blicos de la liquidaci&oacute;n oficial de revisi&oacute;n o de aforo y de la resoluci&oacute;n sanci&oacute;n debidamente notificadas, y con la aplicaci&oacute;n del par&aacute;grafo 3&ordm; del art&iacute;culo 4&ordm; de la Ley 716 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056418-2005",
+      "tipo": "concepto",
+      "numero": "0056418",
+      "fecha": "2005-08-18",
+      "tema": "&iquest;Pueden aplicarse causales de interrupci&oacute;n del t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro diferentes a las consagradas en el art&iacute;culo 818 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48184-2005",
+      "tipo": "oficio",
+      "numero": "48184",
+      "fecha": "2005-07-19",
+      "tema": "&iquest;Cu&aacute;ndo se entiende ejecutoriado el Acto Administrativo para que sirva de t&iacute;tulo ejecutivo base del Proceso Administrativo de cobro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055824-2003",
+      "tipo": "concepto",
+      "numero": "0055824",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Qu&eacute; dependencia es competente para expedir las constancias de ejecutoria de los actos administrativos proferidos por la direcci&oacute;n de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083627-2002",
+      "tipo": "concepto",
+      "numero": "0083627",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; Divisi&oacute;n debe conservar los expedientes del",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054826-2002",
+      "tipo": "concepto",
+      "numero": "0054826",
+      "fecha": "2002-08-27",
+      "tema": "&iquest;La acci&oacute;n de tutela o de cumplimiento que se instaure en contra del t&iacute;tulo ejecutivo de un proceso administrativo de cobro coactivo, impide en este la realizaci&oacute;n del remate de bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-37784-2002",
+      "tipo": "concepto",
+      "numero": "37784",
+      "fecha": "2002-06-25",
+      "tema": "Procedimiento. Mandamiento de pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031169-2002",
+      "tipo": "concepto",
+      "numero": "0031169",
+      "fecha": "2002-05-27",
+      "tema": "&iquest;Qu&eacute; mecanismo legal tiene un contribuyente para solicitar a la administraci&oacute;n que de por terminado un proceso de cobro coactivo, cuando considera que no existe t&iacute;tulo ejecutivo para exigir su pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-24781-2002",
+      "tipo": "concepto",
+      "numero": "24781",
+      "fecha": "2002-04-25",
+      "tema": "T&eacute;rmino de exigibilidad de las obligaciones fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057211-2000",
+      "tipo": "concepto",
+      "numero": "0057211",
+      "fecha": "2000-06-16",
+      "tema": "&iquest;Algunas compa&ntilde;&iacute;as de seguros se han visto afectadas ante la imposibilidad de obtener el paz y salvo, ante el argumento de no encontrarse al d&iacute;a por concepto de garant&iacute;as de obligaciones tributarias de terceros que se encuentran en discusi&oacute;n para su pago, ya sea ante la administraci&oacute;n o ante la jurisdicci&oacute;n de lo contencioso administrativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077119-1996",
+      "tipo": "concepto",
+      "numero": "0077119",
+      "fecha": "1996-10-02",
+      "tema": "&iquest;Para efectos de adelantar el proceso de cobro coactivo, a partir de qu&eacute; momento se empieza a contar el t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro de liquidaciones de revisi&oacute;n, cuyo requerimiento especial ha sido respondido, pero no han sido impugnadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014273-1995",
+      "tipo": "concepto",
+      "numero": "0014273",
+      "fecha": "1995-03-16",
+      "tema": "&iquest;Las sanciones impuestas mediante resoluci&oacute;n independiente deben actualizarse a partir del vencimiento del t&eacute;rmino para interponer el recurso de reconsideraci&oacute;n cuando se ha solicitado la revocatoria directa del acto administrativo a trav&eacute;s de la cual se impuso la correspondiente sanci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

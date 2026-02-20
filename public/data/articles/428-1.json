@@ -1,1 +1,87 @@
-{"id_articulo": "Art. 428-1", "titulo": "Art. 428-1. Importaciones de activos por instituciones de educación superior.", "titulo_corto": "Importaciones de activos por instituciones de educación superior.", "slug": "428-1", "url_origen": "https://estatuto.co/428-1", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los equipos y elementos que importen los centros de investigación o desarrollo tecnológico reconocidos por Colciencias, así como las instituciones de educación básica primaria, secundaria, media o superior reconocidas por el Ministerio de Educación Nacional y que estén destinados al desarrollo de proyectos calificados como de carácter científico, tecnológico o de innovación según los criterios y las condiciones definidas por el Consejo Nacional de Beneficios Tributarios en Ciencia, Tecnología e Innovación, estarán exentos del impuesto sobre las ventas (IVA).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #000000;\">*Los equipos y elementos que importen los centros de investigación o desarrollo tecnológico reconocidos por Colciencias, así como las instituciones de educación básica primaria, secundaria, media o superior reconocidas por el Ministerio de Educación Nacional y que estén destinados al desarrollo de proyectos calificados como de carácter científico, tecnológico o de innovación según los criterios y las condiciones definidas por el Consejo Nacional de Beneficios Tributarios en Ciencia, Tecnología e Innovación, estarán exentos del impuesto sobre las ventas (IVA).</span></p>\n</span>", "modificaciones_raw": "*Modificado Ley 1450 de 2011 Art. 35.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1450", "norma_year": 2011, "norma_articulo": "35"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2011, "leyes_modificatorias": ["Ley 1450 de 2011", "Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 428-1",
+  "titulo": "Art. 428-1. Importaciones de activos por instituciones de educación superior.",
+  "titulo_corto": "Importaciones de activos por instituciones de educación superior.",
+  "slug": "428-1",
+  "url_origen": "https://estatuto.co/428-1",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los equipos y elementos que importen los centros de investigación o desarrollo tecnológico reconocidos por Colciencias, así como las instituciones de educación básica primaria, secundaria, media o superior reconocidas por el Ministerio de Educación Nacional y que estén destinados al desarrollo de proyectos calificados como de carácter científico, tecnológico o de innovación según los criterios y las condiciones definidas por el Consejo Nacional de Beneficios Tributarios en Ciencia, Tecnología e Innovación, estarán exentos del impuesto sobre las ventas (IVA).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #000000;\">*Los equipos y elementos que importen los centros de investigación o desarrollo tecnológico reconocidos por Colciencias, así como las instituciones de educación básica primaria, secundaria, media o superior reconocidas por el Ministerio de Educación Nacional y que estén destinados al desarrollo de proyectos calificados como de carácter científico, tecnológico o de innovación según los criterios y las condiciones definidas por el Consejo Nacional de Beneficios Tributarios en Ciencia, Tecnología e Innovación, estarán exentos del impuesto sobre las ventas (IVA).</span></p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1450 de 2011 Art. 35.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1450",
+      "norma_year": 2011,
+      "norma_articulo": "35"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2011,
+  "leyes_modificatorias": [
+    "Ley 1450 de 2011",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 31709 (2015-10-30): &iquest;Hay beneficios tributarios para las empresas p&uacute;blicas o privadas que inviertan en creaci&oacute;n de patentes?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.8.2.1.2",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.8.2.1.2",
+      "vigente": true
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-31709-2015",
+      "tipo": "oficio",
+      "numero": "31709",
+      "fecha": "2015-10-30",
+      "tema": "&iquest;Hay beneficios tributarios para las empresas p&uacute;blicas o privadas que inviertan en creaci&oacute;n de patentes?",
+      "vigente": true
+    }
+  ]
+}

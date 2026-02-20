@@ -1,7 +1,7 @@
 import { getIndex } from "@/lib/pinecone/client";
 import { embedQueries } from "@/lib/pinecone/embedder";
-import { EnhancedQuery, RetrievalResult } from "@/types/rag";
-import { ScoredChunk, ChunkMetadata } from "@/types/pinecone";
+import { EnhancedQuery, RetrievalResult, PineconeNamespace } from "@/types/rag";
+import { ScoredChunk, ChunkMetadata, ScoredMultiSourceChunk, MultiSourceChunkMetadata } from "@/types/pinecone";
 import { RAG_CONFIG } from "@/config/constants";
 import { ChatPageContext } from "@/types/chat-history";
 
@@ -38,7 +38,7 @@ export async function retrieve(
   // Embed all queries in parallel
   const embeddings = await embedQueries(queryTexts);
 
-  // Query Pinecone with each embedding in parallel
+  // Query Pinecone default namespace with each embedding in parallel
   const index = getIndex();
   const queryPromises = embeddings.map((vector) =>
     index.query({
@@ -65,12 +65,21 @@ export async function retrieve(
 
   const results = await Promise.all(queryPromises);
 
+  // Dynamic threshold adjustment: use the top score of the first query result as anchor
+  let dynamicThreshold = similarityThreshold;
+  const firstResultMatches = results[0]?.matches || [];
+  if (firstResultMatches.length > 0) {
+    const topScore = firstResultMatches[0].score ?? 0;
+    if (topScore > 0.75) dynamicThreshold = 0.35;
+    else if (topScore < 0.60) dynamicThreshold = 0.25;
+  }
+
   // Merge and dedup: keep max score per chunk ID
   const chunkMap = new Map<string, ScoredChunk>();
 
   for (const result of results) {
     for (const match of result.matches || []) {
-      if (!match.metadata || (match.score ?? 0) < similarityThreshold) continue;
+      if (!match.metadata || (match.score ?? 0) < dynamicThreshold) continue;
 
       const existing = chunkMap.get(match.id);
       const score = match.score ?? 0;
@@ -90,7 +99,59 @@ export async function retrieve(
     (a, b) => b.score - a.score
   );
 
-  return { chunks, query };
+  // Multi-namespace retrieval for external sources
+  let multiSourceChunks: ScoredMultiSourceChunk[] | undefined;
+  if (RAG_CONFIG.useMultiNamespace && RAG_CONFIG.additionalNamespaces.length > 0) {
+    multiSourceChunks = await retrieveMultiNamespace(
+      embeddings[0],
+      RAG_CONFIG.additionalNamespaces,
+      dynamicThreshold
+    );
+  }
+
+  return { chunks, query, multiSourceChunks };
+}
+
+/**
+ * Query additional Pinecone namespaces in parallel for external legal sources.
+ */
+async function retrieveMultiNamespace(
+  vector: number[],
+  namespaces: PineconeNamespace[],
+  threshold: number
+): Promise<ScoredMultiSourceChunk[]> {
+  const index = getIndex();
+  const topK = RAG_CONFIG.multiNamespaceTopK;
+
+  const nsPromises = namespaces
+    .filter((ns) => ns !== "")
+    .map(async (ns) => {
+      try {
+        const nsIndex = index.namespace(ns);
+        const result = await nsIndex.query({
+          vector,
+          topK,
+          includeMetadata: true,
+        });
+
+        return (result.matches || [])
+          .filter((m) => m.metadata && (m.score ?? 0) >= threshold)
+          .map((m) => ({
+            id: m.id,
+            score: m.score ?? 0,
+            metadata: m.metadata as unknown as MultiSourceChunkMetadata,
+            namespace: ns,
+          }));
+      } catch (error) {
+        console.error(`[retriever] Namespace "${ns}" query failed:`, error);
+        return [];
+      }
+    });
+
+  const allResults = await Promise.all(nsPromises);
+  return allResults
+    .flat()
+    .sort((a, b) => b.score - a.score);
 }
 
 function determineTopK(query: EnhancedQuery, override?: number): number {

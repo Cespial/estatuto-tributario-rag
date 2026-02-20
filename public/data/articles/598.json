@@ -1,1 +1,593 @@
-{"id_articulo": "Art. 598", "titulo": "Art. 598. Entidades no obligadas a presentar declaración.", "titulo_corto": "Entidades no obligadas a presentar declaración.", "slug": "598", "url_origen": "https://estatuto.co/598", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Están obligadas a presentar declaración de ingresos y patrimonio, todas las entidades no contribuyentes del impuesto sobre la renta y complementarios, con excepción de las siguientes: 1. La Nación, los Departamentos, los Municipios y el resto de entidades territoriales. 2. La propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993. 3. Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, 4. Las Áreas Metropolitanas, 5. Las Superintendencias, 6. Las Unidades Administrativas Especiales, 7. La Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado 8. Los Resguardos y Cabildos Indígenas, ni la propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993. 9. Las sociedades de mejoras públicas, las asociaciones de padres de familia; las juntas de acción comunal; las juntas de defensa civil; las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales; las asociaciones de exalumnos; las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por éste y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Están obligadas a presentar declaración de ingresos y patrimonio, todas las entidades no contribuyentes del impuesto sobre la renta y complementarios, con excepción de las siguientes:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>La Nación, los Departamentos, los Municipios y el resto de entidades territoriales.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible,</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Las Áreas Metropolitanas,</p>\n<p><strong><span style=\"color: #339966;\">5.</span> </strong>Las Superintendencias,</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>Las Unidades Administrativas Especiales,</p>\n<p><strong><span style=\"color: #339966;\">7.</span> </strong>La Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado</p>\n<p><strong><span style=\"color: #339966;\">8.</span> </strong>Los Resguardos y Cabildos Indígenas, ni la propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993.</p>\n<p><strong><span style=\"color: #339966;\">9.</span> </strong>Las sociedades de mejoras públicas, las asociaciones de padres de familia; las juntas de acción comunal; las juntas de defensa civil; las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales; las asociaciones de exalumnos; las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por éste y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 164.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "164"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1430", "norma_year": 2010, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1430 de 2010", "Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["22", "574"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 598",
+  "titulo": "Art. 598. Entidades no obligadas a presentar declaración.",
+  "titulo_corto": "Entidades no obligadas a presentar declaración.",
+  "slug": "598",
+  "url_origen": "https://estatuto.co/598",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Están obligadas a presentar declaración de ingresos y patrimonio, todas las entidades no contribuyentes del impuesto sobre la renta y complementarios, con excepción de las siguientes: 1. La Nación, los Departamentos, los Municipios y el resto de entidades territoriales. 2. La propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993. 3. Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, 4. Las Áreas Metropolitanas, 5. Las Superintendencias, 6. Las Unidades Administrativas Especiales, 7. La Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado 8. Los Resguardos y Cabildos Indígenas, ni la propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993. 9. Las sociedades de mejoras públicas, las asociaciones de padres de familia; las juntas de acción comunal; las juntas de defensa civil; las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales; las asociaciones de exalumnos; las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por éste y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Están obligadas a presentar declaración de ingresos y patrimonio, todas las entidades no contribuyentes del impuesto sobre la renta y complementarios, con excepción de las siguientes:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>La Nación, los Departamentos, los Municipios y el resto de entidades territoriales.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible,</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Las Áreas Metropolitanas,</p>\n<p><strong><span style=\"color: #339966;\">5.</span> </strong>Las Superintendencias,</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>Las Unidades Administrativas Especiales,</p>\n<p><strong><span style=\"color: #339966;\">7.</span> </strong>La Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado</p>\n<p><strong><span style=\"color: #339966;\">8.</span> </strong>Los Resguardos y Cabildos Indígenas, ni la propiedad colectiva de las comunidades negras conforme a la Ley 70 de 1993.</p>\n<p><strong><span style=\"color: #339966;\">9.</span> </strong>Las sociedades de mejoras públicas, las asociaciones de padres de familia; las juntas de acción comunal; las juntas de defensa civil; las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales; las asociaciones de exalumnos; las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por éste y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 164.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "164"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1430",
+      "norma_year": 2010,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1430 de 2010",
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "22",
+    "574"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 10712 (2025-08-11): Retenci&oacute;n en la fuente\noficio 7351 (2025-06-04): Impuesto Sobre las Ventas - IVA\noficio 6194 (2025-05-15): Procedimiento Tributario\noficio 901338 (2022-02-22): Deber de informar",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-10712-2025",
+      "tipo": "oficio",
+      "numero": "10712",
+      "fecha": "2025-08-11",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7351-2025",
+      "tipo": "oficio",
+      "numero": "7351",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6194-2025",
+      "tipo": "oficio",
+      "numero": "6194",
+      "fecha": "2025-05-15",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901338-2022",
+      "tipo": "oficio",
+      "numero": "901338",
+      "fecha": "2022-02-22",
+      "tema": "Deber de informar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901112-2021",
+      "tipo": "oficio",
+      "numero": "901112",
+      "fecha": "2021-02-17",
+      "tema": "&iquest;Qu&eacute; es una Organizaci&oacute;n en los t&eacute;rminos del Art&iacute;culo 126-2 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901576-2020",
+      "tipo": "oficio",
+      "numero": "901576",
+      "fecha": "2020-05-15",
+      "tema": "&iquest;Los hogares infantiles, personas jur&iacute;dicas sin &aacute;nimo de lucro, de derecho privado, como entes que administran recursos p&uacute;blicos, ostentan la calidad de agentes retenedores en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4364-2020",
+      "tipo": "oficio",
+      "numero": "4364",
+      "fecha": "2020-02-28",
+      "tema": "&iquest;Puede una Entidad Sin Animo De Lucro (ESAL) no contribuyente declarante de las que trata el art&iacute;culo 23 del Estatuto Tributario ser accionista de una sociedad comercial nacional y-o extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3581-2020",
+      "tipo": "oficio",
+      "numero": "3581",
+      "fecha": "2020-02-18",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2195-2020",
+      "tipo": "oficio",
+      "numero": "2195",
+      "fecha": "2020-02-04",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24028-2019",
+      "tipo": "oficio",
+      "numero": "24028",
+      "fecha": "2019-09-23",
+      "tema": "Deberes Formales del Contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12520-2019",
+      "tipo": "oficio",
+      "numero": "12520",
+      "fecha": "2019-05-21",
+      "tema": "&iquest;Un cabildo ind&iacute;gena est&aacute; obligado a llevar contabilidad, practicar retenci&oacute;n en la fuente y reportar informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8909-2019",
+      "tipo": "oficio",
+      "numero": "8909",
+      "fecha": "2019-04-11",
+      "tema": "Obligatoriedad de presentar o no la declaraci&oacute;n de ingresos y patrimonio, para la Superintendencia Nacional de Salud, para la vigencia 2018, acorde a lo se&ntilde;alado en el art&iacute;culo 164 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30888-2018",
+      "tipo": "oficio",
+      "numero": "30888",
+      "fecha": "2018-10-08",
+      "tema": "Entidades no contribuyentes y no declarantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16601-2018",
+      "tipo": "oficio",
+      "numero": "16601",
+      "fecha": "2018-06-26",
+      "tema": "&iquest;Los fondos parafiscales est&aacute;n obligados a presentar declaraci&oacute;n de ingresos y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0485-2018",
+      "tipo": "oficio",
+      "numero": "0485",
+      "fecha": "2018-04-18",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22874-2017",
+      "tipo": "oficio",
+      "numero": "22874",
+      "fecha": "2017-08-24",
+      "tema": "&iquest;Si el Ministerio de Comercio califica(sic) a una fundaci&oacute;n sin &aacute;nimo de lucro no contribuyente del impuesto sobre la renta, como Usuario Industrial de una zona franca, &eacute;sta entidad podr&iacute;a continuar siendo una entidad no contribuyente del impuesto de renta, o tendr&iacute;a que acoger la tarifa de los usuarios industriales de zona franca prevista en el art&iacute;culo 240-1 del Estatuto Tributario que deviene del r&eacute;gimen especial que para ese tipo de usuarios estableci&oacute; la ley 1004 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8722-2017",
+      "tipo": "oficio",
+      "numero": "8722",
+      "fecha": "2017-04-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7523-2017",
+      "tipo": "oficio",
+      "numero": "7523",
+      "fecha": "2017-04-03",
+      "tema": "&iquest;Cu&aacute;les son las Entidades no contribuyentes y no declarantes? &iquest;C&oacute;mo debe ser la distribuci&oacute;n indirecta de excedentes y remuneraci&oacute;n de los cargos directivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2173-2017",
+      "tipo": "oficio",
+      "numero": "2173",
+      "fecha": "2017-05-17",
+      "tema": "No Contribuyentes del Impuesto Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1101-2017",
+      "tipo": "oficio",
+      "numero": "1101",
+      "fecha": "2017-10-23",
+      "tema": "Derecho a la igualdad de las iglesias cat&oacute;licas y las no cat&oacute;licas, el deber formal de presentar declaraci&oacute;n de renta de dichas iglesias y el plazo para cumplir con tal obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26318-2016",
+      "tipo": "oficio",
+      "numero": "26318",
+      "fecha": "2016-09-21",
+      "tema": "Declaraci&oacute;n de renta de contratos de administraci&oacute;n y mantenimiento y aprovechamiento econ&oacute;mico del espacio p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4087-2016",
+      "tipo": "oficio",
+      "numero": "4087",
+      "fecha": "2016-03-01",
+      "tema": "Impuesto Sobre la Renta - Entidades no contribuyentes, entidades no declarantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27282-2015",
+      "tipo": "oficio",
+      "numero": "27282",
+      "fecha": "2015-09-21",
+      "tema": "Obligaciones tributarias de las Asociaciones de Cabildos Ind&iacute;genas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7121-2015",
+      "tipo": "oficio",
+      "numero": "7121",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre la renta - Ingresos gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41879-2014",
+      "tipo": "oficio",
+      "numero": "41879",
+      "fecha": "2014-07-16",
+      "tema": "R&eacute;gimen tributario aplicable a los Consejos Comunitarios Afrocolomb&iacute;anos y solicita informaci&oacute;n sobre el procedimiento a seguir por &eacute;stos para inscribirse en el Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11308-2014",
+      "tipo": "oficio",
+      "numero": "11308",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Una Fundaci&oacute;n que se encuentra en proceso de liquidaci&oacute;n est&aacute; obligada a presentar declaraciones tributarias? como hacer si no se cuenta con la informaci&oacute;n contable por falta de entrega de los registros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70387-2013",
+      "tipo": "oficio",
+      "numero": "70387",
+      "fecha": "2013-11-01",
+      "tema": "Obligaci&oacute;n de declarar renta, pagar impuesto sobre el patrimonio, impuesto de IVA, Industria y Comercio para las Juntas de Acci&oacute;n Comunal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10557-2013",
+      "tipo": "oficio",
+      "numero": "10557",
+      "fecha": "2013-02-22",
+      "tema": "&iquest;Es procedente que el saldo a favor que arroja la cuenta por cobrar que por concepto de impuestos descontables generada por el IVA en la proporcionalidad de sus gastos comunes imputa bimestre a bimestre como descontables; Se puede cancelar afectando las cuentas de gastos y en adelante seguir llevando al gasto el IVA descontable que exceda el IVA generado en per&iacute;odo y as&iacute; reflejarlo en sus declaraciones de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40733-2011",
+      "tipo": "oficio",
+      "numero": "40733",
+      "fecha": "2011-06-07",
+      "tema": "Las congregaciones religiosas cat&oacute;licas sin &aacute;nimo de lucro, conocidas como institutos religiosos, sociedades de vida apost&oacute;lica, institutos seculares y asociaciones de fieles cuya personer&iacute;a jur&iacute;dica es reconocida por la Iglesia Cat&oacute;lica, est&aacute;n obligadas a registrar libros ante la DIAN, o los deben registrar en la entidad que los certifica, en este caso, la Di&oacute;cesis respectiva? - Cu&aacute;l es el procedimiento a seguir para efectos del RUT,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10462-2011",
+      "tipo": "oficio",
+      "numero": "10462",
+      "fecha": "2011-02-15",
+      "tema": "Solicita excluir a las asociaciones de cabildos ind&iacute;genas de la obligaci&oacute;n de presentar la declaraci&oacute;n de ingresos y patrimonio, aduciendo que las asociaciones de cabildos ind&iacute;genas o autoridades tradicionales ind&iacute;genas son representantes de los territorios ind&iacute;genas, y que a partir de la promulgaci&oacute;n de la Constituci&oacute;n Pol&iacute;tica de 1991 estas son entidades territoriales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22560-2010",
+      "tipo": "oficio",
+      "numero": "22560",
+      "fecha": "2010-03-30",
+      "tema": "Calidad de contribuyente o responsable en materia de impuesto sobre la renta y complementarios, impuesto al patrimonio e impuesto sobre las ventas, del Instituto Colombiano de Fomento a la Educaci&oacute;n Superior, ICFES, con ocasi&oacute;n de la transformaci&oacute;n de establecimiento p&uacute;blico del orden nacional a Empresa Estatal de Car&aacute;cter Social del Sector Educaci&oacute;n Nacional efectuada por la Ley 1324 de 2009",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88149-2008",
+      "tipo": "oficio",
+      "numero": "88149",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Las asociaciones de hogares comunitarios que ejecuten exclusivamente recursos del ICBF se pueden asimilar a las asociaciones de padres de familia de restaurantes escolares para efectos de lo dispuesto en el Decreto 2707 de 23 de julio de 2008; y si es as&iacute;, qu&eacute; responsabilidades corresponden a esta clase de asociaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57185-2008",
+      "tipo": "oficio",
+      "numero": "57185",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Vale el Concepto 009437 de 1999 y los art&iacute;culos 5 y 7 del Decreto 1372 de 1992 aunque sean anteriores a la Ley 675 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61825-2007",
+      "tipo": "oficio",
+      "numero": "61825",
+      "fecha": "2007-08-13",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14746-2007",
+      "tipo": "oficio",
+      "numero": "14746",
+      "fecha": "2007-02-23",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones tributarias de los organismos de la rama judicial, como son: el Consejo Superior de la Judicatura, la Corte Suprema de Justicia, la Corte Constitucional y el Consejo de Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83022-2006",
+      "tipo": "oficio",
+      "numero": "83022",
+      "fecha": "2006-09-26",
+      "tema": "&iquest;Los cuerpos de bomberos voluntarios son contribuyentes del impuesto de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070406-2006",
+      "tipo": "concepto",
+      "numero": "0070406",
+      "fecha": "2006-08-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66105-2006",
+      "tipo": "oficio",
+      "numero": "66105",
+      "fecha": "2006-08-09",
+      "tema": "Solicita se aclare si una asociaci&oacute;n de padres de familia creada bajo los par&aacute;metros del Decreto 2919 de 1989, que tiene por objeto administrar los recursos que recibe del ICBF, para la alimentaci&oacute;n de los ni&ntilde;os que pertenecen a un hogar comunitario de un sector social desprotegido, debe presentar Declaraci&oacute;n de Renta y Complementarios o de Ingresos y Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51938-2006",
+      "tipo": "oficio",
+      "numero": "51938",
+      "fecha": "2006-06-16",
+      "tema": "&iquest;El Fondo de Ventas populares, por ser un establecimiento p&uacute;blico, descentralizado del orden Distrital, no contribuyente, ni declarante de impuesto sobre la renta, est&aacute; exceptuado de la obligaci&oacute;n formal de presentar declaraci&oacute;n de ingresos y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71931-2005",
+      "tipo": "oficio",
+      "numero": "71931",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Los centros vacacionales que funcionan en diferentes ciudades del pa&iacute;s para el servicio de oficiales y suboficiales del Ej&eacute;rcito Nacional y que no poseen patrimonio ni recursos propios est&aacute;n obligados a presentar Declaraci&oacute;n de Ingresos y Patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47303-2005",
+      "tipo": "oficio",
+      "numero": "47303",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Se encuentran obligadas a presentar declaraci&oacute;n de ingresos y patrimonio las personas jur&iacute;dicas originadas en la constituci&oacute;n de la propiedad horizontal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077929-2002",
+      "tipo": "concepto",
+      "numero": "0077929",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Los sindicatos son agentes de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048778-2002",
+      "tipo": "concepto",
+      "numero": "0048778",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;Las seccionales de la Cruz Roja son contribuyentes del Impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028444-2002",
+      "tipo": "concepto",
+      "numero": "0028444",
+      "fecha": "2002-01-01",
+      "tema": "IVA, mantenimiento a aeronaves, calibraci&oacute;n de equipos y herramientas, prestados por el comando a&eacute;reo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-19797-2002",
+      "tipo": "concepto",
+      "numero": "19797",
+      "fecha": "2002-04-04",
+      "tema": "Impuesto de Timbre. Contribuyentes del Impuesto de Timbre - Propiedad Horizontal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-65601-2001",
+      "tipo": "concepto",
+      "numero": "65601",
+      "fecha": "2001-07-18",
+      "tema": "Procedimiento. Subtema: Asociaciones de Cabildos Ind&iacute;genas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050052-2001",
+      "tipo": "concepto",
+      "numero": "0050052",
+      "fecha": "2001-06-13",
+      "tema": "&iquest;Puede liberarse de cancelar sanci&oacute;n por extemporaneidad a un establecimiento p&uacute;blico del orden municipal, sobre declaraciones de ingresos y patrimonio no presentadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018792-2001",
+      "tipo": "concepto",
+      "numero": "0018792",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Deben estar firmadas por revisor fiscal las declaraciones tributarias que presentan las asociaciones de pensionados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012407-2001",
+      "tipo": "concepto",
+      "numero": "0012407",
+      "fecha": "2001-02-20",
+      "tema": "&iquest;Las Asociaciones de Cabildos y-o Autoridades Tradicionales Ind&iacute;genas constituidas seg&uacute;n los lineamientos del Decreto 1088 de 1993 y la Ley 89 de 1890 son contribuyentes del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0104179-2000",
+      "tipo": "concepto",
+      "numero": "0104179",
+      "fecha": "2000-10-25",
+      "tema": "&iquest;Los establecimientos p&uacute;blicos de orden territorial, est&aacute;n obligados a presentar declaraci&oacute;n de ingreso y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039764-2000",
+      "tipo": "concepto",
+      "numero": "0039764",
+      "fecha": "2000-04-26",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de los bienes objeto de medida cautelar puestos a disposici&oacute;n de la Direcci&oacute;n Nacional de Estupefacientes. Puede la Fiscal&iacute;a General de la Naci&oacute;n como tenedora de los bienes a cargo de la Direcci&oacute;n citada asumir el pago de los impuestos pese a que tales bienes se encuentran sub judice. Si la Fiscal&iacute;a debe pagar los impuestos de los bienes, por qu&eacute; rubro deben sufragarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010708-1999",
+      "tipo": "concepto",
+      "numero": "0010708",
+      "fecha": "1999-09-06",
+      "tema": "&iquest;Est&aacute;n obligadas a presentar Declaraci&oacute;n de Ingresos y Patrimonio las Unidades Administrativas Especiales con personar&iacute;a jur&iacute;dica y patrimonio propio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068062-1998",
+      "tipo": "concepto",
+      "numero": "0068062",
+      "fecha": "1998-08-31",
+      "tema": "&iquest;Est&aacute;n obligadas a presentar declaraci&oacute;n de ingresos y patrimonio las empresas sociales del Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067140-1998",
+      "tipo": "concepto",
+      "numero": "0067140",
+      "fecha": "1998-08-27",
+      "tema": "&iquest;Los establecimientos p&uacute;blicos, solo los del orden nacional, pueden presentar sus declaraciones tributarias sin la firma de Contador P&uacute;blico o Revisor Fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064575-1998",
+      "tipo": "concepto",
+      "numero": "0064575",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;Deben aplicar el sistema integral de ajustes por inflaci&oacute;n las juntas de copropietarios de edificios organizados en propiedad horizontal? Se debe o no incluir en el patrimonio que refleja el balance, las zonas comunes, ascensores, pasamanos, planta el&eacute;ctrica, bomba de agua, tanque de abastecimiento, etc.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055779-1998",
+      "tipo": "concepto",
+      "numero": "0055779",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Qu&eacute; obligaciones tributarias debe cumplir una junta de copropietarios administradora de un edificio organizado en propiedad horizontal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055767-1998",
+      "tipo": "concepto",
+      "numero": "0055767",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Un colegio nacional, sin &aacute;nimo de lucro, est&aacute; obligado a presentar declaraci&oacute;n de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051581-1998",
+      "tipo": "concepto",
+      "numero": "0051581",
+      "fecha": "1998-07-01",
+      "tema": "&iquest;Est&aacute;n las Superintendencias obligadas a presentar declaraci&oacute;n de Ingresos y Patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040992-1998",
+      "tipo": "concepto",
+      "numero": "0040992",
+      "fecha": "1998-06-04",
+      "tema": "&iquest;Una instituci&oacute;n oficial de educaci&oacute;n media perteneciente a un departamento, cuyos recursos provienen del situado fiscal, y son manejados como recursos del mismo departamento, bajo Control de la Contralor&iacute;a Departamental y responsabilidad del Secretario de Educaci&oacute;n Departamental, est&aacute; obligada a presentar Declaraci&oacute;n de Renta y de Ingresos Patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036977-1998",
+      "tipo": "concepto",
+      "numero": "0036977",
+      "fecha": "1998-05-26",
+      "tema": "&iquest;La asociaci&oacute;n de copropietarios de un centro comercial, est&aacute; obligada a presentar declaraci&oacute;n de ingresos y patrimonio? &iquest;Las asociaciones de copropietarios administradoras de edificios organizados en propiedad horizontal, para efectos fiscales est&aacute;n obligadas a tener revisor fiscal que sea contador p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029653-1998",
+      "tipo": "concepto",
+      "numero": "0029653",
+      "fecha": "1998-04-28",
+      "tema": "&iquest;En atenci&oacute;n a reciente fallo, que tutel&oacute; el derecho a la igualdad frente a las obligaciones fiscales de la iglesia cat&oacute;lica y las dem&aacute;s iglesias cristianas y evang&eacute;licas, realmente estas iglesias est&aacute;n eximidas de presentar esta declaraci&oacute;n de ingresos y patrimonio a la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039591-1997",
+      "tipo": "concepto",
+      "numero": "0039591",
+      "fecha": "1997-05-13",
+      "tema": "&iquest;Cu&aacute;les de los &oacute;rganos y entidades de car&aacute;cter distrital son contribuyentes del impuesto sobre la renta, y cu&aacute;les est&aacute;n obligados a declarar el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036439-1996",
+      "tipo": "concepto",
+      "numero": "0036439",
+      "fecha": "1996-05-07",
+      "tema": "&iquest;Lo dispuesto en el art&iacute;culo 582 del Estatuto Tributario, es aplicable a las entidades estatales de control?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025412-1996",
+      "tipo": "concepto",
+      "numero": "0025412",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074193-1994",
+      "tipo": "concepto",
+      "numero": "0074193",
+      "fecha": "1994-12-21",
+      "tema": "&iquest;Se deben tratar como un ingreso, la retribuci&oacute;n recibida proveniente de los servicios prestados por los asociados; trat&aacute;ndose de las Cooperativas de Trabajo Asociado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036002-1993",
+      "tipo": "concepto",
+      "numero": "0036002",
+      "fecha": "1993-12-31",
+      "tema": "&iquest;Al presentarse una declaraci&oacute;n y entenderse como no presentada, puede la Administraci&oacute;n tomar bases distintas a las declaradas por el contribuyente para imponer la sanci&oacute;n por no declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015528-1990",
+      "tipo": "concepto",
+      "numero": "0015528",
+      "fecha": "1990-01-01",
+      "tema": "Declaraci&oacute;n de ingresos y patrimonio de asociaciones religiosas",
+      "vigente": true
+    }
+  ]
+}

@@ -96,11 +96,11 @@ export function PersonaSwitcher() {
   );
 
   return (
-    <div>
+    <div className="relative">
       <div
         role="tablist"
         aria-label="Seleccion de perfil"
-        className="mb-6 flex gap-2 overflow-x-auto pb-1"
+        className="mb-8 flex gap-2 overflow-x-auto pb-2 scrollbar-hide -mx-6 px-6 md:mx-0 md:px-0"
       >
         {PERSONAS.map((persona) => {
           const isActive = persona.key === activePersona.key;
@@ -112,13 +112,16 @@ export function PersonaSwitcher() {
               aria-controls={`persona-panel-${persona.key}`}
               data-active={isActive}
               onClick={() => setActiveKey(persona.key)}
-              className="rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground transition data-[active=true]:border-foreground data-[active=true]:bg-foreground data-[active=true]:text-background"
+              className="whitespace-nowrap rounded-full border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-all duration-300 hover:border-foreground/30 data-[active=true]:border-foreground data-[active=true]:bg-foreground data-[active=true]:text-background"
             >
               {persona.label}
             </button>
           );
         })}
       </div>
+
+      <div className="pointer-events-none absolute right-0 top-0 h-10 w-12 bg-gradient-to-l from-background via-background/60 to-transparent md:hidden" />
+      <div className="pointer-events-none absolute left-0 top-0 h-10 w-12 bg-gradient-to-r from-background via-background/60 to-transparent md:hidden" />
 
       <article
         id={`persona-panel-${activePersona.key}`}

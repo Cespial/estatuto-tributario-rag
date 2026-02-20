@@ -1,1 +1,432 @@
-{"id_articulo": "Art. 478", "titulo": "Art. 478. Libros y revistas exentos.", "titulo_corto": "Libros y revistas exentos.", "slug": "478", "url_origen": "https://estatuto.co/478", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Están exentos del impuesto sobre las ventas los libros y revistas de carácter científico y cultural, según calificación que hará el Gobierno Nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Están exentos del impuesto sobre las ventas los libros y revistas de carácter científico y cultural, según calificación que hará el Gobierno Nacional.</p>\n</span>", "modificaciones_raw": "- El artículo 116 de la Ley 788 de 2002, establece una tarifa del 2%, a partir del 1 de enero de 2005, a los bienes y servicios de que trata este artículo. El parágrafo del mismo artículo establece: 'A partir de la misma fecha, los responsables del impuesto sobre las ventas por los bienes y servicios a que se refieren este artículo, podrán tratar como descuento la totalidad del impuesto sobre las ventas que conste en las respectivas facturas o documento equivalente que constituya costo o gasto de los bienes gravados, siempre y cuando cumplan con los requisitos establecidos en los artículos 617 y 771-2' Artículo 116 declarado INEXEQUIBLE.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["481"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 478",
+  "titulo": "Art. 478. Libros y revistas exentos.",
+  "titulo_corto": "Libros y revistas exentos.",
+  "slug": "478",
+  "url_origen": "https://estatuto.co/478",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Están exentos del impuesto sobre las ventas los libros y revistas de carácter científico y cultural, según calificación que hará el Gobierno Nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Están exentos del impuesto sobre las ventas los libros y revistas de carácter científico y cultural, según calificación que hará el Gobierno Nacional.</p>\n</span>",
+  "modificaciones_raw": "- El artículo 116 de la Ley 788 de 2002, establece una tarifa del 2%, a partir del 1 de enero de 2005, a los bienes y servicios de que trata este artículo. El parágrafo del mismo artículo establece: 'A partir de la misma fecha, los responsables del impuesto sobre las ventas por los bienes y servicios a que se refieren este artículo, podrán tratar como descuento la totalidad del impuesto sobre las ventas que conste en las respectivas facturas o documento equivalente que constituya costo o gasto de los bienes gravados, siempre y cuando cumplan con los requisitos establecidos en los artículos 617 y 771-2' Artículo 116 declarado INEXEQUIBLE.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "481"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13432 (2025-10-03): Impuesto Sobre las Ventas - IVA\noficio 11044 (2024-12-26): Procedimiento Tributario\noficio 906715 (2021-07-07): IVA servicio de maquila en zona franca",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13432-2025",
+      "tipo": "oficio",
+      "numero": "13432",
+      "fecha": "2025-10-03",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11044-2024",
+      "tipo": "oficio",
+      "numero": "11044",
+      "fecha": "2024-12-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906715-2021",
+      "tipo": "oficio",
+      "numero": "906715",
+      "fecha": "2021-07-07",
+      "tema": "IVA servicio de maquila en zona franca",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900024-2020",
+      "tipo": "oficio",
+      "numero": "900024",
+      "fecha": "2020-01-14",
+      "tema": "&iquest;La suscripci&oacute;n a las ediciones digitales de peri&oacute;dicos, revistas y libros ejecutados a trav&eacute;s de internet desde servidores ubicados en Colombia o en el exterior, por personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, se encuentran exentos de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4039-2020",
+      "tipo": "oficio",
+      "numero": "4039",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;Cu&aacute;les impuestos y dem&aacute;s grav&aacute;menes, debe pagar el autor de un libro de car&aacute;cter educativo legal, quien lo pretende fabricar y comercializar de forma directa sin intermediarios, no perteneciendo al r&eacute;gimen com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20041-2019",
+      "tipo": "oficio",
+      "numero": "20041",
+      "fecha": "2019-08-13",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas en la prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15586-2019",
+      "tipo": "oficio",
+      "numero": "15586",
+      "fecha": "2019-06-14",
+      "tema": "Aplicaci&oacute;n de IVA a los libros y revistas de car&aacute;cter cient&iacute;fico y cultural",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13634-2019",
+      "tipo": "oficio",
+      "numero": "13634",
+      "fecha": "2019-05-28",
+      "tema": "Impuesto Sobre las Ventas – IVA. Servicios Excluidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902713-2018",
+      "tipo": "oficio",
+      "numero": "902713",
+      "fecha": "2018-11-30",
+      "tema": "Prestaci&oacute;n de servicios de acceso a los contenidos de informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2138-2018",
+      "tipo": "oficio",
+      "numero": "2138",
+      "fecha": "2018-12-06",
+      "tema": "Impuesto sobre las ventas - Prestaci&oacute;n de servicios de acceso a los contenidos de informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31777-2017",
+      "tipo": "oficio",
+      "numero": "31777",
+      "fecha": "2017-11-24",
+      "tema": "Procedencia de la retenci&oacute;n en la fuente por concepto del impuesto sobre la renta efectuada por un ente territorial al que Ud. le vendi&oacute; una colecci&oacute;n de libros de car&aacute;cter cient&iacute;fico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20493-2017",
+      "tipo": "oficio",
+      "numero": "20493",
+      "fecha": "2017-08-02",
+      "tema": "Impuesto sobre las Ven&iacute;as Bienes exentos con derecho a devoluci&oacute;n y-o compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7447-2017",
+      "tipo": "oficio",
+      "numero": "7447",
+      "fecha": "2017-03-31",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13089-2015",
+      "tipo": "oficio",
+      "numero": "13089",
+      "fecha": "2015-05-07",
+      "tema": "Solicita se reconsidere la tesis expuesta en el Oficio 60432 de 2014, emitido por la Subdirecci&oacute;n de Gesti&oacute;n Normativa y Doctrina",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9093-2015",
+      "tipo": "oficio",
+      "numero": "9093",
+      "fecha": "2015-03-24",
+      "tema": "&iquest;Pueden los servicios intermedios que culminen con la producci&oacute;n de un bien final, realizados por encargo de un tercero ubicado en el exterior, considerarse servicios exportados y por lo tanto exentos del Impuesto sobre las ventas con derecho a devoluci&oacute;n, de conformidad con el literal c) del art&iacute;culo 481 del Estatuto Tributario, o los mismos, en todo caso, deben ser objeto del tratamiento establecido en el par&aacute;grafo del art&iacute;culo 476 ib&iacute;dem, esto es, considerarse servicios gravados con la tarifa del bien resultante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2332-2015",
+      "tipo": "oficio",
+      "numero": "2332",
+      "fecha": "2015-01-29",
+      "tema": "&iquest;Los cuadernos de tipo escolar de la subpartida 4820.20.00.00 se encuentran exentos del Impuesto sobre las ventas en la importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65873-2014",
+      "tipo": "oficio",
+      "numero": "65873",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Se encuentra exenta del impuesto sobre las ventas la importaci&oacute;n de libros y revistas de car&aacute;cter cient&iacute;fico y cultural para su posterior comercializaci&oacute;n a nivel nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62603-2014",
+      "tipo": "oficio",
+      "numero": "62603",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Se encuentra exenta del impuesto sobre las ventas la importaci&oacute;n de libros y revistas de car&aacute;cter cient&iacute;fico y cultural para su posterior comercializaci&oacute;n a nivel nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60432-2014",
+      "tipo": "oficio",
+      "numero": "60432",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;Los cuadernos de tipo escolar de la subpartida 4820.20.00.00 se encuentran exentos del impuesto sobre las ventas en la importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55679-2014",
+      "tipo": "oficio",
+      "numero": "55679",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;La restituci&oacute;n de los bienes por parte de la entidad fiduciaria al constituyente del patrimonio aut&oacute;nomo es una operaci&oacute;n generadora de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49409-2014",
+      "tipo": "oficio",
+      "numero": "49409",
+      "fecha": "2014-08-15",
+      "tema": "Supresi&oacute;n de la partida arancelaria 49.02 (diarios y publicaciones peri&oacute;dicas, impresos, incluso ilustrados) de los bienes que no causan el impuesto sobre las ventas- IVA, se&ntilde;alados en el art&iacute;culo 424 del Estatuto Tributario, con ocasi&oacute;n de la vigencia de la Ley 1607 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11170-2014",
+      "tipo": "oficio",
+      "numero": "11170",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las primas de los servidores p&uacute;blicos o empleados privados, legales y extralegales, hacen parte del ingreso bruto gravable por el IMAN para personas naturales empleadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76746-2013",
+      "tipo": "oficio",
+      "numero": "76746",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Las entidades que tienen asignada en su RUT la responsabilidad 10",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0826-2013",
+      "tipo": "oficio",
+      "numero": "0826",
+      "fecha": "2013-06-20",
+      "tema": "Revisi&oacute;n de las Comunicaciones 297 del 23 de abril de 2013 y 364 del 21 de mayo de 2013, mediante las cuales la Subdirecci&oacute;n de Gesti&oacute;n Normativa y Doctrina se pronunci&oacute; sobre las modificaciones introducidas por el art&iacute;culo 55 de la Ley 1607 de 2012 al art&iacute;culo 481 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74579-2012",
+      "tipo": "oficio",
+      "numero": "74579",
+      "fecha": "2012-11-29",
+      "tema": "&iquest;Se encuentra vigente el numeral 2 del art&iacute;culo 5 de la Ley 48 de 1983, expedida el 20 de diciembre de dicho a&ntilde;o publicada en el Diario Oficial N&deg;. 36421 del 27 de Diciembre de 1983?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074171-2005",
+      "tipo": "concepto",
+      "numero": "0074171",
+      "fecha": "2005-10-12",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y del impuesto complementario de remesas los pagos efectuados a personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, por la venta de obras de car&aacute;cter cient&iacute;fico o cultural, cuyo contenido se suministra a trav&eacute;s de internet, desde servidores ubicados en el exterior?&iquest;Se genera el impuesto sobre las ventas por la venta de obras de car&aacute;cter cient&iacute;fico o cultural, cuyo contenido se suministra a trav&eacute;s de internet, desde servidores ubicados en el exterior, por parte de personas naturales sin residencia en el pa&iacute;s o entidades extranjeras sin domicilio en Colombia?&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y del impuesto complementario de remesas los pagos efectuados a personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, por la prestaci&oacute;n de servicios de acceso a bases de datos, para la consulta de libros de car&aacute;cter cient&iacute;fico o cultural, ejecutados a trav&eacute;s de internet desde servidores ubicados en el exterior? La prestaci&oacute;n de servicios de acceso a bases de datos, para la consulta de libros de car&aacute;cter cient&iacute;fico o cultural, ejecutados a trav&eacute;s de internet desde servidores ubicados en el exterior, por personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, genera el impuesto sobre las ventas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0057498-2004",
+      "tipo": "concepto",
+      "numero": "0057498",
+      "fecha": "2004-09-01",
+      "tema": "La venta de bienes del resto del territorio nacional a usuarios de zonas francas &iquest;es una operaci&oacute;n exenta del impuesto sobre las ventas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0043112-2004",
+      "tipo": "concepto",
+      "numero": "0043112",
+      "fecha": "2004-07-15",
+      "tema": "Causaci&oacute;n del impuesto de IVA en servicios de impresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071967-2001",
+      "tipo": "concepto",
+      "numero": "0071967",
+      "fecha": "2001-08-09",
+      "tema": "&iquest;Procede la devoluci&oacute;n de IVA por reaprovisionamiento de combustibles para buques en transito internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017950-2001",
+      "tipo": "concepto",
+      "numero": "0017950",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;C&oacute;mo se debe facturar el servicio de impresi&oacute;n de libros, textos, revistas, afiches, plegables de car&aacute;cter cient&iacute;fico o cultural, puesto que se requiere la calificaci&oacute;n de MinCultura para efecto del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0120094-2000",
+      "tipo": "concepto",
+      "numero": "0120094",
+      "fecha": "2000-12-12",
+      "tema": "&iquest;Est&aacute; gravado con el impuesto a las ventas, la venta de las Cartillas de Instrucciones, Codex, Estatuto Aduanero y Estatuto Tributario que la entidad edita y comercializa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054763-1999",
+      "tipo": "concepto",
+      "numero": "0054763",
+      "fecha": "1999-06-15",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051371-1999",
+      "tipo": "concepto",
+      "numero": "0051371",
+      "fecha": "1999-06-01",
+      "tema": "&iquest;Qu&eacute; debe entenderse por libro y revista para efectos de la exenci&oacute;n del impuesto sobre las ventas del art&iacute;culo 478 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043071-1999",
+      "tipo": "concepto",
+      "numero": "0043071",
+      "fecha": "1999-05-05",
+      "tema": "&iquest;El libro de car&aacute;cter cient&iacute;fico y cultural que se publica en Internet e Intranet, para ser le&iacute;do por el usuario con posibilidad de imprimirlo en papel por el mismo y que posee su correspondiente ISBN de la C&aacute;mara Colombiana del Libro, es un bien exento del impuesto sobre las ventas? &iquest;Cu&aacute;l es el tratamiento tributario en materia del impuesto sobre la renta de las empresas editoriales de libros publicados en Internet e Intranet?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064584-1998",
+      "tipo": "concepto",
+      "numero": "0064584",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;Est&aacute;n exentos del impuesto a las ventas los uniformes, zapatos, textos y &uacute;tiles escolares como cuadernos, l&aacute;pices, lapiceros y reglas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004289-1998",
+      "tipo": "concepto",
+      "numero": "0004289",
+      "fecha": "1998-01-27",
+      "tema": "&iquest;Para efectos de la devoluci&oacute;n de saldos a favor originados en la prestaci&oacute;n de servicios de impresi&oacute;n de libros es exigible calificaci&oacute;n del Gobierno Nacional sobre el car&aacute;cter cultural o cient&iacute;fico de los mismos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094664-1996",
+      "tipo": "concepto",
+      "numero": "0094664",
+      "fecha": "1996-12-10",
+      "tema": "El desarrollo, producci&oacute;n y comercializaci&oacute;n de publicaciones culturales, art&iacute;sticas, cient&iacute;ficas y literarias, en medios magn&eacute;ticos y &oacute;pticos, as&iacute; como la prestaci&oacute;n de servicios relacionados con multimedia, corresponden a la prestaci&oacute;n de un servicio o a un contrato de compraventa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051333-1996",
+      "tipo": "concepto",
+      "numero": "0051333",
+      "fecha": "1996-06-26",
+      "tema": "&iquest;Un contrato para la edici&oacute;n de libros revistas de car&aacute;cter cient&iacute;fico y cultural, se encuentra sujeto al impuesto sobre las ventas?&iquest;El servicio de impresi&oacute;n de afiches publicitarios se encuentra sujeto al IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033051-1996",
+      "tipo": "concepto",
+      "numero": "0033051",
+      "fecha": "1996-04-22",
+      "tema": "&iquest;Se encuentran sometidos a la retenci&oacute;n en la fuente los pagos o abonos en cuenta efectuados en favor de una sociedad extranjera sin domicilio en el pa&iacute;s, como contraprestaci&oacute;n por el suministro desde el exterior de publicaciones impresas publicadas en el exterior que la entidad adquirente importa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074231-1995",
+      "tipo": "concepto",
+      "numero": "0074231",
+      "fecha": "1995-10-13",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073993-1995",
+      "tipo": "concepto",
+      "numero": "0073993",
+      "fecha": "1995-10-12",
+      "tema": "&iquest;El IVA causado en la compra de alumbre en terr&oacute;n con el fin de producir barras de alumbre, producto catalogado como droga blanca para uso humano, da derecho a devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072387-1995",
+      "tipo": "concepto",
+      "numero": "0072387",
+      "fecha": "1995-10-11",
+      "tema": "&iquest;Al",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063382-1995",
+      "tipo": "concepto",
+      "numero": "0063382",
+      "fecha": "1995-09-12",
+      "tema": "&iquest;Puede un contribuyente del impuesto sobre la renta compensar autom&aacute;ticamente un saldo a favor no declarado, con otros valores por &eacute;l adeudados que aparecen consignados en otras declaraciones tributarias? &iquest;Hasta que fecha se generan intereses moratorios por concepto de deudas tributarias exigibles y no canceladas oportunamente, que figuren en otras declaraciones tributarias del contribuyente, cuando este pretenda solicitar a la Administraci&oacute;n Tributaria su compensaci&oacute;n con un saldo a favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030777-1995",
+      "tipo": "concepto",
+      "numero": "0030777",
+      "fecha": "1995-05-17",
+      "tema": "&iquest;Se encuentran sometidos a retenci&oacute;n en la fuente a t&iacute;tulo de los impuestos sobre la renta y las remesas, los pagos o abonos en cuenta en moneda extranjera efectuados en favor de una sociedad extranjera sin domicilio en el pa&iacute;s, como contraprestaci&oacute;n por la venta de suscripciones de revistas t&eacute;cnicas y cient&iacute;ficas en el territorio colombiano, llevadas a cabo a trav&eacute;s de una sociedad nacional que la representa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012680-1993",
+      "tipo": "concepto",
+      "numero": "0012680",
+      "fecha": "1993-03-29",
+      "tema": "&iquest;Algunas compa&ntilde;&iacute;as exportadoras vienen registrando en las declaraciones de ventas los CERT causados en el rengl&oacute;n dos (2) del formulario, junto con los ingresos exentos del impuesto; otros, los declaran en el rengl&oacute;n siguiente como excluidos. En qu&eacute; rengl&oacute;n se deben declarar los CERT? Qu&eacute; tratamiento se debe dar a la diferencia en cambio por la venta de productos a cr&eacute;dito? Deben tenerse en cuenta los anteriores conceptos para la proporcionalidad de impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005136-1992",
+      "tipo": "concepto",
+      "numero": "0005136",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del IVA, en la importaci&oacute;n de manuales t&eacute;cnicos y de usuarios del sistema de seguros integrado compuesto de dos textos?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

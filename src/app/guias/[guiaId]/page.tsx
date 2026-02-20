@@ -74,22 +74,76 @@ function safeBase64Decode(value: string): string {
 }
 
 function serializeSelectedOptions(options: SelectedOption[]): string {
-  return safeBase64Encode(JSON.stringify(options));
+  // Compress keys to shorten URL
+  const compressed = options.map(o => [o.nodeId, o.label, o.nextNodeId]);
+  return safeBase64Encode(JSON.stringify(compressed));
 }
 
 function deserializeSelectedOptions(value: string): SelectedOption[] | null {
   try {
-    const parsed = JSON.parse(safeBase64Decode(value)) as SelectedOption[];
+    const parsed = JSON.parse(safeBase64Decode(value));
     if (!Array.isArray(parsed)) return null;
-    return parsed.filter(
-      (item) =>
-        typeof item.nodeId === "string" &&
-        typeof item.label === "string" &&
-        typeof item.nextNodeId === "string"
+    return parsed.map(
+      (item: any) => ({
+        nodeId: item[0],
+        label: item[1],
+        nextNodeId: item[2]
+      })
     );
   } catch {
     return null;
   }
+}
+
+function StepTimeline({ 
+  guide, 
+  history, 
+  currentNodeId, 
+  selectedOptions 
+}: { 
+  guide: GuiaEducativaEnriched; 
+  history: string[]; 
+  currentNodeId: string;
+  selectedOptions: SelectedOption[];
+}) {
+  return (
+    <div className="hidden lg:block w-64 shrink-0 space-y-6">
+      <div className="rounded-xl border border-border/60 bg-card p-5 shadow-sm">
+        <p className="mb-4 text-xs font-bold uppercase tracking-widest text-muted-foreground">Tu Camino</p>
+        <div className="relative space-y-4">
+          <div className="absolute left-[11px] top-2 bottom-2 w-0.5 bg-muted" />
+          
+          {selectedOptions.map((step, i) => (
+            <div key={`${step.nodeId}-${i}`} className="relative flex gap-3">
+              <div className="relative z-10 mt-1 h-5 w-5 rounded-full border-2 border-primary bg-primary text-[10px] font-bold text-primary-foreground flex items-center justify-center">
+                <CheckCircle2 className="h-3 w-3" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <p className="text-[11px] font-semibold text-foreground truncate">{step.label}</p>
+                <p className="text-[9px] text-muted-foreground truncate">Paso {i + 1}</p>
+              </div>
+            </div>
+          ))}
+
+          <div className="relative flex gap-3">
+            <div className="relative z-10 mt-1 h-5 w-5 rounded-full border-2 border-primary bg-card animate-pulse" />
+            <div className="flex-1">
+              <p className="text-[11px] font-bold text-primary">Actual</p>
+              <p className="text-[9px] text-muted-foreground">Respondiendo...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-xs text-muted-foreground">
+        <div className="flex items-center gap-2 mb-2 text-foreground font-medium">
+          <HelpCircle className="h-3.5 w-3.5" />
+          ¿Necesitas ayuda?
+        </div>
+        Las respuestas se guardan automáticamente en este dispositivo.
+      </div>
+    </div>
+  );
 }
 
 function getStorageKey(guideId: string): string {
@@ -332,16 +386,24 @@ function GuideSession({
 
   return (
     <>
-      <div className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
-        <Link
-          href="/guias"
-          className="mb-6 inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-        >
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver a guías
-        </Link>
+      <div className="mx-auto flex w-full max-w-6xl flex-1 gap-8 px-4 py-8">
+        <StepTimeline 
+          guide={guide} 
+          history={history} 
+          currentNodeId={currentNodeId} 
+          selectedOptions={selectedOptions} 
+        />
+        
+        <div className="flex-1 min-w-0">
+          <Link
+            href="/guias"
+            className="mb-6 inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Volver a guías
+          </Link>
 
-        {resumeSnapshot && (
+          {resumeSnapshot && (
           <div className="mb-6 rounded-lg border border-border/60 bg-card p-4">
             <p className="text-sm text-foreground">Tienes una sesión guardada de esta guía.</p>
             <div className="mt-3 flex flex-wrap gap-2">
@@ -563,45 +625,87 @@ function GuideSession({
               <Grip className="h-3.5 w-3.5" />
               Desliza a la derecha para volver
             </span>
-          </div>
-        </section>
-      </div>
+                      </div>
+                    </section>
+                  </div>
+          
+                  <div className="hidden">        <div ref={contentRef} className="p-10 font-sans text-slate-900">
+          <header className="mb-8 border-b-2 border-slate-200 pb-6 flex justify-between items-start">
+            <div>
+              <h1 className="text-3xl font-bold text-slate-900 tracking-tight">{guide.titulo}</h1>
+              <p className="mt-2 text-slate-500 italic max-w-md">{guide.descripcion}</p>
+            </div>
+            <div className="text-right">
+              <div className="bg-slate-900 text-white px-3 py-1 text-xs font-bold rounded mb-2 inline-block">SUPERAPP TRIBUTARIA</div>
+              <p className="text-[10px] text-slate-400 uppercase tracking-widest">Reporte de Orientación v2026</p>
+            </div>
+          </header>
 
-      <div className="hidden">
-        <div ref={contentRef}>
-          <section>
-            <h1>{guide.titulo}</h1>
-            <p>{guide.descripcion}</p>
-            <p>Resultado: {currentNode.texto}</p>
-            {currentNode.recomendacion && <p>{currentNode.recomendacion}</p>}
-            <h2>Resumen de respuestas</h2>
-            <ol>
-              {selectedOptions.map((step, index) => (
-                <li key={`${step.nodeId}-${step.nextNodeId}-${index}`}>
-                  Paso {index + 1}: {step.label}
-                </li>
-              ))}
-            </ol>
-            {(currentNode.articulosET ?? []).length > 0 && (
-              <p>Artículos ET relacionados: {currentNode.articulosET?.join(", ")}</p>
+          <section className="mb-10 bg-slate-50 rounded-xl p-8 border border-slate-100 shadow-sm">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Resultado Final</h2>
+            <p className="text-2xl font-bold text-slate-900 mb-4">{currentNode.texto}</p>
+            {currentNode.recomendacion && (
+              <div className="text-slate-700 leading-relaxed bg-white p-5 rounded-lg border border-slate-100">
+                {currentNode.recomendacion}
+              </div>
             )}
-            {resultDoctrine.length > 0 && (
-              <p>
-                Doctrina DIAN relacionada: {resultDoctrine.map((doc) => doc.numero).join(" | ")}
-              </p>
-            )}
-            <p>
-              Fecha: {new Date().toLocaleDateString("es-CO", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </p>
           </section>
+
+          {selectedOptions.length > 0 && (
+            <section className="mb-10">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6 border-b border-slate-100 pb-2">Camino de Decisiones</h2>
+              <div className="space-y-4">
+                {selectedOptions.map((step, index) => (
+                  <div key={`${step.nodeId}-${index}`} className="flex gap-4 items-start">
+                    <div className="flex-none w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-[10px] font-bold">
+                      {index + 1}
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-slate-800">{step.label}</p>
+                      <p className="text-[10px] text-slate-400 uppercase">Seleccionado en Paso {index + 1}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {currentNode.accionesSugeridas && currentNode.accionesSugeridas.length > 0 && (
+            <section className="mb-10 bg-emerald-50/30 rounded-xl p-8 border border-emerald-100">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-4">Acciones Recomendadas</h2>
+              <ul className="space-y-3">
+                {currentNode.accionesSugeridas.map((action, i) => (
+                  <li key={i} className="flex gap-3 text-slate-700 text-sm">
+                    <span className="text-emerald-500 font-bold">•</span>
+                    {action}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <footer className="mt-20 pt-10 border-t border-slate-100 grid grid-cols-2 gap-8 items-end">
+            <div>
+              <p className="text-[10px] text-slate-400 uppercase font-bold tracking-widest mb-1">Generado el</p>
+              <p className="text-sm text-slate-600">
+                {new Date().toLocaleDateString("es-CO", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                  hour: "2-digit",
+                  minute: "2-digit"
+                })}
+              </p>
+            </div>
+            <div className="text-right">
+              <p className="text-[10px] text-slate-300">Este documento es una guía informativa basada en las respuestas proporcionadas y no constituye una asesoría legal formal.</p>
+            </div>
+          </footer>
         </div>
       </div>
-    </>
-  );
+    </div>
+  </>
+);
 }
 
 function GuiaInteractivaPageContent() {

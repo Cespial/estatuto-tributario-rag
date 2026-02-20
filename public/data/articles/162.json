@@ -1,1 +1,205 @@
-{"id_articulo": "Art. 162", "titulo": "Art. 162. Sistemas para su determinación.", "titulo_corto": "Sistemas para su determinación.", "slug": "162", "url_origen": "https://estatuto.co/162", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "La deducción por agotamiento podrá determinarse a base de estimación técnica de costo de unidades de operación o a base de porcentaje fijo. El contribuyente podrá elegir el sistema para calcular el agotamiento; escogida una de las dos bases, sólo podrá cambiarla por una sola vez, con autorización de la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales)", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La deducción por agotamiento podrá determinarse a base de estimación técnica de costo de unidades de operación o a base de porcentaje fijo.</p>\n<p>El contribuyente podrá elegir el sistema para calcular el agotamiento; escogida una de las dos bases, sólo podrá cambiarla por una sola vez, con autorización de la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales)</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 162",
+  "titulo": "Art. 162. Sistemas para su determinación.",
+  "titulo_corto": "Sistemas para su determinación.",
+  "slug": "162",
+  "url_origen": "https://estatuto.co/162",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "La deducción por agotamiento podrá determinarse a base de estimación técnica de costo de unidades de operación o a base de porcentaje fijo. El contribuyente podrá elegir el sistema para calcular el agotamiento; escogida una de las dos bases, sólo podrá cambiarla por una sola vez, con autorización de la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales)",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La deducción por agotamiento podrá determinarse a base de estimación técnica de costo de unidades de operación o a base de porcentaje fijo.</p>\n<p>El contribuyente podrá elegir el sistema para calcular el agotamiento; escogida una de las dos bases, sólo podrá cambiarla por una sola vez, con autorización de la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales)</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3319 (2023-05-31): (Int 738) Impuesto Sobre las Ventas - IVA - Servicios excluidos del impuesto sobre las ventas - Aclara Oficios 008276 del 8 de abril de 2019 y 008763 del 11 de abril del mismo a&ntilde;o y reconsidera Oficio 000977 del 17 de enero de 2020\noficio 905368 (2022-07-11): IVA - Comisiones por intermediaci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3319-2023",
+      "tipo": "oficio",
+      "numero": "3319",
+      "fecha": "2023-05-31",
+      "tema": "(Int 738) Impuesto Sobre las Ventas - IVA - Servicios excluidos del impuesto sobre las ventas - Aclara Oficios 008276 del 8 de abril de 2019 y 008763 del 11 de abril del mismo a&ntilde;o y reconsidera Oficio 000977 del 17 de enero de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905368-2022",
+      "tipo": "oficio",
+      "numero": "905368",
+      "fecha": "2022-07-11",
+      "tema": "IVA - Comisiones por intermediaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0977-2020",
+      "tipo": "oficio",
+      "numero": "0977",
+      "fecha": "2020-01-17",
+      "tema": "&iquest;Est&aacute;n gravadas o no al impuesto a las ventas la intermediaci&oacute;n de p&oacute;lizas de seguros de vida, pensiones y riesgos laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20438-2019",
+      "tipo": "oficio",
+      "numero": "20438",
+      "fecha": "2019-08-16",
+      "tema": "Comisiones por Colocaciones de Planes de Salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9739-2019",
+      "tipo": "oficio",
+      "numero": "9739",
+      "fecha": "2019-04-22",
+      "tema": "&iquest;Se encuentran excluidas del IVA las comisiones por venta de p&oacute;lizas SOAT y las comisiones por venta de seguros de vida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8763-2019",
+      "tipo": "oficio",
+      "numero": "8763",
+      "fecha": "2019-04-10",
+      "tema": "&iquest;Se encuentran grabadas las ventas la intermediaci&oacute;n de p&oacute;lizas de seguros de vida, pensiones y riesgos laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8276-2019",
+      "tipo": "oficio",
+      "numero": "8276",
+      "fecha": "2019-04-08",
+      "tema": "&iquest;Se encuentra gravada la intermediaci&oacute;n de p&oacute;lizas de seguros de vida, pensiones y riesgos laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7621-2019",
+      "tipo": "oficio",
+      "numero": "7621",
+      "fecha": "2019-03-29",
+      "tema": "Comisiones por Colocaciones de Planes de Salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1544-2017",
+      "tipo": "oficio",
+      "numero": "1544",
+      "fecha": "2017-05-12",
+      "tema": "Aplicaci&oacute;n art&iacute;culo 15 de la Ley 608 de 2000 en caso de fusi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58755-2014",
+      "tipo": "oficio",
+      "numero": "58755",
+      "fecha": "2014-10-15",
+      "tema": "Inversiones o actividades mineras deducci&oacute;n renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21178-2011",
+      "tipo": "oficio",
+      "numero": "21178",
+      "fecha": "2011-03-23",
+      "tema": "&iquest;Cu&aacute;l es el manejo tributario especial otorgado por el Gobierno Nacional o Departamental a la empresa minera DRUMMOND Ltd., desde el inicio de su actividad de explotaci&oacute;n en Colombia",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

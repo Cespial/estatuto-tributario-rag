@@ -1,1 +1,69 @@
-{"id_articulo": "Art. 621", "titulo": "Art. 621. Identificación tributaria en prestamos.", "titulo_corto": "Identificación tributaria en prestamos.", "slug": "621", "url_origen": "https://estatuto.co/621", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Las entidades que reciban dinero a título de mutuo o a cualquier otro que genere intereses o rendimientos para el acreedor o para un tercero, deberán exigir al beneficiario, en el momento de celebrar el contrato, su identificación tributaria y dejar constancia de ello.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las entidades que reciban dinero a título de mutuo o a cualquier otro que genere intereses o rendimientos para el acreedor o para un tercero, deberán exigir al beneficiario, en el momento de celebrar el contrato, su identificación tributaria y dejar constancia de ello.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 621",
+  "titulo": "Art. 621. Identificación tributaria en prestamos.",
+  "titulo_corto": "Identificación tributaria en prestamos.",
+  "slug": "621",
+  "url_origen": "https://estatuto.co/621",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Las entidades que reciban dinero a título de mutuo o a cualquier otro que genere intereses o rendimientos para el acreedor o para un tercero, deberán exigir al beneficiario, en el momento de celebrar el contrato, su identificación tributaria y dejar constancia de ello.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las entidades que reciban dinero a título de mutuo o a cualquier otro que genere intereses o rendimientos para el acreedor o para un tercero, deberán exigir al beneficiario, en el momento de celebrar el contrato, su identificación tributaria y dejar constancia de ello.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 20935 (2017-08-15): Facturaci&oacute;n - requisitos - Identificaci&oacute;n del adquiriente\nconcepto 0005429 (2000-01-24): &iquest;Est&aacute;n exentos del impuesto de timbre los contratos de concesi&oacute;n y distribuci&oacute;n que se ejecuten mediante el sistema de factura cambiaria?\nconcepto 0008937 (1990-04-18): &iquest;Todos los ahorradores, personas naturales (incluidos los asalariados no declarantes y sujetos no obligados a declarar) deber&aacute;n presentar en la oficina de la Entidad la tarjeta plastificada del Nit, al momento de realizar una operaci&oacute;n comercial?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-20935-2017",
+      "tipo": "oficio",
+      "numero": "20935",
+      "fecha": "2017-08-15",
+      "tema": "Facturaci&oacute;n - requisitos - Identificaci&oacute;n del adquiriente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005429-2000",
+      "tipo": "concepto",
+      "numero": "0005429",
+      "fecha": "2000-01-24",
+      "tema": "&iquest;Est&aacute;n exentos del impuesto de timbre los contratos de concesi&oacute;n y distribuci&oacute;n que se ejecuten mediante el sistema de factura cambiaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008937-1990",
+      "tipo": "concepto",
+      "numero": "0008937",
+      "fecha": "1990-04-18",
+      "tema": "&iquest;Todos los ahorradores, personas naturales (incluidos los asalariados no declarantes y sujetos no obligados a declarar) deber&aacute;n presentar en la oficina de la Entidad la tarjeta plastificada del Nit, al momento de realizar una operaci&oacute;n comercial?",
+      "vigente": true
+    }
+  ]
+}

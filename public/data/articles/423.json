@@ -1,1 +1,160 @@
-{"id_articulo": "Art. 423", "titulo": "Art. 423. Exclusión del impuesto en el territorio intendencial de san Andres y providencia.", "titulo_corto": "Exclusión del impuesto en el territorio intendencial de san Andres y providencia.", "slug": "423", "url_origen": "https://estatuto.co/423", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 1, "contenido_texto": "En la Intendencia Especial (Hoy Departamento) de San Andrés y Providencia no se cobrará impuesto nacional a las ventas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En la Intendencia Especial (Hoy Departamento) de San Andrés y Providencia no se cobrará impuesto nacional a las ventas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["Para la interpretación de este artículo debe tenerse en cuenta lo dispuesto por el artículo 309 de la Constitución Política de 1991, el cual establece: ARTÍCULO 309. Erígense en departamento las Intendencias de Arauca, Casanare, Putumayo, el Archipiélago de San Andrés, Providencia y Santa Catalina, y las Comisarías del Amazonas, Guaviare, Guainía, Vaupés y Vichada. Los bienes y derechos que a cualquier título pertenecían a las intendencias y comisarías continuarán siendo de propiedad de los respectivos departamentos.'"]}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 423",
+  "titulo": "Art. 423. Exclusión del impuesto en el territorio intendencial de san Andres y providencia.",
+  "titulo_corto": "Exclusión del impuesto en el territorio intendencial de san Andres y providencia.",
+  "slug": "423",
+  "url_origen": "https://estatuto.co/423",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "En la Intendencia Especial (Hoy Departamento) de San Andrés y Providencia no se cobrará impuesto nacional a las ventas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En la Intendencia Especial (Hoy Departamento) de San Andrés y Providencia no se cobrará impuesto nacional a las ventas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "Para la interpretación de este artículo debe tenerse en cuenta lo dispuesto por el artículo 309 de la Constitución Política de 1991, el cual establece: ARTÍCULO 309. Erígense en departamento las Intendencias de Arauca, Casanare, Putumayo, el Archipiélago de San Andrés, Providencia y Santa Catalina, y las Comisarías del Amazonas, Guaviare, Guainía, Vaupés y Vichada. Los bienes y derechos que a cualquier título pertenecían a las intendencias y comisarías continuarán siendo de propiedad de los respectivos departamentos.'"
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14211 (2025-10-21): Impuesto Sobre las Ventas - IVA\noficio 7675 (2025-06-12): Impuesto de Timbre",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14211-2025",
+      "tipo": "oficio",
+      "numero": "14211",
+      "fecha": "2025-10-21",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7675-2025",
+      "tipo": "oficio",
+      "numero": "7675",
+      "fecha": "2025-06-12",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24008-2019",
+      "tipo": "oficio",
+      "numero": "24008",
+      "fecha": "2019-09-23",
+      "tema": "Exclusi&oacute;n del impuesto en el territorio intendencial de San Andr&eacute;s y Providencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4793-2019",
+      "tipo": "oficio",
+      "numero": "4793",
+      "fecha": "2019-02-25",
+      "tema": "Causaci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0293-2018",
+      "tipo": "oficio",
+      "numero": "0293",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;La intenci&oacute;n del legislador en que las ventas a San Andr&eacute;s y Providencia, Amazonas, Vaup&eacute;s, Arauca y Vichada no es solamente que no se les cobre el IVA, sino que tambi&eacute;n los bienes que tengan IVA en su costo por la compra para ser enviados se les debe excluir el IVA y esto solo se logra siendo descontable en las compras para cualquier tipo de bienes enviados a los departamentos se&ntilde;alados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26387-2017",
+      "tipo": "oficio",
+      "numero": "26387",
+      "fecha": "2017-09-28",
+      "tema": "&iquest;Cu&aacute;les son los Decretos reglamentarios de la Ley 1819 de 2016 que a la fecha se han expedido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24694-2017",
+      "tipo": "oficio",
+      "numero": "24694",
+      "fecha": "2017-09-13",
+      "tema": "Decretos que reglamentan la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77347-2012",
+      "tipo": "oficio",
+      "numero": "77347",
+      "fecha": "2012-12-12",
+      "tema": "Impuesto sobre las ventas - Prestaci&oacute;n de servicios - Hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73615-2007",
+      "tipo": "oficio",
+      "numero": "73615",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Existe doble tributaci&oacute;n a t&iacute;tulo de impuesto sobre las ventas teniendo en cuenta que cuando las aerol&iacute;neas venden los tiquetes a&eacute;reos a las agencias de viajes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7024-2007",
+      "tipo": "oficio",
+      "numero": "7024",
+      "fecha": "2007-01-31",
+      "tema": "&iquest;La tarifa administrativa establecida en la Resoluci&oacute;n 03596 del 1&ordm; de septiembre de 2006, no est&aacute; sometida a retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta por concepto de servicios, cuando en una misma factura se relacionan varios tiquetes, considerando que la tarifa se cobra por cada tiquete, que su cuant&iacute;a dif&iacute;cilmente alcanzar&aacute; el tope m&iacute;nimo sometido a retenci&oacute;n y que el tiquete a&eacute;reo constituye un documento equivalente a la factura conforme al numeral 3&ordm; del art&iacute;culo 5 del Decreto 1165 de 1996? &iquest;La tarifa administrativa no genera IVA para las ventas de tiquetes a&eacute;reos con origen en San Andr&eacute;s vendidos en el continente, conforme con lo dispuesto en el art&iacute;culo 423 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074577-2005",
+      "tipo": "concepto",
+      "numero": "0074577",
+      "fecha": "2005-10-12",
+      "tema": "&iquest;Cu&aacute;l es el momento de causaci&oacute;n del IVA en la prestaci&oacute;n del servicio de internet adquirido mediante el sistema de tarjetas prepago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016450-1991",
+      "tipo": "concepto",
+      "numero": "0016450",
+      "fecha": "1991-01-01",
+      "tema": "Servicios prestados en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008936-1990",
+      "tipo": "concepto",
+      "numero": "0008936",
+      "fecha": "1990-04-18",
+      "tema": "&iquest;Cu&aacute;les son los impuestos sobre las ventas (IVA), al consumo, etc, que se puedan generar al comercializar en el territorio intendencial de San Andr&eacute;s y Providencia vinos y licores importados a Colombia a granel y envasados para su comercializaci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

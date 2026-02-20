@@ -1,1 +1,404 @@
-{"id_articulo": "Art. 334", "titulo": "Art. 334. Facultades de fiscalización.", "titulo_corto": "Facultades de fiscalización.", "slug": "334", "url_origen": "https://estatuto.co/334", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Para efectos del control de los costos y gastos, la Dirección de Impuestos y Aduanas Nacionales adelantará programas de fiscalización para verificar el cumplimiento de los criterios establecidos en el Estatuto Tributario para efectos de su aceptación.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del control de los costos y gastos, la Dirección de Impuestos y Aduanas Nacionales adelantará programas de fiscalización para verificar el cumplimiento de los criterios establecidos en el Estatuto Tributario para efectos de su aceptación.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 334",
+  "titulo": "Art. 334. Facultades de fiscalización.",
+  "titulo_corto": "Facultades de fiscalización.",
+  "slug": "334",
+  "url_origen": "https://estatuto.co/334",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Para efectos del control de los costos y gastos, la Dirección de Impuestos y Aduanas Nacionales adelantará programas de fiscalización para verificar el cumplimiento de los criterios establecidos en el Estatuto Tributario para efectos de su aceptación.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del control de los costos y gastos, la Dirección de Impuestos y Aduanas Nacionales adelantará programas de fiscalización para verificar el cumplimiento de los criterios establecidos en el Estatuto Tributario para efectos de su aceptación.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 27 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 12496 (2025-09-15): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-12496-2025",
+      "tipo": "oficio",
+      "numero": "12496",
+      "fecha": "2025-09-15",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4979-2017",
+      "tipo": "oficio",
+      "numero": "4979",
+      "fecha": "2017-03-10",
+      "tema": "Aplicaci&oacute;n de retenci&oacute;n en la fuente por IMAS e IMAN durante la vigencia 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0672-2016",
+      "tipo": "oficio",
+      "numero": "0672",
+      "fecha": "2016-07-13",
+      "tema": "&iquest;Puede una persona natural catalogada como empleado acogerse al beneficio de progresividad en el pago del impuesto de renta (Ley 1429 de 2010), por el ejercicio de una actividad econ&oacute;mica complementaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28750-2015",
+      "tipo": "oficio",
+      "numero": "28750",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento impositivo para ciudadanos colombianos que, por intermedio de la asesor&iacute;a de un br&oacute;ker financiero domiciliado en el exterior, invierten recursos fuera de Colombia obteniendo unas ganancias que en unos casos depositan en cuentas bancarias colombianas y en otros en cuentas bancarias extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26191-2015",
+      "tipo": "oficio",
+      "numero": "26191",
+      "fecha": "2015-09-09",
+      "tema": "Impuesto a la Riqueza - Impuesto al Patrimonio - Impuesto sobre la Renta y Complementarios - Presentaci&oacute;n de informaci&oacute;n con relevancia tributaria a trav&eacute;s del Formato 1732",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24178-2015",
+      "tipo": "oficio",
+      "numero": "24178",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Se debe efectuar un estudio sobre las funciones, activos, riesgos y personal involucrados en la obtenci&oacute;n de las rentas y de las ganancias ocasionales atribuidos a ellos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-9112-2015",
+      "tipo": "oficio",
+      "numero": "9112",
+      "fecha": "2015-03-26",
+      "tema": "&iexcl;Cu&aacute;les son los requisitos especiales para la solicitud de devoluci&oacute;n en el caso de los productores de queso fresco de la partida 04.06.10.00 el cual es exento de conformidad con el art&iacute;culo 477 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6240-2015",
+      "tipo": "oficio",
+      "numero": "6240",
+      "fecha": "2015-02-27",
+      "tema": "Se plantea si el empleado al momento de realizar la determinaci&oacute;n de su impuesto a trav&eacute;s del Sistema M&iacute;nimo Alternativo IMAS-(Formulario 230), puede descontar las cesant&iacute;as que le entrega directamente su empleador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67157-2014",
+      "tipo": "oficio",
+      "numero": "67157",
+      "fecha": "2014-12-22",
+      "tema": "Convenio para evitar la doble Imposici&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56986-2014",
+      "tipo": "oficio",
+      "numero": "56986",
+      "fecha": "2014-10-02",
+      "tema": "&iquest;Es necesario que una persona natural presente proyecto de correcci&oacute;n de la declaraci&oacute;n de impuesto de renta, si al momento de presentar la declaraci&oacute;n inicial la liquid&oacute; mediante un sistema diferente al que estaba obligado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54960-2014",
+      "tipo": "oficio",
+      "numero": "54960",
+      "fecha": "2014-09-16",
+      "tema": "Posibilidad para aquellas personas naturales, que pertenezcan a la categor&iacute;a tributaria de empleado, de presentar su declaraci&oacute;n y pagar su impuesto sobre la renta y complementarios bajo el sistema IMAS cuando su Renta Gravable Alternativa (en adelante RGA) sea inferior a 1.548 UVT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48807-2014",
+      "tipo": "oficio",
+      "numero": "48807",
+      "fecha": "2014-08-12",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031992-2006",
+      "tipo": "concepto",
+      "numero": "0031992",
+      "fecha": "2006-04-19",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial de los t&iacute;tulos, bonos, certificados y otros documentos negociables que generan intereses y rendimientos financieros, que no se cotizaron en bolsa durante el &uacute;ltimo mes del periodo gravable, para los contribuyentes no obligados a utilizar sistemas especiales de valoraci&oacute;n de inversiones?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

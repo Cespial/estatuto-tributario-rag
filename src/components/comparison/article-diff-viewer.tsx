@@ -69,40 +69,50 @@ export function ArticleDiffViewer({
             ))}
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[720px] table-fixed border-collapse text-sm">
-              <thead>
-                <tr className="border-b border-border bg-muted/30">
-                  <th className="w-1/2 px-3 py-2 text-left text-xs uppercase tracking-[0.05em] text-muted-foreground">
-                    {oldLabel}
-                  </th>
-                  <th className="w-1/2 px-3 py-2 text-left text-xs uppercase tracking-[0.05em] text-muted-foreground">
-                    {newLabel}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((row) => (
-                  <tr
-                    key={row.id}
-                    id={`diff-${row.id}`}
-                    className={clsx(
-                      "align-top border-b border-border/50",
-                      row.changeType === "added" && "bg-emerald-50/70 dark:bg-emerald-950/20",
-                      row.changeType === "removed" && "bg-red-50/70 dark:bg-red-950/20",
-                      row.changeType === "modified" && "bg-amber-50/70 dark:bg-amber-950/20"
+          <div className="rounded-lg border border-border bg-card overflow-hidden">
+            <div className="grid grid-cols-2 border-b border-border bg-muted/50 font-medium text-xs uppercase tracking-wider text-muted-foreground">
+              <div className="px-4 py-2 border-r border-border">{oldLabel}</div>
+              <div className="px-4 py-2">{newLabel}</div>
+            </div>
+            <div className="divide-y divide-border/40">
+              {rows.map((row) => (
+                <div
+                  key={row.id}
+                  id={`diff-${row.id}`}
+                  className={clsx(
+                    "grid grid-cols-2 group",
+                    row.changeType === "added" && "bg-emerald-50/40 dark:bg-emerald-950/10",
+                    row.changeType === "removed" && "bg-red-50/40 dark:bg-red-950/10",
+                    row.changeType === "modified" && "bg-amber-50/40 dark:bg-amber-950/10"
+                  )}
+                >
+                  <div className="px-4 py-3 text-sm leading-relaxed border-r border-border/40 min-h-[1.5rem] whitespace-pre-wrap font-sans">
+                    {row.changeType === "added" ? (
+                      <span className="opacity-0">—</span>
+                    ) : (
+                      <span className={clsx(
+                        row.changeType === "removed" && "text-red-900 dark:text-red-200 line-through decoration-red-500/50",
+                        row.changeType === "modified" && "text-amber-900 dark:text-amber-200"
+                      )}>
+                        {row.leftText}
+                      </span>
                     )}
-                  >
-                    <td className="px-3 py-2 text-foreground">
-                      {row.leftText || <span className="text-muted-foreground">—</span>}
-                    </td>
-                    <td className="px-3 py-2 text-foreground">
-                      {row.rightText || <span className="text-muted-foreground">—</span>}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+                  </div>
+                  <div className="px-4 py-3 text-sm leading-relaxed min-h-[1.5rem] whitespace-pre-wrap font-sans">
+                    {row.changeType === "removed" ? (
+                      <span className="opacity-0">—</span>
+                    ) : (
+                      <span className={clsx(
+                        row.changeType === "added" && "text-emerald-900 dark:text-emerald-200 font-medium",
+                        row.changeType === "modified" && "text-amber-900 dark:text-amber-200 font-medium"
+                      )}>
+                        {row.rightText}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         )}
       </div>

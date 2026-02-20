@@ -1,1 +1,101 @@
-{"id_articulo": "Art. 416", "titulo": "Art. 416. Los intereses sobre deuda externa pagados por la nación no están sometidos a retención.", "titulo_corto": "Los intereses sobre deuda externa pagados por la nación no están sometidos a retención.", "slug": "416", "url_origen": "https://estatuto.co/416", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El pago por la Nación y demás entidades de derecho público del principal, intereses, comisiones y demás gastos correspondientes a empréstitos y títulos de deuda externa, no están sujetos a retención en la fuente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago por la Nación y demás entidades de derecho público del principal, intereses, comisiones y demás gastos correspondientes a empréstitos y títulos de deuda externa, no están sujetos a retención en la fuente.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 416",
+  "titulo": "Art. 416. Los intereses sobre deuda externa pagados por la nación no están sometidos a retención.",
+  "titulo_corto": "Los intereses sobre deuda externa pagados por la nación no están sometidos a retención.",
+  "slug": "416",
+  "url_origen": "https://estatuto.co/416",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El pago por la Nación y demás entidades de derecho público del principal, intereses, comisiones y demás gastos correspondientes a empréstitos y títulos de deuda externa, no están sujetos a retención en la fuente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago por la Nación y demás entidades de derecho público del principal, intereses, comisiones y demás gastos correspondientes a empréstitos y títulos de deuda externa, no están sujetos a retención en la fuente.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000577 (2020-10-28): (9510) Persona natural no residente en el pa&iacute;s, obligada a presentar declaraci&oacute;n del impuesto sobre la renta\noficio 5837 (2015-01-01): &iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta aplicable a los pagos al exterior efectuados por concepto de intereses generados en pr&eacute;stamos superiores e inferiores a 1 a&ntilde;o?\noficio 52276 (2013-08-21): Obligaciones tributarias que corresponden por la prestaci&oacute;n de servicios de una sociedad an&oacute;nima simplificada que se constituye en Colombia, la cual tiene una relaci&oacute;n comercial con una empresa extranjera\nconcepto 0014336 (1999-09-15): &iquest;Los servicios de transporte terrestre prestados totalmente en el exterior, constituyen renta de fuente nacional, y en consecuencia est&aacute;n sometidos a retenci&oacute;n en la fuente?&iquest;Los servicios de embalaje de mercanc&iacute;as que van a ser importadas al territorio colombiano, que son prestados totalmente en el exterior, causan IVA en Colombia y est&aacute;n sujetos a retenci&oacute;n en la fuente?\nconcepto 0014327 (1999-01-01): ",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-185-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "185",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000577-2020",
+      "tipo": "concepto",
+      "numero": "0000577",
+      "fecha": "2020-10-28",
+      "tema": "(9510) Persona natural no residente en el pa&iacute;s, obligada a presentar declaraci&oacute;n del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5837-2015",
+      "tipo": "oficio",
+      "numero": "5837",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta aplicable a los pagos al exterior efectuados por concepto de intereses generados en pr&eacute;stamos superiores e inferiores a 1 a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52276-2013",
+      "tipo": "oficio",
+      "numero": "52276",
+      "fecha": "2013-08-21",
+      "tema": "Obligaciones tributarias que corresponden por la prestaci&oacute;n de servicios de una sociedad an&oacute;nima simplificada que se constituye en Colombia, la cual tiene una relaci&oacute;n comercial con una empresa extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014336-1999",
+      "tipo": "concepto",
+      "numero": "0014336",
+      "fecha": "1999-09-15",
+      "tema": "&iquest;Los servicios de transporte terrestre prestados totalmente en el exterior, constituyen renta de fuente nacional, y en consecuencia est&aacute;n sometidos a retenci&oacute;n en la fuente?&iquest;Los servicios de embalaje de mercanc&iacute;as que van a ser importadas al territorio colombiano, que son prestados totalmente en el exterior, causan IVA en Colombia y est&aacute;n sujetos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014327-1999",
+      "tipo": "concepto",
+      "numero": "0014327",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013186-1991",
+      "tipo": "concepto",
+      "numero": "0013186",
+      "fecha": "1991-01-01",
+      "tema": "Retenci&oacute;n sobre pago de fletes a empresas navieras extranjeras sin domicilio en Colombia y su obligaci&oacute;n",
+      "vigente": true
+    }
+  ]
+}

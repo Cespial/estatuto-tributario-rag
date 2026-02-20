@@ -1,1 +1,159 @@
-{"id_articulo": "Art. 578", "titulo": "Art. 578. Utilización de formularios.", "titulo_corto": "Utilización de formularios.", "slug": "578", "url_origen": "https://estatuto.co/578", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La declaración tributaria se presentará en los formatos que prescriba la Dirección General de Impuestos Nacionales. (UAE - Dirección de Impuestos y Aduanas Nacionales) En circunstancias excepcionales, el Director de Impuestos Nacionales, podrá autorizar la recepción de declaraciones que no se presenten en los formularios oficiales. *Parágrafo. A partir del año 2001 la DIAN reajustará los precios de los formularios para la declaración y pago de anticipos, retenciones e impuestos, hasta dos (2) veces la tasa de inflación registrada en el año inmediatamente anterior.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La declaración tributaria se presentará en los formatos que prescriba la Dirección General de Impuestos Nacionales. (UAE - Dirección de Impuestos y Aduanas Nacionales) En circunstancias excepcionales, el Director de Impuestos Nacionales, podrá autorizar la recepción de declaraciones que no se presenten en los formularios oficiales.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*Parágrafo.</span> </span></strong>A partir del año 2001 la DIAN reajustará los precios de los formularios para la declaración y pago de anticipos, retenciones e impuestos, hasta dos (2) veces la tasa de inflación registrada en el año inmediatamente anterior.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 633 de 2000 Art. 117.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "117"}], "total_modificaciones": 1, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 578",
+  "titulo": "Art. 578. Utilización de formularios.",
+  "titulo_corto": "Utilización de formularios.",
+  "slug": "578",
+  "url_origen": "https://estatuto.co/578",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La declaración tributaria se presentará en los formatos que prescriba la Dirección General de Impuestos Nacionales. (UAE - Dirección de Impuestos y Aduanas Nacionales) En circunstancias excepcionales, el Director de Impuestos Nacionales, podrá autorizar la recepción de declaraciones que no se presenten en los formularios oficiales. *Parágrafo. A partir del año 2001 la DIAN reajustará los precios de los formularios para la declaración y pago de anticipos, retenciones e impuestos, hasta dos (2) veces la tasa de inflación registrada en el año inmediatamente anterior.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La declaración tributaria se presentará en los formatos que prescriba la Dirección General de Impuestos Nacionales. (UAE - Dirección de Impuestos y Aduanas Nacionales) En circunstancias excepcionales, el Director de Impuestos Nacionales, podrá autorizar la recepción de declaraciones que no se presenten en los formularios oficiales.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*Parágrafo.</span> </span></strong>A partir del año 2001 la DIAN reajustará los precios de los formularios para la declaración y pago de anticipos, retenciones e impuestos, hasta dos (2) veces la tasa de inflación registrada en el año inmediatamente anterior.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 633 de 2000 Art. 117.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "117"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13294 (2025-10-01): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13294-2025",
+      "tipo": "oficio",
+      "numero": "13294",
+      "fecha": "2025-10-01",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5038-2020",
+      "tipo": "oficio",
+      "numero": "5038",
+      "fecha": "2020-03-09",
+      "tema": "Correcci&oacute;n de Errores e Inconsistencias en Declaraciones - Declaraci&oacute;n del Impuesto Sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32112-2019",
+      "tipo": "oficio",
+      "numero": "32112",
+      "fecha": "2019-12-31",
+      "tema": "Anticipo de impuesto, liquidado como contribuyente de Impuesto a la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9218-2019",
+      "tipo": "oficio",
+      "numero": "9218",
+      "fecha": "2019-04-12",
+      "tema": "En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1930-2019",
+      "tipo": "oficio",
+      "numero": "1930",
+      "fecha": "2019-01-23",
+      "tema": "Declaraci&oacute;n anual y pago del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36397-2012",
+      "tipo": "oficio",
+      "numero": "36397",
+      "fecha": "2012-06-07",
+      "tema": "&iquest;La fecha a partir de la cual estar&iacute;a obligado a llevar contabilidad conforme lo establecido en el Decreto 4910 de 2011, si se formaliza como empresa para acogerse a lo establecido en la Ley 1429 de 2010?&iquest;Lo dispuesto en el Decreto 4910 de 2011 aplica tambi&eacute;n para empresas constituidas antes de la expedici&oacute;n del mencionado decreto, por profesionales independientes que realizan actividades liberales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60989-2011",
+      "tipo": "oficio",
+      "numero": "60989",
+      "fecha": "2011-08-12",
+      "tema": "&iquest;Las Resoluciones 014096 del 30 de diciembre de 2010 y 0322 del 17 de enero de 2011 que prescriben los formularios para la presentaci&oacute;n de declaraciones del impuesto sobre las ventas y retenci&oacute;n en la fuente para el a&ntilde;o 2011 respectivamente, dejan vigentes los formularios para declarar 300 y 350, prescritos para a&ntilde;os anteriores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16660-2011",
+      "tipo": "oficio",
+      "numero": "16660",
+      "fecha": "2011-03-09",
+      "tema": "&iquest;Por qu&eacute; no se pueden utilizar formularios de declaraciones de impuestos en periodos anteriores al actual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071502-2005",
+      "tipo": "concepto",
+      "numero": "0071502",
+      "fecha": "2005-10-04",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para subsanar el incumplimiento del deber de presentar la declaraci&oacute;n del impuesto sobre la renta y complementarios en el formulario que se&ntilde;ala la direcci&oacute;n de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035333-2002",
+      "tipo": "concepto",
+      "numero": "0035333",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Las declaraciones tributarias presentadas en formulario no autorizado por la Direcci&oacute;n de Impuestos y Aduanas Nacionales, pero diferente al indicado, se tiene como no presentada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023225-2002",
+      "tipo": "concepto",
+      "numero": "0023225",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;En qu&eacute; regl&oacute;n del formulario de la declaraci&oacute;n de renta y complementarios, deben las entidades con r&eacute;gimen tributario especial registrar la suma del excedente del ejercicio econ&oacute;mico o beneficio neto y su tratamiento tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035686-2000",
+      "tipo": "concepto",
+      "numero": "0035686",
+      "fecha": "2000-04-12",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir para subsanar la inconsistencia relacionada con la omisi&oacute;n de informar la actividad econ&oacute;mica en las declaraciones de ventas o retenci&oacute;n por los a&ntilde;os 1998 y anteriores, teniendo en cuenta que a partir de 1999,",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

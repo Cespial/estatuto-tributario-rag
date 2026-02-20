@@ -1,1 +1,320 @@
-{"id_articulo": "Art. 81", "titulo": "Art. 81. Parte del componente inflacionario no constituye costo.", "titulo_corto": "Parte del componente inflacionario no constituye costo.", "slug": "81", "url_origen": "https://estatuto.co/81", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "No constituirá costo el componente inflacionario de los intereses y demás costos y gastos financieros, incluidos los ajustes por diferencia en cambio, en el porcentaje que se indica a continuación: 30% para los años gravables 1989, 1990 y 1991 40% para el año gravable 1992 50% para el año gravable 1993 60% para el año gravable 1994 70% para el año gravable 1995 80% para el año gravable 1996 90% para el año gravable 1997 100% para los años gravables de 1998 y siguientes. *Incisos 2 y 3 Parágrafo 1. Lo dispuesto en este artículo no será aplicable a los créditos de constructores que otorgan las corporaciones de ahorro y vivienda, y a los intermediarios financieros que capten y coloquen masivamente y en forma regular dineros del público y que sean vigilados por la Superintendencia Bancaria. **Parágrafo 2.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No constituirá costo el componente inflacionario de los intereses y demás costos y gastos financieros, incluidos los ajustes por diferencia en cambio, en el porcentaje que se indica a continuación:</p>\n<p>30% para los años gravables 1989, 1990 y 1991<br/>\n40% para el año gravable 1992<br/>\n50% para el año gravable 1993<br/>\n60% para el año gravable 1994<br/>\n70% para el año gravable 1995<br/>\n80% para el año gravable 1996<br/>\n90% para el año gravable 1997<br/>\n100% para los años gravables de 1998 y siguientes.</p>\n<p><strong>*Incisos 2 y 3</strong></p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo 1.</span></span></strong> Lo dispuesto en este artículo no será aplicable a los créditos de constructores que otorgan las corporaciones de ahorro y vivienda, y a los intermediarios financieros que capten y coloquen masivamente y en forma regular dineros del público y que sean vigilados por la Superintendencia Bancaria.</p>\n<p><span style=\"color: #339966;\"><strong><span class=\"verde\">**Parágrafo 2.</span></strong></span></p>\n</span>", "modificaciones_raw": "Reviviscencia expresa declarada por la Ley 2010 de 2019Art 160 Artículo Derogado Ley 1943 de 2018 Art 122 *- Incisos 2 y 3 Derogado por la Ley 223 de 1995 Art. 76 ** -Derogado por la Ley 1111 de 2006 Art. 78 COMPONENTE INFLACIONARIO QUE NO CONSTITUYE COSTO NI DEDUCCION Año Gravable No constituye costo ni deducción para el año gravable Normatividad 2006 23.89 % Decreto 873 de 2007 2007 28.77 % Decreto 636 de 2008 2008 35.28 % Decreto 850 de 2009 2009 10.95 % Decreto 610 de 2010 2010 21.49 % Decreto 858 de 2011", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "76"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "78"}], "total_modificaciones": 3, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1943 de 2018", "Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["81-1", "118"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 81",
+  "titulo": "Art. 81. Parte del componente inflacionario no constituye costo.",
+  "titulo_corto": "Parte del componente inflacionario no constituye costo.",
+  "slug": "81",
+  "url_origen": "https://estatuto.co/81",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "No constituirá costo el componente inflacionario de los intereses y demás costos y gastos financieros, incluidos los ajustes por diferencia en cambio, en el porcentaje que se indica a continuación: 30% para los años gravables 1989, 1990 y 1991 40% para el año gravable 1992 50% para el año gravable 1993 60% para el año gravable 1994 70% para el año gravable 1995 80% para el año gravable 1996 90% para el año gravable 1997 100% para los años gravables de 1998 y siguientes. *Incisos 2 y 3 Parágrafo 1. Lo dispuesto en este artículo no será aplicable a los créditos de constructores que otorgan las corporaciones de ahorro y vivienda, y a los intermediarios financieros que capten y coloquen masivamente y en forma regular dineros del público y que sean vigilados por la Superintendencia Bancaria. **Parágrafo 2.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No constituirá costo el componente inflacionario de los intereses y demás costos y gastos financieros, incluidos los ajustes por diferencia en cambio, en el porcentaje que se indica a continuación:</p>\n<p>30% para los años gravables 1989, 1990 y 1991<br/>\n40% para el año gravable 1992<br/>\n50% para el año gravable 1993<br/>\n60% para el año gravable 1994<br/>\n70% para el año gravable 1995<br/>\n80% para el año gravable 1996<br/>\n90% para el año gravable 1997<br/>\n100% para los años gravables de 1998 y siguientes.</p>\n<p><strong>*Incisos 2 y 3</strong></p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo 1.</span></span></strong> Lo dispuesto en este artículo no será aplicable a los créditos de constructores que otorgan las corporaciones de ahorro y vivienda, y a los intermediarios financieros que capten y coloquen masivamente y en forma regular dineros del público y que sean vigilados por la Superintendencia Bancaria.</p>\n<p><span style=\"color: #339966;\"><strong><span class=\"verde\">**Parágrafo 2.</span></strong></span></p>\n</span>",
+  "modificaciones_raw": "Reviviscencia expresa declarada por la Ley 2010 de 2019Art 160 Artículo Derogado Ley 1943 de 2018 Art 122 *- Incisos 2 y 3 Derogado por la Ley 223 de 1995 Art. 76 ** -Derogado por la Ley 1111 de 2006 Art. 78 COMPONENTE INFLACIONARIO QUE NO CONSTITUYE COSTO NI DEDUCCION Año Gravable No constituye costo ni deducción para el año gravable Normatividad 2006 23.89 % Decreto 873 de 2007 2007 28.77 % Decreto 636 de 2008 2008 35.28 % Decreto 850 de 2009 2009 10.95 % Decreto 610 de 2010 2010 21.49 % Decreto 858 de 2011",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "76"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "78"
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1943 de 2018",
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "81-1",
+    "118"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 12 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 912416 (2021-10-06): Documento soporte de n&oacute;mina electr&oacute;nica",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-912416-2021",
+      "tipo": "oficio",
+      "numero": "912416",
+      "fecha": "2021-10-06",
+      "tema": "Documento soporte de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2020",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;A partir de qu&eacute; a&ntilde;o gravable aplica la reviviscencia expresa de que trata el inciso 3 del art&iacute;culo 160 de la Ley 2010 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16785-2019",
+      "tipo": "oficio",
+      "numero": "16785",
+      "fecha": "2019-06-28",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 235-2 del Estatuto Tributario, relacionado con la posibilidad de aplicar la exenci&oacute;n prevista para las rentas de que trata el art&iacute;culo 16 de la Ley 546 de 1999",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4862-2019",
+      "tipo": "oficio",
+      "numero": "4862",
+      "fecha": "2019-02-26",
+      "tema": "Ingresos por Rendimientos Financieros en lo referido a un CDT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1205-2018",
+      "tipo": "oficio",
+      "numero": "1205",
+      "fecha": "2018-01-18",
+      "tema": "Retenci&oacute;n en la fuente por parte de las agencias retenedoras del Estado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16163-2016",
+      "tipo": "oficio",
+      "numero": "16163",
+      "fecha": "2016-06-22",
+      "tema": "Rendimientos Financieros - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6889-2016",
+      "tipo": "oficio",
+      "numero": "6889",
+      "fecha": "2016-03-28",
+      "tema": "Componente Inflacionario de los Costos y Gastos Financieros - Componente Inflacionario de los Rendimientos - Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49488-2014",
+      "tipo": "oficio",
+      "numero": "49488",
+      "fecha": "2014-08-15",
+      "tema": "Vigencia Decreto 535 de 1987",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95986-2007",
+      "tipo": "oficio",
+      "numero": "95986",
+      "fecha": "2007-11-22",
+      "tema": "Componente inflacionario, Ingresos por rendimientos financieros, Deducci&oacute;n de gastos financieros, R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59867-2007",
+      "tipo": "oficio",
+      "numero": "59867",
+      "fecha": "2007-08-03",
+      "tema": "&iquest;Cu&aacute;l es le tratamiento a partir del 1&ordm; de enero de 2007 del componente inflacionario de los rendimientos, costos y gastos financieros en las sociedades obligadas a efectuar ajustes integrales por inflaci&oacute;n, ante la supresi&oacute;n total de dicho sistema?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048168-2006",
+      "tipo": "concepto",
+      "numero": "0048168",
+      "fecha": "2006-06-07",
+      "tema": "&iquest;Los intereses que paga un inversionista obligado a efectuar ajustes por inflaci&oacute;n, sobre los pr&eacute;stamos obtenidos para la compra de acciones y aportes pueden ser deducidos en su totalidad en los t&eacute;rminos de lo dispuesto en el art&iacute;culo 349 del Estatuto Tributario, o se encuentran sometidos a la limitaci&oacute;n de que trata el art&iacute;culo 177-1 ib&iacute;dem?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061189-2005",
+      "tipo": "concepto",
+      "numero": "0061189",
+      "fecha": "2005-09-02",
+      "tema": "&iquest;para efectos de determinar el beneficio neto o excedente, los contribuyentes que pertenecen al r&eacute;gimen tributario especial deben declarar como ingreso gravable el componente inflacionario de los rendimientos financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002051-1998",
+      "tipo": "concepto",
+      "numero": "0002051",
+      "fecha": "1998-01-15",
+      "tema": "&iquest;Los productos compactos (crema) y s&oacute;lidos (tacos), utilizados a nivel dom&eacute;stico (lavaplatos), son considerados jab&oacute;n en barra para lavar, exentos de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036720-1997",
+      "tipo": "concepto",
+      "numero": "0036720",
+      "fecha": "1997-05-02",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020416-1997",
+      "tipo": "concepto",
+      "numero": "0020416",
+      "fecha": "1997-10-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014277-1995",
+      "tipo": "concepto",
+      "numero": "0014277",
+      "fecha": "1995-03-16",
+      "tema": "&iquest;Los intereses pagados a proveedores por el no pago oportuno de sus facturas o financiaci&oacute;n extraordinaria son deducibles?&iquest;Son deducibles los intereses pagados por concepto de un sobregiro bancario?&iquest;En los contratos, mediante acuerdo, una de las partes intervinientes asume el pago de la totalidad de los impuestos de timbre, industria y comercio, retenci&oacute;n en la fuente y dem&aacute;s gastos. Si el comprador paga la parte de los impuestos a cargo del vendedor, los puede deducir de su renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012341-1993",
+      "tipo": "concepto",
+      "numero": "0012341",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002317-1990",
+      "tipo": "concepto",
+      "numero": "0002317",
+      "fecha": "1990-01-25",
+      "tema": "Qu&eacute; sucede con el 50% que no es objeto de retenci&oacute;n a t&iacute;tulo del IVA en compras al r&eacute;gimen simplificado?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

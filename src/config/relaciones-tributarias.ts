@@ -15,6 +15,7 @@ export interface ObligacionRelacion {
   calculadoraHref: string;
   relatedIndicatorIds: string[];
   relatedNovedadIds: string[];
+  articulosET?: string[];
 }
 
 const RELACIONES_EXPLICITAS: Record<string, Omit<ObligacionRelacion, "etiqueta" | "badgeClassName" | "puntoClassName">> = {
@@ -23,78 +24,91 @@ const RELACIONES_EXPLICITAS: Record<string, Omit<ObligacionRelacion, "etiqueta" 
     calculadoraHref: "/calculadoras/renta",
     relatedIndicatorIds: ["uvt", "smlmv", "ipc"],
     relatedNovedadIds: ["nov-001", "nov-002", "nov-004"],
+    articulosET: ["7", "241", "383", "387", "388"],
   },
   "Declaracion de Renta Personas Juridicas": {
     tipoObligacion: "renta",
     calculadoraHref: "/calculadoras/renta-juridicas",
     relatedIndicatorIds: ["uvt", "trm", "usura"],
     relatedNovedadIds: ["nov-001", "nov-004", "nov-021"],
+    articulosET: ["12", "240", "260-1"],
   },
   "Retencion en la Fuente (mensual)": {
     tipoObligacion: "retencion",
     calculadoraHref: "/calculadoras/retencion",
     relatedIndicatorIds: ["uvt", "smlmv"],
     relatedNovedadIds: ["nov-001", "nov-025"],
+    articulosET: ["375", "376", "383"],
   },
   "IVA Bimestral": {
     tipoObligacion: "iva",
     calculadoraHref: "/calculadoras/iva",
     relatedIndicatorIds: ["uvt", "trm"],
     relatedNovedadIds: ["nov-001", "nov-005"],
+    articulosET: ["420", "437", "600"],
   },
   "IVA Cuatrimestral": {
     tipoObligacion: "iva",
     calculadoraHref: "/calculadoras/iva",
     relatedIndicatorIds: ["uvt", "trm"],
     relatedNovedadIds: ["nov-001", "nov-005"],
+    articulosET: ["420", "437", "600"],
   },
   "SIMPLE Anticipo Bimestral": {
     tipoObligacion: "simple",
     calculadoraHref: "/calculadoras/simple",
     relatedIndicatorIds: ["uvt", "smlmv"],
     relatedNovedadIds: ["nov-004", "nov-012"],
+    articulosET: ["903", "908", "910"],
   },
   "SIMPLE Declaracion Anual": {
     tipoObligacion: "simple",
     calculadoraHref: "/calculadoras/simple",
     relatedIndicatorIds: ["uvt", "smlmv"],
     relatedNovedadIds: ["nov-004", "nov-012"],
+    articulosET: ["903", "908", "910"],
   },
   "ICA Bogota Bimestral": {
     tipoObligacion: "ica",
     calculadoraHref: "/calculadoras/ica",
     relatedIndicatorIds: ["uvt", "ipc"],
     relatedNovedadIds: ["nov-028"],
+    articulosET: ["115"],
   },
   "Impuesto al Patrimonio": {
     tipoObligacion: "patrimonio",
     calculadoraHref: "/calculadoras/patrimonio",
     relatedIndicatorIds: ["uvt", "trm"],
     relatedNovedadIds: ["nov-007", "nov-027"],
+    articulosET: ["292-3", "295-3"],
   },
   "Activos en el Exterior": {
     tipoObligacion: "informativa",
     calculadoraHref: "/calculadoras/renta",
     relatedIndicatorIds: ["trm", "uvt"],
     relatedNovedadIds: ["nov-001"],
+    articulosET: ["607"],
   },
   "Grandes Contribuyentes Renta - Primera Cuota": {
     tipoObligacion: "renta",
     calculadoraHref: "/calculadoras/renta-juridicas",
     relatedIndicatorIds: ["uvt", "trm", "usura"],
     relatedNovedadIds: ["nov-001", "nov-004"],
+    articulosET: ["574", "579"],
   },
   "Grandes Contribuyentes Renta - Segunda Cuota": {
     tipoObligacion: "renta",
     calculadoraHref: "/calculadoras/renta-juridicas",
     relatedIndicatorIds: ["uvt", "trm", "usura"],
     relatedNovedadIds: ["nov-001", "nov-004"],
+    articulosET: ["574", "579"],
   },
   "GMF Declaracion Informativa": {
     tipoObligacion: "informativa",
     calculadoraHref: "/calculadoras/gmf",
     relatedIndicatorIds: ["uvt", "trm"],
     relatedNovedadIds: ["nov-001"],
+    articulosET: ["871"],
   },
 };
 
@@ -170,6 +184,7 @@ export function getRelacionObligacion(obligacion: string): ObligacionRelacion {
     calculadoraHref: explicita?.calculadoraHref ?? "/calculadoras",
     relatedIndicatorIds: explicita?.relatedIndicatorIds ?? ["uvt"],
     relatedNovedadIds: explicita?.relatedNovedadIds ?? ["nov-001"],
+    articulosET: explicita?.articulosET,
   };
 }
 

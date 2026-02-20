@@ -1,1 +1,236 @@
-{"id_articulo": "Art. 110", "titulo": "Art. 110. Deducción de cesantías consolidadas.", "titulo_corto": "Deducción de cesantías consolidadas.", "slug": "110", "url_origen": "https://estatuto.co/110", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los contribuyentes que lleven libros de contabilidad por el sistema de causación, deducen las cesantías consolidadas que dentro del año o período gravable se hayan causado y reconocido irrevocablemente en favor de los trabajadores.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes que lleven libros de contabilidad por el sistema de causación, deducen las cesantías consolidadas que dentro del año o período gravable se hayan causado y reconocido irrevocablemente en favor de los trabajadores.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 110",
+  "titulo": "Art. 110. Deducción de cesantías consolidadas.",
+  "titulo_corto": "Deducción de cesantías consolidadas.",
+  "slug": "110",
+  "url_origen": "https://estatuto.co/110",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los contribuyentes que lleven libros de contabilidad por el sistema de causación, deducen las cesantías consolidadas que dentro del año o período gravable se hayan causado y reconocido irrevocablemente en favor de los trabajadores.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes que lleven libros de contabilidad por el sistema de causación, deducen las cesantías consolidadas que dentro del año o período gravable se hayan causado y reconocido irrevocablemente en favor de los trabajadores.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 9 concepto(s) relacionado(s). Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9485-2024",
+      "tipo": "oficio",
+      "numero": "9485",
+      "fecha": "2024-11-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900657-2022",
+      "tipo": "oficio",
+      "numero": "900657",
+      "fecha": "2022-01-31",
+      "tema": "Reporte de cesant&iacute;as para efectos de la n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912416-2021",
+      "tipo": "oficio",
+      "numero": "912416",
+      "fecha": "2021-10-06",
+      "tema": "Documento soporte de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1535-2019",
+      "tipo": "oficio",
+      "numero": "1535",
+      "fecha": "2019-07-25",
+      "tema": "(Int 1535) Inscripci&oacute;n en el Registro &Uacute;nico Tributario (RUT) de los concejos municipales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29909-2019",
+      "tipo": "oficio",
+      "numero": "29909",
+      "fecha": "2019-11-28",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2019",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2019-11-28",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33631-2018",
+      "tipo": "oficio",
+      "numero": "33631",
+      "fecha": "2018-11-19",
+      "tema": "&iquest;El Derecho de Usufructo Vitalicio forma parte del patrimonio bruto de una persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57035-2013",
+      "tipo": "oficio",
+      "numero": "57035",
+      "fecha": "2013-09-10",
+      "tema": "&iquest;Est&aacute; sometida al r&eacute;gimen de precios de transferencia una sociedad en Colombia que efect&uacute;a ventas a naves de bandera extranjera que atracan en puertos colombianos y cuyas contraprestaciones se derivan de las relaciones con las agencias mar&iacute;timas internacionales y que realiza el recaudo de sus ventas a trav&eacute;s de un trader o agentes de recaudo, con los que no tiene v&iacute;nculo comercial ni econ&oacute;mico?&iquest;Est&aacute; sometida al r&eacute;gimen de precios de transferencia la sociedad en Colombia que realiza la operaci&oacute;n de venta a una agencia mar&iacute;tima nacional, que representa al armador (due&ntilde;o del buque), quien es el beneficiario de la venta, no configur&aacute;ndose el hecho econ&oacute;mico de venta a una sociedad en el exterior, por no presentarse la figura de la exportaci&oacute;n propiamente dicha?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54609-2008",
+      "tipo": "oficio",
+      "numero": "54609",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A ra&iacute;z de la expedici&oacute;n de la citada resoluci&oacute;n 422 se entiende que el exportador es el distribuidor mayorista que vende a los buques (sic) los combustibles para viajes internacionales y no el buque que se reaprovisiona, y por lo tanto es a &eacute;l a quien corresponde adelantar los procesos de devoluci&oacute;n del IVA ante la DIAN?&iquest;Este beneficio debe aplicarse tanto para el reaprovisionamiento de combustible (diesel marino) que se hace en territorio aduanero, enti&eacute;ndese que no salen del territorio nacional, como para el reaprovisionamiento que se realiza en &eacute;ste, cuando los buques salen del pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071967-2001",
+      "tipo": "concepto",
+      "numero": "0071967",
+      "fecha": "2001-08-09",
+      "tema": "&iquest;Procede la devoluci&oacute;n de IVA por reaprovisionamiento de combustibles para buques en transito internacional?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-993-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "993",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ]
+}

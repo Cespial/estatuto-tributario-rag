@@ -1,1 +1,367 @@
-{"id_articulo": "Art. 574", "titulo": "Art. 574. Clases de declaraciones.", "titulo_corto": "Clases de declaraciones.", "slug": "574", "url_origen": "https://estatuto.co/574", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "Los contribuyentes, responsables y agentes de retención en la fuente, deberán presentar las siguientes declaraciones tributarias: *1. Declaración anual del impuesto sobre la renta y complementarios, cuando de conformidad con las normas vigentes, estén obligados a declarar o, declaración anual del monotributo cuando opte por este régimen. **2. Declaración bimestral del impuesto sobre las ventas, para los responsables de este impuesto que pertenezcan al régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)>. **3. Declaración mensual de retenciones en la fuente, para los agentes retenedores del impuesto sobre la renta y complementarios, del impuesto sobre las ventas, y del impuesto de timbre nacional. 4. Declaración del impuesto de timbre, para los documentos y actos sometidos a dicho impuesto. ***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\". ****5. Declaración anual de activos en el exterior. *****Igualmente la administración podrá exigir una declaración resumen de retenciones y del impuesto sobre las ventas. **Parágrafo 1. Sin perjuicio de lo dispuesto en los numerales 2 y 3 del presente artículo, las entidades no contribuyentes del impuesto sobre la renta y complementarios, deberán presentar una declaración anual de ingresos y patrimonio, salvo que hayan sido expresamente exceptuadas en el artículo 598.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes, responsables y agentes de retención en la fuente, deberán presentar las siguientes declaraciones tributarias:</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*</span>1.</span> </strong>Declaración anual del impuesto sobre la renta y complementarios, cuando de conformidad con las normas vigentes, estén obligados a declarar o, declaración anual del monotributo cuando opte por este régimen.</p>\n<p><strong><span style=\"color: #339966;\">**2.</span> </strong>Declaración bimestral del impuesto sobre las ventas, para los responsables de este impuesto que pertenezcan al <span style=\"color: #339966;\"><del>régimen común </del></span>&lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt;.</p>\n<p><strong><span style=\"color: #339966;\">**3.</span> </strong>Declaración mensual de retenciones en la fuente, para los agentes retenedores del impuesto sobre la renta y complementarios, del impuesto sobre las ventas, y del impuesto de timbre nacional.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Declaración del impuesto de timbre, para los documentos y actos sometidos a dicho impuesto.</p>\n<p class=\"p1\"><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>***</strong></span>4. Declaración anual del Impuesto Mínimo Alternativo Simple <span class=\"s1\">\"IMAS\".</span></del></span></p>\n<p class=\"p1\"><span class=\"s1\"><strong><span style=\"color: #339966;\"><span class=\"verde\">****</span>5.</span> </strong>Declaración anual de activos en el exterior.</span></p>\n<p>*****Igualmente la administración podrá exigir una declaración resumen de retenciones y del impuesto sobre las ventas.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**Parágrafo 1. </span></span></strong>Sin perjuicio de lo dispuesto en los numerales 2 y 3 del presente artículo, las entidades no contribuyentes del impuesto sobre la renta y complementarios, deberán presentar una declaración anual de ingresos y patrimonio, salvo que hayan sido expresamente exceptuadas en el <a href=\"https://estatuto.co/598\" rel=\"noopener\" target=\"_blank\">artículo 598</a>.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 166. **Modificado Ley 223 de 1995 Art 28. ***Derogado Ley 1819 de 2016 Art 376. ****Adicionado- Ley 1739 de 2014 Art 42.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "166"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "28"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "376"}], "total_modificaciones": 3, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 223 de 1995"], "texto_derogado": ["régimen común", "***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\"."], "texto_derogado_parsed": [{"index": 0, "snippet": "régimen común", "full_length": 13}, {"index": 1, "snippet": "***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\".", "full_length": 70}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["598"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 574",
+  "titulo": "Art. 574. Clases de declaraciones.",
+  "titulo_corto": "Clases de declaraciones.",
+  "slug": "574",
+  "url_origen": "https://estatuto.co/574",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "Los contribuyentes, responsables y agentes de retención en la fuente, deberán presentar las siguientes declaraciones tributarias: *1. Declaración anual del impuesto sobre la renta y complementarios, cuando de conformidad con las normas vigentes, estén obligados a declarar o, declaración anual del monotributo cuando opte por este régimen. **2. Declaración bimestral del impuesto sobre las ventas, para los responsables de este impuesto que pertenezcan al régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)>. **3. Declaración mensual de retenciones en la fuente, para los agentes retenedores del impuesto sobre la renta y complementarios, del impuesto sobre las ventas, y del impuesto de timbre nacional. 4. Declaración del impuesto de timbre, para los documentos y actos sometidos a dicho impuesto. ***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\". ****5. Declaración anual de activos en el exterior. *****Igualmente la administración podrá exigir una declaración resumen de retenciones y del impuesto sobre las ventas. **Parágrafo 1. Sin perjuicio de lo dispuesto en los numerales 2 y 3 del presente artículo, las entidades no contribuyentes del impuesto sobre la renta y complementarios, deberán presentar una declaración anual de ingresos y patrimonio, salvo que hayan sido expresamente exceptuadas en el artículo 598.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes, responsables y agentes de retención en la fuente, deberán presentar las siguientes declaraciones tributarias:</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*</span>1.</span> </strong>Declaración anual del impuesto sobre la renta y complementarios, cuando de conformidad con las normas vigentes, estén obligados a declarar o, declaración anual del monotributo cuando opte por este régimen.</p>\n<p><strong><span style=\"color: #339966;\">**2.</span> </strong>Declaración bimestral del impuesto sobre las ventas, para los responsables de este impuesto que pertenezcan al <span style=\"color: #339966;\"><del>régimen común </del></span>&lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt;.</p>\n<p><strong><span style=\"color: #339966;\">**3.</span> </strong>Declaración mensual de retenciones en la fuente, para los agentes retenedores del impuesto sobre la renta y complementarios, del impuesto sobre las ventas, y del impuesto de timbre nacional.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Declaración del impuesto de timbre, para los documentos y actos sometidos a dicho impuesto.</p>\n<p class=\"p1\"><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>***</strong></span>4. Declaración anual del Impuesto Mínimo Alternativo Simple <span class=\"s1\">\"IMAS\".</span></del></span></p>\n<p class=\"p1\"><span class=\"s1\"><strong><span style=\"color: #339966;\"><span class=\"verde\">****</span>5.</span> </strong>Declaración anual de activos en el exterior.</span></p>\n<p>*****Igualmente la administración podrá exigir una declaración resumen de retenciones y del impuesto sobre las ventas.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**Parágrafo 1. </span></span></strong>Sin perjuicio de lo dispuesto en los numerales 2 y 3 del presente artículo, las entidades no contribuyentes del impuesto sobre la renta y complementarios, deberán presentar una declaración anual de ingresos y patrimonio, salvo que hayan sido expresamente exceptuadas en el <a href=\"https://estatuto.co/598\" rel=\"noopener\" target=\"_blank\">artículo 598</a>.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 166. **Modificado Ley 223 de 1995 Art 28. ***Derogado Ley 1819 de 2016 Art 376. ****Adicionado- Ley 1739 de 2014 Art 42.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "166"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "28"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "376"
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [
+    "régimen común",
+    "***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\"."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "régimen común",
+      "full_length": 13
+    },
+    {
+      "index": 1,
+      "snippet": "***4. Declaración anual del Impuesto Mínimo Alternativo Simple \"IMAS\".",
+      "full_length": 70
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "598"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 4077 (2024-06-24): Procedimiento Tributario\noficio 0483 (2026-01-14): Impuesto Sobre las Ventas - IVA\noficio 913688 (2021-11-08): Inversi&oacute;n colombiana en el exterior\noficio 909039 (2021-09-01): Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4077-2024",
+      "tipo": "oficio",
+      "numero": "4077",
+      "fecha": "2024-06-24",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0483-2026",
+      "tipo": "oficio",
+      "numero": "0483",
+      "fecha": "2026-01-14",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913688-2021",
+      "tipo": "oficio",
+      "numero": "913688",
+      "fecha": "2021-11-08",
+      "tema": "Inversi&oacute;n colombiana en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909039-2021",
+      "tipo": "oficio",
+      "numero": "909039",
+      "fecha": "2021-09-01",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1973-2020",
+      "tipo": "oficio",
+      "numero": "1973",
+      "fecha": "2020-01-28",
+      "tema": "&iquest;En el caso de que una persona no residente, obtenga ingresos respecto de los cuales no se les haya practicado retenci&oacute;n en la fuente, debe atenderse a los topes de ingresos y patrimonio consagrados en el numeral 1 del art&iacute;culo 592 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26832-2019",
+      "tipo": "oficio",
+      "numero": "26832",
+      "fecha": "2019-10-24",
+      "tema": "Intercambio de informaci&oacute;n entre dos entidades para el cumplimiento de sus funciones legales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24028-2019",
+      "tipo": "oficio",
+      "numero": "24028",
+      "fecha": "2019-09-23",
+      "tema": "Deberes Formales del Contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20680-2019",
+      "tipo": "oficio",
+      "numero": "20680",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;C&oacute;mo debe manejarse en la declaraci&oacute;n de renta el pago de Min Transporte por el reconocimiento econ&oacute;mico por desintegraci&oacute;n de un veh&iacute;culo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19757-2019",
+      "tipo": "oficio",
+      "numero": "19757",
+      "fecha": "2019-08-08",
+      "tema": "Pago de Obligaciones – Forma",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9218-2019",
+      "tipo": "oficio",
+      "numero": "9218",
+      "fecha": "2019-04-12",
+      "tema": "En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1373-2018",
+      "tipo": "oficio",
+      "numero": "1373",
+      "fecha": "2018-08-10",
+      "tema": "Declaraci&oacute;n Anual de Activos en el Exterior - Obligados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33254-2017",
+      "tipo": "oficio",
+      "numero": "33254",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;Una persona natural contribuyente que normalizo activos en el exterior v&iacute;a impuesto a la riqueza formulario 440 en Mayo de 2017 cuando debe reportar o declarar en el formato 160 declaraci&oacute;n anual de activos en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33106-2015",
+      "tipo": "oficio",
+      "numero": "33106",
+      "fecha": "2015-11-18",
+      "tema": "&iquest;Qu&eacute; se debe entender por omisi&oacute;n de informaci&oacute;n para efectos del numeral 3 del literal B del art&iacute;culo 260-11 del Estatuto Tributario? - &iquest;Cu&aacute;ndo se entiende probada la omisi&oacute;n de informaci&oacute;n para efectos del numeral 3 del literal B del art&iacute;culo 260-11 del Estatuto Tributario? - &iquest;Se debe aplicar la sanci&oacute;n por omisi&oacute;n de informaci&oacute;n en la declaraci&oacute;n informativa cuando se ha corregido su anexo incrementando las transacciones reportadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32709-2015",
+      "tipo": "oficio",
+      "numero": "32709",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Es obligatorio para los establecimientos permanentes presentar la declaraci&oacute;n anual de activos en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-1088-2015",
+      "tipo": "oficio",
+      "numero": "1088",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Constituye establecimiento permanente conforme al art&iacute;culo 20-1 del Estatuto Tributario la persona natural que act&uacute;a como apoderado en el territorio nacional de una sociedad extranjera sin domicilio en Colombia, con facultades para celebrar contratos a su nombre y desarrollar, en todo o en parte, la actividad comercial de aquella?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8614-2013",
+      "tipo": "oficio",
+      "numero": "8614",
+      "fecha": "2013-02-14",
+      "tema": "Suministro de informaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57659-2011",
+      "tipo": "oficio",
+      "numero": "57659",
+      "fecha": "2011-08-03",
+      "tema": "Convenio de cooperaci&oacute;n interinstitucional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40733-2011",
+      "tipo": "oficio",
+      "numero": "40733",
+      "fecha": "2011-06-07",
+      "tema": "Las congregaciones religiosas cat&oacute;licas sin &aacute;nimo de lucro, conocidas como institutos religiosos, sociedades de vida apost&oacute;lica, institutos seculares y asociaciones de fieles cuya personer&iacute;a jur&iacute;dica es reconocida por la Iglesia Cat&oacute;lica, est&aacute;n obligadas a registrar libros ante la DIAN, o los deben registrar en la entidad que los certifica, en este caso, la Di&oacute;cesis respectiva? - Cu&aacute;l es el procedimiento a seguir para efectos del RUT,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22560-2010",
+      "tipo": "oficio",
+      "numero": "22560",
+      "fecha": "2010-03-30",
+      "tema": "Calidad de contribuyente o responsable en materia de impuesto sobre la renta y complementarios, impuesto al patrimonio e impuesto sobre las ventas, del Instituto Colombiano de Fomento a la Educaci&oacute;n Superior, ICFES, con ocasi&oacute;n de la transformaci&oacute;n de establecimiento p&uacute;blico del orden nacional a Empresa Estatal de Car&aacute;cter Social del Sector Educaci&oacute;n Nacional efectuada por la Ley 1324 de 2009",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38958-2008",
+      "tipo": "oficio",
+      "numero": "38958",
+      "fecha": "2008-04-18",
+      "tema": "R&eacute;gimen tributario que cobija a las entidades extranjeras de naturaleza p&uacute;blica cuyas actividades en Colombia no generan ingresos y act&uacute;a a trav&eacute;s de una oficina de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-100925-2007",
+      "tipo": "oficio",
+      "numero": "100925",
+      "fecha": "2007-01-01",
+      "tema": "R&eacute;gimen tributario aplicable a Organizaciones no gubernamentales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017312-2004",
+      "tipo": "concepto",
+      "numero": "0017312",
+      "fecha": "2004-03-24",
+      "tema": "&iquest;Para la procedencia de la deducci&oacute;n por salarios, el pago de los aportes parafiscales puede realizarse hasta antes de la presentaci&oacute;n de la declaraci&oacute;n de correcci&oacute;n provocada por el requerimiento especial o por la liquidaci&oacute;n de revisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029503-2002",
+      "tipo": "concepto",
+      "numero": "0029503",
+      "fecha": "2002-05-20",
+      "tema": "&iquest;Una entidad sobre la cual la Superintendencia respectiva ordena la liquidaci&oacute;n de una de las actividades autorizadas, nombrando para tal efecto un liquidador, como debe presentar sus declaraciones, si la DIAN le expidi&oacute; un NIT especial a la actividad en liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009174-2002",
+      "tipo": "concepto",
+      "numero": "0009174",
+      "fecha": "2002-02-14",
+      "tema": "&iquest;Para efectos fiscales, resulta procedente que las empresas se nieguen a recibir facturas cuando han publicado o informado a los proveedores o prestadores de servicios de una fecha m&aacute;xima de recepci&oacute;n de facturas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027723-2001",
+      "tipo": "concepto",
+      "numero": "0027723",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario que debe darse a una indemnizaci&oacute;n laboral en la declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037730-1997",
+      "tipo": "concepto",
+      "numero": "0037730",
+      "fecha": "1997-05-06",
+      "tema": "&iquest;A partir de qu&eacute; momento los contribuyentes que por mandato de las normas legales deben tener revisor fiscal, est&aacute;n en la obligaci&oacute;n de presentar sus declaraciones tributarias con la firma del respectivo revisor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074194-1996",
+      "tipo": "concepto",
+      "numero": "0074194",
+      "fecha": "1996-09-20",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para declarar los ingresos gravados y exentos cuando dentro del ejercicio gravable se han obtenido estos dos tipos de ingreso, como consecuencia del cambio de objeto social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053327-1995",
+      "tipo": "concepto",
+      "numero": "0053327",
+      "fecha": "1995-08-01",
+      "tema": "&iquest;Existe responsabilidad penal para el representante legal, el contador y el revisor fiscal por la no consignaci&oacute;n del Impuesto sobre las ventas recaudado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036002-1993",
+      "tipo": "concepto",
+      "numero": "0036002",
+      "fecha": "1993-12-31",
+      "tema": "&iquest;Al presentarse una declaraci&oacute;n y entenderse como no presentada, puede la Administraci&oacute;n tomar bases distintas a las declaradas por el contribuyente para imponer la sanci&oacute;n por no declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015528-1990",
+      "tipo": "concepto",
+      "numero": "0015528",
+      "fecha": "1990-01-01",
+      "tema": "Declaraci&oacute;n de ingresos y patrimonio de asociaciones religiosas",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

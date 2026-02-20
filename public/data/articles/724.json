@@ -1,1 +1,112 @@
-{"id_articulo": "Art. 724", "titulo": "Art. 724. Presentación del recurso.", "titulo_corto": "Presentación del recurso.", "slug": "724", "url_origen": "https://estatuto.co/724", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 2, "contenido_texto": "Sin perjuicio de lo dispuesto en el artículo 559, no será necesario presentar personalmente ante la Administración, el memorial del recurso y los poderes, cuando las firmas de quienes los suscriben estén autenticadas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/559\" rel=\"noopener\" target=\"_blank\">artículo 559</a>, no será necesario presentar personalmente ante la Administración, el memorial del recurso y los poderes, cuando las firmas de quienes los suscriben estén autenticadas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": ["-Concepto DIAN 48709 de 1999"], "notas": [], "otros": []}, "total_normas": 1, "cross_references": ["559"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 724",
+  "titulo": "Art. 724. Presentación del recurso.",
+  "titulo_corto": "Presentación del recurso.",
+  "slug": "724",
+  "url_origen": "https://estatuto.co/724",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 2,
+  "contenido_texto": "Sin perjuicio de lo dispuesto en el artículo 559, no será necesario presentar personalmente ante la Administración, el memorial del recurso y los poderes, cuando las firmas de quienes los suscriben estén autenticadas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Sin perjuicio de lo dispuesto en el <a href=\"https://estatuto.co/559\" rel=\"noopener\" target=\"_blank\">artículo 559</a>, no será necesario presentar personalmente ante la Administración, el memorial del recurso y los poderes, cuando las firmas de quienes los suscriben estén autenticadas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [
+      "-Concepto DIAN 48709 de 1999"
+    ],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "559"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 907106 (2021-07-19): Procedimiento tributario - Presentaci&oacute;n de escritos ante la Administraci&oacute;n de Impuestos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-907106-2021",
+      "tipo": "oficio",
+      "numero": "907106",
+      "fecha": "2021-07-19",
+      "tema": "Procedimiento tributario - Presentaci&oacute;n de escritos ante la Administraci&oacute;n de Impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0001182-2020",
+      "tipo": "oficio",
+      "numero": "0001182",
+      "fecha": "2020-09-28",
+      "tema": "(Int 1182) &iquest;Son v&aacute;lidos los poderes especiales para la interposici&oacute;n de recursos ante la DIAN, a los cuales se les hubiese impreso la firma digital de que trata la Ley 527 de 1999",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25644-2019",
+      "tipo": "oficio",
+      "numero": "25644",
+      "fecha": "2019-10-28",
+      "tema": "&iquest;Puede considerarse a un reconocimiento de firma registrada o a un reconocimiento de documento y firma, como supletorio del requisito de presentaci&oacute;n personal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23046-2015",
+      "tipo": "oficio",
+      "numero": "23046",
+      "fecha": "2015-08-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0235-2014",
+      "tipo": "oficio",
+      "numero": "0235",
+      "fecha": "2014-03-20",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15872-2011",
+      "tipo": "oficio",
+      "numero": "15872",
+      "fecha": "2011-03-07",
+      "tema": "&iquest;Los recursos, respuestas a requerimientos especiales, pliegos de cargos, y dem&aacute;s escritos que deban presentarse personalmente ante la Direcci&oacute;n de Impuestos y Aduanas Nacionales, se entienden presentados debidamente cuando la persona est&aacute; fuera del pa&iacute;s y utiliza medios electr&oacute;nicos con firma digital?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048709-1999",
+      "tipo": "concepto",
+      "numero": "0048709",
+      "fecha": "1999-05-25",
+      "tema": "&iquest;Los escritos que se presenten ante una Administraci&oacute;n diferente a la cual van dirigidos deben ser enviados por intermedio de la correspondencia interna de la DIAN, o por el contrario deben ser remitidos por los contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008011-1997",
+      "tipo": "concepto",
+      "numero": "0008011",
+      "fecha": "1997-02-03",
+      "tema": "&iquest;En qu&eacute; casos se exige al contribuyente la presentaci&oacute;n por triplicado de los escritos que dirija ante la DIAN. Lo dispuesto en el art&iacute;culo 559 se extiende a los anexos del escrito?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035070-1994",
+      "tipo": "concepto",
+      "numero": "0035070",
+      "fecha": "1994-05-20",
+      "tema": "&iquest;Debe entenderse que el impuesto a las ventas que otorga derecho devoluci&oacute;n seg&uacute;n el Decreto 2627 de 1993, es el efectivamente pagado, o debe acudirse a las normas que regulan la causaci&oacute;n del impuesto; esto es, la fecha de emisi&oacute;n de la factura o documento equivalente? &iquest;Es procedente que la solicitud y el recurso de reposici&oacute;n se presenten por interpuesta persona? &iquest;Qu&eacute; actitud debe tomarse cuando las facturas correspondan a proveedores no inscritos en el R&eacute;gimen Com&uacute;n del Registro Nacional de Vendedores? &iquest;Respecto de entidades p&uacute;blicas que no tienen personer&iacute;a jur&iacute;dica independiente y act&uacute;an a trav&eacute;s del NIT de la instituci&oacute;n de la cual dependen, se podr&iacute;a compensar de oficio a deudas por retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ]
+}

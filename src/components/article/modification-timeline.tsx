@@ -9,9 +9,17 @@ interface Modification {
   norma_articulo?: string;
 }
 
+interface DerogatedItem {
+  index: number;
+  snippet: string;
+  full_length: number;
+  norma_ref?: string;
+}
+
 interface ModificationTimelineProps {
   modifications: Modification[];
   leyesModificatorias: string[];
+  derogatedItems?: DerogatedItem[];
 }
 
 const TIPO_STYLES: Record<
@@ -52,8 +60,13 @@ function lawKey(modification: Modification): string {
 export function ModificationTimeline({
   modifications,
   leyesModificatorias,
+  derogatedItems = [],
 }: ModificationTimelineProps) {
   if (modifications.length === 0) return null;
+
+  const findSnippet = (law: string) => {
+    return derogatedItems.find((item) => item.norma_ref?.includes(law))?.snippet;
+  };
 
   const groupedByYear = new Map<number, Modification[]>();
   for (const modification of modifications) {
@@ -108,10 +121,11 @@ export function ModificationTimeline({
                   .map(([law, data]) => {
                     const tipoStyle =
                       TIPO_STYLES[data.tipo] || TIPO_STYLES.modificado;
+                    const snippet = findSnippet(law);
                     return (
                       <div
                         key={law}
-                        className="rounded-md border border-border/50 bg-muted/20 px-3 py-2"
+                        className="group relative rounded-md border border-border/50 bg-muted/20 px-3 py-2 transition-colors hover:border-border hover:bg-muted/40"
                       >
                         <div className="flex flex-wrap items-center gap-2">
                           <span className="text-sm text-foreground">{law}</span>
@@ -134,6 +148,12 @@ export function ModificationTimeline({
                             </span>
                           )}
                         </div>
+                        {snippet && (
+                          <div className="pointer-events-none absolute bottom-full left-0 z-50 mb-2 hidden w-72 rounded-md border border-border bg-popover p-3 text-[11px] text-muted-foreground shadow-xl animate-in fade-in slide-in-from-bottom-2 group-hover:block">
+                            <p className="font-medium text-foreground mb-1">Resumen del cambio:</p>
+                            <p className="line-clamp-4 leading-relaxed">{snippet}</p>
+                          </div>
+                        )}
                       </div>
                     );
                   })}

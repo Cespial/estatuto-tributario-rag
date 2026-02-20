@@ -1,1 +1,540 @@
-{"id_articulo": "Art. 683", "titulo": "Art. 683. Espíritu de justicia.", "titulo_corto": "Espíritu de justicia.", "slug": "683", "url_origen": "https://estatuto.co/683", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los funcionarios públicos, con atribuciones y deberes que cumplir en relación con la liquidación y recaudo de los impuestos nacionales, deberán tener siempre por norma en el ejercicio de sus actividades que son servidores públicos, que la aplicación recta de las leyes deberá estar presidida por un relevante espíritu de justicia, y que el Estado no aspira a que al contribuyente se le exija más de aquello con lo que la misma ley ha querido que coadyuve a las cargas públicas de la Nación.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los funcionarios públicos, con atribuciones y deberes que cumplir en relación con la liquidación y recaudo de los impuestos nacionales, deberán tener siempre por norma en el ejercicio de sus actividades que son servidores públicos, que la aplicación recta de las leyes deberá estar presidida por un relevante espíritu de justicia, y que el Estado no aspira a que al contribuyente se le exija más de aquello con lo que la misma ley ha querido que coadyuve a las cargas públicas de la Nación.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 683",
+  "titulo": "Art. 683. Espíritu de justicia.",
+  "titulo_corto": "Espíritu de justicia.",
+  "slug": "683",
+  "url_origen": "https://estatuto.co/683",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los funcionarios públicos, con atribuciones y deberes que cumplir en relación con la liquidación y recaudo de los impuestos nacionales, deberán tener siempre por norma en el ejercicio de sus actividades que son servidores públicos, que la aplicación recta de las leyes deberá estar presidida por un relevante espíritu de justicia, y que el Estado no aspira a que al contribuyente se le exija más de aquello con lo que la misma ley ha querido que coadyuve a las cargas públicas de la Nación.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los funcionarios públicos, con atribuciones y deberes que cumplir en relación con la liquidación y recaudo de los impuestos nacionales, deberán tener siempre por norma en el ejercicio de sus actividades que son servidores públicos, que la aplicación recta de las leyes deberá estar presidida por un relevante espíritu de justicia, y que el Estado no aspira a que al contribuyente se le exija más de aquello con lo que la misma ley ha querido que coadyuve a las cargas públicas de la Nación.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 14 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 19465 (2025-12-02): Procedimiento Tributario\noficio 19451 (2025-12-02): Procedimiento Tributario\noficio 17669 (2025-11-26): Otras Disposiciones\noficio 15805 (2025-11-19): Impuesto sobre la Renta y Complementarios\noficio 14396 (2025-10-15): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-19465-2025",
+      "tipo": "oficio",
+      "numero": "19465",
+      "fecha": "2025-12-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19451-2025",
+      "tipo": "oficio",
+      "numero": "19451",
+      "fecha": "2025-12-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17669-2025",
+      "tipo": "oficio",
+      "numero": "17669",
+      "fecha": "2025-11-26",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15805-2025",
+      "tipo": "oficio",
+      "numero": "15805",
+      "fecha": "2025-11-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14396-2025",
+      "tipo": "oficio",
+      "numero": "14396",
+      "fecha": "2025-10-15",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9663-2025",
+      "tipo": "oficio",
+      "numero": "9663",
+      "fecha": "2025-06-24",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7407-2023",
+      "tipo": "oficio",
+      "numero": "7407",
+      "fecha": "2023-12-18",
+      "tema": "(Int 1990) Impuesto sobre la Renta y Complementarios - Efectos tributarios de sentencias de restituci&oacute;n de tierras para personas naturales o sucesiones il&iacute;quidas no obligadas a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6214-2023",
+      "tipo": "oficio",
+      "numero": "6214",
+      "fecha": "2023-10-25",
+      "tema": "(Int 1116) Informaci&oacute;n ex&oacute;gena - Obligaci&oacute;n de informar. &iquest;Est&aacute;n obligadas a suministrar informaci&oacute;n tributaria a la DIAN las personas naturales bajo la calidad de agentes de retenci&oacute;n si por error actuaron como tales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906883-2022",
+      "tipo": "oficio",
+      "numero": "906883",
+      "fecha": "2022-09-13",
+      "tema": "Procedimiento tributario. Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903663-2022",
+      "tipo": "oficio",
+      "numero": "903663",
+      "fecha": "2022-05-13",
+      "tema": "Deberes Formales del Contribuyente - Declaraci&oacute;n Bimestral del Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900404-2022",
+      "tipo": "oficio",
+      "numero": "900404",
+      "fecha": "2022-01-21",
+      "tema": "Plazos para declarar y pagar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908899-2021",
+      "tipo": "oficio",
+      "numero": "908899",
+      "fecha": "2021-08-30",
+      "tema": "Procedimiento tributario - Prescripci&oacute;n de la facultad para imponer sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903879-2021",
+      "tipo": "oficio",
+      "numero": "903879",
+      "fecha": "2021-05-03",
+      "tema": "Enajenaciones indirectas - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901811-2021",
+      "tipo": "oficio",
+      "numero": "901811",
+      "fecha": "2021-11-25",
+      "tema": "Procedimiento tributario - Reclasificaci&oacute;n oficiosa a los no responsables en responsables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6572-2019",
+      "tipo": "oficio",
+      "numero": "6572",
+      "fecha": "2019-03-15",
+      "tema": "&iquest;Es viable aceptar esta reducci&oacute;n seg&uacute;n el art&iacute;culo 713 del estatuto ya citado o si debe negarse esta posibilidad en raz&oacute;n al no registro de la correcci&oacute;n en los sistemas inform&aacute;ticos de la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5708-2018",
+      "tipo": "oficio",
+      "numero": "5708",
+      "fecha": "2018-03-07",
+      "tema": "Contrato de simulaci&oacute;n - &iquest;Cu&aacute;ndo se est&aacute; ante un contrato de construcci&oacute;n y cu&aacute;ndo ante una venta con instalaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2114-2018",
+      "tipo": "oficio",
+      "numero": "2114",
+      "fecha": "2018-11-26",
+      "tema": "Aplicaci&oacute;n de la figura del abuso del derecho",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0484-2018",
+      "tipo": "oficio",
+      "numero": "0484",
+      "fecha": "2018-04-16",
+      "tema": "Reconsideraci&oacute;n del Oficio No. 007634 de 2015, a trav&eacute;s del cual se resuelve una consulta en relaci&oacute;n con la aplicaci&oacute;n del descuento tributario establecido en el art&iacute;culo 258-1",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0312-2018",
+      "tipo": "oficio",
+      "numero": "0312",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Al contratar a una persona en Colombia y pedir el reintegro de este gasto a una compa&ntilde;&iacute;a del exterior, puedo utilizar el mismo contrato, para facturarle a un cliente en espec&iacute;fico? &iquest;Se puede utilizar la modalidad de Contrato de Mandato., referente al empleado que se piensa contratar con la compa&ntilde;&iacute;a, con el fin de no afectar las cuentas de P&eacute;rdidas y Ganancias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0299-2018",
+      "tipo": "oficio",
+      "numero": "0299",
+      "fecha": "2018-03-06",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0037-2018",
+      "tipo": "oficio",
+      "numero": "0037",
+      "fecha": "2018-01-24",
+      "tema": "&iquest;C&oacute;mo se interpretan y se aplican los preceptos normativos en los procesos administrativos de fiscalizaci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28591-2017",
+      "tipo": "oficio",
+      "numero": "28591",
+      "fecha": "2017-10-20",
+      "tema": "Contratos de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1335-2017",
+      "tipo": "oficio",
+      "numero": "1335",
+      "fecha": "2017-06-23",
+      "tema": "&iquest;Si una declaraci&oacute;n que se presenta por el sistema IMAS contiene inexactitudes, le aplicar&iacute;a la firmeza especial de que trata el art&iacute;culo 335 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36484-2016",
+      "tipo": "oficio",
+      "numero": "36484",
+      "fecha": "2016-12-28",
+      "tema": "Contribuci&oacute;n Especial - Contribuci&oacute;n especial sobre contratos de obra p&uacute;blica - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36468-2016",
+      "tipo": "oficio",
+      "numero": "36468",
+      "fecha": "2016-12-28",
+      "tema": "Impuesto a las ventas - Causaci&oacute;n del Impuesto Sobre las Ventas en Contratos Celebrados con Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31049-2016",
+      "tipo": "oficio",
+      "numero": "31049",
+      "fecha": "2016-11-15",
+      "tema": "&iquest;Se puede deducir de los ingresos brutos determinados en la declaraci&oacute;n de renta mediante el procedimiento establecido en el art&iacute;culo 10 de la Ley 26 de 1989, los valores pagados por concepto de transporte del combustible desde la planta de producci&oacute;n hasta la estaci&oacute;n de gasolina que corresponde al lugar de su venta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009857-2016",
+      "tipo": "concepto",
+      "numero": "0009857",
+      "fecha": "2016-04-27",
+      "tema": "Con fundamento en los principios de justicia y equidad, &iquest;Es procedente que un contratante tome como impuesto descontable en el impuesto sobre las ventas y como deducible en el impuesto sobre la renta, un gasto correspondiente a un servicio suministrado, y que no es facturado por el contratista?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018128-2015",
+      "tipo": "concepto",
+      "numero": "0018128",
+      "fecha": "2015-07-19",
+      "tema": "&iquest;Si una norma modifica alguno de los elementos constitutivos de un impuesto de periodo &iquest;Dicha norma es aplicable a partir de su entrada en vigencia de ser favorable para el contribuyente o a partir del siguiente periodo fiscal a la fecha de su promulgaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1088-2015",
+      "tipo": "oficio",
+      "numero": "1088",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Constituye establecimiento permanente conforme al art&iacute;culo 20-1 del Estatuto Tributario la persona natural que act&uacute;a como apoderado en el territorio nacional de una sociedad extranjera sin domicilio en Colombia, con facultades para celebrar contratos a su nombre y desarrollar, en todo o en parte, la actividad comercial de aquella?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61897-2014",
+      "tipo": "oficio",
+      "numero": "61897",
+      "fecha": "2014-11-06",
+      "tema": "&iquest;La declaraci&oacute;n se presenta por el sistema IMAS en forma extempor&aacute;nea, la firmeza de la declaraci&oacute;n, le aplicar&iacute;a la firmeza general del art&iacute;culo 714 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49832-2013",
+      "tipo": "oficio",
+      "numero": "49832",
+      "fecha": "2013-08-12",
+      "tema": "&iquest;Cu&aacute;l es la norma de retenci&oacute;n en la fuente aplicable al pago efectuado en el mes de enero de 2013, por concepto de ajuste de nivelaci&oacute;n salarial a&ntilde;os 1997 a 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59965-2012",
+      "tipo": "oficio",
+      "numero": "59965",
+      "fecha": "2012-09-21",
+      "tema": "&iquest;En el r&eacute;gimen sancionatorio tributario procede la aplicaci&oacute;n de la t&eacute;sis jur&iacute;dica contemplada en el Oficio No. 004525 del 25 de enero de 2012?&iquest;Si en el caso de la sanci&oacute;n por no enviar informaci&oacute;n, prevista en el literal a) del art&iacute;culo 551 del Estatuto Tributario se puede aplicar la mas favorable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34140-2012",
+      "tipo": "oficio",
+      "numero": "34140",
+      "fecha": "2012-05-29",
+      "tema": "&iquest;Cu&aacute;l es el requisito que tiene en cuenta la DIAN para asegurar que un contribuyente hizo uso del beneficio de la deducci&oacute;n por inversi&oacute;n en activos fijos en su declaraci&oacute;n de renta. Por otra parte, si el contribuyente hizo uso del beneficio de auditor&iacute;a y la declaraci&oacute;n de encuentra en firme, pero por error incluy&oacute; arrendamientos por leasing en el rengl&oacute;n 54 de su declaraci&oacute;n, (deducci&oacute;n por inversiones en activos fijos), pregunta si dicho error es suficiente para que no proceda el beneficio de auditor&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96684-2011",
+      "tipo": "oficio",
+      "numero": "96684",
+      "fecha": "2011-12-12",
+      "tema": "Para tener en cuenta las exenciones a que se refiere el numeral 7 del art&iacute;culo 206 del Estatuto Tributario, se aplican los conceptos de la DIAN 004832 de 25 de enero de 2001, 105925 de 24-12-2009, o deben aplicarse los precedentes judiciales conform&eacute; lo establecido en el art&iacute;culo 114 de la ley 1395 de 2010?&iquest;Cuando existen disposiciones legales que conceden simult&aacute;neamente varios beneficios tributarios, las aplica o no la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88243-2011",
+      "tipo": "oficio",
+      "numero": "88243",
+      "fecha": "2011-11-10",
+      "tema": "El sector privado colombiano a trav&eacute;s del Consejo Gremial Nacional, solicita en el escrito de la referencia la reconsideraci&oacute;n del Oficio 59943 del 10 de agosto de 2011,",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061066-2007",
+      "tipo": "concepto",
+      "numero": "0061066",
+      "fecha": "2007-08-09",
+      "tema": "&iquest;Procede la determinaci&oacute;n de costos estimados y presuntos en las liquidaciones oficiales de aforo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95912-2006",
+      "tipo": "oficio",
+      "numero": "95912",
+      "fecha": "2006-11-14",
+      "tema": "&iquest;En qu&eacute; orden debe la Administraci&oacute;n distribuir el pago que por concepto de impuestos efect&uacute;e el contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29925-2006",
+      "tipo": "oficio",
+      "numero": "29925",
+      "fecha": "2006-04-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025201-2006",
+      "tipo": "concepto",
+      "numero": "0025201",
+      "fecha": "2006-03-27",
+      "tema": "&iquest;El exceso de renta presuntiva sobre renta liquida ordinaria, para efectos de la compensaci&oacute;n autorizada en el par&aacute;grafo del art&iacute;culo 191 del estatuto Tributario, se determina comparando la renta presuntiva con la renta liquida ordinaria, calculada &eacute;sta &uacute;ltima antes o despu&eacute;s de restar las p&eacute;rdidas fiscales compensadas por el contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47441-2005",
+      "tipo": "oficio",
+      "numero": "47441",
+      "fecha": "2005-07-15",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos retroactivos realizados a los extrabajadores cuando estos se efect&uacute;an en un s&oacute;lo pago por la totalidad de los salarios acumulados adeudados, pese a que en el momento de su registro en la contabilidad las mensualidades no alcanzaban la base para efectos de la retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025646-2005",
+      "tipo": "concepto",
+      "numero": "0025646",
+      "fecha": "2005-05-04",
+      "tema": "&iquest;Cu&aacute;ndo son concurrentes las deducciones por donaci&oacute;n e inversi&oacute;n, cu&aacute;l es la base, para el c&aacute;lculo de una y otra? &iquest;El diligenciamiento err&oacute;neo y el no diligenciamiento del c&oacute;digo del municipio, son causales para tener como no presentada una declaraci&oacute;n tributaria ?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3479-2005",
+      "tipo": "oficio",
+      "numero": "3479",
+      "fecha": "2005-02-12",
+      "tema": "&iquest;Al corregir el saldo a favor del periodo por dasacumulaci&oacute;n del valor ya devuelto y adem&aacute;s por un error en el bimestre se hace necesario, con la implicaci&oacute;n de una mayor carga administrativa para la Administraci&oacute;n de Impuestos, el que se presenten dos declaraciones de correcci&oacute;n, una inicial en la cual desacumula el valor ya devuelto, la cual no tendr&iacute;a sanci&oacute;n de correcci&oacute;n de acuerdo con el acta del Comit&eacute; de Coordinaci&oacute;n, y una posterior en la cual corrige los errores del bimestre y que tendr&iacute;a como base para liquidar la sanci&oacute;n de correcci&oacute;n el menor valor del rengl&oacute;n HB, o una sola tomando como base para el c&aacute;lculo de la sanci&oacute;n de correcci&oacute;n el menor valor ocasionado por el error en el bimestre, sin tener en cuenta el menor valor por la desacumulaci&oacute;n del rengl&oacute;n GN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044925-2004",
+      "tipo": "concepto",
+      "numero": "0044925",
+      "fecha": "2004-07-22",
+      "tema": "La sanci&oacute;n por no enviar informaci&oacute;n debe aplicarse atendiendo el principio de gradualidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072152-2003",
+      "tipo": "concepto",
+      "numero": "0072152",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Desde qu&eacute; fecha se liquidan los intereses moratorios cuando el contribuyente corrige la declaraci&oacute;n aumentando el saldo a pagar, pero previamente hab&iacute;a efectuado un pago en exceso el cual fue devuelto por la Administraci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077917-2002",
+      "tipo": "concepto",
+      "numero": "0077917",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Se configura pago en exceso en la compensaci&oacute;n de mayores valores que los adeudados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-99165-2001",
+      "tipo": "concepto",
+      "numero": "99165",
+      "fecha": "2001-11-14",
+      "tema": "Procedimiento; beneficio de intereses",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077965-2001",
+      "tipo": "concepto",
+      "numero": "0077965",
+      "fecha": "2001-08-27",
+      "tema": "&iquest;La limitaci&oacute;n a 1000 UPAC de la deducci&oacute;n por intereses en pr&eacute;stamo de vivienda es aplicable a los pr&eacute;stamos adquiridos en pesos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035197-2001",
+      "tipo": "concepto",
+      "numero": "0035197",
+      "fecha": "2001-05-02",
+      "tema": "&iquest;Qu&eacute; efectos jur&iacute;dicos produce la ampliaci&oacute;n al requerimiento especial notificado por fuera del t&eacute;rmino previsto en el art&iacute;culo 708 del Estatuto Tributario? &iquest;Qu&eacute; efectos jur&iacute;dicos produce el requerimiento especial que omite la explicaci&oacute;n de las razones en que se sustenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019060-2001",
+      "tipo": "concepto",
+      "numero": "0019060",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Como pol&iacute;tica interna de causaci&oacute;n contable de todas aquellas obligaciones contra&iacute;das con terceros, una entidad puede efectuar las retenciones en la fuente sin tener en cuenta si las facturas presentan o no base para el c&aacute;lculo de las mismas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096821-2000",
+      "tipo": "concepto",
+      "numero": "0096821",
+      "fecha": "2000-10-04",
+      "tema": "&iquest;La limitaci&oacute;n a 1000 UPAC de la deducci&oacute;n por intereses en pr&eacute;stamo de vivienda es aplicable a los pr&eacute;stamos adquiridos en pesos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044242-1999",
+      "tipo": "concepto",
+      "numero": "0044242",
+      "fecha": "1999-05-07",
+      "tema": "&iquest;La celebraci&oacute;n de contratos sucesivos entre una Entidad P&uacute;blica y un particular, en un mismo d&iacute;a, y sobre el mismo objeto, puede ser considerada una forma de disminuir la cuant&iacute;a para evadir el pago del impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059900-1998",
+      "tipo": "concepto",
+      "numero": "0059900",
+      "fecha": "1998-07-30",
+      "tema": "&iquest;El diligenciamiento del pagar&eacute; en blanco exigido por las entidades financieras vigiladas por la Superbancaria o por las entidades p&uacute;blicas siguiendo las instrucciones del deudor sin conocer en forma definitiva el valor por el cual ser&aacute; exigible jur&iacute;dicamente, causa impuesto de timbre por la regla general del art&iacute;culo 519 del E.T. o por el art&iacute;culo 30 del Decreto 2076 de 1992?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034402-1997",
+      "tipo": "concepto",
+      "numero": "0034402",
+      "fecha": "1997-12-22",
+      "tema": "&iquest;Se pueden practicar distintas actuaciones administrativas que suspenden el t&eacute;rmino para enviar el requerimiento especial? &iquest;C&oacute;mo se contabiliza la suspensi&oacute;n del t&eacute;rmino para practicar el requerimiento especial cuando se env&iacute;a emplazamiento para corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060401-1994",
+      "tipo": "concepto",
+      "numero": "0060401",
+      "fecha": "1994-10-13",
+      "tema": "&iquest;Si, cuando la sanci&oacute;n por libros de contabilidad se incluye en requerimiento especial y en liquidaci&oacute;n oficial de revisi&oacute;n, procede tambi&eacute;n la reducci&oacute;n de que trata el art&iacute;culo 656 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021434-1990",
+      "tipo": "concepto",
+      "numero": "0021434",
+      "fecha": "1990-01-01",
+      "tema": "Correci&oacute;n de las declaraciones tributarias de que tratan los art&iacute;culos 588 y 589 del Estatuto Tributario y sus implicaciones cuando hay arrastre de saldos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030281-1989",
+      "tipo": "concepto",
+      "numero": "0030281",
+      "fecha": "1989-12-29",
+      "tema": "Sobre la viabilidad de devoluci&oacute;n del Impuesto de Timbre Nacional pagado por adelantado antes de perfeccionarse el contrato, el cual estaba sujeto a la aprobaci&oacute;n del Consejo de Ministros. De acuerdo con la cuant&iacute;a del contrato, el art&iacute;culo 49 del Decreto 222 de 1983, conocido como el Estatuto de Contrataci&oacute;n, requiere concepto favorable del nombrado Consejo previo estudio de la Secretar&iacute;a Jur&iacute;dica de la Presidencia de la Rep&uacute;blica. Los contratos no podr&aacute;n ejecutarse mientras no est&eacute;n debidamente perfeccionados seg&uacute;n mandato del art&iacute;culo 299 de dicho decreto que establece la prohibici&oacute;n de ejecutar contratos no perfeccionados. Concordancia: art&iacute;culo 51 del Decreto 222 de 1983",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025051-1989",
+      "tipo": "concepto",
+      "numero": "0025051",
+      "fecha": "1989-01-01",
+      "tema": "Impuesto al reajuste del precio convenido &iquest;C&oacute;mo debe entenderese tal disposici&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-160-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "160",
+      "year": 1998
+    }
+  ]
+}

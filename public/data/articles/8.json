@@ -1,1 +1,1080 @@
-{"id_articulo": "Art. 8", "titulo": "Art. 8. Los cónyuges se gravan en forma individual.", "titulo_corto": "Los cónyuges se gravan en forma individual.", "slug": "8", "url_origen": "https://estatuto.co/8", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "*-Declarado Condicionalmente Exequible- Los cónyuges, individualmente considerados, son sujetos gravables en cuanto a sus correspondientes bienes y rentas. Durante el proceso de liquidación de la sociedad conyugal, el sujeto del impuesto sigue siendo cada uno de los cónyuges, o la sucesión ilíquida, según el caso.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><strong><span class=\"verde\">*-Declarado Condicionalmente Exequible-</span></strong></span> Los cónyuges, individualmente considerados, son sujetos gravables en cuanto a sus correspondientes bienes y rentas.</p>\n<p>Durante el proceso de liquidación de la sociedad conyugal, el sujeto del impuesto sigue siendo cada uno de los cónyuges, o la sucesión ilíquida, según el caso.</p>\n<p></p>\n</span>", "modificaciones_raw": "- Condicionalmente Exequible Sentencia 875 23/08/2005, Dr. Rodrigo Escobar Gil \"en el entendido que dichas disposiciones deben ser igualmente aplicables respecto de la sociedad patrimonial que surge entre compañeros o compañeras permanentes que reúnan esa condición conforme a la ley vigente.\"", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 8",
+  "titulo": "Art. 8. Los cónyuges se gravan en forma individual.",
+  "titulo_corto": "Los cónyuges se gravan en forma individual.",
+  "slug": "8",
+  "url_origen": "https://estatuto.co/8",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "*-Declarado Condicionalmente Exequible- Los cónyuges, individualmente considerados, son sujetos gravables en cuanto a sus correspondientes bienes y rentas. Durante el proceso de liquidación de la sociedad conyugal, el sujeto del impuesto sigue siendo cada uno de los cónyuges, o la sucesión ilíquida, según el caso.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><strong><span class=\"verde\">*-Declarado Condicionalmente Exequible-</span></strong></span> Los cónyuges, individualmente considerados, son sujetos gravables en cuanto a sus correspondientes bienes y rentas.</p>\n<p>Durante el proceso de liquidación de la sociedad conyugal, el sujeto del impuesto sigue siendo cada uno de los cónyuges, o la sucesión ilíquida, según el caso.</p>\n<p></p>\n</span>",
+  "modificaciones_raw": "- Condicionalmente Exequible Sentencia 875 23/08/2005, Dr. Rodrigo Escobar Gil \"en el entendido que dichas disposiciones deben ser igualmente aplicables respecto de la sociedad patrimonial que surge entre compañeros o compañeras permanentes que reúnan esa condición conforme a la ley vigente.\"",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 60 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13840 (2025-10-01): Facturaci&oacute;n Electr&oacute;nica\noficio 12334 (2025-09-15): Impuesto de Timbre\noficio 5917 (2024-08-27): Otras Disposiciones\noficio 908576 (2022-11-25): Impuesto sobre la renta - Obligaci&oacute;n de declarar - Contribuyentes\noficio 908434 (2021-08-20): Retenci&oacute;n en la Fuente en la dispersi&oacute;n de recursos asignados al programa apoyo empleo joven",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13840-2025",
+      "tipo": "oficio",
+      "numero": "13840",
+      "fecha": "2025-10-01",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12334-2025",
+      "tipo": "oficio",
+      "numero": "12334",
+      "fecha": "2025-09-15",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5917-2024",
+      "tipo": "oficio",
+      "numero": "5917",
+      "fecha": "2024-08-27",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908576-2022",
+      "tipo": "oficio",
+      "numero": "908576",
+      "fecha": "2022-11-25",
+      "tema": "Impuesto sobre la renta - Obligaci&oacute;n de declarar - Contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908434-2021",
+      "tipo": "oficio",
+      "numero": "908434",
+      "fecha": "2021-08-20",
+      "tema": "Retenci&oacute;n en la Fuente en la dispersi&oacute;n de recursos asignados al programa apoyo empleo joven",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907960-2021",
+      "tipo": "oficio",
+      "numero": "907960",
+      "fecha": "2021-08-10",
+      "tema": "Declaraci&oacute;n de activos en el exterior - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5785-2019",
+      "tipo": "oficio",
+      "numero": "5785",
+      "fecha": "2019-03-07",
+      "tema": "&iquest;Las empresas ESP tienen beneficios Tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4853-2019",
+      "tipo": "oficio",
+      "numero": "4853",
+      "fecha": "2019-02-26",
+      "tema": "Convenios internacionales referentes a la doble imposici&oacute;n y para prevenir la evasi&oacute;n fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1420-2019",
+      "tipo": "oficio",
+      "numero": "1420",
+      "fecha": "2019-01-17",
+      "tema": "Exenci&oacute;n del Gravamen a los Movimientos Financieros de que trata el art&iacute;culo 879 numeral 3 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0088-2019",
+      "tipo": "oficio",
+      "numero": "0088",
+      "fecha": "2019-01-02",
+      "tema": "Contrato de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26942-2018",
+      "tipo": "oficio",
+      "numero": "26942",
+      "fecha": "2018-09-19",
+      "tema": "&iquest;Durante la etapa de liquidaci&oacute;n de una sucesi&oacute;n, el c&oacute;nyuge sobreviviente puede seguir declarando a su nombre los bienes que declar&oacute; en vida de la causante, o se entiende que durante esta etapa todos los bienes se declaran en cabeza de la sucesi&oacute;n, hasta que la universalidad sea liquidada judicial o notarialmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10204-2017",
+      "tipo": "oficio",
+      "numero": "10204",
+      "fecha": "2017-04-27",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4098-2016",
+      "tipo": "oficio",
+      "numero": "4098",
+      "fecha": "2016-03-01",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2015",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2015-10-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23817-2015",
+      "tipo": "oficio",
+      "numero": "23817",
+      "fecha": "2015-08-18",
+      "tema": "Obligados a inscribirse en el RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11695-2015",
+      "tipo": "oficio",
+      "numero": "11695",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Dentro de los patrimonios de dos contribuyentes (c&oacute;nyuges) obligados a presentar declaraci&oacute;n de renta figura la casa de habitaci&oacute;n a nombre de los dos por partes iguales, es procedente para efectos de calcular la base del Impuesto a la Riqueza, que el descuento sobre el valor patrimonial de la casa de habitaci&oacute;n (12.200 UVT) sea tomado por uno de ellos al 100%?&iquest;Si se adquiere un activo fijo y se escritura a nombre de los dos por partes iguales, &iquest;qu&eacute; incidencia fiscal generar&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11368-2015",
+      "tipo": "oficio",
+      "numero": "11368",
+      "fecha": "2015-04-21",
+      "tema": "&iquest;Los vi&aacute;ticos ocasionales no constituyen ingresos para los empleados oficiales?&iquest;Cu&aacute;les son los soportes para demostrar que los vi&aacute;ticos ocasionales no constituyen ingresos para el empleado oficial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009179-2015",
+      "tipo": "concepto",
+      "numero": "0009179",
+      "fecha": "2015-03-26",
+      "tema": "&iquest;Los pagos o abonos en cuenta por concepto de pasajes y gastos de manutenci&oacute;n que se le reconocen a un contratista persona natural constituyen ingreso fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7121-2015",
+      "tipo": "oficio",
+      "numero": "7121",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre la renta - Ingresos gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1444-2015",
+      "tipo": "oficio",
+      "numero": "1444",
+      "fecha": "2015-11-03",
+      "tema": "Alcance de las funciones determinadas en el numeral 1 del art&iacute;culo 16 del Decreto 4048 de 2008",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48807-2014",
+      "tipo": "oficio",
+      "numero": "48807",
+      "fecha": "2014-08-12",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80094-2013",
+      "tipo": "oficio",
+      "numero": "80094",
+      "fecha": "2013-12-12",
+      "tema": "Condici&oacute;n Especial para el Pago de Impuestos, Tasas y Contribuciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79818-2013",
+      "tipo": "oficio",
+      "numero": "79818",
+      "fecha": "2013-12-12",
+      "tema": "Convenio Internacional Sobre Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53060-2013",
+      "tipo": "oficio",
+      "numero": "53060",
+      "fecha": "2013-08-23",
+      "tema": "Impuesto sobre la renta para la equidad -CREE- Exoneraci&oacute;n de Aportes- requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1748-2013",
+      "tipo": "oficio",
+      "numero": "1748",
+      "fecha": "2013-01-14",
+      "tema": "&iquest;De conformidad con lo dispuesto en el art&iacute;culo 28 del Decreto Ley 019 de 2012, es procedente para todas las entidades p&uacute;blicas que efect&uacute;en pagos o abonos en cuenta sometidos a retenci&oacute;n en la fuente, emitir los certificados por pagos laborales en forma electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67669-2012",
+      "tipo": "oficio",
+      "numero": "67669",
+      "fecha": "2012-10-29",
+      "tema": "Retenci&oacute;n en la fuente - Trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20950-2012",
+      "tipo": "oficio",
+      "numero": "20950",
+      "fecha": "2012-03-28",
+      "tema": "&iquest;Se da cumplimiento al art&iacute;culo 378 del Estatuto Tributario al generar los certificados de ingresos y retenciones originados en la relaci&oacute;n legal y reglamentaria y enviarlos a los destinatarios a trav&eacute;s de correo electr&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72241-2011",
+      "tipo": "oficio",
+      "numero": "72241",
+      "fecha": "2011-09-19",
+      "tema": "&iquest;A los negocios fiduciarios que tengan m&aacute;s de un fideicomitente constituyente, se les puede aplicar los beneficios tributarios que se encuentran contemplados en los numerales 4&deg; y 5&deg; del art&iacute;culo 8&deg; del Decreto 660 de 2011, teniendo en cuenta que en ellos se mencionan las expresiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50942-2011",
+      "tipo": "oficio",
+      "numero": "50942",
+      "fecha": "2011-07-12",
+      "tema": "&iquest;Atendiendo al numeral 1o del art&iacute;culo 8o del Decreto 660 de 2011, los d&eacute;bitos en cuenta corriente o de ahorros, con destino a adquirir divisas en el mercado spot o forward delivery, con el mismo establecimiento financiero en el cual se posea la cuenta corriente o de ahorros que se debita, est&aacute;n exentos del Gravamen a los Movimientos Financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49119-2011",
+      "tipo": "oficio",
+      "numero": "49119",
+      "fecha": "2011-07-05",
+      "tema": "Aplicaci&oacute;n del numeral 14 del art&iacute;culo 879 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11909-2011",
+      "tipo": "oficio",
+      "numero": "11909",
+      "fecha": "2011-02-18",
+      "tema": "&iquest;Cu&aacute;les son los fines a los cuales pueden destinarse los bienes recibidos en daci&oacute;n en pago de que tratan los Decretos 2694 y 3892 de 2010, y si dentro de esos fines se encuentra la donaci&oacute;n o transferencia de tales bienes a otras Entidades del Estado, para entregarlos a las zonas de desastre ocasionado con el invierno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47236-2010",
+      "tipo": "oficio",
+      "numero": "47236",
+      "fecha": "2010-07-01",
+      "tema": "&iquest;Los pagos o abonos en cuenta que la sucursal de una sociedad extranjera ubicada en Colombia realice a la oficina principal en virtud de la celebraci&oacute;n de un contrato llave en mano, se encuentran sujetos a retenci&oacute;n en la fuente y cu&aacute;l ser&iacute;a la tarifa aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084427-2009",
+      "tipo": "concepto",
+      "numero": "0084427",
+      "fecha": "2009-10-15",
+      "tema": "&iquest;En la enajenaci&oacute;n de acciones privilegiadas, la parte que no constituye renta o ganancia ocasional debe calcularse sobre el porcentaje de participaci&oacute;n en las utilidades retenidas o debe limitarse al porcentaje de participaci&oacute;n de las acciones dentro del capital de la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44202-2009",
+      "tipo": "oficio",
+      "numero": "44202",
+      "fecha": "2009-05-29",
+      "tema": "&iquest;Cu&aacute;ntas y cu&aacute;les son las tasas fiscales y parafiscales existentes a la fecha en Colombia y cu&aacute;les son sus marcos normativos especificando normas creadoras; cu&aacute;ntos cesos tributarios se han realizado en Colombia, cu&aacute;l fue el &uacute;ltimo censo realizado y en donde se encuentra publicado; cu&aacute;ntos y cu&aacute;les son los tributos existentes en el Estado Colombiano a la fecha y cu&aacute;les son sus marcos normativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28419-2009",
+      "tipo": "oficio",
+      "numero": "28419",
+      "fecha": "2009-04-07",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-85073-2008",
+      "tipo": "oficio",
+      "numero": "85073",
+      "fecha": "2008-01-01",
+      "tema": "Solicita reconsiderar el Oficio n&uacute;mero 071728 del 25 de julio de 2008, en el cual se afirm&oacute; que los bienes que queden incorporados en las v&iacute;as ya sea directamente por su construcci&oacute;n, mantenimiento, rehabilitaci&oacute;n o mejoramiento, no son objeto de la deducci&oacute;n establecida en el art&iacute;culo 158-3",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11214-2008",
+      "tipo": "oficio",
+      "numero": "11214",
+      "fecha": "2008-12-09",
+      "tema": "Solicita reconsiderar la posici&oacute;n expresada en el oficio 006882 del 18 de enero de 2008, en el que se modific&oacute; la doctrina expuesta por la Divisi&oacute;n de Normativa y Doctrina de la Oficina Jur&iacute;dica, al se&ntilde;alar que los ingresos obtenidos por una persona natural extranjera que tiene relaci&oacute;n laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia y que en virtud de un contrato celebrado entre su empleadora y una Colombiana, presta sus servicios en el pa&iacute;s, se consideran de fuente nacional para el trabajador y como consecuencia de ello gravados en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87004-2007",
+      "tipo": "oficio",
+      "numero": "87004",
+      "fecha": "2007-10-25",
+      "tema": "Fondo Com&uacute;n Especial de Inversi&oacute;n Forestal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27772-2006",
+      "tipo": "oficio",
+      "numero": "27772",
+      "fecha": "2006-04-03",
+      "tema": "&iquest;Cu&aacute;les son los requisitos para no estar obligado a presentar declaraci&oacute;n del Impuesto Sobre la Renta y Complementarios del art&iacute;culo 594-3 del Estatuto Tributario, aludiendo al cambio de ahorros a inversiones dentro de una misma entidad vigilada por la Superintendencia Bancaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085347-2005",
+      "tipo": "concepto",
+      "numero": "0085347",
+      "fecha": "2005-11-18",
+      "tema": "&iquest;Es viable que la Unidad Administrativa Especial Direcci&oacute;n de Impuestos y Aduanas Nacionales - DIAN - reciba bienes de terceros a t&iacute;tulo de daci&oacute;n en pago para la cancelaci&oacute;n de obligaciones tributarias a cargo de empresas que se encuentren en acuerdo de reestructuraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057337-2005",
+      "tipo": "concepto",
+      "numero": "0057337",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Est&aacute; limitada la deducci&oacute;n de intereses por concepto de adquisici&oacute;n de vivienda a un solo inmueble representado en una sola matr&iacute;cula inmobiliaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50263-2005",
+      "tipo": "oficio",
+      "numero": "50263",
+      "fecha": "2005-07-27",
+      "tema": "&iquest;Procede la devoluci&oacute;n del Impuesto sobre las ventas a los funcionarios Internacionales del Sistema de Naciones Unidas debidamente acreditados en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9664-2005",
+      "tipo": "oficio",
+      "numero": "9664",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es posible exigir el traslado al r&eacute;gimen com&uacute;n a una persona natural que pertenece al r&eacute;gimen simplificado y que presta sus servicios a varias empresas de un mismo grupo econ&oacute;mico y que sumando la totalidad de los pagos acumulados de las empresas supera los topes de ingresos para pertenecer a dicho r&eacute;gimen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-85534-2004",
+      "tipo": "oficio",
+      "numero": "85534",
+      "fecha": "2004-12-03",
+      "tema": "&iquest;Los responsables del r&eacute;gimen com&uacute;n pueden solicitar como descontable el 50% del IVA pagado en la adquisici&oacute;n o importaci&oacute;n de activos fijos, de que trata el art&iacute;culo 485-2 del Estatuto Tributario, en el mismo bimestre de su adquisici&oacute;n y-o en los cinco bimestres siguientes que abarcan el primer a&ntilde;o contado a partir de su adquisici&oacute;n o importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069337-2004",
+      "tipo": "concepto",
+      "numero": "0069337",
+      "fecha": "2004-10-13",
+      "tema": "&iquest;A nombre de qui&eacute;n se debe expedir el certificado de retenci&oacute;n en la fuente en el caso de la enajenaci&oacute;n de activos fijos de personas naturales, cuando en la escritura de venta aparecen dos personas que tienen la calidad de c&oacute;nyuges como enajenantes, pero solo uno de ellos se encuentra obligado a presentar declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7194-2004",
+      "tipo": "oficio",
+      "numero": "7194",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Qu&eacute; se entiende por Maquinaria Industrial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034854-2003",
+      "tipo": "concepto",
+      "numero": "0034854",
+      "fecha": "2003-06-18",
+      "tema": "Cuando uno de los c&oacute;nyuges por el a&ntilde;o gravable de 2001 denuncia el 100% de los bienes por un valor superior a los Ps. 169.500.000 y posteriormente argumenta que esta declaraci&oacute;n no debe tener ninguna validez en raz&oacute;n a que son bienes adquiridos dentro de la sociedad, &iquest;hay lugar a la aplicaci&oacute;n del precepto seg&uacute;n el cual las declaraciones presentadas por no obligados a declarar no producen efecto legal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083627-2002",
+      "tipo": "concepto",
+      "numero": "0083627",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; Divisi&oacute;n debe conservar los expedientes del",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070833-2002",
+      "tipo": "concepto",
+      "numero": "0070833",
+      "fecha": "2002-10-30",
+      "tema": "&iquest;El patrimonio que ha sido incorrectamente determinado en la declaraci&oacute;n de Renta y Complementarios por el a&ntilde;o 2001, obliga al contribuyente a la declaraci&oacute;n y pago del Impuesto para Preservar la Seguridad Democr&aacute;tica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053583-2002",
+      "tipo": "concepto",
+      "numero": "0053583",
+      "fecha": "2002-08-21",
+      "tema": "&iquest;Las Corporaciones Aut&oacute;nomas Regionales que en virtud de la Ley 99 de 1993 asumen los derechos y obligaciones de las corporaciones reestructuradas, entre ellos la prestaci&oacute;n del servicio p&uacute;blico domiciliario de alcantarillado, son contribuyentes del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048774-2002",
+      "tipo": "concepto",
+      "numero": "0048774",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;Para efectos fiscales el sistema de ajustes integrales por inflaci&oacute;n deber&aacute; ser aplicado por las entidades vigiladas por la Superintendencia Bancaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033553-2002",
+      "tipo": "concepto",
+      "numero": "0033553",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; tratamiento fiscal tiene la importaci&oacute;n a Colombia de capitales y las pensiones provenientes del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0103857-2001",
+      "tipo": "concepto",
+      "numero": "0103857",
+      "fecha": "2001-05-31",
+      "tema": "Procedimiento - sujetos pasivos; &iquest;Estaba obligado a presentar declaraci&oacute;n del impuesto sobre la renta y complementarios por el a&ntilde;o gravable de 1999 el Fondo para la Reconstrucci&oacute;n y Desarrollo del Eje Cafetero",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028286-2001",
+      "tipo": "concepto",
+      "numero": "0028286",
+      "fecha": "2001-04-06",
+      "tema": "&iquest;Constituyen los gananciales ingreso susceptible de producir un incremento neto del patrimonio?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-23562-2001",
+      "tipo": "concepto",
+      "numero": "23562",
+      "fecha": "2001-03-23",
+      "tema": "Concepto Especial, Retenci&oacute;n en la Fuente Ley 633 de 2000 y Decreto 260 de 2001",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0115062-2000",
+      "tipo": "concepto",
+      "numero": "0115062",
+      "fecha": "2000-11-24",
+      "tema": "&iquest;Se causa el impuesto de timbre nacional sobre los actos administrativos proferidos por una empresa industrial y comercial del Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072858-2000",
+      "tipo": "concepto",
+      "numero": "0072858",
+      "fecha": "2000-08-01",
+      "tema": "&iquest;C&oacute;mo se aplica la f&oacute;rmula para determinar el ingreso no constitutivo de renta ni de ganancia ocasional por la venta de acciones adquiridas en diferentes fechas y las utilidades, pendientes de distribuir, corresponden a diferentes per&iacute;odos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045969-1998",
+      "tipo": "concepto",
+      "numero": "0045969",
+      "fecha": "1998-06-12",
+      "tema": "&iquest;El arrendamiento de &aacute;reas amobladas o no amobladas en un inmueble destinado a sal&oacute;n de belleza, para que funcionen como puestos de trabajo, esta sometido al impuesto sobre las ventas? &iquest;Las personas naturales que operan en los respectivos puestos de trabajo, como arrendatarias en los espacios concedidos en un sal&oacute;n de belleza, que responsabilidad tienen frente a la DIAN? &iquest;El manicure y la limpieza facial se puede considerar como servicio de aseo, para la exclusi&oacute;n del impuesto sobre las ventas? &iquest;Existe la obligaci&oacute;n de facturar el arrendamiento de espacios en un sal&oacute;n de belleza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019384-1997",
+      "tipo": "concepto",
+      "numero": "0019384",
+      "fecha": "1997-03-04",
+      "tema": "&iquest;Se consideran como ingresos de fuente extranjera o de fuente nacional los ingresos percibidos como contraprestaci&oacute;n por la exportaci&oacute;n de un software, y por los servicios t&eacute;cnicos y de asistencia t&eacute;cnica prestados en el exterior a los compradores del software?&iquest;Se encuentran gravados con el impuesto sobre la renta los ingresos percibidos por una persona natural residente en el pa&iacute;s, o por una sociedad nacional, como contraprestaci&oacute;n por la exportaci&oacute;n de un software y por los servicios t&eacute;cnicos de asistencia t&eacute;cnica presentados en el exterior a los compradores del software?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095700-1996",
+      "tipo": "concepto",
+      "numero": "0095700",
+      "fecha": "1996-12-16",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082663-1996",
+      "tipo": "concepto",
+      "numero": "0082663",
+      "fecha": "1996-07-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078342-1996",
+      "tipo": "concepto",
+      "numero": "0078342",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034632-1996",
+      "tipo": "concepto",
+      "numero": "0034632",
+      "fecha": "1996-04-29",
+      "tema": "Dentro de la competencia atribuida por los art&iacute;culos 57 y 58 del Decreto 2117 de 1992, de interpretar las normas tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007688-1996",
+      "tipo": "concepto",
+      "numero": "0007688",
+      "fecha": "1996-02-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000599-1989",
+      "tipo": "concepto",
+      "numero": "0000599",
+      "fecha": "1989-01-10",
+      "tema": "&iquest;Para efectos fiscales debe considerarse como ingreso gravable en cabeza del trabajador, los valores que se pagan a t&iacute;tulo de vi&aacute;ticos, para desempe&ntilde;ar sus funciones fuera de su sede, en el territorio nacional o en el extranjero en representaci&oacute;n de la entidad para la cual labore y si dichos vi&aacute;ticos est&aacute;n sujetos a retenci&oacute;n en la fuente? &iquest;Cu&aacute;l es el tratamiento diferencial para aplicar la retenci&oacute;n en la fuente a empleados p&uacute;blicos, oficiales o particulares cuando reciben vi&aacute;ticos? &iquest;En raz&oacute;n a que los Decretos Reglamentarios 537 de 1987, articulo 10, y 823 de 1987, articulo 8o, consideran que los vi&aacute;ticos que no correspondan a retribuci&oacute;n ordinaria de servicio, deben ser tratados como gastos propios de la entidad pagadora y no como ingreso gravable del trabajador, cu&aacute;l es la manera de demostrar el empleado que el valor recibido por concepto de vi&aacute;ticos no es objeto de la retenci&oacute;n en la fuente? &iquest;En el caso de que se haya efectuado la retenci&oacute;n en la fuente no causada, c&oacute;mo se solicita a la entidad retenedora su devoluci&oacute;n o reintegro? &iquest;Tiene su respuesta a estas dudas validez para argumentar y solicitar reintegros por concepto de retenci&oacute;n en la fuente no causada, ante la entidad pagadora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012229-1988",
+      "tipo": "concepto",
+      "numero": "0012229",
+      "fecha": "1988-06-22",
+      "tema": "&iquest;Emitido el Decreto 2503 de 1987 como estatuto que regula &iacute;ntegramente el procedimiento tributario, estableciendo los mecanismos para el control, determinaci&oacute;n, cobro y discusi&oacute;n de los impuestos al igual que las sanciones, se encuentran o no vigentes las siguientes normas:&iquest;El inciso 4o del art&iacute;culo 55 del Decreto Ley 2053 de 1974, y 8o del Decreto Ley 231 de 1983?&iquest;El articulo 6o de la Ley 52 de 1977, por Cuento el Decreto 2503 de 1987 derog&oacute; expresamente el art&iacute;culo 72 del Decreto Ley 3803 de 1982, que lo hab&iacute;a sustituido?&iquest;El numeral 3o del art&iacute;culo 34 de la Ley 2&ordf; de 1976, en cuanto a la no deducci&oacute;n de pagos que consten en instrumentos privados, si no se prueba el pago de dicho impuesto?",
+      "vigente": false
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-318-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "318",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-138-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "138",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-510-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "510",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1021-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1021",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-337-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "337",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-891-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "891",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-602-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "602",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-0219-art-96",
+      "decretoNumero": "0219",
+      "articuloNumero": "96",
+      "vigente": true
+    }
+  ]
+}

@@ -1,1 +1,1010 @@
-{"id_articulo": "Art. 188", "titulo": "Art. 188. Base y porcentaje de la renta presuntiva.", "titulo_corto": "Base y porcentaje de la renta presuntiva.", "slug": "188", "url_origen": "https://estatuto.co/188", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior. El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al cero punto cinco por ciento (0,5%) en el año gravable 2020; y al cero por ciento(0 %) a partir del año gravable 2021. Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE no estarán sujetos a renta presuntiva.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior.</p>\n<p>El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al cero punto cinco por ciento (0,5%) en el año gravable 2020; y al cero por ciento(0 %) a partir del año gravable 2021.</p>\n<p>Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE no estarán sujetos a renta presuntiva.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Artículo Modificado Ley 2010 de 2019 Art. 90 -Modificado. Ley 1943 de 2018 Art. 78 * -Modificado- Ley 1819 de 2016 Art. 95. **- Artículo modificado Ley 1111 de 2006 art. 9", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "90"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "9"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["*Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior. El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al uno y medio por ciento (1,5%) en los años gravables 2019 y 2020", "Y al cero por ciento O% a partir del año gravable 2021. Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a renta presuntiva. - Para el caso de las pequeñas empresas contempladas en la Ley 1429 de 2010 Artículo 4 Parágrafo 3°. Las empresas de que trata el presente artículo estarán sujetas al sistema de renta presuntiva de que trata el artículo 188 del Estatuto Tributario a partir del sexto (6°) año gravable y a partir del undécimo (11) año gravable para los titulares del parágrafo 1°."]}, "total_normas": 2, "cross_references": [], "referenced_by": ["191", "333"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 188",
+  "titulo": "Art. 188. Base y porcentaje de la renta presuntiva.",
+  "titulo_corto": "Base y porcentaje de la renta presuntiva.",
+  "slug": "188",
+  "url_origen": "https://estatuto.co/188",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior. El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al cero punto cinco por ciento (0,5%) en el año gravable 2020; y al cero por ciento(0 %) a partir del año gravable 2021. Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE no estarán sujetos a renta presuntiva.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior.</p>\n<p>El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al cero punto cinco por ciento (0,5%) en el año gravable 2020; y al cero por ciento(0 %) a partir del año gravable 2021.</p>\n<p>Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE no estarán sujetos a renta presuntiva.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Artículo Modificado Ley 2010 de 2019 Art. 90 -Modificado. Ley 1943 de 2018 Art. 78 * -Modificado- Ley 1819 de 2016 Art. 95. **- Artículo modificado Ley 1111 de 2006 art. 9",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "90"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "9"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "*Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Para efectos del impuesto sobre la renta, se presume que la renta líquida del contribuyente no es inferior al tres y medio por ciento (3.5%) de su patrimonio líquido, en el último día del ejercicio gravable inmediatamente anterior. El porcentaje de renta presuntiva al que se refiere este artículo se reducirá al uno y medio por ciento (1,5%) en los años gravables 2019 y 2020",
+      "Y al cero por ciento O% a partir del año gravable 2021. Los contribuyentes inscritos bajo el impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a renta presuntiva. - Para el caso de las pequeñas empresas contempladas en la Ley 1429 de 2010 Artículo 4 Parágrafo 3°. Las empresas de que trata el presente artículo estarán sujetas al sistema de renta presuntiva de que trata el artículo 188 del Estatuto Tributario a partir del sexto (6°) año gravable y a partir del undécimo (11) año gravable para los titulares del parágrafo 1°."
+    ]
+  },
+  "total_normas": 2,
+  "cross_references": [],
+  "referenced_by": [
+    "191",
+    "333"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 15 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 903830 (2022-05-18): Renta presuntiva - Registro &Uacute;nico Tributario - RUT\noficio 914511 (2021-11-25): Impuesto sobre la renta - Descuento tributario por impuestos pagados en el exterior",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-903830-2022",
+      "tipo": "oficio",
+      "numero": "903830",
+      "fecha": "2022-05-18",
+      "tema": "Renta presuntiva - Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914511-2021",
+      "tipo": "oficio",
+      "numero": "914511",
+      "fecha": "2021-11-25",
+      "tema": "Impuesto sobre la renta - Descuento tributario por impuestos pagados en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0597-2020",
+      "tipo": "oficio",
+      "numero": "0597",
+      "fecha": "2020-11-26",
+      "tema": "(Int 0597) Contratos de concesi&oacute;n y Asociaciones P&uacute;blico-Privadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902528-2020",
+      "tipo": "oficio",
+      "numero": "902528",
+      "fecha": "2020-06-19",
+      "tema": "Base y porcentaje de la renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4888-2020",
+      "tipo": "oficio",
+      "numero": "4888",
+      "fecha": "2020-03-09",
+      "tema": "Renta Presuntiva - Exclusiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1103-2020",
+      "tipo": "oficio",
+      "numero": "1103",
+      "fecha": "2020-03-20",
+      "tema": "&iquest;El contribuyente al presentar la declaraci&oacute;n de renta correspondiente al a&ntilde;o gravable 2019, qu&eacute; porcentaje (%) de renta presuntiva debe liquidar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2019",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2019-11-28",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26044-2019",
+      "tipo": "oficio",
+      "numero": "26044",
+      "fecha": "2019-10-16",
+      "tema": "&iquest;Qu&eacute; se entiende por entidades controladas desde el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18951-2019",
+      "tipo": "oficio",
+      "numero": "18951",
+      "fecha": "2019-07-23",
+      "tema": "Se puede afectar una renta l&iacute;quida por recuperaci&oacute;n de deducciones con los resultados del ejercicio para llegar a un resultado final neto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18084-2019",
+      "tipo": "oficio",
+      "numero": "18084",
+      "fecha": "2019-07-12",
+      "tema": "Exclusiones de la renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16292-2019",
+      "tipo": "oficio",
+      "numero": "16292",
+      "fecha": "2019-06-21",
+      "tema": "&iquest;Cu&aacute;l es la posici&oacute;n actual de la DIAN (conforme a la norma) respecto del IVA descontable en la adquisici&oacute;n de activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10057-2019",
+      "tipo": "oficio",
+      "numero": "10057",
+      "fecha": "2019-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios. Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5785-2019",
+      "tipo": "oficio",
+      "numero": "5785",
+      "fecha": "2019-03-07",
+      "tema": "&iquest;Las empresas ESP tienen beneficios Tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33631-2018",
+      "tipo": "oficio",
+      "numero": "33631",
+      "fecha": "2018-11-19",
+      "tema": "&iquest;El Derecho de Usufructo Vitalicio forma parte del patrimonio bruto de una persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16045-2018",
+      "tipo": "oficio",
+      "numero": "16045",
+      "fecha": "2018-06-18",
+      "tema": "Declaraci&oacute;n de renta por parte de personas cuyo &uacute;nico ingreso es una pensi&oacute;n que no excede el valor de 1000 UVT mensuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15839-2018",
+      "tipo": "oficio",
+      "numero": "15839",
+      "fecha": "2018-06-19",
+      "tema": "&iquest;La declaraci&oacute;n del Impuesto sobre la renta correspondiente al a&ntilde;o gravable 2017 debe presentarse con base en los Estados Financieros elaborados con base en las NIIF? &iquest;Ser&aacute; obligatorio presentar informaci&oacute;n ex&oacute;gena con base en NIIF para el a&ntilde;o 2017 y siguientes? &iquest;Las cuentas de ajustes bajo NIIF deber&aacute;n ser tenidas en cuenta para liquidar el Impuesto Sobre la renta por renta presuntiva para el a&ntilde;o gravable 2017? &iquest;La sociedad estar&iacute;a obligada a liquidar sus impuestos sobre el mayor valor del patrimonio resultante de las cuentas de ajustes de las normas NIIF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5704-2018",
+      "tipo": "oficio",
+      "numero": "5704",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;puede restar el valor patrimonial neto de los aportes y acciones en sociedades nacionales para efectos de realizar el c&aacute;lculo de la renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1836-2018",
+      "tipo": "oficio",
+      "numero": "1836",
+      "fecha": "2018-10-17",
+      "tema": "Renta presuntiva compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0628-2018",
+      "tipo": "oficio",
+      "numero": "0628",
+      "fecha": "2018-04-30",
+      "tema": "Incentivo de renta exenta para plantaciones forestales comerciales existentes o nuevas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0607-2018",
+      "tipo": "oficio",
+      "numero": "0607",
+      "fecha": "2018-05-08",
+      "tema": "&iquest;Cu&aacute;l es la resoluci&oacute;n de los precios del ganado para el a&ntilde;o 2018?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0432-2018",
+      "tipo": "oficio",
+      "numero": "0432",
+      "fecha": "2018-04-03",
+      "tema": "Para las compa&ntilde;&iacute;as constructoras, en el caso de venta de inmuebles considerados como inventarios &iquest;el ingreso por venta se entiende realizado en el momento en que se efect&uacute;e la escritura p&uacute;blica correspondiente as&iacute; la factura de venta se haya expedido en un periodo gravable anterior? o este tratamiento es &uacute;nicamente de aplicaci&oacute;n cuando se trate de activos fijos, de conformidad con el art&iacute;culo 91 del E.T., los dividendos, participaciones y utilidades recibidas por personas naturales no residentes, se les gravar&eacute; el 100% de los dividendos entregados v&iacute;a retenci&oacute;n en la fuente, sin que tengan derecho al c&aacute;lculo del art&iacute;culo 49 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0309-2018",
+      "tipo": "oficio",
+      "numero": "0309",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Al tenor de lo establecido en el literal d) del art&iacute;culo 428 del Estatuto Tributario, se encuentran excluidos el impuesto sobre las ventas los bienes de fas subpartidas arancelarias Nos. 87.10.00.00.00 y 84.24.10.00.00?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20964-2017",
+      "tipo": "oficio",
+      "numero": "20964",
+      "fecha": "2017-08-04",
+      "tema": "Monotributo - Firmeza declaraciones tributarias - R&eacute;gimen aplicable IVA - Exoneraci&oacute;n aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9312-2017",
+      "tipo": "oficio",
+      "numero": "9312",
+      "fecha": "2017-04-21",
+      "tema": "Renta presuntiva - Bancos de Tierras - Supuesto para la procedencia de la exclusi&oacute;n de renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1826-2017",
+      "tipo": "oficio",
+      "numero": "1826",
+      "fecha": "2017-12-12",
+      "tema": "Exenci&oacute;n en el IVA para contratos celebrados con entidades p&uacute;blicas de acuerdo al documento del Primer Concepto General de Impuestos a las ventas - Ley 1819 de 2016, emitido por la DIAN el 30 de enero de 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28945-2016",
+      "tipo": "oficio",
+      "numero": "28945",
+      "fecha": "2016-10-18",
+      "tema": "Solicita conceptuar sobre el sentido que debe darse al numeral 11 del art&iacute;culo 191 del Estatuto Tributario en cuanto a la autorizaci&oacute;n por el Ministerio de Comercio, Industria y Turismo, para que los centros de eventos y convenciones que cumplan con los requisitos legales, puedan acogerse al beneficio contemplado en esta norma, considerando que el Ministerio no administra el registro, ni emite la autorizaci&oacute;n a que se refiere la norma tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12907-2016",
+      "tipo": "oficio",
+      "numero": "12907",
+      "fecha": "2016-05-24",
+      "tema": "&iquest;Si el no pago oportuno de la renovaci&oacute;n de la matr&iacute;cula mercantil durante comienzos de 2016, genera la p&eacute;rdida del beneficio de progresividad de la renta por el a&ntilde;o gravable 2015?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9867-2016",
+      "tipo": "oficio",
+      "numero": "9867",
+      "fecha": "2016-04-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5477-2016",
+      "tipo": "oficio",
+      "numero": "5477",
+      "fecha": "2016-03-12",
+      "tema": "Impuesto sobre la renta y complementarios - Renta presuntiva - Fusi&oacute;n de Sociedades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0675-2016",
+      "tipo": "oficio",
+      "numero": "0675",
+      "fecha": "2016-07-14",
+      "tema": "Convenio entre Francia y Colombia para evitar la doble tributaci&oacute;n y prevenir la evasi&oacute;n y la elusi&oacute;n fiscal con respecto a los impuestos sobre la renta y sobre el patrimonio y su protocolo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36268-2015",
+      "tipo": "oficio",
+      "numero": "36268",
+      "fecha": "2015-02-15",
+      "tema": "Impuesto sobre la renta - Renta presuntiva depuraci&oacute;n de la base &iquest;Cu&aacute;l es el alcance del t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24300-2015",
+      "tipo": "oficio",
+      "numero": "24300",
+      "fecha": "2015-08-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23767-2015",
+      "tipo": "oficio",
+      "numero": "23767",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Las exclusiones de renta presuntiva contenidas en el art&iacute;culo 191 del Estatuto Tributario, aplica a todas las empresas de servicios p&uacute;blicos domiciliarios que prestan servicios p&uacute;blicos complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21725-2015",
+      "tipo": "oficio",
+      "numero": "21725",
+      "fecha": "2015-07-24",
+      "tema": "&iquest;Una sociedad cuyo patrimonio l&iacute;quido est&aacute; conformado solamente por acciones y que no tuvo ingresos en el a&ntilde;o gravable, sobre qu&eacute; tributa en la declaraci&oacute;n del impuesto sobre la renta o mediante renta presuntiva, si no tiene base gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20771-2015",
+      "tipo": "oficio",
+      "numero": "20771",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto a la Riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18719-2015",
+      "tipo": "oficio",
+      "numero": "18719",
+      "fecha": "2015-06-25",
+      "tema": "De conformidad con lo consagrado en los art&iacute;culos 20 y 20-2 del Estatuto Tributario, &iquest;c&oacute;mo debe establecerse la base de la renta presuntiva prevista en el art&iacute;culo 188 ib&iacute;dem, para los Establecimientos Permanentes?, &iquest;se requiere un estudio adicional para estos efectos? o, &iquest;hay una derogaci&oacute;n t&aacute;cita del art&iacute;culo 188 para los Establecimientos Permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1795-2015",
+      "tipo": "oficio",
+      "numero": "1795",
+      "fecha": "2015-01-01",
+      "tema": "Procedimiento que le permita a la DIAN, no continuar con la acci&oacute;n de cobro sobre les valores que por concepto de impuestos se haya determinado la sociedad en sus declaraciones privadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1088-2015",
+      "tipo": "oficio",
+      "numero": "1088",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Constituye establecimiento permanente conforme al art&iacute;culo 20-1 del Estatuto Tributario la persona natural que act&uacute;a como apoderado en el territorio nacional de una sociedad extranjera sin domicilio en Colombia, con facultades para celebrar contratos a su nombre y desarrollar, en todo o en parte, la actividad comercial de aquella?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78486-2014",
+      "tipo": "oficio",
+      "numero": "78486",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Qu&eacute; efectos fiscales traer&iacute;a la disminuci&oacute;n del patrimonio de una sociedad, debido a un activo intangible know how- no formado, sin que se pueda probar t&eacute;cnicamente dicha disminuci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66878-2014",
+      "tipo": "oficio",
+      "numero": "66878",
+      "fecha": "2014-12-18",
+      "tema": "&iquest;Hay lugar a inscribir los libros de contabilidad diferentes a los libros de actas y de accionistas, para acceder a los beneficios de progresividad en el pago del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61418-2014",
+      "tipo": "oficio",
+      "numero": "61418",
+      "fecha": "2014-10-31",
+      "tema": "Solicita la reconsideraci&oacute;n de la tesis expuesta en el Oficio n&uacute;mero 45724 del 24 de julio de 2013, mediante la cual se concluye que no resulta viable proporcionar a una entidad p&uacute;blica informaci&oacute;n contenida en el RUT, pues este no est&aacute; catalogado como un registro p&uacute;blico, por lo que su informaci&oacute;n no es de libre consulta y en el evento de establecerse un intercambio de informaci&oacute;n, esta solamente podr&aacute; versar sobre informaci&oacute;n solamente relacionada con la identificaci&oacute;n (NIT, nombres, apellidos, raz&oacute;n social) y la ubicaci&oacute;n (direcci&oacute;n, municipio, departamento) de los contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52966-2014",
+      "tipo": "oficio",
+      "numero": "52966",
+      "fecha": "2014-09-01",
+      "tema": "&iquest;Para la determinaci&oacute;n de la renta l&iacute;quida de los contribuyentes, son aceptables los costos y deducciones atribuibles a las rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50269-2014",
+      "tipo": "oficio",
+      "numero": "50269",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;El patrimonio l&iacute;quido a tener en cuenta para el c&aacute;lculo de la renta presuntiva de una sociedad, beneficiada de una escisi&oacute;n por absorci&oacute;n perfeccionada en el 2014 es: i) el patrimonio l&iacute;quido pose&iacute;do a 31 de diciembre de 2013 o, ii) la suma del patrimonio l&iacute;quido de &eacute;sta con el patrimonio l&iacute;quido transferido a su favor en virtud de la escisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49997-2014",
+      "tipo": "oficio",
+      "numero": "49997",
+      "fecha": "2014-08-19",
+      "tema": "Retenci&oacute;n en la fuente y Progresividad en el pago del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47565-2014",
+      "tipo": "oficio",
+      "numero": "47565",
+      "fecha": "2014-07-28",
+      "tema": "&iquest;Las personas naturales no obligadas a llevar contabilidad, pueden solicitar como deducci&oacute;n en la declaraci&oacute;n de renta y complementarios la depreciaci&oacute;n de los activos fijos tangibles que posean?&iquest;Las primeras ocho mil (8000) UVT de la vivienda de habitaci&oacute;n del contribuyente, que se detraen del patrimonio l&iacute;quido del a&ntilde;o anterior para calcular la renta presuntiva de las personas naturales, se deben restar del patrimonio l&iacute;quido del a&ntilde;o anterior por su valor patrimonial neto o por el valor bruto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45542-2014",
+      "tipo": "oficio",
+      "numero": "45542",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Retenci&oacute;n en la fuente - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66224-2013",
+      "tipo": "oficio",
+      "numero": "66224",
+      "fecha": "2013-10-18",
+      "tema": "Convenios para evitar la doble tributaci&oacute;n - Cl&aacute;usula de no discriminaci&oacute;n - Base del c&aacute;lculo de la renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60192-2013",
+      "tipo": "oficio",
+      "numero": "60192",
+      "fecha": "2013-09-23",
+      "tema": "&iquest;Pueden ser reconocidas en Colombia como impuesto pagado en Costa Rica, en car&aacute;cter de cr&eacute;dito fiscal por impuestos pagados en el exterior, las donaciones efectuadas a la Iglesia Cat&oacute;lica en la Rep&uacute;blica de Costa Rica por una empresa que integra un grupo financiero cuya matriz es Colombiana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57190-2013",
+      "tipo": "oficio",
+      "numero": "57190",
+      "fecha": "2013-09-10",
+      "tema": "&iquest;C&oacute;mo se puede justificar una disminuci&oacute;n en el monto del patrimonio en la declaraci&oacute;n de renta, por p&eacute;rdida de fondos invertidos en una sociedad comisionista de bolsa que fue intervenida y est&aacute; en proceso de liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35174-2012",
+      "tipo": "oficio",
+      "numero": "35174",
+      "fecha": "2012-06-01",
+      "tema": "&iquest;Los bienes incorporales (activos intangibles) integran la base gravable para calcular la renta presuntiva y el impuesto al patrimonio?&iquest;Los derechos de producci&oacute;n o explotaci&oacute;n sobre las reservas de hidrocarburos son un bien incorporal y c&oacute;mo se calcula el costo de que trata el art&iacute;culo 75 del Estatuto Tributario, cuando los bienes incorporales (activos intangibles) est&aacute;n en cuentas de orden y no fueron incluidos en la declaraci&oacute;n de renta y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065231-2009",
+      "tipo": "concepto",
+      "numero": "0065231",
+      "fecha": "2009-08-13",
+      "tema": "&iquest;Los contribuyentes nacionales del impuesto sobre la renta que perciban rentas de fuente extranjera y que deban liquidar el impuesto por el sistema especial de renta presuntiva, pueden descontar el impuesto pagado en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36082-2009",
+      "tipo": "oficio",
+      "numero": "36082",
+      "fecha": "2009-05-06",
+      "tema": "&iquest;Una sociedad puede solicitar dentro de su liquidaci&oacute;n privada como renta exenta el valor obtenido en los Pa&iacute;ses Miembros de la Comunidad Andina de Naciones, y afectar con ella la renta presuntiva en los siguientes eventos: cuando obtiene p&eacute;rdida l&iacute;quida del ejercicio, cuando la renta l&iacute;quida ordinaria es cero (0) o cuando la renta exenta es superior a la renta l&iacute;quida ordinaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29808-2009",
+      "tipo": "oficio",
+      "numero": "29808",
+      "fecha": "2009-04-14",
+      "tema": "&iquest;Cu&aacute;les beneficios tributarios adicionales ha otorgado el Gobierno en los &uacute;ltimos cuatro a&ntilde;os a diferentes sectores ?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20518-2009",
+      "tipo": "oficio",
+      "numero": "20518",
+      "fecha": "2009-03-10",
+      "tema": "&iquest;se debe presentar declaraci&oacute;n tributaria por cambio de titular de la inversi&oacute;n extranjera, cuando se trata de una disminuci&oacute;n de capital con efectivo reembolso de aportes (art&iacute;culo 145 del C&oacute;digo de Comercio), pero el reembolso es por el total de los aportes del inversionista extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25782-2007",
+      "tipo": "oficio",
+      "numero": "25782",
+      "fecha": "2007-04-03",
+      "tema": "&iquest;Una empresa se encuentra obligada a pagar el impuesto sobre la renta sobre el porcentaje de ventas brutas recibidas durante el respectivo a&ntilde;o o sobre la renta presuntiva calculado sobre su patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19350-2007",
+      "tipo": "oficio",
+      "numero": "19350",
+      "fecha": "2007-03-12",
+      "tema": "Sobre los efectos en impuestos del orden nacional del incremento de los autoaval&uacute;os y aval&uacute;os catastrales vigente a primero de enero de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008217-2007",
+      "tipo": "concepto",
+      "numero": "0008217",
+      "fecha": "2007-02-05",
+      "tema": "&iquest;Cu&aacute;l es la base para determinar la renta presuntiva en el caso de fusi&oacute;n de sociedades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102044-2006",
+      "tipo": "oficio",
+      "numero": "102044",
+      "fecha": "2006-12-04",
+      "tema": "&iquest;Los aportes laborales que efect&uacute;an los asociados en las empresas asociativas de trabajo - E.A.T., fiscalmente hacen parte del patrimonio y a su vez de la base para el c&aacute;lculo de la renta presuntiva? Si los aportes laborales hacen parte del patrimonio de la empresa, se incluyen en el patrimonio l&iacute;quido referente para el c&aacute;lculo de la renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101364-2006",
+      "tipo": "oficio",
+      "numero": "101364",
+      "fecha": "2006-11-30",
+      "tema": "&iquest;Una empresa que en desarrollo de su objeto social presta servicio p&uacute;blico domiciliario de Gas Licuado de Petr&oacute;leo (GLP), est&aacute; obligada a calcular renta presuntiva y presentarla en las declaraciones de renta y complementarios, para los a&ntilde;os 2003, 2004 y 2005?&iquest;La empresa de servicios p&uacute;blicos domiciliarios, est&aacute; o no obligada a pagar sobre la renta presuntiva?&iquest;Cu&aacute;l es la base para el impuesto sobre la renta l&iacute;quida gravable, en caso de que se haya generado una p&eacute;rdida l&iacute;quida sobre el ejercicio?&iquest;Si dicha empresa liquid&oacute; y pag&oacute; renta presuntiva &iquest;puede solicitar compensaci&oacute;n y-o devoluci&oacute;n del pago en exceso? ISR , procedimiento, renta presuntiva - exclusiones, devoluci&oacute;n pagos en exceso, correcciones que disminuyen el valor a pagar o aumentan el saldo a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98810-2006",
+      "tipo": "oficio",
+      "numero": "98810",
+      "fecha": "2006-11-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93880-2006",
+      "tipo": "oficio",
+      "numero": "93880",
+      "fecha": "2006-11-02",
+      "tema": "Solicita informaci&oacute;n sobre la declaraci&oacute;n y pago del Impuesto de Patrimonio de las Empresas Industriales y Comerciales del Estado y la determinaci&oacute;n de la renta presuntiva de empresas en periodo improductivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077445-2006",
+      "tipo": "concepto",
+      "numero": "0077445",
+      "fecha": "2006-09-11",
+      "tema": "&iquest;Es posible compensar con la renta l&iacute;quida del a&ntilde;o gravable 2005 el exceso de renta presuntiva sobre renta l&iacute;quida ordinaria generada en el a&ntilde;o gravable 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88185-2005",
+      "tipo": "oficio",
+      "numero": "88185",
+      "fecha": "2005-11-28",
+      "tema": "&iquest;Una Empresa Industrial y Comercial del Estado del orden municipal, puede ceder a la Administraci&oacute;n Municipal, unos predios con el fin de no liquidar el impuesto de renta presuntiva (sic), ya que la empresa por proyecci&oacute;n no puede tener la utilidad suficiente para cancelar dicho impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085384-2005",
+      "tipo": "concepto",
+      "numero": "0085384",
+      "fecha": "2005-11-18",
+      "tema": "&iquest;Est&aacute; obligada a presentar declaraci&oacute;n de renta y a liquidar renta presuntiva una sociedad extranjera sin sucursal en Colombia que percibe arrendamientos por un inmueble pose&iacute;do en el pa&iacute;s, sobre los cuales se practic&oacute; retenci&oacute;n en la fuente?&iquest;Est&aacute; obligada a presentar declaraci&oacute;n de renta y a liquidar renta presuntiva una sociedad extranjera sin sucursal en Colombia que posee un inmueble en el pa&iacute;s, por el cual no percibi&oacute; ingresos durante el periodo gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079989-2005",
+      "tipo": "concepto",
+      "numero": "0079989",
+      "fecha": "2005-11-01",
+      "tema": "&iquest;Cu&aacute;l es el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035604-2005",
+      "tipo": "concepto",
+      "numero": "0035604",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el efecto fiscal del valor del good will formado por la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21750-2005",
+      "tipo": "oficio",
+      "numero": "21750",
+      "fecha": "2005-01-01",
+      "tema": "Renta presuntiva sobre renta l&iacute;quida ordinaria",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-29191-2004",
+      "tipo": "oficio",
+      "numero": "29191",
+      "fecha": "2004-05-11",
+      "tema": "&iquest;La persona que no ha sido declarante en el periodo anterior, puede determinar qu&eacute; patrimonio bruto y qu&eacute; patrimonio l&iacute;quido pose&iacute;a a 31 de diciembre del a&ntilde;o anterior al que va a declarar y con ellos determinar su renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15941-2004",
+      "tipo": "oficio",
+      "numero": "15941",
+      "fecha": "2004-03-17",
+      "tema": "Solicita, se certifique la vigencia del Concepto 117694 de 2000 que versa sobre el impuesto sobre las ventas en los contratos de cuentas en participaci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0060362-2003",
+      "tipo": "concepto",
+      "numero": "0060362",
+      "fecha": "2003-01-01",
+      "tema": "Un extranjero no residente en Colombia que posee en el pa&iacute;s un patrimonio constituido exclusivamente por aportes en un fondo voluntario de pensiones, debe presentar declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075961-2001",
+      "tipo": "concepto",
+      "numero": "0075961",
+      "fecha": "2001-08-22",
+      "tema": "&iquest;A ra&iacute;z de la modificaci&oacute;n que mediante la Ley 633 de 2000 se hizo de la deducci&oacute;n del exceso de la renta presuntiva sobre la renta liquida ordinaria, como opera esa deducci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108292-2000",
+      "tipo": "concepto",
+      "numero": "0108292",
+      "fecha": "2000-11-03",
+      "tema": "&iquest;Las empresas establecidas en la Zona del Ri&oacute; P&aacute;ez beneficiarias de la exenci&oacute;n prevista en el art&iacute;culo 2o de la Ley 218 de 1995, que por encontrarse en periodo improductivo depuraron la base del c&aacute;lculo de la renta presuntiva, tributan sobre las rentas generadas por los activos patrimoniales excluidos? O las rentas relativas a esos ingresos tienen el car&aacute;cter de rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066024-2000",
+      "tipo": "concepto",
+      "numero": "0066024",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;Se pod&iacute;a hacer uso de los cinco a&ntilde;os de la deducci&oacute;n del exceso de renta presuntiva a partir del a&ntilde;o gravable de 1995?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060766-1999",
+      "tipo": "concepto",
+      "numero": "0060766",
+      "fecha": "1999-07-02",
+      "tema": "&iquest;Pueden las nuevas sociedades tomar la deducci&oacute;n del exceso de renta presuntiva sobre la renta l&iacute;quida ordinaria que se origina en la declaraci&oacute;n de la sociedad escindida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058115-1999",
+      "tipo": "concepto",
+      "numero": "0058115",
+      "fecha": "1999-06-23",
+      "tema": "&iquest;En el caso de la escisi&oacute;n de sociedades, la nueva sociedad que surge recibe los activos, pasivos y patrimonio debe calcular renta presuntiva en su primera declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013731-1999",
+      "tipo": "concepto",
+      "numero": "0013731",
+      "fecha": "1999-09-13",
+      "tema": "&iquest;El saldo de los aportes obligatorios en fondos p&uacute;blicos y privados de pensiones de vejez, invalidez y muerte, puede descontarse del patrimonio l&iacute;quido para efectos de la determinaci&oacute;n de la Renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013730-1999",
+      "tipo": "concepto",
+      "numero": "0013730",
+      "fecha": "1999-09-04",
+      "tema": "&iquest;Para establecer la base de la renta presuntiva se puede descontar del patrimonio l&iacute;quido el valor total de los aportes voluntarios y obligatorios efectuados por e contribuyente en los fondos p&uacute;blicos y privados de pensiones de vejes, invalidez y muerte?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0089265-1998",
+      "tipo": "concepto",
+      "numero": "0089265",
+      "fecha": "1998-11-20",
+      "tema": "&iquest;Los bienes que han sido dados en garant&iacute;a y se reciben en pago de una deuda, que no son productores de renta se pueden excluir de la base para determinar la renta presuntiva?&iquest;En el calculo para depurar la renta presuntiva de una sociedad que invierte en otras sociedades, despu&eacute;s de haber restado el valor patrimonial neto de los aportes y acciones pose&iacute;dos en sociedades nacionales, se debe adicionar los ingresos obtenidos por tales activos? &iquest;Los activos destinados al sector agropecuario y pesquero est&aacute;n constituidos por todos los rubros del activo que revela una sociedad en sus estados financieros como la caja, bancos, deudores, entre otros, dedicada al sector o son todos aquellos bienes que tengan relaci&oacute;n directa como la maquinaria agr&iacute;cola, establecimientos agropecuarios, semovientes, etc?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068081-1998",
+      "tipo": "concepto",
+      "numero": "0068081",
+      "fecha": "1998-08-31",
+      "tema": "&iquest;Se deben restar las valorizaciones de inmuebles por exceso o diferencia entre el aval&uacute;o catastral o el costo fiscal del bien ajustado por el PAAG para depurar la base para determinar la renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065164-1998",
+      "tipo": "concepto",
+      "numero": "0065164",
+      "fecha": "1998-08-20",
+      "tema": "&iquest;En el c&aacute;lculo para depurar la renta presuntiva, trat&aacute;ndose de una compa&ntilde;&iacute;a que invierte en otras sociedades, es posible que despu&eacute;s de haber restado el valor patrimonial neto de los aportes y acciones pose&iacute;dos en sociedades nacionales, se adicione las utilidades generadas de los activos exceptuados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047573-1998",
+      "tipo": "concepto",
+      "numero": "0047573",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;Qu&eacute; pasa con una sociedad que se encuentra inactiva desde 1994 y no ha presentado declaraciones tributarias. Qu&eacute; sucede con los socios que tampoco han declarado? &iquest;Qu&eacute; sucede cuando una sociedad que ha declarado todos los impuestos, pero no los ha pagado? Se dice que la deuda vence a los cinco a&ntilde;os? &iquest;Qu&eacute; sucede si la sociedad continua declarando a la direcci&oacute;n registrada en la DIAN, aunque ya no tenga su domicilio all&iacute;?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038803-1998",
+      "tipo": "concepto",
+      "numero": "0038803",
+      "fecha": "1998-05-29",
+      "tema": "&iquest;Los activos del Fondo para el Financiamiento del Sector Agropecuario y del Fondo Agropecuario de Garant&iacute;as se encuentran dentro de los supuestos normativos de excepci&oacute;n para la determinaci&oacute;n de la renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030269-1998",
+      "tipo": "concepto",
+      "numero": "0030269",
+      "fecha": "1998-04-30",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027791-1997",
+      "tipo": "concepto",
+      "numero": "0027791",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004033-1997",
+      "tipo": "concepto",
+      "numero": "0004033",
+      "fecha": "1997-04-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072578-1996",
+      "tipo": "concepto",
+      "numero": "0072578",
+      "fecha": "1996-09-16",
+      "tema": "&iquest;Las sociedades que no han percibido ingresos por encontrarse en",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058598-1995",
+      "tipo": "concepto",
+      "numero": "0058598",
+      "fecha": "1995-08-23",
+      "tema": "&iquest;Una empresa editorial cuyo objeto social es la edici&oacute;n de libros de car&aacute;cter cient&iacute;fico o cultural, que hace la edici&oacute;n en Colombia, pero realiza parte o a totalidad de la impresi&oacute;n por fuera del pa&iacute;s, goza de la exenci&oacute;n total del impuesto sobre la renta y complementarios? &iquest;Las empresas editoriales que gozan de la exenci&oacute;n total del impuesto sobre la renta y complementarios est&aacute;n obligadas al c&aacute;lculo de la renta presuntiva? &iquest;El servicio de impresi&oacute;n de textos est&aacute; sujeto a retenci&oacute;n en la fuente cuando lo realice una empresa editorial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054675-1995",
+      "tipo": "concepto",
+      "numero": "0054675",
+      "fecha": "1995-08-08",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento aplicable en la determinaci&oacute;n de la renta presuntiva cuando en el a&ntilde;o anterior no existe patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013516-1995",
+      "tipo": "concepto",
+      "numero": "0013516",
+      "fecha": "1995-03-14",
+      "tema": "&iquest;Para los efectos de calcular la renta presuntiva de una sociedad absorbente correspondiente al a&ntilde;o gravable en el que absorbe a otras sociedades, se debe tener en cuenta los patrimonios l&iacute;quidos pose&iacute;dos por las sociedades absorbidas en el &uacute;ltimo d&iacute;a del a&ntilde;o gravable inmediatamente anterior? &iquest;En el a&ntilde;o en el que ocurre la fusi&oacute;n por absorci&oacute;n son deducibles para la sociedad absorbente, las p&eacute;rdidas y el exceso de la renta presuntiva de las sociedades absorbidas correspondientes a los a&ntilde;os anteriores a su fusi&oacute;n por absorci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017256-1993",
+      "tipo": "concepto",
+      "numero": "0017256",
+      "fecha": "1993-01-01",
+      "tema": "Previendo ahora la posibilidad de adquirir bienes en Colombia con lo capitalizado en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016714-1993",
+      "tipo": "concepto",
+      "numero": "0016714",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Para el a&ntilde;o 1992 se debe valorizar, ajustar, por el pago anual el valor del lote por los meses de octubre a diciembre de 1992",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021340-1989",
+      "tipo": "concepto",
+      "numero": "0021340",
+      "fecha": "1989-01-01",
+      "tema": "Renta presuntiva de empresa ubicada en zona con problemas de orden p&uacute;blico y en per&iacute;odo improductivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018376-1989",
+      "tipo": "concepto",
+      "numero": "0018376",
+      "fecha": "1989-01-01",
+      "tema": "Obligaci&oacute;n o no de presentar declaraci&oacute;n de renta para sociedad extranjera",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-740-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "740",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    }
+  ]
+}

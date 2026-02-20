@@ -1,6 +1,6 @@
 import { enhanceQuery } from "./query-enhancer";
 import { retrieve } from "./retriever";
-import { heuristicRerank } from "./reranker";
+import { heuristicRerank, llmRerank, heuristicRerankMultiSource } from "./reranker";
 import { assembleContext } from "./context-assembler";
 import { buildMessages } from "./prompt-builder";
 import { AssembledContext, SourceCitation } from "@/types/rag";
@@ -64,14 +64,24 @@ export async function runRAGPipeline(
     throw new Error("No se pudieron recuperar los artículos relevantes.");
   }
 
-  // 3. Rerank
-  const reranked = heuristicRerank(retrievalResult.chunks, enhancedQuery);
+  // 3. Rerank article chunks
+  let reranked = heuristicRerank(retrievalResult.chunks, enhancedQuery);
+
+  if (options.useLLMRerank ?? RAG_CONFIG.useLLMRerank) {
+    reranked = await llmRerank(reranked, query);
+  }
+
+  // 3b. Rerank multi-source chunks (doctrina, jurisprudencia, etc.)
+  const rerankedMultiSource = retrievalResult.multiSourceChunks
+    ? heuristicRerankMultiSource(retrievalResult.multiSourceChunks, enhancedQuery)
+    : [];
 
   // 4. Assemble context
   let context;
   try {
     context = await assembleContext(reranked, {
       useSiblingRetrieval: options.useSiblingRetrieval ?? RAG_CONFIG.useSiblingRetrieval,
+      multiSourceChunks: rerankedMultiSource,
     });
   } catch (error) {
     console.error("[rag-pipeline] Context assembly failed:", error);

@@ -1,1 +1,939 @@
-{"id_articulo": "Art. 338", "titulo": "Art. 338. Ingresos de las rentas de capital.", "titulo_corto": "Ingresos de las rentas de capital.", "slug": "338", "url_origen": "https://estatuto.co/338", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.</span></span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018"], "texto_derogado": ["*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.", "full_length": 163}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 338",
+  "titulo": "Art. 338. Ingresos de las rentas de capital.",
+  "titulo_corto": "Ingresos de las rentas de capital.",
+  "slug": "338",
+  "url_origen": "https://estatuto.co/338",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.</span></span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Son ingresos de esta cédula los obtenidos por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.",
+      "full_length": 163
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 62 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 15498 (2025-11-04): Otros Temas\noficio 13295 (2025-10-01): Impuesto Sobre las Ventas - IVA\noficio 8922 (2025-07-10): Impuesto Sobre las Ventas - IVA\noficio 2704 (2025-02-14): Procedimiento Tributario\noficio 1305 (2024-02-23): (Int 115) Impuesto sobre las ventas - Descuento especial del impuesto sobre las ventas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-15498-2025",
+      "tipo": "oficio",
+      "numero": "15498",
+      "fecha": "2025-11-04",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13295-2025",
+      "tipo": "oficio",
+      "numero": "13295",
+      "fecha": "2025-10-01",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8922-2025",
+      "tipo": "oficio",
+      "numero": "8922",
+      "fecha": "2025-07-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2704-2025",
+      "tipo": "oficio",
+      "numero": "2704",
+      "fecha": "2025-02-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1305-2024",
+      "tipo": "oficio",
+      "numero": "1305",
+      "fecha": "2024-02-23",
+      "tema": "(Int 115) Impuesto sobre las ventas - Descuento especial del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906723-2022",
+      "tipo": "oficio",
+      "numero": "906723",
+      "fecha": "2022-09-06",
+      "tema": "Procedimiento tributario. Aplicaci&oacute;n de la ley en el tiempo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901489-2021",
+      "tipo": "oficio",
+      "numero": "901489",
+      "fecha": "2021-11-17",
+      "tema": "Impuesto sobre la renta y complementarios - Exenci&oacute;n - Empresas de Econom&iacute;a Naranja",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904276-2020",
+      "tipo": "oficio",
+      "numero": "904276",
+      "fecha": "2020-08-21",
+      "tema": "&iquest;Todos los art&iacute;culos deportivos que se vendan al Departamento del Vichada est&aacute;n excluidos del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1699-2019",
+      "tipo": "oficio",
+      "numero": "1699",
+      "fecha": "2019-07-29",
+      "tema": "(Int 1699) Aplicaci&oacute;n del beneficio tributario consagrado en el art&iacute;culo 11 de la Ley 1715 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28562-2019",
+      "tipo": "oficio",
+      "numero": "28562",
+      "fecha": "2019-11-26",
+      "tema": "&iquest;Cu&aacute;l es el ingreso laboral que se debe tener en cuenta para determinar el ingreso mensual promedio de los trabajadores a fin de calcular la parte exenta de las cesant&iacute;as e intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23681-2019",
+      "tipo": "oficio",
+      "numero": "23681",
+      "fecha": "2019-09-19",
+      "tema": "Zona Econ&oacute;mica y Social Especial -ZESE - para la Guajira, Norte de Santander y Arauca",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23582-2019",
+      "tipo": "oficio",
+      "numero": "23582",
+      "fecha": "2019-09-19",
+      "tema": "Zona Econ&oacute;mica y Social Especial -ZESE - para la Guajira, Norte de Santander y Arauca",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20047-2019",
+      "tipo": "oficio",
+      "numero": "20047",
+      "fecha": "2019-08-13",
+      "tema": "&iquest;C&oacute;mo funcionan los descuentos de impuestos para extranjeros en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15137-2019",
+      "tipo": "oficio",
+      "numero": "15137",
+      "fecha": "2019-06-11",
+      "tema": "Tratamiento tributario aplicable a los ingresos pasivos recibidos por una Entidad Controlada del Exterior, propiedad de un residente colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3446-2019",
+      "tipo": "oficio",
+      "numero": "3446",
+      "fecha": "2019-02-08",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32761-2018",
+      "tipo": "oficio",
+      "numero": "32761",
+      "fecha": "2018-11-09",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32087-2018",
+      "tipo": "oficio",
+      "numero": "32087",
+      "fecha": "2018-10-31",
+      "tema": "Tratamiento tributario que debe d&aacute;rsele a los intereses sobre las cesant&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15878-2018",
+      "tipo": "oficio",
+      "numero": "15878",
+      "fecha": "2018-06-19",
+      "tema": "Ingresos Constitutivos de Renta y Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011769-2017",
+      "tipo": "concepto",
+      "numero": "0011769",
+      "fecha": "2017-05-15",
+      "tema": "Exclusi&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7389-2017",
+      "tipo": "oficio",
+      "numero": "7389",
+      "fecha": "2017-03-31",
+      "tema": "Deducci&oacute;n de Pensiones de Jubilaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5984-2017",
+      "tipo": "oficio",
+      "numero": "5984",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios - Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n- Determinaci&oacute;n de la Renta L&iacute;quida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1826-2017",
+      "tipo": "oficio",
+      "numero": "1826",
+      "fecha": "2017-12-12",
+      "tema": "Exenci&oacute;n en el IVA para contratos celebrados con entidades p&uacute;blicas de acuerdo al documento del Primer Concepto General de Impuestos a las ventas - Ley 1819 de 2016, emitido por la DIAN el 30 de enero de 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22774-2016",
+      "tipo": "oficio",
+      "numero": "22774",
+      "fecha": "2016-08-24",
+      "tema": "Reconsideraci&oacute;n de la doctrina contenida en los Oficios n&uacute;meros 005836 de 2015 y 022170 de 2014, en los cuales se consider&oacute; que el beneficio de exclusi&oacute;n del impuesto sobre las ventas en la importaci&oacute;n de los bienes relacionados en el art&iacute;culo 428 del Estatuto Tributario, est&aacute; condicionado a la obtenci&oacute;n previa indistintamente de la modalidad de importaci&oacute;n- de la respectiva certificaci&oacute;n expedida por la autoridad competente, seg&uacute;n el caso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7792-2016",
+      "tipo": "oficio",
+      "numero": "7792",
+      "fecha": "2016-04-08",
+      "tema": "&iquest;Cu&aacute;l es la jurisdicci&oacute;n en la cual tiene su domicilio el mencionado marinero para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014? - &iquest;De qu&eacute; forma se puede acreditar la jurisdicci&oacute;n en la cual se tenga el domicilio para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7256-2016",
+      "tipo": "oficio",
+      "numero": "7256",
+      "fecha": "2016-04-01",
+      "tema": "Incentivos tributarios, exclusi&oacute;n del impuesto sobre las ventas, exenciones de grav&aacute;menes arancelarios - Impuesto sobre la renta y complementarios, Impuesto sobre las ventas, arancel",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6156-2014",
+      "tipo": "oficio",
+      "numero": "6156",
+      "fecha": "2014-01-01",
+      "tema": "Vigencia del par&aacute;grafo del art&iacute;culo 134 del Estatuto Tributario, adicionado por el art&iacute;culo 159 de la Ley 1607 de 2012, para efectos de aplicar la limitaci&oacute;n respecto al m&iacute;nimo admitido como valor residual o valor de salvamento del costo de los activos fijos para los casos en que se opte por utilizar el sistema de depreciaci&oacute;n de reducci&oacute;n de saldos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20254-2012",
+      "tipo": "oficio",
+      "numero": "20254",
+      "fecha": "2012-03-26",
+      "tema": "Recompensas contrabando y evasi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93137-2011",
+      "tipo": "oficio",
+      "numero": "93137",
+      "fecha": "2011-11-28",
+      "tema": "Procedimiento a seguir para hacer efectivos los beneficios consagrados en la Ley 1429 de 2010,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77740-2010",
+      "tipo": "oficio",
+      "numero": "77740",
+      "fecha": "2010-10-22",
+      "tema": "vigencia y aplicaci&oacute;n del Cap&iacute;tulo III de la Ley 1393 de 2010",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26329-2008",
+      "tipo": "oficio",
+      "numero": "26329",
+      "fecha": "2008-01-01",
+      "tema": "Impuesto sobre las ventas en los pagos que por parqueadero y gr&uacute;a efect&uacute;an los infractores de las normas de tr&aacute;nsito y servicios excluidos tasas y contribuciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21662-2008",
+      "tipo": "oficio",
+      "numero": "21662",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Los contribuyentes que a 31 de diciembre de 2006 ten&iacute;an acumuladas p&eacute;rdidas fiscales sufridas tanto en este a&ntilde;o gravable como en anteriores, pueden compensar estas p&eacute;rdidas fiscales sufridas tanto en este a&ntilde;o gravable como en anteriores, pueden compensar estas p&eacute;rdidas en el a&ntilde;o 2007 incluidos los ajustes por inflaci&oacute;n acumuladas hasta el 31 de diciembre de 2006 m&aacute;s el reajuste fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54350-2007",
+      "tipo": "oficio",
+      "numero": "54350",
+      "fecha": "2007-07-17",
+      "tema": "&iquest;A partir de cu&aacute;l momento y bajo que norma las operaciones cambiarias quedaron sometidas al Gravamen a los Movimientos Financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077445-2006",
+      "tipo": "concepto",
+      "numero": "0077445",
+      "fecha": "2006-09-11",
+      "tema": "&iquest;Es posible compensar con la renta l&iacute;quida del a&ntilde;o gravable 2005 el exceso de renta presuntiva sobre renta l&iacute;quida ordinaria generada en el a&ntilde;o gravable 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052245-2006",
+      "tipo": "concepto",
+      "numero": "0052245",
+      "fecha": "2006-06-20",
+      "tema": "&iquest;Con fundamento en el numeral 7&ordm; del art&iacute;culo 8&ordm; del Decreto 2075 de 1992, modificado por el art&iacute;culo 4&ordm; del Decreto 2591 de 1993; el valor patrimonial por el cual se deben declarar las acciones o aportes en sociedades es el valor intr&iacute;nseco o el valor en bolsa cuando &eacute;stos son inferiores al costo por el PAAG?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21284-2006",
+      "tipo": "oficio",
+      "numero": "21284",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;C&oacute;mo se puede ajustar fiscalmente el valor del inventario de mercanc&iacute;a importada, al valor real que tiene en la actualidad, debido a la revaluaci&oacute;n del peso, teniendo en cuenta lo dispuesto en los art&iacute;culos 10 y 63 del decreto 2649 de 1993 y cu&aacute;l ser&iacute;a el asiento contable que debe registrarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094036-2005",
+      "tipo": "concepto",
+      "numero": "0094036",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Pueden los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia deducir los intereses pagados a favor de su casa matriz, sobre pr&eacute;stamos de &eacute;sta, sin tener que practicar retenci&oacute;n en la fuente?&iquest;La posibilidad que tienen los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia de deducir los pagos a favor de sus casas matrices o de sus ganancias, sucursales o filiales con domicilio en el exterior, por concepto de intereses y dem&aacute;s costos y gastos financieros, sobre pr&eacute;stamos de &eacute;stas, en operaciones respecto de las cuales se cumpla dicho r&eacute;gimen, conlleva el reconocimiento fiscal para efectos patrimoniales del pasivo que los origina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87501-2005",
+      "tipo": "oficio",
+      "numero": "87501",
+      "fecha": "2005-11-24",
+      "tema": "&iquest;En virtud de lo dispuesto en el par&aacute;grafo del art&iacute;culo 1 del Decreto 416 de 2003, un Fondo de Empleados est&aacute; obligado a efectuar ajustes por inflaci&oacute;n contables a los inventarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-47369-2002",
+      "tipo": "concepto",
+      "numero": "47369",
+      "fecha": "2002-07-30",
+      "tema": "Ajustes integrales por inflaci&oacute;n. Ajustes a los activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-25039-2002",
+      "tipo": "concepto",
+      "numero": "25039",
+      "fecha": "2002-04-26",
+      "tema": "Iva sobre la concesi&oacute;n de la producci&oacute;n y comercializaci&oacute;n de licores destilados que un departamento celebra en ejercicio del derecho de monopolio sobre producci&oacute;n y comercializaci&oacute;n de licores",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009328-2000",
+      "tipo": "concepto",
+      "numero": "0009328",
+      "fecha": "2000-02-04",
+      "tema": "&iquest;Con el fin de obtener el beneficio de exenci&oacute;n del impuesto sobre la renta y complementarios: &iquest;cual es el plazo m&aacute;ximo que debe transcurrir entre la fecha del establecimiento de la empresa en la zona del r&iacute;o P&aacute;ez y la fecha en que debe iniciar la fase productiva en el caso de empresas establecidas en el a&ntilde;o gravable de 1996?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060597-1996",
+      "tipo": "concepto",
+      "numero": "0060597",
+      "fecha": "1996-07-30",
+      "tema": "&iquest;Son compensables para los beneficiarios, las perdidas fiscales sufridas en un per&iacute;odo gravable por los patrimonios aut&oacute;nomos que surgen en virtud de un contrato de fiducia mercantil, con las rentas que obtuvieron dentro de los cinco per&iacute;odos gravables siguientes? &iquest;Cual es el procedimiento que deben seguir los beneficiarios en sus declaraciones de renta que presenten a partir del a&ntilde;o gravable de 1996 y siguientes en relaci&oacute;n con las utilidades acumuladas en los fideicomisos que no les hayan sido abonadas en cuenta al 31 de diciembre de 1995? &iquest;Cuales son las obligaciones formales que deben cumplir las sociedades fiduciarias bajo su propia responsabilidad NIT y raz&oacute;n social en relaci&oacute;n a cada uno de los patrimonios aut&oacute;nomos que administran? &iquest;Son responsables del impuesto sobre la renta los patrimonios aut&oacute;nomos? &iquest;Son agentes de retenci&oacute;n del impuesto sobre las ventas las sociedades fiduciarias, cuando realicen pagos o abonos en cuenta por las operaciones realizadas con los recursos de los patrimonios aut&oacute;nomos por ellas administrados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010267-1996",
+      "tipo": "concepto",
+      "numero": "0010267",
+      "fecha": "1996-02-14",
+      "tema": "&iquest;Qui&eacute;n es el responsable de consignar la retenci&oacute;n en la fuente en los bancos, por pagos efectuados a trav&eacute;s de la cuenta de gastos reservados cuando la dependencia que la lleva a cabo no tiene NIT?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-690-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 2003
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-385-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "385",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-740-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "740",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-094-2024",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "094",
+      "year": 2024,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-335-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "335",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-341-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "341",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-138-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "138",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-510-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "510",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1021-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1021",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-891-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "891",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-602-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "602",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-261-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "261",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

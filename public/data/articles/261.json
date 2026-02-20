@@ -1,1 +1,960 @@
-{"id_articulo": "Art. 261", "titulo": "Art. 261. Patrimonio bruto.", "titulo_corto": "Patrimonio bruto.", "slug": "261", "url_origen": "https://estatuto.co/261", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "El patrimonio bruto está constituido por el total de los bienes y derechos apreciables en dinero poseídos por el contribuyente en el último día del año o período gravable. *Para los contribuyentes con residencia o domicilio en Colombia, excepto las sucursales de sociedades extranjeras y los establecimientos permanentes, el patrimonio bruto incluye los bienes poseídos en el exterior. Las personas naturales, nacionales e extranjeras, que tengan residencia en el país, y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, incluirán tales bienes a partir del año gravable en que adquieran la residencia fiscal en Colombia. **Parágrafo 1. Sin perjuicio de lo establecido en este estatuto, se entenderá como activo los recursos controlados por la entidad como resultado de eventos pasados y de los cuales se espera que fluyan beneficios económicos futuros para la entidad. No integran el patrimonio bruto los activos contingentes de conformidad con la técnica contable, ni el activo por impuesto diferido, ni las operaciones de cobertura y de derivados por los ajustes de medición a valor razonable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El patrimonio bruto está constituido por el total de los bienes y derechos apreciables en dinero poseídos por el contribuyente en el último día del año o período gravable.</p>\n<p>*Para los contribuyentes con residencia o domicilio en Colombia, excepto las sucursales de sociedades extranjeras y los establecimientos permanentes, el patrimonio bruto incluye los bienes poseídos en el exterior. Las personas naturales, nacionales e extranjeras, que tengan residencia en el país, y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, incluirán tales bienes a partir del año gravable en que adquieran la residencia fiscal en Colombia.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**</span>Parágrafo 1.</span></strong> Sin perjuicio de lo establecido en este estatuto, se entenderá como activo los recursos controlados por la entidad como resultado de eventos pasados y de los cuales se espera que fluyan beneficios económicos futuros para la entidad. No integran el patrimonio bruto los activos contingentes de conformidad con la técnica contable, ni el activo por impuesto diferido, ni las operaciones de cobertura y de derivados por los ajustes de medición a valor razonable.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado por Ley 1739 de 2014 Art 30. **Adicionado Ley 1819 de 2016 Art. 113.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1739", "norma_year": 2014, "norma_articulo": "30"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "113"}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1739 de 2014", "Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 261",
+  "titulo": "Art. 261. Patrimonio bruto.",
+  "titulo_corto": "Patrimonio bruto.",
+  "slug": "261",
+  "url_origen": "https://estatuto.co/261",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "El patrimonio bruto está constituido por el total de los bienes y derechos apreciables en dinero poseídos por el contribuyente en el último día del año o período gravable. *Para los contribuyentes con residencia o domicilio en Colombia, excepto las sucursales de sociedades extranjeras y los establecimientos permanentes, el patrimonio bruto incluye los bienes poseídos en el exterior. Las personas naturales, nacionales e extranjeras, que tengan residencia en el país, y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, incluirán tales bienes a partir del año gravable en que adquieran la residencia fiscal en Colombia. **Parágrafo 1. Sin perjuicio de lo establecido en este estatuto, se entenderá como activo los recursos controlados por la entidad como resultado de eventos pasados y de los cuales se espera que fluyan beneficios económicos futuros para la entidad. No integran el patrimonio bruto los activos contingentes de conformidad con la técnica contable, ni el activo por impuesto diferido, ni las operaciones de cobertura y de derivados por los ajustes de medición a valor razonable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El patrimonio bruto está constituido por el total de los bienes y derechos apreciables en dinero poseídos por el contribuyente en el último día del año o período gravable.</p>\n<p>*Para los contribuyentes con residencia o domicilio en Colombia, excepto las sucursales de sociedades extranjeras y los establecimientos permanentes, el patrimonio bruto incluye los bienes poseídos en el exterior. Las personas naturales, nacionales e extranjeras, que tengan residencia en el país, y las sucesiones ilíquidas de causantes con residencia en el país en el momento de su muerte, incluirán tales bienes a partir del año gravable en que adquieran la residencia fiscal en Colombia.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**</span>Parágrafo 1.</span></strong> Sin perjuicio de lo establecido en este estatuto, se entenderá como activo los recursos controlados por la entidad como resultado de eventos pasados y de los cuales se espera que fluyan beneficios económicos futuros para la entidad. No integran el patrimonio bruto los activos contingentes de conformidad con la técnica contable, ni el activo por impuesto diferido, ni las operaciones de cobertura y de derivados por los ajustes de medición a valor razonable.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado por Ley 1739 de 2014 Art 30. **Adicionado Ley 1819 de 2016 Art. 113.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1739",
+      "norma_year": 2014,
+      "norma_articulo": "30"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "113"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1739 de 2014",
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 22 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0452 (2026-01-19): Impuesto sobre la Renta y Complementarios\noficio 15513 (2025-11-05): Impuesto sobre la Renta y Complementarios\noficio 7333 (2025-06-04): Impuesto de Timbre\noficio 5035 (2025-04-21): Impuesto sobre la Renta y Complementarios\noficio 9485 (2024-11-29): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0452-2026",
+      "tipo": "oficio",
+      "numero": "0452",
+      "fecha": "2026-01-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15513-2025",
+      "tipo": "oficio",
+      "numero": "15513",
+      "fecha": "2025-11-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7333-2025",
+      "tipo": "oficio",
+      "numero": "7333",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5035-2025",
+      "tipo": "oficio",
+      "numero": "5035",
+      "fecha": "2025-04-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9485-2024",
+      "tipo": "oficio",
+      "numero": "9485",
+      "fecha": "2024-11-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7360-2024",
+      "tipo": "oficio",
+      "numero": "7360",
+      "fecha": "2024-09-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5343-2024",
+      "tipo": "oficio",
+      "numero": "5343",
+      "fecha": "2024-07-31",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4120-2024",
+      "tipo": "oficio",
+      "numero": "4120",
+      "fecha": "2024-06-21",
+      "tema": "Impuesto al Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2119-2024",
+      "tipo": "oficio",
+      "numero": "2119",
+      "fecha": "2024-03-26",
+      "tema": "(Int 207) R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE - Impuesto sobre la renta - Procedimiento Tributario - Presentaci&oacute;n de la declaraci&oacute;n - Correcci&oacute;n - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2091-2024",
+      "tipo": "oficio",
+      "numero": "2091",
+      "fecha": "2024-03-20",
+      "tema": "(Int 198) Impuesto sobre la Renta y Complementarios - &iquest;El valor de un intangible (obras musicales) que se debe declarar por parte de su titular, corresponde a su valor razonable o al obtenido en las negociaciones econ&oacute;micas que se realizan con estas obras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5272-2023",
+      "tipo": "oficio",
+      "numero": "5272",
+      "fecha": "2023-09-14",
+      "tema": "(Int 978) Impuesto sobre la Renta y Complementarios - Ingreso por enajenaci&oacute;n de acciones - Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905786-2022",
+      "tipo": "oficio",
+      "numero": "905786",
+      "fecha": "2022-07-19",
+      "tema": "R&eacute;gimen especial en materia tributaria - ZESE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903364-2022",
+      "tipo": "oficio",
+      "numero": "903364",
+      "fecha": "2022-04-28",
+      "tema": "Impuesto sobre la renta - Saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902148-2022",
+      "tipo": "oficio",
+      "numero": "902148",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre la renta, personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915596-2021",
+      "tipo": "oficio",
+      "numero": "915596",
+      "fecha": "2021-12-22",
+      "tema": "Impuesto sobre la Renta - Residencia fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912705-2021",
+      "tipo": "oficio",
+      "numero": "912705",
+      "fecha": "2021-10-11",
+      "tema": "&iquest;Los bienes de inter&eacute;s cultural forman parte del patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-911091-2021",
+      "tipo": "oficio",
+      "numero": "911091",
+      "fecha": "2021-01-01",
+      "tema": "Mandato - Mandante residente actualmente en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910054-2021",
+      "tipo": "oficio",
+      "numero": "910054",
+      "fecha": "2021-09-17",
+      "tema": "&iquest;El valor del saldo de los pasivos laborales, informado por el empleador, debe ser incluido por los respectivos trabajadores en sus declaraciones del impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907960-2021",
+      "tipo": "oficio",
+      "numero": "907960",
+      "fecha": "2021-08-10",
+      "tema": "Declaraci&oacute;n de activos en el exterior - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905603-2021",
+      "tipo": "oficio",
+      "numero": "905603",
+      "fecha": "2021-06-17",
+      "tema": "Impuesto sobre la renta - Obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904102-2021",
+      "tipo": "oficio",
+      "numero": "904102",
+      "fecha": "2021-05-07",
+      "tema": "Entidades Controladas del Exterior Reconocimiento del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903255-2021",
+      "tipo": "oficio",
+      "numero": "903255",
+      "fecha": "2021-01-01",
+      "tema": "Costo fiscal de bienes inmuebles - Autoaval&uacute;o o aval&uacute;o aceptable como costo fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0269-2021",
+      "tipo": "oficio",
+      "numero": "0269",
+      "fecha": "2021-07-21",
+      "tema": "Ventas sujetas a condici&oacute;n - Costo fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907761-2020",
+      "tipo": "oficio",
+      "numero": "907761",
+      "fecha": "2020-12-02",
+      "tema": "Renta por Comparaci&oacute;n Patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906852-2020",
+      "tipo": "oficio",
+      "numero": "906852",
+      "fecha": "2020-11-11",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria. Hecho generador. Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906810-2020",
+      "tipo": "oficio",
+      "numero": "906810",
+      "fecha": "2020-10-05",
+      "tema": "Impuesto sobre la Renta y Complementarios, procedimiento tributario. Contratos de colaboraci&oacute;n empresarial. R&eacute;gimen Especial Tributario ZESE Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904163-2020",
+      "tipo": "oficio",
+      "numero": "904163",
+      "fecha": "2020-08-20",
+      "tema": "&iquest;Las p&eacute;rdidas fiscales pueden considerarse como activos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1394-2020",
+      "tipo": "oficio",
+      "numero": "1394",
+      "fecha": "2020-01-24",
+      "tema": "Efectos tributarios de un pr&eacute;stamo de libre inversi&oacute;n obtenido en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29887-2019",
+      "tipo": "oficio",
+      "numero": "29887",
+      "fecha": "2019-11-28",
+      "tema": "Costo de los Bienes Incorporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2019",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2019-11-28",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26836-2019",
+      "tipo": "oficio",
+      "numero": "26836",
+      "fecha": "2019-10-24",
+      "tema": "Norma y tr&aacute;mite a seguir con el fin de la cesi&oacute;n a t&iacute;tulo gratuito de acciones sea demostrado como una daci&oacute;n en pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23295-2019",
+      "tipo": "oficio",
+      "numero": "23295",
+      "fecha": "2019-09-13",
+      "tema": "Impuesto a la riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15143-2019",
+      "tipo": "oficio",
+      "numero": "15143",
+      "fecha": "2019-06-11",
+      "tema": "&iquest;El impuesto de normalizaci&oacute;n previsto en la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6720-2019",
+      "tipo": "oficio",
+      "numero": "6720",
+      "fecha": "2019-03-18",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional - Ingreso constitutivo de renta - Ingreso Gravable Costo de los Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2719-2019",
+      "tipo": "oficio",
+      "numero": "2719",
+      "fecha": "2019-02-01",
+      "tema": "&iquest;Qu&eacute; normatividad y responsabilidades debe aplicar el depositario provisional que administra y representa a establecimientos de comercio de personas naturales inmersas de un proceso de extinci&oacute;n de dominio ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1449-2019",
+      "tipo": "oficio",
+      "numero": "1449",
+      "fecha": "2019-01-15",
+      "tema": "Intervenci&oacute;n de la Administraci&oacute;n de Impuestos en Procesos de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34690-2018",
+      "tipo": "oficio",
+      "numero": "34690",
+      "fecha": "2018-12-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de pagar impuesto para una persona que hace inversiones en la bolsa de New York con acciones y opciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33700-2018",
+      "tipo": "oficio",
+      "numero": "33700",
+      "fecha": "2018-11-29",
+      "tema": "Deducci&oacute;n por P&eacute;rdidas de Activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33631-2018",
+      "tipo": "oficio",
+      "numero": "33631",
+      "fecha": "2018-11-19",
+      "tema": "&iquest;El Derecho de Usufructo Vitalicio forma parte del patrimonio bruto de una persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1849-2018",
+      "tipo": "oficio",
+      "numero": "1849",
+      "fecha": "2018-10-17",
+      "tema": "Causaci&oacute;n en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1669-2018",
+      "tipo": "oficio",
+      "numero": "1669",
+      "fecha": "2018-09-25",
+      "tema": "Tratamiento tributario aplicable a las condonaciones de deudas, entre compa&ntilde;&iacute;as vinculadas a partes relacionadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0522-2018",
+      "tipo": "oficio",
+      "numero": "0522",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Qui&eacute;n debe cumplir con la obligaci&oacute;n de declarar el Impuesto Sobre la Renta y complementarios, cuando el Usufructuario de un bien inmueble cede mediante un contrato de comodato el bien objeto de usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0330-2016",
+      "tipo": "oficio",
+      "numero": "0330",
+      "fecha": "2016-04-25",
+      "tema": "Ingreso o salida del pa&iacute;s de divisas y-o moneda legal colombiana",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23029-2015",
+      "tipo": "oficio",
+      "numero": "23029",
+      "fecha": "2015-08-05",
+      "tema": "&iquest;Debe incluirse en la declaraci&oacute;n del impuesto de renta y complementario el denominado o llamado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21725-2015",
+      "tipo": "oficio",
+      "numero": "21725",
+      "fecha": "2015-07-24",
+      "tema": "&iquest;Una sociedad cuyo patrimonio l&iacute;quido est&aacute; conformado solamente por acciones y que no tuvo ingresos en el a&ntilde;o gravable, sobre qu&eacute; tributa en la declaraci&oacute;n del impuesto sobre la renta o mediante renta presuntiva, si no tiene base gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20771-2015",
+      "tipo": "oficio",
+      "numero": "20771",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto a la Riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18719-2015",
+      "tipo": "oficio",
+      "numero": "18719",
+      "fecha": "2015-06-25",
+      "tema": "De conformidad con lo consagrado en los art&iacute;culos 20 y 20-2 del Estatuto Tributario, &iquest;c&oacute;mo debe establecerse la base de la renta presuntiva prevista en el art&iacute;culo 188 ib&iacute;dem, para los Establecimientos Permanentes?, &iquest;se requiere un estudio adicional para estos efectos? o, &iquest;hay una derogaci&oacute;n t&aacute;cita del art&iacute;culo 188 para los Establecimientos Permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15908-2015",
+      "tipo": "oficio",
+      "numero": "15908",
+      "fecha": "2015-05-29",
+      "tema": "Forma de valorar activos o bienes para efectos de determinar la base gravable del impuesto a la riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15166-2015",
+      "tipo": "oficio",
+      "numero": "15166",
+      "fecha": "2015-05-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12391-2015",
+      "tipo": "oficio",
+      "numero": "12391",
+      "fecha": "2015-04-30",
+      "tema": "Impuesto al Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10773-2015",
+      "tipo": "oficio",
+      "numero": "10773",
+      "fecha": "2015-04-15",
+      "tema": "&iquest;Cu&aacute;l es la forma de valorar activos o bienes para efectos de determinar la base gravable del impuesto a la riqueza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005826-2015",
+      "tipo": "concepto",
+      "numero": "0005826",
+      "fecha": "2015-02-25",
+      "tema": "&iquest;Se debe tener en cuenta el valor de las valorizaciones de la propiedad, planta y equipo, para efectos del c&aacute;lculo del patrimonio bruto a considerar en la base gravable del impuesto a la riqueza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78486-2014",
+      "tipo": "oficio",
+      "numero": "78486",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Qu&eacute; efectos fiscales traer&iacute;a la disminuci&oacute;n del patrimonio de una sociedad, debido a un activo intangible know how- no formado, sin que se pueda probar t&eacute;cnicamente dicha disminuci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61415-2014",
+      "tipo": "oficio",
+      "numero": "61415",
+      "fecha": "2014-10-31",
+      "tema": "se consulta para el caso de una persona natural con doble nacionalidad (colombiana-estadounidense), declarante del impuesto de renta en ambos pa&iacute;ses por los bienes pose&iacute;dos, si debe incluir los bienes pose&iacute;dos en los Estados Unidos para efectos de la declaraci&oacute;n del impuesto de renta en Colombia, los mecanismos previstos para evitar la doble tributaci&oacute;n en este caso y la vigencia de la Ley 1666 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56986-2014",
+      "tipo": "oficio",
+      "numero": "56986",
+      "fecha": "2014-10-02",
+      "tema": "&iquest;Es necesario que una persona natural presente proyecto de correcci&oacute;n de la declaraci&oacute;n de impuesto de renta, si al momento de presentar la declaraci&oacute;n inicial la liquid&oacute; mediante un sistema diferente al que estaba obligado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55120-2014",
+      "tipo": "oficio",
+      "numero": "55120",
+      "fecha": "2014-09-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de declarar el derecho de usufructo de un bien inmueble, por parte de un usufructuario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35174-2012",
+      "tipo": "oficio",
+      "numero": "35174",
+      "fecha": "2012-06-01",
+      "tema": "&iquest;Los bienes incorporales (activos intangibles) integran la base gravable para calcular la renta presuntiva y el impuesto al patrimonio?&iquest;Los derechos de producci&oacute;n o explotaci&oacute;n sobre las reservas de hidrocarburos son un bien incorporal y c&oacute;mo se calcula el costo de que trata el art&iacute;culo 75 del Estatuto Tributario, cuando los bienes incorporales (activos intangibles) est&aacute;n en cuentas de orden y no fueron incluidos en la declaraci&oacute;n de renta y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34916-2012",
+      "tipo": "oficio",
+      "numero": "34916",
+      "fecha": "2012-05-31",
+      "tema": "&iquest;Est&aacute; obligada al pago del impuesto al patrimonio establecido en la Ley 1370 de 2009, una sociedad mixta de car&aacute;cter an&oacute;nima, constituida en el a&ntilde;o 2009, cuyo capital social aportado por los socios privados corresponde a los bienes por ellos recibidos como pago de sus acreencias en calidad de trabajadores en la liquidaci&oacute;n obligatoria de una sociedad?&iquest;Para los efectos de los impuestos al patrimonio, hace parte de la riqueza de una persona los bienes recibidos como pago de sus acreencias - en calidad de trabajadores- en la liquidaci&oacute;n obligatoria de una sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0597-2011",
+      "tipo": "oficio",
+      "numero": "0597",
+      "fecha": "2011-01-07",
+      "tema": "Al tenor de lo establecido en la Circular No. 000066 del 16 de octubre de 2009, se puede colegir que al no haber utilidad gravada por dividendos o participaciones no se puede amortizar el cr&eacute;dito mercantil adquirido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17847-2010",
+      "tipo": "oficio",
+      "numero": "17847",
+      "fecha": "2010-03-15",
+      "tema": "Procedencia de la deducci&oacute;n especial por inversi&oacute;n en activos fijos reales productivos, contenida en el art&iacute;culo 158-3 del Estatuto Tributario, cuando el incremento del capital asignado de la sucursal de sociedad extranjera est&aacute; representado en aportes en especie",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103123-2008",
+      "tipo": "oficio",
+      "numero": "103123",
+      "fecha": "2008-10-20",
+      "tema": "&iquest;Es procedente la deducci&oacute;n especial, cuando una sucursal de sociedad extranjera del sector de servicios a la industria del petr&oacute;leo, por conducto de su oficina principal en el exterior, adquiere activos fijos reales productivos de su casa matriz en el exterior o de compa&ntilde;&iacute;as vinculadas tambi&eacute;n en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91302-2008",
+      "tipo": "oficio",
+      "numero": "91302",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Procede la aplicaci&oacute;n del art&iacute;culo 239-1 del Estatuto Tributario, por la no inclusi&oacute;n en el patrimonio l&iacute;quido de la respectiva declaraci&oacute;n de renta, de una cuenta por cobrar a cargo de una sociedad ubicada en un pa&iacute;s que hace parte de la Comunidad Andina de Naciones CAN?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-33042-2008",
+      "tipo": "oficio",
+      "numero": "33042",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A cargo de qui&eacute;n est&aacute; la obligaci&oacute;n de pagar el impuesto de patrimonio en un caso particular y concreto por parte de una empresa industrial y comercial del Estado, prestadora de servicios p&uacute;blicos domiciliarios, intervenida por la superintendencia y que por decisi&oacute;n de la interventora se transforma en una sociedad an&oacute;nima con capital p&uacute;blico que entrega todos los activos por un tiempo determinado a un nuevo operador que llega a prestar el servicio p&uacute;blico domiciliario, superando dichos activos el tope establecido como base para liquidar el impuesto al patrimonio, quedando con el producto de una participaci&oacute;n relativamente baja que le da el nuevo operador, a cargo de Los pensionados y sin ning&uacute;n otro ingreso por prestaci&oacute;n de servicios p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70308-2007",
+      "tipo": "oficio",
+      "numero": "70308",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los aportes de capital, junto con sus accesorios, efectuados por parte de la Naci&oacute;n, los entes territoriales y las entidades descentralizadas en empresas oficiales de servicios p&uacute;blicos domiciliarios, no hacen parte de la base imponible del impuesto al patrimonio, para las mencionadas empresas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36202-2007",
+      "tipo": "oficio",
+      "numero": "36202",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Para la aplicaci&oacute;n de esta deducci&oacute;n tributaria y atendiendo la limitaci&oacute;n enunciada, el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102044-2006",
+      "tipo": "oficio",
+      "numero": "102044",
+      "fecha": "2006-12-04",
+      "tema": "&iquest;Los aportes laborales que efect&uacute;an los asociados en las empresas asociativas de trabajo - E.A.T., fiscalmente hacen parte del patrimonio y a su vez de la base para el c&aacute;lculo de la renta presuntiva? Si los aportes laborales hacen parte del patrimonio de la empresa, se incluyen en el patrimonio l&iacute;quido referente para el c&aacute;lculo de la renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030734-2006",
+      "tipo": "concepto",
+      "numero": "0030734",
+      "fecha": "2006-04-17",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento, para efectos del impuesto sobre la renta en Colombia, de los dividendos y participaciones recibidos por un inversionista colombiano y distribuidos por una sociedad domiciliada en otro pa&iacute;s miembro de la Comunidad Andina de Naciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27767-2006",
+      "tipo": "oficio",
+      "numero": "27767",
+      "fecha": "2006-04-03",
+      "tema": "Solicita se califique la legalidad y la incidencia fiscal de un negocio de inversi&oacute;n en la compra de un seguro de vida en el exterior, que le implicar&iacute;a el giro de los recursos respectivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070314-2005",
+      "tipo": "concepto",
+      "numero": "0070314",
+      "fecha": "2005-09-29",
+      "tema": "&iquest;Puede el nudo propietario, continuar depreciando o amortizando los bienes respecto de los cuales enajen&oacute; temporalmente el derecho de usufructo, en la medida que ha obtenido ingresos de dicha enajenaci&oacute;n, equivalentes al valor actual de los flujos de ingresos que los activos deber&iacute;an producir en el plazo del usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008755-2005",
+      "tipo": "concepto",
+      "numero": "0008755",
+      "fecha": "2005-02-17",
+      "tema": "&iquest;El bono pensional, los aportes obligatorios y voluntarios, en los fondos de pensiones de cualquiera de los reg&iacute;menes del Sistema General de Pensiones, as&iacute; como sus rendimientos, hacen parte del patrimonio del contribuyente para efectos tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091434-2004",
+      "tipo": "concepto",
+      "numero": "0091434",
+      "fecha": "2004-12-30",
+      "tema": "&iquest;Un contribuyente que en el a&ntilde;o gravable 1995, en virtud de lo establecido en el art&iacute;culo 90-2 del estatuto tributario, ajust&oacute; al valor comercial los bienes ra&iacute;ces, puede excluir este valor, debidamente ajustado, del patrimonio base para liquidar el impuesto para preservar la seguridad democr&aacute;tica y el impuesto al patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57546-2004",
+      "tipo": "oficio",
+      "numero": "57546",
+      "fecha": "2004-09-01",
+      "tema": "&iquest;Hay deducibilidad de la comisi&oacute;n que pagan los afiliados a los fondos de pensiones, a las sociedades administradoras de fondos de pensiones por concepto de administraci&oacute;n sobre aportes voluntarios?&iquest;Las sumas depositadas de manera voluntaria en los fondos de pensiones, est&aacute;n excluidas del Impuesto al Patrimonio, ocasionalmente fijado por la DIAN y si deben excluirse del c&aacute;lculo para efecto de la renta presuntiva?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-29191-2004",
+      "tipo": "oficio",
+      "numero": "29191",
+      "fecha": "2004-05-11",
+      "tema": "&iquest;La persona que no ha sido declarante en el periodo anterior, puede determinar qu&eacute; patrimonio bruto y qu&eacute; patrimonio l&iacute;quido pose&iacute;a a 31 de diciembre del a&ntilde;o anterior al que va a declarar y con ellos determinar su renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020835-2004",
+      "tipo": "concepto",
+      "numero": "0020835",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;las cooperativas, para efectos de establecer la base del impuesto al patrimonio pueden excluir las provisiones, inventarios, propiedad, planta y equipo y pasivos estimados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077176-2003",
+      "tipo": "concepto",
+      "numero": "0077176",
+      "fecha": "2003-12-02",
+      "tema": "Las acciones entregadas en usufructo, &iquest;fiscalmente debe declararse en el patrimonio del usufructuario, del nudo propietario o de ambos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016590-2003",
+      "tipo": "concepto",
+      "numero": "0016590",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;para establecer si una persona natural comerciante es agente de retenci&oacute;n, el patrimonio bruto del a&ntilde;o inmediatamente anterior que debe tenerse en cuenta debe incluir solo los activos relacionados con su actividad de comerciante o todos los activos pose&iacute;dos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077936-2002",
+      "tipo": "concepto",
+      "numero": "0077936",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Al incluir el valor de los inmuebles dentro de la base para liquidar el impuesto para preservar la seguridad democr&aacute;tica no se estar&iacute;a violando el Art&iacute;culo 317 de la Constituci&oacute;n Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073591-2002",
+      "tipo": "concepto",
+      "numero": "0073591",
+      "fecha": "2002-11-14",
+      "tema": "&iquest;En la declaraci&oacute;n del Impuesto Sobre la Renta y Complementarios se deben incluir los aportes que se tengan en los fondos de pensiones?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0065906-2002",
+      "tipo": "concepto",
+      "numero": "0065906",
+      "fecha": "2002-10-09",
+      "tema": "&iquest;Los bienes inmuebles declarados por los municipios como de inter&eacute;s cultural de la Naci&oacute;n, pueden excluirse de la base para calcular el Impuesto para Preservar la Seguridad Democr&aacute;tica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009255-2002",
+      "tipo": "concepto",
+      "numero": "0009255",
+      "fecha": "2002-01-01",
+      "tema": "Qui&eacute;n debe cumplir las obligaciones principales y accesorias relativas al impuesto sobre la renta y complementarios respecto de los bienes objeto de un fideicomiso civil, as&iacute; como de los ingresos que de aquel deriven?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006454-2002",
+      "tipo": "concepto",
+      "numero": "0006454",
+      "fecha": "2002-02-04",
+      "tema": "&iquest;La acci&oacute;n de un club social tiene valor patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077982-2001",
+      "tipo": "concepto",
+      "numero": "0077982",
+      "fecha": "2001-08-27",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable al pago en el exterior de primas por p&oacute;lizas de ahorro en d&oacute;lares para jubilaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0117656-2000",
+      "tipo": "concepto",
+      "numero": "0117656",
+      "fecha": "2000-12-04",
+      "tema": "&iquest;Cu&aacute;l es la acepci&oacute;n de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062294-1999",
+      "tipo": "concepto",
+      "numero": "0062294",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Un fondo para la prestaci&oacute;n de servicios de inter&eacute;s social con car&aacute;cter de protecci&oacute;n econ&oacute;mica para los asociados y sus familiares, aprobado mediante Estatutos de un fondo de empleados, hace parte del patrimonio bruto de este o puede desagregarse como un patrimonio aut&oacute;nomo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039087-1999",
+      "tipo": "concepto",
+      "numero": "0039087",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;Qu&eacute; tratamiento tributario se le da a los aportes acumulados en los Fondos de Pensiones y Cesant&iacute;as? &iquest;Constituyen activo patrimonial? &iquest;Los rendimientos que generan estos aportes qu&eacute; parte son no constitutivos de renta ni ganancia ocasional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0031193-1999",
+      "tipo": "concepto",
+      "numero": "0031193",
+      "fecha": "1999-04-06",
+      "tema": "&iquest;Es contribuyente del Impuesto de Renta y Complementarios, una caja de compensaci&oacute;n familiar, un fondo de empleados o una asociaci&oacute;n gremial por los rendimientos financieros originados en el manejo de caja, proveniente de excedentes o beneficios, proyectos a largo plazo relacionados con educaci&oacute;n, y cuotas de afiliaci&oacute;n y sostenimiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100161-1998",
+      "tipo": "concepto",
+      "numero": "0100161",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;los bienes en nuda propiedad, fiscalmente son incluidos en el patrimonio del usufructuario, del nudo propietario o de ambos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089276-1998",
+      "tipo": "concepto",
+      "numero": "0089276",
+      "fecha": "1998-11-20",
+      "tema": "&iquest;Cu&aacute;ndo una cadena de droguer&iacute;as da en concesi&oacute;n o arrendamiento una de sus droguer&iacute;as en qu&eacute; situaci&oacute;n fiscal quedar&iacute;a tanto la due&ntilde;a de la cadena de droguer&iacute;as como el concesionario o arrendatario de la droguer&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088305-1998",
+      "tipo": "concepto",
+      "numero": "0088305",
+      "fecha": "1998-11-17",
+      "tema": "&iquest;Para el caso de una inversi&oacute;n realizada por una sociedad colombiana en el exterior, la cual consiste en un bien intangible formado, se pregunta lo siguiente: el valor por el cual se entrega ese bien es un ingreso tributario para la sociedad? &iquest;La cesi&oacute;n de un bien intangible genera impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064575-1998",
+      "tipo": "concepto",
+      "numero": "0064575",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;Deben aplicar el sistema integral de ajustes por inflaci&oacute;n las juntas de copropietarios de edificios organizados en propiedad horizontal? Se debe o no incluir en el patrimonio que refleja el balance, las zonas comunes, ascensores, pasamanos, planta el&eacute;ctrica, bomba de agua, tanque de abastecimiento, etc.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023707-1998",
+      "tipo": "concepto",
+      "numero": "0023707",
+      "fecha": "1998-04-13",
+      "tema": "&iquest;C&oacute;mo se establece el patrimonio l&iacute;quido de una sociedad an&oacute;nima?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008049-1998",
+      "tipo": "concepto",
+      "numero": "0008049",
+      "fecha": "1998-02-11",
+      "tema": "&iquest;Los bienes que una sucursal de sociedad extranjera posee en el exterior originan un mayor gasto por ajuste por inflaci&oacute;n y son base de renta presuntiva para el impuesto de renta y complementarios a cargo de la sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056352-1997",
+      "tipo": "concepto",
+      "numero": "0056352",
+      "fecha": "1997-07-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091815-1996",
+      "tipo": "concepto",
+      "numero": "0091815",
+      "fecha": "1996-11-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085461-1995",
+      "tipo": "concepto",
+      "numero": "0085461",
+      "fecha": "1995-12-11",
+      "tema": "&iquest;Debe presentar declaraci&oacute;n de! Impuesto sobre la renta y complementarios por el a&ntilde;o gravable de 1993, una persona natural que en dicho per&iacute;odo a) supera los ingresos brutos, con los ingresos provenientes de una loter&iacute;a b) supera el patrimonio bruto con los bienes adquiridos con la loter&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054675-1995",
+      "tipo": "concepto",
+      "numero": "0054675",
+      "fecha": "1995-08-08",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento aplicable en la determinaci&oacute;n de la renta presuntiva cuando en el a&ntilde;o anterior no existe patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006379-1991",
+      "tipo": "concepto",
+      "numero": "0006379",
+      "fecha": "1991-01-01",
+      "tema": "En caso de que un Colombiano adquiera los t&iacute;tulos de deuda p&uacute;blica externa a que se refiere el art&iacute;culo 27 de la Ley 55 de 1985, los pagos de principal, intereses y dem&aacute;s que se hagan bajo dichos t&iacute;tulos est&aacute;n exentos del impuesto de renta?&iquest;La adquisici&oacute;n de dichos t&iacute;tulos por un Colombiano constituye patrimonio para el adquirente, y se les aplica impuesto de patrimonio?&iquest;Deben o no incluirse en la declaraci&oacute;n de renta del contribuyente los t&iacute;tulos de deuda externa y sus pagos por concepto del servicio de la deuda? Cu&aacute;l es el tratamiento tributario para la conversi&oacute;n de t&iacute;tulos de deuda p&uacute;blica externa en t&iacute;tulos canjeables por certificados de cambio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018378-1990",
+      "tipo": "concepto",
+      "numero": "0018378",
+      "fecha": "1990-01-01",
+      "tema": "Costo de bienes incorporales",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-226-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "226",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

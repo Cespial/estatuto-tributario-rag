@@ -1,1 +1,126 @@
-{"id_articulo": "Art. 374", "titulo": "Art. 374. En la liquidación oficial se deben acreditar los valores retenidos.", "titulo_corto": "En la liquidación oficial se deben acreditar los valores retenidos.", "slug": "374", "url_origen": "https://estatuto.co/374", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El impuesto retenido será acreditado a cada contribuyente en la liquidación oficial del impuesto sobre la renta y complementarios del correspondiente año gravable, con base en el certificado que le haya expedido el retenedor.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto retenido será acreditado a cada contribuyente en la liquidación oficial del impuesto sobre la renta y complementarios del correspondiente año gravable, con base en el certificado que le haya expedido el retenedor.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 374",
+  "titulo": "Art. 374. En la liquidación oficial se deben acreditar los valores retenidos.",
+  "titulo_corto": "En la liquidación oficial se deben acreditar los valores retenidos.",
+  "slug": "374",
+  "url_origen": "https://estatuto.co/374",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El impuesto retenido será acreditado a cada contribuyente en la liquidación oficial del impuesto sobre la renta y complementarios del correspondiente año gravable, con base en el certificado que le haya expedido el retenedor.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto retenido será acreditado a cada contribuyente en la liquidación oficial del impuesto sobre la renta y complementarios del correspondiente año gravable, con base en el certificado que le haya expedido el retenedor.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7336 (2025-06-04): Retenci&oacute;n en la fuente\noficio 1513 (2024-03-04): (Int 447) Certificados de retenci&oacute;n en la fuente - Confirma Oficio 011657 de abril 23 de 2015\noficio 903531 (2022-05-06): Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria\noficio 908206 (2021-08-13): Retenci&oacute;n en la fuente por dividendos - Renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7336-2025",
+      "tipo": "oficio",
+      "numero": "7336",
+      "fecha": "2025-06-04",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1513-2024",
+      "tipo": "oficio",
+      "numero": "1513",
+      "fecha": "2024-03-04",
+      "tema": "(Int 447) Certificados de retenci&oacute;n en la fuente - Confirma Oficio 011657 de abril 23 de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903531-2022",
+      "tipo": "oficio",
+      "numero": "903531",
+      "fecha": "2022-05-06",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908206-2021",
+      "tipo": "oficio",
+      "numero": "908206",
+      "fecha": "2021-08-13",
+      "tema": "Retenci&oacute;n en la fuente por dividendos - Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0361-2020",
+      "tipo": "oficio",
+      "numero": "0361",
+      "fecha": "2020-03-26",
+      "tema": "Correcci&oacute;n de Actos Administrativos Sanci&oacute;n por Correcci&oacute;n de las Declaraciones Tributarias Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11657-2015",
+      "tipo": "oficio",
+      "numero": "11657",
+      "fecha": "2015-04-23",
+      "tema": "Retenci&oacute;n en la fuente que deben practicar las Entidades Ejecutoras de Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    }
+  ]
+}

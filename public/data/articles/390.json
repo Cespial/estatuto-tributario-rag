@@ -1,1 +1,98 @@
-{"id_articulo": "Art. 390", "titulo": "Art. 390. Retención sobre dividendos y participaciones.", "titulo_corto": "Retención sobre dividendos y participaciones.", "slug": "390", "url_origen": "https://estatuto.co/390", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La tarifa aplicable a los dividendos y participaciones contemplados en el artículo 49, será la que determine el Gobierno Nacional. En ningún caso la tarifa podrá sobrepasar el treinta y cinco por ciento (35%).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa aplicable a los dividendos y participaciones contemplados en el <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a>, será la que determine el Gobierno Nacional.</p>\n<p>En ningún caso la tarifa podrá sobrepasar el treinta y cinco por ciento (35%).</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 125.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "125"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["49"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 390",
+  "titulo": "Art. 390. Retención sobre dividendos y participaciones.",
+  "titulo_corto": "Retención sobre dividendos y participaciones.",
+  "slug": "390",
+  "url_origen": "https://estatuto.co/390",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La tarifa aplicable a los dividendos y participaciones contemplados en el artículo 49, será la que determine el Gobierno Nacional. En ningún caso la tarifa podrá sobrepasar el treinta y cinco por ciento (35%).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa aplicable a los dividendos y participaciones contemplados en el <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a>, será la que determine el Gobierno Nacional.</p>\n<p>En ningún caso la tarifa podrá sobrepasar el treinta y cinco por ciento (35%).</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 125.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "125"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "49"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 906697 (2022-09-02): Impuesto sobre la renta y complementarios. Fondos de inversi&oacute;n - Fondos de capital privado",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-906697-2022",
+      "tipo": "oficio",
+      "numero": "906697",
+      "fecha": "2022-09-02",
+      "tema": "Impuesto sobre la renta y complementarios. Fondos de inversi&oacute;n - Fondos de capital privado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18551-2018",
+      "tipo": "oficio",
+      "numero": "18551",
+      "fecha": "2018-07-16",
+      "tema": "&iquest;Qu&eacute; tarifa de retenci&oacute;n en la fuente se debe practicar a los pagos por rendimientos que realiza un fondo de inversi&oacute;n colectiva a part&iacute;cipes calificados como residentes fiscales en Colombia, en lo que corresponde a la utilidad proveniente de ingresos de fuente extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19278-2007",
+      "tipo": "oficio",
+      "numero": "19278",
+      "fecha": "2007-03-12",
+      "tema": "Sobre la viabilidad de que las normas y conceptos tributarios que relacionan, puedan ser objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044650-1994",
+      "tipo": "concepto",
+      "numero": "0044650",
+      "fecha": "1994-07-15",
+      "tema": ", est&aacute;n sometidos a retenci&oacute;n en la fuente y en caso afirmativo cu&aacute;l es la tarifa aplicable?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-421-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "421",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    }
+  ]
+}

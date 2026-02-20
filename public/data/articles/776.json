@@ -1,1 +1,52 @@
-{"id_articulo": "Art. 776", "titulo": "Art. 776. Prevalencia de los comprobantes sobre los asientos de contabilidad.", "titulo_corto": "Prevalencia de los comprobantes sobre los asientos de contabilidad.", "slug": "776", "url_origen": "https://estatuto.co/776", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Si las cifras registradas en los asientos contables referentes a costos, deducciones, exenciones especiales y pasivos exceden del valor de los comprobantes externos, los conceptos correspondientes se entenderán comprobados hasta concurrencia del valor de dichos comprobantes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Si las cifras registradas en los asientos contables referentes a costos, deducciones, exenciones especiales y pasivos exceden del valor de los comprobantes externos, los conceptos correspondientes se entenderán comprobados hasta concurrencia del valor de dichos comprobantes.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 776",
+  "titulo": "Art. 776. Prevalencia de los comprobantes sobre los asientos de contabilidad.",
+  "titulo_corto": "Prevalencia de los comprobantes sobre los asientos de contabilidad.",
+  "slug": "776",
+  "url_origen": "https://estatuto.co/776",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Si las cifras registradas en los asientos contables referentes a costos, deducciones, exenciones especiales y pasivos exceden del valor de los comprobantes externos, los conceptos correspondientes se entenderán comprobados hasta concurrencia del valor de dichos comprobantes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Si las cifras registradas en los asientos contables referentes a costos, deducciones, exenciones especiales y pasivos exceden del valor de los comprobantes externos, los conceptos correspondientes se entenderán comprobados hasta concurrencia del valor de dichos comprobantes.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 0658 (2018-05-04): Si una empresa colombiana se asocia con una empresa extranjera sin domicilio o representaci&oacute;n en Colombia para conformar un consorcio &iquest;el consorcio es declarante de IVA por las ventas y compras gravadas con este impuesto e inicia su presentaci&oacute;n en periodos bimestrales?\noficio 84750 (2005-11-16): &iquest;Se expone un caso particular de devoluci&oacute;n de impuestos descontables a exportadores y se solicita la opini&oacute;n del Despacho sobre el procedimiento de verificaci&oacute;n por parte de la Divisi&oacute;n de Devoluciones de esa Administraci&oacute;n?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0658-2018",
+      "tipo": "oficio",
+      "numero": "0658",
+      "fecha": "2018-05-04",
+      "tema": "Si una empresa colombiana se asocia con una empresa extranjera sin domicilio o representaci&oacute;n en Colombia para conformar un consorcio &iquest;el consorcio es declarante de IVA por las ventas y compras gravadas con este impuesto e inicia su presentaci&oacute;n en periodos bimestrales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84750-2005",
+      "tipo": "oficio",
+      "numero": "84750",
+      "fecha": "2005-11-16",
+      "tema": "&iquest;Se expone un caso particular de devoluci&oacute;n de impuestos descontables a exportadores y se solicita la opini&oacute;n del Despacho sobre el procedimiento de verificaci&oacute;n por parte de la Divisi&oacute;n de Devoluciones de esa Administraci&oacute;n?",
+      "vigente": true
+    }
+  ]
+}

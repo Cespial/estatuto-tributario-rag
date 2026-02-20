@@ -1,1 +1,86 @@
-{"id_articulo": "Art. 492", "titulo": "Art. 492. Los créditos o las deudas incobrables no dan derecho a descuento.", "titulo_corto": "Los créditos o las deudas incobrables no dan derecho a descuento.", "slug": "492", "url_origen": "https://estatuto.co/492", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los créditos y deudas incobrables en ningún caso darán derecho a descuento.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los créditos y deudas incobrables en ningún caso darán derecho a descuento.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 492",
+  "titulo": "Art. 492. Los créditos o las deudas incobrables no dan derecho a descuento.",
+  "titulo_corto": "Los créditos o las deudas incobrables no dan derecho a descuento.",
+  "slug": "492",
+  "url_origen": "https://estatuto.co/492",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los créditos y deudas incobrables en ningún caso darán derecho a descuento.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los créditos y deudas incobrables en ningún caso darán derecho a descuento.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14017 (2009-02-18): Tratamiento del impuesto sobre las ventas en la prestaci&oacute;n del servicio de arrendamiento comercial de un inmueble, que no est&aacute; destinado a vivienda\noficio 8374 (2008-11-28): Obligaciones contingentes\noficio 89822 (2005-12-02): &iquest;Cu&aacute;l es la obligaci&oacute;n de facturar y recaudar el IVA por parte de arrendadores de bienes inmuebles?\noficio 21237 (2005-01-01): &iquest;Las cuotas de sostenimiento a cargo de los socios de los clubes sociales, que fueron facturados por constituir ingreso para el club, que generaron el impuesto a las ventas en ellas discriminados y no canceladas por algunos socios, pueden ser llevadas a cuentas de orden contenidas en la contabilidad del club?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14017-2009",
+      "tipo": "oficio",
+      "numero": "14017",
+      "fecha": "2009-02-18",
+      "tema": "Tratamiento del impuesto sobre las ventas en la prestaci&oacute;n del servicio de arrendamiento comercial de un inmueble, que no est&aacute; destinado a vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8374-2008",
+      "tipo": "oficio",
+      "numero": "8374",
+      "fecha": "2008-11-28",
+      "tema": "Obligaciones contingentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89822-2005",
+      "tipo": "oficio",
+      "numero": "89822",
+      "fecha": "2005-12-02",
+      "tema": "&iquest;Cu&aacute;l es la obligaci&oacute;n de facturar y recaudar el IVA por parte de arrendadores de bienes inmuebles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21237-2005",
+      "tipo": "oficio",
+      "numero": "21237",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Las cuotas de sostenimiento a cargo de los socios de los clubes sociales, que fueron facturados por constituir ingreso para el club, que generaron el impuesto a las ventas en ellas discriminados y no canceladas por algunos socios, pueden ser llevadas a cuentas de orden contenidas en la contabilidad del club?",
+      "vigente": true
+    }
+  ]
+}

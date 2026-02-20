@@ -1,1 +1,127 @@
-{"id_articulo": "Art. 812", "titulo": "Art. 812. Mora en el pago de los impuestos nacionales.", "titulo_corto": "Mora en el pago de los impuestos nacionales.", "slug": "812", "url_origen": "https://estatuto.co/812", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 1, "contenido_texto": "El no pago oportuno de los impuestos, anticipos y retenciones, causa intereses moratorios en la forma prevista en el artículo 634 y artículo 635.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El no pago oportuno de los impuestos, anticipos y retenciones, causa intereses moratorios en la forma prevista en el <a href=\"https://estatuto.co/634\" rel=\"noopener\" target=\"_blank\">artículo 634</a> y <a href=\"https://estatuto.co/635\" rel=\"noopener\" target=\"_blank\">artículo 635</a>.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["634", "635"], "referenced_by": [], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 812",
+  "titulo": "Art. 812. Mora en el pago de los impuestos nacionales.",
+  "titulo_corto": "Mora en el pago de los impuestos nacionales.",
+  "slug": "812",
+  "url_origen": "https://estatuto.co/812",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "El no pago oportuno de los impuestos, anticipos y retenciones, causa intereses moratorios en la forma prevista en el artículo 634 y artículo 635.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El no pago oportuno de los impuestos, anticipos y retenciones, causa intereses moratorios en la forma prevista en el <a href=\"https://estatuto.co/634\" rel=\"noopener\" target=\"_blank\">artículo 634</a> y <a href=\"https://estatuto.co/635\" rel=\"noopener\" target=\"_blank\">artículo 635</a>.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "634",
+    "635"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 13463 (2023-08-30): (Int 1253) Reconsideraci&oacute;n donde se confirma y precisa el alcance de la doctrina plasmada en el Oficio 001403 de enero 18 de 2019 - Intereses moratorios\noficio 904855 (2022-06-21): Impuesto complementario de normalizaci&oacute;n tributaria\noficio 915363 (2021-12-16): Retenci&oacute;n en la fuente - Intereses moratorios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13463-2023",
+      "tipo": "oficio",
+      "numero": "13463",
+      "fecha": "2023-08-30",
+      "tema": "(Int 1253) Reconsideraci&oacute;n donde se confirma y precisa el alcance de la doctrina plasmada en el Oficio 001403 de enero 18 de 2019 - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904855-2022",
+      "tipo": "oficio",
+      "numero": "904855",
+      "fecha": "2022-06-21",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915363-2021",
+      "tipo": "oficio",
+      "numero": "915363",
+      "fecha": "2021-12-16",
+      "tema": "Retenci&oacute;n en la fuente - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18284-2019",
+      "tipo": "oficio",
+      "numero": "18284",
+      "fecha": "2019-07-16",
+      "tema": "Interpretaci&oacute;n del art&iacute;culo 905 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11216-2015",
+      "tipo": "oficio",
+      "numero": "11216",
+      "fecha": "2015-04-21",
+      "tema": "Limite de Inembargabilidad - Proceso de cobro coactivo de las deudas fiscales por concepto de impuestos, anticipos, retenciones, intereses y sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54729-2014",
+      "tipo": "oficio",
+      "numero": "54729",
+      "fecha": "2014-09-15",
+      "tema": "&iquest;Cu&aacute;ndo media un acuerdo de pago para la cancelaci&oacute;n de un tributo, es procedente cobrar intereses de mora, bajo el entendido que la obligaci&oacute;n se cancelar&aacute; oportunamente conforme el acuerdo suscrito por las partes?&iquest;Es procedente aplicar el art&iacute;culo 635 del Estatuto Tributario en el caso concreto, teniendo en cuenta que en esta norma se regulan las obligaciones administradas por la DIAN y en el caso objeto de estudio, se trata de un tributo administrado por las corporaciones aut&oacute;nomas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98924-2011",
+      "tipo": "oficio",
+      "numero": "98924",
+      "fecha": "2011-12-19",
+      "tema": "&iquest;Seg&uacute;n la legislaci&oacute;n colombiana y el Estatuto Tributario, los instrumentos de cobro tributario son &uacute;nicamente los mandamientos de pago?&iquest;Dicho mandamiento de pago debe ser debidamente notificado?&iquest;Una resoluci&oacute;n interna de un ente sin que sea acompa&ntilde;ada o convertida en un mandamiento de pago debidamente notificado es v&aacute;lida para el cobro y si la ley faculta a la DIAN para cobrar intereses sobre intereses?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75762-2006",
+      "tipo": "oficio",
+      "numero": "75762",
+      "fecha": "2006-09-06",
+      "tema": "&iquest;Un banco se puede abstener de recibir declaraciones tributarias con un saldo a pagar inferior a dos salarios m&iacute;nimos, cuando estas se presentan sin pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002169-1999",
+      "tipo": "concepto",
+      "numero": "0002169",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Los grandes contribuyentes est&aacute;n obligados a pagar como m&iacute;nimo el 20% del impuesto del a&ntilde;o inmediatamente anterior en la primera cuota a&uacute;n cuando la provisi&oacute;n contable es negativa por efecto las retenciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008697-1998",
+      "tipo": "concepto",
+      "numero": "0008697",
+      "fecha": "1998-02-13",
+      "tema": "&iquest;Se puede dejar de pagar la primera cuota y distribuir dentro de las cuatro siguientes cuotas el valor a pagar por impuesto de renta y anticipos determinados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003978-1998",
+      "tipo": "concepto",
+      "numero": "0003978",
+      "fecha": "1998-01-26",
+      "tema": "&iquest;Los grandes contribuyentes est&aacute;n obligados a pagar como m&iacute;nimo el 20% del impuesto del a&ntilde;o inmediatamente anterior en la cuota cuando este valor cubre la totalidad del impuesto por el respectivo a&ntilde;o gravable?",
+      "vigente": true
+    }
+  ]
+}

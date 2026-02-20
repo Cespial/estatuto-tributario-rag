@@ -1,1 +1,255 @@
-{"id_articulo": "Art. 342", "titulo": "Art. 342. Ingresos de las rentas de dividendos y participaciones.", "titulo_corto": "Ingresos de las rentas de dividendos y participaciones.", "slug": "342", "url_origen": "https://estatuto.co/342", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Son ingresos de esta cédula los recibidos por concepto de dividendos y participaciones, y constituyen renta gravable en cabeza de los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean personas naturales residentes y sucesiones ilíquidas de causantes que al momento de su muerte eran residentes, recibidos de distribuciones provenientes de sociedades y entidades nacionales, y de sociedades y entidades extranjeras.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Son ingresos de esta cédula los recibidos por concepto de dividendos y participaciones, y constituyen renta gravable en cabeza de los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean personas naturales residentes y sucesiones ilíquidas de causantes que al momento de su muerte eran residentes, recibidos de distribuciones provenientes de sociedades y entidades nacionales, y de sociedades y entidades extranjeras.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["246-1"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 342",
+  "titulo": "Art. 342. Ingresos de las rentas de dividendos y participaciones.",
+  "titulo_corto": "Ingresos de las rentas de dividendos y participaciones.",
+  "slug": "342",
+  "url_origen": "https://estatuto.co/342",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Son ingresos de esta cédula los recibidos por concepto de dividendos y participaciones, y constituyen renta gravable en cabeza de los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean personas naturales residentes y sucesiones ilíquidas de causantes que al momento de su muerte eran residentes, recibidos de distribuciones provenientes de sociedades y entidades nacionales, y de sociedades y entidades extranjeras.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Son ingresos de esta cédula los recibidos por concepto de dividendos y participaciones, y constituyen renta gravable en cabeza de los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean personas naturales residentes y sucesiones ilíquidas de causantes que al momento de su muerte eran residentes, recibidos de distribuciones provenientes de sociedades y entidades nacionales, y de sociedades y entidades extranjeras.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "246-1"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6245 (2025-05-16): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 3979 (2025-04-04): Impuesto sobre la Renta y Complementarios\noficio 907102 (2021-07-19): Determinaci&oacute;n del impuesto - Honorarios\noficio 906390 (2021-06-30): Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6245-2025",
+      "tipo": "oficio",
+      "numero": "6245",
+      "fecha": "2025-05-16",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2025",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906390-2021",
+      "tipo": "oficio",
+      "numero": "906390",
+      "fecha": "2021-06-30",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000359-2020",
+      "tipo": "concepto",
+      "numero": "0000359",
+      "fecha": "2020-03-17",
+      "tema": "Concepto de oficio, por medio del cual se reconsidera parcialmente el Concepto No. 1457 del 31 de diciembre de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32153-2019",
+      "tipo": "oficio",
+      "numero": "32153",
+      "fecha": "2019-12-31",
+      "tema": "Correcta aplicaci&oacute;n de los art&iacute;culos 50 de la Ley 1943 de 2018 y 242-1 del Estatuto Tributario (en adelante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28954-2019",
+      "tipo": "oficio",
+      "numero": "28954",
+      "fecha": "2019-11-20",
+      "tema": "&iquest;Los aportes a seguridad social pagados por el a&ntilde;o 2017 son deducibles de la depuraci&oacute;n de la renta en la c&eacute;dula de dividendos y participaciones y en que casilla del formulario 210 se deben relacionar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17810-2019",
+      "tipo": "oficio",
+      "numero": "17810",
+      "fecha": "2019-07-09",
+      "tema": "Dividendos originados de utilidades anteriores al a&ntilde;o gravable 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12868-2019",
+      "tipo": "oficio",
+      "numero": "12868",
+      "fecha": "2019-05-24",
+      "tema": "Retenci&oacute;n en la fuente. Retenci&oacute;n en la Fuente por Dividendos Percibidos por Extranjeros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6313-2019",
+      "tipo": "oficio",
+      "numero": "6313",
+      "fecha": "2019-03-13",
+      "tema": "Dividendos R&eacute;gimen de transici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4580-2019",
+      "tipo": "oficio",
+      "numero": "4580",
+      "fecha": "2019-02-22",
+      "tema": "Impuesto a los dividendos recibidos por sociedades nacionales, previsto por el art&iacute;culo 242-1 Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28033-2018",
+      "tipo": "oficio",
+      "numero": "28033",
+      "fecha": "2018-09-27",
+      "tema": "Distribuci&oacute;n de dividendos originados en utilidades comerciales de los a&ntilde;os 2016 y anteriores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18529-2018",
+      "tipo": "oficio",
+      "numero": "18529",
+      "fecha": "2018-07-13",
+      "tema": "Alcaraci&oacute;n del art&iacute;culo 246-1 del Estatuto Tributario, referente a interpretaci&oacute;n constitucional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17162-2018",
+      "tipo": "oficio",
+      "numero": "17162",
+      "fecha": "2018-06-29",
+      "tema": "Declaraciones del CREE de los a&ntilde;os gravables 2015 y 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15878-2018",
+      "tipo": "oficio",
+      "numero": "15878",
+      "fecha": "2018-06-19",
+      "tema": "Ingresos Constitutivos de Renta y Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1825-2018",
+      "tipo": "oficio",
+      "numero": "1825",
+      "fecha": "2018-10-17",
+      "tema": "Aplicaci&oacute;n del DUR 1625 de 2016, art&iacute;culo 1.2.3.7",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1734-2018",
+      "tipo": "oficio",
+      "numero": "1734",
+      "fecha": "2018-10-08",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900298-2017",
+      "tipo": "oficio",
+      "numero": "900298",
+      "fecha": "2017-02-28",
+      "tema": "&iquest;Una persona natural extranjera no residente fiscal en Colombia, que como accionista en una sociedad nacional recibe un pago por concepto de dividendos no gravados, est&aacute; obligado a presentar declaraci&oacute;n del Impuesto de Renta y Complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28727-2017",
+      "tipo": "oficio",
+      "numero": "28727",
+      "fecha": "2017-10-23",
+      "tema": "Dividendos y participaciones no gravados dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7446-2017",
+      "tipo": "oficio",
+      "numero": "7446",
+      "fecha": "2017-03-31",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6230-2017",
+      "tipo": "oficio",
+      "numero": "6230",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Utilidades Provenientes de Fondos de Inversi&oacute;n - Utilidades Provenientes de Fondos de Valores Utilidades Provenientes de Fondos Mutuos de Inversi&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

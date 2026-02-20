@@ -1,1 +1,216 @@
-{"id_articulo": "Art. 418", "titulo": "Art. 418. Casos en los cuales no se efectúa la retención.", "titulo_corto": "Casos en los cuales no se efectúa la retención.", "slug": "418", "url_origen": "https://estatuto.co/418", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "modificado", "complexity_score": 1, "contenido_texto": "No habrá retención sobre los pagos o abonos en cuenta que no correspondan a rentas o ganancias ocasionales de fuente nacional, hecho que deberá demostrarse cuando así lo exija la Dirección General de Impuestos Nacionales. *Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No habrá retención sobre los pagos o abonos en cuenta que no correspondan a rentas o ganancias ocasionales de fuente nacional, hecho que deberá demostrarse cuando así lo exija la Dirección General de Impuestos Nacionales.</p>\n<p><span style=\"color: #339966;\"><del>*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.</del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Inciso Derogado por la Ley 1111 de 2006 Art 78.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "78"}], "total_modificaciones": 1, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006"], "texto_derogado": ["*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.", "full_length": 118}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 418",
+  "titulo": "Art. 418. Casos en los cuales no se efectúa la retención.",
+  "titulo_corto": "Casos en los cuales no se efectúa la retención.",
+  "slug": "418",
+  "url_origen": "https://estatuto.co/418",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "No habrá retención sobre los pagos o abonos en cuenta que no correspondan a rentas o ganancias ocasionales de fuente nacional, hecho que deberá demostrarse cuando así lo exija la Dirección General de Impuestos Nacionales. *Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No habrá retención sobre los pagos o abonos en cuenta que no correspondan a rentas o ganancias ocasionales de fuente nacional, hecho que deberá demostrarse cuando así lo exija la Dirección General de Impuestos Nacionales.</p>\n<p><span style=\"color: #339966;\"><del>*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.</del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Inciso Derogado por la Ley 1111 de 2006 Art 78.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "78"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006"
+  ],
+  "texto_derogado": [
+    "*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Tampoco habrá lugar a efectuar retención en la fuente, en los casos enumerados en los artículos 322 a 324, inclusive.",
+      "full_length": 118
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 913889 (2021-11-10): - (Tributario) IVA en criptoactivos, NFT",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-901303-2021",
+      "tipo": "oficio",
+      "numero": "901303",
+      "fecha": "2021-02-19",
+      "tema": "- (Tributario) &iquest;Procede la pr&aacute;ctica de retenciones en la fuente a t&iacute;tulo del impuesto sobre la renta en una operaci&oacute;n de compra de criptoactivos en la que interviene un residente fiscal colombiano?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-7453-2017",
+      "tipo": "oficio",
+      "numero": "7453",
+      "fecha": "2017-03-31",
+      "tema": "Autorretenedores - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39729-2013",
+      "tipo": "oficio",
+      "numero": "39729",
+      "fecha": "2013-06-27",
+      "tema": "Precisiones relacionadas con los efectos de la modificaci&oacute;n introducida por el art&iacute;culo 55 de la Ley 1607 de 2012 al art&iacute;culo 481 del Estatuto Tributario a la exenci&oacute;n del impuesto sobre las ventas para los contratos de exportaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60341-2007",
+      "tipo": "oficio",
+      "numero": "60341",
+      "fecha": "2007-08-06",
+      "tema": "&iquest;Cu&aacute;l es la causaci&oacute;n del impuesto de remesas a la tarifa del 7% cuando en el a&ntilde;o 2007 la sociedad gira al exterior utilidades retenidas desde 2001 hasta el a&ntilde;o 2005 teniendo en cuenta el art&iacute;culo 13 de la Ley 1111 de 2006 que adicion&oacute; un par&aacute;grafo al art&iacute;culo 245 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26202-2006",
+      "tipo": "oficio",
+      "numero": "26202",
+      "fecha": "2006-03-28",
+      "tema": "Solicita se precise la respuesta dada mediante oficio 073723 de octubre 11 de 2005 sobre el tratamiento tributario en el impuesto sobre la renta de los seguros de asistencia a viajeros y los servicios prestados en el exterior derivados de dicho seguro",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016677-2005",
+      "tipo": "concepto",
+      "numero": "0016677",
+      "fecha": "2005-03-22",
+      "tema": "&iquest;Es necesario para que proceda la deducci&oacute;n por concepto de regal&iacute;as u otros beneficios originados en contratos sobre importaci&oacute;n de tecnolog&iacute;a, patentes y marcas, el registro del respectivo contrato, ante el Ministerio de Industria Comercio y Turismo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016676-2005",
+      "tipo": "concepto",
+      "numero": "0016676",
+      "fecha": "2005-03-22",
+      "tema": "&iquest;Es necesario para que proceda la deducci&oacute;n por concepto de regal&iacute;as u otros beneficios originados en contratos sobre importaci&oacute;n de tecnolog&iacute;a, patentes y marcas, el registro del respectivo contrato, ante el Ministerio de Industria y Comercio Exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065628-2001",
+      "tipo": "concepto",
+      "numero": "0065628",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos efectuados en d&oacute;lares a un proveedor en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070192-2000",
+      "tipo": "concepto",
+      "numero": "0070192",
+      "fecha": "2000-07-25",
+      "tema": "&iquest;Las sociedades colombianas constituidas con capital extranjero que tienen como objeto social la prestaci&oacute;n de servicios al sector de petrolero, son sujetos pasivos del impuesto complementario de remesas respecto de los pagos o abonos en cuenta relativos a la prestaci&oacute;n de esos servicios que les sean consignados en cuentas de compensaci&oacute;n que las beneficiarias del pago tienen en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032232-1999",
+      "tipo": "concepto",
+      "numero": "0032232",
+      "fecha": "1999-04-03",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los recibidos por una sociedad o una persona natural sin domicilio ni residencia en el pa&iacute;s, por servicios prestados en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014336-1999",
+      "tipo": "concepto",
+      "numero": "0014336",
+      "fecha": "1999-09-15",
+      "tema": "&iquest;Los servicios de transporte terrestre prestados totalmente en el exterior, constituyen renta de fuente nacional, y en consecuencia est&aacute;n sometidos a retenci&oacute;n en la fuente?&iquest;Los servicios de embalaje de mercanc&iacute;as que van a ser importadas al territorio colombiano, que son prestados totalmente en el exterior, causan IVA en Colombia y est&aacute;n sujetos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013738-1999",
+      "tipo": "concepto",
+      "numero": "0013738",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Se causa el impuesto a las ventas en la importaci&oacute;n de un bien no producido en Colombia? &iquest;Qu&eacute; porcentaje se debe aplicar a t&iacute;tulo de impuesto de renta y de remesa al momento del pago de la importaci&oacute;n de bienes adquiridos en el exterior, a trav&eacute;s de una sociedad extranjera sin domicilio en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047543-1998",
+      "tipo": "concepto",
+      "numero": "0047543",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;Se encuentran gravados en Colombia los pagos realizados a una empresa extranjera sin domicilio en Colombia por la venta de programas y campamentos de verano en el exterior a residentes en el pa&iacute;s a trav&eacute;s de una oficina de representaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084993-1996",
+      "tipo": "concepto",
+      "numero": "0084993",
+      "fecha": "1996-11-05",
+      "tema": "&iquest;Goza de la exclusi&oacute;n contenida en el literal e) del art&iacute;culo 428 del Estatuto Tributario, una maquinaria que se import&oacute; temporalmente a corto plazo, y que con posterioridad al 1o de julio de 1996, se pasa a largo plazo? &iquest;A qu&eacute; modalidad de importaci&oacute;n es aplicable lo dispuesto en el art&iacute;culo 258-2 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000780-1993",
+      "tipo": "concepto",
+      "numero": "0000780",
+      "fecha": "1993-01-12",
+      "tema": "&iquest;Los intereses que paga una sucursal en Colombia de sociedad extranjera, derivados de un cr&eacute;dito que para capital de trabajo otorg&oacute; a &eacute;sta un banco extranjero con domicilio en el exterior y con oficina de representaci&oacute;n en Colombia, de acuerdo al art&iacute;culo 25 del Estatuto Tributario y la resoluci&oacute;n No. 38 de 1983 del Consejo Nacional de Pol&iacute;tica Econ&oacute;mica y Social CONPES, son, o no, considerados renta de fuente nacional y por lo tanto sometidos a retenci&oacute;n en la fuente de que tratan los art&iacute;culos 406,408 y 417 del mismo Estatuto, o por el contrario, debe considerarse que se encuentran dentro de los casos contemplados en el art&iacute;culo 25 y 322 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030587-1990",
+      "tipo": "concepto",
+      "numero": "0030587",
+      "fecha": "1990-12-05",
+      "tema": "Si una compa&ntilde;&iacute;a telef&oacute;nica firm&oacute; un contrato con una firma extranjera para el suministro de cable telef&oacute;nico y el pago de la importaci&oacute;n se realiz&oacute; mediante carta de cr&eacute;dito otorgada por un Banco local y la firma extranjera no tiene domicilio en el pa&iacute;s &iquest;Qu&eacute; porcentaje de retenci&oacute;n a t&iacute;tulo de impuesto de renta y de remesas se debe efectuar y qui&eacute;n es el responsable? Asimismo &iquest;Cual ser&iacute;a la retenci&oacute;n en el caso de un contrato igualmente de su ministro pero extranjera que tiene sucursal en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027753-1990",
+      "tipo": "concepto",
+      "numero": "0027753",
+      "fecha": "1990-11-06",
+      "tema": "&iquest;La actividad de la sociedad extranjera se desarrolla totalmente fuera del pa&iacute;s, como quiera que los servicios, tanto de recolecci&oacute;n de env&iacute;os como de distribuci&oacute;n de los mismos en territorio colombiano los realiza una sociedad colombiana, est&aacute; sometida dicha sociedad al impuesto sobre la renta y complementarios y en consecuencia no hay lugar a la retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

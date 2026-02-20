@@ -841,27 +841,35 @@ export function semanticDoctrineSearch(
       score += doc.esDoctrinaClave ? 50 : 20;
       score += doc.impactoPractico === "alto" ? 20 : doc.impactoPractico === "medio" ? 10 : 0;
     } else {
-      if (tema.includes(normalizedQuery)) {
-        score += 140;
+      const lowerQuery = normalizedQuery.toLowerCase();
+      
+      if (tema.includes(lowerQuery)) {
+        score += 150;
         motivos.push("tema");
+        if (tema.startsWith(lowerQuery)) score += 30; // Exact start bonus
       }
-      if (pregunta.includes(normalizedQuery)) {
-        score += 95;
+      
+      if (pregunta.includes(lowerQuery)) {
+        score += 100;
         motivos.push("pregunta");
       }
-      if (conclusion.includes(normalizedQuery)) {
+      
+      if (conclusion.includes(lowerQuery)) {
         score += 90;
         motivos.push("conclusión");
       }
-      if (sintesis.includes(normalizedQuery)) {
-        score += 60;
+      
+      if (sintesis.includes(lowerQuery)) {
+        score += 70;
         motivos.push("síntesis");
       }
-      if (descriptores.some((descriptor) => descriptor.includes(normalizedQuery))) {
-        score += 80;
+      
+      if (descriptores.some((descriptor) => descriptor.includes(lowerQuery))) {
+        score += 85;
         motivos.push("descriptor");
       }
 
+      // TF-IDF inspired multi-token coverage
       const tokenCoverage = tokens.filter(
         (token) =>
           tema.includes(token) ||
@@ -869,11 +877,20 @@ export function semanticDoctrineSearch(
           conclusion.includes(token) ||
           descriptores.some((descriptor) => descriptor.includes(token))
       ).length;
-      score += tokenCoverage * 16;
+      
+      const coveragePercent = tokenCoverage / tokens.length;
+      score += (coveragePercent * 100); // Massive bonus for covered tokens
+
+      // Bonus for articles matching directly in query
+      const artMatch = query.match(/(\d+)/);
+      if (artMatch && doc.articulosET.includes(artMatch[1])) {
+        score += 200;
+        motivos.push("artículo directo");
+      }
 
       const distance = levenshtein(normalizedQuery, tema);
       if (distance <= 4) {
-        score += 35 - distance * 6;
+        score += Math.max(0, 40 - distance * 8);
         motivos.push("fuzzy");
       }
     }
@@ -970,4 +987,21 @@ export function getGuideResultCount(guide: GuiaEducativaEnriched): number {
 
 export function getKnownGlossaryTerms(): string[] {
   return ENRICHED_GLOSARIO.map((term) => term.termino);
+}
+
+export function getUniqueArticlesET(): string[] {
+  const articles = new Set<string>();
+  
+  ENRICHED_GLOSARIO.forEach(term => term.articulos?.forEach(a => articles.add(a)));
+  ENRICHED_DOCTRINA.forEach(doc => doc.articulosET.forEach(a => articles.add(a)));
+  ENRICHED_GUIAS.forEach(guide => 
+    guide.nodos.forEach(node => node.articulosET?.forEach(a => articles.add(a)))
+  );
+
+  return Array.from(articles).sort((a, b) => {
+    const numA = parseInt(a.replace(/\D/g, ""), 10);
+    const numB = parseInt(b.replace(/\D/g, ""), 10);
+    if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+    return a.localeCompare(b);
+  });
 }

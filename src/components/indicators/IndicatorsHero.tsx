@@ -20,10 +20,19 @@ function variationLabel(indicator: IndicatorItem): string {
 }
 
 export function IndicatorsHero({ indicators }: IndicatorsHeroProps) {
+  const handleScrollToDetail = (id: string) => {
+    const el = document.getElementById(`trend-${id}`);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="grid gap-4 lg:grid-cols-4">
       {indicators.map((indicator) => (
-        <article key={indicator.id} className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
+        <article 
+          key={indicator.id} 
+          className="group/card relative cursor-pointer rounded-lg border border-border/60 bg-card p-4 shadow-sm transition-all hover:border-foreground/40 hover:shadow-md"
+          onClick={() => handleScrollToDetail(indicator.id)}
+        >
           <div className="mb-1 flex items-start justify-between gap-2">
             <h3 className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
               {indicator.nombre}
@@ -36,8 +45,13 @@ export function IndicatorsHero({ indicators }: IndicatorsHeroProps) {
             </div>
           </div>
           <div className="text-2xl font-semibold tracking-tight text-foreground">{indicator.valor}</div>
-          <div className="mt-1 text-xs font-medium text-muted-foreground">
-            Variación reciente: {variationLabel(indicator)}
+          <div className="mt-1 flex items-center justify-between">
+            <div className="text-xs font-medium text-muted-foreground">
+              Variación: {variationLabel(indicator)}
+            </div>
+            <div className="text-[10px] font-medium text-foreground opacity-0 transition-opacity group-hover/card:opacity-100">
+              Ver detalle &rarr;
+            </div>
           </div>
           <div className="mt-2 h-[52px] w-full">
             <ResponsiveContainer width="100%" height="100%">

@@ -45,7 +45,7 @@ export function ComparisonSection() {
         </h2>
 
         <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-card">
-          <div className="grid grid-cols-3 border-b border-border bg-muted/50 px-4 py-3 text-xs font-semibold uppercase tracking-[0.05em] text-foreground/75">
+          <div className="hidden md:grid grid-cols-3 border-b border-border bg-muted/50 px-6 py-3 text-xs font-semibold uppercase tracking-[0.05em] text-foreground/75">
             <p>Criterio</p>
             <p>Flujo tradicional</p>
             <p>Tributaria Colombia</p>
@@ -54,11 +54,19 @@ export function ComparisonSection() {
           {COMPARISON_ROWS.map((row) => (
             <div
               key={row.criterion}
-              className="grid grid-cols-3 border-b border-border px-4 py-4 text-sm text-foreground last:border-b-0"
+              className="grid grid-cols-1 md:grid-cols-3 border-b border-border px-6 py-5 text-sm text-foreground last:border-b-0 gap-y-3 md:gap-y-0"
             >
-              <p className="pr-3 font-medium">{row.criterion}</p>
-              <p className="pr-3 text-muted-foreground">{row.traditional}</p>
-              <p className="font-medium text-foreground">{row.app}</p>
+              <p className="font-semibold md:font-medium text-base md:text-sm pr-3">{row.criterion}</p>
+              
+              <div className="flex md:block justify-between items-baseline gap-4">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70 md:hidden shrink-0">Tradicional:</span>
+                <p className="text-muted-foreground md:pr-3 text-right md:text-left">{row.traditional}</p>
+              </div>
+
+              <div className="flex md:block justify-between items-baseline gap-4 border-t border-border/40 pt-3 md:border-t-0 md:pt-0">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70 md:hidden shrink-0">SuperApp:</span>
+                <p className="font-semibold md:font-medium text-foreground text-right md:text-left">{row.app}</p>
+              </div>
             </div>
           ))}
         </div>

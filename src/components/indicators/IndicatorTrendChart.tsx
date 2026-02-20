@@ -35,7 +35,10 @@ function formatFull(value: number, unit: IndicatorItem["unidad"]): string {
 
 export function IndicatorTrendChart({ indicator }: IndicatorTrendChartProps) {
   return (
-    <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
+    <div 
+      id={`trend-${indicator.id}`}
+      className="rounded-lg border border-border/60 bg-card p-4 shadow-sm scroll-mt-24"
+    >
       <h4 className="mb-1 text-sm font-semibold text-foreground">{indicator.nombre}</h4>
       <p className="mb-3 text-xs text-muted-foreground">Evolución histórica</p>
       <div className="h-[220px]">

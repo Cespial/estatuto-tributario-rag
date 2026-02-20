@@ -8,6 +8,7 @@ import { LibroTreemapChart } from "@/components/dashboard/libro-treemap-chart";
 import { TopModifiedTable } from "@/components/dashboard/top-modified-table";
 import { TopReferencedTrendTable } from "@/components/dashboard/top-referenced-trend-table";
 import { DashboardExportActions } from "@/components/dashboard/dashboard-export-actions";
+import { InsightCards } from "@/components/dashboard/insight-cards";
 
 interface DashboardStats {
   total_articles: number;
@@ -57,11 +58,22 @@ interface DashboardTimeSeries {
 interface DashboardClientProps {
   stats: DashboardStats;
   timeseries: DashboardTimeSeries;
+  articleIndex: any[];
+  lastUpdate?: string;
 }
 
-export function DashboardClient({ stats, timeseries }: DashboardClientProps) {
+export function DashboardClient({ stats, timeseries, articleIndex, lastUpdate }: DashboardClientProps) {
   const [rangeKey, setRangeKey] = useState<DashboardRange["key"]>("historico");
   const [selectedYear, setSelectedYear] = useState<number>(timeseries.latest_year);
+  const [selectedLibro, setSelectedLibro] = useState<string | null>(null);
+
+  const articleLibroMap = useMemo(() => {
+    const map = new Map<string, string>();
+    articleIndex.forEach(art => {
+      if (art.slug && art.libro) map.set(art.slug, art.libro);
+    });
+    return map;
+  }, [articleIndex]);
 
   const currentRange =
     timeseries.ranges.find((range) => range.key === rangeKey) || timeseries.ranges[0];
@@ -100,33 +112,56 @@ export function DashboardClient({ stats, timeseries }: DashboardClientProps) {
     ley_principal: entry.laws[0]?.name || "",
   }));
 
-  const exportPayload = {
-    range: rangeKey,
-    generatedAt: new Date().toISOString(),
-    kpis: currentRange,
-    reform_timeline: filteredTimeline,
-    top_modified: stats.top_modified,
-    top_referenced: stats.top_referenced,
-  };
+  const filteredTopModified = useMemo(() => {
+    if (!selectedLibro) return stats.top_modified;
+    return stats.top_modified.filter(art => articleLibroMap.get(art.slug) === selectedLibro);
+  }, [selectedLibro, stats.top_modified, articleLibroMap]);
+
+  const filteredTopReferenced = useMemo(() => {
+    let result = stats.top_referenced;
+    if (selectedLibro) {
+      result = result.filter(art => articleLibroMap.get(art.slug) === selectedLibro);
+    }
+    return result;
+  }, [selectedLibro, stats.top_referenced, articleLibroMap]);
+
+  const sortedTrends = useMemo(() => {
+    if (!selectedYear) return filteredTopReferenced;
+
+    return [...filteredTopReferenced].sort((a, b) => {
+      const trendA = timeseries.article_modification_trends.find(t => t.slug === a.slug);
+      const trendB = timeseries.article_modification_trends.find(t => t.slug === b.slug);
+      const valA = trendA?.series.find(s => s.year === selectedYear)?.count || 0;
+      const valB = trendB?.series.find(s => s.year === selectedYear)?.count || 0;
+      return valB - valA;
+    });
+  }, [selectedYear, filteredTopReferenced, timeseries.article_modification_trends]);
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col justify-between gap-3 lg:flex-row lg:items-center">
-        <TimeRangeFilter
-          value={rangeKey}
-          onChange={(next) => {
-            setRangeKey(next as DashboardRange["key"]);
-            setSelectedYear(timeseries.latest_year);
-          }}
-          options={timeseries.ranges.map((range) => ({
-            key: range.key,
-            label: range.label,
-            description: range.note,
-          }))}
-        />
+      <div className="flex flex-col justify-between gap-3 lg:flex-row lg:items-center print:hidden">
+        <div className="flex flex-col gap-1">
+          <TimeRangeFilter
+            value={rangeKey}
+            onChange={(next) => {
+              setRangeKey(next as DashboardRange["key"]);
+              setSelectedYear(timeseries.latest_year);
+            }}
+            options={timeseries.ranges.map((range) => ({
+              key: range.key,
+              label: range.label,
+              description: range.note,
+            }))}
+          />
+          {lastUpdate && (
+            <p className="text-[10px] text-muted-foreground">
+              Última actualización: {new Date(lastUpdate).toLocaleString()}
+            </p>
+          )}
+        </div>
         <DashboardExportActions
           filenamePrefix={`dashboard-et-${rangeKey}`}
-          payload={exportPayload}
+          payload={{ stats, timeseries }}
           rowsForCsv={exportRows}
         />
       </div>
@@ -139,24 +174,36 @@ export function DashboardClient({ stats, timeseries }: DashboardClientProps) {
         topLaw={topLaw || null}
       />
 
-      <div className="rounded-lg border border-border/60 bg-muted/20 px-4 py-2 text-xs text-muted-foreground">
+      <InsightCards stats={stats} timeseries={timeseries} />
+
+      <div className="rounded-lg border border-border/60 bg-muted/20 px-4 py-2 text-xs text-muted-foreground print:hidden">
         {currentRange.note || timeseries.granularity_notice}
       </div>
 
       <div className="grid gap-6 xl:grid-cols-2">
-        <ReformDrilldownChart
-          data={filteredTimeline}
-          selectedYear={effectiveSelectedYear}
-          onYearSelect={setSelectedYear}
+        <div className={selectedLibro ? "opacity-50 pointer-events-none grayscale" : ""}>
+          <ReformDrilldownChart
+            data={filteredTimeline}
+            selectedYear={effectiveSelectedYear}
+            onYearSelect={setSelectedYear}
+          />
+        </div>
+        <LibroTreemapChart
+          data={stats.libro_distribution}
+          selectedLibro={selectedLibro}
+          onSelect={setSelectedLibro}
         />
-        <LibroTreemapChart data={stats.libro_distribution} />
       </div>
 
       <div className="grid gap-6 xl:grid-cols-2">
-        <TopModifiedTable articles={stats.top_modified} />
+        <TopModifiedTable 
+          articles={filteredTopModified} 
+          title={selectedLibro ? `Más modificados en ${selectedLibro}` : undefined}
+        />
         <TopReferencedTrendTable
-          articles={stats.top_referenced}
+          articles={sortedTrends}
           trends={timeseries.article_modification_trends}
+          title={selectedLibro ? `Más referenciados en ${selectedLibro}` : undefined}
         />
       </div>
     </div>

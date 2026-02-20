@@ -1,1 +1,428 @@
-{"id_articulo": "Art. 43", "titulo": "Art. 43. Los premios en concursos nacionales e internacionales.", "titulo_corto": "Los premios en concursos nacionales e internacionales.", "slug": "43", "url_origen": "https://estatuto.co/43", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*<span class=\"tachado\">No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional.</span></del></span></p>\n</span>", "modificaciones_raw": "* -Derogado Ley 1819 de 2016.Part II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional."], "texto_derogado_parsed": [{"index": 0, "snippet": "*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodí...", "full_length": 267}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 43",
+  "titulo": "Art. 43. Los premios en concursos nacionales e internacionales.",
+  "titulo_corto": "Los premios en concursos nacionales e internacionales.",
+  "slug": "43",
+  "url_origen": "https://estatuto.co/43",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*<span class=\"tachado\">No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "* -Derogado Ley 1819 de 2016.Part II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodístico, artístico y deportivo, reconocidos por el Gobierno Nacional."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*No están sometidos al impuesto sobre la renta y complementarios, los premios y distinciones obtenidos en concursos o certámenes nacionales e internacionales de carácter científico, literario, periodí...",
+      "full_length": 267
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 20 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 12751 (2025-08-19): Retenci&oacute;n en la fuente\noficio 9135 (2024-11-25): Impuesto sobre la Renta y Complementarios\noficio 9004 (2024-11-19): Impuesto sobre la Renta y Complementarios\noficio 906931 (2021-07-13): Correcci&oacute;n de errores e inconsistencias en declaraciones tributarias, procedimiento tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-12751-2025",
+      "tipo": "oficio",
+      "numero": "12751",
+      "fecha": "2025-08-19",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9135-2024",
+      "tipo": "oficio",
+      "numero": "9135",
+      "fecha": "2024-11-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9004-2024",
+      "tipo": "oficio",
+      "numero": "9004",
+      "fecha": "2024-11-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906931-2021",
+      "tipo": "oficio",
+      "numero": "906931",
+      "fecha": "2021-07-13",
+      "tema": "Correcci&oacute;n de errores e inconsistencias en declaraciones tributarias, procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27574-2018",
+      "tipo": "oficio",
+      "numero": "27574",
+      "fecha": "2018-09-25",
+      "tema": "Beneficio tributario para los desembolsos realizados por concepto de los est&iacute;mulos otorgados en el marco de la Ley 397 de 1997",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11536-2018",
+      "tipo": "oficio",
+      "numero": "11536",
+      "fecha": "2018-05-04",
+      "tema": "Ingresos por est&iacute;mulos a las actividades art&iacute;sticas y culturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0653-2018",
+      "tipo": "oficio",
+      "numero": "0653",
+      "fecha": "2018-05-04",
+      "tema": "&iquest;Se debe hacer retenci&oacute;n en la fuente a los ingresos por concepto de premios obtenidos por profesionales de Golf en Torneos organizados por la Federaci&oacute;n Colombiana de Golf, cuya celebraci&oacute;n est&aacute; reconocida por el Gobierno Nacional a trav&eacute;s de Coldeportes? &iquest;De ser as&iacute;, qu&eacute; tarifa se aplicar&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0414-2018",
+      "tipo": "oficio",
+      "numero": "0414",
+      "fecha": "2018-03-22",
+      "tema": "&iquest;El Decreto 1625 de 2016, al no incluir el Literal I) de Art&iacute;culo 5&deg; del Decreto 1512 de 1985, en su ejercicio de compilaci&oacute;n del mismo, se entiende que dicho literal no se encuentra vigente o por el contrario continua vigente la excepci&oacute;n a la retenci&oacute;n en la fuente por tales conceptos, en la medida que no se trata de una nueva reglamentaci&oacute;n sobre las excepciones de retenci&oacute;n en la fuente por algunos conceptos, sino la mera compilaci&oacute;n de Decretos Reglamentarios preexistentes, lo que permiti&oacute; su expedici&oacute;n sin consulta previa alguna",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0070-2018",
+      "tipo": "oficio",
+      "numero": "0070",
+      "fecha": "2018-02-06",
+      "tema": "Exoneraci&oacute;n del impuesto de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24882-2015",
+      "tipo": "oficio",
+      "numero": "24882",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Cu&aacute;ndo hay tr&aacute;fico de llamadas es obligatorio el pago de impuestos por parte del particular que presta los servicios de telefon&iacute;a fija, al CRL y al fondo nacional de recursos. Y cu&aacute;l es el soporte legal de su existencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10941-2015",
+      "tipo": "oficio",
+      "numero": "10941",
+      "fecha": "2015-04-16",
+      "tema": "Correcci&oacute;n de Errores e Inconsistencias en Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49409-2014",
+      "tipo": "oficio",
+      "numero": "49409",
+      "fecha": "2014-08-15",
+      "tema": "Supresi&oacute;n de la partida arancelaria 49.02 (diarios y publicaciones peri&oacute;dicas, impresos, incluso ilustrados) de los bienes que no causan el impuesto sobre las ventas- IVA, se&ntilde;alados en el art&iacute;culo 424 del Estatuto Tributario, con ocasi&oacute;n de la vigencia de la Ley 1607 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69245-2013",
+      "tipo": "oficio",
+      "numero": "69245",
+      "fecha": "2013-10-29",
+      "tema": "Correcci&oacute;n de inconsistencias en las declaraciones privadas y recibos oficiales de pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055943-2007",
+      "tipo": "concepto",
+      "numero": "0055943",
+      "fecha": "2007-07-23",
+      "tema": "&iquest;Son susceptibles de corregirse sin sanci&oacute;n las declaraciones informativas de precios de transferencia para subsanar la omisi&oacute;n de lagunas transacciones y para corregir el error en el rango?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93800-2005",
+      "tipo": "oficio",
+      "numero": "93800",
+      "fecha": "2005-12-15",
+      "tema": "&iquest;Puede un contribuyente agente retenedor dar aplicaci&oacute;n al contenido del art&iacute;culo 43 de la Ley 962 de 2005, para corregir su declaraci&oacute;n de retenci&oacute;n en la fuente por ventas, sin liquidar sanci&oacute;n, en raz&oacute;n a que err&oacute;neamente al presentar la declaraci&oacute;n, diligenci&oacute; el formulario correspondiente a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046393-2004",
+      "tipo": "concepto",
+      "numero": "0046393",
+      "fecha": "2004-07-27",
+      "tema": "Derogatoria del beneficio tributario contemplado en el art&iacute;culo 43 del Estatuto Tributario, para premios y distinciones en concursos o cert&aacute;menes nacionales e internacionales de car&aacute;cter cient&iacute;fico, literario, period&iacute;stico, art&iacute;stico y deportivo",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-39258-2004",
+      "tipo": "oficio",
+      "numero": "39258",
+      "fecha": "2004-06-29",
+      "tema": "&iquest;Est&aacute;n sujetos al impuesto de renta y a retenci&oacute;n en la fuente los recursos procedentes de la contribuci&oacute;n parafiscal creada en la Ley 814 de 2003, que se asignen a productores, distribuidores y exhibidores, teniendo en cuenta que son ellos mismos quienes la pagan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014496-1999",
+      "tipo": "concepto",
+      "numero": "0014496",
+      "fecha": "1999-02-24",
+      "tema": "&iquest;La importaci&oacute;n de combustibles derivados del petr&oacute;leo, est&aacute; excluida del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058812-1998",
+      "tipo": "concepto",
+      "numero": "0058812",
+      "fecha": "1998-07-27",
+      "tema": "&iquest; Cual es el tratamiento tributario para los ingresos obtenidos por concepto de premios en investigaciones cient&iacute;ficas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033459-1996",
+      "tipo": "concepto",
+      "numero": "0033459",
+      "fecha": "1996-04-23",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre la renta y sus complementarios, las sumas que un Ministerio reconoce en favor de los mejores funcionarios como est&iacute;mulo a su eficiencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001263-1989",
+      "tipo": "concepto",
+      "numero": "0001263",
+      "fecha": "1989-01-19",
+      "tema": "&iquest;Qu&eacute; procedimiento debe seguirse para corregir una declaraci&oacute;n de retenci&oacute;n en la fuente, cuando lo que se pretende es aclarar los conceptos de retenci&oacute;n, sin que el valor total de la declaraci&oacute;n sufra variaci&oacute;n alguna?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-891-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "891",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    }
+  ]
+}

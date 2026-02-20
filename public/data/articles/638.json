@@ -1,1 +1,437 @@
-{"id_articulo": "Art. 638", "titulo": "Art. 638. Prescripción de la facultad para imponer sanciones.", "titulo_corto": "Prescripción de la facultad para imponer sanciones.", "slug": "638", "url_origen": "https://estatuto.co/638", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Cuando las sanciones se impongan en liquidaciones oficiales, la facultad para imponerlas prescribe en el mismo término que existe para practicar la respectiva liquidación oficial. Cuando las sanciones se impongan en resolución independiente, deberá formularse el pliego de cargos correspondiente, dentro de los dos años siguientes a la fecha en que se presentó la declaración de renta y complementarios o de ingresos y patrimonio, del período durante el cual ocurrió la irregularidad sancionable o cesó la irregularidad, para el caso de las infracciones continuadas. Salvo en el caso de la sanción por no declarar, de los intereses de mora, y de las sanciones previstas en el artículo 659, artículo 659-1 y artículo 660 del Estatuto Tributario, las cuales prescriben en el término de cinco años. Vencido el término de respuesta del pliego de cargos, la Administración Tributaria tendrá un plazo de seis meses para aplicar la sanción correspondiente, previa la práctica de las pruebas a que hubiere lugar.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Cuando las sanciones se impongan en liquidaciones oficiales, la facultad para imponerlas prescribe en el mismo término que existe para practicar la respectiva liquidación oficial. Cuando las sanciones se impongan en resolución independiente, deberá formularse el pliego de cargos correspondiente, dentro de los dos años siguientes a la fecha en que se presentó la declaración de renta y complementarios o de ingresos y patrimonio, del período durante el cual ocurrió la irregularidad sancionable o cesó la irregularidad, para el caso de las infracciones continuadas. Salvo en el caso de la sanción por no declarar, de los intereses de mora, y de las sanciones previstas en el <a href=\"https://estatuto.co/659\" rel=\"noopener\" target=\"_blank\">artículo 659</a>, <a href=\"https://estatuto.co/659-1\" rel=\"noopener\" target=\"_blank\">artículo 659-1</a> y<a href=\"https://estatuto.co/660\" rel=\"noopener\" target=\"_blank\"> artículo 660</a> del Estatuto Tributario, las cuales prescriben en el término de cinco años.</p>\n<p>Vencido el término de respuesta del pliego de cargos, la Administración Tributaria tendrá un plazo de seis meses para aplicar la sanción correspondiente, previa la práctica de las pruebas a que hubiere lugar.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 64.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "64"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["659", "659-1", "660"], "referenced_by": ["260-11", "684-4"], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 638",
+  "titulo": "Art. 638. Prescripción de la facultad para imponer sanciones.",
+  "titulo_corto": "Prescripción de la facultad para imponer sanciones.",
+  "slug": "638",
+  "url_origen": "https://estatuto.co/638",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Cuando las sanciones se impongan en liquidaciones oficiales, la facultad para imponerlas prescribe en el mismo término que existe para practicar la respectiva liquidación oficial. Cuando las sanciones se impongan en resolución independiente, deberá formularse el pliego de cargos correspondiente, dentro de los dos años siguientes a la fecha en que se presentó la declaración de renta y complementarios o de ingresos y patrimonio, del período durante el cual ocurrió la irregularidad sancionable o cesó la irregularidad, para el caso de las infracciones continuadas. Salvo en el caso de la sanción por no declarar, de los intereses de mora, y de las sanciones previstas en el artículo 659, artículo 659-1 y artículo 660 del Estatuto Tributario, las cuales prescriben en el término de cinco años. Vencido el término de respuesta del pliego de cargos, la Administración Tributaria tendrá un plazo de seis meses para aplicar la sanción correspondiente, previa la práctica de las pruebas a que hubiere lugar.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Cuando las sanciones se impongan en liquidaciones oficiales, la facultad para imponerlas prescribe en el mismo término que existe para practicar la respectiva liquidación oficial. Cuando las sanciones se impongan en resolución independiente, deberá formularse el pliego de cargos correspondiente, dentro de los dos años siguientes a la fecha en que se presentó la declaración de renta y complementarios o de ingresos y patrimonio, del período durante el cual ocurrió la irregularidad sancionable o cesó la irregularidad, para el caso de las infracciones continuadas. Salvo en el caso de la sanción por no declarar, de los intereses de mora, y de las sanciones previstas en el <a href=\"https://estatuto.co/659\" rel=\"noopener\" target=\"_blank\">artículo 659</a>, <a href=\"https://estatuto.co/659-1\" rel=\"noopener\" target=\"_blank\">artículo 659-1</a> y<a href=\"https://estatuto.co/660\" rel=\"noopener\" target=\"_blank\"> artículo 660</a> del Estatuto Tributario, las cuales prescriben en el término de cinco años.</p>\n<p>Vencido el término de respuesta del pliego de cargos, la Administración Tributaria tendrá un plazo de seis meses para aplicar la sanción correspondiente, previa la práctica de las pruebas a que hubiere lugar.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 64.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "64"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "659",
+    "659-1",
+    "660"
+  ],
+  "referenced_by": [
+    "260-11",
+    "684-4"
+  ],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 13 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 19451 (2025-12-02): Procedimiento Tributario\noficio 16261 (2025-11-25): Procedimiento Tributario\noficio 13128 (2025-09-29): Otros Temas\noficio 12966 (2025-09-19): Procedimiento Tributario\noficio 9663 (2025-06-24): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-19451-2025",
+      "tipo": "oficio",
+      "numero": "19451",
+      "fecha": "2025-12-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16261-2025",
+      "tipo": "oficio",
+      "numero": "16261",
+      "fecha": "2025-11-25",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13128-2025",
+      "tipo": "oficio",
+      "numero": "13128",
+      "fecha": "2025-09-29",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12966-2025",
+      "tipo": "oficio",
+      "numero": "12966",
+      "fecha": "2025-09-19",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9663-2025",
+      "tipo": "oficio",
+      "numero": "9663",
+      "fecha": "2025-06-24",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7047-2025",
+      "tipo": "oficio",
+      "numero": "7047",
+      "fecha": "2025-05-06",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6888-2025",
+      "tipo": "oficio",
+      "numero": "6888",
+      "fecha": "2025-05-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2156-2025",
+      "tipo": "oficio",
+      "numero": "2156",
+      "fecha": "2025-02-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6034-2024",
+      "tipo": "oficio",
+      "numero": "6034",
+      "fecha": "2024-08-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3104-2024",
+      "tipo": "oficio",
+      "numero": "3104",
+      "fecha": "2024-05-10",
+      "tema": "(Int 331) Facultad para imponer sanci&oacute;n por no declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909549-2021",
+      "tipo": "oficio",
+      "numero": "909549",
+      "fecha": "2021-10-09",
+      "tema": "Sanci&oacute;n por no enviar informaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908899-2021",
+      "tipo": "oficio",
+      "numero": "908899",
+      "fecha": "2021-08-30",
+      "tema": "Procedimiento tributario - Prescripci&oacute;n de la facultad para imponer sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907841-2021",
+      "tipo": "oficio",
+      "numero": "907841",
+      "fecha": "2021-08-05",
+      "tema": "&iquest;El incumplimiento en la actualizaci&oacute;n del RUT, en el mes siguiente al hecho que genere dicha actualizaci&oacute;n, se considera una infracci&oacute;n de ejecuci&oacute;n instant&aacute;nea o continuada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0109-2021",
+      "tipo": "oficio",
+      "numero": "0109",
+      "fecha": "2021-03-27",
+      "tema": "Procedimiento Tributario - Sanciones a Contadores P&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906177-2020",
+      "tipo": "oficio",
+      "numero": "906177",
+      "fecha": "2020-10-19",
+      "tema": "Requisitos y exigibilidad del Registro &Uacute;nico Tributario -RUT para ejecutar un contrato entre una entidad p&uacute;blica y una Uni&oacute;n Temporal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902815-2020",
+      "tipo": "oficio",
+      "numero": "902815",
+      "fecha": "2020-06-30",
+      "tema": "Prescripci&oacute;n de la facultad sancionatoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13361-2019",
+      "tipo": "oficio",
+      "numero": "13361",
+      "fecha": "2019-05-29",
+      "tema": "&iquest;Los proveedores tecnol&oacute;gicos son responsables fiscalmente ante los posibles casos de evasi&oacute;n que pueda llegar a tener el facturador electr&oacute;nico por errores de c&aacute;lculo en su software y env&iacute;o de los documentos ante la DIAN con impuestos y-o retenciones que no apliquen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10466-2019",
+      "tipo": "oficio",
+      "numero": "10466",
+      "fecha": "2019-05-02",
+      "tema": "Impuesto sobre la renta, impuesto sobre las ventas (",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1638-2019",
+      "tipo": "oficio",
+      "numero": "1638",
+      "fecha": "2019-01-24",
+      "tema": "Emplazamiento Previo por no Declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-887-2018",
+      "tipo": "oficio",
+      "numero": "887",
+      "fecha": "2018-07-11",
+      "tema": "Sanci&oacute;n a sociedades de contadores P&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3348-2016",
+      "tipo": "oficio",
+      "numero": "3348",
+      "fecha": "2016-03-01",
+      "tema": "&iquest;Cu&aacute;l es el tiempo por el cual deben proponerse las sanciones a contador y-o revisor fiscal de que trata el art&iacute;culo 660 del Estatuto Tributario, cuando en contra de un mismo contador cursan expedientes simult&aacute;neos por 6 periodos de Impuesto sobre las Ventas, uno de Impuesto sobre la renta y no existe ninguna sanci&oacute;n ejecutoriada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31370-2015",
+      "tipo": "oficio",
+      "numero": "31370",
+      "fecha": "2015-11-17",
+      "tema": "&iquest;Es viable desconocer un saldo a favor, cuando con ocasi&oacute;n de un proceso de verificaci&oacute;n de una solicitud de devoluci&oacute;n y-o compensaci&oacute;n se observa que este es improcedente y que los periodos que dieron lugar al mismo se encuentran en firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037637-2014",
+      "tipo": "concepto",
+      "numero": "0037637",
+      "fecha": "2014-06-24",
+      "tema": "&iquest;Desde qu&eacute; fecha se computa la causaci&oacute;n de los intereses moratorios, la oportunidad para solicitar la devoluci&oacute;n de un saldo a favor, el plazo para notificar un requerimiento especial y la prescripci&oacute;n de la facilitad sancionatoria cuando el Decreto por el cual se fijan los plazos para la presentaci&oacute;n de las declaraciones tributarias y para el pago de los impuestos, anticipos y retenciones en la fuente es modificado, prorrog&aacute;ndose las fechas para la presentaci&oacute;n y pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057551-2012",
+      "tipo": "concepto",
+      "numero": "0057551",
+      "fecha": "2012-09-11",
+      "tema": "&iquest;El t&eacute;rmino para imponer las sanciones por violar normas que rigen la profesi&oacute;n de contador o revisor fiscal y la sanci&oacute;n a sociedades de contadores p&uacute;blicos previstas en el estatuto tributario por llevar o aconsejar llevar contabilidades, elaborar estados financieros o expedir certificaciones que no reflejan la realidad econ&oacute;mica, es de tres (3) o cinco (5) a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64239-2011",
+      "tipo": "oficio",
+      "numero": "64239",
+      "fecha": "2011-08-19",
+      "tema": "&iquest;Cu&aacute;l es el plazo que tiene la entidad para cobrar multas e impuestos sobre declaraciones de los usuarios en el caso que se determine que &eacute;stas son fraudulentas, por ejemplo cuando hay fraude fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5458-2011",
+      "tipo": "oficio",
+      "numero": "5458",
+      "fecha": "2011-01-28",
+      "tema": "Aplicaci&oacute;n de la sanci&oacute;n de clausura o cierre del establecimiento prevista en el art&iacute;culo 657 del Estatuto Tributario, espec&iacute;ficamente en relaci&oacute;n con el caso descrito en el literal f",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2010-2011",
+      "tipo": "oficio",
+      "numero": "2010",
+      "fecha": "2011-01-04",
+      "tema": "- (Tributario) &iquest;cu&aacute;l es la sanci&oacute;n y el procedimiento a aplicar por parte de la administraci&oacute;n tributaria, cuando un contribuyente presenta la declaraci&oacute;n informativa de precios de transferencia con inconsistencias relativas al valor de las operaciones u omisi&oacute;n de algunas de ellas y se niega a corregir voluntariamente la declaraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59918-2010",
+      "tipo": "oficio",
+      "numero": "59918",
+      "fecha": "2010-08-19",
+      "tema": "&iquest;En el marco del art&iacute;culo 638 mencionado, cu&aacute;l ser&iacute;a el t&eacute;rmino de respuesta al pliego de cargos, para aplicar la sanci&oacute;n se&ntilde;alada en el art&iacute;culo 658-3 Num 3 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22797-2010",
+      "tipo": "oficio",
+      "numero": "22797",
+      "fecha": "2010-04-05",
+      "tema": "&iquest;De conformidad con el art&iacute;culo 638 del Estatuto Tributario, como debe precederse cuando se va imponer la sanci&oacute;n por no enviar informaci&oacute;n para no declarantes, y como debe procederse cuando se trata de declarantes, pero que no cumplieron con el deber formal de declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17845-2010",
+      "tipo": "oficio",
+      "numero": "17845",
+      "fecha": "2010-03-15",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para la aplicaci&oacute;n de la sanci&oacute;n de multa de que trata el art&iacute;culo 658-3 numeral 3o del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101084-2009",
+      "tipo": "oficio",
+      "numero": "101084",
+      "fecha": "2009-12-09",
+      "tema": "&iquest;Cu&aacute;les son los datos de cuantificaci&oacute;n de la sanci&oacute;n por irregularidades en la contabilidad: los del a&ntilde;o gravable anterior al de la irregularidad o los del a&ntilde;o calendario anterior al de la imposici&oacute;n de la sanci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096801-2009",
+      "tipo": "concepto",
+      "numero": "0096801",
+      "fecha": "2009-11-23",
+      "tema": "Cu&aacute;l es t&eacute;rmino de prescripci&oacute;n y a partir de qu&eacute; momento empieza a correr el mismo, para el ejercicio de la facultad sancionatoria de la Administraci&oacute;n Tributaria, respecto de la obligaci&oacute;n de informar contenida en los art&iacute;culos 623, 623-1 y 631 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8374-2008",
+      "tipo": "oficio",
+      "numero": "8374",
+      "fecha": "2008-11-28",
+      "tema": "Obligaciones contingentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5690-2008",
+      "tipo": "oficio",
+      "numero": "5690",
+      "fecha": "2008-11-21",
+      "tema": "&iquest;Qu&eacute; consecuencias acarrea el no registro de los libros de contabilidad y el no llevarlos en debida forma por un contribuyente obligado a hacerlo. Y si las declaraciones tributarias presentadas pierden firmeza por el hecho de no haber cumplido con la obligaci&oacute;n de registrar y llevar en debida forma los libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73229-2006",
+      "tipo": "oficio",
+      "numero": "73229",
+      "fecha": "2006-08-30",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino con que cuenta la administraci&oacute;n tributaria para aplicar la sanci&oacute;n por no enviar informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034853-2003",
+      "tipo": "concepto",
+      "numero": "0034853",
+      "fecha": "2003-06-18",
+      "tema": "&iquest;Mediante qu&eacute; acto administrativo puede la Administraci&oacute;n Tributaria liquidar una sanci&oacute;n no declarada o reliquidar una declarada incorrectamente? - &iquest;Cu&aacute;l es la base para liquidar el incremento del 30% en las sanciones, de que trata el art&iacute;culo 701 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034851-2003",
+      "tipo": "concepto",
+      "numero": "0034851",
+      "fecha": "2003-06-18",
+      "tema": "&iquest;Dentro de qu&eacute; t&eacute;rmino se debe notificar el auto declarativo por medio del cual se dan como no presentadas las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-67221-2002",
+      "tipo": "concepto",
+      "numero": "67221",
+      "fecha": "2002-10-16",
+      "tema": "&iquest;Mediante qu&eacute; acto administrativo puede la Administraci&oacute;n determinar una sanci&oacute;n no declarada o declarada de manera incorrecta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078742-2001",
+      "tipo": "concepto",
+      "numero": "0078742",
+      "fecha": "2001-08-29",
+      "tema": "&iquest;Debe proferirse requerimiento especial o pliego de cargos, para modificar las declaraciones tributarias en las cuales se imputa como saldo a favor o anticipo un valor mayor al declarado en el ejercicio anterior? &iquest;Debe proferirse Liquidaci&oacute;n de Correcci&oacute;n Aritm&eacute;tica en aquellos casos en que los agentes de retenci&oacute;n presentan la Declaraci&oacute;n de Retenci&oacute;n en la Fuente, sin totalizar&iacute;a y sin liquidarse sanci&oacute;n por correcci&oacute;n cuando el contribuyente corrige voluntariamente? &iquest;Presta m&eacute;rito ejecutivo para adelantar el procedimiento administrativo de cobro o para instaurar denuncia penal, la Declaraci&oacute;n de Retenci&oacute;n en la Fuente que se presenta sin totalizar el valor de las retenciones declaradas? &iquest;Debe proferirse un acto administrativo para suprimir de la cuenta corriente, las declaraciones presentadas por los no obligados a declarar? &iquest;Debe proferirse un acto administrativo para suprimir de la cuenta corriente, las declaraciones presentadas por fuera de los cinco a&ntilde;os para subsanar los errores que dan lugar a tenerlas como no presentadas? &iquest;Debe proferirse un acto administrativo para suprimir de la cuenta corriente, las declaraciones de correcci&oacute;n presentadas por fuera del t&eacute;rmino previsto por los art&iacute;culos 588, 709 y 713 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0122437-2000",
+      "tipo": "concepto",
+      "numero": "0122437",
+      "fecha": "2000-12-20",
+      "tema": "&iquest;El t&eacute;rmino de los seis (6) meses posterior al vencimiento del t&eacute;rmino de respuesta del pliego de cargos, para aplicar la sanci&oacute;n correspondiente es perentorio o es prorrogable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087970-2000",
+      "tipo": "concepto",
+      "numero": "0087970",
+      "fecha": "2000-09-11",
+      "tema": "&iquest;La resoluci&oacute;n de sanci&oacute;n por no declarar, debe estar precedida del pliego de cargos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037542-2000",
+      "tipo": "concepto",
+      "numero": "0037542",
+      "fecha": "2000-04-18",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir cuanso con posterioridad a la devoluci&oacute;n, el contribuyente corrige la declaraci&oacute;n que sirvi&oacute; de base para la misma, disminuyendo el saldo a favor y sin reintegrar la diferencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071399-1996",
+      "tipo": "concepto",
+      "numero": "0071399",
+      "fecha": "1996-09-11",
+      "tema": "&iquest;Dentro de qu&eacute; t&eacute;rmino puede hacerse las correcciones previstas en el par&aacute;grafo 2&ordm; del art&iacute;culo 588 del Estatuto Tributario y ante qu&eacute; entidad se presentan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060401-1994",
+      "tipo": "concepto",
+      "numero": "0060401",
+      "fecha": "1994-10-13",
+      "tema": "&iquest;Si, cuando la sanci&oacute;n por libros de contabilidad se incluye en requerimiento especial y en liquidaci&oacute;n oficial de revisi&oacute;n, procede tambi&eacute;n la reducci&oacute;n de que trata el art&iacute;culo 656 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023779-1989",
+      "tipo": "concepto",
+      "numero": "0023779",
+      "fecha": "1989-01-01",
+      "tema": "Competencia para resolver la solicitud de reducci&oacute;n de la sanci&oacute;n por correcci&oacute;n aritmetica",
+      "vigente": true
+    }
+  ]
+}

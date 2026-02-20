@@ -1,1 +1,627 @@
-{"id_articulo": "Art. 33", "titulo": "Art. 33. Tratamiento tributario de instrumentos financieros medidos a valor razonable.", "titulo_corto": "Tratamiento tributario de instrumentos financieros medidos a valor razonable.", "slug": "33", "url_origen": "https://estatuto.co/33", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Para efectos fiscales los instrumentos financieros medidos a valor razonable, con cambios en resultados tendrán el siguiente tratamiento: 1.Titulos de renta variable. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del Impuesto sobre la Renta y Complementarios, sino hasta el momento de su enajenación o liquidación, lo que suceda primero. Para efectos de lo aquí previsto, son títulos de renta variable aquellos cuya estructura financiera varía durante su vida, tales como las acciones. 2.Títulos de renta fija. Respecto de los títulos de renta fija, se siguen las siguientes reglas para efectos del impuesto sobre la renta y complementarios: a. El ingreso por concepto de intereses o rendimientos financieros provenientes de estos títulos, se realizará para efectos fiscales de manera lineal. Este cálculo se hará teniendo en cuenta el valor nominal, la tasa facial, el plazo convenido y el tiempo de tenencia en el año o periodo gravable del título. b. La utilidad o pérdida en la enajenación de títulos de renta fija, se realizará al momento de su enajenación y estará determinada por la diferencia entre el precio de enajenación y el costo fiscal del titulo. c. Para efectos de lo aquí previsto, se entiende por títulos de renta fija, aquellos cuya estructura financiera no varía durante su vida, tales como los bonos, los certificados de depósito a término (CDT) y los TES. 3. Instrumentos derivados financieros. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del impuesto sobre la renta y complementarios sino hasta el momento de su enajenación o liquidación, lo que suceda primero. 4. Otros instrumentos financieros. Los ingresos, costos y gastos generados por la medición de pasivos financieros a valor razonable con cambios en resultados, no serán objeto del impuesto sobre la renta y complementarios sino en lo correspondiente al gasto financiero que se hubiese generado aplicando el modelo del costo amortizado, de acuerdo a la técnica contable. Parágrafo 1. Lo previsto en este artículo se aplicará sin perjuicio de la retención y la autorretención en la fuente por concepto de rendimientos financieros y derivados a que haya lugar.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Para efectos fiscales los instrumentos financieros medidos a valor razonable, con cambios en resultados tendrán el siguiente tratamiento:</p>\n<p><span style=\"color: #339966;\"><strong>1.</strong></span>Titulos de renta variable. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del Impuesto sobre la Renta y Complementarios, sino hasta el momento de su enajenación o liquidación, lo que suceda primero. Para efectos de lo aquí previsto, son títulos de renta variable aquellos cuya estructura financiera varía durante su vida, tales como las acciones.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong>Títulos de renta fija. Respecto de los títulos de renta fija, se siguen las siguientes reglas para efectos del impuesto sobre la renta y complementarios:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El ingreso por concepto de intereses o rendimientos financieros provenientes de estos títulos, se realizará para efectos fiscales de manera lineal. Este cálculo se hará teniendo en cuenta el valor nominal, la tasa facial, el plazo convenido y el tiempo de tenencia en el año o periodo gravable del título.</p>\n<p><strong><span style=\"color: #339966;\">b.</span></strong> La utilidad o pérdida en la enajenación de títulos de renta fija, se realizará al momento de su enajenación y estará determinada por la diferencia entre el precio de enajenación y el costo fiscal del titulo.</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Para efectos de lo aquí previsto, se entiende por títulos de renta fija, aquellos cuya estructura financiera no varía durante su vida, tales como los bonos, los certificados de depósito a término (CDT) y los TES.</p>\n<p><strong><span style=\"color: #339966;\">3.</span></strong> Instrumentos derivados financieros. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del impuesto sobre la renta y complementarios sino hasta el momento de su enajenación o liquidación, lo que suceda primero.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Otros instrumentos financieros. Los ingresos, costos y gastos generados por la medición de pasivos financieros a valor razonable con cambios en resultados, no serán objeto del impuesto sobre la renta y complementarios sino en lo correspondiente al gasto financiero que se hubiese generado aplicando el modelo del costo amortizado, de acuerdo a la técnica contable.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1. </span></strong>Lo previsto en este artículo se aplicará sin perjuicio de la retención y la autorretención en la fuente por concepto de rendimientos financieros y derivados a que haya lugar.</p>\n</span>", "modificaciones_raw": "* -Adicionado- Ley 1819 de 2016 Art. 32. - Artículo derogado Ley 1111 de 2006 Art. 78 - Derogatoria declarada exequible Sentencia 952 de 2007 Dr. Jaime Araujo Renteria.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "78"}], "total_modificaciones": 1, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 33",
+  "titulo": "Art. 33. Tratamiento tributario de instrumentos financieros medidos a valor razonable.",
+  "titulo_corto": "Tratamiento tributario de instrumentos financieros medidos a valor razonable.",
+  "slug": "33",
+  "url_origen": "https://estatuto.co/33",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Para efectos fiscales los instrumentos financieros medidos a valor razonable, con cambios en resultados tendrán el siguiente tratamiento: 1.Titulos de renta variable. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del Impuesto sobre la Renta y Complementarios, sino hasta el momento de su enajenación o liquidación, lo que suceda primero. Para efectos de lo aquí previsto, son títulos de renta variable aquellos cuya estructura financiera varía durante su vida, tales como las acciones. 2.Títulos de renta fija. Respecto de los títulos de renta fija, se siguen las siguientes reglas para efectos del impuesto sobre la renta y complementarios: a. El ingreso por concepto de intereses o rendimientos financieros provenientes de estos títulos, se realizará para efectos fiscales de manera lineal. Este cálculo se hará teniendo en cuenta el valor nominal, la tasa facial, el plazo convenido y el tiempo de tenencia en el año o periodo gravable del título. b. La utilidad o pérdida en la enajenación de títulos de renta fija, se realizará al momento de su enajenación y estará determinada por la diferencia entre el precio de enajenación y el costo fiscal del titulo. c. Para efectos de lo aquí previsto, se entiende por títulos de renta fija, aquellos cuya estructura financiera no varía durante su vida, tales como los bonos, los certificados de depósito a término (CDT) y los TES. 3. Instrumentos derivados financieros. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del impuesto sobre la renta y complementarios sino hasta el momento de su enajenación o liquidación, lo que suceda primero. 4. Otros instrumentos financieros. Los ingresos, costos y gastos generados por la medición de pasivos financieros a valor razonable con cambios en resultados, no serán objeto del impuesto sobre la renta y complementarios sino en lo correspondiente al gasto financiero que se hubiese generado aplicando el modelo del costo amortizado, de acuerdo a la técnica contable. Parágrafo 1. Lo previsto en este artículo se aplicará sin perjuicio de la retención y la autorretención en la fuente por concepto de rendimientos financieros y derivados a que haya lugar.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Para efectos fiscales los instrumentos financieros medidos a valor razonable, con cambios en resultados tendrán el siguiente tratamiento:</p>\n<p><span style=\"color: #339966;\"><strong>1.</strong></span>Titulos de renta variable. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del Impuesto sobre la Renta y Complementarios, sino hasta el momento de su enajenación o liquidación, lo que suceda primero. Para efectos de lo aquí previsto, son títulos de renta variable aquellos cuya estructura financiera varía durante su vida, tales como las acciones.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong>Títulos de renta fija. Respecto de los títulos de renta fija, se siguen las siguientes reglas para efectos del impuesto sobre la renta y complementarios:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El ingreso por concepto de intereses o rendimientos financieros provenientes de estos títulos, se realizará para efectos fiscales de manera lineal. Este cálculo se hará teniendo en cuenta el valor nominal, la tasa facial, el plazo convenido y el tiempo de tenencia en el año o periodo gravable del título.</p>\n<p><strong><span style=\"color: #339966;\">b.</span></strong> La utilidad o pérdida en la enajenación de títulos de renta fija, se realizará al momento de su enajenación y estará determinada por la diferencia entre el precio de enajenación y el costo fiscal del titulo.</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Para efectos de lo aquí previsto, se entiende por títulos de renta fija, aquellos cuya estructura financiera no varía durante su vida, tales como los bonos, los certificados de depósito a término (CDT) y los TES.</p>\n<p><strong><span style=\"color: #339966;\">3.</span></strong> Instrumentos derivados financieros. Los ingresos, costos y gastos devengados por estos instrumentos, no serán objeto del impuesto sobre la renta y complementarios sino hasta el momento de su enajenación o liquidación, lo que suceda primero.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Otros instrumentos financieros. Los ingresos, costos y gastos generados por la medición de pasivos financieros a valor razonable con cambios en resultados, no serán objeto del impuesto sobre la renta y complementarios sino en lo correspondiente al gasto financiero que se hubiese generado aplicando el modelo del costo amortizado, de acuerdo a la técnica contable.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1. </span></strong>Lo previsto en este artículo se aplicará sin perjuicio de la retención y la autorretención en la fuente por concepto de rendimientos financieros y derivados a que haya lugar.</p>\n</span>",
+  "modificaciones_raw": "* -Adicionado- Ley 1819 de 2016 Art. 32. - Artículo derogado Ley 1111 de 2006 Art. 78 - Derogatoria declarada exequible Sentencia 952 de 2007 Dr. Jaime Araujo Renteria.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "78"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 30 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14503 (2025-10-17): Impuesto sobre la Renta y Complementarios\noficio 3454 (2024-05-30): (Int 410) Acuerdos SAFE (Simple Agreement for Future Equity) manejo contable y tributario\noficio 905787 (2022-07-29): Impuesto sobre la renta -- Instrumentos financieros medidos a valor razonable\noficio 909043 (2021-09-02): Impuesto sobre la renta - Certificado de Dep&oacute;sito a T&eacute;rmino\noficio 909039 (2021-09-01): Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14503-2025",
+      "tipo": "oficio",
+      "numero": "14503",
+      "fecha": "2025-10-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3454-2024",
+      "tipo": "oficio",
+      "numero": "3454",
+      "fecha": "2024-05-30",
+      "tema": "(Int 410) Acuerdos SAFE (Simple Agreement for Future Equity) manejo contable y tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905787-2022",
+      "tipo": "oficio",
+      "numero": "905787",
+      "fecha": "2022-07-29",
+      "tema": "Impuesto sobre la renta -- Instrumentos financieros medidos a valor razonable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909043-2021",
+      "tipo": "oficio",
+      "numero": "909043",
+      "fecha": "2021-09-02",
+      "tema": "Impuesto sobre la renta - Certificado de Dep&oacute;sito a T&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909039-2021",
+      "tipo": "oficio",
+      "numero": "909039",
+      "fecha": "2021-09-01",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906389-2021",
+      "tipo": "oficio",
+      "numero": "906389",
+      "fecha": "2021-06-30",
+      "tema": "- (Tributario) Tratamiento de compra y venta de divisas, valores y otros activos como criptomonedas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29783-2019",
+      "tipo": "oficio",
+      "numero": "29783",
+      "fecha": "2019-11-28",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal de los t&iacute;tulos de renta fija clasificados al valor razonable con cambios en el otro resultado integral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19693-2019",
+      "tipo": "oficio",
+      "numero": "19693",
+      "fecha": "2019-08-08",
+      "tema": "&iquest;El art&iacute;culo 271 del Estatuto Tributario se encuentra vigente en su totalidad, o solo en forma parcial o no se encuentra vigente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18302-2019",
+      "tipo": "oficio",
+      "numero": "18302",
+      "fecha": "2019-07-16",
+      "tema": "&iquest;La utilidad generada por la venta de un bono pensional est&aacute; gravada con el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9136-2019",
+      "tipo": "oficio",
+      "numero": "9136",
+      "fecha": "2019-04-12",
+      "tema": "(Int 918) Impuesto sobre la renta y complementarios - Tratamiento tributario de instrumentos financieros medidos a valor razonable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4862-2019",
+      "tipo": "oficio",
+      "numero": "4862",
+      "fecha": "2019-02-26",
+      "tema": "Ingresos por Rendimientos Financieros en lo referido a un CDT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8230-2018",
+      "tipo": "oficio",
+      "numero": "8230",
+      "fecha": "2018-03-28",
+      "tema": "&iquest;Diferencia en cambio para el efectivo: Deber&iacute;a entenderse siempre realizado y permitirse a TRM de cierre, ya que se presentan inconvenientes por las distintas entradas y salidas de divisas, que estar&iacute;an a distintas tasas, lo que en la pr&aacute;ctica har&iacute;a que se lleve una especie de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2018",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2018-03-15",
+      "tema": "Pruebas documentales para la extensi&oacute;n en el Impuesto de Timbre para la expedici&oacute;n del pasaporte de trabajadores Manuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1807-2018",
+      "tipo": "oficio",
+      "numero": "1807",
+      "fecha": "2018-10-22",
+      "tema": "&iquest;C&oacute;mo debe declarar una persona no obligada a llevar contabilidad, en la presentaci&oacute;n de activo, representado en certificados de dep&oacute;sito a t&eacute;rmino, expedidos por una compa&ntilde;&iacute;a de financiamiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0365-2018",
+      "tipo": "oficio",
+      "numero": "0365",
+      "fecha": "2018-03-15",
+      "tema": "Costo fiscal de las inversiones - Deducci&oacute;n por Amortizaci&oacute;n de Inversiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5983-2017",
+      "tipo": "oficio",
+      "numero": "5983",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3497-2017",
+      "tipo": "oficio",
+      "numero": "3497",
+      "fecha": "2017-05-31",
+      "tema": "Incentivos tributarios para que el sector privado se involucre en tema post-conflicto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25551-2016",
+      "tipo": "oficio",
+      "numero": "25551",
+      "fecha": "2016-09-15",
+      "tema": "Declaraci&oacute;n de renta y complementarios - presentaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23842-2015",
+      "tipo": "oficio",
+      "numero": "23842",
+      "fecha": "2015-08-11",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072347-2012",
+      "tipo": "concepto",
+      "numero": "0072347",
+      "fecha": "2012-11-20",
+      "tema": "&iquest;Cuando en los contratos de concesi&oacute;n, se revierte en favor del Estado la propiedad de los activos productivos, es procedente deducir de la renta bruta los saldos de la cuenta activos fijos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-85073-2008",
+      "tipo": "oficio",
+      "numero": "85073",
+      "fecha": "2008-01-01",
+      "tema": "Solicita reconsiderar el Oficio n&uacute;mero 071728 del 25 de julio de 2008, en el cual se afirm&oacute; que los bienes que queden incorporados en las v&iacute;as ya sea directamente por su construcci&oacute;n, mantenimiento, rehabilitaci&oacute;n o mejoramiento, no son objeto de la deducci&oacute;n establecida en el art&iacute;culo 158-3",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62496-2008",
+      "tipo": "oficio",
+      "numero": "62496",
+      "fecha": "2008-01-01",
+      "tema": "Solicita se examine la aplicaci&oacute;n de los art&iacute;culos 9 y 13 del decreto 2078 de 2004 con preferencia sobre la norma tributaria, pues seg&uacute;n tales normas no se puede modificar el r&eacute;gimen remuneratorio del cuerpo diplom&aacute;tico en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61101-2008",
+      "tipo": "oficio",
+      "numero": "61101",
+      "fecha": "2008-01-01",
+      "tema": "Impacto de la supresi&oacute;n del art&iacute;culo 33 del Estatuto Tributario, mediante el art&iacute;culo 78 de la Ley 1111 de 2006, sobre los ingresos laborales de los funcionarios miembros del servicio exterior colombiano, en especial por eliminaci&oacute;n de equivalencias de sueldos en planta externa y planta interna para efectos impositivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41730-2008",
+      "tipo": "oficio",
+      "numero": "41730",
+      "fecha": "2008-04-25",
+      "tema": "Ingresos en divisas del personal diplom&aacute;tico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38957-2008",
+      "tipo": "oficio",
+      "numero": "38957",
+      "fecha": "2008-04-18",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento de las remuneraciones en divisas extranjeras del personal diplom&aacute;tico y-o funcionarios de entidades oficiales colombianas, una vez derogado el art&iacute;culo 33 del Estatuto Tributario que lo regulaba?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64516-2007",
+      "tipo": "oficio",
+      "numero": "64516",
+      "fecha": "2007-08-21",
+      "tema": "Impuesto sobre las ventas a que est&aacute; sujeto el producto denominado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67930-2006",
+      "tipo": "oficio",
+      "numero": "67930",
+      "fecha": "2006-08-15",
+      "tema": "&iquest;La exenci&oacute;n del Gravamen a los Movimientos Financieros, para las cuentas de administraci&oacute;n de recursos de propiedad horizontal conforme lo dispuesto en el art&iacute;culo 33 de la Ley 675 de 2001, abarca m&aacute;s de una cuenta en diferentes entidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25275-2006",
+      "tipo": "oficio",
+      "numero": "25275",
+      "fecha": "2006-03-27",
+      "tema": "&iquest;Cu&aacute;l es el manejo del impuesto de timbre en un contrato de concesi&oacute;n de alumbrado p&uacute;blico celebrado con un municipio, en el cual el recaudo se efect&uacute;a por intermedio de una fiduciaria, solicitando se aclare que tarifa debe aplicarse por ser la entidad fiduciaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2377-2006",
+      "tipo": "oficio",
+      "numero": "2377",
+      "fecha": "2006-01-01",
+      "tema": "Solicita informaci&oacute;n con el fin de aclarar los datos que se registran en el Certificado Anual de Ingresos y retenciones para los Agregados Comerciales de las Oficinas de PROEXPORT",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089844-2005",
+      "tipo": "concepto",
+      "numero": "0089844",
+      "fecha": "2005-12-02",
+      "tema": "&iquest;Qu&eacute; debe entenderse por empresa que no tenga negocio ni actividad en Colombia, para efectos de la exenci&oacute;n en la exportaci&oacute;n de servicios contemplada en el literal e) del art&iacute;culo 481 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088519-2005",
+      "tipo": "concepto",
+      "numero": "0088519",
+      "fecha": "2005-11-29",
+      "tema": "&iquest;Es viable la daci&oacute;n en pago para la cancelaci&oacute;n de obligaciones tributarias consideradas como gastos de administraci&oacute;n, a cargo de las empresas que se encuentran en acuerdo de reestructuraci&oacute;n, en los t&eacute;rminos de la Ley 550 de 1999?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0111486-2001",
+      "tipo": "concepto",
+      "numero": "0111486",
+      "fecha": "2001-12-31",
+      "tema": "&iquest;Es procedente un derecho de petici&oacute;n sobre un asunto sujeto a un procedimiento especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-97572-2001",
+      "tipo": "concepto",
+      "numero": "97572",
+      "fecha": "2001-11-06",
+      "tema": "IVA - Base Gravable m&iacute;nima en venta de Licores nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025791-2001",
+      "tipo": "concepto",
+      "numero": "0025791",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;La base sobre la cual recae el impuesto de timbre, en contratos suscritros con empresas de servicios temporales, es el porcentaje que corresponde a la administraci&oacute;n de la n&oacute;mina o es sobre todo el contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025668-2000",
+      "tipo": "concepto",
+      "numero": "0025668",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;La ficci&oacute;n de entenderse prestados en Colombia los servicios de conexi&oacute;n y acceso satelital, establecida para el IVA, se aplica, tambi&eacute;n para el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045967-1998",
+      "tipo": "concepto",
+      "numero": "0045967",
+      "fecha": "1998-06-12",
+      "tema": "&iquest;En qu&eacute; momento se debe liquidar y pagar el impuesto de timbre de un contrato de fiducia de cuant&iacute;a indeterminada suscrito con anterioridad a la vigencia de la ley 383 de 1997?&iquest;Se puede solicitar devoluci&oacute;n del impuesto de timbre nacional cuando se pago sin que hubiere lugar a ello?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032017-1996",
+      "tipo": "concepto",
+      "numero": "0032017",
+      "fecha": "1996-04-17",
+      "tema": "&iquest;Puede un responsable del r&eacute;gimen com&uacute;n calcular y solicitar como impuesto descontable el impuesto sobre las ventas no discriminado en la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022168-1996",
+      "tipo": "concepto",
+      "numero": "0022168",
+      "fecha": "1996-03-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060006-1995",
+      "tipo": "concepto",
+      "numero": "0060006",
+      "fecha": "1995-08-29",
+      "tema": "&iquest;Est&aacute; exento el 50% de la asignaci&oacute;n b&aacute;sica mensual que recibe un embajador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019787-1988",
+      "tipo": "concepto",
+      "numero": "0019787",
+      "fecha": "1988-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-553-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "553",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ]
+}

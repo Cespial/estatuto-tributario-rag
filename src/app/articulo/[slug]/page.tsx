@@ -16,6 +16,7 @@ import { RelatedArticles } from "@/components/article/related-articles";
 import { ArticleInlineDiff } from "@/components/article/article-inline-diff";
 import { ArticleAssistantButton } from "@/components/article/article-assistant-button";
 import { ArticleShareActions } from "@/components/article/article-share-actions";
+import { ReadingProgressBar } from "@/components/article/reading-progress-bar";
 import { RecentVisitTracker } from "@/components/workspace/recent-visit-tracker";
 import type { ArticleIndexEnrichedItem } from "@/lib/types/articles";
 import { getDoctrineByArticle } from "@/lib/knowledge/knowledge-index";
@@ -168,7 +169,7 @@ function buildRelatedArticles(
     }
 
     score.score += Math.min(candidate.total_refs || 0, 8) * 0.1;
-    score.score += Math.min(candidate.total_referenced_by || 0, 8) * 0.12;
+    score.score += Math.min(candidate.total_referenced_by || 0, 8) * 0.15;
   }
 
   const scored = Array.from(scoreMap.entries())
@@ -272,6 +273,7 @@ export default async function ArticlePage({
 
   return (
     <div className="flex min-h-screen flex-col">
+      <ReadingProgressBar />
       <ArticleJsonLd article={article} />
       <RecentVisitTracker
         id={article.id_articulo}
@@ -316,6 +318,7 @@ export default async function ArticlePage({
             <ModificationTimeline
               modifications={article.modificaciones_parsed}
               leyesModificatorias={article.leyes_modificatorias}
+              derogatedItems={article.texto_derogado_parsed}
             />
 
             <ArticleInlineDiff

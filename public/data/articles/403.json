@@ -1,1 +1,80 @@
-{"id_articulo": "Art. 403", "titulo": "Art. 403. Procedimiento para el pago de la retención en premios en especie.", "titulo_corto": "Procedimiento para el pago de la retención en premios en especie.", "slug": "403", "url_origen": "https://estatuto.co/403", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Para efectos del artículo anterior, los premios en especie tendrán el valor que se les asigne en el respectivo plan de premios, el cual no podrá ser inferior al valor comercial. En este último caso, el monto de la retención podrá cancelarse dentro de los seis meses siguientes a la causación de la ganancia, previa garantía constituida en la forma que establezca el reglamento.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos del artículo anterior, los premios en especie tendrán el valor que se les asigne en el respectivo plan de premios, el cual no podrá ser inferior al valor comercial. En este último caso, el monto de la retención podrá cancelarse dentro de los seis meses siguientes a la causación de la ganancia, previa garantía constituida en la forma que establezca el reglamento.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional: - Artículo declarado EXEQUIBLE por la Corte Constitucional, mediante Sentencia No. C-421-95 del 21 de septiembre de 1995, Magistrado Ponente, Dr. Jorge Arango Mejía, 'solamente en cuanto estas disposiciones no desconocen el derecho al debido proceso, consagrado en el artículo 29 de la Constitución'."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 403",
+  "titulo": "Art. 403. Procedimiento para el pago de la retención en premios en especie.",
+  "titulo_corto": "Procedimiento para el pago de la retención en premios en especie.",
+  "slug": "403",
+  "url_origen": "https://estatuto.co/403",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Para efectos del artículo anterior, los premios en especie tendrán el valor que se les asigne en el respectivo plan de premios, el cual no podrá ser inferior al valor comercial. En este último caso, el monto de la retención podrá cancelarse dentro de los seis meses siguientes a la causación de la ganancia, previa garantía constituida en la forma que establezca el reglamento.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos del artículo anterior, los premios en especie tendrán el valor que se les asigne en el respectivo plan de premios, el cual no podrá ser inferior al valor comercial. En este último caso, el monto de la retención podrá cancelarse dentro de los seis meses siguientes a la causación de la ganancia, previa garantía constituida en la forma que establezca el reglamento.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional: - Artículo declarado EXEQUIBLE por la Corte Constitucional, mediante Sentencia No. C-421-95 del 21 de septiembre de 1995, Magistrado Ponente, Dr. Jorge Arango Mejía, 'solamente en cuanto estas disposiciones no desconocen el derecho al debido proceso, consagrado en el artículo 29 de la Constitución'."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8163 (2024-10-24): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8163-2024",
+      "tipo": "oficio",
+      "numero": "8163",
+      "fecha": "2024-10-24",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0370-2015",
+      "tipo": "oficio",
+      "numero": "0370",
+      "fecha": "2015-01-01",
+      "tema": "Tratamiento tributario en materia de impuesto a la renta, impuesto a las ventas y retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta e IVA, desde la normatividad colombiana y el Convenio entre la Rep&uacute;blica de Chile y la Rep&uacute;blica de Colombia para evitar la doble imposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57425-2013",
+      "tipo": "oficio",
+      "numero": "57425",
+      "fecha": "2013-09-11",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los pagos o abonos en cuenta que se efect&uacute;an a una sociedad extranjera sin establecimiento permanente en Colombia por concepto de software, cuando la sociedad beneficiaria es residente de un Estado con el cual Colombia suscribi&oacute; un acuerdo para evitar la doble tributaci&oacute;n internacional?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

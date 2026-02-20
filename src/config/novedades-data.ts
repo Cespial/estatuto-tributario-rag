@@ -1,6 +1,8 @@
 // ── Novedades Normativas ──
 // Cambios recientes en la legislacion tributaria colombiana
 
+export const NOVEDADES_LAST_UPDATE = "2026-02-19";
+
 export interface NovedadNormativa {
   id: string;
   fecha: string; // ISO date YYYY-MM-DD

@@ -1,1 +1,1528 @@
-{"id_articulo": "Art. 329", "titulo": "Art. 329. Determinación del impuesto sobre la renta de las personas naturales.", "titulo_corto": "Determinación del impuesto sobre la renta de las personas naturales.", "slug": "329", "url_origen": "https://estatuto.co/329", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El impuesto sobre la renta y complementarios de las personas naturales residentes en el país, se calculará y ajustará de conformidad con las reglas dispuestas en el presente título. Las normas previstas en el presente Título se aplicarán sin perjuicio de lo previsto en el Título I", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>El impuesto sobre la renta y complementarios de las personas naturales residentes en el país, se calculará y ajustará de conformidad con las reglas dispuestas en el presente título.</p>\n<p>Las normas previstas en el presente Título se aplicarán sin perjuicio de lo previsto en el Título I</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art.1", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 329",
+  "titulo": "Art. 329. Determinación del impuesto sobre la renta de las personas naturales.",
+  "titulo_corto": "Determinación del impuesto sobre la renta de las personas naturales.",
+  "slug": "329",
+  "url_origen": "https://estatuto.co/329",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El impuesto sobre la renta y complementarios de las personas naturales residentes en el país, se calculará y ajustará de conformidad con las reglas dispuestas en el presente título. Las normas previstas en el presente Título se aplicarán sin perjuicio de lo previsto en el Título I",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>El impuesto sobre la renta y complementarios de las personas naturales residentes en el país, se calculará y ajustará de conformidad con las reglas dispuestas en el presente título.</p>\n<p>Las normas previstas en el presente Título se aplicarán sin perjuicio de lo previsto en el Título I</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art.1",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11866 (2025-08-29): Procedimiento Tributario\noficio 3863 (2025-03-31): Procedimiento Tributario\noficio 902148 (2022-03-17): Impuesto sobre la renta, personas naturales",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11866-2025",
+      "tipo": "oficio",
+      "numero": "11866",
+      "fecha": "2025-08-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3863-2025",
+      "tipo": "oficio",
+      "numero": "3863",
+      "fecha": "2025-03-31",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902148-2022",
+      "tipo": "oficio",
+      "numero": "902148",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre la renta, personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-911419-2020",
+      "tipo": "oficio",
+      "numero": "911419",
+      "fecha": "2020-12-30",
+      "tema": "Convenio para evitar la doble imposici&oacute;n suscrito entre Colombia y Canad&aacute;",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905791-2020",
+      "tipo": "oficio",
+      "numero": "905791",
+      "fecha": "2020-10-10",
+      "tema": "Determinaci&oacute;n de impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0355-2020",
+      "tipo": "oficio",
+      "numero": "0355",
+      "fecha": "2020-01-01",
+      "tema": "Retenci&oacute;n en la Fuente por Pago de Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25073-2019",
+      "tipo": "oficio",
+      "numero": "25073",
+      "fecha": "2019-10-04",
+      "tema": "&iquest;Una persona natural no residente en el pa&iacute;s obligada a presentar declaraci&oacute;n del impuesto sobre la renta puede hacer aportes a los Fondos de pensi&oacute;n e invalidez y fondos de cesant&iacute;as y acceder al beneficio de la no retenci&oacute;n y renta exenta por estos valores?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-23975-2019",
+      "tipo": "oficio",
+      "numero": "23975",
+      "fecha": "2019-09-23",
+      "tema": "Determinaci&oacute;n de la renta para servidores p&uacute;blicos diplom&aacute;ticos, consulares y administrativos del Ministerio De Relaciones Exteriores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10718-2019",
+      "tipo": "oficio",
+      "numero": "10718",
+      "fecha": "2019-05-07",
+      "tema": "Personas sin domicilio ni residencia en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34091-2017",
+      "tipo": "oficio",
+      "numero": "34091",
+      "fecha": "2017-12-20",
+      "tema": "Para determinar el porcentaje fijo de retenci&oacute;n en la fuente aplicable a los pagos laborales, &iquest;se deben tener en cuenta los factores de depuraci&oacute;n de la renta ordinaria y de la retenci&oacute;n en la fuente modificados por Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7446-2017",
+      "tipo": "oficio",
+      "numero": "7446",
+      "fecha": "2017-03-31",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6413-2017",
+      "tipo": "oficio",
+      "numero": "6413",
+      "fecha": "2017-03-23",
+      "tema": "Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5984-2017",
+      "tipo": "oficio",
+      "numero": "5984",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios - Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n- Determinaci&oacute;n de la Renta L&iacute;quida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5966-2017",
+      "tipo": "oficio",
+      "numero": "5966",
+      "fecha": "2017-03-17",
+      "tema": "Tributario - Retenci&oacute;n en la fuente - Base depuraci&oacute;n residentes-no residentes - En cuanto a los pagos que provienen de una relaci&oacute;n laboral, o de prestaci&oacute;n de servicios; un nacional de un Estado parte que no es residente fiscal en Colombia, &iquest;Puede depurar en Colombia su retenci&oacute;n en la fuente, en la misma forma que una persona residente fiscal en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4979-2017",
+      "tipo": "oficio",
+      "numero": "4979",
+      "fecha": "2017-03-10",
+      "tema": "Aplicaci&oacute;n de retenci&oacute;n en la fuente por IMAS e IMAN durante la vigencia 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4884-2017",
+      "tipo": "oficio",
+      "numero": "4884",
+      "fecha": "2017-02-24",
+      "tema": "&iquest;Qu&eacute; se entiende por cedular dentro el contexto de la Ley 1819 de 2016? - &iquest;Cu&aacute;l es la diferencia entre rentas l&iacute;quidas gravables v rentas l&iacute;quidas cedular? - &iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as? - &iquest;En la c&eacute;dula rentas no laborales, pueden incluirse las rentas que no clasifican expresamente en ninguna de las dem&aacute;s c&eacute;dulas? &iquest;Cu&aacute;les ser&iacute;an? &iquest;Los 90 d&iacute;as continuos o discontinuos se refieren en el a&ntilde;o gravable? Si no se cumplen con los requisitos exigidos en el inciso 1o del art&iacute;culo 340 del Estatuto Tributario &iquest;ser&aacute; renta de la c&eacute;dula de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4773-2017",
+      "tipo": "oficio",
+      "numero": "4773",
+      "fecha": "2017-02-24",
+      "tema": "Retenci&oacute;n en la fuente &iquest;El t&eacute;rmino consagrado en el par&aacute;grafo transitorio del art&iacute;culo 17 de la Lev 1819, mediante el cual se modifica el art&iacute;culo 383 del Estatuto Tributario, tambi&eacute;n es aplicable a la depuraci&oacute;n de la base del c&aacute;lculo establecido en el art&iacute;culo 18 de la mencionada ley? &iquest;Con ocasi&oacute;n de lo mencionado en este par&aacute;grafo se debe aplicar por los meses de enero y febrero de 2017 lo contenido en el art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35815-2016",
+      "tipo": "oficio",
+      "numero": "35815",
+      "fecha": "2016-12-23",
+      "tema": "- Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 20371 del 2 de agosto de 2016, pues considera que algunos de sus apartes contradicen la ley",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30970-2016",
+      "tipo": "oficio",
+      "numero": "30970",
+      "fecha": "2016-11-15",
+      "tema": "Manifiesta su inconformidad frente a la interpretaci&oacute;n expuesta en el Oficio n&uacute;mero 014740 del 13 de junio de 2016, se&ntilde;alando que no la comparte, dado que seg&uacute;n su criterio, los art&iacute;culos 126-1, 126-4, 387 y 387-1 del Estatuto Tributario son aplicables a los trabajadores extranjeros sin residencia en Colombia, ya que estos no hacen distinci&oacute;n y deber&iacute;an aplicarse para cualquier individuo que perciba compensaci&oacute;n por sus servicios y de esta manera hacer uso de los mecanismos que la misma ley contempla para optimizar sus impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26239-2016",
+      "tipo": "oficio",
+      "numero": "26239",
+      "fecha": "2016-09-21",
+      "tema": "Clasificaci&oacute;n de las personas naturales de acuerdo con el art&iacute;culo 329 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25557-2016",
+      "tipo": "oficio",
+      "numero": "25557",
+      "fecha": "2016-09-15",
+      "tema": "Solicita aclarar el Oficio n&uacute;mero 058015 del 10 de octubre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20371-2016",
+      "tipo": "oficio",
+      "numero": "20371",
+      "fecha": "2016-08-02",
+      "tema": "Aclaraci&oacute;n del Concepto 885 de 2014 - Definici&oacute;n de empleado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14740-2016",
+      "tipo": "oficio",
+      "numero": "14740",
+      "fecha": "2016-06-13",
+      "tema": "Impuesto sobre la renta y complementarios &iquest;Si los empleados extranjeros sin residencia fiscal en Colombia, tienen derecho a las deducciones de la base mensual de retenci&oacute;n en la fuente previstas en los art&iacute;culos No. 387 y 387-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7792-2016",
+      "tipo": "oficio",
+      "numero": "7792",
+      "fecha": "2016-04-08",
+      "tema": "&iquest;Cu&aacute;l es la jurisdicci&oacute;n en la cual tiene su domicilio el mencionado marinero para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014? - &iquest;De qu&eacute; forma se puede acreditar la jurisdicci&oacute;n en la cual se tenga el domicilio para efectos del par&aacute;grafo del art&iacute;culo 10 del Estatuto Tributario, adicionado por el art&iacute;culo 25 de la Ley 1739 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1146-2016",
+      "tipo": "oficio",
+      "numero": "1146",
+      "fecha": "2016-02-02",
+      "tema": "&iquest;Qu&eacute; cambios se deben tener en cuenta como Ministerio de Minas y Energ&iacute;a, para practicarles retenci&oacute;n en la fuente en los pagos o abonos en cuenta a realizar en el presente 2016, al tener a cargo IVA, o ingresos o patrimonio superior al descrito en el Decreto 2243?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0580-2026",
+      "tipo": "oficio",
+      "numero": "0580",
+      "fecha": "",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36306-2015",
+      "tipo": "oficio",
+      "numero": "36306",
+      "fecha": "2015-12-23",
+      "tema": "&iquest;Es viable jur&iacute;dicamente para un contratista, clasificado como empleado, disminuir de la base de retenci&oacute;n los pagos efectuados por concepto de dependientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34771-2015",
+      "tipo": "oficio",
+      "numero": "34771",
+      "fecha": "2015-12-04",
+      "tema": "&iquest;Si con ocasi&oacute;n de la expedici&oacute;n de la Ley 1607 de 2012 se derog&oacute; el par&aacute;grafo 3&deg; del art&iacute;culo 135 de la Ley 100 de 1993, o si dicho par&aacute;grafo aplica solamente para no efectuar retenci&oacute;n en la fuente por el sistema de c&aacute;lculo ordinario consagrado en el art&iacute;culo 383 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31829-2015",
+      "tipo": "oficio",
+      "numero": "31829",
+      "fecha": "2015-11-05",
+      "tema": "&iquest;Los pagos por multinivel se pueden facturar por concepto de otros ingresos y sin IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31483-2015",
+      "tipo": "oficio",
+      "numero": "31483",
+      "fecha": "2015-10-30",
+      "tema": "&iquest;Se debe aplicar Retenci&oacute;n en la Fuente del 1.5% al suministro de un producto agr&iacute;cola cuyo costo superar&iacute;a el 51% de la actividad o si por el contrario habr&iacute;a de aplicarse el 1.5% para el suministro y el 4% para el 48.85% para la siembra, como servicios generales; para una persona natural; declarante de renta; en el marco de su contrato de suministro y siembra de pl&aacute;ntulas de pasto vetiver, para revegetalizaci&oacute;n de taludes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28750-2015",
+      "tipo": "oficio",
+      "numero": "28750",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento impositivo para ciudadanos colombianos que, por intermedio de la asesor&iacute;a de un br&oacute;ker financiero domiciliado en el exterior, invierten recursos fuera de Colombia obteniendo unas ganancias que en unos casos depositan en cuentas bancarias colombianas y en otros en cuentas bancarias extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28463-2015",
+      "tipo": "oficio",
+      "numero": "28463",
+      "fecha": "2015-09-30",
+      "tema": "&iquest;Es viable considerar que el pago por concepto de honorarios cancelado a los miembros de la junta directiva de una sociedad no se origina en la prestaci&oacute;n de un servicio personal? - &iquest;Los ingresos de unos y otros servicios deben computarse para el c&aacute;lculo de los pagos mensuales o mensualizados de que trata el art&iacute;culo 384 del Estatuto Tributario? -",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28448-2015",
+      "tipo": "oficio",
+      "numero": "28448",
+      "fecha": "2015-09-30",
+      "tema": "&iquest;Contin&uacute;a vigente el Concepto n&uacute;mero 65163 del 20 de agosto de 1998 o se debe entender derogado t&aacute;citamente a partir de la modificaci&oacute;n normativa introducida por el art&iacute;culo 10 de la Ley 1607 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26191-2015",
+      "tipo": "oficio",
+      "numero": "26191",
+      "fecha": "2015-09-09",
+      "tema": "Impuesto a la Riqueza - Impuesto al Patrimonio - Impuesto sobre la Renta y Complementarios - Presentaci&oacute;n de informaci&oacute;n con relevancia tributaria a trav&eacute;s del Formato 1732",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26094-2015",
+      "tipo": "oficio",
+      "numero": "26094",
+      "fecha": "2015-09-08",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25576-2015",
+      "tipo": "oficio",
+      "numero": "25576",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Se encuentra exenta, en los t&eacute;rminos del art&iacute;culo 206 del Estatuto Tributario, la pensi&oacute;n de sobrevivientes proveniente del exterior recibida por el-la c&oacute;nyuge sup&eacute;rstite y en que rengl&oacute;n de la declaraci&oacute;n de renta, correspondiente a personas naturales no obligadas a llevar contabilidad, registra ese ingreso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25526-2015",
+      "tipo": "oficio",
+      "numero": "25526",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Una persona natural que recibe ingresos equivalentes al 78% por concepto de prestaci&oacute;n de servicios de manera personal y 22% por concepto de comisi&oacute;n por venta de software a qu&eacute; categor&iacute;a para definir el impuesto sobre la renta pertenece?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25524-2015",
+      "tipo": "oficio",
+      "numero": "25524",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Cu&aacute;l es el monto del salario a partir del cual se debe practicar retenci&oacute;n por el salario?&iquest;Cu&aacute;l es la norma que regula lo relacionado con la retenci&oacute;n en la fuente de estos servidores p&uacute;blicos docentes?&iquest;Cu&aacute;l es el monto de salario a partir del cual debe practicarse la retenci&oacute;n a estos trabajadores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25475-2015",
+      "tipo": "oficio",
+      "numero": "25475",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;La respuesta que se dio a trav&eacute;s del Oficio 8720 de 20 de marzo de 2015, por parte de la Direcci&oacute;n de Gesti&oacute;n Jur&iacute;dica, era se&ntilde;alar que los intereses de cesant&iacute;as y cesant&iacute;as no est&aacute;n exentos del impuesto a la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25474-2015",
+      "tipo": "oficio",
+      "numero": "25474",
+      "fecha": "2015-09-02",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24901-2015",
+      "tipo": "oficio",
+      "numero": "24901",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Las expresiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24300-2015",
+      "tipo": "oficio",
+      "numero": "24300",
+      "fecha": "2015-08-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24178-2015",
+      "tipo": "oficio",
+      "numero": "24178",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Se debe efectuar un estudio sobre las funciones, activos, riesgos y personal involucrados en la obtenci&oacute;n de las rentas y de las ganancias ocasionales atribuidos a ellos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23846-2015",
+      "tipo": "oficio",
+      "numero": "23846",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Al consejero judicial de la Fiscal&iacute;a General de la Naci&oacute;n , designado en comisi&oacute;n al extranjero puedo no efectuarle retenci&oacute;n en la fuente sobre los pagos por concepto de prima especial y prima de costo de vida; en raz&oacute;n que son rentas exentas, seg&uacute;n lo define el Art. 206-1 del Estatuto Tributado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23347-2015",
+      "tipo": "oficio",
+      "numero": "23347",
+      "fecha": "2015-08-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23341-2015",
+      "tipo": "oficio",
+      "numero": "23341",
+      "fecha": "2015-08-11",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente aplicable a un contrato de publicidad para la emisi&oacute;n de comerciales de televisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23104-2015",
+      "tipo": "oficio",
+      "numero": "23104",
+      "fecha": "2015-08-06",
+      "tema": "Obligaci&oacute;n de informar dispuesta en el Decreto 1070 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22627-2015",
+      "tipo": "oficio",
+      "numero": "22627",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Es procedente la pr&aacute;ctica de retenci&oacute;n en la fuente en un contrato de prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22540-2015",
+      "tipo": "oficio",
+      "numero": "22540",
+      "fecha": "2015-08-03",
+      "tema": "&iquest;Un fot&oacute;grafo que utiliza sus equipos para la prestaci&oacute;n del servicio de fotograf&iacute;a, es considerado como trabajador por cuenta propia o como empleado, para efectos de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21463-2015",
+      "tipo": "oficio",
+      "numero": "21463",
+      "fecha": "2015-07-23",
+      "tema": "&iquest;La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20779-2015",
+      "tipo": "oficio",
+      "numero": "20779",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-11995-2015",
+      "tipo": "oficio",
+      "numero": "11995",
+      "fecha": "2015-04-27",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11683-2015",
+      "tipo": "oficio",
+      "numero": "11683",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;La actividad de RSU (la desarrollada por una m&aacute;quina RSU - gr&uacute;a-), le es aplicable la retenci&oacute;n en la fuente por servicios o por honorarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11665-2015",
+      "tipo": "oficio",
+      "numero": "11665",
+      "fecha": "2015-04-23",
+      "tema": "&iquest;La retenci&oacute;n en la fuente aplicable a un extranjero no residente en el territorio nacional, que percibe ingresos provenientes de una relaci&oacute;n laboral o legal y reglamentaria, se rige por lo previsto en el par&aacute;grafo 1 del art&iacute;culo 1 del Decreto 99 de 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11657-2015",
+      "tipo": "oficio",
+      "numero": "11657",
+      "fecha": "2015-04-23",
+      "tema": "Retenci&oacute;n en la fuente que deben practicar las Entidades Ejecutoras de Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009179-2015",
+      "tipo": "concepto",
+      "numero": "0009179",
+      "fecha": "2015-03-26",
+      "tema": "&iquest;Los pagos o abonos en cuenta por concepto de pasajes y gastos de manutenci&oacute;n que se le reconocen a un contratista persona natural constituyen ingreso fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9112-2015",
+      "tipo": "oficio",
+      "numero": "9112",
+      "fecha": "2015-03-26",
+      "tema": "&iexcl;Cu&aacute;les son los requisitos especiales para la solicitud de devoluci&oacute;n en el caso de los productores de queso fresco de la partida 04.06.10.00 el cual es exento de conformidad con el art&iacute;culo 477 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8871-2015",
+      "tipo": "oficio",
+      "numero": "8871",
+      "fecha": "2015-03-24",
+      "tema": "Se solicita contestar si, para efectos del c&aacute;lculo de la retenci&oacute;n en la fuente, &iquest;es requisito que la persona natural clasificada en la categor&iacute;a de empleado solicite a su pagador la detracci&oacute;n del 25% de renta exenta de que trata el numeral 10 del art&iacute;culo 206 del E.T.? o el agente retenedor puede disminuir la base de retenci&oacute;n con la renta exenta, teniendo en cuenta los topes mensuales por los pagos que le realiza a la persona con categor&iacute;a de empleado. Lo anterior de conformidad con la redacci&oacute;n del par&aacute;grafo 3o del art&iacute;culo 2o del Decreto Reglamentario n&uacute;mero 1070 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008720-2015",
+      "tipo": "concepto",
+      "numero": "0008720",
+      "fecha": "2015-03-20",
+      "tema": "&iquest;La depuraci&oacute;n de la Base del C&aacute;lculo de la Retenci&oacute;n en la fuente aplicable a los pagos efectuados a los empleados que se encuentren vinculados mediante una relaci&oacute;n laboral, legal o reglamentaria, ser&aacute; la misma para la aplicaci&oacute;n del art&iacute;culo 383 y 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7201-2015",
+      "tipo": "oficio",
+      "numero": "7201",
+      "fecha": "2015-03-06",
+      "tema": "Inquietudes en relaci&oacute;n con el Concepto 885 de julio 31 de 2014 y el Oficio n&uacute;mero 648 de julio 28 de 2014 - Declaraci&oacute;n del Impuesto sobre la renta - Personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3420-2015",
+      "tipo": "oficio",
+      "numero": "3420",
+      "fecha": "2015-02-10",
+      "tema": "&iquest;Para obtener la base del c&aacute;lculo de la retenci&oacute;n en la fuente prevista en el art&iacute;culo 383 del Estatuto Tributario se pueden detraer o no los aportes obligatorios al Sistema General de Riesgos Laborales (ARL) realizado por el trabajador independiente perteneciente a la categor&iacute;a tributaria EMPLEADO, teniendo en cuenta que por ser recursos parafiscales no pueden ser gravados por ning&uacute;n tipo de impuesto?&iquest;Se debe o no mensualizar el ingreso de un trabajador independiente clasificado en la categor&iacute;a tributaria EMPLEADO para obtener el porcentaje de retenci&oacute;n en la fuente a trav&eacute;s de la aplicaci&oacute;n de la tabla contenida en el art&iacute;culo 383 del Estatuto Tributario, teniendo en cuenta que dicha mensualizaci&oacute;n permitir&iacute;a aplicar el principio de progresividad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0876-2015",
+      "tipo": "oficio",
+      "numero": "0876",
+      "fecha": "2015-07-14",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67327-2014",
+      "tipo": "oficio",
+      "numero": "67327",
+      "fecha": "2014-12-23",
+      "tema": "&iquest;C&oacute;mo se practica la retenci&oacute;n en la fuente a las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67190-2014",
+      "tipo": "oficio",
+      "numero": "67190",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Un asalariado que se clasifica como otros para la determinaci&oacute;n de la renta l&iacute;quida de este contribuyente por el sistema ordinario, son aceptables los costos y deducciones por los conceptos de: salud, prepagada, intereses de vivienda, dependientes y las rentas exentas derivadas de los ingresos laborales?&iquest;El contribuyente que pertenece a la categor&iacute;a de otros, presenta su declaraci&oacute;n en el formato 210?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67071-2014",
+      "tipo": "oficio",
+      "numero": "67071",
+      "fecha": "2014-01-01",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a personas naturales que prestan el servicio de transporte de carretera y los requisitos para deducir en el impuesto de renta los gastos en que incurre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64367-2014",
+      "tipo": "oficio",
+      "numero": "64367",
+      "fecha": "2014-11-27",
+      "tema": "Impuesto m&iacute;nimo alternativo nacional - IMAN Costos y Deducciones - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64350-2014",
+      "tipo": "oficio",
+      "numero": "64350",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto m&iacute;nimo alternativo simple IMAS - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63387-2014",
+      "tipo": "oficio",
+      "numero": "63387",
+      "fecha": "2014-11-20",
+      "tema": "&iquest;Al elaborar la declaraci&oacute;n de renta en el pa&iacute;s puede tomar respecto de los ingresos del exterior, las deducciones, rentas exentas y dem&aacute;s conceptos aplicables a los asalariados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63360-2014",
+      "tipo": "oficio",
+      "numero": "63360",
+      "fecha": "2014-11-20",
+      "tema": "&iquest;Procede la pr&aacute;ctica de retenci&oacute;n en la fuente a t&iacute;tulo de honorarios en el pago de una sentencia judicial en contra de una entidad y a favor de un profesional, que en su momento fue elegido como revisor fiscal y a quien le revocaron su nombramiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62586-2014",
+      "tipo": "oficio",
+      "numero": "62586",
+      "fecha": "2014-11-12",
+      "tema": "Manifestaci&oacute;n sobre que el art&iacute;culo 329 del Estatuto tributario establece la categor&iacute;a de",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-59255-2014",
+      "tipo": "oficio",
+      "numero": "59255",
+      "fecha": "2014-10-20",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente aplicable a los pagos efectuados por el empleador con ocasi&oacute;n de la liquidaci&oacute;n del contrato de trabajo, como son indemnizaciones, cesant&iacute;as, intereses a las cesant&iacute;as, vacaciones, primas, entre otros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58284-2014",
+      "tipo": "oficio",
+      "numero": "58284",
+      "fecha": "2014-10-10",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Empleados - Clasificaci&oacute;n de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58078-2014",
+      "tipo": "oficio",
+      "numero": "58078",
+      "fecha": "2014-10-09",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58015-2014",
+      "tipo": "oficio",
+      "numero": "58015",
+      "fecha": "2014-10-09",
+      "tema": "En el numeral 4 de la categor&iacute;a EMPLEADO, se incluy&oacute; como una de las preguntas &iquest;El 80% o m&aacute;s de sus ingresos brutos proviene de la realizaci&oacute;n de alguna actividad econ&oacute;mica diferente de las enumeradas en el art&iacute;culo 340 del E.T.? Se deber&aacute; entender entonces que un rentista de capital que obtiene el 100% de sus ingresos de esa fuente como empleado, pero no lo ser&iacute;a aquel asalariado que tenga de sus ingresos el 75% de su salario y el 25% de intereses, pues este no quedar&iacute;a como empleado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57301-2014",
+      "tipo": "oficio",
+      "numero": "57301",
+      "fecha": "2014-10-06",
+      "tema": "El art&iacute;culo 10 del C&oacute;digo de Comercio establece que",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-57061-2014",
+      "tipo": "oficio",
+      "numero": "57061",
+      "fecha": "2014-10-03",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS - Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56994-2014",
+      "tipo": "oficio",
+      "numero": "56994",
+      "fecha": "2014-10-02",
+      "tema": "&iquest;Una persona natural que tiene contrato laboral con una entidad universitaria como ejecutivo administrativo, y a su vez con la misma entidad presta servicios de docencia con remuneraci&oacute;n por honorarios, para efectos de la retenci&oacute;n en la fuente en el entendido que el funcionario pertenece a la categor&iacute;a de empleado, deben sum&aacute;rsele los pagos mensuales por concepto de salarios y por concepto de honorarios para aplicar la tabla del art&iacute;culo 383 del E.T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55829-2014",
+      "tipo": "oficio",
+      "numero": "55829",
+      "fecha": "2014-09-23",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio 19738 del 21 de marzo de 2014, mediante el cual concluye que el tope de ingresos citado en el par&aacute;grafo 4o del art&iacute;culo 3o del Decreto 99 de 2013 y en el numeral 5o del art&iacute;culo 1o del Decreto 1070 de 2013 fue derogado t&aacute;citamente por lo dispuesto en el numeral 2o del literal a) del art&iacute;culo 7o del Decreto Reglamentario 2972 de 2013 y por tanto se entiende sustituido por esta &uacute;ltima disposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54620-2014",
+      "tipo": "oficio",
+      "numero": "54620",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En virtud de lo expresado en el art&iacute;culo 329 del Estatuto Tributario y en el art&iacute;culo 2o de los Decretos 099 y 1070 de 2013, las personas vinculadas en virtud de un contrato de prestaci&oacute;n de servicios son beneficiarios de la deducci&oacute;n del 10% por concepto de dependientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53506-2014",
+      "tipo": "oficio",
+      "numero": "53506",
+      "fecha": "2014-09-04",
+      "tema": "&iquest;para que proceda la deducci&oacute;n en el impuesto sobre la renta, de los pagos efectuados por la prestaci&oacute;n del servicio de transporte de carga, el contratante debe verificar los pagos a la seguridad social que le corresponden al contratista, cuando el servicio se contrata con una persona natural que lo presta a trav&eacute;s de un conductor subcontratado y si el aporte a la seguridad social debe realizarlo el contratista sobre el valor, total del contrato o puede restar los gastos en que incurra para realizar la actividad, incluyendo el pago de seguridad social del conductor que contrata para prestar el servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51579-2014",
+      "tipo": "oficio",
+      "numero": "51579",
+      "fecha": "2014-08-25",
+      "tema": "&iquest;Es legal que cuando los pagos no sean efectuados mensualmente, la empresa contratante efect&uacute;e la retenci&oacute;n sin tener en cuenta la retenci&oacute;n mensualizada de que trata el art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50843-2014",
+      "tipo": "oficio",
+      "numero": "50843",
+      "fecha": "2014-08-21",
+      "tema": "Aceptaci&oacute;n legal en forma electr&oacute;nica de la informaci&oacute;n remitida por las personas naturales a las que hace referencia el art&iacute;culo 1 del decreto 1070 de 2013 - &iquest;Cu&aacute;l ser&iacute;a la plataforma electr&oacute;nica en la que deben ser enviados los reportes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50842-2014",
+      "tipo": "oficio",
+      "numero": "50842",
+      "fecha": "2014-08-21",
+      "tema": "&iquest;Conforme a la normativa relacionada con la retenci&oacute;n en la fuente, los pagos indirectos por salud y alimentaci&oacute;n, realizados por el empleador a favor de la generalidad de los trabajadores, deben incluirse en el rengl&oacute;n pagos al empleado o en el denominado otros pagos , para los fines de la emisi&oacute;n del certificado de ingresos y retenciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50640-2014",
+      "tipo": "oficio",
+      "numero": "50640",
+      "fecha": "2014-08-20",
+      "tema": "Clasificaci&oacute;n de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48807-2014",
+      "tipo": "oficio",
+      "numero": "48807",
+      "fecha": "2014-08-12",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48032-2014",
+      "tipo": "oficio",
+      "numero": "48032",
+      "fecha": "2014-08-08",
+      "tema": "&iquest;A qu&eacute; actividades se refiere el literal a) del numeral 3 (conjunto 3), del art&iacute;culo 2, del Decreto 3032 de 2013, cuando expresa, que el servicio sea el resultado de una actividad econ&oacute;mica?&iquest;Qu&eacute; diferencia existe entre las frases",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47711-2014",
+      "tipo": "oficio",
+      "numero": "47711",
+      "fecha": "2014-08-06",
+      "tema": "Retenci&oacute;n en la fuente - Empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47565-2014",
+      "tipo": "oficio",
+      "numero": "47565",
+      "fecha": "2014-07-28",
+      "tema": "&iquest;Las personas naturales no obligadas a llevar contabilidad, pueden solicitar como deducci&oacute;n en la declaraci&oacute;n de renta y complementarios la depreciaci&oacute;n de los activos fijos tangibles que posean?&iquest;Las primeras ocho mil (8000) UVT de la vivienda de habitaci&oacute;n del contribuyente, que se detraen del patrimonio l&iacute;quido del a&ntilde;o anterior para calcular la renta presuntiva de las personas naturales, se deben restar del patrimonio l&iacute;quido del a&ntilde;o anterior por su valor patrimonial neto o por el valor bruto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47563-2014",
+      "tipo": "oficio",
+      "numero": "47563",
+      "fecha": "2014-08-06",
+      "tema": "Solicita anular el Oficio 50810 del 10 de agosto de 2013, expedido por la Subdirecci&oacute;n de Gesti&oacute;n de Normativa y Doctrina de esta Dependencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-42205-2014",
+      "tipo": "oficio",
+      "numero": "42205",
+      "fecha": "2014-07-17",
+      "tema": "Retenci&oacute;n en la fuente en el caso de un contrato de prestaci&oacute;n de servicios profesionales con varios meses de duraci&oacute;n y respecto del cual en un mes se hacen varios pagos, es aplicable la doctrina contenida en el Oficio No. 59382 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41872-2014",
+      "tipo": "oficio",
+      "numero": "41872",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen del impuesto sobre la renta en el que se clasifican los Curadores Urbanos y en consecuencia cual sistema de determinaci&oacute;n les es aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37635-2014",
+      "tipo": "oficio",
+      "numero": "37635",
+      "fecha": "2014-06-24",
+      "tema": "Una persona natural que inform&oacute; al agente retenedor que en el a&ntilde;o gravable anterior percibi&oacute; ingresos provenientes en un 80% o m&aacute;s de la prestaci&oacute;n de servicios personales mediante el ejercicio de una profesi&oacute;n liberal, &iquest;c&oacute;mo debe el pagador efectuarle la retenci&oacute;n respecto de un contrato, cuyo objeto es prestar sus servicios de profesi&oacute;n liberal, con",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37427-2014",
+      "tipo": "oficio",
+      "numero": "37427",
+      "fecha": "2014-06-20",
+      "tema": "Progresividad en el pago del impuesto sobre la renta - Procedimiento para establecer la p&eacute;rdida del beneficio por incumplimiento de requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19738-2014",
+      "tipo": "oficio",
+      "numero": "19738",
+      "fecha": "2014-03-25",
+      "tema": "Consulta para efectos de aplicar a los empleados la retenci&oacute;n en la fuente m&iacute;nima, &iquest;cu&aacute;l es el tope de ingresos del a&ntilde;o gravable anterior que se debe tener en cuenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19731-2014",
+      "tipo": "oficio",
+      "numero": "19731",
+      "fecha": "2014-03-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18153-2014",
+      "tipo": "oficio",
+      "numero": "18153",
+      "fecha": "2014-03-17",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15616-2014",
+      "tipo": "oficio",
+      "numero": "15616",
+      "fecha": "2014-03-06",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14320-2014",
+      "tipo": "oficio",
+      "numero": "14320",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Bienes Exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13208-2014",
+      "tipo": "oficio",
+      "numero": "13208",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Se debe practicar retenci&oacute;n en la fuente por pagos correspondientes a pasajes o gastos de manutenci&oacute;n que son girados a personas que prestan sus servicios y con quienes no se tiene una relaci&oacute;n laboral o legal y reglamentaria?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-11352-2014",
+      "tipo": "oficio",
+      "numero": "11352",
+      "fecha": "2014-11-12",
+      "tema": "Solicita se resuelvan problemas jur&iacute;dicos en relaci&oacute;n con el Concepto n&uacute;mero 885 del 31 de julio de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11170-2014",
+      "tipo": "oficio",
+      "numero": "11170",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las primas de los servidores p&uacute;blicos o empleados privados, legales y extralegales, hacen parte del ingreso bruto gravable por el IMAN para personas naturales empleadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2377-2014",
+      "tipo": "oficio",
+      "numero": "2377",
+      "fecha": "2014-01-09",
+      "tema": "&iquest;Qu&eacute; debe entenderse por alimentos sin transformaciones o preparaciones adicionales?&iquest;Dividir un alimento para servirse como acompa&ntilde;ante significa una transformaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1961-2014",
+      "tipo": "oficio",
+      "numero": "1961",
+      "fecha": "2014-01-07",
+      "tema": "Revocar el Oficio 50810 del 10 de agosto de 2013, expedido por la Subdirecci&oacute;n de Gesti&oacute;n de Normativa y Doctrina de esta Dependencia, la cual resolvi&oacute; una consulta sobre la aplicaci&oacute;n del art&iacute;culo 3o del Decreto 099 de 2013 al caso de una odont&oacute;loga que tiene un contrato de prestaci&oacute;n de servicios profesionales con una Empresa Social del Estado, que utiliza equipos, materiales e insumos de propiedad de esta entidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1113-2014",
+      "tipo": "oficio",
+      "numero": "1113",
+      "fecha": "2014-01-13",
+      "tema": "&iquest;Una renta de trabajo exenta de las establecidas en el art&iacute;culo 206 del Estatuto Tributario, que no se encuentre se&ntilde;alada expresamente como factor de depuraci&oacute;n en la determinaci&oacute;n de la base gravable del Impuesto M&iacute;nimo Alternativo Nacional- IMAN., puede restarse de la base gravable de este sistema?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0004-2014",
+      "tipo": "oficio",
+      "numero": "0004",
+      "fecha": "2014-01-13",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79834-2013",
+      "tipo": "oficio",
+      "numero": "79834",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Para efectos del impuesto sobre la renta tiene la categor&iacute;a de empleado un trabajador que presta servicios profesionales en los que para el desarrollo de la labor se requieren equipos aportados tanto por el trabajador como por la empresa a la que presta los servicios, empresa que tambi&eacute;n aporta insumos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79831-2013",
+      "tipo": "oficio",
+      "numero": "79831",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Los pagos realizados a transportadores, servicios de restaurante (casinos), Contratos de Construcci&oacute;n (AIU) y todos los relacionados en el art&iacute;culo 11 de la Ley 1607 de diciembre 2012, el cual adicion&oacute; al Estatuto Tributario el art&iacute;culo 340, que la Ley los considera trabajadores por cuenta propia, se les debe exigir La planilla de Seguridad Social sobre la base del 40% del pago, sobre la utilidad o AIU?&iquest;La Ley de Seguridad social dice que NO se puede pagar aportes sobre una base menor a un salarlo m&iacute;nimo, entonces cuando se realizan pagos inferiores al salario m&iacute;nimo; tambi&eacute;n se les debe exigir la planilla de seguridad social para la procedencia de la deducci&oacute;n de los costos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79815-2013",
+      "tipo": "oficio",
+      "numero": "79815",
+      "fecha": "2013-12-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a concejales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79480-2013",
+      "tipo": "oficio",
+      "numero": "79480",
+      "fecha": "2013-12-11",
+      "tema": "&iquest;Con fundamento en la Ley 1607 de 2012 y en el Decreto 0099 de 2013, en el caso de una persona natural obligada a declarar renta en el a&ntilde;o 2012, cuyos ingresos provienen de una asignaci&oacute;n pensional y de honorarios en ejercicio de una profesi&oacute;n liberal, cu&aacute;l es la retenci&oacute;n en la fuente aplicable en un contrato de prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79474-2013",
+      "tipo": "oficio",
+      "numero": "79474",
+      "fecha": "2013-12-11",
+      "tema": "&iquest;Los auxiliares de la justicia est&aacute;n obligados a suministrar la informaci&oacute;n que dispone el art&iacute;culo 1&deg; del Decreto Reglamentario 1070 de 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77904-2013",
+      "tipo": "oficio",
+      "numero": "77904",
+      "fecha": "2013-12-04",
+      "tema": "&iquest;La relaci&oacute;n de un abogado con una firma de colegas de otra ciudad, prest&aacute;ndoles servicios como dependiente judicial, es legal o reglamentaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76749-2013",
+      "tipo": "oficio",
+      "numero": "76749",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para practicar retenci&oacute;n en la fuente a los medios especialistas que utilizan equipos especializados y que se encuentran vinculados mediante un contrato de prestaci&oacute;n de servicios?&iquest;La calidad del m&eacute;dico especialista es persona natural declarante de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76745-2013",
+      "tipo": "oficio",
+      "numero": "76745",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Cu&aacute;l ser&iacute;a la retenci&oacute;n contingente a reportar a las entidades por los aportes voluntarios y AFC para las personas que son declarantes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73472-2013",
+      "tipo": "oficio",
+      "numero": "73472",
+      "fecha": "2013-11-19",
+      "tema": "Solicita aclarar el Oficio 25322 de 30 de abril de 2013 emitido por la Direcci&oacute;n de Gesti&oacute;n Jur&iacute;dica, en el sentido de indicar el procedimiento que se debe aplicar para el c&aacute;lculo de la retenci&oacute;n en la fuente, el porcentaje y concepto de los pagos que se realizan a los ediles y especificar las deducciones aplicables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73384-2013",
+      "tipo": "oficio",
+      "numero": "73384",
+      "fecha": "2013-10-18",
+      "tema": "&iquest;Los trabajadores que prestan servicios personales mediante el ejercicio de profesiones liberales que recibieron honorarios de una empresa por sumas entre Ps300.000 y Ps1.500.000, de conformidad con la normatividad vigente tienen derecho a la aplicaci&oacute;n de la retenci&oacute;n en la fuente consagrada en el art&iacute;culo 383 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73233-2013",
+      "tipo": "oficio",
+      "numero": "73233",
+      "fecha": "2013-11-15",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente por un contrato de prestaci&oacute;n de servicios, cuyo valor mensual devengado es de Ps4.738.000 y sus descuentos corresponden a pagos por cr&eacute;dito hipotecario, por dependientes, ahorro en cuenta de ahorro especial con destino a la adquisici&oacute;n de vivienda abierta en el Fondo Nacional de Ahorro, sin indicar valor alguno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70390-2013",
+      "tipo": "oficio",
+      "numero": "70390",
+      "fecha": "2013-11-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento de aplicaci&oacute;n del Decreto 1070 de 28 de mayo de 2013 en lo relacionado con la depuraci&oacute;n de la base de retenci&oacute;n en la fuente a los contratistas y el reintegro de retenciones en exceso o indebidamente practicadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70242-2013",
+      "tipo": "oficio",
+      "numero": "70242",
+      "fecha": "2013-11-01",
+      "tema": "&iquest;Bajo qu&eacute; condiciones o supuestos, puede considerarse que las Empresas Industriales y Comerciales del Estado y las de Econom&iacute;a Mixta, no ostentan la calidad de contribuyentes del impuesto sobre la renta y complementarios? &iquest;La calidad de no contribuyente descrita en el segundo inciso del art&iacute;culo 16 del Estatuto Tributario, tambi&eacute;n incluye para estas sociedades el encontrarse en per&iacute;odo improductivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65121-2013",
+      "tipo": "oficio",
+      "numero": "65121",
+      "fecha": "2013-10-11",
+      "tema": "&iquest;Cu&aacute;l es la forma de realizar la retenci&oacute;n en la fuente en un contrato de interventor&iacute;a, teniendo en cuenta que el contratista no es declarante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57920-2013",
+      "tipo": "oficio",
+      "numero": "57920",
+      "fecha": "2013-09-13",
+      "tema": "&iquest;Qu&eacute; se entiende por",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50225-2013",
+      "tipo": "oficio",
+      "numero": "50225",
+      "fecha": "2013-08-13",
+      "tema": "&iquest;Con fundamento en el art&iacute;culo 25 del Decreto 3050 de 1997, si las personas naturales inscritas en el r&eacute;gimen com&uacute;n que act&uacute;an como profesionales independientes, cuando superan el tope de ingresos o patrimonio a que se refiere el art&iacute;culo 368-2 del Estatuto Tributario, adquieren la calidad de agentes de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50180-2013",
+      "tipo": "oficio",
+      "numero": "50180",
+      "fecha": "2013-08-13",
+      "tema": "Retenci&oacute;n en la fuente - Contrato de prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41556-2013",
+      "tipo": "oficio",
+      "numero": "41556",
+      "fecha": "2013-07-08",
+      "tema": "&iquest;Cu&aacute;l tabla de retenci&oacute;n en la fuente le aplica a un empleado de una entidad p&uacute;blica del nivel nacional, en la modalidad de prestaci&oacute;n de servicios con un ingreso mensual promedio de Ps 7.172.000, que cumple las condiciones del art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39876-2013",
+      "tipo": "oficio",
+      "numero": "39876",
+      "fecha": "2013-06-28",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta de los honorarios de los contratistas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32672-2013",
+      "tipo": "oficio",
+      "numero": "32672",
+      "fecha": "2013-05-29",
+      "tema": "Solicita aclaraci&oacute;n sobre la base gravable de liquidaci&oacute;n del Impuesto M&iacute;nimo Alternativo Nacional (IMAN) para empleados y explicaci&oacute;n sobre el alcance del literal i) del art&iacute;culo 332 del Estatuto Tributario para los colombianos catalogados como oficiales de la reserva de segunda clase de la Fuerza A&eacute;rea y oficiales de la reserva de primera y segunda clase de las Fuerzas Militares cobijados por el Decreto 672 de 1965, 1790 de 2000 y 1428 de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27623-2013",
+      "tipo": "oficio",
+      "numero": "27623",
+      "fecha": "2013-05-09",
+      "tema": "Con fundamento en el art&iacute;culo 593 del Estatuto Tributario y en la Ley 1607 de 2012, &iquest;si se debe tener en cuenta el factor ingresos para establecer si un asalariado est&aacute; obligado a presentar la declaraci&oacute;n del impuesto sobre la renta y complementario correspondiente al a&ntilde;o gravable 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25322-2013",
+      "tipo": "oficio",
+      "numero": "25322",
+      "fecha": "2013-04-30",
+      "tema": "&iquest;Cu&aacute;l es el porcentaje (%) de retenci&oacute;n en la fuente aplicable a los honorarios recibidos por los ediles de la ciudad de Bogot&aacute;, D. C.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24057-2013",
+      "tipo": "oficio",
+      "numero": "24057",
+      "fecha": "2013-04-24",
+      "tema": "&iquest;A los contratistas declarantes de renta que prestan servicios personales en el desarrollo e implementaci&oacute;n de software, que clasifican en la categor&iacute;a de empleados se les contin&uacute;a aplicando la tarifa de retenci&oacute;n en la fuente prevista en el art&iacute;culo 1o del Decreto 2499 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22872-2013",
+      "tipo": "oficio",
+      "numero": "22872",
+      "fecha": "2013-04-19",
+      "tema": "&iquest;Cu&aacute;les son las formas vigentes de reducci&oacute;n de la base de retenci&oacute;n en la fuente que aplican a los trabajadores independientes y s&iacute; sigue aplicando la disminuci&oacute;n de la base por concepto de aportes AFC?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22871-2013",
+      "tipo": "oficio",
+      "numero": "22871",
+      "fecha": "2013-04-19",
+      "tema": "&iquest;Para determinar la base de retenci&oacute;n en la fuente de los empleados, incluyendo los trabajadores que presten servicios personales mediante el ejercicio de profesiones liberales, se pueden aplicar todas y cada una de las deducciones, previstas en el Estatuto Tributario y en el art&iacute;culo 2 del Decreto 00099 de 2013 para los empleados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22592-2013",
+      "tipo": "oficio",
+      "numero": "22592",
+      "fecha": "2013-04-18",
+      "tema": "&iquest;Qu&eacute; retenci&oacute;n se le aplica a los empleados de enero a marzo 30 de 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18090-2013",
+      "tipo": "oficio",
+      "numero": "18090",
+      "fecha": "2013-03-27",
+      "tema": "&iquest;C&oacute;mo se calcula el Impuesto M&iacute;nimo Alternativo Nacional (IMAN), para los colombianos catalogados como reservistas de la Fuerza A&eacute;rea, cobijados por el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17857-2013",
+      "tipo": "oficio",
+      "numero": "17857",
+      "fecha": "2013-03-26",
+      "tema": "&iquest;Cu&aacute;l es la norma a aplicar para efectos de establecer la retenci&oacute;n en la fuente para los trabajadores independientes, teniendo en cuenta que la Ley 1607 de 2012 derog&oacute; expresamente el art&iacute;culo 13 de la Ley 1527 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16785-2013",
+      "tipo": "oficio",
+      "numero": "16785",
+      "fecha": "2013-03-20",
+      "tema": "Retenci&oacute;n en la fuente - Trabajadores - Servicios Personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16733-2013",
+      "tipo": "oficio",
+      "numero": "16733",
+      "fecha": "2013-03-20",
+      "tema": "Monto de la retenci&oacute;n en la fuente por concepto de impuesto sobre la renta y complementario que se debe efectuar por un contrato de prestaci&oacute;n de servicios profesionales (asesor&iacute;as jur&iacute;dicas)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12646-2013",
+      "tipo": "oficio",
+      "numero": "12646",
+      "fecha": "2013-03-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para aplicar la retenci&oacute;n en la fuente a una persona natural con categor&iacute;a de empleado, no declarante del impuesto sobre la renta, perteneciente al r&eacute;gimen simplificado del impuesto sobre las ventas, respecto a un contrato de prestaci&oacute;n de servicios t&eacute;cnicos cuyos ingresos mensuales no superan las 95 UVT, teniendo en cuenta que el 100% de los Ingresos del contratista provienen de lo percibido por ese contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8824-2013",
+      "tipo": "oficio",
+      "numero": "8824",
+      "fecha": "2013-02-15",
+      "tema": "&iquest;De conformidad con el art&iacute;culo 47 de la Ley 1607 de 2012, las personas jur&iacute;dicas organizadas como propiedades que explotan zonas comunes mediante el arrendamiento de terrazas, parqueaderos y locales comerciales son responsables del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95986-2007",
+      "tipo": "oficio",
+      "numero": "95986",
+      "fecha": "2007-11-22",
+      "tema": "Componente inflacionario, Ingresos por rendimientos financieros, Deducci&oacute;n de gastos financieros, R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64415-2007",
+      "tipo": "oficio",
+      "numero": "64415",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;C&oacute;mo estaba constituida la base gravable del impuesto al patrimonio para los a&ntilde;os gravables 2004,2005, y 2006, para las Empresas Industriales y Comerciales del estado que no se encontraban obligadas a efectuar ajustes integrales por inflaci&oacute;n en materia contable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7522-2007",
+      "tipo": "oficio",
+      "numero": "7522",
+      "fecha": "2007-02-01",
+      "tema": "El ajuste por inflaci&oacute;n de la depreciaci&oacute;n acumulada fiscal en exceso sobre la contable, est&aacute; sometido a la condici&oacute;n restrictiva contemplada en el art&iacute;culo 130 del Estatuto Tributario.Legislaci{on vigente antes de la Ley 1111 de 2006 que derog&oacute; el sistema integral de ajustes por inflaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052245-2006",
+      "tipo": "concepto",
+      "numero": "0052245",
+      "fecha": "2006-06-20",
+      "tema": "&iquest;Con fundamento en el numeral 7&ordm; del art&iacute;culo 8&ordm; del Decreto 2075 de 1992, modificado por el art&iacute;culo 4&ordm; del Decreto 2591 de 1993; el valor patrimonial por el cual se deben declarar las acciones o aportes en sociedades es el valor intr&iacute;nseco o el valor en bolsa cuando &eacute;stos son inferiores al costo por el PAAG?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90117-2005",
+      "tipo": "oficio",
+      "numero": "90117",
+      "fecha": "2005-12-05",
+      "tema": "Solicita aclaraci&oacute;n sobre algunas apreciaciones del art&iacute;culo 272 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088521-2005",
+      "tipo": "concepto",
+      "numero": "0088521",
+      "fecha": "2005-11-29",
+      "tema": "&iquest;Procede la compensaci&oacute;n del exceso de renta presuntiva sobre la renta l&iacute;quida ordinaria para aquellos contribuyentes del impuesto sobre la renta y complementarios no obligados a llevar contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061189-2005",
+      "tipo": "concepto",
+      "numero": "0061189",
+      "fecha": "2005-09-02",
+      "tema": "&iquest;para efectos de determinar el beneficio neto o excedente, los contribuyentes que pertenecen al r&eacute;gimen tributario especial deben declarar como ingreso gravable el componente inflacionario de los rendimientos financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061188-2005",
+      "tipo": "concepto",
+      "numero": "0061188",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es v&aacute;lido entender que el numeral 6 del art&iacute;culo 332 del estatuto tributario fue t&aacute;citamente derogado por el art&iacute;culo 4&ordm; de la ley 174 de 1994 (norma posterior) que expresamente modific&oacute; el art&iacute;culo 72 del mismo estatuto, autorizando tomar como costo fiscal de los inmuebles que constituyan activos fijos del contribuyente el valor del aval&uacute;o catastral o el autoeval&uacute;o declarado para los fines del impuesto predial unificado?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048774-2002",
+      "tipo": "concepto",
+      "numero": "0048774",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;Para efectos fiscales el sistema de ajustes integrales por inflaci&oacute;n deber&aacute; ser aplicado por las entidades vigiladas por la Superintendencia Bancaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-33277-2002",
+      "tipo": "concepto",
+      "numero": "33277",
+      "fecha": "2002-06-06",
+      "tema": "Impuesto de Renta y Complementarios. Ajustes por inflaci&oacute;n Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033277-2002",
+      "tipo": "concepto",
+      "numero": "0033277",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Para efectos tributarios, las entidades p&uacute;blicas est&aacute;n obligadas a efectuar ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070932-2000",
+      "tipo": "concepto",
+      "numero": "0070932",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Se pueden ajustar los activos no monetarios expresados en moneda extranjera por el factor de devaluaci&oacute;n del a&ntilde;o en el cual el activo se vuelve a ajustar sin que se involucre el factor de devaluaci&oacute;n de los a&ntilde;os en los cuales no fueron objeto de ajuste en aplicaci&oacute;;n del art&iacute;culo 341 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021463-2000",
+      "tipo": "concepto",
+      "numero": "0021463",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Deben aplicar ajustes por inflaci&oacute;n los nuevos contribuyentes que pertenec&iacute;an al r&eacute;gimen especial?. En el caso en que est&eacute;n obligadas &iquest;sobre qu&eacute; base o qu&eacute; proporci&oacute;n del patrimonio deben aplicar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031189-1999",
+      "tipo": "concepto",
+      "numero": "0031189",
+      "fecha": "1999-04-06",
+      "tema": "&iquest;Est&aacute;n gravadas y sometidas a retenci&oacute;n en la fuente sobre rendimientos financieros las empresas asociativas de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069274-1998",
+      "tipo": "concepto",
+      "numero": "0069274",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Est&aacute;n obligados a llevar libros de contabilidad registrados los ganaderos productores y los comerciantes en ganader&iacute;a? &iquest;El ganadero y los comerciantes en ganader&iacute;a son agentes retenedores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064575-1998",
+      "tipo": "concepto",
+      "numero": "0064575",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;Deben aplicar el sistema integral de ajustes por inflaci&oacute;n las juntas de copropietarios de edificios organizados en propiedad horizontal? Se debe o no incluir en el patrimonio que refleja el balance, las zonas comunes, ascensores, pasamanos, planta el&eacute;ctrica, bomba de agua, tanque de abastecimiento, etc.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055786-1998",
+      "tipo": "concepto",
+      "numero": "0055786",
+      "fecha": "1998-07-14",
+      "tema": "&iquest; Las cifras topes se&ntilde;aladas anualmente por el Gobierno Nacional para efectos de la calificaci&oacute;n de las entidades sin &aacute;nimo de lucro deben tomarse sin tener en cuenta los ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054293-1998",
+      "tipo": "concepto",
+      "numero": "0054293",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Una cooperativa vigilada por DANCOOP puede disminuir su patrimonio en aplicaci&oacute;n del numeral 2o. del art&iacute;culo 347 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031550-1998",
+      "tipo": "concepto",
+      "numero": "0031550",
+      "fecha": "1998-05-06",
+      "tema": "&iquest;Para efectos de establecer si una persona natural es agente retenedora y-o est&aacute; obligada a enviar informaci&oacute;n en medios magn&eacute;ticos, se deben tener en cuenta los ajustes por inflaci&oacute;n para determinar si el monto de los ingresos sobrepasan las cifras l&iacute;mites establecidas por el Gobierno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013926-1998",
+      "tipo": "concepto",
+      "numero": "0013926",
+      "fecha": "1998-03-04",
+      "tema": "&iquest;Cu&aacute;l es el manejo de los ajustes por inflaci&oacute;n y provisiones correspondientes a las inversiones existentes en una sociedad en liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008698-1998",
+      "tipo": "concepto",
+      "numero": "0008698",
+      "fecha": "1998-02-13",
+      "tema": "&iquest;Se deben declarar los aportes por el valor hist&oacute;rico ajustado cuando el declarante es una persona sujeta a aplicar los ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008049-1998",
+      "tipo": "concepto",
+      "numero": "0008049",
+      "fecha": "1998-02-11",
+      "tema": "&iquest;Los bienes que una sucursal de sociedad extranjera posee en el exterior originan un mayor gasto por ajuste por inflaci&oacute;n y son base de renta presuntiva para el impuesto de renta y complementarios a cargo de la sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028816-1997",
+      "tipo": "concepto",
+      "numero": "0028816",
+      "fecha": "1997-11-26",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026999-1997",
+      "tipo": "concepto",
+      "numero": "0026999",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000710-1997",
+      "tipo": "concepto",
+      "numero": "0000710",
+      "fecha": "1997-01-09",
+      "tema": "&iquest;Est&aacute;n obligados a aplicar ajustes por inflaci&oacute;n los fideicomisos para efectos fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000707-1997",
+      "tipo": "concepto",
+      "numero": "0000707",
+      "fecha": "1997-01-09",
+      "tema": "&iquest;Las mercanc&iacute;as en tr&aacute;nsito y las utilidades del ejercicio anterior a&uacute;n no distribuidas se deben ajustar por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091771-1996",
+      "tipo": "concepto",
+      "numero": "0091771",
+      "fecha": "1996-11-23",
+      "tema": "&iquest;Est&aacute; obligada una persona natural a practicar ajustes integrales por inflaci&oacute;n cuando el 80% de su patrimonio esta representado en acciones y el 20% en veh&iacute;culos afiliados a una empresa de transportes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091769-1996",
+      "tipo": "concepto",
+      "numero": "0091769",
+      "fecha": "1996-11-23",
+      "tema": "&iquest;Est&aacute;n sometidas a los ajustes integrales por inflaci&oacute;n las valorizaciones t&eacute;cnicas las cuales pueden ser parte del costo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063198-1996",
+      "tipo": "concepto",
+      "numero": "0063198",
+      "fecha": "1996-08-09",
+      "tema": "&iquest;Deben las sociedades civiles aplicar ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074195-1994",
+      "tipo": "concepto",
+      "numero": "0074195",
+      "fecha": "1994-12-21",
+      "tema": "&iquest;Por los per&iacute;odos gravables de 1992 y 1993 puede el contribuyente no ajustar los inventarios iniciales, finales, o las compras? &iquest;Se puede afirmar que los inventarios iniciales, finales y las compras, tienen una forma particular de ajuste y en consecuencia es obligatorio realizar ajustes por dichos per&iacute;odos? &iquest;Qu&eacute; significa costos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033675-1994",
+      "tipo": "concepto",
+      "numero": "0033675",
+      "fecha": "1994-03-02",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003534-1994",
+      "tipo": "concepto",
+      "numero": "0003534",
+      "fecha": "1994-01-01",
+      "tema": "Factores que pueden incidir en la determinaci&oacute;n del valor comercial de las acciones, apart&aacute;ndolo del valor intr&iacute;nseco de las mismas",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

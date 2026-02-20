@@ -1,1 +1,241 @@
-{"id_articulo": "Art. 96", "titulo": "Art. 96. Renta bruta en compañías de seguros de vida.", "titulo_corto": "Renta bruta en compañías de seguros de vida.", "slug": "96", "url_origen": "https://estatuto.co/96", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 2, "contenido_texto": "La renta bruta de las compañías de seguros de vida se determina de la manera siguiente: Al total de los ingresos netos obtenidos durante el año o período gravable, se suma el importe que al final del año o período gravable anterior haya tenido la reserva matemática, y del resultado de esa suma se restan las partidas correspondientes a los siguientes conceptos: 1. El importe pagado o abonado en cuenta, por concepto de siniestros, de pólizas dotales vencidas y de rentas vitalicias, ya sean fijas o indefinidas. 2. El importe de los siniestros avisados, hasta concurrencia de la parte no reasegurada, debidamente certificado por el revisor fiscal. 3. Lo pagado por beneficios especiales sobre pólizas vencidas. 4. Lo pagado por rescates. 5. El importe de las primas de reaseguros cedidas en Colombia o en el exterior. 6. El importe que al final del año o período gravable tenga la reserva matemática. Parágrafo. Las disposiciones de este artículo se aplican en lo pertinente a las compañías de capitalización. *Parágrafo 2.Para efectos de la determinación de la renta líquida gravable, cuando las compañías aseguradoras y reaseguradoras generen ingresos determinados como rentas exentas, deberán calcular separadamente dichas rentas exentas y las rentas gravables, teniendo en cuenta lo previsto en el artículo 26, artículo 96 Y demás disposiciones concordantes del Estatuto Tributario, así como los artículos 135 de la ley 100 de 1993 y 4 del Decreto 841 de 1998.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La renta bruta de las compañías de seguros de vida se determina de la manera siguiente: Al total de los ingresos netos obtenidos durante el año o período gravable, se suma el importe que al final del año o período gravable anterior haya tenido la reserva matemática, y del resultado de esa suma se restan las partidas correspondientes a los siguientes conceptos:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El importe pagado o abonado en cuenta, por concepto de siniestros, de pólizas dotales vencidas y de rentas vitalicias, ya sean fijas o indefinidas.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> El importe de los siniestros avisados, hasta concurrencia de la parte no reasegurada, debidamente certificado por el revisor fiscal.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Lo pagado por beneficios especiales sobre pólizas vencidas.</p>\n<p><strong><span style=\"color: #339966;\">4.</span></strong> Lo pagado por rescates.</p>\n<p><strong><span style=\"color: #339966;\">5.</span></strong> El importe de las primas de reaseguros cedidas en Colombia o en el exterior.</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>El importe que al final del año o período gravable tenga la reserva matemática.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo. </span></span></strong>Las disposiciones de este artículo se aplican en lo pertinente a las compañías de capitalización.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*</span></span><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo 2.</span></span></strong>Para efectos de la determinación de la renta líquida gravable, cuando las compañías aseguradoras y reaseguradoras generen ingresos determinados como rentas exentas, deberán calcular separadamente dichas rentas exentas y las rentas gravables, teniendo en cuenta lo previsto en el <a href=\"https://estatuto.co/26\" rel=\"noopener\" target=\"_blank\">artículo 26</a>, <a href=\"https://estatuto.co/96\" rel=\"noopener\" target=\"_blank\">artículo 96</a> Y demás disposiciones concordantes del Estatuto Tributario, así como los artículos 135 de la ley 100 de 1993 y 4 del Decreto 841 de 1998.</p>\n</span>", "modificaciones_raw": "* Adicionado- Ley 1819 de 2016 Art. 58.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["26", "96"], "referenced_by": ["96"], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 96",
+  "titulo": "Art. 96. Renta bruta en compañías de seguros de vida.",
+  "titulo_corto": "Renta bruta en compañías de seguros de vida.",
+  "slug": "96",
+  "url_origen": "https://estatuto.co/96",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 2,
+  "contenido_texto": "La renta bruta de las compañías de seguros de vida se determina de la manera siguiente: Al total de los ingresos netos obtenidos durante el año o período gravable, se suma el importe que al final del año o período gravable anterior haya tenido la reserva matemática, y del resultado de esa suma se restan las partidas correspondientes a los siguientes conceptos: 1. El importe pagado o abonado en cuenta, por concepto de siniestros, de pólizas dotales vencidas y de rentas vitalicias, ya sean fijas o indefinidas. 2. El importe de los siniestros avisados, hasta concurrencia de la parte no reasegurada, debidamente certificado por el revisor fiscal. 3. Lo pagado por beneficios especiales sobre pólizas vencidas. 4. Lo pagado por rescates. 5. El importe de las primas de reaseguros cedidas en Colombia o en el exterior. 6. El importe que al final del año o período gravable tenga la reserva matemática. Parágrafo. Las disposiciones de este artículo se aplican en lo pertinente a las compañías de capitalización. *Parágrafo 2.Para efectos de la determinación de la renta líquida gravable, cuando las compañías aseguradoras y reaseguradoras generen ingresos determinados como rentas exentas, deberán calcular separadamente dichas rentas exentas y las rentas gravables, teniendo en cuenta lo previsto en el artículo 26, artículo 96 Y demás disposiciones concordantes del Estatuto Tributario, así como los artículos 135 de la ley 100 de 1993 y 4 del Decreto 841 de 1998.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La renta bruta de las compañías de seguros de vida se determina de la manera siguiente: Al total de los ingresos netos obtenidos durante el año o período gravable, se suma el importe que al final del año o período gravable anterior haya tenido la reserva matemática, y del resultado de esa suma se restan las partidas correspondientes a los siguientes conceptos:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El importe pagado o abonado en cuenta, por concepto de siniestros, de pólizas dotales vencidas y de rentas vitalicias, ya sean fijas o indefinidas.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> El importe de los siniestros avisados, hasta concurrencia de la parte no reasegurada, debidamente certificado por el revisor fiscal.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Lo pagado por beneficios especiales sobre pólizas vencidas.</p>\n<p><strong><span style=\"color: #339966;\">4.</span></strong> Lo pagado por rescates.</p>\n<p><strong><span style=\"color: #339966;\">5.</span></strong> El importe de las primas de reaseguros cedidas en Colombia o en el exterior.</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>El importe que al final del año o período gravable tenga la reserva matemática.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo. </span></span></strong>Las disposiciones de este artículo se aplican en lo pertinente a las compañías de capitalización.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*</span></span><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo 2.</span></span></strong>Para efectos de la determinación de la renta líquida gravable, cuando las compañías aseguradoras y reaseguradoras generen ingresos determinados como rentas exentas, deberán calcular separadamente dichas rentas exentas y las rentas gravables, teniendo en cuenta lo previsto en el <a href=\"https://estatuto.co/26\" rel=\"noopener\" target=\"_blank\">artículo 26</a>, <a href=\"https://estatuto.co/96\" rel=\"noopener\" target=\"_blank\">artículo 96</a> Y demás disposiciones concordantes del Estatuto Tributario, así como los artículos 135 de la ley 100 de 1993 y 4 del Decreto 841 de 1998.</p>\n</span>",
+  "modificaciones_raw": "* Adicionado- Ley 1819 de 2016 Art. 58.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "26",
+    "96"
+  ],
+  "referenced_by": [
+    "96"
+  ],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 8 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 4669 (2025-04-11): Impuesto sobre la Renta y Complementarios\noficio 902345 (2022-03-23): Impuesto sobre la renta - Servicios funerarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4669-2025",
+      "tipo": "oficio",
+      "numero": "4669",
+      "fecha": "2025-04-11",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902345-2022",
+      "tipo": "oficio",
+      "numero": "902345",
+      "fecha": "2022-03-23",
+      "tema": "Impuesto sobre la renta - Servicios funerarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902628-2021",
+      "tipo": "oficio",
+      "numero": "902628",
+      "fecha": "2021-03-26",
+      "tema": "(Int 0104) Impuesto sobre la renta - Renta vitalicia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3824-2020",
+      "tipo": "oficio",
+      "numero": "3824",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal de las asignaciones de retiro de las Fuerzas Militares y de la Polic&iacute;a Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21329-2019",
+      "tipo": "oficio",
+      "numero": "21329",
+      "fecha": "2019-08-28",
+      "tema": "&iquest;Debe darse aplicaci&oacute;n a las disposiciones del art&iacute;culo 90 del Estatuto Tributario cuando se presenten contratos de comodato, esto es, se debe asignar un valor promedio (comercial)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10141-2019",
+      "tipo": "oficio",
+      "numero": "10141",
+      "fecha": "2019-04-30",
+      "tema": "Exenci&oacute;n para las donaciones de gobiernos o entidades extranjeras",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-0209-2018",
+      "tipo": "oficio",
+      "numero": "0209",
+      "fecha": "2018-02-27",
+      "tema": "Auxilios o donaciones extranjeras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21943-2017",
+      "tipo": "oficio",
+      "numero": "21943",
+      "fecha": "2017-08-16",
+      "tema": "Donaciones acuerdos Intergubernamentales o Convenios con el gobierno colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8770-2017",
+      "tipo": "oficio",
+      "numero": "8770",
+      "fecha": "2017-04-17",
+      "tema": "Manejo de env&iacute;o de dinero de reaseguros del exterior (reglas de impuestos) - Dividendos: restricciones e impuestos para el pago de Dividendos a accionistas del exterior - Impuestos en general relacionados a seguros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8646-2017",
+      "tipo": "oficio",
+      "numero": "8646",
+      "fecha": "2017-04-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14973-2016",
+      "tipo": "oficio",
+      "numero": "14973",
+      "fecha": "2016-06-14",
+      "tema": "Fondo regional de garant&iacute;as que ofrece aval a aquellas personas que no pueden contar con un fiador y que al acceder al cr&eacute;dito de entidades financieras se les exige una garant&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61708-2014",
+      "tipo": "oficio",
+      "numero": "61708",
+      "fecha": "2014-11-05",
+      "tema": "&iquest;El reintegro del IVA pagado por las organizaciones de cooperaci&oacute;n internacional pueda darse de manera retroactiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27671-2009",
+      "tipo": "oficio",
+      "numero": "27671",
+      "fecha": "2009-04-06",
+      "tema": "Exenci&oacute;n de todo impuesto, tasa o contribuci&oacute;n, los fondos provenientes de auxilios o donaciones de entidades o gobiernos extranjeros convenidos con el Gobierno Colombiano, destinados a realizar programas de utilidad com&uacute;n y amparados por acuerdos intergubernamentales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80676-2007",
+      "tipo": "oficio",
+      "numero": "80676",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Si los recursos con los cuales las EPS est&aacute;n en la obligaci&oacute;n de constituir las reservas t&eacute;cnicas para la financiaci&oacute;n de los servicios del Plan Obligatorio de Salud - POS, son deducibles para la determinaci&oacute;n del Impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033553-2002",
+      "tipo": "concepto",
+      "numero": "0033553",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; tratamiento fiscal tiene la importaci&oacute;n a Colombia de capitales y las pensiones provenientes del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087338-1996",
+      "tipo": "concepto",
+      "numero": "0087338",
+      "fecha": "1996-11-18",
+      "tema": "&iquest;Cu&aacute;l es el n&uacute;mero de identificaci&oacute;n tributaria con que deben presentar las declaraciones de retenci&oacute;n las entidades de derecho p&uacute;blico por cada oficina retenedora teniendo en cuenta que la tarjeta de NIT, la posee la oficina principal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022237-1988",
+      "tipo": "concepto",
+      "numero": "0022237",
+      "fecha": "1988-10-31",
+      "tema": "Tratamiento fiscal a los comit&eacute;s administrativos de Comando de Atenci&oacute;n Inmediata",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-1052-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1052",
+      "year": 2001,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    }
+  ]
+}

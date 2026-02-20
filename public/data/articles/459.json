@@ -1,1 +1,672 @@
-{"id_articulo": "Art. 459", "titulo": "Art. 459. Base gravable en las importaciones.", "titulo_corto": "Base gravable en las importaciones.", "slug": "459", "url_origen": "https://estatuto.co/459", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 6, "contenido_texto": "*La base gravable, sobre la cual se liquida el impuesto sobre las ventas en el caso de las mercancías importadas, será la misma que se tiene en cuenta para liquidar los derechos de aduana, adicionados con el valor de este gravamen. **Parágrafo. Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobrevaloración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC. La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados de manera definitiva o introducidos de manera definitiva, o con materia prima importada, será la establecida en el inciso primero de este artículo adicionando o incluyendo el valor de todos los costos y gastos de producción y descontando el valor de las materias prima y servicios sobre los que ya se haya pagado el IVA, de conformidad con el certificado de integración. Cuando el importador sea el comprador o cliente en territorio aduanero nacional, la base gravable de la declaración de importación será el valor de la factura más los aranceles. Cuando los bienes producidos sean exentos o excluidos de IVA, la salida de zona franca al territorio aduanero nacional se perfeccionará con el Formulario de Movimiento de Mercancías y el certificado de integración. Lo anterior sin perjuicio de presentar declaración de importación cuando haya lugar a pagar derechos de aduana.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La base gravable, sobre la cual se liquida el impuesto sobre las ventas en el caso de las mercancías importadas, será la misma que se tiene en cuenta para liquidar los derechos de aduana, adicionados con el valor de este gravamen.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo. </span></strong>Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobrevaloración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC.</p>\n<p>La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados de manera definitiva o introducidos de manera definitiva, o con materia prima importada, será la establecida en el inciso primero de este artículo adicionando o incluyendo el valor de todos los costos y gastos de producción y descontando el valor de las materias prima y servicios sobre los que ya se haya pagado el IVA, de conformidad con el certificado de integración.</p>\n<p>Cuando el importador sea el comprador o cliente en territorio aduanero nacional, la base gravable de la declaración de importación será el valor de la factura más los aranceles. Cuando los bienes producidos sean exentos o excluidos de IVA, la salida de zona franca al territorio aduanero nacional se perfeccionará con el Formulario de Movimiento de Mercancías y el certificado de integración. Lo anterior sin perjuicio de presentar declaración de importación cuando haya lugar a pagar derechos de aduana.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 633 de 2000 Art 126. **Modificado Ley 2010 de 2019 Art. 8", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "126"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "8"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}], "total_modificaciones": 6, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1607 de 2012", "Ley 1943 de 2018", "Ley 2010 de 2019", "Ley 488 de 1998", "Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. PARÁGRAFO. Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobre valoración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC. La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados, será la establecida en el inciso primero de este artículo adicionado el valor de los costos de producción y sin descontar el valor del componente nacional exportado."]}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 459",
+  "titulo": "Art. 459. Base gravable en las importaciones.",
+  "titulo_corto": "Base gravable en las importaciones.",
+  "slug": "459",
+  "url_origen": "https://estatuto.co/459",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 6,
+  "contenido_texto": "*La base gravable, sobre la cual se liquida el impuesto sobre las ventas en el caso de las mercancías importadas, será la misma que se tiene en cuenta para liquidar los derechos de aduana, adicionados con el valor de este gravamen. **Parágrafo. Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobrevaloración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC. La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados de manera definitiva o introducidos de manera definitiva, o con materia prima importada, será la establecida en el inciso primero de este artículo adicionando o incluyendo el valor de todos los costos y gastos de producción y descontando el valor de las materias prima y servicios sobre los que ya se haya pagado el IVA, de conformidad con el certificado de integración. Cuando el importador sea el comprador o cliente en territorio aduanero nacional, la base gravable de la declaración de importación será el valor de la factura más los aranceles. Cuando los bienes producidos sean exentos o excluidos de IVA, la salida de zona franca al territorio aduanero nacional se perfeccionará con el Formulario de Movimiento de Mercancías y el certificado de integración. Lo anterior sin perjuicio de presentar declaración de importación cuando haya lugar a pagar derechos de aduana.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La base gravable, sobre la cual se liquida el impuesto sobre las ventas en el caso de las mercancías importadas, será la misma que se tiene en cuenta para liquidar los derechos de aduana, adicionados con el valor de este gravamen.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo. </span></strong>Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobrevaloración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC.</p>\n<p>La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados de manera definitiva o introducidos de manera definitiva, o con materia prima importada, será la establecida en el inciso primero de este artículo adicionando o incluyendo el valor de todos los costos y gastos de producción y descontando el valor de las materias prima y servicios sobre los que ya se haya pagado el IVA, de conformidad con el certificado de integración.</p>\n<p>Cuando el importador sea el comprador o cliente en territorio aduanero nacional, la base gravable de la declaración de importación será el valor de la factura más los aranceles. Cuando los bienes producidos sean exentos o excluidos de IVA, la salida de zona franca al territorio aduanero nacional se perfeccionará con el Formulario de Movimiento de Mercancías y el certificado de integración. Lo anterior sin perjuicio de presentar declaración de importación cuando haya lugar a pagar derechos de aduana.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 633 de 2000 Art 126. **Modificado Ley 2010 de 2019 Art. 8",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "126"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "8"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 6,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019",
+    "Ley 488 de 1998",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. PARÁGRAFO. Cuando se trate de mercancías cuyo valor involucre la prestación de un servicio o resulte incrementado por la inclusión del valor de un bien intangible, la base gravable será determinada aplicando las normas sobre valoración aduanera, de conformidad con lo establecido por el Acuerdo de Valoración de la Organización Mundial de Comercio -OMC. La base gravable sobre la cual se liquida el impuesto sobre las ventas -IVA en la importación de productos terminados producidos en el exterior o en zona franca con componentes nacionales exportados, será la establecida en el inciso primero de este artículo adicionado el valor de los costos de producción y sin descontar el valor del componente nacional exportado."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 17934 (2025-12-24): Otros Temas\noficio 13456 (2025-10-06): Tributario - Aduanero\noficio 8922 (2025-07-10): Impuesto Sobre las Ventas - IVA\noficio 10763 (2024-12-20): Impuesto a las ventas\noficio 913308 (2021-10-26): Pago por importaci&oacute;n de bienes, retenci&oacute;n en la fuente",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-17934-2025",
+      "tipo": "oficio",
+      "numero": "17934",
+      "fecha": "2025-12-24",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13456-2025",
+      "tipo": "oficio",
+      "numero": "13456",
+      "fecha": "2025-10-06",
+      "tema": "Tributario - Aduanero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8922-2025",
+      "tipo": "oficio",
+      "numero": "8922",
+      "fecha": "2025-07-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10763-2024",
+      "tipo": "oficio",
+      "numero": "10763",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913308-2021",
+      "tipo": "oficio",
+      "numero": "913308",
+      "fecha": "2021-10-26",
+      "tema": "Pago por importaci&oacute;n de bienes, retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912877-2021",
+      "tipo": "oficio",
+      "numero": "912877",
+      "fecha": "2021-10-14",
+      "tema": "Descuento e impacto fiscal, importaci&oacute;n de bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908373-2021",
+      "tipo": "oficio",
+      "numero": "908373",
+      "fecha": "2021-08-19",
+      "tema": "Formulario de Movimientos de Mercanc&iacute;as e Infracciones Administrativas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904867-2021",
+      "tipo": "oficio",
+      "numero": "904867",
+      "fecha": "2021-05-28",
+      "tema": "&iquest;Se genera IVA en las enajenaciones en el exterior que se efect&uacute;en sobre aeronaves que no est&aacute;n situadas o ubicadas en el territorio nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000626-2020",
+      "tipo": "concepto",
+      "numero": "0000626",
+      "fecha": "2020-12-09",
+      "tema": "(Int 626) Base Gravable IVA en Importaciones - Medidas de defensa comercial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903991-2020",
+      "tipo": "oficio",
+      "numero": "903991",
+      "fecha": "2020-08-14",
+      "tema": "&iquest;Cu&aacute;l es la naturaleza jur&iacute;dica de la Declaraci&oacute;n Especial de Importaci&oacute;n que se estableci&oacute; por parte de la DIAN, seg&uacute;n lo ordenado por el Decreto 1370 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903431-2020",
+      "tipo": "oficio",
+      "numero": "903431",
+      "fecha": "2020-07-23",
+      "tema": "Contrato de construcci&oacute;n con Zona franca",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901166-2020",
+      "tipo": "oficio",
+      "numero": "901166",
+      "fecha": "2020-04-16",
+      "tema": "&iquest;El Decreto 1370 de 2019 y la Resoluci&oacute;n 059 de 2019, se encuentran derogados por el fen&oacute;meno del decaimiento del acto administrativo, como consecuencia de la declaratoria de inexequibilidad con efecto diferido de la Ley 1943 de 2018, seg&uacute;n sentencia C-481 de 2019 de la Corte Constitucional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2684-2020",
+      "tipo": "oficio",
+      "numero": "2684",
+      "fecha": "2020-02-06",
+      "tema": "Base Gravable en las Importaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1534-2019",
+      "tipo": "oficio",
+      "numero": "1534",
+      "fecha": "2019-07-25",
+      "tema": "(Int 1534) &iquest;Aquellos computadores que son importados o adquiridos como excluidos de IVA porque su valor es inferior a 50 UVT se les puede establecer un precio superior a la suma anterior y continuar&iacute;an siendo excluidos o por el contrario su naturaleza cambiar&iacute;a y se reputar&iacute;a como bienes gravados con IVA a la tarifa general?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31993-2019",
+      "tipo": "oficio",
+      "numero": "31993",
+      "fecha": "2019-12-27",
+      "tema": "Mecanismo de devoluci&oacute;n de saldos a favor de contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31989-2019",
+      "tipo": "oficio",
+      "numero": "31989",
+      "fecha": "2019-12-27",
+      "tema": "&iquest;Los usuarios industriales de una zona franca pueden renunciar al derecho a comprar exentos del IVA los bienes que requieren para el desarrollo de su objeto social, desde el TAN por ser un derecho subjetivo renunciable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31296-2019",
+      "tipo": "oficio",
+      "numero": "31296",
+      "fecha": "2019-12-19",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22268-2019",
+      "tipo": "oficio",
+      "numero": "22268",
+      "fecha": "2019-09-05",
+      "tema": "Base gravable de arancel e IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000951-2019",
+      "tipo": "concepto",
+      "numero": "0000951",
+      "fecha": "2019-09-05",
+      "tema": "&iquest;C&oacute;mo se calcula la base gravable de arancel y de IVA en la importaci&oacute;n de bienes desde una Zona Franca al resto del territorio aduanero nacional, cuando en su proceso productivo se incorporan materias primas nacionales, materias primas nacionalizadas en zona franca y materias primas introducidas a la Zona Franca originarias de pa&iacute;ses con los que Colombia tiene celebrado un Tratado de Libre Comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19775-2019",
+      "tipo": "oficio",
+      "numero": "19775",
+      "fecha": "2019-08-08",
+      "tema": "&iquest;La salvaguardia que trata el art&iacute;culo 1o del Decreto 367 de 2019 es base para el c&aacute;lculo del impuesto sobre las ventas, teniendo en cuenta las disposiciones del art&iacute;culo 459 del Estatuto Tributario?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-17555-2019",
+      "tipo": "oficio",
+      "numero": "17555",
+      "fecha": "2019-07-08",
+      "tema": "Impuesto Sobre las Ventas - Exclusi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17521-2019",
+      "tipo": "oficio",
+      "numero": "17521",
+      "fecha": "2019-07-08",
+      "tema": "&iquest;Al establecer la base gravable o monto sobre la cual se liquida el IVA, se debe incluir los costos de producci&oacute;n para la obtenci&oacute;n del bien final?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10668-2019",
+      "tipo": "oficio",
+      "numero": "10668",
+      "fecha": "2019-05-02",
+      "tema": "Iva en el Cambio de Modalidad de Importaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10174-2019",
+      "tipo": "oficio",
+      "numero": "10174",
+      "fecha": "2019-05-02",
+      "tema": "Determinaci&oacute;n de la base gravable del IVA, en los t&eacute;rminos establecidos por el par&aacute;grafo del art&iacute;culo 459 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6686-2019",
+      "tipo": "oficio",
+      "numero": "6686",
+      "fecha": "2019-03-18",
+      "tema": "Base Gravable para las cervezas de producci&oacute;n nacional e importadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6454-2019",
+      "tipo": "oficio",
+      "numero": "6454",
+      "fecha": "2019-03-14",
+      "tema": "Base Gravable de la Cerveza Importada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3474-2019",
+      "tipo": "oficio",
+      "numero": "3474",
+      "fecha": "2019-02-12",
+      "tema": "Valor de referencia para exclusi&oacute;n de IVA de Computadores y Dispositivos M&oacute;viles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1930-2019",
+      "tipo": "oficio",
+      "numero": "1930",
+      "fecha": "2019-01-23",
+      "tema": "Declaraci&oacute;n anual y pago del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31237-2018",
+      "tipo": "oficio",
+      "numero": "31237",
+      "fecha": "2018-10-24",
+      "tema": "&iquest;La DIAN puede dar el mismo tratamiento que le ha otorgado a los computadores personales de escritorio y port&aacute;tiles a los dispositivos m&oacute;viles inteligentes (tabletas y celulares)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19179-2018",
+      "tipo": "oficio",
+      "numero": "19179",
+      "fecha": "2018-07-24",
+      "tema": "Aplicaci&oacute;n del par&aacute;grafo del art&iacute;culo 459 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18094-2018",
+      "tipo": "oficio",
+      "numero": "18094",
+      "fecha": "2018-07-11",
+      "tema": "En los servicios de administraci&oacute;n de inventario que se presta en la zona franca a un cliente ubicado en territorio nacional, &iquest;se debe expedir factura incluyendo el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3937-2018",
+      "tipo": "oficio",
+      "numero": "3937",
+      "fecha": "2018-02-16",
+      "tema": "Para efectos del IVA en la medida en que el art&iacute;culo 400 del Decreto 2685 de 1999, solo menciona la obligaci&oacute;n de utilizar la subpartida de las materias primas sometidas al Sistema de Franja de precios para la liquidaci&oacute;n del gravamen arancelario, &iquest;la tarifa aplicable al IVA deber&iacute;a ser la del bien final (siendo este finalmente el bien que est&aacute; siendo vendido por el usuario de la zona franca a un tercero en el TAN) o el de la materia prima?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902064-2017",
+      "tipo": "oficio",
+      "numero": "902064",
+      "fecha": "2017-03-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17806-2017",
+      "tipo": "oficio",
+      "numero": "17806",
+      "fecha": "2017-07-06",
+      "tema": "Requisitos para la procedencia de las deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6389-2017",
+      "tipo": "oficio",
+      "numero": "6389",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre las ventas - Exclusi&oacute;n del IVA en la importaci&oacute;n o venta de tabletas y celulares",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6220-2017",
+      "tipo": "oficio",
+      "numero": "6220",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6002-2017",
+      "tipo": "oficio",
+      "numero": "6002",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5997-2017",
+      "tipo": "oficio",
+      "numero": "5997",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5993-2017",
+      "tipo": "oficio",
+      "numero": "5993",
+      "fecha": "2017-03-17",
+      "tema": "Aplicaci&oacute;n de lo previsto en el numeral 6 del art&iacute;culo 175 de la Ley 1819 de 2016, relacionado con los bienes que se hallan excluidos del impuesto y por consiguiente su venta o importaci&oacute;n no causa el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5844-2017",
+      "tipo": "oficio",
+      "numero": "5844",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto a las ventas - Bienes Excluidos del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5101-2017",
+      "tipo": "oficio",
+      "numero": "5101",
+      "fecha": "2017-03-09",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5100-2017",
+      "tipo": "oficio",
+      "numero": "5100",
+      "fecha": "2017-03-11",
+      "tema": "Aplicaci&oacute;n de lo previsto en el numeral 6 del art&iacute;culo 175 de la Ley 1819 de 2016, relacionado con los bienes que se hallan excluidos del impuesto y por consiguiente su venta o importaci&oacute;n no causa el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2068-2017",
+      "tipo": "oficio",
+      "numero": "2068",
+      "fecha": "2017-03-24",
+      "tema": "&iquest;Procede la exclusi&oacute;n del impuesto sobre las ventas en la comercializaci&oacute;n de los computadores realizada en el a&ntilde;o 2017, teniendo en cuenta que al momento de la importaci&oacute;n (a&ntilde;o 2016) tales computadores estuvieron excluidos de IVA, pues su valor en aduanas era inferior a los 82 UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0630-2016",
+      "tipo": "oficio",
+      "numero": "0630",
+      "fecha": "2016-06-30",
+      "tema": "&iquest;Cu&aacute;l es la diferencia de la base gravable para liquidar el IVA en los dos casos a) antes de la ley 1607 y b) despu&eacute;s de la ley 1607?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32126-2015",
+      "tipo": "oficio",
+      "numero": "32126",
+      "fecha": "2015-11-09",
+      "tema": "En las ventas por parte de usuarios industriales de zona franca a empresas ubicadas en el resto del territorio aduanero nacional, no proceden los impuestos descontables para el usuario industrial - Devoluci&oacute;n del impuesto sobre las ventas declarado con ocasi&oacute;n de unas exportaciones desde Zona Franca al Territorio Aduanero Nacional - Importaci&oacute;n desde zonas francas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30527-2015",
+      "tipo": "oficio",
+      "numero": "30527",
+      "fecha": "2015-10-23",
+      "tema": "&iquest;Cu&aacute;l es la base gravable del IVA en este caso de reimportaci&oacute;n para perfeccionamiento pasivo, teniendo en cuenta que ninguno de los componentes aeron&aacute;uticos son nacionales, ya que todos los elementos involucrados en la reimportaci&oacute;n son nacionalizados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7632-2015",
+      "tipo": "oficio",
+      "numero": "7632",
+      "fecha": "2015-03-10",
+      "tema": "&iquest;Son consideradas nacionales las materias primas que ingresan al pa&iacute;s con certificado ALADI.?&iquest;C&oacute;mo se calcula la base gravable para el pago del Impuesto sobre las ventas?&iquest;Qui&eacute;n es el responsable de recaudar y pagar el impuesto al consumo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4054-2015",
+      "tipo": "oficio",
+      "numero": "4054",
+      "fecha": "2015-02-13",
+      "tema": "&iquest;La exenci&oacute;n del IVA en la importaci&oacute;n de activos de que trata el art&iacute;culo 428-1 del Estatuto Tributario, cobija a los equipos o elementos a que se refiere la norma o si tambi&eacute;n abarca el valor de los fletes, seguros o gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0965-2015",
+      "tipo": "oficio",
+      "numero": "0965",
+      "fecha": "2015-07-31",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78474-2014",
+      "tipo": "oficio",
+      "numero": "78474",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;El recobro de la garant&iacute;a que el vendedor colombiano hace al vendedor del exterior, est&aacute; gravado con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67673-2014",
+      "tipo": "oficio",
+      "numero": "67673",
+      "fecha": "2014-12-24",
+      "tema": "Partiendo de la base de que los computadores personales de escritorio o port&aacute;tiles cuyo valor sea inferior a 82 UVT (2.253.770 Ps.) est&aacute;n excluidos de IVA, se pregunta si cuando estos bienes se adquieren de mayoristas por este valor y luego se comercializan a un valor superior a 82 UVT, &iquest;los mismos estar&iacute;an excluidos o gravados con el impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67323-2014",
+      "tipo": "oficio",
+      "numero": "67323",
+      "fecha": "2014-12-23",
+      "tema": "Base Gravable del Iva para Cervezas importadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15433-2013",
+      "tipo": "oficio",
+      "numero": "15433",
+      "fecha": "2013-03-14",
+      "tema": "&iquest;Aplica la base gravable establecida por el art&iacute;culo 45 de la Ley 1607 de 2012, a las importaciones efectuadas por empresas ubicadas en el territorio aduanero nacional de mercanc&iacute;as producidas por un usuario industrial de bienes establecido en zona franca desde el a&ntilde;o 2006?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0941-2013",
+      "tipo": "oficio",
+      "numero": "0941",
+      "fecha": "2013-07-08",
+      "tema": "&iquest;Cu&aacute;l es la base gravable sobre la que aplica el impuesto sobre las ventas en la importaci&oacute;n de productos terminados producidos en zonas francas declaradas antes del 31 de diciembre de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45453-2011",
+      "tipo": "oficio",
+      "numero": "45453",
+      "fecha": "2011-06-21",
+      "tema": "Solicita usted la reconsideraci&oacute;n del Oficio n&uacute;mero 99610 del 4 de diciembre de 2007 en el punto dos (2) de la conclusi&oacute;n, que se&ntilde;ala que el Usuario Industrial que vende desde Zona Franca debe expedir factura sin liquidar IVA al adquirente del territorio nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046014-2009",
+      "tipo": "concepto",
+      "numero": "0046014",
+      "fecha": "2009-06-08",
+      "tema": "&iquest;Cual es la base gravable sobre la cual se liquida el impuesto sobre las ventas en las importaciones de ACPM?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13853-2008",
+      "tipo": "oficio",
+      "numero": "13853",
+      "fecha": "2008-12-18",
+      "tema": "&iquest;C&oacute;mo se debe calcular el valor en aduanas que sirve de base para la liquidaci&oacute;n del IVA en el caso de un cambio de modalidad de importaci&oacute;n temporal de largo plazo a importaci&oacute;n ordinaria de maquinaria pesada para la industria b&aacute;sica, importada bajo la figura del arrendamiento financiero con opci&oacute;n de compra?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99610-2007",
+      "tipo": "oficio",
+      "numero": "99610",
+      "fecha": "2007-12-04",
+      "tema": "Reconsideraci&oacute;n de los Conceptos 100453 del 28 de noviembre de 2006 y 038891 de 25 de mayo de 2007, por cuanto considera que en las ventas por parte de usuarios industriales de zona franca a empresas ubicadas en el resto del territorio aduanero nacional, proceden los impuestos descontables por los servicios gravados en que incurri&oacute; el usuario industrial en la producci&oacute;n de los bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30140-2007",
+      "tipo": "oficio",
+      "numero": "30140",
+      "fecha": "2007-04-20",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen impositivo aplicable a los cigarrillos y cervezas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28190-2007",
+      "tipo": "oficio",
+      "numero": "28190",
+      "fecha": "2007-04-13",
+      "tema": "&iquest;C&oacute;mo se debe calcular la base y la tarifa para el pago del Impuesto a las Ventas en la importaci&oacute;n de cigarrillo y tabaco elaborado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28189-2007",
+      "tipo": "oficio",
+      "numero": "28189",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;C&oacute;mo se debe calcular la base y la tarifa para el pago del Impuesto a las Ventas en la importaci&oacute;n de cigarrillo y tabaco elaborado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2006",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2006-02-08",
+      "tema": "&iquest;Cu&aacute;l es la base gravable del Impuesto sobre las Ventas en la importaci&oacute;n de mercanc&iacute;as, cuando los servicios de instalaci&oacute;n y montaje forman parte de la transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19185-2004",
+      "tipo": "oficio",
+      "numero": "19185",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Los impuestos sobre las ventas pagados por algunos rubros durante el proceso de importaci&oacute;n, forman parte de la base gravable del impuesto sobre las ventas que se genera en la importaci&oacute;n del producto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068467-2002",
+      "tipo": "concepto",
+      "numero": "0068467",
+      "fecha": "2002-10-21",
+      "tema": "&iquest;Qu&eacute; impuestos genera el pago de un servicio prestado en el exterior por un extranjero contratado por un residente en Colombia, consistente en transformar en el exterior materia prima que &eacute;ste le env&iacute;a y que posteriormente reingresa al pa&iacute;s como bien terminado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039054-2001",
+      "tipo": "concepto",
+      "numero": "0039054",
+      "fecha": "2001-05-15",
+      "tema": "&iquest;Cuando un usuario de Zona Franca introduce mercanc&iacute;a desde el exterior y la comercializa a clientes del territorio nacional, debe facturar el impuesto sobre las ventas en la factura de venta desde Zona Franca?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0107300-2000",
+      "tipo": "concepto",
+      "numero": "0107300",
+      "fecha": "2000-11-01",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para liquidar el impuesto sobre las ventas de los bienes en la importaci&oacute;n de bienes producidos o transformados en Zona Franca?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015491-2000",
+      "tipo": "concepto",
+      "numero": "0015491",
+      "fecha": "2000-02-22",
+      "tema": "Contrato llave en mano. Quien cubre los tributos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052780-1999",
+      "tipo": "concepto",
+      "numero": "0052780",
+      "fecha": "1999-06-04",
+      "tema": "&iquest;Con relaci&oacute;n a los veh&iacute;culos que ingresaron al territorio nacional hace mas de cuatro a&ntilde;os, bajo la modalidad de importaci&oacute;n con franquicia y posteriormente se presento fa modificaci&oacute;n a la declaraci&oacute;n para que quede en libre disposici&oacute;n, es procedente la liquidaci&oacute;n del IVA del 16% de que trata el par&aacute;grafo del art&iacute;culo 97 de la Ley 488 de 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088337-1996",
+      "tipo": "concepto",
+      "numero": "0088337",
+      "fecha": "1996-11-20",
+      "tema": "&iquest;Se encuentran sometidos a la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta los pagos efectuados por entidades nacionales (contratantes) en favor de sociedades extranjeras sin domicilio en el pa&iacute;s (contratistas), por concepto de suministro de bienes en el territorio nacional, cuando dichos pagos se hacen a trav&eacute;s de sociedades nacionales que representan en Colombia a las contratistas del exterior? &iquest;Las sociedades nacionales que en su condici&oacute;n de representantes de contratistas sociedades extrajeras sin domicilio en el pa&iacute;s importen bienes a nombre de su representadas para cumplir con contratos de suministros suscritos con entidades nacionales contratantes, pueden solicitar como impuesto descontable el impuesto a las ventas pagado en la importaci&oacute;n de los bienes objeto de los contratos de suministro? &iquest;Se debe practicar la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre las ventas, en el momento del pago o abono en cuenta efectuado por entidades nacionales en favor de sociedades extranjeras sin domicilio en el pa&iacute;s por concepto de suministro de bienes en el pa&iacute;s a trav&eacute;s de sociedades nacionales que representan en Colombia a contratistas extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013891-1992",
+      "tipo": "concepto",
+      "numero": "0013891",
+      "fecha": "1992-01-01",
+      "tema": "Causaci&oacute;n del impuesto por importaci&oacute;n del Plan Vallejo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031391-1990",
+      "tipo": "concepto",
+      "numero": "0031391",
+      "fecha": "1990-12-12",
+      "tema": "Debido a interpretaciones equivocadas que algunos responsables del impuesto sobre las ventas se distinguimos dos modalidades de contrataci&oacute;n,el contratante compra en el exterior, hace la importaci&oacute;n y contrata los servicios de montaje, instalaci&oacute;n., puesta en marcha, etc., en virtud del contrato, el contratista importa y realiza luego la instalaci&oacute;n, la supervisi&oacute;n, el mantenimiento, el entrenamiento del personal, etc.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018551-1990",
+      "tipo": "concepto",
+      "numero": "0018551",
+      "fecha": "1990-01-01",
+      "tema": "Causaci&oacute;n en importaciones del impuesto sobre las ventas respecto a maquinaria y equipos tra&iacute;dos al pa&iacute;s por Plan Vallejo",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    }
+  ]
+}

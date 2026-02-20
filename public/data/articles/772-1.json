@@ -1,1 +1,54 @@
-{"id_articulo": "Art. 772-1", "titulo": "Art. 772-1. Conciliación fiscal.", "titulo_corto": "Conciliación fiscal.", "slug": "772-1", "url_origen": "https://estatuto.co/772-1", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Sin perjuicio de lo previsto en el articulo 4 de la Ley 1314 de 2009, los contribuyentes obligados a llevar contabilidad deberán llevar un sistema de control o de conciliaciones de las diferencias que surjan entre la aplicación de los nuevos marcos técnicos normativos contables y las disposiciones de este Estatuto. El gobierno nacional reglamentará la materia. El incumplimiento de esta obligación se considera para efectos sancionatorios como una irregularidad en la contabilidad.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Sin perjuicio de lo previsto en el articulo 4 de la Ley 1314 de 2009, los contribuyentes obligados a llevar contabilidad deberán llevar un sistema de control o de conciliaciones de las diferencias que surjan entre la aplicación de los nuevos marcos técnicos normativos contables y las disposiciones de este Estatuto. El gobierno nacional reglamentará la materia.</p>\n<p>El incumplimiento de esta obligación se considera para efectos sancionatorios como una irregularidad en la contabilidad.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 137.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "137"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 772-1",
+  "titulo": "Art. 772-1. Conciliación fiscal.",
+  "titulo_corto": "Conciliación fiscal.",
+  "slug": "772-1",
+  "url_origen": "https://estatuto.co/772-1",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Sin perjuicio de lo previsto en el articulo 4 de la Ley 1314 de 2009, los contribuyentes obligados a llevar contabilidad deberán llevar un sistema de control o de conciliaciones de las diferencias que surjan entre la aplicación de los nuevos marcos técnicos normativos contables y las disposiciones de este Estatuto. El gobierno nacional reglamentará la materia. El incumplimiento de esta obligación se considera para efectos sancionatorios como una irregularidad en la contabilidad.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Sin perjuicio de lo previsto en el articulo 4 de la Ley 1314 de 2009, los contribuyentes obligados a llevar contabilidad deberán llevar un sistema de control o de conciliaciones de las diferencias que surjan entre la aplicación de los nuevos marcos técnicos normativos contables y las disposiciones de este Estatuto. El gobierno nacional reglamentará la materia.</p>\n<p>El incumplimiento de esta obligación se considera para efectos sancionatorios como una irregularidad en la contabilidad.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 137.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "137"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 9123 (2025-06-12): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-9123-2025",
+      "tipo": "oficio",
+      "numero": "9123",
+      "fecha": "2025-06-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    }
+  ]
+}

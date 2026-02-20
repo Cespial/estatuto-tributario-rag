@@ -1,1 +1,64 @@
-{"id_articulo": "Art. 829-1", "titulo": "Art. 829-1. Efectos de la revocatoria directa.", "titulo_corto": "Efectos de la revocatoria directa.", "slug": "829-1", "url_origen": "https://estatuto.co/829-1", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*En el procedimiento administrativo de cobro, no podrán debatirse cuestiones que debieron ser objeto de discusión en la vía gubernativa. La interposición de la revocatoria directa o la petición de que trata el artículo 567, no suspende el proceso de cobro, pero el remate no se realizará hasta que exista pronunciamiento definitivo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En el procedimiento administrativo de cobro, no podrán debatirse cuestiones que debieron ser objeto de discusión en la vía gubernativa.</p>\n<p>La interposición de la revocatoria directa o la petición de que trata el <a href=\"https://estatuto.co/567\" rel=\"noopener\" target=\"_blank\">artículo 567</a>, no suspende el proceso de cobro, pero el remate no se realizará hasta que exista pronunciamiento definitivo.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 105.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "105"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["567"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 829-1",
+  "titulo": "Art. 829-1. Efectos de la revocatoria directa.",
+  "titulo_corto": "Efectos de la revocatoria directa.",
+  "slug": "829-1",
+  "url_origen": "https://estatuto.co/829-1",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*En el procedimiento administrativo de cobro, no podrán debatirse cuestiones que debieron ser objeto de discusión en la vía gubernativa. La interposición de la revocatoria directa o la petición de que trata el artículo 567, no suspende el proceso de cobro, pero el remate no se realizará hasta que exista pronunciamiento definitivo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En el procedimiento administrativo de cobro, no podrán debatirse cuestiones que debieron ser objeto de discusión en la vía gubernativa.</p>\n<p>La interposición de la revocatoria directa o la petición de que trata el <a href=\"https://estatuto.co/567\" rel=\"noopener\" target=\"_blank\">artículo 567</a>, no suspende el proceso de cobro, pero el remate no se realizará hasta que exista pronunciamiento definitivo.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 105.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "105"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "567"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 16261 (2025-11-25): Procedimiento Tributario\noficio 3135 (2025-02-20): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16261-2025",
+      "tipo": "oficio",
+      "numero": "16261",
+      "fecha": "2025-11-25",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3135-2025",
+      "tipo": "oficio",
+      "numero": "3135",
+      "fecha": "2025-02-20",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    }
+  ]
+}

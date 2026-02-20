@@ -1,1 +1,522 @@
-{"id_articulo": "Art. 583", "titulo": "Art. 583. Reserva de la declaración.", "titulo_corto": "Reserva de la declaración.", "slug": "583", "url_origen": "https://estatuto.co/583", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "La información tributaria respecto de las bases gravables y la determinación privada de los impuestos que figuren en las declaraciones tributarias, tendrá el carácter de información reservada; por consiguiente, los funcionarios de la Dirección General de Impuestos Nacionales sólo podrán utilizarla para el control, recaudo, determinación, discusión y administración de los impuestos y para efectos de informaciones impersonales de estadística. En los procesos penales, podrá suministrarse copia de las declaraciones, cuando la correspondiente autoridad lo decrete como prueba en la providencia respectiva. Los bancos y demás entidades que en virtud de la autorización para recaudar los impuestos y recibir las declaraciones tributarias, de competencia de la Dirección General de Impuestos Nacionales, conozcan las informaciones y demás datos de carácter tributario de las declaraciones, deberán guardar la más absoluta reserva con relación a ellos y sólo los podrán utilizar para los fines del procesamiento de la información, que demanden los reportes de recaudo y recepción, exigidos por el Ministerio de Hacienda y Crédito Público. Lo anterior, sin perjuicio de lo dispuesto en los artículos siguientes. *Parágrafo. Para fines de control al lavado de activos, La Dirección de Impuestos y Aduanas Nacionales deberá remitir, a solicitud de la dependencia encargada de investigar el lavado de activos, la información relativa a las declaraciones e investigaciones de carácter tributario, aduanero y cambiario, que posea en sus archivos físicos y/o en sus bases de datos. **Parágrafo. La Dirección de Impuestos y Aduanas Nacionales deberá garantizar la publicación de una muestra anonimizada y representativa de las declaraciones de los diferentes impuestos administrados por la entidad, de manera periódica y aplicando el principio de divulgación proactiva de la información consignado en la Ley 1712 de 2014.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La información tributaria respecto de las bases gravables y la determinación privada de los impuestos que figuren en las declaraciones tributarias, tendrá el carácter de información reservada; por consiguiente, los funcionarios de la Dirección General de Impuestos Nacionales sólo podrán utilizarla para el control, recaudo, determinación, discusión y administración de los impuestos y para efectos de informaciones impersonales de estadística.</p>\n<p>En los procesos penales, podrá suministrarse copia de las declaraciones, cuando la correspondiente autoridad lo decrete como prueba en la providencia respectiva.</p>\n<p>Los bancos y demás entidades que en virtud de la autorización para recaudar los impuestos y recibir las declaraciones tributarias, de competencia de la Dirección General de Impuestos Nacionales, conozcan las informaciones y demás datos de carácter tributario de las declaraciones, deberán guardar la más absoluta reserva con relación a ellos y sólo los podrán utilizar para los fines del procesamiento de la información, que demanden los reportes de recaudo y recepción, exigidos por el Ministerio de Hacienda y Crédito Público.</p>\n<p>Lo anterior, sin perjuicio de lo dispuesto en los artículos siguientes.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*Parágrafo. </span></span></strong>Para fines de control al lavado de activos, La Dirección de Impuestos y Aduanas Nacionales deberá remitir, a solicitud de la dependencia encargada de investigar el lavado de activos, la información relativa a las declaraciones e investigaciones de carácter tributario, aduanero y cambiario, que posea en sus archivos físicos y/o en sus bases de datos.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**Parágrafo. </span></span></strong> <span style=\"font-weight: 400;\">La Dirección de Impuestos y Aduanas Nacionales deberá garantizar la publicación de una muestra anonimizada y representativa de las declaraciones de los diferentes impuestos administrados por la entidad, de manera periódica y aplicando el principio de divulgación proactiva de la información consignado en la Ley 1712 de 2014.</span></p>\n</span>", "modificaciones_raw": "*Adicionado Ley 488 de 1998 Art 89. **Adicionado Ley 2277 de 2022 Art 79.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": "89"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "79"}], "total_modificaciones": 2, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 2277 de 2022", "Ley 488 de 1998"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["693"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 583",
+  "titulo": "Art. 583. Reserva de la declaración.",
+  "titulo_corto": "Reserva de la declaración.",
+  "slug": "583",
+  "url_origen": "https://estatuto.co/583",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "La información tributaria respecto de las bases gravables y la determinación privada de los impuestos que figuren en las declaraciones tributarias, tendrá el carácter de información reservada; por consiguiente, los funcionarios de la Dirección General de Impuestos Nacionales sólo podrán utilizarla para el control, recaudo, determinación, discusión y administración de los impuestos y para efectos de informaciones impersonales de estadística. En los procesos penales, podrá suministrarse copia de las declaraciones, cuando la correspondiente autoridad lo decrete como prueba en la providencia respectiva. Los bancos y demás entidades que en virtud de la autorización para recaudar los impuestos y recibir las declaraciones tributarias, de competencia de la Dirección General de Impuestos Nacionales, conozcan las informaciones y demás datos de carácter tributario de las declaraciones, deberán guardar la más absoluta reserva con relación a ellos y sólo los podrán utilizar para los fines del procesamiento de la información, que demanden los reportes de recaudo y recepción, exigidos por el Ministerio de Hacienda y Crédito Público. Lo anterior, sin perjuicio de lo dispuesto en los artículos siguientes. *Parágrafo. Para fines de control al lavado de activos, La Dirección de Impuestos y Aduanas Nacionales deberá remitir, a solicitud de la dependencia encargada de investigar el lavado de activos, la información relativa a las declaraciones e investigaciones de carácter tributario, aduanero y cambiario, que posea en sus archivos físicos y/o en sus bases de datos. **Parágrafo. La Dirección de Impuestos y Aduanas Nacionales deberá garantizar la publicación de una muestra anonimizada y representativa de las declaraciones de los diferentes impuestos administrados por la entidad, de manera periódica y aplicando el principio de divulgación proactiva de la información consignado en la Ley 1712 de 2014.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La información tributaria respecto de las bases gravables y la determinación privada de los impuestos que figuren en las declaraciones tributarias, tendrá el carácter de información reservada; por consiguiente, los funcionarios de la Dirección General de Impuestos Nacionales sólo podrán utilizarla para el control, recaudo, determinación, discusión y administración de los impuestos y para efectos de informaciones impersonales de estadística.</p>\n<p>En los procesos penales, podrá suministrarse copia de las declaraciones, cuando la correspondiente autoridad lo decrete como prueba en la providencia respectiva.</p>\n<p>Los bancos y demás entidades que en virtud de la autorización para recaudar los impuestos y recibir las declaraciones tributarias, de competencia de la Dirección General de Impuestos Nacionales, conozcan las informaciones y demás datos de carácter tributario de las declaraciones, deberán guardar la más absoluta reserva con relación a ellos y sólo los podrán utilizar para los fines del procesamiento de la información, que demanden los reportes de recaudo y recepción, exigidos por el Ministerio de Hacienda y Crédito Público.</p>\n<p>Lo anterior, sin perjuicio de lo dispuesto en los artículos siguientes.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*Parágrafo. </span></span></strong>Para fines de control al lavado de activos, La Dirección de Impuestos y Aduanas Nacionales deberá remitir, a solicitud de la dependencia encargada de investigar el lavado de activos, la información relativa a las declaraciones e investigaciones de carácter tributario, aduanero y cambiario, que posea en sus archivos físicos y/o en sus bases de datos.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">**Parágrafo. </span></span></strong> <span style=\"font-weight: 400;\">La Dirección de Impuestos y Aduanas Nacionales deberá garantizar la publicación de una muestra anonimizada y representativa de las declaraciones de los diferentes impuestos administrados por la entidad, de manera periódica y aplicando el principio de divulgación proactiva de la información consignado en la Ley 1712 de 2014.</span></p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 488 de 1998 Art 89. **Adicionado Ley 2277 de 2022 Art 79.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": "89"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "79"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 2277 de 2022",
+    "Ley 488 de 1998"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "693"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 16779 (2025-10-23): Procedimiento Tributario\noficio 2097 (2024-03-20): (Int 199) Traslado de pruebas - &iquest;En el marco de un proceso de determinaci&oacute;n de obligaciones o de imposici&oacute;n de sanciones, puede la administraci&oacute;n tributaria trasladar pruebas del expediente de un contribuyente al expediente de otro contribuyente?\noficio 901297 (2022-02-22): (018) &iquest;Los servicios de gr&uacute;a causan IVA u otros impuestos?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16779-2025",
+      "tipo": "oficio",
+      "numero": "16779",
+      "fecha": "2025-10-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2097-2024",
+      "tipo": "oficio",
+      "numero": "2097",
+      "fecha": "2024-03-20",
+      "tema": "(Int 199) Traslado de pruebas - &iquest;En el marco de un proceso de determinaci&oacute;n de obligaciones o de imposici&oacute;n de sanciones, puede la administraci&oacute;n tributaria trasladar pruebas del expediente de un contribuyente al expediente de otro contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901297-2022",
+      "tipo": "oficio",
+      "numero": "901297",
+      "fecha": "2022-02-22",
+      "tema": "(018) &iquest;Los servicios de gr&uacute;a causan IVA u otros impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26832-2019",
+      "tipo": "oficio",
+      "numero": "26832",
+      "fecha": "2019-10-24",
+      "tema": "Intercambio de informaci&oacute;n entre dos entidades para el cumplimiento de sus funciones legales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25667-2019",
+      "tipo": "oficio",
+      "numero": "25667",
+      "fecha": "2019-10-23",
+      "tema": "Reserva de las Informaciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2181-2019",
+      "tipo": "oficio",
+      "numero": "2181",
+      "fecha": "2019-01-29",
+      "tema": "&iquest;Cu&aacute;les son las plataformas que son responsables de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1350-2019",
+      "tipo": "oficio",
+      "numero": "1350",
+      "fecha": "2019-12-03",
+      "tema": "&iquest;Puede autorizar expresamente un contribuyente a una entidad financiera, a consultar, recolectar y conservar datos reportados por los contribuyentes ante la Direcci&oacute;n de Impuestos y Aduanas Nacionales para el Estudio, evaluaci&oacute;n o contrataci&oacute;n de sus productos y servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1227-2019",
+      "tipo": "oficio",
+      "numero": "1227",
+      "fecha": "2019-11-05",
+      "tema": "(Int 18975) Determinaci&oacute;n de informaci&oacute;n reservada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29511-2018",
+      "tipo": "oficio",
+      "numero": "29511",
+      "fecha": "2018-10-04",
+      "tema": "Posibilidad de permitir a los acreedores financieros la validaci&oacute;n de la informaci&oacute;n suministrada por los deudores en las bases de datos de la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27647-2018",
+      "tipo": "oficio",
+      "numero": "27647",
+      "fecha": "2018-09-24",
+      "tema": "(Int 1195) Datos que reposan en las declaraciones tributarias, para los casos que se requieran para el cumplimiento de lo establecido en el art&iacute;culo 2 de la Ley Estatutaria 1621 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5708-2018",
+      "tipo": "oficio",
+      "numero": "5708",
+      "fecha": "2018-03-07",
+      "tema": "Contrato de simulaci&oacute;n - &iquest;Cu&aacute;ndo se est&aacute; ante un contrato de construcci&oacute;n y cu&aacute;ndo ante una venta con instalaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5269-2018",
+      "tipo": "oficio",
+      "numero": "5269",
+      "fecha": "2018-03-07",
+      "tema": "Copia de los formularios de declaraci&oacute;n de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0830-2018",
+      "tipo": "oficio",
+      "numero": "0830",
+      "fecha": "2018-06-26",
+      "tema": "&iquest;La Contralor&iacute;a General de la Rep&uacute;blica acceder a la informaci&oacute;n sujeta a secreto fiscal - reserva tributaria- en el marco de sus actividades de control? En caso afirmativo, cual es el procedimiento que permite el acceso y cu&aacute;l es su normatividad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0429-2018",
+      "tipo": "oficio",
+      "numero": "0429",
+      "fecha": "2018-01-05",
+      "tema": "Beneficios tributarios otorgados a usuarios por inversi&oacute;n en control y mejoramiento del ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0037-2018",
+      "tipo": "oficio",
+      "numero": "0037",
+      "fecha": "2018-01-24",
+      "tema": "&iquest;C&oacute;mo se interpretan y se aplican los preceptos normativos en los procesos administrativos de fiscalizaci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29793-2017",
+      "tipo": "oficio",
+      "numero": "29793",
+      "fecha": "2017-11-02",
+      "tema": "&iquest;La divulgaci&oacute;n y tr&aacute;mite dado a las Denuncias formuladas ante la DIAN por parte de una sociedad, ha causado o puede causar un da&ntilde;o en cuanto al derecho de toda persona a la intimidad, a la vida, la salud o la seguridad, los secretos comerciales, industriales o profesionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25551-2016",
+      "tipo": "oficio",
+      "numero": "25551",
+      "fecha": "2016-09-15",
+      "tema": "Declaraci&oacute;n de renta y complementarios - presentaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11758-2016",
+      "tipo": "oficio",
+      "numero": "11758",
+      "fecha": "2016-05-13",
+      "tema": "Reserva Tributaria - Informaci&oacute;n Tributaria que Se Puede Suministrar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10720-2016",
+      "tipo": "oficio",
+      "numero": "10720",
+      "fecha": "2016-05-04",
+      "tema": "Reserva Tributaria Informaci&oacute;n tributaria que se puede suministrar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0201-2016",
+      "tipo": "oficio",
+      "numero": "0201",
+      "fecha": "2016-03-11",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir en un potencial convenio a suscribir por parte del Ej&eacute;rcito Nacional de entrega de informaci&oacute;n que es recolectada por parte de la UAE Direcci&oacute;n de Impuesto de Aduanas Nacionales (DIAN)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34993-2015",
+      "tipo": "oficio",
+      "numero": "34993",
+      "fecha": "2015-12-29",
+      "tema": "&iquest;Es oponible o no, la reserva de la informaci&oacute;n tributaria contenida en las declaraciones y expedientes de los contribuyentes, para la Sala Jurisdiccional Disciplinaria del Consejo Superior de la Judicatura, en ejercicio de la acci&oacute;n disciplinaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27857-2015",
+      "tipo": "oficio",
+      "numero": "27857",
+      "fecha": "2015-10-07",
+      "tema": "Posibilidad de suministrar informaci&oacute;n a terceros respecto de los c&oacute;digos de actividad econ&oacute;mica - CIIU - registrados en el Registro &Uacute;nico Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16487-2015",
+      "tipo": "oficio",
+      "numero": "16487",
+      "fecha": "2015-06-04",
+      "tema": "&iquest;Los sujetos pasivos del Impuesto a la Riqueza que dentro de su patrimonio posean activos sujetos y destinados a la generaci&oacute;n de rentas afectas al Sistema General de Seguridad Social en salud, deben incluirlos dentro de la base a efectos de calcular aquel tributo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9686-2015",
+      "tipo": "oficio",
+      "numero": "9686",
+      "fecha": "2015-03-31",
+      "tema": "Registro &Uacute;nico Tributario Rut - Reserva de las Informaciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9678-2015",
+      "tipo": "oficio",
+      "numero": "9678",
+      "fecha": "2015-03-31",
+      "tema": "Solicita el suministro de informaci&oacute;n respecto de las personas jur&iacute;dicas y naturales, cuya actividad principal o secundaria est&eacute; comprendida dentro de los c&oacute;digos CIIU de la secci&oacute;n F divisi&oacute;n 49-53, que hayan presentado declaraci&oacute;n de renta en los a&ntilde;os gravables 2012 y 2013, con respecto a su NIT, raz&oacute;n social e ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4634-2015",
+      "tipo": "oficio",
+      "numero": "4634",
+      "fecha": "2015-01-01",
+      "tema": "Reserva de las Informaciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0742-2015",
+      "tipo": "oficio",
+      "numero": "0742",
+      "fecha": "2015-06-03",
+      "tema": "&iquest;Es procedente acoger la solicitud de reserva cuando esta se solicita expresamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0176-2015",
+      "tipo": "oficio",
+      "numero": "0176",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Existe o no limitaci&oacute;n, para hacer entrega de las declaraciones juramentadas de bienes y rentas a la Unidad Administrativa Especial Agencia del Inspector General de Tributos, Rentas y Contribuciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61418-2014",
+      "tipo": "oficio",
+      "numero": "61418",
+      "fecha": "2014-10-31",
+      "tema": "Solicita la reconsideraci&oacute;n de la tesis expuesta en el Oficio n&uacute;mero 45724 del 24 de julio de 2013, mediante la cual se concluye que no resulta viable proporcionar a una entidad p&uacute;blica informaci&oacute;n contenida en el RUT, pues este no est&aacute; catalogado como un registro p&uacute;blico, por lo que su informaci&oacute;n no es de libre consulta y en el evento de establecerse un intercambio de informaci&oacute;n, esta solamente podr&aacute; versar sobre informaci&oacute;n solamente relacionada con la identificaci&oacute;n (NIT, nombres, apellidos, raz&oacute;n social) y la ubicaci&oacute;n (direcci&oacute;n, municipio, departamento) de los contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0546-2014",
+      "tipo": "oficio",
+      "numero": "0546",
+      "fecha": "2014-07-11",
+      "tema": "reserva de la informaci&oacute;n - Reserva de la declaraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71405-2013",
+      "tipo": "oficio",
+      "numero": "71405",
+      "fecha": "2013-11-06",
+      "tema": "Derecho de petici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68383-2013",
+      "tipo": "oficio",
+      "numero": "68383",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Qu&eacute; informaci&oacute;n del Registro &Uacute;nico Tributario RUT y de las declaraciones tributarias del impuesto sobre la renta o de ingresos y patrimonio es viable que la DIAN entregue al DANE con el fin de la actualizaci&oacute;n del Directorio Estad&iacute;stico de Empresas y cu&aacute;l ser&iacute;a el procedimiento y responsable de la entrega de dicha informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54355-2013",
+      "tipo": "oficio",
+      "numero": "54355",
+      "fecha": "2013-08-29",
+      "tema": "Viabilidad de lograr un intercambio de informaci&oacute;n en l&iacute;nea con el fin de reducir los tr&aacute;mites en que deben, incurrir los ciudadanos para adelantar el proceso de definici&oacute;n de su situaci&oacute;n militar y liquidar la respectiva cuota de compensaci&oacute;n militar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45724-2013",
+      "tipo": "oficio",
+      "numero": "45724",
+      "fecha": "2013-07-24",
+      "tema": "&iquest;Los solicitantes para adjudicaci&oacute;n de predios rurales, se hallan o no obligados legalmente a presentar declaraci&oacute;n del impuesto de renta con arreglo a las normas vigentes, a fin de dar cumplimiento a lo se&ntilde;alado en la Ley 160 de 1994 y decretos reglamentarios relacionados con los procedimientos para la adjudicaci&oacute;n de predios rurales a personas naturales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-43596-2013",
+      "tipo": "oficio",
+      "numero": "43596",
+      "fecha": "2013-07-16",
+      "tema": "Retenci&oacute;n en la fuente en la colocaci&oacute;n independiente de juegos de suerte y azar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8614-2013",
+      "tipo": "oficio",
+      "numero": "8614",
+      "fecha": "2013-02-14",
+      "tema": "Suministro de informaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0645-2013",
+      "tipo": "oficio",
+      "numero": "0645",
+      "fecha": "2013-08-28",
+      "tema": "&iquest;La DIAN debe conservar la reserva de la informaci&oacute;n ex&oacute;gena o tributaria, con relaci&oacute;n de solicitudes que remita la Contralor&iacute;a General, la Fiscal&iacute;a, o la Procuradur&iacute;a General",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52677-2012",
+      "tipo": "oficio",
+      "numero": "52677",
+      "fecha": "2012-08-17",
+      "tema": "Alcance de la palabra",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39078-2012",
+      "tipo": "oficio",
+      "numero": "39078",
+      "fecha": "2012-06-20",
+      "tema": "&iquest;El Registro &Uacute;nico Tributario - RUT se puede catalogar como un certificado tributario y si el mismo tiene el car&aacute;cter de registro p&uacute;blico?&iquest;Cu&aacute;les datos del RUT pueden ser compartidos con las entidades p&uacute;blicas y particulares que ejerzan funciones p&uacute;blicas y bajo qu&eacute; condiciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58515-2011",
+      "tipo": "oficio",
+      "numero": "58515",
+      "fecha": "2011-08-05",
+      "tema": "Informaci&oacute;n reservada de los datos individualizados contenidos en el RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28604-2010",
+      "tipo": "oficio",
+      "numero": "28604",
+      "fecha": "2010-04-23",
+      "tema": "Solicitud de informaci&oacute;n discriminada del valor del impuesto de renta y complementarios, retenciones y otros pagos por concepto de impuestos nacionales efectuados por la comercializadora DMG desde su creaci&oacute;n hasta la fecha de su intervenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081635-2009",
+      "tipo": "concepto",
+      "numero": "0081635",
+      "fecha": "2009-10-06",
+      "tema": "&iquest;Qu&eacute; informaci&oacute;n de las declaraciones del Impuesto sobre la Renta y Complementarios e Impuesto sobre las Ventas, as&iacute; como la recolectada directamente de loa contribuyentes y no contribuyentes puede ser entregada por la DIAN a las Secretar&iacute;as de Hacienda Departamentales y Municipales en virtud de la celebraci&oacute;n de convenios interinstitucionales de intercambio de informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101639-2008",
+      "tipo": "oficio",
+      "numero": "101639",
+      "fecha": "2008-10-14",
+      "tema": "&iquest;Hay posibilidad de suministrar informaci&oacute;n a un tercero contenida en un expediente de esa dependencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089834-2007",
+      "tipo": "concepto",
+      "numero": "0089834",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;En la etapa de determinaci&oacute;n oficial del impuesto los expedientes podr&aacute;n ser examinados por el contribuyente y-o su apoderado legalmente constituido o abogados autorizados mediante memorial presentando personalmente por el contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20005-2007",
+      "tipo": "oficio",
+      "numero": "20005",
+      "fecha": "2007-03-14",
+      "tema": "Sobre la viabilidad de actualizar de oficio el RUT de los contribuyentes calificados como autorretenedores o a quienes se les suspende tal calidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0076054-2006",
+      "tipo": "concepto",
+      "numero": "0076054",
+      "fecha": "2006-09-06",
+      "tema": "&iquest;Qui&eacute;n puede solicitar la informaci&oacute;n relativa a las declaraciones e investigaciones de car&aacute;cter tributario, para fines de control a l lavado de activos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57336-2005",
+      "tipo": "oficio",
+      "numero": "57336",
+      "fecha": "2005-08-23",
+      "tema": "&iquest;Qu&eacute; informaci&oacute;n del Registro &Uacute;nico Tributario y de las declaraciones tributarias puede ser suministrada al Departamento Nacional de Planeaci&oacute;n sin violar la reserva de la informaci&oacute;n de que trata el art&iacute;culo 583 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021700-2005",
+      "tipo": "concepto",
+      "numero": "0021700",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Puede la administraci&oacute;n tributaria, negar la informaci&oacute;n solicitada por un juez de tutela, argumentando el principio de la reserva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006290-2003",
+      "tipo": "concepto",
+      "numero": "0006290",
+      "fecha": "2003-02-12",
+      "tema": "&iquest;Se puede expedir copia de las declaraciones de renta, cuando lo solicite el juez o el defensor de familia en un proceso de alimentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074147-2002",
+      "tipo": "concepto",
+      "numero": "0074147",
+      "fecha": "2002-11-18",
+      "tema": "&iquest;Es viable expedir copia de una resoluci&oacute;n que resuelve un recurso de reconsideraci&oacute;n cuando se est&aacute; notificando por edicto y este no ha sido desfijado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046978-1999",
+      "tipo": "concepto",
+      "numero": "0046978",
+      "fecha": "1999-12-09",
+      "tema": "&iquest;Puede la Administraci&oacute;n expedir copia de las declaraciones tributarias, cuando lo solicite la Fiscal&iacute;a General de la Naci&oacute;n dentro de las diligencias preliminares que &eacute;sta lleve a cabo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045086-1999",
+      "tipo": "concepto",
+      "numero": "0045086",
+      "fecha": "1999-05-11",
+      "tema": "&iquest;Es procedente suministrar informaci&oacute;n, sobre datos consignados en las declaraciones tributarias, a entidades diferentes a las previstas en el ordenamiento fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016689-1999",
+      "tipo": "concepto",
+      "numero": "0016689",
+      "fecha": "1999-09-21",
+      "tema": "&iquest;La reserva de las declaraciones tributarias es oponible para efectos de investigaciones adelantadas por la Procuradur&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051005-1995",
+      "tipo": "concepto",
+      "numero": "0051005",
+      "fecha": "1995-07-24",
+      "tema": "&iquest;Debe la Administraci&oacute;n expedir las fotocopias de las declaraciones tributarias que soliciten entidades como la Contralor&iacute;a General de la Rep&uacute;blica, Contralor&iacute;as Departamentales y Municipales, Procuradur&iacute;a General de la Naci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ]
+}

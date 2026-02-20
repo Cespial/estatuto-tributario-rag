@@ -1,1 +1,521 @@
-{"id_articulo": "Art. 66", "titulo": "Art. 66. Determinación del costo de los bienes muebles y de prestación de servicios.", "titulo_corto": "Determinación del costo de los bienes muebles y de prestación de servicios.", "slug": "66", "url_origen": "https://estatuto.co/66", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "* El costo fiscal de los bienes muebles y de prestación de servicios se determinará así: 1. Para los obligados a llevar contabilidad: a. El costo fiscal de los inventarios comprenderá todos los costos derivados de su adquisición y transformación, así como otros costos en los que se haya incurrido para colocarlos en su lugar de expendio, utilización o beneficio de acuerdo a la técnica contable. Al costo determinado en el inciso anterior se le realizarán los ajustes de que tratan el artículo 59, el numeral 3 del articulo 93 y las diferencias que surjan por las depreciaciones y amortizaciones no aceptadas fiscalmente de conformidad con lo establecido en este Estatuto. b. El costo fiscal para los prestadores de servicios será aquel que se devengue, de conformidad con la técnica contable, durante la prestación del servicio, salvo las excepciones establecidas en este Estatuto. 2. Para los contribuyentes no obligados a llevar contabilidad: a. El costo fiscal de los bienes muebles considerados activos movibles será: sumando al costo de adquisición el valor de los costos y gastos necesarios para poner la mercancía en el lugar de expendio. b. El costo fiscal para los prestadores de servicios serán los efectivamente pagados.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span> El costo fiscal de los bienes muebles y de prestación de servicios se determinará así:</p>\n<p><span style=\"color: #339966;\"><strong>1.</strong></span> Para los obligados a llevar contabilidad:</p>\n<p><strong><span style=\"color: #339966;\">a.</span></strong> El costo fiscal de los inventarios comprenderá todos los costos derivados de su adquisición y transformación, así como otros costos en los que se haya incurrido para colocarlos en su lugar de expendio, utilización o beneficio de acuerdo a la técnica contable. Al costo determinado en el inciso anterior se le realizarán los ajustes de que tratan el <a href=\"https://estatuto.co/59\" rel=\"noopener\" target=\"_blank\">artículo 59</a>, el numeral 3 del <a href=\"https://estatuto.co/93\" rel=\"noopener\" target=\"_blank\">articulo 93</a> y las diferencias que surjan por las depreciaciones y amortizaciones no aceptadas fiscalmente de conformidad con lo establecido en este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>El costo fiscal para los prestadores de servicios será aquel que se devengue, de conformidad con la técnica contable, durante la prestación del servicio, salvo las excepciones establecidas en este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Para los contribuyentes no obligados a llevar contabilidad:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El costo fiscal de los bienes muebles considerados activos movibles será: sumando al costo de adquisición el valor de los costos y gastos necesarios para poner la mercancía en el lugar de expendio.</p>\n<p><strong><span style=\"color: #339966;\">b.</span></strong> El costo fiscal para los prestadores de servicios serán los efectivamente pagados.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 45. **Parágrafo Derogado Ley 1111 de 2006 Art. 78", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "45"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "78"}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["59", "93"], "referenced_by": ["32"], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 66",
+  "titulo": "Art. 66. Determinación del costo de los bienes muebles y de prestación de servicios.",
+  "titulo_corto": "Determinación del costo de los bienes muebles y de prestación de servicios.",
+  "slug": "66",
+  "url_origen": "https://estatuto.co/66",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "* El costo fiscal de los bienes muebles y de prestación de servicios se determinará así: 1. Para los obligados a llevar contabilidad: a. El costo fiscal de los inventarios comprenderá todos los costos derivados de su adquisición y transformación, así como otros costos en los que se haya incurrido para colocarlos en su lugar de expendio, utilización o beneficio de acuerdo a la técnica contable. Al costo determinado en el inciso anterior se le realizarán los ajustes de que tratan el artículo 59, el numeral 3 del articulo 93 y las diferencias que surjan por las depreciaciones y amortizaciones no aceptadas fiscalmente de conformidad con lo establecido en este Estatuto. b. El costo fiscal para los prestadores de servicios será aquel que se devengue, de conformidad con la técnica contable, durante la prestación del servicio, salvo las excepciones establecidas en este Estatuto. 2. Para los contribuyentes no obligados a llevar contabilidad: a. El costo fiscal de los bienes muebles considerados activos movibles será: sumando al costo de adquisición el valor de los costos y gastos necesarios para poner la mercancía en el lugar de expendio. b. El costo fiscal para los prestadores de servicios serán los efectivamente pagados.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span> El costo fiscal de los bienes muebles y de prestación de servicios se determinará así:</p>\n<p><span style=\"color: #339966;\"><strong>1.</strong></span> Para los obligados a llevar contabilidad:</p>\n<p><strong><span style=\"color: #339966;\">a.</span></strong> El costo fiscal de los inventarios comprenderá todos los costos derivados de su adquisición y transformación, así como otros costos en los que se haya incurrido para colocarlos en su lugar de expendio, utilización o beneficio de acuerdo a la técnica contable. Al costo determinado en el inciso anterior se le realizarán los ajustes de que tratan el <a href=\"https://estatuto.co/59\" rel=\"noopener\" target=\"_blank\">artículo 59</a>, el numeral 3 del <a href=\"https://estatuto.co/93\" rel=\"noopener\" target=\"_blank\">articulo 93</a> y las diferencias que surjan por las depreciaciones y amortizaciones no aceptadas fiscalmente de conformidad con lo establecido en este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>El costo fiscal para los prestadores de servicios será aquel que se devengue, de conformidad con la técnica contable, durante la prestación del servicio, salvo las excepciones establecidas en este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Para los contribuyentes no obligados a llevar contabilidad:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>El costo fiscal de los bienes muebles considerados activos movibles será: sumando al costo de adquisición el valor de los costos y gastos necesarios para poner la mercancía en el lugar de expendio.</p>\n<p><strong><span style=\"color: #339966;\">b.</span></strong> El costo fiscal para los prestadores de servicios serán los efectivamente pagados.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 45. **Parágrafo Derogado Ley 1111 de 2006 Art. 78",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "45"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "78"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "59",
+    "93"
+  ],
+  "referenced_by": [
+    "32"
+  ],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 19 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14503 (2025-10-17): Impuesto sobre la Renta y Complementarios\noficio 7468 (): (Int 1231) Impuesto sobre la renta y complementarios - Contrato de concesi&oacute;n consorcios - Reconocimiento de ingresos\noficio 905048 (2022-06-28): Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos\noficio 901348 (2022-02-22): Impuesto sobre la renta, contratos de concesi&oacute;n, reconocimiento de ingresos\noficio 915467 (2021-12-17): Impuesto sobre la Renta - Contratos de concesi&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14503-2025",
+      "tipo": "oficio",
+      "numero": "14503",
+      "fecha": "2025-10-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7468-2026",
+      "tipo": "oficio",
+      "numero": "7468",
+      "fecha": "",
+      "tema": "(Int 1231) Impuesto sobre la renta y complementarios - Contrato de concesi&oacute;n consorcios - Reconocimiento de ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905048-2022",
+      "tipo": "oficio",
+      "numero": "905048",
+      "fecha": "2022-06-28",
+      "tema": "Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901348-2022",
+      "tipo": "oficio",
+      "numero": "901348",
+      "fecha": "2022-02-22",
+      "tema": "Impuesto sobre la renta, contratos de concesi&oacute;n, reconocimiento de ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915467-2021",
+      "tipo": "oficio",
+      "numero": "915467",
+      "fecha": "2021-12-17",
+      "tema": "Impuesto sobre la Renta - Contratos de concesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914503-2021",
+      "tipo": "oficio",
+      "numero": "914503",
+      "fecha": "2021-11-25",
+      "tema": "Impuesto sobre la renta - Costo de venta de los inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29909-2019",
+      "tipo": "oficio",
+      "numero": "29909",
+      "fecha": "2019-11-28",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19638-2019",
+      "tipo": "oficio",
+      "numero": "19638",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Es aplicable o no a la DIAN lo dispuesto en el art&iacute;culo 66 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17798-2019",
+      "tipo": "oficio",
+      "numero": "17798",
+      "fecha": "2019-07-09",
+      "tema": "Impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n, creado por la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17771-2019",
+      "tipo": "oficio",
+      "numero": "17771",
+      "fecha": "2019-07-09",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento de los ingresos dentro del r&eacute;gimen SIMPLE, para los distribuidores minoristas de combustibles, seg&uacute;n lo establecido en el art&iacute;culo 10 de la Ley 26 de 1989",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10057-2019",
+      "tipo": "oficio",
+      "numero": "10057",
+      "fecha": "2019-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios. Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8712-2019",
+      "tipo": "oficio",
+      "numero": "8712",
+      "fecha": "2019-04-10",
+      "tema": "Devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7451-2019",
+      "tipo": "oficio",
+      "numero": "7451",
+      "fecha": "2019-03-28",
+      "tema": "&iquest;Los aumentos en los costos fijos unitarios por ineficiencias deben ser considerados gastos del periodo y no costos del producto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5530-2019",
+      "tipo": "oficio",
+      "numero": "5530",
+      "fecha": "2019-03-05",
+      "tema": "Sujetos que no pueden optar por el impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n-SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2785-2019",
+      "tipo": "oficio",
+      "numero": "2785",
+      "fecha": "2019-02-05",
+      "tema": "Devoluci&oacute;n del impuesto sobre las ventas en el caso de vivienda de inter&eacute;s social y de inter&eacute;s prioritaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2750-2019",
+      "tipo": "oficio",
+      "numero": "2750",
+      "fecha": "2019-02-05",
+      "tema": "Aplicaci&oacute;n de la facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17597-2018",
+      "tipo": "oficio",
+      "numero": "17597",
+      "fecha": "2018-06-25",
+      "tema": "&iquest;En los contratos de concesi&oacute;n y -APP- los ingresos, costos y deducciones de la fase de pre - construcci&oacute;n, reciben el mismo tratamiento previsto para ellos en la fase de construcci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0289-2018",
+      "tipo": "oficio",
+      "numero": "0289",
+      "fecha": "2018-03-06",
+      "tema": "Determinaci&oacute;n de la renta gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28212-2017",
+      "tipo": "oficio",
+      "numero": "28212",
+      "fecha": "2017-10-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6012-2017",
+      "tipo": "oficio",
+      "numero": "6012",
+      "fecha": "2017-04-17",
+      "tema": "&iquest;El impuesto de Industria y Comercio causado en 2016 y pagado en 2017 y el causado en 2015 y pagado en 2016, es deducible en la declaraci&oacute;n de renta de 2016 o en la del per&iacute;odo gravable de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15964-2015",
+      "tipo": "oficio",
+      "numero": "15964",
+      "fecha": "2015-06-01",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para aplicar la tarifa del impuesto al consumo en la importaci&oacute;n de veh&iacute;culos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1040-2015",
+      "tipo": "oficio",
+      "numero": "1040",
+      "fecha": "2015-10-19",
+      "tema": "&iquest;La Resoluci&oacute;n 104 del 12 de junio de 2013 qued&oacute; t&aacute;citamente derogada por el par&aacute;grafo 3o del Art&iacute;culo 159 de la Ley 1753 de 2015?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-6474-2013",
+      "tipo": "oficio",
+      "numero": "6474",
+      "fecha": "2013-02-04",
+      "tema": "Deducci&oacute;n por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21284-2006",
+      "tipo": "oficio",
+      "numero": "21284",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;C&oacute;mo se puede ajustar fiscalmente el valor del inventario de mercanc&iacute;a importada, al valor real que tiene en la actualidad, debido a la revaluaci&oacute;n del peso, teniendo en cuenta lo dispuesto en los art&iacute;culos 10 y 63 del decreto 2649 de 1993 y cu&aacute;l ser&iacute;a el asiento contable que debe registrarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84749-2005",
+      "tipo": "oficio",
+      "numero": "84749",
+      "fecha": "2005-11-16",
+      "tema": "&iquest;Cu&aacute;l es la tasa que se debe aplicar para liquidar el valor en d&oacute;lares de la factura del proveedor del exterior, cuando se han efectuado pagos anticipados: la tasa representativa del mercado informada en la liquidaci&oacute;n de importaci&oacute;n o la tasa representativa del mercado vigente en el momento de adquirir los d&oacute;lares para efectuar el anticipo al proveedor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73032-2005",
+      "tipo": "oficio",
+      "numero": "73032",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;En calidad de distribuidor y comercializador puede tratar el impuesto al consumo sobre licores como mayor costo del bien, teniendo en cuenta que dentro del impuesto se encuentra incorporado el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040403-2000",
+      "tipo": "concepto",
+      "numero": "0040403",
+      "fecha": "2000-04-28",
+      "tema": "Responsabilidad solidaria de los consorciados por las operaciones del Consorcio.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034431-1999",
+      "tipo": "concepto",
+      "numero": "0034431",
+      "fecha": "1999-11-05",
+      "tema": "&iquest;C&oacute;mo se registra la diferencia en cambio generada en la importaci&oacute;n de mercanc&iacute;as cuando se encuentran en inventario al t&eacute;rmino del per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100447-1998",
+      "tipo": "concepto",
+      "numero": "0100447",
+      "fecha": "1998-12-30",
+      "tema": "&iquest;Es v&aacute;lido aceptar para efectos fiscales asignar el costo de los activos movibles por el sistema de costos est&aacute;ndar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029658-1998",
+      "tipo": "concepto",
+      "numero": "0029658",
+      "fecha": "1998-04-28",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025304-1998",
+      "tipo": "concepto",
+      "numero": "0025304",
+      "fecha": "1998-04-20",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047245-1997",
+      "tipo": "concepto",
+      "numero": "0047245",
+      "fecha": "1997-06-06",
+      "tema": "&iquest;Los ajustes por inflaci&oacute;n, constituyen mayor valor de costo de enajenaci&oacute;n y forman parte de la base para calcular el Impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061991-1994",
+      "tipo": "concepto",
+      "numero": "0061991",
+      "fecha": "1994-10-24",
+      "tema": "&iquest;si se tiene en cuenta que las materias primas utilizadas en Kilos, una vez sometidas al proceso de producci&oacute;n, se diversifican en productos distintos con valores diferentes, con un control de inventarios, en cantidades, (kilos para materias primas y productos en proceso y en unidades para los terminados), mas no en valores; para determinar el costo de ventas y el valor del inventario final las unidades de productos terminados se convierten a kilos seg&uacute;n su peso y en las valorizaciones del inventario final de los productos en proceso no se tiene en cuenta el grado de terminaci&oacute;n, El procedimiento utilizado es el correcto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002412-1994",
+      "tipo": "concepto",
+      "numero": "0002412",
+      "fecha": "1994-01-19",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario en materia de ajustes por inflaci&oacute;n, que deben recibir los inventarios de una empresa en la extracci&oacute;n de arena, teniendo en cuenta que: a)La empresa no tiene compras, b)Se dificulta la medici&oacute;n de los inventarios y el control en las tarjetas de K&aacute;rdex, por la modificaci&oacute;n del volumen a causa de la lluvia o sequedad, c)C&oacute;mo se tasa el Costo de adquisici&oacute;n de estos bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012341-1993",
+      "tipo": "concepto",
+      "numero": "0012341",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019807-1988",
+      "tipo": "concepto",
+      "numero": "0019807",
+      "fecha": "1988-01-01",
+      "tema": "Exenci&oacute;n en raz&oacute;n a al cuant&iacute;a por mandato legal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017495-1988",
+      "tipo": "concepto",
+      "numero": "0017495",
+      "fecha": "1988-01-01",
+      "tema": "contrato de prenda y reserva de dominio",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-260-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "260",
+      "year": 1993,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ]
+}

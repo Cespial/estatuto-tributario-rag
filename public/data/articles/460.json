@@ -1,1 +1,100 @@
-{"id_articulo": "Art. 460", "titulo": "Art. 460. Base gravable en servicios de clubes.", "titulo_corto": "Base gravable en servicios de clubes.", "slug": "460", "url_origen": "https://estatuto.co/460", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El impuesto se causa sobre todo pago que reciba el club de sus asociados o de terceros, por cualquier concepto que constituya ingreso en razón de su actividad.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto se causa sobre todo pago que reciba el club de sus asociados o de terceros, por cualquier concepto que constituya ingreso en razón de su actividad.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 460",
+  "titulo": "Art. 460. Base gravable en servicios de clubes.",
+  "titulo_corto": "Base gravable en servicios de clubes.",
+  "slug": "460",
+  "url_origen": "https://estatuto.co/460",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El impuesto se causa sobre todo pago que reciba el club de sus asociados o de terceros, por cualquier concepto que constituya ingreso en razón de su actividad.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto se causa sobre todo pago que reciba el club de sus asociados o de terceros, por cualquier concepto que constituya ingreso en razón de su actividad.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 1831 (2017-12-19): &iquest;Los clubes sociales pueden facturar directamente las cuotas de sostenimiento del titular de la acci&oacute;n, a las empresas a las que estos se encuentran vinculados?\noficio 47518 (2014-08-06): &iquest;La cuota de sostenimiento de un club, entidad sin &aacute;nimo de lucro, que no es ingreso, ni utilidad, por destinarse a mantenimiento de instalaciones, jardines, canchas de recreaci&oacute;n deportiva, n&oacute;mina, servicios p&uacute;blicos, etc., genera s&iacute; o no el cobro de IVA y explicar por qu&eacute;?&iquest;El cobro del impuesto predial a los socios independientemente de la cuota de sostenimiento genera IVA?\noficio 16500 (2013-03-20): &iquest;El servicio de suministro de comida y bebidas que un Club presta en la realizaci&oacute;n de eventos, tales como: matrimonios, bautizos, reuniones empresariales, est&aacute; gravado con el impuesto al consumo o con el impuesto sobre las ventas?\noficio 69429 (2004-10-13): &iquest;La tarifa a la que se encuentran gravados con el Impuesto sobre las Ventas los cursos y los eventos sociales que se dictan y celebran en los clubes que pertenecen a las Cajas de Compensaci&oacute;n Familiar?\nconcepto 0029527 (2001-04-11): &iquest;Se genera el IVA en los pagos que reciba un club de sus asociados por concepto consumos m&iacute;nimos?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1831-2017",
+      "tipo": "oficio",
+      "numero": "1831",
+      "fecha": "2017-12-19",
+      "tema": "&iquest;Los clubes sociales pueden facturar directamente las cuotas de sostenimiento del titular de la acci&oacute;n, a las empresas a las que estos se encuentran vinculados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47518-2014",
+      "tipo": "oficio",
+      "numero": "47518",
+      "fecha": "2014-08-06",
+      "tema": "&iquest;La cuota de sostenimiento de un club, entidad sin &aacute;nimo de lucro, que no es ingreso, ni utilidad, por destinarse a mantenimiento de instalaciones, jardines, canchas de recreaci&oacute;n deportiva, n&oacute;mina, servicios p&uacute;blicos, etc., genera s&iacute; o no el cobro de IVA y explicar por qu&eacute;?&iquest;El cobro del impuesto predial a los socios independientemente de la cuota de sostenimiento genera IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16500-2013",
+      "tipo": "oficio",
+      "numero": "16500",
+      "fecha": "2013-03-20",
+      "tema": "&iquest;El servicio de suministro de comida y bebidas que un Club presta en la realizaci&oacute;n de eventos, tales como: matrimonios, bautizos, reuniones empresariales, est&aacute; gravado con el impuesto al consumo o con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69429-2004",
+      "tipo": "oficio",
+      "numero": "69429",
+      "fecha": "2004-10-13",
+      "tema": "&iquest;La tarifa a la que se encuentran gravados con el Impuesto sobre las Ventas los cursos y los eventos sociales que se dictan y celebran en los clubes que pertenecen a las Cajas de Compensaci&oacute;n Familiar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029527-2001",
+      "tipo": "concepto",
+      "numero": "0029527",
+      "fecha": "2001-04-11",
+      "tema": "&iquest;Se genera el IVA en los pagos que reciba un club de sus asociados por concepto consumos m&iacute;nimos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056399-1998",
+      "tipo": "concepto",
+      "numero": "0056399",
+      "fecha": "1998-07-15",
+      "tema": "&iquest;Teniendo en cuenta el fallo del Consejo de Estado del 8 de mayo de 1998 (expediente 8681), los servicios de golf, tenis, equitaci&oacute;n, saunas, turcos, patinaje, bolos, camping y dem&aacute;s que presten los clubes, diferentes de los clubes sociales y deportivos de trabajadores, est&aacute;n excluidos del IVA? &iquest;Las cuotas de mantenimiento est&aacute;n gravadas con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078602-1994",
+      "tipo": "concepto",
+      "numero": "0078602",
+      "fecha": "1994-12-30",
+      "tema": "&iquest;Las actividades tales como concursos, manutenci&oacute;n de caballos, alimentaci&oacute;n, veterinario, etc., prestados por un club deportivo est&aacute;n gravados y en consecuencia es obligatorio el cobro del IVA? &iquest;En relaci&oacute;n con una operaci&oacute;n consistente en tomar un inmueble en arriendo por el sistema de leasing, con opci&oacute;n de compra por un valor aproximado de Ps. 60.000.000,demoliendo y reconstruyendo el mismo por Ps. 120.000.000, pregunta si es permitido por las compa&ntilde;&iacute;as leasing hacer este tipo de reconstrucci&oacute;n? &iquest;Se puede solicitar estas deducciones en el per&iacute;odo que se presenten, o se asimilan m&aacute;s a un activo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010308-1992",
+      "tipo": "concepto",
+      "numero": "0010308",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l ser&iacute;a el monto del impuesto sobre la ventas en la importaci&oacute;n de preparados alcoh&oacute;licos para la elaboraci&oacute;n de bebidas situadas en la posici&oacute;n 22.08.10.00.00, considerando que se trata de materias primas a transformar y no de productos terminados?",
+      "vigente": true
+    }
+  ]
+}

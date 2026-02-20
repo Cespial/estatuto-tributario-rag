@@ -1,1 +1,136 @@
-{"id_articulo": "Art. 849", "titulo": "Art. 849. Independencia de procesos.", "titulo_corto": "Independencia de procesos.", "slug": "849", "url_origen": "https://estatuto.co/849", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "La intervención de la Administración en los procesos de sucesión, quiebra, concurso de acreedores y liquidaciones, se hará sin perjuicio de la acción de cobro coactivo administrativo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La intervención de la Administración en los procesos de sucesión, <span style=\"color: #339966;\"><del>quiebra</del></span>,<em> concurso de acreedores</em> y liquidaciones, se hará sin perjuicio de la acción de cobro coactivo administrativo.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": ["quiebra"], "texto_derogado_parsed": [{"index": 0, "snippet": "quiebra", "full_length": 7}], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - Inciso declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-939-03 de 15 de octubre de 2003, Magistrada Ponente Dra. Clara Inés Vargas Hernández. -El Título II del Libro Sexto del Código de Comercio, que trata del concepto de quiebra, fue derogado expresa e íntegramente por el artículo 242 de la Ley 222 de 1995, publicada en el Diario Oficial No. 42.156 del 20 de diciembre de 1995."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 849",
+  "titulo": "Art. 849. Independencia de procesos.",
+  "titulo_corto": "Independencia de procesos.",
+  "slug": "849",
+  "url_origen": "https://estatuto.co/849",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "La intervención de la Administración en los procesos de sucesión, quiebra, concurso de acreedores y liquidaciones, se hará sin perjuicio de la acción de cobro coactivo administrativo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La intervención de la Administración en los procesos de sucesión, <span style=\"color: #339966;\"><del>quiebra</del></span>,<em> concurso de acreedores</em> y liquidaciones, se hará sin perjuicio de la acción de cobro coactivo administrativo.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [
+    "quiebra"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "quiebra",
+      "full_length": 7
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - Inciso declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-939-03 de 15 de octubre de 2003, Magistrada Ponente Dra. Clara Inés Vargas Hernández. -El Título II del Libro Sexto del Código de Comercio, que trata del concepto de quiebra, fue derogado expresa e íntegramente por el artículo 242 de la Ley 222 de 1995, publicada en el Diario Oficial No. 42.156 del 20 de diciembre de 1995."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0272 (2025-01-17): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0272-2025",
+      "tipo": "oficio",
+      "numero": "0272",
+      "fecha": "2025-01-17",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0575-2020",
+      "tipo": "oficio",
+      "numero": "0575",
+      "fecha": "2020-02-28",
+      "tema": "Intervenci&oacute;n de la Administraci&oacute;n de Impuestos en Procesos de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17184-2019",
+      "tipo": "oficio",
+      "numero": "17184",
+      "fecha": "2019-07-03",
+      "tema": "&iquest;Puede la DIAN iniciar acci&oacute;n de cobro de obligaciones pertenecientes a sociedades comerciales que se encuentren en proceso de liquidaci&oacute;n voluntaria y-o judicial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0176-2015",
+      "tipo": "oficio",
+      "numero": "0176",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Existe o no limitaci&oacute;n, para hacer entrega de las declaraciones juramentadas de bienes y rentas a la Unidad Administrativa Especial Agencia del Inspector General de Tributos, Rentas y Contribuciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056418-2005",
+      "tipo": "concepto",
+      "numero": "0056418",
+      "fecha": "2005-08-18",
+      "tema": "&iquest;Pueden aplicarse causales de interrupci&oacute;n del t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro diferentes a las consagradas en el art&iacute;culo 818 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018453-2003",
+      "tipo": "concepto",
+      "numero": "0018453",
+      "fecha": "2003-04-08",
+      "tema": "&iquest;Opera la prescripci&oacute;n de la acci&oacute;n de cobro de las obligaciones que no alcanzaron a pagarse durante los cinco (5) a&ntilde;os siguientes al vencimiento del plazo para declarar cuando se han pactado plazos superiores dentro de un acuerdo de reestructuraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071001-2002",
+      "tipo": "concepto",
+      "numero": "0071001",
+      "fecha": "2002-10-30",
+      "tema": "&iquest;Qu&eacute; efectos produce en un proceso de cobro coactivo de impuestos, un acuerdo de reestructuraci&oacute;n del contribuyente objeto del proceso, iniciado con posterioridad a la adjudicaci&oacute;n de un inmueble y antes de dictar auto de aprobaci&oacute;n del remate, teniendo en cuenta que los valores correspondientes al pago del remate fueron sufragados por parte del adjudicatario y antes de dictar el auto de aprobaci&oacute;n del remate?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026190-2002",
+      "tipo": "concepto",
+      "numero": "0026190",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;La administraci&oacute;n de impuestos debe intervenir en los procesos de sucesi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011268-1993",
+      "tipo": "concepto",
+      "numero": "0011268",
+      "fecha": "1993-08-12",
+      "tema": "&iquest;Es procedente continuar con el proceso coactivo, proceder a declarar sin vigencia la facilidad otorgada por su incumplimiento y adelantar remate contra el bien que se encuentra embargado?",
+      "vigente": false
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

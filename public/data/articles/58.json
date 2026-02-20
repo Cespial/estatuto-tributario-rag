@@ -1,1 +1,593 @@
-{"id_articulo": "Art. 58", "titulo": "Art. 58. Realización del costo para los no obligados a llevar contabilidad.", "titulo_corto": "Realización del costo para los no obligados a llevar contabilidad.", "slug": "58", "url_origen": "https://estatuto.co/58", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados los costos legalmente aceptables cuando se paguen efectivamente en dinero o en especie, o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago. Por consiguiente, los costos incurridos por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o venda el bien.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados los costos legalmente aceptables cuando se paguen efectivamente en dinero o en especie, o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago.</p>\n<p>Por consiguiente, los costos incurridos por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o venda el bien.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "* -Modificado- Ley 1819 de 2016 Art. 38.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["887"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 58",
+  "titulo": "Art. 58. Realización del costo para los no obligados a llevar contabilidad.",
+  "titulo_corto": "Realización del costo para los no obligados a llevar contabilidad.",
+  "slug": "58",
+  "url_origen": "https://estatuto.co/58",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados los costos legalmente aceptables cuando se paguen efectivamente en dinero o en especie, o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago. Por consiguiente, los costos incurridos por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o venda el bien.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados los costos legalmente aceptables cuando se paguen efectivamente en dinero o en especie, o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago.</p>\n<p>Por consiguiente, los costos incurridos por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o venda el bien.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "* -Modificado- Ley 1819 de 2016 Art. 38.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "887"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 35 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14609 (2025-10-22): Otros Temas\noficio 8855 (2025-07-08): Otras Disposiciones\noficio 7858 (2025-06-18): Otras Disposiciones\noficio 10846 (2024-12-23): Impuesto sobre la Renta y Complementarios\noficio 6771 (2024-09-21): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14609-2025",
+      "tipo": "oficio",
+      "numero": "14609",
+      "fecha": "2025-10-22",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8855-2025",
+      "tipo": "oficio",
+      "numero": "8855",
+      "fecha": "2025-07-08",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7858-2025",
+      "tipo": "oficio",
+      "numero": "7858",
+      "fecha": "2025-06-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10846-2024",
+      "tipo": "oficio",
+      "numero": "10846",
+      "fecha": "2024-12-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6771-2024",
+      "tipo": "oficio",
+      "numero": "6771",
+      "fecha": "2024-09-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2590-2024",
+      "tipo": "oficio",
+      "numero": "2590",
+      "fecha": "2024-04-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908475-2021",
+      "tipo": "oficio",
+      "numero": "908475",
+      "fecha": "2021-08-23",
+      "tema": "Impuesto sobre la Renta - Costos para no obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902652-2021",
+      "tipo": "oficio",
+      "numero": "902652",
+      "fecha": "2021-03-29",
+      "tema": "Deducci&oacute;n por salarios y pagos a trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906810-2020",
+      "tipo": "oficio",
+      "numero": "906810",
+      "fecha": "2020-10-05",
+      "tema": "Impuesto sobre la Renta y Complementarios, procedimiento tributario. Contratos de colaboraci&oacute;n empresarial. R&eacute;gimen Especial Tributario ZESE Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906025-2020",
+      "tipo": "oficio",
+      "numero": "906025",
+      "fecha": "2020-10-14",
+      "tema": "Aportes a seguridad social - Base de retenci&oacute;n en la fuente trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30470-2019",
+      "tipo": "oficio",
+      "numero": "30470",
+      "fecha": "2019-12-11",
+      "tema": "- (Tributario) Criptoactivos - Causaci&oacute;n de la Retenci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-21729-2019",
+      "tipo": "oficio",
+      "numero": "21729",
+      "fecha": "2019-09-12",
+      "tema": "Contrato de Fiducia Mercantil",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16321-2019",
+      "tipo": "oficio",
+      "numero": "16321",
+      "fecha": "2019-06-21",
+      "tema": "Principio de no confiscatoriedad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14244-2019",
+      "tipo": "oficio",
+      "numero": "14244",
+      "fecha": "2019-06-04",
+      "tema": "- (Tributario) Impuesto sobre la Renta y Complementarios. Impuesto Sobre las Ventas – IVA. Activos. Determinaci&oacute;n de Costos. Servicios Excluidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1357-2019",
+      "tipo": "oficio",
+      "numero": "1357",
+      "fecha": "2019-06-05",
+      "tema": "impuesto sobre las ventas IVA - Venta o cesi&oacute;n de derechos sobre activos intangibles asociados con la propiedad industrial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6455-2018",
+      "tipo": "oficio",
+      "numero": "6455",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Los costos incurridos por los fideicomitentes en la constituci&oacute;n de un fideicomiso que pueden imputar en sus declaraciones del impuesto sobre la renta, son los costos generados para entregar sus respectivos aportes o los que correspondan en forma proporcional a su porcentaje de participaci&oacute;n en el patrimonio aut&oacute;nomo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6923-2017",
+      "tipo": "oficio",
+      "numero": "6923",
+      "fecha": "2017-03-15",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23817-2015",
+      "tipo": "oficio",
+      "numero": "23817",
+      "fecha": "2015-08-18",
+      "tema": "Obligados a inscribirse en el RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7121-2015",
+      "tipo": "oficio",
+      "numero": "7121",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre la renta - Ingresos gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3051-2015",
+      "tipo": "oficio",
+      "numero": "3051",
+      "fecha": "2015-02-05",
+      "tema": "&iquest;Al momento de realizar el pago, se debe practicar retenci&oacute;n en la fuente a t&iacute;tulo del impuesto de renta?&iquest;qui&eacute;n es el sujeto pasivo de la retenci&oacute;n?&iquest;La factura es soporte de costos y gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57331-2014",
+      "tipo": "oficio",
+      "numero": "57331",
+      "fecha": "2014-10-06",
+      "tema": "&iquest;A qui&eacute;n se debe realizar el pago en cheque o transferencia cuando en la factura est&aacute; estipulado que los ingresos son ingresos recibidos para terceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62496-2008",
+      "tipo": "oficio",
+      "numero": "62496",
+      "fecha": "2008-01-01",
+      "tema": "Solicita se examine la aplicaci&oacute;n de los art&iacute;culos 9 y 13 del decreto 2078 de 2004 con preferencia sobre la norma tributaria, pues seg&uacute;n tales normas no se puede modificar el r&eacute;gimen remuneratorio del cuerpo diplom&aacute;tico en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106689-2007",
+      "tipo": "oficio",
+      "numero": "106689",
+      "fecha": "2007-12-28",
+      "tema": "Reconsiderar el Concepto n&uacute;mero 078709 del 2 de octubre de 2007 relacionado con la aplicaci&oacute;n del r&eacute;gimen de precios de transferencia en el caso excepcional de entidades sin fines de lucro, que en el &aacute;nimo de obtener fondos para cumplir su objeto social, venden bienes o prestan servicios a instituciones del exterior, quienes en la pr&aacute;ctica cumplen el papel de benefactoras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38859-2006",
+      "tipo": "oficio",
+      "numero": "38859",
+      "fecha": "2006-05-15",
+      "tema": "&iquest;Cu&aacute;l es la base de retenci&oacute;n en la fuente por emolumentos eclesi&aacute;sticos y el tratamiento dispuesto para los pagos en especie?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047849-2003",
+      "tipo": "concepto",
+      "numero": "0047849",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Da derecho al descuento tributario por CERT consagrado en el art&iacute;culo 257 del Estatuto Tributario, las exportaciones realizadas antes de la vigencia de la Ley 788 de 2002 que derog&oacute; dicho art&iacute;culo, para ser descontado en el a&ntilde;o en que &eacute;stos sean reconocidos, independientemente de que dicho reconocimiento se realice con posterioridad a la entrada en vigencia de la mencionada ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048461-2002",
+      "tipo": "concepto",
+      "numero": "0048461",
+      "fecha": "2002-08-02",
+      "tema": "&iquest;Se pueden determinar gastos presuntos en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017938-2001",
+      "tipo": "concepto",
+      "numero": "0017938",
+      "fecha": "2001-01-01",
+      "tema": "Exportaci&oacute;n de servicios, requesitos reconsideraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108283-2000",
+      "tipo": "concepto",
+      "numero": "0108283",
+      "fecha": "2000-11-03",
+      "tema": "&iquest;Cu&aacute;l es el momento en que se causa la retenci&oacute;n en la fuente cuando la entidad que contrata el servicio recibe la factura un mes despu&eacute;s de emitida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040991-1998",
+      "tipo": "concepto",
+      "numero": "0040991",
+      "fecha": "1998-06-04",
+      "tema": "&iquest;Cu&aacute;l es la base para el pago del impuesto de timbre en un contrato de concesi&oacute;n, si al concesionario le corresponde el 90% y a la entidad de derecho p&uacute;blico el 10% del valor del contrato? &iquest;Es deducible del impuesto sobre la renta y complementarios el IVA no descontable pagado por las donaciones de inventarios efectuadas por sociedades an&oacute;nimas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048692-1997",
+      "tipo": "concepto",
+      "numero": "0048692",
+      "fecha": "1997-06-13",
+      "tema": "&iquest; Cu&aacute;l es el manejo contable y fiscal en la adquisici&oacute;n de venta de aves reproductoras?&iquest; El registro contable debe hacerse como inventario o por activos fijos?&iquest; Si se registra como inventario, al terminar el ciclo de producci&oacute;n, la venta se registra como ingreso operacional o como ingreso no operacional?&iquest; Si se registra como activo fijo, la venta se registra como ingreso operacional o no operacional?&iquest; De manejarse como activos, se registra como semovientes o como activos amortizables?&iquest; La amortizaci&oacute;n se registra en la cuenta 1597 y en el momento de la venta se cancela contra la cuenta de semovientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091789-1996",
+      "tipo": "concepto",
+      "numero": "0091789",
+      "fecha": "1996-11-29",
+      "tema": "&iquest;Un establecimiento p&uacute;blico del orden nacional debe solicitar factura para el reconocimiento del gasto, cuando compra bienes o servicios a una persona natural con r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006258-1992",
+      "tipo": "concepto",
+      "numero": "0006258",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Con ocasi&oacute;n de la entrada en vigencia a partir del 1o de enero del presente a&ntilde;o de algunas nuevas tarifas de retenci&oacute;n en la fuente (Decretos 2812 y 2866 de diciembre de 1991) y considerando que ya empezado este a&ntilde;o han tenido que realizar pagos correspondientes a la vigencia anual anterior, pregunta si en tales pagos deben aplicarse las tarifas que rigen para 1992 sabiendo que corresponden a obligaciones suscritas en la anterior vigencia fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030256-1990",
+      "tipo": "concepto",
+      "numero": "0030256",
+      "fecha": "1990-12-03",
+      "tema": "&iquest;Si una sociedad extranjera sin domicilio en el pa&iacute;s que vender&aacute; sus acciones y su precio en monada extranjera ser&aacute; pagado en 5 instalamentos anuales &iquest;Es correcto entender que como quiera que la compa&ntilde;&iacute;a no tiene domicilio en Colombia y por lo tanto no est&aacute; obligada a llevar libros de contabilidad en Colombia, no est&aacute; obligada a llevar su contabilidad por el sistema de causaci&oacute;n y por ende, de acuerdo con el art&iacute;culo 27 del Decreto 624 de 1989, solamente realizar&aacute; el ingreso derivado de la operaci&oacute;n cuando lo reciba en una forma que equivalga legalmente a un pago?&iquest;Es correcto entender…. que en cada a&ntilde;o solamente estar&aacute; obligada a declarar como costo de las acciones vendidas, &uacute;nicamente aquella proporci&oacute;n del costo total de las acciones que corresponda a los ingresos recibidos en ese a&ntilde;o? &iquest;Mientras el precio total de venta no est&eacute; completamente cancelado, la compa&ntilde;&iacute;a ser&aacute; acreedora de un cr&eacute;dito en moneda extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010841-1988",
+      "tipo": "concepto",
+      "numero": "0010841",
+      "fecha": "1988-01-01",
+      "tema": "Determinaci&oacute;n en los activos fijos",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-094-2024",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "094",
+      "year": 2024,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-335-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "335",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-239-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "239",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

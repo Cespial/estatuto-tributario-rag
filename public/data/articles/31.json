@@ -1,1 +1,513 @@
-{"id_articulo": "Art. 31", "titulo": "Art. 31. Valor de los ingresos en acciones y otros títulos.", "titulo_corto": "Valor de los ingresos en acciones y otros títulos.", "slug": "31", "url_origen": "https://estatuto.co/31", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Siempre que la distribución de dividendos o utilidades se haga en acciones y otros títulos, el valor de los dividendos o utilidades realizados se establece de acuerdo con el valor patrimonial de los mismos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Siempre que la distribución de dividendos o utilidades se haga en acciones y otros títulos, el valor de los dividendos o utilidades realizados se establece de acuerdo con el valor patrimonial de los mismos.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 31",
+  "titulo": "Art. 31. Valor de los ingresos en acciones y otros títulos.",
+  "titulo_corto": "Valor de los ingresos en acciones y otros títulos.",
+  "slug": "31",
+  "url_origen": "https://estatuto.co/31",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Siempre que la distribución de dividendos o utilidades se haga en acciones y otros títulos, el valor de los dividendos o utilidades realizados se establece de acuerdo con el valor patrimonial de los mismos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Siempre que la distribución de dividendos o utilidades se haga en acciones y otros títulos, el valor de los dividendos o utilidades realizados se establece de acuerdo con el valor patrimonial de los mismos.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 38 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2156 (2025-02-04): Procedimiento Tributario\noficio 3570 (2023-06-14): (Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio\noficio 915467 (2021-12-17): Impuesto sobre la Renta - Contratos de concesi&oacute;n\noficio 905925 (2021-06-23): (Int 0223) Beneficio tributario es a trav&eacute;s del certificado de discapacidad",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2156-2025",
+      "tipo": "oficio",
+      "numero": "2156",
+      "fecha": "2025-02-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915467-2021",
+      "tipo": "oficio",
+      "numero": "915467",
+      "fecha": "2021-12-17",
+      "tema": "Impuesto sobre la Renta - Contratos de concesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905925-2021",
+      "tipo": "oficio",
+      "numero": "905925",
+      "fecha": "2021-06-23",
+      "tema": "(Int 0223) Beneficio tributario es a trav&eacute;s del certificado de discapacidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8758-2019",
+      "tipo": "oficio",
+      "numero": "8758",
+      "fecha": "2019-04-10",
+      "tema": "Beneficio empleadores – desplazados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8721-2017",
+      "tipo": "oficio",
+      "numero": "8721",
+      "fecha": "2017-04-05",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28935-2016",
+      "tipo": "oficio",
+      "numero": "28935",
+      "fecha": "2016-10-18",
+      "tema": "Impuesto sobre la renta y complementarios de acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9867-2016",
+      "tipo": "oficio",
+      "numero": "9867",
+      "fecha": "2016-04-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49813-2014",
+      "tipo": "oficio",
+      "numero": "49813",
+      "fecha": "2014-08-19",
+      "tema": "&iquest;Qui&eacute;n es el superior jer&aacute;rquico de la Defensora del Contribuyente y del Usuario Aduanero y qui&eacute;n el funcionario competente para resolver el recurso de apelaci&oacute;n interpuesto en contra de la evaluaci&oacute;n del periodo de prueba de los funcionarios aspirantes a ser inscritos en el sistema de carrera administrativa, emitida por dicha Defensora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095030-2009",
+      "tipo": "concepto",
+      "numero": "0095030",
+      "fecha": "2009-11-18",
+      "tema": "&iquest;Cuando una sociedad extranjera que tiene activos en el pa&iacute;s, se liquida y adjudica dichos bienes a los socios extranjeros, tal reintegro constituye para el socio no residente un ingreso de fuente nacional gravable con el impuesto sobre la renta, as&iacute; como un ingreso de fuente nacional para la sociedad que se liquida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083097-2009",
+      "tipo": "concepto",
+      "numero": "0083097",
+      "fecha": "2009-10-09",
+      "tema": "&iquest;El servicio de transporte a&eacute;reo nacional de personas prestado en la denominada temporada alta, en virtud del art&iacute;culo 20 del Decreto 433 de 1999 se encuentra excluido del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77352-2009",
+      "tipo": "oficio",
+      "numero": "77352",
+      "fecha": "2009-09-22",
+      "tema": "Solicita la derogatoria de la segunda parte del inciso 1o y del par&aacute;grafo 2o del art&iacute;culo 3o del Decreto 2271 de 2009, porque al ordenar que el valor deducible por concepto de aportes en salud del trabajador, con el objeto de determinar la base de retenci&oacute;n, sea el promedio mensual del a&ntilde;o anterior, establece un sistema que carece de justificaci&oacute;n y que complica considerablemente la administraci&oacute;n de las retenciones en la fuente laborales a los agentes de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25256-2009",
+      "tipo": "oficio",
+      "numero": "25256",
+      "fecha": "2009-03-31",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36677-2008",
+      "tipo": "oficio",
+      "numero": "36677",
+      "fecha": "2008-04-11",
+      "tema": "&iquest;Una cooperativa multiactiva que tiene un contrato de concesi&oacute;n con el estado sobre un &aacute;rea para exploraci&oacute;n y explotaci&oacute;n de carb&oacute;n mineral, est&aacute; obligada a practicar retenci&oacute;n en la fuente por concepto de compra a los operadores (asociados), quienes tienen suscrito un contrato con &eacute;sta, seg&uacute;n el cual se obligan a comercializar toda la carga a trav&eacute;s de la misma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54008-2007",
+      "tipo": "oficio",
+      "numero": "54008",
+      "fecha": "2007-07-16",
+      "tema": "&iquest;Se encuentra vigente o no el art&iacute;culo 482-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35433-2007",
+      "tipo": "oficio",
+      "numero": "35433",
+      "fecha": "2007-05-14",
+      "tema": "&iquest;Cu&aacute;l es el beneficio de que trata el art&iacute;culo 31 de la Ley 1111 de 2007, que modific&oacute; el art&iacute;culo 424 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31496-2007",
+      "tipo": "oficio",
+      "numero": "31496",
+      "fecha": "2007-04-26",
+      "tema": "- (Tributario) &iquest;A qu&eacute; tipo de valor se refiere el art&iacute;culo 31 de la Ley 1111 de 2006 (FOB, CIF) y qu&eacute; debe entenderse por computador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093077-2001",
+      "tipo": "concepto",
+      "numero": "0093077",
+      "fecha": "2001-10-19",
+      "tema": "&iquest;Son deducibles las donaciones efectuadas por un contribuyente a una C&aacute;mara de Comercio, que a su vez las transferir&aacute; a un no contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000372-2001",
+      "tipo": "concepto",
+      "numero": "0000372",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Una empresa prestadora de servicios p&uacute;blicos domiciliarios autorizada como autorretenedora debe efectuar retenci&oacute;n en la fuente sobre sus rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062020-1998",
+      "tipo": "concepto",
+      "numero": "0062020",
+      "fecha": "1998-08-06",
+      "tema": "&iquest;los movimientos del inventario permanente o continuos debe ser asentado mensual o anualmente y si se debe registrar por cuentas mayores o por &iacute;tems es del caso observar que a este despacho no corresponde indicar se&ntilde;alar la forma, periodicidad o dem&aacute;s aspectos para registrar e informar contablemente las operaciones del ente econ&oacute;mico as&iacute; como tampoco corresponde dilucidar lo relacionado con la circunstancia de si un dictamen de revisor fiscal debe expedirse con salvedades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001241-1993",
+      "tipo": "concepto",
+      "numero": "0001241",
+      "fecha": "1993-06-15",
+      "tema": "&iquest;El Impuesto a la renta es aplicable a subsidiarias o sucursales de sociedades extranjeras?&iquest;El Impuesto de renta cuando se capitalizan las utilidades, si se mantiene la inversi&oacute;n por 10 a&ntilde;os?&iquest;Cu&aacute;l es el Impuesto m&aacute;ximo de renta para las personas naturales o extranjeras residentes en el pa&iacute;s?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1441-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1441",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-993-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "993",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1028-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1028",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1033-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1033",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-559-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "559",
+      "year": 1999,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-843-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "843",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

@@ -1,7 +1,40 @@
 import { getPineconeClient } from "./client";
 import { EMBEDDING_MODEL } from "@/config/constants";
+import crypto from "crypto";
+
+// Simple LRU Cache for embeddings
+const CACHE_LIMIT = 100;
+const embeddingCache = new Map<string, number[]>();
+
+function getHash(text: string): string {
+  return crypto.createHash("md5").update(text).digest("hex");
+}
+
+function getFromCache(text: string): number[] | undefined {
+  const hash = getHash(text);
+  const cached = embeddingCache.get(hash);
+  if (cached) {
+    // Move to end (most recent)
+    embeddingCache.delete(hash);
+    embeddingCache.set(hash, cached);
+  }
+  return cached;
+}
+
+function addToCache(text: string, values: number[]) {
+  const hash = getHash(text);
+  if (embeddingCache.size >= CACHE_LIMIT) {
+    // Delete oldest (first)
+    const firstKey = embeddingCache.keys().next().value;
+    if (firstKey) embeddingCache.delete(firstKey);
+  }
+  embeddingCache.set(hash, values);
+}
 
 export async function embedQuery(text: string): Promise<number[]> {
+  const cached = getFromCache(text);
+  if (cached) return cached;
+
   const pc = getPineconeClient();
   const normalized = text.normalize("NFC");
 
@@ -13,25 +46,47 @@ export async function embedQuery(text: string): Promise<number[]> {
 
   const embedding = result.data[0];
   if ("values" in embedding) {
-    return embedding.values;
+    const values = embedding.values;
+    addToCache(text, values);
+    return values;
   }
   throw new Error("Expected dense embedding");
 }
 
 export async function embedQueries(texts: string[]): Promise<number[][]> {
-  const pc = getPineconeClient();
-  const normalized = texts.map((t) => t.normalize("NFC"));
+  const results: number[][] = new Array(texts.length);
+  const missingIndices: number[] = [];
+  const missingTexts: string[] = [];
 
-  const result = await pc.inference.embed({
+  texts.forEach((text, i) => {
+    const cached = getFromCache(text);
+    if (cached) {
+      results[i] = cached;
+    } else {
+      missingIndices.push(i);
+      missingTexts.push(text.normalize("NFC"));
+    }
+  });
+
+  if (missingTexts.length === 0) return results;
+
+  const pc = getPineconeClient();
+  const apiResult = await pc.inference.embed({
     model: EMBEDDING_MODEL,
-    inputs: normalized,
+    inputs: missingTexts,
     parameters: { inputType: "query", truncate: "END" },
   });
 
-  return result.data.map((d) => {
+  apiResult.data.forEach((d, i) => {
     if ("values" in d) {
-      return d.values;
+      const values = d.values;
+      const originalIndex = missingIndices[i];
+      results[originalIndex] = values;
+      addToCache(texts[originalIndex], values);
+    } else {
+      throw new Error("Expected dense embedding");
     }
-    throw new Error("Expected dense embedding");
   });
+
+  return results;
 }

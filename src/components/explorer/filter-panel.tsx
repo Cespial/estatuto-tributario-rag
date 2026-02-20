@@ -103,9 +103,16 @@ export function FilterPanel({ filters, facets, onChange }: FilterPanelProps) {
     <div className="space-y-3">
       <div className="rounded-lg border border-border/60 bg-card p-3">
         <div className="mb-2 flex items-center justify-between">
-          <p className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
-            Libros del ET
-          </p>
+          <div className="flex items-center gap-2">
+            <p className="text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">
+              Libros del ET
+            </p>
+            {activeFilterLabels.length > 0 && (
+              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-foreground text-[10px] font-bold text-background">
+                {activeFilterLabels.length}
+              </span>
+            )}
+          </div>
           <button
             onClick={() =>
               onChange({

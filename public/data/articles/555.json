@@ -1,1 +1,237 @@
-{"id_articulo": "Art. 555", "titulo": "Art. 555. Capacidad y representación.", "titulo_corto": "Capacidad y representación.", "slug": "555", "url_origen": "https://estatuto.co/555", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los contribuyentes pueden actuar ante la Administración Tributaria personalmente o por medio de sus representantes o apoderados. Los contribuyentes menores adultos pueden comparecer directamente y cumplir por sí los deberes formales y materiales tributarios.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes pueden actuar ante la Administración Tributaria personalmente o por medio de sus representantes o apoderados.</p>\n<p>Los contribuyentes menores adultos pueden comparecer directamente y cumplir por sí los deberes formales y materiales tributarios.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 555",
+  "titulo": "Art. 555. Capacidad y representación.",
+  "titulo_corto": "Capacidad y representación.",
+  "slug": "555",
+  "url_origen": "https://estatuto.co/555",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los contribuyentes pueden actuar ante la Administración Tributaria personalmente o por medio de sus representantes o apoderados. Los contribuyentes menores adultos pueden comparecer directamente y cumplir por sí los deberes formales y materiales tributarios.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes pueden actuar ante la Administración Tributaria personalmente o por medio de sus representantes o apoderados.</p>\n<p>Los contribuyentes menores adultos pueden comparecer directamente y cumplir por sí los deberes formales y materiales tributarios.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 5475 (2025-04-30): Facturaci&oacute;n Electr&oacute;nica\noficio 9485 (2024-11-29): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-5475-2025",
+      "tipo": "oficio",
+      "numero": "5475",
+      "fecha": "2025-04-30",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9485-2024",
+      "tipo": "oficio",
+      "numero": "9485",
+      "fecha": "2024-11-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25225-2019",
+      "tipo": "oficio",
+      "numero": "25225",
+      "fecha": "2019-10-04",
+      "tema": "Registro &uacute;nico tributario - requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17784-2019",
+      "tipo": "oficio",
+      "numero": "17784",
+      "fecha": "2019-07-09",
+      "tema": "Renta por comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10939-2018",
+      "tipo": "oficio",
+      "numero": "10939",
+      "fecha": "2018-04-27",
+      "tema": "&iquest;Si en ausencia del Representante Legal principal podr&iacute;a eventualmente firmar las declaraciones Tributarias un suplente de la sociedad fiduciaria de la Sociedad Administradora o seria responsabilidad de un suplente de los suscriptores del acuerdo consorcial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3912-2018",
+      "tipo": "oficio",
+      "numero": "3912",
+      "fecha": "2018-05-29",
+      "tema": "Certificados de Acreditaci&oacute;n de Residencia y de Situaci&oacute;n Tributaria en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015796-2016",
+      "tipo": "concepto",
+      "numero": "0015796",
+      "fecha": "2016-07-26",
+      "tema": "&iquest;Se debe notificar el aviso de citaci&oacute;n para la notificaci&oacute;n personal cuando es devuelta por el correo? - &iquest;Se deben publicar en la p&aacute;gina web de la entidad los oficios y dem&aacute;s comunicaciones, que son devueltos por el correo? Y, en caso afirmativo, cuando contienen informaci&oacute;n de reserva legal &iquest;qu&eacute; se debe publicar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0580-2016",
+      "tipo": "oficio",
+      "numero": "0580",
+      "fecha": "2016-01-12",
+      "tema": "Procedimiento Tributario - Registro &Uacute;nico Tributario - Actualizaci&oacute;n, inscrpci&oacute;n y requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61350-2014",
+      "tipo": "oficio",
+      "numero": "61350",
+      "fecha": "2014-10-31",
+      "tema": "&iquest;Cu&aacute;l es la consecuencia jur&iacute;dica para los contribuyentes que no realizan la presentaci&oacute;n personal de las respuestas a los actos administrativos de tr&aacute;mites, tales como: pliego de cargos, requerimientos especiales entre otros?&iquest;Es subsanable la presentaci&oacute;n posterior al plazo perentorio establecido en las diferentes normas del Estatuto Tributario para dar respuesta a los diferentes actos administrativos de tramite?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45532-2014",
+      "tipo": "oficio",
+      "numero": "45532",
+      "fecha": "2014-07-29",
+      "tema": "&iquest;Una persona natural nacional y residente en Colombia, puede solicitar el Certificado de Residencia Fiscal y de Situaci&oacute;n Tributaria en los t&eacute;rminos establecidos en la Resoluci&oacute;n 3283 de 2009, fundament&aacute;ndose &uacute;nicamente en lo establecido en el literal a) del numeral 3) del art&iacute;culo 10 del Estatuto Tributario y en caso afirmativo que documentos debe anexar para la respectiva comprobaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71405-2013",
+      "tipo": "oficio",
+      "numero": "71405",
+      "fecha": "2013-11-06",
+      "tema": "Derecho de petici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10563-2013",
+      "tipo": "oficio",
+      "numero": "10563",
+      "fecha": "2013-02-22",
+      "tema": "&iquest;Para celebrar un convenio de cooperaci&oacute;n con el Centro Interamericano de Estudios de Seguridad Social CIESS &oacute;rgano de la Conferencia Interamericana de Seguridad Social CISS, hacer los aportes correspondientes y reportar la informaci&oacute;n de los convenios suscritos a la DIAN, tal organismo debe inscribirse en el Registro &Uacute;nico Tributario y si es necesario que tenga representante en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68232-2012",
+      "tipo": "oficio",
+      "numero": "68232",
+      "fecha": "2012-10-30",
+      "tema": "Tratamiento tributario en materia de Impuesto sobre las Ventas de las",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0105989-2009",
+      "tipo": "concepto",
+      "numero": "0105989",
+      "fecha": "2009-12-28",
+      "tema": "&iquest;Pueden los menores adultos cumplir sus obligaciones tributarias formales y sustanciales personalmente, entre ellas inscribirse en el RUT, directamente sin apoderado o representante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-94465-2006",
+      "tipo": "oficio",
+      "numero": "94465",
+      "fecha": "2006-11-07",
+      "tema": "&iquest;Las entidades de derecho p&uacute;blico, diferentes de las empresas industriales y comerciales del Estado y de las sociedades de econom&iacute;a mixta, que presentan las declaraciones de retenci&oacute;n en la fuente por cada oficina recaudadora, tambi&eacute;n deben presentar la informaci&oacute;n ex&oacute;gena por cada oficina recaudadora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096514-2005",
+      "tipo": "concepto",
+      "numero": "0096514",
+      "fecha": "2005-12-27",
+      "tema": "&iquest;Es viable cumplir con las obligaciones tributarias a cargo de una sociedad de hecho utilizando para ello el Nit asignado por la DIAN a la sociedad, o se requiere, adem&aacute;s, de la asignaci&oacute;n de un Nit a los socios?&iquest;La reconstituci&oacute;n de una sociedad la cual la c&aacute;mara de comercio le asigna nuevo n&uacute;mero de matr&iacute;cula, por tratarse de una nueva persona jur&iacute;dica, requiere de la asignaci&oacute;n de un nuevo Nit?&iquest;Deben inscribirse en el RUT las sociedades civiles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042364-2004",
+      "tipo": "concepto",
+      "numero": "0042364",
+      "fecha": "2004-07-13",
+      "tema": "&iquest;Son procedentes los costos, deducciones e impuestos descontables por operaciones realizadas con terceros no inscritos en el Rut, o que estando inscritos no aparecen como responsables del r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33346-2004",
+      "tipo": "oficio",
+      "numero": "33346",
+      "fecha": "2004-05-31",
+      "tema": "&iquest;Un comercializador que &uacute;nicamente vende bienes exentos, como es la venta a sociedades de comercializaci&oacute;n internacional, es o no responsable del impuesto sobre las ventas -IVA- y en tal sentido cu&aacute;les son las obligaciones sustanciales y formales y m&aacute;s espec&iacute;ficamente las relacionadas con la inscripci&oacute;n en el registro &uacute;nico tributario RUT?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-28288-2004",
+      "tipo": "oficio",
+      "numero": "28288",
+      "fecha": "2004-05-07",
+      "tema": "Operaciones que se realizan con responsables del r&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25247-2004",
+      "tipo": "oficio",
+      "numero": "25247",
+      "fecha": "2004-04-27",
+      "tema": "&iquest;Qui&eacute;n es el operador; qui&eacute;n el responsable del impuesto a las ventas; bajo qu&eacute; c&oacute;digo de actividad econ&oacute;mica debe efectuarse la inscripci&oacute;n del mismo en el RUT; el procedimiento tanto para ello como para presentar las declaraciones de IVA y finalmente si la base gravable en juegos localizados es un salario m&iacute;nimo legal independientemente de los ingresos percibidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035986-1997",
+      "tipo": "concepto",
+      "numero": "0035986",
+      "fecha": "1997-03-29",
+      "tema": "los contribuyentes responsables, agentes retenedores y declarantes, se identificar&aacute;n mediante el N&uacute;mero de Identificaci&oacute;n Tributaria NIT, que le asigne la Direcci&oacute;n de Impuestos y Aduanas Nacionales seg&uacute;n lo consagrado en el art&iacute;culo 555-1 del Estatuto Tributario",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    }
+  ]
+}

@@ -1,1 +1,515 @@
-{"id_articulo": "Art. 124", "titulo": "Art. 124. Los pagos a la casa matriz son deducibles.", "titulo_corto": "Los pagos a la casa matriz son deducibles.", "slug": "124", "url_origen": "https://estatuto.co/124", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Las filiales o sucursales, subsidiarias o agencias en Colombia de sociedades extranjeras, tienen derecho a deducir de sus ingresos, a título de costo o deducción, las cantidades pagadas o reconocidas directa o indirectamente a sus casas matrices u oficinas del exterior, por concepto de gastos de administración o dirección y por concepto de regalías y explotación o adquisición de cualquier clase de intangibles, siempre que sobre los mismos practiquen las retenciones en la fuente del impuesto sobre la renta y -el complementario de remesas-. Los pagos a favor de dichas matrices u oficinas del exterior por otros conceptos diferentes, están sujetos a lo previsto en el artículo 121 y artículo 122 de este Estatuto. **Parágrafo. Los conceptos mencionados en el presente artículo, diferentes a regalías y explotación o adquisición de cualquier clase de intangible, sean de fuente nacional o extranjera estarán sometidos a una tarifa de retención en la fuente establecido en el artículo 408 de este Estatuto.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las filiales o sucursales, subsidiarias o agencias en Colombia de sociedades extranjeras, tienen derecho a deducir de sus ingresos, a título de costo o deducción, las cantidades pagadas o reconocidas directa o indirectamente a sus casas matrices u oficinas del exterior, por concepto de gastos de administración o dirección y por concepto de regalías y explotación o adquisición de cualquier clase de intangibles, siempre que sobre los mismos practiquen las retenciones en la fuente del impuesto sobre la renta y <span class=\"verde\">-<em>el complementario de remesas</em>-. </span>Los pagos a favor de dichas matrices u oficinas del exterior por otros conceptos diferentes, están sujetos a lo previsto en el <a href=\"https://estatuto.co/121\" rel=\"noopener\" target=\"_blank\">artículo 121</a> y <a href=\"https://estatuto.co/122\" rel=\"noopener\" target=\"_blank\">artículo 122</a> de este Estatuto.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>Los conceptos mencionados en el presente artículo, diferentes a regalías y explotación o adquisición de cualquier clase de intangible, sean de fuente nacional o extranjera estarán sometidos a una tarifa de retención en la fuente establecido en el <a href=\"https://estatuto.co/408\" rel=\"noopener\" target=\"_blank\">artículo 408</a> de este Estatuto.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 85 **Parágrafo Adicionado- Ley 1819 de 2016 Art. 73. -Impuesto remesas eliminado Ley 1111 de 2006 Art. 78.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "85"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["121", "122", "408"], "referenced_by": ["408"], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 124",
+  "titulo": "Art. 124. Los pagos a la casa matriz son deducibles.",
+  "titulo_corto": "Los pagos a la casa matriz son deducibles.",
+  "slug": "124",
+  "url_origen": "https://estatuto.co/124",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Las filiales o sucursales, subsidiarias o agencias en Colombia de sociedades extranjeras, tienen derecho a deducir de sus ingresos, a título de costo o deducción, las cantidades pagadas o reconocidas directa o indirectamente a sus casas matrices u oficinas del exterior, por concepto de gastos de administración o dirección y por concepto de regalías y explotación o adquisición de cualquier clase de intangibles, siempre que sobre los mismos practiquen las retenciones en la fuente del impuesto sobre la renta y -el complementario de remesas-. Los pagos a favor de dichas matrices u oficinas del exterior por otros conceptos diferentes, están sujetos a lo previsto en el artículo 121 y artículo 122 de este Estatuto. **Parágrafo. Los conceptos mencionados en el presente artículo, diferentes a regalías y explotación o adquisición de cualquier clase de intangible, sean de fuente nacional o extranjera estarán sometidos a una tarifa de retención en la fuente establecido en el artículo 408 de este Estatuto.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las filiales o sucursales, subsidiarias o agencias en Colombia de sociedades extranjeras, tienen derecho a deducir de sus ingresos, a título de costo o deducción, las cantidades pagadas o reconocidas directa o indirectamente a sus casas matrices u oficinas del exterior, por concepto de gastos de administración o dirección y por concepto de regalías y explotación o adquisición de cualquier clase de intangibles, siempre que sobre los mismos practiquen las retenciones en la fuente del impuesto sobre la renta y <span class=\"verde\">-<em>el complementario de remesas</em>-. </span>Los pagos a favor de dichas matrices u oficinas del exterior por otros conceptos diferentes, están sujetos a lo previsto en el <a href=\"https://estatuto.co/121\" rel=\"noopener\" target=\"_blank\">artículo 121</a> y <a href=\"https://estatuto.co/122\" rel=\"noopener\" target=\"_blank\">artículo 122</a> de este Estatuto.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>Los conceptos mencionados en el presente artículo, diferentes a regalías y explotación o adquisición de cualquier clase de intangible, sean de fuente nacional o extranjera estarán sometidos a una tarifa de retención en la fuente establecido en el <a href=\"https://estatuto.co/408\" rel=\"noopener\" target=\"_blank\">artículo 408</a> de este Estatuto.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 85 **Parágrafo Adicionado- Ley 1819 de 2016 Art. 73. -Impuesto remesas eliminado Ley 1111 de 2006 Art. 78.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "85"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "121",
+    "122",
+    "408"
+  ],
+  "referenced_by": [
+    "408"
+  ],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 901700 (2022-03-07): Retenci&oacute;n en la fuente por pagos al exterior\noficio 908324 (2021-08-18): Cr&eacute;ditos otorgados en el exterior - Impuesto sobre la renta\noficio 905137 (2021-06-03): Convenios para evitar la doble imposici&oacute;n - Impuesto sobre la renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-901700-2022",
+      "tipo": "oficio",
+      "numero": "901700",
+      "fecha": "2022-03-07",
+      "tema": "Retenci&oacute;n en la fuente por pagos al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908324-2021",
+      "tipo": "oficio",
+      "numero": "908324",
+      "fecha": "2021-08-18",
+      "tema": "Cr&eacute;ditos otorgados en el exterior - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905137-2021",
+      "tipo": "oficio",
+      "numero": "905137",
+      "fecha": "2021-06-03",
+      "tema": "Convenios para evitar la doble imposici&oacute;n - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4359-2020",
+      "tipo": "oficio",
+      "numero": "4359",
+      "fecha": "2020-02-28",
+      "tema": "Pagos al Exterior Sujetos a Retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22459-2019",
+      "tipo": "oficio",
+      "numero": "22459",
+      "fecha": "2019-09-05",
+      "tema": "Deducci&oacute;n de Pagos a la Casa Matriz",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21281-2018",
+      "tipo": "oficio",
+      "numero": "21281",
+      "fecha": "2018-08-13",
+      "tema": "Retenci&oacute;n en la fuente a factura del exterior correspondiente al arrendamiento de una m&aacute;quina",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0305-2018",
+      "tipo": "oficio",
+      "numero": "0305",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;La reversi&oacute;n del pasivo genera un ingreso gravado en Renta, teniendo en cuenta que el gasto que dio origen a dicho pasivo nunca se tom&oacute; como deducible y que el pasivo si se reconoci&oacute; fiscalmente? &iquest;Se podr&iacute;a aplicar lo dispuesto en el numeral 6 del art&iacute;culo 28 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34105-2017",
+      "tipo": "oficio",
+      "numero": "34105",
+      "fecha": "2017-12-21",
+      "tema": "&iquest;Una sucursal de sociedad extranjera a quien se le atribuye un establecimiento permanente debe practicar retenci&oacute;n en la fuente a t&iacute;tulo de renta y ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28590-2017",
+      "tipo": "oficio",
+      "numero": "28590",
+      "fecha": "2017-10-20",
+      "tema": "Enajenaci&oacute;n activos adquiridos por leasing financiero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23270-2017",
+      "tipo": "oficio",
+      "numero": "23270",
+      "fecha": "2017-08-28",
+      "tema": "Limitaciones a pagos de regal&iacute;as por concepto de intangibles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35020-2016",
+      "tipo": "oficio",
+      "numero": "35020",
+      "fecha": "2016-12-20",
+      "tema": "&iquest;Cu&aacute;l es el alcance o definici&oacute;n precisa de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24445-2015",
+      "tipo": "oficio",
+      "numero": "24445",
+      "fecha": "2015-08-24",
+      "tema": "&iquest;Una sociedad por acciones simplificada, en reorganizaci&oacute;n, que se acogi&oacute; a la Ley 1116 de 2006 en el a&ntilde;o 2014 por encontrarse en esa condici&oacute;n se encuentra exonerada del pago del impuesto sobre la renta para la equidad - CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50270-2014",
+      "tipo": "oficio",
+      "numero": "50270",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;C&oacute;mo opera la deducci&oacute;n de la provisi&oacute;n para el pago de futuras pensiones prevista en los art&iacute;culos 112 y 113 del Estatuto Tributario, para efectos de la depuraci&oacute;n de la base gravable del impuesto sobre la renta para la equidad - CREE para el periodo gravable 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019440-2014",
+      "tipo": "concepto",
+      "numero": "0019440",
+      "fecha": "2014-03-25",
+      "tema": "&iquest;La restricci&oacute;n de costos y deducciones en los t&eacute;rminos del art&iacute;culo 124-2 del Estatuto Tributario, aplica para pagos o abonos en cuenta, cuando se realicen a: &iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional y cuyo ingreso sea de fuente nacional?&iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional por concepto de importaciones, cuando el importador es contribuyente del impuesto sobre la renta en Colombia?&iquest;Personas o entidades que NO se encuentran localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional, pero que la cuenta bancaria a la que se efect&uacute;a el giro del dinero, SI se encuentra localizada o funciona en una entidad financiera (banco) constituida, localizada o en funcionamiento en un para&iacute;so fiscal calificado como tal por el Gobierno Nacional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-14904-2014",
+      "tipo": "oficio",
+      "numero": "14904",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto sobre la renta para la equidad- CREE - Pago o abono en cuenta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2385-2014",
+      "tipo": "oficio",
+      "numero": "2385",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1660-2014",
+      "tipo": "oficio",
+      "numero": "1660",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1656-2014",
+      "tipo": "oficio",
+      "numero": "1656",
+      "fecha": "2014-01-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1655-2014",
+      "tipo": "oficio",
+      "numero": "1655",
+      "fecha": "2014-01-13",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta para la equidad CREE - Expensas ordinarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61420-2012",
+      "tipo": "oficio",
+      "numero": "61420",
+      "fecha": "2012-09-28",
+      "tema": "&iquest;Con fundamento en los art&iacute;culos 124 y 260-7 del Estatuto Tributario si los gastos por concepto de servicios de administraci&oacute;n o direcci&oacute;n prestados por la casa matriz en el exterior, respecto de los cuales no existe la obligaci&oacute;n de practicar retenci&oacute;n en la fuente a t&iacute;tulo de renta, son deducibles sin que haya lugar a aplicar la limitaci&oacute;n del 15% prevista en el art&iacute;culo 122 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77117-2011",
+      "tipo": "oficio",
+      "numero": "77117",
+      "fecha": "2011-10-03",
+      "tema": "&iquest;De conformidad con los art&iacute;culos 124 y 260-7 del Estatuto Tributario, los pagos realizados por concepto de gastos de administraci&oacute;n o direcci&oacute;n prestados por la casa matriz ubicada en el exterior, sujetos al r&eacute;gimen de precios de transferencia, son deducibles sin que haya lugar a aplicar la limitaci&oacute;n del 15% prevista en el art&iacute;culo 122 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103123-2008",
+      "tipo": "oficio",
+      "numero": "103123",
+      "fecha": "2008-10-20",
+      "tema": "&iquest;Es procedente la deducci&oacute;n especial, cuando una sucursal de sociedad extranjera del sector de servicios a la industria del petr&oacute;leo, por conducto de su oficina principal en el exterior, adquiere activos fijos reales productivos de su casa matriz en el exterior o de compa&ntilde;&iacute;as vinculadas tambi&eacute;n en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094036-2005",
+      "tipo": "concepto",
+      "numero": "0094036",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Pueden los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia deducir los intereses pagados a favor de su casa matriz, sobre pr&eacute;stamos de &eacute;sta, sin tener que practicar retenci&oacute;n en la fuente?&iquest;La posibilidad que tienen los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia de deducir los pagos a favor de sus casas matrices o de sus ganancias, sucursales o filiales con domicilio en el exterior, por concepto de intereses y dem&aacute;s costos y gastos financieros, sobre pr&eacute;stamos de &eacute;stas, en operaciones respecto de las cuales se cumpla dicho r&eacute;gimen, conlleva el reconocimiento fiscal para efectos patrimoniales del pasivo que los origina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86498-2005",
+      "tipo": "oficio",
+      "numero": "86498",
+      "fecha": "2005-11-22",
+      "tema": "&iquest;Los gastos de administraci&oacute;n y direcci&oacute;n ejecutados en el exterior, y que cobra una casa matriz a su filial en el pa&iacute;s, sobre los cuales le fue practicada retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la Renta e Impuesto de Remesas, son deducibles en la depuraci&oacute;n de la renta, y si se encuentran limitadas al 15% de la renta liquida; de igual manera consulta si se genera impuesto a las Ventas en esta operaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080007-2003",
+      "tipo": "concepto",
+      "numero": "0080007",
+      "fecha": "2003-12-17",
+      "tema": "&iquest;Debe atenderse al origen de los recursos en dep&oacute;sito para efectos de decretar o mantener el embargo de las sumas de dinero depositadas en establecimientos bancarios y similares, por los deudores de obligaciones administradas por la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097609-2000",
+      "tipo": "concepto",
+      "numero": "0097609",
+      "fecha": "2000-10-06",
+      "tema": "&iquest;Son deducibles del Impuesto sobre la Renta, los pagos por concepto de gastos de administraci&oacute;n y por concepto de regal&iacute;as y explotaci&oacute;n o adquisici&oacute;n de cualquier clase de intangibles de que trata el art&iacute;culo 124 del Estatuto Tributario que efect&uacute;e una filial o subsidiaria a su casa matriz del exterior solamente sin que se sometan a retenci&oacute;n en la fuente? &iquest;Cu&aacute;l es el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058392-1998",
+      "tipo": "concepto",
+      "numero": "0058392",
+      "fecha": "1998-07-24",
+      "tema": "&iquest;Se puede incluir en la contabilidad de una sucursal de una sociedad extranjera una Cuenta por Pagar a favor de la matriz, por concepto de Honorarios de algunos de sus funcionarios. Cu&aacute;l ser&iacute;a el porcentaje de retenci&oacute;n a t&iacute;tulo de impuesto de renta y remesas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057303-1998",
+      "tipo": "concepto",
+      "numero": "0057303",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Para efectos de retenciones en la fuente por pagos al exterior, debe entenderse que la sociedad extranjera es sociedad diferente y no domiciliada en Colombia cuando contrata directamente en el Pa&iacute;s con otras sociedades, o, incluso, con su sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014751-1998",
+      "tipo": "concepto",
+      "numero": "0014751",
+      "fecha": "1998-03-09",
+      "tema": "&iquest;En los casos en que se suscribe con una sociedad extranjera, con sucursal en Colombia (domiciliada), en un contrato de licenciamiento de marca, pact&aacute;ndose como remuneraci&oacute;n el pago de una regal&iacute;a, debe efectuarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004934-1998",
+      "tipo": "concepto",
+      "numero": "0004934",
+      "fecha": "1998-01-29",
+      "tema": "&iquest;Es procedente la compensaci&oacute;n de un saldo a favor de una sociedad con las deudas fiscales de una sociedad filial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039208-1997",
+      "tipo": "concepto",
+      "numero": "0039208",
+      "fecha": "1997-05-09",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070994-1996",
+      "tipo": "concepto",
+      "numero": "0070994",
+      "fecha": "1996-09-10",
+      "tema": "&iquest;A qu&eacute; tarifas del impuesto de renta y remesas est&aacute;n sometidos los pagos que reciban las sucursales de sociedades extranjeras en Colombia, por concepto de consultor&iacute;a e investigaci&oacute;n en seguridad y vigilancia? &iquest;Qu&eacute; limitaciones tienen los gastos que una sucursal de sociedad extranjera realice en el exterior cuando los pagos se efect&uacute;en a la casa matriz y qu&eacute; limitaciones cuando se realicen a sociedades extranjeras diferentes de la matriz? &iquest;El servicio de consultor&iacute;a, asesor&iacute;a e investigaci&oacute;n en seguridad y vigilancia est&aacute; gravado con el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030436-1995",
+      "tipo": "concepto",
+      "numero": "0030436",
+      "fecha": "1995-05-16",
+      "tema": "&iquest;Se encuentran sometidos a retenci&oacute;n en la fuente a t&iacute;tulo de los impuestos sobre la renta y las remesas, los pagos o abonos en cuenta efectuados por concepto de REGALIAS, por parte de una sociedad filial o subsidiaria en Colombia en favor de su casa matriz en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065383-1994",
+      "tipo": "concepto",
+      "numero": "0065383",
+      "fecha": "1994-11-11",
+      "tema": "&iquest;Un contribuyente puede utilizar en su contabilidad las facturas como notas d&eacute;bito o notas cr&eacute;dito anexando a las mismas un escrito en uno u otro sentido? &iquest;La correcci&oacute;n de una declaraci&oacute;n suscitada con ocasi&oacute;n de la modificaci&oacute;n en las instrucciones oficiales relativas al correcto diligenciamiento de la declaraci&oacute;n acarrea sanci&oacute;n por correcci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009959-1992",
+      "tipo": "concepto",
+      "numero": "0009959",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Son deducibles de la renta los pagos por concepto de arrendamiento financiero (leasing) que realice una",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004402-1989",
+      "tipo": "concepto",
+      "numero": "0004402",
+      "fecha": "1989-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    }
+  ]
+}

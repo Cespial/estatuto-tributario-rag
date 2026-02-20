@@ -1,1 +1,423 @@
-{"id_articulo": "Art. 176", "titulo": "Art. 176. Los gastos que no sean susceptibles de tratarse como deducción, no podrán ser tratados como costos ni capitalizados.", "titulo_corto": "Los gastos que no sean susceptibles de tratarse como deducción, no podrán ser tratados como costos ni capitalizados.", "slug": "176", "url_origen": "https://estatuto.co/176", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los costos cuya aceptación esté restringida no podrán ser tratados como deducción. Los gastos no aceptados fiscalmente no podrán ser tratados como costo, ni ser capitalizados.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los costos cuya aceptación esté restringida no podrán ser tratados como deducción. Los gastos no aceptados fiscalmente no podrán ser tratados como costo, ni ser capitalizados.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 93.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "93"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 176",
+  "titulo": "Art. 176. Los gastos que no sean susceptibles de tratarse como deducción, no podrán ser tratados como costos ni capitalizados.",
+  "titulo_corto": "Los gastos que no sean susceptibles de tratarse como deducción, no podrán ser tratados como costos ni capitalizados.",
+  "slug": "176",
+  "url_origen": "https://estatuto.co/176",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los costos cuya aceptación esté restringida no podrán ser tratados como deducción. Los gastos no aceptados fiscalmente no podrán ser tratados como costo, ni ser capitalizados.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los costos cuya aceptación esté restringida no podrán ser tratados como deducción. Los gastos no aceptados fiscalmente no podrán ser tratados como costo, ni ser capitalizados.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 93.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "93"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 11 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 908324 (2021-08-18): Cr&eacute;ditos otorgados en el exterior - Impuesto sobre la renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-908324-2021",
+      "tipo": "oficio",
+      "numero": "908324",
+      "fecha": "2021-08-18",
+      "tema": "Cr&eacute;ditos otorgados en el exterior - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901635-2020",
+      "tipo": "oficio",
+      "numero": "901635",
+      "fecha": "2020-05-16",
+      "tema": "Venta de bonos de carbono",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0417-2018",
+      "tipo": "oficio",
+      "numero": "0417",
+      "fecha": "2018-01-05",
+      "tema": "Cobro del IVA por circulaci&oacute;n, operaci&oacute;n y venta dentro del departamento archipi&eacute;lago de San Andr&eacute;s y Providencia de los juegos de suerte y azar y loter&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24445-2015",
+      "tipo": "oficio",
+      "numero": "24445",
+      "fecha": "2015-08-24",
+      "tema": "&iquest;Una sociedad por acciones simplificada, en reorganizaci&oacute;n, que se acogi&oacute; a la Ley 1116 de 2006 en el a&ntilde;o 2014 por encontrarse en esa condici&oacute;n se encuentra exonerada del pago del impuesto sobre la renta para la equidad - CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3738-2015",
+      "tipo": "oficio",
+      "numero": "3738",
+      "fecha": "2015-02-12",
+      "tema": "Precisiones respecto del Oficio 052431 del 28 de agosto de 2014, en relaci&oacute;n con la forma como las personas jur&iacute;dicas originadas en la constituci&oacute;n de la propiedad horizontal deben imputar los egresos comunes cuando existen ingresos gravados (por la explotaci&oacute;n comercial e industrial de bienes comunes) e ingresos no gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51936-2014",
+      "tipo": "oficio",
+      "numero": "51936",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Cu&aacute;l debe ser el tratamiento de las provisiones para cobertura de riesgos en sus activos, si estas son una apropiaci&oacute;n contable que se puede devolver y no genera un egreso? - Puede entenderse que la depuraci&oacute;n de la renta para este tipo de contribuyentes consiste en desconocer de sus egresos aquellos egresos efectivamente realizados en el periodo gravable que no tenga relaci&oacute;n de causalidad con el ingreso o con el objeto social. &iquest;Qu&eacute; se debe entender por egreso no procedente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50639-2014",
+      "tipo": "oficio",
+      "numero": "50639",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;Una empresa dedicada a la prestaci&oacute;n del servicio de agenciamiento aduanero, son deducibles en la determinaci&oacute;n del impuesto sobre la renta, los gastos en que necesariamente debe incurrir para poder cumplir con su objeto social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50270-2014",
+      "tipo": "oficio",
+      "numero": "50270",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;C&oacute;mo opera la deducci&oacute;n de la provisi&oacute;n para el pago de futuras pensiones prevista en los art&iacute;culos 112 y 113 del Estatuto Tributario, para efectos de la depuraci&oacute;n de la base gravable del impuesto sobre la renta para la equidad - CREE para el periodo gravable 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40931-2014",
+      "tipo": "oficio",
+      "numero": "40931",
+      "fecha": "2014-07-11",
+      "tema": "Procedimiento que debo utilizar para que los costos y gastos de la entidad sean 100% deducibles como gastos de representaci&oacute;n - Parte normativa e impositiva de las transacciones que hacen parte del rublo de gastos de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31234-2014",
+      "tipo": "oficio",
+      "numero": "31234",
+      "fecha": "2014-05-22",
+      "tema": "&iquest;La contribuci&oacute;n parafiscal sobre contratos de obra p&uacute;blica consagrada en la Ley 1421 de 2010 es deducible en la determinaci&oacute;n del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14904-2014",
+      "tipo": "oficio",
+      "numero": "14904",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto sobre la renta para la equidad- CREE - Pago o abono en cuenta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2385-2014",
+      "tipo": "oficio",
+      "numero": "2385",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1660-2014",
+      "tipo": "oficio",
+      "numero": "1660",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1656-2014",
+      "tipo": "oficio",
+      "numero": "1656",
+      "fecha": "2014-01-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1655-2014",
+      "tipo": "oficio",
+      "numero": "1655",
+      "fecha": "2014-01-13",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta para la equidad CREE - Expensas ordinarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77305-2013",
+      "tipo": "oficio",
+      "numero": "77305",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Se debe efectuar retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y contribuci&oacute;n sobre contratos de obra p&uacute;blica, al momento de realizar un pago o abono en cuenta, como consecuencia de la suscripci&oacute;n del contrato de transacci&oacute;n con el que se termina extrajudicialmente un litigio originado en un contrato de obra p&uacute;blica del a&ntilde;o 2009?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106689-2007",
+      "tipo": "oficio",
+      "numero": "106689",
+      "fecha": "2007-12-28",
+      "tema": "Reconsiderar el Concepto n&uacute;mero 078709 del 2 de octubre de 2007 relacionado con la aplicaci&oacute;n del r&eacute;gimen de precios de transferencia en el caso excepcional de entidades sin fines de lucro, que en el &aacute;nimo de obtener fondos para cumplir su objeto social, venden bienes o prestan servicios a instituciones del exterior, quienes en la pr&aacute;ctica cumplen el papel de benefactoras",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068244-2007",
+      "tipo": "concepto",
+      "numero": "0068244",
+      "fecha": "2007-09-03",
+      "tema": "&iquest;Es deducible en la determinaci&oacute;n del impuesto sobre la renta el valor en pesos pagado a una entidad financiera, cuando tiene origen en la diferencia en cambio en contra entre la tasa pactada y el &iacute;ndice (Tasa Representativa del Mercado) vigente para la misma fecha, en la l&iacute;quidaci&oacute;n de los contratos forwards suscritos bajo la modalidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048168-2006",
+      "tipo": "concepto",
+      "numero": "0048168",
+      "fecha": "2006-06-07",
+      "tema": "&iquest;Los intereses que paga un inversionista obligado a efectuar ajustes por inflaci&oacute;n, sobre los pr&eacute;stamos obtenidos para la compra de acciones y aportes pueden ser deducidos en su totalidad en los t&eacute;rminos de lo dispuesto en el art&iacute;culo 349 del Estatuto Tributario, o se encuentran sometidos a la limitaci&oacute;n de que trata el art&iacute;culo 177-1 ib&iacute;dem?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044842-2006",
+      "tipo": "concepto",
+      "numero": "0044842",
+      "fecha": "2006-04-20",
+      "tema": "&iquest;Son deducibles, para efectos de la determinaci&oacute;n de la renta, las transferencias que por mandato del art&iacute;culo 45 de la Ley 99 de 1993 deben realizar las empresas generadoras de energ&iacute;a hidroel&eacute;ctrica y t&eacute;rmica, de un porcentaje de las ventas brutas de energ&iacute;a por generaci&oacute;n propia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065597-2001",
+      "tipo": "concepto",
+      "numero": "0065597",
+      "fecha": "2001-07-18",
+      "tema": "&iquest;Para efectos de reconocer el derecho a devoluci&oacute;n o compensaci&oacute;n del impuesto sobre las ventas por la adquisici&oacute;n de materiales de construcci&oacute;n para vivienda de inter&eacute;s social, es procedente aplicar la definici&oacute;n de vivienda nueva contenida en el numeral 2.5 del art&iacute;culo 1o del decreto 975 de 2004?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-225-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "225",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.1.7.6",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.1.7.6",
+      "vigente": true
+    }
+  ]
+}

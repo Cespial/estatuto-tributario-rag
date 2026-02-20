@@ -1,1 +1,363 @@
-{"id_articulo": "Art. 79", "titulo": "Art. 79. Determinación del valor de los pagos en especie que constituyen costo.", "titulo_corto": "Determinación del valor de los pagos en especie que constituyen costo.", "slug": "79", "url_origen": "https://estatuto.co/79", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "El valor de los pagos o abonos en especie que sean constitutivos de costos, se determinará conforme a lo señalado para los ingresos en el artículo 29.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El valor de los pagos o abonos en especie que sean constitutivos de costos, se determinará conforme a lo señalado para los ingresos en el <a href=\"https://estatuto.co/29\" rel=\"noopener\" target=\"_blank\">artículo 29.</a></p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["29"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 79",
+  "titulo": "Art. 79. Determinación del valor de los pagos en especie que constituyen costo.",
+  "titulo_corto": "Determinación del valor de los pagos en especie que constituyen costo.",
+  "slug": "79",
+  "url_origen": "https://estatuto.co/79",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "El valor de los pagos o abonos en especie que sean constitutivos de costos, se determinará conforme a lo señalado para los ingresos en el artículo 29.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El valor de los pagos o abonos en especie que sean constitutivos de costos, se determinará conforme a lo señalado para los ingresos en el <a href=\"https://estatuto.co/29\" rel=\"noopener\" target=\"_blank\">artículo 29.</a></p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "29"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s). Jurisprudencia: 19 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 908568 (2022-11-23): Impuesto sobre la renta - Realizaci&oacute;n del ingreso\noficio 907040 (2022-09-22): - (Tributario) Criptomonedas - Actividades de comercializaci&oacute;n en red o mercadeo multinivel\noficio 903175 (2022-04-22): Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - obligaciones\noficio 901713 (2022-03-07): Impuesto nacional al consumo, restaurante de hoteles",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908568-2022",
+      "tipo": "oficio",
+      "numero": "908568",
+      "fecha": "2022-11-23",
+      "tema": "Impuesto sobre la renta - Realizaci&oacute;n del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907040-2022",
+      "tipo": "oficio",
+      "numero": "907040",
+      "fecha": "2022-09-22",
+      "tema": "- (Tributario) Criptomonedas - Actividades de comercializaci&oacute;n en red o mercadeo multinivel",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-903175-2022",
+      "tipo": "oficio",
+      "numero": "903175",
+      "fecha": "2022-04-22",
+      "tema": "Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901713-2022",
+      "tipo": "oficio",
+      "numero": "901713",
+      "fecha": "2022-03-07",
+      "tema": "Impuesto nacional al consumo, restaurante de hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31395-2019",
+      "tipo": "oficio",
+      "numero": "31395",
+      "fecha": "2019-12-20",
+      "tema": "Beneficios tributarios otorgados durante el gobierno de Iv&aacute;n Duque y la existencia de estudios que los sustenten",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12735-2019",
+      "tipo": "oficio",
+      "numero": "12735",
+      "fecha": "2019-05-23",
+      "tema": "Impuesto sobre la Renta y Complementarios. Renta Exenta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4990-2019",
+      "tipo": "oficio",
+      "numero": "4990",
+      "fecha": "2019-02-28",
+      "tema": "&iquest;Cu&aacute;l es el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3807-2019",
+      "tipo": "oficio",
+      "numero": "3807",
+      "fecha": "2019-02-14",
+      "tema": "Incentivos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32424-2018",
+      "tipo": "oficio",
+      "numero": "32424",
+      "fecha": "2018-11-02",
+      "tema": "Deducci&oacute;n por Deudas de Dif&iacute;cil Cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13469-2018",
+      "tipo": "oficio",
+      "numero": "13469",
+      "fecha": "2018-05-22",
+      "tema": "Depreciaci&oacute;n acelerada para fines fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0785-2018",
+      "tipo": "oficio",
+      "numero": "0785",
+      "fecha": "2018-05-22",
+      "tema": "Deducci&oacute;n por Deudas de Dif&iacute;cil Cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27287-2015",
+      "tipo": "oficio",
+      "numero": "27287",
+      "fecha": "2015-10-01",
+      "tema": "(Int 1280) Forma de pago de las obligaciones tributarias en las entidades financieras - Cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57081-2014",
+      "tipo": "oficio",
+      "numero": "57081",
+      "fecha": "2014-09-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Deducci&oacute;n por Deudas Perdidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013518-2005",
+      "tipo": "concepto",
+      "numero": "0013518",
+      "fecha": "2005-03-08",
+      "tema": "&iquest;C&oacute;mo se determina la renta bruta en la enajenaci&oacute;n de activos a t&iacute;tulo de permuta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001358-2005",
+      "tipo": "concepto",
+      "numero": "0001358",
+      "fecha": "2005-03-08",
+      "tema": "&iquest;C&oacute;mo se determina la renta bruta en la enajenaci&oacute;n de activos a t&iacute;tulo de permuta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87707-2004",
+      "tipo": "oficio",
+      "numero": "87707",
+      "fecha": "2004-12-13",
+      "tema": "&iquest;El denominado producto asfalto se encuentra exento o gravado con el impuesto sobre las ventas, teniendo en cuenta la aparente contradicci&oacute;n entre el art&iacute;culo 5&ordm; de la Ley 30 de 1982 que consagra su exenci&oacute;n y el arancel de aduanas que frente a la subpartida 27.15.00.90.00 correspondiente a",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042135-2001",
+      "tipo": "concepto",
+      "numero": "0042135",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;Procede la pr&aacute;ctica de retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta cuando un ingenio azucarero entrega az&uacute;car en pago de la ca&ntilde;a suministrada por los proveedores de la misma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0123680-2000",
+      "tipo": "concepto",
+      "numero": "0123680",
+      "fecha": "2000-12-22",
+      "tema": "&iquest;Puede la administraci&oacute;n tributaria adelantar el proceso coactivo administrativo de obligaciones por fuera del concordato o liquidaci&oacute;n? &iquest;Las deudas fiscales de las entidades intervenidas por las autoridades de vigilancia y control deben ser canceladas dentro del mes siguiente a la fecha de la intervenci&oacute;n administrativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031017-1993",
+      "tipo": "concepto",
+      "numero": "0031017",
+      "fecha": "1993-12-02",
+      "tema": "&iquest;Cu&aacute;l es la diferencia en cambio que se genera entre la fecha de causaci&oacute;n y registro y la fecha del pago debe practicarse retenci&oacute;n en la fuente del 30% por pagos al exterior, y si se debe corregir la declaraci&oacute;n inicial de retenciones en la fuente, o por el contrario, debe entenderse que corresponde a diferencia en cambio de un pasivo en d&oacute;lares y por lo tanto no est&aacute; sujeto a retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018094-1988",
+      "tipo": "concepto",
+      "numero": "0018094",
+      "fecha": "1988-09-13",
+      "tema": "Contribuyentes EICE ferrocarril como servicio de interes general",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1647-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1647",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-553-1994",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "553",
+      "year": 1994
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

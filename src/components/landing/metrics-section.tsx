@@ -3,15 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 
 const METRICS = [
-  { value: 35, display: "35", label: "Calculadoras operativas" },
-  { value: 1294, display: "1.294", label: "Articulos ET indexados" },
-  { value: 2026, display: "2026", label: "Calendario fiscal DIAN" },
-  { value: 0, display: "24/7", label: "Asistente IA disponible" },
+  { value: 35, display: "35", label: "Calculadoras listas" },
+  { value: 1294, display: "1.294", label: "Articulos ET" },
+  { value: 841, display: "841", label: "Doctrinas DIAN" },
+  { value: 0, display: "24/7", label: "Asistente IA" },
 ] as const;
 
 function formatNumber(n: number, target: (typeof METRICS)[number]): string {
   if (target.value === 0) return target.display;
-  if (target.value === 2026) return String(Math.round(n));
   if (target.value >= 1000) return Math.round(n).toLocaleString("es-CO");
   return String(Math.round(n));
 }

@@ -1,1 +1,416 @@
-{"id_articulo": "Art. 339", "titulo": "Art. 339. Renta líquida cedular de las rentas de capital.", "titulo_corto": "Renta líquida cedular de las rentas de capital.", "slug": "339", "url_origen": "https://estatuto.co/339", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente. Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT. Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\"><strong>*</strong></span>Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><strong>Parágrafo. </strong>En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2006, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2006", "Ley 1943 de 2018"], "texto_derogado": ["*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente.", "Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT.", "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos proced...", "full_length": 252}, {"index": 1, "snippet": "Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000...", "full_length": 206}, {"index": 2, "snippet": "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables ...", "full_length": 214}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 339",
+  "titulo": "Art. 339. Renta líquida cedular de las rentas de capital.",
+  "titulo_corto": "Renta líquida cedular de las rentas de capital.",
+  "slug": "339",
+  "url_origen": "https://estatuto.co/339",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente. Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT. Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\"><strong>*</strong></span>Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><strong>Parágrafo. </strong>En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2006,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2006",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos procedentes y debidamente soportados por el contribuyente.",
+    "Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000) UVT.",
+    "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Para efectos de establecer la renta líquida cedular, del total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta imputables a esta cédula, y los costos y gastos proced...",
+      "full_length": 252
+    },
+    {
+      "index": 1,
+      "snippet": "Podrán restarse todas las rentas exentas y las deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil(1.000...",
+      "full_length": 206
+    },
+    {
+      "index": 2,
+      "snippet": "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables ...",
+      "full_length": 214
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000207 (2020-02-20): (Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?\noficio 26853 (2019-10-25): &iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?\noficio 19334 (2019-08-02): Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales\noficio 17972 (2019-07-10): &iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?\noficio 17968 (2019-07-10): &iquest;Debe considerarse como exento de renta y no constitutivo de salario la prima especial y la prima de costo de vida que devengan los Consejeros Comerciales y Asesores Comerciales al servicio del Ministerio de Comercio industria y Turismo que laboran en una planta del exterior?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19334-2019",
+      "tipo": "oficio",
+      "numero": "19334",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17968-2019",
+      "tipo": "oficio",
+      "numero": "17968",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Debe considerarse como exento de renta y no constitutivo de salario la prima especial y la prima de costo de vida que devengan los Consejeros Comerciales y Asesores Comerciales al servicio del Ministerio de Comercio industria y Turismo que laboran en una planta del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1430-2019",
+      "tipo": "oficio",
+      "numero": "1430",
+      "fecha": "2019-01-21",
+      "tema": "En el marco de la Resoluci&oacute;n 51 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32761-2018",
+      "tipo": "oficio",
+      "numero": "32761",
+      "fecha": "2018-11-09",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32487-2018",
+      "tipo": "oficio",
+      "numero": "32487",
+      "fecha": "2018-11-07",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a una cesi&oacute;n de derechos de autor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28030-2018",
+      "tipo": "oficio",
+      "numero": "28030",
+      "fecha": "2018-09-27",
+      "tema": "Presentaci&oacute;n de la declaraci&oacute;n del impuesto sobre la renta de personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27330-2018",
+      "tipo": "oficio",
+      "numero": "27330",
+      "fecha": "2018-09-19",
+      "tema": "&iquest;En qu&eacute; rengl&oacute;n de la declaraci&oacute;n de renta de personas naturales debe diligenciar las rentas exentas de la prima especial y prima de costo de vida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15878-2018",
+      "tipo": "oficio",
+      "numero": "15878",
+      "fecha": "2018-06-19",
+      "tema": "Ingresos Constitutivos de Renta y Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7480-2018",
+      "tipo": "oficio",
+      "numero": "7480",
+      "fecha": "2018-03-23",
+      "tema": "&iquest;Debe entenderse que tal exenci&oacute;n se mantiene de manera ilimitada para las Personas Natural? O &iquest;Se encuentra limitada por el sistema cedular previsto en los art&iacute;culos primero y subsiguientes de la misma Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3703-2018",
+      "tipo": "oficio",
+      "numero": "3703",
+      "fecha": "2018-02-15",
+      "tema": "&iquest;De conformidad con lo previsto en el art&iacute;culo 665 del Estatuto Tributario en concordancia con el art&iacute;culo 402 del C&oacute;digo Penal, la acci&oacute;n penal contra el agente retenedor puede precluirse cuando las obligaciones tributarias han prescrito para efectos del proceso de cobro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20964-2017",
+      "tipo": "oficio",
+      "numero": "20964",
+      "fecha": "2017-08-04",
+      "tema": "Monotributo - Firmeza declaraciones tributarias - R&eacute;gimen aplicable IVA - Exoneraci&oacute;n aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20257-2017",
+      "tipo": "oficio",
+      "numero": "20257",
+      "fecha": "2017-07-31",
+      "tema": "Depuraci&oacute;n de la base de retenci&oacute;n en la fuente por ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7389-2017",
+      "tipo": "oficio",
+      "numero": "7389",
+      "fecha": "2017-03-31",
+      "tema": "Deducci&oacute;n de Pensiones de Jubilaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6413-2017",
+      "tipo": "oficio",
+      "numero": "6413",
+      "fecha": "2017-03-23",
+      "tema": "Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6006-2017",
+      "tipo": "oficio",
+      "numero": "6006",
+      "fecha": "2017-03-17",
+      "tema": "Procedimiento Tributario - Omisi&oacute;n del agente retenedor o recaudador &iquest; El art&iacute;culo 42 de la Ley 633 de 2000 se encuentra vigente o se encuentra derogado t&aacute;citamente con el nuevo art&iacute;culo 339 de la Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5984-2017",
+      "tipo": "oficio",
+      "numero": "5984",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios - Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n- Determinaci&oacute;n de la Renta L&iacute;quida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0705-2017",
+      "tipo": "oficio",
+      "numero": "0705",
+      "fecha": "2017-06-16",
+      "tema": "Si se presenta una solicitud de devoluci&oacute;n de un saldo a favor originado en una declaraci&oacute;n liquidada por el sistemas IMAS, a dicha declaraci&oacute;n se le aplicar el t&eacute;rmino de firmeza consagrado en el art. 714 del E.T., es decir, de &iquest;3 a&ntilde;os desde la presentaci&oacute;n de la solicitud de devoluci&oacute;n y-o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25526-2015",
+      "tipo": "oficio",
+      "numero": "25526",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Una persona natural que recibe ingresos equivalentes al 78% por concepto de prestaci&oacute;n de servicios de manera personal y 22% por concepto de comisi&oacute;n por venta de software a qu&eacute; categor&iacute;a para definir el impuesto sobre la renta pertenece?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67327-2014",
+      "tipo": "oficio",
+      "numero": "67327",
+      "fecha": "2014-12-23",
+      "tema": "&iquest;C&oacute;mo se practica la retenci&oacute;n en la fuente a las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67071-2014",
+      "tipo": "oficio",
+      "numero": "67071",
+      "fecha": "2014-01-01",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a personas naturales que prestan el servicio de transporte de carretera y los requisitos para deducir en el impuesto de renta los gastos en que incurre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64350-2014",
+      "tipo": "oficio",
+      "numero": "64350",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto m&iacute;nimo alternativo simple IMAS - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63387-2014",
+      "tipo": "oficio",
+      "numero": "63387",
+      "fecha": "2014-11-20",
+      "tema": "&iquest;Al elaborar la declaraci&oacute;n de renta en el pa&iacute;s puede tomar respecto de los ingresos del exterior, las deducciones, rentas exentas y dem&aacute;s conceptos aplicables a los asalariados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61157-2014",
+      "tipo": "oficio",
+      "numero": "61157",
+      "fecha": "2014-10-30",
+      "tema": "&iquest;Qu&eacute; diferencia existe jur&iacute;dicamente entre la Renta gravable alternativa y la renta l&iacute;quida ordinaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57061-2014",
+      "tipo": "oficio",
+      "numero": "57061",
+      "fecha": "2014-10-03",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS - Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11352-2014",
+      "tipo": "oficio",
+      "numero": "11352",
+      "fecha": "2014-11-12",
+      "tema": "Solicita se resuelvan problemas jur&iacute;dicos en relaci&oacute;n con el Concepto n&uacute;mero 885 del 31 de julio de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002189-2003",
+      "tipo": "concepto",
+      "numero": "0002189",
+      "fecha": "2003-01-23",
+      "tema": "Impuesto sobre la Renta y Complementarios - &iquest;Son contribuyentes del r&eacute;gimen tributario especial los clubes sociales y deportivos?",
+      "vigente": true
+    }
+  ]
+}

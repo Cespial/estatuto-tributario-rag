@@ -1,1 +1,165 @@
-{"id_articulo": "Art. 346", "titulo": "Art. 346. Valores a excluir del patrimonio líquido.", "titulo_corto": "Valores a excluir del patrimonio líquido.", "slug": "346", "url_origen": "https://estatuto.co/346", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva.</del></span></p>\n</span>", "modificaciones_raw": "*Derogado por el Decreto 1744 de 1991 Art. 16.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Decreto", "norma_numero": "1744", "norma_year": 1991, "norma_articulo": "16"}], "total_modificaciones": 1, "ultima_modificacion_year": 1991, "leyes_modificatorias": ["Decreto 1744 de 1991"], "texto_derogado": ["*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyen...", "full_length": 261}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 346",
+  "titulo": "Art. 346. Valores a excluir del patrimonio líquido.",
+  "titulo_corto": "Valores a excluir del patrimonio líquido.",
+  "slug": "346",
+  "url_origen": "https://estatuto.co/346",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva.</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por el Decreto 1744 de 1991 Art. 16.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Decreto",
+      "norma_numero": "1744",
+      "norma_year": 1991,
+      "norma_articulo": "16"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1991,
+  "leyes_modificatorias": [
+    "Decreto 1744 de 1991"
+  ],
+  "texto_derogado": [
+    "*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyente, o que no hayan sido producto de una adquisición efectiva."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Del patrimonio líquido sometido a ajuste, se debe excluir el valor patrimonial neto de los activos correspondientes a 'good-will', 'know-how' y demás intangibles que sean estimados por el contribuyen...",
+      "full_length": 261
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 10 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7346 (2025-06-04): Impuesto de Timbre",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7346-2025",
+      "tipo": "oficio",
+      "numero": "7346",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035604-2005",
+      "tipo": "concepto",
+      "numero": "0035604",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el efecto fiscal del valor del good will formado por la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0108287-2000",
+      "tipo": "concepto",
+      "numero": "0108287",
+      "fecha": "2000-11-03",
+      "tema": "&iquest;Deben declararse los Certificados de Reembolso Tributario cuando realmente se han recibido o los causados? &iquest;Se debe ajustar el patrimonio l&iacute;quido cuando todos los activos son no monetarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093125-2000",
+      "tipo": "concepto",
+      "numero": "0093125",
+      "fecha": "2000-09-25",
+      "tema": "&iquest;Se debe disminuir el patrimonio l&iacute;quido de un contribuyente con el saldo de la cuenta por cobrar a los socios para efecto de aplicar los ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,640 @@
-{"id_articulo": "Art. 128", "titulo": "Art. 128. Deducción por depreciación.", "titulo_corto": "Deducción por depreciación.", "slug": "128", "url_origen": "https://estatuto.co/128", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Para efectos del impuesto sobre la renta y complementarios, los obligados a llevar contabilidad podrán deducir cantidades razonables por la depreciación causada por desgaste de bienes usados en negocios o actividades productoras de renta, equivalentes a la alícuota o suma necesaria para amortizar la diferencia entre el costo fiscal y el valor residual durante la vida útil de dichos bienes, siempre que éstos hayan prestado servicio en el año o período gravable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del impuesto sobre la renta y complementarios, los obligados a llevar contabilidad podrán deducir cantidades razonables por la depreciación causada por desgaste de bienes usados en negocios o actividades productoras de renta, equivalentes a la alícuota o suma necesaria para amortizar la diferencia entre el costo fiscal y el valor residual durante la vida útil de dichos bienes, siempre que éstos hayan prestado servicio en el año o período gravable.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 77.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "77"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["69"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 128",
+  "titulo": "Art. 128. Deducción por depreciación.",
+  "titulo_corto": "Deducción por depreciación.",
+  "slug": "128",
+  "url_origen": "https://estatuto.co/128",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Para efectos del impuesto sobre la renta y complementarios, los obligados a llevar contabilidad podrán deducir cantidades razonables por la depreciación causada por desgaste de bienes usados en negocios o actividades productoras de renta, equivalentes a la alícuota o suma necesaria para amortizar la diferencia entre el costo fiscal y el valor residual durante la vida útil de dichos bienes, siempre que éstos hayan prestado servicio en el año o período gravable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos del impuesto sobre la renta y complementarios, los obligados a llevar contabilidad podrán deducir cantidades razonables por la depreciación causada por desgaste de bienes usados en negocios o actividades productoras de renta, equivalentes a la alícuota o suma necesaria para amortizar la diferencia entre el costo fiscal y el valor residual durante la vida útil de dichos bienes, siempre que éstos hayan prestado servicio en el año o período gravable.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 77.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "77"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "69"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7647 (2025-06-13): Impuesto sobre la Renta y Complementarios\noficio 10846 (2024-12-23): Impuesto sobre la Renta y Complementarios\noficio 5507 (2024-08-08): Impuesto a las ventas\noficio 904794 (2022-06-21): Resultados acumulados - Efecto del ESFA y r&eacute;gimen de transici&oacute;n\noficio 906112 (2021-06-25): Deducci&oacute;n por depreciaci&oacute;n - Depreciaci&oacute;n de bienes que contribuyen con la generaci&oacute;n de renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7647-2025",
+      "tipo": "oficio",
+      "numero": "7647",
+      "fecha": "2025-06-13",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10846-2024",
+      "tipo": "oficio",
+      "numero": "10846",
+      "fecha": "2024-12-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5507-2024",
+      "tipo": "oficio",
+      "numero": "5507",
+      "fecha": "2024-08-08",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904794-2022",
+      "tipo": "oficio",
+      "numero": "904794",
+      "fecha": "2022-06-21",
+      "tema": "Resultados acumulados - Efecto del ESFA y r&eacute;gimen de transici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906112-2021",
+      "tipo": "oficio",
+      "numero": "906112",
+      "fecha": "2021-06-25",
+      "tema": "Deducci&oacute;n por depreciaci&oacute;n - Depreciaci&oacute;n de bienes que contribuyen con la generaci&oacute;n de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904241-2021",
+      "tipo": "oficio",
+      "numero": "904241",
+      "fecha": "2021-06-12",
+      "tema": "Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905015-2020",
+      "tipo": "oficio",
+      "numero": "905015",
+      "fecha": "2020-09-18",
+      "tema": "Deducci&oacute;n por depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904688-2020",
+      "tipo": "oficio",
+      "numero": "904688",
+      "fecha": "2020-09-07",
+      "tema": "Adquisici&oacute;n de un bien depreciable a partir del a&ntilde;o gravable 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000204-2019",
+      "tipo": "concepto",
+      "numero": "0000204",
+      "fecha": "2019-02-28",
+      "tema": "(Int 204) Tratamiento tributario aplicable a los",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31742-2019",
+      "tipo": "oficio",
+      "numero": "31742",
+      "fecha": "2019-12-26",
+      "tema": "R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27152-2019",
+      "tipo": "oficio",
+      "numero": "27152",
+      "fecha": "2019-10-29",
+      "tema": "Sistemas de Depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25415-2019",
+      "tipo": "oficio",
+      "numero": "25415",
+      "fecha": "2019-10-08",
+      "tema": "(Int 1101) Impuesto sobre la renta y complementarios - Bienes depreciables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24010-2019",
+      "tipo": "oficio",
+      "numero": "24010",
+      "fecha": "2019-09-23",
+      "tema": "Deducci&oacute;n por donaciones e inversiones en investigaci&oacute;n, desarrollo tecnol&oacute;gico e innovaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2217-2019",
+      "tipo": "oficio",
+      "numero": "2217",
+      "fecha": "2019-01-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que fiscalmente se debe seguir para depreciar motores de transporte fluvial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33269-2018",
+      "tipo": "oficio",
+      "numero": "33269",
+      "fecha": "2018-11-14",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28012-2018",
+      "tipo": "oficio",
+      "numero": "28012",
+      "fecha": "2018-09-27",
+      "tema": "&iquest;Los bienes importados al amparo de los beneficios tributarios consagrados en el literal g) del art&iacute;culo 428 del Estatuto Tributario que ya cumplieron su vida &uacute;til quedan en libre disposici&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15787-2018",
+      "tipo": "oficio",
+      "numero": "15787",
+      "fecha": "2018-06-19",
+      "tema": "&iquest;si las adiciones que se realizan a activos que ya se vienen depreciando o que se deprecian por componentes antes de la Ley 1819 de 2016, contin&uacute;an su depreciaci&oacute;n con base en el numeral 2 del art&iacute;culo 290 del E.T. o se aplican las nuevas reglas de depreciaci&oacute;n que introdujo la reforma tributaria en especial el art&iacute;culo 137 del E.T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1837-2018",
+      "tipo": "oficio",
+      "numero": "1837",
+      "fecha": "2018-10-17",
+      "tema": "Hecho generador del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33240-2017",
+      "tipo": "oficio",
+      "numero": "33240",
+      "fecha": "2017-12-12",
+      "tema": "Limitaci&oacute;n de la deducci&oacute;n a aplicar en la tasa de depreciaci&oacute;n fiscal anual establecida en la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28208-2017",
+      "tipo": "oficio",
+      "numero": "28208",
+      "fecha": "2017-10-18",
+      "tema": "Se puede aplicar al incentivo excepci&oacute;n de Aranceles si los paneles solares ya se encuentran en Colombia y los tiene un proveedor o un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23209-2017",
+      "tipo": "oficio",
+      "numero": "23209",
+      "fecha": "2017-08-28",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento aplicable para efectos de la acreditaci&oacute;n que efect&uacute;a la autoridad ambiental respectiva sobre las inversiones en control, conservaci&oacute;n y mejoramiento del medio ambiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23106-2017",
+      "tipo": "oficio",
+      "numero": "23106",
+      "fecha": "2017-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1149-2016",
+      "tipo": "oficio",
+      "numero": "1149",
+      "fecha": "2016-02-02",
+      "tema": "&iquest;Si el empleador no paga solo el 66,6 % que menciona el art&iacute;culo 227 del C&oacute;digo Sustantivo del Trabajo sino que cancela el 33.3%. &iquest;Este valor adicional es deducible? - &iquest;El empleador a partir del tercer d&iacute;a de incapacidad si decide pagar un valor adicional de lo que paga la EPS, puede deducirlo en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37123-2015",
+      "tipo": "oficio",
+      "numero": "37123",
+      "fecha": "2015-12-31",
+      "tema": "&iquest;En un proyecto de FNCE, gozar&iacute;a del mencionado beneficio una empresa que invierta en la adquisici&oacute;n de equipos, elementos y maquinaria, as&iacute; como en la contrataci&oacute;n de los servicios necesarios para la instalaci&oacute;n y operaci&oacute;n de un sistema de generaci&oacute;n, como parte de un contrato de arrendamiento celebrado con un tercero con el fin de que este &uacute;ltimo pueda producir su propia energ&iacute;a el&eacute;ctrica (Autogenerador)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34403-2015",
+      "tipo": "oficio",
+      "numero": "34403",
+      "fecha": "2015-12-01",
+      "tema": "Consulta el tratamiento tributario de un activo fijo, espec&iacute;ficamente los temas de p&eacute;rdidas en la enajenaci&oacute;n de activos, impuesto de ganancia ocasional y renta especial por recuperaci&oacute;n de la depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33441-2015",
+      "tipo": "oficio",
+      "numero": "33441",
+      "fecha": "2015-11-20",
+      "tema": "En el radicado de la referencia indica que en el Concepto 61861 del 6 de noviembre de 2014, con ocasi&oacute;n de su consulta sobre la posibilidad de aplicar el art&iacute;culo 19 del Decreto Reglamentario 570 de 1984, a efectos de determinar la base gravable en el servicio de alquiler de una maquinaria con una vida &uacute;til superior a diez a&ntilde;os, se estableci&oacute; que la norma en comento se encuentra vigente, pero no se refiri&oacute; a dicha vida &uacute;til, raz&oacute;n por la cual en esta oportunidad solicita pronunciamiento respecto de este punto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24445-2015",
+      "tipo": "oficio",
+      "numero": "24445",
+      "fecha": "2015-08-24",
+      "tema": "&iquest;Una sociedad por acciones simplificada, en reorganizaci&oacute;n, que se acogi&oacute; a la Ley 1116 de 2006 en el a&ntilde;o 2014 por encontrarse en esa condici&oacute;n se encuentra exonerada del pago del impuesto sobre la renta para la equidad - CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24291-2015",
+      "tipo": "oficio",
+      "numero": "24291",
+      "fecha": "2015-08-21",
+      "tema": "Aclaraci&oacute;n del Oficio n&uacute;mero 018129 del 19 de junio de 2015, Impuesto sobre la Renta y Complementarios - Deducci&oacute;n de Gastos Efectuados en el Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18114-2015",
+      "tipo": "oficio",
+      "numero": "18114",
+      "fecha": "2015-06-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7118-2015",
+      "tipo": "oficio",
+      "numero": "7118",
+      "fecha": "2015-03-06",
+      "tema": "&iquest;Es viable jur&iacute;dicamente que el contribuyente solicite por segunda ocasi&oacute;n un aumento de &eacute;sta si considera que la vida &uacute;til efectiva resulta superior a la autorizada o necesariamente debe atender el inciso final del art&iacute;culo 138 del Estatuto Tributario?&iquest;La autorizaci&oacute;n proferida por la DIAN respecto a la fijaci&oacute;n de una vida &uacute;til diferente a la contemplada en el reglamento para los activos fijos depreciables es un acto administrativo reglado o discrecional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61706-2014",
+      "tipo": "oficio",
+      "numero": "61706",
+      "fecha": "2014-11-05",
+      "tema": "&iquest;Puede solicitarse de manera concurrente la deducci&oacute;n por depreciaci&oacute;n y la deducci&oacute;n por las inversiones que se realicen en el &aacute;mbito de la producci&oacute;n y utilizaci&oacute;n de energ&iacute;a a partir de FNCE, en los t&eacute;rminos del art&iacute;culo 11 de la ley 1715 de 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61051-2014",
+      "tipo": "oficio",
+      "numero": "61051",
+      "fecha": "2014-10-29",
+      "tema": "Aclaraci&oacute;n del Oficio n&uacute;mero 16680 del 22 de marzo de 2005, mediante Oficio n&uacute;mero 58303 del 10 de octubre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31855-2014",
+      "tipo": "oficio",
+      "numero": "31855",
+      "fecha": "2014-05-26",
+      "tema": "La restricci&oacute;n sobre costos y deducciones, en los t&eacute;rminos de los art&iacute;culos 124-2 y 260-7 del Estatuto Tributario, aplica para pagos o abonos en cuenta cuando se realicen a: &iquest;Personas o entidades que se encuentren constituidas, localizadas o en funcionamiento en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional? &iquest;Cuentas bancarias a las que se efect&uacute;en giros del dinero, abiertas en una entidad financiera (no beneficiaria del pago) constituida, localizada o en funcionamiento en un para&iacute;so fiscal calificado como tal por el Gobierno Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14904-2014",
+      "tipo": "oficio",
+      "numero": "14904",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto sobre la renta para la equidad- CREE - Pago o abono en cuenta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6156-2014",
+      "tipo": "oficio",
+      "numero": "6156",
+      "fecha": "2014-01-01",
+      "tema": "Vigencia del par&aacute;grafo del art&iacute;culo 134 del Estatuto Tributario, adicionado por el art&iacute;culo 159 de la Ley 1607 de 2012, para efectos de aplicar la limitaci&oacute;n respecto al m&iacute;nimo admitido como valor residual o valor de salvamento del costo de los activos fijos para los casos en que se opte por utilizar el sistema de depreciaci&oacute;n de reducci&oacute;n de saldos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2385-2014",
+      "tipo": "oficio",
+      "numero": "2385",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1660-2014",
+      "tipo": "oficio",
+      "numero": "1660",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1656-2014",
+      "tipo": "oficio",
+      "numero": "1656",
+      "fecha": "2014-01-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1655-2014",
+      "tipo": "oficio",
+      "numero": "1655",
+      "fecha": "2014-01-13",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta para la equidad CREE - Expensas ordinarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75199-2012",
+      "tipo": "oficio",
+      "numero": "75199",
+      "fecha": "2012-12-01",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial del derecho de usufructo cuyo origen es un fedeicomiso civil constituido sobre un inmueble cuando ha sido cedido a t&iacute;tulo gratuito y el valor patrimonial de dicho bien &eacute;l tiene por objeto la limitaci&oacute;n del dominio mediante el fideicomiso civil y, cu&aacute;l el de un bien inmueble que ha sido objeto de limitaci&oacute;n del dominio mediante la constituci&oacute;n de un fideicomiso cuando se ha cedido el derecho de usufructo a un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22392-2010",
+      "tipo": "oficio",
+      "numero": "22392",
+      "fecha": "2010-03-30",
+      "tema": "&iquest;Cu&aacute;les son los elementos probatorios aceptables para la administraci&oacute;n, con el fin de demostrar que un bien se volvi&oacute; inadecuado antes del vencimiento de su vida &uacute;til probable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86136-2008",
+      "tipo": "oficio",
+      "numero": "86136",
+      "fecha": "2008-01-01",
+      "tema": "Deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81704-2008",
+      "tipo": "oficio",
+      "numero": "81704",
+      "fecha": "2008-01-01",
+      "tema": "Contrato de estabilidad Jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-46320-2008",
+      "tipo": "oficio",
+      "numero": "46320",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Es procedente la concurrencia de la deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos de que trata el art&iacute;culo 158-3 del E.T y la deducci&oacute;n por inversi&oacute;n en control y mejoramiento del medio ambiente del art&iacute;culo 158-2?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030172-2008",
+      "tipo": "concepto",
+      "numero": "0030172",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;El beneficio tributario otorgado al incentivo a la capitalizaci&oacute;n rural se puede utilizar en concurrencia con la deducci&oacute;n por inversiones en nuevas plantaciones, riegos, pozos y silos o en concurrencia con la deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36096-2007",
+      "tipo": "oficio",
+      "numero": "36096",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Antes de cumplir su vida &uacute;til un equipo importado y beneficiado con la exoneraci&oacute;n del IVA v&iacute;a ALTEX es destruido, da&ntilde;ado o entra en obsolescencia, se puede solicitar a la administraci&oacute;n que haga una inspecci&oacute;n para establecer el estado del mismo, para darlo de baja y consecuencialmente retirar ese equipo de la l&iacute;nea de producci&oacute;n y por ende de los activos de la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013816-2006",
+      "tipo": "concepto",
+      "numero": "0013816",
+      "fecha": "2006-02-15",
+      "tema": "&iquest;Es viable deducir de la renta el saldo que falte para completar el 100% del costo de los bienes afectados por obsolescencia, que se han destinado al negocio o actividad productora de renta y que han sido objeto de depreciaci&oacute;n, cuando la vida &uacute;til efectiva de dichos bienes resulta menor que su vida &uacute;til probable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070314-2005",
+      "tipo": "concepto",
+      "numero": "0070314",
+      "fecha": "2005-09-29",
+      "tema": "&iquest;Puede el nudo propietario, continuar depreciando o amortizando los bienes respecto de los cuales enajen&oacute; temporalmente el derecho de usufructo, en la medida que ha obtenido ingresos de dicha enajenaci&oacute;n, equivalentes al valor actual de los flujos de ingresos que los activos deber&iacute;an producir en el plazo del usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085083-2004",
+      "tipo": "concepto",
+      "numero": "0085083",
+      "fecha": "2004-12-02",
+      "tema": "&iquest;Las adiciones, mejoras o reparaciones locativas no deducidas, incrementan el costo fiscal de un inmueble para efectos de determinar la al&iacute;cuota para depreciaci&oacute;n dentro del t&eacute;rmino que falta para depreciar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40985-2004",
+      "tipo": "oficio",
+      "numero": "40985",
+      "fecha": "2004-07-07",
+      "tema": "&iquest;La deducci&oacute;n por inversiones del 30% contenida en el art&iacute;culo 158-3 del Estatuto Tributario, reglamentada por los Decretos 970 de marzo 30 del a&ntilde;o 2004 y 1014 de abril del mismo a&ntilde;o, puede concurrir o no, con la depreciaci&oacute;n que sobre los activos fijos debe deducirse anualmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035326-2002",
+      "tipo": "concepto",
+      "numero": "0035326",
+      "fecha": "2002-01-01",
+      "tema": "Pueden solicitarse concurrentemente la deducci&oacute;n por depreciaci&oacute;n y la deducci&oacute;n por las inversiones que se realicen para el control y mejoramiento del medio ambiente, sobre un mismo bien?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093268-2001",
+      "tipo": "concepto",
+      "numero": "0093268",
+      "fecha": "2001-10-19",
+      "tema": "&iquest;Puede solicitarse a la vez, deducci&oacute;n por inversi&oacute;n para el control y mejoramiento del medio ambiente y deducci&oacute;n por depreciaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051913-2000",
+      "tipo": "concepto",
+      "numero": "0051913",
+      "fecha": "2000-05-31",
+      "tema": "&iquest;Se puede prolongar la vida &uacute;til de los activos fijos, cuando a pesar de estar en uso, el contribuyente 0pta por no depreciarlos en un periodo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066923-1999",
+      "tipo": "concepto",
+      "numero": "0066923",
+      "fecha": "1999-07-23",
+      "tema": "&iquest;C&oacute;mo deben tratar las personas jur&iacute;dicas y asimiladas el Impuesto sobre las Ventas pagado en la adquisici&oacute;n o nacionalizaci&oacute;n de bienes de capital, de equipo de computaci&oacute;n, y para las empresas transportadoras, adicionalmente de equipo de transporte, como deducci&oacute;n o como mayor costo de los bienes? &iquest;Deben los contribuyentes que optaron por tomar el impuesto a las ventas como deducci&oacute;n en el impuesto sobre la renta, constituir la reserva de que trata el art&iacute;culo 130 del Estatuto Tributario? &iquest;Qu&eacute; tratamiento fiscal debe darse al impuesto obre las ventas pagados durante el ejercicio de 1998, por bienes de capital construidos, y por empresas en proceso de reconversi&oacute;n industrial, al no encontrarse estos en condiciones de utilizaci&oacute;n en el a&ntilde;o gravable de 1998? &iquest;Debe capitalizarse como un mayor valor del bien el impuesto sobre las ventas pagado en la adquisici&oacute;n de activos amortizables? &iquest;Qu&eacute; tratamiento debe darse al impuesto sobre las ventas pagado por los activos adquiridos con anterioridad al 31 de diciembre de 1998, y que fue descontado en la declaraci&oacute;n de renta del respectivo a&ntilde;o gravable de su adquisici&oacute;n, cuando se enajenen a partir del 1o de enero de 1999, sin haber transcurrido la totalidad del tiempo de vida &uacute;til? &iquest;Qu&eacute; efectos tributarios tiene la enajenaci&oacute;n de bienes de capital cuyo impuesto sobre las ventas pagado en la adquisici&oacute;n se tom&oacute; como deducci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039083-1999",
+      "tipo": "concepto",
+      "numero": "0039083",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;Se genera el impuesto sobre las ventas respecto del contrato de conexi&oacute;n al servicio telef&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062025-1998",
+      "tipo": "concepto",
+      "numero": "0062025",
+      "fecha": "1998-08-06",
+      "tema": "&iquest;Puede el sector de la construcci&oacute;n depreciar sus bienes con base en el hecho en que la finca ra&iacute;z se ha venido devaluando?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052203-1997",
+      "tipo": "concepto",
+      "numero": "0052203",
+      "fecha": "1997-06-26",
+      "tema": "&iquest;Se encuentran exentas del pago del impuesto sobre la renta y sus complementarios las rentas percibidas por las empresas concesionarias que presten el servicio p&uacute;blico domiciliario de aseo y sus actividades complementarias en desarrollo de un contrato administrativo de concesi&oacute;n celebrado con una entidad estatal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007629-1996",
+      "tipo": "concepto",
+      "numero": "0007629",
+      "fecha": "1996-02-07",
+      "tema": "&iquest;C&oacute;mo se determina la depreciaci&oacute;n de un bien sometido a turnos adicionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046688-1994",
+      "tipo": "concepto",
+      "numero": "0046688",
+      "fecha": "1994-07-29",
+      "tema": "&iquest;Es Posible aumentar la al&iacute;cuota de depreciaci&oacute;n por cada turno adicional que se demuestre, teniendo en cuenta que la depreciaci&oacute;n flexible fue eliminada a partir del a&ntilde;o gravable 1992? &iquest;Puede un contribuyente en su declaraci&oacute;n de renta y complementarios registrar tambi&eacute;n la deducci&oacute;n por depreciaci&oacute;n correspondiente al per&iacute;odo gravable anterior, cuando no lo hizo en la declaraci&oacute;n correspondiente a tal per&iacute;odo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014713-1993",
+      "tipo": "concepto",
+      "numero": "0014713",
+      "fecha": "1993-09-03",
+      "tema": "Las empresas de gaseosas qu&eacute; tratamiento deben dar a los envases (botellas) y a las canastas pl&aacute;sticas que continuamente tienen que estar comprando para la reposici&oacute;n?&iquest;Los deben tratar como activos fijos que se van dementando y por lo tanto objeto de depreciaci&oacute;n?&iquest;Se deben tratar como activos movibles no sujetos a depreciaci&oacute;n?&iquest;O se deben tratar como activos amortizables, dada su naturaleza fr&aacute;gil por lo que se debe estar reponiendo constantemente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

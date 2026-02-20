@@ -1,16 +1,22 @@
 import { getIndex } from "@/lib/pinecone/client";
-import { RerankedChunk, ArticleGroup, AssembledContext, SourceCitation } from "@/types/rag";
+import { RerankedChunk, RerankedMultiSourceChunk, ArticleGroup, ExternalSourceGroup, AssembledContext, SourceCitation } from "@/types/rag";
 import { ChunkMetadata } from "@/types/pinecone";
 import { estimateTokens } from "@/lib/utils/article-parser";
 import { RAG_CONFIG } from "@/config/constants";
+import { getRelatedContext } from "./graph-retriever";
 
 export async function assembleContext(
   chunks: RerankedChunk[],
-  options: { useSiblingRetrieval?: boolean; maxTokens?: number } = {}
+  options: {
+    useSiblingRetrieval?: boolean;
+    maxTokens?: number;
+    multiSourceChunks?: RerankedMultiSourceChunk[];
+  } = {}
 ): Promise<AssembledContext> {
   const {
     useSiblingRetrieval = RAG_CONFIG.useSiblingRetrieval,
     maxTokens = RAG_CONFIG.maxContextTokens,
+    multiSourceChunks = [],
   } = options;
 
   let allChunks = [...chunks];
@@ -29,11 +35,22 @@ export async function assembleContext(
   // Sort groups by max score
   groups.sort((a, b) => b.maxScore - a.maxScore);
 
-  // Apply token budget
-  const { articles, totalTokens } = applyTokenBudget(groups, maxTokens);
+  // Reserve ~30% of token budget for external sources if available
+  const externalBudget = multiSourceChunks.length > 0
+    ? Math.floor(maxTokens * 0.3)
+    : 0;
+  const articleBudget = maxTokens - externalBudget;
 
-  // Build source citations with enriched fields
-  const sources: SourceCitation[] = articles.map((g) => ({
+  // Apply token budget for articles
+  const { articles, totalTokens: articleTokens } = applyTokenBudget(groups, articleBudget);
+
+  // Group and format external sources
+  const externalSources = groupExternalSources(multiSourceChunks);
+  const { sources: selectedExternal, totalTokens: externalTokens } =
+    applyExternalTokenBudget(externalSources, externalBudget);
+
+  // Build source citations for articles
+  const articleCitations: SourceCitation[] = articles.map((g) => ({
     idArticulo: g.idArticulo,
     titulo: g.titulo,
     url: g.urlOrigen,
@@ -44,10 +61,22 @@ export async function assembleContext(
     slug: g.slug,
   }));
 
+  // Build source citations for external sources
+  const externalCitations: SourceCitation[] = selectedExternal.map((g) => ({
+    idArticulo: g.docId,
+    titulo: `${g.docType}: ${g.numero}`,
+    url: g.fuenteUrl,
+    categoriaLibro: g.namespace,
+    relevanceScore: g.maxScore,
+    docType: g.docType,
+    namespace: g.namespace,
+  }));
+
   return {
     articles,
-    sources,
-    totalTokensEstimate: totalTokens,
+    externalSources: selectedExternal,
+    sources: [...articleCitations, ...externalCitations],
+    totalTokensEstimate: articleTokens + externalTokens,
   };
 }
 
@@ -205,6 +234,50 @@ export function formatArticleForContext(group: ArticleGroup): string {
   }
   parts.push("");
 
+  // GRAPH ENRICHMENT: Add structural connections
+  try {
+    // Normalize ID for graph lookup (e.g. "art-240" -> "et-art-240")
+    // Graph nodes are stored as "et-art-NUM"
+    let graphId = group.idArticulo;
+    if (!graphId.startsWith("et-")) {
+      // If it's just "art-240" or similar
+      const match = graphId.match(/(\d+(?:-\d+)?)/);
+      if (match) {
+        graphId = `et-art-${match[1]}`;
+      }
+    }
+
+    const connections = getRelatedContext([graphId]);
+    
+    if (connections.length > 0) {
+      parts.push("### Conexiones Normativas (Grafo)");
+      const lines = connections.map(c => {
+        let verb = c.relation;
+        if (c.relation === "MODIFIES") verb = "Modificado por";
+        if (c.relation === "REGULATES") verb = "Reglamentado por";
+        if (c.relation === "INVERSE_MODIFIES") verb = "Modificado por"; 
+        
+        // Clean up related ID for readability (e.g., "ley-2277-2022" -> "Ley 2277 de 2022")
+        let relatedDisplay = c.relatedId;
+        if (c.relatedId.startsWith("ley-")) {
+            const parts = c.relatedId.split("-");
+            if (parts.length >= 3) relatedDisplay = `Ley ${parts[1]} de ${parts[2]}`;
+        } else if (c.relatedId.startsWith("dur-")) {
+            relatedDisplay = `Decreto Único Reglamentario (DUR) ${c.relatedId.replace("dur-", "")}`;
+        }
+
+        return `- **${verb}**: ${relatedDisplay}`;
+      });
+      // Unique connections only
+      const uniqueLines = Array.from(new Set(lines));
+      parts.push(uniqueLines.join("\n"));
+      parts.push("");
+    }
+  } catch (e) {
+    // Fail silently if graph not loaded or ID format mismatch
+    // console.warn("Graph lookup failed:", e);
+  }
+
   if (group.contenido.length > 0) {
     parts.push("### Contenido vigente");
     parts.push(group.contenido.join("\n\n"));
@@ -226,6 +299,124 @@ export function formatArticleForContext(group: ArticleGroup): string {
   return parts.join("\n");
 }
 
+function groupExternalSources(
+  chunks: RerankedMultiSourceChunk[]
+): ExternalSourceGroup[] {
+  const groups = new Map<string, ExternalSourceGroup>();
+
+  for (const chunk of chunks) {
+    const docId = chunk.metadata.doc_id;
+    let group = groups.get(docId);
+
+    if (!group) {
+      group = {
+        docId,
+        docType: chunk.metadata.doc_type as ExternalSourceGroup["docType"],
+        numero: chunk.metadata.numero,
+        fecha: chunk.metadata.fecha,
+        tema: chunk.metadata.tema,
+        texto: [],
+        articulosET: chunk.metadata.articulos_et || [],
+        maxScore: 0,
+        vigente: chunk.metadata.vigente,
+        fuenteUrl: chunk.metadata.fuente_url,
+        namespace: chunk.namespace,
+        corte: chunk.metadata.corte,
+        tipoSentencia: chunk.metadata.tipo,
+        decision: chunk.metadata.decision,
+        decretoNumero: chunk.metadata.decreto_numero,
+        articuloNumero: chunk.metadata.articulo_numero,
+      };
+      groups.set(docId, group);
+    }
+
+    group.maxScore = Math.max(group.maxScore, chunk.rerankedScore);
+    group.texto.push(chunk.metadata.text);
+  }
+
+  return Array.from(groups.values()).sort((a, b) => b.maxScore - a.maxScore);
+}
+
+function applyExternalTokenBudget(
+  groups: ExternalSourceGroup[],
+  maxTokens: number
+): { sources: ExternalSourceGroup[]; totalTokens: number } {
+  const selected: ExternalSourceGroup[] = [];
+  let totalTokens = 0;
+
+  for (const group of groups) {
+    const text = formatExternalSourceForContext(group);
+    const tokens = estimateTokens(text);
+
+    if (totalTokens + tokens > maxTokens && selected.length > 0) break;
+
+    selected.push(group);
+    totalTokens += tokens;
+  }
+
+  return { sources: selected, totalTokens };
+}
+
+export function formatExternalSourceForContext(
+  group: ExternalSourceGroup
+): string {
+  const parts: string[] = [];
+
+  switch (group.docType) {
+    case "doctrina":
+      parts.push(
+        `<doctrina tipo="${group.docType}" numero="${group.numero}" fecha="${group.fecha || ""}" vigente="${group.vigente}">`
+      );
+      if (group.tema) parts.push(`Tema: ${group.tema}`);
+      parts.push(group.texto.join("\n\n"));
+      parts.push("</doctrina>");
+      break;
+
+    case "sentencia":
+      parts.push(
+        `<jurisprudencia tipo="${group.tipoSentencia || ""}" numero="${group.numero}" year="${group.fecha?.slice(0, 4) || ""}" decision="${group.decision || ""}">`
+      );
+      if (group.tema) parts.push(`Tema: ${group.tema}`);
+      parts.push(group.texto.join("\n\n"));
+      parts.push("</jurisprudencia>");
+      break;
+
+    case "decreto":
+      parts.push(
+        `<decreto numero="${group.decretoNumero || ""}" articulo="${group.articuloNumero || ""}" vigente="${group.vigente}">`
+      );
+      parts.push(group.texto.join("\n\n"));
+      parts.push("</decreto>");
+      break;
+
+    case "resolucion":
+      parts.push(
+        `<resolucion numero="${group.numero}" fecha="${group.fecha || ""}" vigente="${group.vigente}">`
+      );
+      if (group.tema) parts.push(`Tema: ${group.tema}`);
+      parts.push(group.texto.join("\n\n"));
+      parts.push("</resolucion>");
+      break;
+
+    default:
+      parts.push(group.texto.join("\n\n"));
+  }
+
+  return parts.join("\n");
+}
+
 export function buildContextString(context: AssembledContext): string {
-  return context.articles.map(formatArticleForContext).join("\n---\n\n");
+  const articleParts = context.articles
+    .map(formatArticleForContext)
+    .join("\n---\n\n");
+
+  if (!context.externalSources || context.externalSources.length === 0) {
+    return articleParts;
+  }
+
+  const externalParts = context.externalSources
+    .map(formatExternalSourceForContext)
+    .join("\n\n");
+
+  return `${articleParts}\n\n--- Fuentes Externas ---\n\n${externalParts}`;
 }

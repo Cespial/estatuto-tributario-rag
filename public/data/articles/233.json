@@ -1,1 +1,324 @@
-{"id_articulo": "Art. 233", "titulo": "Art. 233. Rentas exentas de personas y entidades extranjeras.", "titulo_corto": "Rentas exentas de personas y entidades extranjeras.", "slug": "233", "url_origen": "https://estatuto.co/233", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los extranjeros tendrán derecho a las exenciones contempladas en los Tratados o Convenios Internacionales que se encuentran vigentes. Los agentes diplomáticos y consulares acreditados en Colombia gozarán de las exenciones contempladas en las normas vigentes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los extranjeros tendrán derecho a las exenciones contempladas en los Tratados o Convenios Internacionales que se encuentran vigentes.</p>\n<p>Los agentes diplomáticos y consulares acreditados en Colombia gozarán de las exenciones contempladas en las normas vigentes.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 233",
+  "titulo": "Art. 233. Rentas exentas de personas y entidades extranjeras.",
+  "titulo_corto": "Rentas exentas de personas y entidades extranjeras.",
+  "slug": "233",
+  "url_origen": "https://estatuto.co/233",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los extranjeros tendrán derecho a las exenciones contempladas en los Tratados o Convenios Internacionales que se encuentran vigentes. Los agentes diplomáticos y consulares acreditados en Colombia gozarán de las exenciones contempladas en las normas vigentes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los extranjeros tendrán derecho a las exenciones contempladas en los Tratados o Convenios Internacionales que se encuentran vigentes.</p>\n<p>Los agentes diplomáticos y consulares acreditados en Colombia gozarán de las exenciones contempladas en las normas vigentes.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s). Jurisprudencia: 12 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0183 (2024-01-15): (Int 022) Impuesto sobre la renta y complementarios - Impuesto sobre las ventas - Aduanas - Donaciones de gobiernos o entidades extranjeras - Hecho generador del impuesto sobre la renta y complementarios - Hecho generador del impuesto sobre las ventas - Exenci&oacute;n del IVA - Rentas exentas - Tributos aduaneros\noficio 7595 (2023-12-22): (Int 1256) Impuesto sobre la renta y complementarios - Exoneraci&oacute;n de impuestos - Exenci&oacute;n de impuestos por tratados internacionales\noficio 904317 (2022-06-03): Impuesto sobre la renta - Exenciones - Personas naturales\noficio 903832 (2022-05-18): Convenci&oacute;n de Viena sobre Relaciones Diplom&aacute;ticas de 1961 - Exenciones\noficio 914502 (2021-11-25): Impuesto sobre la renta - Residencia, exoneraci&oacute;n de impuestos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0183-2024",
+      "tipo": "oficio",
+      "numero": "0183",
+      "fecha": "2024-01-15",
+      "tema": "(Int 022) Impuesto sobre la renta y complementarios - Impuesto sobre las ventas - Aduanas - Donaciones de gobiernos o entidades extranjeras - Hecho generador del impuesto sobre la renta y complementarios - Hecho generador del impuesto sobre las ventas - Exenci&oacute;n del IVA - Rentas exentas - Tributos aduaneros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7595-2023",
+      "tipo": "oficio",
+      "numero": "7595",
+      "fecha": "2023-12-22",
+      "tema": "(Int 1256) Impuesto sobre la renta y complementarios - Exoneraci&oacute;n de impuestos - Exenci&oacute;n de impuestos por tratados internacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904317-2022",
+      "tipo": "oficio",
+      "numero": "904317",
+      "fecha": "2022-06-03",
+      "tema": "Impuesto sobre la renta - Exenciones - Personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903832-2022",
+      "tipo": "oficio",
+      "numero": "903832",
+      "fecha": "2022-05-18",
+      "tema": "Convenci&oacute;n de Viena sobre Relaciones Diplom&aacute;ticas de 1961 - Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914502-2021",
+      "tipo": "oficio",
+      "numero": "914502",
+      "fecha": "2021-11-25",
+      "tema": "Impuesto sobre la renta - Residencia, exoneraci&oacute;n de impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3497-2017",
+      "tipo": "oficio",
+      "numero": "3497",
+      "fecha": "2017-05-31",
+      "tema": "Incentivos tributarios para que el sector privado se involucre en tema post-conflicto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11754-2016",
+      "tipo": "oficio",
+      "numero": "11754",
+      "fecha": "2016-05-13",
+      "tema": "Tributaci&oacute;n personas naturales extranjeras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53140-2014",
+      "tipo": "oficio",
+      "numero": "53140",
+      "fecha": "2014-08-26",
+      "tema": "&iquest;Est&aacute; obligada a presentar declaraci&oacute;n del impuesto sobre la renta y complementarios siendo trabajadora de la Embajada de la Rep&uacute;blica Federal de Alemania en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40873-2014",
+      "tipo": "oficio",
+      "numero": "40873",
+      "fecha": "2014-07-10",
+      "tema": "&iquest;El arrendamiento de bien inmueble a Diplom&aacute;ticos, se encuentra exento del impuesto sobre las ventas, IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10563-2013",
+      "tipo": "oficio",
+      "numero": "10563",
+      "fecha": "2013-02-22",
+      "tema": "&iquest;Para celebrar un convenio de cooperaci&oacute;n con el Centro Interamericano de Estudios de Seguridad Social CIESS &oacute;rgano de la Conferencia Interamericana de Seguridad Social CISS, hacer los aportes correspondientes y reportar la informaci&oacute;n de los convenios suscritos a la DIAN, tal organismo debe inscribirse en el Registro &Uacute;nico Tributario y si es necesario que tenga representante en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77346-2012",
+      "tipo": "oficio",
+      "numero": "77346",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;Los pagos originados en una indemnizaci&oacute;n por un contrato de trabajo que perciba un funcionario internacional del Fondo Latinoamericano de Reservas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95955-2011",
+      "tipo": "oficio",
+      "numero": "95955",
+      "fecha": "2011-12-09",
+      "tema": "Acuerdo de Cooperaci&oacute;n T&eacute;cnica y Cient&iacute;fica entre la Rep&uacute;blica de Colombia y la Confederaci&oacute;n Suiza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54107-2011",
+      "tipo": "oficio",
+      "numero": "54107",
+      "fecha": "2011-07-22",
+      "tema": "Proyecto de Ley",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44202-2009",
+      "tipo": "oficio",
+      "numero": "44202",
+      "fecha": "2009-05-29",
+      "tema": "&iquest;Cu&aacute;ntas y cu&aacute;les son las tasas fiscales y parafiscales existentes a la fecha en Colombia y cu&aacute;les son sus marcos normativos especificando normas creadoras; cu&aacute;ntos cesos tributarios se han realizado en Colombia, cu&aacute;l fue el &uacute;ltimo censo realizado y en donde se encuentra publicado; cu&aacute;ntos y cu&aacute;les son los tributos existentes en el Estado Colombiano a la fecha y cu&aacute;les son sus marcos normativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28419-2009",
+      "tipo": "oficio",
+      "numero": "28419",
+      "fecha": "2009-04-07",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67602-2008",
+      "tipo": "oficio",
+      "numero": "67602",
+      "fecha": "2008-07-15",
+      "tema": "Exenciones tributarias en tratados o convenios internacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18286-2008",
+      "tipo": "oficio",
+      "numero": "18286",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es la raz&oacute;n por la cual, no est&aacute; exento del impuesto a la gasolina, el personal diplom&aacute;tico acreditado en debida forma ante el gobierno de Colombia, virtud del principio de reciprocidad consagrado en la Convenci&oacute;n de Viena de 1.961 sobre Relaciones Diplom&aacute;ticas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25700-2007",
+      "tipo": "oficio",
+      "numero": "25700",
+      "fecha": "2007-04-02",
+      "tema": "Se encuentran gravados en el pa&iacute;s los ingresos percibidos por una persona natural extranjera con contrato laboral vigente con una compa&ntilde;&iacute;a extranjera sin domicilio en Colombia que en virtud del contrato celebrado entre su empleadora y una compa&ntilde;&iacute;a colombiana, presta servicios laborales en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79988-2005",
+      "tipo": "oficio",
+      "numero": "79988",
+      "fecha": "2005-11-01",
+      "tema": "- (Tributario) &iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable a las organizaciones no gubernamentales extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055783-1998",
+      "tipo": "concepto",
+      "numero": "0055783",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002386-1998",
+      "tipo": "concepto",
+      "numero": "0002386",
+      "fecha": "1998-01-16",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062693-1995",
+      "tipo": "concepto",
+      "numero": "0062693",
+      "fecha": "1995-09-08",
+      "tema": "&iquest;Un diplom&aacute;tico extranjero que adquiri&oacute; un inmueble con dineros tra&iacute;dos del exterior y que ahora quiere venderlo a trav&eacute;s de escritura p&uacute;blica, est&aacute; o no sometido a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056804-1995",
+      "tipo": "concepto",
+      "numero": "0056804",
+      "fecha": "1995-08-11",
+      "tema": "&iquest;Est&aacute;n sometidas a retenci&oacute;n en la fuente por los pagos o abonos que se les haga, aquellas entidades sin &aacute;nimo de lucro de car&aacute;cter internacional, cuya personer&iacute;a jur&iacute;dica ha sido expedida en el extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021061-1993",
+      "tipo": "concepto",
+      "numero": "0021061",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario aplicable a los inversionistas extranjeros residentes en el exterior, bien seam personas naturales o juridicas, que adquieran t&iacute;tulos comentados?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-292-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "292",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-016-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "016",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    }
+  ]
+}

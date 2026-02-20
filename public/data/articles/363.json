@@ -1,1 +1,940 @@
-{"id_articulo": "Art. 363", "titulo": "Art. 363. Funciones del comité.", "titulo_corto": "Funciones del comité.", "slug": "363", "url_origen": "https://estatuto.co/363", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Son funciones del Comité previsto en el artículo anterior, las siguientes: a. Calificar las importaciones de bienes a que se refiere el artículo 480 para efecto de la exención del impuesto sobre las ventas a dichas importaciones. *b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988) **Parágrafo. Las entidades del régimen tributario especial no requieren de la calificación del comité para gozar de los beneficios consagrados en este Título. Para el efecto, deberán presentar la declaración de renta, dentro de los plazos que el Gobierno establezca.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son funciones del Comité previsto en el artículo anterior, las siguientes:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Calificar las importaciones de bienes a que se refiere el <a href=\"https://estatuto.co/480\" rel=\"noopener\" target=\"_blank\">artículo 480</a> para efecto de la exención del impuesto sobre las ventas a dichas importaciones.</p>\n<p><span style=\"color: #339966;\"><del><strong>*b. </strong>Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988)</del></span></p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo. </span></strong>Las entidades del régimen tributario especial no requieren de la calificación del comité para gozar de los beneficios consagrados en este Título. Para el efecto, deberán presentar la declaración de renta, dentro de los plazos que el Gobierno establezca.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Derogado por la Ley 488 de 1998 Art. 154. **Modificado Ley 488 de 1998 Art 83.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": "154"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": "83"}], "total_modificaciones": 2, "ultima_modificacion_year": 1998, "leyes_modificatorias": ["Ley 488 de 1998"], "texto_derogado": ["*b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988)"], "texto_derogado_parsed": [{"index": 0, "snippet": "*b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o exce...", "full_length": 466}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["480"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 363",
+  "titulo": "Art. 363. Funciones del comité.",
+  "titulo_corto": "Funciones del comité.",
+  "slug": "363",
+  "url_origen": "https://estatuto.co/363",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Son funciones del Comité previsto en el artículo anterior, las siguientes: a. Calificar las importaciones de bienes a que se refiere el artículo 480 para efecto de la exención del impuesto sobre las ventas a dichas importaciones. *b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988) **Parágrafo. Las entidades del régimen tributario especial no requieren de la calificación del comité para gozar de los beneficios consagrados en este Título. Para el efecto, deberán presentar la declaración de renta, dentro de los plazos que el Gobierno establezca.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son funciones del Comité previsto en el artículo anterior, las siguientes:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Calificar las importaciones de bienes a que se refiere el <a href=\"https://estatuto.co/480\" rel=\"noopener\" target=\"_blank\">artículo 480</a> para efecto de la exención del impuesto sobre las ventas a dichas importaciones.</p>\n<p><span style=\"color: #339966;\"><del><strong>*b. </strong>Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988)</del></span></p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo. </span></strong>Las entidades del régimen tributario especial no requieren de la calificación del comité para gozar de los beneficios consagrados en este Título. Para el efecto, deberán presentar la declaración de renta, dentro de los plazos que el Gobierno establezca.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Derogado por la Ley 488 de 1998 Art. 154. **Modificado Ley 488 de 1998 Art 83.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": "154"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": "83"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1998,
+  "leyes_modificatorias": [
+    "Ley 488 de 1998"
+  ],
+  "texto_derogado": [
+    "*b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o excedente a los fines previstos, para las entidades cuyos ingresos en el año respectivo sean superiores a cien millones de pesos ($100'000.000) o sus activos sobrepasen los doscientos millones de pesos ($200'000.000) el último día del año fiscal. (Valores año base 1988)"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*b. Sin perjuicio de la facultad de fiscalización de la Administración Tributaria, calificar la procedencia de los egresos efectuados en el período gravable, y la destinación del beneficio neto o exce...",
+      "full_length": 466
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "480"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 60 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11800 (2025-08-27): Impuesto de Timbre\noficio 8850 (2024-11-13): Impuesto a las ventas\noficio 2134 (2023-03-31): (Int 414) Tabla del impuesto sobre la renta y complementarios\noficio 1518 (2023-02-09): Reconsideraci&oacute;n del Oficio No. 000365 - interno 116 del 23 de enero de 2023 - Medios de pago para la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11800-2025",
+      "tipo": "oficio",
+      "numero": "11800",
+      "fecha": "2025-08-27",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8850-2024",
+      "tipo": "oficio",
+      "numero": "8850",
+      "fecha": "2024-11-13",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2134-2023",
+      "tipo": "oficio",
+      "numero": "2134",
+      "fecha": "2023-03-31",
+      "tema": "(Int 414) Tabla del impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1518-2023",
+      "tipo": "oficio",
+      "numero": "1518",
+      "fecha": "2023-02-09",
+      "tema": "Reconsideraci&oacute;n del Oficio No. 000365 - interno 116 del 23 de enero de 2023 - Medios de pago para la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901689-2022",
+      "tipo": "oficio",
+      "numero": "901689",
+      "fecha": "2022-03-07",
+      "tema": "Medios de pago para la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910836-2021",
+      "tipo": "oficio",
+      "numero": "910836",
+      "fecha": "2021-09-28",
+      "tema": "Pagos por servicios de pauta publicitaria en p&aacute;gina web internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901511-2021",
+      "tipo": "oficio",
+      "numero": "901511",
+      "fecha": "2021-02-26",
+      "tema": "Costo fiscal de las inversiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901416-2021",
+      "tipo": "oficio",
+      "numero": "901416",
+      "fecha": "2021-02-24",
+      "tema": "&iquest;Es procedente-aplicable la exenci&oacute;n de que trata el art&iacute;culo 480 del Estatuto tributario cuando la solicitud elevada ante el Comit&eacute; de entidades sin &aacute;nimo de lucro tiene como objeto la importaci&oacute;n no de bienes y equipos donados como tal, sino de bienes y equipos que fueron adquiridos con dineros donados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0516-2020",
+      "tipo": "oficio",
+      "numero": "0516",
+      "fecha": "2020-08-28",
+      "tema": "Medios de pago para efectos de la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16321-2019",
+      "tipo": "oficio",
+      "numero": "16321",
+      "fecha": "2019-06-21",
+      "tema": "Principio de no confiscatoriedad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33229-2018",
+      "tipo": "oficio",
+      "numero": "33229",
+      "fecha": "2018-11-14",
+      "tema": "&iquest;Una apoderada de un menor de edad que declara renta, puede efectuar pagos desde su cuenta bancaria o es necesario crear una cuenta del menor, en donde el apoderado figure como apoderado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19439-2018",
+      "tipo": "oficio",
+      "numero": "19439",
+      "fecha": "2018-07-25",
+      "tema": "(935) Medios de pago para efectos de la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18560-2018",
+      "tipo": "oficio",
+      "numero": "18560",
+      "fecha": "2018-07-16",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto al valor agregado IVA los aportes ordinarios o cuotas de sostenimiento que los cooperados pagan peri&oacute;dicamente a su entidad como contribuci&oacute;n a los gastos de operaci&oacute;n y tributaci&oacute;n de la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18548-2018",
+      "tipo": "oficio",
+      "numero": "18548",
+      "fecha": "2018-07-16",
+      "tema": "Tratamiento tributario indicado en el Concepto No. 41871 de 2014 relacionado con consignaciones en efectivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1014-2018",
+      "tipo": "oficio",
+      "numero": "1014",
+      "fecha": "2018-06-29",
+      "tema": "&iquest;Qu&eacute; se entiende y-o qu&eacute; alcance tiene la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23241-2017",
+      "tipo": "oficio",
+      "numero": "23241",
+      "fecha": "2017-08-28",
+      "tema": "Principio de Legalidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8146-2016",
+      "tipo": "oficio",
+      "numero": "8146",
+      "fecha": "2016-04-12",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008146-2016",
+      "tipo": "concepto",
+      "numero": "0008146",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9674-2015",
+      "tipo": "oficio",
+      "numero": "9674",
+      "fecha": "2015-03-31",
+      "tema": "Aportes a sociedades nacionales - Elusi&oacute;n fiscal Facultad fiscalizadora - Fraude fiscal - R&eacute;gimen tributario en los casos de supresi&oacute;n, fusi&oacute;n, transformaci&oacute;n de entidades u organismos p&uacute;blicos del orden nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1408-2015",
+      "tipo": "oficio",
+      "numero": "1408",
+      "fecha": "2015-01-21",
+      "tema": "Asociaciones sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53522-2014",
+      "tipo": "oficio",
+      "numero": "53522",
+      "fecha": "2014-09-01",
+      "tema": "Medios de Pago para la Aceptaci&oacute;n de Costos, Deducciones, Pasivos e Impuestos Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52914-2014",
+      "tipo": "oficio",
+      "numero": "52914",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;En virtud de lo establecido en el art&iacute;culo 771-2 del Estatuto Tributario es aceptable como medio de pago, que el contribuyente consigne dinero en efectivo en la cuenta del proveedor a quien le realiza el pago o debe consignar en su cuenta y girar un cheque para este pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50841-2014",
+      "tipo": "oficio",
+      "numero": "50841",
+      "fecha": "2014-08-21",
+      "tema": "Medios de pago para aceptaci&oacute;n costos, gastos, deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45539-2014",
+      "tipo": "oficio",
+      "numero": "45539",
+      "fecha": "2014-07-29",
+      "tema": "Medios de pago para reconocimiento fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30487-2014",
+      "tipo": "oficio",
+      "numero": "30487",
+      "fecha": "2014-05-20",
+      "tema": "&iquest;La gradualidad del reconocimiento fiscal como costos y deducciones, de los pagos en efectivo, realizados por los contribuyentes del impuesto sobre la renta y complementarios que est&aacute; consagrada en el art&iacute;culo 771-5 del Estatuto Tributario, empieza su aplicaci&oacute;n en el a&ntilde;o 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24531-2014",
+      "tipo": "oficio",
+      "numero": "24531",
+      "fecha": "2014-04-15",
+      "tema": "Procedimiento Tributario - Medios de Pago para la Aceptaci&oacute;n de Costos, Deducciones, Pasivos e Impuestos Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16697-2014",
+      "tipo": "oficio",
+      "numero": "16697",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Para efectos de lo previsto en el inciso quinto del art&iacute;culo 860 del Estatuto Tributario, procede la vinculaci&oacute;n de la compa&ntilde;&iacute;a aseguradora, en los eventos, en los que la p&oacute;liza que ampara la solicitud de devoluci&oacute;n, fue expedida antes de la promulgaci&oacute;n de la ley 1430 de 2010?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96804-2009",
+      "tipo": "oficio",
+      "numero": "96804",
+      "fecha": "2009-11-23",
+      "tema": "&iquest;Se benefician con la exenci&oacute;n del IVA prevista en el art&iacute;culo 480 del E.T. y la exenci&oacute;n de gravamen arancelario prevista en el art&iacute;culo 9 literal b) del Decreto 255 de 1992; las importaciones de equipos de salud que efect&uacute;en las compa&ntilde;&iacute;as comerciales que representan y distribuyen los equipos en Colombia, cuando los mismos se importen para ser entregados inmediatamente y ser usados por un hospital que es una entidad sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62496-2008",
+      "tipo": "oficio",
+      "numero": "62496",
+      "fecha": "2008-01-01",
+      "tema": "Solicita se examine la aplicaci&oacute;n de los art&iacute;culos 9 y 13 del decreto 2078 de 2004 con preferencia sobre la norma tributaria, pues seg&uacute;n tales normas no se puede modificar el r&eacute;gimen remuneratorio del cuerpo diplom&aacute;tico en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61101-2008",
+      "tipo": "oficio",
+      "numero": "61101",
+      "fecha": "2008-01-01",
+      "tema": "Impacto de la supresi&oacute;n del art&iacute;culo 33 del Estatuto Tributario, mediante el art&iacute;culo 78 de la Ley 1111 de 2006, sobre los ingresos laborales de los funcionarios miembros del servicio exterior colombiano, en especial por eliminaci&oacute;n de equivalencias de sueldos en planta externa y planta interna para efectos impositivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077445-2006",
+      "tipo": "concepto",
+      "numero": "0077445",
+      "fecha": "2006-09-11",
+      "tema": "&iquest;Es posible compensar con la renta l&iacute;quida del a&ntilde;o gravable 2005 el exceso de renta presuntiva sobre renta l&iacute;quida ordinaria generada en el a&ntilde;o gravable 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069922-2005",
+      "tipo": "concepto",
+      "numero": "0069922",
+      "fecha": "2005-09-28",
+      "tema": "&iquest;La enajenaci&oacute;n de un activo fijo por parte de un contribuyente perteneciente al r&eacute;gimen tributario especial est&aacute; gravada con el impuesto de ganancias ocasionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051977-2005",
+      "tipo": "concepto",
+      "numero": "0051977",
+      "fecha": "2005-08-02",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-33671-2002",
+      "tipo": "concepto",
+      "numero": "33671",
+      "fecha": "2002-06-11",
+      "tema": "Retenci&oacute;n en la fuente por retiros de aportes pensionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-28395-2002",
+      "tipo": "concepto",
+      "numero": "28395",
+      "fecha": "2002-05-15",
+      "tema": "Correcci&oacute;n declaraciones. Entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047421-1999",
+      "tipo": "concepto",
+      "numero": "0047421",
+      "fecha": "1999-05-20",
+      "tema": "&iquest;Los contribuyentes de r&eacute;gimen tributario especial deben pedir calificaci&oacute;n sobre la procedencia de sus excedentes por el a&ntilde;o gravable de 1998? &iquest;Una aerol&iacute;nea que tiene la calidad de gran contribuyente, debe practicar retenci&oacute;n en la fuente por Impuesto sobre las Ventas a las agencias de viajes? &iquest;Los comerciantes de bienes gravados a la tarifa del diez por ciento (10%), pueden pertenecer al r&eacute;gimen simplificado? &iquest;Se puede considerar el asfalto como derivado del petr&oacute;leo, para la aplicaci&oacute;n monof&aacute;sica del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035161-1999",
+      "tipo": "concepto",
+      "numero": "0035161",
+      "fecha": "1999-04-13",
+      "tema": "&iquest;Se encuentran las entidades con r&eacute;gimen tributario especial obligadas a suscribir los Bonos de Paz? &iquest;Cu&aacute;les son los plazos para presentar la declaraci&oacute;n de renta del a&ntilde;o gravable de 1998 correspondientes a las entidades con r&eacute;gimen tributario especial, si a&uacute;n no se han presentado las declaraciones de renta de periodos gravables anteriores? &iquest;Est&aacute;n sujetos al impuesto de timbre los Certificados de Dep&oacute;sito de Ahorro a T&eacute;rmino que una Cooperativa expide para Captar recursos entre sus asociados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035160-1999",
+      "tipo": "concepto",
+      "numero": "0035160",
+      "fecha": "1999-04-13",
+      "tema": "&iquest;Un contribuyente del r&eacute;gimen tributario especial, cuyos montos de ingresos y patrimonio dan lugar a solicitar calificaci&oacute;n ante el Comit&eacute; de Entidades sin &Aacute;nimo de Lucro, presenta la declaraci&oacute;n de renta sin que haya obtenido pronunciamiento de dicho Comit&eacute;, puede: &iquest;Solicitar devoluci&oacute;n del saldo a favor declarado? &iquest;Ser objeto de un proceso de revisi&oacute;n? Desistir de la solicitud de devoluci&oacute;n y as&iacute; archivar la investigaci&oacute;n en su contra?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029645-1999",
+      "tipo": "concepto",
+      "numero": "0029645",
+      "fecha": "1999-03-30",
+      "tema": "&iquest;Subsisten las funciones de calificaci&oacute;n del comit&eacute; de entidades sin &aacute;nimo de lucro para el a&ntilde;o gravable de 1998, a fin de que las Cajas de Compensaci&oacute;n puedan presentar la Declaraci&oacute;n de renta y complementarios por dicho a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028492-1999",
+      "tipo": "concepto",
+      "numero": "0028492",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013708-1999",
+      "tipo": "concepto",
+      "numero": "0013708",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Se deben sumar los ajustes por inflaci&oacute;n a los ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013706-1999",
+      "tipo": "concepto",
+      "numero": "0013706",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones de renta y complementarios de las entidades sin &aacute;nimo de lucro que estaban obligadas a solicitar la calificaci&oacute;n previa? &iquest;Pierden los beneficios a que tienen derecho, las entidades del r&eacute;gimen tributario especial que a la entrada en vigencia de la Ley 488 de 1998, no hab&iacute;an solicitado la calificaci&oacute;n por a&ntilde;os gravables anteriores a 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055781-1998",
+      "tipo": "concepto",
+      "numero": "0055781",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Una asociaci&oacute;n multiactiva y econ&oacute;mica, civil y de utilidad comunitaria, constituida como entidad sin &aacute;nimo de lucro, es contribuyente del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003662-1998",
+      "tipo": "concepto",
+      "numero": "0003662",
+      "fecha": "1998-01-23",
+      "tema": "&iquest;Puede una Entidad sin &aacute;nimo de lucro a quien se le ha aprobado una destinaci&oacute;n del Beneficio neto o excedente generado en 1993 para mejora y construcci&oacute;n de una nueva sede en 1994, invertido en compra de t&iacute;tulos valores para constituci&oacute;n de un fondo pro construcci&oacute;n nueva sede?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028184-1997",
+      "tipo": "concepto",
+      "numero": "0028184",
+      "fecha": "1997-11-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039816-1994",
+      "tipo": "concepto",
+      "numero": "0039816",
+      "fecha": "1994-06-17",
+      "tema": "&iquest;Que efectos tributarios tiene para una empresa la recepci&oacute;n de donaciones que en efectivo o en bienes de capital haga un organismo internacional dentro del marco de un programa de reconversi&oacute;n industrial promovido para la conservaci&oacute;n de la capa de ozono? &iquest;Cu&aacute;l es el procedimiento de importaci&oacute;n que cobija a equipos industriales donados por un organismo internacional dentro del marco de un convenio multinacional con destino a programas espec&iacute;ficos de reconversi&oacute;n industrial? &iquest;C&oacute;mo se registran contablemente las donaciones de equipos industriales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020508-1991",
+      "tipo": "concepto",
+      "numero": "0020508",
+      "fecha": "1991-07-09",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012335-1989",
+      "tipo": "concepto",
+      "numero": "0012335",
+      "fecha": "1989-06-06",
+      "tema": "&iquest;C&oacute;mo opera la calificaci&oacute;n de la procedencia de los costos y gastos efectuados y de la destinaci&oacute;n de utilidades de las entidades sin &aacute;nimo de lucro, cuyos ingresos anuales superiores a cien millones de pesos y a los que se refiere el art&iacute;culo 5o de la Ley 84 de 1988?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-421-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "421",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-385-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "385",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-690-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-740-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "740",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-094-2024",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "094",
+      "year": 2024,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-541-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "541",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-335-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "335",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-138-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "138",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-260-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "260",
+      "year": 1993,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-160-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "160",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-510-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "510",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-748-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "748",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1021-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1021",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-338-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "338",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-261-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "261",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,352 @@
-{"id_articulo": "Art. 516", "titulo": "Art. 516. Quienes son responsables.", "titulo_corto": "Quienes son responsables.", "slug": "516", "url_origen": "https://estatuto.co/516", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Son responsables por el impuesto y las sanciones todos los agentes de retención, incluidos aquellos, que aún sin tener el carácter de contribuyentes, deben cumplir las obligaciones de éstos por disposición expresa de la ley.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Son responsables por el impuesto y las sanciones todos los agentes de retención, incluidos aquellos, que aún sin tener el carácter de contribuyentes, deben cumplir las obligaciones de éstos por disposición expresa de la ley.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 33.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "33"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 516",
+  "titulo": "Art. 516. Quienes son responsables.",
+  "titulo_corto": "Quienes son responsables.",
+  "slug": "516",
+  "url_origen": "https://estatuto.co/516",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Son responsables por el impuesto y las sanciones todos los agentes de retención, incluidos aquellos, que aún sin tener el carácter de contribuyentes, deben cumplir las obligaciones de éstos por disposición expresa de la ley.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Son responsables por el impuesto y las sanciones todos los agentes de retención, incluidos aquellos, que aún sin tener el carácter de contribuyentes, deben cumplir las obligaciones de éstos por disposición expresa de la ley.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 33.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "33"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2211 (2023-02-24): (224) Impuesto de timbre nacional - Causaci&oacute;n - Concepto General sobre el impuesto de timbre nacional con motivo de la Ley 2277 de 2022\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2211-2023",
+      "tipo": "oficio",
+      "numero": "2211",
+      "fecha": "2023-02-24",
+      "tema": "(224) Impuesto de timbre nacional - Causaci&oacute;n - Concepto General sobre el impuesto de timbre nacional con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0440-2026",
+      "tipo": "oficio",
+      "numero": "0440",
+      "fecha": "2026-01-19",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18143-2025",
+      "tipo": "oficio",
+      "numero": "18143",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12071-2025",
+      "tipo": "oficio",
+      "numero": "12071",
+      "fecha": "2025-09-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11207-2025",
+      "tipo": "oficio",
+      "numero": "11207",
+      "fecha": "2025-08-12",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7648-2025",
+      "tipo": "oficio",
+      "numero": "7648",
+      "fecha": "2025-06-13",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7575-2025",
+      "tipo": "oficio",
+      "numero": "7575",
+      "fecha": "2025-06-11",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7411-2025",
+      "tipo": "oficio",
+      "numero": "7411",
+      "fecha": "2025-06-06",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5748-2025",
+      "tipo": "oficio",
+      "numero": "5748",
+      "fecha": "2025-05-09",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3418-2025",
+      "tipo": "oficio",
+      "numero": "3418",
+      "fecha": "2025-02-25",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3406-2025",
+      "tipo": "oficio",
+      "numero": "3406",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6406-2019",
+      "tipo": "oficio",
+      "numero": "6406",
+      "fecha": "2019-03-14",
+      "tema": "Responsables del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40374-2011",
+      "tipo": "oficio",
+      "numero": "40374",
+      "fecha": "2011-06-03",
+      "tema": "Forma de liquidar y pagar el impuesto de timbre aplicable a un contrato de concesi&oacute;n con valor estimado y un t&eacute;rmino de ejecuci&oacute;n de veinte a&ntilde;os, as&iacute; como la normativa aplicable en materia de dicho tributo desde el a&ntilde;o 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82215-2008",
+      "tipo": "oficio",
+      "numero": "82215",
+      "fecha": "2008-08-26",
+      "tema": "Impuesto de timbre nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17398-2007",
+      "tipo": "oficio",
+      "numero": "17398",
+      "fecha": "2007-03-05",
+      "tema": "&iquest;Se causa impuesto de timbre un documento mediante el cual una empresa deudora cede a sus acreedores las cuentas por cobrar a su favor derivada de la liquidaci&oacute;n de un contrato de cuentas en participaci&oacute;n, cesi&oacute;n efectuada en documento separado de un acuerdo suscrito en desarrollo de la Ley 550 de 1.999 y antes de la firma del acuerdo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25203-2006",
+      "tipo": "oficio",
+      "numero": "25203",
+      "fecha": "2006-03-27",
+      "tema": "&iquest;La consignaci&oacute;n del impuesto de timbre por el contratista a la entidad p&uacute;blica para que &eacute;sta lo declare debe ser al momento de la firma del contrato o que plazo se le puede otorgar al contratista para que consigne el impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57345-2005",
+      "tipo": "oficio",
+      "numero": "57345",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Qu&eacute; tipo de tributos deben asumir las compa&ntilde;&iacute;as petroleras en nuestro pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9580-2005",
+      "tipo": "oficio",
+      "numero": "9580",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para determinar el impuesto de timbre, cuando una cooperativa de trabajo asociado celebra un contrato de cuant&iacute;a indeterminada para la movilizaci&oacute;n de cajas y en donde se cancelan semanalmente los servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049786-2002",
+      "tipo": "concepto",
+      "numero": "0049786",
+      "fecha": "2002-08-09",
+      "tema": "&iquest;Cuando un administrador fiduciario act&uacute;a como agente retenedor, puede asumir con sus propios recursos obligaciones tributarias derivadas del impuesto de timbre, cuando el contratista o contratante no ha situado los recursos necesarios para tal fin?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0026737-2002",
+      "tipo": "concepto",
+      "numero": "0026737",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; retenciones en la fuente deben aplicarse a los pagos o abonos en cuenta efectuados en desarrollo de un contrato de franquicia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080519-2000",
+      "tipo": "concepto",
+      "numero": "0080519",
+      "fecha": "2000-08-24",
+      "tema": "&iquest;Respecto de un contrato celebrado entre una entidad exenta del impuesto de timbre y una no exenta, convini&eacute;ndose que el impuesto de timbre ser&iacute;a cancelado por la exenta, a qui&eacute;n corresponde pagar dicho impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025669-2000",
+      "tipo": "concepto",
+      "numero": "0025669",
+      "fecha": "2000-03-22",
+      "tema": "&iquest;Cu&aacute;l es el mecanismo para probar el pago del impuesto de timbre? &iquest;Cual es el procedimiento a seguir en caso de haber cancelado un impuesto de timbre sin que hubiera lugar a ello?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039088-1999",
+      "tipo": "concepto",
+      "numero": "0039088",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027831-1999",
+      "tipo": "concepto",
+      "numero": "0027831",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037933-1998",
+      "tipo": "concepto",
+      "numero": "0037933",
+      "fecha": "1998-05-27",
+      "tema": "&iquest;Es posible incluir en las facturas que soportan costos y deducciones el nombre social a cambio de la raz&oacute;n social, toda vez que &eacute;sta por su extensi&oacute;n no cabe en los campos que usualmente est&aacute;n destinados para ello, adem&aacute;s nuestra empresa es conocida comercialmente por su abreviatura o nombre comercial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043296-1997",
+      "tipo": "concepto",
+      "numero": "0043296",
+      "fecha": "1997-05-23",
+      "tema": "&iquest;Cuales son las obligaciones y exenciones fiscales de los sindicatos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053004-1995",
+      "tipo": "concepto",
+      "numero": "0053004",
+      "fecha": "1995-07-31",
+      "tema": "&iquest;una sociedad en comandita por acciones de car&aacute;cter civil puede ser considerada como comerciante? &iquest;Qu&eacute; obligaciones de car&aacute;cter tributario debe cumplir una sociedad que a la mitad del per&iacute;odo fiscal se transform&oacute; de una sociedad de responsabilidad limitada en una sociedad en comandita por acciones de car&aacute;cter civil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017793-1993",
+      "tipo": "concepto",
+      "numero": "0017793",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Se causa impuesto de timbre de la misma forma como se genera cuando la fiduciaria act&uacute;a por cuenta de una entidad privada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013076-1993",
+      "tipo": "concepto",
+      "numero": "0013076",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000346-1993",
+      "tipo": "concepto",
+      "numero": "0000346",
+      "fecha": "1993-06-07",
+      "tema": "&iquest;Sobre documentos de cuant&iacute;a indeterminada cu&aacute;l ser&iacute;a la tarifa del impuesto de timbre?&iquest;Qu&eacute; procedimiento &aacute;gil ser&iacute;a aplicable para obtener la devoluci&oacute;n reintegro del impuesto de timbre? &iquest;Para efectos procesales c&oacute;mo se prueba el pago del impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012712-1991",
+      "tipo": "concepto",
+      "numero": "0012712",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;El sujeto responsable del impuesto de timbre nacional en una emisi&oacute;n de acciones no inscritas en Bolsa de Valores, es la entidad emisora de las acciones, o el suscriptor de las mismas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002366-1990",
+      "tipo": "concepto",
+      "numero": "0002366",
+      "fecha": "1990-01-26",
+      "tema": "Solicita concepto de esto Despacho sobre las normas vigentes que se refieren a la causaci&oacute;n presentaci&oacute;n y plazos para su pago, del impuesto de timbre nacional, causado sobre bonos de prenda, certificados de dep&oacute;sito y pagar&eacute;s prendarios, emitidos por Almacenes Generales de Dep&oacute;sito",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ]
+}

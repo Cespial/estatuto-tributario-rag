@@ -1,1 +1,426 @@
-{"id_articulo": "Art. 601", "titulo": "Art. 601. Quienes deben presentar declaración de impuesto sobre las ventas.", "titulo_corto": "Quienes deben presentar declaración de impuesto sobre las ventas.", "slug": "601", "url_origen": "https://estatuto.co/601", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*Deberán presentar declaración y pago del impuesto sobre las ventas, según lo dispuesto en el artículo 600 de este Estatuto, los responsables de este impuesto, incluidos los exportadores. **No están obligados a presentar declaración de impuesto sobre las ventas, los contribuyentes que pertenezcan al Régimen Simplificado. **Tampoco estarán obligados a presentar la declaración del impuesto sobre las ventas los responsables del régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)> en los períodos en los cuales no hayan efectuado operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de lo dispuesto en el artículo 484 y artículo 486 de este Estatuto. Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Deberán presentar declaración y pago del impuesto sobre las ventas, según lo dispuesto en el <a href=\"https://estatuto.co/600\" rel=\"noopener\" target=\"_blank\">artículo 600</a> de este Estatuto, los responsables de este impuesto, incluidos los exportadores.</p>\n<p>**No están obligados a presentar declaración de impuesto sobre las ventas, los contribuyentes que pertenezcan al <span style=\"color: #339966;\"><del>Régimen Simplificado.</del></span></p>\n<p>**Tampoco estarán obligados a presentar la declaración del impuesto sobre las ventas los responsables del <span style=\"color: #339966;\"><del>régimen común</del></span> &lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt; en los períodos en los cuales no hayan efectuado operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de lo dispuesto en el <a href=\"https://estatuto.co/484\" rel=\"noopener\" target=\"_blank\">artículo 484</a> y <a href=\"https://estatuto.co/486\" rel=\"noopener\" target=\"_blank\">artículo 486</a> de este Estatuto.</p>\n<p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>Parágrafo Transitorio.</strong></span> los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad.</del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 62. **Texto sustituido Ley 2010 de 2019 art 20.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "62"}, {"tipo": "sustituido", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "20"}], "total_modificaciones": 2, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1607 de 2012", "Ley 2010 de 2019"], "texto_derogado": ["Régimen Simplificado.", "régimen común", "Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad."], "texto_derogado_parsed": [{"index": 0, "snippet": "Régimen Simplificado.", "full_length": 21}, {"index": 1, "snippet": "régimen común", "full_length": 13}, {"index": 2, "snippet": "Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre...", "full_length": 615}], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - Inciso 1o. declarado EXEQUIBLE por la Corte Constitucional mediante Sentencia C-637-00 de 31 de mayo de 2000, Magistrado Ponente Dr. Alvaro Tafur Galvis. Fallo INHIBITORIO sobre el último inciso por ausencia de cargos."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": ["600", "484", "486"], "referenced_by": [], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 601",
+  "titulo": "Art. 601. Quienes deben presentar declaración de impuesto sobre las ventas.",
+  "titulo_corto": "Quienes deben presentar declaración de impuesto sobre las ventas.",
+  "slug": "601",
+  "url_origen": "https://estatuto.co/601",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*Deberán presentar declaración y pago del impuesto sobre las ventas, según lo dispuesto en el artículo 600 de este Estatuto, los responsables de este impuesto, incluidos los exportadores. **No están obligados a presentar declaración de impuesto sobre las ventas, los contribuyentes que pertenezcan al Régimen Simplificado. **Tampoco estarán obligados a presentar la declaración del impuesto sobre las ventas los responsables del régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)> en los períodos en los cuales no hayan efectuado operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de lo dispuesto en el artículo 484 y artículo 486 de este Estatuto. Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Deberán presentar declaración y pago del impuesto sobre las ventas, según lo dispuesto en el <a href=\"https://estatuto.co/600\" rel=\"noopener\" target=\"_blank\">artículo 600</a> de este Estatuto, los responsables de este impuesto, incluidos los exportadores.</p>\n<p>**No están obligados a presentar declaración de impuesto sobre las ventas, los contribuyentes que pertenezcan al <span style=\"color: #339966;\"><del>Régimen Simplificado.</del></span></p>\n<p>**Tampoco estarán obligados a presentar la declaración del impuesto sobre las ventas los responsables del <span style=\"color: #339966;\"><del>régimen común</del></span> &lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt; en los períodos en los cuales no hayan efectuado operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de lo dispuesto en el <a href=\"https://estatuto.co/484\" rel=\"noopener\" target=\"_blank\">artículo 484</a> y <a href=\"https://estatuto.co/486\" rel=\"noopener\" target=\"_blank\">artículo 486</a> de este Estatuto.</p>\n<p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>Parágrafo Transitorio.</strong></span> los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad.</del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 62. **Texto sustituido Ley 2010 de 2019 art 20.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "62"
+    },
+    {
+      "tipo": "sustituido",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "20"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [
+    "Régimen Simplificado.",
+    "régimen común",
+    "Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre las ventas en ceros (0)en los meses en los cuales no realizaron operaciones sometidas al impuesto ni operaciones que den lugar a impuestos descontables, ajustes o deducciones en los términos de los artículos 484 y 486 de este Estatuto, desde que tengan la obligación, podrán presentar en esas declaraciones dentro de los seis (6) meses siguientes a la vigencia de esta ley sin liquidar sanción por extemporaneidad."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "Régimen Simplificado.",
+      "full_length": 21
+    },
+    {
+      "index": 1,
+      "snippet": "régimen común",
+      "full_length": 13
+    },
+    {
+      "index": 2,
+      "snippet": "Parágrafo Transitorio. los responsables obligados a presentar declaración bimestral del impuestos sobre las ventas que no hayan cumplido la obligación de presentar las declaraciones del impuesto sobre...",
+      "full_length": 615
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - Inciso 1o. declarado EXEQUIBLE por la Corte Constitucional mediante Sentencia C-637-00 de 31 de mayo de 2000, Magistrado Ponente Dr. Alvaro Tafur Galvis. Fallo INHIBITORIO sobre el último inciso por ausencia de cargos."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "600",
+    "484",
+    "486"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 18164 (2025-12-30): Impuesto Sobre las Ventas - IVA\noficio 9498 (2025-07-17): Impuesto Sobre las Ventas - IVA\noficio 3404 (2025-03-19): Impuesto Sobre las Ventas - IVA\noficio 8433 (2024-10-03): Procedimiento Tributario\noficio 1119 (2024-02-13): (Int 082) Impuesto sobre las ventas - Procedimiento tributario - Hecho generador - Declaraci&oacute;n del IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-18164-2025",
+      "tipo": "oficio",
+      "numero": "18164",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9498-2025",
+      "tipo": "oficio",
+      "numero": "9498",
+      "fecha": "2025-07-17",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3404-2025",
+      "tipo": "oficio",
+      "numero": "3404",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8433-2024",
+      "tipo": "oficio",
+      "numero": "8433",
+      "fecha": "2024-10-03",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1119-2024",
+      "tipo": "oficio",
+      "numero": "1119",
+      "fecha": "2024-02-13",
+      "tema": "(Int 082) Impuesto sobre las ventas - Procedimiento tributario - Hecho generador - Declaraci&oacute;n del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910701-2021",
+      "tipo": "oficio",
+      "numero": "910701",
+      "fecha": "2021-09-27",
+      "tema": "Beneficios tributarios - Declaraci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-906648-2020",
+      "tipo": "oficio",
+      "numero": "906648",
+      "fecha": "2020-10-30",
+      "tema": "Declaraci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905187-2020",
+      "tipo": "oficio",
+      "numero": "905187",
+      "fecha": "2020-09-23",
+      "tema": "El Impuesto sobre las ventas (IVA) pagado en operaciones para la exploraci&oacute;n de hidrocarburos, cuando no se generan ingresos, &iquest;debe ser llevado como IVA descontable en la declaraci&oacute;n de IVA e imputarse sucesivamente como saldo a favor, el cual se podr&aacute; pedir en devoluci&oacute;n hasta cuando se generen ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3591-2020",
+      "tipo": "oficio",
+      "numero": "3591",
+      "fecha": "2020-02-18",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28990-2019",
+      "tipo": "oficio",
+      "numero": "28990",
+      "fecha": "2019-11-20",
+      "tema": "Determinaci&oacute;n de impuestos descontables susceptibles de devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13677-2019",
+      "tipo": "oficio",
+      "numero": "13677",
+      "fecha": "2019-05-29",
+      "tema": "Procedimiento Tributario. Factura - expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33661-2018",
+      "tipo": "oficio",
+      "numero": "33661",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso susceptible de producir un incremento neto en el patrimonio en el momento de su percepci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20068-2017",
+      "tipo": "oficio",
+      "numero": "20068",
+      "fecha": "2017-07-28",
+      "tema": "Exenci&oacute;n transitoria en el municipio de Mocoa, departamento del Putumayo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9127-2017",
+      "tipo": "oficio",
+      "numero": "9127",
+      "fecha": "2017-04-20",
+      "tema": "&iquest;Se debe presentar la declaraci&oacute;n del impuesto nacional a la gasolina y al ACPM en ceros en los periodos gravables en los cuales no se realizan operaciones gravadas con el citado tributo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36879-2015",
+      "tipo": "oficio",
+      "numero": "36879",
+      "fecha": "2015-12-29",
+      "tema": "Retenci&oacute;n en la fuente en contratos de consultor&iacute;a en ingenier&iacute;a de proyectos de infraestructura y edificaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34755-2015",
+      "tipo": "oficio",
+      "numero": "34755",
+      "fecha": "2015-12-04",
+      "tema": "&iquest;Si un contratista cumple con los dem&aacute;s requisitos del art&iacute;culo 499 del Estatuto Tributario, debe inscribirse en el r&eacute;gimen com&uacute;n, acorde con el numeral 6 de esta norma, por el hecho que en el contrato con la entidad p&uacute;blica si bien se pacta por valor igual o superior a 3.000 UVT, se desprende que por las condiciones del mismo, el valor del contrato no superar&aacute; ese monto? - &iquest;El contrato es soporte tributario? &iquest;Por el valor que all&iacute; se incluye? &iquest;O se puede calcular el valor real que se cancelar&aacute; a partir de las dem&aacute;s cl&aacute;usulas y circunstancias? - &iquest;O debido al valor incluido en el contrato que supera las 3.300 UVTs, debe hacerse un otros&iacute; en el que se aclare el valor real del contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22788-2015",
+      "tipo": "oficio",
+      "numero": "22788",
+      "fecha": "2015-08-04",
+      "tema": "&iquest;Es contribuyente del impuesto sobre la renta y complementarios la sociedad extranjera en comento y, por tanto, est&aacute; obligada a presentar declaraci&oacute;n de renta y liquidar renta presuntiva, advirtiendo que sus ingresos no fueron sometidos a retenci&oacute;n en la fuente?&iquest;Una empresa se encuentra obligada a pagar el impuesto sobre la renta sobre el porcentaje de ventas brutas recibidas durante el respectivo a&ntilde;o o sobre la renta presuntiva calculado sobre su patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54401-2014",
+      "tipo": "oficio",
+      "numero": "54401",
+      "fecha": "2014-09-01",
+      "tema": "&iquest;En el caso de una sociedad constituida el 15 de agosto de 2013, que inici&oacute; actividades a partir de junio de 2014, si est&aacute; obligada a presentar las declaraciones del impuesto sobre las ventas, correspondientes a los bimestres julio-agosto, septiembre-octubre y noviembre-diciembre de 2013? - Per&iacute;odo gravable en el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41886-2014",
+      "tipo": "oficio",
+      "numero": "41886",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Es v&aacute;lido rechazar una imputaci&oacute;n de saldo a favor generado por retenciones de IVA, que se hace hasta el periodo 1 de 2012 y luego en las declaraciones de los periodos 3, 4 y 5 de 2012? &iquest;Es v&aacute;lido corregir la declaraci&oacute;n correspondiente al periodo 3, pagar el impuesto generado en el periodo, con los intereses por mora y la sanci&oacute;n por correcci&oacute;n, pero no corregir los periodos 4 y 5 en virtud de lo se&ntilde;alado en el par&aacute;grafo del art&iacute;culo 13 del Decreto 2277 de 2012 y el concepto 069922 del 28 de octubre de 2003? &iquest;Una peque&ntilde;a nueva empresa creada en el a&ntilde;o 2011 que no alleg&oacute; dentro del t&eacute;rmino los documentos a fin de cumplir con los requisitos consagrados en el art&iacute;culo 6o del Decreto 4910 de 2011, puede presentarlos extempor&aacute;neamente aunque pierda el beneficio consagrado en el primer a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41649-2014",
+      "tipo": "oficio",
+      "numero": "41649",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Servicio de Arrendamiento de Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3383-2014",
+      "tipo": "oficio",
+      "numero": "3383",
+      "fecha": "2014-01-22",
+      "tema": "Exoneraci&oacute;n del pago de la sanci&oacute;n de extemporaneidad por la no presentaci&oacute;n oportuna de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3382-2014",
+      "tipo": "oficio",
+      "numero": "3382",
+      "fecha": "2014-01-22",
+      "tema": "Exoneraci&oacute;n del pago de la sanci&oacute;n de extemporaneidad por la no presentaci&oacute;n oportuna de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033573-2012",
+      "tipo": "concepto",
+      "numero": "0033573",
+      "fecha": "2012-05-28",
+      "tema": "&iquest;Cuando en un bimestre no se realizan operaciones, es procedente presentar la declaraci&oacute;n del impuesto sobre las ventas para imputar un saldo a favor del per&iacute;odo anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98922-2011",
+      "tipo": "oficio",
+      "numero": "98922",
+      "fecha": "2011-12-19",
+      "tema": "&iquest;Las declaraciones bimestrales del IVA, presentadas por exportadores s&oacute;lo con IVA descontable y con cero ingresos, pueden imputarse sucesivamente, dando lugar a saldo a favor con derecho a devoluci&oacute;n y-o compensaci&oacute;n hasta cuando se realicen exportaciones, e igualmente, en qu&eacute; consiste el t&eacute;rmino previsto en el art&iacute;culo 490 del Estatuto Tributario, respecto a que la inexistencia de operaciones determinar&aacute; la postergaci&oacute;n del c&oacute;mputo al per&iacute;odo fiscal siguiente en el que se verifique alguna de ellas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14017-2009",
+      "tipo": "oficio",
+      "numero": "14017",
+      "fecha": "2009-02-18",
+      "tema": "Tratamiento del impuesto sobre las ventas en la prestaci&oacute;n del servicio de arrendamiento comercial de un inmueble, que no est&aacute; destinado a vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38958-2008",
+      "tipo": "oficio",
+      "numero": "38958",
+      "fecha": "2008-04-18",
+      "tema": "R&eacute;gimen tributario que cobija a las entidades extranjeras de naturaleza p&uacute;blica cuyas actividades en Colombia no generan ingresos y act&uacute;a a trav&eacute;s de una oficina de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76657-2005",
+      "tipo": "oficio",
+      "numero": "76657",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;las ventas que se realizan en el Departamento del Amazonas hacia el resto del territorio nacional se encuentran gravadas con el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-81714-2001",
+      "tipo": "concepto",
+      "numero": "81714",
+      "fecha": "2001-09-07",
+      "tema": "Presentaci&oacute;n de declaraci&oacute;n de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-42137-2001",
+      "tipo": "concepto",
+      "numero": "42137",
+      "fecha": "2001-05-23",
+      "tema": "Renta - Ventas; renta por comparaci&oacute;n patrimonial; obligaci&oacute;n de declarar responsables",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051900-2000",
+      "tipo": "concepto",
+      "numero": "0051900",
+      "fecha": "2000-05-31",
+      "tema": "&iquest;Las declaraciones tributarias del impuesto sobre las ventas que presenten saldo a favor deben firmarse por contador p&uacute;blico a&uacute;n cuando no se tenga la obligaci&oacute;n de llevar libros de contabilidad?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0040403-2000",
+      "tipo": "concepto",
+      "numero": "0040403",
+      "fecha": "2000-04-28",
+      "tema": "Responsabilidad solidaria de los consorciados por las operaciones del Consorcio.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040303-2000",
+      "tipo": "concepto",
+      "numero": "0040303",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Son responsables solidarios los consorciados por las obligaciones tributarias de los consorcios de los que forman parte?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014542-1998",
+      "tipo": "concepto",
+      "numero": "0014542",
+      "fecha": "1998-03-06",
+      "tema": "&iquest;Es extensiva la responsabilidad respecto del IVA de la DIAN a la Administraci&oacute;n, toda vez que no tiene proceso alguno de comercializaci&oacute;n y por tanto no es declarante de IVA, y adem&aacute;s posee Nit propio para efectos de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026630-1996",
+      "tipo": "concepto",
+      "numero": "0026630",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009245-1995",
+      "tipo": "concepto",
+      "numero": "0009245",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Se encuentran obligadas a presentar declaraciones tributarias las sociedades y las personas naturales dedicadas a ACTIVIDADES INDUSTRIALES Y COMERCIALES, cuando entregan en administraci&oacute;n a otra sociedad algunos de sus establecimientos dedicados a prestar servicios de restaurante? &iquest;Se encuentra obligada a presentar declaraciones tributarias la sociedad que administre establecimientos dedicados a prestar servicios de restaurante que sean de propiedad de otras sociedades o personas naturales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036002-1993",
+      "tipo": "concepto",
+      "numero": "0036002",
+      "fecha": "1993-12-31",
+      "tema": "&iquest;Al presentarse una declaraci&oacute;n y entenderse como no presentada, puede la Administraci&oacute;n tomar bases distintas a las declaradas por el contribuyente para imponer la sanci&oacute;n por no declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023479-1990",
+      "tipo": "concepto",
+      "numero": "0023479",
+      "fecha": "1990-01-01",
+      "tema": "Para efectos del impuesto sobre las ventas, el hecho de reconocerle una suma mensual al trabajador para el mantenimiento del veh&iacute;culo partiular le implica alguna obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003300-1990",
+      "tipo": "concepto",
+      "numero": "0003300",
+      "fecha": "1990-02-08",
+      "tema": "&iquest;Una sociedad recientemente constituida e inscrita como responsable del impuesto a las ventas, pero que transcurridos varios meses no ha iniciado actividades comerciales, est&aacute; obligada a elaborar y presentar declaraciones de impuestos a las ventas y de retenciones en la fuente? &iquest;Una sociedad en comandita simple que ha cesado en forma definitiva en sus actividades comerciales debe seguir elaborando y presentando declaraciones del impuesto a las ventas y retenciones en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022562-1989",
+      "tipo": "concepto",
+      "numero": "0022562",
+      "fecha": "1989-01-01",
+      "tema": "Presentaci&oacute;n declaraciones y libros contables",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    }
+  ]
+}

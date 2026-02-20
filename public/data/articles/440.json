@@ -1,1 +1,376 @@
-{"id_articulo": "Art. 440", "titulo": "Art. 440. Que se entiende por productor.", "titulo_corto": "Que se entiende por productor.", "slug": "440", "url_origen": "https://estatuto.co/440", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "Para los fines del presente Título se considera productor, quien agrega uno o varios procesos a las materias primas o mercancías. *Para efectos de lo dispuesto en el artículo 477, se considera productor en relación con las carnes, el dueño de los respectivos bienes, que los sacrifique o los haga sacrificar; en relación con la leche el ganadero productor; respecto de huevos el avicultor.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para los fines del presente Título se considera productor, quien agrega uno o varios procesos a las materias primas o mercancías.</p>\n<p>*Para efectos de lo dispuesto en el <a href=\"https://estatuto.co/477\" rel=\"noopener\" target=\"_blank\">artículo 477</a>, se considera productor en relación con las carnes, el dueño de los respectivos bienes, que los sacrifique o los haga sacrificar; en relación con la leche el ganadero productor; respecto de huevos el avicultor.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 788 de 2002 Art. 66.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "788", "norma_year": 2002, "norma_articulo": "66"}], "total_modificaciones": 1, "ultima_modificacion_year": 2002, "leyes_modificatorias": ["Ley 788 de 2002"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["477"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 440",
+  "titulo": "Art. 440. Que se entiende por productor.",
+  "titulo_corto": "Que se entiende por productor.",
+  "slug": "440",
+  "url_origen": "https://estatuto.co/440",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "Para los fines del presente Título se considera productor, quien agrega uno o varios procesos a las materias primas o mercancías. *Para efectos de lo dispuesto en el artículo 477, se considera productor en relación con las carnes, el dueño de los respectivos bienes, que los sacrifique o los haga sacrificar; en relación con la leche el ganadero productor; respecto de huevos el avicultor.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para los fines del presente Título se considera productor, quien agrega uno o varios procesos a las materias primas o mercancías.</p>\n<p>*Para efectos de lo dispuesto en el <a href=\"https://estatuto.co/477\" rel=\"noopener\" target=\"_blank\">artículo 477</a>, se considera productor en relación con las carnes, el dueño de los respectivos bienes, que los sacrifique o los haga sacrificar; en relación con la leche el ganadero productor; respecto de huevos el avicultor.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 788 de 2002 Art. 66.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "788",
+      "norma_year": 2002,
+      "norma_articulo": "66"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2002,
+  "leyes_modificatorias": [
+    "Ley 788 de 2002"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "477"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 9 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 6482 (2024-04-01): Otros Temas\noficio 3744 (2023-03-28): (Int 383) Concepto General sobre los Impuestos saludables - Hecho generador - Responsables - Deducci&oacute;n del impuesto\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6482-2024",
+      "tipo": "oficio",
+      "numero": "6482",
+      "fecha": "2024-04-01",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3744-2023",
+      "tipo": "oficio",
+      "numero": "3744",
+      "fecha": "2023-03-28",
+      "tema": "(Int 383) Concepto General sobre los Impuestos saludables - Hecho generador - Responsables - Deducci&oacute;n del impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11044-2024",
+      "tipo": "oficio",
+      "numero": "11044",
+      "fecha": "2024-12-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904856-2022",
+      "tipo": "oficio",
+      "numero": "904856",
+      "fecha": "2022-06-21",
+      "tema": "Impuestos sobre las ventas. Bienes y servicios excluidos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903900-2022",
+      "tipo": "oficio",
+      "numero": "903900",
+      "fecha": "2022-05-20",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n Sociedades de Comercializaci&oacute;n Internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901292-2021",
+      "tipo": "oficio",
+      "numero": "901292",
+      "fecha": "2021-02-19",
+      "tema": "&iquest;Qu&eacute; insumos el IVA pagado se puede solicitar como impuesto descontable por parte del productor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906397-2020",
+      "tipo": "oficio",
+      "numero": "906397",
+      "fecha": "2020-10-23",
+      "tema": "Contrato de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901112-2020",
+      "tipo": "oficio",
+      "numero": "901112",
+      "fecha": "2020-04-14",
+      "tema": "&iquest;Qu&eacute; se entiende por productor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0379-2020",
+      "tipo": "oficio",
+      "numero": "0379",
+      "fecha": "2020-01-01",
+      "tema": "(Int 379) Servicio intermedio de la producci&oacute;n - Tercerizaci&oacute;n de producci&oacute;n de medicamentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31296-2019",
+      "tipo": "oficio",
+      "numero": "31296",
+      "fecha": "2019-12-19",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23070-2015",
+      "tipo": "oficio",
+      "numero": "23070",
+      "fecha": "2015-08-06",
+      "tema": "Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 066587 del 16 de diciembre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009115-2015",
+      "tipo": "concepto",
+      "numero": "0009115",
+      "fecha": "2015-03-26",
+      "tema": "&iquest;Qui&eacute;n se considera productor, con derecho a devoluci&oacute;n y-o compensaci&oacute;n, en el caso de los bienes de la partida arancelaria 01.02 Animales vivos de la especie bovina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9112-2015",
+      "tipo": "oficio",
+      "numero": "9112",
+      "fecha": "2015-03-26",
+      "tema": "&iexcl;Cu&aacute;les son los requisitos especiales para la solicitud de devoluci&oacute;n en el caso de los productores de queso fresco de la partida 04.06.10.00 el cual es exento de conformidad con el art&iacute;culo 477 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8268-2015",
+      "tipo": "oficio",
+      "numero": "8268",
+      "fecha": "2015-01-17",
+      "tema": "&iquest;El servicio de engorde de pollos es un servicio intermedio de la producci&oacute;n, y en consecuencia se encuentra excluido del impuesto sobre las ventas seg&uacute;n el numeral 9 del mismo art&iacute;culo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4136-2015",
+      "tipo": "oficio",
+      "numero": "4136",
+      "fecha": "2015-02-16",
+      "tema": "Normatividad aplicable en lo referente a la firma de contador en declaraciones de IVA presentadas por productores de bienes exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66587-2014",
+      "tipo": "oficio",
+      "numero": "66587",
+      "fecha": "2014-12-16",
+      "tema": "&iquest;Es acertado entender que el impuesto descontable del 35%, acumulado como saldo a favor, se puede aplicar al impuesto de ventas generado en operaciones futuras, o en ultimas solicitarse la devoluci&oacute;n si se tiene la calidad de exportador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41865-2014",
+      "tipo": "oficio",
+      "numero": "41865",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Para los productores de bienes exentos de que trata el art&iacute;culo 477 del Estatuto Tributario, la ley consagra alguna regla o limitaci&oacute;n para determinar el saldo a favor susceptible de devoluci&oacute;n en el periodo de causaci&oacute;n del IVA descontable, cuando solamente se tienen ingresos provenientes de operaciones exentas? &iquest;Existe alguna disposici&oacute;n legal que de manera clara e inequ&iacute;voca faculta a los funcionarios de la Administraci&oacute;n de Impuestos para devolver solamente la parte del saldo a favor imputable a los bienes que han sido consumidos en las diferentes etapas del proceso productivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19119-2014",
+      "tipo": "oficio",
+      "numero": "19119",
+      "fecha": "2014-03-21",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14320-2014",
+      "tipo": "oficio",
+      "numero": "14320",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Bienes Exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6151-2014",
+      "tipo": "oficio",
+      "numero": "6151",
+      "fecha": "2014-01-01",
+      "tema": "Procedimiento de aplicaci&oacute;n del art&iacute;culo 5 del Decreto 2277 de 2012 para la gesti&oacute;n de devoluciones y compensaciones, en el caso espec&iacute;fico de los productores de carne. Se&ntilde;ala que resulta importante se precise que tipo de soporte proceder&iacute;a cuando el pollito es comercializado a los avicultores por almacenes agropecuarios o distribuidores especializado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77395-2013",
+      "tipo": "oficio",
+      "numero": "77395",
+      "fecha": "2013-12-03",
+      "tema": "&iquest;Se consideran productores de pescado y dem&aacute;s productos marinos se&ntilde;alados en el art&iacute;culo 477 del Estatuto Tributario aquellos que se dedican a su procesamiento, con el prop&oacute;sito de conocer la procedencia de solicitar la devoluci&oacute;n del IVA cancelado en la adquisici&oacute;n de bienes y servicios que constituyan costo o gasto para su producci&oacute;n y comercializaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68291-2013",
+      "tipo": "oficio",
+      "numero": "68291",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Para efectos del art&iacute;culo 481 literal g) del Estatuto Tributario, qu&eacute; se entiende por productor y en ese sentido si se considera productor la persona natural o jur&iacute;dica que importa o adquiere bienes y posteriormente los acondiciona (de valor agregado) para la venta al productor final?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57717-2013",
+      "tipo": "oficio",
+      "numero": "57717",
+      "fecha": "2013-09-12",
+      "tema": "&iquest;Tiene derecho a la devoluci&oacute;n del impuesto sobre las ventas IVA, cobrado por los proveedores de los bienes y servicios, una sociedad, que como parte de su actividad industrial se dedica a la compra de bienes exentos, pescados y mariscos de los indicados en las posiciones arancelarias 03.02, 03.03, 03.04, 03.06.17, 03.06.26.00.00, 03.06.27, con los alcances establecidos en el par&aacute;grafo 2o del art&iacute;culo 477 del Estatuto Tributario, tal como qued&oacute; modificado por el art&iacute;culo 54 de la Ley 1607 de 2012, y que a estos bienes les agrega varios procesos de producci&oacute;n consistentes en fileteado y limpieza, empacado al vac&iacute;o y procesos t&eacute;cnicos de refrigerado y congelado, que no les cambia la naturaleza establecida en el art&iacute;culo 477 ya mencionado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9829-2010",
+      "tipo": "oficio",
+      "numero": "9829",
+      "fecha": "2010-02-11",
+      "tema": "- (Tributario) Solicita reconsiderar la doctrina expuesta en la Respuesta n&uacute;mero 3 del Concepto 63671 de 2003, respecto a que la incubaci&oacute;n a escala industrial del huevo f&eacute;rtil corresponde a un proceso industrial y por consiguiente debe tratarse como un servicio intermedio de la producci&oacute;n, para efectos del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36083-2009",
+      "tipo": "oficio",
+      "numero": "36083",
+      "fecha": "2009-05-06",
+      "tema": "Consulta si en los contratos de cuentas en participaci&oacute;n en la actividad porc&iacute;cola, el depositante del ganado puede solicitar la devoluci&oacute;n o compensaci&oacute;n del impuesto sobre las ventas pagado durante el proceso de gestaci&oacute;n y cr&iacute;a y el depositario el impuesto sobre las ventas pagado durante el proceso de levante y ceba, teniendo en cuenta que el depositante es el propietario del ganado y quien env&iacute;a los cerdos para su sacrificio y luego factura la carne en canal a sus clientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69584-2008",
+      "tipo": "oficio",
+      "numero": "69584",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Un avicultor puede solicitar como impuesto descontable y ser objeto de devoluci&oacute;n y-o compensaci&oacute;n el impuesto sobre las ventas que se pague en la adquisici&oacute;n, levante y gastos inherentes a las gallinas ponedoras en etapa improductiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12280-2008",
+      "tipo": "oficio",
+      "numero": "12280",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Es procedente la devoluci&oacute;n de IVA pagado en la ganader&iacute;a de doble prop&oacute;sito cuyo suministro se les efect&uacute;a exclusivamente en el lugar de orde&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52580-2006",
+      "tipo": "oficio",
+      "numero": "52580",
+      "fecha": "2006-06-21",
+      "tema": "&iquest; Cu&aacute;l es el manejo que debe darse al retiro de concentrado elaborado por una compa&ntilde;&iacute;a que levanta, sacrifica o hace sacrificar animales a los que se refiere el art&iacute;culo 477 del Estatuto Tributario y comercializa la carne de los animales producidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38328-2006",
+      "tipo": "oficio",
+      "numero": "38328",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;Qu&eacute; debe entender por productor para efectos de tener derecho a la devoluci&oacute;n del IVA por la venta de carne en canal de cerdos a la luz del art&iacute;culo 440 del Estatuto Tributario y 4&ordm; del decreto 1949 de 2003?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38327-2006",
+      "tipo": "oficio",
+      "numero": "38327",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;Es procedente la devoluci&oacute;n del Impuesto Sobre las Ventas pagado en la adquisici&oacute;n de bienes y servicios que constituyan costo o gasto en la producci&oacute;n de huevos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0263-2006",
+      "tipo": "oficio",
+      "numero": "0263",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para verificar el adecuado manejo de la cuenta denominada Impuesto sobre las ventas e Impuesto a las ventas retenido, as&iacute; como otros requisitos de car&aacute;cter contable, por parte de los nuevos responsables del IVA de que trata el art&iacute;culo 477 del Estatuto Tributario, que ejercen actividades diferentes a las comerciales y en consecuencia no est&aacute;n obligados a llevar libros de contabilidad? Devoluci&oacute;n de saldos a favor, personas no obligadas a llevar libros de contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76483-2005",
+      "tipo": "oficio",
+      "numero": "76483",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Una empresa que se dedica a la compra de leche cruda al ganadero y adiciona el proceso de homogenizaci&oacute;n y pasteurizaci&oacute;n, y posteriormente la comercializaci&oacute;n de leche pasteurizada, tiene derecho a devoluci&oacute;n del impuesto a las ventas de las materias primas o material de empaque utilizado en dicho producto, siendo este un bien exento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53503-2004",
+      "tipo": "oficio",
+      "numero": "53503",
+      "fecha": "2004-08-20",
+      "tema": "&iquest;El IVA generado en el sacrificio de animales vivos se debe considerar costo, gasto o impuesto descontable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053503-2004",
+      "tipo": "concepto",
+      "numero": "0053503",
+      "fecha": "2004-08-20",
+      "tema": "&iquest;El IVA generado en el sacrificio de animales vivos se debe considerar costo, gasto o impuesto descontable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025510-2002",
+      "tipo": "concepto",
+      "numero": "0025510",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Para efectos del impuesto sobre las ventas, pueden considerarse como servicios intermedios de la producci&oacute;n de petr&oacute;leo crudo destinado a su refinaci&oacute;n, la separaci&oacute;n de sus componentes, la estabilizaci&oacute;n, deshidrataci&oacute;n de gas y minimizaci&oacute;n de impurezas?",
+      "vigente": true
+    }
+  ]
+}

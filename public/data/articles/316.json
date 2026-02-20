@@ -1,1 +1,167 @@
-{"id_articulo": "Art. 316", "titulo": "Art. 316. Para personas naturales extranjeras sin residencia.", "titulo_corto": "Para personas naturales extranjeras sin residencia.", "slug": "316", "url_origen": "https://estatuto.co/316", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La tarifa única sobre las ganancias ocasionales de fuente nacional de las personas naturales sin residencia en el país y de las sucesiones de causantes personas naturales sin residencia en el país, es quince por ciento (15%).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><b>*</b>La tarifa única sobre las ganancias ocasionales de fuente nacional de las personas naturales sin residencia en el país y de las sucesiones de causantes personas naturales sin residencia en el país, es quince por ciento (15%).</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 34 *Modificado Ley 1607 de 2012. Art. 108.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "34"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": ""}], "total_modificaciones": 4, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 1607 de 2012", "Ley 2277 de 2022"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 316",
+  "titulo": "Art. 316. Para personas naturales extranjeras sin residencia.",
+  "titulo_corto": "Para personas naturales extranjeras sin residencia.",
+  "slug": "316",
+  "url_origen": "https://estatuto.co/316",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La tarifa única sobre las ganancias ocasionales de fuente nacional de las personas naturales sin residencia en el país y de las sucesiones de causantes personas naturales sin residencia en el país, es quince por ciento (15%).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><b>*</b>La tarifa única sobre las ganancias ocasionales de fuente nacional de las personas naturales sin residencia en el país y de las sucesiones de causantes personas naturales sin residencia en el país, es quince por ciento (15%).</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 34 *Modificado Ley 1607 de 2012. Art. 108.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "34"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 4,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 1607 de 2012",
+    "Ley 2277 de 2022"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2561 (2023-04-26): (Int 525) Ingresos de Fuente Nacional - Liquidaci&oacute;n de Sucesi&oacute;n\noficio 908351 (2022-11-21): Impuesto sobre la renta y complementarios - Ingresos de fuente nacional\noficio 905217 (2022-07-06): Impuesto sobre la renta - Herencia",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2561-2023",
+      "tipo": "oficio",
+      "numero": "2561",
+      "fecha": "2023-04-26",
+      "tema": "(Int 525) Ingresos de Fuente Nacional - Liquidaci&oacute;n de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908351-2022",
+      "tipo": "oficio",
+      "numero": "908351",
+      "fecha": "2022-11-21",
+      "tema": "Impuesto sobre la renta y complementarios - Ingresos de fuente nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905217-2022",
+      "tipo": "oficio",
+      "numero": "905217",
+      "fecha": "2022-07-06",
+      "tema": "Impuesto sobre la renta - Herencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000575-2020",
+      "tipo": "concepto",
+      "numero": "0000575",
+      "fecha": "2020-10-27",
+      "tema": "(Int 0575) Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905791-2020",
+      "tipo": "oficio",
+      "numero": "905791",
+      "fecha": "2020-10-10",
+      "tema": "Determinaci&oacute;n de impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902982-2020",
+      "tipo": "oficio",
+      "numero": "902982",
+      "fecha": "2020-07-07",
+      "tema": "&iquest;De conformidad con lo dispuesto en los art&iacute;culos 216, 218, 219 y 220 del Decreto 1165 de 2019, los turistas beneficiarios de la modalidad de importaci&oacute;n temporal para reexportaci&oacute;n en el mismo estado de veh&iacute;culos, deben ser no residentes en Colombia y permanecer en el territorio nacional en tal calidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000577-2020",
+      "tipo": "concepto",
+      "numero": "0000577",
+      "fecha": "2020-10-28",
+      "tema": "(9510) Persona natural no residente en el pa&iacute;s, obligada a presentar declaraci&oacute;n del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29262-2019",
+      "tipo": "oficio",
+      "numero": "29262",
+      "fecha": "2019-11-22",
+      "tema": "Renta l&iacute;quida cedular de las rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0653-2018",
+      "tipo": "oficio",
+      "numero": "0653",
+      "fecha": "2018-05-04",
+      "tema": "&iquest;Se debe hacer retenci&oacute;n en la fuente a los ingresos por concepto de premios obtenidos por profesionales de Golf en Torneos organizados por la Federaci&oacute;n Colombiana de Golf, cuya celebraci&oacute;n est&aacute; reconocida por el Gobierno Nacional a trav&eacute;s de Coldeportes? &iquest;De ser as&iacute;, qu&eacute; tarifa se aplicar&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57999-2014",
+      "tipo": "oficio",
+      "numero": "57999",
+      "fecha": "2014-10-09",
+      "tema": "Convenio entre la Rep&uacute;blica de Colombia y la Confederaci&oacute;n Suiza para evitar la Doble Imposici&oacute;n en materia de Impuestos sobre la Renta y Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74527-2013",
+      "tipo": "oficio",
+      "numero": "74527",
+      "fecha": "2013-11-20",
+      "tema": "Giros al exterior en divisas extranjeras - Retenci&oacute;n en la fuente",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

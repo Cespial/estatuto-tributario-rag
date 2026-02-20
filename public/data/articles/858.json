@@ -1,1 +1,128 @@
-{"id_articulo": "Art. 858", "titulo": "Art. 858. Auto inadmisorio.", "titulo_corto": "Auto inadmisorio.", "slug": "858", "url_origen": "https://estatuto.co/858", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Cuando la solicitud de devolución o compensación no cumpla con los requisitos, el auto inadmisorio deberá dictarse en un término máximo de quince (15) días. Cuando se trate de devoluciones con garantía el auto inadmisorio deberá dictarse dentro del mismo término para devolver.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Cuando la solicitud de devolución o compensación no cumpla con los requisitos, el auto inadmisorio deberá dictarse en un término máximo de quince (15) días.</p>\n<p>Cuando se trate de devoluciones con garantía el auto inadmisorio deberá dictarse dentro del mismo término para devolver.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 143.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "143"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 858",
+  "titulo": "Art. 858. Auto inadmisorio.",
+  "titulo_corto": "Auto inadmisorio.",
+  "slug": "858",
+  "url_origen": "https://estatuto.co/858",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Cuando la solicitud de devolución o compensación no cumpla con los requisitos, el auto inadmisorio deberá dictarse en un término máximo de quince (15) días. Cuando se trate de devoluciones con garantía el auto inadmisorio deberá dictarse dentro del mismo término para devolver.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Cuando la solicitud de devolución o compensación no cumpla con los requisitos, el auto inadmisorio deberá dictarse en un término máximo de quince (15) días.</p>\n<p>Cuando se trate de devoluciones con garantía el auto inadmisorio deberá dictarse dentro del mismo término para devolver.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 143.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "143"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1890 (2025-01-30): Procedimiento Tributario\noficio 11044 (2024-12-26): Procedimiento Tributario\noficio 902143 (2022-03-17): Devoluciones de saldos a favor - Declaraciones informativas de activos en el exterior",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1890-2025",
+      "tipo": "oficio",
+      "numero": "1890",
+      "fecha": "2025-01-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11044-2024",
+      "tipo": "oficio",
+      "numero": "11044",
+      "fecha": "2024-12-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902143-2022",
+      "tipo": "oficio",
+      "numero": "902143",
+      "fecha": "2022-03-17",
+      "tema": "Devoluciones de saldos a favor - Declaraciones informativas de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0330-2018",
+      "tipo": "oficio",
+      "numero": "0330",
+      "fecha": "2018-01-05",
+      "tema": "Procedimiento para solicitar en devoluci&oacute;n o compensaci&oacute;n los saldos a favor originados en las declaraciones de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25962-2013",
+      "tipo": "oficio",
+      "numero": "25962",
+      "fecha": "2013-04-30",
+      "tema": "&iquest;Sobre el auto inadmisorio proferido por la administraci&oacute;n tributaria con ocasi&oacute;n de una solicitud de devoluci&oacute;n o compensaci&oacute;n, procede proferir su revocatoria directa a solicitud del administrado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50263-2005",
+      "tipo": "oficio",
+      "numero": "50263",
+      "fecha": "2005-07-27",
+      "tema": "&iquest;Procede la devoluci&oacute;n del Impuesto sobre las ventas a los funcionarios Internacionales del Sistema de Naciones Unidas debidamente acreditados en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063454-2003",
+      "tipo": "concepto",
+      "numero": "0063454",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Puede la DIAN inadmitir en m&aacute;s de una oportunidad las solicitudes de devoluci&oacute;n y-o compensaci&oacute;n, aun cuando estas sean presentadas con garant&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073998-1995",
+      "tipo": "concepto",
+      "numero": "0073998",
+      "fecha": "1995-10-12",
+      "tema": "&iquest;Es procedente durante el tr&aacute;mite de las solicitudes de devoluci&oacute;n, proferir m&aacute;s de un auto inadmisorio, sin que por ello resulte afectado de nulidad el procedimiento adelantado?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ]
+}

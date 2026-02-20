@@ -1,1 +1,199 @@
-{"id_articulo": "Art. 141", "titulo": "Art. 141. Registro contable de la depreciación.", "titulo_corto": "Registro contable de la depreciación.", "slug": "141", "url_origen": "https://estatuto.co/141", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><strong><span class=\"verde\">*</span></strong><span class=\"tachado\">Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.", "full_length": 180}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 141",
+  "titulo": "Art. 141. Registro contable de la depreciación.",
+  "titulo_corto": "Registro contable de la depreciación.",
+  "slug": "141",
+  "url_origen": "https://estatuto.co/141",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><strong><span class=\"verde\">*</span></strong><span class=\"tachado\">Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Las cuotas anuales de depreciación de que tratan las normas tributarias, deberán registrarse en los libros de contabilidad del contribuyente en la forma que indique el reglamento.",
+      "full_length": 180
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 904241 (2021-06-12): Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-904241-2021",
+      "tipo": "oficio",
+      "numero": "904241",
+      "fecha": "2021-06-12",
+      "tema": "Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28241-2019",
+      "tipo": "oficio",
+      "numero": "28241",
+      "fecha": "2019-11-12",
+      "tema": "Impuesto sobre la renta y complementarios - Bienes depreciables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25415-2019",
+      "tipo": "oficio",
+      "numero": "25415",
+      "fecha": "2019-10-08",
+      "tema": "(Int 1101) Impuesto sobre la renta y complementarios - Bienes depreciables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902752-2018",
+      "tipo": "oficio",
+      "numero": "902752",
+      "fecha": "2018-12-05",
+      "tema": "&iquest;Es causal de inadmisi&oacute;n una solicitud de devoluci&oacute;n de saldo a favor con fundamento en no haberse liquidado correctamente la sanci&oacute;n por extemporaneidad en la declaraci&oacute;n de renta presentada inicialmente y corregida con posterioridad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23106-2017",
+      "tipo": "oficio",
+      "numero": "23106",
+      "fecha": "2017-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58201-2014",
+      "tipo": "oficio",
+      "numero": "58201",
+      "fecha": "2014-10-10",
+      "tema": "&iquest;Es v&aacute;lido que un funcionario de la DIAN rechace una solicitud de devoluci&oacute;n de saldo a favor en el impuesto sobre la renta,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47565-2014",
+      "tipo": "oficio",
+      "numero": "47565",
+      "fecha": "2014-07-28",
+      "tema": "&iquest;Las personas naturales no obligadas a llevar contabilidad, pueden solicitar como deducci&oacute;n en la declaraci&oacute;n de renta y complementarios la depreciaci&oacute;n de los activos fijos tangibles que posean?&iquest;Las primeras ocho mil (8000) UVT de la vivienda de habitaci&oacute;n del contribuyente, que se detraen del patrimonio l&iacute;quido del a&ntilde;o anterior para calcular la renta presuntiva de las personas naturales, se deben restar del patrimonio l&iacute;quido del a&ntilde;o anterior por su valor patrimonial neto o por el valor bruto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046688-1994",
+      "tipo": "concepto",
+      "numero": "0046688",
+      "fecha": "1994-07-29",
+      "tema": "&iquest;Es Posible aumentar la al&iacute;cuota de depreciaci&oacute;n por cada turno adicional que se demuestre, teniendo en cuenta que la depreciaci&oacute;n flexible fue eliminada a partir del a&ntilde;o gravable 1992? &iquest;Puede un contribuyente en su declaraci&oacute;n de renta y complementarios registrar tambi&eacute;n la deducci&oacute;n por depreciaci&oacute;n correspondiente al per&iacute;odo gravable anterior, cuando no lo hizo en la declaraci&oacute;n correspondiente a tal per&iacute;odo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004572-1994",
+      "tipo": "concepto",
+      "numero": "0004572",
+      "fecha": "1994-02-01",
+      "tema": "&iquest;El art&iacute;culo 794 puede interpretarse en el sentido de hacer responsable a los socios, en la prorrata all&iacute; indicada, por el pago de intereses y sanciones? &iquest;Si una compa&ntilde;&iacute;a aseguradora, a quien se le solicita el pago de una p&oacute;liza con ocasi&oacute;n de la declaratoria de improcedencia de una devoluci&oacute;n que con ella se garantizaba, est&aacute; obligada a cancelar o no los intereses moratorios a que alude el art&iacute;culo 670 del Estatuto Tributario, no obstante no haberse estipulado expresamente que ella garantiza el reintegro de la suma devuelta m&aacute;s sus intereses correspondientes, como lo indica el art&iacute;culo 6o literal c) del art&iacute;culo 6o del Decreto Reglamentario 2314 de 1989?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    }
+  ]
+}

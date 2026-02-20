@@ -1,1 +1,366 @@
-{"id_articulo": "Art. 378", "titulo": "Art. 378. Por concepto de salarios.", "titulo_corto": "Por concepto de salarios.", "slug": "378", "url_origen": "https://estatuto.co/378", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los agentes de retención en la fuente deberán expedir anualmente a los asalariados, un Certificado de Ingresos y Retenciones correspondiente al año gravable inmediatamente anterior, según el formato que prescriba la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales.)", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los agentes de retención en la fuente deberán expedir anualmente a los asalariados, un Certificado de Ingresos y Retenciones correspondiente al año gravable inmediatamente anterior, según el formato que prescriba la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales.)</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 378",
+  "titulo": "Art. 378. Por concepto de salarios.",
+  "titulo_corto": "Por concepto de salarios.",
+  "slug": "378",
+  "url_origen": "https://estatuto.co/378",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los agentes de retención en la fuente deberán expedir anualmente a los asalariados, un Certificado de Ingresos y Retenciones correspondiente al año gravable inmediatamente anterior, según el formato que prescriba la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales.)",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los agentes de retención en la fuente deberán expedir anualmente a los asalariados, un Certificado de Ingresos y Retenciones correspondiente al año gravable inmediatamente anterior, según el formato que prescriba la Dirección General de Impuestos Nacionales. (Hoy UAE Dirección de Impuestos y aduanas nacionales.)</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 9 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 16116 (2025-11-18): Procedimiento Tributario\noficio 14620 (2025-10-28): Impuesto de Timbre\noficio 13278 (2025-09-30): Impuesto de Timbre\noficio 6467 (2024-09-10): Procedimiento Tributario\noficio 906761 (2022-09-08): Retenci&oacute;n en la fuente - Certificado de ingresos y retenciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14620-2025",
+      "tipo": "oficio",
+      "numero": "14620",
+      "fecha": "2025-10-28",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13278-2025",
+      "tipo": "oficio",
+      "numero": "13278",
+      "fecha": "2025-09-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906761-2022",
+      "tipo": "oficio",
+      "numero": "906761",
+      "fecha": "2022-09-08",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903531-2022",
+      "tipo": "oficio",
+      "numero": "903531",
+      "fecha": "2022-05-06",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900977-2022",
+      "tipo": "oficio",
+      "numero": "900977",
+      "fecha": "2022-02-09",
+      "tema": "Impuesto sobre la renta - Pagos basados en acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910511-2021",
+      "tipo": "oficio",
+      "numero": "910511",
+      "fecha": "2021-09-23",
+      "tema": "&iquest;el comercializador de minerales es Agente de retenci&oacute;n de regal&iacute;as, a estas retenciones se les debe dar el mismo tratamiento tributario por parte del comercializador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906476-2021",
+      "tipo": "oficio",
+      "numero": "906476",
+      "fecha": "2021-07-01",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28961-2019",
+      "tipo": "oficio",
+      "numero": "28961",
+      "fecha": "2019-11-20",
+      "tema": "Certificado de ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10493-2019",
+      "tipo": "oficio",
+      "numero": "10493",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6398-2019",
+      "tipo": "oficio",
+      "numero": "6398",
+      "fecha": "2019-03-14",
+      "tema": "Impuesto Nacional al Consumo de Bienes Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0578-2018",
+      "tipo": "oficio",
+      "numero": "0578",
+      "fecha": "2018-04-27",
+      "tema": "Expedici&oacute;n del certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8055-2017",
+      "tipo": "oficio",
+      "numero": "8055",
+      "fecha": "2017-04-06",
+      "tema": "&iquest;Las normas reglamentarias relacionadas con la 'renta exenta' en servicios hoteleros prestados en hoteles nuevos, modificados y-o remodelados, as&iacute; como las condiciones de inversi&oacute;n compiladas en los art&iacute;culos 1,2.1.22.10 a 1.2.1.22.15 siguen siendo aplicables a los establecimientos hoteleros que se encuentran en el tratamiento preferencial de 'renta exenta' por haber cumplido con las condiciones de inversi&oacute;n enunciadas en el art&iacute;culo 207-2 y sus normas reglamentarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18965-2016",
+      "tipo": "oficio",
+      "numero": "18965",
+      "fecha": "2016-07-19",
+      "tema": "Expedici&oacute;n de los certificados para las declaraciones de renta sobre la totalidad de los pagos que hayan recibido por los diferentes conceptos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36954-2015",
+      "tipo": "oficio",
+      "numero": "36954",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;A qui&eacute;n le corresponde expedir el certificado de ingresos y retenciones, al fondo de bienestar social",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13031-2015",
+      "tipo": "oficio",
+      "numero": "13031",
+      "fecha": "2015-05-06",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58078-2014",
+      "tipo": "oficio",
+      "numero": "58078",
+      "fecha": "2014-10-09",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53354-2014",
+      "tipo": "oficio",
+      "numero": "53354",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir en el caso que una persona natural que transfiere un activo fijo a una entidad de derecho p&uacute;blico, solicita la devoluci&oacute;n de los dineros que cancel&oacute; fruto de la retenci&oacute;n practicada, pero que en el momento de la enajenaci&oacute;n no presenta el certificado que acredita la resoluci&oacute;n ejecutiva que incorpora el inmueble a la entidad y su actividad dentro de su declaratoria de utilidad p&uacute;blica e inter&eacute;s social para su protocolizaci&oacute;n, como fundamento para no practicar la retenci&oacute;n, en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68293-2013",
+      "tipo": "oficio",
+      "numero": "68293",
+      "fecha": "2013-10-25",
+      "tema": "Registro &Uacute;nico Tributario - Inscripci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15434-2013",
+      "tipo": "oficio",
+      "numero": "15434",
+      "fecha": "2013-03-14",
+      "tema": "Comprobantes de descuentos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59042-2012",
+      "tipo": "oficio",
+      "numero": "59042",
+      "fecha": "2012-09-18",
+      "tema": "&iquest;Qu&eacute; implicaciones legales y fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20950-2012",
+      "tipo": "oficio",
+      "numero": "20950",
+      "fecha": "2012-03-28",
+      "tema": "&iquest;Se da cumplimiento al art&iacute;culo 378 del Estatuto Tributario al generar los certificados de ingresos y retenciones originados en la relaci&oacute;n legal y reglamentaria y enviarlos a los destinatarios a trav&eacute;s de correo electr&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62496-2008",
+      "tipo": "oficio",
+      "numero": "62496",
+      "fecha": "2008-01-01",
+      "tema": "Solicita se examine la aplicaci&oacute;n de los art&iacute;culos 9 y 13 del decreto 2078 de 2004 con preferencia sobre la norma tributaria, pues seg&uacute;n tales normas no se puede modificar el r&eacute;gimen remuneratorio del cuerpo diplom&aacute;tico en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55805-2007",
+      "tipo": "oficio",
+      "numero": "55805",
+      "fecha": "2007-07-23",
+      "tema": "&iquest;Qu&eacute; interpretaci&oacute;n le da la DIAN al Inc. 3&ordm; del art&iacute;culo 23 del E.T., teniendo en consideraci&oacute;n el Decreto 841 de 1998?&iquest;C&oacute;mo se interpreta el numeral 7&ordm;. Del decreto 841 de 1998, &iquest;cu&aacute;l es su alcance?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99903-2006",
+      "tipo": "oficio",
+      "numero": "99903",
+      "fecha": "2006-11-27",
+      "tema": "&iquest;Los consorcios y las uniones temporales necesariamente tiene que solicitar la expedici&oacute;n del N&uacute;mero de Identificaci&oacute;n Tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29923-2006",
+      "tipo": "oficio",
+      "numero": "29923",
+      "fecha": "2006-04-11",
+      "tema": "&iquest;Es v&aacute;lido expedir un certificado de ingresos y retenciones a un sustituto pensional, cuando este es menor de edad o interdicto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19441-2006",
+      "tipo": "oficio",
+      "numero": "19441",
+      "fecha": "2006-03-06",
+      "tema": "&iquest;Los ingresos recibidos por un pensionado, por concepto de plan educacional, se consideran rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025651-2003",
+      "tipo": "concepto",
+      "numero": "0025651",
+      "fecha": "2003-01-01",
+      "tema": "Los agentes de retenci&oacute;n debar&aacute;n expedir anualmente a los asalariados un certificado de ingresos y retenciones efectuadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083628-2002",
+      "tipo": "concepto",
+      "numero": "0083628",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Es viable que de los pagos actuales se puedan descontar los valores no retenidos en per&iacute;odos anteriores?&iquest;Es procedente expedir un nuevo certificado de ingresos y retenciones incluyendo los descuentos de noviembre y diciembre de 2001, o puede expedirse solo para estos meses como complemento del entregado para esa vigencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042897-1996",
+      "tipo": "concepto",
+      "numero": "0042897",
+      "fecha": "1996-05-23",
+      "tema": "&iquest;La expedici&oacute;n de certificados de ingresos y retenciones comprende la obligaci&oacute;n de su env&iacute;o a los interesados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032343-1996",
+      "tipo": "concepto",
+      "numero": "0032343",
+      "fecha": "1996-04-18",
+      "tema": "&iquest;Como opera la retenci&oacute;n en la fuente en la prestaci&oacute;n de servicios profesionales hospitalarios cuando la entidad factura la totalidad de los servicios y le traslada al m&eacute;dico los ingresos y retenciones que le corresponde?&iquest;Debe la instituci&oacute;n expedir los certificados de ingresos y retenciones efectuadas al m&eacute;dico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003866-1993",
+      "tipo": "concepto",
+      "numero": "0003866",
+      "fecha": "1993-02-03",
+      "tema": "&iquest;Una oficina de representaci&oacute;n que carece de personer&iacute;a jur&iacute;dica y no tiene ingresos de Fuente Nacional en el Pa&iacute;s, se encuentra obligada a presentar declaraciones de retenci&oacute;n en la fuente del 10% sobre los pagos que efectu&eacute; en Colombia por concepto de honorarios, comisiones o servicios? Solicita igualmente, se le indique si existen conceptos emitidos por este Despacho, respecto a las obligaciones tributarias de las oficinas de representaci&oacute;n de un banco extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010209-1992",
+      "tipo": "concepto",
+      "numero": "0010209",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Los pagos efectivos de las cesant&iacute;as cuando el empleado se las solicite al Fondo de Cesant&iacute;as, se incluyen en el certificado de ingresos y retenciones que expide el empleador, o que compete al Fondo de Cesant&iacute;as informarlas como pagos a terceros, en los anexos que env&iacute;a a la Direcci&oacute;n de Impuestos Nacionales?&iquest;Para el anexo de pagos o abonos en cuenta que constituyan costo o deducci&oacute;n correspondientes al a&ntilde;o 1992 y siguientes, c&oacute;mo se deben informar los traslados de las cesant&iacute;as a los fondos, se debe informar el NIT del Fondo, o el de los empleados a quienes corresponden esas cesant&iacute;as?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

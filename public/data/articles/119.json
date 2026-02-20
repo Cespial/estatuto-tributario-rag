@@ -1,1 +1,615 @@
-{"id_articulo": "Art. 119", "titulo": "Art. 119. Deducción de intereses sobre préstamos educativos del ICETEX y para adquisición de vivienda.", "titulo_corto": "Deducción de intereses sobre préstamos educativos del ICETEX y para adquisición de vivienda.", "slug": "119", "url_origen": "https://estatuto.co/119", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo. Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante.*(Hoy 1.200 Uvt) También estarán sujetos a las deducciones de que trata este artículo los intereses que se paguen sobre préstamos educativos del Instituto Colombiano de Créditos Educativo y Estudios Técnicos en el Exterior ICETEX -dirigidos para la educación superior del contribuyente. Dicha deducción no podrá exceder anualmente del valor equivalente a 100 UVT.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo.</p>\n<p>Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante.*(Hoy 1.200 Uvt)</p>\n<p>También estarán sujetos a las deducciones de que trata este artículo los intereses que se paguen sobre préstamos educativos del Instituto Colombiano de Créditos Educativo y Estudios Técnicos en el Exterior ICETEX -dirigidos para la educación superior del contribuyente. Dicha deducción no podrá exceder anualmente del valor equivalente a 100 UVT.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Artículo Modificado Ley 2010 de 2019 Art. 89 * -Manejo en UVT dado por la Ley 1111 de 2006 Art 51.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "89"}], "total_modificaciones": 1, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo. Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante. * (Hoy 1.200 Uvt)"]}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 119",
+  "titulo": "Art. 119. Deducción de intereses sobre préstamos educativos del ICETEX y para adquisición de vivienda.",
+  "titulo_corto": "Deducción de intereses sobre préstamos educativos del ICETEX y para adquisición de vivienda.",
+  "slug": "119",
+  "url_origen": "https://estatuto.co/119",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo. Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante.*(Hoy 1.200 Uvt) También estarán sujetos a las deducciones de que trata este artículo los intereses que se paguen sobre préstamos educativos del Instituto Colombiano de Créditos Educativo y Estudios Técnicos en el Exterior ICETEX -dirigidos para la educación superior del contribuyente. Dicha deducción no podrá exceder anualmente del valor equivalente a 100 UVT.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo.</p>\n<p>Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante.*(Hoy 1.200 Uvt)</p>\n<p>También estarán sujetos a las deducciones de que trata este artículo los intereses que se paguen sobre préstamos educativos del Instituto Colombiano de Créditos Educativo y Estudios Técnicos en el Exterior ICETEX -dirigidos para la educación superior del contribuyente. Dicha deducción no podrá exceder anualmente del valor equivalente a 100 UVT.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Artículo Modificado Ley 2010 de 2019 Art. 89 * -Manejo en UVT dado por la Ley 1111 de 2006 Art 51.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "89"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. Aunque no guarden relación de causalidad con la producción de la renta, también son deducibles los intereses que se paguen sobre préstamos para adquisición de vivienda del contribuyente, siempre que el préstamo esté garantizado con hipoteca si el acreedor no está sometido a la vigilancia del Estado, y se cumplen las demás condiciones señaladas en este artículo. Cuando el préstamo de vivienda se haya adquirido en unidades de poder adquisitivo constante, la deducción por intereses y corrección monetaria estará limitada para cada contribuyente al valor equivalente a las primeras cuatro mil quinientos cincuenta y tres (4.553) unidades de poder adquisitivo constante UPAC, del respectivo préstamo. Dicha deducción no podrá exceder anualmente del valor equivalente de mil (1.000) unidades de poder adquisitivo constante. * (Hoy 1.200 Uvt)"
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 14 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 15965 (2025-11-12): Impuesto sobre la Renta y Complementarios\noficio 3591 (2025-03-27): Impuesto sobre la Renta y Complementarios\noficio 905564 (2022-07-25): Impuesto sobre la renta - Deducciones\noficio 907102 (2021-07-19): Determinaci&oacute;n del impuesto - Honorarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-15965-2025",
+      "tipo": "oficio",
+      "numero": "15965",
+      "fecha": "2025-11-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3591-2025",
+      "tipo": "oficio",
+      "numero": "3591",
+      "fecha": "2025-03-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905564-2022",
+      "tipo": "oficio",
+      "numero": "905564",
+      "fecha": "2022-07-25",
+      "tema": "Impuesto sobre la renta - Deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906856-2020",
+      "tipo": "oficio",
+      "numero": "906856",
+      "fecha": "2020-11-06",
+      "tema": "Impuesto sobre la renta. Contratos de arrendamiento. Leasing financiero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0351-2020",
+      "tipo": "oficio",
+      "numero": "0351",
+      "fecha": "2020-01-01",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28260-2019",
+      "tipo": "oficio",
+      "numero": "28260",
+      "fecha": "2019-11-14",
+      "tema": "Mecanismos para Efectuar la Devoluci&oacute;n de Saldos a Favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26734-2019",
+      "tipo": "oficio",
+      "numero": "26734",
+      "fecha": "2019-10-23",
+      "tema": "Aplicaci&oacute;n del art. 244 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17811-2019",
+      "tipo": "oficio",
+      "numero": "17811",
+      "fecha": "2019-07-09",
+      "tema": "&iquest;C&oacute;mo se determina el costo fiscal de un inmueble financiado mediante leasing habitacional a efectos de liquidar una eventual ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6309-2019",
+      "tipo": "oficio",
+      "numero": "6309",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n - Determinaci&oacute;n de la Retenci&oacute;n para Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35492-2018",
+      "tipo": "oficio",
+      "numero": "35492",
+      "fecha": "2018-12-26",
+      "tema": "Tratamiento que deben tener los intereses sobre pr&eacute;stamos para adquisici&oacute;n de vivienda que paga una persona natural",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6459-2018",
+      "tipo": "oficio",
+      "numero": "6459",
+      "fecha": "2018-03-15",
+      "tema": "Retenci&oacute;n en el Impuesto Sobre la Renta - Personas naturales - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0158-2018",
+      "tipo": "oficio",
+      "numero": "0158",
+      "fecha": "2018-02-12",
+      "tema": "&iquest;La totalidad de una cuota pagada mensualmente en un leasing habitacional es deducible fiscalmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1145-2016",
+      "tipo": "oficio",
+      "numero": "1145",
+      "fecha": "2016-02-02",
+      "tema": "&iquest;Si trabajador es nuevo o mejor es la primera vez que empieza a laboral y es empleado y se le debe practicar retenci&oacute;n en la fuente; para m&iacute; la norma es clara que si la persona es nueva no se le puede deducir la salud o los pr&eacute;stamos hipotecarios para vivienda porque son los del a&ntilde;o inmediatamente anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36306-2015",
+      "tipo": "oficio",
+      "numero": "36306",
+      "fecha": "2015-12-23",
+      "tema": "&iquest;Es viable jur&iacute;dicamente para un contratista, clasificado como empleado, disminuir de la base de retenci&oacute;n los pagos efectuados por concepto de dependientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34450-2015",
+      "tipo": "oficio",
+      "numero": "34450",
+      "fecha": "2015-12-01",
+      "tema": "Mediante el radicado de la referencia el peticionario manifiesta una serie de inquietudes respecto de la retenci&oacute;n en la fuente sobre ingresos laborales procedimientos 1 y 2, los art&iacute;culos 126-1, 126-4 y 387-1 del Estatuto Tributario y el oficio 038923 del 25 de junio de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28746-2015",
+      "tipo": "oficio",
+      "numero": "28746",
+      "fecha": "2015-09-29",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13542-2015",
+      "tipo": "oficio",
+      "numero": "13542",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Un empleado del Ministerio de Relaciones Exteriores que desarrolle las labores de su cargo en un pa&iacute;s con alto costo de vida, a la hora de declarar el impuesto sobre la renta en atenci&oacute;n a los ingresos que perciba por su cargo, deber&aacute; declararlo sobre el 100% de los ingresos percibidos por la labor desarrollada en embajadas o sedes consulares localizadas en el exterior? - &iquest;En caso de ser negativa la anterior pregunta, qu&eacute; tipo de exenciones tiene[n] los empleados del Ministerio de Relaciones Exteriores que laboren en embajadas o sedes consulares localizadas en pa&iacute;ses con alto costo de vida y sobre cu&aacute;l porcentaje debe declarar sus ingresos en relaci&oacute;n al impuesto sobre la renta? - &iquest;Cu&aacute;l es la ley, decreto o norma especial que establece la exenci&oacute;n antes citada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67190-2014",
+      "tipo": "oficio",
+      "numero": "67190",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Un asalariado que se clasifica como otros para la determinaci&oacute;n de la renta l&iacute;quida de este contribuyente por el sistema ordinario, son aceptables los costos y deducciones por los conceptos de: salud, prepagada, intereses de vivienda, dependientes y las rentas exentas derivadas de los ingresos laborales?&iquest;El contribuyente que pertenece a la categor&iacute;a de otros, presenta su declaraci&oacute;n en el formato 210?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58079-2014",
+      "tipo": "oficio",
+      "numero": "58079",
+      "fecha": "2014-10-09",
+      "tema": "Base de retenci&oacute;n - Determinaci&oacute;n de la retenci&oacute;n para ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54620-2014",
+      "tipo": "oficio",
+      "numero": "54620",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En virtud de lo expresado en el art&iacute;culo 329 del Estatuto Tributario y en el art&iacute;culo 2o de los Decretos 099 y 1070 de 2013, las personas vinculadas en virtud de un contrato de prestaci&oacute;n de servicios son beneficiarios de la deducci&oacute;n del 10% por concepto de dependientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52310-2014",
+      "tipo": "oficio",
+      "numero": "52310",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;Cu&aacute;l es la forma de calcular el ingreso mensual promedio, para efectos del procedimiento dos de retenci&oacute;n en la fuente sobre ingresos laborales en el mes de junio, advirtiendo una",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45542-2014",
+      "tipo": "oficio",
+      "numero": "45542",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Retenci&oacute;n en la fuente - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73233-2013",
+      "tipo": "oficio",
+      "numero": "73233",
+      "fecha": "2013-11-15",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente por un contrato de prestaci&oacute;n de servicios, cuyo valor mensual devengado es de Ps4.738.000 y sus descuentos corresponden a pagos por cr&eacute;dito hipotecario, por dependientes, ahorro en cuenta de ahorro especial con destino a la adquisici&oacute;n de vivienda abierta en el Fondo Nacional de Ahorro, sin indicar valor alguno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39876-2013",
+      "tipo": "oficio",
+      "numero": "39876",
+      "fecha": "2013-06-28",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta de los honorarios de los contratistas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38923-2013",
+      "tipo": "oficio",
+      "numero": "38923",
+      "fecha": "2013-06-25",
+      "tema": "&iquest;Para efectos del procedimiento No.- 2 de retenci&oacute;n en la fuente sobre ingresos laborales, en el mes de junio de 2013 c&oacute;mo se debe calcular el ingreso mensual promedio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66746-2012",
+      "tipo": "oficio",
+      "numero": "66746",
+      "fecha": "2012-10-24",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de los gastos en que incurre el locatario en la ejecuci&oacute;n de un contrato de leasing habitacional? &iquest;Cuando en un contrato de leasing habitacional se ejerce la opci&oacute;n de compra hay lugar a liquidar ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52811-2008",
+      "tipo": "oficio",
+      "numero": "52811",
+      "fecha": "2008-01-01",
+      "tema": "&iquest; Se puede aplicar el descuento para efectos de retenci&oacute;n en la fuente a que tienen derecho los asalariados con base en los certificados de salud, educaci&oacute;n e intereses o correcci&oacute;n monetaria que fueron allegados por funcionarios para disminuir la base de retenci&oacute;n de conformidad con lo establecido por la Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095254-2007",
+      "tipo": "concepto",
+      "numero": "0095254",
+      "fecha": "2007-11-20",
+      "tema": "&iquest;Es deducible de la base de retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta el 25% del GMF certificado por una entidad financiera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66529-2007",
+      "tipo": "oficio",
+      "numero": "66529",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los pagos por salud, educaci&oacute;n e intereses sobre pr&eacute;stamos para adquisici&oacute;n de vivienda que realiza un asalariado colombiano trasladado al exterior en periodos de 3,6,8 meses y hasta varios a&ntilde;os, cuyas necesidades deben ser suplidas en el pais donde se encuentra laborando, pueden recibir el mismo tratamiento que se da para los asalariados que ejerzan su labor en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64413-2007",
+      "tipo": "oficio",
+      "numero": "64413",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;A la luz del art&iacute;culo 115 del Estatuto Tributario, adicionado por el art&iacute;culo 4 de la Ley 1111 de 2006, es deducible de la base de retenci&oacute;n en la fuente el GNF certificado por una entidad financiera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73046-2006",
+      "tipo": "oficio",
+      "numero": "73046",
+      "fecha": "2006-08-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal de la casa de habitaci&oacute;n del asalariado obligado a declarar renta cuando dicho inmueble se disfruta por medio de un contrato de leasing habitacional con entidades bancarias autorizadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92806-2005",
+      "tipo": "oficio",
+      "numero": "92806",
+      "fecha": "2005-12-14",
+      "tema": "Solicita en su escrito pronunciamiento en relaci&oacute;n con la deducci&oacute;n de los aportes obligatorios a salud y el pago por concepto de intereses en la adquisici&oacute;n de vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91827-2005",
+      "tipo": "oficio",
+      "numero": "91827",
+      "fecha": "2005-12-13",
+      "tema": "&iquest;Cu&aacute;l es la interpretaci&oacute;n que debe d&aacute;rsele al art&iacute;culo 126-4 del Estatuto Tributario, cuando con el producto del ahorro realizado en cuentas AFC se cancela la totalidad de la vivienda adquirida, Se pierde el beneficio tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88872-2005",
+      "tipo": "oficio",
+      "numero": "88872",
+      "fecha": "2005-11-30",
+      "tema": "&iquest;El beneficio de auditoria consagrados en el art&iacute;culo 689-1 del E.T., es extensivo al IVA y retenci&oacute;n en la fuente de los respectivos a&ntilde;os gravables?&iquest;Un contribuyente persona natural perteneciente al r&eacute;gimen com&uacute;n, con actividad econ&oacute;mica comercial y obligado a llevar libros de contabilidad debe contabilizar la totalidad de los activos, pasivos, ingresos y gastos, as&iacute; no est&eacute;n relacionados con la actividad econ&oacute;mica productora de renta?&iquest; Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los desembolsos por el pago de cuotas hipotecarias de vivienda, tarjetas de cr&eacute;dito, compra de mercado, medicina, educaci&oacute;n, vestuario, y en general todos aquellos gastos necesarios para la manutenci&oacute;n del contribuyente y su familia?&iquest;Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los ingresos y gastos diferidos reexpresados como consecuencia de la inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64444-2005",
+      "tipo": "oficio",
+      "numero": "64444",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;La deducci&oacute;n de intereses sobre prestamos para adquisici&oacute;n de vivienda se encuentra condicionada a que el contribuyente habite el inmueble adquirido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47307-2005",
+      "tipo": "oficio",
+      "numero": "47307",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Existe alguna norma legal que determine que para la aceptaci&oacute;n del pago de intereses por compra de casa o apartamento de habitaci&oacute;n del contribuyente, conforme lo establece el Art. 119 del E.T., sea necesario que el contribuyente HABITE el predio adquirido con el pr&eacute;stamo, si el cr&eacute;dito llena todos los requisitos legales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79035-2004",
+      "tipo": "oficio",
+      "numero": "79035",
+      "fecha": "2004-11-18",
+      "tema": "&iquest;El beneficio tributario que cobija las cuentas AFC, incluye las entidades fiduciarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009121-2003",
+      "tipo": "concepto",
+      "numero": "0009121",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Se encuentra exceptuado de retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y complementarios un abono extraordinario para atender el pago de un cr&eacute;dito hipotecario, que realiza el trabajador con los ahorros que tiene como ahorrador en una Cuenta AFC?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083617-2002",
+      "tipo": "concepto",
+      "numero": "0083617",
+      "fecha": "2002-12-31",
+      "tema": "Disminuci&oacute;n de la base de retenci&oacute;n en la fuente - &iquest;El retiro de las cuentas de ahorro",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000004-2002",
+      "tipo": "concepto",
+      "numero": "0000004",
+      "fecha": "2002-01-01",
+      "tema": "Concepto especial sobre incentivo al ahorro a largo plazo para el fomento de la construcci&oacute;n, AFC",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077965-2001",
+      "tipo": "concepto",
+      "numero": "0077965",
+      "fecha": "2001-08-27",
+      "tema": "&iquest;La limitaci&oacute;n a 1000 UPAC de la deducci&oacute;n por intereses en pr&eacute;stamo de vivienda es aplicable a los pr&eacute;stamos adquiridos en pesos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008900-2001",
+      "tipo": "concepto",
+      "numero": "0008900",
+      "fecha": "2001-02-12",
+      "tema": "&iquest;Los descuentos que se le hacen a los empleados con destino al sistema general de seguridad social son deducibles para determinar la base de retenci&oacute;n en la fuente?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0096821-2000",
+      "tipo": "concepto",
+      "numero": "0096821",
+      "fecha": "2000-10-04",
+      "tema": "&iquest;La limitaci&oacute;n a 1000 UPAC de la deducci&oacute;n por intereses en pr&eacute;stamo de vivienda es aplicable a los pr&eacute;stamos adquiridos en pesos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071735-2000",
+      "tipo": "concepto",
+      "numero": "0071735",
+      "fecha": "2000-07-28",
+      "tema": "&iquest;Se debe incluir en la declaraci&oacute;n como ingreso laboral los vi&aacute; ticos recibidos del empleador y solicitarlos como deducci&oacute;n por concepto de gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044312-2000",
+      "tipo": "concepto",
+      "numero": "0044312",
+      "fecha": "2000-05-11",
+      "tema": "&iquest;Una persona natural no comerciante, cuyos ingresos provienen de rentas de capital, salarios y honorarios, qu&eacute; gastos puede deducir de su renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069053-1999",
+      "tipo": "concepto",
+      "numero": "0069053",
+      "fecha": "1999-07-29",
+      "tema": "&iquest;Opera la limitaci&oacute;n de la deducci&oacute;n de los intereses pagados sobre cr&eacute;ditos para adquisici&oacute;n de vivienda propia del trabajador a la que alude el inciso segundo del art&iacute;culo 119 del Estatuto Tributario, cuando el pr&eacute;stamo no se hayan contra&iacute;do en Unidades de Poder Adquisitivo Constante",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066551-1999",
+      "tipo": "concepto",
+      "numero": "0066551",
+      "fecha": "1999-07-22",
+      "tema": "&iquest;Son deducibles del Impuesto de Renta los pagos en que incurre un asalariado (Arrendamientos, transporte, vestuario, capacitaci&oacute;n, alimentaci&oacute;n, etc) en virtud de las condiciones econ&oacute;micas y sociales actuales del pais?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023496-1999",
+      "tipo": "concepto",
+      "numero": "0023496",
+      "fecha": "1999-10-07",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070322-1998",
+      "tipo": "concepto",
+      "numero": "0070322",
+      "fecha": "1998-09-08",
+      "tema": "&iquest;Son deducibles fiscalmente los intereses moratorios que se pagan a los proveedores como contraprestaci&oacute;n por la financiaci&oacute;n otorgada en el suministro de bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014758-1998",
+      "tipo": "concepto",
+      "numero": "0014758",
+      "fecha": "1998-03-09",
+      "tema": "&iquest;Hay lugar para el asalariado a disminuir su base de retenci&oacute;n en la fuente y a deducir en su impuesto de renta los pagos adicionales por el plan de atenci&oacute;n complementaria en salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008303-1991",
+      "tipo": "concepto",
+      "numero": "0008303",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Cu&aacute;l es la forma de determinar la base gravable y el porcentaje de retenci&oacute;n sobre un salario integral; y la deducci&oacute;n cuando el trabajador aporta certificado de pr&eacute;stamo para adquisici&oacute;n de vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020197-1989",
+      "tipo": "concepto",
+      "numero": "0020197",
+      "fecha": "1989-01-01",
+      "tema": "Base con intereses po varios pr&eacute;stamos para vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001038-1989",
+      "tipo": "concepto",
+      "numero": "0001038",
+      "fecha": "1989-01-17",
+      "tema": "&iquest;Es posible incrementar el costo de las acciones y aportes, que tienen el car&aacute;cter de activos fijos, en el incremento porcentual autorizado por el par&aacute;grafo 1o del art&iacute;culo 16 de la ley 75 de 1986?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-553-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "553",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1435-art-189",
+      "decretoNumero": "1435",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

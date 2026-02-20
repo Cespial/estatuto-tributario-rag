@@ -1,1 +1,349 @@
-{"id_articulo": "Art. 579", "titulo": "Art. 579. Lugares y plazos para la presentación de las declaraciones tributarias.", "titulo_corto": "Lugares y plazos para la presentación de las declaraciones tributarias.", "slug": "579", "url_origen": "https://estatuto.co/579", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "La presentación de las declaraciones tributarias deberá efectuarse en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional. Así mismo el gobierno podrá efectuar la recepción de las declaraciones tributarias a través de bancos y demás entidades financieras.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La presentación de las declaraciones tributarias deberá efectuarse en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional. Así mismo el gobierno podrá efectuar la recepción de las declaraciones tributarias a través de bancos y demás entidades financieras.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["579-2"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 579",
+  "titulo": "Art. 579. Lugares y plazos para la presentación de las declaraciones tributarias.",
+  "titulo_corto": "Lugares y plazos para la presentación de las declaraciones tributarias.",
+  "slug": "579",
+  "url_origen": "https://estatuto.co/579",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "La presentación de las declaraciones tributarias deberá efectuarse en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional. Así mismo el gobierno podrá efectuar la recepción de las declaraciones tributarias a través de bancos y demás entidades financieras.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La presentación de las declaraciones tributarias deberá efectuarse en los lugares y dentro de los plazos que para tal efecto señale el Gobierno Nacional. Así mismo el gobierno podrá efectuar la recepción de las declaraciones tributarias a través de bancos y demás entidades financieras.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "579-2"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6467 (2024-09-10): Procedimiento Tributario\noficio 906760 (2022-09-07): Procedimiento tributario. Sanci&oacute;n por extemporaneidad\noficio 915276 (2021-12-14): Declaraci&oacute;n tributaria - presentaci&oacute;n por medio diferente",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906760-2022",
+      "tipo": "oficio",
+      "numero": "906760",
+      "fecha": "2022-09-07",
+      "tema": "Procedimiento tributario. Sanci&oacute;n por extemporaneidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915276-2021",
+      "tipo": "oficio",
+      "numero": "915276",
+      "fecha": "2021-12-14",
+      "tema": "Declaraci&oacute;n tributaria - presentaci&oacute;n por medio diferente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902141-2020",
+      "tipo": "oficio",
+      "numero": "902141",
+      "fecha": "2020-06-08",
+      "tema": "Enajenaci&oacute;n de activos - Impuestos de competencia de la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901178-2020",
+      "tipo": "oficio",
+      "numero": "901178",
+      "fecha": "2020-04-20",
+      "tema": "Liquidaci&oacute;n de intereses de mora",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28625-2019",
+      "tipo": "oficio",
+      "numero": "28625",
+      "fecha": "2019-11-19",
+      "tema": "Presentaci&oacute;n de la Declaraci&oacute;n Mensual de Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17332-2019",
+      "tipo": "oficio",
+      "numero": "17332",
+      "fecha": "2019-07-03",
+      "tema": "&iquest;A partir de qu&eacute; momento despu&eacute;s de causado el impuesto sobre la renta y complementarios, estos se convierten en dineros p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12621-2018",
+      "tipo": "oficio",
+      "numero": "12621",
+      "fecha": "2018-05-15",
+      "tema": "Vigencia de la Circular 0066 del 24 de julio de 2008",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0419-2026",
+      "tipo": "oficio",
+      "numero": "0419",
+      "fecha": "",
+      "tema": "Cuando un contribuyente obligado a declarar virtualmente, lo hace por medio litogr&aacute;fico, y su declaraci&oacute;n no se ha dado por no presentada, &iquest;puede hacer uso de la correcci&oacute;n de que trata el par&aacute;grafo 2 del art&iacute;culo 588 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1101-2017",
+      "tipo": "oficio",
+      "numero": "1101",
+      "fecha": "2017-10-23",
+      "tema": "Derecho a la igualdad de las iglesias cat&oacute;licas y las no cat&oacute;licas, el deber formal de presentar declaraci&oacute;n de renta de dichas iglesias y el plazo para cumplir con tal obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32911-2016",
+      "tipo": "oficio",
+      "numero": "32911",
+      "fecha": "2016-12-01",
+      "tema": "- &iquest;C&oacute;mo deber&aacute;n presentar las declaraciones tributarias los representantes legales, respecto de los hijos menores y de los incapaces a quienes representan cuando estos no se encuentran obligados a presentarlas de manera virtual, pero sus representantes deben presentar sus propias declaraciones de manera virtual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4024-2016",
+      "tipo": "oficio",
+      "numero": "4024",
+      "fecha": "2016-03-10",
+      "tema": "Revisi&oacute;n de la consistencia y coherencia jur&iacute;dica del contenido de los Oficios 906 de 2013 y 30117 de 2014, en relaci&oacute;n con la aplicaci&oacute;n del numeral 2 de la Circular 66 de julio 24 de 2008, que se refiere a la forma de subsanar el error por haber presentado las declaraciones tributarias en un medio distinto al previsto legalmente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1088-2015",
+      "tipo": "oficio",
+      "numero": "1088",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Constituye establecimiento permanente conforme al art&iacute;culo 20-1 del Estatuto Tributario la persona natural que act&uacute;a como apoderado en el territorio nacional de una sociedad extranjera sin domicilio en Colombia, con facultades para celebrar contratos a su nombre y desarrollar, en todo o en parte, la actividad comercial de aquella?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0906-2013",
+      "tipo": "oficio",
+      "numero": "0906",
+      "fecha": "2013-01-01",
+      "tema": "Vigencia de los numerales 1o y 2o de la Circular 00066 de 24 de julio de 2008, emitida por la Unidad Administrativa Especial - Direcci&oacute;n de Impuestos y Aduanas Nacionales, relativa a la expedici&oacute;n del auto declarativo y el procedimiento para subsanar voluntariamente el error en el medio de presentaci&oacute;n de declaraciones tributarias previamente a la expedici&oacute;n del auto declarativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50591-2009",
+      "tipo": "oficio",
+      "numero": "50591",
+      "fecha": "2009-06-23",
+      "tema": "Aplicaci&oacute;n de la sanci&oacute;n por extemporaneidad en el caso de las declaraciones de retenci&oacute;n en la fuente debido a que hay diversidad de criterios respecto a la interpretaci&oacute;n del art&iacute;culo 641",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73014-2008",
+      "tipo": "oficio",
+      "numero": "73014",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el lugar de presentaci&oacute;n de las solicitudes de devoluci&oacute;n y-o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87275-2007",
+      "tipo": "oficio",
+      "numero": "87275",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Las declaraciones f&iacute;sicas tributarias de los impuestos sobre la renta, ventas y patrimonio, al igual que las declaraciones de retenci&oacute;n en la fuente y de ingresos y patrimonio, se pueden presentar en cualquier lugar del territorio nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-105179-2006",
+      "tipo": "oficio",
+      "numero": "105179",
+      "fecha": "2006-12-18",
+      "tema": "&iquest;La informaci&oacute;n ex&oacute;gena presentada por medio virtual se tiene por no presentada?&iquest;Si se tiene por no presentada c&oacute;mo debemos subsanar el error cometido dada la confusi&oacute;n de forma que no quede doble la informaci&oacute;n en la DIAN?&iquest;Las declaraciones se deben presentar en forma f&iacute;sica o por el hecho de haber presentado la informaci&oacute;n por medio virtual queda obligada a presentar las declaraciones a trav&eacute;s de los servicios inform&aacute;ticos electr&oacute;nicos de la DIAN?&iquest;Si se presentan las declaraciones a trav&eacute;s de los servicios inform&aacute;ticos electr&oacute;nicos de la DIAN sin estar obligados, se tiene por no presentada dicha declaraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104404-2006",
+      "tipo": "oficio",
+      "numero": "104404",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006, el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n? La posibilidad que tiene el agente retenedor de presentar la declaraci&oacute;n tributaria y posteriormente efectuar el pago, dentro de los plazos para declarar y pagar fijados por el Gobierno Nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-104402-2006",
+      "tipo": "oficio",
+      "numero": "104402",
+      "fecha": "2006-12-14",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 2006 el pago de la declaraci&oacute;n de retenci&oacute;n en la fuente se puede efectuar en una fecha diferente al de la presentaci&oacute;n de la correspondiente declaraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-94465-2006",
+      "tipo": "oficio",
+      "numero": "94465",
+      "fecha": "2006-11-07",
+      "tema": "&iquest;Las entidades de derecho p&uacute;blico, diferentes de las empresas industriales y comerciales del Estado y de las sociedades de econom&iacute;a mixta, que presentan las declaraciones de retenci&oacute;n en la fuente por cada oficina recaudadora, tambi&eacute;n deben presentar la informaci&oacute;n ex&oacute;gena por cada oficina recaudadora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80214-2006",
+      "tipo": "oficio",
+      "numero": "80214",
+      "fecha": "2006-09-19",
+      "tema": "&iquest;Se tiene por no presentada la declaraci&oacute;n de patrimonio en formato de papel, de un gran contribuyente cuya obligaci&oacute;n conforme la resoluci&oacute;n 02435 de 2006 a partir del 16 de abril de 2006, debe ser cumplida a trav&eacute;s de medio electr&oacute;nico, aunque un decreto precedente del mismo a&ntilde;o (D.4714\\05) hab&iacute;a determinado que deber&iacute;a hacerlo en el formulario que para tal efecto se&ntilde;ale la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071195-2005",
+      "tipo": "concepto",
+      "numero": "0071195",
+      "fecha": "2005-09-30",
+      "tema": "&iquest;Los contribuyentes personas jur&iacute;dicas domiciliados en los municipios de Cundinamarca que se encuentran dentro de la jurisdicci&oacute;n de la Administraci&oacute;n de Personas Naturales, pueden presentar sus declaraciones tributarias en la ciudad de Bogot&aacute;, sin que se les d&eacute; por no presentadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072152-2003",
+      "tipo": "concepto",
+      "numero": "0072152",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Desde qu&eacute; fecha se liquidan los intereses moratorios cuando el contribuyente corrige la declaraci&oacute;n aumentando el saldo a pagar, pero previamente hab&iacute;a efectuado un pago en exceso el cual fue devuelto por la Administraci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007132-2002",
+      "tipo": "concepto",
+      "numero": "0007132",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;l es el domicilio fiscal de un representante a la c&aacute; mara?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095356-2001",
+      "tipo": "concepto",
+      "numero": "0095356",
+      "fecha": "2001-10-29",
+      "tema": "Con el fin de no efectuarse retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta por concepto de ingresos en divisas provenientes del exterior, basta la manifestaci&oacute;n por parte del beneficiario de los ingresos en el sentido de que corresponden a ingresos exceptuados de la retenci&oacute;n, o debe probarse ante el intermediario del mercado cambiario la naturaleza del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075977-2001",
+      "tipo": "concepto",
+      "numero": "0075977",
+      "fecha": "2001-08-22",
+      "tema": "&iquest;Se deb&iacute;a marcar obligatoriamente la X para poder presentar la declaraci&oacute;n de renta por medio electr&oacute;nico?&iquest;Se tiene por no presentada la declaraci&oacute;n de renta y complementarios que se presenta en medios litogr&aacute;ficos cuando debi&oacute; ser presentada por electr&oacute;nicos?&iquest;Es v&aacute;lido el pago por medios litogr&aacute;ficos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096826-2000",
+      "tipo": "concepto",
+      "numero": "0096826",
+      "fecha": "2000-10-04",
+      "tema": "&iquest;Pueden presentarse ante bancos, las correcciones a las declaraciones tributarias para aumentar el saldo a favor cuando ha vencido el t&eacute;rmino para presentar el proyecto de correcci&oacute;n ante la Administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088900-2000",
+      "tipo": "concepto",
+      "numero": "0088900",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Puede en alg&uacute;n caso dejarse de aplicar a un contribuyente la sanci&oacute;n por extemporaneidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013706-1999",
+      "tipo": "concepto",
+      "numero": "0013706",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones de renta y complementarios de las entidades sin &aacute;nimo de lucro que estaban obligadas a solicitar la calificaci&oacute;n previa? &iquest;Pierden los beneficios a que tienen derecho, las entidades del r&eacute;gimen tributario especial que a la entrada en vigencia de la Ley 488 de 1998, no hab&iacute;an solicitado la calificaci&oacute;n por a&ntilde;os gravables anteriores a 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004324-1999",
+      "tipo": "concepto",
+      "numero": "0004324",
+      "fecha": "1999-01-25",
+      "tema": "Solicita el peticionario, el concepto de esta Oficina en relaci&oacute;n con la presentaci&oacute;n del evento de fuerza mayor y configuraci&oacute;n del mismo como eximente de la responsabilidad de la Universidad, en relaci&oacute;n con la presentaci&oacute;n extempor&aacute;nea de la declaraci&oacute;n de retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0098525-1998",
+      "tipo": "concepto",
+      "numero": "0098525",
+      "fecha": "1998-12-22",
+      "tema": "&iquest;Que administraci&oacute;n especial de impuestos tiene competencia para fiscalizar a los contribuyentes, que habiendo pertenecido a la administraci&oacute;n especial de personas jur&iacute;dicas de Bogot&aacute; pertenecen ahora a la administraci&oacute;n especial de grandes contribuyentes de Bogot&aacute; por calificaci&oacute;n que en tal sentido les hizo la direcci&oacute;n general de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037730-1997",
+      "tipo": "concepto",
+      "numero": "0037730",
+      "fecha": "1997-05-06",
+      "tema": "&iquest;A partir de qu&eacute; momento los contribuyentes que por mandato de las normas legales deben tener revisor fiscal, est&aacute;n en la obligaci&oacute;n de presentar sus declaraciones tributarias con la firma del respectivo revisor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013512-1995",
+      "tipo": "concepto",
+      "numero": "0013512",
+      "fecha": "1995-03-14",
+      "tema": "&iquest;Son v&aacute;lidas las declaraciones tributarias que una sociedad presente en una nueva Administraci&oacute;n, antes de emitirse la Resoluci&oacute;n que reubica su domicilio fiscal? &iquest;Se considera cambio de domicilio fiscal, la informaci&oacute;n que un contribuyente suministre indicando que se dejan de presentar las declaraciones tributarias en determinada Administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070091-1994",
+      "tipo": "concepto",
+      "numero": "0070091",
+      "fecha": "1994-12-07",
+      "tema": "&iquest;Debe liquidarse la sanci&oacute;n de extemporaneidad de que trata el art&iacute;culo 642 del Estatuto Tributario, cuando una vez reducida la sanci&oacute;n por no declarar impuesta al contribuyente, responsable, agente retenedor o declarante resulte inferior a &eacute;sta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036002-1993",
+      "tipo": "concepto",
+      "numero": "0036002",
+      "fecha": "1993-12-31",
+      "tema": "&iquest;Al presentarse una declaraci&oacute;n y entenderse como no presentada, puede la Administraci&oacute;n tomar bases distintas a las declaradas por el contribuyente para imponer la sanci&oacute;n por no declarar?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.4.2.82",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.4.2.82",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

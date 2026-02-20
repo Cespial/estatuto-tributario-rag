@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 424-6", "titulo": "Art. 424-6. Gas propano para uso domestico.", "titulo_corto": "Gas propano para uso domestico.", "slug": "424-6", "url_origen": "https://estatuto.co/424-6", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado verde\">El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}, {"tipo": "adicionado", "norma_tipo": "ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012", "ley 6 de 1992"], "texto_derogado": ["*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas."], "texto_derogado_parsed": [{"index": 0, "snippet": "*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.", "full_length": 81}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 424-6",
+  "titulo": "Art. 424-6. Gas propano para uso domestico.",
+  "titulo_corto": "Gas propano para uso domestico.",
+  "slug": "424-6",
+  "url_origen": "https://estatuto.co/424-6",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado verde\">El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "ley 6 de 1992"
+  ],
+  "texto_derogado": [
+    "*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*El gas propano para uso doméstico estará excluido del impuesto sobre las ventas.",
+      "full_length": 81
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

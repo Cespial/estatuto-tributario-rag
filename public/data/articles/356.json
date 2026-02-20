@@ -1,1 +1,634 @@
-{"id_articulo": "Art. 356", "titulo": "Art. 356. Tratamiento especial para algunos contribuyentes.", "titulo_corto": "Tratamiento especial para algunos contribuyentes.", "slug": "356", "url_origen": "https://estatuto.co/356", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los contribuyentes a que se refiere el artículo 19 que sean calificados en el Registro Único Tributario como pertenecientes a Régimen Tributario Especial, están sometidos al impuesto de renta y complementarios sobre el beneficio neto o excedente a la tarifa única del veinte por ciento (20%).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes a que se refiere el <a href=\"https://estatuto.co/19\" rel=\"noopener\" target=\"_blank\">artículo 19</a> que sean calificados en el Registro Único Tributario como pertenecientes a Régimen Tributario Especial, están sometidos al impuesto de renta y complementarios sobre el beneficio neto o excedente a la tarifa única del veinte por ciento (20%).</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 146.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "146"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["19"], "referenced_by": ["19-1"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 356",
+  "titulo": "Art. 356. Tratamiento especial para algunos contribuyentes.",
+  "titulo_corto": "Tratamiento especial para algunos contribuyentes.",
+  "slug": "356",
+  "url_origen": "https://estatuto.co/356",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los contribuyentes a que se refiere el artículo 19 que sean calificados en el Registro Único Tributario como pertenecientes a Régimen Tributario Especial, están sometidos al impuesto de renta y complementarios sobre el beneficio neto o excedente a la tarifa única del veinte por ciento (20%).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes a que se refiere el <a href=\"https://estatuto.co/19\" rel=\"noopener\" target=\"_blank\">artículo 19</a> que sean calificados en el Registro Único Tributario como pertenecientes a Régimen Tributario Especial, están sometidos al impuesto de renta y complementarios sobre el beneficio neto o excedente a la tarifa única del veinte por ciento (20%).</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 146.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "146"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "19"
+  ],
+  "referenced_by": [
+    "19-1"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s). Jurisprudencia: 6 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 18163 (2025-12-30): Impuesto sobre la Renta y Complementarios\noficio 15945 (2025-11-21): Procedimiento Tributario\noficio 7247 (2025-06-03): Impuesto sobre la Renta y Complementarios\noficio 4548 (2023-08-04): (Int 863) Impuesto sobre la renta y complementarios - R&eacute;gimen Tributario Especial\noficio 903190 (2022-04-25): Impuesto sobre la renta - Entidades sin &aacute;nimo de lucro",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-18163-2025",
+      "tipo": "oficio",
+      "numero": "18163",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15945-2025",
+      "tipo": "oficio",
+      "numero": "15945",
+      "fecha": "2025-11-21",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7247-2025",
+      "tipo": "oficio",
+      "numero": "7247",
+      "fecha": "2025-06-03",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4548-2023",
+      "tipo": "oficio",
+      "numero": "4548",
+      "fecha": "2023-08-04",
+      "tema": "(Int 863) Impuesto sobre la renta y complementarios - R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903190-2022",
+      "tipo": "oficio",
+      "numero": "903190",
+      "fecha": "2022-04-25",
+      "tema": "Impuesto sobre la renta - Entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909838-2021",
+      "tipo": "oficio",
+      "numero": "909838",
+      "fecha": "2021-09-15",
+      "tema": "Instituciones de utilidad com&uacute;n (religiosas)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906013-2021",
+      "tipo": "oficio",
+      "numero": "906013",
+      "fecha": "2021-06-24",
+      "tema": "Impuesto sobre la renta - Entidades extranjeras sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902436-2021",
+      "tipo": "oficio",
+      "numero": "902436",
+      "fecha": "2021-03-24",
+      "tema": "Deducci&oacute;n de las inversiones o donaciones que se hagan a proyectos de econom&iacute;a creativa",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900167-2021",
+      "tipo": "oficio",
+      "numero": "900167",
+      "fecha": "2021-01-14",
+      "tema": "Incentivo tributario para empresas de econom&iacute;a naranja",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902571-2020",
+      "tipo": "oficio",
+      "numero": "902571",
+      "fecha": "2020-06-23",
+      "tema": "Determinaci&oacute;n del beneficio neto o excedente, as&iacute; como la venta y adquisici&oacute;n de un inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901301-2020",
+      "tipo": "oficio",
+      "numero": "901301",
+      "fecha": "2020-04-29",
+      "tema": "Si una sociedad limitada o an&oacute;nima es deudora de una obligaci&oacute;n tributaria o fiscal, &iquest;De qu&eacute; manera responden los socios o accionistas como deudores solidarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4560-2019",
+      "tipo": "oficio",
+      "numero": "4560",
+      "fecha": "2019-02-22",
+      "tema": "Autoretenci&oacute;n practicada, declarada y pagada por parte de las uniones temporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3958-2019",
+      "tipo": "oficio",
+      "numero": "3958",
+      "fecha": "2019-02-15",
+      "tema": "Facturaci&oacute;n a turistas no residentes cuando la empresa operadora es nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1702-2019",
+      "tipo": "oficio",
+      "numero": "1702",
+      "fecha": "2019-01-23",
+      "tema": "&iquest;La venta de bonos de almacenes de cadena por parte de una ESAL tiene IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1756-2018",
+      "tipo": "oficio",
+      "numero": "1756",
+      "fecha": "2018-10-08",
+      "tema": "Entidades sin &Aacute;nimo de Lucro - Beneficio neto o excedente - destinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1686-2018",
+      "tipo": "oficio",
+      "numero": "1686",
+      "fecha": "2018-01-24",
+      "tema": "&iquest;Las Entidades Sin &Aacute;nimo de Lucro (ESAL) est&aacute;n obligadas a pagar impuestos por la ejecuci&oacute;n de un contrato o convenio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0260-2018",
+      "tipo": "oficio",
+      "numero": "0260",
+      "fecha": "2018-03-08",
+      "tema": "&iquest;Que figura administrativa o tributaria debe asumir la Asociaci&oacute;n al momento de convertirse en ESP, para no perder el trato como poblaci&oacute;n vulnerable y tampoco perder el r&eacute;gimen especial tributario? &iquest;El pl&aacute;stico y vidrio est&aacute;n gravados con el 19% de IVA, en nuestro caso aplica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0218-2018",
+      "tipo": "oficio",
+      "numero": "0218",
+      "fecha": "2018-02-27",
+      "tema": "&iquest;Cuales son las obligaciones tributarias de una persona jur&iacute;dica cuyo objeto social principal es la prestaci&oacute;n de servicios jur&iacute;dicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27795-2017",
+      "tipo": "oficio",
+      "numero": "27795",
+      "fecha": "2017-10-11",
+      "tema": "R&eacute;gimen tributario de las entidades de R&eacute;gimen Tributario Especial espec&iacute;ficamente lo referente a su responsabilidad del IVA, obligaci&oacute;n de facturar y deber de presentar declaraci&oacute;n de retenci&oacute;n, contemplado en el concepto 012393 de 2001",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9670-2017",
+      "tipo": "oficio",
+      "numero": "9670",
+      "fecha": "2017-04-25",
+      "tema": "Exenci&oacute;n en las Entidades sin &aacute;nimo de Lucro por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6259-2017",
+      "tipo": "oficio",
+      "numero": "6259",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - R&eacute;gimen Tributario Especial - Entidad sin &aacute;nimo de lucro, propiedad horizontal, de car&aacute;cter mixto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5843-2017",
+      "tipo": "oficio",
+      "numero": "5843",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la renta para la equidad - CREE - Exoneraci&oacute;n de aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0033-2017",
+      "tipo": "oficio",
+      "numero": "0033",
+      "fecha": "2017-02-27",
+      "tema": "Corporaciones, fundaciones y asociaciones sin &aacute;nimo lucro con r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26318-2016",
+      "tipo": "oficio",
+      "numero": "26318",
+      "fecha": "2016-09-21",
+      "tema": "Declaraci&oacute;n de renta de contratos de administraci&oacute;n y mantenimiento y aprovechamiento econ&oacute;mico del espacio p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13735-2016",
+      "tipo": "oficio",
+      "numero": "13735",
+      "fecha": "2016-06-02",
+      "tema": "Impuesto sobre la renta y complementario - R&eacute;gimen Tributario Especial - Entidades sin &aacute;nimo de lucro del exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4087-2016",
+      "tipo": "oficio",
+      "numero": "4087",
+      "fecha": "2016-03-01",
+      "tema": "Impuesto Sobre la Renta - Entidades no contribuyentes, entidades no declarantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28887-2015",
+      "tipo": "oficio",
+      "numero": "28887",
+      "fecha": "2015-10-20",
+      "tema": "R&eacute;gimen tributario aplicable en materia del impuesto sobre la renta, del impuesto a las ventas y retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y de impuesto a las ventas, a un contrato de servicios de consultor&iacute;a suscrito entre el Centro Interamericano de Administraciones Tributarias CLAT y la Unidad Administrativa Especial Direcci&oacute;n de Impuestos y Aduanas Nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28867-2015",
+      "tipo": "oficio",
+      "numero": "28867",
+      "fecha": "2015-10-21",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable en materia del impuesto sobre la renta, del impuesto a las ventas y retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y de impuesto a las ventas, a un contrato de servicios de consultor&iacute;a suscrito entre el Centro Interamericano de Administraciones Tributarias (CIAT) y la Unidad Administrativa Especial Direcci&oacute;n de Impuestos y Aduanas Nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27890-2015",
+      "tipo": "oficio",
+      "numero": "27890",
+      "fecha": "2015-09-24",
+      "tema": "Se solicita la revisi&oacute;n de los pronunciamientos emitidos en relaci&oacute;n con la forma de determinar la base gravable del impuesto a la riqueza para las cooperativas, y la tarifa de retenci&oacute;n en la fuente en t&iacute;tulos de renta fija",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25583-2015",
+      "tipo": "oficio",
+      "numero": "25583",
+      "fecha": "2015-09-12",
+      "tema": "&iquest;Cu&aacute;l es el enfoque diferencial que la DIAN, como entidad p&uacute;blica del estado colombiano, le brinda al pueblo Rrom o Gitano. Es decir, a trav&eacute;s de qu&eacute; beneficios o de qu&eacute; acciones afirmativas favorecen al pueblo Rrom o Gitano, claro &eacute;sta, en lo que tiene que ver con asuntos de su competencia (temas tributarios)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24258-2015",
+      "tipo": "oficio",
+      "numero": "24258",
+      "fecha": "2015-08-20",
+      "tema": "Solicita dejar sin efectos el Concepto 016648 de 2014 seg&uacute;n el cual las Cooperativas deben determinar el beneficio neto de conformidad con lo dispuesto en los art&iacute;culos 4&deg; y 5&deg; del Decreto 4400 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6356-2015",
+      "tipo": "oficio",
+      "numero": "6356",
+      "fecha": "2015-02-27",
+      "tema": "&iquest;La Universidad est&aacute; obligada a practicar retenci&oacute;n en la fuente sobre los pagos efectuados a la entidad sin &aacute;nimo de lucro extranjera y sin domicilio en Colombia?&iquest;Se debe exigir a la entidad extranjera documentaci&oacute;n alguna para efectos de no practicar retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2192-2015",
+      "tipo": "oficio",
+      "numero": "2192",
+      "fecha": "2015-01-28",
+      "tema": "Procedencia de la aplicaci&oacute;n de la exenci&oacute;n sobre el beneficio neto o excedente regulado en los art&iacute;culos 356 y siguientes del Estatuto Tributario, a una junta de copropietarios administradora de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001799-2015",
+      "tipo": "concepto",
+      "numero": "0001799",
+      "fecha": "2015-01-26",
+      "tema": "&iquest;Pertenece al r&eacute;gimen tributario especial o al ordinario del impuesto sobre la renta y complementarios la fundaci&oacute;n que tiene por objeto social la ense&ntilde;anza en la modalidad de educaci&oacute;n no formal tambi&eacute;n llamada educaci&oacute;n para el trabajo y el desarrollo humano?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1787-2015",
+      "tipo": "oficio",
+      "numero": "1787",
+      "fecha": "2015-01-01",
+      "tema": "Solicita reconsiderar la tesis expuesta en el punto 13.4 del oficio 052431 del 28 de agosto de 2014, sobre la posibilidad de deducir, en los t&eacute;rminos del inciso segundo del art&iacute;culo 115 del Estatuto Tributario, el 50% del Gravamen a los Movimientos Financieros pagado, para aquellas personas jur&iacute;dicas originadas en la constituci&oacute;n de la propiedad horizontal que por destinar alg&uacute;n o algunos de sus bienes, o &aacute;reas comunes para la explotaci&oacute;n comercial o industrial pierden la calidad de no contribuyentes de los impuestos nacionales y en consecuencia est&aacute;n sujetas al r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1408-2015",
+      "tipo": "oficio",
+      "numero": "1408",
+      "fecha": "2015-01-21",
+      "tema": "Asociaciones sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57095-2014",
+      "tipo": "oficio",
+      "numero": "57095",
+      "fecha": "2014-10-03",
+      "tema": "&iquest;Los servicios prestados por profesionales independientes vinculados a la Junta Regional de Calificaci&oacute;n de Invalidez, se entienden como servicios vinculados a la seguridad social y, por tanto, excluidos de IVA en los t&eacute;rminos previstos en el art&iacute;culo 476 numeral 3o del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54040-2014",
+      "tipo": "oficio",
+      "numero": "54040",
+      "fecha": "2014-09-09",
+      "tema": "Solicita revocatoria del Oficio n&uacute;mero 13769 de febrero 24 de 2013 e igualmente se precise qu&eacute; debe entenderse por personal directivo o de gerencia de las entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39503-2014",
+      "tipo": "oficio",
+      "numero": "39503",
+      "fecha": "2014-07-04",
+      "tema": "Incentivos fiscales que existen para el sector salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32161-2014",
+      "tipo": "oficio",
+      "numero": "32161",
+      "fecha": "2014-05-28",
+      "tema": "Se pregunta por las obligaciones tributarias a cargo de las oficinas de representaci&oacute;n de los organismos internacionales sin &aacute;nimo de lucro, teniendo en cuenta que la Ley 1607 de 2012 introdujo la figura del Establecimiento Permanente al Estatuto Tributario, igualmente consulta si est&aacute; vigente el Oficio n&uacute;mero 38958 del 18 de abril de 2008",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16648-2014",
+      "tipo": "oficio",
+      "numero": "16648",
+      "fecha": "2014-12-18",
+      "tema": "&iquest;Es v&aacute;lido fiscalmente que las cooperativas le den el tratamiento de egreso procedente al pago por remuneraci&oacute;n de qui&eacute;nes ejercer cargos directivos y gerenciales, cuando estos pagos exceden el 30% del gasto total anual de las cooperativas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-13769-2014",
+      "tipo": "oficio",
+      "numero": "13769",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Existe alguna sanci&oacute;n o consecuencia tributaria cuando una Asociaci&oacute;n sin &Aacute;nimo de Lucro para el a&ntilde;o fiscal 2013 gast&oacute; en las remuneraciones de sus gerentes o directivos, m&aacute;s del 30% de su gasto total anual de qu&eacute; trata el art&iacute;culo 356-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12201-2012",
+      "tipo": "oficio",
+      "numero": "12201",
+      "fecha": "2012-02-23",
+      "tema": "&iquest;Cu&aacute;l es el &aacute;mbito de aplicaci&oacute;n del art&iacute;culo 4 de la Ley 1429 de 2010 respecto de una entidad sin animo de lucro organizada como confederaci&oacute;n ambiental dedicada al reciclaje?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72479-2011",
+      "tipo": "oficio",
+      "numero": "72479",
+      "fecha": "2011-09-20",
+      "tema": "&iquest;Para efectos de la deducci&oacute;n por donaciones, las entidades extranjeras sin &aacute;nimo de lucro deben cumplir con los mismos requisitos que el Estatuto Tributario dispone para las entidades nacionales sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034897-2010",
+      "tipo": "concepto",
+      "numero": "0034897",
+      "fecha": "2010-05-18",
+      "tema": "&iquest;De acuerdo con lo establecido en el art&iacute;culo 18 del Decreto 4400 de 2004, cu&aacute;l es el a&ntilde;o gravable en el que debe adicionarse como ingreso gravable el excedente o beneficio neto obtenido por un contribuyente del r&eacute;gimen tributario especial, que no cumple con los requisitos establecidos para su exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86477-2008",
+      "tipo": "oficio",
+      "numero": "86477",
+      "fecha": "2008-09-05",
+      "tema": "Solicita aclaraci&oacute;n del Concepto n&uacute;mero 075009 del 9 de agosto de 2000, transcrito en el 058379 del 13 de julio de 2006, porque considera que al afirmarse que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106689-2007",
+      "tipo": "oficio",
+      "numero": "106689",
+      "fecha": "2007-12-28",
+      "tema": "Reconsiderar el Concepto n&uacute;mero 078709 del 2 de octubre de 2007 relacionado con la aplicaci&oacute;n del r&eacute;gimen de precios de transferencia en el caso excepcional de entidades sin fines de lucro, que en el &aacute;nimo de obtener fondos para cumplir su objeto social, venden bienes o prestan servicios a instituciones del exterior, quienes en la pr&aacute;ctica cumplen el papel de benefactoras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91922-2007",
+      "tipo": "oficio",
+      "numero": "91922",
+      "fecha": "2007-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103452-2006",
+      "tipo": "oficio",
+      "numero": "103452",
+      "fecha": "2006-12-12",
+      "tema": "L a diferencia resultante de la conciliaci&oacute;n entre la renta l&iacute;quida fiscal y la utilidad contable de una pre-cooperativa, se encuentra gravada con el impuesto sobre la renta y complementarios? A las precooperativas les es aplicable, en lo pertinente, las disposiciones propias del tipo de cooperativas en las que posteriormente se organicen.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66294-2006",
+      "tipo": "oficio",
+      "numero": "66294",
+      "fecha": "2006-08-10",
+      "tema": "&iquest;Una asociaci&oacute;n a la cual no se le ha otorgado personer&iacute;a jur&iacute;dica, es responsable del cumplimiento de obligaciones tributarias, y cu&aacute;l es el tratamiento fiscal en caso de variar su objeto social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069922-2005",
+      "tipo": "concepto",
+      "numero": "0069922",
+      "fecha": "2005-09-28",
+      "tema": "&iquest;La enajenaci&oacute;n de un activo fijo por parte de un contribuyente perteneciente al r&eacute;gimen tributario especial est&aacute; gravada con el impuesto de ganancias ocasionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069866-2004",
+      "tipo": "concepto",
+      "numero": "0069866",
+      "fecha": "2004-01-01",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039739-2004",
+      "tipo": "concepto",
+      "numero": "0039739",
+      "fecha": "2004-06-30",
+      "tema": "&iquest;Pueden las entidades del r&eacute;gimen tributario especial, al determinar el beneficio neto o excedente, excluir de los ingresos que se toman como base para calcular dicho beneficio los ingresos que conforme al r&eacute;gimen ordinario tienen el car&aacute;cter de no constitutivos de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0041755-2001",
+      "tipo": "concepto",
+      "numero": "0041755",
+      "fecha": "2001-05-22",
+      "tema": "&iquest;Est&aacute;n sometidos a la tarifa del 20% los excedentes, antes de ajustes por inflaci&oacute;n de una entidad de econom&iacute;a solidaria como lo es EL Fondo de Educaci&oacute;n Superior, FODESEP, sino son reinvertidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012407-2001",
+      "tipo": "concepto",
+      "numero": "0012407",
+      "fecha": "2001-02-20",
+      "tema": "&iquest;Las Asociaciones de Cabildos y-o Autoridades Tradicionales Ind&iacute;genas constituidas seg&uacute;n los lineamientos del Decreto 1088 de 1993 y la Ley 89 de 1890 son contribuyentes del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55886-2000",
+      "tipo": "oficio",
+      "numero": "55886",
+      "fecha": "2000-06-13",
+      "tema": "&iquest;Cu&aacute;l es la forma de determinar el beneficio neto excedente por parte de los contribuyentes del r&eacute;gimen tributario especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053873-2000",
+      "tipo": "concepto",
+      "numero": "0053873",
+      "fecha": "2000-06-07",
+      "tema": "&iquest;Las entidades sin &aacute;nimo de lucro contribuyentes del impuesto sobre la renta con r&eacute;gimen tributario especial, son sujetos pasivos del impuesto complementario de remesas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013706-1999",
+      "tipo": "concepto",
+      "numero": "0013706",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones de renta y complementarios de las entidades sin &aacute;nimo de lucro que estaban obligadas a solicitar la calificaci&oacute;n previa? &iquest;Pierden los beneficios a que tienen derecho, las entidades del r&eacute;gimen tributario especial que a la entrada en vigencia de la Ley 488 de 1998, no hab&iacute;an solicitado la calificaci&oacute;n por a&ntilde;os gravables anteriores a 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004478-1999",
+      "tipo": "concepto",
+      "numero": "0004478",
+      "fecha": "1999-08-18",
+      "tema": "&iquest;Para la determinaci&oacute;n del beneficio neto o excedente una cooperativa de ahorro y cr&eacute;dito, que destina sus excedentes conforme a la ley 79, puede descontar todos los egresos para efectos tributarios? o por el contrario algunos de ellos, como son las provisiones, no son deducibles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087080-1998",
+      "tipo": "concepto",
+      "numero": "0087080",
+      "fecha": "1998-11-11",
+      "tema": "&iquest;Qu&eacute; clase de contribuyente es y qu&eacute; obligaciones tributaras le corresponden al Fondo Mixto de Promoci&oacute;n Cinematogr&aacute;fica IMAGENES EN MOVIMIENTO, creada como una corporaci&oacute;n Civil de participaci&oacute;n mixta si &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055781-1998",
+      "tipo": "concepto",
+      "numero": "0055781",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Una asociaci&oacute;n multiactiva y econ&oacute;mica, civil y de utilidad comunitaria, constituida como entidad sin &aacute;nimo de lucro, es contribuyente del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010329-1998",
+      "tipo": "concepto",
+      "numero": "0010329",
+      "fecha": "1998-02-19",
+      "tema": "&iquest;Es aplicable el art&iacute;culo 14-1 del Estatuto Tributario en los casos de fusi&oacute;n de corporaciones sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008696-1998",
+      "tipo": "concepto",
+      "numero": "0008696",
+      "fecha": "1998-02-13",
+      "tema": "&iquest;Una corporaci&oacute;n sin &aacute;nimo de lucro que presta de manera exclusiva para sus afiliados planes recreativos, pr&eacute;stamos para m&uacute;ltiples prop&oacute;sitos, puede considerarse su objeto social como programa de desarrollo social e inter&eacute;s general? &iquest;Cu&aacute;les son las obligaciones contables y tributarias a las cuales est&aacute; sometida la entidad de la anterior preguntas, y cu&aacute;l es el fundamento legal de las mismas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0041789-1997",
+      "tipo": "concepto",
+      "numero": "0041789",
+      "fecha": "1997-05-20",
+      "tema": "&iquest;Debe aplicarse el Decreto 124 de 1997 que reglamenta las entidades sin &aacute;nimo de lucro con r&eacute;gimen especial para la declaraci&oacute;n de renta de 1996? &iquest;Son diferentes los excedentes contables y los fiscales, as&iacute; como el patrimonio contable y el patrimonio fiscal en las entidades de r&eacute;gimen tributario especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001521-1992",
+      "tipo": "concepto",
+      "numero": "0001521",
+      "fecha": "1992-01-01",
+      "tema": "Solicita conceptuar acerca de las obligaciones tributarias que debe cumplir la corporaci&oacute;n cristiana",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

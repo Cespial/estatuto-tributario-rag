@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 622", "titulo": "Art. 622. Obligación de las entidades financieras de informar la parte no gravada de los rendimientos.", "titulo_corto": "Obligación de las entidades financieras de informar la parte no gravada de los rendimientos.", "slug": "622", "url_origen": "https://estatuto.co/622", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Las entidades que paguen o abonen los rendimientos financieros informarán a sus ahorradores personas naturales o sucesiones ilíquidas, el valor no gravado. Esta información se podrá dar en el mismo certificado de retención en la fuente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las entidades que paguen o abonen los rendimientos financieros informarán a sus ahorradores personas naturales o sucesiones ilíquidas, el valor no gravado. Esta información se podrá dar en el mismo certificado de retención en la fuente.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 622",
+  "titulo": "Art. 622. Obligación de las entidades financieras de informar la parte no gravada de los rendimientos.",
+  "titulo_corto": "Obligación de las entidades financieras de informar la parte no gravada de los rendimientos.",
+  "slug": "622",
+  "url_origen": "https://estatuto.co/622",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Las entidades que paguen o abonen los rendimientos financieros informarán a sus ahorradores personas naturales o sucesiones ilíquidas, el valor no gravado. Esta información se podrá dar en el mismo certificado de retención en la fuente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las entidades que paguen o abonen los rendimientos financieros informarán a sus ahorradores personas naturales o sucesiones ilíquidas, el valor no gravado. Esta información se podrá dar en el mismo certificado de retención en la fuente.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 906586 (2020-10-29): Retenci&oacute;n en la fuente Costos y Deducciones - Procedencia Bienes Gravados Documento equivalente a la factura Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura Responsables del impuesto a las ventas Deberes y obligaciones de informaci&oacute;n\noficio 0656 (2019-03-27): (Int 656) Certificados de Retenci&oacute;n en la Fuente\noficio 18965 (2016-07-19): Expedici&oacute;n de los certificados para las declaraciones de renta sobre la totalidad de los pagos que hayan recibido por los diferentes conceptos",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-906586-2020",
+      "tipo": "oficio",
+      "numero": "906586",
+      "fecha": "2020-10-29",
+      "tema": "Retenci&oacute;n en la fuente Costos y Deducciones - Procedencia Bienes Gravados Documento equivalente a la factura Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura Responsables del impuesto a las ventas Deberes y obligaciones de informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0656-2019",
+      "tipo": "oficio",
+      "numero": "0656",
+      "fecha": "2019-03-27",
+      "tema": "(Int 656) Certificados de Retenci&oacute;n en la Fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18965-2016",
+      "tipo": "oficio",
+      "numero": "18965",
+      "fecha": "2016-07-19",
+      "tema": "Expedici&oacute;n de los certificados para las declaraciones de renta sobre la totalidad de los pagos que hayan recibido por los diferentes conceptos",
+      "vigente": true
+    }
+  ]
+}

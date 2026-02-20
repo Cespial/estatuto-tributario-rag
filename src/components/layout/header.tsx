@@ -57,7 +57,7 @@ export function Header({ variant = "default" }: HeaderProps) {
 
   return (
     <header className={clsx(
-      "sticky top-0 z-50 will-change-transform transition-all duration-300",
+      "sticky top-0 z-50 will-change-transform transition-all duration-300 print:hidden",
       showTransparent
         ? "border-b border-transparent bg-transparent"
         : "border-b border-border/40 bg-background/80 backdrop-blur-md"

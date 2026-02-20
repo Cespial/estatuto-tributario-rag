@@ -1,1 +1,276 @@
-{"id_articulo": "Art. 772", "titulo": "Art. 772. La contabilidad como medio de prueba.", "titulo_corto": "La contabilidad como medio de prueba.", "slug": "772", "url_origen": "https://estatuto.co/772", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los libros de contabilidad del contribuyente constituyen prueba a su favor, siempre que se lleven en debida forma.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los libros de contabilidad del contribuyente constituyen prueba a su favor, siempre que se lleven en debida forma.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 772",
+  "titulo": "Art. 772. La contabilidad como medio de prueba.",
+  "titulo_corto": "La contabilidad como medio de prueba.",
+  "slug": "772",
+  "url_origen": "https://estatuto.co/772",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los libros de contabilidad del contribuyente constituyen prueba a su favor, siempre que se lleven en debida forma.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los libros de contabilidad del contribuyente constituyen prueba a su favor, siempre que se lleven en debida forma.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 11802 (2025-08-27): Impuesto sobre la Renta y Complementarios\noficio 0196 (2025-01-13): Otras Disposiciones\noficio 4716 (2023-08-14): (Int 881) Sistema de facturaci&oacute;n electr&oacute;nica - Requisitos de la factura de venta como t&iacute;tulo valor\noficio 900613 (2022-01-28): Retenci&oacute;n en la fuente, causaci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11802-2025",
+      "tipo": "oficio",
+      "numero": "11802",
+      "fecha": "2025-08-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0196-2025",
+      "tipo": "oficio",
+      "numero": "0196",
+      "fecha": "2025-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4716-2023",
+      "tipo": "oficio",
+      "numero": "4716",
+      "fecha": "2023-08-14",
+      "tema": "(Int 881) Sistema de facturaci&oacute;n electr&oacute;nica - Requisitos de la factura de venta como t&iacute;tulo valor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900613-2022",
+      "tipo": "oficio",
+      "numero": "900613",
+      "fecha": "2022-01-28",
+      "tema": "Retenci&oacute;n en la fuente, causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22613-2019",
+      "tipo": "oficio",
+      "numero": "22613",
+      "fecha": "2019-09-09",
+      "tema": "Prueba supletoria de los pasivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19362-2019",
+      "tipo": "oficio",
+      "numero": "19362",
+      "fecha": "2019-08-02",
+      "tema": "Procedimiento Tributario. Factura en Contratos de Mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12738-2019",
+      "tipo": "oficio",
+      "numero": "12738",
+      "fecha": "2019-05-23",
+      "tema": "Procedimiento Tributario. Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1188-2019",
+      "tipo": "oficio",
+      "numero": "1188",
+      "fecha": "2019-01-16",
+      "tema": "Revisor Fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902565-2018",
+      "tipo": "oficio",
+      "numero": "902565",
+      "fecha": "2018-12-05",
+      "tema": "&iquest;Cu&aacute;les son las causas justificativas para la demostraci&oacute;n del aumento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0618-2018",
+      "tipo": "oficio",
+      "numero": "0618",
+      "fecha": "2018-04-25",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23106-2017",
+      "tipo": "oficio",
+      "numero": "23106",
+      "fecha": "2017-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9110-2017",
+      "tipo": "oficio",
+      "numero": "9110",
+      "fecha": "2017-04-10",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6090-2016",
+      "tipo": "oficio",
+      "numero": "6090",
+      "fecha": "2016-03-17",
+      "tema": "Factura t&iacute;tulo valor - Soporte de costos y gastos - Procedimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64185-2014",
+      "tipo": "oficio",
+      "numero": "64185",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto a las ventas - Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14320-2014",
+      "tipo": "oficio",
+      "numero": "14320",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Bienes Exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54118-2013",
+      "tipo": "oficio",
+      "numero": "54118",
+      "fecha": "2013-08-29",
+      "tema": "&iquest;Dado que la contabilidad que se efect&uacute;e en aplicaci&oacute;n de las Normas Internacionales de Informaci&oacute;n Financiera - NIIF - no tendr&aacute; trascendencia fiscal durante los cuatro (4) a&ntilde;os siguientes a su entrada en vigencia, los contribuyentes deber&aacute;n implementar una contabilidad simult&aacute;nea bajo los principios contables del Decreto 2649 de 1993 o r&eacute;gimen de contabilidad p&uacute;blica y los principios de las normas tributarias, con el prop&oacute;sito exclusivo de soportar las declaraciones tributarias?&iquest;Los estados financieros preparados en aplicaci&oacute;n de las NIIF, auditados y certificados por el revisor fiscal, deber&aacute;n soportar las declaraciones tributarias que se presenten a la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69136-2010",
+      "tipo": "oficio",
+      "numero": "69136",
+      "fecha": "2010-09-20",
+      "tema": "Solicita en su escrito la reconsideraci&oacute;n de la doctrina contenida en el Oficio n&uacute;mero 34898 del 18 de mayo de 2010 en el que se se&ntilde;al&oacute;, que la retenci&oacute;n en la fuente en las Carteras Colectivas debe hacerse en el momento en que se realiza el registro contable de la valoraci&oacute;n de la inversi&oacute;n, toda vez que el mismo constituye un abono en cuenta en favor del beneficiario de la inversi&oacute;n, evento en el cual procede la pr&aacute;ctica de la retenci&oacute;n en la fuente en los t&eacute;rminos del art&iacute;culo 395 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96838-2006",
+      "tipo": "oficio",
+      "numero": "96838",
+      "fecha": "2006-11-16",
+      "tema": "&iquest;Una entidad prestadora de servicios p&uacute;blicos de acueducto y alcantarillado, puede cambiar su procedimiento contable de registro de sus ingresos, tomando como base la lectura de los consumos independientemente de que se haya realizado o no la facturaci&oacute;n? Causaci&oacute;n del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84750-2005",
+      "tipo": "oficio",
+      "numero": "84750",
+      "fecha": "2005-11-16",
+      "tema": "&iquest;Se expone un caso particular de devoluci&oacute;n de impuestos descontables a exportadores y se solicita la opini&oacute;n del Despacho sobre el procedimiento de verificaci&oacute;n por parte de la Divisi&oacute;n de Devoluciones de esa Administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080487-2002",
+      "tipo": "concepto",
+      "numero": "0080487",
+      "fecha": "2002-01-01",
+      "tema": "Respecto de los pagos o abonos en cuenta relativos a los cobros que efect&uacute;an los grandes almacenes de cadena por concepto de servicios p&uacute;blicos como cargo adicional a la retribuci&oacute;n por servicios de concesi&oacute;n o arrendamiento de espacios, debe practicarse retenci&oacute;n en la fuente a t&iacute;tulo del Impuesto Sobre la renta y Complementarios por parte de quien efect&uacute;a el pago o abono en cuenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009174-2002",
+      "tipo": "concepto",
+      "numero": "0009174",
+      "fecha": "2002-02-14",
+      "tema": "&iquest;Para efectos fiscales, resulta procedente que las empresas se nieguen a recibir facturas cuando han publicado o informado a los proveedores o prestadores de servicios de una fecha m&aacute;xima de recepci&oacute;n de facturas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062367-2001",
+      "tipo": "concepto",
+      "numero": "0062367",
+      "fecha": "2001-07-09",
+      "tema": "&iquest;las empresas asociativas de trabajo est&aacute;n obligadas a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081444-2000",
+      "tipo": "concepto",
+      "numero": "0081444",
+      "fecha": "2000-08-28",
+      "tema": "&iquest;Puede el agente retenedor elegir el momento de efectuar la retenci&oacute;n entre el del pago o el de el abono en cuenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070194-2000",
+      "tipo": "concepto",
+      "numero": "0070194",
+      "fecha": "2000-07-25",
+      "tema": "&iquest;Resulta sancionable el hecho de que contablemente no se registre el total de d&iacute;gitos autorizados para las facturas expedidas por computador, situaci&oacute;n que se da por cuanto el programa utilizado no agrega el d&iacute;gito faltante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063056-1998",
+      "tipo": "concepto",
+      "numero": "0063056",
+      "fecha": "1998-08-12",
+      "tema": "&iquest;Una persona natural cuya actividad econ&oacute;mica es el cultivo de cereales y oleaginosas, est&aacute; obligada a llevar libros de contabilidad? &iquest;Si, a pesar de no estar obligado a llevar contabilidad, la declaraci&oacute;n de renta supera los topes de ingresos o patrimonio brutos, debe ser firmada por contador p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059518-1998",
+      "tipo": "concepto",
+      "numero": "0059518",
+      "fecha": "1998-07-29",
+      "tema": "&iquest;Se tiene la calidad de comerciante cuando el contribuyente en desarrollo de su actividad econ&oacute;mica realiza cualquiera de los actos de comercio se&ntilde;alados en el art&iacute;culo 20 del c&oacute;digo de comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058392-1998",
+      "tipo": "concepto",
+      "numero": "0058392",
+      "fecha": "1998-07-24",
+      "tema": "&iquest;Se puede incluir en la contabilidad de una sucursal de una sociedad extranjera una Cuenta por Pagar a favor de la matriz, por concepto de Honorarios de algunos de sus funcionarios. Cu&aacute;l ser&iacute;a el porcentaje de retenci&oacute;n a t&iacute;tulo de impuesto de renta y remesas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074194-1996",
+      "tipo": "concepto",
+      "numero": "0074194",
+      "fecha": "1996-09-20",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para declarar los ingresos gravados y exentos cuando dentro del ejercicio gravable se han obtenido estos dos tipos de ingreso, como consecuencia del cambio de objeto social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062467-1996",
+      "tipo": "concepto",
+      "numero": "0062467",
+      "fecha": "1996-08-06",
+      "tema": "&iquest;Cu&aacute;l es el per&iacute;odo en que debe contabilizarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001497-1993",
+      "tipo": "concepto",
+      "numero": "0001497",
+      "fecha": "1993-01-14",
+      "tema": "Las comisiones por contratos por ventas de pasajes suscritos por las agencias de viajes con las compa&ntilde;&iacute;as a&eacute;reas generan impoventas? &iquest;Son estos contratos documentos suficientes para soportar lo dispuesto por la norma?",
+      "vigente": true
+    }
+  ]
+}

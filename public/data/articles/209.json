@@ -1,1 +1,343 @@
-{"id_articulo": "Art. 209", "titulo": "Art. 209. Renta exenta de las empresas comunitarias.", "titulo_corto": "Renta exenta de las empresas comunitarias.", "slug": "209", "url_origen": "https://estatuto.co/209", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Las empresas comunitarias e instituciones auxiliares de las mismas, definidas en el artículo 38 de la ley 30 de 1988, gozarán de los beneficios y prerrogativas que la ley reconoce a las entidades de utilidad común y quedarán exentas de los impuestos de renta y complementarios establecidos por la ley. Las empresas comunitarias podrán optar por constituirse o transformarse en sociedades comerciales conforme a la ley, en cuyo caso, estarán exentas de los impuestos de renta y patrimonio, durante los 5 años gravables siguientes a la fecha de su constitución. Para que una empresa comunitaria pueda acogerse a los beneficios de que trata este artículo, deberá solicitar al INCORA (Hoy INCODER) ser calificada como tal mediante resolución motivada. La Junta Directiva del INCORA (Hoy INCODER), mediante Acuerdo que deberá ser aprobado por Resolución Ejecutiva, reglamentará los requisitos y condiciones para la calificación de las empresas comunitarias. Parágrafo 1.Las empresas comunitarias constituidas con anterioridad al 18 de Marzo de 1988, podrán acogerse a los beneficios fiscales establecidos en este artículo a partir de la fecha en que obtengan la calificación por parte del INCORA (Hoy INCODER), siempre que lo soliciten dentro de los cuatro meses siguientes a la fecha mencionada.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las empresas comunitarias e instituciones auxiliares de las mismas, definidas en el artículo 38 de la <a href=\"https://accounter.co/normatividad/leyes/8154-por-la-cual-se-modifican-y-adicionan-las-leyes-135-de-1961-1a-de-1968-y-4a-de-1973-y-se-otorgan-unas-facultades-al-presidente-de-la-republic.html\" rel=\"noopener\" target=\"_blank\">ley 30 de 1988</a>, gozarán de los beneficios y prerrogativas que la ley reconoce a las entidades de utilidad común y quedarán exentas de los impuestos de renta y complementarios establecidos por la ley.</p>\n<p>Las empresas comunitarias podrán optar por constituirse o transformarse en sociedades comerciales conforme a la ley, en cuyo caso, estarán exentas de los impuestos de renta y patrimonio, durante los 5 años gravables siguientes a la fecha de su constitución. Para que una empresa comunitaria pueda acogerse a los beneficios de que trata este artículo, deberá solicitar al INCORA (Hoy INCODER) ser calificada como tal mediante resolución motivada.</p>\n<p>La Junta Directiva del INCORA (Hoy INCODER), mediante Acuerdo que deberá ser aprobado por Resolución Ejecutiva, reglamentará los requisitos y condiciones para la calificación de las empresas comunitarias.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1.</span></strong>Las empresas comunitarias constituidas con anterioridad al 18 de Marzo de 1988, podrán acogerse a los beneficios fiscales establecidos en este artículo a partir de la fecha en que obtengan la calificación por parte del INCORA (Hoy INCODER), siempre que lo soliciten dentro de los cuatro meses siguientes a la fecha mencionada.</p>\n</span>", "modificaciones_raw": "*Modificado por Ley 863 de 2003 Art. 5.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "863", "norma_year": 2003, "norma_articulo": "5"}], "total_modificaciones": 1, "ultima_modificacion_year": 2003, "leyes_modificatorias": ["Ley 863 de 2003"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["El artículo 5 de la Ley 863 de 2003, publicada en el Diario Oficial No. 45.415, de 29 de diciembre de 2003, establece: 'Límite de las rentas exentas. A partir del año gravable 2004, las rentas de que tratan los artículos 211 parágrafo 4o, 209, 216, 217, 219, 221 y 222 del Estatuto Tributario", "los artículos 14 a 16 de la Ley 10 de 1991, 58 de la Ley 633 de 2000 y 235 de la Ley 685 de 2001, del Estatuto Tributario, quedan gravados en el ciento por ciento (100%) con el impuesto sobre la renta'. - El artículo 235-1 adicionado por el artículo 14 de la Ley 788 de 2002, publicada en el Diario Oficial No. 45.046, de 27 de diciembre de 2002, establece límite a las rentas exentas de que trata este artículo en los siguientes porcentajes: “... 70% para el año gravable de 2003 50% para el año gravable de 2004 20% para el año gravable de 2005 0% para el año gravable de 2006”."]}, "total_normas": 2, "cross_references": [], "referenced_by": ["235-1"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 209",
+  "titulo": "Art. 209. Renta exenta de las empresas comunitarias.",
+  "titulo_corto": "Renta exenta de las empresas comunitarias.",
+  "slug": "209",
+  "url_origen": "https://estatuto.co/209",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Las empresas comunitarias e instituciones auxiliares de las mismas, definidas en el artículo 38 de la ley 30 de 1988, gozarán de los beneficios y prerrogativas que la ley reconoce a las entidades de utilidad común y quedarán exentas de los impuestos de renta y complementarios establecidos por la ley. Las empresas comunitarias podrán optar por constituirse o transformarse en sociedades comerciales conforme a la ley, en cuyo caso, estarán exentas de los impuestos de renta y patrimonio, durante los 5 años gravables siguientes a la fecha de su constitución. Para que una empresa comunitaria pueda acogerse a los beneficios de que trata este artículo, deberá solicitar al INCORA (Hoy INCODER) ser calificada como tal mediante resolución motivada. La Junta Directiva del INCORA (Hoy INCODER), mediante Acuerdo que deberá ser aprobado por Resolución Ejecutiva, reglamentará los requisitos y condiciones para la calificación de las empresas comunitarias. Parágrafo 1.Las empresas comunitarias constituidas con anterioridad al 18 de Marzo de 1988, podrán acogerse a los beneficios fiscales establecidos en este artículo a partir de la fecha en que obtengan la calificación por parte del INCORA (Hoy INCODER), siempre que lo soliciten dentro de los cuatro meses siguientes a la fecha mencionada.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las empresas comunitarias e instituciones auxiliares de las mismas, definidas en el artículo 38 de la <a href=\"https://accounter.co/normatividad/leyes/8154-por-la-cual-se-modifican-y-adicionan-las-leyes-135-de-1961-1a-de-1968-y-4a-de-1973-y-se-otorgan-unas-facultades-al-presidente-de-la-republic.html\" rel=\"noopener\" target=\"_blank\">ley 30 de 1988</a>, gozarán de los beneficios y prerrogativas que la ley reconoce a las entidades de utilidad común y quedarán exentas de los impuestos de renta y complementarios establecidos por la ley.</p>\n<p>Las empresas comunitarias podrán optar por constituirse o transformarse en sociedades comerciales conforme a la ley, en cuyo caso, estarán exentas de los impuestos de renta y patrimonio, durante los 5 años gravables siguientes a la fecha de su constitución. Para que una empresa comunitaria pueda acogerse a los beneficios de que trata este artículo, deberá solicitar al INCORA (Hoy INCODER) ser calificada como tal mediante resolución motivada.</p>\n<p>La Junta Directiva del INCORA (Hoy INCODER), mediante Acuerdo que deberá ser aprobado por Resolución Ejecutiva, reglamentará los requisitos y condiciones para la calificación de las empresas comunitarias.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1.</span></strong>Las empresas comunitarias constituidas con anterioridad al 18 de Marzo de 1988, podrán acogerse a los beneficios fiscales establecidos en este artículo a partir de la fecha en que obtengan la calificación por parte del INCORA (Hoy INCODER), siempre que lo soliciten dentro de los cuatro meses siguientes a la fecha mencionada.</p>\n</span>",
+  "modificaciones_raw": "*Modificado por Ley 863 de 2003 Art. 5.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "863",
+      "norma_year": 2003,
+      "norma_articulo": "5"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2003,
+  "leyes_modificatorias": [
+    "Ley 863 de 2003"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "El artículo 5 de la Ley 863 de 2003, publicada en el Diario Oficial No. 45.415, de 29 de diciembre de 2003, establece: 'Límite de las rentas exentas. A partir del año gravable 2004, las rentas de que tratan los artículos 211 parágrafo 4o, 209, 216, 217, 219, 221 y 222 del Estatuto Tributario",
+      "los artículos 14 a 16 de la Ley 10 de 1991, 58 de la Ley 633 de 2000 y 235 de la Ley 685 de 2001, del Estatuto Tributario, quedan gravados en el ciento por ciento (100%) con el impuesto sobre la renta'. - El artículo 235-1 adicionado por el artículo 14 de la Ley 788 de 2002, publicada en el Diario Oficial No. 45.046, de 27 de diciembre de 2002, establece límite a las rentas exentas de que trata este artículo en los siguientes porcentajes: “... 70% para el año gravable de 2003 50% para el año gravable de 2004 20% para el año gravable de 2005 0% para el año gravable de 2006”."
+    ]
+  },
+  "total_normas": 2,
+  "cross_references": [],
+  "referenced_by": [
+    "235-1"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 30 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0109 (2021-03-27): Procedimiento Tributario - Sanciones a Contadores P&uacute;blicos\noficio 14428 (2019-06-05): Ambiguedades referentes al r&eacute;gimen tributario aplicable a las empresas comunitarias\noficio 62589 (2014-11-12): &iquest;Las empresas prestadoras del servicio p&uacute;blico de generaci&oacute;n y comercializaci&oacute;n de energ&iacute;a el&eacute;ctrica con base en el recurso h&iacute;drico y de capacidad instalada inferior a 25.000 kilowatios, constituidas antes del 27 de diciembre de 2002, son contribuyentes del impuesto sobre la renta para la equidad CREE?\noficio 38941 (2014-07-01): Se considera necesario revisar la doctrina expedida por la Direcci&oacute;n de Impuestos y Aduanas Nacionales en torno a la deducci&oacute;n del valor de las inversiones efectivas realizadas en activos fijos reales productivos, de que trata el art&iacute;culo 158-3 del Estatuto Tributario\noficio 28419 (2009-04-07): Contrato de estabilidad jur&iacute;dica",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-690-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-844-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "844",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1441-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1441",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-230-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "230",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1052-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1052",
+      "year": 2001,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-160-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "160",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-225-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "225",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0109-2021",
+      "tipo": "oficio",
+      "numero": "0109",
+      "fecha": "2021-03-27",
+      "tema": "Procedimiento Tributario - Sanciones a Contadores P&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14428-2019",
+      "tipo": "oficio",
+      "numero": "14428",
+      "fecha": "2019-06-05",
+      "tema": "Ambiguedades referentes al r&eacute;gimen tributario aplicable a las empresas comunitarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62589-2014",
+      "tipo": "oficio",
+      "numero": "62589",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Las empresas prestadoras del servicio p&uacute;blico de generaci&oacute;n y comercializaci&oacute;n de energ&iacute;a el&eacute;ctrica con base en el recurso h&iacute;drico y de capacidad instalada inferior a 25.000 kilowatios, constituidas antes del 27 de diciembre de 2002, son contribuyentes del impuesto sobre la renta para la equidad CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38941-2014",
+      "tipo": "oficio",
+      "numero": "38941",
+      "fecha": "2014-07-01",
+      "tema": "Se considera necesario revisar la doctrina expedida por la Direcci&oacute;n de Impuestos y Aduanas Nacionales en torno a la deducci&oacute;n del valor de las inversiones efectivas realizadas en activos fijos reales productivos, de que trata el art&iacute;culo 158-3 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28419-2009",
+      "tipo": "oficio",
+      "numero": "28419",
+      "fecha": "2009-04-07",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072136-2005",
+      "tipo": "concepto",
+      "numero": "0072136",
+      "fecha": "2005-10-05",
+      "tema": "&iquest;A qu&eacute; r&eacute;gimen de tributaci&oacute;n del impuesto sobre la renta pertenecen las empresas comunitarias definidas por la ley 160 de 1994?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    }
+  ]
+}

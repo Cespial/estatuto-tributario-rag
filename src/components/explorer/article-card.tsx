@@ -18,6 +18,7 @@ interface ArticleCardProps {
   hasNormas: boolean;
   ultimaModYear?: number | null;
   hasDerogadoText?: boolean;
+  previewSnippet?: string;
 }
 
 const ESTADO_CONFIG: Record<string, { label: string; dot: string; badge: string }> = {
@@ -51,6 +52,7 @@ export function ArticleCard({
   hasNormas,
   ultimaModYear = null,
   hasDerogadoText = false,
+  previewSnippet = "",
 }: ArticleCardProps) {
   const { openPanel } = useArticlePanel();
   const estadoCfg = ESTADO_CONFIG[estado] || ESTADO_CONFIG.vigente;
@@ -60,6 +62,10 @@ export function ArticleCard({
     hasDerogadoText ? "Con texto derogado" : null,
     hasNormas ? "Con normas" : null,
   ].filter(Boolean) as string[];
+
+  const cleanSnippet = previewSnippet
+    ? previewSnippet.replace(/<[^>]*>/g, "").slice(0, 100) + (previewSnippet.length > 100 ? "..." : "")
+    : "";
 
   return (
     <div
@@ -89,7 +95,13 @@ export function ArticleCard({
       <h3 className="mb-1 line-clamp-2 text-sm font-medium leading-tight">
         {titulo}
       </h3>
-      <p className="mb-3 text-xs text-muted-foreground">{libro}</p>
+      <p className="mb-2 text-xs text-muted-foreground">{libro}</p>
+
+      {cleanSnippet && (
+        <p className="mb-3 line-clamp-2 text-[11px] leading-relaxed text-muted-foreground/80">
+          {cleanSnippet}
+        </p>
+      )}
 
       {badges.length > 0 && (
         <div className="mb-3 flex flex-wrap gap-1.5">

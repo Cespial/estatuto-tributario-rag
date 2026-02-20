@@ -1,1 +1,606 @@
-{"id_articulo": "Art. 335", "titulo": "Art. 335. Ingresos de la cédula general", "titulo_corto": "Ingresos de la cédula general", "slug": "335", "url_origen": "https://estatuto.co/335", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*Para los efectos de este título, son ingresos de la cédula general los siguientes: 1. Rentas de trabajo: las señaladas en el artículo 103 de este Estatuto. 2. Rentas de capital: las obtenidas por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual. 3. Rentas no laborales: se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna otra cédula, con excepción de los dividendos y las ganancias ocasionales, que se rigen según sus reglas especiales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los efectos de este título, son ingresos de la cédula general los siguientes:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Rentas de trabajo: las señaladas en el <a href=\"https://estatuto.co/103\" rel=\"noopener\" target=\"_blank\">artículo 103</a> de este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Rentas de capital: las obtenidas por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Rentas no laborales: se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna otra cédula, con excepción de los dividendos y las ganancias ocasionales, que se rigen según sus reglas especiales.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 40 *Modificado. Ley 1943 de 2018 Art. 32 *Modificado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "40"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 4, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo. Dispone el Fallo: '(i) la declaratoria de inexequibilidad prevista en el resolutivo segundo surtirá efectos a partir del primero (1o.) de enero de dos mil veinte (2020), a fin de que el Congreso, dentro de la potestad de configuración que le es propia, expida el régimen que ratifique, derogue, modifique o subrogue los contenidos de la Ley 1943 de 2018"], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["(ii) los efectos del presente fallo sólo se producirán hacia el futuro y, en consecuencia, en ningún caso afectarán las situaciones jurídicas consolidadas de forma anterior a su notificación.'"]}, "total_normas": 2, "cross_references": ["103"], "referenced_by": ["336"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 335",
+  "titulo": "Art. 335. Ingresos de la cédula general",
+  "titulo_corto": "Ingresos de la cédula general",
+  "slug": "335",
+  "url_origen": "https://estatuto.co/335",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*Para los efectos de este título, son ingresos de la cédula general los siguientes: 1. Rentas de trabajo: las señaladas en el artículo 103 de este Estatuto. 2. Rentas de capital: las obtenidas por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual. 3. Rentas no laborales: se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna otra cédula, con excepción de los dividendos y las ganancias ocasionales, que se rigen según sus reglas especiales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los efectos de este título, son ingresos de la cédula general los siguientes:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Rentas de trabajo: las señaladas en el <a href=\"https://estatuto.co/103\" rel=\"noopener\" target=\"_blank\">artículo 103</a> de este Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Rentas de capital: las obtenidas por concepto de intereses, rendimientos financieros, arrendamientos, regalías y explotación de la propiedad intelectual.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Rentas no laborales: se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna otra cédula, con excepción de los dividendos y las ganancias ocasionales, que se rigen según sus reglas especiales.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 40 *Modificado. Ley 1943 de 2018 Art. 32 *Modificado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "40"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 4,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo. Dispone el Fallo: '(i) la declaratoria de inexequibilidad prevista en el resolutivo segundo surtirá efectos a partir del primero (1o.) de enero de dos mil veinte (2020), a fin de que el Congreso, dentro de la potestad de configuración que le es propia, expida el régimen que ratifique, derogue, modifique o subrogue los contenidos de la Ley 1943 de 2018"
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "(ii) los efectos del presente fallo sólo se producirán hacia el futuro y, en consecuencia, en ningún caso afectarán las situaciones jurídicas consolidadas de forma anterior a su notificación.'"
+    ]
+  },
+  "total_normas": 2,
+  "cross_references": [
+    "103"
+  ],
+  "referenced_by": [
+    "336"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 22 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022\noficio 17277 (2025-12-05): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17277-2025",
+      "tipo": "oficio",
+      "numero": "17277",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11866-2025",
+      "tipo": "oficio",
+      "numero": "11866",
+      "fecha": "2025-08-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9394-2025",
+      "tipo": "oficio",
+      "numero": "9394",
+      "fecha": "2025-07-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4507-2025",
+      "tipo": "oficio",
+      "numero": "4507",
+      "fecha": "2025-04-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2025",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3863-2025",
+      "tipo": "oficio",
+      "numero": "3863",
+      "fecha": "2025-03-31",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15355-2024",
+      "tipo": "oficio",
+      "numero": "15355",
+      "fecha": "2024-08-13",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10622-2024",
+      "tipo": "oficio",
+      "numero": "10622",
+      "fecha": "2024-12-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3634-2024",
+      "tipo": "oficio",
+      "numero": "3634",
+      "fecha": "2024-06-06",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3315-2024",
+      "tipo": "oficio",
+      "numero": "3315",
+      "fecha": "2024-05-27",
+      "tema": "(Int 381) Impuesto sobre la renta y complementarios - Ingresos gravados - Subsidios para la adquisici&oacute;n de vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3313-2024",
+      "tipo": "oficio",
+      "numero": "3313",
+      "fecha": "2024-05-23",
+      "tema": "(Int 379) Impuesto sobre la renta y complementarios - Deducciones - 1% adquisiciones bienes y servicios - Factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3156-2024",
+      "tipo": "oficio",
+      "numero": "3156",
+      "fecha": "2024-05-15",
+      "tema": "(Int 350) &iquest;Qu&eacute; concepto se debe reportar en la casilla 48 del formulario 220",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0113-2024",
+      "tipo": "oficio",
+      "numero": "0113",
+      "fecha": "2024-01-10",
+      "tema": "(Int 34) Impuesto sobre la renta y complementarios - Vi&aacute;ticos - Reembolso de gastos - Prestaci&oacute;n de servicios - Rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906729-2022",
+      "tipo": "oficio",
+      "numero": "906729",
+      "fecha": "2022-09-06",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905564-2022",
+      "tipo": "oficio",
+      "numero": "905564",
+      "fecha": "2022-07-25",
+      "tema": "Impuesto sobre la renta - Deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906390-2021",
+      "tipo": "oficio",
+      "numero": "906390",
+      "fecha": "2021-06-30",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904247-2021",
+      "tipo": "oficio",
+      "numero": "904247",
+      "fecha": "2021-05-12",
+      "tema": "Enajenaci&oacute;n de activos intangibles - Derechos deportivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902628-2021",
+      "tipo": "oficio",
+      "numero": "902628",
+      "fecha": "2021-03-26",
+      "tema": "(Int 0104) Impuesto sobre la renta - Renta vitalicia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905417-2020",
+      "tipo": "oficio",
+      "numero": "905417",
+      "fecha": "2020-09-30",
+      "tema": "Ganancias ocasionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4103-2020",
+      "tipo": "oficio",
+      "numero": "4103",
+      "fecha": "2020-02-25",
+      "tema": "Tratamiento tributario en materia del impuesto sobre la renta, IVA y retenci&oacute;n en la fuente, aplicable a un contrato celebrado por una organizaci&oacute;n sindical",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1757-2019",
+      "tipo": "oficio",
+      "numero": "1757",
+      "fecha": "2019-07-30",
+      "tema": "(Int 1757) &iquest;Los bienes y servicios recibidos por los m&eacute;dicos de parte de los comercializadores, productores e importadores de productos farmac&eacute;uticos, constituyen ingresos que aumentan su patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28562-2019",
+      "tipo": "oficio",
+      "numero": "28562",
+      "fecha": "2019-11-26",
+      "tema": "&iquest;Cu&aacute;l es el ingreso laboral que se debe tener en cuenta para determinar el ingreso mensual promedio de los trabajadores a fin de calcular la parte exenta de las cesant&iacute;as e intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28260-2019",
+      "tipo": "oficio",
+      "numero": "28260",
+      "fecha": "2019-11-14",
+      "tema": "Mecanismos para Efectuar la Devoluci&oacute;n de Saldos a Favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26949-2019",
+      "tipo": "oficio",
+      "numero": "26949",
+      "fecha": "2019-10-28",
+      "tema": "&iquest;Los subsidios para vivienda otorgados por caja de compensaci&oacute;n a las fuerzas militares se incluyen en las rentas de trabajo como renta exenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24697-2019",
+      "tipo": "oficio",
+      "numero": "24697",
+      "fecha": "2019-09-30",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24563-2019",
+      "tipo": "oficio",
+      "numero": "24563",
+      "fecha": "2019-09-26",
+      "tema": "Retenci&oacute;n en la Fuente en indemnizaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24084-2019",
+      "tipo": "oficio",
+      "numero": "24084",
+      "fecha": "2019-09-23",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22674-2019",
+      "tipo": "oficio",
+      "numero": "22674",
+      "fecha": "2019-09-09",
+      "tema": "Ingresos por concepto de auxilio de cesant&iacute;as y los intereses sobre cesant&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21931-2019",
+      "tipo": "oficio",
+      "numero": "21931",
+      "fecha": "2019-09-03",
+      "tema": "&iquest;Cuando una Sentencia judicial reconoce el pago de una suma de dinero por concepto de cesant&iacute;as retroactivas se incluye en la declaraci&oacute;n de renta conforme con lo previsto en el numeral 4 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21772-2019",
+      "tipo": "oficio",
+      "numero": "21772",
+      "fecha": "2019-09-02",
+      "tema": "Aplicaci&oacute;n del numeral 3 del art&iacute;culo 336 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21762-2019",
+      "tipo": "oficio",
+      "numero": "21762",
+      "fecha": "2019-09-02",
+      "tema": "Usufructo legal de los padres de unos menores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16786-2019",
+      "tipo": "oficio",
+      "numero": "16786",
+      "fecha": "2019-06-28",
+      "tema": "&iquest;Se debe incluir la pensi&oacute;n como ingreso gravable en la declaraci&oacute;n del impuesto sobre la renta cuando el valor de la pensi&oacute;n en menor a la DTF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10046-2019",
+      "tipo": "oficio",
+      "numero": "10046",
+      "fecha": "2019-04-29",
+      "tema": "Renta exenta en servicios hoteleros prestados en nuevos hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901555-2018",
+      "tipo": "oficio",
+      "numero": "901555",
+      "fecha": "2018-11-29",
+      "tema": "&iquest;Se pueden incluir como ingresos no constitutivos de renta ni ganancia ocasional los aportes adicionales y-o voluntarios a salud que se efect&uacute;en a una entidad del r&eacute;gimen de salud contemplado en la Ley 647 de 2001 que modific&oacute; el par&aacute;grafo del art&iacute;culo 57 de la Ley 30 de 1992, sobre la educaci&oacute;n superior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34714-2018",
+      "tipo": "oficio",
+      "numero": "34714",
+      "fecha": "2018-12-13",
+      "tema": "Tarifa de Retenci&oacute;n en la Fuente por Emolumentos Eclesi&aacute;sticos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31512-2018",
+      "tipo": "oficio",
+      "numero": "31512",
+      "fecha": "2018-10-17",
+      "tema": "Naturaleza de los ingresos por bonificaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27636-2018",
+      "tipo": "oficio",
+      "numero": "27636",
+      "fecha": "2018-09-25",
+      "tema": "&iquest;A las bonificaciones o indemnizaciones por retiro definitivo del trabajador les es aplicable el l&iacute;mite del 40% para rentas exentas y deducciones que consagr&oacute; el art&iacute;culo 18 de la Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27330-2018",
+      "tipo": "oficio",
+      "numero": "27330",
+      "fecha": "2018-09-19",
+      "tema": "&iquest;En qu&eacute; rengl&oacute;n de la declaraci&oacute;n de renta de personas naturales debe diligenciar las rentas exentas de la prima especial y prima de costo de vida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1220-2018",
+      "tipo": "oficio",
+      "numero": "1220",
+      "fecha": "2018-01-18",
+      "tema": "Correcciones, t&eacute;rminos y procedimientos de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0541-2018",
+      "tipo": "oficio",
+      "numero": "0541",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Se encuentra vigente la exenci&oacute;n contenida en el art&iacute;culo 27 de la Ley 488 de 1998",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33253-2017",
+      "tipo": "oficio",
+      "numero": "33253",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;El ingreso de un asesor de corretaje que percibe ingresos por comisi&oacute;n de acuerdo a su colocaci&oacute;n de clientes potenciales para realizarles cr&eacute;dito a trav&eacute;s de un outsourcing de entidades financieras y cooperativas tiene tratamiento de rentas de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19453-2017",
+      "tipo": "oficio",
+      "numero": "19453",
+      "fecha": "2017-07-21",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10810-2017",
+      "tipo": "oficio",
+      "numero": "10810",
+      "fecha": "2017-05-08",
+      "tema": "Rentas de trabajo exentas- Gastos de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7075-2017",
+      "tipo": "oficio",
+      "numero": "7075",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Con la reforma tributar&iacute;a expedida por el Gobierno Nacional a trav&eacute;s de la ley 1819 de 2016 de 2016, los trabajadores asalariados quedamos cobijados por la reforma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3697-2017",
+      "tipo": "oficio",
+      "numero": "3697",
+      "fecha": "2017-06-01",
+      "tema": "&iquest;Para establecer la base de retenci&oacute;n en la fuente de los ingresos de los funcionarios p&uacute;blicos cu&aacute;les son los ingresos no constitutivos de renta ni de ganancia ocasional, las rentas exentas y las deducciones con los que aquellos se depuran?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1335-2017",
+      "tipo": "oficio",
+      "numero": "1335",
+      "fecha": "2017-06-23",
+      "tema": "&iquest;Si una declaraci&oacute;n que se presenta por el sistema IMAS contiene inexactitudes, le aplicar&iacute;a la firmeza especial de que trata el art&iacute;culo 335 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1077-2017",
+      "tipo": "oficio",
+      "numero": "1077",
+      "fecha": "2017-10-18",
+      "tema": "&iquest;Qu&eacute; pasa con las deducciones en que incurran las personas naturales que contraten trabajadores y no se cumplan los dos condiciones del ac&aacute;pite anterior, debiendo estas declarar sus ingresos por honorarios en las rentas cedulares de trabajo, pudiendo solamente solicitar deducciones imputables a esta rentas y no los gastos procedentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5822-2015",
+      "tipo": "oficio",
+      "numero": "5822",
+      "fecha": "2015-02-25",
+      "tema": "&iquest;En caso de que la declaraci&oacute;n arroje saldo a favor, hasta cuando tiene plazo el contribuyente para solicitar la devoluci&oacute;n o compensaci&oacute;n de dicho saldo y que norma que rige dicho plazo?&iquest;Se encuentra vigente y ser&iacute;a aplicable a dichos casos el par&aacute;grafo 3 del art&iacute;culo 689-1 del Estatuto Tributario que regulaba el beneficio de auditor&iacute;a que rigi&oacute; hasta el a&ntilde;o gravable 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61897-2014",
+      "tipo": "oficio",
+      "numero": "61897",
+      "fecha": "2014-11-06",
+      "tema": "&iquest;La declaraci&oacute;n se presenta por el sistema IMAS en forma extempor&aacute;nea, la firmeza de la declaraci&oacute;n, le aplicar&iacute;a la firmeza general del art&iacute;culo 714 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049134-2003",
+      "tipo": "concepto",
+      "numero": "0049134",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;El mayor o menor valor de la tasa de cotizaci&oacute;n de las divisas pose&iacute;das por un contribuyente a 31 de diciembre, constituye ingreso o gasto para efectos de la presentaci&oacute;n de su declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0123982-2000",
+      "tipo": "concepto",
+      "numero": "0123982",
+      "fecha": "2000-12-26",
+      "tema": "&iquest;Deben, las empresas generadoras de energ&iacute;a aplicar los ajustes se&ntilde;alados en el Decreto 2585 de 1999 teniendo en cuenta que la Comisi&oacute;n Reguladora de Energ&iacute;a y Gas se&ntilde;ala el cargo por capacidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070932-2000",
+      "tipo": "concepto",
+      "numero": "0070932",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Se pueden ajustar los activos no monetarios expresados en moneda extranjera por el factor de devaluaci&oacute;n del a&ntilde;o en el cual el activo se vuelve a ajustar sin que se involucre el factor de devaluaci&oacute;n de los a&ntilde;os en los cuales no fueron objeto de ajuste en aplicaci&oacute;;n del art&iacute;culo 341 del Estatuto Tributario?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-553-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "553",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-385-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "385",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    }
+  ]
+}

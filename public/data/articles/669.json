@@ -1,1 +1,234 @@
-{"id_articulo": "Art. 669", "titulo": "Art. 669. Sanción por omitir ingresos o servir de instrumento de evasión.", "titulo_corto": "Sanción por omitir ingresos o servir de instrumento de evasión.", "slug": "669", "url_origen": "https://estatuto.co/669", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los responsables del impuesto sobre las ventas pertenecientes al régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)>, que realicen operaciones ficticias, omitan ingresos o representen sociedades que sirvan como instrumento de evasión tributaria, incurrirán en una multa equivalente al valor de la operación que es motivo de la misma. Esta multa se impondrá por el Administrador de Impuestos Nacionales, previa comprobación del hecho y traslado de cargos al responsable por el término de un (1) mes para contestar.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los responsables del impuesto sobre las ventas pertenecientes al <span style=\"color: #339966;\"><del>régimen común</del></span> &lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt;, que realicen operaciones ficticias, omitan ingresos o representen sociedades que sirvan como instrumento de evasión tributaria, incurrirán en una multa equivalente al valor de la operación que es motivo de la misma.</p>\n<p>Esta multa se impondrá por el Administrador de Impuestos Nacionales, previa comprobación del hecho y traslado de cargos al responsable por el término de un (1) mes para contestar.</p>\n</span>", "modificaciones_raw": "*Texto sustituido Ley 2010 de 2019 Art 20.", "modificaciones_parsed": [{"tipo": "sustituido", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "20"}], "total_modificaciones": 1, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 2010 de 2019"], "texto_derogado": ["régimen común"], "texto_derogado_parsed": [{"index": 0, "snippet": "régimen común", "full_length": 13}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["640"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 669",
+  "titulo": "Art. 669. Sanción por omitir ingresos o servir de instrumento de evasión.",
+  "titulo_corto": "Sanción por omitir ingresos o servir de instrumento de evasión.",
+  "slug": "669",
+  "url_origen": "https://estatuto.co/669",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los responsables del impuesto sobre las ventas pertenecientes al régimen común <régimen de responsabilidad del Impuesto sobre las Ventas (IVA)>, que realicen operaciones ficticias, omitan ingresos o representen sociedades que sirvan como instrumento de evasión tributaria, incurrirán en una multa equivalente al valor de la operación que es motivo de la misma. Esta multa se impondrá por el Administrador de Impuestos Nacionales, previa comprobación del hecho y traslado de cargos al responsable por el término de un (1) mes para contestar.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los responsables del impuesto sobre las ventas pertenecientes al <span style=\"color: #339966;\"><del>régimen común</del></span> &lt;régimen de responsabilidad del Impuesto sobre las Ventas (IVA)&gt;, que realicen operaciones ficticias, omitan ingresos o representen sociedades que sirvan como instrumento de evasión tributaria, incurrirán en una multa equivalente al valor de la operación que es motivo de la misma.</p>\n<p>Esta multa se impondrá por el Administrador de Impuestos Nacionales, previa comprobación del hecho y traslado de cargos al responsable por el término de un (1) mes para contestar.</p>\n</span>",
+  "modificaciones_raw": "*Texto sustituido Ley 2010 de 2019 Art 20.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "sustituido",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "20"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [
+    "régimen común"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "régimen común",
+      "full_length": 13
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "640"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 9663 (2025-06-24): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-9663-2025",
+      "tipo": "oficio",
+      "numero": "9663",
+      "fecha": "2025-06-24",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28598-2019",
+      "tipo": "oficio",
+      "numero": "28598",
+      "fecha": "2019-11-18",
+      "tema": "&iquest;Es aplicable el concepto de reincidencia frente a la sanci&oacute;n de clausura del establecimiento, con posterioridad a la Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23153-2019",
+      "tipo": "oficio",
+      "numero": "23153",
+      "fecha": "2019-09-13",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15491-2019",
+      "tipo": "oficio",
+      "numero": "15491",
+      "fecha": "2019-06-12",
+      "tema": "&iquest;El servicio de plantaci&oacute;n del sistema arb&oacute;reo, que dentro de sus costos incluye material vegetal (&aacute;rbol), mano de obra, fertilizantes, tierra, riego, costo de herramientas y otros insumos, se encuentra gravado con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3340-2019",
+      "tipo": "oficio",
+      "numero": "3340",
+      "fecha": "2019-01-29",
+      "tema": "Aplicaci&oacute;n del principio de favorabilidad en etapa de cobro - Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16191-2018",
+      "tipo": "oficio",
+      "numero": "16191",
+      "fecha": "2018-06-21",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6456-2018",
+      "tipo": "oficio",
+      "numero": "6456",
+      "fecha": "2018-03-15",
+      "tema": "Causaci&oacute;n del impuesto sobre las ventas en contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6453-2018",
+      "tipo": "oficio",
+      "numero": "6453",
+      "fecha": "2018-03-15",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6050-2018",
+      "tipo": "oficio",
+      "numero": "6050",
+      "fecha": "2018-03-12",
+      "tema": "Causaci&oacute;n del impuesto sobre las ventas en contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5699-2018",
+      "tipo": "oficio",
+      "numero": "5699",
+      "fecha": "2018-03-07",
+      "tema": "Contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1816-2018",
+      "tipo": "oficio",
+      "numero": "1816",
+      "fecha": "2018-10-17",
+      "tema": "Modificaciones para subsanar de manera voluntaria la informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0312-2018",
+      "tipo": "oficio",
+      "numero": "0312",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Al contratar a una persona en Colombia y pedir el reintegro de este gasto a una compa&ntilde;&iacute;a del exterior, puedo utilizar el mismo contrato, para facturarle a un cliente en espec&iacute;fico? &iquest;Se puede utilizar la modalidad de Contrato de Mandato., referente al empleado que se piensa contratar con la compa&ntilde;&iacute;a, con el fin de no afectar las cuentas de P&eacute;rdidas y Ganancias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0299-2018",
+      "tipo": "oficio",
+      "numero": "0299",
+      "fecha": "2018-03-06",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28591-2017",
+      "tipo": "oficio",
+      "numero": "28591",
+      "fecha": "2017-10-20",
+      "tema": "Contratos de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15397-2017",
+      "tipo": "oficio",
+      "numero": "15397",
+      "fecha": "2017-08-09",
+      "tema": "&iquest;C&oacute;mo se aplica el art&iacute;culo 282 de la ley 1819 de 2016 que modific&oacute; el art&iacute;culo 640 del Estatuto Tributario sobre los principios de lesividad, proporcionalidad, gradualidad y lesividad en el r&eacute;gimen sancionatorio frente a la reducci&oacute;n de sanci&oacute;n establecida en el art&iacute;culo 651 del mismo Estatuto de sanci&oacute;n por no enviar informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5981-2017",
+      "tipo": "oficio",
+      "numero": "5981",
+      "fecha": "2017-03-17",
+      "tema": "Procedimiento Tributario - Sanciones Art&iacute;culo 640 del Estatuto Tributario, modificado por el art&iacute;culo 282 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36484-2016",
+      "tipo": "oficio",
+      "numero": "36484",
+      "fecha": "2016-12-28",
+      "tema": "Contribuci&oacute;n Especial - Contribuci&oacute;n especial sobre contratos de obra p&uacute;blica - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36468-2016",
+      "tipo": "oficio",
+      "numero": "36468",
+      "fecha": "2016-12-28",
+      "tema": "Impuesto a las ventas - Causaci&oacute;n del Impuesto Sobre las Ventas en Contratos Celebrados con Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26630-2014",
+      "tipo": "oficio",
+      "numero": "26630",
+      "fecha": "2014-04-30",
+      "tema": "&iquest;Es procedente conceder la exenci&oacute;n del impuesto sobre las ventas a una entidad sin &aacute;nimo de lucro que recibe peri&oacute;dicamente donaciones en dinero de otra entidad sin &aacute;nimo de lucro, que se encuentra bajo los presupuestos de subordinaci&oacute;n consagrados en los art&iacute;culos 260 y 261 del C&oacute;digo de Comercio y en desarrollo de su actividad solo genera recursos para ser donados a las entidades bajo las que se encuentra en estado de subordinaci&oacute;n?&iquest;Si para los efectos de la exenci&oacute;n objeto de estudio, la entidad donataria cuenta con un t&eacute;rmino espec&iacute;fico para ejecutar los recursos recibidos en donaci&oacute;n, o si por el contrario puede mantenerlos durante a&ntilde;os e ir solicitando las exenciones a medida que los va ejecutando?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90094-2011",
+      "tipo": "oficio",
+      "numero": "90094",
+      "fecha": "2011-11-17",
+      "tema": "&iquest;Los ingresos por exportaciones ficticias se gravan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033002-2001",
+      "tipo": "concepto",
+      "numero": "0033002",
+      "fecha": "2001-04-24",
+      "tema": "&iquest;Le es aplicable la presunci&oacute;n de derecho prevista en el p&aacute;ragrafo del art&iacute;culo 34 de la Ley 633 de 2000 al responsable que es propietario del local u oficina s&oacute;lo en un 50%?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,570 @@
-{"id_articulo": "Art. 522", "titulo": "Art. 522. Reglas para determinar las cuantías.", "titulo_corto": "Reglas para determinar las cuantías.", "slug": "522", "url_origen": "https://estatuto.co/522", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "modificado", "complexity_score": 2, "contenido_texto": "Para la determinación de las cuantías en el impuesto de timbre, se observarán las siguientes reglas: 1. En los contratos de ejecución sucesiva, la cuantía será la del valor total de los pagos periódicos que deban hacerse durante la vigencia del convenio. En los contratos de duración indefinida se tomará como cuantía la correspondiente a los pagos durante un año. 2. En los actos o actuaciones que por naturaleza sean de valor indeterminado se tendrá como cuantía la que aparezca en las normas de este título y no la proveniente de simple estimación de los interesados. 3. Se ajustarán los impuestos cuando inicialmente fue indeterminado el valor de un acto, sujeto a ellos o incorporado a documento que los origine y posteriormente dicho valor se haya determinado; sin la prueba del pago del impuesto ajustado no serán deducibles en lo referente a impuestos de renta y complementarios, los pagos ni las obligaciones que consten en los instrumentos gravados, ni tendrán valor probatorio ante las autoridades judiciales o administrativas. 4. La cuantía de los contratos en moneda extranjera se determinará según el cambio oficial en el momento en que el impuesto se haga efectivo. *Parágrafo. En los casos previstos en el numeral 3), cuando la Administración Tributaria determine que el valor a pagar inicialmente era cuantificable, podrá, mediante resolución, fijar dicho valor imponiendo adicionalmente una sanción por inexactitud equivalente al 160% del mayor valor determinado.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para la determinación de las cuantías en el impuesto de timbre, se observarán las siguientes reglas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>En los contratos de ejecución sucesiva, la cuantía será la del valor total de los pagos periódicos que deban hacerse durante la vigencia del convenio.</p>\n<p>En los contratos de duración indefinida se tomará como cuantía la correspondiente a los pagos durante un año.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>En los actos o actuaciones que por naturaleza sean de valor indeterminado se tendrá como cuantía la que aparezca en las normas de este título y no la proveniente de simple estimación de los interesados.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Se ajustarán los impuestos cuando inicialmente fue indeterminado el valor de un acto, sujeto a ellos o incorporado a documento que los origine y posteriormente dicho valor se haya determinado; sin la prueba del pago del impuesto ajustado no serán deducibles en lo referente a impuestos de renta y complementarios, los pagos ni las obligaciones que consten en los instrumentos gravados, ni tendrán valor probatorio ante las autoridades judiciales o administrativas.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>La cuantía de los contratos en moneda extranjera se determinará según el cambio oficial en el momento en que el impuesto se haga efectivo.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*Parágrafo.</span> </span></strong>En los casos previstos en el numeral 3), cuando la Administración Tributaria determine que el valor a pagar inicialmente era cuantificable, podrá, mediante resolución, fijar dicho valor imponiendo adicionalmente una sanción por inexactitud equivalente al 160% del mayor valor determinado.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 38.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "38"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["177"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 522",
+  "titulo": "Art. 522. Reglas para determinar las cuantías.",
+  "titulo_corto": "Reglas para determinar las cuantías.",
+  "slug": "522",
+  "url_origen": "https://estatuto.co/522",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "Para la determinación de las cuantías en el impuesto de timbre, se observarán las siguientes reglas: 1. En los contratos de ejecución sucesiva, la cuantía será la del valor total de los pagos periódicos que deban hacerse durante la vigencia del convenio. En los contratos de duración indefinida se tomará como cuantía la correspondiente a los pagos durante un año. 2. En los actos o actuaciones que por naturaleza sean de valor indeterminado se tendrá como cuantía la que aparezca en las normas de este título y no la proveniente de simple estimación de los interesados. 3. Se ajustarán los impuestos cuando inicialmente fue indeterminado el valor de un acto, sujeto a ellos o incorporado a documento que los origine y posteriormente dicho valor se haya determinado; sin la prueba del pago del impuesto ajustado no serán deducibles en lo referente a impuestos de renta y complementarios, los pagos ni las obligaciones que consten en los instrumentos gravados, ni tendrán valor probatorio ante las autoridades judiciales o administrativas. 4. La cuantía de los contratos en moneda extranjera se determinará según el cambio oficial en el momento en que el impuesto se haga efectivo. *Parágrafo. En los casos previstos en el numeral 3), cuando la Administración Tributaria determine que el valor a pagar inicialmente era cuantificable, podrá, mediante resolución, fijar dicho valor imponiendo adicionalmente una sanción por inexactitud equivalente al 160% del mayor valor determinado.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para la determinación de las cuantías en el impuesto de timbre, se observarán las siguientes reglas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>En los contratos de ejecución sucesiva, la cuantía será la del valor total de los pagos periódicos que deban hacerse durante la vigencia del convenio.</p>\n<p>En los contratos de duración indefinida se tomará como cuantía la correspondiente a los pagos durante un año.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>En los actos o actuaciones que por naturaleza sean de valor indeterminado se tendrá como cuantía la que aparezca en las normas de este título y no la proveniente de simple estimación de los interesados.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Se ajustarán los impuestos cuando inicialmente fue indeterminado el valor de un acto, sujeto a ellos o incorporado a documento que los origine y posteriormente dicho valor se haya determinado; sin la prueba del pago del impuesto ajustado no serán deducibles en lo referente a impuestos de renta y complementarios, los pagos ni las obligaciones que consten en los instrumentos gravados, ni tendrán valor probatorio ante las autoridades judiciales o administrativas.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>La cuantía de los contratos en moneda extranjera se determinará según el cambio oficial en el momento en que el impuesto se haga efectivo.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">*Parágrafo.</span> </span></strong>En los casos previstos en el numeral 3), cuando la Administración Tributaria determine que el valor a pagar inicialmente era cuantificable, podrá, mediante resolución, fijar dicho valor imponiendo adicionalmente una sanción por inexactitud equivalente al 160% del mayor valor determinado.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 38.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "38"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "177"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 28 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0440 (2026-01-19): Otros Temas\noficio 18143 (2025-12-30): Impuesto de Timbre\noficio 17663 (2025-12-16): Impuesto de Timbre\noficio 13040 (2025-09-25): Impuesto de Timbre\noficio 12500 (2025-09-16): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0440-2026",
+      "tipo": "oficio",
+      "numero": "0440",
+      "fecha": "2026-01-19",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18143-2025",
+      "tipo": "oficio",
+      "numero": "18143",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17663-2025",
+      "tipo": "oficio",
+      "numero": "17663",
+      "fecha": "2025-12-16",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13040-2025",
+      "tipo": "oficio",
+      "numero": "13040",
+      "fecha": "2025-09-25",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12500-2025",
+      "tipo": "oficio",
+      "numero": "12500",
+      "fecha": "2025-09-16",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12498-2025",
+      "tipo": "oficio",
+      "numero": "12498",
+      "fecha": "2025-09-15",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12334-2025",
+      "tipo": "oficio",
+      "numero": "12334",
+      "fecha": "2025-09-15",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11623-2025",
+      "tipo": "oficio",
+      "numero": "11623",
+      "fecha": "2025-08-21",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11216-2025",
+      "tipo": "oficio",
+      "numero": "11216",
+      "fecha": "2025-08-20",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11215-2025",
+      "tipo": "oficio",
+      "numero": "11215",
+      "fecha": "2025-08-20",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11207-2025",
+      "tipo": "oficio",
+      "numero": "11207",
+      "fecha": "2025-08-12",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10195-2026",
+      "tipo": "oficio",
+      "numero": "10195",
+      "fecha": "",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9623-2025",
+      "tipo": "oficio",
+      "numero": "9623",
+      "fecha": "2025-07-22",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9085-2025",
+      "tipo": "oficio",
+      "numero": "9085",
+      "fecha": "2025-07-11",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7648-2025",
+      "tipo": "oficio",
+      "numero": "7648",
+      "fecha": "2025-06-13",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7347-2025",
+      "tipo": "oficio",
+      "numero": "7347",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7346-2025",
+      "tipo": "oficio",
+      "numero": "7346",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7335-2025",
+      "tipo": "oficio",
+      "numero": "7335",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5748-2025",
+      "tipo": "oficio",
+      "numero": "5748",
+      "fecha": "2025-05-09",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5176-2025",
+      "tipo": "oficio",
+      "numero": "5176",
+      "fecha": "2025-04-21",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4803-2025",
+      "tipo": "oficio",
+      "numero": "4803",
+      "fecha": "2025-03-24",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4560-2025",
+      "tipo": "oficio",
+      "numero": "4560",
+      "fecha": "2025-04-07",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4511-2025",
+      "tipo": "oficio",
+      "numero": "4511",
+      "fecha": "2025-04-09",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4063-2025",
+      "tipo": "oficio",
+      "numero": "4063",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4062-2025",
+      "tipo": "oficio",
+      "numero": "4062",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3418-2025",
+      "tipo": "oficio",
+      "numero": "3418",
+      "fecha": "2025-02-25",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3406-2025",
+      "tipo": "oficio",
+      "numero": "3406",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2687-2025",
+      "tipo": "oficio",
+      "numero": "2687",
+      "fecha": "2025-03-05",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0278-2016",
+      "tipo": "oficio",
+      "numero": "0278",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Se hace exigible que el beneficiario obtenga el RUT para su reconocimiento tributario y que a la urbanizadora no se le desconozcan los gastos o deducciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71058-2009",
+      "tipo": "oficio",
+      "numero": "71058",
+      "fecha": "2009-09-01",
+      "tema": "&iquest;En qu&eacute; momento se causa y cancelan el impuesto sobre las ventas y el impuesto de timbre nacional en un contrato de suministro de pasajes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26805-2007",
+      "tipo": "oficio",
+      "numero": "26805",
+      "fecha": "2007-04-10",
+      "tema": "Sobre la tarifa de retenci&oacute;n en la fuente a practicar en un contrato de concesi&oacute;n para la prestaci&oacute;n de servicios de la Secretar&iacute;a de Tr&aacute;nsito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95876-2005",
+      "tipo": "oficio",
+      "numero": "95876",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Los contratos de cuentas en participaci&oacute;n est&aacute;n sometidos al pago del impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88751-2005",
+      "tipo": "oficio",
+      "numero": "88751",
+      "fecha": "2005-11-29",
+      "tema": "&iquest;Cu&aacute;les son los criterios aplicables para efectos de establecer la base gravable del impuesto de timbre en el caso de los convenios interadministrativos, en particular los suscritos con el Fondo Financiero de Proyectos de Desarrollo FONADE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62349-2005",
+      "tipo": "oficio",
+      "numero": "62349",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Solicita se reconsidere el Concepto N&ordm; 011467 de febrero 28 de 2005, en el cual este Despacho estima no aplicable el art&iacute;culo 102-3 del Estatuto Tributario que trata de la distribuci&oacute;n de los ingresos en las cooperativas de trabajo asociado, en la determinaci&oacute;n de la base gravable del Impuesto de Timbre de un contrato de prestaci&oacute;n de servicios suscrito por la cooperativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062349-2005",
+      "tipo": "concepto",
+      "numero": "0062349",
+      "fecha": "2005-09-06",
+      "tema": "Impuesto de timbre. Base gravable en contratos de prestaci&oacute;n de servicios suscritos por las cooperativas de trabajo asociado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55417-2005",
+      "tipo": "oficio",
+      "numero": "55417",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;La suscripci&oacute;n de un acuerdo para desarrollar un proyecto inmobiliario causa el impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091643-2004",
+      "tipo": "concepto",
+      "numero": "0091643",
+      "fecha": "2004-12-30",
+      "tema": "&iquest;El otorgamiento de contratos de cobertura de riesgo de que trata el art&iacute;culo 49 de la ley 546 de 1999 celebrados entre el banco de la republica y los establecimientos de cr&eacute;dito causa el impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046802-2002",
+      "tipo": "concepto",
+      "numero": "0046802",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;La falta de estipulaci&oacute;n de la remuneraci&oacute;n en los contratos en los que la remuneraci&oacute;n es la base gravable, los exime del impuesto documental de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083435-2001",
+      "tipo": "concepto",
+      "numero": "0083435",
+      "fecha": "2001-09-12",
+      "tema": "&iquest;Dentro de la base gravable para liquidar el impuesto de timbre nacional se debe incluir el valor correspondiente a gastos reembolsables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028348-2001",
+      "tipo": "concepto",
+      "numero": "0028348",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;La base gravable, de un contrato de daci&oacute;n en pago, para efectos del impuesto de timbre incluye el capital m&aacute;s los intereses causados, teniendo en cuenta que el mismo deriva de un contrato anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025791-2001",
+      "tipo": "concepto",
+      "numero": "0025791",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;La base sobre la cual recae el impuesto de timbre, en contratos suscritros con empresas de servicios temporales, es el porcentaje que corresponde a la administraci&oacute;n de la n&oacute;mina o es sobre todo el contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0115062-2000",
+      "tipo": "concepto",
+      "numero": "0115062",
+      "fecha": "2000-11-24",
+      "tema": "&iquest;Se causa el impuesto de timbre nacional sobre los actos administrativos proferidos por una empresa industrial y comercial del Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009333-2000",
+      "tipo": "concepto",
+      "numero": "0009333",
+      "fecha": "2000-02-04",
+      "tema": "&iquest;Un contrato de cuentas en participaci&oacute;n, suscrito entre personas jur&iacute;dicas, cuya finalidad es la explotaci&oacute;n agr&iacute;cola de un predio y cuyo texto expresa que el mismo es de cuant&iacute;a indeterminada, causa impuesto de timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066737-1999",
+      "tipo": "concepto",
+      "numero": "0066737",
+      "fecha": "1999-07-03",
+      "tema": "&iquest;C&oacute;mo se l&iacute;quida el impuesto d timbre en un contrato de arrendamiento pactado en divisas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055324-1999",
+      "tipo": "concepto",
+      "numero": "0055324",
+      "fecha": "1999-06-16",
+      "tema": "&iquest;Se causa el impuesto de timbre en la renovaci&oacute;n que implique una modificaci&oacute;n de un contrato de ejecuci&oacute;n sucesiva y cuant&iacute;a indeterminada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039088-1999",
+      "tipo": "concepto",
+      "numero": "0039088",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016211-1999",
+      "tipo": "concepto",
+      "numero": "0016211",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069271-1998",
+      "tipo": "concepto",
+      "numero": "0069271",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;La exenci&oacute;n del impuesto de timbre establecida en la ley tributaria para los contratos accesorios que consten en el documento del contrato principal, es aplicable en un contrato de vigilancia privada que se renueva cada a&ntilde;o, y se cancela con factura? &iquest;Se aplica el impuesto de timbre en la expedici&oacute;n de facturas por servicios prestados, de acuerdo a un contrato previamente suscrito?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048608-1998",
+      "tipo": "concepto",
+      "numero": "0048608",
+      "fecha": "1998-06-24",
+      "tema": "&iquest;C&oacute;mo se determina la cuant&iacute;a en un contrato que se maneja en d&oacute;lares y al que se le efect&uacute;an ajustes a&ntilde;o a a&ntilde;o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010332-1998",
+      "tipo": "concepto",
+      "numero": "0010332",
+      "fecha": "1998-02-19",
+      "tema": "&iquest;El impuesto de timbre en los contratos de arrendamiento financiero o leasing, se debe cancelar al momento de suscripci&oacute;n del contrato o en el de su vencimiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001294-1997",
+      "tipo": "concepto",
+      "numero": "0001294",
+      "fecha": "1997-01-10",
+      "tema": "&iquest;Para determinar el valor a pagar por concepto de impuesto de timbre en un contrato de arrendamiento cuya cuant&iacute;a es indeterminada, se debe tomar el tope m&aacute;ximo fijado en el contrato o el valor total de los pagos peri&oacute;dicos del canon de arrendamiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069070-1996",
+      "tipo": "concepto",
+      "numero": "0069070",
+      "fecha": "1996-09-04",
+      "tema": "&iquest;Cu&aacute;l es la base para establecer el impuesto de timbre cuando se trata de contratos cuyo valor depende del movimiento de un mercado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0041384-1995",
+      "tipo": "concepto",
+      "numero": "0041384",
+      "fecha": "1995-06-16",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen del impuesto a las ventas aplicable cuando una sociedad Colombiana (subordinada) preste sus servicios en el territorio nacional, como agente comercial de otra sociedad extranjera (casa matriz - agenciada) con el fin de promover en Colombia la venta en el exterior de sus productos y servir como intermediario entre la entidad agenciada y sus Clientes colombianos? &iquest;Se encuentra sometida a la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta por concepto de ingresos en divisas obtenidas en el exterior, LA TRANSFERENCIA efectuada por una sociedad extranjera (agenciada) en favor de su agente comercial en Colombia (sociedad nacional), cuando corresponda al reembolso de los gastos causados en desarrollo del contrato de agencia mercantil? &iquest;C&oacute;mo se determina el impuesto de timbre causado por la suscripci&oacute;n de un contrato de agencia comercial, cuando las obligaciones patrimoniales generadas por el mismo son de ejecuci&oacute;n sucesiva y duraci&oacute;n indefinida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006088-1994",
+      "tipo": "concepto",
+      "numero": "0006088",
+      "fecha": "1994-02-09",
+      "tema": "&iquest;Cu&aacute;l es la forma de pago del impuesto de timbre nacional que se debe cobrar a los contratos que se celebran en ejercicio del monopolio de licores. Para tal efecto anexa fotocopia del modelo contentivo de una cl&aacute;usula en la que se propone adelantar dicho cobro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013076-1993",
+      "tipo": "concepto",
+      "numero": "0013076",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006437-1993",
+      "tipo": "concepto",
+      "numero": "0006437",
+      "fecha": "1993-07-13",
+      "tema": "&iquest;En contratos de cuant&iacute;a indeterminada con entidades de derecho p&uacute;blico, los ajustes que se hagan al impuesto de timbre con posterioridad a la Ley 6a. de 1992, deben realizarse con base en la disposici&oacute;n vigente al momento de celebraci&oacute;n del contrato, seg&uacute;n la cual s&oacute;lo se paga la mitad del impuesto de timbre (art&iacute;culo 532 inciso 2o del Estatuto Tributario)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013901-1992",
+      "tipo": "concepto",
+      "numero": "0013901",
+      "fecha": "1992-01-01",
+      "tema": "Impuesto de Timbre nacional, disposiciones generales y correcci&oacute;n y pago del impuesto para que se tenga como prueba un documento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016944-1992",
+      "tipo": "concepto",
+      "numero": "0016944",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;forma de calcular el valor del impuesto de timbre del contrato que adjunta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016316-1992",
+      "tipo": "concepto",
+      "numero": "0016316",
+      "fecha": "1992-01-01",
+      "tema": "Reajuste en contratos de arrendamiento por varios a&ntilde;os",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009381-1992",
+      "tipo": "concepto",
+      "numero": "0009381",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Si un t&iacute;tulo valor pagar&eacute; otorgado en pa&iacute;s extranjero, tra&iacute;do a Colombia para ser cobrado, debe pagar impuesto de timbre y en caso de causarlo a qu&eacute; tarifa y en qu&eacute; momento. Tambi&eacute;n pregunta si debe pagarse alguna sanci&oacute;n, dado que se trajo despu&eacute;s del t&eacute;rmino que establece la ley para la liquidaci&oacute;n y pago del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002570-1991",
+      "tipo": "concepto",
+      "numero": "0002570",
+      "fecha": "1991-09-27",
+      "tema": "&iquest;Qu&eacute; porcentaje del impuesto de timbre es aplicable a los contratos y pagar&eacute;s que se tramitan por parte de esa oficina. Anota que en los pagar&eacute;s intervienen el beneficiario y su fiador; pero el mismo es consecuencia del contrato suscrito con el Departamento; Servicio Seccional de Salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024416-1990",
+      "tipo": "concepto",
+      "numero": "0024416",
+      "fecha": "1990-01-01",
+      "tema": "Contrato con estipulaciones para terceros",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018404-1990",
+      "tipo": "concepto",
+      "numero": "0018404",
+      "fecha": "1990-01-01",
+      "tema": "Contrato de prenda sin tenencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023287-1989",
+      "tipo": "concepto",
+      "numero": "0023287",
+      "fecha": "1989-01-01",
+      "tema": "Instrumentos de cuant&iacute;a indeterminada pero con l&iacute;mite m&aacute;ximo",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ]
+}

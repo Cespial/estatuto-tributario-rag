@@ -1,1 +1,1576 @@
-{"id_articulo": "Art. 241", "titulo": "Art. 241. Tarifa para las personas naturales y extranjeras residentes y asignaciones y donaciones modales.", "titulo_corto": "Tarifa para las personas naturales y extranjeras residentes y asignaciones y donaciones modales.", "slug": "241", "url_origen": "https://estatuto.co/241", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*El impuesto sobre la renta de las personas naturales residentes en el país, de las sucesiones de causantes residentes en el país, y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, se determinará de acuerdo con la siguiente tabla: Rangos UVT Tarifa Marginal Impuesto Desde Hasta > 0 1.090 0% 0 >1.090 1.700 19% (Base Gravable en UVT menos 1.090 UVT) x 19% >1.700 4.100 28% (Base Gravable en UVT menos 1.700 UVT) x 28% + 116 UVT >4.100 8.670 33% (Base Gravable en UVT menos 4.100 UVT) x 33% + 788 UVT >8.670 18.970 35% (Base Gravable en UVT menos menos 8.670 UVT) x 35% + 2.296 UVT >18.970 31.000 37% (Base Gravable en UVT menos 18.970 UVT) x 37% + 5.901 UVT >31.000 En adelante 39% (Base Gravable en UVT menos 31.000 UVT) x 39% + 10.352 UVT", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto sobre la renta de las personas naturales residentes en el país, de las sucesiones de causantes residentes en el país, y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, se determinará de acuerdo con la siguiente tabla:</p>\n<table border=\"2\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 749px; height: 585px;\">\n<colgroup>\n<col span=\"3\" width=\"80\"/>\n<col width=\"204\"/> </colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\" style=\"text-align: center;\"><strong>Rangos UVT</strong></td>\n<td rowspan=\"2\" style=\"text-align: center;\"><strong>Tarifa Marginal</strong></td>\n<td rowspan=\"2\" style=\"text-align: center;\"><strong>Impuesto</strong></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><strong>Desde</strong></td>\n<td style=\"text-align: center;\"><strong>Hasta</strong></td>\n</tr>\n<tr>\n<td>&gt; 0</td>\n<td style=\"text-align: center;\">1.090</td>\n<td style=\"text-align: center;\">0%</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&gt;1.090</td>\n<td style=\"text-align: center;\">1.700</td>\n<td style=\"text-align: center;\">19%</td>\n<td>(Base Gravable en  UVT menos 1.090 UVT) x 19%</td>\n</tr>\n<tr>\n<td>&gt;1.700</td>\n<td style=\"text-align: center;\">4.100</td>\n<td style=\"text-align: center;\">28%</td>\n<td>(Base Gravable en  UVT menos 1.700 UVT) x 28% + 116 UVT</td>\n</tr>\n<tr>\n<td>&gt;4.100</td>\n<td style=\"text-align: center;\">8.670</td>\n<td style=\"text-align: center;\">33%</td>\n<td>(Base Gravable en  UVT menos 4.100 UVT) x 33% + 788 UVT</td>\n</tr>\n<tr>\n<td>&gt;8.670</td>\n<td style=\"text-align: center;\">18.970</td>\n<td style=\"text-align: center;\">35%</td>\n<td>(Base Gravable en  UVT menos menos 8.670 UVT) x 35% + 2.296 UVT</td>\n</tr>\n<tr>\n<td>&gt;18.970</td>\n<td style=\"text-align: center;\">31.000</td>\n<td style=\"text-align: center;\">37%</td>\n<td>(Base Gravable en  UVT menos 18.970 UVT) x 37% + 5.901 UVT</td>\n</tr>\n<tr>\n<td>&gt;31.000</td>\n<td style=\"text-align: center;\">En adelante</td>\n<td style=\"text-align: center;\">39%</td>\n<td>(Base Gravable en  UVT menos 31.000 UVT) x 39% + 10.352 UVT</td>\n</tr>\n</tbody>\n</table>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 34. -Modificado. Ley 1943 de 2018 Art. 26. * -Modificado- Ley 1819 de 2016 Art. 5. ** -Modificado- Ley 1607 de 2012 Art. 8.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "34"}], "total_modificaciones": 1, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["242", "331"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 241",
+  "titulo": "Art. 241. Tarifa para las personas naturales y extranjeras residentes y asignaciones y donaciones modales.",
+  "titulo_corto": "Tarifa para las personas naturales y extranjeras residentes y asignaciones y donaciones modales.",
+  "slug": "241",
+  "url_origen": "https://estatuto.co/241",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*El impuesto sobre la renta de las personas naturales residentes en el país, de las sucesiones de causantes residentes en el país, y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, se determinará de acuerdo con la siguiente tabla: Rangos UVT Tarifa Marginal Impuesto Desde Hasta > 0 1.090 0% 0 >1.090 1.700 19% (Base Gravable en UVT menos 1.090 UVT) x 19% >1.700 4.100 28% (Base Gravable en UVT menos 1.700 UVT) x 28% + 116 UVT >4.100 8.670 33% (Base Gravable en UVT menos 4.100 UVT) x 33% + 788 UVT >8.670 18.970 35% (Base Gravable en UVT menos menos 8.670 UVT) x 35% + 2.296 UVT >18.970 31.000 37% (Base Gravable en UVT menos 18.970 UVT) x 37% + 5.901 UVT >31.000 En adelante 39% (Base Gravable en UVT menos 31.000 UVT) x 39% + 10.352 UVT",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto sobre la renta de las personas naturales residentes en el país, de las sucesiones de causantes residentes en el país, y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, se determinará de acuerdo con la siguiente tabla:</p>\n<table border=\"2\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 749px; height: 585px;\">\n<colgroup>\n<col span=\"3\" width=\"80\"/>\n<col width=\"204\"/> </colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\" style=\"text-align: center;\"><strong>Rangos UVT</strong></td>\n<td rowspan=\"2\" style=\"text-align: center;\"><strong>Tarifa Marginal</strong></td>\n<td rowspan=\"2\" style=\"text-align: center;\"><strong>Impuesto</strong></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><strong>Desde</strong></td>\n<td style=\"text-align: center;\"><strong>Hasta</strong></td>\n</tr>\n<tr>\n<td>&gt; 0</td>\n<td style=\"text-align: center;\">1.090</td>\n<td style=\"text-align: center;\">0%</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&gt;1.090</td>\n<td style=\"text-align: center;\">1.700</td>\n<td style=\"text-align: center;\">19%</td>\n<td>(Base Gravable en  UVT menos 1.090 UVT) x 19%</td>\n</tr>\n<tr>\n<td>&gt;1.700</td>\n<td style=\"text-align: center;\">4.100</td>\n<td style=\"text-align: center;\">28%</td>\n<td>(Base Gravable en  UVT menos 1.700 UVT) x 28% + 116 UVT</td>\n</tr>\n<tr>\n<td>&gt;4.100</td>\n<td style=\"text-align: center;\">8.670</td>\n<td style=\"text-align: center;\">33%</td>\n<td>(Base Gravable en  UVT menos 4.100 UVT) x 33% + 788 UVT</td>\n</tr>\n<tr>\n<td>&gt;8.670</td>\n<td style=\"text-align: center;\">18.970</td>\n<td style=\"text-align: center;\">35%</td>\n<td>(Base Gravable en  UVT menos menos 8.670 UVT) x 35% + 2.296 UVT</td>\n</tr>\n<tr>\n<td>&gt;18.970</td>\n<td style=\"text-align: center;\">31.000</td>\n<td style=\"text-align: center;\">37%</td>\n<td>(Base Gravable en  UVT menos 18.970 UVT) x 37% + 5.901 UVT</td>\n</tr>\n<tr>\n<td>&gt;31.000</td>\n<td style=\"text-align: center;\">En adelante</td>\n<td style=\"text-align: center;\">39%</td>\n<td>(Base Gravable en  UVT menos 31.000 UVT) x 39% + 10.352 UVT</td>\n</tr>\n</tbody>\n</table>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 34. -Modificado. Ley 1943 de 2018 Art. 26. * -Modificado- Ley 1819 de 2016 Art. 5. ** -Modificado- Ley 1607 de 2012 Art. 8.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "34"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "242",
+    "331"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 157 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902141-2020",
+      "tipo": "oficio",
+      "numero": "902141",
+      "fecha": "2020-06-08",
+      "tema": "Enajenaci&oacute;n de activos - Impuestos de competencia de la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15137-2019",
+      "tipo": "oficio",
+      "numero": "15137",
+      "fecha": "2019-06-11",
+      "tema": "Tratamiento tributario aplicable a los ingresos pasivos recibidos por una Entidad Controlada del Exterior, propiedad de un residente colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9178-2019",
+      "tipo": "oficio",
+      "numero": "9178",
+      "fecha": "2019-04-12",
+      "tema": "Exenci&oacute;n de la renta a hoteles nuevos o por remodelaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32753-2018",
+      "tipo": "oficio",
+      "numero": "32753",
+      "fecha": "2018-11-09",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta de una persona natural que recibi&oacute; para el a&ntilde;o gravable una suma de dinero correspondiente a un retroactivo pensional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15878-2018",
+      "tipo": "oficio",
+      "numero": "15878",
+      "fecha": "2018-06-19",
+      "tema": "Ingresos Constitutivos de Renta y Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1734-2018",
+      "tipo": "oficio",
+      "numero": "1734",
+      "fecha": "2018-10-08",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20964-2017",
+      "tipo": "oficio",
+      "numero": "20964",
+      "fecha": "2017-08-04",
+      "tema": "Monotributo - Firmeza declaraciones tributarias - R&eacute;gimen aplicable IVA - Exoneraci&oacute;n aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17806-2017",
+      "tipo": "oficio",
+      "numero": "17806",
+      "fecha": "2017-07-06",
+      "tema": "Requisitos para la procedencia de las deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10810-2017",
+      "tipo": "oficio",
+      "numero": "10810",
+      "fecha": "2017-05-08",
+      "tema": "Rentas de trabajo exentas- Gastos de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1717-2017",
+      "tipo": "oficio",
+      "numero": "1717",
+      "fecha": "2017-10-23",
+      "tema": "Deducci&oacute;n por dependientes prevista en el art&iacute;culo 387 ET aplica a quienes obtengan rentas de trabajo, sin diferenciar si &eacute;stas fueron obtenidas por un contrato civil, o por uno laboral o por el desempe&ntilde;o de un cargo p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1112-2017",
+      "tipo": "oficio",
+      "numero": "1112",
+      "fecha": "2017-05-09",
+      "tema": "Retenci&oacute;n en la fuente por pagos de pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30970-2016",
+      "tipo": "oficio",
+      "numero": "30970",
+      "fecha": "2016-11-15",
+      "tema": "Manifiesta su inconformidad frente a la interpretaci&oacute;n expuesta en el Oficio n&uacute;mero 014740 del 13 de junio de 2016, se&ntilde;alando que no la comparte, dado que seg&uacute;n su criterio, los art&iacute;culos 126-1, 126-4, 387 y 387-1 del Estatuto Tributario son aplicables a los trabajadores extranjeros sin residencia en Colombia, ya que estos no hacen distinci&oacute;n y deber&iacute;an aplicarse para cualquier individuo que perciba compensaci&oacute;n por sus servicios y de esta manera hacer uso de los mecanismos que la misma ley contempla para optimizar sus impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10479-2016",
+      "tipo": "oficio",
+      "numero": "10479",
+      "fecha": "2016-05-03",
+      "tema": "Solicita la modificaci&oacute;n de la doctrina contenida en el Concepto n&uacute;mero 25242 de marzo de 2007, y los Oficios n&uacute;meros 075074 de octubre 11 de 2010, 007254 de marzo 9 de 2015 y 28448 de septiembre 30 de 2015, en los cuales se efectu&oacute; el an&aacute;lisis de la Convenci&oacute;n Internacional sobre la Protecci&oacute;n de los Derechos de todos los Trabajadores Migratorios y de sus Familias, y se afirm&oacute; que tal convenci&oacute;n aplica para los trabajadores en cuanto sean provenientes de los pa&iacute;ses que suscribieron la Convenci&oacute;n, quienes tienen derecho al mismo tratamiento tributario de los nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28750-2015",
+      "tipo": "oficio",
+      "numero": "28750",
+      "fecha": "2015-10-02",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento impositivo para ciudadanos colombianos que, por intermedio de la asesor&iacute;a de un br&oacute;ker financiero domiciliado en el exterior, invierten recursos fuera de Colombia obteniendo unas ganancias que en unos casos depositan en cuentas bancarias colombianas y en otros en cuentas bancarias extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24300-2015",
+      "tipo": "oficio",
+      "numero": "24300",
+      "fecha": "2015-08-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67157-2014",
+      "tipo": "oficio",
+      "numero": "67157",
+      "fecha": "2014-12-22",
+      "tema": "Convenio para evitar la doble Imposici&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055620-2014",
+      "tipo": "concepto",
+      "numero": "0055620",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;Est&aacute;n sometidos a los impuestos sobre la renta y complementarios y sobre las ventas as&iacute; como a sus correspondientes retenciones los pagos efectuados por concepto de programas educativos en el exterior con recursos de COLCIENCIAS y centros de investigaci&oacute;n a favor de personas naturales colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49492-2014",
+      "tipo": "oficio",
+      "numero": "49492",
+      "fecha": "2014-08-15",
+      "tema": "Impuestos y obligaciones fiscales a la que est&aacute; sujeto un mexicano que trabaja con una compa&ntilde;&iacute;a multinacional y decide trasladarlo a la ciudad de Bogot&aacute;, cuya n&oacute;mina estar&aacute; cubierta por la nueva oficina en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74536-2013",
+      "tipo": "oficio",
+      "numero": "74536",
+      "fecha": "2013-11-21",
+      "tema": "Progresividad en el pago del impuesto sobre la renta - Peque&ntilde;a Nuevas Empresas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67579-2013",
+      "tipo": "oficio",
+      "numero": "67579",
+      "fecha": "2013-10-23",
+      "tema": "Aclaraci&oacute;n del Concepto No 100202208-282 en relaci&oacute;n con los beneficios consagrados en la Ley 1429 de 2010, especialmente, en lo relacionado con el art&iacute;culo 25 de la Ley 1607 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72348-2012",
+      "tipo": "oficio",
+      "numero": "72348",
+      "fecha": "2012-11-20",
+      "tema": "Progresividad en el pago del impuesto sobre la renta - Impuestos descontables - Importaci&oacute;n y adquisici&oacute;n de maquinaria industrial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77118-2007",
+      "tipo": "oficio",
+      "numero": "77118",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Qu&eacute; base gravable se debe aplicar a la tarifa especial del 1.6% por concepto de impuesto sobre las ventas en la prestaci&oacute;n de servicios suministrados por cooperativas y precooperativas facturar a la tarifa general del 16% sobre la administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20070-2007",
+      "tipo": "oficio",
+      "numero": "20070",
+      "fecha": "2007-03-14",
+      "tema": "&iquest;Existe alguna norma que indique expresamente que para liquidar el impuesto sobre la renta para las personas naturales se debe tomar el valor absoluto y no los porcentajes contenidos en la tabla que figura en el art&iacute;culo 241 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99732-2006",
+      "tipo": "oficio",
+      "numero": "99732",
+      "fecha": "2006-11-24",
+      "tema": "&iquest;Los incentivos que se fijan al accionante triunfante de una Acci&oacute;n Popular, est&aacute;n sujetos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y complementarios, y si es as&iacute;, cu&aacute;l es el porcentaje a deducir o a partir de que monto debe gravarse ese incentivo? Renta liquida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91943-2005",
+      "tipo": "oficio",
+      "numero": "91943",
+      "fecha": "2005-12-13",
+      "tema": "&iquest;Cu&aacute;l es la forma de calcular la renta exenta a que se refiere el numeral 10 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066040-2000",
+      "tipo": "concepto",
+      "numero": "0066040",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;Los auxilios por calamidad domestica que un fondo de empleados realiza a sus asociados est&aacute;n sometidos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055785-1998",
+      "tipo": "concepto",
+      "numero": "0055785",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;A qu&eacute; objeto deber&aacute; referirse concretamente la certificaci&oacute;n del perito contemplada en el art&iacute;culo 241 del Estatuto Tributario. A una unidad f&iacute;sica? A una cuenta contable? A un grupo de cuentas contables? O a todos los activos del balance globalmente? &iquest;Pueden ser considerados como equivalentes a una certificaci&oacute;n de perito documentos tales como el aforo de aduanas, escrituras p&uacute;blicas, extractos catastrales, contratos de compra - venta o las facturas comerciales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012018-1998",
+      "tipo": "concepto",
+      "numero": "0012018",
+      "fecha": "1998-02-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001241-1993",
+      "tipo": "concepto",
+      "numero": "0001241",
+      "fecha": "1993-06-15",
+      "tema": "&iquest;El Impuesto a la renta es aplicable a subsidiarias o sucursales de sociedades extranjeras?&iquest;El Impuesto de renta cuando se capitalizan las utilidades, si se mantiene la inversi&oacute;n por 10 a&ntilde;os?&iquest;Cu&aacute;l es el Impuesto m&aacute;ximo de renta para las personas naturales o extranjeras residentes en el pa&iacute;s?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1647-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1647",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-379-2020",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "379",
+      "year": 2020,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-575-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "575",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-690-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 2003
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-257-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "257",
+      "year": 2022,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-553-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "553",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-421-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "421",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-385-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "385",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-690-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-844-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "844",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-896-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "896",
+      "year": 2003
+    },
+    {
+      "id": "cc-c-740-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "740",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-993-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "993",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1028-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1028",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-094-2024",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "094",
+      "year": 2024,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-541-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "541",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-073-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "073",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-230-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "230",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-523-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "523",
+      "year": 1995
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-987-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "987",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-533-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "533",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-540-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-335-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "335",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-341-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "341",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-595-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "595",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1033-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1033",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-016-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "016",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-239-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "239",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-477-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "477",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-1115-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1115",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-138-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "138",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1052-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1052",
+      "year": 2001,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-260-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "260",
+      "year": 1993,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-510-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "510",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-511-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-153-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "153",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-748-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "748",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1021-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1021",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-537-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "537",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-378-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "378",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-724-2007",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "724",
+      "year": 2007,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-338-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "338",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-225-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "225",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-840-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "840",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-891-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "891",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-261-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "261",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-387-1997",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "387",
+      "year": 1997,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-038-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "038",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-226-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "226",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-559-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "559",
+      "year": 1999,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-843-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "843",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

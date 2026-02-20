@@ -3,9 +3,10 @@
 import { Suspense, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Search, Calendar, Filter, Table2, CalendarDays, ExternalLink } from "lucide-react";
+import { Search, Calendar, Filter, Table2, CalendarDays, ExternalLink, Newspaper } from "lucide-react";
 import { clsx } from "clsx";
-import { OBLIGACIONES, CALENDARIO_DISCLAIMER } from "@/config/calendario-data";
+import { OBLIGACIONES, CALENDARIO_DISCLAIMER, CALENDARIO_LAST_UPDATE } from "@/config/calendario-data";
+import { NOVEDADES_ENRIQUECIDAS } from "@/config/novedades-data";
 import { getRelacionObligacion } from "@/config/relaciones-tributarias";
 import { ReferencePageLayout } from "@/components/layout/ReferencePageLayout";
 import { AddToCalendarButton } from "@/components/calendar/AddToCalendarButton";
@@ -47,6 +48,18 @@ function isWithinSelectedRange(fechaIso: string, range: CalendarRangeFilter): bo
     return target.getFullYear() === 2026;
   }
 
+  if (range === "semana") {
+    const nextWeek = new Date(today);
+    nextWeek.setDate(today.getDate() + 7);
+    return target >= today && target <= nextWeek;
+  }
+
+  if (range === "proximos30") {
+    const next30 = new Date(today);
+    next30.setDate(today.getDate() + 30);
+    return target >= today && target <= next30;
+  }
+
   if (range === "mes") {
     const start = new Date(today.getFullYear(), today.getMonth(), 1);
     const end = new Date(today.getFullYear(), today.getMonth() + 1, 1);
@@ -67,7 +80,7 @@ function getVisibleMonths(range: CalendarRangeFilter): Date[] {
     return Array.from({ length: 12 }, (_, index) => new Date(2026, index, 1));
   }
 
-  if (range === "mes") {
+  if (range === "mes" || range === "semana" || range === "proximos30") {
     return [new Date(year, now.getMonth(), 1)];
   }
 
@@ -94,7 +107,7 @@ function CalendarioPageContent() {
   const [rangeFilter, setRangeFilter] = useState<CalendarRangeFilter>(() => (novedadParam ? "anio" : "mes"));
   const [viewMode, setViewMode] = useState<"tabla" | "mes">("tabla");
 
-  const { profiles, activeProfileId, saveProfile, deleteProfile, setActiveProfile } = useCalendarProfiles();
+  const { profiles, activeProfileId, saveProfile, deleteProfile, setActiveProfile, importProfiles, exportProfiles } = useCalendarProfiles();
 
   const obligationsList = useMemo<CalendarDeadlineItem[]>(() => {
     const list: CalendarDeadlineItem[] = [];
@@ -118,6 +131,7 @@ function CalendarioPageContent() {
           calculadoraHref: relacion.calculadoraHref,
           relatedIndicatorIds: relacion.relatedIndicatorIds,
           relatedNovedadIds: relacion.relatedNovedadIds,
+          articulosET: relacion.articulosET,
           status,
           daysToDeadline: daysUntil(v.fecha),
         });
@@ -185,13 +199,40 @@ function CalendarioPageContent() {
     setNitValue(profile.nitFilters.join(","));
   };
 
+  const recentCalendarNews = useMemo(() => {
+    const threshold = new Date("2026-02-19");
+    threshold.setDate(threshold.getDate() - 60);
+    return NOVEDADES_ENRIQUECIDAS.filter(
+      (n) => n.cambiaCalendario && new Date(n.fecha) >= threshold
+    ).slice(0, 1);
+  }, []);
+
   return (
     <ReferencePageLayout
       title="Calendario Tributario 2026"
       description="Visualiza tus vencimientos críticos por NIT, exporta tus fechas y prioriza obligaciones para evitar sanciones."
       icon={Calendar}
+      updatedAt={CALENDARIO_LAST_UPDATE}
     >
       <UpcomingDeadlinesPanel items={upcomingItems} />
+
+      {!novedadParam && recentCalendarNews.length > 0 && (
+        <div className="rounded-lg border border-sky-200 bg-sky-50 p-4 text-sm text-sky-900 shadow-sm dark:border-sky-900/40 dark:bg-sky-900/20 dark:text-sky-100">
+          <div className="flex items-center gap-2 font-medium">
+            <Newspaper className="h-4 w-4" />
+            Novedad normativa reciente: {recentCalendarNews[0].titulo}
+          </div>
+          <p className="mt-1 opacity-80">
+            Esta resolución puede afectar tus plazos.
+            <Link
+              href={`/calendario?novedad=${recentCalendarNews[0].id}`}
+              className="ml-2 font-semibold underline underline-offset-2 decoration-sky-400 hover:decoration-current"
+            >
+              Filtrar calendario por esta novedad
+            </Link>
+          </p>
+        </div>
+      )}
 
       {novedadParam && (
         <div className="rounded-lg border border-border/60 bg-amber-50/70 p-4 text-sm text-amber-900 shadow-sm dark:bg-amber-900/30 dark:text-amber-100">
@@ -217,6 +258,8 @@ function CalendarioPageContent() {
         onApplyProfile={handleApplyProfile}
         onSaveProfile={saveProfile}
         onDeleteProfile={deleteProfile}
+        onImportProfiles={importProfiles}
+        onExportProfiles={exportProfiles}
       />
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -375,7 +418,9 @@ function CalendarioPageContent() {
                             <AddToCalendarButton
                               title={`${item.obligacion} (NIT ${item.ultimoDigito})`}
                               date={item.fecha}
-                              description={`Periodo: ${item.periodo}. ${item.descripcion}`}
+                              description={`Periodo: ${item.periodo}.\n\n${item.descripcion}${
+                                item.articulosET ? `\n\nArtículos ET: ${item.articulosET.join(", ")}` : ""
+                              }\n\nGenerado por SuperApp Tributaria Colombia.`}
                             />
                           )}
                           <Link

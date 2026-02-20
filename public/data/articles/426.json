@@ -1,1 +1,789 @@
-{"id_articulo": "Art. 426", "titulo": "Art. 426. Servicios excluidos.", "titulo_corto": "Servicios excluidos.", "slug": "426", "url_origen": "https://estatuto.co/426", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 6, "contenido_texto": "*Cuando en un establecimiento de comercio se lleven a cabo actividades de expendio de comidas y bebidas preparadas en restaurantes, cafeterías, autoservicios, heladerías, fruterías, pastelerías y panaderías, para consumo en el lugar, para ser llevadas por el comprador o entregadas a domicilio, los servicios de alimentación bajo contrato, incluyendo el servicio de catering, y el expendio de comidas y bebidas alcohólicas para consumo dentro bares, tabernas y discotecas, se entenderá que la venta se hace como servicio excluido del impuesto sobre las ventas -IVA y está sujeta al impuesto nacional al consumo al que hace referencia el artículo 512-1 de este Estatuto. Parágrafo. El presente artículo no aplica para los contribuyentes que desarrollen: contratos de franquicia, los cuales se encuentran sometidos al impuesto sobre las ventas -IVA.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando en un establecimiento de comercio se lleven a cabo actividades de expendio de comidas y bebidas preparadas en restaurantes, cafeterías, autoservicios, heladerías, fruterías, pastelerías y panaderías, para consumo en el lugar, para ser llevadas por el comprador o entregadas a domicilio, los servicios de alimentación bajo contrato, incluyendo el servicio de catering, y el expendio de comidas y bebidas alcohólicas para consumo dentro bares, tabernas y discotecas, se entenderá que la venta se hace como servicio excluido del impuesto sobre las ventas -IVA y está sujeta al impuesto nacional al consumo al que hace referencia el <a href=\"https://estatuto.co/512-1\" rel=\"noopener\" target=\"_blank\">artículo 512-1</a> de este Estatuto.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo.</span></strong> El presente artículo no aplica para los contribuyentes que desarrollen: contratos de franquicia, los cuales se encuentran sometidos al impuesto sobre las ventas -IVA.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "Nota 1.Artículo Modificado Ley 2010 de 2019 Art. 2 - Modificado Ley 1943 de 2018 Art. 2 * -Modificado- Ley 1607 de 2012. Art. 39", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "2"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "2"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 6, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1607 de 2012", "Ley 1943 de 2018", "Ley 2010 de 2019", "Ley 223 de 1995", "Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - Parágrafo declarado EXEQUIBLE, por el cargo analizado, por la Corte Constitucional mediante Sentencia C-503-23 de 21 de noviembre de 2023, Magistrada Ponente Dra. Paola Andrea Meneses Mosquera."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": ["512-1"], "referenced_by": ["512-1"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 426",
+  "titulo": "Art. 426. Servicios excluidos.",
+  "titulo_corto": "Servicios excluidos.",
+  "slug": "426",
+  "url_origen": "https://estatuto.co/426",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 6,
+  "contenido_texto": "*Cuando en un establecimiento de comercio se lleven a cabo actividades de expendio de comidas y bebidas preparadas en restaurantes, cafeterías, autoservicios, heladerías, fruterías, pastelerías y panaderías, para consumo en el lugar, para ser llevadas por el comprador o entregadas a domicilio, los servicios de alimentación bajo contrato, incluyendo el servicio de catering, y el expendio de comidas y bebidas alcohólicas para consumo dentro bares, tabernas y discotecas, se entenderá que la venta se hace como servicio excluido del impuesto sobre las ventas -IVA y está sujeta al impuesto nacional al consumo al que hace referencia el artículo 512-1 de este Estatuto. Parágrafo. El presente artículo no aplica para los contribuyentes que desarrollen: contratos de franquicia, los cuales se encuentran sometidos al impuesto sobre las ventas -IVA.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando en un establecimiento de comercio se lleven a cabo actividades de expendio de comidas y bebidas preparadas en restaurantes, cafeterías, autoservicios, heladerías, fruterías, pastelerías y panaderías, para consumo en el lugar, para ser llevadas por el comprador o entregadas a domicilio, los servicios de alimentación bajo contrato, incluyendo el servicio de catering, y el expendio de comidas y bebidas alcohólicas para consumo dentro bares, tabernas y discotecas, se entenderá que la venta se hace como servicio excluido del impuesto sobre las ventas -IVA y está sujeta al impuesto nacional al consumo al que hace referencia el <a href=\"https://estatuto.co/512-1\" rel=\"noopener\" target=\"_blank\">artículo 512-1</a> de este Estatuto.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo.</span></strong> El presente artículo no aplica para los contribuyentes que desarrollen: contratos de franquicia, los cuales se encuentran sometidos al impuesto sobre las ventas -IVA.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "Nota 1.Artículo Modificado Ley 2010 de 2019 Art. 2 - Modificado Ley 1943 de 2018 Art. 2 * -Modificado- Ley 1607 de 2012. Art. 39",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "2"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "2"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 6,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019",
+    "Ley 223 de 1995",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - Parágrafo declarado EXEQUIBLE, por el cargo analizado, por la Corte Constitucional mediante Sentencia C-503-23 de 21 de noviembre de 2023, Magistrada Ponente Dra. Paola Andrea Meneses Mosquera."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "512-1"
+  ],
+  "referenced_by": [
+    "512-1"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 14 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3744 (2023-03-28): (Int 383) Concepto General sobre los Impuestos saludables - Hecho generador - Responsables - Deducci&oacute;n del impuesto\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3744-2023",
+      "tipo": "oficio",
+      "numero": "3744",
+      "fecha": "2023-03-28",
+      "tema": "(Int 383) Concepto General sobre los Impuestos saludables - Hecho generador - Responsables - Deducci&oacute;n del impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0790-2026",
+      "tipo": "oficio",
+      "numero": "0790",
+      "fecha": "2026-01-23",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8359-2025",
+      "tipo": "oficio",
+      "numero": "8359",
+      "fecha": "2025-06-26",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2575-2025",
+      "tipo": "oficio",
+      "numero": "2575",
+      "fecha": "2025-03-03",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5762-2024",
+      "tipo": "oficio",
+      "numero": "5762",
+      "fecha": "2024-08-21",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906453-2022",
+      "tipo": "oficio",
+      "numero": "906453",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre las ventas - Impuesto nacional al consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904106-2022",
+      "tipo": "oficio",
+      "numero": "904106",
+      "fecha": "2022-05-23",
+      "tema": "Impuesto nacional al consumo - Base gravable y tarifa en el servicio de restaurantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902460-2022",
+      "tipo": "oficio",
+      "numero": "902460",
+      "fecha": "2022-03-25",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto nacional al consumo los productos alimenticios elaborados en las panader&iacute;as y asaderos de los establecimientos carcelarios y penitenciarios que son vendidos a las personas privadas de la libertad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901713-2022",
+      "tipo": "oficio",
+      "numero": "901713",
+      "fecha": "2022-03-07",
+      "tema": "Impuesto nacional al consumo, restaurante de hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907360-2021",
+      "tipo": "oficio",
+      "numero": "907360",
+      "fecha": "2021-07-26",
+      "tema": "Impuesto nacional al consumo - Hecho generador - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902956-2021",
+      "tipo": "oficio",
+      "numero": "902956",
+      "fecha": "2021-04-07",
+      "tema": "Servicio de alimentaci&oacute;n institucional bajo contrato de franquicia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902176-2021",
+      "tipo": "oficio",
+      "numero": "902176",
+      "fecha": "2021-03-01",
+      "tema": "Tarifa del impuesto nacional al consumo - Reducci&oacute;n en servicio de restaurante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901944-2021",
+      "tipo": "oficio",
+      "numero": "901944",
+      "fecha": "2021-03-11",
+      "tema": "Exenci&oacute;n del Impuesto Sobre las Ventas - Franquicias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906047-2020",
+      "tipo": "oficio",
+      "numero": "906047",
+      "fecha": "2020-10-14",
+      "tema": "Franquicia en servicios de expendio de comidas y bebidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903649-2020",
+      "tipo": "oficio",
+      "numero": "903649",
+      "fecha": "2020-07-31",
+      "tema": "Elecci&oacute;n por parte de emprendimiento al R&eacute;gimen Simple de Tributaci&oacute;n o al incentivo tributario para la econom&iacute;a naranja",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903094-2020",
+      "tipo": "oficio",
+      "numero": "903094",
+      "fecha": "2020-07-10",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901095-2020",
+      "tipo": "oficio",
+      "numero": "901095",
+      "fecha": "2020-04-13",
+      "tema": "Impuesto al Consumo - Responsables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900578-2020",
+      "tipo": "oficio",
+      "numero": "900578",
+      "fecha": "2020-03-04",
+      "tema": "Servicio de alimentaci&oacute;n bajo contrato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2011-2019",
+      "tipo": "oficio",
+      "numero": "2011",
+      "fecha": "2019-07-30",
+      "tema": "(Int 2011) Aplicaci&oacute;n del impuesto sobre las ventas (IVA) para las cervezas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0929-2019",
+      "tipo": "oficio",
+      "numero": "0929",
+      "fecha": "2019-04-23",
+      "tema": "(Int 929) Exclusi&oacute;n de IVA en los Departamentos de Amazonas, Guaviare, Guain&iacute;a, Vaup&eacute;s y Vichada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0751-2019",
+      "tipo": "oficio",
+      "numero": "0751",
+      "fecha": "2019-04-11",
+      "tema": "(Int 751) Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32097-2019",
+      "tipo": "oficio",
+      "numero": "32097",
+      "fecha": "2019-12-27",
+      "tema": "Exclusiones de la base gravable del impuesto nacional al consumo en servicio de restaurante y bar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25131-2019",
+      "tipo": "oficio",
+      "numero": "25131",
+      "fecha": "2019-10-03",
+      "tema": "Impuesto Nacional al Consumo y el servicio de catering",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24023-2019",
+      "tipo": "oficio",
+      "numero": "24023",
+      "fecha": "2019-09-23",
+      "tema": "&iquest;Qu&eacute; se puede hacer para retirar la responsabilidad de IVA, dado que en el RUT aparece como responsable de IVA y ahora se adicion&oacute; el impoconsumo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23971-2019",
+      "tipo": "oficio",
+      "numero": "23971",
+      "fecha": "2019-09-20",
+      "tema": "&iquest;La adquisici&oacute;n de raciones de campa&ntilde;a es un servicio de alimentaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19358-2019",
+      "tipo": "oficio",
+      "numero": "19358",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto Nacional al Consumo. Exclusiones de la base gravable del impuesto nacional al consumo en servicio de restaurante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15914-2019",
+      "tipo": "oficio",
+      "numero": "15914",
+      "fecha": "2019-06-18",
+      "tema": "No responsables del impuesto nacional al consumo de restaurantes y bares",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15136-2019",
+      "tipo": "oficio",
+      "numero": "15136",
+      "fecha": "2019-06-11",
+      "tema": "&iquest;El suministro de estancias de alimentaci&oacute;n para el personal de soldados y alumnos de las fuerzas militares se encuentra excluido del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14286-2019",
+      "tipo": "oficio",
+      "numero": "14286",
+      "fecha": "2019-06-05",
+      "tema": "&iquest;Se encuentra excluido del IVA el contrato de suministro de refrigerios para las comedores de las fuerzas militares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12447-2019",
+      "tipo": "oficio",
+      "numero": "12447",
+      "fecha": "2019-05-21",
+      "tema": "Servicios de alimentaci&oacute;n prestados bajo contrato de catering excluidos del impuesto nacional al consumo y gravados con el IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8274-2019",
+      "tipo": "oficio",
+      "numero": "8274",
+      "fecha": "2019-04-08",
+      "tema": "Impuesto al consumo del servicio de telefon&iacute;a m&oacute;vil y otros productos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8262-2019",
+      "tipo": "oficio",
+      "numero": "8262",
+      "fecha": "2019-04-08",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 426 del Estatuto Tributario, modificado por el art&iacute;culo 2 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8006-2019",
+      "tipo": "oficio",
+      "numero": "8006",
+      "fecha": "2019-04-02",
+      "tema": "Contribuyentes que desarrollan contratos de franquicia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8004-2019",
+      "tipo": "oficio",
+      "numero": "8004",
+      "fecha": "2019-04-02",
+      "tema": "Establecimientos que prestan el servicio de restaurante excluidos del impuesto al consumo y responsables del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7608-2019",
+      "tipo": "oficio",
+      "numero": "7608",
+      "fecha": "2019-03-28",
+      "tema": "Impuesto nacional al consumo - servicio de restaurantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7607-2019",
+      "tipo": "oficio",
+      "numero": "7607",
+      "fecha": "2019-03-28",
+      "tema": "Exclusiones de la base gravable del impuesto nacional al consumo en servicio de restaurante y bares",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7323-2019",
+      "tipo": "oficio",
+      "numero": "7323",
+      "fecha": "2019-03-22",
+      "tema": "Impuesto al Consumo - Tarifa - Base Gravable y Tarifa en el Servicio de Restaurantes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6290-2019",
+      "tipo": "oficio",
+      "numero": "6290",
+      "fecha": "2019-03-13",
+      "tema": "Responsables del impuesto al consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6044-2019",
+      "tipo": "oficio",
+      "numero": "6044",
+      "fecha": "2019-03-11",
+      "tema": "&iquest;La Ley 1493 de 2018, que modific&oacute; el art&iacute;culo 512-1 del Estatuto Tributario numeral 3, libero o exoner&oacute; del pago del valor del IVA en la venta de productos de panader&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5907-2019",
+      "tipo": "oficio",
+      "numero": "5907",
+      "fecha": "2019-03-07",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4412-2019",
+      "tipo": "oficio",
+      "numero": "4412",
+      "fecha": "2019-02-21",
+      "tema": "&iquest;La prestaci&oacute;n del servicio de alimentaci&oacute;n bajo contrato para el sector salud (pacientes) y el contrato de alimentaci&oacute;n de escuelas se encuentra gravado con el impuesto al consumo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4356-2019",
+      "tipo": "oficio",
+      "numero": "4356",
+      "fecha": "2019-02-21",
+      "tema": "Modificaci&oacute;n del r&eacute;gimen del impuesto para la prestaci&oacute;n de servicios de expendio de comidas para los contribuyentes que desarrollen tales actividades mediante contratos de franquicia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4326-2019",
+      "tipo": "oficio",
+      "numero": "4326",
+      "fecha": "2019-02-21",
+      "tema": "Servicio de expendio de comidas bajo la modalidad de franquicia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3835-2019",
+      "tipo": "oficio",
+      "numero": "3835",
+      "fecha": "2019-02-14",
+      "tema": "Contribuyente del impuesto unificado bajo r&eacute;gimen simple de tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3799-2019",
+      "tipo": "oficio",
+      "numero": "3799",
+      "fecha": "2019-02-14",
+      "tema": "Impuesto a las ventas por el servicio de restaurante con contrato de franquicia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3009-2019",
+      "tipo": "oficio",
+      "numero": "3009",
+      "fecha": "2019-02-07",
+      "tema": "Impuesto al Consumo - Hecho Generador - Contratos servicio de catering",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2738-2019",
+      "tipo": "oficio",
+      "numero": "2738",
+      "fecha": "2019-02-05",
+      "tema": "&iquest;El servicio de alimentaci&oacute;n de aprendices se encuentra exceptuada de IVA e IPOCONSUMO en raz&oacute;n a lo dispuesto a lo dispuesto en el art&iacute;culo 476 del Estatuto Tributario, por ser un servicio de alimentaci&oacute;n contratado con recursos p&uacute;blicos y destinada a los aprendices?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8244-2018",
+      "tipo": "oficio",
+      "numero": "8244",
+      "fecha": "2018-04-04",
+      "tema": "Contratos de servicio de alimentaci&oacute;n institucional celebrados con recursos p&uacute;blicos y destinados a la asistencia social se encuentran gravados con el impuesto al consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901729-2017",
+      "tipo": "oficio",
+      "numero": "901729",
+      "fecha": "2017-03-08",
+      "tema": "&iquest;Est&aacute;n gravados, exentos o excluidos del IVA los servicios u honorarios que prestan los auxiliares de la justicia, siendo cargos u oficios p&uacute;blicos ocasionales, cuando este oficio p&uacute;blico lo ha solicitado un privado o una entidad p&uacute;blica o estatal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34110-2017",
+      "tipo": "oficio",
+      "numero": "34110",
+      "fecha": "2017-12-21",
+      "tema": "&iquest;Es aplicable lo establecido en la Ley 1819 de 2016 la cual en su art&iacute;culo 192 indica: (...); para la facturaci&oacute;n que debe ser emitida por los peritos y el secretario con ocasi&oacute;n al 50% restante de los honorarios establecidos en el tribunal que indica se pagan con cargo a los recursos ya girados al presidente del tribunal, al momento de finalizar el mismo, valor que fue por el ministerio TIC comprometido y ejecutado en su presupuesto en la vigencia 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5315-2017",
+      "tipo": "oficio",
+      "numero": "5315",
+      "fecha": "2017-03-14",
+      "tema": "Impuesto Nacional al Consumo - &iquest;El tratamiento de los fabricantes de cerveza nacional que venden su producto sifones, qu&eacute; impuestos deben aplicar a la venta de dicha cerveza, impuesto a las ventas o impuesto al consumo? &iquest;Cu&aacute;l es la base gravable y la tarifa? &iquest;Cu&aacute;l es el periodo para presentar la declaraci&oacute;n respectiva del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4345-2017",
+      "tipo": "oficio",
+      "numero": "4345",
+      "fecha": "2017-02-21",
+      "tema": "Impuesto Nacional al Consumo &iquest;Los importadores en la importaci&oacute;n de licores, vinos, aperitivos y similares deben pagar el impuesto sobre las ventas a la tarifa del 5%, siendo as&iacute; cuando se realicen la comercializaci&oacute;n en el pa&iacute;s se debe discriminar esta misma tarifa del 5% en la factura de venta?&iquest;Cuando el importador de licores, vinos, aperitivos y similares sea responsable del impuesto sobre las ventas, tiene derecho a descontar en la declaraci&oacute;n de IVA, el impuesto sobre las ventas pagado en la nacionalizaci&oacute;n y en la compra de otros bienes y servicios cuando estos gastos son una expensas necesaria para la comercializaci&oacute;n del producto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3290-2017",
+      "tipo": "oficio",
+      "numero": "3290",
+      "fecha": "2017-02-10",
+      "tema": "Prestaci&oacute;n del servicio de catering para efectos del Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1729-2017",
+      "tipo": "oficio",
+      "numero": "1729",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto a las ventas - Hecho Generador del Impuesto Sobre las Ventas en la Prestaci&oacute;n de Servicios &iquest;Est&aacute;n gravados, exentos o excluidos del IVA los servicios u honorarios que prestan los Auxiliares de la justicia, siendo cargos u oficios p&uacute;blicos ocasionales, cuando este oficio p&uacute;blico lo ha solicitado un privado o una entidad p&uacute;blica o estatal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-201-2016",
+      "tipo": "oficio",
+      "numero": "201",
+      "fecha": "2016-03-11",
+      "tema": "&iquest;Aplica impuesto al consumo o a las ventas y, en este &uacute;ltimo caso, qu&eacute; tarifa aplica si se venden bebidas calientes: arom&aacute;ticas, caf&eacute; y otras bebidas l&aacute;cteas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24107-2015",
+      "tipo": "oficio",
+      "numero": "24107",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Resulta aplicable la retenci&oacute;n del impuesto a las ventas, por parte de las entidades emisoras de las tarjetas cr&eacute;dito y d&eacute;bito, en el caso de una persona jur&iacute;dica que desarrolla su objeto social bajo la prestaci&oacute;n de servicios de restaurante y es responsable del Impuesto Nacional al Consumo, cuando en sus establecimientos de comercio los consumidores al pagar el servicio hacen uso del mecanismo de tarjetas de cr&eacute;dito\\d&eacute;bito?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52327-2014",
+      "tipo": "oficio",
+      "numero": "52327",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;Una empresa que presta el servicio de disposici&oacute;n final de residuos debe dar aplicaci&oacute;n a la normatividad del Decreto 920 de 2013?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-45126-2014",
+      "tipo": "oficio",
+      "numero": "45126",
+      "fecha": "2014-07-28",
+      "tema": "Impuesto a las Ventas e Impuesto Nacional al Consumo - Exclusi&oacute;n en la prestaci&oacute;n del servicio de alimentaci&oacute;n para pacientes hospitalarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39638-2014",
+      "tipo": "oficio",
+      "numero": "39638",
+      "fecha": "2014-07-04",
+      "tema": "Impuesto Nacional al Consumo - Servicios gravados, alimentaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39499-2014",
+      "tipo": "oficio",
+      "numero": "39499",
+      "fecha": "2014-07-03",
+      "tema": "Impuesto Nacional al consumo - Servicio de alimentaci&oacute;n bajo contrato para poblaci&oacute;n vulnerable en desarrollo de una pol&iacute;tica p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4797-2014",
+      "tipo": "oficio",
+      "numero": "4797",
+      "fecha": "2014-01-29",
+      "tema": "&iquest;Las ventas de productos de panader&iacute;a producidos por los grandes almacenes de cadena, para ser llevados por el comprador causan el Impuesto Nacional al Consumo y por ende los hace responsables del mismo?&iquest;Los productos de panader&iacute;a excluidos del IVA est&aacute;n gravados con el impuesto Nacional al Consumo, cuando se venden para ser llevados por el comprador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2377-2014",
+      "tipo": "oficio",
+      "numero": "2377",
+      "fecha": "2014-01-09",
+      "tema": "&iquest;Qu&eacute; debe entenderse por alimentos sin transformaciones o preparaciones adicionales?&iquest;Dividir un alimento para servirse como acompa&ntilde;ante significa una transformaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79829-2013",
+      "tipo": "oficio",
+      "numero": "79829",
+      "fecha": "2013-12-12",
+      "tema": "Impuesto sobre las ventas y el impuesto nacional al consumo en productos de panader&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77297-2013",
+      "tipo": "oficio",
+      "numero": "77297",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;El",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66468-2013",
+      "tipo": "oficio",
+      "numero": "66468",
+      "fecha": "2013-10-18",
+      "tema": "&iquest;La exenci&oacute;n al cobro del impuesto al consumo se extiende a la adquisici&oacute;n de veh&iacute;culos en Colombia que realizan las misiones diplom&aacute;ticas acreditadas en el pa&iacute;s y sus funcionarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45723-2013",
+      "tipo": "oficio",
+      "numero": "45723",
+      "fecha": "2013-07-24",
+      "tema": "&iquest;Un restaurante que desarrolla su actividad bajo franquicia debe cobrar el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24355-2013",
+      "tipo": "oficio",
+      "numero": "24355",
+      "fecha": "2013-04-25",
+      "tema": "Impuesto Nacional al consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16778-2013",
+      "tipo": "oficio",
+      "numero": "16778",
+      "fecha": "2013-03-20",
+      "tema": "Exenci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16500-2013",
+      "tipo": "oficio",
+      "numero": "16500",
+      "fecha": "2013-03-20",
+      "tema": "&iquest;El servicio de suministro de comida y bebidas que un Club presta en la realizaci&oacute;n de eventos, tales como: matrimonios, bautizos, reuniones empresariales, est&aacute; gravado con el impuesto al consumo o con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002172-1999",
+      "tipo": "concepto",
+      "numero": "0002172",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Las construcciones prefabricadas en el eje cafetero est&aacute;n excluidas del IVA?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0051935-1998",
+      "tipo": "concepto",
+      "numero": "0051935",
+      "fecha": "1998-07-02",
+      "tema": "&iquest;Solicita con base en el Concepto 28587 del 4 de abril de 1997, se ratifique o rectifique lo all&iacute; manifestado? &iquest;Se solicita manifestar si las conclusiones del consultante en los puntos 1o, 4o, 5o y 6o son correctas, o si por el contrario son equivocadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010334-1998",
+      "tipo": "concepto",
+      "numero": "0010334",
+      "fecha": "1998-02-19",
+      "tema": "&iquest;Las Universidades P&uacute;blicas pueden solicitar devoluci&oacute;n por la adquisici&oacute;n de materiales de construcci&oacute;n para elaboraci&oacute;n de aulas, o debe tomarse el IVA como mayor valor del bien que se construye?&iquest;Cu&aacute;ndo un contribuyente debe corregir una declaraci&oacute;n tributaria para liquidarse una sanci&oacute;n que no hab&iacute;a liquidado en la declaraci&oacute;n inicial y &eacute;sta es igual a la m&iacute;nima, debe tambi&eacute;n liquidarse la sanci&oacute;n por correcci&oacute;n de que trata el art&iacute;culo 644 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074605-1996",
+      "tipo": "concepto",
+      "numero": "0074605",
+      "fecha": "1996-09-23",
+      "tema": "&iquest;Est&aacute;n sujetos al impuesto sobre las ventas los contratos de consultor&iacute;a e interventor&iacute;a que celebre la Caja Agraria para la ejecuci&oacute;n de Programas de vivienda de inter&eacute;s social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035411-1996",
+      "tipo": "concepto",
+      "numero": "0035411",
+      "fecha": "1996-05-02",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011274-1996",
+      "tipo": "concepto",
+      "numero": "0011274",
+      "fecha": "1996-02-15",
+      "tema": "&iquest;Teniendo en cuenta la Ley 223 de 1995, la venta de ladrillo contin&uacute;a excluida del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011237-1996",
+      "tipo": "concepto",
+      "numero": "0011237",
+      "fecha": "1996-02-15",
+      "tema": "&iquest;Las gravas, arenas, piedras trituradas, asfalto, mezclas asf&aacute;lticas y el concreto, se encuentran exentas del impuesto sobre las ventas, teniendo en cuenta las nuevas normas sobre racionalizaci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060008-1995",
+      "tipo": "concepto",
+      "numero": "0060008",
+      "fecha": "1995-08-29",
+      "tema": "&iquest;Se encuentra exonerada del impuesto sobre las ventas la importaci&oacute;n de casas prefabricadas destinadas a la vivienda popular?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043249-1995",
+      "tipo": "concepto",
+      "numero": "0043249",
+      "fecha": "1995-06-27",
+      "tema": "&iquest;Los materiales que se utilicen para la construcci&oacute;n de una obra p&uacute;blica se encuentran excluidos del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013515-1995",
+      "tipo": "concepto",
+      "numero": "0013515",
+      "fecha": "1995-03-14",
+      "tema": "&iquest;Los productos de icopor para la construcci&oacute;n, se encuentran sometidas al Impuesto sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007485-1990",
+      "tipo": "concepto",
+      "numero": "0007485",
+      "fecha": "1990-04-02",
+      "tema": "&iquest;Una Caja, entidad descentralizada del Distrito Especial de Bogot&aacute;, celebr&oacute; un contrato de suministro de prefabricados en hierro y concreto para vivienda popular; el contratista ha solicitado el reconocimiento y pago del impuesto sobre las ventas; la entidad no posee un concepto claro sobre la oportunidad y obligatoriedad del pago de este impuesto, de acuerdo con el art&iacute;culo 60 del Decreto 3541 de 1983 y con el art&iacute;culo 98 de la Ley 9 de 1989,",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

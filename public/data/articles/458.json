@@ -1,1 +1,154 @@
-{"id_articulo": "Art. 458", "titulo": "Art. 458. Base gravable en los retiros de bienes.", "titulo_corto": "Base gravable en los retiros de bienes.", "slug": "458", "url_origen": "https://estatuto.co/458", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*En los retiros a que se refiere el literal b) del artículo 421, la base gravable será el valor comercial de los bienes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En los retiros a que se refiere el literal b) del <a href=\"https://estatuto.co/421\" rel=\"noopener\" target=\"_blank\">artículo 421</a>, la base gravable será el valor comercial de los bienes.</p>\n<p> </p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 7.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "7"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["421"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 458",
+  "titulo": "Art. 458. Base gravable en los retiros de bienes.",
+  "titulo_corto": "Base gravable en los retiros de bienes.",
+  "slug": "458",
+  "url_origen": "https://estatuto.co/458",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*En los retiros a que se refiere el literal b) del artículo 421, la base gravable será el valor comercial de los bienes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En los retiros a que se refiere el literal b) del <a href=\"https://estatuto.co/421\" rel=\"noopener\" target=\"_blank\">artículo 421</a>, la base gravable será el valor comercial de los bienes.</p>\n<p> </p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 7.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "7"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "421"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 906481 (2021-07-01): Sistema de factura electr&oacute;nica - Facturaci&oacute;n en el retiro de inventarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-906481-2021",
+      "tipo": "oficio",
+      "numero": "906481",
+      "fecha": "2021-07-01",
+      "tema": "Sistema de factura electr&oacute;nica - Facturaci&oacute;n en el retiro de inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1587-2018",
+      "tipo": "oficio",
+      "numero": "1587",
+      "fecha": "2018-09-18",
+      "tema": "Precio de facturaci&oacute;n para las muestras gratis de un producto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25511-2015",
+      "tipo": "oficio",
+      "numero": "25511",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;La factura es un documento de orden interno o es un documento de orden externo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6474-2013",
+      "tipo": "oficio",
+      "numero": "6474",
+      "fecha": "2013-02-04",
+      "tema": "Deducci&oacute;n por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37150-2008",
+      "tipo": "oficio",
+      "numero": "37150",
+      "fecha": "2008-04-14",
+      "tema": "&iquest;La constituci&oacute;n de un derecho de usufructo se encuentra gravada con el impuesto al valor agregado - IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103140-2007",
+      "tipo": "oficio",
+      "numero": "103140",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Se considera doble facturaci&oacute;n, si se elabora la factura comercial como soporte de la factura de nacionalizaci&oacute;n y de la factura de exportaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021956-2006",
+      "tipo": "concepto",
+      "numero": "0021956",
+      "fecha": "2006-03-14",
+      "tema": "&iquest;Se debe cobrar el impuesto sobre las ventas cuando se retiran bienes del inventario para darlos como obsequio a los clientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052279-1999",
+      "tipo": "concepto",
+      "numero": "0052279",
+      "fecha": "1999-12-28",
+      "tema": "&iquest;Es obligatorio expedir factura en los retiros de inventario para muestras gratis, obsequios, donaciones, y promociones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030950-1999",
+      "tipo": "concepto",
+      "numero": "0030950",
+      "fecha": "1999-10-26",
+      "tema": "Impuesto sobre las ventas. IVA en las donaciones al Eje Cafetero",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004258-1991",
+      "tipo": "concepto",
+      "numero": "0004258",
+      "fecha": "1991-10-16",
+      "tema": "&iquest;En el servicio de restaurante no se dan los retiros de inventario en el evento que se suministre comida a los empleados y se realicen promociones en las cuales se obsequie un alimento por la compra, toda vez que al hablar del retiro el literal b) art&iacute;culo 421 del Estatuto Tributario asimila este hecho a venta, pero la Ley 49 de 1990 art&iacute;culo 30, grava es el servicio de restaurante y no la comida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030643-1990",
+      "tipo": "concepto",
+      "numero": "0030643",
+      "fecha": "1990-12-06",
+      "tema": "Una sociedad comercial, todos los bienes que compra en el pa&iacute;s o los importa, los registra como inventarios, descontando el IVA en el momento de la adquisici&oacute;n, y posteriormente cuando retira de sus bodegas para ser utilizados como gasto o como activos fijos revierte el IVA. Del mismo modo dice que hay bienes que compra como activos fijos y no se descuenta el IVA, pero posteriormente son utilizados como gastos. &iquest;Puede descontar el IVA en fecha posterior dentro de los dos bimestres posteriores a la factura?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    }
+  ]
+}

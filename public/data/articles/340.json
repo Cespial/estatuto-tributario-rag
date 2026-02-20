@@ -1,1 +1,739 @@
-{"id_articulo": "Art. 340", "titulo": "Art. 340. Ingresos de las rentas no laborales.", "titulo_corto": "Ingresos de las rentas no laborales.", "slug": "340", "url_origen": "https://estatuto.co/340", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas. Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"tachado\" style=\"color: #339966;\"><span class=\"verde\"><strong>*</strong></span><del>Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.</del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 1, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018"], "texto_derogado": ["Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.", "Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo."], "texto_derogado_parsed": [{"index": 0, "snippet": "Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.", "full_length": 127}, {"index": 1, "snippet": "Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas...", "full_length": 375}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 340",
+  "titulo": "Art. 340. Ingresos de las rentas no laborales.",
+  "titulo_corto": "Ingresos de las rentas no laborales.",
+  "slug": "340",
+  "url_origen": "https://estatuto.co/340",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas. Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"tachado\" style=\"color: #339966;\"><span class=\"verde\"><strong>*</strong></span><del>Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.</del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.",
+    "Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas asociados a la actividad, serán ingresos de la cedula de rentas no laborales. En este caso, ningún ingreso por honorario podrá ser incluido en la cédula de rentas de trabajo."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "Se consideran ingresos de las rentas no laborales todos los que no se clasifiquen expresamente en ninguna de las demás cédulas.",
+      "full_length": 127
+    },
+    {
+      "index": 1,
+      "snippet": "Los honorarios percibidos por las personas naturales que presten servicios y que contraten o vinculen por al menos noventa (90) días continuos o discontinuos, dos (2) o más trabajadores o contratistas...",
+      "full_length": 375
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 907102 (2021-07-19): Determinaci&oacute;n del impuesto - Honorarios\noficio 906390 (2021-06-30): Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906390-2021",
+      "tipo": "oficio",
+      "numero": "906390",
+      "fecha": "2021-06-30",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24697-2019",
+      "tipo": "oficio",
+      "numero": "24697",
+      "fecha": "2019-09-30",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19334-2019",
+      "tipo": "oficio",
+      "numero": "19334",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18982-2019",
+      "tipo": "oficio",
+      "numero": "18982",
+      "fecha": "2019-07-23",
+      "tema": "- (Tributario) Efectos de la renta exenta laboral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18485-2019",
+      "tipo": "oficio",
+      "numero": "18485",
+      "fecha": "2019-07-17",
+      "tema": "Tratamiento tributario de las indemnizaciones por seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12876-2019",
+      "tipo": "oficio",
+      "numero": "12876",
+      "fecha": "2019-05-24",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901554-2018",
+      "tipo": "oficio",
+      "numero": "901554",
+      "fecha": "2018-11-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal de un subsidio otorgado por el Gobierno a un contribuyente del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32761-2018",
+      "tipo": "oficio",
+      "numero": "32761",
+      "fecha": "2018-11-09",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32487-2018",
+      "tipo": "oficio",
+      "numero": "32487",
+      "fecha": "2018-11-07",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a una cesi&oacute;n de derechos de autor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7480-2018",
+      "tipo": "oficio",
+      "numero": "7480",
+      "fecha": "2018-03-23",
+      "tema": "&iquest;Debe entenderse que tal exenci&oacute;n se mantiene de manera ilimitada para las Personas Natural? O &iquest;Se encuentra limitada por el sistema cedular previsto en los art&iacute;culos primero y subsiguientes de la misma Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33253-2017",
+      "tipo": "oficio",
+      "numero": "33253",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;El ingreso de un asesor de corretaje que percibe ingresos por comisi&oacute;n de acuerdo a su colocaci&oacute;n de clientes potenciales para realizarles cr&eacute;dito a trav&eacute;s de un outsourcing de entidades financieras y cooperativas tiene tratamiento de rentas de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19453-2017",
+      "tipo": "oficio",
+      "numero": "19453",
+      "fecha": "2017-07-21",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7389-2017",
+      "tipo": "oficio",
+      "numero": "7389",
+      "fecha": "2017-03-31",
+      "tema": "Deducci&oacute;n de Pensiones de Jubilaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5427-2017",
+      "tipo": "oficio",
+      "numero": "5427",
+      "fecha": "2017-03-14",
+      "tema": "&iquest;Los servicios t&eacute;cnicos, asistencia t&eacute;cnica y consultor&iacute;a prestada por personas naturales residentes en Colombia son consideradas rentas de trabajo seg&uacute;n lo establecido en el art&iacute;culo 103 del Estatuto Tributario? En caso afirmativo &iquest;Sus ingresos estar&iacute;an sometidos a la tabla de retenci&oacute;n del art&iacute;culo 383 del Estatuto Tributario en el hecho de que se cumpla con el requisito se&ntilde;alado en el inciso 2o del art&iacute;culo 340 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4884-2017",
+      "tipo": "oficio",
+      "numero": "4884",
+      "fecha": "2017-02-24",
+      "tema": "&iquest;Qu&eacute; se entiende por cedular dentro el contexto de la Ley 1819 de 2016? - &iquest;Cu&aacute;l es la diferencia entre rentas l&iacute;quidas gravables v rentas l&iacute;quidas cedular? - &iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as? - &iquest;En la c&eacute;dula rentas no laborales, pueden incluirse las rentas que no clasifican expresamente en ninguna de las dem&aacute;s c&eacute;dulas? &iquest;Cu&aacute;les ser&iacute;an? &iquest;Los 90 d&iacute;as continuos o discontinuos se refieren en el a&ntilde;o gravable? Si no se cumplen con los requisitos exigidos en el inciso 1o del art&iacute;culo 340 del Estatuto Tributario &iquest;ser&aacute; renta de la c&eacute;dula de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3514-2017",
+      "tipo": "oficio",
+      "numero": "3514",
+      "fecha": "2017-05-31",
+      "tema": "&iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo? y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1077-2017",
+      "tipo": "oficio",
+      "numero": "1077",
+      "fecha": "2017-10-18",
+      "tema": "&iquest;Qu&eacute; pasa con las deducciones en que incurran las personas naturales que contraten trabajadores y no se cumplan los dos condiciones del ac&aacute;pite anterior, debiendo estas declarar sus ingresos por honorarios en las rentas cedulares de trabajo, pudiendo solamente solicitar deducciones imputables a esta rentas y no los gastos procedentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0705-2017",
+      "tipo": "oficio",
+      "numero": "0705",
+      "fecha": "2017-06-16",
+      "tema": "Si se presenta una solicitud de devoluci&oacute;n de un saldo a favor originado en una declaraci&oacute;n liquidada por el sistemas IMAS, a dicha declaraci&oacute;n se le aplicar el t&eacute;rmino de firmeza consagrado en el art. 714 del E.T., es decir, de &iquest;3 a&ntilde;os desde la presentaci&oacute;n de la solicitud de devoluci&oacute;n y-o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26239-2016",
+      "tipo": "oficio",
+      "numero": "26239",
+      "fecha": "2016-09-21",
+      "tema": "Clasificaci&oacute;n de las personas naturales de acuerdo con el art&iacute;culo 329 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20371-2016",
+      "tipo": "oficio",
+      "numero": "20371",
+      "fecha": "2016-08-02",
+      "tema": "Aclaraci&oacute;n del Concepto 885 de 2014 - Definici&oacute;n de empleado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0580-2026",
+      "tipo": "oficio",
+      "numero": "0580",
+      "fecha": "",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25576-2015",
+      "tipo": "oficio",
+      "numero": "25576",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Se encuentra exenta, en los t&eacute;rminos del art&iacute;culo 206 del Estatuto Tributario, la pensi&oacute;n de sobrevivientes proveniente del exterior recibida por el-la c&oacute;nyuge sup&eacute;rstite y en que rengl&oacute;n de la declaraci&oacute;n de renta, correspondiente a personas naturales no obligadas a llevar contabilidad, registra ese ingreso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25526-2015",
+      "tipo": "oficio",
+      "numero": "25526",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Una persona natural que recibe ingresos equivalentes al 78% por concepto de prestaci&oacute;n de servicios de manera personal y 22% por concepto de comisi&oacute;n por venta de software a qu&eacute; categor&iacute;a para definir el impuesto sobre la renta pertenece?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24178-2015",
+      "tipo": "oficio",
+      "numero": "24178",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Se debe efectuar un estudio sobre las funciones, activos, riesgos y personal involucrados en la obtenci&oacute;n de las rentas y de las ganancias ocasionales atribuidos a ellos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23104-2015",
+      "tipo": "oficio",
+      "numero": "23104",
+      "fecha": "2015-08-06",
+      "tema": "Obligaci&oacute;n de informar dispuesta en el Decreto 1070 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22627-2015",
+      "tipo": "oficio",
+      "numero": "22627",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Es procedente la pr&aacute;ctica de retenci&oacute;n en la fuente en un contrato de prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22540-2015",
+      "tipo": "oficio",
+      "numero": "22540",
+      "fecha": "2015-08-03",
+      "tema": "&iquest;Un fot&oacute;grafo que utiliza sus equipos para la prestaci&oacute;n del servicio de fotograf&iacute;a, es considerado como trabajador por cuenta propia o como empleado, para efectos de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21463-2015",
+      "tipo": "oficio",
+      "numero": "21463",
+      "fecha": "2015-07-23",
+      "tema": "&iquest;La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-11683-2015",
+      "tipo": "oficio",
+      "numero": "11683",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;La actividad de RSU (la desarrollada por una m&aacute;quina RSU - gr&uacute;a-), le es aplicable la retenci&oacute;n en la fuente por servicios o por honorarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8871-2015",
+      "tipo": "oficio",
+      "numero": "8871",
+      "fecha": "2015-03-24",
+      "tema": "Se solicita contestar si, para efectos del c&aacute;lculo de la retenci&oacute;n en la fuente, &iquest;es requisito que la persona natural clasificada en la categor&iacute;a de empleado solicite a su pagador la detracci&oacute;n del 25% de renta exenta de que trata el numeral 10 del art&iacute;culo 206 del E.T.? o el agente retenedor puede disminuir la base de retenci&oacute;n con la renta exenta, teniendo en cuenta los topes mensuales por los pagos que le realiza a la persona con categor&iacute;a de empleado. Lo anterior de conformidad con la redacci&oacute;n del par&aacute;grafo 3o del art&iacute;culo 2o del Decreto Reglamentario n&uacute;mero 1070 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67327-2014",
+      "tipo": "oficio",
+      "numero": "67327",
+      "fecha": "2014-12-23",
+      "tema": "&iquest;C&oacute;mo se practica la retenci&oacute;n en la fuente a las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67071-2014",
+      "tipo": "oficio",
+      "numero": "67071",
+      "fecha": "2014-01-01",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a personas naturales que prestan el servicio de transporte de carretera y los requisitos para deducir en el impuesto de renta los gastos en que incurre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64350-2014",
+      "tipo": "oficio",
+      "numero": "64350",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto m&iacute;nimo alternativo simple IMAS - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58284-2014",
+      "tipo": "oficio",
+      "numero": "58284",
+      "fecha": "2014-10-10",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Empleados - Clasificaci&oacute;n de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58078-2014",
+      "tipo": "oficio",
+      "numero": "58078",
+      "fecha": "2014-10-09",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58015-2014",
+      "tipo": "oficio",
+      "numero": "58015",
+      "fecha": "2014-10-09",
+      "tema": "En el numeral 4 de la categor&iacute;a EMPLEADO, se incluy&oacute; como una de las preguntas &iquest;El 80% o m&aacute;s de sus ingresos brutos proviene de la realizaci&oacute;n de alguna actividad econ&oacute;mica diferente de las enumeradas en el art&iacute;culo 340 del E.T.? Se deber&aacute; entender entonces que un rentista de capital que obtiene el 100% de sus ingresos de esa fuente como empleado, pero no lo ser&iacute;a aquel asalariado que tenga de sus ingresos el 75% de su salario y el 25% de intereses, pues este no quedar&iacute;a como empleado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57061-2014",
+      "tipo": "oficio",
+      "numero": "57061",
+      "fecha": "2014-10-03",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS - Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50640-2014",
+      "tipo": "oficio",
+      "numero": "50640",
+      "fecha": "2014-08-20",
+      "tema": "Clasificaci&oacute;n de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48032-2014",
+      "tipo": "oficio",
+      "numero": "48032",
+      "fecha": "2014-08-08",
+      "tema": "&iquest;A qu&eacute; actividades se refiere el literal a) del numeral 3 (conjunto 3), del art&iacute;culo 2, del Decreto 3032 de 2013, cuando expresa, que el servicio sea el resultado de una actividad econ&oacute;mica?&iquest;Qu&eacute; diferencia existe entre las frases",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47711-2014",
+      "tipo": "oficio",
+      "numero": "47711",
+      "fecha": "2014-08-06",
+      "tema": "Retenci&oacute;n en la fuente - Empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47563-2014",
+      "tipo": "oficio",
+      "numero": "47563",
+      "fecha": "2014-08-06",
+      "tema": "Solicita anular el Oficio 50810 del 10 de agosto de 2013, expedido por la Subdirecci&oacute;n de Gesti&oacute;n de Normativa y Doctrina de esta Dependencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-42205-2014",
+      "tipo": "oficio",
+      "numero": "42205",
+      "fecha": "2014-07-17",
+      "tema": "Retenci&oacute;n en la fuente en el caso de un contrato de prestaci&oacute;n de servicios profesionales con varios meses de duraci&oacute;n y respecto del cual en un mes se hacen varios pagos, es aplicable la doctrina contenida en el Oficio No. 59382 de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41872-2014",
+      "tipo": "oficio",
+      "numero": "41872",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen del impuesto sobre la renta en el que se clasifican los Curadores Urbanos y en consecuencia cual sistema de determinaci&oacute;n les es aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15616-2014",
+      "tipo": "oficio",
+      "numero": "15616",
+      "fecha": "2014-03-06",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14320-2014",
+      "tipo": "oficio",
+      "numero": "14320",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto a las ventas - Bienes Exentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13208-2014",
+      "tipo": "oficio",
+      "numero": "13208",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Se debe practicar retenci&oacute;n en la fuente por pagos correspondientes a pasajes o gastos de manutenci&oacute;n que son girados a personas que prestan sus servicios y con quienes no se tiene una relaci&oacute;n laboral o legal y reglamentaria?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-11352-2014",
+      "tipo": "oficio",
+      "numero": "11352",
+      "fecha": "2014-11-12",
+      "tema": "Solicita se resuelvan problemas jur&iacute;dicos en relaci&oacute;n con el Concepto n&uacute;mero 885 del 31 de julio de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79834-2013",
+      "tipo": "oficio",
+      "numero": "79834",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Para efectos del impuesto sobre la renta tiene la categor&iacute;a de empleado un trabajador que presta servicios profesionales en los que para el desarrollo de la labor se requieren equipos aportados tanto por el trabajador como por la empresa a la que presta los servicios, empresa que tambi&eacute;n aporta insumos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79831-2013",
+      "tipo": "oficio",
+      "numero": "79831",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Los pagos realizados a transportadores, servicios de restaurante (casinos), Contratos de Construcci&oacute;n (AIU) y todos los relacionados en el art&iacute;culo 11 de la Ley 1607 de diciembre 2012, el cual adicion&oacute; al Estatuto Tributario el art&iacute;culo 340, que la Ley los considera trabajadores por cuenta propia, se les debe exigir La planilla de Seguridad Social sobre la base del 40% del pago, sobre la utilidad o AIU?&iquest;La Ley de Seguridad social dice que NO se puede pagar aportes sobre una base menor a un salarlo m&iacute;nimo, entonces cuando se realizan pagos inferiores al salario m&iacute;nimo; tambi&eacute;n se les debe exigir la planilla de seguridad social para la procedencia de la deducci&oacute;n de los costos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79815-2013",
+      "tipo": "oficio",
+      "numero": "79815",
+      "fecha": "2013-12-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a concejales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79480-2013",
+      "tipo": "oficio",
+      "numero": "79480",
+      "fecha": "2013-12-11",
+      "tema": "&iquest;Con fundamento en la Ley 1607 de 2012 y en el Decreto 0099 de 2013, en el caso de una persona natural obligada a declarar renta en el a&ntilde;o 2012, cuyos ingresos provienen de una asignaci&oacute;n pensional y de honorarios en ejercicio de una profesi&oacute;n liberal, cu&aacute;l es la retenci&oacute;n en la fuente aplicable en un contrato de prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73384-2013",
+      "tipo": "oficio",
+      "numero": "73384",
+      "fecha": "2013-10-18",
+      "tema": "&iquest;Los trabajadores que prestan servicios personales mediante el ejercicio de profesiones liberales que recibieron honorarios de una empresa por sumas entre Ps300.000 y Ps1.500.000, de conformidad con la normatividad vigente tienen derecho a la aplicaci&oacute;n de la retenci&oacute;n en la fuente consagrada en el art&iacute;culo 383 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73233-2013",
+      "tipo": "oficio",
+      "numero": "73233",
+      "fecha": "2013-11-15",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente por un contrato de prestaci&oacute;n de servicios, cuyo valor mensual devengado es de Ps4.738.000 y sus descuentos corresponden a pagos por cr&eacute;dito hipotecario, por dependientes, ahorro en cuenta de ahorro especial con destino a la adquisici&oacute;n de vivienda abierta en el Fondo Nacional de Ahorro, sin indicar valor alguno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67579-2013",
+      "tipo": "oficio",
+      "numero": "67579",
+      "fecha": "2013-10-23",
+      "tema": "Aclaraci&oacute;n del Concepto No 100202208-282 en relaci&oacute;n con los beneficios consagrados en la Ley 1429 de 2010, especialmente, en lo relacionado con el art&iacute;culo 25 de la Ley 1607 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50180-2013",
+      "tipo": "oficio",
+      "numero": "50180",
+      "fecha": "2013-08-13",
+      "tema": "Retenci&oacute;n en la fuente - Contrato de prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18090-2013",
+      "tipo": "oficio",
+      "numero": "18090",
+      "fecha": "2013-03-27",
+      "tema": "&iquest;C&oacute;mo se calcula el Impuesto M&iacute;nimo Alternativo Nacional (IMAN), para los colombianos catalogados como reservistas de la Fuerza A&eacute;rea, cobijados por el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17857-2013",
+      "tipo": "oficio",
+      "numero": "17857",
+      "fecha": "2013-03-26",
+      "tema": "&iquest;Cu&aacute;l es la norma a aplicar para efectos de establecer la retenci&oacute;n en la fuente para los trabajadores independientes, teniendo en cuenta que la Ley 1607 de 2012 derog&oacute; expresamente el art&iacute;culo 13 de la Ley 1527 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8824-2013",
+      "tipo": "oficio",
+      "numero": "8824",
+      "fecha": "2013-02-15",
+      "tema": "&iquest;De conformidad con el art&iacute;culo 47 de la Ley 1607 de 2012, las personas jur&iacute;dicas organizadas como propiedades que explotan zonas comunes mediante el arrendamiento de terrazas, parqueaderos y locales comerciales son responsables del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5102-2007",
+      "tipo": "oficio",
+      "numero": "5102",
+      "fecha": "2007-01-23",
+      "tema": "Ajustes integrales por inflaci&oacute;n. Cambio en inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88872-2005",
+      "tipo": "oficio",
+      "numero": "88872",
+      "fecha": "2005-11-30",
+      "tema": "&iquest;El beneficio de auditoria consagrados en el art&iacute;culo 689-1 del E.T., es extensivo al IVA y retenci&oacute;n en la fuente de los respectivos a&ntilde;os gravables?&iquest;Un contribuyente persona natural perteneciente al r&eacute;gimen com&uacute;n, con actividad econ&oacute;mica comercial y obligado a llevar libros de contabilidad debe contabilizar la totalidad de los activos, pasivos, ingresos y gastos, as&iacute; no est&eacute;n relacionados con la actividad econ&oacute;mica productora de renta?&iquest; Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los desembolsos por el pago de cuotas hipotecarias de vivienda, tarjetas de cr&eacute;dito, compra de mercado, medicina, educaci&oacute;n, vestuario, y en general todos aquellos gastos necesarios para la manutenci&oacute;n del contribuyente y su familia?&iquest;Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los ingresos y gastos diferidos reexpresados como consecuencia de la inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070755-2005",
+      "tipo": "concepto",
+      "numero": "0070755",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se determina la renta exenta de las empresas que se acogieron al beneficio de la Ley P&aacute;ez, cuando el t&eacute;rmino de los 10 a&ntilde;os que trata el art&igrave;culo 2 de la Ley 218 de 1995 y el art&iacute;culo 15 del Decreto 529 de 1996 finaliza antes del 31 de diciembre del a&ntilde;o gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006265-1992",
+      "tipo": "concepto",
+      "numero": "0006265",
+      "fecha": "1992-01-01",
+      "tema": "El art&iacute;culo 15 del Decreto 2911 modifica el tratamiento que debe darse a los reajustes fiscales realizados con anterioridad al 1 de enero de 1992",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006264-1992",
+      "tipo": "concepto",
+      "numero": "0006264",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;les son las diferencias respecto del valor base de los ajustes y de la diferencia que existe entre el concepto de costo fiscal y valor patrimonial, el art&iacute;culo 12 del Decreto 2911 de 1991, que sustituye el art&iacute;culo 337 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006257-1992",
+      "tipo": "concepto",
+      "numero": "0006257",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento que debe darse a los reajustes fiscales, el Decreto 2911 en su art&iacute;culo 15, que sustituye el art&iacute;culo 340 del Estatuto Tributario determina que los reajustes fiscales efectuados con anterioridad al 1o de enero de 1991, diferentes a los que trata el art&iacute;culo 132 del Estatuto Tributario, no son base de ajuste ni de depreciaci&oacute;n, tampoco sirven para determinar el valor patrimonial de los bienes y por tanto tampoco para determinar el patrimonio l&iacute;quido base de ajuste. Tan s&oacute;lo servir&aacute;n para determinar la utilidad en su enajenaci&oacute;n?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

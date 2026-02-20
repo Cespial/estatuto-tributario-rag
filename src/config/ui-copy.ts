@@ -21,4 +21,7 @@ export const UI_COPY = {
       "Hola. Soy su asistente tributario para el Estatuto Tributario de Colombia. Puedo explicar artículos, comparar criterios y sugerir calculadoras según su caso.",
     feedback: "Su opinión mejora la calidad de las respuestas.",
   },
+  stats: {
+    articlesCount: 1294,
+  },
 } as const;

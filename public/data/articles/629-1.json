@@ -1,1 +1,58 @@
-{"id_articulo": "Art. 629-1", "titulo": "Art. 629-1. Información de las personas o entidades que elaboran facturas o documentos equivalentes.", "titulo_corto": "Información de las personas o entidades que elaboran facturas o documentos equivalentes.", "slug": "629-1", "url_origen": "https://estatuto.co/629-1", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Las empresas que elaboren facturas de venta o documentos equivalentes, deberán informar anualmente, dentro de los plazos que indique el Gobierno Nacional, los apellidos y nombres, o razón social y NIT, con indicación del intervalo de numeración elaborada de cada uno de sus clientes, correspondientes a los trabajos realizados en el año inmediatamente anterior. Si el obligado tiene un patrimonio bruto en el año inmediatamente anterior, superior a ciento ochenta y cinco millones cuatrocientos mil pesos ($185.400.000); la información a que se refiere el presente artículo deberá presentarse en medios magnéticos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las empresas que elaboren facturas de venta o documentos equivalentes, deberán informar anualmente, dentro de los plazos que indique el Gobierno Nacional, los apellidos y nombres, o razón social y NIT, con indicación del intervalo de numeración elaborada de cada uno de sus clientes, correspondientes a los trabajos realizados en el año inmediatamente anterior.</p>\n<p>Si el obligado tiene un patrimonio bruto en el año inmediatamente anterior, superior a ciento ochenta y cinco millones cuatrocientos mil pesos ($185.400.000); la información a que se refiere el presente artículo deberá presentarse en medios magnéticos.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 383 de 1997 Art 13.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "383", "norma_year": 1997, "norma_articulo": "13"}], "total_modificaciones": 1, "ultima_modificacion_year": 1997, "leyes_modificatorias": ["Ley 383 de 1997"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": ["-Valores absolutos que regirán para el año 2004 establecidos por el artículo 41 del Decreto 3805 de 2003. Ver Notas de Vigencia sobre los valores absolutos para años posteriores."], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": ["631-2"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 629-1",
+  "titulo": "Art. 629-1. Información de las personas o entidades que elaboran facturas o documentos equivalentes.",
+  "titulo_corto": "Información de las personas o entidades que elaboran facturas o documentos equivalentes.",
+  "slug": "629-1",
+  "url_origen": "https://estatuto.co/629-1",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Las empresas que elaboren facturas de venta o documentos equivalentes, deberán informar anualmente, dentro de los plazos que indique el Gobierno Nacional, los apellidos y nombres, o razón social y NIT, con indicación del intervalo de numeración elaborada de cada uno de sus clientes, correspondientes a los trabajos realizados en el año inmediatamente anterior. Si el obligado tiene un patrimonio bruto en el año inmediatamente anterior, superior a ciento ochenta y cinco millones cuatrocientos mil pesos ($185.400.000); la información a que se refiere el presente artículo deberá presentarse en medios magnéticos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las empresas que elaboren facturas de venta o documentos equivalentes, deberán informar anualmente, dentro de los plazos que indique el Gobierno Nacional, los apellidos y nombres, o razón social y NIT, con indicación del intervalo de numeración elaborada de cada uno de sus clientes, correspondientes a los trabajos realizados en el año inmediatamente anterior.</p>\n<p>Si el obligado tiene un patrimonio bruto en el año inmediatamente anterior, superior a ciento ochenta y cinco millones cuatrocientos mil pesos ($185.400.000); la información a que se refiere el presente artículo deberá presentarse en medios magnéticos.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 383 de 1997 Art 13.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "383",
+      "norma_year": 1997,
+      "norma_articulo": "13"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1997,
+  "leyes_modificatorias": [
+    "Ley 383 de 1997"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [
+      "-Valores absolutos que regirán para el año 2004 establecidos por el artículo 41 del Decreto 3805 de 2003. Ver Notas de Vigencia sobre los valores absolutos para años posteriores."
+    ],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [
+    "631-2"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    }
+  ]
+}

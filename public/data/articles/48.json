@@ -1,1 +1,1718 @@
-{"id_articulo": "Art. 48", "titulo": "Art. 48. Las participaciones y dividendos.", "titulo_corto": "Las participaciones y dividendos.", "slug": "48", "url_origen": "https://estatuto.co/48", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los dividendos y participaciones percibidas por los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean sociedades nacionales, no constituyen renta ni ganancia ocasional. Para efectos de lo dispuesto en el inciso anterior, tales dividendos y participaciones deben corresponder a utilidades que hayan sido declaradas en cabeza de la sociedad. Si las utilidades hubieren sido obtenidas con anterioridad al primero de enero de 1986, para que los dividendos y participaciones sean un ingreso no constitutivo de renta ni de ganancia ocasional, deberán además, figurar como utilidades retenidas en la declaración de renta de la sociedad correspondiente al año gravable de 1985, la cual deberá haber sido presentada a más tardar el 30 de julio de 1986. **Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los dividendos y participaciones percibidas por los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean sociedades nacionales, no constituyen renta ni ganancia ocasional.</p>\n<p>Para efectos de lo dispuesto en el inciso anterior, tales dividendos y participaciones deben corresponder a utilidades que hayan sido declaradas en cabeza de la sociedad. Si las utilidades hubieren sido obtenidas con anterioridad al primero de enero de 1986, para que los dividendos y participaciones sean un ingreso no constitutivo de renta ni de ganancia ocasional, deberán además, figurar como utilidades retenidas en la declaración de renta de la sociedad correspondiente al año gravable de 1985, la cual deberá haber sido presentada a más tardar el 30 de julio de 1986.</p>\n<p><span style=\"color: #339966;\"><del><strong><span class=\"verde\">**</span></strong></del></span><span style=\"color: #339966;\"><del><span class=\"tachado\">Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Inciso 1 Modificado Ley 1819 de 2016 Art. 2. *Inciso declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-129-18 de 28 de noviembre de 2018, Magistrada Ponente Dra. Gloria Stella Ortiz Delgado. **Inciso tercero Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "2"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 2, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018"], "texto_derogado": ["**", "Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos."], "texto_derogado_parsed": [{"index": 0, "snippet": "**", "full_length": 2}, {"index": 1, "snippet": "Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondo...", "full_length": 283}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["50", "51", "91", "245", "389"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 48",
+  "titulo": "Art. 48. Las participaciones y dividendos.",
+  "titulo_corto": "Las participaciones y dividendos.",
+  "slug": "48",
+  "url_origen": "https://estatuto.co/48",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los dividendos y participaciones percibidas por los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean sociedades nacionales, no constituyen renta ni ganancia ocasional. Para efectos de lo dispuesto en el inciso anterior, tales dividendos y participaciones deben corresponder a utilidades que hayan sido declaradas en cabeza de la sociedad. Si las utilidades hubieren sido obtenidas con anterioridad al primero de enero de 1986, para que los dividendos y participaciones sean un ingreso no constitutivo de renta ni de ganancia ocasional, deberán además, figurar como utilidades retenidas en la declaración de renta de la sociedad correspondiente al año gravable de 1985, la cual deberá haber sido presentada a más tardar el 30 de julio de 1986. **Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los dividendos y participaciones percibidas por los socios, accionistas, comuneros, asociados, suscriptores y similares, que sean sociedades nacionales, no constituyen renta ni ganancia ocasional.</p>\n<p>Para efectos de lo dispuesto en el inciso anterior, tales dividendos y participaciones deben corresponder a utilidades que hayan sido declaradas en cabeza de la sociedad. Si las utilidades hubieren sido obtenidas con anterioridad al primero de enero de 1986, para que los dividendos y participaciones sean un ingreso no constitutivo de renta ni de ganancia ocasional, deberán además, figurar como utilidades retenidas en la declaración de renta de la sociedad correspondiente al año gravable de 1985, la cual deberá haber sido presentada a más tardar el 30 de julio de 1986.</p>\n<p><span style=\"color: #339966;\"><del><strong><span class=\"verde\">**</span></strong></del></span><span style=\"color: #339966;\"><del><span class=\"tachado\">Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Inciso 1 Modificado Ley 1819 de 2016 Art. 2. *Inciso declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-129-18 de 28 de noviembre de 2018, Magistrada Ponente Dra. Gloria Stella Ortiz Delgado. **Inciso tercero Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "2"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "**",
+    "Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondos de empleados que obtengan los afiliados, suscriptores, o asociados de los mismos."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "**",
+      "full_length": 2
+    },
+    {
+      "index": 1,
+      "snippet": "Se asimilan a dividendos las utilidades provenientes de fondos de inversión, de fondos de valores administrados por sociedades anónimas comisionistas de bolsa, de fondos mutuos de inversión y de fondo...",
+      "full_length": 283
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "50",
+    "51",
+    "91",
+    "245",
+    "389"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 17 concepto(s) relacionado(s). Jurisprudencia: 38 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 15200 (2025-09-23): Procedimiento Tributario\noficio 14524 (2025-10-20): Impuesto sobre la Renta y Complementarios\noficio 2810 (2025-03-07): Impuesto sobre la Renta y Complementarios\noficio 4638 (): (Int 869) Impuesto sobre la Renta y Complementarios - Tratamiento en materia del impuesto sobre la renta aplicable al salario obtenido por una persona natural residente fiscal en Francia por el desarrollo de su trabajo en Colombia\noficio 0449 (2023-01-30): Impuesto sobre la renta - Convenios para evitar la Doble Imposici&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-15200-2025",
+      "tipo": "oficio",
+      "numero": "15200",
+      "fecha": "2025-09-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14524-2025",
+      "tipo": "oficio",
+      "numero": "14524",
+      "fecha": "2025-10-20",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2810-2025",
+      "tipo": "oficio",
+      "numero": "2810",
+      "fecha": "2025-03-07",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4638-2026",
+      "tipo": "oficio",
+      "numero": "4638",
+      "fecha": "",
+      "tema": "(Int 869) Impuesto sobre la Renta y Complementarios - Tratamiento en materia del impuesto sobre la renta aplicable al salario obtenido por una persona natural residente fiscal en Francia por el desarrollo de su trabajo en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0449-2023",
+      "tipo": "oficio",
+      "numero": "0449",
+      "fecha": "2023-01-30",
+      "tema": "Impuesto sobre la renta - Convenios para evitar la Doble Imposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906435-2022",
+      "tipo": "oficio",
+      "numero": "906435",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre la renta - Incentivo tributario para empresas de econom&iacute;a naranja",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905097-2022",
+      "tipo": "oficio",
+      "numero": "905097",
+      "fecha": "2022-06-30",
+      "tema": "Tarifa especial para dividendos y participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903716-2022",
+      "tipo": "oficio",
+      "numero": "903716",
+      "fecha": "2022-05-13",
+      "tema": "Impuesto sobre la renta - Dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903704-2022",
+      "tipo": "oficio",
+      "numero": "903704",
+      "fecha": "2022-05-13",
+      "tema": "Dividendos - Beneficiario final, Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902994-2022",
+      "tipo": "oficio",
+      "numero": "902994",
+      "fecha": "2022-04-11",
+      "tema": "Impuesto sobre la renta - Contratos de estabilidad jur&iacute;dica Participaciones y dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902612-2022",
+      "tipo": "oficio",
+      "numero": "902612",
+      "fecha": "2022-03-29",
+      "tema": "Gravamen a los movimiento financieros, hecho generador exencias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913685-2021",
+      "tipo": "oficio",
+      "numero": "913685",
+      "fecha": "2021-11-08",
+      "tema": "&iquest;C&oacute;mo debe declarar la sociedad colombia este ingreso en aplicaci&oacute;n del r&eacute;gimen ECE, si a partir de la Decisi&oacute;n 578 de 2004, este ser&iacute;a un ingreso pasivo exento o no gravado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910834-2021",
+      "tipo": "oficio",
+      "numero": "910834",
+      "fecha": "2021-01-01",
+      "tema": "Convenio para evitar doble imposici&oacute;n entre Colombia y Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908206-2021",
+      "tipo": "oficio",
+      "numero": "908206",
+      "fecha": "2021-08-13",
+      "tema": "Retenci&oacute;n en la fuente por dividendos - Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906179-2021",
+      "tipo": "oficio",
+      "numero": "906179",
+      "fecha": "2021-06-28",
+      "tema": "Impuesto sobre la renta y complementarios - Establecimientos Permanentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906178-2021",
+      "tipo": "oficio",
+      "numero": "906178",
+      "fecha": "2021-06-28",
+      "tema": "Entidades Controladas del Exterior ECE - Convenios para Evitar la Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902955-2021",
+      "tipo": "oficio",
+      "numero": "902955",
+      "fecha": "2021-04-07",
+      "tema": "Retenci&oacute;n en la fuente por dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902630-2021",
+      "tipo": "oficio",
+      "numero": "902630",
+      "fecha": "2021-03-26",
+      "tema": "Impuesto sobre la renta y complementarios - diligenciamiento del Formulario 110",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902161-2021",
+      "tipo": "oficio",
+      "numero": "902161",
+      "fecha": "2021-03-17",
+      "tema": "Retenci&oacute;n en la Fuente por Dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901293-2021",
+      "tipo": "oficio",
+      "numero": "901293",
+      "fecha": "2021-02-19",
+      "tema": "Tratamiento tributario de los dividendos distribuidos por una sociedad que desarrolla su actividad en una zona afectada por el conflicto armado - ZOMAC; en particular, si el beneficio tributario del que goza &eacute;sta es trasladable a sus socios o accionistas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31751-2020",
+      "tipo": "oficio",
+      "numero": "31751",
+      "fecha": "2020-01-26",
+      "tema": "Tarifa especial para dividendos o participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5875-2020",
+      "tipo": "oficio",
+      "numero": "5875",
+      "fecha": "2020-03-18",
+      "tema": "Capitalizaciones no Gravadas para los Socios - Capitalizaciones no Gravadas para los Accionistas Ingresos no Constitutivas de Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1264-2020",
+      "tipo": "oficio",
+      "numero": "1264",
+      "fecha": "2020-01-23",
+      "tema": "Formulario para Declarar Impuestos Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32073-2019",
+      "tipo": "oficio",
+      "numero": "32073",
+      "fecha": "2019-12-27",
+      "tema": "&iquest;Los dividendos recibidos por una persona natural residente en Colombia provenientes de un fondo de inversi&oacute;n colectiva se encuentran gravados con el impuesto sobre la renta y a que tarifa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28964-2019",
+      "tipo": "oficio",
+      "numero": "28964",
+      "fecha": "2019-11-20",
+      "tema": "Deducci&oacute;n por Inversi&oacute;n en la Producci&oacute;n Cinematogr&aacute;fica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28954-2019",
+      "tipo": "oficio",
+      "numero": "28954",
+      "fecha": "2019-11-20",
+      "tema": "&iquest;Los aportes a seguridad social pagados por el a&ntilde;o 2017 son deducibles de la depuraci&oacute;n de la renta en la c&eacute;dula de dividendos y participaciones y en que casilla del formulario 210 se deben relacionar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26722-2019",
+      "tipo": "oficio",
+      "numero": "26722",
+      "fecha": "2019-10-23",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26383-2019",
+      "tipo": "oficio",
+      "numero": "26383",
+      "fecha": "2019-10-18",
+      "tema": "&iquest;Los fondos de inversi&oacute;n colectiva distribuyen dividendos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26044-2019",
+      "tipo": "oficio",
+      "numero": "26044",
+      "fecha": "2019-10-16",
+      "tema": "&iquest;Qu&eacute; se entiende por entidades controladas desde el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21323-2019",
+      "tipo": "oficio",
+      "numero": "21323",
+      "fecha": "2019-08-28",
+      "tema": "Enajenaci&oacute;n de Acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16054-2019",
+      "tipo": "oficio",
+      "numero": "16054",
+      "fecha": "2019-06-19",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de los pagos en acciones a empleados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14495-2019",
+      "tipo": "oficio",
+      "numero": "14495",
+      "fecha": "2019-06-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12868-2019",
+      "tipo": "oficio",
+      "numero": "12868",
+      "fecha": "2019-05-24",
+      "tema": "Retenci&oacute;n en la fuente. Retenci&oacute;n en la Fuente por Dividendos Percibidos por Extranjeros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12479-2019",
+      "tipo": "oficio",
+      "numero": "12479",
+      "fecha": "2019-05-21",
+      "tema": "IVA, r&eacute;gimen unificado de tributaci&oacute;n simple, servicios exlucidos de base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9244-2019",
+      "tipo": "oficio",
+      "numero": "9244",
+      "fecha": "2019-04-12",
+      "tema": "La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4608-2019",
+      "tipo": "oficio",
+      "numero": "4608",
+      "fecha": "2019-02-23",
+      "tema": "&iquest;C&oacute;mo se determinan los dividendos y participaciones no gravadas de las sociedades que se acojan al impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1171-2019",
+      "tipo": "oficio",
+      "numero": "1171",
+      "fecha": "2019-01-01",
+      "tema": "Participaciones y Dividendos. Aplicabilidad de la tarifa especial para dividendos y participaciones incluida en los art&iacute;culos 242, 242-1 y 245 del Estatuto Tributario, en el caso de las distribuciones de utilidades en acciones o cuotas de inter&eacute;s social reconocidas como ingresos no constitutivos de renta ni ganancia ocasional en los t&eacute;rminos del art&iacute;culo 36-3 del E.T",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902918-2018",
+      "tipo": "oficio",
+      "numero": "902918",
+      "fecha": "2018-12-06",
+      "tema": "Destinaci&oacute;n de los recursos del servicio p&uacute;blico de la seguridad social",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900438-2018",
+      "tipo": "oficio",
+      "numero": "900438",
+      "fecha": "2018-11-22",
+      "tema": "Tratamiento tributario que debe d&aacute;rsele a los recursos destinados a gastos de administraci&oacute;n en las entidades promotoras de salud (EPS)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32473-2018",
+      "tipo": "oficio",
+      "numero": "32473",
+      "fecha": "2018-11-07",
+      "tema": "Aplicaci&oacute;n del numeral 6 del art&iacute;culo 476 del E.T. a los servidores de educaci&oacute;n universitaria, y educaci&oacute;n continuada y complementaria, prestados por los Hospitales Universitarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28033-2018",
+      "tipo": "oficio",
+      "numero": "28033",
+      "fecha": "2018-09-27",
+      "tema": "Distribuci&oacute;n de dividendos originados en utilidades comerciales de los a&ntilde;os 2016 y anteriores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1825-2018",
+      "tipo": "oficio",
+      "numero": "1825",
+      "fecha": "2018-10-17",
+      "tema": "Aplicaci&oacute;n del DUR 1625 de 2016, art&iacute;culo 1.2.3.7",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1734-2018",
+      "tipo": "oficio",
+      "numero": "1734",
+      "fecha": "2018-10-08",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0446-2018",
+      "tipo": "oficio",
+      "numero": "0446",
+      "fecha": "2018-11-22",
+      "tema": "Aplicaci&oacute;n de la retenci&oacute;n en la fuente a los pagos derivados de sentencias y conciliaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0432-2018",
+      "tipo": "oficio",
+      "numero": "0432",
+      "fecha": "2018-04-03",
+      "tema": "Para las compa&ntilde;&iacute;as constructoras, en el caso de venta de inmuebles considerados como inventarios &iquest;el ingreso por venta se entiende realizado en el momento en que se efect&uacute;e la escritura p&uacute;blica correspondiente as&iacute; la factura de venta se haya expedido en un periodo gravable anterior? o este tratamiento es &uacute;nicamente de aplicaci&oacute;n cuando se trate de activos fijos, de conformidad con el art&iacute;culo 91 del E.T., los dividendos, participaciones y utilidades recibidas por personas naturales no residentes, se les gravar&eacute; el 100% de los dividendos entregados v&iacute;a retenci&oacute;n en la fuente, sin que tengan derecho al c&aacute;lculo del art&iacute;culo 49 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0105-2018",
+      "tipo": "oficio",
+      "numero": "0105",
+      "fecha": "2018-02-12",
+      "tema": "Armonizaci&oacute;n del tratamiento tributario y contable del arrendamiento financiero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34951-2017",
+      "tipo": "oficio",
+      "numero": "34951",
+      "fecha": "2017-12-29",
+      "tema": "Impuesto sobre las ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33131-2017",
+      "tipo": "oficio",
+      "numero": "33131",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;Los servicios de desarrollo de aplicaciones m&oacute;viles se encuentran exlu&iacute;dos de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28589-2017",
+      "tipo": "oficio",
+      "numero": "28589",
+      "fecha": "2017-10-20",
+      "tema": "Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27538-2017",
+      "tipo": "oficio",
+      "numero": "27538",
+      "fecha": "2017-08-10",
+      "tema": "Acuerdos de Pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26197-2017",
+      "tipo": "oficio",
+      "numero": "26197",
+      "fecha": "2017-09-26",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre las ventas - IVA - los derechos de participaci&oacute;n cobrados a los arrendatarios de locales comerciales por un centro comercial no sometido al r&eacute;gimen de propiedad horizontal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013279-2017",
+      "tipo": "concepto",
+      "numero": "0013279",
+      "fecha": "2017-05-30",
+      "tema": "Revocatoria a la respuesta a pregunta n&uacute;mero 4 del concepto 100208221-723 del 6 de abril de 2017- Tratamiento tributario de las utilidades distribuidas por fondos de inversi&oacute;n colectiva a su participes o suscriptores y Revocatoria al Concepto 6230 del 22 de marzo de 2017 - &iquest;Se asimilan a dividendos las utilidades distribuidas por los fondos de inversi&oacute;n colectiva a sus part&iacute;cipes o suscriptores y, en consecuencia, dichas distribuciones est&aacute;n sometidas al impuesto sobre la renta a t&iacute;tulo de dividendos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9730-2017",
+      "tipo": "oficio",
+      "numero": "9730",
+      "fecha": "2017-04-26",
+      "tema": "&iquest;Los dividendos decretados en acciones o en cuotas de inter&eacute;s social se consideran ingresos no constitutivos de renta ni ganancia ocasional para los accionistas o socios sin ning&uacute;n l&iacute;mite?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8770-2017",
+      "tipo": "oficio",
+      "numero": "8770",
+      "fecha": "2017-04-17",
+      "tema": "Manejo de env&iacute;o de dinero de reaseguros del exterior (reglas de impuestos) - Dividendos: restricciones e impuestos para el pago de Dividendos a accionistas del exterior - Impuestos en general relacionados a seguros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8239-2017",
+      "tipo": "oficio",
+      "numero": "8239",
+      "fecha": "2017-04-07",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8055-2017",
+      "tipo": "oficio",
+      "numero": "8055",
+      "fecha": "2017-04-06",
+      "tema": "&iquest;Las normas reglamentarias relacionadas con la 'renta exenta' en servicios hoteleros prestados en hoteles nuevos, modificados y-o remodelados, as&iacute; como las condiciones de inversi&oacute;n compiladas en los art&iacute;culos 1,2.1.22.10 a 1.2.1.22.15 siguen siendo aplicables a los establecimientos hoteleros que se encuentran en el tratamiento preferencial de 'renta exenta' por haber cumplido con las condiciones de inversi&oacute;n enunciadas en el art&iacute;culo 207-2 y sus normas reglamentarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6230-2017",
+      "tipo": "oficio",
+      "numero": "6230",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Utilidades Provenientes de Fondos de Inversi&oacute;n - Utilidades Provenientes de Fondos de Valores Utilidades Provenientes de Fondos Mutuos de Inversi&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-5310-2017",
+      "tipo": "oficio",
+      "numero": "5310",
+      "fecha": "2017-03-14",
+      "tema": "Impuesto sobre la Renta y Complementarios - Inversi&oacute;n Extranjera - Inversi&oacute;n de capital del exterior -Directa - Portafolio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900633-2016",
+      "tipo": "oficio",
+      "numero": "900633",
+      "fecha": "2016-01-13",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28967-2016",
+      "tipo": "oficio",
+      "numero": "28967",
+      "fecha": "2016-10-18",
+      "tema": "Impuesto a las ventas - Exportaciones Exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22778-2016",
+      "tipo": "oficio",
+      "numero": "22778",
+      "fecha": "2016-08-24",
+      "tema": "&iquest;Una persona natural residente fiscal en Colombia o una sociedad nacional debe incluir como propios en sus declaraciones tributarias o en los reportes de informaci&oacute;n exigidos por la autoridad tributaria los ingresos y el patrimonio de una sociedad extranjera, de la que es socio o accionista, en virtud de la figura de la transparencia fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10437-2016",
+      "tipo": "oficio",
+      "numero": "10437",
+      "fecha": "2016-05-03",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5723-2016",
+      "tipo": "oficio",
+      "numero": "5723",
+      "fecha": "2016-03-15",
+      "tema": "Dividendos - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34381-2015",
+      "tipo": "oficio",
+      "numero": "34381",
+      "fecha": "2015-12-01",
+      "tema": "Requerimiento puntual de interpretaci&oacute;n de competencia relacionado con la retenci&oacute;n en la fuente respecto del giro de utilidades por parte de una sucursal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24188-2015",
+      "tipo": "oficio",
+      "numero": "24188",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23839-2015",
+      "tipo": "oficio",
+      "numero": "23839",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Los pagos que realizan las Entidades Promotoras de Salud EPS con los recursos recibidos del Fondo de Solidaridad y Garant&iacute;a -FOSYGA producto del recobro de suministros y prestaciones no incluidas en el Plan Obligatorio de Salud POS, est&aacute;n gravados con el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22683-2015",
+      "tipo": "oficio",
+      "numero": "22683",
+      "fecha": "2015-07-03",
+      "tema": "&iquest;Genera impuesto sobre las ventas la transferencia de dominio de un aerodino (activo fijo) entre sociedades nacionales, cuando dicha operaci&oacute;n se efect&uacute;a a t&iacute;tulo de aporte de capital, con ocasi&oacute;n de una escisi&oacute;n adquisitiva, o con ocasi&oacute;n de una escisi&oacute;n reorganizativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18115-2015",
+      "tipo": "oficio",
+      "numero": "18115",
+      "fecha": "2015-06-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15491-2015",
+      "tipo": "oficio",
+      "numero": "15491",
+      "fecha": "2015-05-27",
+      "tema": "Una Nueva Peque&ntilde;a Empresa acogida al beneficio de progresividad en el pago del impuesto sobre la renta y complementarios, de que trata el art&iacute;culo 4o de la Ley 1429 de 2010, &iquest;puede corregir sus declaraciones tributarias y mantener dicho beneficio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007230-2015",
+      "tipo": "concepto",
+      "numero": "0007230",
+      "fecha": "2015-03-09",
+      "tema": "&iquest;El producto denominado SOLUCION HTK DE BRETSCHNEIDER o comercialmente denominado CUSTODIOL, se encuentra excluido del Impuesto Sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4554-2015",
+      "tipo": "oficio",
+      "numero": "4554",
+      "fecha": "2015-02-18",
+      "tema": "Renta Exenta en Servicios Hoteleros Prestados en Nuevos Hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4390-2015",
+      "tipo": "oficio",
+      "numero": "4390",
+      "fecha": "2015-02-17",
+      "tema": "&iquest;El material de piedra de r&iacute;o proveniente de una explotaci&oacute;n y-o exploraci&oacute;n minera se encuentra sujeto al gravamen del Impuesto Sobre las Ventas, aun cuando el comprador lo extrae directamente in situ?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1813-2015",
+      "tipo": "oficio",
+      "numero": "1813",
+      "fecha": "2015-01-26",
+      "tema": "&iquest;Seg&uacute;n el inciso 2o del art&iacute;culo 57-2, las empresas que realicen pagos a sus empleados que retribuyan la labor relacionada con proyectos calificados por el Consejo Nacional de Beneficios Tributarios como de investigaci&oacute;n o desarrollo tecnol&oacute;gico, podr&aacute;n considerarlos como ingresos no constitutivos de renta ni ganancia ocasional y por tanto no someterlos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-284641-2014",
+      "tipo": "oficio",
+      "numero": "284641",
+      "fecha": "2014-05-09",
+      "tema": "Reconsideraci&oacute;n del Oficio n&uacute;mero 71477 del 8 de noviembre de 2013,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78477-2014",
+      "tipo": "oficio",
+      "numero": "78477",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Deben calcularse los dividendos no gravados que se distribuyan a los socios con base en el c&aacute;lculo te&oacute;rico del impuesto sobre la renta por cada ejercicio social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61360-2014",
+      "tipo": "oficio",
+      "numero": "61360",
+      "fecha": "2014-10-31",
+      "tema": "Concepto de sociedades y entidades nacionales para efectos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60375-2014",
+      "tipo": "oficio",
+      "numero": "60375",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;La deducci&oacute;n por dependientes consagrada en el art&iacute;culo 387 del Estatuto Tributario y en los Decretos 099 y 1070 de 2013, procede cuando el dependiente econ&oacute;mico del contribuyente sea el compa&ntilde;ero permanente del mismo sexo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57065-2014",
+      "tipo": "oficio",
+      "numero": "57065",
+      "fecha": "2014-10-03",
+      "tema": "&iquest;Cu&aacute;les son las normas que regulan el r&eacute;gimen de la inversi&oacute;n extranjera en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55679-2014",
+      "tipo": "oficio",
+      "numero": "55679",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;La restituci&oacute;n de los bienes por parte de la entidad fiduciaria al constituyente del patrimonio aut&oacute;nomo es una operaci&oacute;n generadora de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50282-2014",
+      "tipo": "oficio",
+      "numero": "50282",
+      "fecha": "2014-08-20",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 45740 del 24 de julio de 2013, en el cual se concluy&oacute; que el art&iacute;culo 5o del Decreto Reglamentario 3750 de 1986 no aplica para efectos de la retenci&oacute;n en la fuente m&iacute;nima de que trata el art&iacute;culo 384 del Estatuto Tributario y por consecuencia los pagos por educaci&oacute;n y salud se entienden como pagos indirectos que forman parte de la base de la retenci&oacute;n m&iacute;nima, de la cual solo se pueden detraer los aportes al sistema de seguridad social a cargo del trabajador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49488-2014",
+      "tipo": "oficio",
+      "numero": "49488",
+      "fecha": "2014-08-15",
+      "tema": "Vigencia Decreto 535 de 1987",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49486-2014",
+      "tipo": "oficio",
+      "numero": "49486",
+      "fecha": "2014-08-15",
+      "tema": "Facultad Fiscalizadora - Inspecci&oacute;n Contable",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049178-2014",
+      "tipo": "concepto",
+      "numero": "0049178",
+      "fecha": "2014-08-14",
+      "tema": "&iquest;Es posible aplicar la exenci&oacute;n de que trata el art&iacute;culo 27 de la Ley 488 de 1998 sobre las bonificaciones y-o indemnizaciones que reciban los empleados de una empresa de servicios p&uacute;blicos mixta en programas de retiro de personal, al realizar la depuraci&oacute;n del impuesto de renta tanto por el sistema ordinario como por el Impuesto M&iacute;nimo Alternativo Nacional -IMAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31261-2014",
+      "tipo": "oficio",
+      "numero": "31261",
+      "fecha": "2014-05-22",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30274-2014",
+      "tipo": "oficio",
+      "numero": "30274",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa por el Sistema IMAN se deben tener en cuenta los factores se&ntilde;alados en el art&iacute;culo 2&deg; del Decreto 1070 de 2013, para establecer la retenci&oacute;n en la fuente en la categor&iacute;a de empleados?&iquest;La deducci&oacute;n por dependientes se debe solicitar solo por los meses en que existi&oacute; esa relaci&oacute;n de dependencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19117-2014",
+      "tipo": "oficio",
+      "numero": "19117",
+      "fecha": "2014-03-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14845-2014",
+      "tipo": "oficio",
+      "numero": "14845",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las C&aacute;maras de Comercio deben efectuar el cobro de IVA del formulario de registro mercantil?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-13196-2014",
+      "tipo": "oficio",
+      "numero": "13196",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Para efectos de determinar la base de c&aacute;lculo de la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario, cuales deducciones son procedentes?&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa se puede detraer la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11306-2014",
+      "tipo": "oficio",
+      "numero": "11306",
+      "fecha": "2014-01-01",
+      "tema": "Autorretenci&oacute;n del impuesto sobre la renta para la equidad-CREE por parte de las EPS que son sujetos pasivos del mismo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11170-2014",
+      "tipo": "oficio",
+      "numero": "11170",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las primas de los servidores p&uacute;blicos o empleados privados, legales y extralegales, hacen parte del ingreso bruto gravable por el IMAN para personas naturales empleadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077310-2013",
+      "tipo": "concepto",
+      "numero": "0077310",
+      "fecha": "2013-12-02",
+      "tema": "Los recursos de la seguridad social que administran las EPS, especialmente la UPC -Unidad de pago por Capitaci&oacute;n- se encuentran sometidos al sistema de autorretenci&oacute;n del impuesto sobre la renta para la equidad-CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76509-2013",
+      "tipo": "oficio",
+      "numero": "76509",
+      "fecha": "2013-11-27",
+      "tema": "Implicaciones fiscales del pago de dividendos a acciones y los contratos en participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44353-2013",
+      "tipo": "oficio",
+      "numero": "44353",
+      "fecha": "2013-07-04",
+      "tema": "&iquest;Los gastos o servicios en que se incurre para la administraci&oacute;n del FONPET, establecidos en el Decreto 1094 de 2012, est&aacute;n sujetos a impuestos nacionales, en particular el IVA, y de estarlo, a que tarifa y quien debe pagarlos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28932-2013",
+      "tipo": "oficio",
+      "numero": "28932",
+      "fecha": "2013-05-14",
+      "tema": "R&eacute;gimen aplicable en los casos de repatriaci&oacute;n de capitales a sus sociedades matrices en Espa&ntilde;a relativos a inversiones que aquellas tienen en sociedades filiales en Colombia; o lo que es lo mismo, el retiro de inversi&oacute;n en una sociedad en Colombia por parte de un socio extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18090-2013",
+      "tipo": "oficio",
+      "numero": "18090",
+      "fecha": "2013-03-27",
+      "tema": "&iquest;C&oacute;mo se calcula el Impuesto M&iacute;nimo Alternativo Nacional (IMAN), para los colombianos catalogados como reservistas de la Fuerza A&eacute;rea, cobijados por el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15763-2013",
+      "tipo": "oficio",
+      "numero": "15763",
+      "fecha": "2013-06-15",
+      "tema": "&iquest;Es procedente que una vez establecida la parte gravada y no gravada de las utilidades, las compa&ntilde;&iacute;as distribuyan solamente la utilidad no gravada, o si por el contrario, se encuentran en la obligaci&oacute;n de distribuir los dividendos decretados se encuentren o no gravados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76727-2012",
+      "tipo": "oficio",
+      "numero": "76727",
+      "fecha": "2012-12-10",
+      "tema": "&iquest;Porqu&eacute; un inversionista en un fondo mutuo de inversi&oacute;n est&aacute; sometido a retenci&oacute;n en la fuente sobre las utilidades provenientes del mismo a una tarifa del veinte por ciento (20%) si es declarante del impuesto sobre la renta y del treinta y tres por ciento (33%) cuando no est&eacute; obligado a presentar declaraci&oacute;n de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50865-2012",
+      "tipo": "oficio",
+      "numero": "50865",
+      "fecha": "2012-08-10",
+      "tema": "Aplicaci&oacute;n de la retenci&oacute;n en la fuente sobre dividendos a la luz de lo dispuesto en el art&iacute;culo 10 y su protocolo, del convenio para evitar la doble Imposici&oacute;n y prevenir la evasi&oacute;n fiscal, suscrito entre la Rep&uacute;blica de Colombia y el Reino de Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48993-2012",
+      "tipo": "oficio",
+      "numero": "48993",
+      "fecha": "2012-08-02",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente que debe practicar una sociedad Colombiana cuando paga o abona en cuenta a un residente en Espa&ntilde;a unos dividendos gravados en cabeza del accionista y que permanecieron en reservas por dos a&ntilde;os?&iquest;Cu&aacute;l es la tarifa a aplicar cuando se pagan o abonas en cuenta dividendos no gravados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0597-2011",
+      "tipo": "oficio",
+      "numero": "0597",
+      "fecha": "2011-01-07",
+      "tema": "Al tenor de lo establecido en la Circular No. 000066 del 16 de octubre de 2009, se puede colegir que al no haber utilidad gravada por dividendos o participaciones no se puede amortizar el cr&eacute;dito mercantil adquirido",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039973-2010",
+      "tipo": "concepto",
+      "numero": "0039973",
+      "fecha": "2010-06-03",
+      "tema": "&iquest;La tarifa prevista en el par&aacute;grafo 1 del art&iacute;culo 245 del Estatuto Tributario puede reducirse a cero (0%) en virtud del art&iacute;culo 10 del Convenio para Evitar la Doble Tributaci&oacute;n y su Protocolo suscrito entre las Rep&uacute;blicas de Colombia y Chile?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101047-2009",
+      "tipo": "oficio",
+      "numero": "101047",
+      "fecha": "2009-12-07",
+      "tema": "&iquest;Las sociedades beneficiarias de la escisi&oacute;n pueden distribuir dividendos y participaciones a sus socios o accionistas con cargo a utilidades del ejercicio y reservas recibidas en el proceso de escisi&oacute;n, en calidad de ingreso no constitutivo de renta ni ganancia ocasional, en la parte correspondiente a utilidades sobre las cuales las sociedades escindentes ya pagaron impuesto de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084427-2009",
+      "tipo": "concepto",
+      "numero": "0084427",
+      "fecha": "2009-10-15",
+      "tema": "&iquest;En la enajenaci&oacute;n de acciones privilegiadas, la parte que no constituye renta o ganancia ocasional debe calcularse sobre el porcentaje de participaci&oacute;n en las utilidades retenidas o debe limitarse al porcentaje de participaci&oacute;n de las acciones dentro del capital de la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75200-2009",
+      "tipo": "oficio",
+      "numero": "75200",
+      "fecha": "2009-09-15",
+      "tema": "&iquest;Los intereses pagados por una empresa colombiana a un banco extranjero por concepto de cr&eacute;dito est&aacute;n sometidos a Impuestos en el pa&iacute;s?&iquest;Cu&aacute;l es la tarifa retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta para dividendos o participaciones recibidos por extranjeros no residentes ni domiciliados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66902-2009",
+      "tipo": "oficio",
+      "numero": "66902",
+      "fecha": "2009-08-19",
+      "tema": "Consulta con fundamento en los art&iacute;culos 36 y 36-3 del Estatuto Tributario y en el Oficio n&uacute;mero 051657 del 17 de agosto de 2004 si la capitalizaci&oacute;n de la prima en colocaci&oacute;n de acciones pagada &iacute;ntegramente por los socios originales y la posterior disminuci&oacute;n del capital social, en un monto que afecte dicha prima, &iquest;convierte los reembolsos entregados a los socios originales en ingreso gravable para la sociedad y para los accionistas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60169-2009",
+      "tipo": "oficio",
+      "numero": "60169",
+      "fecha": "2009-07-27",
+      "tema": "Tratamiento de impuesto sobre la renta que se debe dar a los ingresos percibidos por una sucursal de una sociedad extranjera, relativos a la renta exenta en servicios hoteleros prestados en nuevos hoteles, construidos a partir de enero de 2003, cuando se remiten a la sociedad extranjera las rentas obtenidas. Y, el tratamiento del impuesto sobre la renta, en la distribuci&oacute;n de utilidades, efectuada a los socios de una sociedad colombiana que obtenga rentas por concepto de prestaci&oacute;n de servicios hoteleros",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050864-2009",
+      "tipo": "concepto",
+      "numero": "0050864",
+      "fecha": "2009-06-23",
+      "tema": "En aplicaci&oacute;n de la Decisi&oacute;n 578 de 2004 proferida por la Comunidad Andina de Naciones, es procedente adicionar el valor de los dividendos percibidos de sociedades domiciliadas en otro pa&iacute;s miembro de la CAN, a los dividendos a ser distribuidos como no gravados a socios o accionistas domiciliados en un pa&iacute;s no comunitario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046501-2009",
+      "tipo": "concepto",
+      "numero": "0046501",
+      "fecha": "2009-06-08",
+      "tema": "&iquest;En la determinaci&oacute;n de los dividendos y participaciones no gravados, al valor obtenido de conformidad con el procedimiento previsto en el numeral 1 del art&iacute;culo 49 del E.T. se puede adicionar el ingreso contable por recuperaci&oacute;n o reversi&oacute;n de provisiones no deducibles de a&ntilde;os anteriores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052808-2008",
+      "tipo": "concepto",
+      "numero": "0052808",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Constituyen ingreso fiscal gravado para el accionista los dividendos en acciones producto de la capitalizaci&oacute;n de las utilidades contables, no realizadas fiscalmente y provenientes de la distribuci&oacute;n de la reserva de que trata el inciso segundo del art&iacute;culo 1&deg; del Decreto Reglamentario 2336 de 1995 por la aplicaci&oacute;n de sistemas especiales de valoraci&oacute;n de inversiones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044634-2008",
+      "tipo": "concepto",
+      "numero": "0044634",
+      "fecha": "2008-05-06",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para materializar el contenido de la preceptiva consagrada en el art&iacute;culo 11 de la Decisi&oacute;n 578 de 2004 de la Comunidad Andina de Naciones, seg&uacute;n la cual, los dividendos y participaciones distribuidos por la sociedad receptora no pueden ser gravados por el Pa&iacute;s Miembro en el que se encuentre domiciliada la sociedad receptora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5692-2008",
+      "tipo": "oficio",
+      "numero": "5692",
+      "fecha": "2008-11-21",
+      "tema": "&iquest;Con fundamento en lo previsto en el art&iacute;culo 23-1 del Estatuto Tributario puede afirmarse que las carteras colectivas a las que hace referencia el Decreto 2175 del 12 de junio de 2007, no son contribuyentes del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101180-2007",
+      "tipo": "oficio",
+      "numero": "101180",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario aplicable a los ingresos percibidos por una persona, relativos a las utilidades provenientes de la cesi&oacute;n de cuotas respecto de las cuales no aparece registrada como titular en la sociedad de responsabilidad limitada que distribuye la utilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51091-2007",
+      "tipo": "oficio",
+      "numero": "51091",
+      "fecha": "2007-07-10",
+      "tema": "&iquest;El art&iacute;culo 56 del Estatuto Tributario est&aacute; derogado?&iquest;Al ser los fondos Mutuos no contribuyentes en virtud del numeral 3 del art&iacute;culo 19 del E.T., los ingresos que distribuyen o abonan en cuenta son gravados para los",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50686-2007",
+      "tipo": "oficio",
+      "numero": "50686",
+      "fecha": "2007-07-09",
+      "tema": "&iquest;La sumas recibidas por un acreedor prendario a quien se han conferido los derechos inherentes a la calidad de accionista en virtud de estipulaci&oacute;n o pacto expreso correspondientes a dividendos o participaciones para pagar obligaciones, constituyen renta o ganancia ocasional, conforme a lo establecido en el art&iacute;culo 48 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49854-2007",
+      "tipo": "oficio",
+      "numero": "49854",
+      "fecha": "2007-07-05",
+      "tema": "&iquest;Se encuentra vigente el art&iacute;culo 23-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38890-2007",
+      "tipo": "oficio",
+      "numero": "38890",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;cuando una sociedad que posee como &uacute;nico bien un edificio cuyo valor en libros es menor al autoaval&uacute;o, toma este &uacute;ltimo como costo fiscal para enajenarlo y si la diferencia del costo fiscal del bien por el autoaval&uacute;o versus su costo contable es un ingreso que se encuentre exceptuado en cabeza de la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26627-2007",
+      "tipo": "oficio",
+      "numero": "26627",
+      "fecha": "2007-04-09",
+      "tema": "&iquest;Las comisiones cobradas por las entidades financieras a las entidades administradoras de fondos de pensiones y al Instituto de los Seguros Sociales por el pago de pensiones, se encuentran gravadas con el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101752-2006",
+      "tipo": "oficio",
+      "numero": "101752",
+      "fecha": "2006-12-04",
+      "tema": "Impuesto sobre la renta y complementarios - Reembolso de aportes - Prima en colocaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91291-2006",
+      "tipo": "oficio",
+      "numero": "91291",
+      "fecha": "2006-10-25",
+      "tema": "Solicita saber cu&aacute;l es el criterio de &eacute;ste despacho respecto de las normas objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83813-2006",
+      "tipo": "oficio",
+      "numero": "83813",
+      "fecha": "2006-09-28",
+      "tema": "Solicita aclaraci&oacute;n del Concepto No. 048168 de 2006, a fin de precisar cu&aacute;ndo ser&iacute;a procedente la deducci&oacute;n por concepto de intereses pagados sobre pr&eacute;stamos obtenidos para la compra de acciones y cu&aacute;l es el tratamiento aplicable a los intereses pagados en el a&ntilde;o en el cual no se perciban dividendos por parte del inversionista",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026613-2006",
+      "tipo": "concepto",
+      "numero": "0026613",
+      "fecha": "2006-03-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los ingresos recibidos como contraprestaci&oacute;n de un aporte de industria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004388-2006",
+      "tipo": "concepto",
+      "numero": "0004388",
+      "fecha": "2006-01-16",
+      "tema": "&iquest;Constituye ingreso gravable con el impuesto sobre la renta el valor de los aportes reembolsado o restituido a los socios, como resultado de la disminuci&oacute;n del capital de la sociedad, cuando dicha disminuci&oacute;n opera sobre el valor inicialmente capitalizado de las utilidades o de las cuentas previstas en el art&iacute;culo 36-3 del Estatuto Tributario?&iquest;La capitalizaci&oacute;n de la prima en colocaci&oacute;n de acciones y la posterior disminuci&oacute;n del capital de la sociedad, en un monto que afecte el valor inicialmente calculado e dicha prima, genera un ingreso gravable para la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069866-2004",
+      "tipo": "concepto",
+      "numero": "0069866",
+      "fecha": "2004-01-01",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060501-2004",
+      "tipo": "concepto",
+      "numero": "0060501",
+      "fecha": "2004-09-13",
+      "tema": "&iquest;En el evento de que la sociedad distribuya el valor de la cuenta patrimonial proveniente de la inclusi&oacute;n en la declaraci&oacute;n de renta del a&ntilde;o gravable 2003, de activos omitidos en a&ntilde;os anteriores, constituyen estos dividendos un ingreso no constitutivo de renta ni de ganancia ocasional en cabeza de los asociados? &iquest;En el evento de que la sociedad enajene posteriormente el activo omitido en a&ntilde;os anteriores e incluido en la declaraci&oacute;n del impuesto sobre la renta del a&ntilde;o gravable 2003, por un valor igual a su costo? &iquest;puede distribuirse el efectivo recibido a t&iacute;tulo de dividendo no constitutivo de renta ni ganancia ocasional en cabeza de los socios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042698-2002",
+      "tipo": "concepto",
+      "numero": "0042698",
+      "fecha": "2002-01-01",
+      "tema": "En qu&eacute; momento se debe contabilizar la Autorretenci&oacute;n en la Fuente que se efect&uacute;e sobre los intereses vencidos que se pagan en forma anual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007852-2002",
+      "tipo": "concepto",
+      "numero": "0007852",
+      "fecha": "2002-02-11",
+      "tema": "&iquest;C&oacute;mo se practica la notificaci&oacute;n por correo a que hace referencia el art&iacute;culo 566 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006549-2002",
+      "tipo": "concepto",
+      "numero": "0006549",
+      "fecha": "2002-01-01",
+      "tema": "Cuando se enajenan acciones producto de una inversi&oacute;n extranjera, respecto de las cuales existen dividendos pendientes por distribuir al momento de la enajenaci&oacute;n; el enajenante puede transferir al adquirente los beneficios cuando las utilidades han sido reinvertidas por 5 a&ntilde;os o m&aacute;s en la sociedad que las gener&oacute;?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070925-2000",
+      "tipo": "concepto",
+      "numero": "0070925",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Las personas naturales Colombianas residentes en el pa&iacute;s y las sociedades nacionales que poseen inversiones en el exterior, tributan en Colombia sobre los dividendos que perciban de esas sociedades extranjeras en las cuales tienen la inversi&oacute;n o tributan en el pa&iacute;s en el que tienen origen los dividendos? &iquest;Las sociedades extranjeras que perciban dividendos de sociedades Colombianas est&aacute;n sometidas a gravamen en Colombia sobre esos dividendos o tributan en el pa&iacute;s de la cual es nacional la sociedad beneficiaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067121-2000",
+      "tipo": "concepto",
+      "numero": "0067121",
+      "fecha": "2000-07-13",
+      "tema": "&iquest;El beneficio de exenci&oacute;n del impuesto sobre la renta y complementarios otorgado por la Ley 218 de 1995, aplica tanto para la empresa receptora de la inversi&oacute;n como para los inversionistas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053526-1999",
+      "tipo": "concepto",
+      "numero": "0053526",
+      "fecha": "1999-06-09",
+      "tema": "&iquest;la prima por colocaci&oacute;n de acciones est&aacute; gravada con el impuesto de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042321-1999",
+      "tipo": "concepto",
+      "numero": "0042321",
+      "fecha": "1999-05-03",
+      "tema": "&iquest;Al fusionarse varias sustancias importadas con sustancias nacionales tales como caf&eacute; en polvo, melocot&oacute;n en polvo y obtener un nuevo producto y envasarlo en empaques adquiridos en Colombia (frascos Cajas) para su distribuci&oacute;n y venta, puede clasificarse esta actividad como producci&oacute;n para efectos de los beneficios de Ley P&aacute;ez? &iquest;Cual es el plazo que se tiene para la materializaci&oacute;n de la inversi&oacute;n? &iquest;Siguen vigentes las fechas de beneficios tanto para las nuevas como para los inversionistas contemplados en el art&iacute;culo 2&ordm; de la Ley 218-95? &iquest;De acuerdo con el art&iacute;culo 2 del Dcto. 890-97 los establecimientos de comercio que desarrollen su actividad econ&oacute;mica en la zona afectada por sismo y avalancha del R&iacute;o P&aacute;ez, pueden expender cualquier clase de productos al detal? Que caracter&iacute;sticas debe cumplir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069983-1998",
+      "tipo": "concepto",
+      "numero": "0069983",
+      "fecha": "1998-09-07",
+      "tema": "&iquest;Una sociedad inversionista extranjera sin domicilio en Colombia, al convertirse en socio mayoritario de una sociedad limitada colombiana se considera con actividad permanente en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066937-1998",
+      "tipo": "concepto",
+      "numero": "0066937",
+      "fecha": "1998-08-26",
+      "tema": "&iquest;Cu&aacute;ndo una sociedad de responsabilidad limitada se liquida, el valor de la cuenta revalorizaci&oacute;n del patrimonio y las utilidades provenientes de los ajustes integrales por inflaci&oacute;n, se pueden distribuir como ingresos no constitutivos de renta ni de ganancia ocasional?&iquest;El valor del saneamiento de bienes ra&iacute;ces, es decir la diferencia entre el costo fiscal ajustado y el valor comercial a 31 de diciembre de 1995, solicitado en la &uacute;ltima declaraci&oacute;n de renta de una sociedad que se liquida, se puede distribuir como un ingreso no constitutivo de renta ni de ganancia ocasional, si a&uacute;n no se han enajenado los bienes objeto del saneamiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059518-1998",
+      "tipo": "concepto",
+      "numero": "0059518",
+      "fecha": "1998-07-29",
+      "tema": "&iquest;Se tiene la calidad de comerciante cuando el contribuyente en desarrollo de su actividad econ&oacute;mica realiza cualquiera de los actos de comercio se&ntilde;alados en el art&iacute;culo 20 del c&oacute;digo de comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058086-1998",
+      "tipo": "concepto",
+      "numero": "0058086",
+      "fecha": "1998-07-23",
+      "tema": "&iquest;Para efectos de determinar la utilidad m&aacute;xima a distribuir por una sociedad a t&iacute;tulo de ingreso no constitutivo de renta ni ganancia ocasional, los factores que tienen tratamiento contable diferente al fiscal, como la provisi&oacute;n de gastos o costos o los ingresos no gravados por dividendos y participaciones, afectan la utilidad comercial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058085-1998",
+      "tipo": "concepto",
+      "numero": "0058085",
+      "fecha": "1998-07-23",
+      "tema": "&iquest;Puede una sociedad contabilizar como ingreso la suma recibida con ocasi&oacute;n de la firma de promesa de compraventa de un inmueble a&uacute;n cuando la escritura p&uacute;blica sea otorgada en el siguiente a&ntilde;o? &iquest;Puede una sociedad repartir a sus socios a t&iacute;tulo de ingreso no constitutivo de renta ni ganancia ocasional la utilidad generada por enajenaci&oacute;n de un bien inmueble a una entidad p&uacute;blica para realizar una obra de beneficio com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054292-1998",
+      "tipo": "concepto",
+      "numero": "0054292",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Constituye ganancia ocasional gravable a valorizaci&oacute;n de acciones que tiene su origen en un laudo arbitral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008696-1998",
+      "tipo": "concepto",
+      "numero": "0008696",
+      "fecha": "1998-02-13",
+      "tema": "&iquest;Una corporaci&oacute;n sin &aacute;nimo de lucro que presta de manera exclusiva para sus afiliados planes recreativos, pr&eacute;stamos para m&uacute;ltiples prop&oacute;sitos, puede considerarse su objeto social como programa de desarrollo social e inter&eacute;s general? &iquest;Cu&aacute;les son las obligaciones contables y tributarias a las cuales est&aacute; sometida la entidad de la anterior preguntas, y cu&aacute;l es el fundamento legal de las mismas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025450-1997",
+      "tipo": "concepto",
+      "numero": "0025450",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019181-1997",
+      "tipo": "concepto",
+      "numero": "0019181",
+      "fecha": "1997-10-17",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003107-1997",
+      "tipo": "concepto",
+      "numero": "0003107",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008489-1995",
+      "tipo": "concepto",
+      "numero": "0008489",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044650-1994",
+      "tipo": "concepto",
+      "numero": "0044650",
+      "fecha": "1994-07-15",
+      "tema": ", est&aacute;n sometidos a retenci&oacute;n en la fuente y en caso afirmativo cu&aacute;l es la tarifa aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011577-1994",
+      "tipo": "concepto",
+      "numero": "0011577",
+      "fecha": "1994-03-08",
+      "tema": "El ingreso no constitutivo de renta ni de ganancia ocasional, recibido por una sociedad, diferente a dividendos y participaciones, se puede distribuir a los socios conservando su naturaleza de ingreso no gravado? Para los socios que reciban unas acciones producto de la capitalizaci&oacute;n de la cuenta de revalorizaci&oacute;n del patrimonio, lo recibido constituye un super&aacute;vit, un ingreso no constitutivo de renta ni de ganancia ocasional?, c&oacute;mo declara el socio tales acciones? Y c&oacute;mo los contabiliza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015562-1993",
+      "tipo": "concepto",
+      "numero": "0015562",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Las contraprestaciones recibidas por los socios industriales tributariamente se asimilan a las participaciones o devidendos, cu&aacute;l es su tratamiento en relaci&oacute;n con la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011310-1991",
+      "tipo": "concepto",
+      "numero": "0011310",
+      "fecha": "1991-01-01",
+      "tema": "Renta gravable para consorcios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006166-1991",
+      "tipo": "concepto",
+      "numero": "0006166",
+      "fecha": "1991-11-07",
+      "tema": "solicita usted se concept&uacute;e por parte de este Despacho, sobre la parte gravada y no gravada con el impuesto de renta, para:a) Un inversionista Nacional, b) Para un inversionista extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003645-1990",
+      "tipo": "concepto",
+      "numero": "0003645",
+      "fecha": "1990-02-13",
+      "tema": "&iquest;Los dividendos provenientes de la distribuci&oacute;n de reservas creadas y contabilizadas conforme a lo dispuesto en el art&iacute;culo 154 del C&oacute;digo de Comercio, distribuci&oacute;n a la cual se refiere el art&iacute;culo 30 del Estatuto Tributario, son o no ingresos constitutivos de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017814-1989",
+      "tipo": "concepto",
+      "numero": "0017814",
+      "fecha": "1989-01-01",
+      "tema": "Tratamiento fiscal de las participaciones",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-595-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "595",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-337-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "337",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-038-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "038",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

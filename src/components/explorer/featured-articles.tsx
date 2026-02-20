@@ -5,6 +5,7 @@ import Link from "next/link";
 import { clsx } from "clsx";
 import { Star, TrendingUp, Sparkles } from "lucide-react";
 import { useArticlePanel } from "@/contexts/article-panel-context";
+import { Reveal } from "@/components/ui/reveal";
 
 interface FeaturedArticle {
   id: string;
@@ -69,41 +70,42 @@ export function FeaturedArticles({ data }: FeaturedArticlesProps) {
       </div>
 
       <div className="grid gap-2 lg:grid-cols-2">
-        {items.slice(0, 8).map((item) => (
-          <div
-            key={`${tab}-${item.slug}`}
-            className="rounded-md border border-border/50 bg-muted/20 p-3"
-          >
-            <div className="mb-1 flex items-start justify-between gap-2">
-              <button
-                onClick={() => openPanel(item.slug)}
-                className="text-left text-sm font-semibold hover:underline"
-              >
-                {item.id}
-              </button>
-              <Link
-                href={`/articulo/${item.slug}`}
-                className="text-xs font-medium text-foreground hover:underline"
-              >
-                Abrir ficha
-              </Link>
-            </div>
+        {items.slice(0, 8).map((item, index) => (
+          <Reveal key={`${tab}-${item.slug}`} delay={index * 50}>
+            <div
+              className="rounded-md border border-border/50 bg-muted/20 p-3"
+            >
+              <div className="mb-1 flex items-start justify-between gap-2">
+                <button
+                  onClick={() => openPanel(item.slug)}
+                  className="text-left text-sm font-semibold hover:underline"
+                >
+                  {item.id}
+                </button>
+                <Link
+                  href={`/articulo/${item.slug}`}
+                  className="text-xs font-medium text-foreground hover:underline"
+                >
+                  Abrir ficha
+                </Link>
+              </div>
 
-            <p className="line-clamp-2 text-xs text-muted-foreground">{item.titulo}</p>
-            <p className="mt-1 text-[11px] text-muted-foreground">{item.reason}</p>
+              <p className="line-clamp-2 text-xs text-muted-foreground">{item.titulo}</p>
+              <p className="mt-1 text-[11px] text-muted-foreground">{item.reason}</p>
 
-            <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[11px] text-muted-foreground">
-              {item.total_mods > 0 && <span>{item.total_mods} mods</span>}
-              {item.total_referenced_by > 0 && (
-                <span>{item.total_referenced_by} citado por</span>
-              )}
-              {item.badges?.slice(0, 2).map((badge) => (
-                <span key={badge} className="rounded-full border border-border px-1.5 py-0.5">
-                  {badge}
-                </span>
-              ))}
+              <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[11px] text-muted-foreground">
+                {item.total_mods > 0 && <span>{item.total_mods} mods</span>}
+                {item.total_referenced_by > 0 && (
+                  <span>{item.total_referenced_by} citado por</span>
+                )}
+                {item.badges?.slice(0, 2).map((badge) => (
+                  <span key={badge} className="rounded-full border border-border px-1.5 py-0.5">
+                    {badge}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          </Reveal>
         ))}
       </div>
     </section>

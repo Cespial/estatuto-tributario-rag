@@ -22,6 +22,7 @@ import {
   DOCTRINA_STATUS_LABELS,
   ENRICHED_DOCTRINA,
   ENRICHED_GUIAS,
+  getUniqueArticlesET,
   PROFILE_LABELS,
   semanticDoctrineSearch,
 } from "@/lib/knowledge/knowledge-index";
@@ -217,6 +218,7 @@ function DoctrinaPageContent() {
   >("todos");
   const [vigenciaFiltro, setVigenciaFiltro] = useState<"todos" | EstadoVigenciaDoctrina>("todos");
   const [articuloFiltro, setArticuloFiltro] = useState(articuloParam ?? "");
+  const [showArtSuggestions, setShowArtSuggestions] = useState(false);
   const [viewMode, setViewMode] = useState<ViewMode>(() => {
     if (typeof window === "undefined") return "lista";
     const savedMode = localStorage.getItem("tc_doctrina_view_mode");
@@ -233,6 +235,15 @@ function DoctrinaPageContent() {
   useEffect(() => {
     localStorage.setItem("tc_doctrina_view_mode", viewMode);
   }, [viewMode]);
+
+  const allArticles = useMemo(() => getUniqueArticlesET(), []);
+
+  const artSuggestions = useMemo(() => {
+    if (!articuloFiltro.trim()) return [];
+    return allArticles.filter(art => 
+      art.toLowerCase().includes(articuloFiltro.toLowerCase())
+    ).slice(0, 5);
+  }, [articuloFiltro, allArticles]);
 
   useEffect(() => {
     if (!docParam) return;
@@ -394,9 +405,30 @@ function DoctrinaPageContent() {
               type="text"
               placeholder="Ej: 240, 383..."
               value={articuloFiltro}
-              onChange={(event) => setArticuloFiltro(event.target.value)}
+              onChange={(event) => {
+                setArticuloFiltro(event.target.value);
+                setShowArtSuggestions(true);
+              }}
+              onFocus={() => setShowArtSuggestions(true)}
+              onBlur={() => setTimeout(() => setShowArtSuggestions(false), 200)}
               className="h-12 w-full rounded border border-border/60 bg-card px-4 pl-12 text-sm outline-none focus:border-foreground/40 focus:ring-1 focus:ring-foreground/20"
             />
+            {showArtSuggestions && artSuggestions.length > 0 && (
+              <div className="absolute left-0 right-0 top-full z-20 mt-1 rounded-md border border-border bg-card shadow-lg">
+                {artSuggestions.map((art) => (
+                  <button
+                    key={art}
+                    onClick={() => {
+                      setArticuloFiltro(art);
+                      setShowArtSuggestions(false);
+                    }}
+                    className="flex w-full items-center px-3 py-2 text-left text-xs hover:bg-muted"
+                  >
+                    Artículo {art}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
@@ -578,9 +610,14 @@ function DoctrinaPageContent() {
               .sort((a, b) => Number(b) - Number(a))
               .map((year) => (
                 <div key={year} className="mb-8">
-                  <div className="mb-3 flex items-center gap-2">
-                    <div className="relative -left-[18px] h-3 w-3 rounded-full bg-foreground" />
-                    <h3 className="heading-serif text-2xl text-foreground">{year}</h3>
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <div className="relative -left-[18px] h-3 w-3 rounded-full bg-foreground" />
+                      <h3 className="heading-serif text-2xl text-foreground">{year}</h3>
+                    </div>
+                    <span className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-bold text-muted-foreground uppercase">
+                      {timelineByYear[year].length} Concepto{timelineByYear[year].length !== 1 ? "s" : ""}
+                    </span>
                   </div>
 
                   <div className="space-y-3">

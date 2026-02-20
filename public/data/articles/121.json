@@ -1,1 +1,632 @@
-{"id_articulo": "Art. 121", "titulo": "Art. 121. Deducción de gastos en el exterior.", "titulo_corto": "Deducción de gastos en el exterior.", "slug": "121", "url_origen": "https://estatuto.co/121", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los contribuyentes podrán deducir los gastos efectuados en el exterior, que tengan relación de causalidad con rentas de fuente dentro del país, siempre y cuando se haya efectuado la retención en la fuente si lo pagado constituye para su beneficiario renta gravable en Colombia.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Los contribuyentes podrán deducir los gastos efectuados en el exterior, que tengan relación de causalidad con rentas de fuente dentro del país, siempre y cuando se haya efectuado la retención en la fuente si lo pagado constituye para su beneficiario renta gravable en Colombia.</p>\n<p> </p>\n</span>", "modificaciones_raw": "*Inciso Derogado Ley 1819 de 2016. Parte II Art.376.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["**Nota- Res 2996 de 1976 señala los porcentajes a tener en cuenta, esta norma actualmente se encuentra vigente."]}, "total_normas": 1, "cross_references": [], "referenced_by": ["124"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 121",
+  "titulo": "Art. 121. Deducción de gastos en el exterior.",
+  "titulo_corto": "Deducción de gastos en el exterior.",
+  "slug": "121",
+  "url_origen": "https://estatuto.co/121",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los contribuyentes podrán deducir los gastos efectuados en el exterior, que tengan relación de causalidad con rentas de fuente dentro del país, siempre y cuando se haya efectuado la retención en la fuente si lo pagado constituye para su beneficiario renta gravable en Colombia.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Los contribuyentes podrán deducir los gastos efectuados en el exterior, que tengan relación de causalidad con rentas de fuente dentro del país, siempre y cuando se haya efectuado la retención en la fuente si lo pagado constituye para su beneficiario renta gravable en Colombia.</p>\n<p> </p>\n</span>",
+  "modificaciones_raw": "*Inciso Derogado Ley 1819 de 2016. Parte II Art.376.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "**Nota- Res 2996 de 1976 señala los porcentajes a tener en cuenta, esta norma actualmente se encuentra vigente."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [
+    "124"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 10 concepto(s) relacionado(s). Jurisprudencia: 15 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8717 (2024-04-29): Impuesto sobre la Renta y Complementarios\noficio 6363 (2023-05-29): (Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 0607 (2026-01-16): Procedimiento Tributario\noficio 7077 (2025-05-29): Aduanas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8717-2024",
+      "tipo": "oficio",
+      "numero": "8717",
+      "fecha": "2024-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6363-2023",
+      "tipo": "oficio",
+      "numero": "6363",
+      "fecha": "2023-05-29",
+      "tema": "(Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0607-2026",
+      "tipo": "oficio",
+      "numero": "0607",
+      "fecha": "2026-01-16",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7077-2025",
+      "tipo": "oficio",
+      "numero": "7077",
+      "fecha": "2025-05-29",
+      "tema": "Aduanas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906729-2022",
+      "tipo": "oficio",
+      "numero": "906729",
+      "fecha": "2022-09-06",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901354-2022",
+      "tipo": "oficio",
+      "numero": "901354",
+      "fecha": "2022-02-22",
+      "tema": "Impuesto sobre la renta, pagos al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900979-2022",
+      "tipo": "oficio",
+      "numero": "900979",
+      "fecha": "2022-02-09",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos de fuente nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900965-2022",
+      "tipo": "oficio",
+      "numero": "900965",
+      "fecha": "2022-02-08",
+      "tema": "Retenci&oacute;n en la fuente por pagos al exterior - Hecho generador del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905137-2021",
+      "tipo": "oficio",
+      "numero": "905137",
+      "fecha": "2021-06-03",
+      "tema": "Convenios para evitar la doble imposici&oacute;n - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0639-2019",
+      "tipo": "oficio",
+      "numero": "0639",
+      "fecha": "2019-03-27",
+      "tema": "(Int 639) &iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente aplicable por concepto de pagos al exterior al comisionista, si es posible deducir estos gastos y cu&aacute;les son los requisitos para la procedencia de costos y deducciones por gastos en el exterior. Tambi&eacute;n pregunta si contin&uacute;a vigente lo se&ntilde;alado por la resoluci&oacute;n 2996 de 1976, expedida por el Ministerio de Hacienda y si la retenci&oacute;n a t&iacute;tulo de IVA es aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22459-2019",
+      "tipo": "oficio",
+      "numero": "22459",
+      "fecha": "2019-09-05",
+      "tema": "Deducci&oacute;n de Pagos a la Casa Matriz",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1438-2019",
+      "tipo": "oficio",
+      "numero": "1438",
+      "fecha": "2019-01-17",
+      "tema": "Efectos tributarios de la celebraci&oacute;n de contratos de asistencia t&eacute;cnica, servicio t&eacute;cnico y consultor&iacute;a con no residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0305-2018",
+      "tipo": "oficio",
+      "numero": "0305",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;La reversi&oacute;n del pasivo genera un ingreso gravado en Renta, teniendo en cuenta que el gasto que dio origen a dicho pasivo nunca se tom&oacute; como deducible y que el pasivo si se reconoci&oacute; fiscalmente? &iquest;Se podr&iacute;a aplicar lo dispuesto en el numeral 6 del art&iacute;culo 28 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0068-2018",
+      "tipo": "oficio",
+      "numero": "0068",
+      "fecha": "2018-02-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23270-2017",
+      "tipo": "oficio",
+      "numero": "23270",
+      "fecha": "2017-08-28",
+      "tema": "Limitaciones a pagos de regal&iacute;as por concepto de intangibles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8310-2017",
+      "tipo": "oficio",
+      "numero": "8310",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6313-2017",
+      "tipo": "oficio",
+      "numero": "6313",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios &iquest;En qu&eacute; tipo de casos o bajo qu&eacute; criterios la DIAN ha desconocido la deducibilidad del gasto por comisiones al exterior de que trata el Literal A) art&iacute;culo 121 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3706-2017",
+      "tipo": "oficio",
+      "numero": "3706",
+      "fecha": "2017-06-01",
+      "tema": "Deducci&oacute;n por pagos al exterior - presupuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1147-2016",
+      "tipo": "oficio",
+      "numero": "1147",
+      "fecha": "2016-02-02",
+      "tema": "Alusi&oacute;n al Concepto n&uacute;mero 98916 de diciembre 19 de 2011, mediante el cual se analiz&oacute; el art&iacute;culo 11 de la Ley 1082 de 2006, aprobatoria del Convenio para evitar la doble tributaci&oacute;n, suscrito entre los gobiernos de Colombia y Espa&ntilde;a, en relaci&oacute;n con el pago de intereses a favor de una entidad financiera residente en Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0882-2016",
+      "tipo": "oficio",
+      "numero": "0882",
+      "fecha": "2016-09-05",
+      "tema": "No se pueden rechazar costos ni deducciones por no practicar la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36891-2015",
+      "tipo": "oficio",
+      "numero": "36891",
+      "fecha": "2015-12-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Deducci&oacute;n de Gastos Efectuados en el Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24291-2015",
+      "tipo": "oficio",
+      "numero": "24291",
+      "fecha": "2015-08-21",
+      "tema": "Aclaraci&oacute;n del Oficio n&uacute;mero 018129 del 19 de junio de 2015, Impuesto sobre la Renta y Complementarios - Deducci&oacute;n de Gastos Efectuados en el Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23831-2015",
+      "tipo": "oficio",
+      "numero": "23831",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Existen excepciones a la limitaci&oacute;n contenida en el art&iacute;culo 122 del Estatuto Tributario, para los costos o deducciones por expensas en el exterior en funci&oacute;n de su actividad econ&oacute;mica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18129-2015",
+      "tipo": "oficio",
+      "numero": "18129",
+      "fecha": "2015-06-19",
+      "tema": "En el escrito de la referencia sostiene que esta Subdirecci&oacute;n se&ntilde;al&oacute; que:",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61152-2014",
+      "tipo": "oficio",
+      "numero": "61152",
+      "fecha": "2014-10-30",
+      "tema": "&iquest;Cu&aacute;l es la forma y el momento de la causaci&oacute;n de la contribuci&oacute;n de obra p&uacute;blica establecida por la Ley 418 de 1997, modificada, adicionada y prorrogada por las Leyes 782 de 2002, 1106 de 2006 y 1421 de 2010; en los contratos de concesi&oacute;n de construcci&oacute;n, mantenimiento y operaciones de v&iacute;as de comunicaci&oacute;n, terrestre o fluvial, puertos a&eacute;reos, mar&iacute;timos o fluviales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31234-2014",
+      "tipo": "oficio",
+      "numero": "31234",
+      "fecha": "2014-05-22",
+      "tema": "&iquest;La contribuci&oacute;n parafiscal sobre contratos de obra p&uacute;blica consagrada en la Ley 1421 de 2010 es deducible en la determinaci&oacute;n del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019440-2014",
+      "tipo": "concepto",
+      "numero": "0019440",
+      "fecha": "2014-03-25",
+      "tema": "&iquest;La restricci&oacute;n de costos y deducciones en los t&eacute;rminos del art&iacute;culo 124-2 del Estatuto Tributario, aplica para pagos o abonos en cuenta, cuando se realicen a: &iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional y cuyo ingreso sea de fuente nacional?&iquest;Personas o entidades que se encuentren localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional por concepto de importaciones, cuando el importador es contribuyente del impuesto sobre la renta en Colombia?&iquest;Personas o entidades que NO se encuentran localizadas o funcionen en para&iacute;sos fiscales que hayan sido calificados como tales por el Gobierno Nacional, pero que la cuenta bancaria a la que se efect&uacute;a el giro del dinero, SI se encuentra localizada o funciona en una entidad financiera (banco) constituida, localizada o en funcionamiento en un para&iacute;so fiscal calificado como tal por el Gobierno Nacional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-79818-2013",
+      "tipo": "oficio",
+      "numero": "79818",
+      "fecha": "2013-12-12",
+      "tema": "Convenio Internacional Sobre Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76742-2012",
+      "tipo": "oficio",
+      "numero": "76742",
+      "fecha": "2012-12-10",
+      "tema": "&iquest;La resoluci&oacute;n No 2996 del 22 de marzo de 1976 del Ministerio de Hacienda y Cr&eacute;dito P&uacute;blico tiene vigencia y si es aplicable despu&eacute;s de 36 a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61420-2012",
+      "tipo": "oficio",
+      "numero": "61420",
+      "fecha": "2012-09-28",
+      "tema": "&iquest;Con fundamento en los art&iacute;culos 124 y 260-7 del Estatuto Tributario si los gastos por concepto de servicios de administraci&oacute;n o direcci&oacute;n prestados por la casa matriz en el exterior, respecto de los cuales no existe la obligaci&oacute;n de practicar retenci&oacute;n en la fuente a t&iacute;tulo de renta, son deducibles sin que haya lugar a aplicar la limitaci&oacute;n del 15% prevista en el art&iacute;culo 122 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81572-2011",
+      "tipo": "oficio",
+      "numero": "81572",
+      "fecha": "2011-01-01",
+      "tema": "&iquest;Es deducible y en qu&eacute; porcentaje, el Gravamen a los Movimientos Financieros efectivamente pagado durante los a&ntilde;os 2011 y 2012?&iquest;De acuerdo con el art&iacute;culo 771-5 del E.T., son deducibles los pagos en efectivo realizados por los contribuyentes durante los a&ntilde;os 2011 a 2013?&iquest;Son deducibles los intereses a que se refiere el art&iacute;culo 65 de la Ley 1430 de 2010?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77842-2011",
+      "tipo": "oficio",
+      "numero": "77842",
+      "fecha": "2011-01-01",
+      "tema": "&iquest;La limitaci&oacute;n de costos y deducciones al 15% de la renta l&iacute;quida, en los t&eacute;rminos contemplados por el art&iacute;culo 122 del Estatuto Tributario, aplica a los pagos efectuados por un residente colombiano a un residente espa&ntilde;ol, en virtud de la cl&aacute;usula de no discriminaci&oacute;n prevista en el Convenio entre Espa&ntilde;a y Colombia para evitar la Doble Imposici&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77117-2011",
+      "tipo": "oficio",
+      "numero": "77117",
+      "fecha": "2011-10-03",
+      "tema": "&iquest;De conformidad con los art&iacute;culos 124 y 260-7 del Estatuto Tributario, los pagos realizados por concepto de gastos de administraci&oacute;n o direcci&oacute;n prestados por la casa matriz ubicada en el exterior, sujetos al r&eacute;gimen de precios de transferencia, son deducibles sin que haya lugar a aplicar la limitaci&oacute;n del 15% prevista en el art&iacute;culo 122 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48197-2011",
+      "tipo": "oficio",
+      "numero": "48197",
+      "fecha": "2011-06-30",
+      "tema": "&iquest;El art&iacute;culo 121 del Estatuto Tributario es aplicable en el caso de las concesiones otorgadas por el gobierno nacional, si opera en el caso de estas concesiones la limitaci&oacute;n prevista en el art&iacute;culo 122 del mismo texto normativo y cu&aacute;l ser&iacute;a la situaci&oacute;n de los Intermediarlos o mandatarios en el exterior contratados por la sociedad colombiana para el cumplimiento de la concesi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33595-2010",
+      "tipo": "oficio",
+      "numero": "33595",
+      "fecha": "2010-05-11",
+      "tema": "- &iquest;Procede la contribuci&oacute;n de los contratos de obra p&uacute;blica respecto a los convenios Interadministrativos suscritos por el Instituto Nacional de V&iacute;as con municipios o departamentos para el mejoramiento de v&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0103513-2009",
+      "tipo": "concepto",
+      "numero": "0103513",
+      "fecha": "2009-12-17",
+      "tema": "&iquest;Cuando un residente colombiano realiza un pago a un residente de otro pa&iacute;s con el cual Colombia tiene suscrito un Convenio para Evitar la Doble Imposici&oacute;n, y no practica retenci&oacute;n en la fuente en raz&oacute;n a que la facultad impositiva sobre esta renta ha quedado establecida en el otro Estado contratante, la deducci&oacute;n de dichos pagos para el residente colombiano se encuenta limitada al 15% de la renta l&iacute;quida de acuerdo con lo previsto en el art&iacute;culo 122 del Estauto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15498-2008",
+      "tipo": "oficio",
+      "numero": "15498",
+      "fecha": "2008-12-24",
+      "tema": "Aclarar interpretaci&oacute;n de Comunicaci&oacute;n en la cual manifiesta que una vez efectuado por parte del Comit&eacute; T&eacute;cnico de la Asobancaria el an&aacute;lisis de la Sentencia 15856 de diciembre de 2007 proferida por el honorable Consejo de Estado respecto de la deducci&oacute;n de pagos efectuados al exterior por concepto de cr&eacute;ditos externos, as&iacute; como del Concepto 31632 de 2007 expedido por esta dependencia, no se encuentran acorde con la interpretaci&oacute;n all&iacute; planteada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11040-2006",
+      "tipo": "oficio",
+      "numero": "11040",
+      "fecha": "2006-02-07",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir para efectos de corregir un error en la actividad econ&oacute;mica el cual no modifica los valores a declarar?&iquest;Se le debe practicar retenci&oacute;n en la fuente a un trabajador que tiene v&iacute;nculo laboral con una empresa colombiana, y que es enviado a otro pa&iacute;s por espacio de dos a&ntilde;os a prestar sus servicios por cuenta de la empresa colombiana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094036-2005",
+      "tipo": "concepto",
+      "numero": "0094036",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Pueden los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia deducir los intereses pagados a favor de su casa matriz, sobre pr&eacute;stamos de &eacute;sta, sin tener que practicar retenci&oacute;n en la fuente?&iquest;La posibilidad que tienen los contribuyentes obligados a aplicar el r&eacute;gimen de precios de transferencia de deducir los pagos a favor de sus casas matrices o de sus ganancias, sucursales o filiales con domicilio en el exterior, por concepto de intereses y dem&aacute;s costos y gastos financieros, sobre pr&eacute;stamos de &eacute;stas, en operaciones respecto de las cuales se cumpla dicho r&eacute;gimen, conlleva el reconocimiento fiscal para efectos patrimoniales del pasivo que los origina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89481-2004",
+      "tipo": "oficio",
+      "numero": "89481",
+      "fecha": "2004-12-21",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones tributarias para una sociedad colombiana por la realizaci&oacute;n de operaciones comerciales en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032232-1999",
+      "tipo": "concepto",
+      "numero": "0032232",
+      "fecha": "1999-04-03",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los recibidos por una sociedad o una persona natural sin domicilio ni residencia en el pa&iacute;s, por servicios prestados en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012095-1999",
+      "tipo": "concepto",
+      "numero": "0012095",
+      "fecha": "1999-02-17",
+      "tema": "&iquest;Cu&aacute;l es el porcentaje que debe aplicarse como l&iacute;mite a la deducci&oacute;n por gastos en el exterior, cuando se han efectuado pagos a comisionistas por la venta de mercanc&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097586-1998",
+      "tipo": "concepto",
+      "numero": "0097586",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente aplicable a una casa matriz que es contratada por su sucursal en Colombia para desarrollar cualquier tipo de actividad gravada, por en de generadora de renta de fuente nacional. Debe considerarse la matriz como una sociedad con o sin domicilio en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060566-1998",
+      "tipo": "concepto",
+      "numero": "0060566",
+      "fecha": "1998-08-03",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058392-1998",
+      "tipo": "concepto",
+      "numero": "0058392",
+      "fecha": "1998-07-24",
+      "tema": "&iquest;Se puede incluir en la contabilidad de una sucursal de una sociedad extranjera una Cuenta por Pagar a favor de la matriz, por concepto de Honorarios de algunos de sus funcionarios. Cu&aacute;l ser&iacute;a el porcentaje de retenci&oacute;n a t&iacute;tulo de impuesto de renta y remesas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0058390-1998",
+      "tipo": "concepto",
+      "numero": "0058390",
+      "fecha": "1998-07-24",
+      "tema": "&iquest;Se debe efectuar retenci&oacute;n en la fuente, porque concepto y en que porcentaje cuando se efect&uacute;en pagos por publicidad al exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057303-1998",
+      "tipo": "concepto",
+      "numero": "0057303",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Para efectos de retenciones en la fuente por pagos al exterior, debe entenderse que la sociedad extranjera es sociedad diferente y no domiciliada en Colombia cuando contrata directamente en el Pa&iacute;s con otras sociedades, o, incluso, con su sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054301-1998",
+      "tipo": "concepto",
+      "numero": "0054301",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Cual es el porcentaje actualmente vigente establecido como limitaci&oacute;n por el Banco de la Rep&uacute;blica por pagos al exterior respecto de los intereses por cr&eacute;ditos a corto plazo derivados de la importaci&oacute;n o exportaci&oacute;n de mercanc&iacute;as o de sobregiros o descubiertos bancarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014751-1998",
+      "tipo": "concepto",
+      "numero": "0014751",
+      "fecha": "1998-03-09",
+      "tema": "&iquest;En los casos en que se suscribe con una sociedad extranjera, con sucursal en Colombia (domiciliada), en un contrato de licenciamiento de marca, pact&aacute;ndose como remuneraci&oacute;n el pago de una regal&iacute;a, debe efectuarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003134-1997",
+      "tipo": "concepto",
+      "numero": "0003134",
+      "fecha": "1997-01-17",
+      "tema": "&iquest;Sobre qu&eacute; valor debe aplicarse el porcentaje se&ntilde;alado por el Ministerio de Hacienda y Cr&eacute;dito P&uacute;blico para que sean deducibles sin que sea necesaria la retenci&oacute;n en la fuente los pagos a comisionistas en el exterior por la compra o venta de mercanc&iacute;as, materias primas, u otra clase de bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070994-1996",
+      "tipo": "concepto",
+      "numero": "0070994",
+      "fecha": "1996-09-10",
+      "tema": "&iquest;A qu&eacute; tarifas del impuesto de renta y remesas est&aacute;n sometidos los pagos que reciban las sucursales de sociedades extranjeras en Colombia, por concepto de consultor&iacute;a e investigaci&oacute;n en seguridad y vigilancia? &iquest;Qu&eacute; limitaciones tienen los gastos que una sucursal de sociedad extranjera realice en el exterior cuando los pagos se efect&uacute;en a la casa matriz y qu&eacute; limitaciones cuando se realicen a sociedades extranjeras diferentes de la matriz? &iquest;El servicio de consultor&iacute;a, asesor&iacute;a e investigaci&oacute;n en seguridad y vigilancia est&aacute; gravado con el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035983-1993",
+      "tipo": "concepto",
+      "numero": "0035983",
+      "fecha": "1993-12-31",
+      "tema": "Del dinero recaudado, por la venta de at&uacute;n a una empresa extranjera, la empresa administradora descontar&aacute; todos los gastos operacionales, de mantenimiento y administraci&oacute;n en que incurri&oacute; y adicionalmente los intereses devengados por dichos gastos, siendo consignado el dinero restante en una cuenta en d&oacute;lares en el exterior. Se&ntilde;ala tambi&eacute;n, que la entidad compradora en el exterior, tendr&aacute; una comisi&oacute;n que ser&aacute; descontada directamente por &eacute;sta al momento del pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010550-1993",
+      "tipo": "concepto",
+      "numero": "0010550",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Retenci&oacute;n a la intermediaria, base para efectuarla cuando se incluyen gastos y honorarios, forma de registrar el pago, soportes fiscales, forma de gestionar los cheques y qu&eacute; otras precauciones debe tomar?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-129-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-153-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "153",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-602-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "602",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

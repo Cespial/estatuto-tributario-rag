@@ -1,1 +1,620 @@
-{"id_articulo": "Art. 263", "titulo": "Art. 263. Que se entiende por posesión.", "titulo_corto": "Que se entiende por posesión.", "slug": "263", "url_origen": "https://estatuto.co/263", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Se entiende por posesión, el aprovechamiento económico, potencial o real, de cualquier bien en beneficio del contribuyente. Se presume que quien aparezca como propietario o usufructuario de un bien lo aprovecha económicamente en su propio beneficio.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se entiende por posesión, el aprovechamiento económico, potencial o real, de cualquier bien en beneficio del contribuyente.</p>\n<p>Se presume que quien aparezca como propietario o usufructuario de un bien lo aprovecha económicamente en su propio beneficio.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 263",
+  "titulo": "Art. 263. Que se entiende por posesión.",
+  "titulo_corto": "Que se entiende por posesión.",
+  "slug": "263",
+  "url_origen": "https://estatuto.co/263",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Se entiende por posesión, el aprovechamiento económico, potencial o real, de cualquier bien en beneficio del contribuyente. Se presume que quien aparezca como propietario o usufructuario de un bien lo aprovecha económicamente en su propio beneficio.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Se entiende por posesión, el aprovechamiento económico, potencial o real, de cualquier bien en beneficio del contribuyente.</p>\n<p>Se presume que quien aparezca como propietario o usufructuario de un bien lo aprovecha económicamente en su propio beneficio.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 20 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15513-2025",
+      "tipo": "oficio",
+      "numero": "15513",
+      "fecha": "2025-11-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10558-2025",
+      "tipo": "oficio",
+      "numero": "10558",
+      "fecha": "2025-08-06",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5035-2025",
+      "tipo": "oficio",
+      "numero": "5035",
+      "fecha": "2025-04-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21529-2024",
+      "tipo": "oficio",
+      "numero": "21529",
+      "fecha": "2024-11-28",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9485-2024",
+      "tipo": "oficio",
+      "numero": "9485",
+      "fecha": "2024-11-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7360-2024",
+      "tipo": "oficio",
+      "numero": "7360",
+      "fecha": "2024-09-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5343-2024",
+      "tipo": "oficio",
+      "numero": "5343",
+      "fecha": "2024-07-31",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2119-2024",
+      "tipo": "oficio",
+      "numero": "2119",
+      "fecha": "2024-03-26",
+      "tema": "(Int 207) R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE - Impuesto sobre la renta - Procedimiento Tributario - Presentaci&oacute;n de la declaraci&oacute;n - Correcci&oacute;n - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7407-2023",
+      "tipo": "oficio",
+      "numero": "7407",
+      "fecha": "2023-12-18",
+      "tema": "(Int 1990) Impuesto sobre la Renta y Complementarios - Efectos tributarios de sentencias de restituci&oacute;n de tierras para personas naturales o sucesiones il&iacute;quidas no obligadas a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3570-2023",
+      "tipo": "oficio",
+      "numero": "3570",
+      "fecha": "2023-06-14",
+      "tema": "(Int 668) Impuesto sobre la Renta y Complementarios - Declaraci&oacute;n de renta - Patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903364-2022",
+      "tipo": "oficio",
+      "numero": "903364",
+      "fecha": "2022-04-28",
+      "tema": "Impuesto sobre la renta - Saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910054-2021",
+      "tipo": "oficio",
+      "numero": "910054",
+      "fecha": "2021-09-17",
+      "tema": "&iquest;El valor del saldo de los pasivos laborales, informado por el empleador, debe ser incluido por los respectivos trabajadores en sus declaraciones del impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907960-2021",
+      "tipo": "oficio",
+      "numero": "907960",
+      "fecha": "2021-08-10",
+      "tema": "Declaraci&oacute;n de activos en el exterior - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907958-2021",
+      "tipo": "oficio",
+      "numero": "907958",
+      "fecha": "2021-08-10",
+      "tema": "Activos en moneda extranjera - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905603-2021",
+      "tipo": "oficio",
+      "numero": "905603",
+      "fecha": "2021-06-17",
+      "tema": "Impuesto sobre la renta - Obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906852-2020",
+      "tipo": "oficio",
+      "numero": "906852",
+      "fecha": "2020-11-11",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria. Hecho generador. Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906392-2020",
+      "tipo": "oficio",
+      "numero": "906392",
+      "fecha": "2020-10-23",
+      "tema": "Reporte de una cuenta bancaria en el extranjero cuando &eacute;sta fue abierta por dos personas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905133-2020",
+      "tipo": "oficio",
+      "numero": "905133",
+      "fecha": "2020-09-24",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria - sujetos pasivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905132-2020",
+      "tipo": "oficio",
+      "numero": "905132",
+      "fecha": "2020-09-24",
+      "tema": "&iquest;Renta ordinaria o ganancia ocasional tras la venta de un inmueble?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903433-2020",
+      "tipo": "oficio",
+      "numero": "903433",
+      "fecha": "2020-07-23",
+      "tema": "&iquest;Un contribuyente que tiene un capital en un Fondo de Ahorros de Pensiones Voluntarias Privado, si lo destina como legado a favor de un tercero, qui&eacute;n tributa, el contribuyente, el fondo o el legatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2019",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2019-11-28",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23295-2019",
+      "tipo": "oficio",
+      "numero": "23295",
+      "fecha": "2019-09-13",
+      "tema": "Impuesto a la riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15915-2019",
+      "tipo": "oficio",
+      "numero": "15915",
+      "fecha": "2019-06-18",
+      "tema": "Residencia fiscal de sociedades en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15137-2019",
+      "tipo": "oficio",
+      "numero": "15137",
+      "fecha": "2019-06-11",
+      "tema": "Tratamiento tributario aplicable a los ingresos pasivos recibidos por una Entidad Controlada del Exterior, propiedad de un residente colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10463-2019",
+      "tipo": "oficio",
+      "numero": "10463",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta al momento del pago a un tercero (cesionario) del canon de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006465-2019",
+      "tipo": "concepto",
+      "numero": "0006465",
+      "fecha": "2019-03-14",
+      "tema": "Leasing Deducci&oacute;n de Impuestos Pagados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2719-2019",
+      "tipo": "oficio",
+      "numero": "2719",
+      "fecha": "2019-02-01",
+      "tema": "&iquest;Qu&eacute; normatividad y responsabilidades debe aplicar el depositario provisional que administra y representa a establecimientos de comercio de personas naturales inmersas de un proceso de extinci&oacute;n de dominio ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34690-2018",
+      "tipo": "oficio",
+      "numero": "34690",
+      "fecha": "2018-12-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de pagar impuesto para una persona que hace inversiones en la bolsa de New York con acciones y opciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33631-2018",
+      "tipo": "oficio",
+      "numero": "33631",
+      "fecha": "2018-11-19",
+      "tema": "&iquest;El Derecho de Usufructo Vitalicio forma parte del patrimonio bruto de una persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3287-2018",
+      "tipo": "oficio",
+      "numero": "3287",
+      "fecha": "2018-05-22",
+      "tema": "Trust extranjeros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0522-2018",
+      "tipo": "oficio",
+      "numero": "0522",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Qui&eacute;n debe cumplir con la obligaci&oacute;n de declarar el Impuesto Sobre la Renta y complementarios, cuando el Usufructuario de un bien inmueble cede mediante un contrato de comodato el bien objeto de usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034071-2017",
+      "tipo": "concepto",
+      "numero": "0034071",
+      "fecha": "2017-12-20",
+      "tema": "Impuesto complementario de normalizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13753-2016",
+      "tipo": "oficio",
+      "numero": "13753",
+      "fecha": "2016-06-02",
+      "tema": "Impuesto Complementario de Normalizaci&oacute;n Tributario - Base Gravable - Ingreso por Diferencia de Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12574-2016",
+      "tipo": "oficio",
+      "numero": "12574",
+      "fecha": "2016-05-20",
+      "tema": "Impuesto sobre la renta y complementarios - Realizaci&oacute;n del impuesto - Tratamiento tributario y c&oacute;mo se debe reflejar en la declaraci&oacute;n de renta la venta de una casa en donde recibe un anticipo y suscribe la escritura de compravente al a&ntilde;o siguiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027751-2015",
+      "tipo": "concepto",
+      "numero": "0027751",
+      "fecha": "2015-10-07",
+      "tema": "&iquest;Est&aacute;n obligados a presentar la Declaraci&oacute;n Anual de Activos en el Exterior los residentes en Colombia para efectos fiscales del periodo gravable 2014 y\\o 2015? - &iquest;C&oacute;mo debe determinarse el valor patrimonial de los bienes inmuebles que se posean en el exterior? - &iquest;Debe registrarse la obligaci&oacute;n de Declaraci&oacute;n Anual de Activos en el Exterior en el Registro &Uacute;nico Tributario (RUT), antes de la presentaci&oacute;n de dicha declaraci&oacute;n? - &iquest;Qu&eacute; c&oacute;digo &uacute;nico correspondiente a la identificaci&oacute;n del bien debe registrarse en la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;C&oacute;mo deben declararse los derechos fiduciarios que se posean en patrimonios aut&oacute;nomos cuyos subyacentes son activos en el exterior? - &iquest;Las inversiones temporales, las cuentas bancarias, los anticipos y los dep&oacute;sitos en el exterior deben declararse? - &iquest;Los desembolsos de cr&eacute;dito y cuentas por cobrar son objeto de la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;Se deben declarar las mercanc&iacute;as - inventarios- en tr&aacute;nsito de las cuales se tiene factura, no obstante no ha operado la entrega material? - &iquest;A qu&eacute; se refiere la casilla 38",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20773-2015",
+      "tipo": "oficio",
+      "numero": "20773",
+      "fecha": "2015-07-15",
+      "tema": "&iquest;Para efectos fiscales, los bienes y derechos aportados a una fiducia mercantil, deben ser tratados, de acuerdo con el principio de transparencia, como si fueran pose&iacute;dos directamente por el contribuyente?, es decir, que si se aporta al patrimonio aut&oacute;nomo un bien inmueble &iquest;el contribuyente que lo aport&oacute; lo sigue declarando como inmueble sea activo fijo o movible?, &iquest;el principio de transparencia aplica para todos los efectos fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20771-2015",
+      "tipo": "oficio",
+      "numero": "20771",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto a la Riqueza",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55120-2014",
+      "tipo": "oficio",
+      "numero": "55120",
+      "fecha": "2014-09-17",
+      "tema": "&iquest;Cu&aacute;l es la forma de declarar el derecho de usufructo de un bien inmueble, por parte de un usufructuario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75199-2012",
+      "tipo": "oficio",
+      "numero": "75199",
+      "fecha": "2012-12-01",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial del derecho de usufructo cuyo origen es un fedeicomiso civil constituido sobre un inmueble cuando ha sido cedido a t&iacute;tulo gratuito y el valor patrimonial de dicho bien &eacute;l tiene por objeto la limitaci&oacute;n del dominio mediante el fideicomiso civil y, cu&aacute;l el de un bien inmueble que ha sido objeto de limitaci&oacute;n del dominio mediante la constituci&oacute;n de un fideicomiso cuando se ha cedido el derecho de usufructo a un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97942-2010",
+      "tipo": "oficio",
+      "numero": "97942",
+      "fecha": "2010-12-24",
+      "tema": "&iquest;Est&aacute; sometida a la sanci&oacute;n por correcci&oacute;n contemplada por el par&aacute;grafo 2 del art&iacute;culo 588 del Estatuto Tributario la declaraci&oacute;n que se presenta antes del vencimiento del t&eacute;rmino para presentar la inicial, con el objeto de corregir la inconsistencia del literal d) del art&iacute;culo 580 ib&iacute;dem? &iquest;La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31665-2009",
+      "tipo": "oficio",
+      "numero": "31665",
+      "fecha": "2009-04-21",
+      "tema": "&iquest;Los propietarios de inmuebles sobre los cuales existan actas de toma de posesi&oacute;n por parte del Departamento Administrativo de la Defensoria del Espacio Publico deben incluir estos bienes en su declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91302-2008",
+      "tipo": "oficio",
+      "numero": "91302",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Procede la aplicaci&oacute;n del art&iacute;culo 239-1 del Estatuto Tributario, por la no inclusi&oacute;n en el patrimonio l&iacute;quido de la respectiva declaraci&oacute;n de renta, de una cuenta por cobrar a cargo de una sociedad ubicada en un pa&iacute;s que hace parte de la Comunidad Andina de Naciones CAN?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-60826-2008",
+      "tipo": "oficio",
+      "numero": "60826",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l debe ser la retenci&oacute;n en la fuente a practicar a una empresa extranjera no residente, a la cual se le hacen pagos por la compra de licencias, mediante giro bancario directo?&iquest;El contribuyente, es decir la empresa residente en Colombia que efect&uacute;a los pagos al exterior, debe adem&aacute;s de declarar y pagar impuesto a la renta proveniente de la utilidad en sus ventas, asumir la retenci&oacute;n practicada a la empresa extranjera, por considerar &eacute;sta &uacute;ltima que es muy alta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33042-2008",
+      "tipo": "oficio",
+      "numero": "33042",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A cargo de qui&eacute;n est&aacute; la obligaci&oacute;n de pagar el impuesto de patrimonio en un caso particular y concreto por parte de una empresa industrial y comercial del Estado, prestadora de servicios p&uacute;blicos domiciliarios, intervenida por la superintendencia y que por decisi&oacute;n de la interventora se transforma en una sociedad an&oacute;nima con capital p&uacute;blico que entrega todos los activos por un tiempo determinado a un nuevo operador que llega a prestar el servicio p&uacute;blico domiciliario, superando dichos activos el tope establecido como base para liquidar el impuesto al patrimonio, quedando con el producto de una participaci&oacute;n relativamente baja que le da el nuevo operador, a cargo de Los pensionados y sin ning&uacute;n otro ingreso por prestaci&oacute;n de servicios p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61758-2007",
+      "tipo": "oficio",
+      "numero": "61758",
+      "fecha": "2007-08-13",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54648-2007",
+      "tipo": "oficio",
+      "numero": "54648",
+      "fecha": "2007-07-18",
+      "tema": "&iquest;Trat&aacute;ndose de programas para computador comercializados por una empresa legalmente constituida en Colombia pero que van a ser explotados fuera del pa&iacute;s, debe la empresa en Colombia realizar retenciones en la fuente a t&iacute;tulo de impuesto de renta, remesas e IVA, sobre los pagos que efect&uacute;a a la sociedad extranjera por las licencias de software?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49419-2006",
+      "tipo": "oficio",
+      "numero": "49419",
+      "fecha": "2006-06-12",
+      "tema": "&iquest;Cu&aacute;ndo un extranjero sin residencia ni domicilio en el pa&iacute;s percibe un ingreso contraprestaci&oacute;n de una compraventa de derechos patrimoniales sobre un software, se considera ese ingreso como no constitutivo de renta para el vendedor teniendo en cuenta que el software no es explotado por &eacute;l en Colombia, y que su ingreso tan solo proviene de la venta de sus derechos patrimoniales sobre el respectivo software, el cual no se entrega en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75988-2005",
+      "tipo": "oficio",
+      "numero": "75988",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Quien es el responsable del pago del impuesto que causa la propiedad de bienes inmuebles que han sido objeto de varias transacciones comerciales, sin que se haya transferido la propiedad plena de los mismos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070314-2005",
+      "tipo": "concepto",
+      "numero": "0070314",
+      "fecha": "2005-09-29",
+      "tema": "&iquest;Puede el nudo propietario, continuar depreciando o amortizando los bienes respecto de los cuales enajen&oacute; temporalmente el derecho de usufructo, en la medida que ha obtenido ingresos de dicha enajenaci&oacute;n, equivalentes al valor actual de los flujos de ingresos que los activos deber&iacute;an producir en el plazo del usufructo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077176-2003",
+      "tipo": "concepto",
+      "numero": "0077176",
+      "fecha": "2003-12-02",
+      "tema": "Las acciones entregadas en usufructo, &iquest;fiscalmente debe declararse en el patrimonio del usufructuario, del nudo propietario o de ambos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009255-2002",
+      "tipo": "concepto",
+      "numero": "0009255",
+      "fecha": "2002-01-01",
+      "tema": "Qui&eacute;n debe cumplir las obligaciones principales y accesorias relativas al impuesto sobre la renta y complementarios respecto de los bienes objeto de un fideicomiso civil, as&iacute; como de los ingresos que de aquel deriven?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003133-2002",
+      "tipo": "concepto",
+      "numero": "0003133",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cual el es r&eacute;gimen del impuesto sobre las ventas y retenci&oacute;n en la fuente al mismo t&iacute;tulo, respecto de los ingresos percibidos por una sociedad nacional por concepto de la venta de un software a una sociedad extranjera, y cual se aplicar&iacute;a en el evento de que no sea venta sino licenciamiento del software usuarios del pa&iacute;s o del exterior, v&iacute;a Internet a trav&eacute;s de una sociedad extranjera que lo comercializa? El licenciamiento de un software a trav&eacute;s de empresas extranjeras a usuarios del exterior o del pa&iacute;s, y el servicio de actualizaci&oacute;n de un software que previamente se ha enajenado pueden considerarse exportaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066280-2001",
+      "tipo": "concepto",
+      "numero": "0066280",
+      "fecha": "2001-07-23",
+      "tema": "&iquest;Los pagos percibidos por sociedades extranjeras sin domicilio en el Colombia por licenciamiento de software a usuarios en el pa&iacute;s, est&aacute;n sometidos al impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000373-2001",
+      "tipo": "concepto",
+      "numero": "0000373",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Los pagos percibidos por sociedades extranjeras sin domicilio en el Colombia por licenciamiento de software a usuarios en el pa&iacute;s, est&aacute;n sometidos al impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0125326-2000",
+      "tipo": "concepto",
+      "numero": "0125326",
+      "fecha": "2000-12-29",
+      "tema": "&iquest;Los pagos percibidos por sociedades extranjeras sin domicilio en el Colombia por concepto de venta-licencia de software a usuarios en el pa&iacute;s, est&aacute;n sometidos al impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0117656-2000",
+      "tipo": "concepto",
+      "numero": "0117656",
+      "fecha": "2000-12-04",
+      "tema": "&iquest;Cu&aacute;l es la acepci&oacute;n de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017647-2000",
+      "tipo": "concepto",
+      "numero": "0017647",
+      "fecha": "2000-02-28",
+      "tema": "&iquest;Qui&eacute;n debe cumplir las obligaciones tributarias relativas al impuesto sobre la renta, ventas, timbre nacional y retenciones en la fuente, en los casos de contratos de fiducia mercantil, teniendo en cuenta que el fideicomiso no es persona jur&iacute;dica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087076-1998",
+      "tipo": "concepto",
+      "numero": "0087076",
+      "fecha": "1998-11-11",
+      "tema": "&iquest;Los bienes destinados a una fiducia salen del patrimonio liquido del fideicomitente?&iquest;Finalizado el objeto de la fiducia y liquidado el patrimonio aut&oacute;nomo, cuando los bienes pasan al beneficiario o fiduciario, quien debe incluirlos en su declaraci&oacute;n de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064575-1998",
+      "tipo": "concepto",
+      "numero": "0064575",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;Deben aplicar el sistema integral de ajustes por inflaci&oacute;n las juntas de copropietarios de edificios organizados en propiedad horizontal? Se debe o no incluir en el patrimonio que refleja el balance, las zonas comunes, ascensores, pasamanos, planta el&eacute;ctrica, bomba de agua, tanque de abastecimiento, etc.",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-016-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "016",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

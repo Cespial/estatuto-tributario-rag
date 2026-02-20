@@ -1,1 +1,182 @@
-{"id_articulo": "Art. 706", "titulo": "Art. 706. Suspension del término.", "titulo_corto": "Suspension del término.", "slug": "706", "url_origen": "https://estatuto.co/706", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*El término para notificar el requerimiento especial se suspenderá: Cuando se practique inspección tributario de oficio, por el término de tres meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección tributaria a solicitud del contribuyente, responsable, agente retenedor o declarante, mientras dure la inspección. También se suspenderá el término para la notificación del requerimiento especial, durante el mes siguientes a la notificación del emplazamiento para corregir.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El término para notificar el requerimiento especial se suspenderá:</p>\n<p>Cuando se practique inspección tributario de oficio, por el término de tres meses contados a partir de la notificación del auto que la decrete.</p>\n<p>Cuando se practique inspección tributaria a solicitud del contribuyente, responsable, agente retenedor o declarante, mientras dure la inspección.</p>\n<p>También se suspenderá el término para la notificación del requerimiento especial, durante el mes siguientes a la notificación del emplazamiento para corregir.</p>\n</span>", "modificaciones_raw": "*Sustituido Ley 223 de 1995 Art 251.", "modificaciones_parsed": [{"tipo": "sustituido", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "251"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "49", "norma_year": 1990, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 49 de 1990"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 706",
+  "titulo": "Art. 706. Suspension del término.",
+  "titulo_corto": "Suspension del término.",
+  "slug": "706",
+  "url_origen": "https://estatuto.co/706",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*El término para notificar el requerimiento especial se suspenderá: Cuando se practique inspección tributario de oficio, por el término de tres meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección tributaria a solicitud del contribuyente, responsable, agente retenedor o declarante, mientras dure la inspección. También se suspenderá el término para la notificación del requerimiento especial, durante el mes siguientes a la notificación del emplazamiento para corregir.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El término para notificar el requerimiento especial se suspenderá:</p>\n<p>Cuando se practique inspección tributario de oficio, por el término de tres meses contados a partir de la notificación del auto que la decrete.</p>\n<p>Cuando se practique inspección tributaria a solicitud del contribuyente, responsable, agente retenedor o declarante, mientras dure la inspección.</p>\n<p>También se suspenderá el término para la notificación del requerimiento especial, durante el mes siguientes a la notificación del emplazamiento para corregir.</p>\n</span>",
+  "modificaciones_raw": "*Sustituido Ley 223 de 1995 Art 251.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "sustituido",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "251"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "49",
+      "norma_year": 1990,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 49 de 1990"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 0767 (2026-01-20): Impuesto Sobre las Ventas - IVA\noficio 14769 (2025-10-29): Procedimiento Tributario\noficio 10074 (2025-07-29): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0767-2026",
+      "tipo": "oficio",
+      "numero": "0767",
+      "fecha": "2026-01-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14769-2025",
+      "tipo": "oficio",
+      "numero": "14769",
+      "fecha": "2025-10-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10074-2025",
+      "tipo": "oficio",
+      "numero": "10074",
+      "fecha": "2025-07-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77343-2012",
+      "tipo": "oficio",
+      "numero": "77343",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;Una declaraci&oacute;n con beneficio de auditor&iacute;a establecido en el art&iacute;culo 689-1 del Estatuto Tributario, el emplazamiento para corregir de que trata el art&iacute;culo 685 del Estatuto Tributario suspende el beneficio de auditoria y si procede la suspensi&oacute;n del t&eacute;rmino para notificar el requerimiento especial de que trata el art&iacute;culo 706 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077291-2012",
+      "tipo": "concepto",
+      "numero": "0077291",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;El emplazamiento para corregir las declaraciones tributarias que no se encuentran en firme se puede notificar despu&eacute;s de los dos (2) a&ntilde;os siguientes a la fecha de vencimiento del plazo para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67993-2012",
+      "tipo": "oficio",
+      "numero": "67993",
+      "fecha": "2012-01-01",
+      "tema": "Notificaci&oacute;n de los actos administrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8374-2008",
+      "tipo": "oficio",
+      "numero": "8374",
+      "fecha": "2008-11-28",
+      "tema": "Obligaciones contingentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26618-2007",
+      "tipo": "oficio",
+      "numero": "26618",
+      "fecha": "2007-04-09",
+      "tema": "&iquest;Con relaci&oacute;n a la firmeza de la declaraci&oacute;n tributaria con beneficio de auditoria para el a&ntilde;o gravable 2006, si el incremento del impuesto neto de renta es m&iacute;nimo cuatro veces la inflaci&oacute;n; y por otra parte, si dentro de la terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios se incorpora dentro del 50% de la prueba del pago la sobretasa del impuesto de renta, como requisito de procedibilidad para acceder a la terminaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20796-2006",
+      "tipo": "oficio",
+      "numero": "20796",
+      "fecha": "2006-03-10",
+      "tema": "&iquest;Est&aacute;n obligados a llevar libros de contabilidad los comerciantes y cu&aacute;l es su periodo de conservaci&oacute;n antes y despu&eacute;s de la expedici&oacute;n de la Ley 962 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034084-2005",
+      "tipo": "concepto",
+      "numero": "0034084",
+      "fecha": "2005-06-07",
+      "tema": "&iquest;El beneficio de auditoria contemplado en el art&iacute;culo 689-1 del estatuto tributario, modificado por la ley 863 de 2003, se extiende a las declaraciones del impuesto sobre las ventas y retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073005-2002",
+      "tipo": "concepto",
+      "numero": "0073005",
+      "fecha": "2002-11-12",
+      "tema": "&iquest;Respecto de las declaraciones tributarias de los contribuyentes del impuesto sobre la renta y complementarios que se acogieron al beneficio de auditoria es procedente suspender el t&eacute;rmino para notificar el requerimiento especial, dentro de los doce (12) meses siguientes a la fecha de presentaci&oacute;n de la declaraci&oacute;n, mediante la pr&aacute;ctica de inspecci&oacute;n tributaria de oficio? &iquest;Qu&eacute; t&eacute;rmino tiene el Contribuyente para solicitar la devoluci&oacute;n de saldos a favor registrados en las declaraciones tributarias que se acogieron al beneficio de auditoria y quedaron en firme dentro de los doce (12) meses siguientes a la fecha de su presentaci&oacute;n? &iquest;Puede la DIAN hacer fiscalizaci&oacute;n sobre una declaraci&oacute;n tributar&iacute;a del impuesto sobre la renta y complementarios que, por haberse acogido al beneficio de auditoria ya ha quedado en firme, pero que registr&oacute; saldo a favor solicitado en devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025508-2002",
+      "tipo": "concepto",
+      "numero": "0025508",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de revisi&oacute;n de las declaraciones tributarias que se acogieron al beneficio de auditoria, una vez notificado el emplazamiento para corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012010-1998",
+      "tipo": "concepto",
+      "numero": "0012010",
+      "fecha": "1998-02-25",
+      "tema": "&iquest;Es v&aacute;lido practicar varias inspecciones tributarias a un mismo contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034402-1997",
+      "tipo": "concepto",
+      "numero": "0034402",
+      "fecha": "1997-12-22",
+      "tema": "&iquest;Se pueden practicar distintas actuaciones administrativas que suspenden el t&eacute;rmino para enviar el requerimiento especial? &iquest;C&oacute;mo se contabiliza la suspensi&oacute;n del t&eacute;rmino para practicar el requerimiento especial cuando se env&iacute;a emplazamiento para corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010250-1993",
+      "tipo": "concepto",
+      "numero": "0010250",
+      "fecha": "1993-03-10",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de revisi&oacute;n de las declaraciones bimestrales del impuesto sobre las ventas cuyo saldo a favor ha sido arrastrado para las declaraciones subsiguientes? &iquest;Se debe pagar el impuesto originado en un saldo a favor que se arrastr&oacute; al siguiente bimestre, cuya declaraci&oacute;n inicial fue corregida en obedecimiento de la sugerencia de la Administraci&oacute;n de Impuestos que detect&oacute; un diferencia en el margen de utilidad, correcci&oacute;n que desapareci&oacute; el saldo a favor de la declaraci&oacute;n que lo caus&oacute;?",
+      "vigente": true
+    }
+  ]
+}

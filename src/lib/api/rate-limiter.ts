@@ -1,5 +1,6 @@
 const WINDOW_MS = 60_000; // 1 minute
 const MAX_REQUESTS = 20;
+const MAX_ENTRIES = 10000;
 
 interface RequestRecord {
   timestamps: number[];
@@ -21,7 +22,16 @@ export function checkRateLimit(ip: string): { allowed: boolean; retryAfter?: num
   let record = store.get(ip);
 
   if (!record) {
+    // LRU Eviction if store is full
+    if (store.size >= MAX_ENTRIES) {
+      const oldestKey = store.keys().next().value;
+      if (oldestKey) store.delete(oldestKey);
+    }
     record = { timestamps: [] };
+    store.set(ip, record);
+  } else {
+    // Refresh position for LRU
+    store.delete(ip);
     store.set(ip, record);
   }
 

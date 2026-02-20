@@ -1,1 +1,708 @@
-{"id_articulo": "Art. 479", "titulo": "Art. 479. Los bienes que se exporten son exentos.", "titulo_corto": "Los bienes que se exporten son exentos.", "slug": "479", "url_origen": "https://estatuto.co/479", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "También se encuentran exentos del impuesto, los bienes corporales muebles que se exporten; el servicio de reencauche y los servicios de reparación a las embarcaciones marítimas y a los aerodinos, de bandera o matrícula extranjera, y la venta en el país de bienes de exportación a sociedades de comercialización internacional siempre que hayan de ser efectivamente exportados.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>También se encuentran exentos del impuesto, los bienes corporales muebles que se exporten; el servicio de reencauche y los servicios de reparación a las embarcaciones marítimas y a los aerodinos, de bandera o matrícula extranjera, y la venta en el país de bienes de exportación a sociedades de comercialización internacional siempre que hayan de ser efectivamente exportados.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 479",
+  "titulo": "Art. 479. Los bienes que se exporten son exentos.",
+  "titulo_corto": "Los bienes que se exporten son exentos.",
+  "slug": "479",
+  "url_origen": "https://estatuto.co/479",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "También se encuentran exentos del impuesto, los bienes corporales muebles que se exporten; el servicio de reencauche y los servicios de reparación a las embarcaciones marítimas y a los aerodinos, de bandera o matrícula extranjera, y la venta en el país de bienes de exportación a sociedades de comercialización internacional siempre que hayan de ser efectivamente exportados.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>También se encuentran exentos del impuesto, los bienes corporales muebles que se exporten; el servicio de reencauche y los servicios de reparación a las embarcaciones marítimas y a los aerodinos, de bandera o matrícula extranjera, y la venta en el país de bienes de exportación a sociedades de comercialización internacional siempre que hayan de ser efectivamente exportados.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 13 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 16117 (2025-11-18): Impuesto Sobre las Ventas - IVA\noficio 15515 (2025-11-07): Impuesto Sobre las Ventas - IVA\noficio 11209 (2025-08-14): Impuesto Sobre las Ventas - IVA\noficio 10617 (2024-12-17): Impuesto a las ventas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16117-2025",
+      "tipo": "oficio",
+      "numero": "16117",
+      "fecha": "2025-11-18",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15515-2025",
+      "tipo": "oficio",
+      "numero": "15515",
+      "fecha": "2025-11-07",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11209-2025",
+      "tipo": "oficio",
+      "numero": "11209",
+      "fecha": "2025-08-14",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10617-2024",
+      "tipo": "oficio",
+      "numero": "10617",
+      "fecha": "2024-12-17",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9014-2024",
+      "tipo": "oficio",
+      "numero": "9014",
+      "fecha": "2024-11-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7060-2024",
+      "tipo": "oficio",
+      "numero": "7060",
+      "fecha": "2024-09-27",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7690-2023",
+      "tipo": "oficio",
+      "numero": "7690",
+      "fecha": "2023-12-28",
+      "tema": "(Int 1289) Impuesto sobre las ventas - Bienes exentos con derecho a devoluci&oacute;n bimestral - Mercanc&iacute;as aprehendidas, decomisadas o abandonadas a favor de la Naci&oacute;n - Sociedades de comercializaci&oacute;n internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4920-2023",
+      "tipo": "oficio",
+      "numero": "4920",
+      "fecha": "2023-08-28",
+      "tema": "(Int 927) Impuesto Sobre las Ventas (IVA) - Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2476-2023",
+      "tipo": "oficio",
+      "numero": "2476",
+      "fecha": "2023-04-17",
+      "tema": "(Int 460) Ventas entre comercializadoras - Actividad exenta del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906767-2022",
+      "tipo": "oficio",
+      "numero": "906767",
+      "fecha": "2022-09-08",
+      "tema": "Impuesto sobre las ventas- Hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913419-2021",
+      "tipo": "oficio",
+      "numero": "913419",
+      "fecha": "2021-10-29",
+      "tema": "Impuesto nacional a la gasolina y ACPM, exportaci&oacute;n de hidrocarburos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907110-2021",
+      "tipo": "oficio",
+      "numero": "907110",
+      "fecha": "2021-07-19",
+      "tema": "Impuesto sobre las ventas - Impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901808-2021",
+      "tipo": "oficio",
+      "numero": "901808",
+      "fecha": "2021-12-01",
+      "tema": "Caducidad de la Acci&oacute;n Administrativa sancionatoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0344-2020",
+      "tipo": "oficio",
+      "numero": "0344",
+      "fecha": "2020-01-03",
+      "tema": "Excepci&oacute;n del impuesto a las ventas a bienes exportados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29754-2019",
+      "tipo": "oficio",
+      "numero": "29754",
+      "fecha": "2019-11-28",
+      "tema": "Responsables en la Venta de Productos Derivados del Petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28252-2019",
+      "tipo": "oficio",
+      "numero": "28252",
+      "fecha": "2019-11-14",
+      "tema": "Exportaciones Exentas - Venta de minerales preciosos por parte de un responsable del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27661-2019",
+      "tipo": "oficio",
+      "numero": "27661",
+      "fecha": "2019-11-05",
+      "tema": "Los usuarios de Zona Franca no pueden compran con IVA, &iquest;materia prima?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21940-2019",
+      "tipo": "oficio",
+      "numero": "21940",
+      "fecha": "2019-09-03",
+      "tema": "Bienes excluidos del impuesto sobre las ventas que se introducen en los departamentos de Amazona, Guain&iacute;a Y Vaup&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16315-2019",
+      "tipo": "oficio",
+      "numero": "16315",
+      "fecha": "2019-06-21",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11892-2019",
+      "tipo": "oficio",
+      "numero": "11892",
+      "fecha": "2019-05-16",
+      "tema": "Aplicaci&oacute;n y efectos de la Ley de Financiamiento en lo relacionado con la venta de bienes a Sociedades de Comercializaci&oacute;n Internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7621-2019",
+      "tipo": "oficio",
+      "numero": "7621",
+      "fecha": "2019-03-29",
+      "tema": "Comisiones por Colocaciones de Planes de Salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3024-2019",
+      "tipo": "oficio",
+      "numero": "3024",
+      "fecha": "2019-02-07",
+      "tema": "&iquest;Se puede solicitar devoluci&oacute;n y-o compensaci&oacute;n del SALDO IVA por VENTAS EXENTAS por productor y proveedor de SCI, sin haber realizado RETENCI&Oacute;N EN LA FUENTE EN EL IMPUESTO SOBRE LAS VENTAS, si se realiza en forma extempor&aacute;nea su pago, se declara bimestralmente el IVA? &iquest;Es procedente o no, que el contribuyente solicite nuevamente el saldo acumulado de IVA exento, despu&eacute;s de haber pagado la retenci&oacute;n IVA de per&iacute;odos anteriores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2545-2019",
+      "tipo": "oficio",
+      "numero": "2545",
+      "fecha": "2019-02-01",
+      "tema": "Tratamiento tributario en materia de impuesto sobre las ventas para exportadores de oro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2095-2019",
+      "tipo": "oficio",
+      "numero": "2095",
+      "fecha": "2019-01-25",
+      "tema": "&iquest;Puede una sociedad colombiana con objeto social de comercializaci&oacute;n de metales preciosos, adquirir partidas de oro ubicadas en zonas francas de todo el mundo, con independencia de quien sea su propietario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34293-2018",
+      "tipo": "oficio",
+      "numero": "34293",
+      "fecha": "2018-12-11",
+      "tema": "IVA en la venta nacional de plantas arom&aacute;ticas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33531-2018",
+      "tipo": "oficio",
+      "numero": "33531",
+      "fecha": "2018-11-14",
+      "tema": "Aplicaci&oacute;n del procedimiento de devoluciones y-o compensaciones de saldos a favor originados en las declaraciones del impuesto sobre las ventas causada por la exportaci&oacute;n de bienes muebles, espec&iacute;ficamente prote&iacute;na animal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33518-2018",
+      "tipo": "oficio",
+      "numero": "33518",
+      "fecha": "2018-11-16",
+      "tema": "Comercializaci&oacute;n de artesan&iacute;as por parte de una persona jur&iacute;dica en el pa&iacute;s y en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27608-2018",
+      "tipo": "oficio",
+      "numero": "27608",
+      "fecha": "2018-09-24",
+      "tema": "&iquest;Es necesario presentar el certificado de la AUNAP",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15690-2018",
+      "tipo": "oficio",
+      "numero": "15690",
+      "fecha": "2018-06-15",
+      "tema": "Consecuencias tributarias que se derivan de la exportaci&oacute;n de filetes de tilapia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4217-2018",
+      "tipo": "oficio",
+      "numero": "4217",
+      "fecha": "2018-02-21",
+      "tema": "&iquest;si el aceite",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20493-2017",
+      "tipo": "oficio",
+      "numero": "20493",
+      "fecha": "2017-08-02",
+      "tema": "Impuesto sobre las Ven&iacute;as Bienes exentos con derecho a devoluci&oacute;n y-o compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34722-2016",
+      "tipo": "oficio",
+      "numero": "34722",
+      "fecha": "2016-12-20",
+      "tema": "- Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 20372 del 2 de agosto de 2016 ya que considera que dicho pronunciamiento viola los art&iacute;culos 481 y 600 del Estatuto Tributario, as&iacute; como los art&iacute;culos 395 del Decreto n&uacute;mero 2685 de 1999 y 34 del Decreto n&uacute;mero 390 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32982-2016",
+      "tipo": "oficio",
+      "numero": "32982",
+      "fecha": "2016-12-02",
+      "tema": "- Solicita usted reconsideraci&oacute;n de la doctrina seg&uacute;n la cual los proveedores que vendan a Sociedades de Comercializaci&oacute;n Internacional, con el objeto de que estas procedan a exportar los bienes vendidos, deben inscribirse como Exportadores para tener derecho a la devoluci&oacute;n del IVA, especialmente consagrada en el Oficio n&uacute;mero 4457 de 2015 y en el Concepto 33346 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0655-2016",
+      "tipo": "oficio",
+      "numero": "0655",
+      "fecha": "2016-06-30",
+      "tema": "Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27862-2015",
+      "tipo": "oficio",
+      "numero": "27862",
+      "fecha": "2015-09-24",
+      "tema": "&iquest;Para efectos de la exportaci&oacute;n de mercanc&iacute;as es posible negociar en t&eacute;rminos CIF? - &iquest;Se debe facturar el impuesto sobre las ventas, en la venta en el territorio nacional de un bien que va a ser exportado por el comprador quien de igual forma es residente en el territorio colombiano?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17768-2015",
+      "tipo": "oficio",
+      "numero": "17768",
+      "fecha": "2015-06-17",
+      "tema": "Reconsideraci&oacute;n de la doctrina contenida en el Oficio 13546 del 6 de mayo de 2013 - IVA- Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1089-2015",
+      "tipo": "oficio",
+      "numero": "1089",
+      "fecha": "2015-01-16",
+      "tema": "&iquest;Una sociedad cuya producci&oacute;n se vende en un 100% a una sociedad comercializadora internacional para su exportaci&oacute;n, tiene derecho a solicitar la devoluci&oacute;n y-o compensaci&oacute;n del impuesto sobre las ventas pagado por concepto de servicios integrales de administraci&oacute;n (legales, contables, inform&aacute;ticos y de comunicaciones, de recursos humanos, financieros, de representaci&oacute;n legal, servicios t&eacute;cnicos, asistencia t&eacute;cnica y consultor&iacute;a, en general administraci&oacute;n integral empresarial)?&iquest;Cu&aacute;l ser&iacute;a el porcentaje de la devoluci&oacute;n y-o compensaci&oacute;n sobre el total del IVA pagado a la tarifa del 16%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66595-2014",
+      "tipo": "oficio",
+      "numero": "66595",
+      "fecha": "2014-12-16",
+      "tema": "Impuesto sobre las ventas - IVA - Reaprovisionamiento de aeronaves en tr&aacute;fico internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77395-2013",
+      "tipo": "oficio",
+      "numero": "77395",
+      "fecha": "2013-12-03",
+      "tema": "&iquest;Se consideran productores de pescado y dem&aacute;s productos marinos se&ntilde;alados en el art&iacute;culo 477 del Estatuto Tributario aquellos que se dedican a su procesamiento, con el prop&oacute;sito de conocer la procedencia de solicitar la devoluci&oacute;n del IVA cancelado en la adquisici&oacute;n de bienes y servicios que constituyan costo o gasto para su producci&oacute;n y comercializaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64458-2013",
+      "tipo": "oficio",
+      "numero": "64458",
+      "fecha": "2013-10-09",
+      "tema": "&iquest;Cu&aacute;ndo un distribuidor de derivados del petr&oacute;leo le vende estos productos a un usuario industrial de bienes y servicios ubicado en zona franca para ser utilizados como materia prima o insumo necesario para el desarrollo de su objeto social, puede solicitar la devoluci&oacute;n del impuesto sobre las ventas, teniendo en cuenta la exenci&oacute;n dispuesta en el literal f) del art&iacute;culo 481 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57717-2013",
+      "tipo": "oficio",
+      "numero": "57717",
+      "fecha": "2013-09-12",
+      "tema": "&iquest;Tiene derecho a la devoluci&oacute;n del impuesto sobre las ventas IVA, cobrado por los proveedores de los bienes y servicios, una sociedad, que como parte de su actividad industrial se dedica a la compra de bienes exentos, pescados y mariscos de los indicados en las posiciones arancelarias 03.02, 03.03, 03.04, 03.06.17, 03.06.26.00.00, 03.06.27, con los alcances establecidos en el par&aacute;grafo 2o del art&iacute;culo 477 del Estatuto Tributario, tal como qued&oacute; modificado por el art&iacute;culo 54 de la Ley 1607 de 2012, y que a estos bienes les agrega varios procesos de producci&oacute;n consistentes en fileteado y limpieza, empacado al vac&iacute;o y procesos t&eacute;cnicos de refrigerado y congelado, que no les cambia la naturaleza establecida en el art&iacute;culo 477 ya mencionado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48129-2013",
+      "tipo": "oficio",
+      "numero": "48129",
+      "fecha": "2013-08-02",
+      "tema": "&iquest;Se puede imputar el saldo a favor originado en una declaraci&oacute;n del impuesto sobre la renta que se encuentra en firme, mediante la correcci&oacute;n de la declaraci&oacute;n del periodo gravable inmediatamente siguiente? - &iquest;Cu&aacute;ndo la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria, procede su imputaci&oacute;n en la declaraci&oacute;n del periodo gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45334-2013",
+      "tipo": "oficio",
+      "numero": "45334",
+      "fecha": "2013-07-23",
+      "tema": "Norma aplicable para facturar servicios que ser&aacute;n utilizados total y exclusivamente en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7213-2013",
+      "tipo": "oficio",
+      "numero": "7213",
+      "fecha": "2013-02-08",
+      "tema": "&iquest;Los licores que se exporten o vendan en el pa&iacute;s a las sociedades de comercializaci&oacute;n internacional conservan la calidad de exentos con derecho a devoluci&oacute;n de los impuestos a las ventas pagados en las adquisiciones de bienes y servicios gravados incorporados o vinculados directamente a los licores exportados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91692-2009",
+      "tipo": "oficio",
+      "numero": "91692",
+      "fecha": "2009-11-06",
+      "tema": "&iquest;Cu&aacute;l es la tarifa que se debe aplicar a los bienes exentos del impuesto a las ventas en el proceso de nacionalizaci&oacute;n de mercanc&iacute;as importadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24020-2009",
+      "tipo": "oficio",
+      "numero": "24020",
+      "fecha": "2009-03-24",
+      "tema": "Proyecto de Ley 065 de 2008 - Por medio del cual se regula la actividad de astilleros y talleres de reparaci&oacute;n naval",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12682-2009",
+      "tipo": "oficio",
+      "numero": "12682",
+      "fecha": "2009-02-13",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a comercializadora que exporta bienes que de venderse dentro del pa&iacute;s ser&iacute;an excluidos, puede descontarse el IVA que constituye costo de venta de los bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89301-2008",
+      "tipo": "oficio",
+      "numero": "89301",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;C&oacute;mo deben declarar los comercializadores, los ingresos obtenidos por la venta de combustibles derivados del petr&oacute;leo en la declaraci&oacute;n del IVA, conforme lo establece el art&iacute;culo 444 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54609-2008",
+      "tipo": "oficio",
+      "numero": "54609",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A ra&iacute;z de la expedici&oacute;n de la citada resoluci&oacute;n 422 se entiende que el exportador es el distribuidor mayorista que vende a los buques (sic) los combustibles para viajes internacionales y no el buque que se reaprovisiona, y por lo tanto es a &eacute;l a quien corresponde adelantar los procesos de devoluci&oacute;n del IVA ante la DIAN?&iquest;Este beneficio debe aplicarse tanto para el reaprovisionamiento de combustible (diesel marino) que se hace en territorio aduanero, enti&eacute;ndese que no salen del territorio nacional, como para el reaprovisionamiento que se realiza en &eacute;ste, cuando los buques salen del pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99610-2007",
+      "tipo": "oficio",
+      "numero": "99610",
+      "fecha": "2007-12-04",
+      "tema": "Reconsideraci&oacute;n de los Conceptos 100453 del 28 de noviembre de 2006 y 038891 de 25 de mayo de 2007, por cuanto considera que en las ventas por parte de usuarios industriales de zona franca a empresas ubicadas en el resto del territorio aduanero nacional, proceden los impuestos descontables por los servicios gravados en que incurri&oacute; el usuario industrial en la producci&oacute;n de los bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70307-2007",
+      "tipo": "oficio",
+      "numero": "70307",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Se encuentra exclu&iacute;do del impuesto sobre las ventas la exportaci&oacute;n de las materias prima, utilizadas en la fabricaci&oacute;n de medicamentos, plaguicidas e insecticidas y fertilizantes de que trata el art&iacute;culo 424 del Estatuto Tributario y el decreto reglamentario 3733 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97366-2006",
+      "tipo": "oficio",
+      "numero": "97366",
+      "fecha": "2006-11-17",
+      "tema": "&iquest;La calidad de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83020-2006",
+      "tipo": "oficio",
+      "numero": "83020",
+      "fecha": "2006-09-26",
+      "tema": "&iquest;El c&aacute;lculo de la exenci&oacute;n del IVA esta sujeto al tipo de r&eacute;gimen (simplificado o com&uacute;n)?&iquest;La exenci&oacute;n de la retenci&oacute;n en la fuente se realiza sobre la base gravable del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88177-2005",
+      "tipo": "oficio",
+      "numero": "88177",
+      "fecha": "2005-11-28",
+      "tema": "&iquest;Cu&aacute;les son los documentos soporte de una exportaci&oacute;n y cu&aacute;l es el tratamiento del impuesto sobre las ventas en una exportaci&oacute;n de bienes muebles usados donados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087499-2005",
+      "tipo": "concepto",
+      "numero": "0087499",
+      "fecha": "2005-11-24",
+      "tema": "&iquest;Conservan la calidad de bienes exentos con derecho a devoluci&oacute;n del impuesto sobre las ventas los licores que se exporten?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80273-2005",
+      "tipo": "oficio",
+      "numero": "80273",
+      "fecha": "2005-01-01",
+      "tema": "Solicita reconsiderar el concepto 016328 de marzo 18 de 2005, en el cual se afirma que las operaciones de venta de bienes corporales muebles y prestaci&oacute;n de servicios que se realicen entre usuarios de las Zonas Francas industriales se encuentran gravadas con el impuesto sobre las ventas-IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080273-2005",
+      "tipo": "concepto",
+      "numero": "0080273",
+      "fecha": "2005-11-01",
+      "tema": "Solicita reconsiderar el concepto 016328 de marzo 18 de 2005, en el cual se afirma que las operaciones de venta de bienes corporales muebles y prestaci&oacute;n de servicios que se realicen entre usuarios de las Zonas Francas industriales se encuentran gravadas con el impuesto sobre las ventas-IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016328-2005",
+      "tipo": "concepto",
+      "numero": "0016328",
+      "fecha": "2005-03-18",
+      "tema": "&iquest;Se encuentran gravadas con el impuesto sobre las ventas las operaciones de venta de bienes corporales muebles y prestaci&oacute;n de servicios que se realicen entre usuarios de las zonas francas industriales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79313-2004",
+      "tipo": "oficio",
+      "numero": "79313",
+      "fecha": "2004-12-15",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073127-2004",
+      "tipo": "concepto",
+      "numero": "0073127",
+      "fecha": "2004-10-26",
+      "tema": "La venta de bienes del resto del territorio nacional a los usuarios de las zonas francas industriales, &iquest;es una operaci&oacute;n exenta del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057498-2004",
+      "tipo": "concepto",
+      "numero": "0057498",
+      "fecha": "2004-09-01",
+      "tema": "La venta de bienes del resto del territorio nacional a usuarios de zonas francas &iquest;es una operaci&oacute;n exenta del impuesto sobre las ventas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-33346-2004",
+      "tipo": "oficio",
+      "numero": "33346",
+      "fecha": "2004-05-31",
+      "tema": "&iquest;Un comercializador que &uacute;nicamente vende bienes exentos, como es la venta a sociedades de comercializaci&oacute;n internacional, es o no responsable del impuesto sobre las ventas -IVA- y en tal sentido cu&aacute;les son las obligaciones sustanciales y formales y m&aacute;s espec&iacute;ficamente las relacionadas con la inscripci&oacute;n en el registro &uacute;nico tributario RUT?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0070219-2002",
+      "tipo": "concepto",
+      "numero": "0070219",
+      "fecha": "2002-10-28",
+      "tema": "&iquest;Cu&aacute;ndo una empresa con domicilio en el territorio nacional introduce una mercanc&iacute;a a zona franca, a trav&eacute;s de un usuario industrial de servicios y la somete a un procesamiento parcial tanto en la zona franca como en el territorio nacional para ser vendida en el exterior, c&oacute;mo se debe facturar y qu&eacute; documento soporta la exportaci&oacute;n del componente nacional a zona franca para poder acceder a los beneficios tributarios generados por dicha operaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071967-2001",
+      "tipo": "concepto",
+      "numero": "0071967",
+      "fecha": "2001-08-09",
+      "tema": "&iquest;Procede la devoluci&oacute;n de IVA por reaprovisionamiento de combustibles para buques en transito internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0122435-2000",
+      "tipo": "concepto",
+      "numero": "0122435",
+      "fecha": "2000-12-20",
+      "tema": "&iquest;Genera el IVA la compra o la importaci&oacute;n de insumos y materias primas que ser&aacute;n utilizados en la producci&oacute;n de mercanc&iacute;as que posteriormente ser&aacute;n vendidas a una Comercializadora Internacional para ser exportadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079119-1998",
+      "tipo": "concepto",
+      "numero": "0079119",
+      "fecha": "1998-10-07",
+      "tema": "&iquest;Puede contener la palabra",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029318-1998",
+      "tipo": "concepto",
+      "numero": "0029318",
+      "fecha": "1998-04-27",
+      "tema": "&iquest;Es responsable del impuesto sobre las ventas con derecho a devoluci&oacute;n del mismo, una sociedad de comercializaci&oacute;n internacional que compra bienes excluidos y los exporta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009904-1997",
+      "tipo": "concepto",
+      "numero": "0009904",
+      "fecha": "1997-01-01",
+      "tema": "&iquest;Es factible que una persona natural cambie del r&eacute;gimen com&uacute;n al simplificado si por error se inscribi&oacute; en el r&eacute;gimen com&uacute;n, pero reuniendo los requisitos para pertenecer al r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042334-1996",
+      "tipo": "concepto",
+      "numero": "0042334",
+      "fecha": "1996-05-22",
+      "tema": "&iquest;Una sociedad colombiana dedicada a negocios de exportaci&oacute;n, est&aacute; sujeta al IVA y a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070682-1995",
+      "tipo": "concepto",
+      "numero": "0070682",
+      "fecha": "1995-10-05",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre las ventas, bienes tales como: lentes intraoculares; suturas nylon; soluci&oacute;n viscoel&aacute;stica (utilizada en operaciones de catarata como ayuda en la implantaci&oacute;n del lente intraocular) y cryo gel (antifaz para uso externo, cuyo componente es una gelatina qu&iacute;mica que puede ser enfriada o calentada para ayudar en procesos anti-inflamatorios)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063382-1995",
+      "tipo": "concepto",
+      "numero": "0063382",
+      "fecha": "1995-09-12",
+      "tema": "&iquest;Puede un contribuyente del impuesto sobre la renta compensar autom&aacute;ticamente un saldo a favor no declarado, con otros valores por &eacute;l adeudados que aparecen consignados en otras declaraciones tributarias? &iquest;Hasta que fecha se generan intereses moratorios por concepto de deudas tributarias exigibles y no canceladas oportunamente, que figuren en otras declaraciones tributarias del contribuyente, cuando este pretenda solicitar a la Administraci&oacute;n Tributaria su compensaci&oacute;n con un saldo a favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074200-1994",
+      "tipo": "concepto",
+      "numero": "0074200",
+      "fecha": "1994-12-21",
+      "tema": "&iquest;Hay inconveniente para que el impuesto que facturen a los proveedores pueda descontarse finalmente en cabeza de las sociedades de comercializaci&oacute;n internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012680-1993",
+      "tipo": "concepto",
+      "numero": "0012680",
+      "fecha": "1993-03-29",
+      "tema": "&iquest;Algunas compa&ntilde;&iacute;as exportadoras vienen registrando en las declaraciones de ventas los CERT causados en el rengl&oacute;n dos (2) del formulario, junto con los ingresos exentos del impuesto; otros, los declaran en el rengl&oacute;n siguiente como excluidos. En qu&eacute; rengl&oacute;n se deben declarar los CERT? Qu&eacute; tratamiento se debe dar a la diferencia en cambio por la venta de productos a cr&eacute;dito? Deben tenerse en cuenta los anteriores conceptos para la proporcionalidad de impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008468-1993",
+      "tipo": "concepto",
+      "numero": "0008468",
+      "fecha": "1993-07-27",
+      "tema": "&iquest;Una entidad cuyo objeto social es la comercializaci&oacute;n directa, dentro o fuera del pa&iacute;s, por cuenta propia o ajena, de aceite de palma y subproductos as&iacute; como la compra y distribuci&oacute;n de insumos y elementos relacionados con palma africana, est&aacute; obligada a cumplir como responsable el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016937-1992",
+      "tipo": "concepto",
+      "numero": "0016937",
+      "fecha": "1992-01-01",
+      "tema": "Exportadores con derecho de devoluci&oacute;n &iquest;Se requiere demostrar, adem&aacute;s de la realidad de la exportaci&oacute;n, estar tambien habilitada para exportar seg&uacute;n el objeto descrito en su escritura de constituci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011145-1992",
+      "tipo": "concepto",
+      "numero": "0011145",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;C&oacute;mo se encuentra clasificado el carb&oacute;n mineral, rango antracita, frente al IVA; adem&aacute;s, si una empresa dedicada a la exploraci&oacute;n, extracci&oacute;n y comercializaci&oacute;n de ese mineral tiene derecho a impuestos descontables por la actividad de exportaci&oacute;n del producto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007150-1992",
+      "tipo": "concepto",
+      "numero": "0007150",
+      "fecha": "1992-01-01",
+      "tema": "La materia prima importada por el responsable tiene caracter&iacute;sticas propias que la hacen adecuada para la fabricaci&oacute;n de l&aacute;pices",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007148-1992",
+      "tipo": "concepto",
+      "numero": "0007148",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;La exenci&oacute;n del impuesto sobre las ventas, en la importaci&oacute;n de productos de la posici&oacute;n arancelaria No. 82.01.60.10.00, tijeras de podar, incluida dentro de la partida 82.01, la solicitud la hace en virtud que el decreto 1655 de junio 27 de 1991, no cita textualmente las tijeras podadoras raz&oacute;n por la cual la Aduana las considera no exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002401-1992",
+      "tipo": "concepto",
+      "numero": "0002401",
+      "fecha": "1992-01-01",
+      "tema": "Solicita concepto respecto de si a piedra p&oacute;mez en estado natural con posici&oacute;n arancelaria No. 25.13.11.00.00, importada del Ecuador a trav&eacute;s del Pacto Andino, est&aacute; o no gravada con el 12% de IVA. Si el concepto es negativo, en sentido de no causar IVA, se informe cual ser&iacute;a el domicilio para presentar la petici&oacute;n de devoluci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026313-1990",
+      "tipo": "concepto",
+      "numero": "0026313",
+      "fecha": "1990-01-01",
+      "tema": "Servicios de transformaci&oacute;n de materias primas en el Plan Vallejo, Causaci&oacute;n de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008632-1990",
+      "tipo": "concepto",
+      "numero": "0008632",
+      "fecha": "1990-04-17",
+      "tema": "&iquest;Una empresa, sociedad de responsabilidad limitada, es productora de bienes que se encuentran gravados con el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022229-1989",
+      "tipo": "concepto",
+      "numero": "0022229",
+      "fecha": "1989-01-01",
+      "tema": "Asociaci&oacute;n de cuentas en participaci&oacute;n en las exportaciones",
+      "vigente": true
+    }
+  ]
+}

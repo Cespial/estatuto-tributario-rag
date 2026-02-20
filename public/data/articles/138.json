@@ -1,1 +1,322 @@
-{"id_articulo": "Art. 138", "titulo": "Art. 138. Posibilidad de utilizar una vida útil diferente.", "titulo_corto": "Posibilidad de utilizar una vida útil diferente.", "slug": "138", "url_origen": "https://estatuto.co/138", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico. Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes. Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico.", "Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes.", "Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una v...", "full_length": 294}, {"index": 1, "snippet": "Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le...", "full_length": 269}, {"index": 2, "snippet": "Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuer...", "full_length": 229}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 138",
+  "titulo": "Art. 138. Posibilidad de utilizar una vida útil diferente.",
+  "titulo_corto": "Posibilidad de utilizar una vida útil diferente.",
+  "slug": "138",
+  "url_origen": "https://estatuto.co/138",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico. Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes. Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una vida útil distinta, con base en conceptos o tablas de depreciación de reconocido valor técnico.",
+    "Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le queda de vida útil al bien, aduciendo las explicaciones pertinentes.",
+    "Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuerdo con la vida útil efectiva."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Si el contribuyente considera que la vida útil fijada en el reglamento no corresponde a la realidad de su caso particular, puede, previa autorización del Director de Impuestos Nacionales, fijar una v...",
+      "full_length": 294
+    },
+    {
+      "index": 1,
+      "snippet": "Si la vida útil efectiva resulta menor que la autorizada, por razones de obsolescencia u otro motivo imprevisto, el contribuyente puede aumentar su deducción por depreciación durante el período que le...",
+      "full_length": 269
+    },
+    {
+      "index": 2,
+      "snippet": "Si la vida útil efectiva resulta superior a la autorizada por el reglamento, el contribuyente puede distribuir, dentro del lapso faltante, el saldo amortizable, o puede disminuir su deducción de acuer...",
+      "full_length": 229
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 21835 (2019-09-02): Ingreso por Diferencia en Cambio\noficio 28012 (2018-09-27): &iquest;Los bienes importados al amparo de los beneficios tributarios consagrados en el literal g) del art&iacute;culo 428 del Estatuto Tributario que ya cumplieron su vida &uacute;til quedan en libre disposici&oacute;n?\noficio 5700 (2018-03-07): &iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?\noficio 901801 (2017-03-08): Impuesto Nacional al Consumo\noficio 19068 (2017-07-18): Exigencia de los permisos y autorizaciones como documentos soportes para la reimportaci&oacute;n de equipos biom&eacute;dicos repotenciado",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28012-2018",
+      "tipo": "oficio",
+      "numero": "28012",
+      "fecha": "2018-09-27",
+      "tema": "&iquest;Los bienes importados al amparo de los beneficios tributarios consagrados en el literal g) del art&iacute;culo 428 del Estatuto Tributario que ya cumplieron su vida &uacute;til quedan en libre disposici&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19068-2017",
+      "tipo": "oficio",
+      "numero": "19068",
+      "fecha": "2017-07-18",
+      "tema": "Exigencia de los permisos y autorizaciones como documentos soportes para la reimportaci&oacute;n de equipos biom&eacute;dicos repotenciado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16205-2016",
+      "tipo": "oficio",
+      "numero": "16205",
+      "fecha": "2016-06-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Deducci&oacute;n por Depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3232-2016",
+      "tipo": "oficio",
+      "numero": "3232",
+      "fecha": "2016-02-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34403-2015",
+      "tipo": "oficio",
+      "numero": "34403",
+      "fecha": "2015-12-01",
+      "tema": "Consulta el tratamiento tributario de un activo fijo, espec&iacute;ficamente los temas de p&eacute;rdidas en la enajenaci&oacute;n de activos, impuesto de ganancia ocasional y renta especial por recuperaci&oacute;n de la depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12888-2015",
+      "tipo": "oficio",
+      "numero": "12888",
+      "fecha": "2015-05-05",
+      "tema": "&iquest;Contempla su legislaci&oacute;n dom&eacute;stica sanciones por incumplimiento a personas o entidades que no cumplan oportuna y-o satisfactoriamente con requerimientos de informaci&oacute;n que haga la administraci&oacute;n tributaria, en cumplimiento de convenios tributarios vigentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7118-2015",
+      "tipo": "oficio",
+      "numero": "7118",
+      "fecha": "2015-03-06",
+      "tema": "&iquest;Es viable jur&iacute;dicamente que el contribuyente solicite por segunda ocasi&oacute;n un aumento de &eacute;sta si considera que la vida &uacute;til efectiva resulta superior a la autorizada o necesariamente debe atender el inciso final del art&iacute;culo 138 del Estatuto Tributario?&iquest;La autorizaci&oacute;n proferida por la DIAN respecto a la fijaci&oacute;n de una vida &uacute;til diferente a la contemplada en el reglamento para los activos fijos depreciables es un acto administrativo reglado o discrecional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58211-2014",
+      "tipo": "oficio",
+      "numero": "58211",
+      "fecha": "2014-10-10",
+      "tema": "&iquest;Es necesario que esta compa&ntilde;&iacute;a solicite a la DIAN autorizaci&oacute;n para que dichas m&aacute;quinas se puedan depreciar a 5 a&ntilde;os, si t&eacute;cnicamente las m&aacute;quinas son equipos de procesamiento de datos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052020-2010",
+      "tipo": "concepto",
+      "numero": "0052020",
+      "fecha": "2010-07-23",
+      "tema": "&iquest;Cuando la maquinaria industrial importada por los Usuarios Altamente Exportadores, se retira de la l&iacute;nea de producci&oacute;n y se da de baja por obsolescencia, se debe seguir acreditando anualmente el cumplimiento de los requisitos establecidos en el literal g) del art&iacute;culo 428 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22392-2010",
+      "tipo": "oficio",
+      "numero": "22392",
+      "fecha": "2010-03-30",
+      "tema": "&iquest;Cu&aacute;les son los elementos probatorios aceptables para la administraci&oacute;n, con el fin de demostrar que un bien se volvi&oacute; inadecuado antes del vencimiento de su vida &uacute;til probable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000065-2009",
+      "tipo": "concepto",
+      "numero": "0000065",
+      "fecha": "2009-12-17",
+      "tema": "&iquest;La depreciaci&oacute;n fiscal contemplada para activos fijos cuyo valor no exceda de 50 UVT se considera una modalidad del sistema de l&iacute;nea recta a efectos de solicitar la deducci&oacute;n establecida en el art&iacute;culo 158-3 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34535-2008",
+      "tipo": "oficio",
+      "numero": "34535",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cuando se liquida una sociedad, para efectos de determinar el valor que recibe cada socio o accionista se toma el valor del patrimonio contable o el fiscal?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-36096-2007",
+      "tipo": "oficio",
+      "numero": "36096",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Antes de cumplir su vida &uacute;til un equipo importado y beneficiado con la exoneraci&oacute;n del IVA v&iacute;a ALTEX es destruido, da&ntilde;ado o entra en obsolescencia, se puede solicitar a la administraci&oacute;n que haga una inspecci&oacute;n para establecer el estado del mismo, para darlo de baja y consecuencialmente retirar ese equipo de la l&iacute;nea de producci&oacute;n y por ende de los activos de la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026613-2006",
+      "tipo": "concepto",
+      "numero": "0026613",
+      "fecha": "2006-03-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los ingresos recibidos como contraprestaci&oacute;n de un aporte de industria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013816-2006",
+      "tipo": "concepto",
+      "numero": "0013816",
+      "fecha": "2006-02-15",
+      "tema": "&iquest;Es viable deducir de la renta el saldo que falte para completar el 100% del costo de los bienes afectados por obsolescencia, que se han destinado al negocio o actividad productora de renta y que han sido objeto de depreciaci&oacute;n, cuando la vida &uacute;til efectiva de dichos bienes resulta menor que su vida &uacute;til probable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-35325-2002",
+      "tipo": "concepto",
+      "numero": "35325",
+      "fecha": "2002-06-17",
+      "tema": "Impuesto de renta y complementarios. M&eacute;todos de depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080530-2000",
+      "tipo": "concepto",
+      "numero": "0080530",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Cu&aacute;les hechos pueden considerarse como",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013861-2000",
+      "tipo": "concepto",
+      "numero": "0013861",
+      "fecha": "2000-02-17",
+      "tema": "&iquest;Cu&aacute;l es la vida &uacute;til para efectos de la depreciaci&oacute;n de los bienes usados que se adquieren?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005414-1998",
+      "tipo": "concepto",
+      "numero": "0005414",
+      "fecha": "1998-04-30",
+      "tema": "a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030688-1990",
+      "tipo": "concepto",
+      "numero": "0030688",
+      "fecha": "1990-12-06",
+      "tema": "sobre cuanto es la vida &uacute;til de las piscinas y precriaderos de camarones y peces, para efectos de depreciaci&oacute;n seg&uacute;n lo establece el art&iacute;culo 137 del Estatuto Tributario",
+      "vigente": true
+    }
+  ]
+}

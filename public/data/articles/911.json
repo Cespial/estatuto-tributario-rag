@@ -1,1 +1,410 @@
-{"id_articulo": "Art. 911", "titulo": "Art. 911. Retenciones y autorretenciones en la fuente en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.", "titulo_corto": "Retenciones y autorretenciones en la fuente en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.", "slug": "911", "url_origen": "https://estatuto.co/911", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 6, "contenido_texto": "*Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a retención en la fuente y tampoco estarán obligados a practicar retenciones y autorretenciones en la fuente con excepción de las correspondientes a pagos laborales. En los pagos por compras de bienes o servicios realizados por los contribuyentes del impuesto unificado bajo el régimen simple de tributación - SIMPLE, el tercero receptor del pago, contribuyente del régimen ordinario y agente retenedor del impuesto sobre la renta, deberá actuar como agente autorretenedor del impuesto. Lo anterior sin perjuicio de la retención en la fuente a título del impuesto sobre las ventas -IVA, regulado en el numeral 9 del artículo 437-2 del Estatuto Tributario.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a retención en la fuente y tampoco estarán obligados a practicar retenciones y autorretenciones en la fuente con excepción de las correspondientes a pagos laborales. En los pagos por compras de bienes o servicios realizados por los contribuyentes del impuesto unificado bajo el régimen simple de tributación - SIMPLE, el tercero receptor del pago, contribuyente del régimen ordinario y agente retenedor del impuesto sobre la renta, deberá actuar como agente autorretenedor del impuesto. Lo anterior sin perjuicio de la retención en la fuente a título del impuesto sobre las ventas -IVA, regulado en el numeral 9 del <a href=\"https://estatuto.co/437-2\" rel=\"noopener\" target=\"_blank\">artículo 437-2</a> del Estatuto Tributario.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "74"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "66"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "165"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, medianteSentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": ["437-2"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 911",
+  "titulo": "Art. 911. Retenciones y autorretenciones en la fuente en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.",
+  "titulo_corto": "Retenciones y autorretenciones en la fuente en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.",
+  "slug": "911",
+  "url_origen": "https://estatuto.co/911",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 6,
+  "contenido_texto": "*Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a retención en la fuente y tampoco estarán obligados a practicar retenciones y autorretenciones en la fuente con excepción de las correspondientes a pagos laborales. En los pagos por compras de bienes o servicios realizados por los contribuyentes del impuesto unificado bajo el régimen simple de tributación - SIMPLE, el tercero receptor del pago, contribuyente del régimen ordinario y agente retenedor del impuesto sobre la renta, deberá actuar como agente autorretenedor del impuesto. Lo anterior sin perjuicio de la retención en la fuente a título del impuesto sobre las ventas -IVA, regulado en el numeral 9 del artículo 437-2 del Estatuto Tributario.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- no estarán sujetos a retención en la fuente y tampoco estarán obligados a practicar retenciones y autorretenciones en la fuente con excepción de las correspondientes a pagos laborales. En los pagos por compras de bienes o servicios realizados por los contribuyentes del impuesto unificado bajo el régimen simple de tributación - SIMPLE, el tercero receptor del pago, contribuyente del régimen ordinario y agente retenedor del impuesto sobre la renta, deberá actuar como agente autorretenedor del impuesto. Lo anterior sin perjuicio de la retención en la fuente a título del impuesto sobre las ventas -IVA, regulado en el numeral 9 del <a href=\"https://estatuto.co/437-2\" rel=\"noopener\" target=\"_blank\">artículo 437-2</a> del Estatuto Tributario.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "74"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "66"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "165"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, medianteSentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "437-2"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 25 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0302 (2026-01-14): Impuesto sobre la Renta y Complementarios\noficio 16220 (2025-11-21): Procedimiento Tributario\noficio 12500 (2025-09-16): Otras Disposiciones\noficio 11866 (2025-08-29): Procedimiento Tributario\noficio 9598 (2025-07-22): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0302-2026",
+      "tipo": "oficio",
+      "numero": "0302",
+      "fecha": "2026-01-14",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16220-2025",
+      "tipo": "oficio",
+      "numero": "16220",
+      "fecha": "2025-11-21",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12500-2025",
+      "tipo": "oficio",
+      "numero": "12500",
+      "fecha": "2025-09-16",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11866-2025",
+      "tipo": "oficio",
+      "numero": "11866",
+      "fecha": "2025-08-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9598-2025",
+      "tipo": "oficio",
+      "numero": "9598",
+      "fecha": "2025-07-22",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8971-2025",
+      "tipo": "oficio",
+      "numero": "8971",
+      "fecha": "2025-07-10",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8536-2025",
+      "tipo": "oficio",
+      "numero": "8536",
+      "fecha": "2025-07-01",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7596-2025",
+      "tipo": "oficio",
+      "numero": "7596",
+      "fecha": "2025-06-11",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4139-2025",
+      "tipo": "oficio",
+      "numero": "4139",
+      "fecha": "2025-04-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3863-2025",
+      "tipo": "oficio",
+      "numero": "3863",
+      "fecha": "2025-03-31",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3418-2025",
+      "tipo": "oficio",
+      "numero": "3418",
+      "fecha": "2025-02-25",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0517-2025",
+      "tipo": "oficio",
+      "numero": "0517",
+      "fecha": "2025-01-23",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0011-2026",
+      "tipo": "oficio",
+      "numero": "0011",
+      "fecha": "",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3548-2024",
+      "tipo": "oficio",
+      "numero": "3548",
+      "fecha": "2024-02-21",
+      "tema": "(Int 108) Retenci&oacute;n en la fuente - Cu&aacute;ndo no se efect&uacute;a la retenci&oacute;n - Retenci&oacute;n en la fuente en mandato - Retenci&oacute;n en la fuente por otros ingresos - Retenci&oacute;n en la fuente por pagos de fallos judiciales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6239-2023",
+      "tipo": "oficio",
+      "numero": "6239",
+      "fecha": "2023-10-27",
+      "tema": "(Int 1119) Retenci&oacute;n en la fuente - Consorcios y uniones temporales - Contratos de colaboraci&oacute;n empresarial - Pagos no sujetos a retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2562-2023",
+      "tipo": "oficio",
+      "numero": "2562",
+      "fecha": "2023-04-26",
+      "tema": "(Int 487) Aplicaci&oacute;n del R&eacute;gimen Simple de Tributaci&oacute;n (en adelante SIMPLE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908757-2022",
+      "tipo": "oficio",
+      "numero": "908757",
+      "fecha": "2022-12-13",
+      "tema": "Agentes de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903716-2022",
+      "tipo": "oficio",
+      "numero": "903716",
+      "fecha": "2022-05-13",
+      "tema": "Impuesto sobre la renta - Dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903703-2022",
+      "tipo": "oficio",
+      "numero": "903703",
+      "fecha": "2022-05-11",
+      "tema": "Retenci&oacute;n en la fuente por dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901166-2022",
+      "tipo": "oficio",
+      "numero": "901166",
+      "fecha": "2022-02-16",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900347-2022",
+      "tipo": "oficio",
+      "numero": "900347",
+      "fecha": "2022-01-01",
+      "tema": "R&eacute;gimen simple de tributaci&oacute;n - simple retenci&oacute;n en la fuente Art&iacute;culos 904 y siguientes del Estatuto Tributario Decreto 1091 de 2020 Art&iacute;culos 1.5.8.3.1. y 1.6.1.4.10. del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915593-2021",
+      "tipo": "oficio",
+      "numero": "915593",
+      "fecha": "2021-12-22",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908674-2021",
+      "tipo": "oficio",
+      "numero": "908674",
+      "fecha": "2021-08-26",
+      "tema": "Autorretenci&oacute;n a t&iacute;tulo de impuesto sobre la renta - R&eacute;gimen simple de tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908121-2021",
+      "tipo": "oficio",
+      "numero": "908121",
+      "fecha": "2021-08-12",
+      "tema": "Obligaciones de los contribuyentes del R&eacute;gimen Simple - Dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907104-2021",
+      "tipo": "oficio",
+      "numero": "907104",
+      "fecha": "2021-01-01",
+      "tema": "Procedimiento tributario - Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905016-2020",
+      "tipo": "oficio",
+      "numero": "905016",
+      "fecha": "2020-09-18",
+      "tema": "&iquest;Respecto del a&ntilde;o gravable 2019 los contribuyentes del R&eacute;gimen Simple de Tributaci&oacute;n (RST) pertenecientes al grupo 2, 3 y 4 de dicho r&eacute;gimen, y que cumpl&iacute;an con alguno de los escenarios contemplados por el art&iacute;culo 437-2 del Estatuto Tributario, deb&iacute;an actuar como agentes de Retenci&oacute;n a t&iacute;tulo de IVA, atendiendo que el IVA en el RST solo se entend&iacute;a integrado para los contribuyentes del grupo 1 del RST?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903790-2020",
+      "tipo": "oficio",
+      "numero": "903790",
+      "fecha": "2020-08-05",
+      "tema": "Retenciones en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903789-2020",
+      "tipo": "oficio",
+      "numero": "903789",
+      "fecha": "2020-08-05",
+      "tema": "Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903512-2020",
+      "tipo": "oficio",
+      "numero": "903512",
+      "fecha": "2020-07-27",
+      "tema": "Retenci&oacute;n a titulo de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32136-2019",
+      "tipo": "oficio",
+      "numero": "32136",
+      "fecha": "2019-12-31",
+      "tema": "Agentes de Retenci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28615-2019",
+      "tipo": "oficio",
+      "numero": "28615",
+      "fecha": "2019-11-18",
+      "tema": "&iquest;Cu&aacute;l es la base y la tarifa de la autorretenci&oacute;n en la fuente por las ventas realizadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26849-2019",
+      "tipo": "oficio",
+      "numero": "26849",
+      "fecha": "2019-10-24",
+      "tema": "Autorretenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21337-2019",
+      "tipo": "oficio",
+      "numero": "21337",
+      "fecha": "2019-08-28",
+      "tema": "Anticipo de impuesto, liquidado como contribuyente de Impuesto a la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21313-2019",
+      "tipo": "oficio",
+      "numero": "21313",
+      "fecha": "2019-08-28",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20707-2019",
+      "tipo": "oficio",
+      "numero": "20707",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Todas las personas naturales que se acojan al r&eacute;gimen deben facturar IVA, sin tomar en consideraci&oacute;n el tope de los ingresos establecidos en el numeral 1 del par&aacute;grafo 3 del art&iacute;culo 437 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19363-2019",
+      "tipo": "oficio",
+      "numero": "19363",
+      "fecha": "2019-08-02",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE. Sujetos que no pueden optar por el Impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17798-2019",
+      "tipo": "oficio",
+      "numero": "17798",
+      "fecha": "2019-07-09",
+      "tema": "Impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n, creado por la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13708-2019",
+      "tipo": "oficio",
+      "numero": "13708",
+      "fecha": "2019-05-29",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n Simple. Retenci&oacute;n en la fuente. Sujetos pasivos Agentes de Retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34142-2018",
+      "tipo": "oficio",
+      "numero": "34142",
+      "fecha": "2018-12-11",
+      "tema": "Impuestos aplicables a los denominados",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    }
+  ]
+}

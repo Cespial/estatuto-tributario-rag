@@ -1,1 +1,354 @@
-{"id_articulo": "Art. 52", "titulo": "Art. 52. Incentivo a la capitalización rural (ICR).", "titulo_corto": "Incentivo a la capitalización rural (ICR).", "slug": "52", "url_origen": "https://estatuto.co/52", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El Incentivo a la Capitalización Rural (ICR) previsto en la Ley 101 de 1993, no constituye renta ni ganancia ocasional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El Incentivo a la Capitalización Rural (ICR) previsto en la <strong><a href=\"https://accounter.co/normatividad/leyes/8017-ley-general-de-desarrollo-agropecuario-y-pesquero.html\" rel=\"noopener\" target=\"_blank\">Ley 101 de 1993</a></strong>, no constituye renta ni ganancia ocasional.</p>\n</span>", "modificaciones_raw": "*Artículo Modificado Ley 788 de 2002 Art. 20", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "788", "norma_year": 2002, "norma_articulo": "20"}], "total_modificaciones": 1, "ultima_modificacion_year": 2002, "leyes_modificatorias": ["Ley 788 de 2002"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 52",
+  "titulo": "Art. 52. Incentivo a la capitalización rural (ICR).",
+  "titulo_corto": "Incentivo a la capitalización rural (ICR).",
+  "slug": "52",
+  "url_origen": "https://estatuto.co/52",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El Incentivo a la Capitalización Rural (ICR) previsto en la Ley 101 de 1993, no constituye renta ni ganancia ocasional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El Incentivo a la Capitalización Rural (ICR) previsto en la <strong><a href=\"https://accounter.co/normatividad/leyes/8017-ley-general-de-desarrollo-agropecuario-y-pesquero.html\" rel=\"noopener\" target=\"_blank\">Ley 101 de 1993</a></strong>, no constituye renta ni ganancia ocasional.</p>\n</span>",
+  "modificaciones_raw": "*Artículo Modificado Ley 788 de 2002 Art. 20",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "788",
+      "norma_year": 2002,
+      "norma_articulo": "20"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2002,
+  "leyes_modificatorias": [
+    "Ley 788 de 2002"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 19 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 904800 (2022-04-22): Liquidaci&oacute;n provisional - Reducci&oacute;n sanci&oacute;n\noficio 903709 (2022-05-13): Medios de pago para efectos de la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables - Procedimiento tributario\noficio 914969 (2021-12-06): Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta\noficio 914801 (2021-12-03): Procedimiento tributario - Medios de pago de costos y deducciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-904800-2022",
+      "tipo": "oficio",
+      "numero": "904800",
+      "fecha": "2022-04-22",
+      "tema": "Liquidaci&oacute;n provisional - Reducci&oacute;n sanci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903709-2022",
+      "tipo": "oficio",
+      "numero": "903709",
+      "fecha": "2022-05-13",
+      "tema": "Medios de pago para efectos de la aceptaci&oacute;n de costos, deducciones, pasivos e impuestos descontables - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914801-2021",
+      "tipo": "oficio",
+      "numero": "914801",
+      "fecha": "2021-12-03",
+      "tema": "Procedimiento tributario - Medios de pago de costos y deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6406-2019",
+      "tipo": "oficio",
+      "numero": "6406",
+      "fecha": "2019-03-14",
+      "tema": "Responsables del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29382-2017",
+      "tipo": "oficio",
+      "numero": "29382",
+      "fecha": "2017-10-31",
+      "tema": "Beneficios o incentivos tributarios que podr&iacute;an promover la inversi&oacute;n en el sector agroindustrial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20911-2017",
+      "tipo": "oficio",
+      "numero": "20911",
+      "fecha": "2017-08-04",
+      "tema": "Seg&uacute;n lo establece el art&iacute;culo 52 de la Resoluci&oacute;n 4240 de 2000, es posible habilitar un dep&oacute;sito de provisiones de abordo y para llevar, en un lugar distinto al aeropuerto. En tal sentido, cual es la normatividad aplicable para precisamente, establecer un dep&oacute;sito en zona franca?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23817-2015",
+      "tipo": "oficio",
+      "numero": "23817",
+      "fecha": "2015-08-18",
+      "tema": "Obligados a inscribirse en el RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7121-2015",
+      "tipo": "oficio",
+      "numero": "7121",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre la renta - Ingresos gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25175-2013",
+      "tipo": "oficio",
+      "numero": "25175",
+      "fecha": "2013-04-29",
+      "tema": "&iquest;Qu&eacute; recursos p&uacute;blicos para el Apoyo al Ingreso al Caficultor - AIC, son operados por la Federaci&oacute;n Nacional de Cafeteros de Colombia como administradora del Fondo Nacional del Caf&eacute; y tienen como fundamento legal, adem&aacute;s del Decreto 2478 de 1999, la Ley 101 de 1993 y, entre otra, la Resoluci&oacute;n 000468 de 2012 del Ministerio de Agricultura y Desarrollo Rural?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077291-2012",
+      "tipo": "concepto",
+      "numero": "0077291",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;El emplazamiento para corregir las declaraciones tributarias que no se encuentran en firme se puede notificar despu&eacute;s de los dos (2) a&ntilde;os siguientes a la fecha de vencimiento del plazo para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046501-2009",
+      "tipo": "concepto",
+      "numero": "0046501",
+      "fecha": "2009-06-08",
+      "tema": "&iquest;En la determinaci&oacute;n de los dividendos y participaciones no gravados, al valor obtenido de conformidad con el procedimiento previsto en el numeral 1 del art&iacute;culo 49 del E.T. se puede adicionar el ingreso contable por recuperaci&oacute;n o reversi&oacute;n de provisiones no deducibles de a&ntilde;os anteriores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030172-2008",
+      "tipo": "concepto",
+      "numero": "0030172",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;El beneficio tributario otorgado al incentivo a la capitalizaci&oacute;n rural se puede utilizar en concurrencia con la deducci&oacute;n por inversiones en nuevas plantaciones, riegos, pozos y silos o en concurrencia con la deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070056-2006",
+      "tipo": "concepto",
+      "numero": "0070056",
+      "fecha": "2006-08-18",
+      "tema": "&iquest;Se encuentran vigentes el Inciso 4o. del Art&iacute;culo 15 de la Ley 9a. de 1989 subrogado por el Art&iacute;culo 35 de la Ley 3&ordf; de 1991, el Par&aacute;grafo 2o. del Art&iacute;culo 67 de la Ley 388 de 1997 y el Par&aacute;grafo 2o. del Art&iacute;culo 67 de la Ley 388 de 1997?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038750-2006",
+      "tipo": "concepto",
+      "numero": "0038750",
+      "fecha": "2006-05-15",
+      "tema": "&iquest;Tienen los cultivos de palma africana el car&aacute;cter de activos fijos reales productivos, para efectos de la deducci&oacute;n especial consagrada en el art&iacute;culo 158-3 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52753-2005",
+      "tipo": "oficio",
+      "numero": "52753",
+      "fecha": "2005-01-01",
+      "tema": "Solicita revisar y ajustar los pronunciamientos emitidos por la Direcci&oacute;n de Impuestos y Aduanas Nacionales, relacionados con el c&aacute;lculo de la base gravable para el pago del Impuesto Sobre las Ventas a cargo de las Cooperativas de Trabajo Asociado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13149-2004",
+      "tipo": "oficio",
+      "numero": "13149",
+      "fecha": "2004-01-01",
+      "tema": "Solicita pronunciamiento sobre el IVA aplicable en la prestaci&oacute;n de servicios de aseo y cafeter&iacute;a, particularizando la situaci&oacute;n propuesta a la participaci&oacute;n en una licitaci&oacute;n p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027203-1990",
+      "tipo": "concepto",
+      "numero": "0027203",
+      "fecha": "1990-01-01",
+      "tema": "&iquest;La enajenaci&oacute;n de vivienda de inter&eacute;s social est&aacute; sometida a retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-t-553-1994",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "553",
+      "year": 1994
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

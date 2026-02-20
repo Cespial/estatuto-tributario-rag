@@ -1,1 +1,278 @@
-{"id_articulo": "Art. 269", "titulo": "Art. 269. Valor patrimonial de los bienes en moneda extranjera.", "titulo_corto": "Valor patrimonial de los bienes en moneda extranjera.", "slug": "269", "url_origen": "https://estatuto.co/269", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El valor de los activos en moneda extranjera, se estiman en moneda nacional al momento de su reconocimiento inicial a la tasa representativa del mercado, menos los abonos o pagos medidos a la misma tasa representativa del mercado del reconocimiento inicial.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El valor de los activos en moneda extranjera, se estiman en moneda nacional al momento de su reconocimiento inicial a la tasa representativa del mercado, menos los abonos o pagos medidos a la misma tasa representativa del mercado del reconocimiento inicial.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 116.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "116"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 269",
+  "titulo": "Art. 269. Valor patrimonial de los bienes en moneda extranjera.",
+  "titulo_corto": "Valor patrimonial de los bienes en moneda extranjera.",
+  "slug": "269",
+  "url_origen": "https://estatuto.co/269",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El valor de los activos en moneda extranjera, se estiman en moneda nacional al momento de su reconocimiento inicial a la tasa representativa del mercado, menos los abonos o pagos medidos a la misma tasa representativa del mercado del reconocimiento inicial.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El valor de los activos en moneda extranjera, se estiman en moneda nacional al momento de su reconocimiento inicial a la tasa representativa del mercado, menos los abonos o pagos medidos a la misma tasa representativa del mercado del reconocimiento inicial.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 116.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "116"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 10065 (2024-12-04): Otras Disposiciones\noficio 10015 (2024-12-04): Impuesto sobre la Renta y Complementarios\noficio 3422 (2023-06-05): (Int 633) Valor patrimonial de los cr&eacute;ditos - Activos en moneda extranjera depositados en cuentas bancarias abiertas en entidades financieras del exterior\noficio 908569 (2022-11-24): Declaraci&oacute;n anual de activos en el exterior",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10065-2024",
+      "tipo": "oficio",
+      "numero": "10065",
+      "fecha": "2024-12-04",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10015-2024",
+      "tipo": "oficio",
+      "numero": "10015",
+      "fecha": "2024-12-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3422-2023",
+      "tipo": "oficio",
+      "numero": "3422",
+      "fecha": "2023-06-05",
+      "tema": "(Int 633) Valor patrimonial de los cr&eacute;ditos - Activos en moneda extranjera depositados en cuentas bancarias abiertas en entidades financieras del exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908569-2022",
+      "tipo": "oficio",
+      "numero": "908569",
+      "fecha": "2022-11-24",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904512-2022",
+      "tipo": "oficio",
+      "numero": "904512",
+      "fecha": "2022-06-09",
+      "tema": "- (Tributario) Impuesto sobre la renta - Diferencia en cambio - criptoactivos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-900355-2022",
+      "tipo": "oficio",
+      "numero": "900355",
+      "fecha": "2022-01-20",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior, valor patrimonial de los t&iacute;tulos, bonos y seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912395-2021",
+      "tipo": "oficio",
+      "numero": "912395",
+      "fecha": "2021-10-06",
+      "tema": "R&eacute;gimen de Entidades Controladas del Exterior (ECE) Declaraci&oacute;n Anual de Activos en el Exterior - Impuesto sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910510-2021",
+      "tipo": "oficio",
+      "numero": "910510",
+      "fecha": "2021-09-23",
+      "tema": "Inversiones en el exterior, Convenio entre Canada y la Rep&uacute;blica de Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909039-2021",
+      "tipo": "oficio",
+      "numero": "909039",
+      "fecha": "2021-09-01",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907958-2021",
+      "tipo": "oficio",
+      "numero": "907958",
+      "fecha": "2021-08-10",
+      "tema": "Activos en moneda extranjera - Impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906712-2021",
+      "tipo": "oficio",
+      "numero": "906712",
+      "fecha": "2021-07-07",
+      "tema": "Diferencia en cambio, para efectos fiscales, para pagos realizados al exterior desde una cuenta de compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1394-2020",
+      "tipo": "oficio",
+      "numero": "1394",
+      "fecha": "2020-01-24",
+      "tema": "Efectos tributarios de un pr&eacute;stamo de libre inversi&oacute;n obtenido en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902731-2018",
+      "tipo": "oficio",
+      "numero": "902731",
+      "fecha": "2018-12-05",
+      "tema": "Valor patrimonial que se debe consignar en la declaraci&oacute;n de activos en el exterior de las inversiones financieras en t&iacute;tulos emitidos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10939-2018",
+      "tipo": "oficio",
+      "numero": "10939",
+      "fecha": "2018-04-27",
+      "tema": "&iquest;Si en ausencia del Representante Legal principal podr&iacute;a eventualmente firmar las declaraciones Tributarias un suplente de la sociedad fiduciaria de la Sociedad Administradora o seria responsabilidad de un suplente de los suscriptores del acuerdo consorcial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8230-2018",
+      "tipo": "oficio",
+      "numero": "8230",
+      "fecha": "2018-03-28",
+      "tema": "&iquest;Diferencia en cambio para el efectivo: Deber&iacute;a entenderse siempre realizado y permitirse a TRM de cierre, ya que se presentan inconvenientes por las distintas entradas y salidas de divisas, que estar&iacute;an a distintas tasas, lo que en la pr&aacute;ctica har&iacute;a que se lleve una especie de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27784-2017",
+      "tipo": "oficio",
+      "numero": "27784",
+      "fecha": "2017-10-11",
+      "tema": "Patrimonio - usufructo - Nuda propiedad Renta presuntiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2568-2017",
+      "tipo": "oficio",
+      "numero": "2568",
+      "fecha": "2017-05-24",
+      "tema": "&iquest;Es aplicable el numeral 2) literal a) y b) del art&iacute;culo 291 del E.T. para la determinaci&oacute;n del valor patrimonial de inversiones en moneda extranjera, en acciones o participaciones en sociedades extranjeras que no se enajenen dentro del giro ordinario del negocio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32979-2015",
+      "tipo": "oficio",
+      "numero": "32979",
+      "fecha": "2015-11-17",
+      "tema": "&iquest;Teniendo en cuenta lo dispuesto en el par&aacute;grafo del art&iacute;culo 32-1 del Estatuto Tributario, es v&aacute;lido NO seguir actualizando el costo fiscal de la inversi&oacute;n en acciones o participaciones en sociedades extranjeras con la diferencia en cambio? - &iquest;Para efectos patrimoniales, las inversiones en sociedades extranjeras que deban ser declaradas por su costo fiscal, deben o no incluir en dicho costo la diferencia en cambio generada luego de la incorporaci&oacute;n del par&aacute;grafo del art&iacute;culo 32-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4060-2015",
+      "tipo": "oficio",
+      "numero": "4060",
+      "fecha": "2015-02-13",
+      "tema": "&iquest;Cu&aacute;l es el mecanismo de conversi&oacute;n de informaci&oacute;n contable en moneda extranjera a contabilidad bajo normas locales para efectos exclusivamente fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29006-2014",
+      "tipo": "oficio",
+      "numero": "29006",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal en el impuesto sobre la renta y en el CREE; del ajuste por diferencia en cambio de una inversi&oacute;n en moneda extranjera, cuando este resulta negativo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15384-2009",
+      "tipo": "oficio",
+      "numero": "15384",
+      "fecha": "2009-02-23",
+      "tema": "&iquest;Desde el punto de vista fiscal en la determinaci&oacute;n del valor patrimonial de los activos es viable registrar en d&oacute;lares todas las transacciones de los proyectos, incluidas las que se originan en pesos que por efectos de la negociaci&oacute;n se deben convertir a d&oacute;lares en la fecha del desembolso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013161-2004",
+      "tipo": "concepto",
+      "numero": "0013161",
+      "fecha": "2004-03-05",
+      "tema": "&iquest;Es deducible la correcci&oacute;n monetaria originada sobre la actualizaci&oacute;n del patrimonio contemplada en el art&iacute;culo 80 de la ley 788 de 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049134-2003",
+      "tipo": "concepto",
+      "numero": "0049134",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;El mayor o menor valor de la tasa de cotizaci&oacute;n de las divisas pose&iacute;das por un contribuyente a 31 de diciembre, constituye ingreso o gasto para efectos de la presentaci&oacute;n de su declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002826-1994",
+      "tipo": "concepto",
+      "numero": "0002826",
+      "fecha": "1994-01-21",
+      "tema": "&iquest;Ser&iacute;a correcto que en lugar de hacer el ajuste por un PAAG, anual o mensual, se haga por la tasa representativa del mercado, considerando que se tienen registros en d&oacute;lares dado que en caso de venta nunca se har&iacute;a en pesos sino en d&oacute;lares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011641-1991",
+      "tipo": "concepto",
+      "numero": "0011641",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Cu&aacute;l es la tasa de cambio aplicable para efectos del saneamiento fiscal de divisas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006379-1991",
+      "tipo": "concepto",
+      "numero": "0006379",
+      "fecha": "1991-01-01",
+      "tema": "En caso de que un Colombiano adquiera los t&iacute;tulos de deuda p&uacute;blica externa a que se refiere el art&iacute;culo 27 de la Ley 55 de 1985, los pagos de principal, intereses y dem&aacute;s que se hagan bajo dichos t&iacute;tulos est&aacute;n exentos del impuesto de renta?&iquest;La adquisici&oacute;n de dichos t&iacute;tulos por un Colombiano constituye patrimonio para el adquirente, y se les aplica impuesto de patrimonio?&iquest;Deben o no incluirse en la declaraci&oacute;n de renta del contribuyente los t&iacute;tulos de deuda externa y sus pagos por concepto del servicio de la deuda? Cu&aacute;l es el tratamiento tributario para la conversi&oacute;n de t&iacute;tulos de deuda p&uacute;blica externa en t&iacute;tulos canjeables por certificados de cambio?",
+      "vigente": true
+    }
+  ]
+}

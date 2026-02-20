@@ -1,1 +1,586 @@
-{"id_articulo": "Art. 46", "titulo": "Art. 46. Apoyos económicos no constitutivos de renta ni de ganancia ocasional.", "titulo_corto": "Apoyos económicos no constitutivos de renta ni de ganancia ocasional.", "slug": "46", "url_origen": "https://estatuto.co/46", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Son ingresos no constitutivos de renta o ganancia ocasional, los apoyos económicos no reembolsables o condonados, entregados por el Estado o financiados con recursos públicos, para financiar programas educativos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Son ingresos no constitutivos de renta o ganancia ocasional, los apoyos económicos no reembolsables o condonados, entregados por el Estado o financiados con recursos públicos, para financiar programas educativos.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 11. *Derogado Ley 1819 de 2016 Art 376.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "11"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "376"}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 46",
+  "titulo": "Art. 46. Apoyos económicos no constitutivos de renta ni de ganancia ocasional.",
+  "titulo_corto": "Apoyos económicos no constitutivos de renta ni de ganancia ocasional.",
+  "slug": "46",
+  "url_origen": "https://estatuto.co/46",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Son ingresos no constitutivos de renta o ganancia ocasional, los apoyos económicos no reembolsables o condonados, entregados por el Estado o financiados con recursos públicos, para financiar programas educativos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Son ingresos no constitutivos de renta o ganancia ocasional, los apoyos económicos no reembolsables o condonados, entregados por el Estado o financiados con recursos públicos, para financiar programas educativos.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 11. *Derogado Ley 1819 de 2016 Art 376.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "11"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "376"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 25 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 9135 (2024-11-25): Impuesto sobre la Renta y Complementarios\noficio 9004 (2024-11-19): Impuesto sobre la Renta y Complementarios\noficio 4429 (2024-07-02): Procedimiento Tributario\noficio 904848 (2022-06-30): Retenci&oacute;n en la fuente- Ingresos\noficio 900983 (2022-02-09): Sistema de facturaci&oacute;n electr&oacute;nica",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-9135-2024",
+      "tipo": "oficio",
+      "numero": "9135",
+      "fecha": "2024-11-25",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9004-2024",
+      "tipo": "oficio",
+      "numero": "9004",
+      "fecha": "2024-11-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4429-2024",
+      "tipo": "oficio",
+      "numero": "4429",
+      "fecha": "2024-07-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904848-2022",
+      "tipo": "oficio",
+      "numero": "904848",
+      "fecha": "2022-06-30",
+      "tema": "Retenci&oacute;n en la fuente- Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900983-2022",
+      "tipo": "oficio",
+      "numero": "900983",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914800-2021",
+      "tipo": "oficio",
+      "numero": "914800",
+      "fecha": "2021-12-03",
+      "tema": "Procedimiento tributario - Factura electr&oacute;nica de venta empresa transportadora",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903441-2020",
+      "tipo": "oficio",
+      "numero": "903441",
+      "fecha": "2020-07-23",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902901-2020",
+      "tipo": "oficio",
+      "numero": "902901",
+      "fecha": "2020-07-03",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4607-2019",
+      "tipo": "oficio",
+      "numero": "4607",
+      "fecha": "2019-02-25",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901555-2018",
+      "tipo": "oficio",
+      "numero": "901555",
+      "fecha": "2018-11-29",
+      "tema": "&iquest;Se pueden incluir como ingresos no constitutivos de renta ni ganancia ocasional los aportes adicionales y-o voluntarios a salud que se efect&uacute;en a una entidad del r&eacute;gimen de salud contemplado en la Ley 647 de 2001 que modific&oacute; el par&aacute;grafo del art&iacute;culo 57 de la Ley 30 de 1992, sobre la educaci&oacute;n superior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33724-2018",
+      "tipo": "oficio",
+      "numero": "33724",
+      "fecha": "2018-11-20",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11536-2018",
+      "tipo": "oficio",
+      "numero": "11536",
+      "fecha": "2018-05-04",
+      "tema": "Ingresos por est&iacute;mulos a las actividades art&iacute;sticas y culturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5699-2018",
+      "tipo": "oficio",
+      "numero": "5699",
+      "fecha": "2018-03-07",
+      "tema": "Contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0653-2018",
+      "tipo": "oficio",
+      "numero": "0653",
+      "fecha": "2018-05-04",
+      "tema": "&iquest;Se debe hacer retenci&oacute;n en la fuente a los ingresos por concepto de premios obtenidos por profesionales de Golf en Torneos organizados por la Federaci&oacute;n Colombiana de Golf, cuya celebraci&oacute;n est&aacute; reconocida por el Gobierno Nacional a trav&eacute;s de Coldeportes? &iquest;De ser as&iacute;, qu&eacute; tarifa se aplicar&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0414-2018",
+      "tipo": "oficio",
+      "numero": "0414",
+      "fecha": "2018-03-22",
+      "tema": "&iquest;El Decreto 1625 de 2016, al no incluir el Literal I) de Art&iacute;culo 5&deg; del Decreto 1512 de 1985, en su ejercicio de compilaci&oacute;n del mismo, se entiende que dicho literal no se encuentra vigente o por el contrario continua vigente la excepci&oacute;n a la retenci&oacute;n en la fuente por tales conceptos, en la medida que no se trata de una nueva reglamentaci&oacute;n sobre las excepciones de retenci&oacute;n en la fuente por algunos conceptos, sino la mera compilaci&oacute;n de Decretos Reglamentarios preexistentes, lo que permiti&oacute; su expedici&oacute;n sin consulta previa alguna",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0094-2018",
+      "tipo": "oficio",
+      "numero": "0094",
+      "fecha": "2018-02-12",
+      "tema": "Tratamiento tributario para la condonaci&oacute;n de una beca y-o pr&eacute;stamo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0070-2018",
+      "tipo": "oficio",
+      "numero": "0070",
+      "fecha": "2018-02-06",
+      "tema": "Exoneraci&oacute;n del impuesto de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28718-2017",
+      "tipo": "oficio",
+      "numero": "28718",
+      "fecha": "2017-10-23",
+      "tema": "Aportes a fondos de pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16526-2017",
+      "tipo": "oficio",
+      "numero": "16526",
+      "fecha": "2017-08-18",
+      "tema": "Ingresos no Constitutivos de Renta Ni Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4884-2017",
+      "tipo": "oficio",
+      "numero": "4884",
+      "fecha": "2017-02-24",
+      "tema": "&iquest;Qu&eacute; se entiende por cedular dentro el contexto de la Ley 1819 de 2016? - &iquest;Cu&aacute;l es la diferencia entre rentas l&iacute;quidas gravables v rentas l&iacute;quidas cedular? - &iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as? - &iquest;En la c&eacute;dula rentas no laborales, pueden incluirse las rentas que no clasifican expresamente en ninguna de las dem&aacute;s c&eacute;dulas? &iquest;Cu&aacute;les ser&iacute;an? &iquest;Los 90 d&iacute;as continuos o discontinuos se refieren en el a&ntilde;o gravable? Si no se cumplen con los requisitos exigidos en el inciso 1o del art&iacute;culo 340 del Estatuto Tributario &iquest;ser&aacute; renta de la c&eacute;dula de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3697-2017",
+      "tipo": "oficio",
+      "numero": "3697",
+      "fecha": "2017-06-01",
+      "tema": "&iquest;Para establecer la base de retenci&oacute;n en la fuente de los ingresos de los funcionarios p&uacute;blicos cu&aacute;les son los ingresos no constitutivos de renta ni de ganancia ocasional, las rentas exentas y las deducciones con los que aquellos se depuran?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3514-2017",
+      "tipo": "oficio",
+      "numero": "3514",
+      "fecha": "2017-05-31",
+      "tema": "&iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo? y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24056-2013",
+      "tipo": "oficio",
+      "numero": "24056",
+      "fecha": "2013-04-24",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de la retenci&oacute;n en la fuente a t&iacute;tulo del Impuesto sobre la renta en los servicios a que se refiere el art&iacute;culo 462-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27363-2009",
+      "tipo": "oficio",
+      "numero": "27363",
+      "fecha": "2009-04-03",
+      "tema": "Factura cambiaria de compraventa Ley 1281 de 2009",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57583-2005",
+      "tipo": "oficio",
+      "numero": "57583",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario otorgado a los ingresos provenientes de la explotaci&oacute;n de esmeraldas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9584-2005",
+      "tipo": "oficio",
+      "numero": "9584",
+      "fecha": "2005-02-21",
+      "tema": "&iquest;Las cuotas de sostenimiento de las cooperativas de Trabajo Asociado est&aacute;n sometidas al impuesto Sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052982-1995",
+      "tipo": "concepto",
+      "numero": "0052982",
+      "fecha": "1995-07-31",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre la ventas,",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017059-1988",
+      "tipo": "concepto",
+      "numero": "0017059",
+      "fecha": "1988-01-01",
+      "tema": "t&eacute;rmino para respuesta de requerimiento especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017050-1988",
+      "tipo": "concepto",
+      "numero": "0017050",
+      "fecha": "1988-08-30",
+      "tema": "renuncia al t&eacute;rmino para responder requerimiento especial",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-575-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "575",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-083-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "083",
+      "year": 2018
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-2.2.4.3.1.2.5",
+      "decretoNumero": "1625",
+      "articuloNumero": "2.2.4.3.1.2.5",
+      "vigente": true
+    },
+    {
+      "id": "dur-1435-art-189",
+      "decretoNumero": "1435",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

@@ -1,1 +1,96 @@
-{"id_articulo": "Art. 544", "titulo": "Art. 544. Multa para funcionarios que admitan documentos gravados sin el pago del impuesto de timbre.", "titulo_corto": "Multa para funcionarios que admitan documentos gravados sin el pago del impuesto de timbre.", "slug": "544", "url_origen": "https://estatuto.co/544", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Los funcionarios oficiales que admitan documentos o instrumentos gravados con el impuesto de timbre, sin que este impuesto hubiere sido pagado en la forma y por el valor previsto por la ley, incurrirán en cada caso en multa de 4 UVT, aplicada por los jefes de las Divisiones de Liquidación de la Dirección de Impuestos Nacionales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los funcionarios oficiales que admitan documentos o instrumentos gravados con el impuesto de timbre, sin que este impuesto hubiere sido pagado en la forma y por el valor previsto por la ley, incurrirán en cada caso en multa de 4 UVT, aplicada por los jefes de las Divisiones de Liquidación de la Dirección de Impuestos Nacionales.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["*Manejo en UVT dado por Ley 1111 de 2006 Art. 51."]}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 544",
+  "titulo": "Art. 544. Multa para funcionarios que admitan documentos gravados sin el pago del impuesto de timbre.",
+  "titulo_corto": "Multa para funcionarios que admitan documentos gravados sin el pago del impuesto de timbre.",
+  "slug": "544",
+  "url_origen": "https://estatuto.co/544",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Los funcionarios oficiales que admitan documentos o instrumentos gravados con el impuesto de timbre, sin que este impuesto hubiere sido pagado en la forma y por el valor previsto por la ley, incurrirán en cada caso en multa de 4 UVT, aplicada por los jefes de las Divisiones de Liquidación de la Dirección de Impuestos Nacionales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los funcionarios oficiales que admitan documentos o instrumentos gravados con el impuesto de timbre, sin que este impuesto hubiere sido pagado en la forma y por el valor previsto por la ley, incurrirán en cada caso en multa de 4 UVT, aplicada por los jefes de las Divisiones de Liquidación de la Dirección de Impuestos Nacionales.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "*Manejo en UVT dado por Ley 1111 de 2006 Art. 51."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 21783 (2019-09-02): &iquest;Los ingresos que obtengan las personas jur&iacute;dicas por concepto de enajenaci&oacute;n de activos fijos (inmuebles), est&aacute;n sometidos a retenci&oacute;n en la fuente, en caso afirmativo a que tarifa y cu&aacute;l ser&iacute;a el sustento normativo en cualquiera de los dos casos?\noficio 107039 (2006-12-21): &iquest;Es procedente que la autoridad judicial requiera la constancia del pago del impuesto de timbre sobre un documento para efectos de ser valorado como prueba conforme al contenido del art. 540 del E.T.? En virtud del control de constitucionalidad, Sentencia C-543 de 2005, no es procedente el requerimiento\noficio 25203 (2006-03-27): &iquest;La consignaci&oacute;n del impuesto de timbre por el contratista a la entidad p&uacute;blica para que &eacute;sta lo declare debe ser al momento de la firma del contrato o que plazo se le puede otorgar al contratista para que consigne el impuesto?\nconcepto 0100415 (2001-11-20): En quienes recae la obligaci&oacute;n de retener el impuesto de timbre de los documentos en los procesos y actuaciones surtidos ante los jueces, conciliadores y tribunales de arbitramento\nconcepto 0039088 (1999-11-18): &iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21783-2019",
+      "tipo": "oficio",
+      "numero": "21783",
+      "fecha": "2019-09-02",
+      "tema": "&iquest;Los ingresos que obtengan las personas jur&iacute;dicas por concepto de enajenaci&oacute;n de activos fijos (inmuebles), est&aacute;n sometidos a retenci&oacute;n en la fuente, en caso afirmativo a que tarifa y cu&aacute;l ser&iacute;a el sustento normativo en cualquiera de los dos casos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-107039-2006",
+      "tipo": "oficio",
+      "numero": "107039",
+      "fecha": "2006-12-21",
+      "tema": "&iquest;Es procedente que la autoridad judicial requiera la constancia del pago del impuesto de timbre sobre un documento para efectos de ser valorado como prueba conforme al contenido del art. 540 del E.T.? En virtud del control de constitucionalidad, Sentencia C-543 de 2005, no es procedente el requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25203-2006",
+      "tipo": "oficio",
+      "numero": "25203",
+      "fecha": "2006-03-27",
+      "tema": "&iquest;La consignaci&oacute;n del impuesto de timbre por el contratista a la entidad p&uacute;blica para que &eacute;sta lo declare debe ser al momento de la firma del contrato o que plazo se le puede otorgar al contratista para que consigne el impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100415-2001",
+      "tipo": "concepto",
+      "numero": "0100415",
+      "fecha": "2001-11-20",
+      "tema": "En quienes recae la obligaci&oacute;n de retener el impuesto de timbre de los documentos en los procesos y actuaciones surtidos ante los jueces, conciliadores y tribunales de arbitramento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039088-1999",
+      "tipo": "concepto",
+      "numero": "0039088",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053955-1995",
+      "tipo": "concepto",
+      "numero": "0053955",
+      "fecha": "1995-08-03",
+      "tema": "&iquest;Pueden los notarios ser agentes retenedores del impuesto de timbre que se cause en documentos privados sometidos a su reconocimiento de contenido y firmas?&iquest;Ante la existencia de un contrato en el cual se genere el pago del impuesto de timbre y en el mismo concurran las calidades de agente retenedor y retenido en una de las partes quien paga el cien por ciento (100%) del impuesto citado, est&aacute; obligada la misma a expedirle certificaci&oacute;n de retenci&oacute;n a la otra parte interviniente en el contrato? &iquest;Un documento que cumpla con los presupuestos de derecho para generar el pago del impuesto de timbre puede ser admitido como prueba cuando no existe constancia de haberse cancelado el mencionado impuesto?",
+      "vigente": true
+    }
+  ]
+}

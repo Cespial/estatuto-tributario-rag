@@ -1,1 +1,334 @@
-{"id_articulo": "Art. 915", "titulo": "Art. 915. Régimen de IVA y de impuesto al consumo.", "titulo_corto": "Régimen de IVA y de impuesto al consumo.", "slug": "915", "url_origen": "https://estatuto.co/915", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE son responsables del impuesto sobre las ventas - IVA o del impuesto nacional al consumo. En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- que sean responsables del impuesto sobre las ventas- IVA, presentarán una declaración anual consolidada del impuesto sobre las ventas - IVA, sin perjuicio de la obligación de transferir el IVA mensual a pagar mediante el mecanismo del recibo electrónico SIMPLE. En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE que desarrollen actividades de expendio de comidas y bebidas, el impuesto al consumo se declara y paga mediante el SIMPLE. Los contribuyentes del impuesto unificado bajo el régimen simple de tributación- simple están obligados a expedir facturas electrónicas y a solicitar las facturas o documento equivalente a sus proveedores de bienes y servicios, según las normas generales consagradas en el marco tributario. Parágrafo. Los contribuyentes que opten por el impuesto unificado bajo el régimen simple de tributación -SIMPLE, deberán adoptar el sistema de factura electrónica dentro de los dos (2) meses siguientes a su inscripción en el Registro Único Tributario -RUT. Los demás contribuyentes cumplirán su obligación en los plazos establecidos en las normas generales sobre factura electrónica.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE son responsables del impuesto sobre las ventas - IVA o del impuesto nacional al consumo.</p>\n<p>En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- que sean responsables del impuesto sobre las ventas- IVA, presentarán una declaración anual consolidada del impuesto sobre las ventas - IVA, sin perjuicio de la obligación de transferir el IVA mensual a pagar mediante el mecanismo del recibo electrónico SIMPLE.</p>\n<p>En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE que desarrollen actividades de expendio de comidas y bebidas, el impuesto al consumo se declara y paga mediante el SIMPLE.</p>\n<p>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación- simple están obligados a expedir facturas electrónicas y a solicitar las facturas o documento equivalente a sus proveedores de bienes y servicios, según las normas generales consagradas en el marco tributario.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo.</span></span></strong> Los contribuyentes que opten por el impuesto unificado bajo el régimen simple de tributación -SIMPLE, deberán adoptar el sistema de factura electrónica dentro de los dos (2) meses siguientes a su inscripción en el Registro Único Tributario -RUT. Los demás contribuyentes cumplirán su obligación en los plazos establecidos en las normas generales sobre factura electrónica.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "74"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "66"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "165"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, mediante Sentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger. - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 915",
+  "titulo": "Art. 915. Régimen de IVA y de impuesto al consumo.",
+  "titulo_corto": "Régimen de IVA y de impuesto al consumo.",
+  "slug": "915",
+  "url_origen": "https://estatuto.co/915",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE son responsables del impuesto sobre las ventas - IVA o del impuesto nacional al consumo. En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- que sean responsables del impuesto sobre las ventas- IVA, presentarán una declaración anual consolidada del impuesto sobre las ventas - IVA, sin perjuicio de la obligación de transferir el IVA mensual a pagar mediante el mecanismo del recibo electrónico SIMPLE. En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE que desarrollen actividades de expendio de comidas y bebidas, el impuesto al consumo se declara y paga mediante el SIMPLE. Los contribuyentes del impuesto unificado bajo el régimen simple de tributación- simple están obligados a expedir facturas electrónicas y a solicitar las facturas o documento equivalente a sus proveedores de bienes y servicios, según las normas generales consagradas en el marco tributario. Parágrafo. Los contribuyentes que opten por el impuesto unificado bajo el régimen simple de tributación -SIMPLE, deberán adoptar el sistema de factura electrónica dentro de los dos (2) meses siguientes a su inscripción en el Registro Único Tributario -RUT. Los demás contribuyentes cumplirán su obligación en los plazos establecidos en las normas generales sobre factura electrónica.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE son responsables del impuesto sobre las ventas - IVA o del impuesto nacional al consumo.</p>\n<p>En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE- que sean responsables del impuesto sobre las ventas- IVA, presentarán una declaración anual consolidada del impuesto sobre las ventas - IVA, sin perjuicio de la obligación de transferir el IVA mensual a pagar mediante el mecanismo del recibo electrónico SIMPLE.</p>\n<p>En el caso de los contribuyentes del impuesto unificado bajo el régimen simple de tributación -SIMPLE que desarrollen actividades de expendio de comidas y bebidas, el impuesto al consumo se declara y paga mediante el SIMPLE.</p>\n<p>Los contribuyentes del impuesto unificado bajo el régimen simple de tributación- simple están obligados a expedir facturas electrónicas y a solicitar las facturas o documento equivalente a sus proveedores de bienes y servicios, según las normas generales consagradas en el marco tributario.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">Parágrafo.</span></span></strong> Los contribuyentes que opten por el impuesto unificado bajo el régimen simple de tributación -SIMPLE, deberán adoptar el sistema de factura electrónica dentro de los dos (2) meses siguientes a su inscripción en el Registro Único Tributario -RUT. Los demás contribuyentes cumplirán su obligación en los plazos establecidos en las normas generales sobre factura electrónica.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "74"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "66"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "165"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, mediante Sentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger. - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2263 (2023-02-27): (223) R&eacute;gimen Simple de Tributaci&oacute;n -SIMPLE - Sujetos pasivos - Adici&oacute;n al Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022\noficio 0977 (2023-01-30): Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2263-2023",
+      "tipo": "oficio",
+      "numero": "2263",
+      "fecha": "2023-02-27",
+      "tema": "(223) R&eacute;gimen Simple de Tributaci&oacute;n -SIMPLE - Sujetos pasivos - Adici&oacute;n al Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0977-2023",
+      "tipo": "oficio",
+      "numero": "0977",
+      "fecha": "2023-01-30",
+      "tema": "Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13688-2025",
+      "tipo": "oficio",
+      "numero": "13688",
+      "fecha": "2025-08-26",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6105-2025",
+      "tipo": "oficio",
+      "numero": "6105",
+      "fecha": "2025-05-14",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2808-2025",
+      "tipo": "oficio",
+      "numero": "2808",
+      "fecha": "2025-03-06",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7364-2024",
+      "tipo": "oficio",
+      "numero": "7364",
+      "fecha": "2024-10-03",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904516-2022",
+      "tipo": "oficio",
+      "numero": "904516",
+      "fecha": "2022-06-09",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915633-2021",
+      "tipo": "oficio",
+      "numero": "915633",
+      "fecha": "2021-12-23",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - Sujetos pasivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912700-2021",
+      "tipo": "oficio",
+      "numero": "912700",
+      "fecha": "2021-10-11",
+      "tema": "Devoluci&oacute;n y-o compensaci&oacute;n de saldos a favor en las declaraciones del impuesto sobre las ventas, bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906829-2021",
+      "tipo": "oficio",
+      "numero": "906829",
+      "fecha": "2021-07-09",
+      "tema": "R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE - Impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900635-2021",
+      "tipo": "oficio",
+      "numero": "900635",
+      "fecha": "2021-01-29",
+      "tema": "&iquest;Los contribuyentes del impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n, que obtengan en un determinado bimestre ingresos pasivos que representan m&aacute;s del 20 porciento de los ingresos brutos totales dejan de pertenecer a este modelo de tributaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903789-2020",
+      "tipo": "oficio",
+      "numero": "903789",
+      "fecha": "2020-08-05",
+      "tema": "Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903541-2020",
+      "tipo": "oficio",
+      "numero": "903541",
+      "fecha": "2020-07-29",
+      "tema": "Factura electr&oacute;nica de venta por concepto de suministro de gasolina y biodiesel",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901006-2020",
+      "tipo": "oficio",
+      "numero": "901006",
+      "fecha": "2020-04-01",
+      "tema": "Responsables del IVA bajo el R&eacute;gimen SIMPLE de tributaci&oacute;n y obligaciones exigibles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30286-2019",
+      "tipo": "oficio",
+      "numero": "30286",
+      "fecha": "2019-12-03",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21313-2019",
+      "tipo": "oficio",
+      "numero": "21313",
+      "fecha": "2019-08-28",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15139-2019",
+      "tipo": "oficio",
+      "numero": "15139",
+      "fecha": "2019-06-11",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6047-2019",
+      "tipo": "oficio",
+      "numero": "6047",
+      "fecha": "2019-03-11",
+      "tema": "&iquest;Quienes pueden ser sujetos pasivos del R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5914-2019",
+      "tipo": "oficio",
+      "numero": "5914",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo. Aclaraci&oacute;n facturaci&oacute;n de la factura PLU",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5835-2019",
+      "tipo": "oficio",
+      "numero": "5835",
+      "fecha": "2019-03-07",
+      "tema": "Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4924-2019",
+      "tipo": "oficio",
+      "numero": "4924",
+      "fecha": "2019-02-27",
+      "tema": "Cuentas de cobro emitidas por el r&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4920-2019",
+      "tipo": "oficio",
+      "numero": "4920",
+      "fecha": "2019-02-27",
+      "tema": "&iquest;Los documentos POS pueden ser tenidos en cuenta para la aceptaci&oacute;n de costos, deducciones y descuentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023779-1989",
+      "tipo": "concepto",
+      "numero": "0023779",
+      "fecha": "1989-01-01",
+      "tema": "Competencia para resolver la solicitud de reducci&oacute;n de la sanci&oacute;n por correcci&oacute;n aritmetica",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-1.6.1.13.2.5",
+      "decretoNumero": "1778",
+      "articuloNumero": "1.6.1.13.2.5",
+      "vigente": true
+    }
+  ]
+}

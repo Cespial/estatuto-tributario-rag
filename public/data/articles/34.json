@@ -1,1 +1,437 @@
-{"id_articulo": "Art. 34", "titulo": "Art. 34. Ingresos de las madres comunitarias.", "titulo_corto": "Ingresos de las madres comunitarias.", "slug": "34", "url_origen": "https://estatuto.co/34", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "*Los ingresos que reciban por parte del Gobierno Nacional las madres comunitarias por la prestación de dicho servicio social, se consideran un ingreso no constitutivo de renta ni ganancia ocasional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los ingresos que reciban por parte del Gobierno Nacional las madres comunitarias por la prestación de dicho servicio social, se consideran un ingreso no constitutivo de renta ni ganancia ocasional.</p>\n</span>", "modificaciones_raw": "*-Adicionado- Ley 788 de 2002 Art 97", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 34",
+  "titulo": "Art. 34. Ingresos de las madres comunitarias.",
+  "titulo_corto": "Ingresos de las madres comunitarias.",
+  "slug": "34",
+  "url_origen": "https://estatuto.co/34",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "*Los ingresos que reciban por parte del Gobierno Nacional las madres comunitarias por la prestación de dicho servicio social, se consideran un ingreso no constitutivo de renta ni ganancia ocasional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los ingresos que reciban por parte del Gobierno Nacional las madres comunitarias por la prestación de dicho servicio social, se consideran un ingreso no constitutivo de renta ni ganancia ocasional.</p>\n</span>",
+  "modificaciones_raw": "*-Adicionado- Ley 788 de 2002 Art 97",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 30 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11802 (2025-08-27): Impuesto sobre la Renta y Complementarios\noficio 2687 (2025-03-05): Impuesto de Timbre\noficio 6769 (2023-11-22): (Int 1178) Impuesto sobre la renta y complementarios - Ingresos no constitutivos de renta ni ganancia ocasional - Madres comunitarias",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11802-2025",
+      "tipo": "oficio",
+      "numero": "11802",
+      "fecha": "2025-08-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2687-2025",
+      "tipo": "oficio",
+      "numero": "2687",
+      "fecha": "2025-03-05",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6769-2023",
+      "tipo": "oficio",
+      "numero": "6769",
+      "fecha": "2023-11-22",
+      "tema": "(Int 1178) Impuesto sobre la renta y complementarios - Ingresos no constitutivos de renta ni ganancia ocasional - Madres comunitarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26929-2017",
+      "tipo": "oficio",
+      "numero": "26929",
+      "fecha": "2017-10-04",
+      "tema": "Ser&aacute; considerado como exportador autorizado la persona jur&iacute;dica o natural que sea calificada expresamente por la DIAN y que cumpla con los requisitos del numeral 2 del art&iacute;culo 42 del mismo decreto, dentro de los cuales se encuentra 'Haber realizado operaciones superiores a cuatro (4) declaraciones aduaneras de exportaci&oacute;n definitivas en el a&ntilde;o inmediatamente anterior a la solicitud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34421-2015",
+      "tipo": "oficio",
+      "numero": "34421",
+      "fecha": "2015-12-01",
+      "tema": "Impuesto a las ventas Impuesto Nacional al Consumo - Hecho generador - Responsables - Hecho Generador del Impuesto Sobre las Ventas - Responsables del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1163-2014",
+      "tipo": "oficio",
+      "numero": "1163",
+      "fecha": "2014-09-23",
+      "tema": "Un servidor de carrera espec&iacute;fica administrativa de la DIAN, a quien se le revoc&oacute; la designaci&oacute;n de funciones en una Jefatura y que continu&oacute; ejerciendo las mismas ante la falta de designaci&oacute;n de la persona que habr&iacute;a de reemplazarlo, &iquest;tiene el derecho a percibir las asignaciones, primas, y dem&aacute;s emolumentos vinculados a la jefatura durante el tiempo que continu&oacute; ejerciendo las funciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37565-2012",
+      "tipo": "oficio",
+      "numero": "37565",
+      "fecha": "2012-06-12",
+      "tema": "&iquest;El art&iacute;culo 34 de la Ley 1430 de 2010 modific&oacute; el art&iacute;culo 4 de la Ley 258 de 1996 que previ&oacute; en el numeral 2 del art&iacute;culo 4 la posibilidad de levantar la afectaci&oacute;n de vivienda familiar para su posterior embargo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0105989-2009",
+      "tipo": "concepto",
+      "numero": "0105989",
+      "fecha": "2009-12-28",
+      "tema": "&iquest;Pueden los menores adultos cumplir sus obligaciones tributarias formales y sustanciales personalmente, entre ellas inscribirse en el RUT, directamente sin apoderado o representante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97778-2007",
+      "tipo": "oficio",
+      "numero": "97778",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Un contribuyente tiene una deuda por sanci&oacute;n, porqu&eacute; cuando se va a pagar despu&eacute;s de algunos a&ntilde;os ese monto siempre es mayor al valor de la sanci&oacute;n?&iquest;Qu&eacute; norma permite aumentar este saldo y bajo qu&eacute; modalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54008-2007",
+      "tipo": "oficio",
+      "numero": "54008",
+      "fecha": "2007-07-16",
+      "tema": "&iquest;Se encuentra vigente o no el art&iacute;culo 482-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81076-2005",
+      "tipo": "oficio",
+      "numero": "81076",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el alcance de lo dispuesto por el art&iacute;culo 447 del Estatuto Tributario, relacionado con la base gravable que se debe tener en cuenta para calcular el impuesto sobre las ventas en las financiaciones, en el servicio telef&oacute;nico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10340-2004",
+      "tipo": "oficio",
+      "numero": "10340",
+      "fecha": "2004-02-23",
+      "tema": "Obligaciones fiscales. Procesos de reestructuraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010482-2002",
+      "tipo": "concepto",
+      "numero": "0010482",
+      "fecha": "2002-02-20",
+      "tema": "&iquest;Pueden rechazarse por la Administraci&oacute;n Tributaria los salarios pagados, cuando por estar incorporados los aportes parafiscales en un acuerdo de reestructuraci&oacute;n la empresa no los ha pagado en su totalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-10482-2002",
+      "tipo": "concepto",
+      "numero": "10482",
+      "fecha": "2002-02-20",
+      "tema": "&iquest;Pueden rechazarse por la administraci&oacute;n tributaria los salarios pagados, cuando por estar incorporados los aportes parafiscales en un acuerdo de reestructuraci&oacute;n la empresa no los ha pagado en su totalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-97572-2001",
+      "tipo": "concepto",
+      "numero": "97572",
+      "fecha": "2001-11-06",
+      "tema": "IVA - Base Gravable m&iacute;nima en venta de Licores nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072349-2001",
+      "tipo": "concepto",
+      "numero": "0072349",
+      "fecha": "2001-08-09",
+      "tema": "Dentro de los acuerdos de reestructuraci&oacute;n de que trata la Ley 550 de 1999, las obligaciones tributarias que dan derecho a voto y que por ende pueden hacerse valer dentro del proceso, &iquest;son las causadas o las exigibles a la fecha de iniciaci&oacute;n del acuerdo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042123-2001",
+      "tipo": "concepto",
+      "numero": "0042123",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;El Ejercito Nacional debe expedir factura por venta y-o prestaci&oacute; n de servicios a particulares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057220-2000",
+      "tipo": "concepto",
+      "numero": "0057220",
+      "fecha": "2000-06-16",
+      "tema": "&iquest;El cargo fijo, en el servicio telef&oacute;nico, causa IVA en la medida que constituye elemento de la formula de tarifas donde se traslada al usuario algunos costos en los que incurre la empresa para garantizar la disponibilidad permanente del servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000128-1990",
+      "tipo": "concepto",
+      "numero": "0000128",
+      "fecha": "1990-01-03",
+      "tema": "Consulta acerca de la aplicabilidad a los recursos interpuestos en materia del impuesto sobre las ventas de los art&iacute;culos 732 y 734 de Estatuto Tributario, en los que se consagra el silencio administrativo positivo, pero adem&aacute;s, se deja vigente el silencio administrativo negativo especial que hab&iacute;a instaurado el Decreto 3541 de 1983",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010844-1988",
+      "tipo": "concepto",
+      "numero": "0010844",
+      "fecha": "1988-01-01",
+      "tema": "extinci&oacute;n de la obligaci&oacute;n tributaria por expresi&oacute;n m&eacute;s calendario",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-073-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "073",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-016-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "016",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-338-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "338",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

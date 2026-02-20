@@ -1,1 +1,624 @@
-{"id_articulo": "Art. 381", "titulo": "Art. 381. Certificados por otros conceptos.", "titulo_corto": "Certificados por otros conceptos.", "slug": "381", "url_origen": "https://estatuto.co/381", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Cuando se trate de conceptos de retención diferentes de los originados en la relación laboral, o legal y reglamentaria, los agentes retenedores deberán expedir anualmente un certificado de retenciones que contendrá: a. Año gravable y ciudad donde se consignó la retención. b. Apellidos y nombre o razón social y NIT del retenedor. c. Dirección del agente retenedor. d. Apellidos y nombre o razón social y NIT de la persona o entidad a quien se le practicó la retención. e. Monto total y concepto del pago sujeto a retención. f. Concepto y cuantía de la retención efectuada. g. La firma del pagador o agente retenedor. A solicitud de la persona o entidad beneficiaria del pago, el retenedor expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado anual. Parágrafo1. Las personas o entidades sometidas a retención en la fuente podrán sustituir los certificados a que se refiere el presente artículo, cuando éstos no hubieren sido expedidos, por el original, copia o fotocopia auténtica de la factura o documento donde conste el pago, siempre y cuando en él aparezcan identificados los conceptos antes señalados. Parágrafo2. El Gobierno Nacional podrá eliminar la obligación de expedir el certificado de retenciones a que se refieren éste y el artículo anterior, creando mecanismos automáticos de imputación de la retención que lo sustituyan.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Cuando se trate de conceptos de retención diferentes de los originados en la relación laboral, o legal y reglamentaria, los agentes retenedores deberán expedir anualmente un certificado de retenciones que contendrá:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Año gravable y ciudad donde se consignó la retención.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Apellidos y nombre o razón social y NIT del retenedor.</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Dirección del agente retenedor.</p>\n<p><strong><span style=\"color: #339966;\">d.</span> </strong>Apellidos y nombre o razón social y NIT de la persona o entidad a quien se le practicó la retención.</p>\n<p><strong><span style=\"color: #339966;\">e.</span> </strong>Monto total y concepto del pago sujeto a retención.</p>\n<p><strong><span style=\"color: #339966;\">f.</span> </strong>Concepto y cuantía de la retención efectuada.</p>\n<p><strong><span style=\"color: #339966;\">g.</span> </strong>La firma del pagador o agente retenedor.</p>\n<p>A solicitud de la persona o entidad beneficiaria del pago, el retenedor expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado anual.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo1. </span></strong>Las personas o entidades sometidas a retención en la fuente podrán sustituir los certificados a que se refiere el presente artículo, cuando éstos no hubieren sido expedidos, por el original, copia o fotocopia auténtica de la factura o documento donde conste el pago, siempre y cuando en él aparezcan identificados los conceptos antes señalados.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo2. </span></strong>El Gobierno Nacional podrá eliminar la obligación de expedir el certificado de retenciones a que se refieren éste y el artículo anterior, creando mecanismos automáticos de imputación de la retención que lo sustituyan.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["615"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 381",
+  "titulo": "Art. 381. Certificados por otros conceptos.",
+  "titulo_corto": "Certificados por otros conceptos.",
+  "slug": "381",
+  "url_origen": "https://estatuto.co/381",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Cuando se trate de conceptos de retención diferentes de los originados en la relación laboral, o legal y reglamentaria, los agentes retenedores deberán expedir anualmente un certificado de retenciones que contendrá: a. Año gravable y ciudad donde se consignó la retención. b. Apellidos y nombre o razón social y NIT del retenedor. c. Dirección del agente retenedor. d. Apellidos y nombre o razón social y NIT de la persona o entidad a quien se le practicó la retención. e. Monto total y concepto del pago sujeto a retención. f. Concepto y cuantía de la retención efectuada. g. La firma del pagador o agente retenedor. A solicitud de la persona o entidad beneficiaria del pago, el retenedor expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado anual. Parágrafo1. Las personas o entidades sometidas a retención en la fuente podrán sustituir los certificados a que se refiere el presente artículo, cuando éstos no hubieren sido expedidos, por el original, copia o fotocopia auténtica de la factura o documento donde conste el pago, siempre y cuando en él aparezcan identificados los conceptos antes señalados. Parágrafo2. El Gobierno Nacional podrá eliminar la obligación de expedir el certificado de retenciones a que se refieren éste y el artículo anterior, creando mecanismos automáticos de imputación de la retención que lo sustituyan.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Cuando se trate de conceptos de retención diferentes de los originados en la relación laboral, o legal y reglamentaria, los agentes retenedores deberán expedir anualmente un certificado de retenciones que contendrá:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Año gravable y ciudad donde se consignó la retención.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Apellidos y nombre o razón social y NIT del retenedor.</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Dirección del agente retenedor.</p>\n<p><strong><span style=\"color: #339966;\">d.</span> </strong>Apellidos y nombre o razón social y NIT de la persona o entidad a quien se le practicó la retención.</p>\n<p><strong><span style=\"color: #339966;\">e.</span> </strong>Monto total y concepto del pago sujeto a retención.</p>\n<p><strong><span style=\"color: #339966;\">f.</span> </strong>Concepto y cuantía de la retención efectuada.</p>\n<p><strong><span style=\"color: #339966;\">g.</span> </strong>La firma del pagador o agente retenedor.</p>\n<p>A solicitud de la persona o entidad beneficiaria del pago, el retenedor expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado anual.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo1. </span></strong>Las personas o entidades sometidas a retención en la fuente podrán sustituir los certificados a que se refiere el presente artículo, cuando éstos no hubieren sido expedidos, por el original, copia o fotocopia auténtica de la factura o documento donde conste el pago, siempre y cuando en él aparezcan identificados los conceptos antes señalados.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo2. </span></strong>El Gobierno Nacional podrá eliminar la obligación de expedir el certificado de retenciones a que se refieren éste y el artículo anterior, creando mecanismos automáticos de imputación de la retención que lo sustituyan.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "615"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14620 (2025-10-28): Impuesto de Timbre\noficio 13278 (2025-09-30): Impuesto de Timbre\noficio 6467 (2024-09-10): Procedimiento Tributario\noficio 1513 (2024-03-04): (Int 447) Certificados de retenci&oacute;n en la fuente - Confirma Oficio 011657 de abril 23 de 2015\noficio 2474 (2023-04-17): (Int 457) Certificado de retenci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14620-2025",
+      "tipo": "oficio",
+      "numero": "14620",
+      "fecha": "2025-10-28",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13278-2025",
+      "tipo": "oficio",
+      "numero": "13278",
+      "fecha": "2025-09-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1513-2024",
+      "tipo": "oficio",
+      "numero": "1513",
+      "fecha": "2024-03-04",
+      "tema": "(Int 447) Certificados de retenci&oacute;n en la fuente - Confirma Oficio 011657 de abril 23 de 2015",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2474-2023",
+      "tipo": "oficio",
+      "numero": "2474",
+      "fecha": "2023-04-17",
+      "tema": "(Int 457) Certificado de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1972-2023",
+      "tipo": "oficio",
+      "numero": "1972",
+      "fecha": "2023-03-27",
+      "tema": "(Int 378) Exenciones - Aplicaci&oacute;n en el proceso de liquidaci&oacute;n a los comercios por parte de una Sociedad Especializada en Dep&oacute;sitos y Pagos Electr&oacute;nicos (SEDPE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903871-2022",
+      "tipo": "oficio",
+      "numero": "903871",
+      "fecha": "2022-05-20",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta - Adquisici&oacute;n de productos de origen agr&iacute;cola, pecuario o pesquero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903737-2022",
+      "tipo": "oficio",
+      "numero": "903737",
+      "fecha": "2022-05-13",
+      "tema": "Retenci&oacute;n en la fuente - Obligaciones del agente de retenci&oacute;n Certificados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903531-2022",
+      "tipo": "oficio",
+      "numero": "903531",
+      "fecha": "2022-05-06",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900977-2022",
+      "tipo": "oficio",
+      "numero": "900977",
+      "fecha": "2022-02-09",
+      "tema": "Impuesto sobre la renta - Pagos basados en acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913527-2021",
+      "tipo": "oficio",
+      "numero": "913527",
+      "fecha": "2021-11-03",
+      "tema": "Retenci&oacute;nes a t&iacute;tulo del impuesto sobre la retna e impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910511-2021",
+      "tipo": "oficio",
+      "numero": "910511",
+      "fecha": "2021-09-23",
+      "tema": "&iquest;el comercializador de minerales es Agente de retenci&oacute;n de regal&iacute;as, a estas retenciones se les debe dar el mismo tratamiento tributario por parte del comercializador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908609-2021",
+      "tipo": "oficio",
+      "numero": "908609",
+      "fecha": "2021-08-25",
+      "tema": "Obligados a declarar - Ganancia ocasional - Retenci&oacute;n en la fuente por loter&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908206-2021",
+      "tipo": "oficio",
+      "numero": "908206",
+      "fecha": "2021-08-13",
+      "tema": "Retenci&oacute;n en la fuente por dividendos - Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906476-2021",
+      "tipo": "oficio",
+      "numero": "906476",
+      "fecha": "2021-07-01",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901595-2021",
+      "tipo": "oficio",
+      "numero": "901595",
+      "fecha": "2021-03-01",
+      "tema": "Procedimiento aplicable en el reintegro de retenciones en la fuente trasladables al beneficiario final de que trata el art&iacute;culo 242-1 del Estatuto Tributario para las entidades no contribuyentes del impuesto de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901083-2020",
+      "tipo": "oficio",
+      "numero": "901083",
+      "fecha": "2020-04-13",
+      "tema": "Declaraci&oacute;n de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0361-2020",
+      "tipo": "oficio",
+      "numero": "0361",
+      "fecha": "2020-03-26",
+      "tema": "Correcci&oacute;n de Actos Administrativos Sanci&oacute;n por Correcci&oacute;n de las Declaraciones Tributarias Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2671-2019",
+      "tipo": "oficio",
+      "numero": "2671",
+      "fecha": "2019-12-03",
+      "tema": "(Int 2671) Retenci&oacute;n en la Fuente por Pago de Indemnizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0656-2019",
+      "tipo": "oficio",
+      "numero": "0656",
+      "fecha": "2019-03-27",
+      "tema": "(Int 656) Certificados de Retenci&oacute;n en la Fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29271-2019",
+      "tipo": "oficio",
+      "numero": "29271",
+      "fecha": "2019-11-22",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28570-2019",
+      "tipo": "oficio",
+      "numero": "28570",
+      "fecha": "2019-11-18",
+      "tema": "Agentes de Retenci&oacute;n en Operaciones con Tarjetas de Cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27300-2019",
+      "tipo": "oficio",
+      "numero": "27300",
+      "fecha": "2019-10-29",
+      "tema": "Obligaci&oacute;n de Expedir Facturas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24652-2019",
+      "tipo": "oficio",
+      "numero": "24652",
+      "fecha": "2019-10-01",
+      "tema": "Obligaci&oacute;n de facturar de las cooperativas, entidades sin &aacute;nimo de lucro, instituciones educativas y en general los sujetos que no se mencionan en el art&iacute;culo 616-2 del Estatuto Tributario (ET) y 1.6.1.4.2 del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23983-2019",
+      "tipo": "oficio",
+      "numero": "23983",
+      "fecha": "2019-09-23",
+      "tema": "Obligaci&oacute;n d&eacute; expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23153-2019",
+      "tipo": "oficio",
+      "numero": "23153",
+      "fecha": "2019-09-13",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18297-2019",
+      "tipo": "oficio",
+      "numero": "18297",
+      "fecha": "2019-07-16",
+      "tema": "Agentes de Retenci&oacute;n del Impuesto Sobre las Ventas - Facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10493-2019",
+      "tipo": "oficio",
+      "numero": "10493",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8760-2019",
+      "tipo": "oficio",
+      "numero": "8760",
+      "fecha": "2019-04-10",
+      "tema": "Exclusi&oacute;n del impuesto sobre las ventas en la prestaci&oacute;n de servicios m&eacute;dicos y odontol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6398-2019",
+      "tipo": "oficio",
+      "numero": "6398",
+      "fecha": "2019-03-14",
+      "tema": "Impuesto Nacional al Consumo de Bienes Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33661-2018",
+      "tipo": "oficio",
+      "numero": "33661",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso susceptible de producir un incremento neto en el patrimonio en el momento de su percepci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33517-2018",
+      "tipo": "oficio",
+      "numero": "33517",
+      "fecha": "2018-11-16",
+      "tema": "&iquest;Es posible utilizar factura por talonario para solucionar temporalmente una contingencia en la expedici&oacute;n de tiquetes de m&aacute;quinas registradoras POS, cuando quiera que el facturador tenga simult&aacute;neamente la obligaci&oacute;n de facturar electr&oacute;nicamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30890-2018",
+      "tipo": "oficio",
+      "numero": "30890",
+      "fecha": "2018-10-08",
+      "tema": "Entidades no contribuyentes del impuesto sobre la renta y complementario que no deben presentar declaraci&oacute;n de renta ni de ingresos y patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25450-2018",
+      "tipo": "oficio",
+      "numero": "25450",
+      "fecha": "2018-09-11",
+      "tema": "Pago por intereses a un no contribuyente, que ha adquirido un derecho reconocido en una sentencia fallada en favor de un beneficiario que enajen&oacute; los derechos litigiosos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1849-2018",
+      "tipo": "oficio",
+      "numero": "1849",
+      "fecha": "2018-10-17",
+      "tema": "Causaci&oacute;n en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1755-2018",
+      "tipo": "oficio",
+      "numero": "1755",
+      "fecha": "2018-10-08",
+      "tema": "Tratamiento tributario de las instituciones educativas de car&aacute;cter p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1721-2018",
+      "tipo": "oficio",
+      "numero": "1721",
+      "fecha": "2018-09-28",
+      "tema": "&iquest;Es obligaci&oacute;n de los contribuyentes en la Isla de San Andr&eacute;s Isla Y Providencia facturar electr&oacute;nicamente, a partir de la normatividad que as&iacute; lo dispone?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18965-2016",
+      "tipo": "oficio",
+      "numero": "18965",
+      "fecha": "2016-07-19",
+      "tema": "Expedici&oacute;n de los certificados para las declaraciones de renta sobre la totalidad de los pagos que hayan recibido por los diferentes conceptos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0278-2016",
+      "tipo": "oficio",
+      "numero": "0278",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Se hace exigible que el beneficiario obtenga el RUT para su reconocimiento tributario y que a la urbanizadora no se le desconozcan los gastos o deducciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37056-2015",
+      "tipo": "oficio",
+      "numero": "37056",
+      "fecha": "2015-12-31",
+      "tema": "Retenci&oacute;n en la fuente - &iquest;C&oacute;mo acredita una sociedad chilena, ante la administraci&oacute;n tributaria chilena, las retenciones en la fuente que le han sido practicadas en Colombia sobre los pagos o abonos en cuenta efectuados por concepto de asesor&iacute;a t&eacute;cnica prestada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34421-2015",
+      "tipo": "oficio",
+      "numero": "34421",
+      "fecha": "2015-12-01",
+      "tema": "Impuesto a las ventas Impuesto Nacional al Consumo - Hecho generador - Responsables - Hecho Generador del Impuesto Sobre las Ventas - Responsables del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25474-2015",
+      "tipo": "oficio",
+      "numero": "25474",
+      "fecha": "2015-09-02",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11657-2015",
+      "tipo": "oficio",
+      "numero": "11657",
+      "fecha": "2015-04-23",
+      "tema": "Retenci&oacute;n en la fuente que deben practicar las Entidades Ejecutoras de Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9699-2015",
+      "tipo": "oficio",
+      "numero": "9699",
+      "fecha": "2015-03-31",
+      "tema": "Obligaci&oacute;n de facturar por parte de las EPS - Las EPS se pueden considerar personas jur&iacute;dicas no obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59795-2014",
+      "tipo": "oficio",
+      "numero": "59795",
+      "fecha": "2014-10-23",
+      "tema": "&iquest;Existe obligaci&oacute;n de expedir los certificados de retenci&oacute;n por renta trimestralmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58078-2014",
+      "tipo": "oficio",
+      "numero": "58078",
+      "fecha": "2014-10-09",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de Ingresos y Retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53354-2014",
+      "tipo": "oficio",
+      "numero": "53354",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir en el caso que una persona natural que transfiere un activo fijo a una entidad de derecho p&uacute;blico, solicita la devoluci&oacute;n de los dineros que cancel&oacute; fruto de la retenci&oacute;n practicada, pero que en el momento de la enajenaci&oacute;n no presenta el certificado que acredita la resoluci&oacute;n ejecutiva que incorpora el inmueble a la entidad y su actividad dentro de su declaratoria de utilidad p&uacute;blica e inter&eacute;s social para su protocolizaci&oacute;n, como fundamento para no practicar la retenci&oacute;n, en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70845-2013",
+      "tipo": "oficio",
+      "numero": "70845",
+      "fecha": "2013-11-06",
+      "tema": "&iquest;A nombre de qu&eacute; ente jur&iacute;dico p&uacute;blico debe expedirse la facturaci&oacute;n de los proveedores y contratistas, derivada de la ejecuci&oacute;n de los recursos de fiscalizaci&oacute;n del SGR?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70383-2013",
+      "tipo": "oficio",
+      "numero": "70383",
+      "fecha": "2013-11-01",
+      "tema": "Deber de expedir factura y su reglamentaci&oacute;n en la ley - Utilizaci&oacute;n del NIT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59042-2012",
+      "tipo": "oficio",
+      "numero": "59042",
+      "fecha": "2012-09-18",
+      "tema": "&iquest;Qu&eacute; implicaciones legales y fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58434-2012",
+      "tipo": "oficio",
+      "numero": "58434",
+      "fecha": "2012-09-13",
+      "tema": "&iquest;La DIAN tiene contemplado dentro de sus procedimientos una forma de corroborar si la informaci&oacute;n de una persona identificada en Deceval o en cualquier otra entidad con su documento de identidad v&aacute;lido en todo el territorio nacional, corresponde a la informaci&oacute;n de la misma persona que ante la DIAN se identifica con NIT y as&iacute; conciliar la informaci&oacute;n tributaria cuando se trata de una misma persona?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53947-2012",
+      "tipo": "oficio",
+      "numero": "53947",
+      "fecha": "2012-08-24",
+      "tema": "&iquest;En la certificaci&oacute;n que debe expedir el agente retenedor por otros conceptos de retenci&oacute;n en la fuente, se debe certificar tanto el monto de los ingresos que fueron objeto de la retenci&oacute;n como la porci&oacute;n de ellos que no lo fueron? y, En caso que el monto de los ingresos pagados a un proveedor, no alcance para estar sujeto a la retenci&oacute;n &iquest;el agente retenedor conserva la obligaci&oacute;n de expedir el certificado con el monto de la retenci&oacute;n en ceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47863-2009",
+      "tipo": "oficio",
+      "numero": "47863",
+      "fecha": "2009-06-11",
+      "tema": "&iquest;La denuncia penal debe formularse contra el representante legal removido por parte de la Superintendencia con ocasi&oacute;n de la iniciaci&oacute;n de un proceso de liquidaci&oacute;n obligatoria o contra el liquidador que lo reemplaz&oacute; quien se posesion&oacute; antes del vencimiento de los dos meses de que trata el citado art&iacute;culo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0105489-2007",
+      "tipo": "concepto",
+      "numero": "0105489",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Se puede entender cumplida la obligaci&oacute;n de expedir los certificados de retenci&oacute;n en la fuente, por conceptos diferentes a ingresos laborales, con su generaci&oacute;n en medios electr&oacute;nicos para ser impresos por los interesados a trav&eacute;s de Internet o entregados por el agente de retenci&oacute;n cuando &eacute;stos lo solicitan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31208-2007",
+      "tipo": "oficio",
+      "numero": "31208",
+      "fecha": "2007-04-25",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Gravamen a los Movimientos Financieros con ocasi&oacute;n de las modificaciones introducidas por la Ley 1111 de 2006?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102249-2006",
+      "tipo": "oficio",
+      "numero": "102249",
+      "fecha": "2006-12-05",
+      "tema": "&iquest;Dado que el Fondo de Ventas Populares, como establecimiento p&uacute;blico adscrito a la Secretar&iacute;a de Gobierno, actualmente est&aacute; recaudando el IVA en un t&iacute;tulo valor denominado por ellos BONO EXITO, cu&aacute;l es la facultad para dicho recaudo, la autorizaci&oacute;n para emitir los n&uacute;meros consecutivos del t&iacute;tulo valor, los requisitos legales de tales documentos, y el r&eacute;gimen sancionatorio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76460-2006",
+      "tipo": "oficio",
+      "numero": "76460",
+      "fecha": "2006-09-07",
+      "tema": "&iquest;En los casos de procesos ante el Contencioso Administrativo, el certificado de retenci&oacute;n en la fuente por renta contemplado en el art&iacute;culo 381 del Estatuto tributario por pago de la demanda, se debe expedir a nombre del apoderado designado o del demandante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069337-2004",
+      "tipo": "concepto",
+      "numero": "0069337",
+      "fecha": "2004-10-13",
+      "tema": "&iquest;A nombre de qui&eacute;n se debe expedir el certificado de retenci&oacute;n en la fuente en el caso de la enajenaci&oacute;n de activos fijos de personas naturales, cuando en la escritura de venta aparecen dos personas que tienen la calidad de c&oacute;nyuges como enajenantes, pero solo uno de ellos se encuentra obligado a presentar declaraci&oacute;n de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042076-2004",
+      "tipo": "concepto",
+      "numero": "0042076",
+      "fecha": "2004-07-12",
+      "tema": "&iquest;Debe un agente retenedor del impuesto sobre la renta que la asume, expedir el correspondiente certificado de retenci&oacute;n a nombre del retenido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000004-2002",
+      "tipo": "concepto",
+      "numero": "0000004",
+      "fecha": "2002-01-01",
+      "tema": "Concepto especial sobre incentivo al ahorro a largo plazo para el fomento de la construcci&oacute;n, AFC",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042123-2001",
+      "tipo": "concepto",
+      "numero": "0042123",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;El Ejercito Nacional debe expedir factura por venta y-o prestaci&oacute; n de servicios a particulares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0115052-2000",
+      "tipo": "concepto",
+      "numero": "0115052",
+      "fecha": "2000-11-24",
+      "tema": "&iquest;Qui&eacute;n se encuentra obligado a expedir los certificados de retenci&oacute;n en la fuente en el evento que un agente retenedor efect&uacute;e pagos a nombre de otro agente retenedor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033018-1998",
+      "tipo": "concepto",
+      "numero": "0033018",
+      "fecha": "1998-05-11",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023242-1997",
+      "tipo": "concepto",
+      "numero": "0023242",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088313-1996",
+      "tipo": "concepto",
+      "numero": "0088313",
+      "fecha": "1996-11-20",
+      "tema": "&iquest;Qu&eacute; compras y servicios relacionados con programas de vivienda de inter&eacute;s social est&aacute;n gravados? &iquest;Cu&aacute;les son las obligaciones de Comit&eacute; Operativo responsable y coordinador de los proyectos de vivienda, en caso de ser agente de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042897-1996",
+      "tipo": "concepto",
+      "numero": "0042897",
+      "fecha": "1996-05-23",
+      "tema": "&iquest;La expedici&oacute;n de certificados de ingresos y retenciones comprende la obligaci&oacute;n de su env&iacute;o a los interesados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032343-1996",
+      "tipo": "concepto",
+      "numero": "0032343",
+      "fecha": "1996-04-18",
+      "tema": "&iquest;Como opera la retenci&oacute;n en la fuente en la prestaci&oacute;n de servicios profesionales hospitalarios cuando la entidad factura la totalidad de los servicios y le traslada al m&eacute;dico los ingresos y retenciones que le corresponde?&iquest;Debe la instituci&oacute;n expedir los certificados de ingresos y retenciones efectuadas al m&eacute;dico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006351-1993",
+      "tipo": "concepto",
+      "numero": "0006351",
+      "fecha": "1993-07-13",
+      "tema": "&iquest;Presentado al notario un documento que causa el impuesto de timbre puede negarse a autenticarlo o autorizar el reconocimiento del contenido si este no se ha pagado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020257-1991",
+      "tipo": "concepto",
+      "numero": "0020257",
+      "fecha": "1991-07-08",
+      "tema": "&iquest;La Ley obliga a la persona natural o jur&iacute;dica que expide certificados de retenci&oacute;n en la fuente a enviarlos directamente al domicilio del agente retenido, o si dichos certificados deben ser recogidos por el agente a quien se le hizo retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008811-1991",
+      "tipo": "concepto",
+      "numero": "0008811",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Podr&iacute;a figurar como retenedor y expedir certificados de retenci&oacute;n en la fuente a los beneficiarios en vista de que los bancos comerciales ya consignaron la retenci&oacute;n efectuada a la sociedad? y c&oacute;mo se presentar&iacute;a esta declaraci&oacute;n? &iquest;Tiene la sociedad, obligaci&oacute;n de presentar declaraci&oacute;n de retenci&oacute;n sobre los pagos efectuados a los beneficiarios de los giros teniendo en cuenta que los bancos hicieron la retenci&oacute;n y la consignaci&oacute;n a la Administraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007435-1991",
+      "tipo": "concepto",
+      "numero": "0007435",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Con base en el art&iacute;culo 13 del Decreto 2026 de 1983, la retenci&oacute;n en la fuente sobre comisiones que perciben las compa&ntilde;&iacute;as corredoras de seguros se debe practicar sobre las efectivamente recibidas o sobre las causadas?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

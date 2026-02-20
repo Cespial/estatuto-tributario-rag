@@ -1,1 +1,208 @@
-{"id_articulo": "Art. 202", "titulo": "Art. 202. Aplicación a la industria de la construcción.", "titulo_corto": "Aplicación a la industria de la construcción.", "slug": "202", "url_origen": "https://estatuto.co/202", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.", "full_length": 130}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 202",
+  "titulo": "Art. 202. Aplicación a la industria de la construcción.",
+  "titulo_corto": "Aplicación a la industria de la construcción.",
+  "slug": "202",
+  "url_origen": "https://estatuto.co/202",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los sistemas previstos en el artículo anterior pueden aplicarse, en cuanto fueren compatibles, a la industria de la construcción.",
+      "full_length": 130
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 8 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6083 (2023-01-01): (Int 1105) Impuesto sobre la Renta y Complementarios - Contratos de colaboraci&oacute;n empresarial - Contratos de servicios aut&oacute;nomos - Contratos por servicios de construcci&oacute;n\noficio 903834 (2022-05-18): Impuesto nacional al consumo - Veh&iacute;culos - Tarifa y base gravable",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6083-2023",
+      "tipo": "oficio",
+      "numero": "6083",
+      "fecha": "2023-01-01",
+      "tema": "(Int 1105) Impuesto sobre la Renta y Complementarios - Contratos de colaboraci&oacute;n empresarial - Contratos de servicios aut&oacute;nomos - Contratos por servicios de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903834-2022",
+      "tipo": "oficio",
+      "numero": "903834",
+      "fecha": "2022-05-18",
+      "tema": "Impuesto nacional al consumo - Veh&iacute;culos - Tarifa y base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8712-2019",
+      "tipo": "oficio",
+      "numero": "8712",
+      "fecha": "2019-04-10",
+      "tema": "Devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2785-2019",
+      "tipo": "oficio",
+      "numero": "2785",
+      "fecha": "2019-02-05",
+      "tema": "Devoluci&oacute;n del impuesto sobre las ventas en el caso de vivienda de inter&eacute;s social y de inter&eacute;s prioritaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0474-2018",
+      "tipo": "oficio",
+      "numero": "0474",
+      "fecha": "2018-04-13",
+      "tema": "Autorretenci&oacute;n en la fuente, de que trata el Decreto 2201 de 2016 con respecto a las rentas exentas por la utilidad en la primera enajenaci&oacute;n de la VIS o VIP",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0432-2018",
+      "tipo": "oficio",
+      "numero": "0432",
+      "fecha": "2018-04-03",
+      "tema": "Para las compa&ntilde;&iacute;as constructoras, en el caso de venta de inmuebles considerados como inventarios &iquest;el ingreso por venta se entiende realizado en el momento en que se efect&uacute;e la escritura p&uacute;blica correspondiente as&iacute; la factura de venta se haya expedido en un periodo gravable anterior? o este tratamiento es &uacute;nicamente de aplicaci&oacute;n cuando se trate de activos fijos, de conformidad con el art&iacute;culo 91 del E.T., los dividendos, participaciones y utilidades recibidas por personas naturales no residentes, se les gravar&eacute; el 100% de los dividendos entregados v&iacute;a retenci&oacute;n en la fuente, sin que tengan derecho al c&aacute;lculo del art&iacute;culo 49 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72249-2009",
+      "tipo": "oficio",
+      "numero": "72249",
+      "fecha": "2009-09-04",
+      "tema": "&iquest;Cu&aacute;ndo se entiende realizado el ingreso por la cesi&oacute;n de acciones con pago en cuotas mensuales durante varios a&ntilde;os, efectuada por una persona natural-rentista de capital?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    }
+  ]
+}

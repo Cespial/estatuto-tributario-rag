@@ -1,1 +1,255 @@
-{"id_articulo": "Art. 200", "titulo": "Art. 200. Contratos por servicios de construcción", "titulo_corto": "Contratos por servicios de construcción", "slug": "200", "url_origen": "https://estatuto.co/200", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Para las actividades de servicios de construcción se aplicarán las siguientes reglas: 1. Los ingresos, costos y deducciones del contrato de construcción se reconocerán considerando el método de grado de realización del contrato. 2. Para la aplicación de este método, se elaborará al comienzo de la ejecución del contrato un presupuesto de ingresos costos y deducciones totales del contrato y atribuir en cada año o período gravable la parte proporcional de los ingresos del contrato que corresponda a los costos y deducciones efectivamente realizados durante el año. La diferencia entre la parte del ingreso así calculada y los costos y deducciones efectivamente realizados constituye la renta líquida del respectivo año o período gravable. 3. Cuando sea probable que los costos totales del contrato vayan a exceder de los ingresos totales derivados del mismo las pérdidas esperadas contabilizadas no serán deducibles para efecto del impuesto sobre la renta y complementarios, solo hasta el momento de la finalización del contrato, en la medida que se haya hecho efectiva. Parágrafo 1. El presupuesto del contrato debe estar suscrito por arquitecto, ingeniero u otro profesional especializado en la materia, con licencia para ejercer. Parágrafo 2. Los contribuyentes que realicen esta actividad deben llevar contabilidad. Parágrafo 3. Cuando en esencia económica el contribuyente no preste un servicio de construcción, sino que construya un bien inmueble para destinarlo a la venta en el curso ordinario de sus operaciones, para su uso o para ser destinado como una propiedad de inversión, se considerarán las reglas previstas para los inventarios y activos fijos, contempladas en este Estatuto.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para las actividades de servicios de construcción se aplicarán las siguientes reglas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Los ingresos, costos y deducciones del contrato de construcción se reconocerán considerando el método de grado de realización del contrato.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Para la aplicación de este método, se elaborará al comienzo de la ejecución del contrato un presupuesto de ingresos costos y deducciones totales del contrato y atribuir en cada año o período gravable la parte proporcional de los ingresos del contrato que corresponda a los costos y deducciones efectivamente realizados durante el año. La diferencia entre la parte del ingreso así calculada y los costos y deducciones efectivamente realizados constituye la renta líquida del respectivo año o período gravable.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Cuando sea probable que los costos totales del contrato vayan a exceder de los ingresos totales derivados del mismo las pérdidas esperadas contabilizadas no serán deducibles para efecto del impuesto sobre la renta y complementarios, solo hasta el momento de la finalización del contrato, en la medida que se haya hecho efectiva.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1.</span> </strong>El presupuesto del contrato debe estar suscrito por arquitecto, ingeniero u otro profesional especializado en la materia, con licencia para ejercer.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2.</span> </strong>Los contribuyentes que realicen esta actividad deben llevar contabilidad.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 3.</span> </strong>Cuando en esencia económica el contribuyente no preste un servicio de construcción, sino que construya un bien inmueble para destinarlo a la venta en el curso ordinario de sus operaciones, para su uso o para ser destinado como una propiedad de inversión, se considerarán las reglas previstas para los inventarios y activos fijos, contempladas en este Estatuto.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 97.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "97"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["290"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 200",
+  "titulo": "Art. 200. Contratos por servicios de construcción",
+  "titulo_corto": "Contratos por servicios de construcción",
+  "slug": "200",
+  "url_origen": "https://estatuto.co/200",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Para las actividades de servicios de construcción se aplicarán las siguientes reglas: 1. Los ingresos, costos y deducciones del contrato de construcción se reconocerán considerando el método de grado de realización del contrato. 2. Para la aplicación de este método, se elaborará al comienzo de la ejecución del contrato un presupuesto de ingresos costos y deducciones totales del contrato y atribuir en cada año o período gravable la parte proporcional de los ingresos del contrato que corresponda a los costos y deducciones efectivamente realizados durante el año. La diferencia entre la parte del ingreso así calculada y los costos y deducciones efectivamente realizados constituye la renta líquida del respectivo año o período gravable. 3. Cuando sea probable que los costos totales del contrato vayan a exceder de los ingresos totales derivados del mismo las pérdidas esperadas contabilizadas no serán deducibles para efecto del impuesto sobre la renta y complementarios, solo hasta el momento de la finalización del contrato, en la medida que se haya hecho efectiva. Parágrafo 1. El presupuesto del contrato debe estar suscrito por arquitecto, ingeniero u otro profesional especializado en la materia, con licencia para ejercer. Parágrafo 2. Los contribuyentes que realicen esta actividad deben llevar contabilidad. Parágrafo 3. Cuando en esencia económica el contribuyente no preste un servicio de construcción, sino que construya un bien inmueble para destinarlo a la venta en el curso ordinario de sus operaciones, para su uso o para ser destinado como una propiedad de inversión, se considerarán las reglas previstas para los inventarios y activos fijos, contempladas en este Estatuto.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para las actividades de servicios de construcción se aplicarán las siguientes reglas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Los ingresos, costos y deducciones del contrato de construcción se reconocerán considerando el método de grado de realización del contrato.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Para la aplicación de este método, se elaborará al comienzo de la ejecución del contrato un presupuesto de ingresos costos y deducciones totales del contrato y atribuir en cada año o período gravable la parte proporcional de los ingresos del contrato que corresponda a los costos y deducciones efectivamente realizados durante el año. La diferencia entre la parte del ingreso así calculada y los costos y deducciones efectivamente realizados constituye la renta líquida del respectivo año o período gravable.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Cuando sea probable que los costos totales del contrato vayan a exceder de los ingresos totales derivados del mismo las pérdidas esperadas contabilizadas no serán deducibles para efecto del impuesto sobre la renta y complementarios, solo hasta el momento de la finalización del contrato, en la medida que se haya hecho efectiva.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1.</span> </strong>El presupuesto del contrato debe estar suscrito por arquitecto, ingeniero u otro profesional especializado en la materia, con licencia para ejercer.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2.</span> </strong>Los contribuyentes que realicen esta actividad deben llevar contabilidad.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 3.</span> </strong>Cuando en esencia económica el contribuyente no preste un servicio de construcción, sino que construya un bien inmueble para destinarlo a la venta en el curso ordinario de sus operaciones, para su uso o para ser destinado como una propiedad de inversión, se considerarán las reglas previstas para los inventarios y activos fijos, contempladas en este Estatuto.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 97.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "97"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "290"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 13 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6083 (2023-01-01): (Int 1105) Impuesto sobre la Renta y Complementarios - Contratos de colaboraci&oacute;n empresarial - Contratos de servicios aut&oacute;nomos - Contratos por servicios de construcci&oacute;n\noficio 901713 (2022-03-07): Impuesto nacional al consumo, restaurante de hoteles",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6083-2023",
+      "tipo": "oficio",
+      "numero": "6083",
+      "fecha": "2023-01-01",
+      "tema": "(Int 1105) Impuesto sobre la Renta y Complementarios - Contratos de colaboraci&oacute;n empresarial - Contratos de servicios aut&oacute;nomos - Contratos por servicios de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901713-2022",
+      "tipo": "oficio",
+      "numero": "901713",
+      "fecha": "2022-03-07",
+      "tema": "Impuesto nacional al consumo, restaurante de hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8712-2019",
+      "tipo": "oficio",
+      "numero": "8712",
+      "fecha": "2019-04-10",
+      "tema": "Devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2785-2019",
+      "tipo": "oficio",
+      "numero": "2785",
+      "fecha": "2019-02-05",
+      "tema": "Devoluci&oacute;n del impuesto sobre las ventas en el caso de vivienda de inter&eacute;s social y de inter&eacute;s prioritaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1829-2018",
+      "tipo": "oficio",
+      "numero": "1829",
+      "fecha": "2018-10-17",
+      "tema": "Contratos por servicios de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0829-2018",
+      "tipo": "oficio",
+      "numero": "0829",
+      "fecha": "2018-05-25",
+      "tema": "&iquest;Cu&aacute;les son los requisitos que debe cumplir el presupuesto de ingresos, costos y deducciones totales del contrato, con la finalidad de determinar la renta l&iacute;quida en contratos por servicios de construcci&oacute;n bajo el m&eacute;todo de grado de realizaci&oacute;n del contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0474-2018",
+      "tipo": "oficio",
+      "numero": "0474",
+      "fecha": "2018-04-13",
+      "tema": "Autorretenci&oacute;n en la fuente, de que trata el Decreto 2201 de 2016 con respecto a las rentas exentas por la utilidad en la primera enajenaci&oacute;n de la VIS o VIP",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0432-2018",
+      "tipo": "oficio",
+      "numero": "0432",
+      "fecha": "2018-04-03",
+      "tema": "Para las compa&ntilde;&iacute;as constructoras, en el caso de venta de inmuebles considerados como inventarios &iquest;el ingreso por venta se entiende realizado en el momento en que se efect&uacute;e la escritura p&uacute;blica correspondiente as&iacute; la factura de venta se haya expedido en un periodo gravable anterior? o este tratamiento es &uacute;nicamente de aplicaci&oacute;n cuando se trate de activos fijos, de conformidad con el art&iacute;culo 91 del E.T., los dividendos, participaciones y utilidades recibidas por personas naturales no residentes, se les gravar&eacute; el 100% de los dividendos entregados v&iacute;a retenci&oacute;n en la fuente, sin que tengan derecho al c&aacute;lculo del art&iacute;culo 49 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34093-2017",
+      "tipo": "oficio",
+      "numero": "34093",
+      "fecha": "2017-12-20",
+      "tema": "&iquest;Una empresa que funciona como restaurante y cafeter&iacute;a puede facturar el impuesto nacional al consumo para algunos productos y el impuesto sobre las ventas para otros productos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8239-2017",
+      "tipo": "oficio",
+      "numero": "8239",
+      "fecha": "2017-04-07",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83098-2009",
+      "tipo": "oficio",
+      "numero": "83098",
+      "fecha": "2009-10-09",
+      "tema": "&iquest;Por tratarse de un contrato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44202-2009",
+      "tipo": "oficio",
+      "numero": "44202",
+      "fecha": "2009-05-29",
+      "tema": "&iquest;Cu&aacute;ntas y cu&aacute;les son las tasas fiscales y parafiscales existentes a la fecha en Colombia y cu&aacute;les son sus marcos normativos especificando normas creadoras; cu&aacute;ntos cesos tributarios se han realizado en Colombia, cu&aacute;l fue el &uacute;ltimo censo realizado y en donde se encuentra publicado; cu&aacute;ntos y cu&aacute;les son los tributos existentes en el Estado Colombiano a la fecha y cu&aacute;les son sus marcos normativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065688-1994",
+      "tipo": "concepto",
+      "numero": "0065688",
+      "fecha": "1994-11-15",
+      "tema": "&iquest;Deben ser objeto de Devoluci&oacute;n los Valores Retenidos bajo la vigencia de una norma declarada posteriormente inexequible?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ]
+}

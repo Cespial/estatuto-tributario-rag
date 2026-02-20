@@ -1,6 +1,7 @@
 "use client";
 
 import { DiffSummary } from "./diff-utils";
+import { AlertCircle, RefreshCw } from "lucide-react";
 
 interface ChangeSummaryCardProps {
   summary: DiffSummary;
@@ -9,6 +10,8 @@ interface ChangeSummaryCardProps {
   articleA?: string;
   articleB?: string;
   aiSummary?: string;
+  error?: boolean;
+  onRetry?: () => void;
 }
 
 function getChangeIntensity(changeRatio: number): string {
@@ -35,6 +38,8 @@ export function ChangeSummaryCard({
   articleA,
   articleB,
   aiSummary,
+  error,
+  onRetry,
 }: ChangeSummaryCardProps) {
   const intensity = getChangeIntensity(summary.changeRatio);
 
@@ -47,9 +52,27 @@ export function ChangeSummaryCard({
         </span>
       </div>
 
-      <p className="text-sm leading-relaxed text-muted-foreground">
-        {aiSummary || buildNarrative(summary, labelA, labelB)}
-      </p>
+      {error ? (
+        <div className="mb-4 flex items-center justify-between rounded-md border border-red-200 bg-red-50/50 p-3 text-sm text-red-800 dark:border-red-900/40 dark:bg-red-900/20 dark:text-red-200">
+          <div className="flex items-center gap-2">
+            <AlertCircle className="h-4 w-4" />
+            <span>Error al generar el resumen por IA.</span>
+          </div>
+          {onRetry && (
+            <button
+              onClick={onRetry}
+              className="flex items-center gap-1.5 font-medium hover:underline"
+            >
+              <RefreshCw className="h-3.5 w-3.5" />
+              Reintentar
+            </button>
+          )}
+        </div>
+      ) : (
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {aiSummary || buildNarrative(summary, labelA, labelB)}
+        </p>
+      )}
 
       <div className="mt-4 grid gap-2 sm:grid-cols-3">
         <div className="rounded-md bg-emerald-50 px-3 py-2 text-sm dark:bg-emerald-950/30">

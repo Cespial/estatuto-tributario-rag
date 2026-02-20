@@ -1,1 +1,74 @@
-{"id_articulo": "Art. 828-1", "titulo": "Art. 828-1. Vinculación de deudores solidarios.", "titulo_corto": "Vinculación de deudores solidarios.", "slug": "828-1", "url_origen": "https://estatuto.co/828-1", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La vinculación del deudor solidario se hará mediante la notificación del mandamiento de pago. Este deberá librarse determinando individualmente el monto de la obligación del respectivo deudor y se notificará en la forma indicada en el artículo 826 del Estatuto Tributario. **Los títulos ejecutivos contra el deudor principal lo serán contra los deudores solidarios y subsidiarios, sin que se requiera la constitución de títulos individuales adicionales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La vinculación del deudor solidario se hará mediante la notificación del mandamiento de pago. Este deberá librarse determinando individualmente el monto de la obligación del respectivo deudor y se notificará en la forma indicada en el <a href=\"https://estatuto.co/826\" rel=\"noopener\" target=\"_blank\">artículo 826</a> del Estatuto Tributario.</p>\n<p>**Los títulos ejecutivos contra el deudor principal lo serán contra los deudores solidarios y subsidiarios, sin que se requiera la constitución de títulos individuales adicionales.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 83. **Adicionado Ley 788 de 2002 Art 9.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "83"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "788", "norma_year": 2002, "norma_articulo": "9"}], "total_modificaciones": 2, "ultima_modificacion_year": 2002, "leyes_modificatorias": ["Ley 6 de 1992", "Ley 788 de 2002"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["826"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 828-1",
+  "titulo": "Art. 828-1. Vinculación de deudores solidarios.",
+  "titulo_corto": "Vinculación de deudores solidarios.",
+  "slug": "828-1",
+  "url_origen": "https://estatuto.co/828-1",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La vinculación del deudor solidario se hará mediante la notificación del mandamiento de pago. Este deberá librarse determinando individualmente el monto de la obligación del respectivo deudor y se notificará en la forma indicada en el artículo 826 del Estatuto Tributario. **Los títulos ejecutivos contra el deudor principal lo serán contra los deudores solidarios y subsidiarios, sin que se requiera la constitución de títulos individuales adicionales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La vinculación del deudor solidario se hará mediante la notificación del mandamiento de pago. Este deberá librarse determinando individualmente el monto de la obligación del respectivo deudor y se notificará en la forma indicada en el <a href=\"https://estatuto.co/826\" rel=\"noopener\" target=\"_blank\">artículo 826</a> del Estatuto Tributario.</p>\n<p>**Los títulos ejecutivos contra el deudor principal lo serán contra los deudores solidarios y subsidiarios, sin que se requiera la constitución de títulos individuales adicionales.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 6 de 1992 Art 83. **Adicionado Ley 788 de 2002 Art 9.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "83"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "788",
+      "norma_year": 2002,
+      "norma_articulo": "9"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2002,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992",
+    "Ley 788 de 2002"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "826"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0022370 (1997-01-01): ",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0022370-1997",
+      "tipo": "concepto",
+      "numero": "0022370",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ]
+}

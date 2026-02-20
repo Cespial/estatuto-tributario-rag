@@ -1,1 +1,624 @@
-{"id_articulo": "Art. 496", "titulo": "Art. 496. Oportunidad de los descuentos.", "titulo_corto": "Oportunidad de los descuentos.", "slug": "496", "url_origen": "https://estatuto.co/496", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Cuando se trate de responsables que deban declarar bimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en uno de los tres períodos bimestrales inmediatamente siguientes, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización. Cuando se trate de responsables que deban declarar cuatrimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en el período cuatrimestral inmediatamente siguiente, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización. Parágrafo. El impuesto sobre las ventas descontable para el sector de la construcción sólo podrá contabilizarse en el período fiscal correspondiente a la fecha de su causación o en cualquiera de los dos períodos inmediatamente siguientes y solicitarse como descontable en el período fiscal en el que ocurra la escrituración de cada unidad inmobiliaria privada gravada con dicho impuesto. El impuesto sobre las ventas descontable debe corresponder proporcionalmente a los costos directos e indirectos atribuibles a las unidades inmobiliarias gravadas. El Gobierno Nacional reglamentará los mecanismos de control para la correcta imputación del mismo como descontable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando se trate de responsables que deban declarar bimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en uno de los tres períodos bimestrales inmediatamente siguientes, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización.</p>\n<p>Cuando se trate de responsables que deban declarar cuatrimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en el período cuatrimestral inmediatamente siguiente, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo. </span></strong>El impuesto sobre las ventas descontable para el sector de la construcción sólo podrá contabilizarse en el período fiscal correspondiente a la fecha de su causación o en cualquiera de los dos períodos inmediatamente siguientes y solicitarse como descontable en el período fiscal en el que ocurra la escrituración de cada unidad inmobiliaria privada gravada con dicho impuesto.</p>\n<p>El impuesto sobre las ventas descontable debe corresponder proporcionalmente a los costos directos e indirectos atribuibles a las unidades inmobiliarias gravadas.</p>\n<p>El Gobierno Nacional reglamentará los mecanismos de control para la correcta imputación del mismo como descontable.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 194.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "194"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 496",
+  "titulo": "Art. 496. Oportunidad de los descuentos.",
+  "titulo_corto": "Oportunidad de los descuentos.",
+  "slug": "496",
+  "url_origen": "https://estatuto.co/496",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Cuando se trate de responsables que deban declarar bimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en uno de los tres períodos bimestrales inmediatamente siguientes, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización. Cuando se trate de responsables que deban declarar cuatrimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en el período cuatrimestral inmediatamente siguiente, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización. Parágrafo. El impuesto sobre las ventas descontable para el sector de la construcción sólo podrá contabilizarse en el período fiscal correspondiente a la fecha de su causación o en cualquiera de los dos períodos inmediatamente siguientes y solicitarse como descontable en el período fiscal en el que ocurra la escrituración de cada unidad inmobiliaria privada gravada con dicho impuesto. El impuesto sobre las ventas descontable debe corresponder proporcionalmente a los costos directos e indirectos atribuibles a las unidades inmobiliarias gravadas. El Gobierno Nacional reglamentará los mecanismos de control para la correcta imputación del mismo como descontable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando se trate de responsables que deban declarar bimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en uno de los tres períodos bimestrales inmediatamente siguientes, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización.</p>\n<p>Cuando se trate de responsables que deban declarar cuatrimestralmente, las deducciones e impuestos descontables sólo podrán contabilizarse en el período fiscal correspondiente a la fecha de su causación, o en el período cuatrimestral inmediatamente siguiente, y solicitarse en la declaración del período en el cual se haya efectuado su contabilización.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo. </span></strong>El impuesto sobre las ventas descontable para el sector de la construcción sólo podrá contabilizarse en el período fiscal correspondiente a la fecha de su causación o en cualquiera de los dos períodos inmediatamente siguientes y solicitarse como descontable en el período fiscal en el que ocurra la escrituración de cada unidad inmobiliaria privada gravada con dicho impuesto.</p>\n<p>El impuesto sobre las ventas descontable debe corresponder proporcionalmente a los costos directos e indirectos atribuibles a las unidades inmobiliarias gravadas.</p>\n<p>El Gobierno Nacional reglamentará los mecanismos de control para la correcta imputación del mismo como descontable.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 194.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "194"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0483 (2026-01-14): Impuesto Sobre las Ventas - IVA\noficio 14527 (2025-10-20): Impuesto Sobre las Ventas - IVA\noficio 10722 (2025-08-12): Impuesto Sobre las Ventas - IVA\noficio 8857 (2025-07-08): Impuesto Sobre las Ventas - IVA\noficio 7058 (2024-09-27): Facturaci&oacute;n Electr&oacute;nica",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0483-2026",
+      "tipo": "oficio",
+      "numero": "0483",
+      "fecha": "2026-01-14",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14527-2025",
+      "tipo": "oficio",
+      "numero": "14527",
+      "fecha": "2025-10-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10722-2025",
+      "tipo": "oficio",
+      "numero": "10722",
+      "fecha": "2025-08-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8857-2025",
+      "tipo": "oficio",
+      "numero": "8857",
+      "fecha": "2025-07-08",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7058-2024",
+      "tipo": "oficio",
+      "numero": "7058",
+      "fecha": "2024-09-27",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2999-2024",
+      "tipo": "oficio",
+      "numero": "2999",
+      "fecha": "2024-05-08",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908749-2022",
+      "tipo": "oficio",
+      "numero": "908749",
+      "fecha": "2022-12-12",
+      "tema": "- (Tributario) Impuestos descontables - Periodicidad del IVA - Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902149-2022",
+      "tipo": "oficio",
+      "numero": "902149",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre las ventas, impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915816-2021",
+      "tipo": "oficio",
+      "numero": "915816",
+      "fecha": "2021-12-27",
+      "tema": "Impuesto sobre las ventas - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914513-2021",
+      "tipo": "oficio",
+      "numero": "914513",
+      "fecha": "2021-11-25",
+      "tema": "IVA descontable en declaraci&oacute;n especial de importaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913694-2021",
+      "tipo": "oficio",
+      "numero": "913694",
+      "fecha": "2021-11-08",
+      "tema": "Beneficio tributario, &iquest;Las empresas del sector privado que adquirieron vacunas contra la COVID 19, por intermedio de la ANDI, califican para acceder al beneficio del descuento tributario del 50% del valor de la donaci&oacute;n, de que trata el numeral 3 de la ley 2064, adicionado al art&iacute;culo 257-2 Estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907110-2021",
+      "tipo": "oficio",
+      "numero": "907110",
+      "fecha": "2021-07-19",
+      "tema": "Impuesto sobre las ventas - Impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903288-2021",
+      "tipo": "oficio",
+      "numero": "903288",
+      "fecha": "2021-04-16",
+      "tema": "Impuestos descontables - Proporcionalidad de gastos comunes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901983-2021",
+      "tipo": "oficio",
+      "numero": "901983",
+      "fecha": "2021-03-12",
+      "tema": "Servicios Excluidos del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906397-2020",
+      "tipo": "oficio",
+      "numero": "906397",
+      "fecha": "2020-10-23",
+      "tema": "Contrato de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906047-2020",
+      "tipo": "oficio",
+      "numero": "906047",
+      "fecha": "2020-10-14",
+      "tema": "Franquicia en servicios de expendio de comidas y bebidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905187-2020",
+      "tipo": "oficio",
+      "numero": "905187",
+      "fecha": "2020-09-23",
+      "tema": "El Impuesto sobre las ventas (IVA) pagado en operaciones para la exploraci&oacute;n de hidrocarburos, cuando no se generan ingresos, &iquest;debe ser llevado como IVA descontable en la declaraci&oacute;n de IVA e imputarse sucesivamente como saldo a favor, el cual se podr&aacute; pedir en devoluci&oacute;n hasta cuando se generen ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903153-2020",
+      "tipo": "oficio",
+      "numero": "903153",
+      "fecha": "2020-07-15",
+      "tema": "&iquest;Los sindicatos de Profesiones y Oficios de la salud, al desarrollar un contrato sindical, en materia de prestaci&oacute;n de servicios de salud p&uacute;blica, los hace responsables del impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1973-2020",
+      "tipo": "oficio",
+      "numero": "1973",
+      "fecha": "2020-01-28",
+      "tema": "&iquest;En el caso de que una persona no residente, obtenga ingresos respecto de los cuales no se les haya practicado retenci&oacute;n en la fuente, debe atenderse a los topes de ingresos y patrimonio consagrados en el numeral 1 del art&iacute;culo 592 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29879-2019",
+      "tipo": "oficio",
+      "numero": "29879",
+      "fecha": "2019-11-28",
+      "tema": "Impuestos descontables – contabilizaci&oacute;n correcci&oacute;n de las declaraciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28990-2019",
+      "tipo": "oficio",
+      "numero": "28990",
+      "fecha": "2019-11-20",
+      "tema": "Determinaci&oacute;n de impuestos descontables susceptibles de devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10025-2019",
+      "tipo": "oficio",
+      "numero": "10025",
+      "fecha": "2019-04-29",
+      "tema": "Oportunidad de los Descuentos en el R&eacute;gimen Com&uacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8173-2019",
+      "tipo": "oficio",
+      "numero": "8173",
+      "fecha": "2019-04-05",
+      "tema": "De acuerdo a la Ley de Financiamiento &iquest;C&oacute;mo se descontar&iacute;a el IVA, pagado en cuotas por concepto de la importaci&oacute;n de maquinaria bajo el r&eacute;gimen de Importaci&oacute;n Temporal a Largo Plazo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4682-2019",
+      "tipo": "oficio",
+      "numero": "4682",
+      "fecha": "2019-02-25",
+      "tema": "Impuestos descontables a ciertos tipos de medicamentos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2749-2019",
+      "tipo": "oficio",
+      "numero": "2749",
+      "fecha": "2019-02-05",
+      "tema": "Funciones de la Subdirecci&oacute;n de Gesti&oacute;n Normativa y Doctrina",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1773-2019",
+      "tipo": "oficio",
+      "numero": "1773",
+      "fecha": "2019-01-24",
+      "tema": "&iquest;El IVA pagado con motivo de una declaraci&oacute;n de correcci&oacute;n o de modificaci&oacute;n a una declaraci&oacute;n de importaci&oacute;n, es descontable en la declaraci&oacute;n de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1814-2018",
+      "tipo": "oficio",
+      "numero": "1814",
+      "fecha": "2018-10-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Realizaci&oacute;n del Ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0551-2018",
+      "tipo": "oficio",
+      "numero": "0551",
+      "fecha": "2018-04-25",
+      "tema": "IVA en vivienda nueva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23246-2017",
+      "tipo": "oficio",
+      "numero": "23246",
+      "fecha": "2017-08-28",
+      "tema": "Impuestos Descontables - Condiciones para Su Procedencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5327-2017",
+      "tipo": "oficio",
+      "numero": "5327",
+      "fecha": "2017-03-14",
+      "tema": "Un comerciante minorista que compra insumos para el ensamble de bicicletas al 19% y que, posteriormente realiza la venta. Seg&uacute;n la Ley 1819 de 2016 &iquest;a qu&eacute; tarifa debe aplicar el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2334-2017",
+      "tipo": "oficio",
+      "numero": "2334",
+      "fecha": "2017-02-02",
+      "tema": "&iquest;Cu&aacute;l es el periodo para contabilizar como descontable del IVA el 35% del Impuesto Nacional a la Gasolina y al ACPM, de un consumidor final, responsable del IVA, que adquiere productos a un distribuidor que no es responsable del Impuesto Nacional a la Gasolina y al ACPM?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1442-2017",
+      "tipo": "oficio",
+      "numero": "1442",
+      "fecha": "2017-07-25",
+      "tema": "Sociedad constructora de vivienda de estratos 5 y 6 cuyas unidades de vivienda est&aacute;n gravadas con el impuesto a las ventas sol&iacute;cita que se regule el procedimiento para su inscripci&oacute;n en el RUT como nuevos responsables y c&oacute;mo puede solicitar el IVA descontable, teniendo en cuenta que inicialmente las declaraciones de ventas van a arrojar saldo a favor hasta tanto no se produzca la venta de las nuevas viviendas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1989-2016",
+      "tipo": "oficio",
+      "numero": "1989",
+      "fecha": "2016-02-10",
+      "tema": "Impuesto a las ventas - Retenci&oacute;n por Operaciones con Responsables del R&eacute;gimen Simplificado &iquest;C&oacute;mo ser&iacute;a la forma o el m&eacute;todo para llegar a reclamar alg&uacute;n saldo a favor en el caso que lo hubiere, ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65926-2014",
+      "tipo": "oficio",
+      "numero": "65926",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;La sociedad debe causar como ingresos el 100% de las facturas y pagar la totalidad de los impuestos aunque estas no sean pagadas en el 100% de su valor por parte del deudor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61382-2014",
+      "tipo": "oficio",
+      "numero": "61382",
+      "fecha": "2014-10-31",
+      "tema": "&iquest;Tienen derecho a aplicar los impuestos descontables legalmente autorizados aquellos responsables del impuesto sobre las ventas obligados a declarar anualmente, con ocasi&oacute;n de la pauta establecida en el literal a) del art&iacute;culo 483 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53522-2014",
+      "tipo": "oficio",
+      "numero": "53522",
+      "fecha": "2014-09-01",
+      "tema": "Medios de Pago para la Aceptaci&oacute;n de Costos, Deducciones, Pasivos e Impuestos Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51939-2014",
+      "tipo": "oficio",
+      "numero": "51939",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Los bloques, sardineles, tuber&iacute;as y postes en concreto, fabricados artesanalmente est&aacute;n gravados con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36786-2014",
+      "tipo": "oficio",
+      "numero": "36786",
+      "fecha": "2014-06-19",
+      "tema": "Impuesto a las ventas - IVA - Cesi&oacute;n de contrato de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98925-2011",
+      "tipo": "oficio",
+      "numero": "98925",
+      "fecha": "2011-12-19",
+      "tema": "Devoluci&oacute;n del IVA para los productores de bienes exentos, tales como el huevo y los pollos de engorde, requisitos de comercializaci&oacute;n y facturaci&oacute;n para tomar los impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98922-2011",
+      "tipo": "oficio",
+      "numero": "98922",
+      "fecha": "2011-12-19",
+      "tema": "&iquest;Las declaraciones bimestrales del IVA, presentadas por exportadores s&oacute;lo con IVA descontable y con cero ingresos, pueden imputarse sucesivamente, dando lugar a saldo a favor con derecho a devoluci&oacute;n y-o compensaci&oacute;n hasta cuando se realicen exportaciones, e igualmente, en qu&eacute; consiste el t&eacute;rmino previsto en el art&iacute;culo 490 del Estatuto Tributario, respecto a que la inexistencia de operaciones determinar&aacute; la postergaci&oacute;n del c&oacute;mputo al per&iacute;odo fiscal siguiente en el que se verifique alguna de ellas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93130-2011",
+      "tipo": "oficio",
+      "numero": "93130",
+      "fecha": "2011-11-28",
+      "tema": "Solicita reconsiderar el Concepto 263 de noviembre 16 de 2006, respecto de la respuesta dada al interrogante n&uacute;mero tres (3), en cuanto se concluy&oacute; que los responsables de IVA no obligados a llevar contabilidad, solo podr&aacute;n registrar los impuestos descontables en el per&iacute;odo fiscal correspondiente a la fecha de pago o en uno de los dos per&iacute;odos bimestrales inmediatamente siguientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36083-2009",
+      "tipo": "oficio",
+      "numero": "36083",
+      "fecha": "2009-05-06",
+      "tema": "Consulta si en los contratos de cuentas en participaci&oacute;n en la actividad porc&iacute;cola, el depositante del ganado puede solicitar la devoluci&oacute;n o compensaci&oacute;n del impuesto sobre las ventas pagado durante el proceso de gestaci&oacute;n y cr&iacute;a y el depositario el impuesto sobre las ventas pagado durante el proceso de levante y ceba, teniendo en cuenta que el depositante es el propietario del ganado y quien env&iacute;a los cerdos para su sacrificio y luego factura la carne en canal a sus clientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69584-2008",
+      "tipo": "oficio",
+      "numero": "69584",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Un avicultor puede solicitar como impuesto descontable y ser objeto de devoluci&oacute;n y-o compensaci&oacute;n el impuesto sobre las ventas que se pague en la adquisici&oacute;n, levante y gastos inherentes a las gallinas ponedoras en etapa improductiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67929-2006",
+      "tipo": "oficio",
+      "numero": "67929",
+      "fecha": "2006-08-15",
+      "tema": "&iquest;Siendo importador de mercanc&iacute;as desea corregir algunas declaraciones de importaci&oacute;n correspondientes al a&ntilde;o 2003, con el objeto de incrementar el valor declarado, con lo cual se generan mayores tributos aduaneros, sanciones e intereses y, por consiguiente, mayor impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55271-2006",
+      "tipo": "oficio",
+      "numero": "55271",
+      "fecha": "2006-07-05",
+      "tema": "Preguntas relacionadas con la retenci&oacute;n del impuesto sobre las ventas, en operaciones con responsables del r&eacute;gimen simplificado, cuando el agente retenedor es una empresa estatal de servicios p&uacute;blicos, que es responsable del impuesto sobre las ventas en raz&oacute;n de los ingresos gravados adicionales que percibe",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52580-2006",
+      "tipo": "oficio",
+      "numero": "52580",
+      "fecha": "2006-06-21",
+      "tema": "&iquest; Cu&aacute;l es el manejo que debe darse al retiro de concentrado elaborado por una compa&ntilde;&iacute;a que levanta, sacrifica o hace sacrificar animales a los que se refiere el art&iacute;culo 477 del Estatuto Tributario y comercializa la carne de los animales producidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22062-2006",
+      "tipo": "oficio",
+      "numero": "22062",
+      "fecha": "2006-03-15",
+      "tema": "&iquest;Es descontable el IVA generado en la compra de bienes y servicios por parte del adquiriente en su declaraci&oacute;n del impuesto sobre las ventas, cuando este impuesto a&uacute;n no ha sido cancelado al responsable del impuesto?&iquest;Es aplicable la responsabilidad penal consagrada en el art&iacute;culo 665 del estatuto Tributario al responsable del impuesto por la no consignaci&oacute;n oportuna del mismo cuando dicho impuesto a&uacute;n no ha sido recaudado toda vez que el adquiriente a&uacute;n no lo ha cancelado al vendedor o prestador del servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007097-2006",
+      "tipo": "concepto",
+      "numero": "0007097",
+      "fecha": "2006-01-24",
+      "tema": "El descuento especial del impuesto sobre las ventas por adquisici&oacute;n o importaci&oacute;n de maquinaria industrial por parte de los productores de bienes exentos o exportadores &iquest;est&aacute; limitado a los porcentajes anuales indicados en el inciso 2&deg; del art&iacute;culo 485-2 del Estatuto Tributario? - &iquest;C&oacute;mo opera el descuento especial del IVA previsto en el art&iacute;culo 485-2 del Estatuto Tributario cuando el responsable desarrolla simult&aacute;neamente operaciones gravadas, exentas y excluidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0263-2006",
+      "tipo": "oficio",
+      "numero": "0263",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para verificar el adecuado manejo de la cuenta denominada Impuesto sobre las ventas e Impuesto a las ventas retenido, as&iacute; como otros requisitos de car&aacute;cter contable, por parte de los nuevos responsables del IVA de que trata el art&iacute;culo 477 del Estatuto Tributario, que ejercen actividades diferentes a las comerciales y en consecuencia no est&aacute;n obligados a llevar libros de contabilidad? Devoluci&oacute;n de saldos a favor, personas no obligadas a llevar libros de contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052251-2005",
+      "tipo": "concepto",
+      "numero": "0052251",
+      "fecha": "2005-08-02",
+      "tema": "&iquest;Pueden los usuarios aduaneros permanentes solicitar como descontable el IVA generado en la importaci&oacute;n de bienes corporales muebles, causado y no pagado dentro del bimestre, por haberse acogido al plazo adicional contemplado en el art&iacute;culo 34 del Decreto 2685 de 1999, modificado por el Art&iacute;culo 3o. del Decreto 4135 de 2004?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47300-2005",
+      "tipo": "oficio",
+      "numero": "47300",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Un contratista, que en la fecha de celebraci&oacute;n del contrato de prestaci&oacute;n de servicios, se encontraba inscrito en el r&eacute;gimen simplificado, y que al momento de liquidar el contrato est&aacute; inscrito en el r&eacute;gimen com&uacute;n, &iquest;debe facturar el IVA sobre los honorarios y quien debe asumir este impuesto teniendo en cuenta que en el contrato no qued&oacute; estipulado ning&uacute;n tipo de gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9664-2005",
+      "tipo": "oficio",
+      "numero": "9664",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es posible exigir el traslado al r&eacute;gimen com&uacute;n a una persona natural que pertenece al r&eacute;gimen simplificado y que presta sus servicios a varias empresas de un mismo grupo econ&oacute;mico y que sumando la totalidad de los pagos acumulados de las empresas supera los topes de ingresos para pertenecer a dicho r&eacute;gimen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8526-2005",
+      "tipo": "oficio",
+      "numero": "8526",
+      "fecha": "2005-03-16",
+      "tema": "&iquest;Se debe descontar la retenci&oacute;n en la fuente, el impuesto sobre las ventas y el impuesto de timbre, en el pago de los servicios p&uacute;blicos domiciliarios, seg&uacute;n las actividades desarrolladas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-85534-2004",
+      "tipo": "oficio",
+      "numero": "85534",
+      "fecha": "2004-12-03",
+      "tema": "&iquest;Los responsables del r&eacute;gimen com&uacute;n pueden solicitar como descontable el 50% del IVA pagado en la adquisici&oacute;n o importaci&oacute;n de activos fijos, de que trata el art&iacute;culo 485-2 del Estatuto Tributario, en el mismo bimestre de su adquisici&oacute;n y-o en los cinco bimestres siguientes que abarcan el primer a&ntilde;o contado a partir de su adquisici&oacute;n o importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60508-2004",
+      "tipo": "oficio",
+      "numero": "60508",
+      "fecha": "2004-09-13",
+      "tema": "&iquest;Cu&aacute;l es la oportunidad para registrar, declarar y solicitar los impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9128-2004",
+      "tipo": "oficio",
+      "numero": "9128",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento que deben darle al Impuesto sobre las Ventas pagado en la adquisici&oacute;n o importaci&oacute;n de maquinaria industrial quienes producen simult&aacute;neamente bienes gravados, exentos y excluidos?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-7194-2004",
+      "tipo": "oficio",
+      "numero": "7194",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Qu&eacute; se entiende por Maquinaria Industrial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82084-2003",
+      "tipo": "oficio",
+      "numero": "82084",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Desde cu&aacute;ndo es procedente pedir como descontable el impuesto sobre las ventas facturado en el proceso de producci&oacute;n, comercializaci&oacute;n y distribuci&oacute;n del pescado, refrigerado, congelado y filete, bienes exentos, de conformidad con la modificaci&oacute;n introducida al art&iacute;culo 477 del Estatuto Tributario por el art&iacute;culo 31 de la Ley 788 de 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068065-1998",
+      "tipo": "concepto",
+      "numero": "0068065",
+      "fecha": "1998-08-31",
+      "tema": "&iquest;Se puede solicitar el IVA descontable sabiendo que ya pasaron los dos bimestres para la oportunidad de descuento?&iquest;Procede la devoluci&oacute;n o compensaci&oacute;n de un saldo a favor que surge con ocasi&oacute;n de la correcci&oacute;n a la declaraci&oacute;n inicial de IVA presentada en tiempo, cuando ha prescrito el t&eacute;rmino para solicitar impuestos descontables? En cuanto a la tercera inquietud, consideramos que la misma se encuentra resuelta en lo expresado en la respuesta a los problemas jur&iacute;dicos Nos. 1 y 2.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048612-1998",
+      "tipo": "concepto",
+      "numero": "0048612",
+      "fecha": "1998-06-24",
+      "tema": "&iquest;Una empresa que desarrolla simult&aacute;neamente la construcci&oacute;n de un inmueble y otra obra donde la base gravable es el 100% del costo, c&oacute;mo lleva los impuestos descontables sino puede determinar con exactitud que gastos se asignan a una y otra obra? &iquest;Qu&eacute; sucede con el IVA descontable cuando la empresa no ejecuta ninguna obra e incurre en gastos? &iquest;Al registrar contablemente costos y gastos de diciembre de 1997 en 1998, se deben llevar como no deducibles en 1998, y obtener el descuento de IVA y aplicar la retenci&oacute;n por este impuesto? &iquest;A una empresa que se le practico retenci&oacute;n por IVA en el bimestre noviembre- diciembre de 1997, puede registrar la venta y retenci&oacute;n en ese bimestre y llevarla a la declaraci&oacute;n del bimestre marzo- abril de 1998? &iquest;Una persona natural por el hecho de poseer aportes sociales, debe declarar renta as&iacute; no cumpla con los topes ni dem&aacute;s requisitos para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048609-1998",
+      "tipo": "concepto",
+      "numero": "0048609",
+      "fecha": "1998-06-24",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a que se encuentra en per&iacute;odo improductivo y carga sus costos y gastos a activos diferidos amortizables:&iquest;Puede descontar el IVA de tales rubros en el bimestre correspondiente, o comenzar a descontar cuando se comiencen a generar ingresos y la amortizaci&oacute;n de tales costos y gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021994-1998",
+      "tipo": "concepto",
+      "numero": "0021994",
+      "fecha": "1998-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009548-1998",
+      "tipo": "concepto",
+      "numero": "0009548",
+      "fecha": "1998-02-17",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018709-1997",
+      "tipo": "concepto",
+      "numero": "0018709",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094928-1996",
+      "tipo": "concepto",
+      "numero": "0094928",
+      "fecha": "1996-12-11",
+      "tema": "Cu&aacute;l es el manejo del IVA sobre productos derivados del petr&oacute;leo importados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053955-1994",
+      "tipo": "concepto",
+      "numero": "0053955",
+      "fecha": "1994-09-07",
+      "tema": "&iquest;En el bimestre en que se paga el gasto se puede descontar el IVA correspondiente, o debe hacerse cuando se produzca la facturaci&oacute;n del servicio que involucra los gastos efectuados?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

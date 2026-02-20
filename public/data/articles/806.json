@@ -1,1 +1,126 @@
-{"id_articulo": "Art. 806", "titulo": "Art. 806. Pago con títulos y certificados.", "titulo_corto": "Pago con títulos y certificados.", "slug": "806", "url_origen": "https://estatuto.co/806", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "Los Títulos de Devolución de Impuestos sólo servirán para cancelar impuestos o derechos administrados por las Direcciones de Impuestos o de Aduanas, dentro del año calendario siguiente a la fecha de su expedición. *Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los Títulos de Devolución de Impuestos sólo servirán para cancelar impuestos o derechos administrados por las Direcciones de Impuestos o de Aduanas, dentro del año calendario siguiente a la fecha de su expedición.</p>\n<p><span style=\"color: #339966;\"><del>*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.</del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 223 de 1995 Art. 285.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "285"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": ["*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.", "full_length": 117}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 806",
+  "titulo": "Art. 806. Pago con títulos y certificados.",
+  "titulo_corto": "Pago con títulos y certificados.",
+  "slug": "806",
+  "url_origen": "https://estatuto.co/806",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "Los Títulos de Devolución de Impuestos sólo servirán para cancelar impuestos o derechos administrados por las Direcciones de Impuestos o de Aduanas, dentro del año calendario siguiente a la fecha de su expedición. *Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los Títulos de Devolución de Impuestos sólo servirán para cancelar impuestos o derechos administrados por las Direcciones de Impuestos o de Aduanas, dentro del año calendario siguiente a la fecha de su expedición.</p>\n<p><span style=\"color: #339966;\"><del>*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 223 de 1995 Art. 285.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "285"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [
+    "*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los Certificados de Desarrollo Turístico sirven para pagar por su valor nominal, toda clase de impuestos nacionales.",
+      "full_length": 117
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 6054 (2025-05-14): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6054-2025",
+      "tipo": "oficio",
+      "numero": "6054",
+      "fecha": "2025-05-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17105-2019",
+      "tipo": "oficio",
+      "numero": "17105",
+      "fecha": "2019-07-03",
+      "tema": "T&iacute;tulos de Devoluci&oacute;n de Impuestos TIDIS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25017-2017",
+      "tipo": "oficio",
+      "numero": "25017",
+      "fecha": "2017-09-15",
+      "tema": "Procesos de recobros, reclamaciones y reconocimiento y giro de recursos del aseguramiento en salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23871-2017",
+      "tipo": "oficio",
+      "numero": "23871",
+      "fecha": "2017-09-01",
+      "tema": "Extinci&oacute;n de la obligaci&oacute;n tributaria - pago de impuestos con bonos, t&iacute;tulos y certificados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41327-2014",
+      "tipo": "oficio",
+      "numero": "41327",
+      "fecha": "2014-07-14",
+      "tema": "Si en una Resoluci&oacute;n de devoluci&oacute;n se ordena la entrega de t&iacute;tulos TIDIS emisi&oacute;n 2014, &iquest;Cu&aacute;ndo se interpone recurso de reconsideraci&oacute;n contra esta decisi&oacute;n y se resuelve al a&ntilde;o siguiente, se entregar&iacute;an TIDIS emisi&oacute;n 2015 o 2014?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72388-2012",
+      "tipo": "oficio",
+      "numero": "72388",
+      "fecha": "2012-11-20",
+      "tema": "Devoluciones - T&iacute;tulos de Devoluci&oacute;n de Impuestos TIDIS",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-46804-2002",
+      "tipo": "concepto",
+      "numero": "46804",
+      "fecha": "2002-07-26",
+      "tema": "Pago de impuestos con documentos especiales tales como t&iacute;tulos, bonos, certificados o documentos similares",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0116733-2000",
+      "tipo": "concepto",
+      "numero": "0116733",
+      "fecha": "2000-11-29",
+      "tema": "&iquest;Cuando se entiende expedido un T&iacute;tulo de Devoluci&oacute;n de Impuestos (TIDIS)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029073-1993",
+      "tipo": "concepto",
+      "numero": "0029073",
+      "fecha": "1993-01-01",
+      "tema": "Extinci&oacute;n de la obligaci&oacute;n tributaria y pago de impuestos en dolares",
+      "vigente": true
+    }
+  ]
+}

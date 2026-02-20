@@ -1,1 +1,176 @@
-{"id_articulo": "Art. 430", "titulo": "Art. 430. Causación del impuesto sobre la venta de cerveza.", "titulo_corto": "Causación del impuesto sobre la venta de cerveza.", "slug": "430", "url_origen": "https://estatuto.co/430", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 1, "contenido_texto": "El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 1, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018"], "texto_derogado": ["El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país."], "texto_derogado_parsed": [{"index": 0, "snippet": "El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.", "full_length": 178}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 430",
+  "titulo": "Art. 430. Causación del impuesto sobre la venta de cerveza.",
+  "titulo_corto": "Causación del impuesto sobre la venta de cerveza.",
+  "slug": "430",
+  "url_origen": "https://estatuto.co/430",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "El impuesto sobre el consumo de cervezas de producción nacional, se causa en el momento en que el artículo sea entregado por el productor para su distribución o venta en el país.",
+      "full_length": 178
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 902910 (2022-04-07): Impuesto sobre las ventas- Venta de cervezas y venta de derivados del combustible",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-902910-2022",
+      "tipo": "oficio",
+      "numero": "902910",
+      "fecha": "2022-04-07",
+      "tema": "Impuesto sobre las ventas- Venta de cervezas y venta de derivados del combustible",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2011-2019",
+      "tipo": "oficio",
+      "numero": "2011",
+      "fecha": "2019-07-30",
+      "tema": "(Int 2011) Aplicaci&oacute;n del impuesto sobre las ventas (IVA) para las cervezas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21319-2019",
+      "tipo": "oficio",
+      "numero": "21319",
+      "fecha": "2019-08-28",
+      "tema": "Causaci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5838-2019",
+      "tipo": "oficio",
+      "numero": "5838",
+      "fecha": "2019-03-07",
+      "tema": "Impuesto Sobre las Ventas Sobre Cervezas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0283-2018",
+      "tipo": "oficio",
+      "numero": "0283",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;El que las denominadas cervezas sin alcohol, de conformidad con el Decreto 1686 de 2012, sean consideradas como alimento, implica para efectos de los tributos nacionales un tratamiento diferente a aquellas cervezas consideradas como bebidas alcoh&oacute;licas?&iquest;Las cervezas sin alcohol de producci&oacute;n nacional se encuentran gravadas con el impuesto sobre las ventas?&iquest;Cu&aacute;l es la base gravable? &iquest;Puede afectarse con impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8146-2016",
+      "tipo": "oficio",
+      "numero": "8146",
+      "fecha": "2016-04-12",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008146-2016",
+      "tipo": "concepto",
+      "numero": "0008146",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9295-2015",
+      "tipo": "oficio",
+      "numero": "9295",
+      "fecha": "2015-01-01",
+      "tema": "- (Tributario) &iquest;Las denominadas cervezas sin alcohol, de conformidad con el Decreto 1686 de 2012, sean consideradas como alimento, implica para efectos de los tributos nacionales un tratamiento diferente a aquellas cervezas consideradas como bebidas alcoh&oacute;licas?&iquest;Las cervezas sin alcohol de producci&oacute;n nacional se encuentran gravadas con el impuesto sobre las ventas?, &iquest;Cu&aacute;l es la base gravable? &iquest;Puede afectarse con impuestos descontables?&iquest;Las cervezas sin alcohol de procedencia extranjera introducidas al territorio nacional aduanero, se encuentran gravados con el IVA?, Cu&aacute;l es la base gravable?, Puede afectarse con impuestos descontables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88872-2005",
+      "tipo": "oficio",
+      "numero": "88872",
+      "fecha": "2005-11-30",
+      "tema": "&iquest;El beneficio de auditoria consagrados en el art&iacute;culo 689-1 del E.T., es extensivo al IVA y retenci&oacute;n en la fuente de los respectivos a&ntilde;os gravables?&iquest;Un contribuyente persona natural perteneciente al r&eacute;gimen com&uacute;n, con actividad econ&oacute;mica comercial y obligado a llevar libros de contabilidad debe contabilizar la totalidad de los activos, pasivos, ingresos y gastos, as&iacute; no est&eacute;n relacionados con la actividad econ&oacute;mica productora de renta?&iquest; Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los desembolsos por el pago de cuotas hipotecarias de vivienda, tarjetas de cr&eacute;dito, compra de mercado, medicina, educaci&oacute;n, vestuario, y en general todos aquellos gastos necesarios para la manutenci&oacute;n del contribuyente y su familia?&iquest;Cu&aacute;l es el tratamiento en el impuesto sobre la renta de los ingresos y gastos diferidos reexpresados como consecuencia de la inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084627-1995",
+      "tipo": "concepto",
+      "numero": "0084627",
+      "fecha": "1995-12-01",
+      "tema": "En qu&eacute; momento se causa el impuesto al consumo en la importaci&oacute;n de cervezas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028450-1989",
+      "tipo": "concepto",
+      "numero": "0028450",
+      "fecha": "1989-01-01",
+      "tema": "El servicio de larga distancia utilizado por TELECOM no causa IVA",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

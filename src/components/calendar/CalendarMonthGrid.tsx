@@ -94,19 +94,41 @@ export function CalendarMonthGrid({
             <div
               key={`${day ?? "empty"}-${idx}`}
               className={clsx(
-                "min-h-[120px] rounded-md border border-border/60 p-2",
-                day ? "bg-background" : "bg-muted/20"
+                "group relative min-h-[120px] rounded-md border border-border/60 p-2 transition-all",
+                day ? "bg-background hover:border-foreground/40 hover:shadow-sm" : "bg-muted/20"
               )}
             >
               {day && (
                 <>
                   <div className="mb-1 text-right text-xs font-semibold text-foreground">{day}</div>
+                  
+                  {/* Tooltip Popup */}
+                  {events.length > 0 && (
+                    <div className="invisible absolute bottom-full left-1/2 z-30 mb-2 w-64 -translate-x-1/2 rounded-lg bg-foreground p-3 text-background shadow-xl group-hover:visible">
+                      <p className="mb-2 text-xs font-bold border-b border-background/20 pb-1">
+                        Vencimientos {day} de {formatMonthLabel(monthDate)}
+                      </p>
+                      <ul className="space-y-2">
+                        {events.map((e) => (
+                          <li key={e.id} className="space-y-0.5">
+                            <div className="flex items-center gap-1.5 font-medium leading-tight">
+                              <span className={clsx("h-1.5 w-1.5 rounded-full bg-background", e.tipoPuntoClassName)} />
+                              <span className="text-[10px] uppercase tracking-wide opacity-80">{e.etiquetaTipo}</span>
+                            </div>
+                            <p className="text-[11px] leading-snug">{e.obligacion}</p>
+                            <p className="text-[9px] opacity-70">NIT termina en: {e.ultimoDigito}</p>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="absolute left-1/2 top-full -translate-x-1/2 border-[6px] border-transparent border-t-foreground" />
+                    </div>
+                  )}
+
                   <div className="space-y-1.5">
                     {events.slice(0, 3).map((event) => (
                       <div
                         key={event.id}
                         className="rounded border border-border/50 bg-muted/30 px-1.5 py-1 text-[11px] leading-tight"
-                        title={`${event.obligacion} • NIT ${event.ultimoDigito}`}
                       >
                         <div className="flex items-center gap-1">
                           <span className={clsx("h-1.5 w-1.5 shrink-0 rounded-full", event.tipoPuntoClassName)} />

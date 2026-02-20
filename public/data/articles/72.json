@@ -1,1 +1,833 @@
-{"id_articulo": "Art. 72", "titulo": "Art. 72. Avaluó como costo fiscal.", "titulo_corto": "Avaluó como costo fiscal.", "slug": "72", "url_origen": "https://estatuto.co/72", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "El avalúo declarado para los fines del Impuesto Predial Unificado, en desarrollo de lo dispuesto por los artículos 13 y 14 de la ley 44 de 1990 y 155 del Decreto 1421 de 1993, y los avalúos formados o actualizados por las autoridades catastrales, en los términos del artículo 5o. de la Ley 14 de 1983, podrán ser tomados como costo fiscal para la determinación de la renta o ganancia ocasional que se produzca en la enajenación de inmuebles que constituyan activos fijos para el contribuyente. Para estos fines, el auto-avalúo o avalúo aceptable como costo fiscal, será el que figure en la declaración del Impuesto Predial Unificado y/o declaración de renta, según el caso, correspondiente al año anterior al de la enajenación. Para este propósito no se tendrán en cuenta las correcciones o adiciones a las declaraciones tributarias ni los avalúos no formados a los cuales se refiere el artículo 7o. de la Ley 14 de 1983. *En caso de tomarse como costo fiscal el avalúo o auto-avalúo, en el momento de la enajenación del inmueble, se restarán del costo fiscal las depreciaciones que hayan sido deducidas para fines fiscales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El avalúo declarado para los fines del Impuesto Predial Unificado, en desarrollo de lo dispuesto por los artículos 13 y 14 de la ley 44 de 1990 y 155 del Decreto 1421 de 1993, y los avalúos formados o actualizados por las autoridades catastrales, en los términos del artículo 5o. de la Ley 14 de 1983, podrán ser tomados como costo fiscal para la determinación de la renta o ganancia ocasional que se produzca en la enajenación de inmuebles que constituyan activos fijos para el contribuyente.</p>\n<p>Para estos fines, el auto-avalúo o avalúo aceptable como costo fiscal, será el que figure en la declaración del Impuesto Predial Unificado y/o declaración de renta, según el caso, correspondiente al año anterior al de la enajenación.</p>\n<p>Para este propósito no se tendrán en cuenta las correcciones o adiciones a las declaraciones tributarias ni los avalúos no formados a los cuales se refiere el artículo 7o. de la Ley 14 de 1983.</p>\n<p><span class=\"verde\"><strong>*</strong>En caso de tomarse como costo fiscal el avalúo o auto-avalúo, en el momento de la enajenación del inmueble, se restarán del costo fiscal las depreciaciones que hayan sido deducidas para fines fiscales.</span></p>\n</span>", "modificaciones_raw": "* Inciso Adicionado Ley 1819 de 2016 Art. 51.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "51"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["90-2", "277"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 72",
+  "titulo": "Art. 72. Avaluó como costo fiscal.",
+  "titulo_corto": "Avaluó como costo fiscal.",
+  "slug": "72",
+  "url_origen": "https://estatuto.co/72",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "El avalúo declarado para los fines del Impuesto Predial Unificado, en desarrollo de lo dispuesto por los artículos 13 y 14 de la ley 44 de 1990 y 155 del Decreto 1421 de 1993, y los avalúos formados o actualizados por las autoridades catastrales, en los términos del artículo 5o. de la Ley 14 de 1983, podrán ser tomados como costo fiscal para la determinación de la renta o ganancia ocasional que se produzca en la enajenación de inmuebles que constituyan activos fijos para el contribuyente. Para estos fines, el auto-avalúo o avalúo aceptable como costo fiscal, será el que figure en la declaración del Impuesto Predial Unificado y/o declaración de renta, según el caso, correspondiente al año anterior al de la enajenación. Para este propósito no se tendrán en cuenta las correcciones o adiciones a las declaraciones tributarias ni los avalúos no formados a los cuales se refiere el artículo 7o. de la Ley 14 de 1983. *En caso de tomarse como costo fiscal el avalúo o auto-avalúo, en el momento de la enajenación del inmueble, se restarán del costo fiscal las depreciaciones que hayan sido deducidas para fines fiscales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El avalúo declarado para los fines del Impuesto Predial Unificado, en desarrollo de lo dispuesto por los artículos 13 y 14 de la ley 44 de 1990 y 155 del Decreto 1421 de 1993, y los avalúos formados o actualizados por las autoridades catastrales, en los términos del artículo 5o. de la Ley 14 de 1983, podrán ser tomados como costo fiscal para la determinación de la renta o ganancia ocasional que se produzca en la enajenación de inmuebles que constituyan activos fijos para el contribuyente.</p>\n<p>Para estos fines, el auto-avalúo o avalúo aceptable como costo fiscal, será el que figure en la declaración del Impuesto Predial Unificado y/o declaración de renta, según el caso, correspondiente al año anterior al de la enajenación.</p>\n<p>Para este propósito no se tendrán en cuenta las correcciones o adiciones a las declaraciones tributarias ni los avalúos no formados a los cuales se refiere el artículo 7o. de la Ley 14 de 1983.</p>\n<p><span class=\"verde\"><strong>*</strong>En caso de tomarse como costo fiscal el avalúo o auto-avalúo, en el momento de la enajenación del inmueble, se restarán del costo fiscal las depreciaciones que hayan sido deducidas para fines fiscales.</span></p>\n</span>",
+  "modificaciones_raw": "* Inciso Adicionado Ley 1819 de 2016 Art. 51.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "51"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "90-2",
+    "277"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 15 concepto(s) relacionado(s). Jurisprudencia: 12 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8692 (2023-07-11): (Int 770) Impuesto al patrimonio - Base gravable del impuesto\noficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8692-2023",
+      "tipo": "oficio",
+      "numero": "8692",
+      "fecha": "2023-07-11",
+      "tema": "(Int 770) Impuesto al patrimonio - Base gravable del impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18064-2025",
+      "tipo": "oficio",
+      "numero": "18064",
+      "fecha": "2025-11-04",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11212-2025",
+      "tipo": "oficio",
+      "numero": "11212",
+      "fecha": "2025-08-20",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3406-2025",
+      "tipo": "oficio",
+      "numero": "3406",
+      "fecha": "2025-03-19",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10622-2024",
+      "tipo": "oficio",
+      "numero": "10622",
+      "fecha": "2024-12-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1941-2024",
+      "tipo": "oficio",
+      "numero": "1941",
+      "fecha": "2024-03-13",
+      "tema": "(Int 179) Impuesto Nacional al Consumo - Prohibici&oacute;n de productos pl&aacute;sticos de un solo uso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914975-2021",
+      "tipo": "oficio",
+      "numero": "914975",
+      "fecha": "2021-12-06",
+      "tema": "Impuesto sobre la renta - Ajuste al costo de los activos fijos Valor patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912705-2021",
+      "tipo": "oficio",
+      "numero": "912705",
+      "fecha": "2021-10-11",
+      "tema": "&iquest;Los bienes de inter&eacute;s cultural forman parte del patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910706-2021",
+      "tipo": "oficio",
+      "numero": "910706",
+      "fecha": "2021-09-27",
+      "tema": "(Int 0342) Impuesto sobre la renta - Ajuste al costo fiscal de los activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910055-2021",
+      "tipo": "oficio",
+      "numero": "910055",
+      "fecha": "2021-09-17",
+      "tema": "Costo fiscal de bienes inmuebles, interpretaci&oacute;n art&iacute;culo 72 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908675-2021",
+      "tipo": "oficio",
+      "numero": "908675",
+      "fecha": "2021-08-26",
+      "tema": "Impuesto sobre la renta - Avalu&oacute; como costo fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903255-2021",
+      "tipo": "oficio",
+      "numero": "903255",
+      "fecha": "2021-01-01",
+      "tema": "Costo fiscal de bienes inmuebles - Autoaval&uacute;o o aval&uacute;o aceptable como costo fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902955-2021",
+      "tipo": "oficio",
+      "numero": "902955",
+      "fecha": "2021-04-07",
+      "tema": "Retenci&oacute;n en la fuente por dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902628-2021",
+      "tipo": "oficio",
+      "numero": "902628",
+      "fecha": "2021-03-26",
+      "tema": "(Int 0104) Impuesto sobre la renta - Renta vitalicia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902571-2020",
+      "tipo": "oficio",
+      "numero": "902571",
+      "fecha": "2020-06-23",
+      "tema": "Determinaci&oacute;n del beneficio neto o excedente, as&iacute; como la venta y adquisici&oacute;n de un inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5286-2020",
+      "tipo": "oficio",
+      "numero": "5286",
+      "fecha": "2020-03-10",
+      "tema": "&iquest;C&oacute;mo se determina el valor patrimonial de un inmueble, situado en Colombia, cuyo propietario es una sociedad extranjera que est&aacute; obligada a llevar contabilidad seg&uacute;n la legislaci&oacute;n de la jurisdicci&oacute;n donde est&aacute; domiciliada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29885-2019",
+      "tipo": "oficio",
+      "numero": "29885",
+      "fecha": "2019-11-28",
+      "tema": "Costo de los activos fijos enajenados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29793-2019",
+      "tipo": "oficio",
+      "numero": "29793",
+      "fecha": "2019-11-28",
+      "tema": "Ajuste de bienes ra&iacute;ces, acciones y aportes que sean activos fijos de personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21779-2019",
+      "tipo": "oficio",
+      "numero": "21779",
+      "fecha": "2019-09-02",
+      "tema": "Costo fiscal para determinar la renta o ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20981-2019",
+      "tipo": "oficio",
+      "numero": "20981",
+      "fecha": "2019-08-23",
+      "tema": "&iquest;En el caso de bienes inmuebles de personas naturales no obligadas a llevar contabilidad para los efectos del hecho generador del impuesto al patrimonio, el valor fiscal de los bienes inmuebles que se debe tener en cuenta cuando del mayor es el avalo catastral correspondiente al a&ntilde;o 2018, o el valor del aval&uacute;o a 1 de enero de 2019?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6720-2019",
+      "tipo": "oficio",
+      "numero": "6720",
+      "fecha": "2019-03-18",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional - Ingreso constitutivo de renta - Ingreso Gravable Costo de los Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4609-2019",
+      "tipo": "oficio",
+      "numero": "4609",
+      "fecha": "2019-02-25",
+      "tema": "Aplicaci&oacute;n de la estimaci&oacute;n del aval&uacute;o catastral aceptado por el Instituto Geogr&aacute;fico Agust&iacute;n Codazzi en la declaraci&oacute;n de renta del contribuyente del a&ntilde;o anterior o en el a&ntilde;o gravable actual",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-1543-2019",
+      "tipo": "oficio",
+      "numero": "1543",
+      "fecha": "2019-01-18",
+      "tema": "&iquest;Qu&eacute; responsabilidades cesan a partir de la fecha que se decreta la disoluci&oacute;n liquidaci&oacute;n y extinci&oacute;n de la sociedad y el acta registrando en la c&aacute;mara de comercio y ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1449-2019",
+      "tipo": "oficio",
+      "numero": "1449",
+      "fecha": "2019-01-15",
+      "tema": "Intervenci&oacute;n de la Administraci&oacute;n de Impuestos en Procesos de Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32424-2018",
+      "tipo": "oficio",
+      "numero": "32424",
+      "fecha": "2018-11-02",
+      "tema": "Deducci&oacute;n por Deudas de Dif&iacute;cil Cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13469-2018",
+      "tipo": "oficio",
+      "numero": "13469",
+      "fecha": "2018-05-22",
+      "tema": "Depreciaci&oacute;n acelerada para fines fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1750-2018",
+      "tipo": "oficio",
+      "numero": "1750",
+      "fecha": "2018-10-08",
+      "tema": "Costo de los activos fijos enajenados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0785-2018",
+      "tipo": "oficio",
+      "numero": "0785",
+      "fecha": "2018-05-22",
+      "tema": "Deducci&oacute;n por Deudas de Dif&iacute;cil Cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33240-2017",
+      "tipo": "oficio",
+      "numero": "33240",
+      "fecha": "2017-12-12",
+      "tema": "Limitaci&oacute;n de la deducci&oacute;n a aplicar en la tasa de depreciaci&oacute;n fiscal anual establecida en la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1244-2017",
+      "tipo": "oficio",
+      "numero": "1244",
+      "fecha": "2017-11-15",
+      "tema": "&iquest;A partir de qu&eacute; momento se empiezan a contar estos t&eacute;rminos, desde el d&iacute;a 29 de diciembre de 2016 fecha de entrada en vigencia de la ley o desde el 1 de enero de 2017 fecha en que comienza el periodo fiscal en el impuesto sobre la renta.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34403-2015",
+      "tipo": "oficio",
+      "numero": "34403",
+      "fecha": "2015-12-01",
+      "tema": "Consulta el tratamiento tributario de un activo fijo, espec&iacute;ficamente los temas de p&eacute;rdidas en la enajenaci&oacute;n de activos, impuesto de ganancia ocasional y renta especial por recuperaci&oacute;n de la depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29883-2015",
+      "tipo": "oficio",
+      "numero": "29883",
+      "fecha": "2015-10-16",
+      "tema": "&iquest;Cu&aacute;l es el costo de venta para los activos omitidos y normalizados en virtud del art&iacute;culo 35 de la Ley 1739 de 2014, enajenados o vendidos en el mismo periodo en que se acogieron o se acojan a esta disposici&oacute;n, para estos casos en particular no aplicar&iacute;a el art&iacute;culo 72 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26681-2015",
+      "tipo": "oficio",
+      "numero": "26681",
+      "fecha": "2015-09-24",
+      "tema": "&iquest;Se encuentra vigente el numeral 3 del Acta de Comit&eacute; de Direcci&oacute;n No. 002 de 2003 correspondiente a la sesi&oacute;n del 25 de marzo de 2003, en la cual se dispuso la aceptaci&oacute;n de la deducibilidad de todas las provisiones individuales sobre cartera de cr&eacute;dito para las entidades vigiladas por la Superintendencia Financiera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7799-2015",
+      "tipo": "oficio",
+      "numero": "7799",
+      "fecha": "2015-03-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57065-2014",
+      "tipo": "oficio",
+      "numero": "57065",
+      "fecha": "2014-10-03",
+      "tema": "&iquest;Cu&aacute;les son las normas que regulan el r&eacute;gimen de la inversi&oacute;n extranjera en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49817-2014",
+      "tipo": "oficio",
+      "numero": "49817",
+      "fecha": "2014-08-19",
+      "tema": "&iquest;En un proceso de liquidaci&oacute;n forzosa en el que una sociedad cuenta con un activo fijo, bien inmueble, que es objeto de aval&uacute;o por un auxiliar de justicia, la diferencia entre el valor establecido en el aval&uacute;o catastral y el mayor valor del aval&uacute;o pericial, al momento de graduar los cr&eacute;ditos para efectos de la cesi&oacute;n de bienes a favor de los acreedores, es un ingreso y por tanto, es necesario que el agente liquidador depure y pague el impuesto a cargo por ese concepto en el impuesto de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28052-2014",
+      "tipo": "oficio",
+      "numero": "28052",
+      "fecha": "2014-01-01",
+      "tema": "Normas fiscales que determinan los conceptos y ajustes que conforman el costo fiscal de los bienes y el valor patrimonial de los mismos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6155-2014",
+      "tipo": "oficio",
+      "numero": "6155",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Es exigible el pago del impuesto de timbre por un contrato de cuant&iacute;a indeterminada suscrito en el a&ntilde;o 2007, a cargo de un contratista que no cancel&oacute; algunos valores causados en vigencia del Concepto No. 064693 del 7 de julio de 2008, posteriormente declarado nulo mediante Sentencia del Consejo de Estado del 3 de marzo de 2011?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79810-2013",
+      "tipo": "oficio",
+      "numero": "79810",
+      "fecha": "2013-12-12",
+      "tema": "&iquest;Al tenor del art&iacute;culo 103 de la Ley 1607 de 2012, cual es el valor que se debe tener en cuenta en los actos de enajenaci&oacute;n con reserva de usufructo si el 100% o el 70% del aval&uacute;o catastral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73472-2013",
+      "tipo": "oficio",
+      "numero": "73472",
+      "fecha": "2013-11-19",
+      "tema": "Solicita aclarar el Oficio 25322 de 30 de abril de 2013 emitido por la Direcci&oacute;n de Gesti&oacute;n Jur&iacute;dica, en el sentido de indicar el procedimiento que se debe aplicar para el c&aacute;lculo de la retenci&oacute;n en la fuente, el porcentaje y concepto de los pagos que se realizan a los ediles y especificar las deducciones aplicables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72430-2013",
+      "tipo": "oficio",
+      "numero": "72430",
+      "fecha": "2013-11-13",
+      "tema": "&iquest;Genera renta gravable en cabeza de una sociedad que aporta a otra sociedad un bien inmueble cuyo costo fiscal, en cabeza del aportante es inferior a su valor comercial y recibe acciones en la receptora por valor nominal igual al valor comercial del bien aportado?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-69997-2013",
+      "tipo": "oficio",
+      "numero": "69997",
+      "fecha": "2013-10-31",
+      "tema": "&iquest;Debe o no declararse la renta l&iacute;quida por la recuperaci&oacute;n de las al&iacute;cuotas de deducci&oacute;n solicitadas respecto de activos fijos reales productivos sobre los que, habi&eacute;ndose solicitado la deducci&oacute;n por su adquisici&oacute;n de acuerdo con el Art. 158-2 del Estatuto Tributario (entiende el Despacho - antes de la adici&oacute;n del Par&aacute;grafo 3o que a este art&iacute;culo hizo el art&iacute;culo 1 de la Ley 1430 de 2010), son aportados a sociedades nacionales -cumpliendo las condiciones del art&iacute;culo 319 del Estatuto Tributario- antes del vencimiento del t&eacute;rmino de depreciaci&oacute;n o amortizaci&oacute;n, seg&uacute;n la naturaleza del bien objeto del aporte?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-25961-2013",
+      "tipo": "oficio",
+      "numero": "25961",
+      "fecha": "2013-04-30",
+      "tema": "&iquest;Cu&aacute;l es la norma aplicable para determinar el costo fiscal de un inmueble enajenado en el a&ntilde;o 2011, que en el a&ntilde;o 2009 fue adquirido por la sociedad mediante el ejercicio de la opci&oacute;n de compra de un contrato de leasing suscrito en el 2004?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75199-2012",
+      "tipo": "oficio",
+      "numero": "75199",
+      "fecha": "2012-12-01",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial del derecho de usufructo cuyo origen es un fedeicomiso civil constituido sobre un inmueble cuando ha sido cedido a t&iacute;tulo gratuito y el valor patrimonial de dicho bien &eacute;l tiene por objeto la limitaci&oacute;n del dominio mediante el fideicomiso civil y, cu&aacute;l el de un bien inmueble que ha sido objeto de limitaci&oacute;n del dominio mediante la constituci&oacute;n de un fideicomiso cuando se ha cedido el derecho de usufructo a un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53621-2012",
+      "tipo": "oficio",
+      "numero": "53621",
+      "fecha": "2012-08-23",
+      "tema": "Suscripci&oacute;n de acciones con pago en especie - Revalorizaci&oacute;n de acciones de una sociedad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29427-2012",
+      "tipo": "oficio",
+      "numero": "29427",
+      "fecha": "2012-05-08",
+      "tema": "&iquest;La Ley 49 de 1990 derog&oacute; el art&iacute;culo 207 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40374-2011",
+      "tipo": "oficio",
+      "numero": "40374",
+      "fecha": "2011-06-03",
+      "tema": "Forma de liquidar y pagar el impuesto de timbre aplicable a un contrato de concesi&oacute;n con valor estimado y un t&eacute;rmino de ejecuci&oacute;n de veinte a&ntilde;os, as&iacute; como la normativa aplicable en materia de dicho tributo desde el a&ntilde;o 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74321-2009",
+      "tipo": "oficio",
+      "numero": "74321",
+      "fecha": "2009-09-11",
+      "tema": "Solicita se corrobore si la interpretaci&oacute;n que efect&uacute;a al pronunciamiento emitido por este despacho a trav&eacute;s del Oficio No. 003577 del 18 de noviembre de 2008 es correcta - &iquest;La estimaci&oacute;n del aval&uacute;o catastral a que se refiere el art&iacute;culo 13 de la Ley 14 de 1983, presentada antes del 30 de junio del a&ntilde;o, puede ser llevada a la declaraci&oacute;n de renta y complementarios en ese mismo a&ntilde;o como valor patrimonial por los contribuyentes no obligados a llevar contabilidad, y en consecuencia, si tal valor puede ser tomado como costo fiscal en caso de que el inmueble se enajene al a&ntilde;o siguiente de la estimaci&oacute;n?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76724-2008",
+      "tipo": "oficio",
+      "numero": "76724",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;En una conmutaci&oacute;n pensional que efect&uacute;a una Sociedad con el ISS - respecto a las pensiones que adeuda y sobre las cuales no cotiz&oacute; en su momento, puede deducir el mayor valor o cargo a gastos, resultante de la diferencia entre la cifra del c&aacute;lculo actuarial que determina el Instituto de Seguro Social en la negociaci&oacute;n y el valor del c&aacute;lculo actuarial que ten&iacute;a la firma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38521-2008",
+      "tipo": "oficio",
+      "numero": "38521",
+      "fecha": "2008-04-18",
+      "tema": "&iquest; Para efectos de determinar la renta o ganancia ocasional, seg&uacute;n el caso, cuando un predio es desenglobado para efectuar una venta parcial, a los ingresos obtenidos por la porci&oacute;n que se vende puede imputarse como costo fiscal la parte proporcional del aval&uacute;o o autoaval&uacute;o del predio que se desengloba que figure en la declaraci&oacute;n del impuesto predial unificado del a&ntilde;o anterior y-o en la declaraci&oacute;n de renta del a&ntilde;o anterior al de enajenaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95985-2007",
+      "tipo": "oficio",
+      "numero": "95985",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Al desaparecer los ajustes por inflaci&oacute;n para los contribuyentes obligados a llevar contabilidad, el valor patrimonial en el caso de los inmuebles, las acciones y aportes en sociedades a partir del a&ntilde;o gravable 2007 es el costo fiscal ajustado por inflaci&oacute;n hasta el 31 de diciembre de 2006m&aacute;s el porcentaje de la UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38890-2007",
+      "tipo": "oficio",
+      "numero": "38890",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;cuando una sociedad que posee como &uacute;nico bien un edificio cuyo valor en libros es menor al autoaval&uacute;o, toma este &uacute;ltimo como costo fiscal para enajenarlo y si la diferencia del costo fiscal del bien por el autoaval&uacute;o versus su costo contable es un ingreso que se encuentre exceptuado en cabeza de la sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36695-2007",
+      "tipo": "oficio",
+      "numero": "36695",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de una herencia representada en un bien ra&iacute;z que se recibe en el a&ntilde;o 2006 y en el mismo a&ntilde;o se vende?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30734-2007",
+      "tipo": "oficio",
+      "numero": "30734",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La prestaci&oacute;n del servicio de ingenier&iacute;a se puede soportar en el Tratado Grupo de los Tres y si una empresa extranjera debe pagar impuestos en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28902-2007",
+      "tipo": "oficio",
+      "numero": "28902",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Es factible aplicar el art&iacute;culo 73 para determinar la renta o ganancia ocasional proveniente de la enajenaci&oacute;n de bienes ra&iacute;ces y luego a esa utilidad obtenida darle aplicaci&oacute;n al art&iacute;culo 44?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19350-2007",
+      "tipo": "oficio",
+      "numero": "19350",
+      "fecha": "2007-03-12",
+      "tema": "Sobre los efectos en impuestos del orden nacional del incremento de los autoaval&uacute;os y aval&uacute;os catastrales vigente a primero de enero de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5257-2007",
+      "tipo": "oficio",
+      "numero": "5257",
+      "fecha": "2007-01-24",
+      "tema": "&iquest;Se puede tratar como deducci&oacute;n la p&eacute;rdida que surge del costo fiscal ajustado por inflaci&oacute;n, cuando &eacute;ste supera el valor comercial de un terreno aportado a la fiducia mercantil inmobiliaria irrevocable , con base en los art&iacute;culos 318 y 352 del Estatuto Tributario? La renta o la ganancia ocasional causada por la venta de bienes inmuebles por parte de contribuyentes del impuesto, se determina con base en la utilidad surgida como diferencia positiva entre el precio de enajenaci&oacute;n y el costo fiscal del activo enajenado.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91291-2006",
+      "tipo": "oficio",
+      "numero": "91291",
+      "fecha": "2006-10-25",
+      "tema": "Solicita saber cu&aacute;l es el criterio de &eacute;ste despacho respecto de las normas objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68417-2006",
+      "tipo": "oficio",
+      "numero": "68417",
+      "fecha": "2006-08-16",
+      "tema": "&iquest;Cu&aacute;l es el valor patrimonial por el cual una entidad sin &aacute;nimo de lucro del r&eacute;gimen tributario especial, debe declarar los activos fijos inmuebles totalmente depreciados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019273-2006",
+      "tipo": "concepto",
+      "numero": "0019273",
+      "fecha": "2006-03-06",
+      "tema": "&iquest;Pueden los contribuyentes del r&eacute;gimen tributario especial tomar como egreso, para efectos de la determinaci&oacute;n del beneficio neto o excedente, el costo fiscal de un bien inmueble, activo fijo, en el a&ntilde;o de su enajenaci&oacute;n, cuando dicho bien se ha venido depreciaci&oacute;n anualmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061188-2005",
+      "tipo": "concepto",
+      "numero": "0061188",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es v&aacute;lido entender que el numeral 6 del art&iacute;culo 332 del estatuto tributario fue t&aacute;citamente derogado por el art&iacute;culo 4&ordm; de la ley 174 de 1994 (norma posterior) que expresamente modific&oacute; el art&iacute;culo 72 del mismo estatuto, autorizando tomar como costo fiscal de los inmuebles que constituyan activos fijos del contribuyente el valor del aval&uacute;o catastral o el autoeval&uacute;o declarado para los fines del impuesto predial unificado?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0013518-2005",
+      "tipo": "concepto",
+      "numero": "0013518",
+      "fecha": "2005-03-08",
+      "tema": "&iquest;C&oacute;mo se determina la renta bruta en la enajenaci&oacute;n de activos a t&iacute;tulo de permuta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002875-2005",
+      "tipo": "concepto",
+      "numero": "0002875",
+      "fecha": "2005-01-21",
+      "tema": "&iquest;Constituye renta gravable para el fideicomitente promotor, la diferencia entre el valor del aporte y el costo fiscal del bien aportado, cuando transfiere a t&iacute;tulo de fiducia mercantil inmobiliaria irrevocable, a favor del patrimonio aut&oacute;nomo, un terreno por su valor comercial, el cual es superior al costo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001358-2005",
+      "tipo": "concepto",
+      "numero": "0001358",
+      "fecha": "2005-03-08",
+      "tema": "&iquest;C&oacute;mo se determina la renta bruta en la enajenaci&oacute;n de activos a t&iacute;tulo de permuta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091434-2004",
+      "tipo": "concepto",
+      "numero": "0091434",
+      "fecha": "2004-12-30",
+      "tema": "&iquest;Un contribuyente que en el a&ntilde;o gravable 1995, en virtud de lo establecido en el art&iacute;culo 90-2 del estatuto tributario, ajust&oacute; al valor comercial los bienes ra&iacute;ces, puede excluir este valor, debidamente ajustado, del patrimonio base para liquidar el impuesto para preservar la seguridad democr&aacute;tica y el impuesto al patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89044-2004",
+      "tipo": "oficio",
+      "numero": "89044",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;Qu&eacute; factibilidad existe, de corregir la declaraci&oacute;n de renta presentada por una persona natural no obligada a declarar y con el valor patrimonial de las acciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026195-2002",
+      "tipo": "concepto",
+      "numero": "0026195",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cuando se adquiere un establecimiento de comercio por un valor inferior a su valor comercial, el super&aacute;vit, que se presenta est&aacute; sometido a alg&uacute;n gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0122451-2000",
+      "tipo": "concepto",
+      "numero": "0122451",
+      "fecha": "2000-12-20",
+      "tema": "&iquest;C&oacute;mo se determina la ganancia ocasional en la expropiaci&oacute;n de un bien inmueble en donde cinco personas son las propietarias del mismo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031549-1998",
+      "tipo": "concepto",
+      "numero": "0031549",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Al enajenarse inmuebles mediante contrato de permuta suscrito entre personas jur&iacute;dicas debe practicarse retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091815-1996",
+      "tipo": "concepto",
+      "numero": "0091815",
+      "fecha": "1996-11-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068741-1996",
+      "tipo": "concepto",
+      "numero": "0068741",
+      "fecha": "1996-09-03",
+      "tema": "&iquest;El aval&uacute;o comercial de los bienes ra&iacute;ces para el a&ntilde;o gravable de 1995, se constituye en valor patrimonial para el mismo a&ntilde;o y sirve para efectos de determinar la base de la renta presuntiva en el per&iacute;odo siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061230-1996",
+      "tipo": "concepto",
+      "numero": "0061230",
+      "fecha": "1996-08-01",
+      "tema": "&iquest;Cu&aacute;l es el costo de venta de un inmueble no sometido al saneamiento fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057656-1996",
+      "tipo": "concepto",
+      "numero": "0057656",
+      "fecha": "1996-07-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035510-1996",
+      "tipo": "concepto",
+      "numero": "0035510",
+      "fecha": "1996-05-02",
+      "tema": "&iquest;Cu&aacute;l es el costo de los inmuebles que son activos movibles y cu&aacute;l es el valor que se debe consignar en la escritura de compraventa? &iquest;Cu&aacute;l es el valor que se debe consignar en la escritura de venta de un bien ra&iacute;z?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012730-1995",
+      "tipo": "concepto",
+      "numero": "0012730",
+      "fecha": "1995-03-09",
+      "tema": "&iquest;Constituye costo fiscal en la enajenaci&oacute;n el autoaval&uacute;o de predios que tienen calidad de activos movibles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019788-1988",
+      "tipo": "concepto",
+      "numero": "0019788",
+      "fecha": "1988-10-03",
+      "tema": "Retenci&oacute;n en la fuente por facturaci&oacute;n de impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012229-1988",
+      "tipo": "concepto",
+      "numero": "0012229",
+      "fecha": "1988-06-22",
+      "tema": "&iquest;Emitido el Decreto 2503 de 1987 como estatuto que regula &iacute;ntegramente el procedimiento tributario, estableciendo los mecanismos para el control, determinaci&oacute;n, cobro y discusi&oacute;n de los impuestos al igual que las sanciones, se encuentran o no vigentes las siguientes normas:&iquest;El inciso 4o del art&iacute;culo 55 del Decreto Ley 2053 de 1974, y 8o del Decreto Ley 231 de 1983?&iquest;El articulo 6o de la Ley 52 de 1977, por Cuento el Decreto 2503 de 1987 derog&oacute; expresamente el art&iacute;culo 72 del Decreto Ley 3803 de 1982, que lo hab&iacute;a sustituido?&iquest;El numeral 3o del art&iacute;culo 34 de la Ley 2&ordf; de 1976, en cuanto a la no deducci&oacute;n de pagos que consten en instrumentos privados, si no se prueba el pago de dicho impuesto?",
+      "vigente": false
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-748-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "748",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

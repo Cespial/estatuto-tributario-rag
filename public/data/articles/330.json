@@ -1,1 +1,692 @@
-{"id_articulo": "Art. 330", "titulo": "Art. 330. Determinación cedular.", "titulo_corto": "Determinación cedular.", "slug": "330", "url_origen": "https://estatuto.co/330", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 6, "contenido_texto": "*La depuración de las rentas correspondientes a cada una de las cédulas a que se refiere este artículo se efectuará de manera independiente, siguiendo las reglas establecidas en el artículo 26 de este Estatuto aplicables a cada caso. El resultado constituirá la renta líquida cedular. Los conceptos de ingresos no constitutivos de renta, costos, gastos, deducciones, rentas exentas, beneficios tributarios y demás conceptos susceptibles de ser restados para efectos de obtener la renta líquida cedular, no podrán ser objeto de reconocimiento simultáneo en distintas cédulas ni generarán doble beneficio. La depuración se efectuará de modo independiente en las siguientes tres (3) cédulas: a. Rentas de trabajo, de capital y no laborales b. Rentas de pensiones, y c. Dividendos y participaciones. La cédula de dividendos y participaciones no admite costos ni deducciones. Las pérdidas incurridas dentro de una cédula solo podrán ser compensadas contra las rentas de la misma cédula, en los siguientes periodos gravables, teniendo en cuenta los límites y porcentajes de compensación establecidas en las normas vigentes. Parágrafo transitorio. Las pérdidas declaradas en períodos gravables anteriores al periodo gravable 2019 únicamente podrán ser imputadas en contra de la cédula general, teniendo en cuenta los límites y porcentajes de compensación establecidos en las normas vigentes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La depuración de las rentas correspondientes a cada una de las cédulas a que se refiere este artículo se efectuará de manera independiente, siguiendo las reglas establecidas en el <a href=\"https://estatuto.co/26\" rel=\"noopener\" target=\"_blank\">artículo 26</a> de este Estatuto aplicables a cada caso. El resultado constituirá la renta líquida cedular.</p>\n<p>Los conceptos de ingresos no constitutivos de renta, costos, gastos, deducciones, rentas exentas, beneficios tributarios y demás conceptos susceptibles de ser restados para efectos de obtener la renta líquida cedular, no podrán ser objeto de reconocimiento simultáneo en distintas cédulas ni generarán doble beneficio.</p>\n<p>La depuración se efectuará de modo independiente en las siguientes tres (3) cédulas:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Rentas de trabajo, de capital y no laborales</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Rentas de pensiones, y</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Dividendos y participaciones.</p>\n<p>La cédula de dividendos y participaciones no admite costos ni deducciones.</p>\n<p>Las pérdidas incurridas dentro de una cédula solo podrán ser compensadas contra las rentas de la misma cédula, en los siguientes periodos gravables, teniendo en cuenta los límites y porcentajes de compensación establecidas en las normas vigentes.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo transitorio. </span></strong>Las pérdidas declaradas en períodos gravables anteriores al periodo gravable 2019 </span>únicamente podrán ser imputadas en contra de la cédula general, teniendo en cuenta los límites y porcentajes de compensación establecidos en las normas vigentes.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 37 *Modificado Ley 1943 de 2018 Art. 29 *Modificado Ley 1819 de 2016 Art. 1.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "37"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "29"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "1"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["blecidos en las normas vigentes."]}, "total_normas": 1, "cross_references": ["26"], "referenced_by": ["331"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 330",
+  "titulo": "Art. 330. Determinación cedular.",
+  "titulo_corto": "Determinación cedular.",
+  "slug": "330",
+  "url_origen": "https://estatuto.co/330",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 6,
+  "contenido_texto": "*La depuración de las rentas correspondientes a cada una de las cédulas a que se refiere este artículo se efectuará de manera independiente, siguiendo las reglas establecidas en el artículo 26 de este Estatuto aplicables a cada caso. El resultado constituirá la renta líquida cedular. Los conceptos de ingresos no constitutivos de renta, costos, gastos, deducciones, rentas exentas, beneficios tributarios y demás conceptos susceptibles de ser restados para efectos de obtener la renta líquida cedular, no podrán ser objeto de reconocimiento simultáneo en distintas cédulas ni generarán doble beneficio. La depuración se efectuará de modo independiente en las siguientes tres (3) cédulas: a. Rentas de trabajo, de capital y no laborales b. Rentas de pensiones, y c. Dividendos y participaciones. La cédula de dividendos y participaciones no admite costos ni deducciones. Las pérdidas incurridas dentro de una cédula solo podrán ser compensadas contra las rentas de la misma cédula, en los siguientes periodos gravables, teniendo en cuenta los límites y porcentajes de compensación establecidas en las normas vigentes. Parágrafo transitorio. Las pérdidas declaradas en períodos gravables anteriores al periodo gravable 2019 únicamente podrán ser imputadas en contra de la cédula general, teniendo en cuenta los límites y porcentajes de compensación establecidos en las normas vigentes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La depuración de las rentas correspondientes a cada una de las cédulas a que se refiere este artículo se efectuará de manera independiente, siguiendo las reglas establecidas en el <a href=\"https://estatuto.co/26\" rel=\"noopener\" target=\"_blank\">artículo 26</a> de este Estatuto aplicables a cada caso. El resultado constituirá la renta líquida cedular.</p>\n<p>Los conceptos de ingresos no constitutivos de renta, costos, gastos, deducciones, rentas exentas, beneficios tributarios y demás conceptos susceptibles de ser restados para efectos de obtener la renta líquida cedular, no podrán ser objeto de reconocimiento simultáneo en distintas cédulas ni generarán doble beneficio.</p>\n<p>La depuración se efectuará de modo independiente en las siguientes tres (3) cédulas:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>Rentas de trabajo, de capital y no laborales</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>Rentas de pensiones, y</p>\n<p><strong><span style=\"color: #339966;\">c.</span> </strong>Dividendos y participaciones.</p>\n<p>La cédula de dividendos y participaciones no admite costos ni deducciones.</p>\n<p>Las pérdidas incurridas dentro de una cédula solo podrán ser compensadas contra las rentas de la misma cédula, en los siguientes periodos gravables, teniendo en cuenta los límites y porcentajes de compensación establecidas en las normas vigentes.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo transitorio. </span></strong>Las pérdidas declaradas en períodos gravables anteriores al periodo gravable 2019 </span>únicamente podrán ser imputadas en contra de la cédula general, teniendo en cuenta los límites y porcentajes de compensación establecidos en las normas vigentes.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 37 *Modificado Ley 1943 de 2018 Art. 29 *Modificado Ley 1819 de 2016 Art. 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "37"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "29"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "1"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "blecidos en las normas vigentes."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "26"
+  ],
+  "referenced_by": [
+    "331"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022\noficio 11866 (2025-08-29): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11866-2025",
+      "tipo": "oficio",
+      "numero": "11866",
+      "fecha": "2025-08-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4507-2025",
+      "tipo": "oficio",
+      "numero": "4507",
+      "fecha": "2025-04-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2025",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2025-04-04",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3863-2025",
+      "tipo": "oficio",
+      "numero": "3863",
+      "fecha": "2025-03-31",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902748-2022",
+      "tipo": "oficio",
+      "numero": "902748",
+      "fecha": "2022-03-31",
+      "tema": "Residencia fiscal y obligaci&oacute;n de declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902148-2022",
+      "tipo": "oficio",
+      "numero": "902148",
+      "fecha": "2022-03-17",
+      "tema": "Impuesto sobre la renta, personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906390-2021",
+      "tipo": "oficio",
+      "numero": "906390",
+      "fecha": "2021-06-30",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902630-2021",
+      "tipo": "oficio",
+      "numero": "902630",
+      "fecha": "2021-03-26",
+      "tema": "Impuesto sobre la renta y complementarios - diligenciamiento del Formulario 110",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906752-2020",
+      "tipo": "oficio",
+      "numero": "906752",
+      "fecha": "2020-11-11",
+      "tema": "Procedimiento tributario. Firmeza de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0359-2020",
+      "tipo": "oficio",
+      "numero": "0359",
+      "fecha": "2020-03-26",
+      "tema": "Deducci&oacute;n especial sobre el impuesto de renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1757-2019",
+      "tipo": "oficio",
+      "numero": "1757",
+      "fecha": "2019-07-30",
+      "tema": "(Int 1757) &iquest;Los bienes y servicios recibidos por los m&eacute;dicos de parte de los comercializadores, productores e importadores de productos farmac&eacute;uticos, constituyen ingresos que aumentan su patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25073-2019",
+      "tipo": "oficio",
+      "numero": "25073",
+      "fecha": "2019-10-04",
+      "tema": "&iquest;Una persona natural no residente en el pa&iacute;s obligada a presentar declaraci&oacute;n del impuesto sobre la renta puede hacer aportes a los Fondos de pensi&oacute;n e invalidez y fondos de cesant&iacute;as y acceder al beneficio de la no retenci&oacute;n y renta exenta por estos valores?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-24027-2019",
+      "tipo": "oficio",
+      "numero": "24027",
+      "fecha": "2019-09-23",
+      "tema": "Medios de Pago para la Aceptaci&oacute;n de Costos, Deducciones, Pasivos e Impuestos Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20047-2019",
+      "tipo": "oficio",
+      "numero": "20047",
+      "fecha": "2019-08-13",
+      "tema": "&iquest;C&oacute;mo funcionan los descuentos de impuestos para extranjeros en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18982-2019",
+      "tipo": "oficio",
+      "numero": "18982",
+      "fecha": "2019-07-23",
+      "tema": "- (Tributario) Efectos de la renta exenta laboral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15137-2019",
+      "tipo": "oficio",
+      "numero": "15137",
+      "fecha": "2019-06-11",
+      "tema": "Tratamiento tributario aplicable a los ingresos pasivos recibidos por una Entidad Controlada del Exterior, propiedad de un residente colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12876-2019",
+      "tipo": "oficio",
+      "numero": "12876",
+      "fecha": "2019-05-24",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32761-2018",
+      "tipo": "oficio",
+      "numero": "32761",
+      "fecha": "2018-11-09",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32753-2018",
+      "tipo": "oficio",
+      "numero": "32753",
+      "fecha": "2018-11-09",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta de una persona natural que recibi&oacute; para el a&ntilde;o gravable una suma de dinero correspondiente a un retroactivo pensional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32487-2018",
+      "tipo": "oficio",
+      "numero": "32487",
+      "fecha": "2018-11-07",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a una cesi&oacute;n de derechos de autor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0068-2018",
+      "tipo": "oficio",
+      "numero": "0068",
+      "fecha": "2018-02-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902867-2017",
+      "tipo": "oficio",
+      "numero": "902867",
+      "fecha": "2017-05-23",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6230-2017",
+      "tipo": "oficio",
+      "numero": "6230",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Utilidades Provenientes de Fondos de Inversi&oacute;n - Utilidades Provenientes de Fondos de Valores Utilidades Provenientes de Fondos Mutuos de Inversi&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-5984-2017",
+      "tipo": "oficio",
+      "numero": "5984",
+      "fecha": "2017-03-17",
+      "tema": "Impuesto sobre la Renta y Complementarios - Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n- Determinaci&oacute;n de la Renta L&iacute;quida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4884-2017",
+      "tipo": "oficio",
+      "numero": "4884",
+      "fecha": "2017-02-24",
+      "tema": "&iquest;Qu&eacute; se entiende por cedular dentro el contexto de la Ley 1819 de 2016? - &iquest;Cu&aacute;l es la diferencia entre rentas l&iacute;quidas gravables v rentas l&iacute;quidas cedular? - &iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as? - &iquest;En la c&eacute;dula rentas no laborales, pueden incluirse las rentas que no clasifican expresamente en ninguna de las dem&aacute;s c&eacute;dulas? &iquest;Cu&aacute;les ser&iacute;an? &iquest;Los 90 d&iacute;as continuos o discontinuos se refieren en el a&ntilde;o gravable? Si no se cumplen con los requisitos exigidos en el inciso 1o del art&iacute;culo 340 del Estatuto Tributario &iquest;ser&aacute; renta de la c&eacute;dula de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0672-2016",
+      "tipo": "oficio",
+      "numero": "0672",
+      "fecha": "2016-07-13",
+      "tema": "&iquest;Puede una persona natural catalogada como empleado acogerse al beneficio de progresividad en el pago del impuesto de renta (Ley 1429 de 2010), por el ejercicio de una actividad econ&oacute;mica complementaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0279-2016",
+      "tipo": "oficio",
+      "numero": "0279",
+      "fecha": "2016-04-11",
+      "tema": "Impuesto sobre la renta - Retenci&oacute;n en la fuente - Contribuyentes y declarantes voluntarios - Devoluciones de retenciones en exceso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31633-2015",
+      "tipo": "oficio",
+      "numero": "31633",
+      "fecha": "2015-11-04",
+      "tema": "&iquest;Es posible detraer en la determinaci&oacute;n de la Renta Gravable Alternativa del Impuesto M&iacute;nimo Alternativo Nacional (IMAN) para personas naturales empleados, lo contenido en el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25526-2015",
+      "tipo": "oficio",
+      "numero": "25526",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Una persona natural que recibe ingresos equivalentes al 78% por concepto de prestaci&oacute;n de servicios de manera personal y 22% por concepto de comisi&oacute;n por venta de software a qu&eacute; categor&iacute;a para definir el impuesto sobre la renta pertenece?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23577-2015",
+      "tipo": "oficio",
+      "numero": "23577",
+      "fecha": "2015-08-13",
+      "tema": "&iquest;Cu&aacute;les son los ingresos a que se refiere el numeral 1 del art&iacute;culo 2 del Decreto 1070 y si estos hacen parte de los ingresos laborales o tributarios para calcular el 30% a que se refieren los art&iacute;culos 126-1 y 126-4 del Estatuto Tributario? &iquest;Son deducibles por procedimiento uno y dos del art&iacute;culo 383 del Estatuto Tributario los pagos indirectos por salud y educaci&oacute;n que cumplan los requisitos contenidos en el art&iacute;culo 5 del Decreto 3050 de 1986?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-9112-2015",
+      "tipo": "oficio",
+      "numero": "9112",
+      "fecha": "2015-03-26",
+      "tema": "&iexcl;Cu&aacute;les son los requisitos especiales para la solicitud de devoluci&oacute;n en el caso de los productores de queso fresco de la partida 04.06.10.00 el cual es exento de conformidad con el art&iacute;culo 477 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1813-2015",
+      "tipo": "oficio",
+      "numero": "1813",
+      "fecha": "2015-01-26",
+      "tema": "&iquest;Seg&uacute;n el inciso 2o del art&iacute;culo 57-2, las empresas que realicen pagos a sus empleados que retribuyan la labor relacionada con proyectos calificados por el Consejo Nacional de Beneficios Tributarios como de investigaci&oacute;n o desarrollo tecnol&oacute;gico, podr&aacute;n considerarlos como ingresos no constitutivos de renta ni ganancia ocasional y por tanto no someterlos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1812-2015",
+      "tipo": "oficio",
+      "numero": "1812",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento de las cesant&iacute;as que fueron percibidas directamente por el empleador, conforme al r&eacute;gimen anterior a la Ley 50 de 1990, para la determinaci&oacute;n de la Renta Gravable Alternativa de los trabajadores que pertenecen al R&eacute;gimen Tradicional?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-0321-2015",
+      "tipo": "oficio",
+      "numero": "0321",
+      "fecha": "2015-01-06",
+      "tema": "&iquest;El beneficio tributario consagrado en el numeral 1 del art&iacute;culo 206 del Estatuto Tributario, aplica tanto para las indemnizaciones como para las incapacidades reconocidas por accidentes laborales o enfermedades, independientemente que la entidad que reconoce el pago sea una EPS o ARL? - &iquest;Puede disminuirse la base de retenci&oacute;n en la fuente por salarios con la renta exenta de que trata el numeral 1 del art&iacute;culo 206 del Estatuto Tributario, cuando se trate de trabajadores declarantes de renta, cuya retenci&oacute;n en la fuente deba determinarse por el IMAN, independientemente que quien reconozca el pago a ser considerado como renta exenta sea la EPS o una ARL?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56986-2014",
+      "tipo": "oficio",
+      "numero": "56986",
+      "fecha": "2014-10-02",
+      "tema": "&iquest;Es necesario que una persona natural presente proyecto de correcci&oacute;n de la declaraci&oacute;n de impuesto de renta, si al momento de presentar la declaraci&oacute;n inicial la liquid&oacute; mediante un sistema diferente al que estaba obligado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049178-2014",
+      "tipo": "concepto",
+      "numero": "0049178",
+      "fecha": "2014-08-14",
+      "tema": "&iquest;Es posible aplicar la exenci&oacute;n de que trata el art&iacute;culo 27 de la Ley 488 de 1998 sobre las bonificaciones y-o indemnizaciones que reciban los empleados de una empresa de servicios p&uacute;blicos mixta en programas de retiro de personal, al realizar la depuraci&oacute;n del impuesto de renta tanto por el sistema ordinario como por el Impuesto M&iacute;nimo Alternativo Nacional -IMAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48807-2014",
+      "tipo": "oficio",
+      "numero": "48807",
+      "fecha": "2014-08-12",
+      "tema": "Impuesto M&iacute;nimo Alternativo Simple - IMAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41872-2014",
+      "tipo": "oficio",
+      "numero": "41872",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen del impuesto sobre la renta en el que se clasifican los Curadores Urbanos y en consecuencia cual sistema de determinaci&oacute;n les es aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30274-2014",
+      "tipo": "oficio",
+      "numero": "30274",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa por el Sistema IMAN se deben tener en cuenta los factores se&ntilde;alados en el art&iacute;culo 2&deg; del Decreto 1070 de 2013, para establecer la retenci&oacute;n en la fuente en la categor&iacute;a de empleados?&iquest;La deducci&oacute;n por dependientes se debe solicitar solo por los meses en que existi&oacute; esa relaci&oacute;n de dependencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13196-2014",
+      "tipo": "oficio",
+      "numero": "13196",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Para efectos de determinar la base de c&aacute;lculo de la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario, cuales deducciones son procedentes?&iquest;En la determinaci&oacute;n de la Renta Gravable Alternativa se puede detraer la renta exenta del 25% de que trata el numeral 10&deg; del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1114-2014",
+      "tipo": "oficio",
+      "numero": "1114",
+      "fecha": "2014-01-13",
+      "tema": "(Int 7) Impuesto sobre la renta y complementarios - Ingresos - Revocada en su totalidad la tesis expuesta en la respuesta a la pregunta No 5 mediante Oficio 052431 de agosto 28 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1113-2014",
+      "tipo": "oficio",
+      "numero": "1113",
+      "fecha": "2014-01-13",
+      "tema": "&iquest;Una renta de trabajo exenta de las establecidas en el art&iacute;culo 206 del Estatuto Tributario, que no se encuentre se&ntilde;alada expresamente como factor de depuraci&oacute;n en la determinaci&oacute;n de la base gravable del Impuesto M&iacute;nimo Alternativo Nacional- IMAN., puede restarse de la base gravable de este sistema?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000885-2014",
+      "tipo": "concepto",
+      "numero": "0000885",
+      "fecha": "2014-07-31",
+      "tema": "Concepto Impuesto de Renta y Complementarios para las personas naturales - Ley 1607 de 2012,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0004-2014",
+      "tipo": "oficio",
+      "numero": "0004",
+      "fecha": "2014-01-13",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67579-2013",
+      "tipo": "oficio",
+      "numero": "67579",
+      "fecha": "2013-10-23",
+      "tema": "Aclaraci&oacute;n del Concepto No 100202208-282 en relaci&oacute;n con los beneficios consagrados en la Ley 1429 de 2010, especialmente, en lo relacionado con el art&iacute;culo 25 de la Ley 1607 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45740-2013",
+      "tipo": "oficio",
+      "numero": "45740",
+      "fecha": "2013-07-24",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 22872 del 19 de abril de 2013, en el sentido de que se se&ntilde;ale que para efectos de la retenci&oacute;n en la fuente m&iacute;nima de los empleados, solo se tenga en cuenta del plan educacional la parte que exceda del promedio que el empleador reconoce al com&uacute;n de sus trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32672-2013",
+      "tipo": "oficio",
+      "numero": "32672",
+      "fecha": "2013-05-29",
+      "tema": "Solicita aclaraci&oacute;n sobre la base gravable de liquidaci&oacute;n del Impuesto M&iacute;nimo Alternativo Nacional (IMAN) para empleados y explicaci&oacute;n sobre el alcance del literal i) del art&iacute;culo 332 del Estatuto Tributario para los colombianos catalogados como oficiales de la reserva de segunda clase de la Fuerza A&eacute;rea y oficiales de la reserva de primera y segunda clase de las Fuerzas Militares cobijados por el Decreto 672 de 1965, 1790 de 2000 y 1428 de 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18090-2013",
+      "tipo": "oficio",
+      "numero": "18090",
+      "fecha": "2013-03-27",
+      "tema": "&iquest;C&oacute;mo se calcula el Impuesto M&iacute;nimo Alternativo Nacional (IMAN), para los colombianos catalogados como reservistas de la Fuerza A&eacute;rea, cobijados por el numeral 9 del art&iacute;culo 206 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64415-2007",
+      "tipo": "oficio",
+      "numero": "64415",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;C&oacute;mo estaba constituida la base gravable del impuesto al patrimonio para los a&ntilde;os gravables 2004,2005, y 2006, para las Empresas Industriales y Comerciales del estado que no se encontraban obligadas a efectuar ajustes integrales por inflaci&oacute;n en materia contable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87501-2005",
+      "tipo": "oficio",
+      "numero": "87501",
+      "fecha": "2005-11-24",
+      "tema": "&iquest;En virtud de lo dispuesto en el par&aacute;grafo del art&iacute;culo 1 del Decreto 416 de 2003, un Fondo de Empleados est&aacute; obligado a efectuar ajustes por inflaci&oacute;n contables a los inventarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-33277-2002",
+      "tipo": "concepto",
+      "numero": "33277",
+      "fecha": "2002-06-06",
+      "tema": "Impuesto de Renta y Complementarios. Ajustes por inflaci&oacute;n Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033277-2002",
+      "tipo": "concepto",
+      "numero": "0033277",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Para efectos tributarios, las entidades p&uacute;blicas est&aacute;n obligadas a efectuar ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070932-2000",
+      "tipo": "concepto",
+      "numero": "0070932",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Se pueden ajustar los activos no monetarios expresados en moneda extranjera por el factor de devaluaci&oacute;n del a&ntilde;o en el cual el activo se vuelve a ajustar sin que se involucre el factor de devaluaci&oacute;n de los a&ntilde;os en los cuales no fueron objeto de ajuste en aplicaci&oacute;;n del art&iacute;culo 341 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067206-1999",
+      "tipo": "concepto",
+      "numero": "0067206",
+      "fecha": "1999-07-26",
+      "tema": "&iquest;Cuales son los efectos de los ajustes por inflaci&oacute;n que aplican las empresas asociativas de trabajo? &iquest;Es deducible de la renta bruta, el saldo d&eacute;bito de la cuenta de correcci&oacute;n monetaria? &iquest;Puede acogerse al beneficio de auditoria por los a&ntilde;os gravables 1996 y 1997, una persona jur&iacute;dica que inicia actividades en el a&ntilde;o 1996 y que present&oacute; oportunamente las declaraciones de dichos a&ntilde;os? &iquest;Procede beneficio de auditoria cuando el impuesto neto de renta a tomar como referencia es igual cero? &iquest;Quien debe cumplir con el deber formal de firmar las declaraciones de renta de un menor de edad? &iquest;Las liquidaciones privadas que se acojan al beneficio de auditoria por el a&ntilde;o gravable de 1998, quedar&aacute;n en firme dentro de los seis meses siguientes a la fecha de su presentaci&oacute;n o a la de vencimiento del plazo para declarar? &iquest;Cuales son los sujetos obligados a presentar informaci&oacute;n en medios magn&eacute;ticos? &iquest;Deben presentar declaraci&oacute;n de renta las empresas asociativas de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059518-1998",
+      "tipo": "concepto",
+      "numero": "0059518",
+      "fecha": "1998-07-29",
+      "tema": "&iquest;Se tiene la calidad de comerciante cuando el contribuyente en desarrollo de su actividad econ&oacute;mica realiza cualquiera de los actos de comercio se&ntilde;alados en el art&iacute;culo 20 del c&oacute;digo de comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013708-1997",
+      "tipo": "concepto",
+      "numero": "0013708",
+      "fecha": "1997-02-18",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061991-1994",
+      "tipo": "concepto",
+      "numero": "0061991",
+      "fecha": "1994-10-24",
+      "tema": "&iquest;si se tiene en cuenta que las materias primas utilizadas en Kilos, una vez sometidas al proceso de producci&oacute;n, se diversifican en productos distintos con valores diferentes, con un control de inventarios, en cantidades, (kilos para materias primas y productos en proceso y en unidades para los terminados), mas no en valores; para determinar el costo de ventas y el valor del inventario final las unidades de productos terminados se convierten a kilos seg&uacute;n su peso y en las valorizaciones del inventario final de los productos en proceso no se tiene en cuenta el grado de terminaci&oacute;n, El procedimiento utilizado es el correcto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012341-1993",
+      "tipo": "concepto",
+      "numero": "0012341",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021235-1989",
+      "tipo": "concepto",
+      "numero": "0021235",
+      "fecha": "1989-01-01",
+      "tema": "&iquest;que debe entenderse por valor patrimonial de los bienes adquiridos antes de 1992?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

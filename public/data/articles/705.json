@@ -1,1 +1,468 @@
-{"id_articulo": "Art. 705", "titulo": "Art. 705. Término para notificar el requerimiento.", "titulo_corto": "Término para notificar el requerimiento.", "slug": "705", "url_origen": "https://estatuto.co/705", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*El requerimiento de que trata el articulo 703 deberá notificarse a más tardar dentro de los tres (3) años siguientes a la fecha de vencimiento del plazo para declarar. Cuando la declaración inicial se haya presentado en forma extemporánea, los tres (3) años se contarán a partir de la fecha de presentación de la misma. Cuando la declaración tributaria presente un saldo a favor del contribuyente o responsable, el requerimiento deberá notificarse a más tardar tres (3) años después de la fecha de presentación de la solicitud de devolución o compensación respectiva.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El requerimiento de que trata el <a href=\"https://estatuto.co/703\" rel=\"noopener\" target=\"_blank\">articulo 703</a> deberá notificarse a más tardar dentro de los tres (3) años siguientes a la fecha de vencimiento del plazo para declarar. Cuando la declaración inicial se haya presentado en forma extemporánea, los tres (3) años se contarán a partir de la fecha de presentación de la misma. Cuando la declaración tributaria presente un saldo a favor del contribuyente o responsable, el requerimiento deberá notificarse a más tardar tres (3) años después de la fecha de presentación de la solicitud de devolución o compensación respectiva.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 276.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "276"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["703"], "referenced_by": ["689-2", "705-1"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 705",
+  "titulo": "Art. 705. Término para notificar el requerimiento.",
+  "titulo_corto": "Término para notificar el requerimiento.",
+  "slug": "705",
+  "url_origen": "https://estatuto.co/705",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*El requerimiento de que trata el articulo 703 deberá notificarse a más tardar dentro de los tres (3) años siguientes a la fecha de vencimiento del plazo para declarar. Cuando la declaración inicial se haya presentado en forma extemporánea, los tres (3) años se contarán a partir de la fecha de presentación de la misma. Cuando la declaración tributaria presente un saldo a favor del contribuyente o responsable, el requerimiento deberá notificarse a más tardar tres (3) años después de la fecha de presentación de la solicitud de devolución o compensación respectiva.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El requerimiento de que trata el <a href=\"https://estatuto.co/703\" rel=\"noopener\" target=\"_blank\">articulo 703</a> deberá notificarse a más tardar dentro de los tres (3) años siguientes a la fecha de vencimiento del plazo para declarar. Cuando la declaración inicial se haya presentado en forma extemporánea, los tres (3) años se contarán a partir de la fecha de presentación de la misma. Cuando la declaración tributaria presente un saldo a favor del contribuyente o responsable, el requerimiento deberá notificarse a más tardar tres (3) años después de la fecha de presentación de la solicitud de devolución o compensación respectiva.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 276.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "276"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "703"
+  ],
+  "referenced_by": [
+    "689-2",
+    "705-1"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0767 (2026-01-20): Impuesto Sobre las Ventas - IVA\noficio 16116 (2025-11-18): Procedimiento Tributario\noficio 14769 (2025-10-29): Procedimiento Tributario\noficio 10074 (2025-07-29): Procedimiento Tributario\noficio 8344 (2025-05-28): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0767-2026",
+      "tipo": "oficio",
+      "numero": "0767",
+      "fecha": "2026-01-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14769-2025",
+      "tipo": "oficio",
+      "numero": "14769",
+      "fecha": "2025-10-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10074-2025",
+      "tipo": "oficio",
+      "numero": "10074",
+      "fecha": "2025-07-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8344-2025",
+      "tipo": "oficio",
+      "numero": "8344",
+      "fecha": "2025-05-28",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5322-2024",
+      "tipo": "oficio",
+      "numero": "5322",
+      "fecha": "2024-03-13",
+      "tema": "(Int 176) Ejecutoria t&iacute;tulo ejecutivo - Vinculaci&oacute;n deudores solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907002-2022",
+      "tipo": "oficio",
+      "numero": "907002",
+      "fecha": "2022-09-19",
+      "tema": "T&eacute;rmino para notificar requerimiento en ventas (IVA) y retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907287-2021",
+      "tipo": "oficio",
+      "numero": "907287",
+      "fecha": "2021-07-22",
+      "tema": "Firmeza de la declaraci&oacute;n - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901693-2020",
+      "tipo": "oficio",
+      "numero": "901693",
+      "fecha": "2020-05-20",
+      "tema": "Firmeza de la Declaraci&oacute;n Tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21933-2019",
+      "tipo": "oficio",
+      "numero": "21933",
+      "fecha": "2019-09-03",
+      "tema": "Beneficio de Auditoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18645-2019",
+      "tipo": "oficio",
+      "numero": "18645",
+      "fecha": "2019-08-08",
+      "tema": "Renta l&iacute;quida gravable por activos omitidos o pasivos inexistentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14301-2019",
+      "tipo": "oficio",
+      "numero": "14301",
+      "fecha": "2019-06-05",
+      "tema": "Procedimiento Tributario. Firmeza de la Declaraci&oacute;n Tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9112-2015",
+      "tipo": "oficio",
+      "numero": "9112",
+      "fecha": "2015-03-26",
+      "tema": "&iexcl;Cu&aacute;les son los requisitos especiales para la solicitud de devoluci&oacute;n en el caso de los productores de queso fresco de la partida 04.06.10.00 el cual es exento de conformidad con el art&iacute;culo 477 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61717-2014",
+      "tipo": "oficio",
+      "numero": "61717",
+      "fecha": "2014-11-04",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61712-2014",
+      "tipo": "oficio",
+      "numero": "61712",
+      "fecha": "2014-11-05",
+      "tema": "&iquest;Cu&aacute;ndo adquiere firmeza la declaraci&oacute;n de renta una vez corregida?&iquest;En qu&eacute; eventos se interrumpe el t&eacute;rmino de firmeza de la declaraci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53404-2014",
+      "tipo": "oficio",
+      "numero": "53404",
+      "fecha": "2014-08-29",
+      "tema": "Renta l&iacute;quida gravable por omisi&oacute;n de activos o pasivos inexistentes",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0037637-2014",
+      "tipo": "concepto",
+      "numero": "0037637",
+      "fecha": "2014-06-24",
+      "tema": "&iquest;Desde qu&eacute; fecha se computa la causaci&oacute;n de los intereses moratorios, la oportunidad para solicitar la devoluci&oacute;n de un saldo a favor, el plazo para notificar un requerimiento especial y la prescripci&oacute;n de la facilitad sancionatoria cuando el Decreto por el cual se fijan los plazos para la presentaci&oacute;n de las declaraciones tributarias y para el pago de los impuestos, anticipos y retenciones en la fuente es modificado, prorrog&aacute;ndose las fechas para la presentaci&oacute;n y pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77343-2012",
+      "tipo": "oficio",
+      "numero": "77343",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;Una declaraci&oacute;n con beneficio de auditor&iacute;a establecido en el art&iacute;culo 689-1 del Estatuto Tributario, el emplazamiento para corregir de que trata el art&iacute;culo 685 del Estatuto Tributario suspende el beneficio de auditoria y si procede la suspensi&oacute;n del t&eacute;rmino para notificar el requerimiento especial de que trata el art&iacute;culo 706 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077291-2012",
+      "tipo": "concepto",
+      "numero": "0077291",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;El emplazamiento para corregir las declaraciones tributarias que no se encuentran en firme se puede notificar despu&eacute;s de los dos (2) a&ntilde;os siguientes a la fecha de vencimiento del plazo para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67993-2012",
+      "tipo": "oficio",
+      "numero": "67993",
+      "fecha": "2012-01-01",
+      "tema": "Notificaci&oacute;n de los actos administrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64239-2011",
+      "tipo": "oficio",
+      "numero": "64239",
+      "fecha": "2011-08-19",
+      "tema": "&iquest;Cu&aacute;l es el plazo que tiene la entidad para cobrar multas e impuestos sobre declaraciones de los usuarios en el caso que se determine que &eacute;stas son fraudulentas, por ejemplo cuando hay fraude fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27363-2009",
+      "tipo": "oficio",
+      "numero": "27363",
+      "fecha": "2009-04-03",
+      "tema": "Factura cambiaria de compraventa Ley 1281 de 2009",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-105196-2008",
+      "tipo": "oficio",
+      "numero": "105196",
+      "fecha": "2008-10-22",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones tributarias que arrojan saldos a favor cuando presentada la solicitud de devoluci&oacute;n y-o compensaci&oacute;n en debida forma, el contribuyente desiste de la solicitud con posterioridad al acto de suspensi&oacute;n de t&eacute;rminos de que el art&iacute;culo 857-1 del E.T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8374-2008",
+      "tipo": "oficio",
+      "numero": "8374",
+      "fecha": "2008-11-28",
+      "tema": "Obligaciones contingentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26618-2007",
+      "tipo": "oficio",
+      "numero": "26618",
+      "fecha": "2007-04-09",
+      "tema": "&iquest;Con relaci&oacute;n a la firmeza de la declaraci&oacute;n tributaria con beneficio de auditoria para el a&ntilde;o gravable 2006, si el incremento del impuesto neto de renta es m&iacute;nimo cuatro veces la inflaci&oacute;n; y por otra parte, si dentro de la terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios se incorpora dentro del 50% de la prueba del pago la sobretasa del impuesto de renta, como requisito de procedibilidad para acceder a la terminaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19278-2007",
+      "tipo": "oficio",
+      "numero": "19278",
+      "fecha": "2007-03-12",
+      "tema": "Sobre la viabilidad de que las normas y conceptos tributarios que relacionan, puedan ser objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17442-2007",
+      "tipo": "oficio",
+      "numero": "17442",
+      "fecha": "2007-03-06",
+      "tema": "&iquest;Un contribuyente del impuesto de renta y complementarios, no ha presentado su declaraci&oacute;n durante los &uacute;ltimos 5 a&ntilde;os, estar&iacute;a obligado a liquidar la sanci&oacute;n por inexactitud de que trata el art&iacute;culo 239-1 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21955-2006",
+      "tipo": "oficio",
+      "numero": "21955",
+      "fecha": "2006-03-14",
+      "tema": "Grav&aacute;men a los movimientos financieros en la compra de divisas",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-87498-2005",
+      "tipo": "oficio",
+      "numero": "87498",
+      "fecha": "2005-11-24",
+      "tema": "Solicita reconsideraci&oacute;n del concepto No. 134084 de junio 7 de 2005",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034084-2005",
+      "tipo": "concepto",
+      "numero": "0034084",
+      "fecha": "2005-06-07",
+      "tema": "&iquest;El beneficio de auditoria contemplado en el art&iacute;culo 689-1 del estatuto tributario, modificado por la ley 863 de 2003, se extiende a las declaraciones del impuesto sobre las ventas y retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017407-2005",
+      "tipo": "concepto",
+      "numero": "0017407",
+      "fecha": "2005-03-31",
+      "tema": "&iquest;Es jur&iacute;dicamente viable modificar el anticipo mediante liquidaci&oacute;n oficial de revisi&oacute;n, cuando el contribuyente ya ha presentado la declaraci&oacute;n de renta del per&iacute;odo siguiente, as&iacute; no se vaya a exigir su pago y con el solo prop&oacute;sito de liquidar intereses moratorios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032542-2004",
+      "tipo": "concepto",
+      "numero": "0032542",
+      "fecha": "2004-05-26",
+      "tema": "Cuando un acto administrativo es enviado a direcci&oacute;n errada, en aplicaci&oacute;n del Art&iacute;culo 567 del Estatuto Tributario, &iquest;puede corregirse tal error aun por fuera del t&eacute;rmino legal que la Administraci&oacute;n tiene para notificar dicho acto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067224-2002",
+      "tipo": "concepto",
+      "numero": "0067224",
+      "fecha": "2002-10-16",
+      "tema": "&iquest;Es procedente tomar como base para el c&aacute;lculo de la sanci&oacute;n por no declarar la presunci&oacute;n contenida en el art&iacute;culo 760 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067222-2002",
+      "tipo": "concepto",
+      "numero": "0067222",
+      "fecha": "2002-10-16",
+      "tema": "&iquest;Cuando una declaraci&oacute;n objeto del beneficio de auditoria arroje p&eacute;rdida fiscal, la facultad de fiscalizaci&oacute;n para la Administraci&oacute;n a&uacute;n vencidos los doce (12) meses va hasta reducir la p&eacute;rdida a cero o permite inclusive generar renta l&iacute;quida sin determinar renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025508-2002",
+      "tipo": "concepto",
+      "numero": "0025508",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de revisi&oacute;n de las declaraciones tributarias que se acogieron al beneficio de auditoria, una vez notificado el emplazamiento para corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020434-2002",
+      "tipo": "concepto",
+      "numero": "0020434",
+      "fecha": "2002-01-01",
+      "tema": "Firmeza de la declaraci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018032-2002",
+      "tipo": "concepto",
+      "numero": "0018032",
+      "fecha": "2002-01-01",
+      "tema": "Renta exenta, empresas de servicios p&uacute;blicos domiciliarios, requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018802-2001",
+      "tipo": "concepto",
+      "numero": "0018802",
+      "fecha": "2001-03-08",
+      "tema": "&iquest;El t&eacute;rmino para notificar el requerimiento en ventas y retenci&oacute;n en la fuente que es el mismo para renta, ampl&iacute;a el t&eacute;rmin de correcci&oacute;n voluntaria de esas mismas declaraciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053528-2000",
+      "tipo": "concepto",
+      "numero": "0053528",
+      "fecha": "2000-06-06",
+      "tema": "&iquest;Dentro de qu&eacute; t&eacute;rmino se debe proferir el auto declarativo por el cual se tienen a las declaraciones tributarias como no presentadas?. &iquest;En qui&eacute;n radica la competencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039100-1999",
+      "tipo": "concepto",
+      "numero": "0039100",
+      "fecha": "1999-11-18",
+      "tema": "T&eacute;rmino en que quedan firme las declaraciones que arrojen saldo a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031688-1999",
+      "tipo": "concepto",
+      "numero": "0031688",
+      "fecha": "1999-04-07",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para notificar la liquidaci&oacute;n de revisi&oacute;n en el caso de la correcci&oacute;n de la declaraci&oacute;n de que trata el art&iacute;culo 588 del Estatuto Tributario?&iquest;Cu&aacute;l es el t&eacute;rmino para notificar la liquidaci&oacute;n de revisi&oacute;n en el caso de la correcci&oacute;n de la declaraci&oacute;n de que trata el art&iacute;culo 589 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021523-1999",
+      "tipo": "concepto",
+      "numero": "0021523",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Puede acogerse al beneficio de firmeza de las declaraciones de renta y complementarios de 1996 y 1997, un contribuyente cuyo impuesto por el a&ntilde;o gravable de 1996 supera en m&aacute;s del 30% el impuesto de renta determinado en la declaraci&oacute;n de 1995, o que corrigi&oacute; las declaraciones ya sea de 1996 o 1997 aumentando el impuesto de renta en el 30% o m&aacute;s, antes de entrar en vigencia la Ley 488 de 1998?&iquest;Las sociedades que liquidadas durante 1998, que deben presentar declaraci&oacute;n por fracci&oacute;n por dicho a&ntilde;o, est&aacute;n obligadas a realizar la inversi&oacute;n en bonos de solidaridad para la paz?&iquest;Una sociedad que se encuentra en proceso de liquidaci&oacute;n en 1999, est&aacute; obligada a realizar la inversi&oacute;n en bonos de solidaridad para la paz?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004484-1999",
+      "tipo": "concepto",
+      "numero": "0004484",
+      "fecha": "1999-08-18",
+      "tema": "&iquest;Cu&aacute;ndo obtiene firmeza la declaraci&oacute;n de renta y complementarios por el a&ntilde;o gravable de 1.998, presentada con acogimiento al beneficio de auditoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063067-1998",
+      "tipo": "concepto",
+      "numero": "0063067",
+      "fecha": "1998-08-12",
+      "tema": "Sol&iacute;cita el consultante se informe si los conceptos de la Direcci&oacute;n de Impuestos Nacionales mediante los cuales se afirm&oacute; que cuando se corrige una declaraci&oacute;n tributaria para disminuir un saldo a favor originado en una imputaci&oacute;n de saldos, no se causa sanci&oacute;n por correcci&oacute;n, se encuentran vigentes&iquest;A partir de que momento se cuenta el t&eacute;rmino que tiene la Administraci&oacute;n Tributaria para ejercer la facultad de revisi&oacute;n, en los casos de correcci&oacute;n previstos en el PARAGRAFO 2do del art&iacute;culo 588 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048601-1998",
+      "tipo": "concepto",
+      "numero": "0048601",
+      "fecha": "1998-06-24",
+      "tema": "&iquest;En qu&eacute; t&eacute;rminos queda en firme la declaraci&oacute;n de retenci&oacute;n en la fuente y la del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030809-1990",
+      "tipo": "concepto",
+      "numero": "0030809",
+      "fecha": "1990-05-29",
+      "tema": "&iquest;En qu&eacute; fecha quedan en firme las declaraciones tributarias (renta, ventas y retenci&oacute;n en la fuente)y que incidencia tiene la correcci&oacute;n en la firmeza de tales declaraciones?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    }
+  ]
+}

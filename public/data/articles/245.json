@@ -1,1 +1,856 @@
-{"id_articulo": "Art. 245", "titulo": "Art. 245. Tarifa especial para dividendos o participaciones recibidos por sociedades y entidades extranjeras y por personas naturales no residentes.", "titulo_corto": "Tarifa especial para dividendos o participaciones recibidos por sociedades y entidades extranjeras y por personas naturales no residentes.", "slug": "245", "url_origen": "https://estatuto.co/245", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 6, "contenido_texto": "*La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciones percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del veinte por ciento (20%). Parágrafo 1. Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas del artículo 48 y artículo 49 estarán sometidos a la tarifa señalada en el artículo 240, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto. Parágrafo 2. El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciones percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del veinte por ciento (20%).</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo 1.</span> </span></strong>Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas del <a href=\"https://estatuto.co/48\" rel=\"noopener\" target=\"_blank\">artículo 48</a> y <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a> estarán sometidos a la tarifa señalada en el <a href=\"https://estatuto.co/240\" rel=\"noopener\" target=\"_blank\">artículo 240</a>, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong>El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones. </span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 51. *Modificado. Ley 1943 de 2018 Art. 51 *Modificado Ley 1819 de 2016 Art. 7. *Inciso 1 Modificado Ley 2277 de 2022 Art 4.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "51"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "7"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "4"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 6, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019", "Ley 2277 de 2022", "Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": ["Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciores, percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del siente punto cinco por ciento (7,5%). PARÁGRAFO 1. Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas de los artículos 48 y 49 estarán sometidos a la tarifa señalada en el artículo 240, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto. PARÁGRAFO 2. El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones."], "notas": [], "otros": []}, "total_normas": 1, "cross_references": ["48", "49", "240"], "referenced_by": ["246-1", "247", "391"], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 245",
+  "titulo": "Art. 245. Tarifa especial para dividendos o participaciones recibidos por sociedades y entidades extranjeras y por personas naturales no residentes.",
+  "titulo_corto": "Tarifa especial para dividendos o participaciones recibidos por sociedades y entidades extranjeras y por personas naturales no residentes.",
+  "slug": "245",
+  "url_origen": "https://estatuto.co/245",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 6,
+  "contenido_texto": "*La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciones percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del veinte por ciento (20%). Parágrafo 1. Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas del artículo 48 y artículo 49 estarán sometidos a la tarifa señalada en el artículo 240, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto. Parágrafo 2. El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciones percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del veinte por ciento (20%).</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">Parágrafo 1.</span> </span></strong>Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas del <a href=\"https://estatuto.co/48\" rel=\"noopener\" target=\"_blank\">artículo 48</a> y <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a> estarán sometidos a la tarifa señalada en el <a href=\"https://estatuto.co/240\" rel=\"noopener\" target=\"_blank\">artículo 240</a>, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong>El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones. </span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art. 51. *Modificado. Ley 1943 de 2018 Art. 51 *Modificado Ley 1819 de 2016 Art. 7. *Inciso 1 Modificado Ley 2277 de 2022 Art 4.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "51"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "7"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "4"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 6,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019",
+    "Ley 2277 de 2022",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [
+      "Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. La tarifa del impuesto sobre la renta correspondiente a dividendos o participaciores, percibidos por sociedades u otras entidades extranjeras sin domicilio principal en el país, por personas naturales sin residencia en Colombia y por sucesiones ilíquidas de causantes que no eran residentes en Colombia será del siente punto cinco por ciento (7,5%). PARÁGRAFO 1. Cuando los dividendos o participaciones correspondan a utilidades, que de haberse distribuido a una sociedad nacional hubieren estado gravadas, conforme a las reglas de los artículos 48 y 49 estarán sometidos a la tarifa señalada en el artículo 240, según el periodo gravable en que se paguen o abonen en cuenta, caso en el cual el impuesto señalado en el inciso anterior, se aplicará una vez disminuido este impuesto. PARÁGRAFO 2. El impuesto de que trata este artículo será retenido en la fuente, sobre el valor bruto de los pagos o abonos en cuenta por concepto de dividendos o participaciones."
+    ],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "48",
+    "49",
+    "240"
+  ],
+  "referenced_by": [
+    "246-1",
+    "247",
+    "391"
+  ],
+  "total_cross_references": 3,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s). Jurisprudencia: 8 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8921 (2025-07-10): Impuesto sobre la Renta y Complementarios\noficio 6245 (2025-05-16): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 2810 (2025-03-07): Impuesto sobre la Renta y Complementarios\noficio 0449 (2023-01-30): Impuesto sobre la renta - Convenios para evitar la Doble Imposici&oacute;n\noficio 905361 (2022-07-11): Impuesto sobre la renta - Convenio para evitar la Doble Imposici&oacute;n entre Colombia y Espa&ntilde;a",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8921-2025",
+      "tipo": "oficio",
+      "numero": "8921",
+      "fecha": "2025-07-10",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6245-2025",
+      "tipo": "oficio",
+      "numero": "6245",
+      "fecha": "2025-05-16",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2810-2025",
+      "tipo": "oficio",
+      "numero": "2810",
+      "fecha": "2025-03-07",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0449-2023",
+      "tipo": "oficio",
+      "numero": "0449",
+      "fecha": "2023-01-30",
+      "tema": "Impuesto sobre la renta - Convenios para evitar la Doble Imposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905361-2022",
+      "tipo": "oficio",
+      "numero": "905361",
+      "fecha": "2022-07-11",
+      "tema": "Impuesto sobre la renta - Convenio para evitar la Doble Imposici&oacute;n entre Colombia y Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905097-2022",
+      "tipo": "oficio",
+      "numero": "905097",
+      "fecha": "2022-06-30",
+      "tema": "Tarifa especial para dividendos y participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903704-2022",
+      "tipo": "oficio",
+      "numero": "903704",
+      "fecha": "2022-05-13",
+      "tema": "Dividendos - Beneficiario final, Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902994-2022",
+      "tipo": "oficio",
+      "numero": "902994",
+      "fecha": "2022-04-11",
+      "tema": "Impuesto sobre la renta - Contratos de estabilidad jur&iacute;dica Participaciones y dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913685-2021",
+      "tipo": "oficio",
+      "numero": "913685",
+      "fecha": "2021-11-08",
+      "tema": "&iquest;C&oacute;mo debe declarar la sociedad colombia este ingreso en aplicaci&oacute;n del r&eacute;gimen ECE, si a partir de la Decisi&oacute;n 578 de 2004, este ser&iacute;a un ingreso pasivo exento o no gravado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910834-2021",
+      "tipo": "oficio",
+      "numero": "910834",
+      "fecha": "2021-01-01",
+      "tema": "Convenio para evitar doble imposici&oacute;n entre Colombia y Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906179-2021",
+      "tipo": "oficio",
+      "numero": "906179",
+      "fecha": "2021-06-28",
+      "tema": "Impuesto sobre la renta y complementarios - Establecimientos Permanentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906178-2021",
+      "tipo": "oficio",
+      "numero": "906178",
+      "fecha": "2021-06-28",
+      "tema": "Entidades Controladas del Exterior ECE - Convenios para Evitar la Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902955-2021",
+      "tipo": "oficio",
+      "numero": "902955",
+      "fecha": "2021-04-07",
+      "tema": "Retenci&oacute;n en la fuente por dividendos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902293-2021",
+      "tipo": "oficio",
+      "numero": "902293",
+      "fecha": "2021-03-19",
+      "tema": "(Int 0096) Convenios para evitar la doble imposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901293-2021",
+      "tipo": "oficio",
+      "numero": "901293",
+      "fecha": "2021-02-19",
+      "tema": "Tratamiento tributario de los dividendos distribuidos por una sociedad que desarrolla su actividad en una zona afectada por el conflicto armado - ZOMAC; en particular, si el beneficio tributario del que goza &eacute;sta es trasladable a sus socios o accionistas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905791-2020",
+      "tipo": "oficio",
+      "numero": "905791",
+      "fecha": "2020-10-10",
+      "tema": "Determinaci&oacute;n de impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903789-2020",
+      "tipo": "oficio",
+      "numero": "903789",
+      "fecha": "2020-08-05",
+      "tema": "Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901085-2020",
+      "tipo": "oficio",
+      "numero": "901085",
+      "fecha": "2020-04-13",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de las empresas BIC seg&uacute;n la Ley 1901 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31751-2020",
+      "tipo": "oficio",
+      "numero": "31751",
+      "fecha": "2020-01-26",
+      "tema": "Tarifa especial para dividendos o participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5875-2020",
+      "tipo": "oficio",
+      "numero": "5875",
+      "fecha": "2020-03-18",
+      "tema": "Capitalizaciones no Gravadas para los Socios - Capitalizaciones no Gravadas para los Accionistas Ingresos no Constitutivas de Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0500-2020",
+      "tipo": "oficio",
+      "numero": "0500",
+      "fecha": "2020-08-13",
+      "tema": "Tarifa especial para Dividendos o participaciones recibidos por sociedades y entidades extranjeras y por personas naturales no residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000359-2020",
+      "tipo": "concepto",
+      "numero": "0000359",
+      "fecha": "2020-03-17",
+      "tema": "Concepto de oficio, por medio del cual se reconsidera parcialmente el Concepto No. 1457 del 31 de diciembre de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32153-2019",
+      "tipo": "oficio",
+      "numero": "32153",
+      "fecha": "2019-12-31",
+      "tema": "Correcta aplicaci&oacute;n de los art&iacute;culos 50 de la Ley 1943 de 2018 y 242-1 del Estatuto Tributario (en adelante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29262-2019",
+      "tipo": "oficio",
+      "numero": "29262",
+      "fecha": "2019-11-22",
+      "tema": "Renta l&iacute;quida cedular de las rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28964-2019",
+      "tipo": "oficio",
+      "numero": "28964",
+      "fecha": "2019-11-20",
+      "tema": "Deducci&oacute;n por Inversi&oacute;n en la Producci&oacute;n Cinematogr&aacute;fica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28233-2019",
+      "tipo": "oficio",
+      "numero": "28233",
+      "fecha": "2019-11-13",
+      "tema": "Dividendos - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26383-2019",
+      "tipo": "oficio",
+      "numero": "26383",
+      "fecha": "2019-10-18",
+      "tema": "&iquest;Los fondos de inversi&oacute;n colectiva distribuyen dividendos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26372-2019",
+      "tipo": "oficio",
+      "numero": "26372",
+      "fecha": "2019-10-17",
+      "tema": "Convenios para Evitar la Doble Imposici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21323-2019",
+      "tipo": "oficio",
+      "numero": "21323",
+      "fecha": "2019-08-28",
+      "tema": "Enajenaci&oacute;n de Acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17810-2019",
+      "tipo": "oficio",
+      "numero": "17810",
+      "fecha": "2019-07-09",
+      "tema": "Dividendos originados de utilidades anteriores al a&ntilde;o gravable 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14495-2019",
+      "tipo": "oficio",
+      "numero": "14495",
+      "fecha": "2019-06-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12868-2019",
+      "tipo": "oficio",
+      "numero": "12868",
+      "fecha": "2019-05-24",
+      "tema": "Retenci&oacute;n en la fuente. Retenci&oacute;n en la Fuente por Dividendos Percibidos por Extranjeros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6313-2019",
+      "tipo": "oficio",
+      "numero": "6313",
+      "fecha": "2019-03-13",
+      "tema": "Dividendos R&eacute;gimen de transici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4608-2019",
+      "tipo": "oficio",
+      "numero": "4608",
+      "fecha": "2019-02-23",
+      "tema": "&iquest;C&oacute;mo se determinan los dividendos y participaciones no gravadas de las sociedades que se acojan al impuesto unificado bajo el r&eacute;gimen simple de tributaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4580-2019",
+      "tipo": "oficio",
+      "numero": "4580",
+      "fecha": "2019-02-22",
+      "tema": "Impuesto a los dividendos recibidos por sociedades nacionales, previsto por el art&iacute;culo 242-1 Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1171-2019",
+      "tipo": "oficio",
+      "numero": "1171",
+      "fecha": "2019-01-01",
+      "tema": "Participaciones y Dividendos. Aplicabilidad de la tarifa especial para dividendos y participaciones incluida en los art&iacute;culos 242, 242-1 y 245 del Estatuto Tributario, en el caso de las distribuciones de utilidades en acciones o cuotas de inter&eacute;s social reconocidas como ingresos no constitutivos de renta ni ganancia ocasional en los t&eacute;rminos del art&iacute;culo 36-3 del E.T",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28033-2018",
+      "tipo": "oficio",
+      "numero": "28033",
+      "fecha": "2018-09-27",
+      "tema": "Distribuci&oacute;n de dividendos originados en utilidades comerciales de los a&ntilde;os 2016 y anteriores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26487-2018",
+      "tipo": "oficio",
+      "numero": "26487",
+      "fecha": "2018-09-18",
+      "tema": "&iquest;Se aplica la tarifa del impuesto sobre la renta del art&iacute;culo 247 del Estatuto Tributario a los pagos que perciba un trabajador no residente o se aplica la tarifa de retenci&oacute;n en la fuente contenida en el art&iacute;culo 408 del mismo estatuto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18529-2018",
+      "tipo": "oficio",
+      "numero": "18529",
+      "fecha": "2018-07-13",
+      "tema": "Alcaraci&oacute;n del art&iacute;culo 246-1 del Estatuto Tributario, referente a interpretaci&oacute;n constitucional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17162-2018",
+      "tipo": "oficio",
+      "numero": "17162",
+      "fecha": "2018-06-29",
+      "tema": "Declaraciones del CREE de los a&ntilde;os gravables 2015 y 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16045-2018",
+      "tipo": "oficio",
+      "numero": "16045",
+      "fecha": "2018-06-18",
+      "tema": "Declaraci&oacute;n de renta por parte de personas cuyo &uacute;nico ingreso es una pensi&oacute;n que no excede el valor de 1000 UVT mensuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3297-2018",
+      "tipo": "oficio",
+      "numero": "3297",
+      "fecha": "2018-05-22",
+      "tema": "&iquest;Para las sociedades extranjeras no residentes, que prestan regularmente el servicio de transporte a&eacute;reo, mar&iacute;timo, terrestre y fluvial, entre lugares colombianos y extranjeros. &iquest;Les resulta aplicable de manera exclusiva la determinaci&oacute;n de su carga fiscal en Colombia bajo el r&eacute;gimen de rentas mixtas establecido en el art&iacute;culo 203 del Estatuto Tributario?&iquest; De ser afirmativo lo anterior, &iquest;resulta entonces procedente concluir que, para las sociedades extranjeras no residentes que presten regularmente el servicio de transporte a&eacute;reo, mar&iacute;timo, terrestre y fluvial entre lugares colombianos y extranjeros, las reglas y obligaciones respecto de los establecimientos permanentes no les son aplicables, concretamente, la regla de atribuci&oacute;n de los ingresos, costos y-o gastos en la determinaci&oacute;n de su renta l&iacute;quida para el respectivo a&ntilde;o corriente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1734-2018",
+      "tipo": "oficio",
+      "numero": "1734",
+      "fecha": "2018-10-08",
+      "tema": "Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0551-2018",
+      "tipo": "oficio",
+      "numero": "0551",
+      "fecha": "2018-04-25",
+      "tema": "IVA en vivienda nueva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0432-2018",
+      "tipo": "oficio",
+      "numero": "0432",
+      "fecha": "2018-04-03",
+      "tema": "Para las compa&ntilde;&iacute;as constructoras, en el caso de venta de inmuebles considerados como inventarios &iquest;el ingreso por venta se entiende realizado en el momento en que se efect&uacute;e la escritura p&uacute;blica correspondiente as&iacute; la factura de venta se haya expedido en un periodo gravable anterior? o este tratamiento es &uacute;nicamente de aplicaci&oacute;n cuando se trate de activos fijos, de conformidad con el art&iacute;culo 91 del E.T., los dividendos, participaciones y utilidades recibidas por personas naturales no residentes, se les gravar&eacute; el 100% de los dividendos entregados v&iacute;a retenci&oacute;n en la fuente, sin que tengan derecho al c&aacute;lculo del art&iacute;culo 49 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900298-2017",
+      "tipo": "oficio",
+      "numero": "900298",
+      "fecha": "2017-02-28",
+      "tema": "&iquest;Una persona natural extranjera no residente fiscal en Colombia, que como accionista en una sociedad nacional recibe un pago por concepto de dividendos no gravados, est&aacute; obligado a presentar declaraci&oacute;n del Impuesto de Renta y Complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23243-2017",
+      "tipo": "oficio",
+      "numero": "23243",
+      "fecha": "2017-08-28",
+      "tema": "&iquest;El art&iacute;culo 99 de la Ley 1819 de 2016 por medio del cual se adiciona el art&iacute;culo 235-2 al Estatuto Tributario establece que est&aacute;n exentas del pago del impuesto sobre la renta durante 15 a&ntilde;os las empresas generadoras de energ&iacute;a que cumplan con ciertos requisitos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013279-2017",
+      "tipo": "concepto",
+      "numero": "0013279",
+      "fecha": "2017-05-30",
+      "tema": "Revocatoria a la respuesta a pregunta n&uacute;mero 4 del concepto 100208221-723 del 6 de abril de 2017- Tratamiento tributario de las utilidades distribuidas por fondos de inversi&oacute;n colectiva a su participes o suscriptores y Revocatoria al Concepto 6230 del 22 de marzo de 2017 - &iquest;Se asimilan a dividendos las utilidades distribuidas por los fondos de inversi&oacute;n colectiva a sus part&iacute;cipes o suscriptores y, en consecuencia, dichas distribuciones est&aacute;n sometidas al impuesto sobre la renta a t&iacute;tulo de dividendos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8770-2017",
+      "tipo": "oficio",
+      "numero": "8770",
+      "fecha": "2017-04-17",
+      "tema": "Manejo de env&iacute;o de dinero de reaseguros del exterior (reglas de impuestos) - Dividendos: restricciones e impuestos para el pago de Dividendos a accionistas del exterior - Impuestos en general relacionados a seguros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8055-2017",
+      "tipo": "oficio",
+      "numero": "8055",
+      "fecha": "2017-04-06",
+      "tema": "&iquest;Las normas reglamentarias relacionadas con la 'renta exenta' en servicios hoteleros prestados en hoteles nuevos, modificados y-o remodelados, as&iacute; como las condiciones de inversi&oacute;n compiladas en los art&iacute;culos 1,2.1.22.10 a 1.2.1.22.15 siguen siendo aplicables a los establecimientos hoteleros que se encuentran en el tratamiento preferencial de 'renta exenta' por haber cumplido con las condiciones de inversi&oacute;n enunciadas en el art&iacute;culo 207-2 y sus normas reglamentarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10479-2016",
+      "tipo": "oficio",
+      "numero": "10479",
+      "fecha": "2016-05-03",
+      "tema": "Solicita la modificaci&oacute;n de la doctrina contenida en el Concepto n&uacute;mero 25242 de marzo de 2007, y los Oficios n&uacute;meros 075074 de octubre 11 de 2010, 007254 de marzo 9 de 2015 y 28448 de septiembre 30 de 2015, en los cuales se efectu&oacute; el an&aacute;lisis de la Convenci&oacute;n Internacional sobre la Protecci&oacute;n de los Derechos de todos los Trabajadores Migratorios y de sus Familias, y se afirm&oacute; que tal convenci&oacute;n aplica para los trabajadores en cuanto sean provenientes de los pa&iacute;ses que suscribieron la Convenci&oacute;n, quienes tienen derecho al mismo tratamiento tributario de los nacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34381-2015",
+      "tipo": "oficio",
+      "numero": "34381",
+      "fecha": "2015-12-01",
+      "tema": "Requerimiento puntual de interpretaci&oacute;n de competencia relacionado con la retenci&oacute;n en la fuente respecto del giro de utilidades por parte de una sucursal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30540-2015",
+      "tipo": "oficio",
+      "numero": "30540",
+      "fecha": "2015-10-09",
+      "tema": "Vigencia de las pautas del Cap&iacute;tulo III de la Ley 1715 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24300-2015",
+      "tipo": "oficio",
+      "numero": "24300",
+      "fecha": "2015-08-21",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20928-2015",
+      "tipo": "oficio",
+      "numero": "20928",
+      "fecha": "2015-07-17",
+      "tema": "&iquest;Es correcto concluir que aquellas personas que no hayan facturado los ingresos, deben presentar declaraci&oacute;n de renta y patrimonio sin atender al tope de ingresos brutos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16385-2015",
+      "tipo": "oficio",
+      "numero": "16385",
+      "fecha": "2015-06-03",
+      "tema": "&iquest;La palabra",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4554-2015",
+      "tipo": "oficio",
+      "numero": "4554",
+      "fecha": "2015-02-18",
+      "tema": "Renta Exenta en Servicios Hoteleros Prestados en Nuevos Hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78477-2014",
+      "tipo": "oficio",
+      "numero": "78477",
+      "fecha": "2014-12-22",
+      "tema": "&iquest;Deben calcularse los dividendos no gravados que se distribuyan a los socios con base en el c&aacute;lculo te&oacute;rico del impuesto sobre la renta por cada ejercicio social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57065-2014",
+      "tipo": "oficio",
+      "numero": "57065",
+      "fecha": "2014-10-03",
+      "tema": "&iquest;Cu&aacute;les son las normas que regulan el r&eacute;gimen de la inversi&oacute;n extranjera en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31261-2014",
+      "tipo": "oficio",
+      "numero": "31261",
+      "fecha": "2014-05-22",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82781-2013",
+      "tipo": "oficio",
+      "numero": "82781",
+      "fecha": "2013-12-27",
+      "tema": "&iquest;C&oacute;mo se podr&iacute;a controlar la tributaci&oacute;n de servicios que se prestan en desde el exterior sin presencia local en el territorio Colombiano?&iquest;Ser&iacute;a m&aacute;s f&aacute;cil para el fisco Colombiano realizar dicha actividad con la presencia local de dicho prestador de servicios a trav&eacute;s de una oficina de representaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57425-2013",
+      "tipo": "oficio",
+      "numero": "57425",
+      "fecha": "2013-09-11",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los pagos o abonos en cuenta que se efect&uacute;an a una sociedad extranjera sin establecimiento permanente en Colombia por concepto de software, cuando la sociedad beneficiaria es residente de un Estado con el cual Colombia suscribi&oacute; un acuerdo para evitar la doble tributaci&oacute;n internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52276-2013",
+      "tipo": "oficio",
+      "numero": "52276",
+      "fecha": "2013-08-21",
+      "tema": "Obligaciones tributarias que corresponden por la prestaci&oacute;n de servicios de una sociedad an&oacute;nima simplificada que se constituye en Colombia, la cual tiene una relaci&oacute;n comercial con una empresa extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28932-2013",
+      "tipo": "oficio",
+      "numero": "28932",
+      "fecha": "2013-05-14",
+      "tema": "R&eacute;gimen aplicable en los casos de repatriaci&oacute;n de capitales a sus sociedades matrices en Espa&ntilde;a relativos a inversiones que aquellas tienen en sociedades filiales en Colombia; o lo que es lo mismo, el retiro de inversi&oacute;n en una sociedad en Colombia por parte de un socio extranjero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70381-2012",
+      "tipo": "oficio",
+      "numero": "70381",
+      "fecha": "2012-11-09",
+      "tema": "Doble tributaci&oacute;n - Colombia-Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50865-2012",
+      "tipo": "oficio",
+      "numero": "50865",
+      "fecha": "2012-08-10",
+      "tema": "Aplicaci&oacute;n de la retenci&oacute;n en la fuente sobre dividendos a la luz de lo dispuesto en el art&iacute;culo 10 y su protocolo, del convenio para evitar la doble Imposici&oacute;n y prevenir la evasi&oacute;n fiscal, suscrito entre la Rep&uacute;blica de Colombia y el Reino de Espa&ntilde;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48993-2012",
+      "tipo": "oficio",
+      "numero": "48993",
+      "fecha": "2012-08-02",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente que debe practicar una sociedad Colombiana cuando paga o abona en cuenta a un residente en Espa&ntilde;a unos dividendos gravados en cabeza del accionista y que permanecieron en reservas por dos a&ntilde;os?&iquest;Cu&aacute;l es la tarifa a aplicar cuando se pagan o abonas en cuenta dividendos no gravados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48261-2012",
+      "tipo": "oficio",
+      "numero": "48261",
+      "fecha": "2012-07-31",
+      "tema": "&iquest;La Asamblea de accionistas puede decidir qu&eacute; parte de las utilidades se mantendr&aacute;n en el patrimonio de la sociedad a t&iacute;tulo de inversi&oacute;n en una reserva patrimonial?&iquest;Cuando los dividendos son abonados en cuenta y los mismos van a ser invertidos en los t&eacute;rminos del numeral 2 del protocolo al art&iacute;culo 10 del convenio, qu&eacute; documentos debe solicitar la sociedad pagadora para no practicar la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58372-2010",
+      "tipo": "oficio",
+      "numero": "58372",
+      "fecha": "2010-08-13",
+      "tema": "Vigencia de la doctrina contenida en los conceptos DIAN los cuales fueron revisados en el orden cronol&oacute;gico de expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039973-2010",
+      "tipo": "concepto",
+      "numero": "0039973",
+      "fecha": "2010-06-03",
+      "tema": "&iquest;La tarifa prevista en el par&aacute;grafo 1 del art&iacute;culo 245 del Estatuto Tributario puede reducirse a cero (0%) en virtud del art&iacute;culo 10 del Convenio para Evitar la Doble Tributaci&oacute;n y su Protocolo suscrito entre las Rep&uacute;blicas de Colombia y Chile?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-94485-2009",
+      "tipo": "oficio",
+      "numero": "94485",
+      "fecha": "2009-11-17",
+      "tema": "&iquest;Qu&eacute; retenci&oacute;n se debe aplicar al pago por la compra de software en Colombia a una empresa residenciada en Espa&ntilde;a y sin sucursal en Colombia y de qu&eacute; manera &eacute;ste se debe certificar para efectos de acreditar el repectivo impuesto en Espa&ntilde;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75200-2009",
+      "tipo": "oficio",
+      "numero": "75200",
+      "fecha": "2009-09-15",
+      "tema": "&iquest;Los intereses pagados por una empresa colombiana a un banco extranjero por concepto de cr&eacute;dito est&aacute;n sometidos a Impuestos en el pa&iacute;s?&iquest;Cu&aacute;l es la tarifa retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta para dividendos o participaciones recibidos por extranjeros no residentes ni domiciliados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60169-2009",
+      "tipo": "oficio",
+      "numero": "60169",
+      "fecha": "2009-07-27",
+      "tema": "Tratamiento de impuesto sobre la renta que se debe dar a los ingresos percibidos por una sucursal de una sociedad extranjera, relativos a la renta exenta en servicios hoteleros prestados en nuevos hoteles, construidos a partir de enero de 2003, cuando se remiten a la sociedad extranjera las rentas obtenidas. Y, el tratamiento del impuesto sobre la renta, en la distribuci&oacute;n de utilidades, efectuada a los socios de una sociedad colombiana que obtenga rentas por concepto de prestaci&oacute;n de servicios hoteleros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23643-2009",
+      "tipo": "oficio",
+      "numero": "23643",
+      "fecha": "2009-03-20",
+      "tema": "Solicita aclaraci&oacute;n de los Oficios n&uacute;meros 036622 y 061762 de 2007; Rentas exentas. Predios para fines de utilidad p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60341-2007",
+      "tipo": "oficio",
+      "numero": "60341",
+      "fecha": "2007-08-06",
+      "tema": "&iquest;Cu&aacute;l es la causaci&oacute;n del impuesto de remesas a la tarifa del 7% cuando en el a&ntilde;o 2007 la sociedad gira al exterior utilidades retenidas desde 2001 hasta el a&ntilde;o 2005 teniendo en cuenta el art&iacute;culo 13 de la Ley 1111 de 2006 que adicion&oacute; un par&aacute;grafo al art&iacute;culo 245 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032347-2006",
+      "tipo": "concepto",
+      "numero": "0032347",
+      "fecha": "2006-04-20",
+      "tema": "&iquest;Procede la exenci&oacute;n a que se refieren los numerales 3&ordm; y 4&ordm; del art&iacute;culo 207-2 del Estatuto Tributario, cuando la inversi&oacute;n para la construcci&oacute;n o remodelaci&oacute;n se realice por parte de una cadena hotelera nacional o internacional, que se constituya como sociedad, consorcio o uni&oacute;n temporal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081971-2005",
+      "tipo": "concepto",
+      "numero": "0081971",
+      "fecha": "2005-11-08",
+      "tema": "&iquest;Se encuentran derogados los art&iacute;culos 3&deg; a 5&deg; del decreto 3020 de 1989, reglamentario de los art&iacute;culos 319 y 320 del estatuto tributario?&iquest;Hay lugar a la exigibilidad del impuesto de remesas cuando, como resultado de los diferentes ejercicios contables, las perdidas acumuladas superan las utilidades que dieron lugar al impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014474-2005",
+      "tipo": "concepto",
+      "numero": "0014474",
+      "fecha": "2005-03-11",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto de remesas los pagos o abonos en cuenta que impliquen situaci&oacute;n de recursos en el exterior, efectuados a favor de sociedades nacionales, por los conceptos relacionados en los literales b) a f) del art&iacute;culo 321 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006549-2002",
+      "tipo": "concepto",
+      "numero": "0006549",
+      "fecha": "2002-01-01",
+      "tema": "Cuando se enajenan acciones producto de una inversi&oacute;n extranjera, respecto de las cuales existen dividendos pendientes por distribuir al momento de la enajenaci&oacute;n; el enajenante puede transferir al adquirente los beneficios cuando las utilidades han sido reinvertidas por 5 a&ntilde;os o m&aacute;s en la sociedad que las gener&oacute;?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070925-2000",
+      "tipo": "concepto",
+      "numero": "0070925",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Las personas naturales Colombianas residentes en el pa&iacute;s y las sociedades nacionales que poseen inversiones en el exterior, tributan en Colombia sobre los dividendos que perciban de esas sociedades extranjeras en las cuales tienen la inversi&oacute;n o tributan en el pa&iacute;s en el que tienen origen los dividendos? &iquest;Las sociedades extranjeras que perciban dividendos de sociedades Colombianas est&aacute;n sometidas a gravamen en Colombia sobre esos dividendos o tributan en el pa&iacute;s de la cual es nacional la sociedad beneficiaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070192-2000",
+      "tipo": "concepto",
+      "numero": "0070192",
+      "fecha": "2000-07-25",
+      "tema": "&iquest;Las sociedades colombianas constituidas con capital extranjero que tienen como objeto social la prestaci&oacute;n de servicios al sector de petrolero, son sujetos pasivos del impuesto complementario de remesas respecto de los pagos o abonos en cuenta relativos a la prestaci&oacute;n de esos servicios que les sean consignados en cuentas de compensaci&oacute;n que las beneficiarias del pago tienen en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042321-1999",
+      "tipo": "concepto",
+      "numero": "0042321",
+      "fecha": "1999-05-03",
+      "tema": "&iquest;Al fusionarse varias sustancias importadas con sustancias nacionales tales como caf&eacute; en polvo, melocot&oacute;n en polvo y obtener un nuevo producto y envasarlo en empaques adquiridos en Colombia (frascos Cajas) para su distribuci&oacute;n y venta, puede clasificarse esta actividad como producci&oacute;n para efectos de los beneficios de Ley P&aacute;ez? &iquest;Cual es el plazo que se tiene para la materializaci&oacute;n de la inversi&oacute;n? &iquest;Siguen vigentes las fechas de beneficios tanto para las nuevas como para los inversionistas contemplados en el art&iacute;culo 2&ordm; de la Ley 218-95? &iquest;De acuerdo con el art&iacute;culo 2 del Dcto. 890-97 los establecimientos de comercio que desarrollen su actividad econ&oacute;mica en la zona afectada por sismo y avalancha del R&iacute;o P&aacute;ez, pueden expender cualquier clase de productos al detal? Que caracter&iacute;sticas debe cumplir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069983-1998",
+      "tipo": "concepto",
+      "numero": "0069983",
+      "fecha": "1998-09-07",
+      "tema": "&iquest;Una sociedad inversionista extranjera sin domicilio en Colombia, al convertirse en socio mayoritario de una sociedad limitada colombiana se considera con actividad permanente en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003107-1997",
+      "tipo": "concepto",
+      "numero": "0003107",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044650-1994",
+      "tipo": "concepto",
+      "numero": "0044650",
+      "fecha": "1994-07-15",
+      "tema": ", est&aacute;n sometidos a retenci&oacute;n en la fuente y en caso afirmativo cu&aacute;l es la tarifa aplicable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001241-1993",
+      "tipo": "concepto",
+      "numero": "0001241",
+      "fecha": "1993-06-15",
+      "tema": "&iquest;El Impuesto a la renta es aplicable a subsidiarias o sucursales de sociedades extranjeras?&iquest;El Impuesto de renta cuando se capitalizan las utilidades, si se mantiene la inversi&oacute;n por 10 a&ntilde;os?&iquest;Cu&aacute;l es el Impuesto m&aacute;ximo de renta para las personas naturales o extranjeras residentes en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006166-1991",
+      "tipo": "concepto",
+      "numero": "0006166",
+      "fecha": "1991-11-07",
+      "tema": "solicita usted se concept&uacute;e por parte de este Despacho, sobre la parte gravada y no gravada con el impuesto de renta, para:a) Un inversionista Nacional, b) Para un inversionista extranjero",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    }
+  ]
+}

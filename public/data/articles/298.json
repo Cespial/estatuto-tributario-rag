@@ -1,1 +1,216 @@
-{"id_articulo": "Art. 298", "titulo": "Art. 298. Declaración y pago.", "titulo_corto": "Declaración y pago.", "slug": "298", "url_origen": "https://estatuto.co/298", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El impuesto al patrimonio deberá liquidarse en el formulario oficial que para el efecto prescriba la Dirección de Impuestos y Aduanas Nacionales y presentarse con pago en los bancos y demás entidades autorizadas para recaudar ubicados en la jurisdicción de la Administración de Impuestos y Aduanas o de Impuestos Nacionales, que corresponda al domicilio del sujeto pasivo de este impuesto, dentro de los plazos que para tal efecto reglamente el Gobierno Nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto al patrimonio deberá liquidarse en el formulario oficial que para el efecto prescriba la Dirección de Impuestos y Aduanas Nacionales y presentarse con pago en los bancos y demás entidades autorizadas para recaudar ubicados en la jurisdicción de la Administración de Impuestos y Aduanas o de Impuestos Nacionales, que corresponda al domicilio del sujeto pasivo de este impuesto, dentro de los plazos que para tal efecto reglamente el Gobierno Nacional.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art. 30.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "30"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "863", "norma_year": 2003, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 863 de 2003"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["298-8"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 298",
+  "titulo": "Art. 298. Declaración y pago.",
+  "titulo_corto": "Declaración y pago.",
+  "slug": "298",
+  "url_origen": "https://estatuto.co/298",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El impuesto al patrimonio deberá liquidarse en el formulario oficial que para el efecto prescriba la Dirección de Impuestos y Aduanas Nacionales y presentarse con pago en los bancos y demás entidades autorizadas para recaudar ubicados en la jurisdicción de la Administración de Impuestos y Aduanas o de Impuestos Nacionales, que corresponda al domicilio del sujeto pasivo de este impuesto, dentro de los plazos que para tal efecto reglamente el Gobierno Nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto al patrimonio deberá liquidarse en el formulario oficial que para el efecto prescriba la Dirección de Impuestos y Aduanas Nacionales y presentarse con pago en los bancos y demás entidades autorizadas para recaudar ubicados en la jurisdicción de la Administración de Impuestos y Aduanas o de Impuestos Nacionales, que corresponda al domicilio del sujeto pasivo de este impuesto, dentro de los plazos que para tal efecto reglamente el Gobierno Nacional.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art. 30.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "30"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "863",
+      "norma_year": 2003,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 863 de 2003"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "298-8"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 10465 (2025-08-05): Procedimiento Tributario\noficio 5342 (2024-07-30): Otras Disposiciones\noficio 909037 (2021-09-01): Impuesto complementario de normalizaci&oacute;n tributaria",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-10465-2025",
+      "tipo": "oficio",
+      "numero": "10465",
+      "fecha": "2025-08-05",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5342-2024",
+      "tipo": "oficio",
+      "numero": "5342",
+      "fecha": "2024-07-30",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909037-2021",
+      "tipo": "oficio",
+      "numero": "909037",
+      "fecha": "2021-09-01",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32470-2019",
+      "tipo": "oficio",
+      "numero": "32470",
+      "fecha": "2019-12-31",
+      "tema": "Nuevo Impuesto Complementario de Normalizaci&oacute;n Tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26993-2019",
+      "tipo": "oficio",
+      "numero": "26993",
+      "fecha": "2019-10-28",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13408-2019",
+      "tipo": "oficio",
+      "numero": "13408",
+      "fecha": "2019-06-07",
+      "tema": "Principio de legalidad de la sanci&oacute;n por no declarar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0327-2018",
+      "tipo": "oficio",
+      "numero": "0327",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Puede el ciudadano colombiano informar las cuentas bancarias que tienen en el exterior para que la Dian ordene su embargo y de all&iacute; cancelar los tributos generados en la declaraci&oacute;n de Normalizaci&oacute;n con ocasi&oacute;n a lo establecido en la Ley 1739 de 2014 y dejar de pagar intereses de mora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0303-2018",
+      "tipo": "oficio",
+      "numero": "0303",
+      "fecha": "2018-03-15",
+      "tema": "Consecuencias por no presentar declaraci&oacute;n del impuesto al patrimonio para el a&ntilde;o gravable 2011",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34465-2015",
+      "tipo": "oficio",
+      "numero": "34465",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Se considera pasivo inexistente para efecto del impuesto de normalizaci&oacute;n tributaria, al tenor de lo consagrado en el art&iacute;culo 36 de la Ley 1739 de 2014, aquellos que se incluyeron en las declaraciones de impuestos nacionales, pero que no tuvieron como finalidad aminorar o disminuir la carga tributaria del contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55947-2013",
+      "tipo": "oficio",
+      "numero": "55947",
+      "fecha": "2013-09-05",
+      "tema": "Impuesto al patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47014-2011",
+      "tipo": "oficio",
+      "numero": "47014",
+      "fecha": "2011-06-24",
+      "tema": "&iquest;El impuesto al patrimonio creado por la Ley 1370 de 2009 puede ser compensado con otros impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33042-2008",
+      "tipo": "oficio",
+      "numero": "33042",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;A cargo de qui&eacute;n est&aacute; la obligaci&oacute;n de pagar el impuesto de patrimonio en un caso particular y concreto por parte de una empresa industrial y comercial del Estado, prestadora de servicios p&uacute;blicos domiciliarios, intervenida por la superintendencia y que por decisi&oacute;n de la interventora se transforma en una sociedad an&oacute;nima con capital p&uacute;blico que entrega todos los activos por un tiempo determinado a un nuevo operador que llega a prestar el servicio p&uacute;blico domiciliario, superando dichos activos el tope establecido como base para liquidar el impuesto al patrimonio, quedando con el producto de una participaci&oacute;n relativamente baja que le da el nuevo operador, a cargo de Los pensionados y sin ning&uacute;n otro ingreso por prestaci&oacute;n de servicios p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76415-2004",
+      "tipo": "oficio",
+      "numero": "76415",
+      "fecha": "2004-11-08",
+      "tema": "Solicita rectificar el Concepto 041670 de julio 8 de 2004, en el cual se expres&oacute; que el impuesto al patrimonio no es complementario del impuesto de renta",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

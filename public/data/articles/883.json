@@ -1,1 +1,133 @@
-{"id_articulo": "Art. 883", "titulo": "Art. 883. Sujetos del régimen de entidades controladas del exterior sin residencia fiscal en Colombia (ECE).", "titulo_corto": "Sujetos del régimen de entidades controladas del exterior sin residencia fiscal en Colombia (ECE).", "slug": "883", "url_origen": "https://estatuto.co/883", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Cuando se determine que la ECE es controlada por residentes colombianos de acuerdo con el artículo 882 anterior, estarán obligados a cumplir con las disposiciones de este título, todos aquellos residentes fiscales colombianos que tengan, directa o indirectamente, una participación igual o superior al 10% en el capital de la ECE o en los resultados de la misma.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando se determine que la ECE es controlada por residentes colombianos de acuerdo con el <a href=\"https://estatuto.co/882\" rel=\"noopener\" target=\"_blank\">artículo 882</a> anterior, estarán obligados a cumplir con las disposiciones de este título, todos aquellos residentes fiscales colombianos que tengan, directa o indirectamente, una participación igual o superior al 10% en el capital de la ECE o en los resultados de la misma.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "* Adicionado Ley 1819 de 2016 Art. 139.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "139"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["882"], "referenced_by": ["890", "893"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 883",
+  "titulo": "Art. 883. Sujetos del régimen de entidades controladas del exterior sin residencia fiscal en Colombia (ECE).",
+  "titulo_corto": "Sujetos del régimen de entidades controladas del exterior sin residencia fiscal en Colombia (ECE).",
+  "slug": "883",
+  "url_origen": "https://estatuto.co/883",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Cuando se determine que la ECE es controlada por residentes colombianos de acuerdo con el artículo 882 anterior, estarán obligados a cumplir con las disposiciones de este título, todos aquellos residentes fiscales colombianos que tengan, directa o indirectamente, una participación igual o superior al 10% en el capital de la ECE o en los resultados de la misma.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Cuando se determine que la ECE es controlada por residentes colombianos de acuerdo con el <a href=\"https://estatuto.co/882\" rel=\"noopener\" target=\"_blank\">artículo 882</a> anterior, estarán obligados a cumplir con las disposiciones de este título, todos aquellos residentes fiscales colombianos que tengan, directa o indirectamente, una participación igual o superior al 10% en el capital de la ECE o en los resultados de la misma.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "* Adicionado Ley 1819 de 2016 Art. 139.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "139"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "882"
+  ],
+  "referenced_by": [
+    "890",
+    "893"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 8 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 15498 (2025-11-04): Otros Temas\noficio 3631 (2024-06-04): Otras Disposiciones\noficio 907162 (2022-09-27): &iquest;El R&eacute;gimen ECE resulta aplicable a contribuyentes del R&eacute;gimen SIMPLE a&uacute;n cuando no son contribuyentes del impuesto sobre la renta?\noficio 904842 (2022-06-17): Impuesto sobre la renta - Enajenaciones indirectas\noficio 913685 (2021-11-08): &iquest;C&oacute;mo debe declarar la sociedad colombia este ingreso en aplicaci&oacute;n del r&eacute;gimen ECE, si a partir de la Decisi&oacute;n 578 de 2004, este ser&iacute;a un ingreso pasivo exento o no gravado?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-15498-2025",
+      "tipo": "oficio",
+      "numero": "15498",
+      "fecha": "2025-11-04",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3631-2024",
+      "tipo": "oficio",
+      "numero": "3631",
+      "fecha": "2024-06-04",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907162-2022",
+      "tipo": "oficio",
+      "numero": "907162",
+      "fecha": "2022-09-27",
+      "tema": "&iquest;El R&eacute;gimen ECE resulta aplicable a contribuyentes del R&eacute;gimen SIMPLE a&uacute;n cuando no son contribuyentes del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904842-2022",
+      "tipo": "oficio",
+      "numero": "904842",
+      "fecha": "2022-06-17",
+      "tema": "Impuesto sobre la renta - Enajenaciones indirectas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913685-2021",
+      "tipo": "oficio",
+      "numero": "913685",
+      "fecha": "2021-11-08",
+      "tema": "&iquest;C&oacute;mo debe declarar la sociedad colombia este ingreso en aplicaci&oacute;n del r&eacute;gimen ECE, si a partir de la Decisi&oacute;n 578 de 2004, este ser&iacute;a un ingreso pasivo exento o no gravado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912395-2021",
+      "tipo": "oficio",
+      "numero": "912395",
+      "fecha": "2021-10-06",
+      "tema": "R&eacute;gimen de Entidades Controladas del Exterior (ECE) Declaraci&oacute;n Anual de Activos en el Exterior - Impuesto sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906178-2021",
+      "tipo": "oficio",
+      "numero": "906178",
+      "fecha": "2021-06-28",
+      "tema": "Entidades Controladas del Exterior ECE - Convenios para Evitar la Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904102-2021",
+      "tipo": "oficio",
+      "numero": "904102",
+      "fecha": "2021-05-07",
+      "tema": "Entidades Controladas del Exterior Reconocimiento del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6256-2019",
+      "tipo": "oficio",
+      "numero": "6256",
+      "fecha": "2019-03-13",
+      "tema": "Aplicaci&oacute;n del r&eacute;gimen de entidades controladas del exterior previsto por la Ley 1819 de 2016",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

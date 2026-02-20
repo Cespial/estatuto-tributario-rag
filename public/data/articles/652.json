@@ -1,1 +1,527 @@
-{"id_articulo": "Art. 652", "titulo": "Art. 652. Sanción por expedir facturas sin requisitos.", "titulo_corto": "Sanción por expedir facturas sin requisitos.", "slug": "652", "url_origen": "https://estatuto.co/652", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Quienes estando obligados a expedir facturas, lo hagan sin el cumplimiento de los requisitos establecidos en los literales a), h), e i) del artículo 617 del Estatuto Tributario, incurrirán en una sanción del uno por ciento (1%) del valor de las operaciones facturadas sin el cumplimiento de los requisitos legales, sin exceder de 950 UVT. Cuando hay reincidencia se dará aplicación a lo previsto en el artículo 657 del Estatuto Tributario. Cuando la sanción a que se refiere el presente artículo, se imponga mediante resolución independiente, previamente se dará traslado de cargos a la persona o entidad a sancionar, quien tendrá un término de diez (10) días para responder. **Parágrafo. Esta sanción también procederá cuando en la factura no aparezca el NIT con el lleno de los requisitos legales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Quienes estando obligados a expedir facturas, lo hagan sin el cumplimiento de los requisitos establecidos en los literales a), h), e i) del <a href=\"https://estatuto.co/617\" rel=\"noopener\" target=\"_blank\">artículo 617</a> del Estatuto Tributario, incurrirán en una sanción del uno por ciento (1%) del valor de las operaciones facturadas sin el cumplimiento de los requisitos legales, sin exceder de 950 UVT. Cuando hay reincidencia se dará aplicación a lo previsto en el <a href=\"https://estatuto.co/657\" rel=\"noopener\" target=\"_blank\">artículo 657</a> del Estatuto Tributario.</p>\n<p>Cuando la sanción a que se refiere el presente artículo, se imponga mediante resolución independiente, previamente se dará traslado de cargos a la persona o entidad a sancionar, quien tendrá un término de diez (10) días para responder.</p>\n<p><strong><span style=\"color: #339966;\">**Parágrafo.</span> </strong>Esta sanción también procederá cuando en la factura no aparezca el NIT con el lleno de los requisitos legales.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 44. **Adicionado Ley 488 de 1998 Art 73.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "44"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": "73"}], "total_modificaciones": 2, "ultima_modificacion_year": 1998, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 488 de 1998"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["617", "657"], "referenced_by": ["616", "616-1", "640"], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 652",
+  "titulo": "Art. 652. Sanción por expedir facturas sin requisitos.",
+  "titulo_corto": "Sanción por expedir facturas sin requisitos.",
+  "slug": "652",
+  "url_origen": "https://estatuto.co/652",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Quienes estando obligados a expedir facturas, lo hagan sin el cumplimiento de los requisitos establecidos en los literales a), h), e i) del artículo 617 del Estatuto Tributario, incurrirán en una sanción del uno por ciento (1%) del valor de las operaciones facturadas sin el cumplimiento de los requisitos legales, sin exceder de 950 UVT. Cuando hay reincidencia se dará aplicación a lo previsto en el artículo 657 del Estatuto Tributario. Cuando la sanción a que se refiere el presente artículo, se imponga mediante resolución independiente, previamente se dará traslado de cargos a la persona o entidad a sancionar, quien tendrá un término de diez (10) días para responder. **Parágrafo. Esta sanción también procederá cuando en la factura no aparezca el NIT con el lleno de los requisitos legales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Quienes estando obligados a expedir facturas, lo hagan sin el cumplimiento de los requisitos establecidos en los literales a), h), e i) del <a href=\"https://estatuto.co/617\" rel=\"noopener\" target=\"_blank\">artículo 617</a> del Estatuto Tributario, incurrirán en una sanción del uno por ciento (1%) del valor de las operaciones facturadas sin el cumplimiento de los requisitos legales, sin exceder de 950 UVT. Cuando hay reincidencia se dará aplicación a lo previsto en el <a href=\"https://estatuto.co/657\" rel=\"noopener\" target=\"_blank\">artículo 657</a> del Estatuto Tributario.</p>\n<p>Cuando la sanción a que se refiere el presente artículo, se imponga mediante resolución independiente, previamente se dará traslado de cargos a la persona o entidad a sancionar, quien tendrá un término de diez (10) días para responder.</p>\n<p><strong><span style=\"color: #339966;\">**Parágrafo.</span> </strong>Esta sanción también procederá cuando en la factura no aparezca el NIT con el lleno de los requisitos legales.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 44. **Adicionado Ley 488 de 1998 Art 73.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "44"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": "73"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1998,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 488 de 1998"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "617",
+    "657"
+  ],
+  "referenced_by": [
+    "616",
+    "616-1",
+    "640"
+  ],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 16 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6888 (2025-05-23): Procedimiento Tributario\noficio 6492 (2025-05-19): Procedimiento Tributario\noficio 2156 (2025-02-04): Procedimiento Tributario\noficio 0974 (2025-01-31): Facturaci&oacute;n Electr&oacute;nica\noficio 13392 (2024-07-10): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6888-2025",
+      "tipo": "oficio",
+      "numero": "6888",
+      "fecha": "2025-05-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6492-2025",
+      "tipo": "oficio",
+      "numero": "6492",
+      "fecha": "2025-05-19",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2156-2025",
+      "tipo": "oficio",
+      "numero": "2156",
+      "fecha": "2025-02-04",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0974-2025",
+      "tipo": "oficio",
+      "numero": "0974",
+      "fecha": "2025-01-31",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13392-2024",
+      "tipo": "oficio",
+      "numero": "13392",
+      "fecha": "2024-07-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11511-2024",
+      "tipo": "oficio",
+      "numero": "11511",
+      "fecha": "2024-06-13",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16796-2023",
+      "tipo": "oficio",
+      "numero": "16796",
+      "fecha": "2023-10-02",
+      "tema": "(Int 1046) Sanciones de que trata el inciso 3&deg; del art&iacute;culo 616-1 del ET a las infracciones cometidas en relaci&oacute;n con los nuevos documentos que hacen parte del sistema de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3423-2023",
+      "tipo": "oficio",
+      "numero": "3423",
+      "fecha": "2023-06-05",
+      "tema": "(Int 634) R&eacute;gimen tributario especial - Responsabilidad solidaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906780-2022",
+      "tipo": "oficio",
+      "numero": "906780",
+      "fecha": "2022-09-08",
+      "tema": "Procedimiento tributario. Sistema de facturaci&oacute;n electr&oacute;nica. Impuesto sobre las ventas -IVA. Obligaci&oacute;n de expedir factura o documento equivalente. Descripci&oacute;n de los bienes vendidos. Discriminaci&oacute;n del impuesto sobre las ventas -IVA Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904519-2022",
+      "tipo": "oficio",
+      "numero": "904519",
+      "fecha": "2022-06-09",
+      "tema": "Obligados a expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900986-2022",
+      "tipo": "oficio",
+      "numero": "900986",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914983-2021",
+      "tipo": "oficio",
+      "numero": "914983",
+      "fecha": "2021-12-06",
+      "tema": "Factura electr&oacute;nica de venta - Facturaci&oacute;n en reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913422-2021",
+      "tipo": "oficio",
+      "numero": "913422",
+      "fecha": "2021-10-29",
+      "tema": "Excenci&oacute;n especial del impuesto sobre las ventas, facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913420-2021",
+      "tipo": "oficio",
+      "numero": "913420",
+      "fecha": "2021-01-01",
+      "tema": "Adquisici&oacute;n de bonos de regalo, factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909578-2021",
+      "tipo": "oficio",
+      "numero": "909578",
+      "fecha": "2021-10-10",
+      "tema": "Generalidades sobre sanciones en materia de obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904241-2021",
+      "tipo": "oficio",
+      "numero": "904241",
+      "fecha": "2021-06-12",
+      "tema": "Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28598-2019",
+      "tipo": "oficio",
+      "numero": "28598",
+      "fecha": "2019-11-18",
+      "tema": "&iquest;Es aplicable el concepto de reincidencia frente a la sanci&oacute;n de clausura del establecimiento, con posterioridad a la Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26025-2019",
+      "tipo": "oficio",
+      "numero": "26025",
+      "fecha": "2019-04-16",
+      "tema": "&iquest;C&oacute;mo se debe facturar y cobrar el IVA en la venta de un kit compuesto por un computador de un valor inferior a 50 UVT y por lo tanto excluido del IVA y un disco de estado s&oacute;lido gravado al 19%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24562-2019",
+      "tipo": "oficio",
+      "numero": "24562",
+      "fecha": "2019-09-26",
+      "tema": "&iquest;C&oacute;mo se debe facturar un kit escolar compuesto de un l&aacute;piz, dos borradores, tres lapiceros y cinco cuadernos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12738-2019",
+      "tipo": "oficio",
+      "numero": "12738",
+      "fecha": "2019-05-23",
+      "tema": "Procedimiento Tributario. Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15165-2018",
+      "tipo": "oficio",
+      "numero": "15165",
+      "fecha": "2018-06-13",
+      "tema": "Ratificaci&oacute;n del concepto 46572 de 1999, relativo a la Reforma Tributaria de 1998",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1816-2018",
+      "tipo": "oficio",
+      "numero": "1816",
+      "fecha": "2018-10-17",
+      "tema": "Modificaciones para subsanar de manera voluntaria la informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23300-2017",
+      "tipo": "oficio",
+      "numero": "23300",
+      "fecha": "2017-08-28",
+      "tema": "Obligaciones Formales - Monotributo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20935-2017",
+      "tipo": "oficio",
+      "numero": "20935",
+      "fecha": "2017-08-15",
+      "tema": "Facturaci&oacute;n - requisitos - Identificaci&oacute;n del adquiriente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15397-2017",
+      "tipo": "oficio",
+      "numero": "15397",
+      "fecha": "2017-08-09",
+      "tema": "&iquest;C&oacute;mo se aplica el art&iacute;culo 282 de la ley 1819 de 2016 que modific&oacute; el art&iacute;culo 640 del Estatuto Tributario sobre los principios de lesividad, proporcionalidad, gradualidad y lesividad en el r&eacute;gimen sancionatorio frente a la reducci&oacute;n de sanci&oacute;n establecida en el art&iacute;culo 651 del mismo Estatuto de sanci&oacute;n por no enviar informaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5981-2017",
+      "tipo": "oficio",
+      "numero": "5981",
+      "fecha": "2017-03-17",
+      "tema": "Procedimiento Tributario - Sanciones Art&iacute;culo 640 del Estatuto Tributario, modificado por el art&iacute;culo 282 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9816-2016",
+      "tipo": "oficio",
+      "numero": "9816",
+      "fecha": "2016-05-20",
+      "tema": "Posibilidad de liquidar el IVA venta de bienes o prestaci&oacute;n de servicios a una EPS, que los adquiere para la prestaci&oacute;n del Plan Obligatorio de Salud - Reconsideraci&oacute;n del Oficio 023096 del 18 de agosto de 2015, el cual frente a la posibilidad de imponer sanci&oacute;n pecuniaria a los responsables del r&eacute;gimen simplificado del Impuesto Nacional al Consumo (en adelante INC) cuando expiden facturas sin el lleno de los requisitos concluy&oacute; que tampoco era posible aplicar de manera anal&oacute;gica el art&iacute;culo 652 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23096-2015",
+      "tipo": "oficio",
+      "numero": "23096",
+      "fecha": "2015-08-18",
+      "tema": "&iquest;Es viable la imposici&oacute;n de sanci&oacute;n pecuniaria a los responsables del r&eacute;gimen simplificado del Impuesto Nacional al Consumo (en adelante INC) cuando expiden facturas sin el lleno de los requisitos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55415-2014",
+      "tipo": "oficio",
+      "numero": "55415",
+      "fecha": "2014-09-19",
+      "tema": "&iquest;Es viable para efectos tributarios que el mandante contin&uacute;e realizando la facturaci&oacute;n, en raz&oacute;n a que el mandatario no posee un software que le permita facturar directamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50297-2014",
+      "tipo": "oficio",
+      "numero": "50297",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;Cu&aacute;l es la base para aplicar la sanci&oacute;n por no expedir factura cuando a juicio de la Direcci&oacute;n de Impuestos y Aduanas Nacionales, por no existir un perjuicio grave?&iquest;Es procedente imponer la sanci&oacute;n prevista en el art&iacute;culo 652 del Estatuto Tributario en lugar de decretar la clausura o cierre del establecimiento de comercio, oficina, consultorio, y en general, el sitio donde se ejerza la actividad, profesi&oacute;n u oficio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48031-2014",
+      "tipo": "oficio",
+      "numero": "48031",
+      "fecha": "2014-08-08",
+      "tema": "Factura - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039132-2014",
+      "tipo": "concepto",
+      "numero": "0039132",
+      "fecha": "2014-07-02",
+      "tema": "&iquest;Es procedente imponer a los contribuyentes clasificados dentro del r&eacute;gimen simplificado del impuesto nacional al consumo la sanci&oacute;n de clausura del establecimiento, de que trata el art&iacute;culo 657 del Estatuto Tributario, por no expedir factura ni documento equivalente o hacerlo sin el lleno de los requisitos legales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0617-2012",
+      "tipo": "oficio",
+      "numero": "0617",
+      "fecha": "2012-09-14",
+      "tema": "&iquest;Para constatar la infracci&oacute;n por no expedir factura o hacerlo sin requisitos es necesario que se designe por parte del Jefe de Fiscalizaci&oacute;n dos funcionarios para este efecto?&iquest;Es necesario recepcionar adicionalmente testimonios o es suficiente como prueba de la infracci&oacute;n la atestaci&oacute;n de los funcionarios en el acta de la diligencia realizada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97942-2010",
+      "tipo": "oficio",
+      "numero": "97942",
+      "fecha": "2010-12-24",
+      "tema": "&iquest;Est&aacute; sometida a la sanci&oacute;n por correcci&oacute;n contemplada por el par&aacute;grafo 2 del art&iacute;culo 588 del Estatuto Tributario la declaraci&oacute;n que se presenta antes del vencimiento del t&eacute;rmino para presentar la inicial, con el objeto de corregir la inconsistencia del literal d) del art&iacute;culo 580 ib&iacute;dem? &iquest;La expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24654-2010",
+      "tipo": "oficio",
+      "numero": "24654",
+      "fecha": "2010-04-12",
+      "tema": "&iquest;Con la expedici&oacute;n del decreto mencionado se agota la facultad reglamentar&iacute;a, si el gobierno tiene preparadas normas o instructivos sobre el tema, cu&aacute;les sanciones proceden contra los infractores de disposiciones sustanciales y procedimentales existentes y el competente para imponerlas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47259-2007",
+      "tipo": "oficio",
+      "numero": "47259",
+      "fecha": "2007-06-25",
+      "tema": "&iquest;Teniendo en cuenta la exclusi&oacute;n del IVA, contenida en el numeral 21 del art&iacute;culo 476 del Estatuto Tributario, se excluye el servicio de publicidad, prestado por progamadoras de canales regionales de televisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102249-2006",
+      "tipo": "oficio",
+      "numero": "102249",
+      "fecha": "2006-12-05",
+      "tema": "&iquest;Dado que el Fondo de Ventas Populares, como establecimiento p&uacute;blico adscrito a la Secretar&iacute;a de Gobierno, actualmente est&aacute; recaudando el IVA en un t&iacute;tulo valor denominado por ellos BONO EXITO, cu&aacute;l es la facultad para dicho recaudo, la autorizaci&oacute;n para emitir los n&uacute;meros consecutivos del t&iacute;tulo valor, los requisitos legales de tales documentos, y el r&eacute;gimen sancionatorio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20796-2006",
+      "tipo": "oficio",
+      "numero": "20796",
+      "fecha": "2006-03-10",
+      "tema": "&iquest;Est&aacute;n obligados a llevar libros de contabilidad los comerciantes y cu&aacute;l es su periodo de conservaci&oacute;n antes y despu&eacute;s de la expedici&oacute;n de la Ley 962 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22738-2005",
+      "tipo": "oficio",
+      "numero": "22738",
+      "fecha": "2005-01-01",
+      "tema": "Factura - &iquest;Se pueden desconocer costos y gastos en aquellos casos en los que el vendedor, responsable inscrito en el r&eacute;gimen com&uacute;n del impuesto sobre las ventas, no cobre y no incluya el IVA en la factura, a pesar de tratarse de una operaci&oacute;n gravada con el impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039173-2003",
+      "tipo": "concepto",
+      "numero": "0039173",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n que procede por la no adopci&oacute;n o el incumplimiento de los sistemas t&eacute;cnicos de control establecidos por la Direcci&oacute;n de Impuestos y Aduanas Nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074212-2002",
+      "tipo": "concepto",
+      "numero": "0074212",
+      "fecha": "2002-11-18",
+      "tema": "&iquest;Procede aplicar la sanci&oacute;n pecuniaria por expedir factura sin el cumplimiento de los requisitos establecidos en los literales a), h) e i) del art&iacute;culo 617 del Estatuto Tributario, a quienes no estando obligados a expedir&iacute;as, opten por hacerlo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065921-2001",
+      "tipo": "concepto",
+      "numero": "0065921",
+      "fecha": "2001-07-19",
+      "tema": "&iquest;Se puede llevar a cabo la sanci&oacute;n de clausura del establecimiento, cuando &eacute;ste ha sido enajenado y ya no pertenece al sujeto de la sanci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-61011-2001",
+      "tipo": "concepto",
+      "numero": "61011",
+      "fecha": "2001-07-04",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53022-2001",
+      "tipo": "concepto",
+      "numero": "53022",
+      "fecha": "2001-06-21",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029658-2001",
+      "tipo": "concepto",
+      "numero": "0029658",
+      "fecha": "2001-04-11",
+      "tema": "&iquest;Se puede imponer sanci&oacute;n de cierre del establecimiento por llevar doble facturaci&oacute;n con fundamento en un acta levantada con ocasi&oacute;n de una diligencia de registro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093629-2000",
+      "tipo": "concepto",
+      "numero": "0093629",
+      "fecha": "2000-09-26",
+      "tema": "&iquest;Cu&aacute;ndo un documento privado tiene fecha cierta, para efectos tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074997-2000",
+      "tipo": "concepto",
+      "numero": "0074997",
+      "fecha": "2000-08-09",
+      "tema": "&iquest;Cu&aacute;les soportes respaldan la declaraci&oacute;n de renta cuando no se est&aacute; obligado a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039139-2000",
+      "tipo": "concepto",
+      "numero": "0039139",
+      "fecha": "2000-04-25",
+      "tema": "&iquest;Existe disposici&oacute;n que exija el cambio de la fecha de una factura.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037542-2000",
+      "tipo": "concepto",
+      "numero": "0037542",
+      "fecha": "2000-04-18",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir cuanso con posterioridad a la devoluci&oacute;n, el contribuyente corrige la declaraci&oacute;n que sirvi&oacute; de base para la misma, disminuyendo el saldo a favor y sin reintegrar la diferencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069045-1999",
+      "tipo": "concepto",
+      "numero": "0069045",
+      "fecha": "1999-07-29",
+      "tema": "&iquest;Se puede sancionar en forma acumulativa a un mismo contribuyente o responsable, por irregularidades en la facturaci&oacute;n por dos hechos diferentes, el primero que no expresa la palabra factura de venta y el segundo por falta del n&uacute;mero consecutivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046572-1999",
+      "tipo": "concepto",
+      "numero": "0046572",
+      "fecha": "1999-12-07",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n que procede para los responsables del r&eacute;gimen simplificado que no presenten el libro fiscal de registro de operaciones diarias o lo lleven atrasado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013706-1999",
+      "tipo": "concepto",
+      "numero": "0013706",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones de renta y complementarios de las entidades sin &aacute;nimo de lucro que estaban obligadas a solicitar la calificaci&oacute;n previa? &iquest;Pierden los beneficios a que tienen derecho, las entidades del r&eacute;gimen tributario especial que a la entrada en vigencia de la Ley 488 de 1998, no hab&iacute;an solicitado la calificaci&oacute;n por a&ntilde;os gravables anteriores a 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014511-1991",
+      "tipo": "concepto",
+      "numero": "0014511",
+      "fecha": "1991-01-01",
+      "tema": "Pautas de interpretaci&oacute;n y aplicaci&oacute;n de las normas legales y reglamentarias vigentes en materia de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001799-1990",
+      "tipo": "concepto",
+      "numero": "0001799",
+      "fecha": "1990-01-23",
+      "tema": "&iquest;si la empresa procede como a continuaci&oacute;n se describe, infringe alguna norma fiscal o comercial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027759-1989",
+      "tipo": "concepto",
+      "numero": "0027759",
+      "fecha": "1989-01-01",
+      "tema": "Sanci&oacute;n por no expedir certificados sobre retenci&oacute;n en la fuente, art&iacute;culo 667 del Estatuto tributario",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

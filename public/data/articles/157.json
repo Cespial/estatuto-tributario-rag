@@ -1,1 +1,531 @@
-{"id_articulo": "Art. 157", "titulo": "Art. 157. Deducción por inversiones en nuevas plantaciones, riegos, pozos y silos.", "titulo_corto": "Deducción por inversiones en nuevas plantaciones, riegos, pozos y silos.", "slug": "157", "url_origen": "https://estatuto.co/157", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable. La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión. Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable.", "La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión.", "Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles ...", "full_length": 466}, {"index": 1, "snippet": "La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividad...", "full_length": 351}, {"index": 2, "snippet": "Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Minist...", "full_length": 337}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 157",
+  "titulo": "Art. 157. Deducción por inversiones en nuevas plantaciones, riegos, pozos y silos.",
+  "titulo_corto": "Deducción por inversiones en nuevas plantaciones, riegos, pozos y silos.",
+  "slug": "157",
+  "url_origen": "https://estatuto.co/157",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable. La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión. Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles frutales, de obras de riego y avenamiento, de pozos profundos y silos para tratamiento y beneficio primario de los productos agrícolas, tendrán derecho a deducir anualmente de su renta el valor de dichas inversiones que hayan realizado en el respectivo año gravable.",
+    "La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividades. La deducción de que trata este artículo, no podrá exceder del diez por ciento (10%) de la renta líquida del contribuyente que realice la inversión.",
+    "Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Ministerio de Agricultura expedirá anualmente una resolución en la cual señale las empresas que califican para los fines del presente artículo."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Las personas naturales o jurídicas que realicen directamente inversiones en nuevas plantaciones de reforestación, de coco, de palmas productoras de aceites, de caucho, de olivo, de cacao, de árboles ...",
+      "full_length": 466
+    },
+    {
+      "index": 1,
+      "snippet": "La deducción anterior se extenderá también a las personas naturales y jurídicas que efectúen inversiones en empresas especializadas reconocidas por el Ministerio de Agricultura en las mismas actividad...",
+      "full_length": 351
+    },
+    {
+      "index": 2,
+      "snippet": "Para efectos de la deducción aquí prevista, el contribuyente deberá conservar la prueba de la inversión y de la calidad de empresa especializada en la respectiva área, cuando fuere del caso. El Minist...",
+      "full_length": 337
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 43 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 21835 (2019-09-02): Ingreso por Diferencia en Cambio\noficio 5700 (2018-03-07): &iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?\noficio 901801 (2017-03-08): Impuesto Nacional al Consumo\noficio 23842 (2015-08-11): Otras Disposiciones\noficio 13516 (2015-05-12): Impuesto sobre la renta y complementarios - Beneficios tributarios",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-537-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "537",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-337-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "337",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-637-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-633-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "633",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-387-1997",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "387",
+      "year": 1997,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1404-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1404",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23842-2015",
+      "tipo": "oficio",
+      "numero": "23842",
+      "fecha": "2015-08-11",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13516-2015",
+      "tipo": "oficio",
+      "numero": "13516",
+      "fecha": "2015-05-12",
+      "tema": "Impuesto sobre la renta y complementarios - Beneficios tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49812-2014",
+      "tipo": "oficio",
+      "numero": "49812",
+      "fecha": "2014-08-19",
+      "tema": "&iquest;C&oacute;mo los vendedores de medios de pago de los servicios de telecomunicaciones deben reportar los ingresos brutos en las declaraciones del impuesto sobre la renta y del impuesto sobre las ventas y en los dem&aacute;s formularios, reportes o medios magn&eacute;ticos que se presenten ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030172-2008",
+      "tipo": "concepto",
+      "numero": "0030172",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;El beneficio tributario otorgado al incentivo a la capitalizaci&oacute;n rural se puede utilizar en concurrencia con la deducci&oacute;n por inversiones en nuevas plantaciones, riegos, pozos y silos o en concurrencia con la deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87004-2007",
+      "tipo": "oficio",
+      "numero": "87004",
+      "fecha": "2007-10-25",
+      "tema": "Fondo Com&uacute;n Especial de Inversi&oacute;n Forestal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108392-2006",
+      "tipo": "oficio",
+      "numero": "108392",
+      "fecha": "2006-12-28",
+      "tema": "&iquest;Respecto de los procesos de liquidaci&oacute;n obligatoria es procedente entender que el cr&eacute;dito fiscal a cargo de entidades que entran en estos procesos deben recibir el tratamiento de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52579-2006",
+      "tipo": "oficio",
+      "numero": "52579",
+      "fecha": "2006-06-21",
+      "tema": "&iquest;Cu&aacute;les son los incentivos previstos por la ley fiscal para la actividad reforestadota y cu&aacute;l es el procedimiento para acogerse a ellos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038750-2006",
+      "tipo": "concepto",
+      "numero": "0038750",
+      "fecha": "2006-05-15",
+      "tema": "&iquest;Tienen los cultivos de palma africana el car&aacute;cter de activos fijos reales productivos, para efectos de la deducci&oacute;n especial consagrada en el art&iacute;culo 158-3 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031615-2004",
+      "tipo": "concepto",
+      "numero": "0031615",
+      "fecha": "2004-05-21",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096721-1996",
+      "tipo": "concepto",
+      "numero": "0096721",
+      "fecha": "1996-12-03",
+      "tema": "predio(s) o finca (s), este hecho afecta los incentivos tributarios correspondientes a las inversiones en reforestaci&oacute;n sobre los cuales no se ha percibido el CIF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007688-1996",
+      "tipo": "concepto",
+      "numero": "0007688",
+      "fecha": "1996-02-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018808-1990",
+      "tipo": "concepto",
+      "numero": "0018808",
+      "fecha": "1990-01-01",
+      "tema": "Incentivos tributarios a reforestaci&oacute;n o plantaci&oacute;n de caucho",
+      "vigente": true
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 export type IndicatorCategoryId = "tributarios" | "laborales" | "financieros" | "monetarios";
 
+export const INDICADORES_LAST_UPDATE = "2026-02-19";
+
 export interface IndicatorHistoryPoint {
   period: string;
   value: number;
@@ -26,7 +28,7 @@ export interface IndicatorCategory {
   items: IndicatorItem[];
 }
 
-const INDICADORES_ITEMS: IndicatorItem[] = [
+export const INDICADORES_ITEMS: IndicatorItem[] = [
   {
     id: "uvt",
     nombre: "UVT 2026",

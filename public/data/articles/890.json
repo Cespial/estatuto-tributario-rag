@@ -1,1 +1,180 @@
-{"id_articulo": "Art. 890", "titulo": "Art. 890. Renta liquida gravable.", "titulo_corto": "Renta liquida gravable.", "slug": "890", "url_origen": "https://estatuto.co/890", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Las rentas pasivas, cuyo valor sea igual o mayor a cero (0), deberán ser incluidas en las declaraciones del impuesto sobre la renta y complementarios de acuerdo con la participación que tengan en la ECE o en los resultados de la misma, los sujetos obligados a este régimen de acuerdo con el artículo 883.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Las rentas pasivas, cuyo valor sea igual o mayor a cero (0), deberán ser incluidas en las declaraciones del impuesto sobre la renta y complementarios de acuerdo con la participación que tengan en la ECE o en los resultados de la misma, los sujetos obligados a este régimen de acuerdo con el <a href=\"https://estatuto.co/883\" rel=\"noopener\" target=\"_blank\">artículo 883</a>.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art 139.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "139"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["883"], "referenced_by": ["892"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 890",
+  "titulo": "Art. 890. Renta liquida gravable.",
+  "titulo_corto": "Renta liquida gravable.",
+  "slug": "890",
+  "url_origen": "https://estatuto.co/890",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Las rentas pasivas, cuyo valor sea igual o mayor a cero (0), deberán ser incluidas en las declaraciones del impuesto sobre la renta y complementarios de acuerdo con la participación que tengan en la ECE o en los resultados de la misma, los sujetos obligados a este régimen de acuerdo con el artículo 883.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Las rentas pasivas, cuyo valor sea igual o mayor a cero (0), deberán ser incluidas en las declaraciones del impuesto sobre la renta y complementarios de acuerdo con la participación que tengan en la ECE o en los resultados de la misma, los sujetos obligados a este régimen de acuerdo con el <a href=\"https://estatuto.co/883\" rel=\"noopener\" target=\"_blank\">artículo 883</a>.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art 139.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "139"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "883"
+  ],
+  "referenced_by": [
+    "892"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 907162 (2022-09-27): &iquest;El R&eacute;gimen ECE resulta aplicable a contribuyentes del R&eacute;gimen SIMPLE a&uacute;n cuando no son contribuyentes del impuesto sobre la renta?\noficio 912395 (2021-10-06): R&eacute;gimen de Entidades Controladas del Exterior (ECE) Declaraci&oacute;n Anual de Activos en el Exterior - Impuesto sobre la Renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-907162-2022",
+      "tipo": "oficio",
+      "numero": "907162",
+      "fecha": "2022-09-27",
+      "tema": "&iquest;El R&eacute;gimen ECE resulta aplicable a contribuyentes del R&eacute;gimen SIMPLE a&uacute;n cuando no son contribuyentes del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912395-2021",
+      "tipo": "oficio",
+      "numero": "912395",
+      "fecha": "2021-10-06",
+      "tema": "R&eacute;gimen de Entidades Controladas del Exterior (ECE) Declaraci&oacute;n Anual de Activos en el Exterior - Impuesto sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020041-1991",
+      "tipo": "concepto",
+      "numero": "0020041",
+      "fecha": "1991-07-05",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013030-1991",
+      "tipo": "concepto",
+      "numero": "0013030",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Hay necesidad o no del nombramiento de un Revisor Fiscal, para una sociedad que es administradora de un edificio y sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011310-1991",
+      "tipo": "concepto",
+      "numero": "0011310",
+      "fecha": "1991-01-01",
+      "tema": "Renta gravable para consorcios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008638-1991",
+      "tipo": "concepto",
+      "numero": "0008638",
+      "fecha": "1991-03-22",
+      "tema": "&iquest;Las empresas de servicios temporales pueden descontar el impuesto pagado por el servicio de seguro en su totalidad o deben limitarlo al 4%, conforme al inciso segundo del art&iacute;culo 498 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008343-1991",
+      "tipo": "concepto",
+      "numero": "0008343",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Cu&aacute;l es la retenci&oacute;n en la fuente que debe aplicarse a un contrato mediante el cual se pacta un servicio y adicionalmente se establece un valor determinado, que se cobrar&aacute; por concepto de movilizaci&oacute;n antes de in el servicio contratado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008322-1991",
+      "tipo": "concepto",
+      "numero": "0008322",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Es posible para un establecimiento de cr&eacute;dito aplicar lo dispuesto en el art&iacute;culo 146 del Estatuto Tributario que permite deducir las deudas manifiestamente perdidas o sin valor, en el caso de intereses que resultan incobrables a sus deudores en raz&oacute;n a que el registro contable del acreedor se efectu&oacute; por un valor superior al que result&oacute; a cargo de los diferentes deudores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008246-1991",
+      "tipo": "concepto",
+      "numero": "0008246",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Se causa o no el Impuesto de Timbre Nacional en la enajenaci&oacute;n de acciones no inscritas en Bolsa de Valores, pero negociadas a trav&eacute;s del martillo de dicho establecimiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030704-1990",
+      "tipo": "concepto",
+      "numero": "0030704",
+      "fecha": "1990-12-06",
+      "tema": "&iquest;Cu&aacute;l es el Decreto que exoner&oacute; a los empleados p&uacute;blicos y pensionados de no declarar renta? &iquest;Qu&eacute; suma de ingresos debe recibirse mensualmente para no estar obligado a declarar renta?&iquest; Cu&aacute;l es la cuant&iacute;a del patrimonio, que obliga a declarar renta y por lo tanto a pagar impuesto? Si el patrimonio, que se&ntilde;ala el Gobierno Nacional pasa de ocho millones setecientos mil pesos o m&aacute;s, &iquest;se aumenta con los ahorros? &iquest;con los intereses que son productos, de pensi&oacute;n recibida de sueldos? Est&aacute; obligado a declarar Si una persona no tiene obligaci&oacute;n de declarar renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026537-1990",
+      "tipo": "concepto",
+      "numero": "0026537",
+      "fecha": "1990-01-01",
+      "tema": "Causaci&oacute;n impuesto ventas e importaciones bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016337-1990",
+      "tipo": "concepto",
+      "numero": "0016337",
+      "fecha": "1990-01-01",
+      "tema": "&iquest;Qu&eacute; normas actualmente determinen el costo y valor patrimonial de los veh&iacute;culos automotores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001887-1990",
+      "tipo": "concepto",
+      "numero": "0001887",
+      "fecha": "1990-01-24",
+      "tema": "&iquest;Cu&aacute;l es el alcance del t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017814-1989",
+      "tipo": "concepto",
+      "numero": "0017814",
+      "fecha": "1989-01-01",
+      "tema": "Tratamiento fiscal de las participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016353-1989",
+      "tipo": "concepto",
+      "numero": "0016353",
+      "fecha": "1989-01-01",
+      "tema": "Devoluci&oacute;n de excesos retenidos para sociedad extranjera",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

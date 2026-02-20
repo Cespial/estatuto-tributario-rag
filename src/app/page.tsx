@@ -21,6 +21,7 @@ import { FooterLinks } from "@/components/landing/footer-links";
 import { MobileStickyCta } from "@/components/landing/mobile-sticky-cta";
 import { LazyChatContainer } from "@/components/landing/lazy-chat-container";
 import { Reveal } from "@/components/ui/reveal";
+import { ChatQuerySuggestions } from "@/components/landing/chat-query-suggestions";
 
 export const metadata: Metadata = {
   title: "Tributaria Colombia | Calculadoras, ET e IA para Colombia",
@@ -225,13 +226,13 @@ export default function Home() {
                 href="/calculadoras/debo-declarar"
                 className="inline-flex h-12 items-center justify-center rounded-md bg-white px-6 text-sm font-semibold text-black transition hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
-                Calcular si debo declarar renta
+                Calcule si debe declarar renta
               </Link>
               <Link
                 href="#asistente"
                 className="inline-flex h-12 items-center justify-center rounded-md border border-white/35 bg-white/5 px-6 text-sm font-medium text-white transition hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
-                Hacer una consulta al asistente IA
+                Haga una consulta al asistente IA
               </Link>
             </div>
 
@@ -328,42 +329,36 @@ export default function Home() {
       <section
         id="asistente"
         aria-labelledby="asistente-title"
-        className="bg-foreground px-6 py-16 md:px-8 md:py-24"
+        className="bg-zinc-950 px-6 py-16 md:px-8 md:py-24"
       >
         <Reveal className="mx-auto max-w-6xl" delay={50}>
           <h2
             id="asistente-title"
-            className="heading-serif text-center text-3xl text-background md:text-5xl"
+            className="heading-serif text-center text-3xl text-white md:text-5xl"
           >
             Pregunte como usted habla. Reciba respuesta con referencia.
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-background/75 md:text-lg">
+          <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-zinc-400 md:text-lg">
             Consulte articulos del ET, sanciones, retencion e interpretacion
             practica en un solo chat.
           </p>
 
-          <div className="mx-auto mt-8 grid max-w-3xl gap-2 sm:grid-cols-2">
-            <p className="rounded-lg border border-background/20 bg-background/5 px-3 py-2 text-sm text-background/85">
-              Debo declarar renta por ingresos de 2025?
-            </p>
-            <p className="rounded-lg border border-background/20 bg-background/5 px-3 py-2 text-sm text-background/85">
-              Como calculo retencion en la fuente por salarios?
-            </p>
-            <p className="rounded-lg border border-background/20 bg-background/5 px-3 py-2 text-sm text-background/85">
-              Que sancion aplica por declarar extemporaneo?
-            </p>
-            <p className="rounded-lg border border-background/20 bg-background/5 px-3 py-2 text-sm text-background/85">
-              Muestreme el articulo del ET sobre ganancias ocasionales.
-            </p>
-          </div>
+          <ChatQuerySuggestions
+            queries={[
+              "Debo declarar renta por ingresos de 2025?",
+              "Como calculo retencion en la fuente por salarios?",
+              "Que sancion aplica por declarar extemporaneo?",
+              "Muestreme el articulo del ET sobre ganancias ocasionales.",
+            ]}
+          />
 
-          <div className="mt-10 overflow-hidden rounded-2xl border border-background/15 bg-background shadow-[0_20px_50px_rgba(0,0,0,0.25)]">
+          <div className="mt-10 overflow-hidden rounded-2xl border border-white/10 bg-background shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
             <div className="border-b border-border/50 bg-muted/30 px-5 py-4">
               <h3 className="text-sm font-semibold text-foreground">
                 Asistente IA con contexto tributario colombiano
               </h3>
             </div>
-            <div className="h-[420px] sm:h-[500px] md:h-[620px]">
+            <div className="h-[360px] sm:h-[500px] md:h-[620px]">
               <LazyChatContainer />
             </div>
           </div>
@@ -376,40 +371,40 @@ export default function Home() {
 
       <section
         aria-labelledby="cta-final-title"
-        className="bg-foreground px-6 py-16 md:px-8 md:py-24"
+        className="bg-zinc-950 px-6 py-16 md:px-8 md:py-24"
       >
         <Reveal className="mx-auto max-w-3xl text-center" delay={50}>
           <h2
             id="cta-final-title"
-            className="heading-serif text-4xl text-background md:text-6xl"
+            className="heading-serif text-4xl text-white md:text-6xl"
           >
             Haga su primera validacion en menos de 2 minutos.
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-background/75 md:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-zinc-400 md:text-lg">
             Si esta en temporada de vencimientos DIAN 2026, empiece ahora y
             evite reprocesos.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
               href="/calculadoras/debo-declarar"
-              className="inline-flex h-12 items-center justify-center rounded-md bg-background px-6 text-sm font-semibold text-foreground transition hover:bg-background/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background"
+              className="inline-flex h-12 items-center justify-center rounded-md bg-white px-6 text-sm font-semibold text-black transition hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               Empezar con &quot;Debo declarar renta?&quot;
             </Link>
             <Link
               href="#asistente"
-              className="inline-flex h-12 items-center justify-center rounded-md border border-background/35 px-6 text-sm font-medium text-background transition hover:border-background/60 hover:bg-background/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background"
+              className="inline-flex h-12 items-center justify-center rounded-md border border-white/35 bg-white/5 px-6 text-sm font-medium text-white transition hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               Abrir asistente IA
             </Link>
           </div>
-          <p className="mt-3 text-xs font-medium text-background/65">
+          <p className="mt-3 text-xs font-medium text-zinc-500">
             Sin registro. Sin costo.
           </p>
         </Reveal>
       </section>
 
-      <section className="bg-foreground px-6 pb-20 pt-14 md:px-8 md:pt-16">
+      <section className="bg-zinc-950 px-6 pb-20 pt-14 md:px-8 md:pt-16">
         <div className="mx-auto max-w-6xl">
           <FooterLinks />
         </div>

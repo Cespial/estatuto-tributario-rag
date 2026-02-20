@@ -1,1 +1,106 @@
-{"id_articulo": "Art. 298-8", "titulo": "Art. 298-8. Remisión.", "titulo_corto": "Remisión.", "slug": "298-8", "url_origen": "https://estatuto.co/298-8", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*El impuesto al patrimonio se somete a las normas sobre declaración, pago, administración y control contempladas en el artículo 298, artículo 298-1, artículo 298-2 y demás disposiciones concordantes de este Estatuto.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto al patrimonio se somete a las normas sobre declaración, pago, administración y control contempladas en el <a href=\"https://estatuto.co/298\" rel=\"noopener\" target=\"_blank\">artículo 298</a>, <a href=\"https://estatuto.co/298-1\" rel=\"noopener\" target=\"_blank\">artículo 298-1</a>, <a href=\"https://estatuto.co/298-2\" rel=\"noopener\" target=\"_blank\">artículo 298-2</a> y demás disposiciones concordantes de este Estatuto.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 41 *Modificado Ley 2010 de 2019 Art. 49 *Modificado Ley 1943 de 2018 Art. 41", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "41"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "49"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "41"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1739", "norma_year": 2014, "norma_articulo": ""}], "total_modificaciones": 6, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 1739 de 2014", "Ley 1943 de 2018", "Ley 2010 de 2019", "Ley 2277 de 2022"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. El impuesto al patrimonio de que trata el artículo 292-2 de este Estatuto se somete a las normas sobre declaración, pago, administración y control contempladas en los artículos 298, 298-1, 298-2 Y demás disposiciones concordantes de este Estatuto."]}, "total_normas": 1, "cross_references": ["298", "298-1", "298-2"], "referenced_by": [], "total_cross_references": 3, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 298-8",
+  "titulo": "Art. 298-8. Remisión.",
+  "titulo_corto": "Remisión.",
+  "slug": "298-8",
+  "url_origen": "https://estatuto.co/298-8",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*El impuesto al patrimonio se somete a las normas sobre declaración, pago, administración y control contempladas en el artículo 298, artículo 298-1, artículo 298-2 y demás disposiciones concordantes de este Estatuto.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*El impuesto al patrimonio se somete a las normas sobre declaración, pago, administración y control contempladas en el <a href=\"https://estatuto.co/298\" rel=\"noopener\" target=\"_blank\">artículo 298</a>, <a href=\"https://estatuto.co/298-1\" rel=\"noopener\" target=\"_blank\">artículo 298-1</a>, <a href=\"https://estatuto.co/298-2\" rel=\"noopener\" target=\"_blank\">artículo 298-2</a> y demás disposiciones concordantes de este Estatuto.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 41 *Modificado Ley 2010 de 2019 Art. 49 *Modificado Ley 1943 de 2018 Art. 41",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "41"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "49"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "41"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1739",
+      "norma_year": 2014,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 6,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 1739 de 2014",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019",
+    "Ley 2277 de 2022"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "Nota 1. Texto ley 1943 de 2019 Inexequibilidad diferida Corte Constitucional. El impuesto al patrimonio de que trata el artículo 292-2 de este Estatuto se somete a las normas sobre declaración, pago, administración y control contempladas en los artículos 298, 298-1, 298-2 Y demás disposiciones concordantes de este Estatuto."
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [
+    "298",
+    "298-1",
+    "298-2"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 3,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,62 @@
-{"id_articulo": "Art. 528", "titulo": "Art. 528. La no expresion de la fecha hace presumir el plazo vencido.", "titulo_corto": "La no expresion de la fecha hace presumir el plazo vencido.", "slug": "528", "url_origen": "https://estatuto.co/528", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los instrumentos, actuaciones o diligencias gravados con impuesto de timbre nacional, en que no se exprese la fecha se tendrán como de plazo vencido para el pago del impuesto y las correspondientes sanciones.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los instrumentos, actuaciones o diligencias gravados con impuesto de timbre nacional, en que no se exprese la fecha se tendrán como de plazo vencido para el pago del impuesto y las correspondientes sanciones.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 528",
+  "titulo": "Art. 528. La no expresion de la fecha hace presumir el plazo vencido.",
+  "titulo_corto": "La no expresion de la fecha hace presumir el plazo vencido.",
+  "slug": "528",
+  "url_origen": "https://estatuto.co/528",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los instrumentos, actuaciones o diligencias gravados con impuesto de timbre nacional, en que no se exprese la fecha se tendrán como de plazo vencido para el pago del impuesto y las correspondientes sanciones.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los instrumentos, actuaciones o diligencias gravados con impuesto de timbre nacional, en que no se exprese la fecha se tendrán como de plazo vencido para el pago del impuesto y las correspondientes sanciones.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7347 (2025-06-04): Impuesto de Timbre",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7347-2025",
+      "tipo": "oficio",
+      "numero": "7347",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010305-1992",
+      "tipo": "concepto",
+      "numero": "0010305",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;A falta de fecha de creaci&oacute;n de una letra de cambio, qu&eacute; fecha se tiene en cuenta, para cobrar el respectivo impuesto dependiendo de la cuant&iacute;a del t&iacute;tulo valor?&iquest;A partir de que fecha esa dependencia dej&oacute; de cobrar impuestos de las letras de menos de Ps. 1.000.000.oo de pesos y basados en qu&eacute; norma?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ]
+}

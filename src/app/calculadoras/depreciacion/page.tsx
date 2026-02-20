@@ -1,22 +1,58 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { ArrowLeft, Table as TableIcon } from "lucide-react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { Table as TableIcon } from "lucide-react";
 import { SelectInput, CurrencyInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
 import { CalculatorSources } from "@/components/calculators/calculator-sources";
+import { CalculatorBreadcrumb } from "@/components/calculators/calculator-breadcrumb";
+import { CalculatorActions } from "@/components/calculators/calculator-actions";
+import { CalculatorDisclaimer } from "@/components/calculators/calculator-disclaimer";
+import { RelatedCalculators } from "@/components/calculators/related-calculators";
+import { PrintWrapper } from "@/components/pdf/print-wrapper";
+import { usePrintExport } from "@/lib/pdf/use-print-export";
+import { formatCOP } from "@/lib/calculators/format";
+import {
+  buildShareUrl,
+  readNumberParam,
+  readStringParam,
+  replaceUrlQuery,
+} from "@/lib/calculators/url-state";
+import { trackCalculatorUsage } from "@/lib/calculators/popularity";
 import { DEPRECIACION_TASAS } from "@/config/tax-data-wave4";
 
-function formatCOP(n: number): string {
-  return "$" + Math.round(n).toLocaleString("es-CO");
-}
+function DepreciacionPageContent() {
+  const searchParams = useSearchParams();
 
-export default function DepreciacionPage() {
-  const [tipo, setTipo] = useState("maquinaria");
-  const [costo, setCosto] = useState(0);
-  const [valorResidual, setValorResidual] = useState(0);
-  const [metodo, setMetodo] = useState("linea_recta");
+  const initialValues = useMemo(() => {
+    return {
+      tipo: readStringParam(searchParams, "t", "maquinaria"),
+      costo: readNumberParam(searchParams, "c", 0, { min: 0 }),
+      valorResidual: readNumberParam(searchParams, "r", 0, { min: 0 }),
+      metodo: readStringParam(searchParams, "m", "linea_recta"),
+    };
+  }, [searchParams]);
+
+  const [tipo, setTipo] = useState(initialValues.tipo);
+  const [costo, setCosto] = useState(initialValues.costo);
+  const [valorResidual, setValorResidual] = useState(initialValues.valorResidual);
+  const [metodo, setMetodo] = useState(initialValues.metodo);
+
+  const { contentRef, handlePrint } = usePrintExport({ title: "Depreciacion Fiscal" });
+
+  useEffect(() => {
+    trackCalculatorUsage("depreciacion");
+  }, []);
+
+  useEffect(() => {
+    replaceUrlQuery({
+      t: tipo,
+      c: costo,
+      r: valorResidual,
+      m: metodo,
+    });
+  }, [tipo, costo, valorResidual, metodo]);
 
   const calculo = useMemo(() => {
     if (!costo) return null;
@@ -41,13 +77,20 @@ export default function DepreciacionPage() {
         });
       }
     } else {
-      // Reduccion de saldos
-      const tasa = selectedType.tasaMax;
+      // Reduccion de saldos (Doble cuota sobre saldo decreciente generalmente, pero aqui usaremos tasa fiscal maxima como base?)
+      // El codigo original usaba `selectedType.tasaMax` como factor de depreciacion.
+      // Tasa fiscal maxima es el limite lineal (e.g. 10% anual).
+      // Reduccion de saldos suele ser mas acelerada.
+      // Asumiremos que el usuario quiere usar la tasa maxima permitida aplicada al saldo.
+      
+      const tasa = selectedType.tasaMax; 
       let saldo = baseDepreciable;
-      depAnualBase = baseDepreciable * tasa; // Primer año
+      depAnualBase = baseDepreciable * tasa; // Primer ano (referencial)
 
       for (let i = 1; i <= vidaUtil; i++) {
         const dep = saldo * tasa;
+        // En reduccion de saldos a veces se cambia a linea recta al final, aqui simplificado.
+        // Ademas la vida util fiscal limita la tasa anual.
         saldo -= dep;
         const acumulada = baseDepreciable - saldo;
         tabla.push({
@@ -68,21 +111,35 @@ export default function DepreciacionPage() {
     };
   }, [tipo, costo, valorResidual, metodo]);
 
+  const shareUrl = buildShareUrl("/calculadoras/depreciacion", {
+    t: tipo,
+    c: costo,
+    r: valorResidual,
+    m: metodo,
+  });
+
   return (
-    <div className="mx-auto max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-        <ArrowLeft className="mr-2 h-4 w-4" />
-        Volver a calculadoras
-      </Link>
+    <>
+      <CalculatorBreadcrumb
+        items={[
+          { label: "Calculadoras", href: "/calculadoras" },
+          { label: "Depreciacion Fiscal" },
+        ]}
+      />
 
-      <div className="mb-8">
-        <h1 className="heading-serif text-3xl">Depreciación Fiscal</h1>
-        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">
-          Calcula la alícuota de depreciación según los límites máximos del Art. 137 ET.
-        </p>
-      </div>
+      <h1 className="mb-2 heading-serif text-3xl">Depreciacion Fiscal</h1>
+      <p className="mb-6 text-sm text-muted-foreground">
+        Calcula la alicuota de depreciacion y genera la tabla de amortizacion segun limites del Art. 137 ET.
+      </p>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <CalculatorActions
+        title="Depreciacion Fiscal"
+        shareText="Consulta esta tabla de depreciacion"
+        shareUrl={shareUrl}
+        onExportPdf={handlePrint}
+      />
+
+      <div className="grid gap-8 md:grid-cols-2 mb-6">
         <div className="space-y-6">
           <SelectInput
             id="tipo-activo"
@@ -94,7 +151,7 @@ export default function DepreciacionPage() {
 
           <CurrencyInput
             id="costo-adquisicion"
-            label="Costo de adquisición"
+            label="Costo de adquisicion"
             value={costo}
             onChange={setCosto}
             placeholder="Ej: 50.000.000"
@@ -110,12 +167,12 @@ export default function DepreciacionPage() {
 
           <SelectInput
             id="metodo-depreciacion"
-            label="Método de depreciación"
+            label="Metodo de depreciacion"
             value={metodo}
             onChange={setMetodo}
             options={[
-              { value: "linea_recta", label: "Línea Recta" },
-              { value: "reduccion_saldos", label: "Reducción de Saldos" }
+              { value: "linea_recta", label: "Linea Recta" },
+              { value: "reduccion_saldos", label: "Reduccion de Saldos" }
             ]}
           />
         </div>
@@ -126,9 +183,9 @@ export default function DepreciacionPage() {
               <CalculatorResult
                 items={[
                   {
-                    label: "Depreciación Año 1",
-                    value: formatCOP(calculo.depAnual),
-                    sublabel: `Vida útil: ${calculo.vidaUtil} años | Tasa fiscal máx: ${(calculo.tasaFiscal * 100).toFixed(2)}%`
+                    label: "Depreciacion Ano 1",
+                    value: formatCOP(calculo.tabla[0].depAnual),
+                    sublabel: `Vida util: ${calculo.vidaUtil} anos | Tasa fiscal max: ${(calculo.tasaFiscal * 100).toFixed(2)}%`
                   }
                 ]}
               />
@@ -136,23 +193,23 @@ export default function DepreciacionPage() {
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm overflow-hidden">
                 <div className="mb-4 flex items-center gap-2">
                   <TableIcon className="h-4 w-4 text-foreground/70" />
-                  <h3 className="font-semibold tracking-tight">Tabla de Amortización</h3>
+                  <h3 className="font-semibold tracking-tight text-foreground">Tabla de Amortizacion</h3>
                 </div>
                 <div className="max-h-[300px] overflow-y-auto pr-2">
                   <table className="w-full text-left text-xs">
-                    <thead className="sticky top-0 bg-card">
-                      <tr className="border-b">
-                        <th className="pb-2">Año</th>
-                        <th className="pb-2 text-right">Dep. Anual</th>
-                        <th className="pb-2 text-right">V. Libros</th>
+                    <thead className="sticky top-0 bg-card z-10">
+                      <tr className="border-b border-border/60">
+                        <th className="pb-2 font-medium text-muted-foreground">Ano</th>
+                        <th className="pb-2 text-right font-medium text-muted-foreground">Dep. Anual</th>
+                        <th className="pb-2 text-right font-medium text-muted-foreground">V. Libros</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="divide-y divide-border/40">
                       {calculo.tabla.map((fila, i) => (
-                        <tr key={i} className="border-b last:border-0 hover:bg-muted/50">
-                          <td className="py-2 font-medium">{fila.anio}</td>
-                          <td className="py-2 text-right">{formatCOP(fila.depAnual)}</td>
-                          <td className="py-2 text-right font-mono">{formatCOP(fila.libros)}</td>
+                        <tr key={i} className="hover:bg-muted/50 transition-colors">
+                          <td className="py-2 font-medium text-foreground">{fila.anio}</td>
+                          <td className="py-2 text-right text-muted-foreground">{formatCOP(fila.depAnual)}</td>
+                          <td className="py-2 text-right font-mono text-foreground">{formatCOP(fila.libros)}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -161,14 +218,52 @@ export default function DepreciacionPage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
-              Ingresa los datos del activo para generar la tabla de depreciación
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed border-border p-10 text-center text-muted-foreground">
+              Ingresa los datos del activo para generar la tabla de depreciacion.
             </div>
           )}
         </div>
       </div>
 
-      <CalculatorSources articles={["128", "131", "137"]} />
-    </div>
+      <CalculatorSources
+        articles={[
+          { id: "128", reason: "Deduccion por depreciacion." },
+          { id: "131", reason: "Base para calcular la depreciacion." },
+          { id: "137", reason: "Limitacion a la deduccion por depreciacion." },
+        ]}
+      />
+
+      <CalculatorDisclaimer
+        references={["Art. 128 ET", "Art. 131 ET", "Art. 137 ET"]}
+      />
+
+      <RelatedCalculators currentId="depreciacion" />
+
+      <div className="hidden">
+        <div ref={contentRef}>
+          <PrintWrapper
+            title="Tabla de Depreciacion Fiscal"
+            subtitle={`Activo: ${calculo?.selectedType.label} | Metodo: ${metodo === "linea_recta" ? "Linea Recta" : "Reduccion de Saldos"}`}
+          >
+            {calculo && (
+              <div className="space-y-2 text-sm">
+                <p>Costo adquisicion: {formatCOP(costo)}</p>
+                <p>Valor residual: {formatCOP(valorResidual)}</p>
+                <p>Vida util: {calculo.vidaUtil} anos</p>
+                <p>Depreciacion acumulada final: {formatCOP(calculo.tabla[calculo.tabla.length - 1].acumulada)}</p>
+              </div>
+            )}
+          </PrintWrapper>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default function DepreciacionPage() {
+  return (
+    <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Cargando calculadora...</div>}>
+      <DepreciacionPageContent />
+    </Suspense>
   );
 }

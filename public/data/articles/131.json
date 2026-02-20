@@ -1,1 +1,390 @@
-{"id_articulo": "Art. 131", "titulo": "Art. 131. Base para calcular la depreciación.", "titulo_corto": "Base para calcular la depreciación.", "slug": "131", "url_origen": "https://estatuto.co/131", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Para las personas obligadas a llevar contabilidad el costo fiscal de un bien depreciable no involucrará el impuesto a las ventas cancelado en su adquisición o nacionalización, cuando haya debido ser tratado como descuento o deducción en el impuesto sobre la renta, en el Impuesto sobre las ventas u otro descuento tributario que se le otorgue. Para efectos del impuesto sobre la renta y complementarios, un contribuyente depreciará el costo fiscal de los bienes depreciables, menos su valor residual a lo largo de su vida útil. Para efectos del impuesto sobre la renta y complementarios, el valor residual y la vida útil se determinará de acuerdo con la técnica contable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para las personas obligadas a llevar contabilidad el costo fiscal de un bien depreciable no involucrará el impuesto a las ventas cancelado en su adquisición o nacionalización, cuando haya debido ser tratado como descuento o deducción en el impuesto sobre la renta, en el Impuesto sobre las ventas u otro descuento tributario que se le otorgue.</p>\n<p>Para efectos del impuesto sobre la renta y complementarios, un contribuyente depreciará el costo fiscal de los bienes depreciables, menos su valor residual a lo largo de su vida útil.</p>\n<p>Para efectos del impuesto sobre la renta y complementarios, el valor residual y la vida útil se determinará de acuerdo con la técnica contable.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 79.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "79"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 131",
+  "titulo": "Art. 131. Base para calcular la depreciación.",
+  "titulo_corto": "Base para calcular la depreciación.",
+  "slug": "131",
+  "url_origen": "https://estatuto.co/131",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Para las personas obligadas a llevar contabilidad el costo fiscal de un bien depreciable no involucrará el impuesto a las ventas cancelado en su adquisición o nacionalización, cuando haya debido ser tratado como descuento o deducción en el impuesto sobre la renta, en el Impuesto sobre las ventas u otro descuento tributario que se le otorgue. Para efectos del impuesto sobre la renta y complementarios, un contribuyente depreciará el costo fiscal de los bienes depreciables, menos su valor residual a lo largo de su vida útil. Para efectos del impuesto sobre la renta y complementarios, el valor residual y la vida útil se determinará de acuerdo con la técnica contable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para las personas obligadas a llevar contabilidad el costo fiscal de un bien depreciable no involucrará el impuesto a las ventas cancelado en su adquisición o nacionalización, cuando haya debido ser tratado como descuento o deducción en el impuesto sobre la renta, en el Impuesto sobre las ventas u otro descuento tributario que se le otorgue.</p>\n<p>Para efectos del impuesto sobre la renta y complementarios, un contribuyente depreciará el costo fiscal de los bienes depreciables, menos su valor residual a lo largo de su vida útil.</p>\n<p>Para efectos del impuesto sobre la renta y complementarios, el valor residual y la vida útil se determinará de acuerdo con la técnica contable.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 79.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "79"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 10 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 18167 (2025-12-30): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-18167-2025",
+      "tipo": "oficio",
+      "numero": "18167",
+      "fecha": "2025-12-30",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903259-2021",
+      "tipo": "oficio",
+      "numero": "903259",
+      "fecha": "2021-01-01",
+      "tema": "Deducci&oacute;n por Depreciaci&oacute;n - Depreciaci&oacute;n Acelerada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904688-2020",
+      "tipo": "oficio",
+      "numero": "904688",
+      "fecha": "2020-09-07",
+      "tema": "Adquisici&oacute;n de un bien depreciable a partir del a&ntilde;o gravable 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1869-2019",
+      "tipo": "oficio",
+      "numero": "1869",
+      "fecha": "2019-07-29",
+      "tema": "(Int 1869) Descuento del impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31742-2019",
+      "tipo": "oficio",
+      "numero": "31742",
+      "fecha": "2019-12-26",
+      "tema": "R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27152-2019",
+      "tipo": "oficio",
+      "numero": "27152",
+      "fecha": "2019-10-29",
+      "tema": "Sistemas de Depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18954-2019",
+      "tipo": "oficio",
+      "numero": "18954",
+      "fecha": "2019-07-23",
+      "tema": "Aplicaci&oacute;n de los activos fijos y el manejo del IVA como descontable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16292-2019",
+      "tipo": "oficio",
+      "numero": "16292",
+      "fecha": "2019-06-21",
+      "tema": "&iquest;Cu&aacute;l es la posici&oacute;n actual de la DIAN (conforme a la norma) respecto del IVA descontable en la adquisici&oacute;n de activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2217-2019",
+      "tipo": "oficio",
+      "numero": "2217",
+      "fecha": "2019-01-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que fiscalmente se debe seguir para depreciar motores de transporte fluvial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16047-2018",
+      "tipo": "oficio",
+      "numero": "16047",
+      "fecha": "2018-06-19",
+      "tema": "Vigencia Decreto 1766 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15841-2018",
+      "tipo": "oficio",
+      "numero": "15841",
+      "fecha": "2018-06-19",
+      "tema": "&iquest;Cu&aacute;l es el valor residual para aquellos casos en que la vida &uacute;til contable de los activos es inferior al l&iacute;mite fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33240-2017",
+      "tipo": "oficio",
+      "numero": "33240",
+      "fecha": "2017-12-12",
+      "tema": "Limitaci&oacute;n de la deducci&oacute;n a aplicar en la tasa de depreciaci&oacute;n fiscal anual establecida en la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18115-2015",
+      "tipo": "oficio",
+      "numero": "18115",
+      "fecha": "2015-06-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1104-2015",
+      "tipo": "oficio",
+      "numero": "1104",
+      "fecha": "2015-01-01",
+      "tema": "Valor patrimonial los bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67329-2014",
+      "tipo": "oficio",
+      "numero": "67329",
+      "fecha": "2014-12-23",
+      "tema": "Retenci&oacute;n en la fuente - Fondos de Inversi&oacute;n colectiva",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50270-2014",
+      "tipo": "oficio",
+      "numero": "50270",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;C&oacute;mo opera la deducci&oacute;n de la provisi&oacute;n para el pago de futuras pensiones prevista en los art&iacute;culos 112 y 113 del Estatuto Tributario, para efectos de la depuraci&oacute;n de la base gravable del impuesto sobre la renta para la equidad - CREE para el periodo gravable 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81704-2008",
+      "tipo": "oficio",
+      "numero": "81704",
+      "fecha": "2008-01-01",
+      "tema": "Contrato de estabilidad Jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95985-2007",
+      "tipo": "oficio",
+      "numero": "95985",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Al desaparecer los ajustes por inflaci&oacute;n para los contribuyentes obligados a llevar contabilidad, el valor patrimonial en el caso de los inmuebles, las acciones y aportes en sociedades a partir del a&ntilde;o gravable 2007 es el costo fiscal ajustado por inflaci&oacute;n hasta el 31 de diciembre de 2006m&aacute;s el porcentaje de la UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92716-2005",
+      "tipo": "oficio",
+      "numero": "92716",
+      "fecha": "2005-12-14",
+      "tema": "Solicita se aclare si para las compa&ntilde;&iacute;as de leasing son deducibles todas las provisiones sobre la cartera generada en operaciones de leasing (individual y general), dado que no se expres&oacute; en el segundo inciso del par&aacute;grafo del art&iacute;culo 145 del Estatuto Tributario, si corresponden a las provisiones individuales o generales, o se involucran las dos aludidas provisiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066923-1999",
+      "tipo": "concepto",
+      "numero": "0066923",
+      "fecha": "1999-07-23",
+      "tema": "&iquest;C&oacute;mo deben tratar las personas jur&iacute;dicas y asimiladas el Impuesto sobre las Ventas pagado en la adquisici&oacute;n o nacionalizaci&oacute;n de bienes de capital, de equipo de computaci&oacute;n, y para las empresas transportadoras, adicionalmente de equipo de transporte, como deducci&oacute;n o como mayor costo de los bienes? &iquest;Deben los contribuyentes que optaron por tomar el impuesto a las ventas como deducci&oacute;n en el impuesto sobre la renta, constituir la reserva de que trata el art&iacute;culo 130 del Estatuto Tributario? &iquest;Qu&eacute; tratamiento fiscal debe darse al impuesto obre las ventas pagados durante el ejercicio de 1998, por bienes de capital construidos, y por empresas en proceso de reconversi&oacute;n industrial, al no encontrarse estos en condiciones de utilizaci&oacute;n en el a&ntilde;o gravable de 1998? &iquest;Debe capitalizarse como un mayor valor del bien el impuesto sobre las ventas pagado en la adquisici&oacute;n de activos amortizables? &iquest;Qu&eacute; tratamiento debe darse al impuesto sobre las ventas pagado por los activos adquiridos con anterioridad al 31 de diciembre de 1998, y que fue descontado en la declaraci&oacute;n de renta del respectivo a&ntilde;o gravable de su adquisici&oacute;n, cuando se enajenen a partir del 1o de enero de 1999, sin haber transcurrido la totalidad del tiempo de vida &uacute;til? &iquest;Qu&eacute; efectos tributarios tiene la enajenaci&oacute;n de bienes de capital cuyo impuesto sobre las ventas pagado en la adquisici&oacute;n se tom&oacute; como deducci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0064588-1998",
+      "tipo": "concepto",
+      "numero": "0064588",
+      "fecha": "1998-08-19",
+      "tema": "&iquest;C&oacute;mo debe liquidarse el impuesto de timbre sobre un contrato de concesi&oacute;n de explotaci&oacute;n minera teniendo en cuenta no tienen cuant&iacute;a determinada y que es el contratista quien efect&uacute;a pagos a la entidad estatal en forma trimestral con cargo a la producci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047552-1997",
+      "tipo": "concepto",
+      "numero": "0047552",
+      "fecha": "1997-06-10",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007629-1996",
+      "tipo": "concepto",
+      "numero": "0007629",
+      "fecha": "1996-02-07",
+      "tema": "&iquest;C&oacute;mo se determina la depreciaci&oacute;n de un bien sometido a turnos adicionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006437-1993",
+      "tipo": "concepto",
+      "numero": "0006437",
+      "fecha": "1993-07-13",
+      "tema": "&iquest;En contratos de cuant&iacute;a indeterminada con entidades de derecho p&uacute;blico, los ajustes que se hagan al impuesto de timbre con posterioridad a la Ley 6a. de 1992, deben realizarse con base en la disposici&oacute;n vigente al momento de celebraci&oacute;n del contrato, seg&uacute;n la cual s&oacute;lo se paga la mitad del impuesto de timbre (art&iacute;culo 532 inciso 2o del Estatuto Tributario)?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-893-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "893",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

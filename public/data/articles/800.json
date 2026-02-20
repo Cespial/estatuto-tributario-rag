@@ -1,1 +1,250 @@
-{"id_articulo": "Art. 800", "titulo": "Art. 800. Lugar de pago.", "titulo_corto": "Lugar de pago.", "slug": "800", "url_origen": "https://estatuto.co/800", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El pago de los impuestos, anticipos y retenciones, deberá efectuarse en los lugares que para tal efecto señale el Gobierno Nacional. El Gobierno Nacional podrá recaudar total o parcialmente los impuestos, anticipos, retenciones, sanciones e intereses administrados por la Dirección General de Impuestos Nacionales (UAE Dirección de impuestos y aduanas nacionales), a través de bancos y demás entidades financieras.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago de los impuestos, anticipos y retenciones, deberá efectuarse en los lugares que para tal efecto señale el Gobierno Nacional. </p>\n<p>El Gobierno Nacional podrá recaudar total o parcialmente los impuestos, anticipos, retenciones, sanciones e intereses administrados por la Dirección General de Impuestos Nacionales (UAE Dirección de impuestos y aduanas nacionales), a través de bancos y demás entidades financieras.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 800",
+  "titulo": "Art. 800. Lugar de pago.",
+  "titulo_corto": "Lugar de pago.",
+  "slug": "800",
+  "url_origen": "https://estatuto.co/800",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El pago de los impuestos, anticipos y retenciones, deberá efectuarse en los lugares que para tal efecto señale el Gobierno Nacional. El Gobierno Nacional podrá recaudar total o parcialmente los impuestos, anticipos, retenciones, sanciones e intereses administrados por la Dirección General de Impuestos Nacionales (UAE Dirección de impuestos y aduanas nacionales), a través de bancos y demás entidades financieras.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El pago de los impuestos, anticipos y retenciones, deberá efectuarse en los lugares que para tal efecto señale el Gobierno Nacional. </p>\n<p>El Gobierno Nacional podrá recaudar total o parcialmente los impuestos, anticipos, retenciones, sanciones e intereses administrados por la Dirección General de Impuestos Nacionales (UAE Dirección de impuestos y aduanas nacionales), a través de bancos y demás entidades financieras.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 6054 (2025-05-14): Procedimiento Tributario\noficio 6467 (2024-09-10): Procedimiento Tributario\noficio 906886 (2022-09-13): Procedimiento tributario. Extinci&oacute;n de la obligaci&oacute;n tributaria - autorizaci&oacute;n para el recaudo\noficio 914504 (2021-11-25): Procedimiento tributario - Extinci&oacute;n de la obligaci&oacute;n tributaria\noficio 908901 (2021-08-30): Procedimiento Tributario - Medidas preventivas - Sucesi&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6054-2025",
+      "tipo": "oficio",
+      "numero": "6054",
+      "fecha": "2025-05-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906886-2022",
+      "tipo": "oficio",
+      "numero": "906886",
+      "fecha": "2022-09-13",
+      "tema": "Procedimiento tributario. Extinci&oacute;n de la obligaci&oacute;n tributaria - autorizaci&oacute;n para el recaudo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914504-2021",
+      "tipo": "oficio",
+      "numero": "914504",
+      "fecha": "2021-11-25",
+      "tema": "Procedimiento tributario - Extinci&oacute;n de la obligaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908901-2021",
+      "tipo": "oficio",
+      "numero": "908901",
+      "fecha": "2021-08-30",
+      "tema": "Procedimiento Tributario - Medidas preventivas - Sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17332-2019",
+      "tipo": "oficio",
+      "numero": "17332",
+      "fecha": "2019-07-03",
+      "tema": "&iquest;A partir de qu&eacute; momento despu&eacute;s de causado el impuesto sobre la renta y complementarios, estos se convierten en dineros p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3433-2019",
+      "tipo": "oficio",
+      "numero": "3433",
+      "fecha": "2019-02-12",
+      "tema": "Vinculaci&oacute;n de los deudores solidarios en etapa de determinaci&oacute;n de las obligaciones fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1186-2019",
+      "tipo": "oficio",
+      "numero": "1186",
+      "fecha": "2019-01-16",
+      "tema": "Cruce de Cuentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33661-2018",
+      "tipo": "oficio",
+      "numero": "33661",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso susceptible de producir un incremento neto en el patrimonio en el momento de su percepci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21106-2017",
+      "tipo": "oficio",
+      "numero": "21106",
+      "fecha": "2017-10-11",
+      "tema": "&iquest;Existe otro mecanismo de transacci&oacute;n o beneficio tributario aplicable al contribuyente en cuesti&oacute;n para cancelar las obligaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-46118-2012",
+      "tipo": "oficio",
+      "numero": "46118",
+      "fecha": "2012-07-19",
+      "tema": "Solicita",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40331-2012",
+      "tipo": "oficio",
+      "numero": "40331",
+      "fecha": "2012-06-25",
+      "tema": "&iquest;Se pueden compensar con impuestos deudas originadas con un contrato con entidades como Empresas Sociales del Estado de car&aacute;cter nacional, es decir, entes territoriales de car&aacute;cter nacional? &iquest;Se pueden compensar impuestos con la naci&oacute;n de deudas originadas con un contrato con entidades de car&aacute;cter territorial, como dice la Ley 1116, vale decir de las siguientes entidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14017-2009",
+      "tipo": "oficio",
+      "numero": "14017",
+      "fecha": "2009-02-18",
+      "tema": "Tratamiento del impuesto sobre las ventas en la prestaci&oacute;n del servicio de arrendamiento comercial de un inmueble, que no est&aacute; destinado a vivienda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16542-2008",
+      "tipo": "oficio",
+      "numero": "16542",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;En relaci&oacute;n con el art&iacute;culo 793 del E.T. qu&eacute; se entiende por sucesi&oacute;n il&iacute;quida es sin&oacute;nimo de sucesi&oacute;n liquidada? &iquest;Finiquitada una sucesi&oacute;n la Administraci&oacute;n Tributaria pierde competencia para proceder al cobro coactivo de sus acreencias fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8385-2008",
+      "tipo": "oficio",
+      "numero": "8385",
+      "fecha": "2008-01-01",
+      "tema": "Normas aplicables en el proceso de obro coactivo durante el periodo de 1998 a 2005, en lo relacionado con la efectivizaci&oacute;n de las garant&iacute;as dadas para el otorgamiento de una facilidad para el pago, la adjudicaci&oacute;n de bienes a favor de la Naci&oacute;n por falta de postor en el remate y la prescripci&oacute;n de la acci&oacute;n de cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32527-2007",
+      "tipo": "oficio",
+      "numero": "32527",
+      "fecha": "2007-05-02",
+      "tema": "&iquest;Cu&aacute;l es el alcance de lo dispuesto en el Par&aacute;grafo del art&iacute;culo 579-2 del Estatuto Tributario -que fue adicionado mediante el art&iacute;culo 48 de la Ley 1111 de 2006-, en el sentido de si debe entenderse como un imperativo para las universidades p&uacute;blicas lo que all&iacute; se dispone y si debe entenderse sin perjuicio de que otras entidades puedan proveer tales servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9653-2007",
+      "tipo": "oficio",
+      "numero": "9653",
+      "fecha": "2007-02-09",
+      "tema": "Consulta sobre compensaci&oacute;n de saldos a favor, pagos en exceso, de lo no debido o cualquier otro sobrante a favor del contribuyente, responsable o agente retenedor, en los casos en que con anterioridad se han efectuado pagos parciales sobre las mismas obligaciones tributarias que se solicita compensar.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-108392-2006",
+      "tipo": "oficio",
+      "numero": "108392",
+      "fecha": "2006-12-28",
+      "tema": "&iquest;Respecto de los procesos de liquidaci&oacute;n obligatoria es procedente entender que el cr&eacute;dito fiscal a cargo de entidades que entran en estos procesos deben recibir el tratamiento de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7234-2005",
+      "tipo": "oficio",
+      "numero": "7234",
+      "fecha": "2005-02-11",
+      "tema": "&iquest;Realizados varios pagos en un mismo mes por concepto de Retenci&oacute;n en la Fuente e Impuestos Sobre las Ventas, la Administraci&oacute;n de Impuestos y Aduanas Nacionales tiene en cuenta la totalidad de los pagos? &iquest;Un formulario de declaraci&oacute;n, cualquiera sea su concepto, puede ser pagadocon varios cheques? &iquest;En el caso de autos hab&iacute;a necesidad de corregir las declaraciones presentadas con su consecuente pago de moras e intereses por unas sumas de dinero que la administraci&oacute;n ya hab&iacute;a recibido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-46804-2002",
+      "tipo": "concepto",
+      "numero": "46804",
+      "fecha": "2002-07-26",
+      "tema": "Pago de impuestos con documentos especiales tales como t&iacute;tulos, bonos, certificados o documentos similares",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095356-2001",
+      "tipo": "concepto",
+      "numero": "0095356",
+      "fecha": "2001-10-29",
+      "tema": "Con el fin de no efectuarse retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta por concepto de ingresos en divisas provenientes del exterior, basta la manifestaci&oacute;n por parte del beneficiario de los ingresos en el sentido de que corresponden a ingresos exceptuados de la retenci&oacute;n, o debe probarse ante el intermediario del mercado cambiario la naturaleza del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002169-1999",
+      "tipo": "concepto",
+      "numero": "0002169",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Los grandes contribuyentes est&aacute;n obligados a pagar como m&iacute;nimo el 20% del impuesto del a&ntilde;o inmediatamente anterior en la primera cuota a&uacute;n cuando la provisi&oacute;n contable es negativa por efecto las retenciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003978-1998",
+      "tipo": "concepto",
+      "numero": "0003978",
+      "fecha": "1998-01-26",
+      "tema": "&iquest;Los grandes contribuyentes est&aacute;n obligados a pagar como m&iacute;nimo el 20% del impuesto del a&ntilde;o inmediatamente anterior en la cuota cuando este valor cubre la totalidad del impuesto por el respectivo a&ntilde;o gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029073-1993",
+      "tipo": "concepto",
+      "numero": "0029073",
+      "fecha": "1993-01-01",
+      "tema": "Extinci&oacute;n de la obligaci&oacute;n tributaria y pago de impuestos en dolares",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027818-1989",
+      "tipo": "concepto",
+      "numero": "0027818",
+      "fecha": "1989-01-01",
+      "tema": "Recepci&oacute;n de declaraci&oacute;nes e imposibilidad de correcci&oacute;n por parte de los bancos",
+      "vigente": true
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.4.2.82",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.4.2.82",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    }
+  ]
+}

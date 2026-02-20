@@ -1,1 +1,238 @@
-{"id_articulo": "Art. 604", "titulo": "Art. 604. Período fiscal.", "titulo_corto": "Período fiscal.", "slug": "604", "url_origen": "https://estatuto.co/604", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 1, "contenido_texto": "El período fiscal de las retenciones en la fuente será mensual. En el caso de liquidación o terminación de actividades, el período fiscal se contará desde su iniciación hasta las fechas señaladas en el artículo 595. Cuando se inicien actividades durante el mes, el período fiscal será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El período fiscal de las retenciones en la fuente será mensual.</p>\n<p>En el caso de liquidación o terminación de actividades, el período fiscal se contará desde su iniciación hasta las fechas señaladas en el <a href=\"https://estatuto.co/595\" rel=\"noopener\" target=\"_blank\">artículo 595</a>.</p>\n<p>Cuando se inicien actividades durante el mes, el período fiscal será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["595"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 604",
+  "titulo": "Art. 604. Período fiscal.",
+  "titulo_corto": "Período fiscal.",
+  "slug": "604",
+  "url_origen": "https://estatuto.co/604",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "El período fiscal de las retenciones en la fuente será mensual. En el caso de liquidación o terminación de actividades, el período fiscal se contará desde su iniciación hasta las fechas señaladas en el artículo 595. Cuando se inicien actividades durante el mes, el período fiscal será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El período fiscal de las retenciones en la fuente será mensual.</p>\n<p>En el caso de liquidación o terminación de actividades, el período fiscal se contará desde su iniciación hasta las fechas señaladas en el <a href=\"https://estatuto.co/595\" rel=\"noopener\" target=\"_blank\">artículo 595</a>.</p>\n<p>Cuando se inicien actividades durante el mes, el período fiscal será el comprendido entre la fecha de iniciación de actividades y la fecha de finalización del respectivo período.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "595"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 16116 (2025-11-18): Procedimiento Tributario\noficio 908237 (2021-08-17): Autorretenedor en venta de inmueble",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908237-2021",
+      "tipo": "oficio",
+      "numero": "908237",
+      "fecha": "2021-08-17",
+      "tema": "Autorretenedor en venta de inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3591-2020",
+      "tipo": "oficio",
+      "numero": "3591",
+      "fecha": "2020-02-18",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0220-2018",
+      "tipo": "oficio",
+      "numero": "0220",
+      "fecha": "2018-02-27",
+      "tema": "&iquest;Es justificable firmar con salvedad la declaraci&oacute;n de retenci&oacute;n en la fuente cuando una organizaci&oacute;n no ha realizado el proceso de convergencia a los nuevos est&aacute;ndares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29882-2015",
+      "tipo": "oficio",
+      "numero": "29882",
+      "fecha": "2015-10-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11863-2015",
+      "tipo": "oficio",
+      "numero": "11863",
+      "fecha": "2015-04-27",
+      "tema": "Retenci&oacute;n en la fuente y la entrega de informaci&oacute;n ex&oacute;gena, teniendo en cuenta las responsabilidades que recibi&oacute; el Archivo General de la Naci&oacute;n a partir de la supresi&oacute;n del DAS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11657-2015",
+      "tipo": "oficio",
+      "numero": "11657",
+      "fecha": "2015-04-23",
+      "tema": "Retenci&oacute;n en la fuente que deben practicar las Entidades Ejecutoras de Presupuesto General de la Naci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37183-2014",
+      "tipo": "oficio",
+      "numero": "37183",
+      "fecha": "2014-06-20",
+      "tema": "Solicita reconsideraci&oacute;n de los conceptos 043042 y 057914 de 2013 y que se concept&uacute;e que el beneficio consagrado en el art&iacute;culo 137 de la ley 1607 de 2012 es aplicable a declaraciones de retenci&oacute;n en la fuente, incluyendo el periodo de noviembre de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11308-2014",
+      "tipo": "oficio",
+      "numero": "11308",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Una Fundaci&oacute;n que se encuentra en proceso de liquidaci&oacute;n est&aacute; obligada a presentar declaraciones tributarias? como hacer si no se cuenta con la informaci&oacute;n contable por falta de entrega de los registros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70845-2013",
+      "tipo": "oficio",
+      "numero": "70845",
+      "fecha": "2013-11-06",
+      "tema": "&iquest;A nombre de qu&eacute; ente jur&iacute;dico p&uacute;blico debe expedirse la facturaci&oacute;n de los proveedores y contratistas, derivada de la ejecuci&oacute;n de los recursos de fiscalizaci&oacute;n del SGR?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12845-2012",
+      "tipo": "oficio",
+      "numero": "12845",
+      "fecha": "2012-02-27",
+      "tema": "&iquest;Cu&aacute;les son las acciones contra los agentes retenedores que incumplan con su obligaci&oacute;n legal?&iquest;Cu&aacute;l es la interpretaci&oacute;n de los art&iacute;culos 370, 371, 372, 375, 376 y 382 del Estatuto Tributario?&iquest;La Direcci&oacute;n de Impuestos y Aduanas Nacionales, puede ejercer acciones legales contra el contribuyente al que no se le practic&oacute; la retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40374-2011",
+      "tipo": "oficio",
+      "numero": "40374",
+      "fecha": "2011-06-03",
+      "tema": "Forma de liquidar y pagar el impuesto de timbre aplicable a un contrato de concesi&oacute;n con valor estimado y un t&eacute;rmino de ejecuci&oacute;n de veinte a&ntilde;os, as&iacute; como la normativa aplicable en materia de dicho tributo desde el a&ntilde;o 2007",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060609-2010",
+      "tipo": "concepto",
+      "numero": "0060609",
+      "fecha": "2010-08-23",
+      "tema": "&iquest;A partir de qu&eacute; momento los agentes de retenci&oacute;n est&aacute;n sometidos al cumplimiento de la obligaci&oacute;n formal de declarar de conformidad con lo previsto en el par&aacute;grafo 2&deg; del art&iacute;culo 606 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50591-2009",
+      "tipo": "oficio",
+      "numero": "50591",
+      "fecha": "2009-06-23",
+      "tema": "Aplicaci&oacute;n de la sanci&oacute;n por extemporaneidad en el caso de las declaraciones de retenci&oacute;n en la fuente debido a que hay diversidad de criterios respecto a la interpretaci&oacute;n del art&iacute;culo 641",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57805-2007",
+      "tipo": "oficio",
+      "numero": "57805",
+      "fecha": "2007-07-27",
+      "tema": "&iquest;A la luz de la Resoluci&oacute;n 0057 del 4 de enero de 2007 emanada de la DIAN, si un contribuyente que es contador de profesi&oacute;n, obligado a presentar sus declaraciones virtualmente puede firmarlas tambi&eacute;n como contador o si debe contratar a otro contador para que se las firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41546-2007",
+      "tipo": "oficio",
+      "numero": "41546",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La retenci&oacute;n en la fuente, e IVA, que recaudan los Notarios, se considera como una obligaci&oacute;n de tracto sucesivo o de ejecuci&oacute;n inmediata?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080802-2005",
+      "tipo": "concepto",
+      "numero": "0080802",
+      "fecha": "2005-11-03",
+      "tema": "&iquest;Qu&eacute; consecuencias jur&iacute;dicas y de orden fiscal se generan para un empleador por una conducta omisiva y-o de inobservancia reiterada de esos claros mandatos, pues durante largos a&ntilde;os no dio aplicabilidad alguna, no s&oacute;lo a lo preceptuado por el Estatuto Tributario y las Leyes antes citadas, sino tambi&eacute;n particular y exclusivamente por la no aplicaci&oacute;n de la retenci&oacute;n en la fuente durante m&aacute;s de ocho (8) a&ntilde;os (1997 a 2004) estando obligado a practicarla como bien se deduce de toda la doctrina de la DIAN y sus no pocos conceptos (haciendo a&uacute;n m&aacute;s notorio el concepto de la DIAN 063060 de agosto 12 de 1998- el cual ha sido ampliado y aclarado con los conceptos m&aacute;s recientes? &iquest;Qu&eacute; consecuencias jur&iacute;dicas fiscales y de otra &iacute;ndole jur&iacute;dica se generan cuando un empleador no verifica previamente los presupuestos ordenados por la ley tributaria antes de otorgar una pensi&oacute;n y se&ntilde;ala que esta es igual a todas las dem&aacute;s que viene otorgando; le da el car&aacute;cter de exenta y la mantiene as&iacute; por varios a&ntilde;os ( sin ser ello de su competencia) y llegando m&aacute;s all&aacute;, efect&uacute;a una exenci&oacute;n de hecho que adem&aacute;s mantiene por muchos a&ntilde;os, sin que pueda igualmente invocar que ignoraba que el tratamiento exceptivo &uacute;nica y exclusivamente pod&iacute;a darse en el marco del preceptuado por la Ley 100 que reg&iacute;a desde su promulgaci&oacute;n en 1993, como bien lo ha observado reiteradamente la DIAN? &iquest;Puede presentarse alg&uacute;n caso en que la DIAN considere que no dar cumplimiento a las disposiciones del Legislador, ni a lo preceptuado por el Ente Fiscal resulte irrelevante y sin consecuencias para un empleador y as&iacute; mismo para qui&eacute;nes obtuvieron alg&uacute;n beneficio como producto del mismo incumplimiento, especialmente en lo referido a la obligaci&oacute;n de practicar la Retenci&oacute;n en la Fuente, que no se efectu&oacute; durante m&aacute;s de ocho (8) a&ntilde;os?&iquest;S&iacute; desde las promulgaciones del Estatuto Tributario, la Ley 100 de 1993 y la Ley 223 de 1995, se obligaba a los empleadores a aplicar Retenci&oacute;n en la Fuente y declarar gravables los ingresos provenientes de reconocimientos hechos a t&iacute;tulo de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50265-2005",
+      "tipo": "oficio",
+      "numero": "50265",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Solicita se aclare, en primer t&eacute;rmino, el significado de per&iacute;odo fiscal y vigencia fiscal, para efectos del Impuesto Sobre las Ventas y en segundo lugar, si en una transacci&oacute;n comercial celebrada entre dos entes estatales en el a&ntilde;o 2004, donde se factura en el a&ntilde;o 2004 y se entrega el documento en el a&ntilde;o 2005, y posteriormente se anula la factura, expidi&eacute;ndose una nueva en el a&ntilde;o 2005, se reporta como compensaci&oacute;n o se debe pagar doblemente el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083628-2002",
+      "tipo": "concepto",
+      "numero": "0083628",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Es viable que de los pagos actuales se puedan descontar los valores no retenidos en per&iacute;odos anteriores?&iquest;Es procedente expedir un nuevo certificado de ingresos y retenciones incluyendo los descuentos de noviembre y diciembre de 2001, o puede expedirse solo para estos meses como complemento del entregado para esa vigencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029865-1997",
+      "tipo": "concepto",
+      "numero": "0029865",
+      "fecha": "1997-12-02",
+      "tema": "&iquest;Cuando no resulten valores a pagar en alg&uacute;n per&iacute;odo por concepto de retenci&oacute;n en la fuente, se debe presentar declaraci&oacute;n tributaria de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028226-1997",
+      "tipo": "concepto",
+      "numero": "0028226",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088313-1996",
+      "tipo": "concepto",
+      "numero": "0088313",
+      "fecha": "1996-11-20",
+      "tema": "&iquest;Qu&eacute; compras y servicios relacionados con programas de vivienda de inter&eacute;s social est&aacute;n gravados? &iquest;Cu&aacute;les son las obligaciones de Comit&eacute; Operativo responsable y coordinador de los proyectos de vivienda, en caso de ser agente de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062637-1995",
+      "tipo": "concepto",
+      "numero": "0062637",
+      "fecha": "1995-09-08",
+      "tema": "&iquest;Quien debe firmar las declaraciones tributarias que presenten los consorcios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053333-1995",
+      "tipo": "concepto",
+      "numero": "0053333",
+      "fecha": "1995-08-01",
+      "tema": "&iquest;Las Juntas de Calificaci&oacute;n de Invalidez creadas por la Ley 100 de 1993, est&aacute;n obligadas a declarar renta y solicitar Nit? &iquest;Hay lugar a practicar retenci&oacute;n en la fuente sobre los honorarios devengados por los miembros de las Juntas y qui&eacute;n debe efectuarla?",
+      "vigente": true
+    }
+  ]
+}

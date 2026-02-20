@@ -1,1 +1,65 @@
-{"id_articulo": "Art. 705-1", "titulo": "Art. 705-1. Término para notificar el requerimiento en ventas y retención en la fuente.", "titulo_corto": "Término para notificar el requerimiento en ventas y retención en la fuente.", "slug": "705-1", "url_origen": "https://estatuto.co/705-1", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los términos para notificar el requerimiento especial y para que queden en firme las declaraciones del impuesto sobre las ventas y de retención en la fuente, del contribuyente, a que se refieren el artículo 705 y artículo 714 del Estatuto Tributario, serán los mismos que correspondan a su declaración de renta respecto de aquellos períodos que coincidan con el correspondiente año gravable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los términos para notificar el requerimiento especial y para que queden en firme las declaraciones del impuesto sobre las ventas y de retención en la fuente, del contribuyente, a que se refieren el <a href=\"https://estatuto.co/705\" rel=\"noopener\" target=\"_blank\">artículo 705</a> y <a href=\"https://estatuto.co/714\" rel=\"noopener\" target=\"_blank\">artículo 714</a> del Estatuto Tributario, serán los mismos que correspondan a su declaración de renta respecto de aquellos períodos que coincidan con el correspondiente año gravable.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 223 de 1995 Art 134.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "134"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["705", "714"], "referenced_by": [], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 705-1",
+  "titulo": "Art. 705-1. Término para notificar el requerimiento en ventas y retención en la fuente.",
+  "titulo_corto": "Término para notificar el requerimiento en ventas y retención en la fuente.",
+  "slug": "705-1",
+  "url_origen": "https://estatuto.co/705-1",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los términos para notificar el requerimiento especial y para que queden en firme las declaraciones del impuesto sobre las ventas y de retención en la fuente, del contribuyente, a que se refieren el artículo 705 y artículo 714 del Estatuto Tributario, serán los mismos que correspondan a su declaración de renta respecto de aquellos períodos que coincidan con el correspondiente año gravable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los términos para notificar el requerimiento especial y para que queden en firme las declaraciones del impuesto sobre las ventas y de retención en la fuente, del contribuyente, a que se refieren el <a href=\"https://estatuto.co/705\" rel=\"noopener\" target=\"_blank\">artículo 705</a> y <a href=\"https://estatuto.co/714\" rel=\"noopener\" target=\"_blank\">artículo 714</a> del Estatuto Tributario, serán los mismos que correspondan a su declaración de renta respecto de aquellos períodos que coincidan con el correspondiente año gravable.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 223 de 1995 Art 134.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "134"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "705",
+    "714"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 16116 (2025-11-18): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16116-2025",
+      "tipo": "oficio",
+      "numero": "16116",
+      "fecha": "2025-11-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040330-2006",
+      "tipo": "concepto",
+      "numero": "0040330",
+      "fecha": "2006-05-17",
+      "tema": "&iquest;Puede un contribuyente que no practic&oacute; retenci&oacute;n en la fuente sobre pagos o abonos en cuenta efectuados en a&ntilde;os anteriores asumir esa retenci&oacute;n y consignar las sumas correspondientes a favor de la DIAN, si las declaraciones tributarias en las cuales debieron incluirse tales retenciones se encuentran en firme?",
+      "vigente": true
+    }
+  ]
+}

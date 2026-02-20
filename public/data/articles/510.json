@@ -1,1 +1,112 @@
-{"id_articulo": "Art. 510", "titulo": "Art. 510. Cuenta impuesto sobre las ventas retenido.", "titulo_corto": "Cuenta impuesto sobre las ventas retenido.", "slug": "510", "url_origen": "https://estatuto.co/510", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los agentes de retención del impuesto sobre las ventas, deberán llevar una cuenta denominada \"impuesto a las ventas retenido\" en donde se registre la causación y pago de los valores retenidos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los agentes de retención del impuesto sobre las ventas, deberán llevar una cuenta denominada \"impuesto a las ventas retenido\" en donde se registre la causación y pago de los valores retenidos.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 26.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "26"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 510",
+  "titulo": "Art. 510. Cuenta impuesto sobre las ventas retenido.",
+  "titulo_corto": "Cuenta impuesto sobre las ventas retenido.",
+  "slug": "510",
+  "url_origen": "https://estatuto.co/510",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los agentes de retención del impuesto sobre las ventas, deberán llevar una cuenta denominada \"impuesto a las ventas retenido\" en donde se registre la causación y pago de los valores retenidos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los agentes de retención del impuesto sobre las ventas, deberán llevar una cuenta denominada \"impuesto a las ventas retenido\" en donde se registre la causación y pago de los valores retenidos.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 26.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "26"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 14670 (2014-12-03): Solicita la revocatoria del Concepto 106050 de 2001 mediante el cual esta dependencia se&ntilde;al&oacute; que la sanci&oacute;n de cierre del establecimiento que adicion&oacute; el art&iacute;culo 41 de la Ley 633 de 2000 no debe imponerse en todos los casos en que se ordene el decomiso de una mercanc&iacute;a\noficio 76509 (2013-11-27): Implicaciones fiscales del pago de dividendos a acciones y los contratos en participaci&oacute;n\noficio 0263 (2006-01-01): &iquest;Cu&aacute;l es el procedimiento para verificar el adecuado manejo de la cuenta denominada Impuesto sobre las ventas e Impuesto a las ventas retenido, as&iacute; como otros requisitos de car&aacute;cter contable, por parte de los nuevos responsables del IVA de que trata el art&iacute;culo 477 del Estatuto Tributario, que ejercen actividades diferentes a las comerciales y en consecuencia no est&aacute;n obligados a llevar libros de contabilidad? Devoluci&oacute;n de saldos a favor, personas no obligadas a llevar libros de contabilidad\noficio 19261 (2005-04-07): &iquest;Cu&aacute;l es la responsabilidad de la Polic&iacute;a Nacional como sujeto pasivo del impuesto sobre las ventas?\nconcepto 0001489 (1995-01-01): &iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-14670-2014",
+      "tipo": "oficio",
+      "numero": "14670",
+      "fecha": "2014-12-03",
+      "tema": "Solicita la revocatoria del Concepto 106050 de 2001 mediante el cual esta dependencia se&ntilde;al&oacute; que la sanci&oacute;n de cierre del establecimiento que adicion&oacute; el art&iacute;culo 41 de la Ley 633 de 2000 no debe imponerse en todos los casos en que se ordene el decomiso de una mercanc&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76509-2013",
+      "tipo": "oficio",
+      "numero": "76509",
+      "fecha": "2013-11-27",
+      "tema": "Implicaciones fiscales del pago de dividendos a acciones y los contratos en participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0263-2006",
+      "tipo": "oficio",
+      "numero": "0263",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para verificar el adecuado manejo de la cuenta denominada Impuesto sobre las ventas e Impuesto a las ventas retenido, as&iacute; como otros requisitos de car&aacute;cter contable, por parte de los nuevos responsables del IVA de que trata el art&iacute;culo 477 del Estatuto Tributario, que ejercen actividades diferentes a las comerciales y en consecuencia no est&aacute;n obligados a llevar libros de contabilidad? Devoluci&oacute;n de saldos a favor, personas no obligadas a llevar libros de contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19261-2005",
+      "tipo": "oficio",
+      "numero": "19261",
+      "fecha": "2005-04-07",
+      "tema": "&iquest;Cu&aacute;l es la responsabilidad de la Polic&iacute;a Nacional como sujeto pasivo del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022229-1989",
+      "tipo": "concepto",
+      "numero": "0022229",
+      "fecha": "1989-01-01",
+      "tema": "Asociaci&oacute;n de cuentas en participaci&oacute;n en las exportaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020253-1989",
+      "tipo": "concepto",
+      "numero": "0020253",
+      "fecha": "1989-01-01",
+      "tema": "Registro de libros de contabilidad para r&eacute;gimen simplificado",
+      "vigente": true
+    }
+  ]
+}

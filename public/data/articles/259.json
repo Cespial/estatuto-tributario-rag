@@ -1,1 +1,544 @@
-{"id_articulo": "Art. 259", "titulo": "Art. 259. Limite de los descuentos.", "titulo_corto": "Limite de los descuentos.", "slug": "259", "url_origen": "https://estatuto.co/259", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*En ningún caso los descuentos tributarios pueden exceder el valor del impuesto básico de renta. La determinación del impuesto después de descuentos, en ningún caso podrá ser inferior al 75% del impuesto determinado por el sistema de renta presuntiva sobre patrimonio líquido, antes de cualquier descuento tributario. Parágrafo 1. El límite establecido en el inciso segundo del presente artículo, no será aplicable a las inversiones de que trata el artículo quinto de la Ley 218 de 1995, ni a las rentas exentas. **Parágrafo 2. Cuando los descuentos tributarios estén originados exclusivamente en certificados de reembolso tributario, la determinación del impuesto a cargo no podrá ser inferior al setenta por ciento (70%) del impuesto determinado por el sistema de renta presuntiva antes de cualquier descuento.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En ningún caso los descuentos tributarios pueden exceder el valor del impuesto básico de renta.</p>\n<p>La determinación del impuesto después de descuentos, en ningún caso podrá ser inferior al 75% del impuesto determinado por el sistema de renta presuntiva sobre patrimonio líquido, antes de cualquier descuento tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1. </span></strong>El límite establecido en el inciso segundo del presente artículo, no será aplicable a las inversiones de que trata el artículo quinto de la <a href=\"https://accounter.co/normatividad/leyes/8149-por-la-cual-se-modifica-el-decreto-1264-del-21-de-junio-de-1994-proferido-en-desarrollo-de-la-emergencia-declarada-mediante-decreto-1178-del-9-de-junio-de-1994-y-se-dictan-otras-disposiciones.html\" rel=\"noopener\" target=\"_blank\">Ley 218 de 1995</a>, ni a las rentas exentas.</p>\n<div class=\"trigger\"><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo 2. </span></strong><span class=\"verde\" style=\"color: #339966;\"><span style=\"color: #000000;\">Cuando los descuentos tributarios estén originados exclusivamente en certificados de reembolso tributario, la determinación del impuesto a cargo no podrá ser inferior al setenta por ciento (70%) del impuesto determinado por el sistema de renta presuntiva antes de cualquier descuento.</span></span></div>\n</span>", "modificaciones_raw": "*Subrogado Ley 383 de 1997 Art 29. **Modificado Ley 633 de 2000 Art 22.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "22"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "383", "norma_year": 1997, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 383 de 1997", "Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["254"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 259",
+  "titulo": "Art. 259. Limite de los descuentos.",
+  "titulo_corto": "Limite de los descuentos.",
+  "slug": "259",
+  "url_origen": "https://estatuto.co/259",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*En ningún caso los descuentos tributarios pueden exceder el valor del impuesto básico de renta. La determinación del impuesto después de descuentos, en ningún caso podrá ser inferior al 75% del impuesto determinado por el sistema de renta presuntiva sobre patrimonio líquido, antes de cualquier descuento tributario. Parágrafo 1. El límite establecido en el inciso segundo del presente artículo, no será aplicable a las inversiones de que trata el artículo quinto de la Ley 218 de 1995, ni a las rentas exentas. **Parágrafo 2. Cuando los descuentos tributarios estén originados exclusivamente en certificados de reembolso tributario, la determinación del impuesto a cargo no podrá ser inferior al setenta por ciento (70%) del impuesto determinado por el sistema de renta presuntiva antes de cualquier descuento.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*En ningún caso los descuentos tributarios pueden exceder el valor del impuesto básico de renta.</p>\n<p>La determinación del impuesto después de descuentos, en ningún caso podrá ser inferior al 75% del impuesto determinado por el sistema de renta presuntiva sobre patrimonio líquido, antes de cualquier descuento tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1. </span></strong>El límite establecido en el inciso segundo del presente artículo, no será aplicable a las inversiones de que trata el artículo quinto de la <a href=\"https://accounter.co/normatividad/leyes/8149-por-la-cual-se-modifica-el-decreto-1264-del-21-de-junio-de-1994-proferido-en-desarrollo-de-la-emergencia-declarada-mediante-decreto-1178-del-9-de-junio-de-1994-y-se-dictan-otras-disposiciones.html\" rel=\"noopener\" target=\"_blank\">Ley 218 de 1995</a>, ni a las rentas exentas.</p>\n<div class=\"trigger\"><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo 2. </span></strong><span class=\"verde\" style=\"color: #339966;\"><span style=\"color: #000000;\">Cuando los descuentos tributarios estén originados exclusivamente en certificados de reembolso tributario, la determinación del impuesto a cargo no podrá ser inferior al setenta por ciento (70%) del impuesto determinado por el sistema de renta presuntiva antes de cualquier descuento.</span></span></div>\n</span>",
+  "modificaciones_raw": "*Subrogado Ley 383 de 1997 Art 29. **Modificado Ley 633 de 2000 Art 22.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "22"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "383",
+      "norma_year": 1997,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 383 de 1997",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "254"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 14 concepto(s) relacionado(s). Jurisprudencia: 6 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 24854 (2023-12-26): (Int 1286) Quinta adici&oacute;n al Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022\noficio 6363 (2023-05-29): (Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia\noficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-24854-2023",
+      "tipo": "oficio",
+      "numero": "24854",
+      "fecha": "2023-12-26",
+      "tema": "(Int 1286) Quinta adici&oacute;n al Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6363-2023",
+      "tipo": "oficio",
+      "numero": "6363",
+      "fecha": "2023-05-29",
+      "tema": "(Int 618) Concepto General sobre el impuesto sobre la renta a cargo de las personas jur&iacute;dicas con motivo de la Ley 2277 de 2022, Modificaci&oacute;n de la SEA - Criterio y existencia de una Sede Administrativa de Administraci&oacute;n en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5316-2024",
+      "tipo": "oficio",
+      "numero": "5316",
+      "fecha": "2024-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4844-2024",
+      "tipo": "oficio",
+      "numero": "4844",
+      "fecha": "2024-07-22",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4809-2024",
+      "tipo": "oficio",
+      "numero": "4809",
+      "fecha": "2024-07-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907313-2022",
+      "tipo": "oficio",
+      "numero": "907313",
+      "fecha": "2022-10-04",
+      "tema": "Becas por impuestos Descuento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906697-2022",
+      "tipo": "oficio",
+      "numero": "906697",
+      "fecha": "2022-09-02",
+      "tema": "Impuesto sobre la renta y complementarios. Fondos de inversi&oacute;n - Fondos de capital privado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905445-2022",
+      "tipo": "oficio",
+      "numero": "905445",
+      "fecha": "2022-07-15",
+      "tema": "Impuesto sobre la renta - Descuentos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901122-2022",
+      "tipo": "oficio",
+      "numero": "901122",
+      "fecha": "2022-02-14",
+      "tema": "- (Tributario) Descuento tributario - Descuento en el impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914511-2021",
+      "tipo": "oficio",
+      "numero": "914511",
+      "fecha": "2021-11-25",
+      "tema": "Impuesto sobre la renta - Descuento tributario por impuestos pagados en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907362-2021",
+      "tipo": "oficio",
+      "numero": "907362",
+      "fecha": "2021-07-26",
+      "tema": "- (Tributario) Descuento del impuesto sobre las ventas por adquisici&oacute;n de activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32118-2019",
+      "tipo": "oficio",
+      "numero": "32118",
+      "fecha": "2019-12-31",
+      "tema": "Descuentos Tributarios por Impuestos Pagados en el Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28376-2019",
+      "tipo": "oficio",
+      "numero": "28376",
+      "fecha": "2019-11-15",
+      "tema": "Deducci&oacute;n por Inversi&oacute;n en Proyectos Cinematogr&aacute;ficos - Concurrencia de Beneficios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21774-2019",
+      "tipo": "oficio",
+      "numero": "21774",
+      "fecha": "2019-09-02",
+      "tema": "Distinci&oacute;n entre rebaja y descuento en la legislaci&oacute;n colombiana",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9130-2019",
+      "tipo": "oficio",
+      "numero": "9130",
+      "fecha": "2019-04-03",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4989-2019",
+      "tipo": "oficio",
+      "numero": "4989",
+      "fecha": "2019-02-28",
+      "tema": "Pago y soporte de deudas por parte de una casa matr&iacute;z extranjera a su filial en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1187-2019",
+      "tipo": "oficio",
+      "numero": "1187",
+      "fecha": "2019-01-16",
+      "tema": "Descuentos Tributarios para Empresas de Servicios P&uacute;blicos Domiciliarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10939-2018",
+      "tipo": "oficio",
+      "numero": "10939",
+      "fecha": "2018-04-27",
+      "tema": "&iquest;Si en ausencia del Representante Legal principal podr&iacute;a eventualmente firmar las declaraciones Tributarias un suplente de la sociedad fiduciaria de la Sociedad Administradora o seria responsabilidad de un suplente de los suscriptores del acuerdo consorcial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5823-2018",
+      "tipo": "oficio",
+      "numero": "5823",
+      "fecha": "2018-03-08",
+      "tema": "Ingresos de fuente extranjera - Residentes - Transporte a&eacute;reo o mar&iacute;timo internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9866-2016",
+      "tipo": "oficio",
+      "numero": "9866",
+      "fecha": "2016-04-27",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0341-2016",
+      "tipo": "oficio",
+      "numero": "0341",
+      "fecha": "2016-04-25",
+      "tema": "Renta - Beneficios Empleadores - Desplazados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36755-2015",
+      "tipo": "oficio",
+      "numero": "36755",
+      "fecha": "2015-12-29",
+      "tema": "&iquest;Existe la posibilidad para que una empresa colombiana que tiene una subsidiaria en Costa Rica, pueda descontar de los impuestos a pagar en Colombia, las donaciones efectuadas a trav&eacute;s de la Fundaci&oacute;n para la restauraci&oacute;n Catedral Metropolitana y otros Templos y Monumentos Cat&oacute;licos de ese pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023323-2015",
+      "tipo": "concepto",
+      "numero": "0023323",
+      "fecha": "2015-08-11",
+      "tema": "&iquest;Se debe tener en cuenta el Impuesto sobre la renta para la equidad (CREE) para efectos de determinar el l&iacute;mite del descuento tributario establecido en el art&iacute;culo 22 del Convenio entre la Rep&uacute;blica de Colombia y los Estados Unidos Mexicanos para evitar la doble imposici&oacute;n y para prevenir la evasi&oacute;n fiscal en relaci&oacute;n con los impuestos sobre la renta y sobre el patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12340-2015",
+      "tipo": "oficio",
+      "numero": "12340",
+      "fecha": "2015-04-30",
+      "tema": "Descuento tributario por contratar poblaci&oacute;n desmovilizada en proceso de reintegraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0418-2015",
+      "tipo": "oficio",
+      "numero": "0418",
+      "fecha": "2015-01-07",
+      "tema": "Precisi&oacute;n respecto de los Oficios Nos 070386 de Noviembre 1 de 2013 y 39768 de julio 7 de 2014, en los cuales se consider&oacute; al tenor de los art&iacute;culos 254 y 259 del Estatuto Tributario, que los impuestos pagados en el exterior por los contribuyentes del impuesto sobre la renta, as&iacute; como sobre la renta para la equidad-CREE, pueden ser descontados en Colombia, bajo los par&aacute;metros de las mencionadas normas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67157-2014",
+      "tipo": "oficio",
+      "numero": "67157",
+      "fecha": "2014-12-22",
+      "tema": "Convenio para evitar la doble Imposici&oacute;n - obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-66817-2014",
+      "tipo": "oficio",
+      "numero": "66817",
+      "fecha": "2014-12-18",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 060192 del 23 de septiembre de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-63387-2014",
+      "tipo": "oficio",
+      "numero": "63387",
+      "fecha": "2014-11-20",
+      "tema": "&iquest;Al elaborar la declaraci&oacute;n de renta en el pa&iacute;s puede tomar respecto de los ingresos del exterior, las deducciones, rentas exentas y dem&aacute;s conceptos aplicables a los asalariados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61414-2014",
+      "tipo": "oficio",
+      "numero": "61414",
+      "fecha": "2014-10-31",
+      "tema": "Presenta como argumento para solicitar la reconsideraci&oacute;n, que resulta contradictoria la respuesta dada en el oficio por usted referenciado, ya que de conformidad con lo establecido en la Ley 1607 de 2012 tambi&eacute;n respecto del Impuesto sobre la Equidad CREE, proceden descuentos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60063-2014",
+      "tipo": "oficio",
+      "numero": "60063",
+      "fecha": "2014-10-24",
+      "tema": "&iquest;Una persona natural residente fiscal en Colombia, puede descontarse en la declaraci&oacute;n de Impuesto de Renta y Complementarios, los impuestos pagados en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55629-2014",
+      "tipo": "oficio",
+      "numero": "55629",
+      "fecha": "2014-09-22",
+      "tema": "Descuento del Impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50840-2014",
+      "tipo": "oficio",
+      "numero": "50840",
+      "fecha": "2014-08-21",
+      "tema": "&iquest;C&oacute;mo considera la Administraci&oacute;n que debe declararse el descuento por impuestos pagados en el exterior que exceda el valor total del impuesto b&aacute;sico de renta, y en cuya declaraci&oacute;n debe imputarse la parte correspondiente tanto al Impuesto de Renta como Impuesto sobre la Renta para la Equidad -CREE-?&iquest;Existe posibilidad de que dicho exceso de descuento tributario por impuestos pagados en el exterior que exceda el valor del impuesto b&aacute;sico de renta se configure en un saldo a favor del contribuyente? O por el contrario, &iquest;deber&aacute; entenderse que la parte que exceda el valor total del impuesto b&aacute;sico de renta deber&aacute; acumularse para ser imputada en per&iacute;odos subsiguientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45545-2014",
+      "tipo": "oficio",
+      "numero": "45545",
+      "fecha": "2014-07-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - Descuentos Tributarios - Aplicaci&oacute;n del art&iacute;culo 498-1 del Estatuto Tributario, reglamentado por el Decreto 2975 del 20 de diciembre de 2013",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40924-2014",
+      "tipo": "oficio",
+      "numero": "40924",
+      "fecha": "2014-07-11",
+      "tema": "&iquest;Qu&eacute;-TRM se aplica para calcular el equivalente en pesos colombianos de divisas percibidas por un nacional residente en Colombia y que deben ser relacionadas en la declaraci&oacute;n del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39768-2014",
+      "tipo": "oficio",
+      "numero": "39768",
+      "fecha": "2014-07-07",
+      "tema": "&iquest;Las sociedades colombianas que prestan servicios en el exterior pueden descontarse del impuesto de renta para la equidad CREE el impuesto pagado en el exterior?&iquest;En caso de poderse descontar los impuestos pagados en el exterior en el impuesto de renta para equidad CREE, en qu&eacute; rengl&oacute;n del formulario 140 se puede descontar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002360-2014",
+      "tipo": "concepto",
+      "numero": "0002360",
+      "fecha": "2014-01-16",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario aplicable a la prestaci&oacute;n de servicios en pa&iacute;ses miembros de la Comunidad Andina de Naciones (CAN), por parte de una sociedad colombiana, bajo la legislaci&oacute;n actual y lo establecido en los art&iacute;culos 254 y 259 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70386-2013",
+      "tipo": "oficio",
+      "numero": "70386",
+      "fecha": "2013-11-01",
+      "tema": "&iquest;C&oacute;mo debe aplicarse el descuento por impuestos pagados en el exterior, previsto en el art&iacute;culo 254 del Estatuto Tributario teniendo en cuenta que el art&iacute;culo 193 de la Ley 1607 de 2012 que modific&oacute; el mencionado art&iacute;culo 254 incluy&oacute; que el descuento por el impuesto pagado en el exterior sobre las mismas rentas que deban tributar en el pa&iacute;s, podr&aacute; ser sumado al impuesto sobre la renta para la equidad- CREE cuando el contribuyente sea sujeto pasivo del mismo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60192-2013",
+      "tipo": "oficio",
+      "numero": "60192",
+      "fecha": "2013-09-23",
+      "tema": "&iquest;Pueden ser reconocidas en Colombia como impuesto pagado en Costa Rica, en car&aacute;cter de cr&eacute;dito fiscal por impuestos pagados en el exterior, las donaciones efectuadas a la Iglesia Cat&oacute;lica en la Rep&uacute;blica de Costa Rica por una empresa que integra un grupo financiero cuya matriz es Colombiana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056136-2013",
+      "tipo": "concepto",
+      "numero": "0056136",
+      "fecha": "2013-09-05",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen que actualmente aplica a las rentas relativas a ingresos provenientes de la prestaci&oacute;n de servicios en exterior por parte de una sociedad colombiana a quien se le practicaron retenciones en el estado fuente de los ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57526-2012",
+      "tipo": "oficio",
+      "numero": "57526",
+      "fecha": "2012-09-11",
+      "tema": "Aplicabilidad del art&iacute;culo 6&deg; de la Ley 1536 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010269-2010",
+      "tipo": "concepto",
+      "numero": "0010269",
+      "fecha": "2010-02-15",
+      "tema": "&iquest;El descuento por impuestos pagados en el exterior establecido en el art&iacute;culo 254 del Estatuto Tributario, est&aacute; condicionado al l&iacute;mite se&ntilde;alado en el inciso segundo del art&iacute;culo 259 ib&iacute;dem.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27366-2009",
+      "tipo": "oficio",
+      "numero": "27366",
+      "fecha": "2009-04-03",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83060-2006",
+      "tipo": "oficio",
+      "numero": "83060",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;En los servicios de asistencia t&eacute;cnica prestados desde el exterior se puede practicar retenci&oacute;n en la fuente por renta-remesas, sin haber elaborado contrato, o si se puede obviar la retenci&oacute;n al girar al exterior y no solicitar el gasto como deducible en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007561-2003",
+      "tipo": "concepto",
+      "numero": "0007561",
+      "fecha": "2003-02-18",
+      "tema": "&iquest;Un contribuyente que por estar obligado a declarar por primera vez no est&aacute; obligado a determinar la renta presuntiva con base en el patrimonio l&iacute;quido del a&ntilde;o inmediatamente anterior, pod&iacute;a descontar la totalidad de las donaciones realizadas con fundamento en el art&iacute;culo 249 del Estatuto Tributario absorbiendo as&iacute; el impuesto a cargo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027177-2002",
+      "tipo": "concepto",
+      "numero": "0027177",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Era procedente tomar en el a&ntilde;o 2001 la totalidad del saldo del descuento tributario por IVA pagado en la adquisici&oacute;n de activos, o debi&oacute; darse aplicaci&oacute;n al limite del 75% del impuesto neto de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080458-2001",
+      "tipo": "concepto",
+      "numero": "0080458",
+      "fecha": "2001-09-04",
+      "tema": "&iquest;Tiene derecho una empresa a solicitar descuento por generaci&oacute;n de empleo cuando en el a&ntilde;o inmediatamente anterior, base para determinar el 5% exigido por la ley, no ten&iacute;a empleados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032844-2001",
+      "tipo": "concepto",
+      "numero": "0032844",
+      "fecha": "2001-04-24",
+      "tema": "&iquest;Procede limitaci&oacute;n a las exenciones establecidas en el D. 258 de 1999 partiendo de la base de la renta l&iacute;quida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0099024-2000",
+      "tipo": "concepto",
+      "numero": "0099024",
+      "fecha": "2000-10-09",
+      "tema": "&iquest;De cu&aacute;les beneficios tributarlos goza una empresa al contratar nuevo personal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049298-1999",
+      "tipo": "concepto",
+      "numero": "0049298",
+      "fecha": "1999-12-16",
+      "tema": "&iquest;Un contribuyente que al hacer uso del beneficio de auditoria corrige la declaraci&oacute;n de renta de un a&ntilde;o gravable, en la cual renuncia al descuento tributario de IVA por bienes de capital que ven&iacute;a aplicando por varios per&iacute;odos, puede solicitar la parte que disminuy&oacute; con motivo de la correcci&oacute;n en las declaraciones presentadas con posterioridad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032232-1999",
+      "tipo": "concepto",
+      "numero": "0032232",
+      "fecha": "1999-04-03",
+      "tema": "&iquest;Se consideran ingresos de fuente nacional los recibidos por una sociedad o una persona natural sin domicilio ni residencia en el pa&iacute;s, por servicios prestados en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047571-1998",
+      "tipo": "concepto",
+      "numero": "0047571",
+      "fecha": "1998-06-19",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003107-1997",
+      "tipo": "concepto",
+      "numero": "0003107",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-226-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "226",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-365-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "365",
+      "year": 2012
+    }
+  ]
+}

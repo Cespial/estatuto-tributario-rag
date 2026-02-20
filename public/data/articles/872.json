@@ -1,1 +1,415 @@
-{"id_articulo": "Art. 872", "titulo": "Art. 872. Tarifa del gravamen a los movimientos financieros.", "titulo_corto": "Tarifa del gravamen a los movimientos financieros.", "slug": "872", "url_origen": "https://estatuto.co/872", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La tarifa del gravamen a los movimientos financieros será del cuatro por mil (4 x 1.000).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>La tarifa del gravamen a los movimientos financieros será del cuatro por mil (4 x 1.000).</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 214.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "214"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1739", "norma_year": 2014, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1694", "norma_year": 2013, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}], "total_modificaciones": 4, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1694 de 2013", "Ley 1739 de 2014", "Ley 1819 de 2016", "Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 872",
+  "titulo": "Art. 872. Tarifa del gravamen a los movimientos financieros.",
+  "titulo_corto": "Tarifa del gravamen a los movimientos financieros.",
+  "slug": "872",
+  "url_origen": "https://estatuto.co/872",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La tarifa del gravamen a los movimientos financieros será del cuatro por mil (4 x 1.000).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>La tarifa del gravamen a los movimientos financieros será del cuatro por mil (4 x 1.000).</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 214.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "214"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1739",
+      "norma_year": 2014,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1694",
+      "norma_year": 2013,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 4,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1694 de 2013",
+    "Ley 1739 de 2014",
+    "Ley 1819 de 2016",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 902964 (2022-04-07): Gravamen a los Movimientos Financiero, exenciones\noficio 913888 (2021-11-10): Tratamiento tributario aplicable a una operaci&oacute;n cambiaria de la cual ser&aacute; beneficiario en el pa&iacute;s",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-902964-2022",
+      "tipo": "oficio",
+      "numero": "902964",
+      "fecha": "2022-04-07",
+      "tema": "Gravamen a los Movimientos Financiero, exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913888-2021",
+      "tipo": "oficio",
+      "numero": "913888",
+      "fecha": "2021-11-10",
+      "tema": "Tratamiento tributario aplicable a una operaci&oacute;n cambiaria de la cual ser&aacute; beneficiario en el pa&iacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902141-2020",
+      "tipo": "oficio",
+      "numero": "902141",
+      "fecha": "2020-06-08",
+      "tema": "Enajenaci&oacute;n de activos - Impuestos de competencia de la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2891-2019",
+      "tipo": "oficio",
+      "numero": "2891",
+      "fecha": "2019-12-03",
+      "tema": "(Int 2891) Devoluci&oacute;n del Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26041-2019",
+      "tipo": "oficio",
+      "numero": "26041",
+      "fecha": "2019-10-16",
+      "tema": "Gravamen a los Movimientos Financieros - Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23293-2019",
+      "tipo": "oficio",
+      "numero": "23293",
+      "fecha": "2019-09-13",
+      "tema": "Gravamen a los Movimientos Financieros - Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17804-2019",
+      "tipo": "oficio",
+      "numero": "17804",
+      "fecha": "2019-07-09",
+      "tema": "Exenciones de impuestos, retefuente, IVA, comisiones, gravamen a los movimientos financieros aplicadas a empresas de servicios p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3805-2019",
+      "tipo": "oficio",
+      "numero": "3805",
+      "fecha": "2019-02-14",
+      "tema": "&iquest;Se encuentran gravados con el gravamen a los movimientos financiaros los d&eacute;bitos que se efect&uacute;en a cuentas contables en los que no se realiza un pago o transferencia a un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32227-2018",
+      "tipo": "oficio",
+      "numero": "32227",
+      "fecha": "2018-10-29",
+      "tema": "Hecho Generador del Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22412-2017",
+      "tipo": "oficio",
+      "numero": "22412",
+      "fecha": "2017-08-18",
+      "tema": "&iquest;Gravamen a los Movimientos Financieros, cuales son los productos gravados y cuales tienen el beneficio de exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21048-2017",
+      "tipo": "oficio",
+      "numero": "21048",
+      "fecha": "2017-08-08",
+      "tema": "Gravamen a los movimientos financieros - GMF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6223-2017",
+      "tipo": "oficio",
+      "numero": "6223",
+      "fecha": "2017-03-21",
+      "tema": "Gravamen a los movimientos financieros - Operaciones exentas - factoring",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12903-2016",
+      "tipo": "oficio",
+      "numero": "12903",
+      "fecha": "2016-05-24",
+      "tema": "Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3767-2016",
+      "tipo": "oficio",
+      "numero": "3767",
+      "fecha": "2016-02-26",
+      "tema": "Dar alcance al Oficio n&uacute;mero 37127 de 31-12-2015 acerca de la aplicaci&oacute;n del numeral 1o del art&iacute;culo 879 del Estatuto Tributario, para el caso de las personas jur&iacute;dicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28633-2015",
+      "tipo": "oficio",
+      "numero": "28633",
+      "fecha": "2015-10-02",
+      "tema": "(Int 1281) Gravamen a los Movimientos Financieros - Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27890-2015",
+      "tipo": "oficio",
+      "numero": "27890",
+      "fecha": "2015-09-24",
+      "tema": "Se solicita la revisi&oacute;n de los pronunciamientos emitidos en relaci&oacute;n con la forma de determinar la base gravable del impuesto a la riqueza para las cooperativas, y la tarifa de retenci&oacute;n en la fuente en t&iacute;tulos de renta fija",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26155-2015",
+      "tipo": "oficio",
+      "numero": "26155",
+      "fecha": "2015-09-08",
+      "tema": "Revocatoria del Concepto No. 4445 del 17 de febrero de 2015 - &iquest;La compra de cartera o novaci&oacute;n de un cr&eacute;dito entre entidades bancarias, est&aacute; exenta del Gravamen de los Movimientos Financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24258-2015",
+      "tipo": "oficio",
+      "numero": "24258",
+      "fecha": "2015-08-20",
+      "tema": "Solicita dejar sin efectos el Concepto 016648 de 2014 seg&uacute;n el cual las Cooperativas deben determinar el beneficio neto de conformidad con lo dispuesto en los art&iacute;culos 4&deg; y 5&deg; del Decreto 4400 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23765-2015",
+      "tipo": "oficio",
+      "numero": "23765",
+      "fecha": "2015-08-10",
+      "tema": "Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7124-2015",
+      "tipo": "oficio",
+      "numero": "7124",
+      "fecha": "2015-03-06",
+      "tema": "&iquest;El pago de una cuota de pr&eacute;stamo hipotecario bancario, debe pagar impuesto del 4 x 1000?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-4972-2015",
+      "tipo": "oficio",
+      "numero": "4972",
+      "fecha": "2015-02-19",
+      "tema": "&iquest;Son aplicables las exenciones del Gravamen a los Movimientos Financieros contenidas en los numerales 2 y 14 del art&iacute;culo 879 del Estatuto Tributario a la transferencia de recursos que realice la sociedad escindente a favor de la sociedad escindida en virtud de una escisi&oacute;n por creaci&oacute;n, cuando las cuentas se tienen en una misma entidad y los recursos se transfieren en virtud del proceso de escisi&oacute;n?&iquest;En caso de que las mencionadas exenciones no sean procedentes &iquest;existe alg&uacute;n tipo de exenci&oacute;n en el GMF aplicable a este tipo de transferencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2333-2015",
+      "tipo": "oficio",
+      "numero": "2333",
+      "fecha": "2015-01-30",
+      "tema": "Alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000124-2015",
+      "tipo": "concepto",
+      "numero": "0000124",
+      "fecha": "2015-01-29",
+      "tema": "Se precisa el concepto de gastos de acuerdo con lo manifestado en oficios 29970 de 2012, 42903 y 49673 de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57324-2014",
+      "tipo": "oficio",
+      "numero": "57324",
+      "fecha": "2014-10-06",
+      "tema": "Exenci&oacute;n del gravamen a los movimientos financieros - GMF, establecida en el numeral 10 del art&iacute;culo 879 del Estatuto Tributario a los miembros de uniones temporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50837-2014",
+      "tipo": "oficio",
+      "numero": "50837",
+      "fecha": "2014-08-21",
+      "tema": "&iquest;Los titulares de las cuentas de cesant&iacute;as o de las cuentas de ahorro voluntario contractual (AVC) del FNA, pueden marcar esta &uacute;ltima cuenta como &uacute;nica exenta del GMF en los t&eacute;rminos del numeral 1o del art&iacute;culo 879 del Estatuto Tributario?&iquest;Est&aacute; exenta del GMF la disposici&oacute;n de recursos depositados en las cuentas de cesant&iacute;as o de las cuentas de ahorro voluntario contractual (AVC) del FNA, cuando sus titulares efect&uacute;an pagos a terceros por concepto de adquisici&oacute;n de inmuebles destinados para vivienda familiar o para pago de matr&iacute;culas o cr&eacute;ditos educativos?&iquest;Los desembolsos que realiza el FNA para el pago a los comercializadores de bienes que sean entregados a sus afiliados mediante contratos de leasing financiero inmobiliario con opci&oacute;n de compra, est&aacute;n exentos del GMF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30841-2014",
+      "tipo": "oficio",
+      "numero": "30841",
+      "fecha": "2014-05-21",
+      "tema": "&iquest;Cu&aacute;l es la base para liquidar la sanci&oacute;n por no declarar el GMF cuando el sujeto pasivo nunca ha presentado declaraciones por este impuesto y si en caso de no existir base para liquidar la mencionada sanci&oacute;n, es procedente imponer la sanci&oacute;n m&iacute;nima de que trata el art&iacute;culo 639 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10541-2012",
+      "tipo": "oficio",
+      "numero": "10541",
+      "fecha": "2012-02-17",
+      "tema": "&iquest;Son las carteras colectivas administradas por las Firmas Comisionistas de Bolsa, los encargos fiduciarios administrados por sociedades fiduciarios y los patrimonios aut&oacute;nomos entidades vigiladas por la Superintendencia Financiera de Colombia?. &iquest;Qu&eacute; es una operaci&oacute;n de factoring y que impuestos debe pagar?&iquest;Procede el beneficio de exenci&oacute;n establecido en el art&iacute;culo 4o del Decreto 660 de 2011 para las Carteras Colectivas y-o Patrimonios Aut&oacute;nomos, por el hecho de ser administradas por entidades vigiladas por la Superintendencia Financiera de Colombia, cuando realizan operaciones de factoring?&iquest;Es posible que las sociedades fiduciarias que administran patrimonios aut&oacute;nomos y las firmas comisionistas de bolsa en su calidad de administradores de carteras colectivas que realizan operaciones de factoring y que son entidades vigiladas por la Superintendencia Financiera de Colombia, trasladen la exenci&oacute;n del art&iacute;culo 4o del Decreto 660 de 2011 a las operaciones de factoring cuando el factor es una cartera colectiva o un patrimonio aut&oacute;nomo o un encargo fiduciario en los t&eacute;rminos establecidos en el Decreto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69885-2011",
+      "tipo": "oficio",
+      "numero": "69885",
+      "fecha": "2011-09-09",
+      "tema": "&iquest;Teniendo en cuenta lo dispuesto por el art&iacute;culo 6o de la Ley 1430 de 2010, en el caso de un cr&eacute;dito por libranza a trav&eacute;s de una entidad financiera la cual le consigna al cliente el dinero en su cuenta, la entidad financiera le descontar&aacute; el (4X1000) y cuando el cliente comience a retirar de su cuenta el dinero de este cr&eacute;dito tambi&eacute;n le descontar&aacute;n el cuatro por mil (4X1000)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90638-2010",
+      "tipo": "oficio",
+      "numero": "90638",
+      "fecha": "2010-12-01",
+      "tema": "&iquest;si la operaci&oacute;n financiera se origina en la atenci&oacute;n de &oacute;rdenes judiciales o en la correcci&oacute;n de errores operativos, &eacute;stas transacciones generan GMF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91291-2006",
+      "tipo": "oficio",
+      "numero": "91291",
+      "fecha": "2006-10-25",
+      "tema": "Solicita saber cu&aacute;l es el criterio de &eacute;ste despacho respecto de las normas objeto de los contratos de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091291-2006",
+      "tipo": "concepto",
+      "numero": "0091291",
+      "fecha": "2006-10-25",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58379-2006",
+      "tipo": "oficio",
+      "numero": "58379",
+      "fecha": "2006-07-13",
+      "tema": "Solicita revisar la disposici&oacute;n reglamentaria que califica el Gravamen a los Movimientos Financieros, GMF, como un egreso no procedente, para las entidades del r&eacute;gimen tributario especial de que trata el numeral 1&ordm; del art&iacute;culo 19 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21955-2006",
+      "tipo": "oficio",
+      "numero": "21955",
+      "fecha": "2006-03-14",
+      "tema": "Grav&aacute;men a los movimientos financieros en la compra de divisas",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-96477-2005",
+      "tipo": "oficio",
+      "numero": "96477",
+      "fecha": "2005-12-26",
+      "tema": "Solicita se revise la doctrina del despacho, con respecto a la no deducibilidad del gravamen a los movimientos financieros del impuesto de renta, y la imposibilidad de tratarlo como costo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-56990-2005",
+      "tipo": "oficio",
+      "numero": "56990",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;El reintegro efectuado por el mandante del valor pagado por concepto de gravamen a los movimientos financieros, siendo un gasto no deducible, es considerado un ingreso gravable para efectos de determinar el Impuesto Sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037718-2003",
+      "tipo": "concepto",
+      "numero": "0037718",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Puede tratarse como costo en el impuesto sobre la renta y complementarios el gravamen a los movimientos financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-16133-2002",
+      "tipo": "concepto",
+      "numero": "16133",
+      "fecha": "2002-03-18",
+      "tema": "Impuesto de renta y complementarios. Beneficio Neto o excedente en las cooperativas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76993-2011",
+      "tipo": "oficio",
+      "numero": "76993",
+      "fecha": "2011-10-03",
+      "tema": "&iquest;Para efectos del Gravamen a los Movimientos Financieros - GMF, las divisas son consideradas una inversi&oacute;n? &iquest;Si las divisas son una inversi&oacute;n, en la operaci&oacute;n de compensaci&oacute;n de t&iacute;tulos cuando el medio utilizado es libre de pago, se entiende traslado entre el mismo titular y por tanto est&aacute; exento del GMF de conformidad con el numeral 14 del art&iacute;culo 879 del E.T., el evento en que los recursos quedan a disposici&oacute;n y simult&aacute;neamente se utilizan para comprar divisas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065644-2001",
+      "tipo": "concepto",
+      "numero": "0065644",
+      "fecha": "2001-07-18",
+      "tema": "Solicita aclarar el t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025854-2001",
+      "tipo": "concepto",
+      "numero": "0025854",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;El GMF por la compra de materia prima para la obtenci&oacute;n de un bien final o para prestaci&oacute;n de un servicio, puede ser detra&iacute;do para efectos de la depuraci&oacute;n de la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012397-2001",
+      "tipo": "concepto",
+      "numero": "0012397",
+      "fecha": "2001-02-20",
+      "tema": "&iquest;Es deducible o descontable el gravamen del 3 por mil?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ interface TrendSeries {
 interface TopReferencedTrendTableProps {
   articles: TopReferencedArticle[];
   trends: TrendSeries[];
+  title?: string;
 }
 
 const ESTADO_DOT: Record<string, string> = {
@@ -31,6 +32,7 @@ const ESTADO_DOT: Record<string, string> = {
 export function TopReferencedTrendTable({
   articles,
   trends,
+  title,
 }: TopReferencedTrendTableProps) {
   if (articles.length === 0) return null;
 
@@ -39,7 +41,7 @@ export function TopReferencedTrendTable({
   return (
     <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
       <h3 className="heading-serif mb-3 text-lg">
-        Top referenciados + tendencia de reformas
+        {title || "Top referenciados + tendencia de reformas"}
       </h3>
       <div className="overflow-x-auto">
         <table className="w-full min-w-[680px] text-sm">
@@ -82,7 +84,7 @@ export function TopReferencedTrendTable({
                     {article.total_refs}
                   </td>
                   <td className="px-2 py-2">
-                    <div className="ml-auto h-10 w-32">
+                    <div className="ml-auto h-12 w-40 min-w-[120px]">
                       {series.length > 0 ? (
                         <ResponsiveContainer width="100%" height="100%">
                           <LineChart data={series}>
@@ -99,15 +101,15 @@ export function TopReferencedTrendTable({
                             <Line
                               type="monotone"
                               dataKey="count"
-                              stroke="hsl(0,0%,20%)"
-                              strokeWidth={2}
+                              stroke="currentColor"
+                              strokeWidth={2.5}
                               dot={false}
                               isAnimationActive={false}
                             />
                           </LineChart>
                         </ResponsiveContainer>
                       ) : (
-                        <p className="text-right text-xs text-muted-foreground">Sin serie</p>
+                        <p className="text-right text-[10px] text-muted-foreground/60">Sin datos de tendencia</p>
                       )}
                     </div>
                   </td>

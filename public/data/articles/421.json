@@ -1,1 +1,1549 @@
-{"id_articulo": "Art. 421", "titulo": "Art. 421. Hechos que se consideran venta.", "titulo_corto": "Hechos que se consideran venta.", "slug": "421", "url_origen": "https://estatuto.co/421", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*Para los efectos del presente Libro, se consideran ventas: a) Todos los actos que impliquen la transferencia del dominio a título gratuito u oneroso de bienes corporales muebles e inmuebles, y de los activos intangibles descritos en el literal b) del artículo 420, independientemente de la designación que se dé a los contratos o negociaciones que originen esa transferencia y de las condiciones pactadas por las partes, sea que se realicen a nombre propio, por cuenta de terceros a nombre propio, o por cuenta y a nombre de terceros. b) Los retiros de bienes corporales muebles e inmuebles hechos por el responsable para su uso o para formar parte de los activos fijos de la empresa. c) Las incorporaciones de bienes corporales muebles a inmuebles, o a servicios no gravados, así como la transformación de bienes gravados en bienes no gravados, cuando tales bienes hayan sido creados, construidos, fabricados, elaborados, procesados, por quien efectúa la incorporación o transformación. Parágrafo. No se considera venta para efectos del impuesto sobre las ventas: a) La donación efectuada por entidades estatales de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación, en los términos de la regulación aduanera vigente; b) La asignación de las mercancías decomisadas o abandonadas a favor de la nación que realicen las entidades estatales, siempre que se requieran para el cumplimiento de sus funciones; c) La entrega de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación que lleven a cabo entidades estatales con el propósito de extinguir las deudas a su cargo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los efectos del presente Libro, se consideran ventas:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>Todos los actos que impliquen la transferencia del dominio a título gratuito u oneroso de bienes corporales muebles e inmuebles, y de los activos intangibles descritos en el literal b) del <a href=\"https://estatuto.co/420\" rel=\"noopener\" target=\"_blank\">artículo 420</a>, independientemente de la designación que se dé a los contratos o negociaciones que originen esa transferencia y de las condiciones pactadas por las partes, sea que se realicen a nombre propio, por cuenta de terceros a nombre propio, o por cuenta y a nombre de terceros.</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>Los retiros de bienes corporales muebles e inmuebles hechos por el responsable para su uso o para formar parte de los activos fijos de la empresa.</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>Las incorporaciones de bienes corporales muebles a inmuebles, o a servicios no gravados, así como la transformación de bienes gravados en bienes no gravados, cuando tales bienes hayan sido creados, construidos, fabricados, elaborados, procesados, por quien efectúa la incorporación o transformación.</p>\n<div class=\"trigger\">\n<p><strong><span class=\"b_aj\" style=\"color: #339966;\">Parágrafo.</span></strong> No se considera venta para efectos del impuesto sobre las ventas:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>La donación efectuada por entidades estatales de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación, en los términos de la regulación aduanera vigente;</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>La asignación de las mercancías decomisadas o abandonadas a favor de la nación que realicen las entidades estatales, siempre que se requieran para el cumplimiento de sus funciones;</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>La entrega de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación que lleven a cabo entidades estatales con el propósito de extinguir las deudas a su cargo.</p>\n</div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 174.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "174"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 488 de 1998"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["420"], "referenced_by": ["429", "458"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 421",
+  "titulo": "Art. 421. Hechos que se consideran venta.",
+  "titulo_corto": "Hechos que se consideran venta.",
+  "slug": "421",
+  "url_origen": "https://estatuto.co/421",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*Para los efectos del presente Libro, se consideran ventas: a) Todos los actos que impliquen la transferencia del dominio a título gratuito u oneroso de bienes corporales muebles e inmuebles, y de los activos intangibles descritos en el literal b) del artículo 420, independientemente de la designación que se dé a los contratos o negociaciones que originen esa transferencia y de las condiciones pactadas por las partes, sea que se realicen a nombre propio, por cuenta de terceros a nombre propio, o por cuenta y a nombre de terceros. b) Los retiros de bienes corporales muebles e inmuebles hechos por el responsable para su uso o para formar parte de los activos fijos de la empresa. c) Las incorporaciones de bienes corporales muebles a inmuebles, o a servicios no gravados, así como la transformación de bienes gravados en bienes no gravados, cuando tales bienes hayan sido creados, construidos, fabricados, elaborados, procesados, por quien efectúa la incorporación o transformación. Parágrafo. No se considera venta para efectos del impuesto sobre las ventas: a) La donación efectuada por entidades estatales de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación, en los términos de la regulación aduanera vigente; b) La asignación de las mercancías decomisadas o abandonadas a favor de la nación que realicen las entidades estatales, siempre que se requieran para el cumplimiento de sus funciones; c) La entrega de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación que lleven a cabo entidades estatales con el propósito de extinguir las deudas a su cargo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los efectos del presente Libro, se consideran ventas:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>Todos los actos que impliquen la transferencia del dominio a título gratuito u oneroso de bienes corporales muebles e inmuebles, y de los activos intangibles descritos en el literal b) del <a href=\"https://estatuto.co/420\" rel=\"noopener\" target=\"_blank\">artículo 420</a>, independientemente de la designación que se dé a los contratos o negociaciones que originen esa transferencia y de las condiciones pactadas por las partes, sea que se realicen a nombre propio, por cuenta de terceros a nombre propio, o por cuenta y a nombre de terceros.</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>Los retiros de bienes corporales muebles e inmuebles hechos por el responsable para su uso o para formar parte de los activos fijos de la empresa.</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>Las incorporaciones de bienes corporales muebles a inmuebles, o a servicios no gravados, así como la transformación de bienes gravados en bienes no gravados, cuando tales bienes hayan sido creados, construidos, fabricados, elaborados, procesados, por quien efectúa la incorporación o transformación.</p>\n<div class=\"trigger\">\n<p><strong><span class=\"b_aj\" style=\"color: #339966;\">Parágrafo.</span></strong> No se considera venta para efectos del impuesto sobre las ventas:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>La donación efectuada por entidades estatales de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación, en los términos de la regulación aduanera vigente;</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>La asignación de las mercancías decomisadas o abandonadas a favor de la nación que realicen las entidades estatales, siempre que se requieran para el cumplimiento de sus funciones;</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>La entrega de las mercancías aprehendidas, decomisadas o abandonadas a favor de la nación que lleven a cabo entidades estatales con el propósito de extinguir las deudas a su cargo.</p>\n</div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 174.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "174"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 488 de 1998"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "420"
+  ],
+  "referenced_by": [
+    "429",
+    "458"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 34 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1489 (2017-01-30): Primer Concepto general del impuesto a las ventas (IVA)\noficio 0131 (2026-01-06): Impuesto Sobre las Ventas - IVA\noficio 16117 (2025-11-18): Impuesto Sobre las Ventas - IVA\noficio 12028 (2025-09-04): Impuesto Sobre las Ventas - IVA\noficio 11675 (2025-08-28): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1489-2017",
+      "tipo": "oficio",
+      "numero": "1489",
+      "fecha": "2017-01-30",
+      "tema": "Primer Concepto general del impuesto a las ventas (IVA)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0131-2026",
+      "tipo": "oficio",
+      "numero": "0131",
+      "fecha": "2026-01-06",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16117-2025",
+      "tipo": "oficio",
+      "numero": "16117",
+      "fecha": "2025-11-18",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12028-2025",
+      "tipo": "oficio",
+      "numero": "12028",
+      "fecha": "2025-09-04",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11675-2025",
+      "tipo": "oficio",
+      "numero": "11675",
+      "fecha": "2025-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11218-2025",
+      "tipo": "oficio",
+      "numero": "11218",
+      "fecha": "2025-08-21",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9551-2025",
+      "tipo": "oficio",
+      "numero": "9551",
+      "fecha": "2025-07-22",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7571-2025",
+      "tipo": "oficio",
+      "numero": "7571",
+      "fecha": "2025-06-11",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4979-2025",
+      "tipo": "oficio",
+      "numero": "4979",
+      "fecha": "2025-04-15",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4945-2025",
+      "tipo": "oficio",
+      "numero": "4945",
+      "fecha": "2025-03-27",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0562-2025",
+      "tipo": "oficio",
+      "numero": "0562",
+      "fecha": "2025-01-23",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10763-2024",
+      "tipo": "oficio",
+      "numero": "10763",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10617-2024",
+      "tipo": "oficio",
+      "numero": "10617",
+      "fecha": "2024-12-17",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10215-2024",
+      "tipo": "oficio",
+      "numero": "10215",
+      "fecha": "2024-12-09",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8155-2024",
+      "tipo": "oficio",
+      "numero": "8155",
+      "fecha": "2024-10-24",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7927-2024",
+      "tipo": "oficio",
+      "numero": "7927",
+      "fecha": "2024-10-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6107-2024",
+      "tipo": "oficio",
+      "numero": "6107",
+      "fecha": "2024-08-30",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1940-2024",
+      "tipo": "oficio",
+      "numero": "1940",
+      "fecha": "2024-03-13",
+      "tema": "(Int 178) Impuesto Nacional al Consumo - Bolsas pl&aacute;sticas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7690-2023",
+      "tipo": "oficio",
+      "numero": "7690",
+      "fecha": "2023-12-28",
+      "tema": "(Int 1289) Impuesto sobre las ventas - Bienes exentos con derecho a devoluci&oacute;n bimestral - Mercanc&iacute;as aprehendidas, decomisadas o abandonadas a favor de la Naci&oacute;n - Sociedades de comercializaci&oacute;n internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3734-2023",
+      "tipo": "oficio",
+      "numero": "3734",
+      "fecha": "2023-06-27",
+      "tema": "(Int 713) Impuesto sobre la renta y complementarios - Gastos deducibles - Hecho generador del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0932-2023",
+      "tipo": "oficio",
+      "numero": "0932",
+      "fecha": "2023-02-16",
+      "tema": "(198) Impuesto sobre la renta y complementarios IVA - Procedimiento tributario - Contrato de fiducia mercantil - Hechos que se consideran venta - Abuso en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0081-2023",
+      "tipo": "oficio",
+      "numero": "0081",
+      "fecha": "2023-01-10",
+      "tema": "Impuesto sobre la renta - Deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906722-2022",
+      "tipo": "oficio",
+      "numero": "906722",
+      "fecha": "2022-09-06",
+      "tema": "Impuesto sobre las ventas. Contrato de construcci&oacute;n de bien inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905786-2022",
+      "tipo": "oficio",
+      "numero": "905786",
+      "fecha": "2022-07-19",
+      "tema": "R&eacute;gimen especial en materia tributaria - ZESE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905369-2022",
+      "tipo": "oficio",
+      "numero": "905369",
+      "fecha": "2022-07-12",
+      "tema": "Impuesto sobre las ventas - Impuesto nacional al consumo, hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903870-2022",
+      "tipo": "oficio",
+      "numero": "903870",
+      "fecha": "2022-05-20",
+      "tema": "Impuesto sobre las ventas - Hechos que se consideran venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915822-2021",
+      "tipo": "oficio",
+      "numero": "915822",
+      "fecha": "2021-12-27",
+      "tema": "Factura electr&oacute;nica de venta Retiro de inventario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915474-2021",
+      "tipo": "oficio",
+      "numero": "915474",
+      "fecha": "2021-12-17",
+      "tema": "Impuesto sobre las ventas - Negociaciones sobre el dominio o propiedad sobre aeronaves de matr&iacute;cula colombiana",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915320-2021",
+      "tipo": "oficio",
+      "numero": "915320",
+      "fecha": "2021-12-15",
+      "tema": "Impuesto sobre las ventas - Causaci&oacute;n - Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914982-2021",
+      "tipo": "oficio",
+      "numero": "914982",
+      "fecha": "2021-12-06",
+      "tema": "Retenci&oacute;n en la fuente - Factura es posterior a la causaci&oacute;n fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-912697-2021",
+      "tipo": "oficio",
+      "numero": "912697",
+      "fecha": "2021-10-10",
+      "tema": "&iquest;En los contratos celebrados con las administraciones p&uacute;blicas, el IVA recae sobre el objeto contractual o las actividades que hacen parte del objeto contractual, y en su efecto qu&eacute; tarifa se aplica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908470-2021",
+      "tipo": "oficio",
+      "numero": "908470",
+      "fecha": "2021-08-23",
+      "tema": "Hecho generador del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906481-2021",
+      "tipo": "oficio",
+      "numero": "906481",
+      "fecha": "2021-07-01",
+      "tema": "Sistema de factura electr&oacute;nica - Facturaci&oacute;n en el retiro de inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901000-2021",
+      "tipo": "oficio",
+      "numero": "901000",
+      "fecha": "2021-02-10",
+      "tema": "&iquest;Cu&aacute;les son los documentos requeridos para la expedici&oacute;n del certificado de donaci&oacute;n cuando el bien donado no form&oacute; parte de los inventarios del donante, sino que est&aacute; catalogado como un activo biol&oacute;gico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900996-2021",
+      "tipo": "oficio",
+      "numero": "900996",
+      "fecha": "2021-02-10",
+      "tema": "En desarrollo de un contrato de cuentas en participaci&oacute;n &iquest;el socio oculto debe expedir factura electr&oacute;nica al socio gestor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1096-2021",
+      "tipo": "oficio",
+      "numero": "1096",
+      "fecha": "2021-03-02",
+      "tema": "Impuesto sobre las ventas - Hechos Generadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906255-2020",
+      "tipo": "oficio",
+      "numero": "906255",
+      "fecha": "2020-10-21",
+      "tema": "Efectos tributarios en lo que ata&ntilde;e al impuesto sobre las ventas respecto de una operaci&oacute;n en particular denominada compraventa de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903994-2020",
+      "tipo": "oficio",
+      "numero": "903994",
+      "fecha": "2020-08-14",
+      "tema": "Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901219-2020",
+      "tipo": "oficio",
+      "numero": "901219",
+      "fecha": "2020-04-22",
+      "tema": "Causaci&oacute;n en los Retiros de Bienes de Inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900024-2020",
+      "tipo": "oficio",
+      "numero": "900024",
+      "fecha": "2020-01-14",
+      "tema": "&iquest;La suscripci&oacute;n a las ediciones digitales de peri&oacute;dicos, revistas y libros ejecutados a trav&eacute;s de internet desde servidores ubicados en Colombia o en el exterior, por personas naturales o jur&iacute;dicas extranjeras sin residencia o domicilio en Colombia, se encuentran exentos de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5881-2020",
+      "tipo": "oficio",
+      "numero": "5881",
+      "fecha": "2020-03-18",
+      "tema": "Naturaleza de los contratos tipo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1973-2020",
+      "tipo": "oficio",
+      "numero": "1973",
+      "fecha": "2020-01-28",
+      "tema": "&iquest;En el caso de que una persona no residente, obtenga ingresos respecto de los cuales no se les haya practicado retenci&oacute;n en la fuente, debe atenderse a los topes de ingresos y patrimonio consagrados en el numeral 1 del art&iacute;culo 592 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23287-2019",
+      "tipo": "oficio",
+      "numero": "23287",
+      "fecha": "2019-09-13",
+      "tema": "Bienes Excluidos - Criterios para Su Determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22620-2019",
+      "tipo": "oficio",
+      "numero": "22620",
+      "fecha": "2019-09-09",
+      "tema": "Ingresos brutos para distribuidores minoristas de combustibles liquidos y derivados del petroleo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22603-2019",
+      "tipo": "oficio",
+      "numero": "22603",
+      "fecha": "2019-09-09",
+      "tema": "&iquest;Los bienes adquiridos para la seguridad y convivencia, donados a la Polic&iacute;a Metropolitana de un municipio, con recursos de un fondo de creado por acuerdo municipal, est&aacute;n sometidos al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20468-2019",
+      "tipo": "oficio",
+      "numero": "20468",
+      "fecha": "2019-08-15",
+      "tema": "Exclusi&oacute;n del servicio de mantenimiento a distancia de programas y equipos con la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16732-2019",
+      "tipo": "oficio",
+      "numero": "16732",
+      "fecha": "2019-06-28",
+      "tema": "Hechos que Se Consideran Venta Arrendamiento Financiero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16604-2019",
+      "tipo": "oficio",
+      "numero": "16604",
+      "fecha": "2019-06-26",
+      "tema": "&iquest;Cu&aacute;l es la parte del arrendamiento financiero o leasing, que est&aacute; gravada en el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11019-2019",
+      "tipo": "oficio",
+      "numero": "11019",
+      "fecha": "2019-05-09",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9218-2019",
+      "tipo": "oficio",
+      "numero": "9218",
+      "fecha": "2019-04-12",
+      "tema": "En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9132-2019",
+      "tipo": "oficio",
+      "numero": "9132",
+      "fecha": "2019-04-12",
+      "tema": "Excenci&oacute;n del IVA al suministro de materiales p&eacute;treos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8714-2019",
+      "tipo": "oficio",
+      "numero": "8714",
+      "fecha": "2019-04-10",
+      "tema": "Contratos Interadministrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7167-2019",
+      "tipo": "oficio",
+      "numero": "7167",
+      "fecha": "2019-03-22",
+      "tema": "&iquest;Las empresas pueden hacer y enviar sus facturas de muestras comerciales detallando en cero el valor de los productos e IVA, y pagar el IVA a la DIAN dentro del tiempo, soportando su valor en un comprobante contable? &iquest;Aun teniendo presente que el IVA de las muestras comerciales se pagar&aacute; en debida forma, se infringe alguna norma de procedimiento tributario al enviar las facturas en cero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6220-2019",
+      "tipo": "oficio",
+      "numero": "6220",
+      "fecha": "2019-03-13",
+      "tema": "Causaci&oacute;n del Impuesto Sobre las Ventas en Contratos Celebrados con Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5737-2019",
+      "tipo": "oficio",
+      "numero": "5737",
+      "fecha": "2019-03-04",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario en materia de renta e IVA, respecto de la devoluci&oacute;n de bienes vendidos y que se cambian por otro producto que puede tener un valor igual o diferente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4991-2019",
+      "tipo": "oficio",
+      "numero": "4991",
+      "fecha": "2019-02-28",
+      "tema": "Exclusi&oacute;n del IVA a los tiquetes a&eacute;reos tur&iacute;sticos que cubren rutas nacionales donde no existe transporte terrestre organizado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4983-2019",
+      "tipo": "oficio",
+      "numero": "4983",
+      "fecha": "2019-02-28",
+      "tema": "Impuesto sobre las ventas- IVA aplicado a aceites derivados de palma africana",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4761-2019",
+      "tipo": "oficio",
+      "numero": "4761",
+      "fecha": "2019-02-26",
+      "tema": "Base Gravable en Contratos de Construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18591-2019",
+      "tipo": "oficio",
+      "numero": "18591",
+      "fecha": "2019-07-18",
+      "tema": "(Int 1785) Impuesto a las ventas - Bienes Excluidos - Criterios para su determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0959-2019",
+      "tipo": "oficio",
+      "numero": "0959",
+      "fecha": "2019-01-16",
+      "tema": "Base Gravable en Contratos de Construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902916-2018",
+      "tipo": "oficio",
+      "numero": "902916",
+      "fecha": "2018-12-06",
+      "tema": "Realizaci&oacute;n del ingreso para los obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34293-2018",
+      "tipo": "oficio",
+      "numero": "34293",
+      "fecha": "2018-12-11",
+      "tema": "IVA en la venta nacional de plantas arom&aacute;ticas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33645-2018",
+      "tipo": "oficio",
+      "numero": "33645",
+      "fecha": "2018-01-01",
+      "tema": "Enajenaci&oacute;n establecimiento de comercio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18723-2018",
+      "tipo": "oficio",
+      "numero": "18723",
+      "fecha": "2018-07-16",
+      "tema": "Causaci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8233-2018",
+      "tipo": "oficio",
+      "numero": "8233",
+      "fecha": "2018-04-02",
+      "tema": "&iquest;Los distribuidores mayoristas y comercializadores industriales de gasolinas y ACPM siguen siendo sujetos pasivos del IVA, Impuesto al carbono e Impuesto nacional a la gasolina? En relaci&oacute;n con el art&iacute;culo 444 del Estatuto Tributario, los distribuidores mayoristas y comercializadores industriales a partir de la vigencia de la Ley 1819 de 2016 por ser responsable del IVA &iquest;lo deben facturar y cobrara los distribuidores minoristas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6456-2018",
+      "tipo": "oficio",
+      "numero": "6456",
+      "fecha": "2018-03-15",
+      "tema": "Causaci&oacute;n del impuesto sobre las ventas en contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6453-2018",
+      "tipo": "oficio",
+      "numero": "6453",
+      "fecha": "2018-03-15",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6050-2018",
+      "tipo": "oficio",
+      "numero": "6050",
+      "fecha": "2018-03-12",
+      "tema": "Causaci&oacute;n del impuesto sobre las ventas en contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1849-2018",
+      "tipo": "oficio",
+      "numero": "1849",
+      "fecha": "2018-10-17",
+      "tema": "Causaci&oacute;n en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1814-2018",
+      "tipo": "oficio",
+      "numero": "1814",
+      "fecha": "2018-10-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Realizaci&oacute;n del Ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1810-2018",
+      "tipo": "oficio",
+      "numero": "1810",
+      "fecha": "2018-10-17",
+      "tema": "Impuesto a las ventas - Contrato de Construcci&oacute;n de Bien Inmueble Venta de Bienes Incorporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1587-2018",
+      "tipo": "oficio",
+      "numero": "1587",
+      "fecha": "2018-09-18",
+      "tema": "Precio de facturaci&oacute;n para las muestras gratis de un producto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0544-2018",
+      "tipo": "oficio",
+      "numero": "0544",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Cu&aacute;l debe ser el tratamiento del IVA de un bien que se vende a un usuario industrial de bienes y servicios de lona Franca ZF, por parte de una empresa ubicada en el Territorio Aduanero Nacional (TAN)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0424-2018",
+      "tipo": "oficio",
+      "numero": "0424",
+      "fecha": "2018-11-23",
+      "tema": "&iquest;Las muestras gratis de productos tangibles tienen impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0355-2018",
+      "tipo": "oficio",
+      "numero": "0355",
+      "fecha": "2018-03-15",
+      "tema": "Exclusi&oacute;n Temporal del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0299-2018",
+      "tipo": "oficio",
+      "numero": "0299",
+      "fecha": "2018-03-06",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0131-2018",
+      "tipo": "oficio",
+      "numero": "0131",
+      "fecha": "2018-02-13",
+      "tema": "IVA del valor de honorarios, utilidad y AIU en una factura con base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0034-2018",
+      "tipo": "oficio",
+      "numero": "0034",
+      "fecha": "2018-01-24",
+      "tema": "Tipos de contratos en las compraventas del r&eacute;gimen com&uacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27297-2017",
+      "tipo": "oficio",
+      "numero": "27297",
+      "fecha": "2017-10-06",
+      "tema": "Impuesto a las ventas - Base gravable en la venta de productos derivados del petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24263-2017",
+      "tipo": "oficio",
+      "numero": "24263",
+      "fecha": "2017-09-08",
+      "tema": "Genera el INCBP la entrega de bolsas pl&aacute;sticas para cargar o llevar medicamentos que se realiza en los puntos de dispensaci&oacute;n de medicamentos en el Sistema General de Seguridad Social en Salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21894-2017",
+      "tipo": "oficio",
+      "numero": "21894",
+      "fecha": "2017-08-15",
+      "tema": "&iquest;Si las bolsas se entregan a t&iacute;tulo gratuito, adicional al impuesto al consumo se debe cobrar el impuesto sobre las ventas? en caso afirmativo &iquest;Cu&aacute;l es el valor base de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15172-2017",
+      "tipo": "oficio",
+      "numero": "15172",
+      "fecha": "2017-08-04",
+      "tema": "&iquest;Si el Comerciante decide entregar la bolsa a t&iacute;tulo oneroso; debe cobrar IVA m&aacute;s INC de bolsa en la factura y discriminarlo detallado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7833-2017",
+      "tipo": "oficio",
+      "numero": "7833",
+      "fecha": "2017-04-05",
+      "tema": "Impuesto Sobre las Ventas - Exenci&oacute;n del Impuesto sobre las ventas en contratos celebrados por entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1876-2017",
+      "tipo": "oficio",
+      "numero": "1876",
+      "fecha": "2017-04-03",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas &iquest;En el contexto del art&iacute;culo 153 de la Ley 1819 de 2016 el contenido aplica a las entidades no contribuyentes se&ntilde;aladas en el art&iacute;culo 23 del Estatuto Tributario, espec&iacute;ficamente para las entidades contempladas en el numeral 3) del art&iacute;culo 19, cuando no realicen actividades industriales o de mercadeo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8146-2016",
+      "tipo": "oficio",
+      "numero": "8146",
+      "fecha": "2016-04-12",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008146-2016",
+      "tipo": "concepto",
+      "numero": "0008146",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Es legalmente v&aacute;lido que una vez causado el impuesto sobre las ventas en la prestaci&oacute;n de servicios, los contribuyentes contratantes, al existir discrepancia en el monto total de la remuneraci&oacute;n, celebren un Acuerdo de Transacci&oacute;n en los t&eacute;rminos del art&iacute;culo 2469 del C&oacute;digo Civil y se argumente que dado que el Acuerdo en s&iacute; mismo no genera impuesto, eliminen el impuesto generado con ocasi&oacute;n del servicio prestado que ahora es objeto de transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3552-2016",
+      "tipo": "oficio",
+      "numero": "3552",
+      "fecha": "2016-12-31",
+      "tema": "&iquest;Se genera el impuesto sobre las ventas por el consumo de petr&oacute;leo crudo realizado por el operador de una concesi&oacute;n para efectos de sus operaciones antes del punto de fiscalizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003552-2016",
+      "tipo": "concepto",
+      "numero": "0003552",
+      "fecha": "2016-02-25",
+      "tema": "&iquest;Se genera el impuesto sobre las ventas por el consumo de petr&oacute;leo crudo realizado por el operador de una concesi&oacute;n para efectos de sus operaciones antes del punto de fiscalizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28630-2015",
+      "tipo": "oficio",
+      "numero": "28630",
+      "fecha": "2015-09-29",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25938-2015",
+      "tipo": "oficio",
+      "numero": "25938",
+      "fecha": "2015-09-07",
+      "tema": "Solicita la consideraci&oacute;n de los Conceptos 071477 del 8 de noviembre de 2013, 028464 del 8 de mayo de 2014 y 045767 del 29 de julio de 2014 en los que se manifest&oacute; que la venta de un aerodino que se encuentra en el territorio colombiano causa el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25936-2015",
+      "tipo": "oficio",
+      "numero": "25936",
+      "fecha": "2015-09-07",
+      "tema": "Solicita la reconsideraci&oacute;n de los Conceptos 071477 del 8 de noviembre de 2013 y 045767 del 29 de julio de 2014 en los que se manifest&oacute; que la venta de un aerodino que se encuentra en el territorio colombiano causa el impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25513-2015",
+      "tipo": "oficio",
+      "numero": "25513",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Cu&aacute;ndo es aplicable el par&aacute;grafo adicionado por el art&iacute;culo 57 de la Ley 1607 de 2012 al art&iacute;culo 486 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25511-2015",
+      "tipo": "oficio",
+      "numero": "25511",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;La factura es un documento de orden interno o es un documento de orden externo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24230-2015",
+      "tipo": "oficio",
+      "numero": "24230",
+      "fecha": "2015-08-14",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23607-2015",
+      "tipo": "oficio",
+      "numero": "23607",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto a las ventas - Comercializaci&oacute;n de petr&oacute;leo crudo - Regal&iacute;as en especie",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22683-2015",
+      "tipo": "oficio",
+      "numero": "22683",
+      "fecha": "2015-07-03",
+      "tema": "&iquest;Genera impuesto sobre las ventas la transferencia de dominio de un aerodino (activo fijo) entre sociedades nacionales, cuando dicha operaci&oacute;n se efect&uacute;a a t&iacute;tulo de aporte de capital, con ocasi&oacute;n de una escisi&oacute;n adquisitiva, o con ocasi&oacute;n de una escisi&oacute;n reorganizativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022262-2015",
+      "tipo": "concepto",
+      "numero": "0022262",
+      "fecha": "2015-07-30",
+      "tema": "&iquest;Goza de la exenci&oacute;n prevista en el art&iacute;culo 32 de la Ley 1575 de 2012 el servicio de mantenimiento, contratado por un cuerpo oficial de bomberos sobre los veh&iacute;culos que emplea en sus actividades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15527-2015",
+      "tipo": "oficio",
+      "numero": "15527",
+      "fecha": "2015-05-27",
+      "tema": "&iquest;Se debe causar el impuesto a las ventas IVA en las ventas forzadas que est&aacute; adelantando la sociedad con sus acreedores laborales, entreg&aacute;ndoles materia prima en pago del valor de sus acreencias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4138-2015",
+      "tipo": "oficio",
+      "numero": "4138",
+      "fecha": "2015-02-16",
+      "tema": "&iquest;En un contrato de obra sobre bien inmueble, en el cual se deban reconocer exclusivamente costos adicionales que eventualmente surjan en el desarrollo de la obra y no hay lugar al reconocimiento de honorarios o utilidad para el contratista, al no existir base gravable para la liquidaci&oacute;n del IVA se debe entender que no hay lugar a determinar el impuesto?&iquest;Puede entenderse que el valor de la utilidad pactada inicialmente incluye el valor de los impuestos que surjan en un caso de reconocimiento de costos adicionales y en consecuencia lo que debe ajustarse es el porcentaje de la utilidad que hab&iacute;a sido acordada entre las partes (disminuy&eacute;ndolo)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-284641-2014",
+      "tipo": "oficio",
+      "numero": "284641",
+      "fecha": "2014-05-09",
+      "tema": "Reconsideraci&oacute;n del Oficio n&uacute;mero 71477 del 8 de noviembre de 2013,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67307-2014",
+      "tipo": "oficio",
+      "numero": "67307",
+      "fecha": "2014-12-22",
+      "tema": "referencia solicitan la reconsideraci&oacute;n de la doctrina expuesta en el Oficio 14845 del 3 de marzo de 2014, mediante el cual se concluy&oacute; que la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64185-2014",
+      "tipo": "oficio",
+      "numero": "64185",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto a las ventas - Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55679-2014",
+      "tipo": "oficio",
+      "numero": "55679",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;La restituci&oacute;n de los bienes por parte de la entidad fiduciaria al constituyente del patrimonio aut&oacute;nomo es una operaci&oacute;n generadora de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55412-2014",
+      "tipo": "oficio",
+      "numero": "55412",
+      "fecha": "2014-09-19",
+      "tema": "&iquest;El programa presidencial SUPERATE dirigido a la implementaci&oacute;n de jornadas complementarias deportivas, para poblaci&oacute;n en vulneraci&oacute;n extrema, encabezado por el Fondo Financiero de Proyectos de Desarrollo (FONADE), al momento del desarrollo del programa se entregan en complemento componentes alimenticios, de hidrataci&oacute;n y transporte, que se duda si est&aacute;n gravados con el impuestos sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54555-2014",
+      "tipo": "oficio",
+      "numero": "54555",
+      "fecha": "2014-09-12",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54487-2014",
+      "tipo": "oficio",
+      "numero": "54487",
+      "fecha": "2014-09-11",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50265-2014",
+      "tipo": "oficio",
+      "numero": "50265",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;El reajuste de precios por cambio de vigencia en un convenio interadministrativo, mediante el cual se suministran materiales p&eacute;treos, est&aacute; sometido al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45767-2014",
+      "tipo": "oficio",
+      "numero": "45767",
+      "fecha": "2014-07-30",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 71477 del 8 de noviembre de 2013,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41334-2014",
+      "tipo": "oficio",
+      "numero": "41334",
+      "fecha": "2014-07-14",
+      "tema": "Impuesto sobre las ventas - Servicio de telefon&iacute;a m&oacute;vil prepago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30111-2014",
+      "tipo": "oficio",
+      "numero": "30111",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;l es el periodo gravable del impuesto sobre las ventas para quien antes pertenec&iacute;a al r&eacute;gimen simplificado y ahora pertenece al r&eacute;gimen com&uacute;n?&iquest;Se convierte en Responsable del impuesto sobre las ventas la propiedad horizontal de vivienda que suscribe contrato de arrendamiento sobre un local de propiedad com&uacute;n, sin importar la destinaci&oacute;n que le d&eacute; el arrendatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23184-2014",
+      "tipo": "oficio",
+      "numero": "23184",
+      "fecha": "2014-04-10",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77302-2013",
+      "tipo": "oficio",
+      "numero": "77302",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Los bienes adquiridos por un patrimonio aut&oacute;nomo constituido por una persona jur&iacute;dica que posteriormente es declarada en liquidaci&oacute;n judicial obligatoria, al ser entregados para que formen parte de la masa de la liquidaci&oacute;n, en cumplimiento de orden impartida por la Superintendencia de Sociedades, generan el impuesto sobre las ventas y deben ser facturados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77002-2013",
+      "tipo": "oficio",
+      "numero": "77002",
+      "fecha": "2013-11-29",
+      "tema": "&iquest;Los bienes adquiridos por un patrimonio aut&oacute;nomo constituido por una persona jur&iacute;dica que posteriormente es declarada en liquidaci&oacute;n judicial obligatoria, al ser entregados para que formen parte de la masa de la liquidaci&oacute;n, en cumplimiento de orden impartida por la Superintendencia de Sociedades, generan el impuesto sobre las ventas y deben ser facturados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-71477-2013",
+      "tipo": "oficio",
+      "numero": "71477",
+      "fecha": "2013-11-08",
+      "tema": "Importaci&oacute;n temporal a largo plazo con ocasi&oacute;n de un contrato de arrendamiento - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70845-2013",
+      "tipo": "oficio",
+      "numero": "70845",
+      "fecha": "2013-11-06",
+      "tema": "&iquest;A nombre de qu&eacute; ente jur&iacute;dico p&uacute;blico debe expedirse la facturaci&oacute;n de los proveedores y contratistas, derivada de la ejecuci&oacute;n de los recursos de fiscalizaci&oacute;n del SGR?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44743-2013",
+      "tipo": "oficio",
+      "numero": "44743",
+      "fecha": "2013-07-22",
+      "tema": "Impuesto sobre las ventas - Contrato de construcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35573-2013",
+      "tipo": "oficio",
+      "numero": "35573",
+      "fecha": "2013-06-12",
+      "tema": "Impuesto a las ventas - Base Gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6474-2013",
+      "tipo": "oficio",
+      "numero": "6474",
+      "fecha": "2013-02-04",
+      "tema": "Deducci&oacute;n por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10792-2012",
+      "tipo": "oficio",
+      "numero": "10792",
+      "fecha": "2012-02-17",
+      "tema": "Solicita se revoque la conclusi&oacute;n de los Oficios de los Oficios 017132 de 24 de marzo de 2004 y 008077 del 27 de enero de 2006, seg&uacute;n la cual en estos contratos el IVA pagado en los bienes que se incorporan no tiene el tratamiento de IVA descontable sino como mayor costo o gasto de la obra; considera la consultante que debe otorgarse el mismo tratamiento de los impuestos descontables que en cualquier otra venta, y que la limitaci&oacute;n del IVA descontable establecida en el Decreto 1372 de 1992 est&aacute; dada exclusivamente para el servicio de construcci&oacute;n como hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89881-2009",
+      "tipo": "oficio",
+      "numero": "89881",
+      "fecha": "2009-11-03",
+      "tema": "&iquest;La transferencia del dominio de una aeronave a instancia de un remate judicial causa o no IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62603-2009",
+      "tipo": "oficio",
+      "numero": "62603",
+      "fecha": "2009-08-03",
+      "tema": "&iquest;La baja por hurto de una mercanc&iacute;a importada genera IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72564-2008",
+      "tipo": "oficio",
+      "numero": "72564",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;De qu&eacute; manera se aplica el Estatuto Tributario Colombiano para el caso de una aerol&iacute;nea extranjera que tiene rutas habilitadas en el pa&iacute;s y cuyas ventas se realizan &uacute;nicamente a trav&eacute;s de su p&aacute;gina Web, con lo cual las obligaciones tributarias estar&iacute;an sujetas a las regulaciones del pa&iacute;s de la aerol&iacute;nea?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37150-2008",
+      "tipo": "oficio",
+      "numero": "37150",
+      "fecha": "2008-04-14",
+      "tema": "&iquest;La constituci&oacute;n de un derecho de usufructo se encuentra gravada con el impuesto al valor agregado - IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98603-2007",
+      "tipo": "oficio",
+      "numero": "98603",
+      "fecha": "2007-11-30",
+      "tema": "Reconsideraci&oacute;n del concepto n&uacute;mero 011707 de 2005, relacionado con la sujeci&oacute;n al impuesto sobre las ventas de la operaci&oacute;n de venta de talonarios contentivos de los formularios &uacute;nicos de apuestas permanentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33065-2007",
+      "tipo": "oficio",
+      "numero": "33065",
+      "fecha": "2007-05-04",
+      "tema": "&iquest;En desarrollo de un contrato de suministro celebrado entre el Instituto Nacional de V&iacute;as y una sociedad extranjera sin domicilio en Colombia, el contratista est&aacute; obligado a pagar el IVA de la nacionalizaci&oacute;n de los bienes y a facturar el IVA en las cuentas de cobro que presente al INVIAS?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21457-2007",
+      "tipo": "oficio",
+      "numero": "21457",
+      "fecha": "2007-03-16",
+      "tema": "&iquest;Se causa el impuesto sobre las ventas cuando se adquieren bienes corporales muebles para ser entregados a t&iacute;tulo gratuito, a los vendedores de una empresa como est&iacute;mulo a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103843-2006",
+      "tipo": "oficio",
+      "numero": "103843",
+      "fecha": "2006-12-13",
+      "tema": "&iquest;La prestaci&oacute;n del servicio de restaurante en la sede de una Embajada est&aacute; gravado con el impuesto sobre las ventas? Servicios excluidos del IVA. Para la solicitud de devoluci&oacute;n, es esencial que haya factura por cada una de las transacciones que se realicen y que en ellas est&eacute; relacionado, el impuesto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102249-2006",
+      "tipo": "oficio",
+      "numero": "102249",
+      "fecha": "2006-12-05",
+      "tema": "&iquest;Dado que el Fondo de Ventas Populares, como establecimiento p&uacute;blico adscrito a la Secretar&iacute;a de Gobierno, actualmente est&aacute; recaudando el IVA en un t&iacute;tulo valor denominado por ellos BONO EXITO, cu&aacute;l es la facultad para dicho recaudo, la autorizaci&oacute;n para emitir los n&uacute;meros consecutivos del t&iacute;tulo valor, los requisitos legales de tales documentos, y el r&eacute;gimen sancionatorio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084241-2006",
+      "tipo": "concepto",
+      "numero": "0084241",
+      "fecha": "2006-09-29",
+      "tema": "&iquest;Est&aacute; gravada con el impuesto sobre las ventas la cesi&oacute;n de bienes del deudor al acreedor, a que hace referencia el art&iacute;culo 1672 del C&oacute;digo Civil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52580-2006",
+      "tipo": "oficio",
+      "numero": "52580",
+      "fecha": "2006-06-21",
+      "tema": "&iquest; Cu&aacute;l es el manejo que debe darse al retiro de concentrado elaborado por una compa&ntilde;&iacute;a que levanta, sacrifica o hace sacrificar animales a los que se refiere el art&iacute;culo 477 del Estatuto Tributario y comercializa la carne de los animales producidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44739-2006",
+      "tipo": "oficio",
+      "numero": "44739",
+      "fecha": "2006-05-26",
+      "tema": "&iquest;En los contratos de fiducia mercantil, cu&aacute;les son los soportes que debe tener en su contabilidad el fideicomitente a fin de soportar los gastos que genera este contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29841-2006",
+      "tipo": "oficio",
+      "numero": "29841",
+      "fecha": "2006-04-10",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n extensiva del art&iacute;culo 4&ordm; del Decreto 1372 de 1992, a retenciones en la fuente para efectos del impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021956-2006",
+      "tipo": "concepto",
+      "numero": "0021956",
+      "fecha": "2006-03-14",
+      "tema": "&iquest;Se debe cobrar el impuesto sobre las ventas cuando se retiran bienes del inventario para darlos como obsequio a los clientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96974-2005",
+      "tipo": "oficio",
+      "numero": "96974",
+      "fecha": "2005-12-29",
+      "tema": "&iquest;Cu&aacute;les son los impuestos que gravan las daciones en pago de los bienes muebles e inmuebles que garantizan los cr&eacute;ditos otorgados por los bancos, as&iacute; como la posterior venta de esos activos a terceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40456-2005",
+      "tipo": "oficio",
+      "numero": "40456",
+      "fecha": "2005-06-29",
+      "tema": "Como consecuencia del reintegro de una mercanc&iacute;a, en raz&oacute;n de la garant&iacute;a conferida sobre la misma, se suscitan dos inquietudes &iquest;C&oacute;mo se supone que se cancela esta factura sino va a ser efectivamente pagada? &iquest;Al ser parte de la facturaci&oacute;n deber&iacute;a ser considerada como ingreso del per&iacute;odo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8610-2005",
+      "tipo": "oficio",
+      "numero": "8610",
+      "fecha": "2005-02-16",
+      "tema": "&iquest;Los subsidios mensuales de manutenci&oacute;n provistos por instituciones educativas o por empresas privadas para los pasantes extranjeros que vienen en calidad de asistentes educativos, administrativos o t&eacute;cnicos, est&aacute;n exceptuados del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89576-2004",
+      "tipo": "oficio",
+      "numero": "89576",
+      "fecha": "2004-12-22",
+      "tema": "&iquest;Los tiquetez de transporte internacional de pasajeros, adquiridos en el exterior, con destino Colombia y regreso a su lugar de origen, est&aacute;n gravados con el Impuesto sobre las ventas y cu&aacute;l ser&iacute;a la tarifa del impuesto a liquidar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87707-2004",
+      "tipo": "oficio",
+      "numero": "87707",
+      "fecha": "2004-12-13",
+      "tema": "&iquest;El denominado producto asfalto se encuentra exento o gravado con el impuesto sobre las ventas, teniendo en cuenta la aparente contradicci&oacute;n entre el art&iacute;culo 5&ordm; de la Ley 30 de 1982 que consagra su exenci&oacute;n y el arancel de aduanas que frente a la subpartida 27.15.00.90.00 correspondiente a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17132-2004",
+      "tipo": "oficio",
+      "numero": "17132",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Para efecto del impuesto sobre las ventas, los contratos cuyo objeto es la implementaci&oacute;n de se&ntilde;ales preventivas, informativas, reglamentarias de pedestal y tipo bandera y pasav&iacute;a y dem&aacute;s dispositivos para la malla vial de Bogot&aacute; se consideran de obra p&uacute;blica, o de suministro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049135-2003",
+      "tipo": "concepto",
+      "numero": "0049135",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Se debe expedir factura en la venta que se efect&uacute;a de una mercanc&iacute;a en puerto proveniente del exterior, antes de su nacionalizaci&oacute;n? se debe liquidar en la misma el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-20433-2002",
+      "tipo": "concepto",
+      "numero": "20433",
+      "fecha": "2002-04-08",
+      "tema": "Impuesto sobre las ventas. Prestaci&oacute;n de servicios funerarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-20073-2002",
+      "tipo": "concepto",
+      "numero": "20073",
+      "fecha": "2002-04-05",
+      "tema": "Impuesto a las ventas. Hechos que se consideran venta. &iquest;Se considera hecho generador del impuesto sobre las ventas la incubaci&oacute;n del huevo f&eacute;rtil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-108802-2001",
+      "tipo": "concepto",
+      "numero": "108802",
+      "fecha": "2001-12-21",
+      "tema": "Impuesto sobre las Ventas, procedimiento tributario - Adquisici&oacute;n y venta de asfalto y mezcla asf&aacute;ltica - Sanci&oacute;n por no informar la direcci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054950-2001",
+      "tipo": "concepto",
+      "numero": "0054950",
+      "fecha": "2001-06-27",
+      "tema": "sobre el procedimiento a seguir para la devoluci&oacute;n de saldos a favor por concepto de impuesto sobre las ventas provenientes de las mezclas asf&aacute;lticas y materiales p&eacute;treos de los art&iacute;culos 64 de la Ley 488 de 1998 y 79 de la Ley 633 de 2000, y que por un programa de fiscalizaci&oacute;n fueron incluidos en declaraciones que se encuentran en firme",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022606-2001",
+      "tipo": "concepto",
+      "numero": "0022606",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Qui&eacute;n debe declarar los activos, los ingresos, costos, gastos, pasivos de una sucursal de sociedad extranjera que es aportada a una sociedad limitada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009188-2001",
+      "tipo": "concepto",
+      "numero": "0009188",
+      "fecha": "2001-02-09",
+      "tema": "&iquest;La cuota de afiliaci&oacute;n que otorga el derecho de adquirir un material y el pago de una comisi&oacute;n por los consumos efectuados en el sistema de ventas multinivel se encuentra sujeta al Impuesto sobre las Ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097596-2000",
+      "tipo": "concepto",
+      "numero": "0097596",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Deben facturar los miembros de la Uni&oacute;n Temporal por bienes y servicios prestados a la misma?&iquest;Pueden los miembros de la Uni&oacute;n temporal hacer pr&eacute;stamos a la citada asociaci&oacute;n?&iquest;Se deben registrar los libros de contabilidad en la DIAN o en la C&aacute;mara de Comercio y si existe alg&uacute;n procedimiento para cancelar el NIT, de la Uni&oacute;n temporal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085801-2000",
+      "tipo": "concepto",
+      "numero": "0085801",
+      "fecha": "2000-09-07",
+      "tema": "Para efecto de la retenci&oacute;n en la fuente en el impuesto sobre la renta as&iacute; como para establecer la base del c&aacute;lculo del impuesto sobre las ventas, los pagos o abonos en cuenta por la elaboraci&oacute;n y venta con instalaci&oacute;n de puertas, ventanas, pasamanos, estructuras de edificios en acero, estructuras met&aacute;licas para cubiertas y las fachadas flotantes en edificios, &iquest;debe entenderse que corresponden al concepto de prestaci&oacute;n de servicios de construcci&oacute;n de bien inmueble?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075655-2000",
+      "tipo": "concepto",
+      "numero": "0075655",
+      "fecha": "2000-08-11",
+      "tema": "&iquest;Respecto de contratos celebrados antes del 1o de noviembre de 1999, en qu&eacute; casos puede el proveedor de bienes o de servicios gravados cobrar el IVA a la tarifa del 16% o del 15%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066031-2000",
+      "tipo": "concepto",
+      "numero": "0066031",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;En un contrato de construcci&oacute;n de obra, en que el contratista adem&aacute;s suministra bienes, c&oacute;mo se conforma la base para determinar el IVA a cargo del contratista?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069043-1999",
+      "tipo": "concepto",
+      "numero": "0069043",
+      "fecha": "1999-07-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066738-1999",
+      "tipo": "concepto",
+      "numero": "0066738",
+      "fecha": "1999-07-23",
+      "tema": "del art&iacute;culo 421 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054763-1999",
+      "tipo": "concepto",
+      "numero": "0054763",
+      "fecha": "1999-06-15",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052279-1999",
+      "tipo": "concepto",
+      "numero": "0052279",
+      "fecha": "1999-12-28",
+      "tema": "&iquest;Es obligatorio expedir factura en los retiros de inventario para muestras gratis, obsequios, donaciones, y promociones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045074-1999",
+      "tipo": "concepto",
+      "numero": "0045074",
+      "fecha": "1999-05-11",
+      "tema": "&iquest;El suministro de mezcla asf&aacute;ltica a una entidad oficial genera el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034459-1999",
+      "tipo": "concepto",
+      "numero": "0034459",
+      "fecha": "1999-11-15",
+      "tema": "Impuesto a las ventas. Contratos de suministro, instalaci&oacute;n y montaje de aire acondicionado en inmuebles. Contratos de instalaci&oacute;n, montaje y puesta en marcha de sistemas de aire acondicionado en inmuebles, cuando el contratante suministra los equipos. Contratos de mantenimiento preventivo y de reparaci&oacute;n de equipos de aire condicionado",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030950-1999",
+      "tipo": "concepto",
+      "numero": "0030950",
+      "fecha": "1999-10-26",
+      "tema": "Impuesto sobre las ventas. IVA en las donaciones al Eje Cafetero",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022607-1999",
+      "tipo": "concepto",
+      "numero": "0022607",
+      "fecha": "1999-10-06",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013690-1999",
+      "tipo": "concepto",
+      "numero": "0013690",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066178-1998",
+      "tipo": "concepto",
+      "numero": "0066178",
+      "fecha": "1998-08-24",
+      "tema": "&iquest;Est&aacute;n gravados con el IVA los servicios de cortes, reparto de recibos, lectura, mantenimiento de redes y subestaciones, y revisi&oacute;n de instalaciones, que se contratan con terceros? &iquest;Los contratos de construcci&oacute;n de redes, subestaciones y plantas de energ&iacute;a el&eacute;ctrica, tienen el mismo tratamiento de los servicios complementarios de energ&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047550-1998",
+      "tipo": "concepto",
+      "numero": "0047550",
+      "fecha": "1998-06-19",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040991-1998",
+      "tipo": "concepto",
+      "numero": "0040991",
+      "fecha": "1998-06-04",
+      "tema": "&iquest;Cu&aacute;l es la base para el pago del impuesto de timbre en un contrato de concesi&oacute;n, si al concesionario le corresponde el 90% y a la entidad de derecho p&uacute;blico el 10% del valor del contrato? &iquest;Es deducible del impuesto sobre la renta y complementarios el IVA no descontable pagado por las donaciones de inventarios efectuadas por sociedades an&oacute;nimas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034690-1998",
+      "tipo": "concepto",
+      "numero": "0034690",
+      "fecha": "1998-05-14",
+      "tema": "&iquest;Cuando el constructor utilizando materiales, mano de obra y equipos, obtenga como resultado mezclas asf&aacute;lticas y otros bienes que incorpora a la obra objeto de la obra; el impuesto sobre las ventas del bien resultante se debe liquidar y cobrar independientemente y adicionalmente al IVA generado por el contrato de construcci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088337-1996",
+      "tipo": "concepto",
+      "numero": "0088337",
+      "fecha": "1996-11-20",
+      "tema": "&iquest;Se encuentran sometidos a la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta los pagos efectuados por entidades nacionales (contratantes) en favor de sociedades extranjeras sin domicilio en el pa&iacute;s (contratistas), por concepto de suministro de bienes en el territorio nacional, cuando dichos pagos se hacen a trav&eacute;s de sociedades nacionales que representan en Colombia a las contratistas del exterior? &iquest;Las sociedades nacionales que en su condici&oacute;n de representantes de contratistas sociedades extrajeras sin domicilio en el pa&iacute;s importen bienes a nombre de su representadas para cumplir con contratos de suministros suscritos con entidades nacionales contratantes, pueden solicitar como impuesto descontable el impuesto a las ventas pagado en la importaci&oacute;n de los bienes objeto de los contratos de suministro? &iquest;Se debe practicar la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre las ventas, en el momento del pago o abono en cuenta efectuado por entidades nacionales en favor de sociedades extranjeras sin domicilio en el pa&iacute;s por concepto de suministro de bienes en el pa&iacute;s a trav&eacute;s de sociedades nacionales que representan en Colombia a contratistas extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038513-1996",
+      "tipo": "concepto",
+      "numero": "0038513",
+      "fecha": "1996-05-10",
+      "tema": "&iquest;Causa IVA el retiro de bienes gravados del inventario, para obsequio o por p&eacute;rdida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017179-1996",
+      "tipo": "concepto",
+      "numero": "0017179",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084631-1995",
+      "tipo": "concepto",
+      "numero": "0084631",
+      "fecha": "1995-12-01",
+      "tema": "Un anticipo sobre un contrato se puede cobrar por factura y sin liquidar el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057459-1995",
+      "tipo": "concepto",
+      "numero": "0057459",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023135-1995",
+      "tipo": "concepto",
+      "numero": "0023135",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012276-1993",
+      "tipo": "concepto",
+      "numero": "0012276",
+      "fecha": "1993-03-24",
+      "tema": "&iquest;En el caso de que reciba permanentemente donaciones de personas naturales o jur&iacute;dicas colombianas o de extranjeras con domicilio o residencia en el pa&iacute;s, se asume que en &eacute;stos valores est&aacute; incluido el IVA?&iquest;Si las donaciones se reciben ocasionalmente, la entidad beneficiaria de las donaciones debe asumir el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010307-1992",
+      "tipo": "concepto",
+      "numero": "0010307",
+      "fecha": "1992-01-01",
+      "tema": "Causaci&oacute;n del impuesto como consecuencia del cobro judicial de una obligaci&oacute;n por determinaci&oacute;n del juzgado",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004526-1992",
+      "tipo": "concepto",
+      "numero": "0004526",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;El impuesto a las ventas pagado por concepto de intereses sobre financiaci&oacute;n ordinaria y extraordinaria o moratoria, se pueden solicitar como impuesto descontable? &iquest;Si la daci&oacute;n en pago y la permuta son hechos que se consideran venta (art&iacute;culo 421 del Estatuto Tributario), los ingresos percibidos por esos conceptos (valor comercial de los bienes) hacen parte de las operaciones gravadas, para efecto del c&aacute;lculo del descuento por costos y gastos comunes; y si los ingresos por venta de activos fijos, se tienen en cuenta para efectuar dicho c&aacute;lculo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001245-1992",
+      "tipo": "concepto",
+      "numero": "0001245",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas descontable en el proceso de adecuaci&oacute;n e implantaci&oacute;n de una finca bananera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012236-1991",
+      "tipo": "concepto",
+      "numero": "0012236",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Cu&aacute;l es la causaci&oacute;n del impuesto sobre las ventas respecto de las transacciones de transferencia del dominio de huesos u otros elementos requeridos para trasplantes en seres humanos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004258-1991",
+      "tipo": "concepto",
+      "numero": "0004258",
+      "fecha": "1991-10-16",
+      "tema": "&iquest;En el servicio de restaurante no se dan los retiros de inventario en el evento que se suministre comida a los empleados y se realicen promociones en las cuales se obsequie un alimento por la compra, toda vez que al hablar del retiro el literal b) art&iacute;culo 421 del Estatuto Tributario asimila este hecho a venta, pero la Ley 49 de 1990 art&iacute;culo 30, grava es el servicio de restaurante y no la comida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035178-1990",
+      "tipo": "concepto",
+      "numero": "0035178",
+      "fecha": "1990-01-01",
+      "tema": "Base gravable, intereses y exeso de producto al momento de la entrega en servicio de blindaje",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030643-1990",
+      "tipo": "concepto",
+      "numero": "0030643",
+      "fecha": "1990-12-06",
+      "tema": "Una sociedad comercial, todos los bienes que compra en el pa&iacute;s o los importa, los registra como inventarios, descontando el IVA en el momento de la adquisici&oacute;n, y posteriormente cuando retira de sus bodegas para ser utilizados como gasto o como activos fijos revierte el IVA. Del mismo modo dice que hay bienes que compra como activos fijos y no se descuenta el IVA, pero posteriormente son utilizados como gastos. &iquest;Puede descontar el IVA en fecha posterior dentro de los dos bimestres posteriores a la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014067-1990",
+      "tipo": "concepto",
+      "numero": "0014067",
+      "fecha": "1990-01-01",
+      "tema": "Blindaje de veh&iacute;culos, solicitud de modificaci&oacute;n del Concepro 1798 del mismo a&ntilde;o",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008678-1990",
+      "tipo": "concepto",
+      "numero": "0008678",
+      "fecha": "1990-04-17",
+      "tema": "&iquest;Causa impuesto sobre las ventas y a qu&eacute; tarifa, la daci&oacute;n en pago que hace un empresa colombiana de transporte a&eacute;reo de servicio p&uacute;blico, a una sociedad extranjera sin domicilio en el pa&iacute;s, de tres (3) helic&oacute;pteros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003521-1990",
+      "tipo": "concepto",
+      "numero": "0003521",
+      "fecha": "1990-02-12",
+      "tema": "solicita la modificaci&oacute;n del Concepto No.25247 de octubre 26 de 1989 de este Despacho",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002629-1990",
+      "tipo": "concepto",
+      "numero": "0002629",
+      "fecha": "1990-01-30",
+      "tema": "Solicita usted concepto acerca de la aplicaci&oacute;n del Impuesto Sobre las Ventas (IVA) en la venta directa o a trav&eacute;s de un Martillo autorizado, de las mercanc&iacute;as declaradas en abandono a favor de la Naci&oacute;n o decomisadas por las autoridades aduaneras, por parte del Fondo Rotatorio de Aduanas, as&iacute; como, si &eacute;ste es responsable del IVA por las ventas que realice",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028450-1989",
+      "tipo": "concepto",
+      "numero": "0028450",
+      "fecha": "1989-01-01",
+      "tema": "El servicio de larga distancia utilizado por TELECOM no causa IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021233-1989",
+      "tipo": "concepto",
+      "numero": "0021233",
+      "fecha": "1989-01-01",
+      "tema": "&iquest;Si los servicios de impermeabilizaci&oacute;n est&aacute;n sometidos a este impuesto (IVA) y si la empresa es responsable de recaudarlo y pagarlo?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 755", "titulo": "Art. 755. La omision del NIT o del nombre en la correspondencia, facturas y recibos permiten presumir ingresos.", "titulo_corto": "La omision del NIT o del nombre en la correspondencia, facturas y recibos permiten presumir ingresos.", "slug": "755", "url_origen": "https://estatuto.co/755", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 1, "contenido_texto": "El incumplimiento del deber contemplado en el artículo 619, hará presumir la omisión de pagos declarados por terceros, por parte del presunto beneficiario de los mismos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El incumplimiento del deber contemplado en el <a href=\"https://estatuto.co/619\" rel=\"noopener\" target=\"_blank\">artículo 619</a>, hará presumir la omisión de pagos declarados por terceros, por parte del presunto beneficiario de los mismos.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["619"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 755",
+  "titulo": "Art. 755. La omision del NIT o del nombre en la correspondencia, facturas y recibos permiten presumir ingresos.",
+  "titulo_corto": "La omision del NIT o del nombre en la correspondencia, facturas y recibos permiten presumir ingresos.",
+  "slug": "755",
+  "url_origen": "https://estatuto.co/755",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "El incumplimiento del deber contemplado en el artículo 619, hará presumir la omisión de pagos declarados por terceros, por parte del presunto beneficiario de los mismos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El incumplimiento del deber contemplado en el <a href=\"https://estatuto.co/619\" rel=\"noopener\" target=\"_blank\">artículo 619</a>, hará presumir la omisión de pagos declarados por terceros, por parte del presunto beneficiario de los mismos.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "619"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 66812 (2005-01-01): &iquest;En cu&aacute;les documentos del contribuyente se debe informar el N&uacute;mero de Identificaci&oacute;n Tributaria?\noficio 90437 (2004-12-27): &iquest;En un contrato de concesi&oacute;n asignado a una Uni&oacute;n Temporal donde cada uno de sus miembros realiza por su cuenta el objeto de dicho contrato son o no responsables del IVA respectivo?\nconcepto 0036051 (1998-05-20): &iquest;Cual es el mecanismo id&oacute;neo para acreditar ante una entidad financiera el car&aacute;cter de ingreso no gravable de una transferencia efectuada por la casa matriz a favor de una sucursal establecida en Colombia?\nconcepto 0034632 (1996-04-29): Dentro de la competencia atribuida por los art&iacute;culos 57 y 58 del Decreto 2117 de 1992, de interpretar las normas tributarias",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-66812-2005",
+      "tipo": "oficio",
+      "numero": "66812",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;En cu&aacute;les documentos del contribuyente se debe informar el N&uacute;mero de Identificaci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90437-2004",
+      "tipo": "oficio",
+      "numero": "90437",
+      "fecha": "2004-12-27",
+      "tema": "&iquest;En un contrato de concesi&oacute;n asignado a una Uni&oacute;n Temporal donde cada uno de sus miembros realiza por su cuenta el objeto de dicho contrato son o no responsables del IVA respectivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036051-1998",
+      "tipo": "concepto",
+      "numero": "0036051",
+      "fecha": "1998-05-20",
+      "tema": "&iquest;Cual es el mecanismo id&oacute;neo para acreditar ante una entidad financiera el car&aacute;cter de ingreso no gravable de una transferencia efectuada por la casa matriz a favor de una sucursal establecida en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034632-1996",
+      "tipo": "concepto",
+      "numero": "0034632",
+      "fecha": "1996-04-29",
+      "tema": "Dentro de la competencia atribuida por los art&iacute;culos 57 y 58 del Decreto 2117 de 1992, de interpretar las normas tributarias",
+      "vigente": true
+    }
+  ]
+}

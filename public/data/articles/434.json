@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 434", "titulo": "Art. 434. En seguros de transporte.", "titulo_corto": "En seguros de transporte.", "slug": "434", "url_origen": "https://estatuto.co/434", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En los certificados de seguro de transporte que se expidan con posterioridad a los despachos de las mercancías, el impuesto se causa sobre tal certificado.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los certificados de seguro de transporte que se expidan con posterioridad a los despachos de las mercancías, el impuesto se causa sobre tal certificado.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 434",
+  "titulo": "Art. 434. En seguros de transporte.",
+  "titulo_corto": "En seguros de transporte.",
+  "slug": "434",
+  "url_origen": "https://estatuto.co/434",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En los certificados de seguro de transporte que se expidan con posterioridad a los despachos de las mercancías, el impuesto se causa sobre tal certificado.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los certificados de seguro de transporte que se expidan con posterioridad a los despachos de las mercancías, el impuesto se causa sobre tal certificado.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 1510 (2017-05-11): Tarifa aplicable p&oacute;lizas de seguros",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-1510-2017",
+      "tipo": "oficio",
+      "numero": "1510",
+      "fecha": "2017-05-11",
+      "tema": "Tarifa aplicable p&oacute;lizas de seguros",
+      "vigente": true
+    }
+  ]
+}

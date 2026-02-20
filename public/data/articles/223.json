@@ -1,1 +1,442 @@
-{"id_articulo": "Art. 223", "titulo": "Art. 223. Indemnizaciones por seguros de vida.", "titulo_corto": "Indemnizaciones por seguros de vida.", "slug": "223", "url_origen": "https://estatuto.co/223", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 1, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018"], "texto_derogado": ["*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.", "full_length": 161}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["401-2"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 223",
+  "titulo": "Art. 223. Indemnizaciones por seguros de vida.",
+  "titulo_corto": "Indemnizaciones por seguros de vida.",
+  "slug": "223",
+  "url_origen": "https://estatuto.co/223",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Las indemnizaciones por concepto de seguros de vida percibidos durante el año o período gravable, estarán exentas del impuesto de renta y ganancias ocasionales.",
+      "full_length": 161
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "401-2"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11474 (2025-08-26): Retenci&oacute;n en la fuente\noficio 2930 (2025-03-11): Impuesto sobre la Renta y Complementarios\noficio 1406 (2024-02-27): (Int 412) Indemnizaci&oacute;n por seguros de vida - Ganancia ocasional exenta - Retenci&oacute;n en la fuente - tarifas\noficio 1401 (2024-02-28): (Int 411) Impuesto sobre la renta y complementarios - Indemnizaci&oacute;n por seguros - Reconsidera parcialmente el Oficio 018485 de julio 17 de 2019\noficio 905813 (2021-06-21): Retenci&oacute;n en la fuente en indemnizaciones - Autorrentenci&oacute;n general a t&iacute;tulo del Impuesto sobre la Renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11474-2025",
+      "tipo": "oficio",
+      "numero": "11474",
+      "fecha": "2025-08-26",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2930-2025",
+      "tipo": "oficio",
+      "numero": "2930",
+      "fecha": "2025-03-11",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-1406-2024",
+      "tipo": "oficio",
+      "numero": "1406",
+      "fecha": "2024-02-27",
+      "tema": "(Int 412) Indemnizaci&oacute;n por seguros de vida - Ganancia ocasional exenta - Retenci&oacute;n en la fuente - tarifas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1401-2024",
+      "tipo": "oficio",
+      "numero": "1401",
+      "fecha": "2024-02-28",
+      "tema": "(Int 411) Impuesto sobre la renta y complementarios - Indemnizaci&oacute;n por seguros - Reconsidera parcialmente el Oficio 018485 de julio 17 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905813-2021",
+      "tipo": "oficio",
+      "numero": "905813",
+      "fecha": "2021-06-21",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones - Autorrentenci&oacute;n general a t&iacute;tulo del Impuesto sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906852-2020",
+      "tipo": "oficio",
+      "numero": "906852",
+      "fecha": "2020-11-11",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria. Hecho generador. Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901221-2020",
+      "tipo": "oficio",
+      "numero": "901221",
+      "fecha": "2020-04-22",
+      "tema": "Indemnizaci&oacute;n por da&ntilde;o emergente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29268-2019",
+      "tipo": "oficio",
+      "numero": "29268",
+      "fecha": "2019-11-22",
+      "tema": "Sanci&oacute;n por improcedencia de las Devoluciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24563-2019",
+      "tipo": "oficio",
+      "numero": "24563",
+      "fecha": "2019-09-26",
+      "tema": "Retenci&oacute;n en la Fuente en indemnizaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18485-2019",
+      "tipo": "oficio",
+      "numero": "18485",
+      "fecha": "2019-07-17",
+      "tema": "Tratamiento tributario de las indemnizaciones por seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14729-2019",
+      "tipo": "oficio",
+      "numero": "14729",
+      "fecha": "2019-06-07",
+      "tema": "Indemnizaciones por seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1450-2019",
+      "tipo": "oficio",
+      "numero": "1450",
+      "fecha": "2019-01-15",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 623-2 -Informaci&oacute;n por otras entidades de cr&eacute;dito- del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1445-2019",
+      "tipo": "oficio",
+      "numero": "1445",
+      "fecha": "2019-01-15",
+      "tema": "Descuentos a realizar por parte de la Caja de Vivienda Popular tras acordar acuerdo conciliatorio con una persona natural",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33661-2018",
+      "tipo": "oficio",
+      "numero": "33661",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso susceptible de producir un incremento neto en el patrimonio en el momento de su percepci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21652-2018",
+      "tipo": "oficio",
+      "numero": "21652",
+      "fecha": "2018-08-09",
+      "tema": "Solicitud de revisi&oacute;n de concepto previo relativo a indemnizaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17394-2018",
+      "tipo": "oficio",
+      "numero": "17394",
+      "fecha": "2018-07-04",
+      "tema": "Obligaci&oacute;n de declarar activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6519-2018",
+      "tipo": "oficio",
+      "numero": "6519",
+      "fecha": "2018-03-16",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los pagos por compensaciones socio econ&oacute;micas a los moradores no propietarios que se ven impactados durante el proceso de enajenaci&oacute;n de predios para el desarrollo de los proyectos viales 4G, tal como se describe en la resoluci&oacute;n INCO 0545 de 2008 en el Art&iacute;culo 8",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27580-2017",
+      "tipo": "oficio",
+      "numero": "27580",
+      "fecha": "2017-10-10",
+      "tema": "&iquest;Para esta clase de venta realizada por las personas naturales y jur&iacute;dicas a la UAEGRTD y teniendo en cuenta que los beneficiarios son las v&iacute;ctimas, los vendedores que tengan utilidades en la transacci&oacute;n pueden estar exentos de ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18977-2016",
+      "tipo": "oficio",
+      "numero": "18977",
+      "fecha": "2016-07-19",
+      "tema": "transporte regulados en la Ley 1682 de 2013, modificada por la Ley 1742 de 2014, - la totalidad del ingreso, integrado por el valor comercial del inmueble (terreno construcciones y-o cultivos) y-o el valor de las indemnizaciones o compensaciones, de ser procedente, no constituye, para fines tributarios, renta gravable ni ganancia ocasional, siempre y cuando la negociaci&oacute;n se realice por la v&iacute;a de la enajenaci&oacute;n voluntaria, de conformidad con lo establecido en el par&aacute;grafo 2 del art&iacute;culo 67 de la Ley 388 de 1989 aplicable a la adquisici&oacute;n predial para proyectos de infraestructura en transporte por la remisi&oacute;n expresa del art&iacute;culo 20 de la Ley 1682 de 2013, modificado por el art&iacute;culo 3 de la Ley 1742 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14738-2016",
+      "tipo": "oficio",
+      "numero": "14738",
+      "fecha": "2016-06-13",
+      "tema": "&iquest;Qui&eacute;n es el contribuyente obligado a declarar el valor patrimonial del seguro de vida con base en el valor de rescisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13501-2016",
+      "tipo": "oficio",
+      "numero": "13501",
+      "fecha": "2016-06-30",
+      "tema": "&iquest;Consulta usted, si de conformidad con lo establecido en el art&iacute;culo 223 del Estatuto Tributario las indemnizaciones por pagos de seguros de vida que incluye la cobertura de riesgos complementarios como la invalidez por accidente o por enfermedad, lo percibido por dichos amparos adicionales se encuentra exento del impuesto sobre la renta y ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12970-2016",
+      "tipo": "oficio",
+      "numero": "12970",
+      "fecha": "2016-06-24",
+      "tema": "&iquest;Las indemnizaciones percibidas por amparos adicionales que cubre la p&oacute;liza de seguro de vida, se encuentran exentas el impuesto sobre la renta y ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0278-2016",
+      "tipo": "oficio",
+      "numero": "0278",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Se hace exigible que el beneficiario obtenga el RUT para su reconocimiento tributario y que a la urbanizadora no se le desconozcan los gastos o deducciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16652-2015",
+      "tipo": "oficio",
+      "numero": "16652",
+      "fecha": "2015-06-05",
+      "tema": "&iquest;A la compensaci&oacute;n por impacto econ&oacute;mico (CIE) en calidad de lucro cesante, se le aplica una retenci&oacute;n en la fuente por concepto de indemnizaci&oacute;n a una tarifa del 20%, o por otros ingresos tributarios con una tarifa del 2.5% o 3.5% seg&uacute;n corresponda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0403-2015",
+      "tipo": "oficio",
+      "numero": "0403",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Constituye hecho generador y existe o no tarifa de retenci&oacute;n en la fuente a t&iacute;tulo de renta para los pagos por Compensaci&oacute;n por Impacto Econ&oacute;mico (CIE) y dem&aacute;s pagos de compensaciones, en aplicaci&oacute;n de la pol&iacute;tica de compensaciones incluida en los Decretos municipales 1309 de 2009 y 543 de 2013, modificado, por el Decreto Municipal 965 del 20 de junio de 2014 y en caso de existir, cu&aacute;l ser&iacute;a la tarifa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67159-2014",
+      "tipo": "oficio",
+      "numero": "67159",
+      "fecha": "2014-12-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Utilidad en la Enajenaci&oacute;n de Inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60442-2014",
+      "tipo": "oficio",
+      "numero": "60442",
+      "fecha": "2014-10-27",
+      "tema": "&iquest;Como liquidador de una sociedad, al recibir una indemnizaci&oacute;n a nombre debe la misma debe pagar alg&uacute;n gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52250-2013",
+      "tipo": "oficio",
+      "numero": "52250",
+      "fecha": "2013-08-21",
+      "tema": "Impuesto sobre la renta- GMF - Ingresos por Indemnizaciones judiciales- exenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-78179-2012",
+      "tipo": "oficio",
+      "numero": "78179",
+      "fecha": "2012-12-17",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente por concepto de pagos por servidumbre petrolera teniendo en cuenta lo dispuesto sobre la materia en la Ley 1274 de 2009?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52670-2012",
+      "tipo": "oficio",
+      "numero": "52670",
+      "fecha": "2012-08-17",
+      "tema": "Obligaciones tributarias de las v&iacute;ctimas del conflicto armado, con ocasi&oacute;n de ingresos percibidos por concepto de indemnizaciones judiciales en el marco de la Ley 975 de 2005",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87251-2009",
+      "tipo": "oficio",
+      "numero": "87251",
+      "fecha": "2009-10-23",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046276-2009",
+      "tipo": "concepto",
+      "numero": "0046276",
+      "fecha": "2009-06-08",
+      "tema": "&iquest;Los intereses moratorios pagados por retardo en el cumplimiento de una sentencia judicial, est&aacute;n sometidos a retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y complementario?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-16055-2007",
+      "tipo": "oficio",
+      "numero": "16055",
+      "fecha": "2007-02-28",
+      "tema": "&iquest;Cu&aacute;les son las implicaciones fiscales que surgen para una persona natural residente en Colombia que adquiere p&oacute;lizas de vida o planes de pensi&oacute;n y\\o educaci&oacute;n con compa&ntilde;&iacute;as en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97647-2006",
+      "tipo": "oficio",
+      "numero": "97647",
+      "fecha": "2006-11-17",
+      "tema": "&iquest;Cu&aacute;l es la viabilidad de aplicar el tratamiento tributario previsto en el art&iacute;culo 223 del Estatuto Tributario para las indemnizaciones por concepto de Seguros de Vida a los Auxilios que las Cooperativas reconocen a sus asociados por conceptos de los Servicios de Previsi&oacute;n, Asistencia y Solidaridad (PAS); previstos en el art&iacute;culo 65 de la Ley 79 de 1988? Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83019-2006",
+      "tipo": "oficio",
+      "numero": "83019",
+      "fecha": "2006-09-26",
+      "tema": "&iquest;Cu&aacute;ndo en un contrato de agencia comercial se pacta que un porcentaje de la remuneraci&oacute;n peri&oacute;dica que se le pague al agente, comprender&aacute; un pago anticipado por indemnizaciones debidas a la terminaci&oacute;n del contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12420-2006",
+      "tipo": "oficio",
+      "numero": "12420",
+      "fecha": "2006-02-10",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de los contratos de asociaci&oacute;n o convenios especiales de cooperaci&oacute;n celebrados con una entidad p&uacute;blica, teniendo en cuenta que dentro de los contratos de asociaci&oacute;n o colaboraci&oacute;n empresarial se encuentran los consorcios, las uniones temporales, las cuentas en participaci&oacute;n y los convenios especiales de cooperaci&oacute;n?&iquest;Cu&aacute;ndo se configure un contrato de mandato, qu&eacute; norma debe aplicarse?&iquest;La celebraci&oacute;n de un contrato de colaboraci&oacute;n implica la causaci&oacute;n del impuesto sobre las ventas?&iquest;Se causa si o no, y cu&aacute;l es la base gravable del impuesto de timbre en los contratos de colaboraci&oacute;n?&iquest;Cu&aacute;l es el tratamiento tributario de los contratos de obras p&uacute;blicas?&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n en la fuente por impuesto sobre la renta en un contrato de obra p&uacute;blica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072152-2003",
+      "tipo": "concepto",
+      "numero": "0072152",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Desde qu&eacute; fecha se liquidan los intereses moratorios cuando el contribuyente corrige la declaraci&oacute;n aumentando el saldo a pagar, pero previamente hab&iacute;a efectuado un pago en exceso el cual fue devuelto por la Administraci&oacute;n Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071901-2003",
+      "tipo": "concepto",
+      "numero": "0071901",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Est&aacute;n exceptuadas de retenci&oacute;n en la fuente las indemnizaciones percibidas por demandas en contra del Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057622-2003",
+      "tipo": "concepto",
+      "numero": "0057622",
+      "fecha": "2003-01-01",
+      "tema": "Cu&aacute;les son las tarifas de retenci&oacute;n en la fuente aplicables al pago de indemnizaciones por lucro cesante? Cu&aacute;l es la base para aplicar la retenci&oacute;n en la fuente a los pagos retroactivos ordenados por sentencia judicial, con reintegro del trabajador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027846-1999",
+      "tipo": "concepto",
+      "numero": "0027846",
+      "fecha": "1999-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042346-1995",
+      "tipo": "concepto",
+      "numero": "0042346",
+      "fecha": "1995-01-01",
+      "tema": "las sumas recibidas como indemnizaci&oacute;n por seguro de vida?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-047-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "047",
+      "year": 2017,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-038-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "038",
+      "year": 1995,
+      "decision": "exequible"
+    }
+  ]
+}

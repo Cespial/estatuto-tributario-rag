@@ -1,6 +1,8 @@
-import { EnhancedQuery, RerankedChunk } from "@/types/rag";
-import { ScoredChunk } from "@/types/pinecone";
-import { RAG_CONFIG } from "@/config/constants";
+import { EnhancedQuery, RerankedChunk, RerankedMultiSourceChunk } from "@/types/rag";
+import { ScoredChunk, ScoredMultiSourceChunk } from "@/types/pinecone";
+import { RAG_CONFIG, MULTI_SOURCE_BOOST } from "@/config/constants";
+import { generateText } from "ai";
+import { anthropic } from "@ai-sdk/anthropic";
 
 // Configurable boost values for heuristic reranking.
 // These control how much each signal adjusts a chunk's relevance score.
@@ -25,6 +27,46 @@ const BOOST = {
   // Minor boost for complex articles (complexity >= 5)
   complexityBoost: 0.02,
 } as const;
+
+export async function llmRerank(
+  chunks: RerankedChunk[],
+  query: string
+): Promise<RerankedChunk[]> {
+  if (chunks.length <= 1) return chunks;
+
+  // We only rerank the top 8 chunks to save tokens and time
+  const candidates = chunks.slice(0, 8);
+  const remaining = chunks.slice(8);
+
+  try {
+    const { text } = await generateText({
+      model: anthropic("claude-haiku-4-5-20251001"),
+      system:
+        "Eres un experto legal analizando el Estatuto Tributario colombiano. " +
+        "Tu tarea es ordenar los siguientes fragmentos de artículos del más relevante al menos relevante para responder la consulta del usuario. " +
+        "Responde SOLAMENTE con una lista de IDs separados por comas, sin explicaciones. " +
+        "IDs disponibles: " +
+        candidates.map((c) => c.id).join(", "),
+      prompt: `Consulta: ${query}\n\nFragmentos:\n${candidates
+        .map((c) => `[ID: ${c.id}] Art. ${c.metadata.id_articulo}: ${c.metadata.text.slice(0, 400)}`)
+        .join("\n\n")}`,
+    });
+
+    const orderedIds = text
+      .split(",")
+      .map((id) => id.trim())
+      .filter((id) => candidates.some((c) => c.id === id));
+
+    const rerankedCandidates = orderedIds
+      .map((id) => candidates.find((c) => c.id === id)!)
+      .concat(candidates.filter((c) => !orderedIds.includes(c.id)));
+
+    return [...rerankedCandidates, ...remaining];
+  } catch (error) {
+    console.error("[reranker] llmRerank failed:", error);
+    return chunks;
+  }
+}
 
 export function heuristicRerank(
   chunks: ScoredChunk[],
@@ -93,6 +135,82 @@ export function heuristicRerank(
     // Minor complexity factor: slightly prefer more complex articles
     if (meta.complexity_score && meta.complexity_score >= 5) {
       boost += BOOST.complexityBoost;
+    }
+
+    return {
+      ...chunk,
+      rerankedScore: chunk.score + boost,
+    };
+  });
+
+  return reranked
+    .sort((a, b) => b.rerankedScore - a.rerankedScore)
+    .slice(0, maxResults);
+}
+
+/**
+ * Rerank multi-source chunks (doctrina, jurisprudencia, decretos, resoluciones)
+ * using graph boost signals and source-type heuristics.
+ */
+export function heuristicRerankMultiSource(
+  chunks: ScoredMultiSourceChunk[],
+  query: EnhancedQuery,
+  maxResults: number = 5
+): RerankedMultiSourceChunk[] {
+  const currentYear = new Date().getFullYear();
+
+  const reranked: RerankedMultiSourceChunk[] = chunks.map((chunk) => {
+    let boost = 0;
+    const meta = chunk.metadata;
+
+    // Graph-based boosts
+    if (meta.pagerank && meta.pagerank > 0.01) {
+      boost += MULTI_SOURCE_BOOST.pagerankHigh;
+    }
+
+    // Doctrina boosts
+    if (meta.doc_type === "doctrina") {
+      if (meta.vigente) {
+        boost += MULTI_SOURCE_BOOST.doctrinaVigente;
+      } else {
+        boost += MULTI_SOURCE_BOOST.doctrinaRevocada;
+      }
+    }
+
+    // Jurisprudencia boosts
+    if (meta.doc_type === "sentencia") {
+      const tipo = meta.tipo?.toUpperCase();
+      if (tipo === "SU") {
+        boost += MULTI_SOURCE_BOOST.sentenciaUnificacion;
+      } else if (tipo === "C") {
+        boost += MULTI_SOURCE_BOOST.sentenciaC;
+      }
+
+      // Penalize old sentencias (> 10 years)
+      if (meta.fecha) {
+        const sentYear = parseInt(meta.fecha.slice(0, 4), 10);
+        if (currentYear - sentYear > 10) {
+          boost += MULTI_SOURCE_BOOST.sentenciaAntigua;
+        }
+      }
+    }
+
+    // Decreto boosts (recent decrees preferred)
+    if (meta.doc_type === "decreto" && meta.decreto_year) {
+      if (currentYear - meta.decreto_year < 3) {
+        boost += MULTI_SOURCE_BOOST.decretoReciente;
+      }
+    }
+
+    // Boost if chunk references articles detected in query
+    if (query.detectedArticles.length > 0 && meta.articulos_slugs) {
+      const overlap = query.detectedArticles.filter((art) => {
+        const slug = art.replace(/^Art\.\s*/, "");
+        return meta.articulos_slugs.includes(slug);
+      });
+      if (overlap.length > 0) {
+        boost += 0.15;
+      }
     }
 
     return {

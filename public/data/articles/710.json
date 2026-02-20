@@ -1,1 +1,259 @@
-{"id_articulo": "Art. 710", "titulo": "Art. 710. Término para notificar la liquidación de revisión.", "titulo_corto": "Término para notificar la liquidación de revisión.", "slug": "710", "url_origen": "https://estatuto.co/710", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*Dentro de los seis meses siguientes a la fecha de vencimiento del término para dar respuesta al Requerimiento Especial o a su ampliación, según el caso, la Administración deberá notificar la liquidación de revisión, si hay mérito para ello. Cuando se practique inspección tributaria de oficio, el término anterior se suspenderá por el término de tres (3) meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección contable a solicitud del contribuyente, responsable, agente retenedor o declarante el término se suspenderá mientras dure la inspección. Cuando la prueba solicitada se refiera a documentos que no reposen en el respectivo expediente, el término se suspenderá durante dos meses. **En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada **En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Dentro de los seis meses siguientes a la fecha de vencimiento del término para dar respuesta al Requerimiento Especial o a su ampliación, según el caso, la Administración deberá notificar la liquidación de revisión, si hay mérito para ello.</p>\n<p>Cuando se practique inspección tributaria de oficio, el término anterior se suspenderá por el término de tres (3) meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección contable a solicitud del contribuyente, responsable, agente retenedor o declarante el término se suspenderá mientras dure la inspección.</p>\n<p>Cuando la prueba solicitada se refiera a documentos que no reposen en el respectivo expediente, el término se suspenderá durante dos meses.</p>\n<p><span style=\"color: #339966;\"><del>**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada</del></span></p>\n<p><span style=\"color: #339966;\"><del>**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario.</del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 135. **Derogado Ley 633 de 2000 Art 134.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "135"}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "134"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": ""}, {"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 633 de 2000"], "texto_derogado": ["**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada", "**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario."], "texto_derogado_parsed": [{"index": 0, "snippet": "**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada", "full_length": 164}, {"index": 1, "snippet": "**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declarac...", "full_length": 423}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 710",
+  "titulo": "Art. 710. Término para notificar la liquidación de revisión.",
+  "titulo_corto": "Término para notificar la liquidación de revisión.",
+  "slug": "710",
+  "url_origen": "https://estatuto.co/710",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*Dentro de los seis meses siguientes a la fecha de vencimiento del término para dar respuesta al Requerimiento Especial o a su ampliación, según el caso, la Administración deberá notificar la liquidación de revisión, si hay mérito para ello. Cuando se practique inspección tributaria de oficio, el término anterior se suspenderá por el término de tres (3) meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección contable a solicitud del contribuyente, responsable, agente retenedor o declarante el término se suspenderá mientras dure la inspección. Cuando la prueba solicitada se refiera a documentos que no reposen en el respectivo expediente, el término se suspenderá durante dos meses. **En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada **En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Dentro de los seis meses siguientes a la fecha de vencimiento del término para dar respuesta al Requerimiento Especial o a su ampliación, según el caso, la Administración deberá notificar la liquidación de revisión, si hay mérito para ello.</p>\n<p>Cuando se practique inspección tributaria de oficio, el término anterior se suspenderá por el término de tres (3) meses contados a partir de la notificación del auto que la decrete. Cuando se practique inspección contable a solicitud del contribuyente, responsable, agente retenedor o declarante el término se suspenderá mientras dure la inspección.</p>\n<p>Cuando la prueba solicitada se refiera a documentos que no reposen en el respectivo expediente, el término se suspenderá durante dos meses.</p>\n<p><span style=\"color: #339966;\"><del>**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada</del></span></p>\n<p><span style=\"color: #339966;\"><del>**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario.</del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 135. **Derogado Ley 633 de 2000 Art 134.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "135"
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "134"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [
+    "**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada",
+    "**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declaración del impuesto sobre la renta del período gravable al que correspondan las declaraciones del impuesto sobre las ventas y de retención en la fuente, de acuerdo con lo dispuesto en el artículo 705-1 del Estatuto Tributario."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "**En todo caso, el término de notificación de la liquidación oficial no podrá exceder de tres años contados desde la fecha de presentación de la declaración privada",
+      "full_length": 164
+    },
+    {
+      "index": 1,
+      "snippet": "**En el caso de las declaraciones del impuesto sobre las ventas y de retención en la fuente, el plazo máximo de que trata el inciso anterior se contara desde la fecha de la presentación de la declarac...",
+      "full_length": 423
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8472 (2024-10-31): Procedimiento Tributario\noficio 5322 (2024-03-13): (Int 176) Ejecutoria t&iacute;tulo ejecutivo - Vinculaci&oacute;n deudores solidarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8472-2024",
+      "tipo": "oficio",
+      "numero": "8472",
+      "fecha": "2024-10-31",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5322-2024",
+      "tipo": "oficio",
+      "numero": "5322",
+      "fecha": "2024-03-13",
+      "tema": "(Int 176) Ejecutoria t&iacute;tulo ejecutivo - Vinculaci&oacute;n deudores solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10464-2019",
+      "tipo": "oficio",
+      "numero": "10464",
+      "fecha": "2019-05-02",
+      "tema": "Daci&oacute;n en Pago Daci&oacute;n en Pago – Competencia",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67993-2012",
+      "tipo": "oficio",
+      "numero": "67993",
+      "fecha": "2012-01-01",
+      "tema": "Notificaci&oacute;n de los actos administrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45553-2004",
+      "tipo": "oficio",
+      "numero": "45553",
+      "fecha": "2004-07-23",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005171-2003",
+      "tipo": "concepto",
+      "numero": "0005171",
+      "fecha": "2003-02-06",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino m&aacute;ximo para notificar la liquidaci&oacute;n de revisi&oacute;n de las declaraciones tributarias presentadas con anterioridad a la vigencia de la Ley 633 de 2000, habiendo mediado una correcci&oacute;n que disminuye el valor a pagar o aumenta el saldo a favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067533-2001",
+      "tipo": "concepto",
+      "numero": "0067533",
+      "fecha": "2001-07-24",
+      "tema": "&iquest;Es procedente la terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios, cuando habi&eacute;ndose vencido el t&eacute;rmino para interponer el recurso de reconsideraci&oacute;n, el interesado manifest&oacute; su voluntad de acogerse a tal beneficio?&iquest;Teniendo en cuenta que los incisos 4&ordm; y 5&ordm; del Art&iacute;culo 710 del Estatuto Tributario fueron derogados, a qu&eacute; declaraciones tributarias se aplican sus efectos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035197-2001",
+      "tipo": "concepto",
+      "numero": "0035197",
+      "fecha": "2001-05-02",
+      "tema": "&iquest;Qu&eacute; efectos jur&iacute;dicos produce la ampliaci&oacute;n al requerimiento especial notificado por fuera del t&eacute;rmino previsto en el art&iacute;culo 708 del Estatuto Tributario? &iquest;Qu&eacute; efectos jur&iacute;dicos produce el requerimiento especial que omite la explicaci&oacute;n de las razones en que se sustenta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093135-2000",
+      "tipo": "concepto",
+      "numero": "0093135",
+      "fecha": "2000-09-25",
+      "tema": "&iquest;Dentro de qu&eacute; t&eacute;rmino debe notificarse la liquidaci&oacute;n de revisi&oacute;n, cuando haya lugar a &eacute;sta, sobre la declaraci&oacute;n del impuesto al consumo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039100-1999",
+      "tipo": "concepto",
+      "numero": "0039100",
+      "fecha": "1999-11-18",
+      "tema": "T&eacute;rmino en que quedan firme las declaraciones que arrojen saldo a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031688-1999",
+      "tipo": "concepto",
+      "numero": "0031688",
+      "fecha": "1999-04-07",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino para notificar la liquidaci&oacute;n de revisi&oacute;n en el caso de la correcci&oacute;n de la declaraci&oacute;n de que trata el art&iacute;culo 588 del Estatuto Tributario?&iquest;Cu&aacute;l es el t&eacute;rmino para notificar la liquidaci&oacute;n de revisi&oacute;n en el caso de la correcci&oacute;n de la declaraci&oacute;n de que trata el art&iacute;culo 589 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012010-1998",
+      "tipo": "concepto",
+      "numero": "0012010",
+      "fecha": "1998-02-25",
+      "tema": "&iquest;Es v&aacute;lido practicar varias inspecciones tributarias a un mismo contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034402-1997",
+      "tipo": "concepto",
+      "numero": "0034402",
+      "fecha": "1997-12-22",
+      "tema": "&iquest;Se pueden practicar distintas actuaciones administrativas que suspenden el t&eacute;rmino para enviar el requerimiento especial? &iquest;C&oacute;mo se contabiliza la suspensi&oacute;n del t&eacute;rmino para practicar el requerimiento especial cuando se env&iacute;a emplazamiento para corregir?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010250-1993",
+      "tipo": "concepto",
+      "numero": "0010250",
+      "fecha": "1993-03-10",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de revisi&oacute;n de las declaraciones bimestrales del impuesto sobre las ventas cuyo saldo a favor ha sido arrastrado para las declaraciones subsiguientes? &iquest;Se debe pagar el impuesto originado en un saldo a favor que se arrastr&oacute; al siguiente bimestre, cuya declaraci&oacute;n inicial fue corregida en obedecimiento de la sugerencia de la Administraci&oacute;n de Impuestos que detect&oacute; un diferencia en el margen de utilidad, correcci&oacute;n que desapareci&oacute; el saldo a favor de la declaraci&oacute;n que lo caus&oacute;?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030809-1990",
+      "tipo": "concepto",
+      "numero": "0030809",
+      "fecha": "1990-05-29",
+      "tema": "&iquest;En qu&eacute; fecha quedan en firme las declaraciones tributarias (renta, ventas y retenci&oacute;n en la fuente)y que incidencia tiene la correcci&oacute;n en la firmeza de tales declaraciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000268-1990",
+      "tipo": "concepto",
+      "numero": "0000268",
+      "fecha": "1990-01-04",
+      "tema": "&iquest;Cu&aacute;l es la procedencia o no del silencio administrativo positivo?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

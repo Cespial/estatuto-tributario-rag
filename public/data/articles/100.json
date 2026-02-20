@@ -1,1 +1,378 @@
-{"id_articulo": "Art. 100", "titulo": "Art. 100. Determinación de la renta bruta en contratos de renta vitalicia.", "titulo_corto": "Determinación de la renta bruta en contratos de renta vitalicia.", "slug": "100", "url_origen": "https://estatuto.co/100", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "En los contratos de renta vitalicia, la renta bruta de los contratantes se determina así: 1. El precio o capital que se pague por la renta vitalicia constituye renta bruta para quien lo reciba. 2. La pensión periódica constituye renta bruta para el beneficiario, y se estima en un porcentaje anual del precio o capital pagado, equivalente a la tasa de interés sobre depósitos bancarios a término. Si la pensión periódica excediere del porcentaje anterior, cuando la suma de los excedentes de cada año iguale al precio o capital pagado para obtener la pensión periódica, se considera como renta bruta la totalidad de lo pagado por pensiones de allí en adelante. 3. Las indemnizaciones por incumplimiento, originadas en la resolución del contrato de renta vitalicia, son renta bruta. Su valor se establece restando de la suma recibida con ocasión de la resolución del contrato el precio o capital pagado, disminuido en la parte de las pensiones periódicas que no haya constituido renta bruta para el beneficiario. Parágrafo 1. En todo contrato de renta vitalicia el valor de los bienes que se entreguen como precio o capital, indemnización o restitución, es el que figure en la declaración de renta y patrimonio del año inmediatamente anterior, o en su defecto, el de costo. Parágrafo 2. Las disposiciones contenidas en este artículo, no se aplican a los contratos de renta vitalicia que se celebren con las compañías de seguros.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los contratos de renta vitalicia, la renta bruta de los contratantes se determina así:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El precio o capital que se pague por la renta vitalicia constituye renta bruta para quien lo reciba.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> La pensión periódica constituye renta bruta para el beneficiario, y se estima en un porcentaje anual del precio o capital pagado, equivalente a la tasa de interés sobre depósitos bancarios a término. Si la pensión periódica excediere del porcentaje anterior, cuando la suma de los excedentes de cada año iguale al precio o capital pagado para obtener la pensión periódica, se considera como renta bruta la totalidad de lo pagado por pensiones de allí en adelante.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Las indemnizaciones por incumplimiento, originadas en la resolución del contrato de renta vitalicia, son renta bruta. Su valor se establece restando de la suma recibida con ocasión de la resolución del contrato el precio o capital pagado, disminuido en la parte de las pensiones periódicas que no haya constituido renta bruta para el beneficiario.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 1. </span></strong></span>En todo contrato de renta vitalicia el valor de los bienes que se entreguen como precio o capital, indemnización o restitución, es el que figure en la declaración de renta y patrimonio del año inmediatamente anterior, o en su defecto, el de costo.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong></span> Las disposiciones contenidas en este artículo, no se aplican a los contratos de renta vitalicia que se celebren con las compañías de seguros.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 100",
+  "titulo": "Art. 100. Determinación de la renta bruta en contratos de renta vitalicia.",
+  "titulo_corto": "Determinación de la renta bruta en contratos de renta vitalicia.",
+  "slug": "100",
+  "url_origen": "https://estatuto.co/100",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "En los contratos de renta vitalicia, la renta bruta de los contratantes se determina así: 1. El precio o capital que se pague por la renta vitalicia constituye renta bruta para quien lo reciba. 2. La pensión periódica constituye renta bruta para el beneficiario, y se estima en un porcentaje anual del precio o capital pagado, equivalente a la tasa de interés sobre depósitos bancarios a término. Si la pensión periódica excediere del porcentaje anterior, cuando la suma de los excedentes de cada año iguale al precio o capital pagado para obtener la pensión periódica, se considera como renta bruta la totalidad de lo pagado por pensiones de allí en adelante. 3. Las indemnizaciones por incumplimiento, originadas en la resolución del contrato de renta vitalicia, son renta bruta. Su valor se establece restando de la suma recibida con ocasión de la resolución del contrato el precio o capital pagado, disminuido en la parte de las pensiones periódicas que no haya constituido renta bruta para el beneficiario. Parágrafo 1. En todo contrato de renta vitalicia el valor de los bienes que se entreguen como precio o capital, indemnización o restitución, es el que figure en la declaración de renta y patrimonio del año inmediatamente anterior, o en su defecto, el de costo. Parágrafo 2. Las disposiciones contenidas en este artículo, no se aplican a los contratos de renta vitalicia que se celebren con las compañías de seguros.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En los contratos de renta vitalicia, la renta bruta de los contratantes se determina así:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El precio o capital que se pague por la renta vitalicia constituye renta bruta para quien lo reciba.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> La pensión periódica constituye renta bruta para el beneficiario, y se estima en un porcentaje anual del precio o capital pagado, equivalente a la tasa de interés sobre depósitos bancarios a término. Si la pensión periódica excediere del porcentaje anterior, cuando la suma de los excedentes de cada año iguale al precio o capital pagado para obtener la pensión periódica, se considera como renta bruta la totalidad de lo pagado por pensiones de allí en adelante.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>Las indemnizaciones por incumplimiento, originadas en la resolución del contrato de renta vitalicia, son renta bruta. Su valor se establece restando de la suma recibida con ocasión de la resolución del contrato el precio o capital pagado, disminuido en la parte de las pensiones periódicas que no haya constituido renta bruta para el beneficiario.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 1. </span></strong></span>En todo contrato de renta vitalicia el valor de los bienes que se entreguen como precio o capital, indemnización o restitución, es el que figure en la declaración de renta y patrimonio del año inmediatamente anterior, o en su defecto, el de costo.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong></span> Las disposiciones contenidas en este artículo, no se aplican a los contratos de renta vitalicia que se celebren con las compañías de seguros.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 16 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 26489 (2019-10-22): Efectos de la declaratoria de exequibilidad condicionada del par&aacute;grafo 1 del art&iacute;culo 100 de la Ley 1819 de 2016\noficio 18681 (2019-07-19): Renta exenta para servicios hoteleros prestados en hoteles que se remodelen y-o ampl&iacute;en\noficio 18485 (2019-07-17): Tratamiento tributario de las indemnizaciones por seguros de vida\noficio 16786 (2019-06-28): &iquest;Se debe incluir la pensi&oacute;n como ingreso gravable en la declaraci&oacute;n del impuesto sobre la renta cuando el valor de la pensi&oacute;n en menor a la DTF?\noficio 12892 (2019-05-24): Contratos celebrados con entidades p&uacute;blicas, IVA",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-292-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "292",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1115-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1115",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-724-2007",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "724",
+      "year": 2007,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-26489-2019",
+      "tipo": "oficio",
+      "numero": "26489",
+      "fecha": "2019-10-22",
+      "tema": "Efectos de la declaratoria de exequibilidad condicionada del par&aacute;grafo 1 del art&iacute;culo 100 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18681-2019",
+      "tipo": "oficio",
+      "numero": "18681",
+      "fecha": "2019-07-19",
+      "tema": "Renta exenta para servicios hoteleros prestados en hoteles que se remodelen y-o ampl&iacute;en",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18485-2019",
+      "tipo": "oficio",
+      "numero": "18485",
+      "fecha": "2019-07-17",
+      "tema": "Tratamiento tributario de las indemnizaciones por seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16786-2019",
+      "tipo": "oficio",
+      "numero": "16786",
+      "fecha": "2019-06-28",
+      "tema": "&iquest;Se debe incluir la pensi&oacute;n como ingreso gravable en la declaraci&oacute;n del impuesto sobre la renta cuando el valor de la pensi&oacute;n en menor a la DTF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12892-2019",
+      "tipo": "oficio",
+      "numero": "12892",
+      "fecha": "2019-05-24",
+      "tema": "Contratos celebrados con entidades p&uacute;blicas, IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7922-2019",
+      "tipo": "oficio",
+      "numero": "7922",
+      "fecha": "2019-04-02",
+      "tema": "&iquest;Las empresas que ejecutan contratos de obra p&uacute;blica con entidades p&uacute;blicas (municipios) est&aacute;n obligados a facturar IVA sobre la utilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6571-2019",
+      "tipo": "oficio",
+      "numero": "6571",
+      "fecha": "2019-03-15",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo de los procesos administrativos tributarios aduaneros y cambiarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0607-2018",
+      "tipo": "oficio",
+      "numero": "0607",
+      "fecha": "2018-05-08",
+      "tema": "&iquest;Cu&aacute;l es la resoluci&oacute;n de los precios del ganado para el a&ntilde;o 2018?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0358-2018",
+      "tipo": "oficio",
+      "numero": "0358",
+      "fecha": "2018-03-15",
+      "tema": "Solicita revocatoria del Oficio No.006401 de marzo 22 de 2017. Sobre este expresa sus inquietudes respecto del tratamiento tributario para las rentas hoteleras de las personas naturales en raz&oacute;n a las modificaciones y derogatorias que introdujo la ley 1819 de 2016 a las rentas exentas de este sector",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-0068-2018",
+      "tipo": "oficio",
+      "numero": "0068",
+      "fecha": "2018-02-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10798-2017",
+      "tipo": "oficio",
+      "numero": "10798",
+      "fecha": "2017-05-08",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para liquidar la sobretasa del impuesto sobre la renta por los a&ntilde;os gravables 2017 y 2018, seg&uacute;n el par&aacute;grafo transitorio 6 del art&iacute;culo 240 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8055-2017",
+      "tipo": "oficio",
+      "numero": "8055",
+      "fecha": "2017-04-06",
+      "tema": "&iquest;Las normas reglamentarias relacionadas con la 'renta exenta' en servicios hoteleros prestados en hoteles nuevos, modificados y-o remodelados, as&iacute; como las condiciones de inversi&oacute;n compiladas en los art&iacute;culos 1,2.1.22.10 a 1.2.1.22.15 siguen siendo aplicables a los establecimientos hoteleros que se encuentran en el tratamiento preferencial de 'renta exenta' por haber cumplido con las condiciones de inversi&oacute;n enunciadas en el art&iacute;culo 207-2 y sus normas reglamentarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6231-2017",
+      "tipo": "oficio",
+      "numero": "6231",
+      "fecha": "2017-03-22",
+      "tema": "Impuesto sobre la Renta y Complementarios &iquest;Se entiende que el Oficio 034459 de 2015 t&aacute;citamente revoc&oacute; el concepto 6325 de 2014, en el sentido que se observa una contradicci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5422-2017",
+      "tipo": "oficio",
+      "numero": "5422",
+      "fecha": "2017-03-14",
+      "tema": "Impuesto sobre las ventas - Contratos de Obra Publica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8920-2015",
+      "tipo": "oficio",
+      "numero": "8920",
+      "fecha": "2015-03-24",
+      "tema": "Contribuci&oacute;n especial sobre contratos de obra p&uacute;blica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73116-2012",
+      "tipo": "oficio",
+      "numero": "73116",
+      "fecha": "2012-11-22",
+      "tema": "&iquest;Los contratos de obra p&uacute;blica celebrados desde 1994 por personas naturales o jur&iacute;dicas con entidades territoriales o descentralizadas del orden departamental, distrital y municipal est&aacute;n excluidos del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60518-2008",
+      "tipo": "oficio",
+      "numero": "60518",
+      "fecha": "2008-01-01",
+      "tema": "Residencia para efectos fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58181-2008",
+      "tipo": "oficio",
+      "numero": "58181",
+      "fecha": "2008-01-01",
+      "tema": "Tratamiento tributario que rige a las concesiones portuarias otorgadas en una Zona Franca Permanente Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32524-2007",
+      "tipo": "oficio",
+      "numero": "32524",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Son v&aacute;lidas las declaraciones del impuesto al patrimonio presentadas litogr&aacute;ficamente, por los contribuyentes obligados a presentar sus declaraciones en forma electr&oacute;nica, de conformidad con lo establecido en el art&iacute;culo 10 del Decreto 408 de 2001, modificado por el Decreto 4694 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25274-2006",
+      "tipo": "oficio",
+      "numero": "25274",
+      "fecha": "2006-03-27",
+      "tema": "&iquest;Hay causaci&oacute;n del impuesto de timbre en la suscripci&oacute;n de un contrato entre el Municipio y la Empresa de Servicios P&uacute;blicos, donde aquel posee una participaci&oacute;n del 62.41% y cuyo objeto es la transferencia de recursos con el fondo de solidaridad y redistribuci&oacute;n de ingresos, para subsidios al cargo fijo de los servicios p&uacute;blicos de acueducto y alcantarillado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0109525-2001",
+      "tipo": "concepto",
+      "numero": "0109525",
+      "fecha": "2001-12-19",
+      "tema": "&iquest;El beneficio para el pago de los intereses de mora en el primer trimestre de 2001, comprend&iacute;a la actualizaci&oacute;n de las obligaciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-99165-2001",
+      "tipo": "concepto",
+      "numero": "99165",
+      "fecha": "2001-11-14",
+      "tema": "Procedimiento; beneficio de intereses",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096199-2000",
+      "tipo": "concepto",
+      "numero": "0096199",
+      "fecha": "2000-10-03",
+      "tema": "&iquest;Se consulta si el Banco de la Rep&uacute;blica puede ser considerado como sujeto pasivo del impuesto a las transacciones financieras, bajo el r&eacute;gimen de decretos 955 y 966 de 2.000?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035680-2000",
+      "tipo": "concepto",
+      "numero": "0035680",
+      "fecha": "2000-04-12",
+      "tema": "&iquest;Quien debe declarar unos bienes que son objeto del precio o capital en un contrato de renta vitalicia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029656-1998",
+      "tipo": "concepto",
+      "numero": "0029656",
+      "fecha": "1998-04-28",
+      "tema": "&iquest;Para efectos de la exclusi&oacute;n del Impuesto sobre las ventas del servicio p&uacute;blico de gas domiciliario, puede considerarse actividad complementaria del mismo la construcci&oacute;n de un gasoducto urbano parte de un consorcio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0092735-1996",
+      "tipo": "concepto",
+      "numero": "0092735",
+      "fecha": "1996-12-03",
+      "tema": "&iquest;Qu&eacute; tarifa del impuesto sobre las ventas causan los contratos con entidades p&uacute;blicas adjudicados con anterioridad al 22 de diciembre de 1995?&iquest;Los subcontratistas que realizan parte del respectivo contrato, pueden facturar conforme al contrato principal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015419-1996",
+      "tipo": "concepto",
+      "numero": "0015419",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ]
+}

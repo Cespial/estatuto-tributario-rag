@@ -1,1 +1,72 @@
-{"id_articulo": "Art. 310", "titulo": "Art. 310. Otras exenciones.", "titulo_corto": "Otras exenciones.", "slug": "310", "url_origen": "https://estatuto.co/310", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Sin perjuicio de lo dispuesto en los artículos anteriores, estarán exentos del impuesto de ganancias ocasionales las personas y entidades declaradas por ley como exentas del impuesto de renta y complementarios, así como los mencionados en el artículo 218.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Sin perjuicio de lo dispuesto en los artículos anteriores, estarán exentos del impuesto de ganancias ocasionales las personas y entidades declaradas por ley como exentas del impuesto de renta y complementarios, así como los mencionados en el <a href=\"https://estatuto.co/218\" rel=\"noopener\" target=\"_blank\">artículo 218</a>.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["218"], "referenced_by": [], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 310",
+  "titulo": "Art. 310. Otras exenciones.",
+  "titulo_corto": "Otras exenciones.",
+  "slug": "310",
+  "url_origen": "https://estatuto.co/310",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Sin perjuicio de lo dispuesto en los artículos anteriores, estarán exentos del impuesto de ganancias ocasionales las personas y entidades declaradas por ley como exentas del impuesto de renta y complementarios, así como los mencionados en el artículo 218.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Sin perjuicio de lo dispuesto en los artículos anteriores, estarán exentos del impuesto de ganancias ocasionales las personas y entidades declaradas por ley como exentas del impuesto de renta y complementarios, así como los mencionados en el <a href=\"https://estatuto.co/218\" rel=\"noopener\" target=\"_blank\">artículo 218</a>.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "218"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 16511 (2023-09-29): (Int 1497) Reconsidera Oficios 904129 - interno 668 de mayo 24 de 2022 y 907496 - interno 1286 de octubre 6 de 2022 - Impuesto sobre la Renta - Proyectos de vivienda de inter&eacute;s social y-o de vivienda de inter&eacute;s prioritario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-16511-2023",
+      "tipo": "oficio",
+      "numero": "16511",
+      "fecha": "2023-09-29",
+      "tema": "(Int 1497) Reconsidera Oficios 904129 - interno 668 de mayo 24 de 2022 y 907496 - interno 1286 de octubre 6 de 2022 - Impuesto sobre la Renta - Proyectos de vivienda de inter&eacute;s social y-o de vivienda de inter&eacute;s prioritario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061863-2002",
+      "tipo": "concepto",
+      "numero": "0061863",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Los aportes de la Naci&oacute;n a Empresas Industriales y Comerciales del Estado son ingresos constitutivos de renta o ganancia ocasional o son rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039816-1994",
+      "tipo": "concepto",
+      "numero": "0039816",
+      "fecha": "1994-06-17",
+      "tema": "&iquest;Que efectos tributarios tiene para una empresa la recepci&oacute;n de donaciones que en efectivo o en bienes de capital haga un organismo internacional dentro del marco de un programa de reconversi&oacute;n industrial promovido para la conservaci&oacute;n de la capa de ozono? &iquest;Cu&aacute;l es el procedimiento de importaci&oacute;n que cobija a equipos industriales donados por un organismo internacional dentro del marco de un convenio multinacional con destino a programas espec&iacute;ficos de reconversi&oacute;n industrial? &iquest;C&oacute;mo se registran contablemente las donaciones de equipos industriales?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    }
+  ]
+}

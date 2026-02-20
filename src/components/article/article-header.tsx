@@ -1,7 +1,10 @@
+"use client";
+
 import { clsx } from "clsx";
 import Link from "next/link";
 import { BookmarkButton } from "@/components/bookmarks/BookmarkButton";
 import { getFormalBookLabel } from "@/lib/constants/et-books";
+import { Printer, GitCompare } from "lucide-react";
 
 interface ArticleHeaderProps {
   idArticulo: string;
@@ -25,18 +28,38 @@ export function ArticleHeader({ idArticulo, titulo, slug, libro, libroFull, esta
 
   return (
     <div className="mb-6">
-      {/* Breadcrumb */}
-      <nav className="mb-3 flex items-center gap-2 text-sm text-muted-foreground">
-        <Link href="/explorador" className="hover:text-foreground">
-          Explorador
-        </Link>
-        <span>/</span>
-        <span>{breadcrumbLibro}</span>
-        <span>/</span>
-        <span className="text-foreground">{idArticulo}</span>
-      </nav>
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        {/* Breadcrumb */}
+        <nav className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/explorador" className="hover:text-foreground">
+            Explorador
+          </Link>
+          <span>/</span>
+          <span>{breadcrumbLibro}</span>
+          <span>/</span>
+          <span className="text-foreground">{idArticulo}</span>
+        </nav>
+
+        <div className="flex items-center gap-2 print:hidden">
+          <button
+            onClick={() => window.print()}
+            className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          >
+            <Printer className="h-3.5 w-3.5" />
+            PDF
+          </button>
+          <Link
+            href={`/comparar?left=${slug}`}
+            className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          >
+            <GitCompare className="h-3.5 w-3.5" />
+            Comparar
+          </Link>
+        </div>
+      </div>
+
       {/* Title + badge */}
-      <div className="flex flex-wrap items-start gap-3">
+      <div className="mt-4 flex flex-wrap items-start gap-3">
         <h1 className="heading-serif text-2xl">{titulo}</h1>
         <span
           className={clsx(

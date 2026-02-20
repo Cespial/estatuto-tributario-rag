@@ -1,1 +1,246 @@
-{"id_articulo": "Art. 861", "titulo": "Art. 861. Compensación previa a la devolución.", "titulo_corto": "Compensación previa a la devolución.", "slug": "861", "url_origen": "https://estatuto.co/861", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En todos los casos, la devolución de saldos a favor se efectuará una vez compensadas las deudas y obligaciones de plazo vencido del contribuyente o responsable. En el mismo acto que ordene la devolución, se compensarán las deudas y obligaciones a cargo del contribuyente o responsable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En todos los casos, la devolución de saldos a favor se efectuará una vez compensadas las deudas y obligaciones de plazo vencido del contribuyente o responsable. En el mismo acto que ordene la devolución, se compensarán las deudas y obligaciones a cargo del contribuyente o responsable.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 861",
+  "titulo": "Art. 861. Compensación previa a la devolución.",
+  "titulo_corto": "Compensación previa a la devolución.",
+  "slug": "861",
+  "url_origen": "https://estatuto.co/861",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En todos los casos, la devolución de saldos a favor se efectuará una vez compensadas las deudas y obligaciones de plazo vencido del contribuyente o responsable. En el mismo acto que ordene la devolución, se compensarán las deudas y obligaciones a cargo del contribuyente o responsable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En todos los casos, la devolución de saldos a favor se efectuará una vez compensadas las deudas y obligaciones de plazo vencido del contribuyente o responsable. En el mismo acto que ordene la devolución, se compensarán las deudas y obligaciones a cargo del contribuyente o responsable.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0123 (2018-02-13): &iquest;Es viable compensar un saldo a favor reconocido mediante una sentencia a una sociedad liquidada y constituida en patrimonio aut&oacute;nomo que a su vez tiene obligaciones fiscales con la DIAN originadas en otra sentencia?\noficio 0496 (2016-05-31): &iquest;Son eficaces las declaraciones de retenci&oacute;n en la fuente que se presentan sin pago concomitante, pero que el mismo se materializa con posterioridad: mediante la expedici&oacute;n de actos administrativos que deben ser proferidos por la DIAN, en atenci&oacute;n a lo establecido en normas especiales que permiten realizar el pago con mecanismos diferentes al efectivo?\noficio 30263 (2014-05-19): &iquest;Se configura la ineficacia de la declaraci&oacute;n de retenci&oacute;n en la fuente presentada con pago parcial, cuando el agente de retenci&oacute;n titular de un saldo a favor superior a ochenta y dos mil UVT, dentro de los seis (6) meses siguientes decide no solicitar su compensaci&oacute;n y en cambio pagar el saldo faltante con los intereses correspondientes?\noficio 27420 (2014-05-06): Aclaraci&oacute;n y complemento del alcance del Oficio n&uacute;mero 71630 del 8 de noviembre de 2013, conforme con el cual, la Administraci&oacute;n Tributaria previamente a la compensaci&oacute;n de saldos debe tener en cuenta los pagos parciales efectuados por los contribuyentes\noficio 38186 (2012-06-14): &iquest;Es ineficaz la declaraci&oacute;n de retenci&oacute;n en la fuente cuando es presentada por un contribuyente sometido a proceso concursal o de insolvencia, cuando paga por un medio distinto al efectivo o con las retenciones en la fuente?&iquest;Una declaraci&oacute;n de retenci&oacute;n en la fuente sin pago en vigencia de la Ley 1430 de 2010 puede ser objeto del proceso de cobro coactivo y culminar con la aplicaci&oacute;n de t&iacute;tulos de dep&oacute;sito judicial?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0123-2018",
+      "tipo": "oficio",
+      "numero": "0123",
+      "fecha": "2018-02-13",
+      "tema": "&iquest;Es viable compensar un saldo a favor reconocido mediante una sentencia a una sociedad liquidada y constituida en patrimonio aut&oacute;nomo que a su vez tiene obligaciones fiscales con la DIAN originadas en otra sentencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0496-2016",
+      "tipo": "oficio",
+      "numero": "0496",
+      "fecha": "2016-05-31",
+      "tema": "&iquest;Son eficaces las declaraciones de retenci&oacute;n en la fuente que se presentan sin pago concomitante, pero que el mismo se materializa con posterioridad: mediante la expedici&oacute;n de actos administrativos que deben ser proferidos por la DIAN, en atenci&oacute;n a lo establecido en normas especiales que permiten realizar el pago con mecanismos diferentes al efectivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30263-2014",
+      "tipo": "oficio",
+      "numero": "30263",
+      "fecha": "2014-05-19",
+      "tema": "&iquest;Se configura la ineficacia de la declaraci&oacute;n de retenci&oacute;n en la fuente presentada con pago parcial, cuando el agente de retenci&oacute;n titular de un saldo a favor superior a ochenta y dos mil UVT, dentro de los seis (6) meses siguientes decide no solicitar su compensaci&oacute;n y en cambio pagar el saldo faltante con los intereses correspondientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27420-2014",
+      "tipo": "oficio",
+      "numero": "27420",
+      "fecha": "2014-05-06",
+      "tema": "Aclaraci&oacute;n y complemento del alcance del Oficio n&uacute;mero 71630 del 8 de noviembre de 2013, conforme con el cual, la Administraci&oacute;n Tributaria previamente a la compensaci&oacute;n de saldos debe tener en cuenta los pagos parciales efectuados por los contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38186-2012",
+      "tipo": "oficio",
+      "numero": "38186",
+      "fecha": "2012-06-14",
+      "tema": "&iquest;Es ineficaz la declaraci&oacute;n de retenci&oacute;n en la fuente cuando es presentada por un contribuyente sometido a proceso concursal o de insolvencia, cuando paga por un medio distinto al efectivo o con las retenciones en la fuente?&iquest;Una declaraci&oacute;n de retenci&oacute;n en la fuente sin pago en vigencia de la Ley 1430 de 2010 puede ser objeto del proceso de cobro coactivo y culminar con la aplicaci&oacute;n de t&iacute;tulos de dep&oacute;sito judicial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13126-2012",
+      "tipo": "oficio",
+      "numero": "13126",
+      "fecha": "2012-02-28",
+      "tema": "Posibilidad de compensar el saldo a favor de que trata el art&iacute;culo 580-1 del Estatuto Tributario - Composici&oacute;n del saldo a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79798-2008",
+      "tipo": "oficio",
+      "numero": "79798",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cuando el contribuyente en las solicitudes de devoluci&oacute;n o compensaci&oacute;n no indica el impuesto y periodo al cual se deben imputar los saldos a su favor, puede la Administraci&oacute;n compensarlos prioritariamente a las declaraciones de retenci&oacute;n de la fuente que se presenten sin pago y dejar de hacerlo con las obligaciones m&aacute;s antiguas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73016-2008",
+      "tipo": "oficio",
+      "numero": "73016",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Tiene derecho a devoluci&oacute;n un contribuyente que liquid&oacute; anticipo de renta o de la sobretasa para el per&iacute;odo fiscal siguiente, cuando los mismos por efecto de liquidaci&oacute;n o por no existir la obligaci&oacute;n de declarar en el periodo inmediatamente siguiente, quedan pendientes de su utilizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50297-2008",
+      "tipo": "oficio",
+      "numero": "50297",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que deber&aacute;n emplear las sociedades extranjeras sin sucursal en Colombia, que declararon y liquidaron renta presuntiva guiadas por el concepto 085384 de 2005, para obtener devoluci&oacute;n de los dineros pagados con base en dichas declaraciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0085769-2007",
+      "tipo": "concepto",
+      "numero": "0085769",
+      "fecha": "2007-01-01",
+      "tema": "Cu&aacute;ndo se efect&uacute;a un pago en exceso, de lo no debido o exista un saldo a favor del contribuyente y posteriormente surge una sanci&oacute;n, &iquest;c&oacute;mo se hace la imputaci&oacute;n de esos valores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029943-2005",
+      "tipo": "concepto",
+      "numero": "0029943",
+      "fecha": "2005-05-19",
+      "tema": "&iquest;La extinci&oacute;n de obligaciones por concepto de impuestos, anticipos y retenciones mediante compensaci&oacute;n del saldo a favor generado por imputaciones sucesivas que acumulan saldos a favor de per&iacute;odos fiscales anteriores, causa intereses moratorios cuando las deudas a compensar son anteriores a la generaci&oacute;n del saldo a favor objeto de compensaci&oacute;n?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0083326-2004",
+      "tipo": "concepto",
+      "numero": "0083326",
+      "fecha": "2004-11-26",
+      "tema": "- &iquest;Desde qu&eacute; fecha se deben liquidar los intereses moratorios, sobre una compensaci&oacute;n improcedente, ya sea porque el contribuyente corrigi&oacute; la declaraci&oacute;n en la que se origin&oacute; el saldo a favor o porque la Administraci&oacute;n Tributaria profiri&oacute; una liquidaci&oacute;n oficial de revisi&oacute;n, con posterioridad a la fecha de la resoluci&oacute;n de compensaci&oacute;n, en las que el saldo a favor fue disminuido total o parcialmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015934-2004",
+      "tipo": "concepto",
+      "numero": "0015934",
+      "fecha": "2004-03-17",
+      "tema": "&iquest;Es procedente solicitar a la administraci&oacute;n tributaria compensaci&oacute;n de los valores a favor de los contribuyentes, responsables y agentes de retenci&oacute;n, consignados con ocasi&oacute;n del acuerdo conciliatorio de la ley 633 de 2000, para ser imputados de conformidad con lo previsto en el art&iacute;culo 32 de la ley 863 de 2003?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083266-2002",
+      "tipo": "concepto",
+      "numero": "0083266",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Puede la Administraci&oacute;n Tributaria en forma oficiosa, compensar el impuesto para Preservar la Seguridad Democr&aacute;tica con otro impuesto nacional?&iquest;Al momento de establecer el patrimonio base para la determinaci&oacute;n del impuesto para Preservar la Seguridad Democr&aacute;tica en las sociedades an&oacute;nimas, debe tomarse el capital suscrito o el capital pagado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077917-2002",
+      "tipo": "concepto",
+      "numero": "0077917",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Se configura pago en exceso en la compensaci&oacute;n de mayores valores que los adeudados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075488-2002",
+      "tipo": "concepto",
+      "numero": "0075488",
+      "fecha": "2002-11-21",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para la devoluci&oacute;n del Gravamen a los Movimientos Financieros para los contribuyentes que suscribieron Contratos de Estabilidad Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-68468-2002",
+      "tipo": "concepto",
+      "numero": "68468",
+      "fecha": "2002-10-21",
+      "tema": "Acuerdos de reestructuraci&oacute;n con entidades financieras - Compensaci&oacute;n previa a la devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53700-2002",
+      "tipo": "concepto",
+      "numero": "53700",
+      "fecha": "2002-08-22",
+      "tema": "Extraordinario de Revocatoria Directa - Compensaci&oacute;n previa a la devoluci&oacute;n de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0113492-2000",
+      "tipo": "concepto",
+      "numero": "0113492",
+      "fecha": "2000-11-20",
+      "tema": "&iquest;Cuando una sentencia de la jurisdicci&oacute;n contenciosa ordena la devoluci&oacute;n de una suma de dinero por saldos a favor de un contribuyente; pero no ordena el reconocimiento de intereses, puede la Administraci&oacute;n de Impuestos reconocerle dichos intereses por configurarse los presupuesto contemplados en el art&iacute;culo 863 del Estatuto Tributario? &iquest;Si el contribuyente no solicita devoluci&oacute;n sino compensaci&oacute;n y esta no es posible en raz&oacute;n a que la obligaci&oacute;n del contribuyente fue cancelada antes de proferirse el fallo, es viable la devoluci&oacute;n del saldo a su favor, con el reconocimiento de intereses? &iquest;Cuando mediante un fallo se ordena la compensaci&oacute;n solicitada por el contribuyente, la cual ya hab&iacute;a sido cancelada, es procedente hacer la compensaci&oacute;n con otras obligaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049777-1999",
+      "tipo": "concepto",
+      "numero": "0049777",
+      "fecha": "1999-05-27",
+      "tema": "&iquest; Cual es el procedimiento a seguir para exigir la restituci&oacute;n de sumas indebidamente devueltas cuando el contribuyente corrige voluntariamente en desarrollo del proceso de determinaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035162-1999",
+      "tipo": "concepto",
+      "numero": "0035162",
+      "fecha": "1999-04-13",
+      "tema": "Seg&uacute;n la jurisprudencia, las peticiones de correcci&oacute;n de las declaraciones que los contribuyentes hacen con fundamento en el art&iacute;culo 589 del Estatuto Tributario no pueden ser negadas por cuestiones de fondo, por cuanto para eso existe el proceso de revisi&oacute;n para la modificaci&oacute;n de las declaraciones previo requerimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080951-1998",
+      "tipo": "concepto",
+      "numero": "0080951",
+      "fecha": "1998-10-15",
+      "tema": "&iquest;Pueden los agentes retenedores abstenerse de consignar las retenciones en la fuente por corresponder las mismas a sumas que ser&aacute;n objeto de compensaci&oacute;n por saldos a favor existentes en las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036025-1997",
+      "tipo": "concepto",
+      "numero": "0036025",
+      "fecha": "1997-12-30",
+      "tema": "&iquest;Pueden ser devueltos los saldos a favor determinados en las declaraciones tributarias de sociedades en estado de liquidaci&oacute;n forzosa para que, como activos patrimoniales, pasen a formar parte del patrimonio a liquidar observando el orden de prelaci&oacute;n de cr&eacute;ditos, cuando la sociedad tiene a la vez deudas insolutas por otros per&iacute;odos e impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035070-1994",
+      "tipo": "concepto",
+      "numero": "0035070",
+      "fecha": "1994-05-20",
+      "tema": "&iquest;Debe entenderse que el impuesto a las ventas que otorga derecho devoluci&oacute;n seg&uacute;n el Decreto 2627 de 1993, es el efectivamente pagado, o debe acudirse a las normas que regulan la causaci&oacute;n del impuesto; esto es, la fecha de emisi&oacute;n de la factura o documento equivalente? &iquest;Es procedente que la solicitud y el recurso de reposici&oacute;n se presenten por interpuesta persona? &iquest;Qu&eacute; actitud debe tomarse cuando las facturas correspondan a proveedores no inscritos en el R&eacute;gimen Com&uacute;n del Registro Nacional de Vendedores? &iquest;Respecto de entidades p&uacute;blicas que no tienen personer&iacute;a jur&iacute;dica independiente y act&uacute;an a trav&eacute;s del NIT de la instituci&oacute;n de la cual dependen, se podr&iacute;a compensar de oficio a deudas por retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronDown, ChevronUp, ExternalLink, Tag } from "lucide-react";
+import { ChevronDown, ChevronUp, ExternalLink, Tag, Copy, Check } from "lucide-react";
+import { useState } from "react";
 import { clsx } from "clsx";
 import type { NovedadEnriquecida } from "@/config/novedades-data";
 import { NovedadImpactBadge } from "@/components/novedades/NovedadImpactBadge";
@@ -43,6 +44,19 @@ function formatFecha(fechaIso: string): string {
 }
 
 export function NovedadExpandableCard({ novedad, expanded, highlighted, onToggle }: NovedadExpandableCardProps) {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = async () => {
+    const text = `*${novedad.titulo}*\n\n*Resumen:* ${novedad.resumen}\n\n*Qué significa:* ${novedad.queSignificaParaTi}\n\n*Acción recomendada:* ${novedad.accionRecomendada}\n\n_Vía SuperApp Tributaria Colombia_`;
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Error al copiar", err);
+    }
+  };
+
   return (
     <article
       id={novedad.id}
@@ -51,14 +65,25 @@ export function NovedadExpandableCard({ novedad, expanded, highlighted, onToggle
         highlighted ? "border-foreground/40 ring-1 ring-foreground/20" : "border-border/60"
       )}
     >
-      <div className="mb-2 flex flex-wrap items-center gap-2">
-        <span className="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground">
-          {formatFecha(novedad.fecha)}
-        </span>
-        <span className="rounded-full border border-border px-2.5 py-0.5 text-xs font-medium text-foreground">
-          {TIPO_LABEL[novedad.tipo]}
-        </span>
-        <NovedadImpactBadge impacto={novedad.impactoVisual} />
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground">
+            {formatFecha(novedad.fecha)}
+          </span>
+          <span className="rounded-full border border-border px-2.5 py-0.5 text-xs font-medium text-foreground">
+            {TIPO_LABEL[novedad.tipo]}
+          </span>
+          <NovedadImpactBadge impacto={novedad.impactoVisual} />
+        </div>
+        
+        <button
+          onClick={handleCopy}
+          className="inline-flex items-center gap-1.5 text-[10px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+          title="Copiar resumen para enviar a clientes"
+        >
+          {copied ? <Check className="h-3 w-3 text-emerald-500" /> : <Copy className="h-3 w-3" />}
+          {copied ? "Copiado" : "Copiar resumen"}
+        </button>
       </div>
 
       <h3 className="heading-serif text-xl text-foreground">{novedad.titulo}</h3>
@@ -134,8 +159,15 @@ export function NovedadExpandableCard({ novedad, expanded, highlighted, onToggle
                 Conexión con calendario
               </p>
               <p className="mt-1 text-sm text-foreground">
-                Esta novedad modifica o impacta fechas de cumplimiento.
+                Esta novedad modifica o impacta fechas de cumplimiento para:
               </p>
+              {novedad.calendarioRefs && novedad.calendarioRefs.length > 0 && (
+                <ul className="mt-1 list-inside list-disc text-xs text-muted-foreground">
+                  {novedad.calendarioRefs.map((ref) => (
+                    <li key={ref}>{ref}</li>
+                  ))}
+                </ul>
+              )}
               <Link
                 href={`/calendario?novedad=${novedad.id}`}
                 className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-foreground underline underline-offset-2 decoration-border hover:decoration-foreground"

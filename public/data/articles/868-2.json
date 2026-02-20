@@ -1,1 +1,54 @@
-{"id_articulo": "Art. 868-2", "titulo": "Art. 868-2. Moneda para efectos fiscales.", "titulo_corto": "Moneda para efectos fiscales.", "slug": "868-2", "url_origen": "https://estatuto.co/868-2", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Para efectos fiscales, la información financiera y contable así como sus elementos activos, pasivos, patrimonio, ingresos, costos y gastos, se llevarán y presentarán en pesos colombianos, desde el momento de su reconocimiento inicial y posteriormente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos fiscales, la información financiera y contable así como sus elementos activos, pasivos, patrimonio, ingresos, costos y gastos, se llevarán y presentarán en pesos colombianos, desde el momento de su reconocimiento inicial y posteriormente.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 138.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "138"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 868-2",
+  "titulo": "Art. 868-2. Moneda para efectos fiscales.",
+  "titulo_corto": "Moneda para efectos fiscales.",
+  "slug": "868-2",
+  "url_origen": "https://estatuto.co/868-2",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Para efectos fiscales, la información financiera y contable así como sus elementos activos, pasivos, patrimonio, ingresos, costos y gastos, se llevarán y presentarán en pesos colombianos, desde el momento de su reconocimiento inicial y posteriormente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para efectos fiscales, la información financiera y contable así como sus elementos activos, pasivos, patrimonio, ingresos, costos y gastos, se llevarán y presentarán en pesos colombianos, desde el momento de su reconocimiento inicial y posteriormente.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 138.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "138"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 4516 (2024-07-08): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4516-2024",
+      "tipo": "oficio",
+      "numero": "4516",
+      "fecha": "2024-07-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    }
+  ]
+}

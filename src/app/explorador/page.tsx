@@ -21,6 +21,8 @@ import { ArticleGrid } from "@/components/explorer/article-grid";
 import { ArticleList } from "@/components/explorer/article-list";
 import { RelationshipGraph } from "@/components/explorer/relationship-graph";
 import { FeaturedArticles } from "@/components/explorer/featured-articles";
+import { SkeletonGrid, SkeletonList } from "@/components/explorer/explorer-skeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 import { normalizeForSearch } from "@/lib/utils/text-normalize";
 import { matchesLawFilter } from "@/lib/utils/law-normalize";
 import type { ArticleIndexEnrichedItem } from "@/lib/types/articles";
@@ -269,17 +271,6 @@ function ExploradorContent() {
     []
   );
 
-  if (loading) {
-    return (
-      <div className="flex min-h-screen flex-col">
-        <Header />
-        <main className="flex flex-1 items-center justify-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-foreground border-t-transparent" />
-        </main>
-      </div>
-    );
-  }
-
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
@@ -295,36 +286,42 @@ function ExploradorContent() {
 
           <div className="flex items-center gap-1 rounded-lg border border-border p-1">
             <button
+              disabled={loading}
               onClick={() => setView("grid")}
               className={clsx(
                 "flex items-center gap-1.5 rounded px-3 py-2 text-sm transition-colors",
                 view === "grid"
                   ? "bg-foreground text-background"
-                  : "text-muted-foreground hover:text-foreground"
+                  : "text-muted-foreground hover:text-foreground",
+                loading && "opacity-50 cursor-not-allowed"
               )}
             >
               <Grid3X3 className="h-4 w-4" />
               Grid
             </button>
             <button
+              disabled={loading}
               onClick={() => setView("list")}
               className={clsx(
                 "flex items-center gap-1.5 rounded px-3 py-2 text-sm transition-colors",
                 view === "list"
                   ? "bg-foreground text-background"
-                  : "text-muted-foreground hover:text-foreground"
+                  : "text-muted-foreground hover:text-foreground",
+                loading && "opacity-50 cursor-not-allowed"
               )}
             >
               <List className="h-4 w-4" />
               Lista
             </button>
             <button
+              disabled={loading}
               onClick={() => setView("graph")}
               className={clsx(
                 "flex items-center gap-1.5 rounded px-3 py-2 text-sm transition-colors",
                 view === "graph"
                   ? "bg-foreground text-background"
-                  : "text-muted-foreground hover:text-foreground"
+                  : "text-muted-foreground hover:text-foreground",
+                loading && "opacity-50 cursor-not-allowed"
               )}
             >
               <GitBranch className="h-4 w-4" />
@@ -339,10 +336,28 @@ function ExploradorContent() {
         </div>
 
         <div className="mb-6">
-          <FeaturedArticles data={featured} />
+          {loading ? (
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="h-40 rounded-xl border border-border/40 bg-card p-4">
+                  <Skeleton className="h-6 w-1/3 mb-4" />
+                  <Skeleton className="h-4 w-full mb-2" />
+                  <Skeleton className="h-4 w-3/4 mb-4" />
+                  <div className="flex gap-2">
+                    <Skeleton className="h-6 w-16 rounded-full" />
+                    <Skeleton className="h-6 w-16 rounded-full" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <FeaturedArticles data={featured} />
+          )}
         </div>
 
-        {view === "graph" ? (
+        {loading ? (
+          view === "grid" ? <SkeletonGrid /> : <SkeletonList />
+        ) : view === "graph" ? (
           graphError || !graphData ? (
             <div className="flex flex-col items-center justify-center rounded-lg border border-border bg-muted/50 py-16">
               <AlertCircle className="mb-3 h-8 w-8 text-muted-foreground" />

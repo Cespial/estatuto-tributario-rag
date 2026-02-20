@@ -1,1 +1,395 @@
-{"id_articulo": "Art. 868", "titulo": "Art. 868. Unidad de valor tributario, UVT.", "titulo_corto": "Unidad de valor tributario, UVT.", "slug": "868", "url_origen": "https://estatuto.co/868", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*Con el fin de unificar y facilitar el cumplimiento de las obligaciones tributarias se crea la unidad de Valor Tributario, UVT. La UVT es la medida de valor que permite ajustar los valores contenidos en las disposiciones relativas a los impuestos y obligaciones administrados por la Dirección de Impuestos y Aduanas Nacionales. El valor de la unidad de valor tributario se reajustará anualmente en la variación del índice de precios al consumidor para ingresos medios, certificado por el Departamento Administrativo Nacional de Estadística, en el período comprendido entre el primero (1) de octubre del año anterior al gravable y la misma fecha del año inmediatamente anterior a este. De acuerdo con lo previsto en el presente artículo, el Director General de la Dirección de Impuestos y Aduanas Nacionales publicará mediante Resolución antes del primero (1) de enero de cada año, el valor de la UVT aplicable para el año gravable siguiente. Si no lo publicare oportunamente, el contribuyente aplicará el aumento autorizado. El valor en pesos de la UVT será de veinte mil pesos ($25.132.00) (Valor año base 2011). Todas las cifras y valores absolutos aplicables a impuestos, sanciones y en general a los asuntos previstos en las disposiciones tributarias se expresarán en UVT. Cuando las normas tributarias expresadas en UVT se conviertan en valores absolutos, se empleará el procedimiento de aproximaciones que se señala a continuación, a fin de obtener cifras enteras y de fácil operación: a) Se prescindirá de las fracciones de peso, tomando el número entero más próximo cuando el resultado sea de cien pesos ($100) o menos; b) Se aproximará al múltiplo de cien más cercano, si el resultado estuviere entre cien pesos ($100) y diez mil pesos ($10.000); c) Se aproximará al múltiplo de mil más cercano, cuando el resultado fuere superior a diez mil pesos ($10.000).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Con el fin de unificar y facilitar el cumplimiento de las obligaciones tributarias se crea la unidad de Valor Tributario, UVT. La UVT es la medida de valor que permite ajustar los valores contenidos en las disposiciones relativas a los impuestos y obligaciones administrados por la Dirección de Impuestos y Aduanas Nacionales.</p>\n<p>El valor de la unidad de valor tributario se reajustará anualmente en la variación del índice de precios al consumidor para ingresos medios, certificado por el Departamento Administrativo Nacional de Estadística, en el período comprendido entre el primero (1) de octubre del año anterior al gravable y la misma fecha del año inmediatamente anterior a este.</p>\n<p>De acuerdo con lo previsto en el presente artículo, el Director General de la Dirección de Impuestos y Aduanas Nacionales publicará mediante Resolución antes del primero (1) de enero de cada año, el valor de la UVT aplicable para el año gravable siguiente. Si no lo publicare oportunamente, el contribuyente aplicará el aumento autorizado.</p>\n<p>El valor en pesos de la UVT será de veinte mil pesos ($25.132.00) (Valor año base 2011).</p>\n<p>Todas las cifras y valores absolutos aplicables a impuestos, sanciones y en general a los asuntos previstos en las disposiciones tributarias se expresarán en UVT.</p>\n<p>Cuando las normas tributarias expresadas en UVT se conviertan en valores absolutos, se empleará el procedimiento de aproximaciones que se señala a continuación, a fin de obtener cifras enteras y de fácil operación:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>Se prescindirá de las fracciones de peso, tomando el número entero más próximo cuando el resultado sea de cien pesos ($100) o menos;</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>Se aproximará al múltiplo de cien más cercano, si el resultado estuviere entre cien pesos ($100) y diez mil pesos ($10.000);</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>Se aproximará al múltiplo de mil más cercano, cuando el resultado fuere superior a diez mil pesos ($10.000).</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art 50.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "50"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "488", "norma_year": 1998, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006", "Ley 488 de 1998"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["70", "149", "628"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 868",
+  "titulo": "Art. 868. Unidad de valor tributario, UVT.",
+  "titulo_corto": "Unidad de valor tributario, UVT.",
+  "slug": "868",
+  "url_origen": "https://estatuto.co/868",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*Con el fin de unificar y facilitar el cumplimiento de las obligaciones tributarias se crea la unidad de Valor Tributario, UVT. La UVT es la medida de valor que permite ajustar los valores contenidos en las disposiciones relativas a los impuestos y obligaciones administrados por la Dirección de Impuestos y Aduanas Nacionales. El valor de la unidad de valor tributario se reajustará anualmente en la variación del índice de precios al consumidor para ingresos medios, certificado por el Departamento Administrativo Nacional de Estadística, en el período comprendido entre el primero (1) de octubre del año anterior al gravable y la misma fecha del año inmediatamente anterior a este. De acuerdo con lo previsto en el presente artículo, el Director General de la Dirección de Impuestos y Aduanas Nacionales publicará mediante Resolución antes del primero (1) de enero de cada año, el valor de la UVT aplicable para el año gravable siguiente. Si no lo publicare oportunamente, el contribuyente aplicará el aumento autorizado. El valor en pesos de la UVT será de veinte mil pesos ($25.132.00) (Valor año base 2011). Todas las cifras y valores absolutos aplicables a impuestos, sanciones y en general a los asuntos previstos en las disposiciones tributarias se expresarán en UVT. Cuando las normas tributarias expresadas en UVT se conviertan en valores absolutos, se empleará el procedimiento de aproximaciones que se señala a continuación, a fin de obtener cifras enteras y de fácil operación: a) Se prescindirá de las fracciones de peso, tomando el número entero más próximo cuando el resultado sea de cien pesos ($100) o menos; b) Se aproximará al múltiplo de cien más cercano, si el resultado estuviere entre cien pesos ($100) y diez mil pesos ($10.000); c) Se aproximará al múltiplo de mil más cercano, cuando el resultado fuere superior a diez mil pesos ($10.000).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Con el fin de unificar y facilitar el cumplimiento de las obligaciones tributarias se crea la unidad de Valor Tributario, UVT. La UVT es la medida de valor que permite ajustar los valores contenidos en las disposiciones relativas a los impuestos y obligaciones administrados por la Dirección de Impuestos y Aduanas Nacionales.</p>\n<p>El valor de la unidad de valor tributario se reajustará anualmente en la variación del índice de precios al consumidor para ingresos medios, certificado por el Departamento Administrativo Nacional de Estadística, en el período comprendido entre el primero (1) de octubre del año anterior al gravable y la misma fecha del año inmediatamente anterior a este.</p>\n<p>De acuerdo con lo previsto en el presente artículo, el Director General de la Dirección de Impuestos y Aduanas Nacionales publicará mediante Resolución antes del primero (1) de enero de cada año, el valor de la UVT aplicable para el año gravable siguiente. Si no lo publicare oportunamente, el contribuyente aplicará el aumento autorizado.</p>\n<p>El valor en pesos de la UVT será de veinte mil pesos ($25.132.00) (Valor año base 2011).</p>\n<p>Todas las cifras y valores absolutos aplicables a impuestos, sanciones y en general a los asuntos previstos en las disposiciones tributarias se expresarán en UVT.</p>\n<p>Cuando las normas tributarias expresadas en UVT se conviertan en valores absolutos, se empleará el procedimiento de aproximaciones que se señala a continuación, a fin de obtener cifras enteras y de fácil operación:</p>\n<p><strong><span style=\"color: #339966;\">a)</span> </strong>Se prescindirá de las fracciones de peso, tomando el número entero más próximo cuando el resultado sea de cien pesos ($100) o menos;</p>\n<p><strong><span style=\"color: #339966;\">b)</span> </strong>Se aproximará al múltiplo de cien más cercano, si el resultado estuviere entre cien pesos ($100) y diez mil pesos ($10.000);</p>\n<p><strong><span style=\"color: #339966;\">c)</span> </strong>Se aproximará al múltiplo de mil más cercano, cuando el resultado fuere superior a diez mil pesos ($10.000).</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1111 de 2006 Art 50.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "50"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "488",
+      "norma_year": 1998,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006",
+    "Ley 488 de 1998"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "70",
+    "149",
+    "628"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 903531 (2022-05-06): Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria\noficio 914975 (2021-12-06): Impuesto sobre la renta - Ajuste al costo de los activos fijos Valor patrimonial\noficio 910706 (2021-09-27): (Int 0342) Impuesto sobre la renta - Ajuste al costo fiscal de los activos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-903531-2022",
+      "tipo": "oficio",
+      "numero": "903531",
+      "fecha": "2022-05-06",
+      "tema": "Retenci&oacute;n en la fuente en indemnizaciones derivadas de una relaci&oacute;n laboral o legal y reglamentaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914975-2021",
+      "tipo": "oficio",
+      "numero": "914975",
+      "fecha": "2021-12-06",
+      "tema": "Impuesto sobre la renta - Ajuste al costo de los activos fijos Valor patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910706-2021",
+      "tipo": "oficio",
+      "numero": "910706",
+      "fecha": "2021-09-27",
+      "tema": "(Int 0342) Impuesto sobre la renta - Ajuste al costo fiscal de los activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900594-2021",
+      "tipo": "oficio",
+      "numero": "900594",
+      "fecha": "2021-01-28",
+      "tema": "&iquest;El art&iacute;culo 70 del Estatuto Tributario puede aplicar para no residentes que deben presentar declaraci&oacute;n de renta derivada de la venta de acciones pose&iacute;das en sociedades colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7286-2019",
+      "tipo": "oficio",
+      "numero": "7286",
+      "fecha": "2019-03-27",
+      "tema": "Sucesiones Il&iacute;quidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6564-2019",
+      "tipo": "oficio",
+      "numero": "6564",
+      "fecha": "2019-03-15",
+      "tema": "Costo de los activos fijos - contribuci&oacute;n por valorizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0782-2018",
+      "tipo": "oficio",
+      "numero": "0782",
+      "fecha": "2018-03-22",
+      "tema": "Impuesto sobre la renta y complementarios - Ajuste al costo de los activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12331-2016",
+      "tipo": "oficio",
+      "numero": "12331",
+      "fecha": "2016-05-19",
+      "tema": "&iquest;Cu&aacute;l es el valor que se debe causar a 31 de diciembre del respectivo a&ntilde;o para una persona natural obligada a llevar libros de contabilidad y para una persona jur&iacute;dica? &iquest;El valor de las retenciones en la fuente y anticipos practicados durante el ejercicio fiscal tanto de una persona natural como de una jur&iacute;dica, como se aplica para determinar el incremento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34403-2015",
+      "tipo": "oficio",
+      "numero": "34403",
+      "fecha": "2015-12-01",
+      "tema": "Consulta el tratamiento tributario de un activo fijo, espec&iacute;ficamente los temas de p&eacute;rdidas en la enajenaci&oacute;n de activos, impuesto de ganancia ocasional y renta especial por recuperaci&oacute;n de la depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59045-2014",
+      "tipo": "oficio",
+      "numero": "59045",
+      "fecha": "2014-10-17",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario que se debe dar a las inversiones realizadas en empresas de captaci&oacute;n ilegal de recursos del p&uacute;blico, en las cuales se determinaron que dichos recursos posiblemente no se pueden considerar perdidas del todo, ya que existe la posibilidad de que por orden judicial se reintegre parte de la inversi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45345-2014",
+      "tipo": "oficio",
+      "numero": "45345",
+      "fecha": "2014-01-01",
+      "tema": "Condici&oacute;n especial para el pago de impuestos, tasas y contribuciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72430-2013",
+      "tipo": "oficio",
+      "numero": "72430",
+      "fecha": "2013-11-13",
+      "tema": "&iquest;Genera renta gravable en cabeza de una sociedad que aporta a otra sociedad un bien inmueble cuyo costo fiscal, en cabeza del aportante es inferior a su valor comercial y recibe acciones en la receptora por valor nominal igual al valor comercial del bien aportado?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-72381-2013",
+      "tipo": "oficio",
+      "numero": "72381",
+      "fecha": "2013-11-13",
+      "tema": "Naturaleza de las estampillas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-69997-2013",
+      "tipo": "oficio",
+      "numero": "69997",
+      "fecha": "2013-10-31",
+      "tema": "&iquest;Debe o no declararse la renta l&iacute;quida por la recuperaci&oacute;n de las al&iacute;cuotas de deducci&oacute;n solicitadas respecto de activos fijos reales productivos sobre los que, habi&eacute;ndose solicitado la deducci&oacute;n por su adquisici&oacute;n de acuerdo con el Art. 158-2 del Estatuto Tributario (entiende el Despacho - antes de la adici&oacute;n del Par&aacute;grafo 3o que a este art&iacute;culo hizo el art&iacute;culo 1 de la Ley 1430 de 2010), son aportados a sociedades nacionales -cumpliendo las condiciones del art&iacute;culo 319 del Estatuto Tributario- antes del vencimiento del t&eacute;rmino de depreciaci&oacute;n o amortizaci&oacute;n, seg&uacute;n la naturaleza del bien objeto del aporte?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0065791-2013",
+      "tipo": "concepto",
+      "numero": "0065791",
+      "fecha": "2013-01-01",
+      "tema": "&iquest;C&oacute;mo debe realizarse la aproximaci&oacute;n de los valores de las declaraciones tributarias consagrada en el art&iacute;culo 577 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72390-2012",
+      "tipo": "oficio",
+      "numero": "72390",
+      "fecha": "2012-11-20",
+      "tema": "Retenci&oacute;n en la fuente por ingresos laborales - C&aacute;lculo del porcentaje de retenci&oacute;n por el procedimiento n&uacute;mero 2",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58132-2012",
+      "tipo": "oficio",
+      "numero": "58132",
+      "fecha": "2012-09-13",
+      "tema": "&iquest;Es deducible en la determinaci&oacute;n del impuesto sobre la renta, la p&eacute;rdida proveniente de la enajenaci&oacute;n de activos representados en inversiones financieras diferentes a las acciones, obtenida por empresas que tienen dentro de su objeto social la realizaci&oacute;n de dichas inversiones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81582-2011",
+      "tipo": "oficio",
+      "numero": "81582",
+      "fecha": "2011-10-19",
+      "tema": "&iquest;Para realizar el c&aacute;lculo de la retenci&oacute;n en la fuente por salarlos del primer semestre del 2011 aplicando el m&eacute;todo dos establecido en el art&iacute;culo 386 del Estatuto Tributario, el valor de la UVT a tener en cuenta es el correspondiente al 2010 o al 2011? &iquest;Cu&aacute;l es la tarifa de Retenci&oacute;n de IVA que un Gran Contribuyente proveedor de una Sociedad Comercializadora Internacional debe practicar a sus proveedores de bienes corporales muebles o servicios gravados que pertenezca al r&eacute;gimen com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17682-2010",
+      "tipo": "oficio",
+      "numero": "17682",
+      "fecha": "2010-03-12",
+      "tema": "Solicita ampliar la respuesta dada al radicado 86489 de septiembre 9 de 2009, en cuanto a cu&aacute;l es el valor para determinar la ganancia ocasional en la declaraci&oacute;n de renta del a&ntilde;o gravable 2008 de los herederos, de una sucesi&oacute;n il&iacute;quida cuya partici&oacute;n de los bienes inmuebles se protocoliza a&ntilde;os despu&eacute;s de ocurrido el fallecimiento del causante, por un valor diferente al costo fiscal",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-25256-2009",
+      "tipo": "oficio",
+      "numero": "25256",
+      "fecha": "2009-03-31",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106570-2008",
+      "tipo": "oficio",
+      "numero": "106570",
+      "fecha": "2008-10-24",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento aplicable en materia de Gravamen a los Movimientos Financieros (GMF), a las mesadas que son consignadas a los pensionados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95985-2007",
+      "tipo": "oficio",
+      "numero": "95985",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Al desaparecer los ajustes por inflaci&oacute;n para los contribuyentes obligados a llevar contabilidad, el valor patrimonial en el caso de los inmuebles, las acciones y aportes en sociedades a partir del a&ntilde;o gravable 2007 es el costo fiscal ajustado por inflaci&oacute;n hasta el 31 de diciembre de 2006m&aacute;s el porcentaje de la UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91983-2007",
+      "tipo": "oficio",
+      "numero": "91983",
+      "fecha": "2007-01-01",
+      "tema": "Ajuste al costo de activos fijos de que trata el art&iacute;culo 70 del E.T. en el porcentaje se&ntilde;alado en el art&iacute;culo 868 del E.T",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50683-2007",
+      "tipo": "oficio",
+      "numero": "50683",
+      "fecha": "2007-07-09",
+      "tema": "&iquest;Cu&aacute;l es el &aacute;mbito de aplicaci&oacute;n de la redenominaci&oacute;n en UVT de las cifras y valores para efectos fiscales, concretamente, en relaci&oacute;n con los registros oficiales de los saldos de los contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39138-2007",
+      "tipo": "oficio",
+      "numero": "39138",
+      "fecha": "2007-01-01",
+      "tema": "Solicita informaci&oacute;n respecto de la exenci&oacute;n del Gravamen a los Movimientos Financieros para los retiros efectuados de cuentas de ahorro especial de que trata el numeral 14 del art&iacute;culo 879 del Estatuto Tributario, en concordancia con el art&iacute;culo 21 del Decreto 405 de 2001",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052245-2006",
+      "tipo": "concepto",
+      "numero": "0052245",
+      "fecha": "2006-06-20",
+      "tema": "&iquest;Con fundamento en el numeral 7&ordm; del art&iacute;culo 8&ordm; del Decreto 2075 de 1992, modificado por el art&iacute;culo 4&ordm; del Decreto 2591 de 1993; el valor patrimonial por el cual se deben declarar las acciones o aportes en sociedades es el valor intr&iacute;nseco o el valor en bolsa cuando &eacute;stos son inferiores al costo por el PAAG?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091761-2005",
+      "tipo": "concepto",
+      "numero": "0091761",
+      "fecha": "2005-12-12",
+      "tema": "&iquest;Es deducible la p&eacute;rdida en la enajenaci&oacute;n de acciones o cuotas de inter&eacute;s social que eran activos fijos, para los contribuyentes obligados a efectuar ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90117-2005",
+      "tipo": "oficio",
+      "numero": "90117",
+      "fecha": "2005-12-05",
+      "tema": "Solicita aclaraci&oacute;n sobre algunas apreciaciones del art&iacute;culo 272 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051652-2004",
+      "tipo": "concepto",
+      "numero": "0051652",
+      "fecha": "2004-08-17",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073750-2003",
+      "tipo": "concepto",
+      "numero": "0073750",
+      "fecha": "2003-11-14",
+      "tema": "&iquest;Se debe continuar efectuando retenci&oacute;n en la fuente a los pagos provenientes de la relaci&oacute;n laboral o legal y reglamentaria que se realicen con posterioridad a la ejecutoria del auto que decreta la suspensi&oacute;n provisional parcial del art&iacute;culo 1&ordm; del Decreto 3256 de 2002 en relaci&oacute;n con los primeros 19 intervalos de la tabla de retenci&oacute;n en la fuente? - En caso afirmativo, &iquest;cu&aacute;l es el procedimiento para calcular el valor a retener?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030269-1998",
+      "tipo": "concepto",
+      "numero": "0030269",
+      "fecha": "1998-04-30",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008698-1998",
+      "tipo": "concepto",
+      "numero": "0008698",
+      "fecha": "1998-02-13",
+      "tema": "&iquest;Se deben declarar los aportes por el valor hist&oacute;rico ajustado cuando el declarante es una persona sujeta a aplicar los ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091769-1996",
+      "tipo": "concepto",
+      "numero": "0091769",
+      "fecha": "1996-11-23",
+      "tema": "&iquest;Est&aacute;n sometidas a los ajustes integrales por inflaci&oacute;n las valorizaciones t&eacute;cnicas las cuales pueden ser parte del costo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035510-1996",
+      "tipo": "concepto",
+      "numero": "0035510",
+      "fecha": "1996-05-02",
+      "tema": "&iquest;Cu&aacute;l es el costo de los inmuebles que son activos movibles y cu&aacute;l es el valor que se debe consignar en la escritura de compraventa? &iquest;Cu&aacute;l es el valor que se debe consignar en la escritura de venta de un bien ra&iacute;z?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003534-1994",
+      "tipo": "concepto",
+      "numero": "0003534",
+      "fecha": "1994-01-01",
+      "tema": "Factores que pueden incidir en la determinaci&oacute;n del valor comercial de las acciones, apart&aacute;ndolo del valor intr&iacute;nseco de las mismas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014452-1993",
+      "tipo": "concepto",
+      "numero": "0014452",
+      "fecha": "1993-04-15",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario y el porcentaje de Retenci&oacute;n en la fuente aplicable a los contratos Administrativos de prestaci&oacute;n de servicios docentes en la modalidad hora c&aacute;tedra?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008667-1990",
+      "tipo": "concepto",
+      "numero": "0008667",
+      "fecha": "1990-04-17",
+      "tema": "&iquest;Hay posibilidad de calcular la cuota de depreciaci&oacute;n de los activos fijos adquiridos a partir de 1989, para efectos de la declaraci&oacute;n de renta de ese a&ntilde;o con base en el procedimiento se&ntilde;alado por el art&iacute;culo 3o del Decreto 3019 de 1989?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004225-1990",
+      "tipo": "concepto",
+      "numero": "0004225",
+      "fecha": "1990-01-01",
+      "tema": "No se trata de dos exenciones para la Caja de Cr&eacute;dito Agrario Industrial y Miniro, para los contratos celebrados y los documentos otorgados por dicha entidad, en desarrollo de operaciones de fomento a la producci&oacute;n agropecuaria, industrial o minera",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003777-1990",
+      "tipo": "concepto",
+      "numero": "0003777",
+      "fecha": "1990-02-15",
+      "tema": "&iquest;Cu&aacute;l e la diferencia que existe entre costo fiscal y valor patrimonial para los activos fijos y si las depreciaciones acumuladas de los activos fijos deben ser restadas para la obtenci&oacute;n del valor patrimonial?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    }
+  ]
+}

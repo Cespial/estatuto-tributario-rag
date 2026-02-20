@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Save, Trash2 } from "lucide-react";
+import { Save, Trash2, Download, Upload } from "lucide-react";
 import type { CalendarProfile } from "@/hooks/useCalendarProfiles";
 
 interface NitProfileFilterProps {
@@ -13,6 +13,8 @@ interface NitProfileFilterProps {
   onApplyProfile: (profile: CalendarProfile | null) => void;
   onSaveProfile: (name: string, nitFilters: string[]) => void;
   onDeleteProfile: (profileId: string) => void;
+  onImportProfiles: (json: string) => boolean;
+  onExportProfiles: () => string;
 }
 
 export function NitProfileFilter({
@@ -24,6 +26,8 @@ export function NitProfileFilter({
   onApplyProfile,
   onSaveProfile,
   onDeleteProfile,
+  onImportProfiles,
+  onExportProfiles,
 }: NitProfileFilterProps) {
   const [profileName, setProfileName] = useState("");
 
@@ -36,8 +40,53 @@ export function NitProfileFilter({
     onApplyProfile(profile);
   };
 
+  const handleExport = () => {
+    const data = onExportProfiles();
+    const blob = new Blob([data], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `perfiles-calendario-${new Date().toISOString().split("T")[0]}.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleImport = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const content = e.target?.result as string;
+      if (onImportProfiles(content)) {
+        alert("Perfiles importados con éxito");
+      } else {
+        alert("Error al importar perfiles. Verifica el formato del archivo.");
+      }
+    };
+    reader.readAsText(file);
+    event.target.value = ""; // Reset
+  };
+
   return (
     <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
+      <div className="flex items-center justify-between mb-3 border-b border-border/40 pb-2">
+        <h2 className="text-[11px] font-semibold uppercase tracking-[0.05em] text-foreground">Configuración de NIT y Perfiles</h2>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={handleExport}
+            className="inline-flex items-center gap-1 text-[10px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <Download className="h-3 w-3" />
+            Exportar
+          </button>
+          <label className="inline-flex cursor-pointer items-center gap-1 text-[10px] font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <Upload className="h-3 w-3" />
+            Importar
+            <input type="file" accept=".json" onChange={handleImport} className="hidden" />
+          </label>
+        </div>
+      </div>
       <div className="grid gap-3 md:grid-cols-2">
         <div>
           <label htmlFor="nit-filter" className="mb-1 block text-xs font-medium uppercase tracking-[0.05em] text-muted-foreground">

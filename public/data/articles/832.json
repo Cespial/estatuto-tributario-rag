@@ -1,1 +1,126 @@
-{"id_articulo": "Art. 832", "titulo": "Art. 832. Trámite de excepciones.", "titulo_corto": "Trámite de excepciones.", "slug": "832", "url_origen": "https://estatuto.co/832", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Dentro del mes siguiente a la presentación del escrito mediante el cual se proponen las excepciones, el funcionario competente decidirá sobre ellas, ordenando previamente la práctica de las pruebas, cuando sea del caso.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Dentro del mes siguiente a la presentación del escrito mediante el cual se proponen las excepciones, el funcionario competente decidirá sobre ellas, ordenando previamente la práctica de las pruebas, cuando sea del caso.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 832",
+  "titulo": "Art. 832. Trámite de excepciones.",
+  "titulo_corto": "Trámite de excepciones.",
+  "slug": "832",
+  "url_origen": "https://estatuto.co/832",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Dentro del mes siguiente a la presentación del escrito mediante el cual se proponen las excepciones, el funcionario competente decidirá sobre ellas, ordenando previamente la práctica de las pruebas, cuando sea del caso.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Dentro del mes siguiente a la presentación del escrito mediante el cual se proponen las excepciones, el funcionario competente decidirá sobre ellas, ordenando previamente la práctica de las pruebas, cuando sea del caso.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000707 (2016-07-18): La fecha de pago a la que alude el art&iacute;culo 803 del Estatuto Tributario, es la fecha de extinci&oacute;n de la obligaci&oacute;n o corresponde la fecha de corte para liquidar intereses moratorios\noficio 54603 (2014-09-12): &iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?\noficio 0702 (2013-09-09): Procedimiento Tributario - Presentaci&oacute;n de Declaraciones Tributarias\noficio 14520 (2008-01-01): &iquest;Pprobadas las excepciones propuestas contra el mandamiento de pago procede levantar las medidas cautelares previamente decretadas?\noficio 14748 (2007-02-23): &iquest;Cu&aacute;l es el procedimiento del derecho de petici&oacute;n en las materias de competencia de esta Entidad, cuando no se encuentre enmarcada dentro un procedimiento espec&iacute;fico?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000707-2016",
+      "tipo": "concepto",
+      "numero": "0000707",
+      "fecha": "2016-07-18",
+      "tema": "La fecha de pago a la que alude el art&iacute;culo 803 del Estatuto Tributario, es la fecha de extinci&oacute;n de la obligaci&oacute;n o corresponde la fecha de corte para liquidar intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0702-2013",
+      "tipo": "oficio",
+      "numero": "0702",
+      "fecha": "2013-09-09",
+      "tema": "Procedimiento Tributario - Presentaci&oacute;n de Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14520-2008",
+      "tipo": "oficio",
+      "numero": "14520",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Pprobadas las excepciones propuestas contra el mandamiento de pago procede levantar las medidas cautelares previamente decretadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14748-2007",
+      "tipo": "oficio",
+      "numero": "14748",
+      "fecha": "2007-02-23",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento del derecho de petici&oacute;n en las materias de competencia de esta Entidad, cuando no se encuentre enmarcada dentro un procedimiento espec&iacute;fico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056418-2005",
+      "tipo": "concepto",
+      "numero": "0056418",
+      "fecha": "2005-08-18",
+      "tema": "&iquest;Pueden aplicarse causales de interrupci&oacute;n del t&eacute;rmino de prescripci&oacute;n de la acci&oacute;n de cobro diferentes a las consagradas en el art&iacute;culo 818 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047496-2003",
+      "tipo": "concepto",
+      "numero": "0047496",
+      "fecha": "2003-01-01",
+      "tema": "Es procedente suspender el cobro de intereses moratorios de la deuda cuando existen causales eximentes de responsabilidad como la fuerza mayor o el caso fortuito",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031169-2002",
+      "tipo": "concepto",
+      "numero": "0031169",
+      "fecha": "2002-05-27",
+      "tema": "&iquest;Qu&eacute; mecanismo legal tiene un contribuyente para solicitar a la administraci&oacute;n que de por terminado un proceso de cobro coactivo, cuando considera que no existe t&iacute;tulo ejecutivo para exigir su pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000268-1990",
+      "tipo": "concepto",
+      "numero": "0000268",
+      "fecha": "1990-01-04",
+      "tema": "&iquest;Cu&aacute;l es la procedencia o no del silencio administrativo positivo?",
+      "vigente": true
+    }
+  ]
+}

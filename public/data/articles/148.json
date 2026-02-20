@@ -1,1 +1,413 @@
-{"id_articulo": "Art. 148", "titulo": "Art. 148. Deducción por pérdidas de activos.", "titulo_corto": "Deducción por pérdidas de activos.", "slug": "148", "url_origen": "https://estatuto.co/148", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Son deducibles las pérdidas sufridas durante el año o período gravable, concernientes a los bienes usados en el negocio o actividad productora de renta y ocurridas por fuerza mayor. El valor de la pérdida, cuando se trate de bienes depreciados, es el que resulte de restar las depreciaciones, amortizaciones y pérdidas parciales concedidas, de la suma del costo de adquisición y el de las mejoras. La pérdida se disminuye en el valor de las compensaciones por seguros y similares, cuando la indemnización se recibe dentro del mismo año o período gravable en el cual se produjo la pérdida. Las compensaciones recibidas con posterioridad están sujetas al sistema de recuperación de deducciones. Cuando el valor total de la pérdida de los bienes, o parte de ella, no pueda deducirse en el año en que se sufra, por carencia o insuficiencia de otras rentas, el saldo se difiere para deducirlo en los cinco períodos siguientes. En caso de liquidación de sociedades o sucesiones, el saldo de la pérdida diferida es deducible en su totalidad, en el año de la liquidación. No son deducibles las pérdidas en bienes del activo movible que se han reflejado en el juego de inventarios. Parágrafo. Lo dispuesto en el artículo siguiente será aplicable en lo pertinente para las pérdidas de bienes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son deducibles las pérdidas sufridas durante el año o período gravable, concernientes a los bienes usados en el negocio o actividad productora de renta y ocurridas por fuerza mayor.</p>\n<p>El valor de la pérdida, cuando se trate de bienes depreciados, es el que resulte de restar las depreciaciones, amortizaciones y pérdidas parciales concedidas, de la suma del costo de adquisición y el de las mejoras. La pérdida se disminuye en el valor de las compensaciones por seguros y similares, cuando la indemnización se recibe dentro del mismo año o período gravable en el cual se produjo la pérdida. Las compensaciones recibidas con posterioridad están sujetas al sistema de recuperación de deducciones.</p>\n<p>Cuando el valor total de la pérdida de los bienes, o parte de ella, no pueda deducirse en el año en que se sufra, por carencia o insuficiencia de otras rentas, el saldo se difiere para deducirlo en los cinco períodos siguientes. En caso de liquidación de sociedades o sucesiones, el saldo de la pérdida diferida es deducible en su totalidad, en el año de la liquidación.<br/>\nNo son deducibles las pérdidas en bienes del activo movible que se han reflejado en el juego de inventarios.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Lo dispuesto en el artículo siguiente será aplicable en lo pertinente para las pérdidas de bienes.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 148",
+  "titulo": "Art. 148. Deducción por pérdidas de activos.",
+  "titulo_corto": "Deducción por pérdidas de activos.",
+  "slug": "148",
+  "url_origen": "https://estatuto.co/148",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Son deducibles las pérdidas sufridas durante el año o período gravable, concernientes a los bienes usados en el negocio o actividad productora de renta y ocurridas por fuerza mayor. El valor de la pérdida, cuando se trate de bienes depreciados, es el que resulte de restar las depreciaciones, amortizaciones y pérdidas parciales concedidas, de la suma del costo de adquisición y el de las mejoras. La pérdida se disminuye en el valor de las compensaciones por seguros y similares, cuando la indemnización se recibe dentro del mismo año o período gravable en el cual se produjo la pérdida. Las compensaciones recibidas con posterioridad están sujetas al sistema de recuperación de deducciones. Cuando el valor total de la pérdida de los bienes, o parte de ella, no pueda deducirse en el año en que se sufra, por carencia o insuficiencia de otras rentas, el saldo se difiere para deducirlo en los cinco períodos siguientes. En caso de liquidación de sociedades o sucesiones, el saldo de la pérdida diferida es deducible en su totalidad, en el año de la liquidación. No son deducibles las pérdidas en bienes del activo movible que se han reflejado en el juego de inventarios. Parágrafo. Lo dispuesto en el artículo siguiente será aplicable en lo pertinente para las pérdidas de bienes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Son deducibles las pérdidas sufridas durante el año o período gravable, concernientes a los bienes usados en el negocio o actividad productora de renta y ocurridas por fuerza mayor.</p>\n<p>El valor de la pérdida, cuando se trate de bienes depreciados, es el que resulte de restar las depreciaciones, amortizaciones y pérdidas parciales concedidas, de la suma del costo de adquisición y el de las mejoras. La pérdida se disminuye en el valor de las compensaciones por seguros y similares, cuando la indemnización se recibe dentro del mismo año o período gravable en el cual se produjo la pérdida. Las compensaciones recibidas con posterioridad están sujetas al sistema de recuperación de deducciones.</p>\n<p>Cuando el valor total de la pérdida de los bienes, o parte de ella, no pueda deducirse en el año en que se sufra, por carencia o insuficiencia de otras rentas, el saldo se difiere para deducirlo en los cinco períodos siguientes. En caso de liquidación de sociedades o sucesiones, el saldo de la pérdida diferida es deducible en su totalidad, en el año de la liquidación.<br/>\nNo son deducibles las pérdidas en bienes del activo movible que se han reflejado en el juego de inventarios.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Lo dispuesto en el artículo siguiente será aplicable en lo pertinente para las pérdidas de bienes.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3422 (2023-06-05): (Int 633) Valor patrimonial de los cr&eacute;ditos - Activos en moneda extranjera depositados en cuentas bancarias abiertas en entidades financieras del exterior",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3422-2023",
+      "tipo": "oficio",
+      "numero": "3422",
+      "fecha": "2023-06-05",
+      "tema": "(Int 633) Valor patrimonial de los cr&eacute;ditos - Activos en moneda extranjera depositados en cuentas bancarias abiertas en entidades financieras del exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33700-2018",
+      "tipo": "oficio",
+      "numero": "33700",
+      "fecha": "2018-11-29",
+      "tema": "Deducci&oacute;n por P&eacute;rdidas de Activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21907-2017",
+      "tipo": "oficio",
+      "numero": "21907",
+      "fecha": "2017-08-15",
+      "tema": "&iquest;Lo consagrado en el art&iacute;culo 148 del Estatuto Tributario las p&eacute;rdidas de activos fijos usados en la actividad productora de renta debido a un desastre natural, se pueden deducir en el periodo(s) gravables(s) siguiente(s), a aquel en que se produjo la perdida, en raz&oacute;n a que en el a&ntilde;o de su ocurrencia no se pudieron incluir por falta de contabilizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22777-2016",
+      "tipo": "oficio",
+      "numero": "22777",
+      "fecha": "2016-08-24",
+      "tema": "Solicita un nuevo pronunciamiento frente a la posibilidad de tomar como deducci&oacute;n en el impuesto de renta el capital aportado a una sociedad que se liquida (que recibe en una suma inferior al aporte inicial) y que el consultante califica como p&eacute;rdida, pues no le es de recibo lo expuesto en el oficio 013757 del 2 de junio de 2016, el cual concluy&oacute; que esta no es deducible, con base en lo se&ntilde;alado en el Concepto 88314 del 17 de noviembre de 1998",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1730-2016",
+      "tipo": "oficio",
+      "numero": "1730",
+      "fecha": "2016-02-09",
+      "tema": "Cuentas en participaci&oacute;n - &iquest;Una persona jur&iacute;dica que act&uacute;a en un contrato de cuenta en participaci&oacute;n como socio oculto debe pagar impuesto CREE y hacer los anticipos respectivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36926-2015",
+      "tipo": "oficio",
+      "numero": "36926",
+      "fecha": "2015-12-30",
+      "tema": "&iquest;El porcentaje de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27193-2015",
+      "tipo": "oficio",
+      "numero": "27193",
+      "fecha": "2015-09-15",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24445-2015",
+      "tipo": "oficio",
+      "numero": "24445",
+      "fecha": "2015-08-24",
+      "tema": "&iquest;Una sociedad por acciones simplificada, en reorganizaci&oacute;n, que se acogi&oacute; a la Ley 1116 de 2006 en el a&ntilde;o 2014 por encontrarse en esa condici&oacute;n se encuentra exonerada del pago del impuesto sobre la renta para la equidad - CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2015",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2015-08-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11807-2015",
+      "tipo": "oficio",
+      "numero": "11807",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;Una empresa que es sujeto pasivo del impuesto sobre la Renta para la Equidad (CREE) cuya acta de liquidaci&oacute;n final es del a&ntilde;o 2015 y que no tuvo ingresos los &uacute;ltimos tres a&ntilde;os (2015, 2014 y 2013), est&aacute; obligada a declarar impuesto sobre la Renta para la Equidad CREE? - &iquest;A las sociedades que son sujetos pasivos del impuesto, les asiste la obligaci&oacute;n formal de presentar declaraciones del Impuesto sobre la Renta para la Equidad (CREE) mientras tenga vida jur&iacute;dica la sociedad, independientemente de que hayan generado o no ingresos en el per&iacute;odo fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000412-2015",
+      "tipo": "concepto",
+      "numero": "0000412",
+      "fecha": "2015-01-07",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para efectos de liquidar el impuesto sobre la renta para la equidad - CREE cuando se generan p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59045-2014",
+      "tipo": "oficio",
+      "numero": "59045",
+      "fecha": "2014-10-17",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario que se debe dar a las inversiones realizadas en empresas de captaci&oacute;n ilegal de recursos del p&uacute;blico, en las cuales se determinaron que dichos recursos posiblemente no se pueden considerar perdidas del todo, ya que existe la posibilidad de que por orden judicial se reintegre parte de la inversi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50295-2014",
+      "tipo": "oficio",
+      "numero": "50295",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;En los casos en los cuales se autoriz&oacute; la terminaci&oacute;n por mutuo acuerdo y-o conciliaci&oacute;n y al haberse suscrito y aprobado una facilidad para su pago, que fue incumplida, hecho por el que se declar&oacute; el incumplimiento de la facilidad, &iquest;pierden en forma autom&aacute;tica el beneficio de los art&iacute;culos 147 y 148 de la Ley 1607 de 2012, conforme los par&aacute;grafos segundos del tales art&iacute;culos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50270-2014",
+      "tipo": "oficio",
+      "numero": "50270",
+      "fecha": "2014-08-20",
+      "tema": "&iquest;C&oacute;mo opera la deducci&oacute;n de la provisi&oacute;n para el pago de futuras pensiones prevista en los art&iacute;culos 112 y 113 del Estatuto Tributario, para efectos de la depuraci&oacute;n de la base gravable del impuesto sobre la renta para la equidad - CREE para el periodo gravable 2013?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49408-2014",
+      "tipo": "oficio",
+      "numero": "49408",
+      "fecha": "2014-08-15",
+      "tema": "&iquest;C&oacute;mo se registra en la declaraci&oacute;n de renta por el a&ntilde;o gravable 2013 la utilidad obtenida por la enajenaci&oacute;n de activos fijos pose&iacute;dos por menos de 2 a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47881-2014",
+      "tipo": "oficio",
+      "numero": "47881",
+      "fecha": "2014-08-08",
+      "tema": "Impuesto sobre la renta para la Equidad - CREE - Ingresos por Certificado de Incentivo Forestal -CIF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23001-2014",
+      "tipo": "oficio",
+      "numero": "23001",
+      "fecha": "2014-04-09",
+      "tema": "Impuesto sobre la renta para la Equidad -CREE-",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14904-2014",
+      "tipo": "oficio",
+      "numero": "14904",
+      "fecha": "2014-01-01",
+      "tema": "Impuesto sobre la renta para la equidad- CREE - Pago o abono en cuenta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11801-2014",
+      "tipo": "oficio",
+      "numero": "11801",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Cu&aacute;ndo se inicia la presentaci&oacute;n de la declaraci&oacute;n de renta y complementarios para los contribuyentes calificados como Grandes Contribuyentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2385-2014",
+      "tipo": "oficio",
+      "numero": "2385",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1660-2014",
+      "tipo": "oficio",
+      "numero": "1660",
+      "fecha": "2014-01-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1656-2014",
+      "tipo": "oficio",
+      "numero": "1656",
+      "fecha": "2014-01-14",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1655-2014",
+      "tipo": "oficio",
+      "numero": "1655",
+      "fecha": "2014-01-13",
+      "tema": "Depuraci&oacute;n del impuesto sobre la renta para la equidad CREE - Expensas ordinarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2014",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2014-03-28",
+      "tema": "Concepto impuesto sobre la renta para la equidad (CREE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79041-2013",
+      "tipo": "oficio",
+      "numero": "79041",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;Una Empresa Prestador de Salud (EPS), en relaci&oacute;n con los recursos parafiscales de ingresos provenientes y derivados de la UPC, est&aacute;n gravados con el nuevo Impuesto sobre la Renta para la Equidad - CREE -y por ende debe aplic&aacute;rseles la autorretenci&oacute;n a t&iacute;tulo de &eacute;ste impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77314-2013",
+      "tipo": "oficio",
+      "numero": "77314",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto sobre la renta para la equidad-CREE los ingresos por concepto del Certificado de Incentivo Forestal-CIF, creado por la ley 134 de 1994, que reciben los sujetos pasivos de este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86388-2011",
+      "tipo": "oficio",
+      "numero": "86388",
+      "fecha": "2011-01-01",
+      "tema": "Solicita se adopten medidas que permitan excluir de la base para determinar el impuesto al patrimonio del a&ntilde;o 2011, los bienes que fueron afectados con la ola invernal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008894-2011",
+      "tipo": "concepto",
+      "numero": "0008894",
+      "fecha": "2011-02-10",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal respecto de una mercanc&iacute;a adquirida por una Sociedad de Comercializaci&oacute;n Internacional hurtada, en caso de que la transportadora no responda, o en su defecto, cu&aacute;l es el tratamiento del deducible de la p&oacute;liza, as&iacute; como del IVA y la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24942-2007",
+      "tipo": "oficio",
+      "numero": "24942",
+      "fecha": "2007-03-30",
+      "tema": "&iquest;La p&eacute;rdida en la enajenaci&oacute;n de los certificados de inversi&oacute;n cinematogr&aacute;fica de que trata la Ley 814 de 2003, es deducible en la determinaci&oacute;n del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075978-2001",
+      "tipo": "concepto",
+      "numero": "0075978",
+      "fecha": "2001-08-22",
+      "tema": "&iquest;Es deducible la p&eacute;rdida en la venta de t&iacute;tulos TIDIS y TES?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004827-2001",
+      "tipo": "concepto",
+      "numero": "0004827",
+      "fecha": "2001-01-25",
+      "tema": "&iquest;Se puede solicitar como deducci&oacute;n el exceso de deudas manifiestamente perdidas o sin valor cuando se aplica la provisi&oacute;n individual de cartera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088314-1998",
+      "tipo": "concepto",
+      "numero": "0088314",
+      "fecha": "1998-11-17",
+      "tema": "Es deducible por parte de un contribuyente la p&eacute;rdida obtenida en una inversi&oacute;n en acciones cuando se liquida la sociedad en donde se ten&iacute;a el aporte social El inter&eacute;s presuntivo por los pr&eacute;stamos de las sociedades a sus socios es nominal o efectivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052650-1998",
+      "tipo": "concepto",
+      "numero": "0052650",
+      "fecha": "1998-07-06",
+      "tema": "&iquest;La p&eacute;rdida que se genera en los t&iacute;tulos valores denominados en d&oacute;lares por efecto de la revaluaci&oacute;n del peso es deducible fiscalmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021755-1991",
+      "tipo": "concepto",
+      "numero": "0021755",
+      "fecha": "1991-07-19",
+      "tema": "Pasivos contingentes por proceso penal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024402-1990",
+      "tipo": "concepto",
+      "numero": "0024402",
+      "fecha": "1990-01-01",
+      "tema": "Deducci&oacute;n por perdidas",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0004517-1990",
+      "tipo": "concepto",
+      "numero": "0004517",
+      "fecha": "1990-01-01",
+      "tema": "P&eacute;rdidas sufridas por los contribuyentes, originadas por los atentados terroristas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000505-1990",
+      "tipo": "concepto",
+      "numero": "0000505",
+      "fecha": "1990-01-05",
+      "tema": "Solicita, la deducci&oacute;n de las p&eacute;rdidas concernientes a los bienes usados en el negocio o actividad productora de renta, ocurridas por fuerza mayor, al igual que la deducci&oacute;n proporcional de la renta presuntiva en tal evento, de conformidad con lo establecido en los art&iacute;culos 148 y 181 del Estatuto Tributario",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    }
+  ]
+}

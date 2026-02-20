@@ -1,1 +1,198 @@
-{"id_articulo": "Art. 179", "titulo": "Art. 179. La utilidad en la enajenación de activos fijos poseídos por menos de dos años es renta liquida.", "titulo_corto": "La utilidad en la enajenación de activos fijos poseídos por menos de dos años es renta liquida.", "slug": "179", "url_origen": "https://estatuto.co/179", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "No se considera ganancia ocasional sino renta líquida, la utilidad en la enajenación de bienes que hagan parte del activo fijo del contribuyente y que hubieren sido poseídos por menos de dos años. Para la determinación del costo del activo fijo enajenado, se tendrá en cuenta lo contemplado en el capítulo II del Título I de este Libro, en cuanto le sea aplicable.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No se considera ganancia ocasional sino renta líquida, la utilidad en la enajenación de bienes que hagan parte del activo fijo del contribuyente y que hubieren sido poseídos por menos de dos años.</p>\n<p>Para la determinación del costo del activo fijo enajenado, se tendrá en cuenta lo contemplado en el capítulo II del Título I de este Libro, en cuanto le sea aplicable.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 179",
+  "titulo": "Art. 179. La utilidad en la enajenación de activos fijos poseídos por menos de dos años es renta liquida.",
+  "titulo_corto": "La utilidad en la enajenación de activos fijos poseídos por menos de dos años es renta liquida.",
+  "slug": "179",
+  "url_origen": "https://estatuto.co/179",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "No se considera ganancia ocasional sino renta líquida, la utilidad en la enajenación de bienes que hagan parte del activo fijo del contribuyente y que hubieren sido poseídos por menos de dos años. Para la determinación del costo del activo fijo enajenado, se tendrá en cuenta lo contemplado en el capítulo II del Título I de este Libro, en cuanto le sea aplicable.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>No se considera ganancia ocasional sino renta líquida, la utilidad en la enajenación de bienes que hagan parte del activo fijo del contribuyente y que hubieren sido poseídos por menos de dos años.</p>\n<p>Para la determinación del costo del activo fijo enajenado, se tendrá en cuenta lo contemplado en el capítulo II del Título I de este Libro, en cuanto le sea aplicable.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 9 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8515 (2025-07-01): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 10623 (2024-12-18): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8515-2025",
+      "tipo": "oficio",
+      "numero": "8515",
+      "fecha": "2025-07-01",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10623-2024",
+      "tipo": "oficio",
+      "numero": "10623",
+      "fecha": "2024-12-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31740-2019",
+      "tipo": "oficio",
+      "numero": "31740",
+      "fecha": "2019-12-26",
+      "tema": "Ganancia Ocasional Renta Bruta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49408-2014",
+      "tipo": "oficio",
+      "numero": "49408",
+      "fecha": "2014-08-15",
+      "tema": "&iquest;C&oacute;mo se registra en la declaraci&oacute;n de renta por el a&ntilde;o gravable 2013 la utilidad obtenida por la enajenaci&oacute;n de activos fijos pose&iacute;dos por menos de 2 a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21365-2014",
+      "tipo": "oficio",
+      "numero": "21365",
+      "fecha": "2014-04-02",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72249-2009",
+      "tipo": "oficio",
+      "numero": "72249",
+      "fecha": "2009-09-04",
+      "tema": "&iquest;Cu&aacute;ndo se entiende realizado el ingreso por la cesi&oacute;n de acciones con pago en cuotas mensuales durante varios a&ntilde;os, efectuada por una persona natural-rentista de capital?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57803-2007",
+      "tipo": "oficio",
+      "numero": "57803",
+      "fecha": "2007-07-27",
+      "tema": "&iquest;Un bien mueble o inmueble que haya estado en el patrimonio del enajenante por menos de sos a&ntilde;os no es considerado activo fijo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36695-2007",
+      "tipo": "oficio",
+      "numero": "36695",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario de una herencia representada en un bien ra&iacute;z que se recibe en el a&ntilde;o 2006 y en el mismo a&ntilde;o se vende?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054292-1998",
+      "tipo": "concepto",
+      "numero": "0054292",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Constituye ganancia ocasional gravable a valorizaci&oacute;n de acciones que tiene su origen en un laudo arbitral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019054-1993",
+      "tipo": "concepto",
+      "numero": "0019054",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Cuales son los efectos fiscales que puede generar dicha transacci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005102-1993",
+      "tipo": "concepto",
+      "numero": "0005102",
+      "fecha": "1993-02-10",
+      "tema": "&iquest;En la permuta de derechos (cesi&oacute;n rec&iacute;proca) se grava &uacute;nicamente el mayor valor que represente el bien que se recibe frente al que se entrega?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-537-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "537",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-469-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "469",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

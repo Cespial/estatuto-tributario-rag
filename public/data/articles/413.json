@@ -1,1 +1,78 @@
-{"id_articulo": "Art. 413", "titulo": "Art. 413. Esta retención se aplicara a partir del 24 de diciembre de 1986.", "titulo_corto": "Esta retención se aplicara a partir del 24 de diciembre de 1986.", "slug": "413", "url_origen": "https://estatuto.co/413", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Las disposiciones referidas a los contratos Llave en mano, contratos de prestación de servicios técnicos, y demás contratos de confección de obra material, se aplicarán únicamente a los contratos que se celebren, modifiquen o prorroguen a partir del 24 de diciembre de 1986. En lo relativo a las modificaciones o prórrogas de contratos celebrados con anterioridad a esa fecha, las disposiciones de tales artículos se aplicarán únicamente sobre los valores que se deriven de dichas modificaciones o prórrogas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las disposiciones referidas a los contratos Llave en mano, contratos de prestación de servicios técnicos, y demás contratos de confección de obra material, se aplicarán únicamente a los contratos que se celebren, modifiquen o prorroguen a partir del 24 de diciembre de 1986.</p>\n<p>En lo relativo a las modificaciones o prórrogas de contratos celebrados con anterioridad a esa fecha, las disposiciones de tales artículos se aplicarán únicamente sobre los valores que se deriven de dichas modificaciones o prórrogas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 413",
+  "titulo": "Art. 413. Esta retención se aplicara a partir del 24 de diciembre de 1986.",
+  "titulo_corto": "Esta retención se aplicara a partir del 24 de diciembre de 1986.",
+  "slug": "413",
+  "url_origen": "https://estatuto.co/413",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Las disposiciones referidas a los contratos Llave en mano, contratos de prestación de servicios técnicos, y demás contratos de confección de obra material, se aplicarán únicamente a los contratos que se celebren, modifiquen o prorroguen a partir del 24 de diciembre de 1986. En lo relativo a las modificaciones o prórrogas de contratos celebrados con anterioridad a esa fecha, las disposiciones de tales artículos se aplicarán únicamente sobre los valores que se deriven de dichas modificaciones o prórrogas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Las disposiciones referidas a los contratos Llave en mano, contratos de prestación de servicios técnicos, y demás contratos de confección de obra material, se aplicarán únicamente a los contratos que se celebren, modifiquen o prorroguen a partir del 24 de diciembre de 1986.</p>\n<p>En lo relativo a las modificaciones o prórrogas de contratos celebrados con anterioridad a esa fecha, las disposiciones de tales artículos se aplicarán únicamente sobre los valores que se deriven de dichas modificaciones o prórrogas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 27149 (2019-10-29): Contratos de colaboraci&oacute;n empresarial\noficio 75995 (2005-01-01): &iquest;Cu&aacute;l es el tratamiento tributario y cambiario que se debe dar a las utilidades giradas a un cliente ubicado en los Estados Unidos y provenientes de la venta de un producto procesado en Colombia?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1033-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1033",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-27149-2019",
+      "tipo": "oficio",
+      "numero": "27149",
+      "fecha": "2019-10-29",
+      "tema": "Contratos de colaboraci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75995-2005",
+      "tipo": "oficio",
+      "numero": "75995",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario y cambiario que se debe dar a las utilidades giradas a un cliente ubicado en los Estados Unidos y provenientes de la venta de un producto procesado en Colombia?",
+      "vigente": true
+    }
+  ]
+}

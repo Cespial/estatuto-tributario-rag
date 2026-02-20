@@ -1,1 +1,568 @@
-{"id_articulo": "Art. 42", "titulo": "Art. 42. Recompensas.", "titulo_corto": "Recompensas.", "slug": "42", "url_origen": "https://estatuto.co/42", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*No constituye renta ni ganancia ocasional para los beneficiarios del pago, toda retribución en dinero, recibida de organismos estatales, como recompensa por el suministro de datos e informaciones especiales a las secciones de inteligencia de los organismos de seguridad del Estado, sobre ubicación de antisociales o conocimiento de sus actividades delictivas, en un lugar determinado.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*No constituye renta ni ganancia ocasional para los beneficiarios del pago, toda retribución en dinero, recibida de organismos estatales, como recompensa por el suministro de datos e informaciones especiales a las secciones de inteligencia de los organismos de seguridad del Estado, sobre ubicación de antisociales o conocimiento de sus actividades delictivas, en un lugar determinado.</p>\n</span>", "modificaciones_raw": "* Modificado Ley 223 de 1995 Art 252.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "252"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["239"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 42",
+  "titulo": "Art. 42. Recompensas.",
+  "titulo_corto": "Recompensas.",
+  "slug": "42",
+  "url_origen": "https://estatuto.co/42",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*No constituye renta ni ganancia ocasional para los beneficiarios del pago, toda retribución en dinero, recibida de organismos estatales, como recompensa por el suministro de datos e informaciones especiales a las secciones de inteligencia de los organismos de seguridad del Estado, sobre ubicación de antisociales o conocimiento de sus actividades delictivas, en un lugar determinado.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*No constituye renta ni ganancia ocasional para los beneficiarios del pago, toda retribución en dinero, recibida de organismos estatales, como recompensa por el suministro de datos e informaciones especiales a las secciones de inteligencia de los organismos de seguridad del Estado, sobre ubicación de antisociales o conocimiento de sus actividades delictivas, en un lugar determinado.</p>\n</span>",
+  "modificaciones_raw": "* Modificado Ley 223 de 1995 Art 252.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "252"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "239"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 44 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 914969 (2021-12-06): Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31395-2019",
+      "tipo": "oficio",
+      "numero": "31395",
+      "fecha": "2019-12-20",
+      "tema": "Beneficios tributarios otorgados durante el gobierno de Iv&aacute;n Duque y la existencia de estudios que los sustenten",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0429-2018",
+      "tipo": "oficio",
+      "numero": "0429",
+      "fecha": "2018-01-05",
+      "tema": "Beneficios tributarios otorgados a usuarios por inversi&oacute;n en control y mejoramiento del ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24882-2015",
+      "tipo": "oficio",
+      "numero": "24882",
+      "fecha": "2015-08-27",
+      "tema": "&iquest;Cu&aacute;ndo hay tr&aacute;fico de llamadas es obligatorio el pago de impuestos por parte del particular que presta los servicios de telefon&iacute;a fija, al CRL y al fondo nacional de recursos. Y cu&aacute;l es el soporte legal de su existencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54555-2014",
+      "tipo": "oficio",
+      "numero": "54555",
+      "fecha": "2014-09-12",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54487-2014",
+      "tipo": "oficio",
+      "numero": "54487",
+      "fecha": "2014-09-11",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093841-2007",
+      "tipo": "concepto",
+      "numero": "0093841",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los retiros efectuados en las segundas cuentas de ahorro abiertas por los pensionados en cooperativas multiactivas de econom&iacute;a Solidaria gozan de la exenci&oacute;n del gravamen a los movimientos financieros de que trata el numeral 879 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91749-2007",
+      "tipo": "oficio",
+      "numero": "91749",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Los desembolsos realizados por las Compa&ntilde;&iacute;as de Financiamiento Comercial a favor de comercializadores de bienes que ser&aacute;n entregados a terceros mediante contratos de arrendamiento financiero o leasing se encuentran exentos del GMF, de acuerdo con lo previsto por el numeral 11 del art&iacute;culo 879 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81293-2005",
+      "tipo": "oficio",
+      "numero": "81293",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Una empresa cuya actividad comercial es el arbitraje internacional de divisas, tiene la obligaci&oacute;n de inscribirse como cambista profesional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2005",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2005-02-08",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Decreto 2788 de 2004 por medio del cual se reglamenta el registro Unico Tributario RUT, referido espec&iacute;ficamente a los sujetos obligados a la inscripci&oacute;n y a los formularios utilizados por la Administraci&oacute;n para tal efefcto?&iquest;Est&aacute;n obligadas formalmente las personas naturales comerciantes a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069043-1999",
+      "tipo": "concepto",
+      "numero": "0069043",
+      "fecha": "1999-07-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008470-1999",
+      "tipo": "concepto",
+      "numero": "0008470",
+      "fecha": "1999-02-05",
+      "tema": "&iquest;Donde deben registrar los libros de contabilidad que llevan voluntariamente, las personas naturales y jur&iacute;dicas que desarrollan actividades no comerciales y que no esta obligadas a llevar dichos libros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069139-1998",
+      "tipo": "concepto",
+      "numero": "0069139",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;D&oacute;nde debe realizar una fundaci&oacute;n sin &aacute;nimo de lucro que tiene la calidad de Instituci&oacute;n prestadora de Servicios, la inscripci&oacute;n y registro de sus libros de contabilidad y libros de actas de Asamblea General y junta directiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011798-1996",
+      "tipo": "concepto",
+      "numero": "0011798",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019635-1991",
+      "tipo": "concepto",
+      "numero": "0019635",
+      "fecha": "1991-06-28",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014511-1991",
+      "tipo": "concepto",
+      "numero": "0014511",
+      "fecha": "1991-01-01",
+      "tema": "Pautas de interpretaci&oacute;n y aplicaci&oacute;n de las normas legales y reglamentarias vigentes en materia de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008056-1991",
+      "tipo": "concepto",
+      "numero": "0008056",
+      "fecha": "1991-01-01",
+      "tema": "&iquest;Los rendimientos que dicho fondo reparta se encuentran amparados por las mismas exenciones tributarias que el pago de los bonos Ley 55 de 1985? Si el bono de deuda externa o su t&iacute;tulo representativo se (sic) transacci&oacute;n en las bolsas colombianas y en virtud de dicha transacci&oacute;n se genera una diferencia patrimonial para el inversionista colombiano &iquest;esta ser&iacute;a objeto de grav&aacute;menes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006379-1991",
+      "tipo": "concepto",
+      "numero": "0006379",
+      "fecha": "1991-01-01",
+      "tema": "En caso de que un Colombiano adquiera los t&iacute;tulos de deuda p&uacute;blica externa a que se refiere el art&iacute;culo 27 de la Ley 55 de 1985, los pagos de principal, intereses y dem&aacute;s que se hagan bajo dichos t&iacute;tulos est&aacute;n exentos del impuesto de renta?&iquest;La adquisici&oacute;n de dichos t&iacute;tulos por un Colombiano constituye patrimonio para el adquirente, y se les aplica impuesto de patrimonio?&iquest;Deben o no incluirse en la declaraci&oacute;n de renta del contribuyente los t&iacute;tulos de deuda externa y sus pagos por concepto del servicio de la deuda? Cu&aacute;l es el tratamiento tributario para la conversi&oacute;n de t&iacute;tulos de deuda p&uacute;blica externa en t&iacute;tulos canjeables por certificados de cambio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001453-1989",
+      "tipo": "concepto",
+      "numero": "0001453",
+      "fecha": "1989-01-20",
+      "tema": "&iquest;Sobre qu&eacute; valor se liquida el impuesto de timbre, sobre el valor de los c&aacute;nones que es el plazo del contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019807-1988",
+      "tipo": "concepto",
+      "numero": "0019807",
+      "fecha": "1988-01-01",
+      "tema": "Exenci&oacute;n en raz&oacute;n a al cuant&iacute;a por mandato legal",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-875-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "875",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-575-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "575",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-060-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "060",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-540-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-094-2024",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "094",
+      "year": 2024,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-541-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "541",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-533-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "533",
+      "year": 2000
+    },
+    {
+      "id": "cc-t-553-1994",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "553",
+      "year": 1994
+    },
+    {
+      "id": "cc-c-289-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "289",
+      "year": 2000,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-595-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "595",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1033-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1033",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-016-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "016",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-239-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "239",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-477-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "477",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-227-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "227",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-278-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "278",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-226-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "226",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-559-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "559",
+      "year": 1999,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ]
+}

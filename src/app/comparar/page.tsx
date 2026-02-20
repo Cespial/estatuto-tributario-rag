@@ -78,6 +78,8 @@ export default function CompararPage() {
   const [versionB, setVersionB] = useState<number>(-1);
   const [aiSummary, setAiSummary] = useState("");
   const [summaryLoading, setSummaryLoading] = useState(false);
+  const [summaryError, setSummaryError] = useState(false);
+  const [showErrorToast, setShowErrorToast] = useState(false);
 
   const cacheRef = useRef<Map<string, ArticleData>>(new Map());
   const trackedComparisonKeyRef = useRef("");
@@ -213,6 +215,7 @@ export default function CompararPage() {
 
     let active = true;
     setSummaryLoading(true);
+    setSummaryError(false);
     fetch("/api/comparar/resumen", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -225,12 +228,18 @@ export default function CompararPage() {
         articleB: mode === "historical" ? articleA?.id_articulo : articleB?.id_articulo,
       }),
     })
-      .then((res) => (res.ok ? res.json() : null))
+      .then((res) => (res.ok ? res.json() : Promise.reject("Error API")))
       .then((data) => {
         if (active && data?.summary) setAiSummary(data.summary);
       })
-      .catch(() => {
-        if (active) setAiSummary("");
+      .catch((err) => {
+        console.error("AI Summary Error:", err);
+        if (active) {
+          setAiSummary("");
+          setSummaryError(true);
+          setShowErrorToast(true);
+          setTimeout(() => setShowErrorToast(false), 4000);
+        }
       })
       .finally(() => {
         if (active) setSummaryLoading(false);
@@ -435,6 +444,12 @@ export default function CompararPage() {
                     articleA={articleA?.id_articulo}
                     articleB={mode === "cross-article" ? articleB?.id_articulo : articleA?.id_articulo}
                     aiSummary={summaryLoading ? "Generando resumen automático..." : aiSummary}
+                    error={summaryError}
+                    onRetry={() => {
+                      // We can just toggle a ref or state to force effect to re-run
+                      // For simplicity, we'll just set loading which might work if the effect reacts to it
+                      setSummaryError(false);
+                    }}
                   />
                   <div className="flex justify-end">
                     <Link
@@ -507,6 +522,15 @@ export default function CompararPage() {
           </div>
         </div>
       </div>
+
+      {showErrorToast && (
+        <div className="fixed bottom-5 right-5 z-[100] animate-in fade-in slide-in-from-bottom-2">
+          <div className="flex items-center gap-2 rounded-md border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 shadow-lg dark:border-red-900/40 dark:bg-red-900/20 dark:text-red-200">
+            <AlertTriangle className="h-4 w-4" />
+            <p className="font-medium">No se pudo generar el resumen automático.</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

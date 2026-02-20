@@ -1,1 +1,715 @@
-{"id_articulo": "Art. 95", "titulo": "Art. 95. Renta bruta especial en la enajenación de activos biológicos", "titulo_corto": "Renta bruta especial en la enajenación de activos biológicos", "slug": "95", "url_origen": "https://estatuto.co/95", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*La renta bruta especial en la enajenación de activos biológicos será la siguiente: 1. Para los obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y los costos determinados de acuerdo con los artículos anteriores. 2. Para los no obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y el costo de los activos biológicos. Para este efecto, el costo de los activos biológicos corresponde a los costos realizados por concepto de adquisición más costos de transformación, costos de siembra, los de cultivo, recolección, faena, entre otros asociados a la actividad económica y los efectuados para poner los productos en el lugar de su expendio, utilización o beneficio, debidamente soportados. Parágrafo 1. Respecto de los sujetos del numeral 1 de este artículo, independientemente del momento de ocurrencia, son deducibles las pérdidas causadas en caso de destrucción, daños, muerte y otros eventos que afecten económicamente a los activos biológicos de los contribuyentes usados en la actividad generadora de la respectiva renta y que se deban a casos fortuitos, fuerza mayor y delitos en la parte que no se hubiere cubierto por indemnización, seguros o la parte que no hubiere sido asumida por un tercero. Para fines fiscales, las pérdidas serán valoradas teniendo en cuenta, únicamente, su precio de adquisición, y los costos directamente atribuibles a la transformación biológica del activo. El contribuyente conservará los respectivos documentos comprobatorios. Parágrafo 2. En ningún caso los no obligados a llevar contabilidad de que trata el numeral 2 del presente artículo podrán generar pérdidas fiscales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La renta bruta especial en la enajenación de activos biológicos será la siguiente:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Para los obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y los costos determinados de acuerdo con los artículos anteriores.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Para los no obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y el costo de los activos biológicos. Para este efecto, el costo de los activos biológicos corresponde a los costos realizados por concepto de adquisición más costos de transformación, costos de siembra, los de cultivo, recolección, faena, entre otros asociados a la actividad económica y los efectuados para poner los productos en el lugar de su expendio, utilización o beneficio, debidamente soportados.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1.</span></strong> Respecto de los sujetos del numeral 1 de este artículo, independientemente del momento de ocurrencia, son deducibles las pérdidas causadas en caso de destrucción, daños, muerte y otros eventos que afecten económicamente a los activos biológicos de los contribuyentes usados en la actividad generadora de la respectiva renta y que se deban a casos fortuitos, fuerza mayor y delitos en la parte que no se hubiere cubierto por indemnización, seguros o la parte que no hubiere sido asumida por un tercero. Para fines fiscales, las pérdidas serán valoradas teniendo en cuenta, únicamente, su precio de adquisición, y los costos directamente atribuibles a la transformación biológica del activo. El contribuyente conservará los respectivos documentos comprobatorios.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2.</span> </strong>En ningún caso los no obligados a llevar contabilidad de que trata el numeral 2 del presente artículo podrán generar pérdidas fiscales.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 57.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "57"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["290"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 95",
+  "titulo": "Art. 95. Renta bruta especial en la enajenación de activos biológicos",
+  "titulo_corto": "Renta bruta especial en la enajenación de activos biológicos",
+  "slug": "95",
+  "url_origen": "https://estatuto.co/95",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*La renta bruta especial en la enajenación de activos biológicos será la siguiente: 1. Para los obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y los costos determinados de acuerdo con los artículos anteriores. 2. Para los no obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y el costo de los activos biológicos. Para este efecto, el costo de los activos biológicos corresponde a los costos realizados por concepto de adquisición más costos de transformación, costos de siembra, los de cultivo, recolección, faena, entre otros asociados a la actividad económica y los efectuados para poner los productos en el lugar de su expendio, utilización o beneficio, debidamente soportados. Parágrafo 1. Respecto de los sujetos del numeral 1 de este artículo, independientemente del momento de ocurrencia, son deducibles las pérdidas causadas en caso de destrucción, daños, muerte y otros eventos que afecten económicamente a los activos biológicos de los contribuyentes usados en la actividad generadora de la respectiva renta y que se deban a casos fortuitos, fuerza mayor y delitos en la parte que no se hubiere cubierto por indemnización, seguros o la parte que no hubiere sido asumida por un tercero. Para fines fiscales, las pérdidas serán valoradas teniendo en cuenta, únicamente, su precio de adquisición, y los costos directamente atribuibles a la transformación biológica del activo. El contribuyente conservará los respectivos documentos comprobatorios. Parágrafo 2. En ningún caso los no obligados a llevar contabilidad de que trata el numeral 2 del presente artículo podrán generar pérdidas fiscales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>La renta bruta especial en la enajenación de activos biológicos será la siguiente:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Para los obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y los costos determinados de acuerdo con los artículos anteriores.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Para los no obligados a llevar contabilidad se determina por la diferencia entre el ingreso realizado y el costo de los activos biológicos. Para este efecto, el costo de los activos biológicos corresponde a los costos realizados por concepto de adquisición más costos de transformación, costos de siembra, los de cultivo, recolección, faena, entre otros asociados a la actividad económica y los efectuados para poner los productos en el lugar de su expendio, utilización o beneficio, debidamente soportados.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1.</span></strong> Respecto de los sujetos del numeral 1 de este artículo, independientemente del momento de ocurrencia, son deducibles las pérdidas causadas en caso de destrucción, daños, muerte y otros eventos que afecten económicamente a los activos biológicos de los contribuyentes usados en la actividad generadora de la respectiva renta y que se deban a casos fortuitos, fuerza mayor y delitos en la parte que no se hubiere cubierto por indemnización, seguros o la parte que no hubiere sido asumida por un tercero. Para fines fiscales, las pérdidas serán valoradas teniendo en cuenta, únicamente, su precio de adquisición, y los costos directamente atribuibles a la transformación biológica del activo. El contribuyente conservará los respectivos documentos comprobatorios.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2.</span> </strong>En ningún caso los no obligados a llevar contabilidad de que trata el numeral 2 del presente artículo podrán generar pérdidas fiscales.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 57.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "57"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "290"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 61 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 12496 (2025-09-15): Otras Disposiciones\noficio 905048 (2022-06-28): Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-12496-2025",
+      "tipo": "oficio",
+      "numero": "12496",
+      "fecha": "2025-09-15",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905048-2022",
+      "tipo": "oficio",
+      "numero": "905048",
+      "fecha": "2022-06-28",
+      "tema": "Impuesto sobre la renta - Costo fiscal activos biol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31395-2019",
+      "tipo": "oficio",
+      "numero": "31395",
+      "fecha": "2019-12-20",
+      "tema": "Beneficios tributarios otorgados durante el gobierno de Iv&aacute;n Duque y la existencia de estudios que los sustenten",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19638-2019",
+      "tipo": "oficio",
+      "numero": "19638",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Es aplicable o no a la DIAN lo dispuesto en el art&iacute;culo 66 de la Ley 1955 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18684-2019",
+      "tipo": "oficio",
+      "numero": "18684",
+      "fecha": "2019-07-19",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 95 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17332-2019",
+      "tipo": "oficio",
+      "numero": "17332",
+      "fecha": "2019-07-03",
+      "tema": "&iquest;A partir de qu&eacute; momento despu&eacute;s de causado el impuesto sobre la renta y complementarios, estos se convierten en dineros p&uacute;blicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17131-2019",
+      "tipo": "oficio",
+      "numero": "17131",
+      "fecha": "2019-07-03",
+      "tema": "Con posterioridad a la vigencia de la Ley de financiamiento, &iquest;Cu&aacute;l es el manejo que se debe dar al impuesto sobre las ventas en los activos bil&oacute;gicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16321-2019",
+      "tipo": "oficio",
+      "numero": "16321",
+      "fecha": "2019-06-21",
+      "tema": "Principio de no confiscatoriedad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8089-2019",
+      "tipo": "oficio",
+      "numero": "8089",
+      "fecha": "2019-04-04",
+      "tema": "&iquest;Es aplicable la exoneraci&oacute;n en los pagos de aportes parafiscales del ICBF y SENA, as&iacute; como los aportes al r&eacute;gimen contributivo de salud a cargo de las entidades que hacen parte del sector cooperativo, por los trabajadores que devenguen menos de 10 SMLMV?&iquest;Las entidades que hacen parte del sector cooperativo deben liquidar autorretenci&oacute;n de renta?&iquest;La obligaci&oacute;n de realizar estos aportes por parte de las Entidades sin &Aacute;nimo de Lucro solamente aplica para las que deben realizar el proceso de calificaci&oacute;n o tambi&eacute;n para las que acreditaron el proceso de permanencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18560-2018",
+      "tipo": "oficio",
+      "numero": "18560",
+      "fecha": "2018-07-16",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto al valor agregado IVA los aportes ordinarios o cuotas de sostenimiento que los cooperados pagan peri&oacute;dicamente a su entidad como contribuci&oacute;n a los gastos de operaci&oacute;n y tributaci&oacute;n de la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17162-2018",
+      "tipo": "oficio",
+      "numero": "17162",
+      "fecha": "2018-06-29",
+      "tema": "Declaraciones del CREE de los a&ntilde;os gravables 2015 y 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0180-2018",
+      "tipo": "oficio",
+      "numero": "0180",
+      "fecha": "2018-02-12",
+      "tema": "Procedimiento para realizar la medici&oacute;n inicial, medici&oacute;n posterior, calcular el valor razonable, costo de venta y clasificaci&oacute;n de los activos biol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29795-2017",
+      "tipo": "oficio",
+      "numero": "29795",
+      "fecha": "2017-11-02",
+      "tema": "Ventas a plazos r&eacute;gimen de transici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23241-2017",
+      "tipo": "oficio",
+      "numero": "23241",
+      "fecha": "2017-08-28",
+      "tema": "Principio de Legalidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8646-2017",
+      "tipo": "oficio",
+      "numero": "8646",
+      "fecha": "2017-04-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6923-2017",
+      "tipo": "oficio",
+      "numero": "6923",
+      "fecha": "2017-03-15",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6086-2016",
+      "tipo": "oficio",
+      "numero": "6086",
+      "fecha": "2016-03-15",
+      "tema": "Renta - Venta a plazos &iquest;El art&iacute;culo 95 del Estatuto Tributario sobre ventas a plazos, se puede aplicar para una empresa de servicios p&uacute;blicos domiciliarios que desea realizar venta de servicios a plazos por concepto de matr&iacute;culas para instalaci&oacute;n y acometidas de gas domiciliario, y cu&aacute;l ser&iacute;a el procedimiento ante la DIAN para lograr tal autorizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5828-2026",
+      "tipo": "oficio",
+      "numero": "5828",
+      "fecha": "",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5825-2015",
+      "tipo": "oficio",
+      "numero": "5825",
+      "fecha": "2015-02-25",
+      "tema": "Bienes Excluidos del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0176-2015",
+      "tipo": "oficio",
+      "numero": "0176",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Existe o no limitaci&oacute;n, para hacer entrega de las declaraciones juramentadas de bienes y rentas a la Unidad Administrativa Especial Agencia del Inspector General de Tributos, Rentas y Contribuciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12842-2012",
+      "tipo": "oficio",
+      "numero": "12842",
+      "fecha": "2012-02-27",
+      "tema": "&iquest;De acuerdo con el inciso 11 del art&iacute;culo 871 del Estatuto Tributario, adicionado por el art&iacute;culo 28 de la Ley 1430 de 2010, las cuentas de ahorro colectivo o las carteras colectivas gozan de la misma exenci&oacute;n consagrada en el numeral 1 del art&iacute;culo 879 del E.T. para los retiros que no excedan mensualmente de 350 UVT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72249-2009",
+      "tipo": "oficio",
+      "numero": "72249",
+      "fecha": "2009-09-04",
+      "tema": "&iquest;Cu&aacute;ndo se entiende realizado el ingreso por la cesi&oacute;n de acciones con pago en cuotas mensuales durante varios a&ntilde;os, efectuada por una persona natural-rentista de capital?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021125-1988",
+      "tipo": "concepto",
+      "numero": "0021125",
+      "fecha": "1988-10-18",
+      "tema": "Causaci&oacute;n IVA en importaciones de naciones del pacto",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-913-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "913",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-379-2020",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "379",
+      "year": 2020,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-575-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "575",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-039-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "039",
+      "year": 2021,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-421-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "421",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-503-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "503",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-690-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "690",
+      "year": 1996,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-844-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "844",
+      "year": 1999,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1441-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1441",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-993-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "993",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1028-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1028",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-292-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "292",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-541-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "541",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2019,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-t-523-1992",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "523",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-540-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "540",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-430-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "430",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-477-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "477",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-160-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "160",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-153-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "153",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-467-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "467",
+      "year": 1993
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-261-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "261",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-743-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "743",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-939-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

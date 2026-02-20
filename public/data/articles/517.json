@@ -1,1 +1,152 @@
-{"id_articulo": "Art. 517", "titulo": "Art. 517. Los funcionarios oficiales responden solidariamente con los agentes de retención.", "titulo_corto": "Los funcionarios oficiales responden solidariamente con los agentes de retención.", "slug": "517", "url_origen": "https://estatuto.co/517", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Responden solidariamente con el agente de retención los funcionarios oficiales que autoricen, expidan, registren o tramiten actos o instrumentos sometidos al impuesto, o quienes sin tener dicho carácter, desempeñen funciones públicas e intervengan en los mencionados hechos.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Responden solidariamente con el agente de retención los funcionarios oficiales que autoricen, expidan, registren o tramiten actos o instrumentos sometidos al impuesto, o quienes sin tener dicho carácter, desempeñen funciones públicas e intervengan en los mencionados hechos.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 34.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "34"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 517",
+  "titulo": "Art. 517. Los funcionarios oficiales responden solidariamente con los agentes de retención.",
+  "titulo_corto": "Los funcionarios oficiales responden solidariamente con los agentes de retención.",
+  "slug": "517",
+  "url_origen": "https://estatuto.co/517",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Responden solidariamente con el agente de retención los funcionarios oficiales que autoricen, expidan, registren o tramiten actos o instrumentos sometidos al impuesto, o quienes sin tener dicho carácter, desempeñen funciones públicas e intervengan en los mencionados hechos.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Responden solidariamente con el agente de retención los funcionarios oficiales que autoricen, expidan, registren o tramiten actos o instrumentos sometidos al impuesto, o quienes sin tener dicho carácter, desempeñen funciones públicas e intervengan en los mencionados hechos.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 34.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "34"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6406 (2019-03-14): Responsables del Impuesto de Timbre\noficio 32474 (2018-11-07): &iquest;Los servicios hoteleros facturados en moneda extranjera se deben expresar tambi&eacute;n en pesos colombianos en el cuerpo de la factura?\noficio 32234 (2018-10-31): Procedencia de notas cr&eacute;dito, d&eacute;bito y anulaciones en el &aacute;mbito de la factura electr&oacute;nica\nconcepto 0124495 (2000-12-27): &iquest;En los contratos de prestaci&oacute;n de servicios de salud, que celebren las entidades Administradoras del Sistema General de Seguridad Social en Salud y las Administradoras de Riesgos Profesionales, con las IPS, qui&eacute;n debe pagar el impuesto de Timbre?\nconcepto 0039088 (1999-11-18): &iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6406-2019",
+      "tipo": "oficio",
+      "numero": "6406",
+      "fecha": "2019-03-14",
+      "tema": "Responsables del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32474-2018",
+      "tipo": "oficio",
+      "numero": "32474",
+      "fecha": "2018-11-07",
+      "tema": "&iquest;Los servicios hoteleros facturados en moneda extranjera se deben expresar tambi&eacute;n en pesos colombianos en el cuerpo de la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32234-2018",
+      "tipo": "oficio",
+      "numero": "32234",
+      "fecha": "2018-10-31",
+      "tema": "Procedencia de notas cr&eacute;dito, d&eacute;bito y anulaciones en el &aacute;mbito de la factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0124495-2000",
+      "tipo": "concepto",
+      "numero": "0124495",
+      "fecha": "2000-12-27",
+      "tema": "&iquest;En los contratos de prestaci&oacute;n de servicios de salud, que celebren las entidades Administradoras del Sistema General de Seguridad Social en Salud y las Administradoras de Riesgos Profesionales, con las IPS, qui&eacute;n debe pagar el impuesto de Timbre?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039088-1999",
+      "tipo": "concepto",
+      "numero": "0039088",
+      "fecha": "1999-11-18",
+      "tema": "&iquest;la causaci&oacute;n del impuesto de timbre nacional en contratos que tienen como objeto la cesi&oacute;n de cr&eacute;ditos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053955-1995",
+      "tipo": "concepto",
+      "numero": "0053955",
+      "fecha": "1995-08-03",
+      "tema": "&iquest;Pueden los notarios ser agentes retenedores del impuesto de timbre que se cause en documentos privados sometidos a su reconocimiento de contenido y firmas?&iquest;Ante la existencia de un contrato en el cual se genere el pago del impuesto de timbre y en el mismo concurran las calidades de agente retenedor y retenido en una de las partes quien paga el cien por ciento (100%) del impuesto citado, est&aacute; obligada la misma a expedirle certificaci&oacute;n de retenci&oacute;n a la otra parte interviniente en el contrato? &iquest;Un documento que cumpla con los presupuestos de derecho para generar el pago del impuesto de timbre puede ser admitido como prueba cuando no existe constancia de haberse cancelado el mencionado impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004572-1994",
+      "tipo": "concepto",
+      "numero": "0004572",
+      "fecha": "1994-02-01",
+      "tema": "&iquest;El art&iacute;culo 794 puede interpretarse en el sentido de hacer responsable a los socios, en la prorrata all&iacute; indicada, por el pago de intereses y sanciones? &iquest;Si una compa&ntilde;&iacute;a aseguradora, a quien se le solicita el pago de una p&oacute;liza con ocasi&oacute;n de la declaratoria de improcedencia de una devoluci&oacute;n que con ella se garantizaba, est&aacute; obligada a cancelar o no los intereses moratorios a que alude el art&iacute;culo 670 del Estatuto Tributario, no obstante no haberse estipulado expresamente que ella garantiza el reintegro de la suma devuelta m&aacute;s sus intereses correspondientes, como lo indica el art&iacute;culo 6o literal c) del art&iacute;culo 6o del Decreto Reglamentario 2314 de 1989?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029573-1993",
+      "tipo": "concepto",
+      "numero": "0029573",
+      "fecha": "1993-11-25",
+      "tema": "&iquest;En que casos se causan intereses de mora sobre el pago del impuesto de timbre nacional y sus obligaciones tributarias, teniendo en cuenta las normas de la Ley 6a de 1992 sobre agentes de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006351-1993",
+      "tipo": "concepto",
+      "numero": "0006351",
+      "fecha": "1993-07-13",
+      "tema": "&iquest;Presentado al notario un documento que causa el impuesto de timbre puede negarse a autenticarlo o autorizar el reconocimiento del contenido si este no se ha pagado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001627-1993",
+      "tipo": "concepto",
+      "numero": "0001627",
+      "fecha": "1993-06-10",
+      "tema": "El t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002366-1990",
+      "tipo": "concepto",
+      "numero": "0002366",
+      "fecha": "1990-01-26",
+      "tema": "Solicita concepto de esto Despacho sobre las normas vigentes que se refieren a la causaci&oacute;n presentaci&oacute;n y plazos para su pago, del impuesto de timbre nacional, causado sobre bonos de prenda, certificados de dep&oacute;sito y pagar&eacute;s prendarios, emitidos por Almacenes Generales de Dep&oacute;sito",
+      "vigente": true
+    }
+  ]
+}

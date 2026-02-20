@@ -1,1 +1,858 @@
-{"id_articulo": "Art. 21", "titulo": "Art. 21. Concepto de sociedad extranjera.", "titulo_corto": "Concepto de sociedad extranjera.", "slug": "21", "url_origen": "https://estatuto.co/21", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "* Se consideran extranjeras las sociedades u otras entidades que no sean sociedades o entidades nacionales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span> Se consideran extranjeras las sociedades u otras entidades que no sean sociedades o entidades nacionales.</p>\n<p> </p>\n</span>", "modificaciones_raw": "* -Modificado- Ley 1607 de 2012. Art. 88.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 21",
+  "titulo": "Art. 21. Concepto de sociedad extranjera.",
+  "titulo_corto": "Concepto de sociedad extranjera.",
+  "slug": "21",
+  "url_origen": "https://estatuto.co/21",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "* Se consideran extranjeras las sociedades u otras entidades que no sean sociedades o entidades nacionales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span> Se consideran extranjeras las sociedades u otras entidades que no sean sociedades o entidades nacionales.</p>\n<p> </p>\n</span>",
+  "modificaciones_raw": "* -Modificado- Ley 1607 de 2012. Art. 88.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 36 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022\noficio 12499 (2025-09-15): Impuesto sobre la Renta y Complementarios\noficio 3454 (2024-05-30): (Int 410) Acuerdos SAFE (Simple Agreement for Future Equity) manejo contable y tributario\noficio 0007 (2023-01-02): Sujetos obligados a presentar informaci&oacute;n ex&oacute;gena\noficio 905372 (2022-07-12): Impuesto sobre la renta - Sucursales de sociedades colombianas en el exterior, Pagos al exterior",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12499-2025",
+      "tipo": "oficio",
+      "numero": "12499",
+      "fecha": "2025-09-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3454-2024",
+      "tipo": "oficio",
+      "numero": "3454",
+      "fecha": "2024-05-30",
+      "tema": "(Int 410) Acuerdos SAFE (Simple Agreement for Future Equity) manejo contable y tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0007-2023",
+      "tipo": "oficio",
+      "numero": "0007",
+      "fecha": "2023-01-02",
+      "tema": "Sujetos obligados a presentar informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905372-2022",
+      "tipo": "oficio",
+      "numero": "905372",
+      "fecha": "2022-07-12",
+      "tema": "Impuesto sobre la renta - Sucursales de sociedades colombianas en el exterior, Pagos al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900986-2022",
+      "tipo": "oficio",
+      "numero": "900986",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910707-2021",
+      "tipo": "oficio",
+      "numero": "910707",
+      "fecha": "2021-09-27",
+      "tema": "Impuesto al Consumo - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901415-2021",
+      "tipo": "oficio",
+      "numero": "901415",
+      "fecha": "2021-02-24",
+      "tema": "Tratamiento tributario que debe darse a la liquidaci&oacute;n de unos bienes recibidos en daci&oacute;n en pago como resultado del tr&aacute;mite de un proceso concursal, al cual se vincul&oacute; la Administradora Colombiana de Pensiones - Colpensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904163-2020",
+      "tipo": "oficio",
+      "numero": "904163",
+      "fecha": "2020-08-20",
+      "tema": "&iquest;Las p&eacute;rdidas fiscales pueden considerarse como activos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1863-2020",
+      "tipo": "oficio",
+      "numero": "1863",
+      "fecha": "2020-01-28",
+      "tema": "Contrato de Fiducia Mercantil",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22459-2019",
+      "tipo": "oficio",
+      "numero": "22459",
+      "fecha": "2019-09-05",
+      "tema": "Deducci&oacute;n de Pagos a la Casa Matriz",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21729-2019",
+      "tipo": "oficio",
+      "numero": "21729",
+      "fecha": "2019-09-12",
+      "tema": "Contrato de Fiducia Mercantil",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4853-2019",
+      "tipo": "oficio",
+      "numero": "4853",
+      "fecha": "2019-02-26",
+      "tema": "Convenios internacionales referentes a la doble imposici&oacute;n y para prevenir la evasi&oacute;n fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10622-2018",
+      "tipo": "oficio",
+      "numero": "10622",
+      "fecha": "2018-04-25",
+      "tema": "Tratamiento fiscal de ciertos ingresos que hacen parte de la tarifa y sus efectos en el impuesto sobre la renta de una empresa de servicios p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9054-2018",
+      "tipo": "oficio",
+      "numero": "9054",
+      "fecha": "2018-04-12",
+      "tema": "&iquest;Las utilidades y-o beneficios que fiscalmente se denominan RENTA LIQUIDA la sucursal en Colombia los declarar&iacute;a como RENTA EXENTA, dentro del marco del convenio?&iquest;A la sucursal que obligaciones tributarias se le asignan en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1814-2018",
+      "tipo": "oficio",
+      "numero": "1814",
+      "fecha": "2018-10-22",
+      "tema": "Impuesto sobre la Renta y Complementarios - Realizaci&oacute;n del Ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0287-2018",
+      "tipo": "oficio",
+      "numero": "0287",
+      "fecha": "2018-03-06",
+      "tema": "Rentas de sociedades extranjeras por la venta de inmuebles pose&iacute;dos en Colombia y retenci&oacute;n en la fuente que procede - Leasing habitacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34105-2017",
+      "tipo": "oficio",
+      "numero": "34105",
+      "fecha": "2017-12-21",
+      "tema": "&iquest;Una sucursal de sociedad extranjera a quien se le atribuye un establecimiento permanente debe practicar retenci&oacute;n en la fuente a t&iacute;tulo de renta y ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27538-2017",
+      "tipo": "oficio",
+      "numero": "27538",
+      "fecha": "2017-08-10",
+      "tema": "Acuerdos de Pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7453-2017",
+      "tipo": "oficio",
+      "numero": "7453",
+      "fecha": "2017-03-31",
+      "tema": "Autorretenedores - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6418-2017",
+      "tipo": "oficio",
+      "numero": "6418",
+      "fecha": "2017-03-23",
+      "tema": "&iquest;De conformidad con el art&iacute;culo 72 de la Ley 1819 de 2016 una sociedad colombiana que adquiere una franquicia de una marca, de una sociedad en el exterior y que por esta raz&oacute;n le realiza pagos al exterior, esta en la obligaci&oacute;n de registrar el contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6225-2017",
+      "tipo": "oficio",
+      "numero": "6225",
+      "fecha": "2017-03-21",
+      "tema": "Exenciones del impuesto de timbre - Exenciones del impuesto de timbre - &iquest;Que documentos o requisitos han aportado, y-o deben aportar los ciudadanos referidos en esta norma, ante los Consulados de dichos pa&iacute;ses para obtener tal exenci&oacute;n? &iquest;Que documentos o requisitos han aportado, y-o deben aportar los ciudadanos referidos en esta norma, ante los Consulados de dichos pa&iacute;ses para obtener tal exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005323-2017",
+      "tipo": "concepto",
+      "numero": "0005323",
+      "fecha": "2017-03-14",
+      "tema": "&iquest;Para el a&ntilde;o 2017 se debe liquidar el anticipo a la sobretasa del Impuesto sobre la Renta para la Equidad (CREE)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18686-2016",
+      "tipo": "oficio",
+      "numero": "18686",
+      "fecha": "2016-07-15",
+      "tema": "Exenci&oacute;n del Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0401-2016",
+      "tipo": "oficio",
+      "numero": "0401",
+      "fecha": "2016-05-11",
+      "tema": "Impuesto sobre la renta para la equidad - CREE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54541-2014",
+      "tipo": "oficio",
+      "numero": "54541",
+      "fecha": "2014-09-10",
+      "tema": "&iquest;Se debe realizar alg&uacute;n ajuste por parte del vendedor del bien o prestador del servicio, en cuanto a las auto-retenciones practicadas a t&iacute;tulo de CREE en las facturas sobre las cuales se hace disminuci&oacute;n del pago?&iquest;Qu&eacute; sucede cuando el descuento por parte del cliente se hace un periodo posterior al cual surgi&oacute; la obligaci&oacute;n de presentar y pagar la respectiva auto-retenci&oacute;n a t&iacute;tulo de CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82781-2013",
+      "tipo": "oficio",
+      "numero": "82781",
+      "fecha": "2013-12-27",
+      "tema": "&iquest;C&oacute;mo se podr&iacute;a controlar la tributaci&oacute;n de servicios que se prestan en desde el exterior sin presencia local en el territorio Colombiano?&iquest;Ser&iacute;a m&aacute;s f&aacute;cil para el fisco Colombiano realizar dicha actividad con la presencia local de dicho prestador de servicios a trav&eacute;s de una oficina de representaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52276-2013",
+      "tipo": "oficio",
+      "numero": "52276",
+      "fecha": "2013-08-21",
+      "tema": "Obligaciones tributarias que corresponden por la prestaci&oacute;n de servicios de una sociedad an&oacute;nima simplificada que se constituye en Colombia, la cual tiene una relaci&oacute;n comercial con una empresa extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26847-2013",
+      "tipo": "oficio",
+      "numero": "26847",
+      "fecha": "2013-05-06",
+      "tema": "&iquest;Es viable para una persona natural extranjera residente en Colombia desde hace un a&ntilde;o, facturar a trav&eacute;s de una empresa colombiana de la cual es soda, los servicios de consultor&iacute;a empresarial prestados en el exterior como independiente, y qu&eacute; impuestos puede incluir en la factura por esta operaci&oacute;n o si se considera una exportaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10563-2013",
+      "tipo": "oficio",
+      "numero": "10563",
+      "fecha": "2013-02-22",
+      "tema": "&iquest;Para celebrar un convenio de cooperaci&oacute;n con el Centro Interamericano de Estudios de Seguridad Social CIESS &oacute;rgano de la Conferencia Interamericana de Seguridad Social CISS, hacer los aportes correspondientes y reportar la informaci&oacute;n de los convenios suscritos a la DIAN, tal organismo debe inscribirse en el Registro &Uacute;nico Tributario y si es necesario que tenga representante en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0657-2013",
+      "tipo": "oficio",
+      "numero": "0657",
+      "fecha": "2013-05-17",
+      "tema": "&iquest;Es v&aacute;lido expedir un certificado de acreditaci&oacute;n de residencia fiscal y\\o situaci&oacute;n tributaria para personas jur&iacute;dicas o naturales cuando el periodo fiscal, de acuerdo con el Decreto 187 de 1975 no ha terminado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72479-2011",
+      "tipo": "oficio",
+      "numero": "72479",
+      "fecha": "2011-09-20",
+      "tema": "&iquest;Para efectos de la deducci&oacute;n por donaciones, las entidades extranjeras sin &aacute;nimo de lucro deben cumplir con los mismos requisitos que el Estatuto Tributario dispone para las entidades nacionales sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65556-2010",
+      "tipo": "oficio",
+      "numero": "65556",
+      "fecha": "2010-09-01",
+      "tema": "&iquest;Constituye enajenaci&oacute;n la transferencia de acciones realizada entre una persona natural residente en Colombia o una SAS colombiana y una empresa o sociedad unipersonal espa&ntilde;ola, ambas del mismo y &uacute;nico propietario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17847-2010",
+      "tipo": "oficio",
+      "numero": "17847",
+      "fecha": "2010-03-15",
+      "tema": "Procedencia de la deducci&oacute;n especial por inversi&oacute;n en activos fijos reales productivos, contenida en el art&iacute;culo 158-3 del Estatuto Tributario, cuando el incremento del capital asignado de la sucursal de sociedad extranjera est&aacute; representado en aportes en especie",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088129-2009",
+      "tipo": "concepto",
+      "numero": "0088129",
+      "fecha": "2009-10-28",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los rendimientos financieros provenientes de una emisi&oacute;n de bonos realizada en Colombia por parte de un emisor extranjero, domiciliado en otro Pa&iacute;s Miembro de la CAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103123-2008",
+      "tipo": "oficio",
+      "numero": "103123",
+      "fecha": "2008-10-20",
+      "tema": "&iquest;Es procedente la deducci&oacute;n especial, cuando una sucursal de sociedad extranjera del sector de servicios a la industria del petr&oacute;leo, por conducto de su oficina principal en el exterior, adquiere activos fijos reales productivos de su casa matriz en el exterior o de compa&ntilde;&iacute;as vinculadas tambi&eacute;n en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73016-2008",
+      "tipo": "oficio",
+      "numero": "73016",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Tiene derecho a devoluci&oacute;n un contribuyente que liquid&oacute; anticipo de renta o de la sobretasa para el per&iacute;odo fiscal siguiente, cuando los mismos por efecto de liquidaci&oacute;n o por no existir la obligaci&oacute;n de declarar en el periodo inmediatamente siguiente, quedan pendientes de su utilizaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72564-2008",
+      "tipo": "oficio",
+      "numero": "72564",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;De qu&eacute; manera se aplica el Estatuto Tributario Colombiano para el caso de una aerol&iacute;nea extranjera que tiene rutas habilitadas en el pa&iacute;s y cuyas ventas se realizan &uacute;nicamente a trav&eacute;s de su p&aacute;gina Web, con lo cual las obligaciones tributarias estar&iacute;an sujetas a las regulaciones del pa&iacute;s de la aerol&iacute;nea?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38958-2008",
+      "tipo": "oficio",
+      "numero": "38958",
+      "fecha": "2008-04-18",
+      "tema": "R&eacute;gimen tributario que cobija a las entidades extranjeras de naturaleza p&uacute;blica cuyas actividades en Colombia no generan ingresos y act&uacute;a a trav&eacute;s de una oficina de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21395-2008",
+      "tipo": "oficio",
+      "numero": "21395",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable en los contratos financiados con recursos de empr&eacute;stitos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-100925-2007",
+      "tipo": "oficio",
+      "numero": "100925",
+      "fecha": "2007-01-01",
+      "tema": "R&eacute;gimen tributario aplicable a Organizaciones no gubernamentales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83555-2007",
+      "tipo": "oficio",
+      "numero": "83555",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Est&aacute; sometida al r&eacute;gimen de precios de transferencia una sucursal de sociedad extranjera establecida en Colombia, que en virtud de un acuerdo bilateral con el fin de ejecutar los recursos provenientes de la oficina principal del exterior firmante del contrato con el Departamento de Estado para el programa de la lucha contra las drogas del gobierno de los estados Unidos en cooperaci&oacute;n con el gobierno Colombiano?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83023-2006",
+      "tipo": "oficio",
+      "numero": "83023",
+      "fecha": "2006-09-26",
+      "tema": "- Impuesto sobre la renta y complementarios - Entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26202-2006",
+      "tipo": "oficio",
+      "numero": "26202",
+      "fecha": "2006-03-28",
+      "tema": "Solicita se precise la respuesta dada mediante oficio 073723 de octubre 11 de 2005 sobre el tratamiento tributario en el impuesto sobre la renta de los seguros de asistencia a viajeros y los servicios prestados en el exterior derivados de dicho seguro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79988-2005",
+      "tipo": "oficio",
+      "numero": "79988",
+      "fecha": "2005-11-01",
+      "tema": "- (Tributario) &iquest;Cu&aacute;l es el r&eacute;gimen tributario aplicable a las organizaciones no gubernamentales extranjeras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071190-2005",
+      "tipo": "concepto",
+      "numero": "0071190",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;En una importaci&oacute;n en la que una entidad estatal aparece en la declaraci&oacute;n de aduanas como importador y los tramites de nacionalizaci&oacute;n se hacen por cuenta del proveedor del exterior, debe la entidad estatal contratante, al momento de legalizar los pagos correspondientes al suministro de los bienes, descontar retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y complementario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020258-2003",
+      "tipo": "concepto",
+      "numero": "0020258",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Los pagos que hace una empresa asociativa de trabajo de profesionales a sus asociados tienen el mismo tratamiento que los pagos que efect&uacute;a una cooperativa de trabajo asociado a sus cooperados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001376-2002",
+      "tipo": "concepto",
+      "numero": "0001376",
+      "fecha": "2002-01-01",
+      "tema": "Causan impuesto sobre las ventas los ingresos facturados por las organizaciones regionales de televisi&oacute;n con base en la ley 14 de 1991?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000656-2002",
+      "tipo": "concepto",
+      "numero": "0000656",
+      "fecha": "2002-01-01",
+      "tema": "Cuando el art&iacute;culo 21 del decreto 405 del 2001 se refiere al",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0125326-2000",
+      "tipo": "concepto",
+      "numero": "0125326",
+      "fecha": "2000-12-29",
+      "tema": "&iquest;Los pagos percibidos por sociedades extranjeras sin domicilio en el Colombia por concepto de venta-licencia de software a usuarios en el pa&iacute;s, est&aacute;n sometidos al impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097609-2000",
+      "tipo": "concepto",
+      "numero": "0097609",
+      "fecha": "2000-10-06",
+      "tema": "&iquest;Son deducibles del Impuesto sobre la Renta, los pagos por concepto de gastos de administraci&oacute;n y por concepto de regal&iacute;as y explotaci&oacute;n o adquisici&oacute;n de cualquier clase de intangibles de que trata el art&iacute;culo 124 del Estatuto Tributario que efect&uacute;e una filial o subsidiaria a su casa matriz del exterior solamente sin que se sometan a retenci&oacute;n en la fuente? &iquest;Cu&aacute;l es el alcance de la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070192-2000",
+      "tipo": "concepto",
+      "numero": "0070192",
+      "fecha": "2000-07-25",
+      "tema": "&iquest;Las sociedades colombianas constituidas con capital extranjero que tienen como objeto social la prestaci&oacute;n de servicios al sector de petrolero, son sujetos pasivos del impuesto complementario de remesas respecto de los pagos o abonos en cuenta relativos a la prestaci&oacute;n de esos servicios que les sean consignados en cuentas de compensaci&oacute;n que las beneficiarias del pago tienen en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008454-1999",
+      "tipo": "concepto",
+      "numero": "0008454",
+      "fecha": "1999-08-31",
+      "tema": "&iquest;Existen diferencias tributarias entre una Sucursal, una agencia, un establecimiento de comercio y la sociedad de la cual forman parte?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057303-1998",
+      "tipo": "concepto",
+      "numero": "0057303",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Para efectos de retenciones en la fuente por pagos al exterior, debe entenderse que la sociedad extranjera es sociedad diferente y no domiciliada en Colombia cuando contrata directamente en el Pa&iacute;s con otras sociedades, o, incluso, con su sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047543-1998",
+      "tipo": "concepto",
+      "numero": "0047543",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;Se encuentran gravados en Colombia los pagos realizados a una empresa extranjera sin domicilio en Colombia por la venta de programas y campamentos de verano en el exterior a residentes en el pa&iacute;s a trav&eacute;s de una oficina de representaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029329-1998",
+      "tipo": "concepto",
+      "numero": "0029329",
+      "fecha": "1998-04-27",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014751-1998",
+      "tipo": "concepto",
+      "numero": "0014751",
+      "fecha": "1998-03-09",
+      "tema": "&iquest;En los casos en que se suscribe con una sociedad extranjera, con sucursal en Colombia (domiciliada), en un contrato de licenciamiento de marca, pact&aacute;ndose como remuneraci&oacute;n el pago de una regal&iacute;a, debe efectuarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008049-1998",
+      "tipo": "concepto",
+      "numero": "0008049",
+      "fecha": "1998-02-11",
+      "tema": "&iquest;Los bienes que una sucursal de sociedad extranjera posee en el exterior originan un mayor gasto por ajuste por inflaci&oacute;n y son base de renta presuntiva para el impuesto de renta y complementarios a cargo de la sucursal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009651-1997",
+      "tipo": "concepto",
+      "numero": "0009651",
+      "fecha": "1997-09-15",
+      "tema": "&iquest;La Resoluci&oacute;n que califica a una entidad como contribuyente del impuesto sobre la renta tiene vigencia durante la existencia de la entidad o es necesario elevar nueva solicitud al Comit&eacute; de Calificaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030530-1996",
+      "tipo": "concepto",
+      "numero": "0030530",
+      "fecha": "1996-04-12",
+      "tema": "&iquest;Se encuentran exentas del pago del impuesto sobre la renta y sus complementarios todas las sociedades de econom&iacute;a mixta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0056804-1995",
+      "tipo": "concepto",
+      "numero": "0056804",
+      "fecha": "1995-08-11",
+      "tema": "&iquest;Est&aacute;n sometidas a retenci&oacute;n en la fuente por los pagos o abonos que se les haga, aquellas entidades sin &aacute;nimo de lucro de car&aacute;cter internacional, cuya personer&iacute;a jur&iacute;dica ha sido expedida en el extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014511-1991",
+      "tipo": "concepto",
+      "numero": "0014511",
+      "fecha": "1991-01-01",
+      "tema": "Pautas de interpretaci&oacute;n y aplicaci&oacute;n de las normas legales y reglamentarias vigentes en materia de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013186-1991",
+      "tipo": "concepto",
+      "numero": "0013186",
+      "fecha": "1991-01-01",
+      "tema": "Retenci&oacute;n sobre pago de fletes a empresas navieras extranjeras sin domicilio en Colombia y su obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005427-1991",
+      "tipo": "concepto",
+      "numero": "0005427",
+      "fecha": "1991-02-27",
+      "tema": "&iquest;La enajenaci&oacute;n en Colombia del intangible-marcas es un ingreso no constitutivo de renta ni de ganancia ocasional para la sociedad extranjera sin domicilio en el pa&iacute;s? Si es as&iacute;, qu&eacute; tarifa de retenci&oacute;n debe aplicarse? Si no es as&iacute;, cu&aacute;l es la tarifa de retenci&oacute;n en la fuente aplicable, teniendo en cuenta que la enajenaci&oacute;n se efectuar&aacute; en Colombia en pesos Colombianos? Habr&iacute;a lugar a retenci&oacute;n del impuesto de remesas y a qu&eacute; tarifa?&iquest;Qu&eacute; otras obligaciones corresponden al comprador, sociedad Colombiana, en este caso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030256-1990",
+      "tipo": "concepto",
+      "numero": "0030256",
+      "fecha": "1990-12-03",
+      "tema": "&iquest;Si una sociedad extranjera sin domicilio en el pa&iacute;s que vender&aacute; sus acciones y su precio en monada extranjera ser&aacute; pagado en 5 instalamentos anuales &iquest;Es correcto entender que como quiera que la compa&ntilde;&iacute;a no tiene domicilio en Colombia y por lo tanto no est&aacute; obligada a llevar libros de contabilidad en Colombia, no est&aacute; obligada a llevar su contabilidad por el sistema de causaci&oacute;n y por ende, de acuerdo con el art&iacute;culo 27 del Decreto 624 de 1989, solamente realizar&aacute; el ingreso derivado de la operaci&oacute;n cuando lo reciba en una forma que equivalga legalmente a un pago?&iquest;Es correcto entender…. que en cada a&ntilde;o solamente estar&aacute; obligada a declarar como costo de las acciones vendidas, &uacute;nicamente aquella proporci&oacute;n del costo total de las acciones que corresponda a los ingresos recibidos en ese a&ntilde;o? &iquest;Mientras el precio total de venta no est&eacute; completamente cancelado, la compa&ntilde;&iacute;a ser&aacute; acreedora de un cr&eacute;dito en moneda extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013982-1988",
+      "tipo": "concepto",
+      "numero": "0013982",
+      "fecha": "1988-07-15",
+      "tema": "Es procedente aplicar las normas que contienen el oficio cuya copia les adjunto y por qu&eacute;?&iquest;Puede el Ministro o la direcci&oacute;n General de Impuestos modificar la Ley 75 de 1987, relativas a renta presuntiva?&iquest;Puede as&iacute; mismo crear nuevos grav&aacute;menes sin intermediaci&oacute;n del Congreso de la Rep&uacute;blica?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-129-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "129",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-993-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "993",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-239-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "239",
+      "year": 1994,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-338-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "338",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-840-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "840",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-030-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "030",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-388-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "388",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1064-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1064",
+      "year": 2001,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-387-1997",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "387",
+      "year": 1997,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-818-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "818",
+      "year": 2005,
+      "decision": "exequible"
+    }
+  ]
+}

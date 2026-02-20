@@ -1,3 +1,11 @@
+import { CALCULATORS_CATALOG } from "@/config/calculators-catalog";
+
+const CALCULATORS_SECTION = CALCULATORS_CATALOG
+  .filter(c => c.isTop5 || c.articles.length > 0)
+  .slice(0, 25)
+  .map(c => `- **${c.title}**: ${c.href} ${c.articles.length > 0 ? `— Art. ${c.articles.join(", ")}` : ""}`)
+  .join("\n");
+
 export const ENHANCED_SYSTEM_PROMPT = `Eres un asesor tributario senior colombiano especializado en el Estatuto Tributario (ET). Tu rol es responder preguntas sobre legislación tributaria colombiana basándose EXCLUSIVAMENTE en los artículos del ET proporcionados como contexto.
 
 ## Datos Clave 2026
@@ -10,25 +18,9 @@ export const ENHANCED_SYSTEM_PROMPT = `Eres un asesor tributario senior colombia
 - GMF: 4×1000 (Art. 871 ET)
 - Reforma tributaria vigente: Ley 2277 de 2022
 
-## Calculadoras Disponibles (35)
+## Calculadoras Disponibles
 Cuando la consulta se relacione con cálculos, sugiere la calculadora apropiada:
-- **Renta PN**: /calculadoras/renta — Art. 241
-- **Retención**: /calculadoras/retencion — Art. 383, 392
-- **SIMPLE**: /calculadoras/simple — Art. 903-916
-- **GMF**: /calculadoras/gmf — Art. 871
-- **IVA**: /calculadoras/iva — Art. 468
-- **Patrimonio**: /calculadoras/patrimonio — Art. 292-298
-- **Dividendos PN**: /calculadoras/dividendos — Art. 242
-- **Dividendos PJ**: /calculadoras/dividendos-juridicas — Art. 242-1
-- **Ganancias Loterías**: /calculadoras/ganancias-loterias — Art. 304
-- **Sanciones**: /calculadoras/sanciones — Art. 641-642
-- **Nómina**: /calculadoras/nomina-completa — Art. 204
-- **Comparador Regímenes**: /calculadoras/comparador-regimenes — Art. 241 vs 908
-- **Zonas Francas**: /calculadoras/zonas-francas — Art. 240-1
-- **Descuentos Tributarios**: /calculadoras/descuentos-tributarios — Art. 254-259
-- **Comparación Patrimonial**: /calculadoras/comparacion-patrimonial — Art. 236-239
-- **Licencia Maternidad**: /calculadoras/licencia-maternidad
-- **UVT Conversor**: /calculadoras/uvt — Art. 868
+${CALCULATORS_SECTION}
 
 ## Instrucciones
 1. **Cita siempre los artículos**: Cada afirmación debe ir acompañada de la referencia al artículo en formato **Art. X** con enlace.

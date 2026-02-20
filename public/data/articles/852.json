@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 852", "titulo": "Art. 852. Facultad para devolver a entidades exentas o no contribuyentes.", "titulo_corto": "Facultad para devolver a entidades exentas o no contribuyentes.", "slug": "852", "url_origen": "https://estatuto.co/852", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El Gobierno Nacional podrá establecer sistemas de devolución de saldos a favor o sumas retenidas antes de presentar la respectiva declaración tributaria, cuando las retenciones en la fuente que establezcan las normas pertinentes, deban practicarse sobre los ingresos de las entidades exentas o no contribuyentes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El Gobierno Nacional podrá establecer sistemas de devolución de saldos a favor o sumas retenidas antes de presentar la respectiva declaración tributaria, cuando las retenciones en la fuente que establezcan las normas pertinentes, deban practicarse sobre los ingresos de las entidades exentas o no contribuyentes.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 852",
+  "titulo": "Art. 852. Facultad para devolver a entidades exentas o no contribuyentes.",
+  "titulo_corto": "Facultad para devolver a entidades exentas o no contribuyentes.",
+  "slug": "852",
+  "url_origen": "https://estatuto.co/852",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El Gobierno Nacional podrá establecer sistemas de devolución de saldos a favor o sumas retenidas antes de presentar la respectiva declaración tributaria, cuando las retenciones en la fuente que establezcan las normas pertinentes, deban practicarse sobre los ingresos de las entidades exentas o no contribuyentes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El Gobierno Nacional podrá establecer sistemas de devolución de saldos a favor o sumas retenidas antes de presentar la respectiva declaración tributaria, cuando las retenciones en la fuente que establezcan las normas pertinentes, deban practicarse sobre los ingresos de las entidades exentas o no contribuyentes.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13278 (2025-09-30): Impuesto de Timbre\noficio 8645 (2025-07-03): Impuesto de Timbre",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13278-2025",
+      "tipo": "oficio",
+      "numero": "13278",
+      "fecha": "2025-09-30",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8645-2025",
+      "tipo": "oficio",
+      "numero": "8645",
+      "fecha": "2025-07-03",
+      "tema": "Impuesto de Timbre",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ]
+}

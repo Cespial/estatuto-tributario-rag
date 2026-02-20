@@ -2,7 +2,7 @@
 
 import { clsx } from "clsx";
 
-export type CalendarRangeFilter = "mes" | "trimestre" | "anio";
+export type CalendarRangeFilter = "semana" | "proximos30" | "mes" | "trimestre" | "anio";
 
 interface CalendarRangeTabsProps {
   value: CalendarRangeFilter;
@@ -10,9 +10,11 @@ interface CalendarRangeTabsProps {
 }
 
 const OPTIONS: Array<{ value: CalendarRangeFilter; label: string }> = [
+  { value: "semana", label: "Próxima semana" },
+  { value: "proximos30", label: "Próximos 30 días" },
   { value: "mes", label: "Este mes" },
-  { value: "trimestre", label: "Este trimestre" },
-  { value: "anio", label: "Todo 2026" },
+  { value: "trimestre", label: "Trimestre" },
+  { value: "anio", label: "2026" },
 ];
 
 export function CalendarRangeTabs({ value, onChange }: CalendarRangeTabsProps) {

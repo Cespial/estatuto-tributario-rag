@@ -1,6 +1,6 @@
 "use client";
 
-import { Download } from "lucide-react";
+import { Download, FileDown } from "lucide-react";
 
 interface DashboardExportActionsProps {
   filenamePrefix: string;
@@ -66,6 +66,13 @@ export function DashboardExportActions({
       >
         <Download className="h-4 w-4" />
         Exportar CSV
+      </button>
+      <button
+        onClick={() => window.print()}
+        className="inline-flex items-center gap-2 rounded bg-foreground px-3 py-2 text-sm text-background transition-colors hover:opacity-90"
+      >
+        <FileDown className="h-4 w-4" />
+        Generar PDF
       </button>
     </div>
   );

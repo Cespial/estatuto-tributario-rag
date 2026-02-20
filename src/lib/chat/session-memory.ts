@@ -24,7 +24,7 @@ export function buildConversationContext(
           .map((p) => (p.text as string) || "")
           .join(" ");
       }
-      const truncated = text.length > 200 ? text.slice(0, 200) + "..." : text;
+      const truncated = text.length > 400 ? text.slice(0, 400) + "..." : text;
       return `${m.role === "user" ? "Usuario" : "Asistente"}: ${truncated}`;
     })
     .join("\n");

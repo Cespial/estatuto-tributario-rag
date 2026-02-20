@@ -1,1 +1,280 @@
-{"id_articulo": "Art. 916", "titulo": "Art. 916. Régimen de procedimiento, sancionatorio y de firmeza que las declaraciones del impuesto unificado bajo el régimen simple de tributación - SIMPLE.", "titulo_corto": "Régimen de procedimiento, sancionatorio y de firmeza que las declaraciones del impuesto unificado bajo el régimen simple de tributación - SIMPLE.", "slug": "916", "url_origen": "https://estatuto.co/916", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 5, "contenido_texto": "*El régimen de procedimiento, sancionatorio y de firmeza de las declaraciones del impuesto unificado bajo el régimen simple de tributación -SIMPLE- es el previsto en el Estatuto Tributario. Parágrafo. Los ingresos obtenidos por concepto de sanciones e intereses se distribuirán entre la Dirección de Impuestos y Aduanas Nacionales - DIAN Y las autoridades municipales y distritales competentes, en proporción a la participación de los impuestos nacionales y territoriales en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El régimen de procedimiento, sancionatorio y de firmeza de las declaraciones del impuesto unificado bajo el régimen simple de tributación -SIMPLE- es el previsto en el Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo.</span></strong> Los ingresos obtenidos por concepto de sanciones e intereses se distribuirán entre la Dirección de Impuestos y Aduanas Nacionales - DIAN Y las autoridades municipales y distritales competentes, en proporción a la participación de los impuestos nacionales y territoriales en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "74"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "66"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "165"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 5, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": ["Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, mediante Sentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger. - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 916",
+  "titulo": "Art. 916. Régimen de procedimiento, sancionatorio y de firmeza que las declaraciones del impuesto unificado bajo el régimen simple de tributación - SIMPLE.",
+  "titulo_corto": "Régimen de procedimiento, sancionatorio y de firmeza que las declaraciones del impuesto unificado bajo el régimen simple de tributación - SIMPLE.",
+  "slug": "916",
+  "url_origen": "https://estatuto.co/916",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 5,
+  "contenido_texto": "*El régimen de procedimiento, sancionatorio y de firmeza de las declaraciones del impuesto unificado bajo el régimen simple de tributación -SIMPLE- es el previsto en el Estatuto Tributario. Parágrafo. Los ingresos obtenidos por concepto de sanciones e intereses se distribuirán entre la Dirección de Impuestos y Aduanas Nacionales - DIAN Y las autoridades municipales y distritales competentes, en proporción a la participación de los impuestos nacionales y territoriales en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El régimen de procedimiento, sancionatorio y de firmeza de las declaraciones del impuesto unificado bajo el régimen simple de tributación -SIMPLE- es el previsto en el Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo.</span></strong> Los ingresos obtenidos por concepto de sanciones e intereses se distribuirán entre la Dirección de Impuestos y Aduanas Nacionales - DIAN Y las autoridades municipales y distritales competentes, en proporción a la participación de los impuestos nacionales y territoriales en el impuesto unificado bajo el régimen simple de tributación - SIMPLE.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2010 de 2019 Art 74. *Modificado Ley 1943 de 2018 Art 66. *Adicionado Ley 1819 de 2016 Art 165.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "74"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "66"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "165"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 5,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "Corte Constitucional - La Corte Constitucional declaró estarse a lo resuelto en la Sentencia C-493-19, mediante Sentencia C-520-19 de 5 de noviembre de 2019, Magistrada Ponente Dra. Cristina Pardo Schlesinger. - Artículo 66 de la Ley 1943 de 2018 declarado EXEQUIBLE, por los cargos analizados, por la Corte Constitucional mediante Sentencia C-493-19 de 22 de octubre de 2019, Magistrado Ponente Dr. Carlos Bernal Pulido. - Ley 1943 de 2018 declarada INEXEQUIBLE -por forma- por la Corte Constitucional mediante Sentencia C-481-19 de 3 de octubre de 2019, Magistrado Ponente Dr. Alejandro Linares Cantillo."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 6 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13272 (2025-10-01): Procedimiento Tributario\noficio 6706 (2025-04-29): Procedimiento Tributario\noficio 6105 (2025-05-14): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 2808 (2025-03-06): R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE\noficio 2704 (2025-02-14): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13272-2025",
+      "tipo": "oficio",
+      "numero": "13272",
+      "fecha": "2025-10-01",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6706-2025",
+      "tipo": "oficio",
+      "numero": "6706",
+      "fecha": "2025-04-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6105-2025",
+      "tipo": "oficio",
+      "numero": "6105",
+      "fecha": "2025-05-14",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2808-2025",
+      "tipo": "oficio",
+      "numero": "2808",
+      "fecha": "2025-03-06",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2704-2025",
+      "tipo": "oficio",
+      "numero": "2704",
+      "fecha": "2025-02-14",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0772-2025",
+      "tipo": "oficio",
+      "numero": "0772",
+      "fecha": "2025-04-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903789-2020",
+      "tipo": "oficio",
+      "numero": "903789",
+      "fecha": "2020-08-05",
+      "tema": "Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0513-2020",
+      "tipo": "oficio",
+      "numero": "0513",
+      "fecha": "2020-08-28",
+      "tema": "Responsabilidades de la persona natural en el Registro &Uacute;nico Tributario -RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32136-2019",
+      "tipo": "oficio",
+      "numero": "32136",
+      "fecha": "2019-12-31",
+      "tema": "Agentes de Retenci&oacute;n del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31298-2019",
+      "tipo": "oficio",
+      "numero": "31298",
+      "fecha": "2019-12-19",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28239-2019",
+      "tipo": "oficio",
+      "numero": "28239",
+      "fecha": "2019-11-13",
+      "tema": "Declaraci&oacute;n de IVA cuatrimestral - Procedimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27810-2019",
+      "tipo": "oficio",
+      "numero": "27810",
+      "fecha": "2019-11-07",
+      "tema": "&iquest;Por qu&eacute; el formulario n&uacute;mero 2593, prescrito por la resoluci&oacute;n N&deg; 57 de septiembre de 2019 como recibo electr&oacute;nico para el pago del anticipo del simple, limita al contribuyente para que este haga el ejercicio de la liquidaci&oacute;n del anticipo del IVA, de conformidad con las normas del Estatuto Tributario para dicha liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22620-2019",
+      "tipo": "oficio",
+      "numero": "22620",
+      "fecha": "2019-09-09",
+      "tema": "Ingresos brutos para distribuidores minoristas de combustibles liquidos y derivados del petroleo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22606-2019",
+      "tipo": "oficio",
+      "numero": "22606",
+      "fecha": "2019-09-09",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21918-2019",
+      "tipo": "oficio",
+      "numero": "21918",
+      "fecha": "2019-09-03",
+      "tema": "Anticipo de impuesto liquidado como contribuyente de Impuesto a la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21337-2019",
+      "tipo": "oficio",
+      "numero": "21337",
+      "fecha": "2019-08-28",
+      "tema": "Anticipo de impuesto, liquidado como contribuyente de Impuesto a la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21316-2019",
+      "tipo": "oficio",
+      "numero": "21316",
+      "fecha": "2019-08-28",
+      "tema": "Aportes al Sistema General de Pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21313-2019",
+      "tipo": "oficio",
+      "numero": "21313",
+      "fecha": "2019-08-28",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20707-2019",
+      "tipo": "oficio",
+      "numero": "20707",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Todas las personas naturales que se acojan al r&eacute;gimen deben facturar IVA, sin tomar en consideraci&oacute;n el tope de los ingresos establecidos en el numeral 1 del par&aacute;grafo 3 del art&iacute;culo 437 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17802-2019",
+      "tipo": "oficio",
+      "numero": "17802",
+      "fecha": "2019-07-09",
+      "tema": "Cambio en empresa al R&eacute;gimen Simple de Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16055-2019",
+      "tipo": "oficio",
+      "numero": "16055",
+      "fecha": "2019-06-19",
+      "tema": "Proceso para cambiar al r&eacute;gimen simple a una persona con actividad m&eacute;dica gravada a la tarifa general",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34142-2018",
+      "tipo": "oficio",
+      "numero": "34142",
+      "fecha": "2018-12-11",
+      "tema": "Impuestos aplicables a los denominados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28731-2017",
+      "tipo": "oficio",
+      "numero": "28731",
+      "fecha": "2017-10-23",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento y-o beneficio tributario para los aportes realizados por terceros (patrocinadores) al programa social complementario de protecci&oacute;n para la vejez denominado beneficios econ&oacute;micos peri&oacute;dicos -BEPS, programa que es administrado por COLPENSIONES?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-493-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "493",
+      "year": 2019,
+      "decision": "exequible"
+    }
+  ]
+}

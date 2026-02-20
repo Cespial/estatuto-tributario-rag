@@ -1,1 +1,971 @@
-{"id_articulo": "Art. 635", "titulo": "Art. 635. Determinación de la tasa de interés moratorio.", "titulo_corto": "Determinación de la tasa de interés moratorio.", "slug": "635", "url_origen": "https://estatuto.co/635", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Para efectos de las obligaciones administradas por la Dirección de Impuestos y Aduanas Nacionales, el interés moratorio se liquidará diariamente a la tasa de interés diario que sea equivalente a la tasa de usura vigente determinada por la Superintendencia Financiera de Colombia para las modalidades de crédito de consumo, menos dos (2) puntos. La Dirección de Impuestos y Aduanas Nacionales publicará la tasa correspondiente en su página web\". Las obligaciones insolutas a la fecha de entrada en vigencia de esta ley generarán intereses de mora a la tasa prevista en este artículo sobre los saldos de capital que no incorporen los intereses de mora generados antes de la entrada en vigencia de la presente ley. **Para liquidar los intereses moratorios de que trata este artículo aplicará la fórmula establecida en el parágrafo del artículo 590 del Estatuto Tributario. Parágrafo. Lo previsto en este artículo y en el artículo 867-1 tendrá efectos en relación con los impuestos nacionales, departamentales, municipales y distritales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong>Para efectos de las obligaciones administradas por la Dirección de Impuestos y Aduanas Nacionales, el interés moratorio se liquidará diariamente a la tasa de interés diario que sea equivalente a la tasa de usura vigente determinada por la Superintendencia Financiera de Colombia para las modalidades de crédito de consumo, menos dos (2) puntos. La Dirección de Impuestos y Aduanas Nacionales publicará la tasa correspondiente en su página web\".</span></p>\n<p>Las obligaciones insolutas a la fecha de entrada en vigencia de esta ley generarán intereses de mora a la tasa prevista en este artículo sobre los saldos de capital que no incorporen los intereses de mora generados antes de la entrada en vigencia de la presente ley.</p>\n<p><strong><span class=\"verde\">**</span></strong>Para liquidar los intereses moratorios de que trata este artículo aplicará la fórmula establecida en el parágrafo del <a href=\"https://estatuto.co/590\" rel=\"noopener\" target=\"_blank\">artículo 590</a> del Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Lo previsto en este artículo y en el <a href=\"https://estatuto.co/867-1\" rel=\"noopener\" target=\"_blank\">artículo 867-1</a> tendrá efectos en relación con los impuestos nacionales, departamentales, municipales y distritales.</p>\n</span>", "modificaciones_raw": "*Modificado- Ley 1819 de 2016 Art. 279. *Modificado Ley 1607 de 2012 Art. 141. **Adicionado Ley 2106 de 2019 Art 49.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "141"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "2106", "norma_year": 2019, "norma_articulo": "49"}], "total_modificaciones": 2, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Ley 1607 de 2012", "Ley 2106 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["590", "867-1"], "referenced_by": ["590", "812", "864"], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 635",
+  "titulo": "Art. 635. Determinación de la tasa de interés moratorio.",
+  "titulo_corto": "Determinación de la tasa de interés moratorio.",
+  "slug": "635",
+  "url_origen": "https://estatuto.co/635",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Para efectos de las obligaciones administradas por la Dirección de Impuestos y Aduanas Nacionales, el interés moratorio se liquidará diariamente a la tasa de interés diario que sea equivalente a la tasa de usura vigente determinada por la Superintendencia Financiera de Colombia para las modalidades de crédito de consumo, menos dos (2) puntos. La Dirección de Impuestos y Aduanas Nacionales publicará la tasa correspondiente en su página web\". Las obligaciones insolutas a la fecha de entrada en vigencia de esta ley generarán intereses de mora a la tasa prevista en este artículo sobre los saldos de capital que no incorporen los intereses de mora generados antes de la entrada en vigencia de la presente ley. **Para liquidar los intereses moratorios de que trata este artículo aplicará la fórmula establecida en el parágrafo del artículo 590 del Estatuto Tributario. Parágrafo. Lo previsto en este artículo y en el artículo 867-1 tendrá efectos en relación con los impuestos nacionales, departamentales, municipales y distritales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong>Para efectos de las obligaciones administradas por la Dirección de Impuestos y Aduanas Nacionales, el interés moratorio se liquidará diariamente a la tasa de interés diario que sea equivalente a la tasa de usura vigente determinada por la Superintendencia Financiera de Colombia para las modalidades de crédito de consumo, menos dos (2) puntos. La Dirección de Impuestos y Aduanas Nacionales publicará la tasa correspondiente en su página web\".</span></p>\n<p>Las obligaciones insolutas a la fecha de entrada en vigencia de esta ley generarán intereses de mora a la tasa prevista en este artículo sobre los saldos de capital que no incorporen los intereses de mora generados antes de la entrada en vigencia de la presente ley.</p>\n<p><strong><span class=\"verde\">**</span></strong>Para liquidar los intereses moratorios de que trata este artículo aplicará la fórmula establecida en el parágrafo del <a href=\"https://estatuto.co/590\" rel=\"noopener\" target=\"_blank\">artículo 590</a> del Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Lo previsto en este artículo y en el <a href=\"https://estatuto.co/867-1\" rel=\"noopener\" target=\"_blank\">artículo 867-1</a> tendrá efectos en relación con los impuestos nacionales, departamentales, municipales y distritales.</p>\n</span>",
+  "modificaciones_raw": "*Modificado- Ley 1819 de 2016 Art. 279. *Modificado Ley 1607 de 2012 Art. 141. **Adicionado Ley 2106 de 2019 Art 49.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "141"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2106",
+      "norma_year": 2019,
+      "norma_articulo": "49"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "Ley 2106 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "590",
+    "867-1"
+  ],
+  "referenced_by": [
+    "590",
+    "812",
+    "864"
+  ],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 38 concepto(s) relacionado(s). Jurisprudencia: 6 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6300 (2023-05-29): (Int 620) Adici&oacute;n al Concepto General 1328 de 2023 - Tasa de inter&eacute;s moratorio - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s\noficio 3284 (2023-03-17): Reconsideraci&oacute;n del punto 3 del T&iacute;tulo VI del Concepto 001328 - interno 165 del 7 de febrero de 2023 - Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s\noficio 3206 (2023-03-16): (329) Procedimiento tributario - Ineficacia de las Declaraciones de Retenci&oacute;n en la Fuente Presentadas Sin Pago Total - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Contribuciones parafiscales\noficio 1328 (2023-02-07): (165) Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022\noficio 913636 (2021-11-05): Reducci&oacute;n transitoria de sanciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6300-2023",
+      "tipo": "oficio",
+      "numero": "6300",
+      "fecha": "2023-05-29",
+      "tema": "(Int 620) Adici&oacute;n al Concepto General 1328 de 2023 - Tasa de inter&eacute;s moratorio - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3284-2023",
+      "tipo": "oficio",
+      "numero": "3284",
+      "fecha": "2023-03-17",
+      "tema": "Reconsideraci&oacute;n del punto 3 del T&iacute;tulo VI del Concepto 001328 - interno 165 del 7 de febrero de 2023 - Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3206-2023",
+      "tipo": "oficio",
+      "numero": "3206",
+      "fecha": "2023-03-16",
+      "tema": "(329) Procedimiento tributario - Ineficacia de las Declaraciones de Retenci&oacute;n en la Fuente Presentadas Sin Pago Total - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Contribuciones parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1328-2023",
+      "tipo": "oficio",
+      "numero": "1328",
+      "fecha": "2023-02-07",
+      "tema": "(165) Concepto General en materia de procedimiento tributario y aduanero con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913636-2021",
+      "tipo": "oficio",
+      "numero": "913636",
+      "fecha": "2021-11-05",
+      "tema": "Reducci&oacute;n transitoria de sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1159-2026",
+      "tipo": "oficio",
+      "numero": "1159",
+      "fecha": "2026-01-26",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0038-2026",
+      "tipo": "oficio",
+      "numero": "0038",
+      "fecha": "2026-01-02",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21020-2025",
+      "tipo": "oficio",
+      "numero": "21020",
+      "fecha": "2025-12-30",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20056-2025",
+      "tipo": "oficio",
+      "numero": "20056",
+      "fecha": "2025-12-12",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19465-2025",
+      "tipo": "oficio",
+      "numero": "19465",
+      "fecha": "2025-12-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19451-2025",
+      "tipo": "oficio",
+      "numero": "19451",
+      "fecha": "2025-12-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14743-2025",
+      "tipo": "oficio",
+      "numero": "14743",
+      "fecha": "2025-10-28",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13318-2025",
+      "tipo": "oficio",
+      "numero": "13318",
+      "fecha": "2025-10-06",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10156-2025",
+      "tipo": "oficio",
+      "numero": "10156",
+      "fecha": "2025-07-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8344-2025",
+      "tipo": "oficio",
+      "numero": "8344",
+      "fecha": "2025-05-28",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7887-2025",
+      "tipo": "oficio",
+      "numero": "7887",
+      "fecha": "2025-05-21",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3864-2025",
+      "tipo": "oficio",
+      "numero": "3864",
+      "fecha": "2025-04-01",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14960-2024",
+      "tipo": "oficio",
+      "numero": "14960",
+      "fecha": "2024-07-30",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6513-2024",
+      "tipo": "oficio",
+      "numero": "6513",
+      "fecha": "2024-09-12",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6261-2024",
+      "tipo": "oficio",
+      "numero": "6261",
+      "fecha": "2024-09-06",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5736-2024",
+      "tipo": "oficio",
+      "numero": "5736",
+      "fecha": "2024-08-20",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0909-2024",
+      "tipo": "oficio",
+      "numero": "0909",
+      "fecha": "2024-02-06",
+      "tema": "(Int 065) Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - Obligaciones - Correcci&oacute;n de declaraciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0304-2024",
+      "tipo": "oficio",
+      "numero": "0304",
+      "fecha": "2024-01-23",
+      "tema": "(Int 106) Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - Obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13463-2023",
+      "tipo": "oficio",
+      "numero": "13463",
+      "fecha": "2023-08-30",
+      "tema": "(Int 1253) Reconsideraci&oacute;n donde se confirma y precisa el alcance de la doctrina plasmada en el Oficio 001403 de enero 18 de 2019 - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2840-2023",
+      "tipo": "oficio",
+      "numero": "2840",
+      "fecha": "2023-05-10",
+      "tema": "(Int 549) Facilidades para el pago - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905053-2022",
+      "tipo": "oficio",
+      "numero": "905053",
+      "fecha": "2022-06-28",
+      "tema": "Procedimiento tributario - Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904839-2022",
+      "tipo": "oficio",
+      "numero": "904839",
+      "fecha": "2022-06-17",
+      "tema": "Procedimiento tributario - Inter&eacute;s moratorio aplicable para los pagos de obligaciones fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915621-2021",
+      "tipo": "oficio",
+      "numero": "915621",
+      "fecha": "2021-12-23",
+      "tema": "Reducci&oacute;n transitoria de sanciones y de tasa de inter&eacute;s - Cuota de fomento de la papa",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915363-2021",
+      "tipo": "oficio",
+      "numero": "915363",
+      "fecha": "2021-12-16",
+      "tema": "Retenci&oacute;n en la fuente - Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913233-2021",
+      "tipo": "oficio",
+      "numero": "913233",
+      "fecha": "2021-10-25",
+      "tema": "Facilidades de pago, procedimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910512-2021",
+      "tipo": "oficio",
+      "numero": "910512",
+      "fecha": "2021-09-23",
+      "tema": "Intereses en devoluciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907498-2021",
+      "tipo": "oficio",
+      "numero": "907498",
+      "fecha": "2021-07-28",
+      "tema": "Procedimiento tributario - Facilidades abreviadas de pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905412-2021",
+      "tipo": "oficio",
+      "numero": "905412",
+      "fecha": "2021-06-10",
+      "tema": "Procesos de reorganizaci&oacute;n empresarial - Aplicaci&oacute;n de tasa de inter&eacute;s moratoria transitoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905048-2021",
+      "tipo": "oficio",
+      "numero": "905048",
+      "fecha": "2021-05-31",
+      "tema": "Procedimiento de devoluci&oacute;n de saldos y sumas pagadas por impuesto de renta tras una declaratoria de inconstitucionalidad o nulidad simple",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907180-2020",
+      "tipo": "oficio",
+      "numero": "907180",
+      "fecha": "2020-11-18",
+      "tema": "Conciliaci&oacute;n Contencioso Administrativa Terminaci&oacute;n por mutuo acuerdo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907170-2020",
+      "tipo": "oficio",
+      "numero": "907170",
+      "fecha": "2020-11-18",
+      "tema": "La estampilla",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904911-2020",
+      "tipo": "oficio",
+      "numero": "904911",
+      "fecha": "2020-09-15",
+      "tema": "&iquest;Si un contribuyente decide pagar una glosa planteada por la Administraci&oacute;n Tributaria para obtener la reducci&oacute;n de la sanci&oacute;n y la tasa de inter&eacute;s especial, pero seguir litigando de fondo esa glosa, c&oacute;mo debe proceder?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903756-2020",
+      "tipo": "oficio",
+      "numero": "903756",
+      "fecha": "2020-08-04",
+      "tema": "Intereses Moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902476-2020",
+      "tipo": "oficio",
+      "numero": "902476",
+      "fecha": "2020-06-18",
+      "tema": "Intereses Moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1221-2020",
+      "tipo": "oficio",
+      "numero": "1221",
+      "fecha": "2020-01-22",
+      "tema": "Tasa de inter&eacute;s moratorio vigente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18684-2019",
+      "tipo": "oficio",
+      "numero": "18684",
+      "fecha": "2019-07-19",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 95 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12551-2019",
+      "tipo": "oficio",
+      "numero": "12551",
+      "fecha": "2019-05-21",
+      "tema": "&iquest;la liquidaci&oacute;n de estos intereses corrientes m&aacute;s dos puntos porcentuales, aplica a partir del d&iacute;a siguiente al vencimiento del t&eacute;rmino de la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1773-2019",
+      "tipo": "oficio",
+      "numero": "1773",
+      "fecha": "2019-01-24",
+      "tema": "&iquest;El IVA pagado con motivo de una declaraci&oacute;n de correcci&oacute;n o de modificaci&oacute;n a una declaraci&oacute;n de importaci&oacute;n, es descontable en la declaraci&oacute;n de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1403-2019",
+      "tipo": "oficio",
+      "numero": "1403",
+      "fecha": "2019-01-15",
+      "tema": "&iquest;Es aplicable la modificaci&oacute;n introducida con el art&iacute;culo 279 de la Ley 1819 de 2016 respecto de la tasa de inter&eacute;s moratorio a obligaciones anteriores al a&ntilde;o 2017 que se cancelen en el a&ntilde;o 2018?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0060-2019",
+      "tipo": "oficio",
+      "numero": "0060",
+      "fecha": "2019-01-25",
+      "tema": "&iquest;Quienes son agentes de retenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12203-2018",
+      "tipo": "oficio",
+      "numero": "12203",
+      "fecha": "2018-05-08",
+      "tema": "&iquest;Cu&aacute;les son los efectos jur&iacute;dicos del incumplimiento del tr&aacute;mite contemplado en la Orden Administrativa 007 de 2000, modificada por la Orden Administrativa No.004 de 2004, en lo referente al oficio de cobro persuasivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901307-2017",
+      "tipo": "oficio",
+      "numero": "901307",
+      "fecha": "2017-03-07",
+      "tema": "&iquest;Cu&aacute;les son las sanciones o multas aplicables en los casos en los que no se paga el impuesto sobre las ventas dentro de los plazos que fija el Gobierno Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25398-2017",
+      "tipo": "oficio",
+      "numero": "25398",
+      "fecha": "2017-09-20",
+      "tema": "Intereses de mora aplicables a obligaciones anteriores al art&iacute;culo 635 del Estatuto Tributario modificado por el art&iacute;culo 279 de la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21512-2017",
+      "tipo": "oficio",
+      "numero": "21512",
+      "fecha": "2017-08-11",
+      "tema": "&iquest;Se debe aplicar el Art. 279 de la Ley 1819 del 29 de Diciembre de 2016 en el cual se modifica el primer inciso del art&iacute;culo 635 del Estatuto Tributario en el cual se debe hacer una disminuci&oacute;n de dos puntos a la tasa de usura vigente para dicha liquidaci&oacute;n de intereses moratorios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9796-2017",
+      "tipo": "oficio",
+      "numero": "9796",
+      "fecha": "2017-04-26",
+      "tema": "Determinaci&oacute;n de la tasa de inter&eacute;s; Vigencia la norma",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5033-2017",
+      "tipo": "oficio",
+      "numero": "5033",
+      "fecha": "2017-03-10",
+      "tema": "&iquest;Desde qu&eacute; periodo es aplicable la modificaci&oacute;n introducida con el art&iacute;culo 279 de la Ley 1819 de 2016 correspondiente a la tasa de inter&eacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4765-2017",
+      "tipo": "oficio",
+      "numero": "4765",
+      "fecha": "2017-02-24",
+      "tema": "La Ley 21 de 1982 facult&oacute; al Ministerio de Educaci&oacute;n Nacional para recaudar la contribuci&oacute;n parafiscal correspondiente al 1% de las n&oacute;minas de las entidades obligadas, con destino a las",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36281-2016",
+      "tipo": "oficio",
+      "numero": "36281",
+      "fecha": "2016-12-27",
+      "tema": "Contribuci&oacute;n especial de obra p&uacute;blica - &iquest;A partir de cu&aacute;ndo es aplicable la doctrina contenida en el Oficio No. 087708 de Octubre 26 de 2007 (y por ende la Dian puede fiscalizar); &iquest;desde la notificaci&oacute;n del Oficio? &iquest;desde la ejecutoria de la Sentencia del Consejo de Estado que declar&oacute; su legalidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26262-2016",
+      "tipo": "oficio",
+      "numero": "26262",
+      "fecha": "2016-12-14",
+      "tema": "- Solicita usted reconsideraci&oacute;n del Concepto n&uacute;mero 6686 del 2 de marzo de 2015 (n&uacute;mero interno 193 de la misma fecha) el cual versa sobre el inter&eacute;s que debe cobrarse sobre condenas en costas a favor de la DIAN.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7097-2016",
+      "tipo": "oficio",
+      "numero": "7097",
+      "fecha": "2016-03-31",
+      "tema": "&iquest;De conformidad con el par&aacute;grafo del art&iacute;culo 27 de la Ley 1607 de 2012, se considera v&aacute;lidamente presentada la declaraci&oacute;n del impuesto sobre la renta para la equidad -CREE, que se presenta oportunamente sin pago o con pago parcial y respecto de la cual el contribuyente efect&uacute;a su pago total antes de que la Administraci&oacute;n Tributaria profiera el Auto Declarativo que la de c&oacute;mo no presentada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0713-2016",
+      "tipo": "oficio",
+      "numero": "0713",
+      "fecha": "2016-07-22",
+      "tema": "&iquest;Cu&aacute;l es el inter&eacute;s aplicable para los casos en que se reclamen perjuicios con ocasi&oacute;n de tributos o impuestos y cu&aacute;l es el inter&eacute;s aplicable en los eventos en que no est&eacute; involucrada una reclamaci&oacute;n con origen en impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11216-2015",
+      "tipo": "oficio",
+      "numero": "11216",
+      "fecha": "2015-04-21",
+      "tema": "Limite de Inembargabilidad - Proceso de cobro coactivo de las deudas fiscales por concepto de impuestos, anticipos, retenciones, intereses y sanciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6418-2015",
+      "tipo": "oficio",
+      "numero": "6418",
+      "fecha": "2015-02-27",
+      "tema": "Ineficacia de las declaraciones de retenci&oacute;n en la fuente sin pago total",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64498-2014",
+      "tipo": "oficio",
+      "numero": "64498",
+      "fecha": "2014-11-27",
+      "tema": "Liquidaci&oacute;n de intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54729-2014",
+      "tipo": "oficio",
+      "numero": "54729",
+      "fecha": "2014-09-15",
+      "tema": "&iquest;Cu&aacute;ndo media un acuerdo de pago para la cancelaci&oacute;n de un tributo, es procedente cobrar intereses de mora, bajo el entendido que la obligaci&oacute;n se cancelar&aacute; oportunamente conforme el acuerdo suscrito por las partes?&iquest;Es procedente aplicar el art&iacute;culo 635 del Estatuto Tributario en el caso concreto, teniendo en cuenta que en esta norma se regulan las obligaciones administradas por la DIAN y en el caso objeto de estudio, se trata de un tributo administrado por las corporaciones aut&oacute;nomas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53166-2014",
+      "tipo": "oficio",
+      "numero": "53166",
+      "fecha": "2014-09-02",
+      "tema": "&iquest;De conformidad con la Ley 1066 de 1996 (julio 29), por la cual se dictan normas para la normalizaci&oacute;n de cartera p&uacute;blica y se dictan otras disposiciones, las entidades p&uacute;blicas que tengan a su cargo el cobro coactivo de deudas fiscales, deben seguir el Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1116-2014",
+      "tipo": "oficio",
+      "numero": "1116",
+      "fecha": "2014-01-13",
+      "tema": "&iquest;Los intereses moratorios que se deben liquidar conforme con el art&iacute;culo 634 del Estatuto Tributario, en el caso de la declaraci&oacute;n de retenci&oacute;n en la fuente, deben liquidarse sobre el valor correspondiente al",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72381-2013",
+      "tipo": "oficio",
+      "numero": "72381",
+      "fecha": "2013-11-13",
+      "tema": "Naturaleza de las estampillas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54801-2013",
+      "tipo": "oficio",
+      "numero": "54801",
+      "fecha": "2013-08-30",
+      "tema": "&iquest;Puede aplicarse el art&iacute;culo 1 de la Ley 1607 de 2012 al a&ntilde;o gravable 2012, en consideraci&oacute;n a que solo hasta diciembre 31 del mismo a&ntilde;o se consolida la obligaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53522-2013",
+      "tipo": "oficio",
+      "numero": "53522",
+      "fecha": "2013-08-26",
+      "tema": "Establecer si el contenido del art&iacute;culo 141 de la Ley 1607 de 2012, que modific&oacute; el art&iacute;culo 635 del Estatuto Tributario, se aplica a las obligaciones por impuestos que a la fecha de entrada en vigencia de esa disposici&oacute;n, se encontraban en mora o insolutas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52581-2013",
+      "tipo": "oficio",
+      "numero": "52581",
+      "fecha": "2013-08-22",
+      "tema": "Terminaci&oacute;n por mutuo acuerdo - Intereses",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0702-2013",
+      "tipo": "oficio",
+      "numero": "0702",
+      "fecha": "2013-09-09",
+      "tema": "Procedimiento Tributario - Presentaci&oacute;n de Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0540-2012",
+      "tipo": "oficio",
+      "numero": "0540",
+      "fecha": "2012-08-27",
+      "tema": "Ejecutoria de los actos administrativos en los procesos de cobro coactivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98924-2011",
+      "tipo": "oficio",
+      "numero": "98924",
+      "fecha": "2011-12-19",
+      "tema": "&iquest;Seg&uacute;n la legislaci&oacute;n colombiana y el Estatuto Tributario, los instrumentos de cobro tributario son &uacute;nicamente los mandamientos de pago?&iquest;Dicho mandamiento de pago debe ser debidamente notificado?&iquest;Una resoluci&oacute;n interna de un ente sin que sea acompa&ntilde;ada o convertida en un mandamiento de pago debidamente notificado es v&aacute;lida para el cobro y si la ley faculta a la DIAN para cobrar intereses sobre intereses?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89362-2011",
+      "tipo": "oficio",
+      "numero": "89362",
+      "fecha": "2011-11-15",
+      "tema": "Determinaci&oacute;n de la contribuci&oacute;n por contratos de obra p&uacute;blica - El no pago de la contribuci&oacute;n en forma oportuna genera los intereses moratorios previstos en el art&iacute;culo 634 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70566-2009",
+      "tipo": "oficio",
+      "numero": "70566",
+      "fecha": "2009-08-31",
+      "tema": "&iquest;En el caso de un contribuyente exportador de minerales, &iquest;cu&aacute;l es el procedimiento a seguir para corregir la declaraci&oacute;n del impuesto sobre la renta por actas de autoridad no imputables a &eacute;l, pero que afectan la liquidaci&oacute;n del impuesto y si debe pagar intereses por mora en el per&iacute;odo comprendido entre la fecha de vencimiento del t&eacute;rmino para declarar y la del acto administrativo que gener&oacute; la modificaci&oacute;n en la liquidaci&oacute;n del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0084664-2008",
+      "tipo": "concepto",
+      "numero": "0084664",
+      "fecha": "2008-09-02",
+      "tema": "&iquest;El par&aacute;grafo 2&ordm; del art&iacute;culo 51 de la Ley 633 de 2000 que adicion&oacute; el art&iacute;culo 867-1 del Estatuto Tributario se aplica a deudas tributarias generadas a partir de la vigencia de la mencionada ley o se aplica a deudas existentes antes de su vigencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67018-2008",
+      "tipo": "oficio",
+      "numero": "67018",
+      "fecha": "2008-07-14",
+      "tema": "&iquest;El art&iacute;culo 12 de la Ley 1066 de 2006 es susceptible de ser aplicado a los intereses moratorios legales tributarios causados con anterioridad a la promoci&oacute;n de los acuerdos de reestructuraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7523-2007",
+      "tipo": "oficio",
+      "numero": "7523",
+      "fecha": "2007-02-01",
+      "tema": "&iquest;C&oacute;mo se realiza el c&aacute;lculo del inter&eacute;s de mora de acuerdo con lo preceptuado en la Ley 1066 de 2006? Tasa de usura.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6057-2007",
+      "tipo": "oficio",
+      "numero": "6057",
+      "fecha": "2007-01-26",
+      "tema": "Para efectos tributarios y frente a obligaciones cuyo vencimiento legal sea a partir del 1 de enero de 2006, la tasa efectiva de usura es la resultante de la operaci&oacute;n matem&aacute;tica de adicionar al inter&eacute;s bancario corriente m&aacute;s alto certificado por la Superintendencia Financiera de Colombia para el respectivo periodo, la mitad.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103454-2006",
+      "tipo": "oficio",
+      "numero": "103454",
+      "fecha": "2006-12-12",
+      "tema": "&iquest;Est&aacute;n vigentes los conceptos No 037716 de junio 6 de 1995 y el 23667 de marzo 14 de 2000? La compensaci&oacute;n de los saldos a favor originados en las declaraciones del IVA de los responsables de los bienes exentos. Los intereses de mora se deben liquidar por cada d&iacute;a calendario de retardo en el pago y no por cada mes o fracci&oacute;n de mes de retardo en el pago. Acuerdo de pago por sumas debida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75762-2006",
+      "tipo": "oficio",
+      "numero": "75762",
+      "fecha": "2006-09-06",
+      "tema": "&iquest;Un banco se puede abstener de recibir declaraciones tributarias con un saldo a pagar inferior a dos salarios m&iacute;nimos, cuando estas se presentan sin pago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49418-2006",
+      "tipo": "oficio",
+      "numero": "49418",
+      "fecha": "2006-06-12",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Decreto 2356 de octubre 22 de 2002, por medio del cual se determina la tasa de inter&eacute;s moratorio, frente a la vigencia de la Ley 788 de diciembre 27 de 2002?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12501-2006",
+      "tipo": "oficio",
+      "numero": "12501",
+      "fecha": "2006-02-13",
+      "tema": "&iquest;La tasa de inter&eacute;s a cobrar en los procesos de jurisdicci&oacute;n coactiva que adelante el Fondo de Previsi&oacute;n Social del congreso de la Rep&uacute;blica que se rige por el procedimiento civil, es la se&ntilde;alada en el art&iacute;culo 635 del estatuto Tributario?&iquest;Cu&aacute;l es el alcance del art&iacute;culo 23 de la ley 100 de 1993, norma que regula la sanci&oacute;n moratoria por la no consignaci&oacute;n oportuna de los aportes de seguridad social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62345-2005",
+      "tipo": "oficio",
+      "numero": "62345",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo se deben liquidar los intereses de mora para efectos tributarios, e indique si la liquidaci&oacute;n de los mismos debe efectuarse tomando la tasa como de inter&eacute;s nominal diario vencido o si, por el contrario, se debe tomar como tasa efectiva anual, estableciendo la tasa equivalente por los d&iacute;as de mora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13937-2005",
+      "tipo": "oficio",
+      "numero": "13937",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;C&oacute;mo debe solicitar el contribuyente las devoluciones de los intereses favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0076643-2003",
+      "tipo": "concepto",
+      "numero": "0076643",
+      "fecha": "2003-11-28",
+      "tema": "&iquest;Cu&aacute;l es la tasa de inter&eacute;s moratorio que debe aplicarse respecto de las obligaciones fiscales susceptibles de negociaci&oacute;n dentro de un acuerdo de reestructuraci&oacute;n de deudas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066744-2003",
+      "tipo": "concepto",
+      "numero": "0066744",
+      "fecha": "2003-10-15",
+      "tema": "&iquest;Cuando en vigencia de una tasa de inter&eacute;s moratorio para efectos tributarios disminuye la tasa de usura que fue l&iacute;mite para su determinaci&oacute;n, es viable limitar la aplicaci&oacute;n a dicha tasa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047496-2003",
+      "tipo": "concepto",
+      "numero": "0047496",
+      "fecha": "2003-01-01",
+      "tema": "Es procedente suspender el cobro de intereses moratorios de la deuda cuando existen causales eximentes de responsabilidad como la fuerza mayor o el caso fortuito",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032141-2003",
+      "tipo": "concepto",
+      "numero": "0032141",
+      "fecha": "2003-06-09",
+      "tema": "&iquest;El anticipo de la sobretasa para los obligados a declarar el impuesto sobre la renta, establecido por el art&iacute;culo 29 de la Ley 788 de 2002, debe obligatoriamente descontarse del saldo a favor determinado en la declaraci&oacute;n de renta y complementarios del a&ntilde;o gravable 2002? - &iquest;Para la deducci&oacute;n de salarios y descansos remunerados causados, hay obligaci&oacute;n de realizar el pago de los aportes parafiscales &uacute;nicamente sobre los salarios o descansos remunerados pagados y no sobre los causados y no pagados, toda vez que el art&iacute;culo 17 de la Ley 21 de 1982, indica que para efectos del pago de las contribuciones parafiscales se entiende por n&oacute;mina mensual de salario, la totalidad de los pagos hechos por concepto de salarios y descansos remunerados, y el art&iacute;culo 108 del Estatuto Tributario dispone que para aceptar los salarios como deducibles, el empleador debe estar a paz y salvo por concepto de contribuciones parafiscales sobre la n&oacute;mina?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000005-2003",
+      "tipo": "concepto",
+      "numero": "0000005",
+      "fecha": "2003-08-05",
+      "tema": "Cruce de cuentas - Compensaciones por sentencias y conciliaciones judiciales - Cruce de cuentas previsto en la Ley 550 de 1999 - Compensaci&oacute;n por sentencias y conciliaciones judiciales prevista en el Art&iacute;culo 29 de la Ley 344 de 1996",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0083625-2002",
+      "tipo": "concepto",
+      "numero": "0083625",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Es procedente la aplicaci&oacute;n de la metodolog&iacute;a y procedimiento del c&aacute;lculo mensual de la tasa de inter&eacute;s en t&eacute;rminos de efectiva anual, para obtener la tasa mensual de inter&eacute;s moratorio tributario para liquidar los mismos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083619-2002",
+      "tipo": "concepto",
+      "numero": "0083619",
+      "fecha": "2002-12-31",
+      "tema": "&iquest;Se generan intereses moratorios tributarios y sobre qu&eacute; base, por el solo hecho de que en virtud de una correcci&oacute;n voluntaria, de una correcci&oacute;n provocada o por una liquidaci&oacute;n oficial se disminuya o desaparezca el saldo a favor sin generar un saldo a cargo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080171-2002",
+      "tipo": "concepto",
+      "numero": "0080171",
+      "fecha": "2002-12-11",
+      "tema": "&iquest;C&oacute;mo debe entenderse la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073271-2002",
+      "tipo": "concepto",
+      "numero": "0073271",
+      "fecha": "2002-11-13",
+      "tema": "Procedimiento administrativo de cobro coactivo - &iquest;En qu&eacute; momento es viable decretar medidas cautelares cuando se ha incumplido una facilidad de pago, otorgada sin existir proceso de cobro coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071043-2002",
+      "tipo": "concepto",
+      "numero": "0071043",
+      "fecha": "2002-10-31",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para que opere la compensaci&oacute;n de obligaciones tributarias a cargo de un acreedor de una empresa estatal del orden nacional con deudas originadas en obligaciones contractuales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070834-2002",
+      "tipo": "concepto",
+      "numero": "0070834",
+      "fecha": "2002-10-30",
+      "tema": "&iquest;El cr&eacute;dito cedido por un acreedor de una entidad estatal del orden nacional a un tercero, puede ser utilizado directamente por este, en cualquier tiempo, para cruce de cuentas con obligaciones que adeude a la Dian?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057805-2002",
+      "tipo": "concepto",
+      "numero": "0057805",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;En la determinaci&oacute;n de la tasa de inter&eacute;s moratorio para efectos tributarios, c&oacute;mo se determina el factor a disminuir del promedio de la tasa de usura certificada por la Superintendencia Bancaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-48811-2002",
+      "tipo": "concepto",
+      "numero": "48811",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;A partir del primero de julio del a&ntilde;o 2001, la tasa de inter&eacute;s moratorio para efectos tributarios es determinada como efectiva anual o como nominal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0109525-2001",
+      "tipo": "concepto",
+      "numero": "0109525",
+      "fecha": "2001-12-19",
+      "tema": "&iquest;El beneficio para el pago de los intereses de mora en el primer trimestre de 2001, comprend&iacute;a la actualizaci&oacute;n de las obligaciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-99165-2001",
+      "tipo": "concepto",
+      "numero": "99165",
+      "fecha": "2001-11-14",
+      "tema": "Procedimiento; beneficio de intereses",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002959-2001",
+      "tipo": "concepto",
+      "numero": "0002959",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Para establecer la sanci&oacute;n por correcci&oacute;n de las declaraciones del IVA el responsable productor o distribuidor de licores no debe tener en cuenta los valores pagados a los Fondos de Salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001475-1999",
+      "tipo": "concepto",
+      "numero": "0001475",
+      "fecha": "1999-01-01",
+      "tema": "&iquest;Desde que momento debe cobrarse los intereses moratorios del d&eacute;bito generado en la cuenta corriente del contribuyente, producto de que se disminuya o desaparezca un saldo a favor que el contribuyente haya imputado, por una liquidaci&oacute;n oficial o por una declaraci&oacute;n privada de correcci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047573-1998",
+      "tipo": "concepto",
+      "numero": "0047573",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;Qu&eacute; pasa con una sociedad que se encuentra inactiva desde 1994 y no ha presentado declaraciones tributarias. Qu&eacute; sucede con los socios que tampoco han declarado? &iquest;Qu&eacute; sucede cuando una sociedad que ha declarado todos los impuestos, pero no los ha pagado? Se dice que la deuda vence a los cinco a&ntilde;os? &iquest;Qu&eacute; sucede si la sociedad continua declarando a la direcci&oacute;n registrada en la DIAN, aunque ya no tenga su domicilio all&iacute;?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071591-1996",
+      "tipo": "concepto",
+      "numero": "0071591",
+      "fecha": "1996-09-12",
+      "tema": "&iquest;Un saldo a favor en materia de impuesto sobre las ventas, que se traslada a la declaraci&oacute;n del per&iacute;odo siguiente y es rechazado por inexistente, causa a favor del Tesoro de la Naci&oacute;n intereses y actualizaci&oacute;n de la deuda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037716-1995",
+      "tipo": "concepto",
+      "numero": "0037716",
+      "fecha": "1995-06-06",
+      "tema": "&iquest;C&oacute;mo se liquidan los intereses y hasta que fecha, cuando el pago de retenciones en la fuente se cancelan mediante compensaci&oacute;n con saldo a favor originado en impuesto sobre las ventas?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0023779-1989",
+      "tipo": "concepto",
+      "numero": "0023779",
+      "fecha": "1989-01-01",
+      "tema": "Competencia para resolver la solicitud de reducci&oacute;n de la sanci&oacute;n por correcci&oacute;n aritmetica",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-1115-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1115",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-260-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "260",
+      "year": 1993,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-823-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "823",
+      "year": 2004
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.6.2.2.5",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.6.2.2.5",
+      "vigente": true
+    },
+    {
+      "id": "dur-1625-art-1.6.2.6.2",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.6.2.6.2",
+      "vigente": true
+    }
+  ]
+}

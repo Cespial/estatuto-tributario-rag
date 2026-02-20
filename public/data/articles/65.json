@@ -1,1 +1,334 @@
-{"id_articulo": "Art. 65", "titulo": "Art. 65. Métodos de valoración de inventarios", "titulo_corto": "Métodos de valoración de inventarios", "slug": "65", "url_origen": "https://estatuto.co/65", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Para los contribuyentes obligados a llevar contabilidad, los métodos de valoración de inventarios, esto es, las fórmulas de cálculo del costo y técnicas de medición del costo, serán las establecidas en la técnica contable, o las que determine el gobierno nacional.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los contribuyentes obligados a llevar contabilidad, los métodos de valoración de inventarios, esto es, las fórmulas de cálculo del costo y técnicas de medición del costo, serán las establecidas en la técnica contable, o las que determine el gobierno nacional.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 44.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "44"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "174", "norma_year": 1994, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 174 de 1994", "Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 65",
+  "titulo": "Art. 65. Métodos de valoración de inventarios",
+  "titulo_corto": "Métodos de valoración de inventarios",
+  "slug": "65",
+  "url_origen": "https://estatuto.co/65",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Para los contribuyentes obligados a llevar contabilidad, los métodos de valoración de inventarios, esto es, las fórmulas de cálculo del costo y técnicas de medición del costo, serán las establecidas en la técnica contable, o las que determine el gobierno nacional.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los contribuyentes obligados a llevar contabilidad, los métodos de valoración de inventarios, esto es, las fórmulas de cálculo del costo y técnicas de medición del costo, serán las establecidas en la técnica contable, o las que determine el gobierno nacional.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 44.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "44"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "174",
+      "norma_year": 1994,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 174 de 1994",
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 13 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 914503 (2021-11-25): Impuesto sobre la renta - Costo de venta de los inventarios\noficio 910706 (2021-09-27): (Int 0342) Impuesto sobre la renta - Ajuste al costo fiscal de los activos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-914503-2021",
+      "tipo": "oficio",
+      "numero": "914503",
+      "fecha": "2021-11-25",
+      "tema": "Impuesto sobre la renta - Costo de venta de los inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910706-2021",
+      "tipo": "oficio",
+      "numero": "910706",
+      "fecha": "2021-09-27",
+      "tema": "(Int 0342) Impuesto sobre la renta - Ajuste al costo fiscal de los activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0755-2019",
+      "tipo": "oficio",
+      "numero": "0755",
+      "fecha": "2019-04-11",
+      "tema": "(Int 755) &iquest;Cu&aacute;l es el tratamiento tributario de los retiros de los aportes voluntarios que se han hecho a los fondos obligatorios de pensiones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10482-2019",
+      "tipo": "oficio",
+      "numero": "10482",
+      "fecha": "2019-05-02",
+      "tema": "Autorizaci&oacute;n para cambiar el m&eacute;todo de valuaci&oacute;n de inventarios a costo est&aacute;ndar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7451-2019",
+      "tipo": "oficio",
+      "numero": "7451",
+      "fecha": "2019-03-28",
+      "tema": "&iquest;Los aumentos en los costos fijos unitarios por ineficiencias deben ser considerados gastos del periodo y no costos del producto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7163-2019",
+      "tipo": "oficio",
+      "numero": "7163",
+      "fecha": "2019-03-22",
+      "tema": "&iquest;En las declaraciones de retenci&oacute;n en la fuente del a&ntilde;o 2019 se debe diligenciar el rengl&oacute;n 66",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34926-2018",
+      "tipo": "oficio",
+      "numero": "34926",
+      "fecha": "2018-12-13",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 114-1- del Estatuto Tributario (ET) respecto a la exoneraci&oacute;n del pago de los aportes parafiscales a favor del Servicio Nacional del Aprendizaje (SENA), del Instituto Colombiano de Bienestar Familiar (ICBF) y las cotizaciones al R&eacute;gimen Contributivo de Salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7445-2017",
+      "tipo": "oficio",
+      "numero": "7445",
+      "fecha": "2017-04-03",
+      "tema": "Exoneraci&oacute;n de aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23492-2015",
+      "tipo": "oficio",
+      "numero": "23492",
+      "fecha": "2015-08-12",
+      "tema": "Posibilidad de utilizaci&oacute;n para efectos fiscales del sistema de valuaci&oacute;n UEPS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55196-2014",
+      "tipo": "oficio",
+      "numero": "55196",
+      "fecha": "2014-09-18",
+      "tema": "&iquest;Un sindicato debe pagar impuesto de renta sobre unos excedentes producto de una rifa hecha para generar ingresos adicionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077291-2012",
+      "tipo": "concepto",
+      "numero": "0077291",
+      "fecha": "2012-12-12",
+      "tema": "&iquest;El emplazamiento para corregir las declaraciones tributarias que no se encuentran en firme se puede notificar despu&eacute;s de los dos (2) a&ntilde;os siguientes a la fecha de vencimiento del plazo para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76735-2012",
+      "tipo": "oficio",
+      "numero": "76735",
+      "fecha": "2012-12-10",
+      "tema": "M&eacute;todo de valoraci&oacute;n de inventarios autorizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26258-2009",
+      "tipo": "oficio",
+      "numero": "26258",
+      "fecha": "2009-03-31",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97263-2006",
+      "tipo": "oficio",
+      "numero": "97263",
+      "fecha": "2006-11-16",
+      "tema": "&iquest;Cu&aacute;l es el alcance general de la exenci&oacute;n contenida en el art&iacute;culo 65 de la Ley 383 de 1997 y el art&iacute;culo 256 de la Ley 223 de 1995? El agente de retenci&oacute;n en los negocios fiduciarios es quien realiza el pago o abono en cuenta, lo que ocurra primero",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21284-2006",
+      "tipo": "oficio",
+      "numero": "21284",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;C&oacute;mo se puede ajustar fiscalmente el valor del inventario de mercanc&iacute;a importada, al valor real que tiene en la actualidad, debido a la revaluaci&oacute;n del peso, teniendo en cuenta lo dispuesto en los art&iacute;culos 10 y 63 del decreto 2649 de 1993 y cu&aacute;l ser&iacute;a el asiento contable que debe registrarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87501-2005",
+      "tipo": "oficio",
+      "numero": "87501",
+      "fecha": "2005-11-24",
+      "tema": "&iquest;En virtud de lo dispuesto en el par&aacute;grafo del art&iacute;culo 1 del Decreto 416 de 2003, un Fondo de Empleados est&aacute; obligado a efectuar ajustes por inflaci&oacute;n contables a los inventarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002380-2002",
+      "tipo": "concepto",
+      "numero": "0002380",
+      "fecha": "2002-01-16",
+      "tema": "&iquest;La solicitud de la aprobaci&oacute;n para el cambio de m&eacute;todo de valoraci&oacute;n de inventarios solo opera para el caso de los activos movibles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033018-2001",
+      "tipo": "concepto",
+      "numero": "0033018",
+      "fecha": "2001-04-24",
+      "tema": "&iquest;Es contribuyente el Fondo del Fomento del carb&oacute;n en cuanto que uno de sus ingresos provienen del impuesto al carb&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0086540-1998",
+      "tipo": "concepto",
+      "numero": "0086540",
+      "fecha": "1998-11-09",
+      "tema": "&iquest;Deben ser ajustados por inflaci&oacute;n las saldos de la provisi&oacute;n lifo que son objeto de desmonte a partir del a&ntilde;o gravable de 1995?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002370-1990",
+      "tipo": "concepto",
+      "numero": "0002370",
+      "fecha": "1990-01-26",
+      "tema": "&iquest;Es posible utilizar cualquiera de los sistemas de valoraci&oacute;n que existen (Lifo, Fifo o promedio)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017814-1989",
+      "tipo": "concepto",
+      "numero": "0017814",
+      "fecha": "1989-01-01",
+      "tema": "Tratamiento fiscal de las participaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016092-1989",
+      "tipo": "concepto",
+      "numero": "0016092",
+      "fecha": "1989-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1647-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1647",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-260-1993",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "260",
+      "year": 1993,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-087-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "087",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

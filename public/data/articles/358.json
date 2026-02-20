@@ -1,1 +1,636 @@
-{"id_articulo": "Art. 358", "titulo": "Art. 358. Exención sobre el beneficio neto o excedente.", "titulo_corto": "Exención sobre el beneficio neto o excedente.", "slug": "358", "url_origen": "https://estatuto.co/358", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*El beneficio neto o excedente determinado de conformidad con el artículo 357, tendrá el carácter de exento cuando se destine directa o indirectamente, en el año siguiente a aquél en el cual se obtuvo, a programas que desarrollen el objeto social y la actividad meritoria de la entidad. La parte del beneficio neto o excedente que no se invierta en los programas que desarrollen su objeto social, tendrá el carácter de gravable en el año en que esto ocurra. Los ingresos obtenidos por las entidades admitidas al Régimen Tributario Especial, correspondientes a la ejecución de contratos de obra pública y de interventoría, cualquiera que sea la modalidad de los mismos, estarán gravados a la tarifa general del impuesto sobre la renta y complementarios. La entidad estatal contratante deberá practicar retención en la fuente al momento del pago o abono en cuenta. El Gobierno Nacional reglamentará los montos y tarifas de la retención de que trata el presente inciso. Los excedentes descritos en el presente artículo serán exentos siempre y cuando la entidad sin ánimo de lucro se encuentre calificada dentro del RUT como entidad del Régimen Tributario Especial y cumpla con lo dispuesto en los artículos 19 a 23 y lo dispuesto en el Título 1, Capítulo VI del Libro I del presente Estatuto. Parágrafo 1. Los excedentes determinados como exentos deben estar debidamente soportados en el sistema de registro de las diferencias de los nuevos marcos normativos de la contabilidad. Parágrafo 2. Los representantes legales, el revisor fiscal, el contador y todos los miembros del órgano de administración de la entidad sin ánimo de lucro deben certificar el debido cumplimiento de los requisitos que establece la ley para ser beneficiario de la exención a la que se refiere este artículo.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El beneficio neto o excedente determinado de conformidad con el <a href=\"https://estatuto.co/357\" rel=\"noopener\" target=\"_blank\">artículo 357</a>, tendrá el carácter de exento cuando se destine directa o indirectamente, en el año siguiente a aquél en el cual se obtuvo, a programas que desarrollen el objeto social y la actividad meritoria de la entidad.</p>\n<p>La parte del beneficio neto o excedente que no se invierta en los programas que desarrollen su objeto social, tendrá el carácter de gravable en el año en que esto ocurra.</p>\n<p>Los ingresos obtenidos por las entidades admitidas al Régimen Tributario Especial, correspondientes a la ejecución de contratos de obra pública y de interventoría, cualquiera que sea la modalidad de los mismos, estarán gravados a la tarifa general del impuesto sobre la renta y complementarios. La entidad estatal contratante deberá practicar retención en la fuente al momento del pago o abono en cuenta. El Gobierno Nacional reglamentará los montos y tarifas de la retención de que trata el presente inciso.</p>\n<p>Los excedentes descritos en el presente artículo serán exentos siempre y cuando la entidad sin ánimo de lucro se encuentre calificada dentro del RUT como entidad del Régimen Tributario Especial y cumpla con lo dispuesto en los artículos 19 a 23 y lo dispuesto en el Título 1, Capítulo VI del Libro I del presente Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1. </span></strong>Los excedentes determinados como exentos deben estar debidamente soportados en el sistema de registro de las diferencias de los nuevos marcos normativos de la contabilidad.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong>Los representantes legales, el revisor fiscal, el contador y todos los miembros del órgano de administración de la entidad sin ánimo de lucro deben certificar el debido cumplimiento de los requisitos que establece la ley para ser beneficiario de la exención a la que se refiere este artículo.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 150.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "150"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["357"], "referenced_by": ["19", "360"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 358",
+  "titulo": "Art. 358. Exención sobre el beneficio neto o excedente.",
+  "titulo_corto": "Exención sobre el beneficio neto o excedente.",
+  "slug": "358",
+  "url_origen": "https://estatuto.co/358",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*El beneficio neto o excedente determinado de conformidad con el artículo 357, tendrá el carácter de exento cuando se destine directa o indirectamente, en el año siguiente a aquél en el cual se obtuvo, a programas que desarrollen el objeto social y la actividad meritoria de la entidad. La parte del beneficio neto o excedente que no se invierta en los programas que desarrollen su objeto social, tendrá el carácter de gravable en el año en que esto ocurra. Los ingresos obtenidos por las entidades admitidas al Régimen Tributario Especial, correspondientes a la ejecución de contratos de obra pública y de interventoría, cualquiera que sea la modalidad de los mismos, estarán gravados a la tarifa general del impuesto sobre la renta y complementarios. La entidad estatal contratante deberá practicar retención en la fuente al momento del pago o abono en cuenta. El Gobierno Nacional reglamentará los montos y tarifas de la retención de que trata el presente inciso. Los excedentes descritos en el presente artículo serán exentos siempre y cuando la entidad sin ánimo de lucro se encuentre calificada dentro del RUT como entidad del Régimen Tributario Especial y cumpla con lo dispuesto en los artículos 19 a 23 y lo dispuesto en el Título 1, Capítulo VI del Libro I del presente Estatuto. Parágrafo 1. Los excedentes determinados como exentos deben estar debidamente soportados en el sistema de registro de las diferencias de los nuevos marcos normativos de la contabilidad. Parágrafo 2. Los representantes legales, el revisor fiscal, el contador y todos los miembros del órgano de administración de la entidad sin ánimo de lucro deben certificar el debido cumplimiento de los requisitos que establece la ley para ser beneficiario de la exención a la que se refiere este artículo.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El beneficio neto o excedente determinado de conformidad con el <a href=\"https://estatuto.co/357\" rel=\"noopener\" target=\"_blank\">artículo 357</a>, tendrá el carácter de exento cuando se destine directa o indirectamente, en el año siguiente a aquél en el cual se obtuvo, a programas que desarrollen el objeto social y la actividad meritoria de la entidad.</p>\n<p>La parte del beneficio neto o excedente que no se invierta en los programas que desarrollen su objeto social, tendrá el carácter de gravable en el año en que esto ocurra.</p>\n<p>Los ingresos obtenidos por las entidades admitidas al Régimen Tributario Especial, correspondientes a la ejecución de contratos de obra pública y de interventoría, cualquiera que sea la modalidad de los mismos, estarán gravados a la tarifa general del impuesto sobre la renta y complementarios. La entidad estatal contratante deberá practicar retención en la fuente al momento del pago o abono en cuenta. El Gobierno Nacional reglamentará los montos y tarifas de la retención de que trata el presente inciso.</p>\n<p>Los excedentes descritos en el presente artículo serán exentos siempre y cuando la entidad sin ánimo de lucro se encuentre calificada dentro del RUT como entidad del Régimen Tributario Especial y cumpla con lo dispuesto en los artículos 19 a 23 y lo dispuesto en el Título 1, Capítulo VI del Libro I del presente Estatuto.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 1. </span></strong>Los excedentes determinados como exentos deben estar debidamente soportados en el sistema de registro de las diferencias de los nuevos marcos normativos de la contabilidad.</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo 2. </span></strong>Los representantes legales, el revisor fiscal, el contador y todos los miembros del órgano de administración de la entidad sin ánimo de lucro deben certificar el debido cumplimiento de los requisitos que establece la ley para ser beneficiario de la exención a la que se refiere este artículo.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 150.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "150"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "357"
+  ],
+  "referenced_by": [
+    "19",
+    "360"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 11 concepto(s) relacionado(s). Jurisprudencia: 5 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 0784 (2026-01-23): Otras Disposiciones\noficio 7247 (2025-06-03): Impuesto sobre la Renta y Complementarios\noficio 10212 (2024-12-09): Impuesto sobre la Renta y Complementarios\noficio 3252 (2024-05-29): (Int 404) Sujetos no obligados a expedir factura o documento equivalente - Prestaci&oacute;n de servicio de agua potable y saneamiento b&aacute;sico - Comunidades organizadas\noficio 2818 (2024-04-30): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0784-2026",
+      "tipo": "oficio",
+      "numero": "0784",
+      "fecha": "2026-01-23",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7247-2025",
+      "tipo": "oficio",
+      "numero": "7247",
+      "fecha": "2025-06-03",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10212-2024",
+      "tipo": "oficio",
+      "numero": "10212",
+      "fecha": "2024-12-09",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3252-2024",
+      "tipo": "oficio",
+      "numero": "3252",
+      "fecha": "2024-05-29",
+      "tema": "(Int 404) Sujetos no obligados a expedir factura o documento equivalente - Prestaci&oacute;n de servicio de agua potable y saneamiento b&aacute;sico - Comunidades organizadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2818-2024",
+      "tipo": "oficio",
+      "numero": "2818",
+      "fecha": "2024-04-30",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908565-2022",
+      "tipo": "oficio",
+      "numero": "908565",
+      "fecha": "2022-11-23",
+      "tema": "Impuesto sobre la renta - Entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903846-2022",
+      "tipo": "oficio",
+      "numero": "903846",
+      "fecha": "2022-05-18",
+      "tema": "Impuesto sobre la renta - Donaciones - Beneficio neto o excedente Ingresos fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908903-2021",
+      "tipo": "oficio",
+      "numero": "908903",
+      "fecha": "2021-08-30",
+      "tema": "Impuesto sobre la renta - R&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908615-2021",
+      "tipo": "oficio",
+      "numero": "908615",
+      "fecha": "2021-08-25",
+      "tema": "Retenci&oacute;n en la fuente - R&eacute;gimen Tributario Especial - Retenciones practicadas en exceso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908614-2021",
+      "tipo": "oficio",
+      "numero": "908614",
+      "fecha": "2021-08-25",
+      "tema": "Retenci&oacute;n en la fuente - R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903904-2021",
+      "tipo": "oficio",
+      "numero": "903904",
+      "fecha": "2021-05-03",
+      "tema": "&iquest;Es posible tratar como egreso a algunas erogaciones que van destinadas al desarrollo de intangibles e inversiones necesarios para el desarrollo del objeto social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900455-2021",
+      "tipo": "oficio",
+      "numero": "900455",
+      "fecha": "2021-01-25",
+      "tema": "Impuesto sobre la renta - Ingresos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907763-2020",
+      "tipo": "oficio",
+      "numero": "907763",
+      "fecha": "2020-12-02",
+      "tema": "&iquest;Es procedente cambiar los programas de destinaci&oacute;n y tiempo de ejecuci&oacute;n de las “Asignaciones Permanentes” previamente autorizadas por parte del m&aacute;ximo &oacute;rgano de administraci&oacute;n o direcci&oacute;n de las Entidades Sin &Aacute;nimo de Lucro, con el fin de absorber o enjugar las p&eacute;rdidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907001-2020",
+      "tipo": "oficio",
+      "numero": "907001",
+      "fecha": "2020-11-11",
+      "tema": "Regimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903442-2020",
+      "tipo": "oficio",
+      "numero": "903442",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;Puede una entidad sin animo de lucro perteneciente al r&eacute;gimen tributario especial, destinar las asignaciones permanentes, para cubrir los gastos de administraci&oacute;n de la entidad en esta emergencia sanitaria provocada por el COVID-19?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903193-2020",
+      "tipo": "oficio",
+      "numero": "903193",
+      "fecha": "2020-07-16",
+      "tema": "Ayudas econ&oacute;micas a los clubes afiliados por parte de la Liga de Futbol, de los excedentes de anteriores ejercicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902904-2020",
+      "tipo": "oficio",
+      "numero": "902904",
+      "fecha": "2020-07-03",
+      "tema": "Excedentes como asignaci&oacute;n espec&iacute;fica para un proyecto que supera un a&ntilde;o en su ejecuci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902902-2020",
+      "tipo": "oficio",
+      "numero": "902902",
+      "fecha": "2020-07-03",
+      "tema": "&iquest;Las Entidades sin &Aacute;nimo de Lucro del R&eacute;gimen Especial en el rengl&oacute;n 63",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902640-2020",
+      "tipo": "oficio",
+      "numero": "902640",
+      "fecha": "2020-06-25",
+      "tema": "Aplicaci&oacute;n de la retenci&oacute;n en la fuente a t&iacute;tulo de impuesto sobre la renta y complementarios cuando un ente territorial celebra un contrato con una uni&oacute;n temporal conformada por asociaciones de cabildos ind&iacute;genas",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-902571-2020",
+      "tipo": "oficio",
+      "numero": "902571",
+      "fecha": "2020-06-23",
+      "tema": "Determinaci&oacute;n del beneficio neto o excedente, as&iacute; como la venta y adquisici&oacute;n de un inmueble",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901179-2020",
+      "tipo": "oficio",
+      "numero": "901179",
+      "fecha": "2020-05-16",
+      "tema": "Regimen Tributario Especial Reintegro de Retenciones en Exceso o Indebidamente Practicadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0415-2020",
+      "tipo": "oficio",
+      "numero": "0415",
+      "fecha": "2020-05-12",
+      "tema": "Contribuyentes con Regimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27660-2019",
+      "tipo": "oficio",
+      "numero": "27660",
+      "fecha": "2019-11-05",
+      "tema": "Aportes parafiscales - exoneraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20703-2019",
+      "tipo": "oficio",
+      "numero": "20703",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;Las cooperativas est&aacute;n exoneradas del pago de aportes parafiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12575-2019",
+      "tipo": "oficio",
+      "numero": "12575",
+      "fecha": "2019-05-21",
+      "tema": "&iquest;la utilidad por enajenaci&oacute;n de bien inmueble pose&iacute;do por m&aacute;s de dos a&ntilde;os, para una entidad del r&eacute;gimen tributario especial del impuesto sobre la renta del art&iacute;culo 19 del Estatuto Tributario, puede ser tratada como una ganancia ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900402-2018",
+      "tipo": "oficio",
+      "numero": "900402",
+      "fecha": "2018-11-20",
+      "tema": "Retenci&oacute;n en la fuente en auxilios y subsidios a trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35682-2018",
+      "tipo": "oficio",
+      "numero": "35682",
+      "fecha": "2018-12-24",
+      "tema": "Impuesto sobre la Renta y Complementarios aplicable a los hospitales constituidos como personas jur&iacute;dicas sin &aacute;nimo de lucro, y las entidades sin &aacute;nimo de lucro cuyo objeto principal sea la prestaci&oacute;n de servicios de salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27474-2018",
+      "tipo": "oficio",
+      "numero": "27474",
+      "fecha": "2018-09-24",
+      "tema": "Alcance del car&aacute;cter de no contribuyente del impuesto sobre la renta de las Iglesias y confesiones religiosas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25079-2018",
+      "tipo": "oficio",
+      "numero": "25079",
+      "fecha": "2018-09-10",
+      "tema": "Retenci&oacute;n en la fuente por pagos con tarjetas de cr&eacute;dito y d&eacute;bito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24940-2018",
+      "tipo": "oficio",
+      "numero": "24940",
+      "fecha": "2018-09-07",
+      "tema": "Contratos de participaci&oacute;n empresarial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5712-2018",
+      "tipo": "oficio",
+      "numero": "5712",
+      "fecha": "2018-03-07",
+      "tema": "Retenci&oacute;n en la fuente por Exportaci&oacute;n de Hidrocarburos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2436-2018",
+      "tipo": "oficio",
+      "numero": "2436",
+      "fecha": "2018-02-02",
+      "tema": "C&aacute;maras de Comercio Binacionales - Tratamiento fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1756-2018",
+      "tipo": "oficio",
+      "numero": "1756",
+      "fecha": "2018-10-08",
+      "tema": "Entidades sin &Aacute;nimo de Lucro - Beneficio neto o excedente - destinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1686-2018",
+      "tipo": "oficio",
+      "numero": "1686",
+      "fecha": "2018-01-24",
+      "tema": "&iquest;Las Entidades Sin &Aacute;nimo de Lucro (ESAL) est&aacute;n obligadas a pagar impuestos por la ejecuci&oacute;n de un contrato o convenio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0819-2018",
+      "tipo": "oficio",
+      "numero": "0819",
+      "fecha": "2018-05-24",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen aplicable para entidades sin &aacute;nimo de lucro para el impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0029-2018",
+      "tipo": "oficio",
+      "numero": "0029",
+      "fecha": "2018-01-24",
+      "tema": "&iquest;Cu&aacute;l es la base para la tarifa de IVA y retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta y complementario aplicables a un contrato de consultor&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27795-2017",
+      "tipo": "oficio",
+      "numero": "27795",
+      "fecha": "2017-10-11",
+      "tema": "R&eacute;gimen tributario de las entidades de R&eacute;gimen Tributario Especial espec&iacute;ficamente lo referente a su responsabilidad del IVA, obligaci&oacute;n de facturar y deber de presentar declaraci&oacute;n de retenci&oacute;n, contemplado en el concepto 012393 de 2001",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9670-2017",
+      "tipo": "oficio",
+      "numero": "9670",
+      "fecha": "2017-04-25",
+      "tema": "Exenci&oacute;n en las Entidades sin &aacute;nimo de Lucro por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7523-2017",
+      "tipo": "oficio",
+      "numero": "7523",
+      "fecha": "2017-04-03",
+      "tema": "&iquest;Cu&aacute;les son las Entidades no contribuyentes y no declarantes? &iquest;C&oacute;mo debe ser la distribuci&oacute;n indirecta de excedentes y remuneraci&oacute;n de los cargos directivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7292-2017",
+      "tipo": "oficio",
+      "numero": "7292",
+      "fecha": "2017-04-31",
+      "tema": "Impuesto sobre la Renta y Complementarios - R&eacute;gimen Tributario Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6624-2017",
+      "tipo": "oficio",
+      "numero": "6624",
+      "fecha": "2017-03-24",
+      "tema": "Impuesto sobre la Renta y Complementarios &iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los apoyos, donaciones o pagos por servicios que reciban las entidades sin &aacute;nimo de lucro calificadas en el r&eacute;gimen tributario especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1876-2017",
+      "tipo": "oficio",
+      "numero": "1876",
+      "fecha": "2017-04-03",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas &iquest;En el contexto del art&iacute;culo 153 de la Ley 1819 de 2016 el contenido aplica a las entidades no contribuyentes se&ntilde;aladas en el art&iacute;culo 23 del Estatuto Tributario, espec&iacute;ficamente para las entidades contempladas en el numeral 3) del art&iacute;culo 19, cuando no realicen actividades industriales o de mercadeo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0033-2017",
+      "tipo": "oficio",
+      "numero": "0033",
+      "fecha": "2017-02-27",
+      "tema": "Corporaciones, fundaciones y asociaciones sin &aacute;nimo lucro con r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8857-2016",
+      "tipo": "oficio",
+      "numero": "8857",
+      "fecha": "2016-04-19",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5725-2016",
+      "tipo": "oficio",
+      "numero": "5725",
+      "fecha": "2016-03-15",
+      "tema": "&iquest;A qu&eacute; beneficios tributarios tiene derecho un grupo empresarial que crea una fundaci&oacute;n sin &aacute;nimo de lucro, por contribuir de manera favorable al desarrollo social de diferentes sectores de la poblaci&oacute;n? - &iquest;Existe alg&uacute;n organismo o ente de verificaci&oacute;n de las actividades que realiza la fundaci&oacute;n sin &aacute;nimo de lucro, para la obtenci&oacute;n de los beneficios tributarios que tiene el grupo empresarial por crear la mencionada entidad? - &iquest;El incumplimiento de la actividad misional por la cual fue creada una fundaci&oacute;n es objeto de sanci&oacute;n, y existe la obligaci&oacute;n de reparar a los beneficiarios del sector social que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25583-2015",
+      "tipo": "oficio",
+      "numero": "25583",
+      "fecha": "2015-09-12",
+      "tema": "&iquest;Cu&aacute;l es el enfoque diferencial que la DIAN, como entidad p&uacute;blica del estado colombiano, le brinda al pueblo Rrom o Gitano. Es decir, a trav&eacute;s de qu&eacute; beneficios o de qu&eacute; acciones afirmativas favorecen al pueblo Rrom o Gitano, claro &eacute;sta, en lo que tiene que ver con asuntos de su competencia (temas tributarios)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3738-2015",
+      "tipo": "oficio",
+      "numero": "3738",
+      "fecha": "2015-02-12",
+      "tema": "Precisiones respecto del Oficio 052431 del 28 de agosto de 2014, en relaci&oacute;n con la forma como las personas jur&iacute;dicas originadas en la constituci&oacute;n de la propiedad horizontal deben imputar los egresos comunes cuando existen ingresos gravados (por la explotaci&oacute;n comercial e industrial de bienes comunes) e ingresos no gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3052-2015",
+      "tipo": "oficio",
+      "numero": "3052",
+      "fecha": "2015-02-03",
+      "tema": "Impuesto a la Riqueza en cuanto a la deducci&oacute;n y tratamiento de los aportes sociales en el sector Cooperativo, seg&uacute;n la reforma tributaria Ley 1739 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001799-2015",
+      "tipo": "concepto",
+      "numero": "0001799",
+      "fecha": "2015-01-26",
+      "tema": "&iquest;Pertenece al r&eacute;gimen tributario especial o al ordinario del impuesto sobre la renta y complementarios la fundaci&oacute;n que tiene por objeto social la ense&ntilde;anza en la modalidad de educaci&oacute;n no formal tambi&eacute;n llamada educaci&oacute;n para el trabajo y el desarrollo humano?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1408-2015",
+      "tipo": "oficio",
+      "numero": "1408",
+      "fecha": "2015-01-21",
+      "tema": "Asociaciones sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12201-2012",
+      "tipo": "oficio",
+      "numero": "12201",
+      "fecha": "2012-02-23",
+      "tema": "&iquest;Cu&aacute;l es el &aacute;mbito de aplicaci&oacute;n del art&iacute;culo 4 de la Ley 1429 de 2010 respecto de una entidad sin animo de lucro organizada como confederaci&oacute;n ambiental dedicada al reciclaje?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034897-2010",
+      "tipo": "concepto",
+      "numero": "0034897",
+      "fecha": "2010-05-18",
+      "tema": "&iquest;De acuerdo con lo establecido en el art&iacute;culo 18 del Decreto 4400 de 2004, cu&aacute;l es el a&ntilde;o gravable en el que debe adicionarse como ingreso gravable el excedente o beneficio neto obtenido por un contribuyente del r&eacute;gimen tributario especial, que no cumple con los requisitos establecidos para su exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86477-2008",
+      "tipo": "oficio",
+      "numero": "86477",
+      "fecha": "2008-09-05",
+      "tema": "Solicita aclaraci&oacute;n del Concepto n&uacute;mero 075009 del 9 de agosto de 2000, transcrito en el 058379 del 13 de julio de 2006, porque considera que al afirmarse que",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9226-2007",
+      "tipo": "oficio",
+      "numero": "9226",
+      "fecha": "2007-02-08",
+      "tema": "&iquest;Es factible que se utilicen transitoriamente los recursos de las asignaciones permanentes en actuaciones relacionadas con el desarrollo del objeto social, mientras las fundaciones perciben sus ingresos ordinarios o extraordinarios para sus planes sociales, teniendo en cuenta que algunas fundaciones no cuentan con los recursos suficientes que les permitan desarrollar su objeto social con los rendimientos que generan los fondos derivados de las asignaciones permanentes? Requisitos para la viabilidad de la exenci&oacute;n. &iquest;Considerando las dificultades existentes para realizar asambleas extraordinarias, si es posible que la Asamblea pueda autorizar que se vaya deshaciendo una asignaci&oacute;n permanente de acuerdo con los requerimientos de los programas sociales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58379-2006",
+      "tipo": "oficio",
+      "numero": "58379",
+      "fecha": "2006-07-13",
+      "tema": "Solicita revisar la disposici&oacute;n reglamentaria que califica el Gravamen a los Movimientos Financieros, GMF, como un egreso no procedente, para las entidades del r&eacute;gimen tributario especial de que trata el numeral 1&ordm; del art&iacute;culo 19 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91763-2005",
+      "tipo": "oficio",
+      "numero": "91763",
+      "fecha": "2005-12-12",
+      "tema": "Solicita aclaraci&oacute;n sobre los plazos que tienen las cooperativas y mutuales para invertir en educaci&oacute;n formal en desarrollo de la Ley 863 de 2003 y sus decretos reglamentarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069922-2005",
+      "tipo": "concepto",
+      "numero": "0069922",
+      "fecha": "2005-09-28",
+      "tema": "&iquest;La enajenaci&oacute;n de un activo fijo por parte de un contribuyente perteneciente al r&eacute;gimen tributario especial est&aacute; gravada con el impuesto de ganancias ocasionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039739-2004",
+      "tipo": "concepto",
+      "numero": "0039739",
+      "fecha": "2004-06-30",
+      "tema": "&iquest;Pueden las entidades del r&eacute;gimen tributario especial, al determinar el beneficio neto o excedente, excluir de los ingresos que se toman como base para calcular dicho beneficio los ingresos que conforme al r&eacute;gimen ordinario tienen el car&aacute;cter de no constitutivos de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010209-2003",
+      "tipo": "concepto",
+      "numero": "0010209",
+      "fecha": "2003-03-03",
+      "tema": "&iquest;Los ingresos que perciban las IPS provenientes de las Unidades de Pagos por Capitaci&oacute;n se encuentran exentos del Impuesto Sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002189-2003",
+      "tipo": "concepto",
+      "numero": "0002189",
+      "fecha": "2003-01-23",
+      "tema": "Impuesto sobre la Renta y Complementarios - &iquest;Son contribuyentes del r&eacute;gimen tributario especial los clubes sociales y deportivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-16133-2002",
+      "tipo": "concepto",
+      "numero": "16133",
+      "fecha": "2002-03-18",
+      "tema": "Impuesto de renta y complementarios. Beneficio Neto o excedente en las cooperativas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075009-2000",
+      "tipo": "concepto",
+      "numero": "0075009",
+      "fecha": "2000-08-09",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del excedente generado en egresos no procedentes para las entidades con r&eacute;gimen especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013706-1999",
+      "tipo": "concepto",
+      "numero": "0013706",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Cu&aacute;l es el t&eacute;rmino de firmeza de las declaraciones de renta y complementarios de las entidades sin &aacute;nimo de lucro que estaban obligadas a solicitar la calificaci&oacute;n previa? &iquest;Pierden los beneficios a que tienen derecho, las entidades del r&eacute;gimen tributario especial que a la entrada en vigencia de la Ley 488 de 1998, no hab&iacute;an solicitado la calificaci&oacute;n por a&ntilde;os gravables anteriores a 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0057301-1998",
+      "tipo": "concepto",
+      "numero": "0057301",
+      "fecha": "1998-07-21",
+      "tema": "&iquest;Un Fondo de Empleados que est&aacute; por debajo de los topes para calificaci&oacute;n y vende mercanc&iacute;as a sus asociados en las oficinas del fondo y cumple con las normas tributarias en cuanto a la distribuci&oacute;n de excedentes, est&aacute; exento de pagar impuesto de renta?&iquest;Un fondo de empleados que re&uacute;ne los requisitos para pertenecer al r&eacute;gimen tributario especial, debe pedir autorizaci&oacute;n a la DIAN para la numeraci&oacute;n de las facturas?&iquest;Los ingresos no operacionales pueden ser repartidos a sus asociados?&iquest;Las cuotas de administraci&oacute;n que pagan los asociados tienen alg&uacute;n gravamen tributario?&iquest;Cuando se utiliza las m&aacute;quinas registradoras PLU, se debe pedir autorizaci&oacute;n ante la DIAN para la numeraci&oacute;n del tiquete?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007631-1996",
+      "tipo": "concepto",
+      "numero": "0007631",
+      "fecha": "1996-02-07",
+      "tema": "&iquest;Cu&aacute;ndo se entiende causado un ingreso consistente en una donaci&oacute;n en especie efectuada desde el exterior en favor de una entidad sin &aacute;nimo de lucro? &iquest;Cual es la tarifa aplicable a los ingresos por donaciones que percibe una entidad sin &aacute;nimo de lucro con r&eacute;gimen especial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069204-1995",
+      "tipo": "concepto",
+      "numero": "0069204",
+      "fecha": "1995-10-04",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario en que debe ubicarse una asociaci&oacute;n c&iacute;vica sin &aacute;nimo de lucro? &iquest;Las asociaciones c&iacute;vicas sin &aacute;nimo de lucro, pueden llevar libros de contabilidad por el sistema de caja?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001521-1992",
+      "tipo": "concepto",
+      "numero": "0001521",
+      "fecha": "1992-01-01",
+      "tema": "Solicita conceptuar acerca de las obligaciones tributarias que debe cumplir la corporaci&oacute;n cristiana",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-594-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "594",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

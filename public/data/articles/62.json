@@ -1,1 +1,421 @@
-{"id_articulo": "Art. 62", "titulo": "Art. 62. Sistema para establecer el costo de los inventarios.", "titulo_corto": "Sistema para establecer el costo de los inventarios.", "slug": "62", "url_origen": "https://estatuto.co/62", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Para los obligados a llevar contabilidad el costo en la enajenación de inventarios debe establecerse con base en alguno de los siguientes sistemas: 1. El de juego de inventarios o periódicos. 2. El de inventarios permanentes o continuos. El inventario de fin de año o período gravable es el inventario inicial del año o período gravable siguiente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los obligados a llevar contabilidad el costo en la enajenación de inventarios debe establecerse con base en alguno de los siguientes sistemas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El de juego de inventarios o periódicos.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>El de inventarios permanentes o continuos.</p>\n<p>El inventario de fin de año o período gravable es el inventario inicial del año o período gravable siguiente.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "* -Modificado- Ley 1819 de 2016 Art. 42.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "174", "norma_year": 1994, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 1994, "leyes_modificatorias": ["Ley 174 de 1994"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 62",
+  "titulo": "Art. 62. Sistema para establecer el costo de los inventarios.",
+  "titulo_corto": "Sistema para establecer el costo de los inventarios.",
+  "slug": "62",
+  "url_origen": "https://estatuto.co/62",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Para los obligados a llevar contabilidad el costo en la enajenación de inventarios debe establecerse con base en alguno de los siguientes sistemas: 1. El de juego de inventarios o periódicos. 2. El de inventarios permanentes o continuos. El inventario de fin de año o período gravable es el inventario inicial del año o período gravable siguiente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los obligados a llevar contabilidad el costo en la enajenación de inventarios debe establecerse con base en alguno de los siguientes sistemas:</p>\n<p><strong><span style=\"color: #339966;\">1.</span></strong> El de juego de inventarios o periódicos.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>El de inventarios permanentes o continuos.</p>\n<p>El inventario de fin de año o período gravable es el inventario inicial del año o período gravable siguiente.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "* -Modificado- Ley 1819 de 2016 Art. 42.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "174",
+      "norma_year": 1994,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1994,
+  "leyes_modificatorias": [
+    "Ley 174 de 1994"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 10 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 6365 (2023-05-29): (Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-6365-2023",
+      "tipo": "oficio",
+      "numero": "6365",
+      "fecha": "2023-05-29",
+      "tema": "(Int 619) Concepto General sobre el impuesto al patrimonio creado por la Ley 2277 de 2022 - Hecho generador - Sujetos pasivos - Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904512-2022",
+      "tipo": "oficio",
+      "numero": "904512",
+      "fecha": "2022-06-09",
+      "tema": "- (Tributario) Impuesto sobre la renta - Diferencia en cambio - criptoactivos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-18675-2019",
+      "tipo": "oficio",
+      "numero": "18675",
+      "fecha": "2019-07-19",
+      "tema": "Procedimiento de envi&oacute; de citaci&oacute;n y notificaci&oacute;n personal de la decisi&oacute;n de un recurso de reconsideraci&oacute;n en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4983-2019",
+      "tipo": "oficio",
+      "numero": "4983",
+      "fecha": "2019-02-28",
+      "tema": "Impuesto sobre las ventas- IVA aplicado a aceites derivados de palma africana",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33700-2018",
+      "tipo": "oficio",
+      "numero": "33700",
+      "fecha": "2018-11-29",
+      "tema": "Deducci&oacute;n por P&eacute;rdidas de Activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76735-2012",
+      "tipo": "oficio",
+      "numero": "76735",
+      "fecha": "2012-12-10",
+      "tema": "M&eacute;todo de valoraci&oacute;n de inventarios autorizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67468-2012",
+      "tipo": "oficio",
+      "numero": "67468",
+      "fecha": "2012-10-29",
+      "tema": "Sanci&oacute;n a Sociedades de Contadores P&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72272-2009",
+      "tipo": "oficio",
+      "numero": "72272",
+      "fecha": "2009-09-04",
+      "tema": "&iquest;Son aplicables a la Sociedad por Acciones Simplificada de que trata la Ley 1258 de 2008, los art&iacute;culos 60 y 62 del Estatuto Tributario, si todos los activos con que cuenta la sociedad corresponden a inventarios disponibles para la venta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26258-2009",
+      "tipo": "oficio",
+      "numero": "26258",
+      "fecha": "2009-03-31",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14875-2009",
+      "tipo": "oficio",
+      "numero": "14875",
+      "fecha": "2009-02-20",
+      "tema": "Base gravable de impuesto a las ventas en el juego del chance",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026979-2005",
+      "tipo": "concepto",
+      "numero": "0026979",
+      "fecha": "2005-05-11",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos que a t&iacute;tulo de la denominada pensi&oacute;n voluntaria efect&uacute;a un empleador a un trabajador que no cumple con los requisitos necesarios para acceder a la pensi&oacute;n de vejez de acuerdo con la Ley 100 de 1993?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083627-2002",
+      "tipo": "concepto",
+      "numero": "0083627",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; Divisi&oacute;n debe conservar los expedientes del",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071050-2002",
+      "tipo": "concepto",
+      "numero": "0071050",
+      "fecha": "2002-10-31",
+      "tema": "Impuesto sobre la Renta y Complementarios. Son deducibles las p&eacute;rdidas de las mercanc&iacute;as que conforman el activo movible &iquest;cuando se lleva el Sistema de Inventarios Permanentes o Continuos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-61852-2002",
+      "tipo": "concepto",
+      "numero": "61852",
+      "fecha": "2002-09-24",
+      "tema": "&iquest;La destrucci&oacute;n de medicamentos vencidos en observancia de disposiciones administrativas es considerado hecho constitutivo de fuerza mayor o caso fortuito para efectos de determinar el correspondiente costo o gasto en el impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061852-2002",
+      "tipo": "concepto",
+      "numero": "0061852",
+      "fecha": "2002-09-24",
+      "tema": "&iquest; La destrucci&oacute;n de medicamentos vencidos en observancia de disposiciones administrativas es considerado hecho constitutivo de fuerza mayor o caso fortuito para efectos de determinar el correspondiente costo o gasto en el impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000372-2001",
+      "tipo": "concepto",
+      "numero": "0000372",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Una empresa prestadora de servicios p&uacute;blicos domiciliarios autorizada como autorretenedora debe efectuar retenci&oacute;n en la fuente sobre sus rentas exentas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009342-2000",
+      "tipo": "concepto",
+      "numero": "0009342",
+      "fecha": "2000-02-04",
+      "tema": "&iquest;Los contribuyentes obligados a presentar su declaraci&oacute;n tributaria firmada por Revisor Fiscal que no establezcan el costo de los activos movibles enajenados, por el sistema de Inventarios permanentes se encuentran sometidos a sanci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100447-1998",
+      "tipo": "concepto",
+      "numero": "0100447",
+      "fecha": "1998-12-30",
+      "tema": "&iquest;Es v&aacute;lido aceptar para efectos fiscales asignar el costo de los activos movibles por el sistema de costos est&aacute;ndar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083925-1998",
+      "tipo": "concepto",
+      "numero": "0083925",
+      "fecha": "1998-10-28",
+      "tema": "&iquest;Se encuentran obligadas a tener revisor fiscal las estaciones de servicio de gasolina?&iquest;Deben las Estaciones de Servicio pagar el impuesto sobre las ventas cuando adquieran productos derivados del petr&oacute;leo de un distribuidor?&iquest;Est&aacute;n obligadas las estaciones de gasolina a llevar el sistema de inventariIos permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047554-1998",
+      "tipo": "concepto",
+      "numero": "0047554",
+      "fecha": "1998-06-19",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008237-1997",
+      "tipo": "concepto",
+      "numero": "0008237",
+      "fecha": "1997-09-09",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078342-1996",
+      "tipo": "concepto",
+      "numero": "0078342",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074234-1995",
+      "tipo": "concepto",
+      "numero": "0074234",
+      "fecha": "1995-10-13",
+      "tema": "&iquest;Es aceptable aplicar los ajustes integrales por inflaci&oacute;n tomando como base los costos determinados o estandar? &iquest;Se puede considerar el sistema de costeo directo como un sistema de reconocido valor t&eacute;cnico aceptado por la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034190-1995",
+      "tipo": "concepto",
+      "numero": "0034190",
+      "fecha": "1995-05-24",
+      "tema": "&iquest;Los contribuyentes obligados a presentar su declaraci&oacute;n de renta y complementarios firmada por revisor fiscal o contador p&uacute;blico, pueden aplicar el sistema de juego de inventarios durante los primeros seis meses y despu&eacute;s el de inventarios permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0061991-1994",
+      "tipo": "concepto",
+      "numero": "0061991",
+      "fecha": "1994-10-24",
+      "tema": "&iquest;si se tiene en cuenta que las materias primas utilizadas en Kilos, una vez sometidas al proceso de producci&oacute;n, se diversifican en productos distintos con valores diferentes, con un control de inventarios, en cantidades, (kilos para materias primas y productos en proceso y en unidades para los terminados), mas no en valores; para determinar el costo de ventas y el valor del inventario final las unidades de productos terminados se convierten a kilos seg&uacute;n su peso y en las valorizaciones del inventario final de los productos en proceso no se tiene en cuenta el grado de terminaci&oacute;n, El procedimiento utilizado es el correcto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012972-1993",
+      "tipo": "concepto",
+      "numero": "0012972",
+      "fecha": "1993-03-30",
+      "tema": "&iquest;La existencia del t&iacute;tulo ejecutivo de que habla la sentencia del Consejo de Estado se entiende legalmente satisfecha con lo dispuesto en el art&iacute;culo 83 de la ley 6a de 1992 que en forma expresa regul&oacute; lo atinente a la forma de vincular a los deudores solidarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012341-1993",
+      "tipo": "concepto",
+      "numero": "0012341",
+      "fecha": "1993-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002370-1990",
+      "tipo": "concepto",
+      "numero": "0002370",
+      "fecha": "1990-01-26",
+      "tema": "&iquest;Es posible utilizar cualquiera de los sistemas de valoraci&oacute;n que existen (Lifo, Fifo o promedio)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001075-1989",
+      "tipo": "concepto",
+      "numero": "0001075",
+      "fecha": "1989-01-16",
+      "tema": "&iquest;Es permitido dentro del r&eacute;gimen impositivo nacional dejar de practicar retenci&oacute;n en la fuente sobre la totalidad de los pagos o s&oacute;lo sobre el total de la correcci&oacute;n monetaria incluida en el rendimiento financiero y parte de los intereses, realizados por las Corporaciones de ahorro y vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013614-1988",
+      "tipo": "concepto",
+      "numero": "0013614",
+      "fecha": "1988-07-11",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal aplicable a las ventas de alcohol tratado con Ftalatu de etilo. El peticionario plantea dos situaciones distintas: en una, la f&aacute;brica de licores que vende el alcohol a industria farmac&eacute;utica no cobra el impuesto; en la otra, el vendedor, que no es el productor cobra el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010855-1988",
+      "tipo": "concepto",
+      "numero": "0010855",
+      "fecha": "1988-06-03",
+      "tema": "&iquest;Los responsables del impuesto sobre las ventas incluidos los exportadores deber&aacute;n inscribirse en el registro nacional de vendedores dentro de los dos (2) meses siguientes a la fecha correspondiente a la primera enajenaci&oacute;n de art&iacute;culos gravados o exentos, ante la Administraci&oacute;n o Recaudaci&oacute;n de Impuestos Nacionales correspondiente al domicilio principal del responsable?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

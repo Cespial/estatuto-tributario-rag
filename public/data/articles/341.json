@@ -1,1 +1,519 @@
-{"id_articulo": "Art. 341", "titulo": "Art. 341. Renta Líquida Cedular de las Rentas No Laborales", "titulo_corto": "Renta Líquida Cedular de las Rentas No Laborales", "slug": "341", "url_origen": "https://estatuto.co/341", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente. Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT. Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\"><strong>*</strong></span>Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><strong>Parágrafo. </strong>En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018"], "texto_derogado": ["*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente.", "Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT.", "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos ...", "full_length": 267}, {"index": 1, "snippet": "Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) U...", "full_length": 203}, {"index": 2, "snippet": "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables ...", "full_length": 214}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 341",
+  "titulo": "Art. 341. Renta Líquida Cedular de las Rentas No Laborales",
+  "titulo_corto": "Renta Líquida Cedular de las Rentas No Laborales",
+  "slug": "341",
+  "url_origen": "https://estatuto.co/341",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente. Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT. Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\"><strong>*</strong></span>Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><strong>Parágrafo. </strong>En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula.</span></del></span></p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos y gastos procedentes y debidamente soportados por el contribuyente.",
+    "Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) UVT.",
+    "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables a esta cédula."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Para efectos de establecer la renta líquida correspondiente a las rentas no laborales, del valor total de los ingresos de esta cédula se restarán los ingresos no constitutivos de renta, y los costos ...",
+      "full_length": 267
+    },
+    {
+      "index": 1,
+      "snippet": "Podrán restarse todas las rentas exentas y deducciones imputables a esta cédula, siempre que no excedan el diez (10%) del resultado del inciso anterior, que en todo caso no puede exceder mil (1.000) U...",
+      "full_length": 203
+    },
+    {
+      "index": 2,
+      "snippet": "Parágrafo. En la depuración podrán ser aceptados los costos y los gastos que cumplan con los requisitos generales para su procedencia establecidos en las normas de este Estatuto y que sean imputables ...",
+      "full_length": 214
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 12 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000207 (2020-02-20): (Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?\noficio 26853 (2019-10-25): &iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?\noficio 24697 (2019-09-30): Renta l&iacute;quida cedular de las rentas no laborales\noficio 18485 (2019-07-17): Tratamiento tributario de las indemnizaciones por seguros de vida\noficio 17972 (2019-07-10): &iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-473-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "473",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24697-2019",
+      "tipo": "oficio",
+      "numero": "24697",
+      "fecha": "2019-09-30",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18485-2019",
+      "tipo": "oficio",
+      "numero": "18485",
+      "fecha": "2019-07-17",
+      "tema": "Tratamiento tributario de las indemnizaciones por seguros de vida",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17968-2019",
+      "tipo": "oficio",
+      "numero": "17968",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Debe considerarse como exento de renta y no constitutivo de salario la prima especial y la prima de costo de vida que devengan los Consejeros Comerciales y Asesores Comerciales al servicio del Ministerio de Comercio industria y Turismo que laboran en una planta del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32761-2018",
+      "tipo": "oficio",
+      "numero": "32761",
+      "fecha": "2018-11-09",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32487-2018",
+      "tipo": "oficio",
+      "numero": "32487",
+      "fecha": "2018-11-07",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a una cesi&oacute;n de derechos de autor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28030-2018",
+      "tipo": "oficio",
+      "numero": "28030",
+      "fecha": "2018-09-27",
+      "tema": "Presentaci&oacute;n de la declaraci&oacute;n del impuesto sobre la renta de personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27330-2018",
+      "tipo": "oficio",
+      "numero": "27330",
+      "fecha": "2018-09-19",
+      "tema": "&iquest;En qu&eacute; rengl&oacute;n de la declaraci&oacute;n de renta de personas naturales debe diligenciar las rentas exentas de la prima especial y prima de costo de vida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17158-2018",
+      "tipo": "oficio",
+      "numero": "17158",
+      "fecha": "2018-06-25",
+      "tema": "&iquest;El art&iacute;culo 28 de la Ley 98 de 1993 se encuentra vigente, referente a exenciones al pago de impuestos sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7480-2018",
+      "tipo": "oficio",
+      "numero": "7480",
+      "fecha": "2018-03-23",
+      "tema": "&iquest;Debe entenderse que tal exenci&oacute;n se mantiene de manera ilimitada para las Personas Natural? O &iquest;Se encuentra limitada por el sistema cedular previsto en los art&iacute;culos primero y subsiguientes de la misma Ley 1819 de 2016?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5721-2018",
+      "tipo": "oficio",
+      "numero": "5721",
+      "fecha": "2018-03-15",
+      "tema": "&iquest;Es posible restar las rentas exentas, en el caso de las personas naturales contribuyentes declarantes del impuesto sobre la renta y complementario, que deben hacerlo a trav&eacute;s del sistema de renta presuntiva?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27529-2017",
+      "tipo": "oficio",
+      "numero": "27529",
+      "fecha": "2017-10-10",
+      "tema": "Costos y Deducciones - Depuraci&oacute;n de la base de c&aacute;lculo y determinaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21100-2017",
+      "tipo": "oficio",
+      "numero": "21100",
+      "fecha": "2017-08-08",
+      "tema": "&iquest;Qu&eacute; medidas han sido adoptadas para asegurar que la reciente Reforma Tributaria Estructural contenida en la Ley 1819 de 29 de diciembre de 2016 sea redistributiva y ayude a reducir las desigualdades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20964-2017",
+      "tipo": "oficio",
+      "numero": "20964",
+      "fecha": "2017-08-04",
+      "tema": "Monotributo - Firmeza declaraciones tributarias - R&eacute;gimen aplicable IVA - Exoneraci&oacute;n aportes parafiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20257-2017",
+      "tipo": "oficio",
+      "numero": "20257",
+      "fecha": "2017-07-31",
+      "tema": "Depuraci&oacute;n de la base de retenci&oacute;n en la fuente por ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7938-2017",
+      "tipo": "oficio",
+      "numero": "7938",
+      "fecha": "2017-04-05",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7450-2017",
+      "tipo": "oficio",
+      "numero": "7450",
+      "fecha": "2017-04-03",
+      "tema": "Procedimiento Tributario - Firmeza de la Liquidaci&oacute;n Privada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7389-2017",
+      "tipo": "oficio",
+      "numero": "7389",
+      "fecha": "2017-03-31",
+      "tema": "Deducci&oacute;n de Pensiones de Jubilaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6413-2017",
+      "tipo": "oficio",
+      "numero": "6413",
+      "fecha": "2017-03-23",
+      "tema": "Impuesto sobre la Renta y Complementarios - Personas Naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4979-2017",
+      "tipo": "oficio",
+      "numero": "4979",
+      "fecha": "2017-03-10",
+      "tema": "Aplicaci&oacute;n de retenci&oacute;n en la fuente por IMAS e IMAN durante la vigencia 2017",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0705-2017",
+      "tipo": "oficio",
+      "numero": "0705",
+      "fecha": "2017-06-16",
+      "tema": "Si se presenta una solicitud de devoluci&oacute;n de un saldo a favor originado en una declaraci&oacute;n liquidada por el sistemas IMAS, a dicha declaraci&oacute;n se le aplicar el t&eacute;rmino de firmeza consagrado en el art. 714 del E.T., es decir, de &iquest;3 a&ntilde;os desde la presentaci&oacute;n de la solicitud de devoluci&oacute;n y-o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0279-2016",
+      "tipo": "oficio",
+      "numero": "0279",
+      "fecha": "2016-04-11",
+      "tema": "Impuesto sobre la renta - Retenci&oacute;n en la fuente - Contribuyentes y declarantes voluntarios - Devoluciones de retenciones en exceso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22540-2015",
+      "tipo": "oficio",
+      "numero": "22540",
+      "fecha": "2015-08-03",
+      "tema": "&iquest;Un fot&oacute;grafo que utiliza sus equipos para la prestaci&oacute;n del servicio de fotograf&iacute;a, es considerado como trabajador por cuenta propia o como empleado, para efectos de retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64350-2014",
+      "tipo": "oficio",
+      "numero": "64350",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto m&iacute;nimo alternativo simple IMAS - Clasificaci&oacute;n para efectos tributarios de trabajadores por cuenta propia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11352-2014",
+      "tipo": "oficio",
+      "numero": "11352",
+      "fecha": "2014-11-12",
+      "tema": "Solicita se resuelvan problemas jur&iacute;dicos en relaci&oacute;n con el Concepto n&uacute;mero 885 del 31 de julio de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052245-2006",
+      "tipo": "concepto",
+      "numero": "0052245",
+      "fecha": "2006-06-20",
+      "tema": "&iquest;Con fundamento en el numeral 7&ordm; del art&iacute;culo 8&ordm; del Decreto 2075 de 1992, modificado por el art&iacute;culo 4&ordm; del Decreto 2591 de 1993; el valor patrimonial por el cual se deben declarar las acciones o aportes en sociedades es el valor intr&iacute;nseco o el valor en bolsa cuando &eacute;stos son inferiores al costo por el PAAG?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21771-2006",
+      "tipo": "oficio",
+      "numero": "21771",
+      "fecha": "2006-03-14",
+      "tema": "&iquest;Cu&aacute;l es la provisi&oacute;n para desvalorizaci&oacute;n de inversiones en acciones, en la cual solicita el concepto favorable de esta entidad para no contabilizar dicha provisi&oacute;n o diferirla en cinco a&ntilde;os, dado que la empresa receptora se encuentra en etapa preoperativa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21284-2006",
+      "tipo": "oficio",
+      "numero": "21284",
+      "fecha": "2006-01-01",
+      "tema": "&iquest;C&oacute;mo se puede ajustar fiscalmente el valor del inventario de mercanc&iacute;a importada, al valor real que tiene en la actualidad, debido a la revaluaci&oacute;n del peso, teniendo en cuenta lo dispuesto en los art&iacute;culos 10 y 63 del decreto 2649 de 1993 y cu&aacute;l ser&iacute;a el asiento contable que debe registrarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073920-2003",
+      "tipo": "concepto",
+      "numero": "0073920",
+      "fecha": "2003-11-14",
+      "tema": "&iquest;Recae sobre el total de la inversi&oacute;n pose&iacute;da en una sociedad o sobre cada una de las acciones la decisi&oacute;n de no efectuar ajustes integrales por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054929-2003",
+      "tipo": "concepto",
+      "numero": "0054929",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Cuando los inventarios inmobiliarios sufren un dem&eacute;rito y por lo tanto tienen un valor inferior al comercial, puede solicitarse plazo para aplicar los ajustes por inflaci&oacute;n a estos bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082944-2001",
+      "tipo": "concepto",
+      "numero": "0082944",
+      "fecha": "2001-09-11",
+      "tema": "&iquest;Cu&aacute;ndo se decide no aplicar ajustes integrales por inflaci&oacute;n se entiende que esto afecta a los activos, en forma individual o en forma homog&eacute;nea o por grupos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070932-2000",
+      "tipo": "concepto",
+      "numero": "0070932",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Se pueden ajustar los activos no monetarios expresados en moneda extranjera por el factor de devaluaci&oacute;n del a&ntilde;o en el cual el activo se vuelve a ajustar sin que se involucre el factor de devaluaci&oacute;n de los a&ntilde;os en los cuales no fueron objeto de ajuste en aplicaci&oacute;;n del art&iacute;culo 341 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070931-2000",
+      "tipo": "concepto",
+      "numero": "0070931",
+      "fecha": "2000-07-27",
+      "tema": "&iquest;Se debe entender que el costo a que se refiere el art&iacute;culo 341 del Estatuto Tributario se toma sin la disminuci&oacute;n de la depreciaci&oacute;n? &iquest;Se requiere hacer ajustes especiales en la depreciaci&oacute;n acumulada y el patrimonio en el evento en que se decida no efectuar ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005425-2000",
+      "tipo": "concepto",
+      "numero": "0005425",
+      "fecha": "2000-01-24",
+      "tema": "&iquest;Qu&eacute; mecanismo se debe utilizar para ajustar el costo fiscal de un bien al valor comercial registrado en los libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055785-1998",
+      "tipo": "concepto",
+      "numero": "0055785",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;A qu&eacute; objeto deber&aacute; referirse concretamente la certificaci&oacute;n del perito contemplada en el art&iacute;culo 241 del Estatuto Tributario. A una unidad f&iacute;sica? A una cuenta contable? A un grupo de cuentas contables? O a todos los activos del balance globalmente? &iquest;Pueden ser considerados como equivalentes a una certificaci&oacute;n de perito documentos tales como el aforo de aduanas, escrituras p&uacute;blicas, extractos catastrales, contratos de compra - venta o las facturas comerciales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047558-1998",
+      "tipo": "concepto",
+      "numero": "0047558",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Se puede no efectuar los ajustes integrales por inflaci&oacute;n cuando el costo ajustado de un grupo homog&eacute;neo del inventario es menor al l&iacute;mite establecido por el Gobierno Nacional anualmente pero el valor total del inventario tiene un costo que supera dicho l&iacute;mite?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048995-1997",
+      "tipo": "concepto",
+      "numero": "0048995",
+      "fecha": "1997-06-16",
+      "tema": "&iquest;Proceden los ajustes integrales por inflaci&oacute;n, en mercanc&iacute;as de naturaleza perecedera como las frutas en raz&oacute;n a que en vez de garantizar un mayor valor nominal conlleva con frecuencia p&eacute;rdidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036038-1997",
+      "tipo": "concepto",
+      "numero": "0036038",
+      "fecha": "1997-12-30",
+      "tema": "&iquest;Cu&aacute;l es el mecanismo aplicable para castigar un inventario de productos terminados que ser&aacute;n distribuidos entre sus socios, en raz&oacute;n a la liquidaci&oacute;n de la empresa, hall&aacute;ndose dichos bienes en situaci&oacute;n de casi total obsolescencia sobrevalorados por efecto de los ajustes por inflaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014414-1997",
+      "tipo": "concepto",
+      "numero": "0014414",
+      "fecha": "1997-10-03",
+      "tema": "&iquest;Considerando que el inventario f&iacute;sico ajustado a precio de mercado es inferior al costo de inventario ajustado por inflaci&oacute;n, cu&aacute;l se debe dejar y que se hace con la diferencia? &iquest;Existe impedimento legal para que un contador preste sus Servicios como revisor fiscal a Sociedades vinculadas econ&oacute;micamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045619-1996",
+      "tipo": "concepto",
+      "numero": "0045619",
+      "fecha": "1996-06-03",
+      "tema": "&iquest;Si los activos tienen un valor en libros inferior a Ps. 50.000.000.00 (Cincuenta millones de pesos) no debe efectuarse el ajuste por inflaci&oacute;n a la totalidad de la contabilidad, o al activo en particular?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0022027-1995",
+      "tipo": "concepto",
+      "numero": "0022027",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ]
+}

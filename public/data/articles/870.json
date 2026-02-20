@@ -1,1 +1,247 @@
-{"id_articulo": "Art. 870", "titulo": "Art. 870. Gravamen a los movimientos financieros, GMF.", "titulo_corto": "Gravamen a los movimientos financieros, GMF.", "slug": "870", "url_origen": "https://estatuto.co/870", "libro": "Libro VI - GMF", "libro_full": "VI - Gravamen a los Movimientos Financieros", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Créase como un nuevo impuesto, a partir del primero (1o.) de enero del año 2001, el Gravamen a los Movimientos Financieros, a cargo de los usuarios del sistema financiero y de las entidades que lo conforman.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Créase como un nuevo impuesto, a partir del primero (1o.) de enero del año 2001, el Gravamen a los Movimientos Financieros, a cargo de los usuarios del sistema financiero y de las entidades que lo conforman.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 633 de 2000 Art 1.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "1"}], "total_modificaciones": 1, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 870",
+  "titulo": "Art. 870. Gravamen a los movimientos financieros, GMF.",
+  "titulo_corto": "Gravamen a los movimientos financieros, GMF.",
+  "slug": "870",
+  "url_origen": "https://estatuto.co/870",
+  "libro": "Libro VI - GMF",
+  "libro_full": "VI - Gravamen a los Movimientos Financieros",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Créase como un nuevo impuesto, a partir del primero (1o.) de enero del año 2001, el Gravamen a los Movimientos Financieros, a cargo de los usuarios del sistema financiero y de las entidades que lo conforman.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Créase como un nuevo impuesto, a partir del primero (1o.) de enero del año 2001, el Gravamen a los Movimientos Financieros, a cargo de los usuarios del sistema financiero y de las entidades que lo conforman.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 633 de 2000 Art 1.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "1"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 902939 (2022-04-07): &iquest;Cu&aacute;l es el r&eacute;gimen tributario al que est&aacute; sujeto una sociedad de calificaci&oacute;n de riesgos y valores?\noficio 913889 (2021-11-10): - (Tributario) IVA en criptoactivos, NFT",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-902939-2022",
+      "tipo": "oficio",
+      "numero": "902939",
+      "fecha": "2022-04-07",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario al que est&aacute; sujeto una sociedad de calificaci&oacute;n de riesgos y valores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913889-2021",
+      "tipo": "oficio",
+      "numero": "913889",
+      "fecha": "2021-11-10",
+      "tema": "- (Tributario) IVA en criptoactivos, NFT",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-911419-2020",
+      "tipo": "oficio",
+      "numero": "911419",
+      "fecha": "2020-12-30",
+      "tema": "Convenio para evitar la doble imposici&oacute;n suscrito entre Colombia y Canad&aacute;",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32763-2018",
+      "tipo": "oficio",
+      "numero": "32763",
+      "fecha": "2018-11-09",
+      "tema": "Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9859-2018",
+      "tipo": "oficio",
+      "numero": "9859",
+      "fecha": "2018-04-18",
+      "tema": "&iquest;Cu&aacute;l es el fundamento f&aacute;ctico y jur&iacute;dico de que contin&uacute;e en vigencia la medida relacionada con el impuesto o gravamen a los movimientos financieros, la cual inicio como medida temporal con el 2 X 1000, siendo extendida continuamente hasta llegar al 4 X 1000?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0218-2018",
+      "tipo": "oficio",
+      "numero": "0218",
+      "fecha": "2018-02-27",
+      "tema": "&iquest;Cuales son las obligaciones tributarias de una persona jur&iacute;dica cuyo objeto social principal es la prestaci&oacute;n de servicios jur&iacute;dicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0206-2018",
+      "tipo": "oficio",
+      "numero": "0206",
+      "fecha": "2018-02-23",
+      "tema": "Excenci&oacute;n del gravamen del 4 por mil",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28719-2017",
+      "tipo": "oficio",
+      "numero": "28719",
+      "fecha": "2017-10-23",
+      "tema": "Sujetos pasivos del gravamen a los movimientos financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22412-2017",
+      "tipo": "oficio",
+      "numero": "22412",
+      "fecha": "2017-08-18",
+      "tema": "&iquest;Gravamen a los Movimientos Financieros, cuales son los productos gravados y cuales tienen el beneficio de exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4804-2017",
+      "tipo": "oficio",
+      "numero": "4804",
+      "fecha": "2017-02-24",
+      "tema": "&iquest;La exenci&oacute;n al cobro del Gravamen a los Movimientos Financieros opera autom&aacute;ticamente, o en caso contrario, qu&eacute; requisitos debe cumplir un municipio para que las cuentas bancarias en donde se manejan recursos del Sistema General de Participaciones se considere exenta y pueda la entidad bancaria abstenerse de deducir el valor de tal tributo? &iquest;si existe la obligaci&oacute;n a cargo de la DIAN o de los establecimientos bancarios de reembolsar o devolver el valor descontado por concepto de Gravamen a los Movimientos Financieros que se haya retenido con anterioridad a la solicitud de marcaci&oacute;n como exenta que debe hacer el municipio respecto de cada cuenta en donde se manejen recursos del Sistema General de Participaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12903-2016",
+      "tipo": "oficio",
+      "numero": "12903",
+      "fecha": "2016-05-24",
+      "tema": "Gravamen a los Movimientos Financieros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0973-2016",
+      "tipo": "oficio",
+      "numero": "0973",
+      "fecha": "2016-10-07",
+      "tema": "Consulta sobre los impuestos que se deben cancelar por el ingreso de veinte mil euros a Colombia procedente de Espa&ntilde;a, producto del trabajo del consultante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67318-2014",
+      "tipo": "oficio",
+      "numero": "67318",
+      "fecha": "2014-12-23",
+      "tema": "Es hecho generador del GMF los traspasos de acciones y otros t&iacute;tulos o valores a trav&eacute;s de operaciones especiales que se realizan por fuera del sistema transaccional de las bolsas de valores y en la cual no se genera un movimiento contable en la contabilidad del intermediario a trav&eacute;s del cual se efect&uacute;a la transacci&oacute;n, tales como las realizadas con motivo de una fusi&oacute;n, una escisi&oacute;n, un proceso de extinci&oacute;n de dominio, una daci&oacute;n en pago, una donaci&oacute;n, una liquidaci&oacute;n de sociedad conyugal, una sucesi&oacute;n, una liquidaci&oacute;n de persona jur&iacute;dica, adjudicaci&oacute;n judicial, capitalizaci&oacute;n de acreencias y aportes en especie a otra sociedad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52280-2013",
+      "tipo": "oficio",
+      "numero": "52280",
+      "fecha": "2013-08-21",
+      "tema": "Legalidad de descuentos por transacciones bancarias, grav&aacute;menes financieros, costos asociados - &iquest;Qu&eacute; otro tipo de descuentos se encuentran facultadas las entidades financieras realizar a las cuentas de ahorros y corrientes de una Instituci&oacute;n Educativa del orden municipal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90638-2010",
+      "tipo": "oficio",
+      "numero": "90638",
+      "fecha": "2010-12-01",
+      "tema": "&iquest;si la operaci&oacute;n financiera se origina en la atenci&oacute;n de &oacute;rdenes judiciales o en la correcci&oacute;n de errores operativos, &eacute;stas transacciones generan GMF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-44202-2009",
+      "tipo": "oficio",
+      "numero": "44202",
+      "fecha": "2009-05-29",
+      "tema": "&iquest;Cu&aacute;ntas y cu&aacute;les son las tasas fiscales y parafiscales existentes a la fecha en Colombia y cu&aacute;les son sus marcos normativos especificando normas creadoras; cu&aacute;ntos cesos tributarios se han realizado en Colombia, cu&aacute;l fue el &uacute;ltimo censo realizado y en donde se encuentra publicado; cu&aacute;ntos y cu&aacute;les son los tributos existentes en el Estado Colombiano a la fecha y cu&aacute;les son sus marcos normativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32694-2007",
+      "tipo": "oficio",
+      "numero": "32694",
+      "fecha": "2007-05-03",
+      "tema": "Citando el art&iacute;culo 3 del Decreto 449 de 2003, debe entenderse que las Operaciones de Cambios constituyen una sola operaci&oacute;n hasta el pago a su beneficiario y como consecuencia de ello el Gravamen se causar&aacute; por una sola vez, en cabeza del beneficiario final de la operaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020257-2003",
+      "tipo": "concepto",
+      "numero": "0020257",
+      "fecha": "2003-04-15",
+      "tema": "&iquest;Los Fondos de Empleados son agentes retenedores del Gravamen a los Movimientos Financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075488-2002",
+      "tipo": "concepto",
+      "numero": "0075488",
+      "fecha": "2002-11-21",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para la devoluci&oacute;n del Gravamen a los Movimientos Financieros para los contribuyentes que suscribieron Contratos de Estabilidad Tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065644-2001",
+      "tipo": "concepto",
+      "numero": "0065644",
+      "fecha": "2001-07-18",
+      "tema": "Solicita aclarar el t&eacute;rmino",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036744-2001",
+      "tipo": "concepto",
+      "numero": "0036744",
+      "fecha": "2001-05-08",
+      "tema": "&iquest;Un emisor de tarjetas d&eacute;bito y cr&eacute;dito debe realizar retenci&oacute;n de IVA del 75% a un Gran Contribuyente? &iquest;Cu&aacute;l es el plazo que las entidades financieras tienen para expedir los certificados de cartera hipotecaria? &iquest;El traslado que hace un ahorrador individual a una cuenta de ahorro colectivo cuando ambas cuentas se encuentran abiertas en el mismo establecimiento de cr&eacute;dito, se encuentran exonerados del tres por mil? &iquest;Existe alguna norma tributaria que exija que los egresos y costos se contabilicen por NIT o c&eacute;dula, o es suficiente con los auxiliares en cada aplicativo, por ejemplo compras, n&oacute;mina, etc.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032996-2001",
+      "tipo": "concepto",
+      "numero": "0032996",
+      "fecha": "2001-04-24",
+      "tema": "&iquest;Los traslados de cartera colectiva entre diferentes bancos se encuentran exonerados del gravamen a los movimientos financieros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025855-2001",
+      "tipo": "concepto",
+      "numero": "0025855",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Una cooperativa de pensionados de acuerdo al numeral 11 del art&iacute;culo 1 sic de la Ley 633 de 2000, est&aacute; sujeta al 3 por 1000?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028395-1990",
+      "tipo": "concepto",
+      "numero": "0028395",
+      "fecha": "1990-01-01",
+      "tema": "Generalidades, historia legislativa y competencia del impuesto",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    }
+  ]
+}

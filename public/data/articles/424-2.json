@@ -1,1 +1,78 @@
-{"id_articulo": "Art. 424-2", "titulo": "Art. 424-2. Materias primas para la producción de vacunas.", "titulo_corto": "Materias primas para la producción de vacunas.", "slug": "424-2", "url_origen": "https://estatuto.co/424-2", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado verde\">Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "198"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Decreto", "norma_numero": "1655", "norma_year": 1991, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Decreto 1655 de 1991", "Ley 1607 de 2012", "Ley 6 de 1992"], "texto_derogado": ["*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.", "full_length": 196}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 424-2",
+  "titulo": "Art. 424-2. Materias primas para la producción de vacunas.",
+  "titulo_corto": "Materias primas para la producción de vacunas.",
+  "slug": "424-2",
+  "url_origen": "https://estatuto.co/424-2",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado verde\">Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado por la Ley 1607 de 2012 Art 198.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "198"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Decreto",
+      "norma_numero": "1655",
+      "norma_year": 1991,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Decreto 1655 de 1991",
+    "Ley 1607 de 2012",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [
+    "*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Las materias primas destinadas a la producción de vacunas, estarán excluidas del impuesto sobre las ventas, para lo cual deberá acreditarse tal condición en la forma como lo señale el reglamento.",
+      "full_length": 196
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -1,1 +1,112 @@
-{"id_articulo": "Art. 465", "titulo": "Art. 465. Competencia para fijar precios.", "titulo_corto": "Competencia para fijar precios.", "slug": "465", "url_origen": "https://estatuto.co/465", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El Ministerio de Minas y Energía señalará los precios de los productos refinados derivados del petróleo y del gas natural para los efectos de liquidar el impuesto sobre las ventas, exceptuados la gasolina y el ACPM, que se encuentran excluidos de este impuesto.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El Ministerio de Minas y Energía señalará los precios de los productos refinados derivados del petróleo y del gas natural para los efectos de liquidar el impuesto sobre las ventas, exceptuados la gasolina y el ACPM, que se encuentran excluidos de este impuesto.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 172.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "172"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 465",
+  "titulo": "Art. 465. Competencia para fijar precios.",
+  "titulo_corto": "Competencia para fijar precios.",
+  "slug": "465",
+  "url_origen": "https://estatuto.co/465",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El Ministerio de Minas y Energía señalará los precios de los productos refinados derivados del petróleo y del gas natural para los efectos de liquidar el impuesto sobre las ventas, exceptuados la gasolina y el ACPM, que se encuentran excluidos de este impuesto.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El Ministerio de Minas y Energía señalará los precios de los productos refinados derivados del petróleo y del gas natural para los efectos de liquidar el impuesto sobre las ventas, exceptuados la gasolina y el ACPM, que se encuentran excluidos de este impuesto.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art. 172.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "172"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 8922 (2025-07-10): Impuesto Sobre las Ventas - IVA\noficio 10763 (2024-12-20): Impuesto a las ventas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8922-2025",
+      "tipo": "oficio",
+      "numero": "8922",
+      "fecha": "2025-07-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10763-2024",
+      "tipo": "oficio",
+      "numero": "10763",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31296-2019",
+      "tipo": "oficio",
+      "numero": "31296",
+      "fecha": "2019-12-19",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57199-2012",
+      "tipo": "oficio",
+      "numero": "57199",
+      "fecha": "2012-09-10",
+      "tema": "&iquest;Cu&aacute;l es el destino de los tributos recaudados por la exportaci&oacute;n de gasolina a los Estados Unidos?&iquest;Entre Colombia y los Estados Unidos existe un acuerdo con el fin de evitar la doble tributaci&oacute;n? y en el TLC con ese pa&iacute;s como opera la eliminaci&oacute;n de la doble tributaci&oacute;n? &iquest;Qu&eacute; tributos genera la exportaci&oacute;n de gasolina a los Estados Unidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046014-2009",
+      "tipo": "concepto",
+      "numero": "0046014",
+      "fecha": "2009-06-08",
+      "tema": "&iquest;Cual es la base gravable sobre la cual se liquida el impuesto sobre las ventas en las importaciones de ACPM?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29808-2009",
+      "tipo": "oficio",
+      "numero": "29808",
+      "fecha": "2009-04-14",
+      "tema": "&iquest;Cu&aacute;les beneficios tributarios adicionales ha otorgado el Gobierno en los &uacute;ltimos cuatro a&ntilde;os a diferentes sectores ?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    }
+  ]
+}

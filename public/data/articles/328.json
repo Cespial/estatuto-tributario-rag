@@ -1,1 +1,111 @@
-{"id_articulo": "Art. 328", "titulo": "Art. 328. Recaudo y control.", "titulo_corto": "Recaudo y control.", "slug": "328", "url_origen": "https://estatuto.co/328", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales</del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1111 de 2006 Art. 78.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1111", "norma_year": 2006, "norma_articulo": "78"}], "total_modificaciones": 1, "ultima_modificacion_year": 2006, "leyes_modificatorias": ["Ley 1111 de 2006"], "texto_derogado": ["*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales"], "texto_derogado_parsed": [{"index": 0, "snippet": "*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales", "full_length": 121}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 328",
+  "titulo": "Art. 328. Recaudo y control.",
+  "titulo_corto": "Recaudo y control.",
+  "slug": "328",
+  "url_origen": "https://estatuto.co/328",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1111 de 2006 Art. 78.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1111",
+      "norma_year": 2006,
+      "norma_articulo": "78"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2006,
+  "leyes_modificatorias": [
+    "Ley 1111 de 2006"
+  ],
+  "texto_derogado": [
+    "*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales"
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*El recaudo y control del impuesto complementario de remesas está a cargo de la Dirección General de Impuestos Nacionales",
+      "full_length": 121
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2680 (2019-12-03): (Int 2680) Retenci&oacute;n en la Fuente por Pagos al Exterior\noficio 60341 (2007-08-06): &iquest;Cu&aacute;l es la causaci&oacute;n del impuesto de remesas a la tarifa del 7% cuando en el a&ntilde;o 2007 la sociedad gira al exterior utilidades retenidas desde 2001 hasta el a&ntilde;o 2005 teniendo en cuenta el art&iacute;culo 13 de la Ley 1111 de 2006 que adicion&oacute; un par&aacute;grafo al art&iacute;culo 245 del estatuto Tributario?\nconcepto 0021390 (2001-01-01): &iquest;Se causa impuesto de renta y de remesas cuando se hace un giro al exterior con el fin de comprar una letor&iacute;a o de pagar estudios de los socios de una compa&ntilde;ia?\nconcepto 0030260 (1998-04-30): &iquest;Cual es el tratamiento impositivo relativo al impuesto a la renta y complementarios aplicable en materia de sucesiones, tanto a las personas extranjeras residentes y no residentes en Colombia, as&iacute; como a las nacionales?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-988-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "988",
+      "year": 2006,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2680-2019",
+      "tipo": "oficio",
+      "numero": "2680",
+      "fecha": "2019-12-03",
+      "tema": "(Int 2680) Retenci&oacute;n en la Fuente por Pagos al Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-60341-2007",
+      "tipo": "oficio",
+      "numero": "60341",
+      "fecha": "2007-08-06",
+      "tema": "&iquest;Cu&aacute;l es la causaci&oacute;n del impuesto de remesas a la tarifa del 7% cuando en el a&ntilde;o 2007 la sociedad gira al exterior utilidades retenidas desde 2001 hasta el a&ntilde;o 2005 teniendo en cuenta el art&iacute;culo 13 de la Ley 1111 de 2006 que adicion&oacute; un par&aacute;grafo al art&iacute;culo 245 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021390-2001",
+      "tipo": "concepto",
+      "numero": "0021390",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Se causa impuesto de renta y de remesas cuando se hace un giro al exterior con el fin de comprar una letor&iacute;a o de pagar estudios de los socios de una compa&ntilde;ia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030260-1998",
+      "tipo": "concepto",
+      "numero": "0030260",
+      "fecha": "1998-04-30",
+      "tema": "&iquest;Cual es el tratamiento impositivo relativo al impuesto a la renta y complementarios aplicable en materia de sucesiones, tanto a las personas extranjeras residentes y no residentes en Colombia, as&iacute; como a las nacionales?",
+      "vigente": true
+    }
+  ]
+}

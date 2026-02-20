@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
-import Link from "next/link";
-import { ArrowLeft, ChevronDown, ShieldCheck, AlertTriangle } from "lucide-react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { ChevronDown, ShieldCheck, AlertTriangle } from "lucide-react";
 import {
   UVT_VALUES,
   CURRENT_UVT_YEAR,
@@ -13,10 +13,19 @@ import { DEPURACION_LIMITS } from "@/config/tax-data-laboral";
 import { CurrencyInput, NumberInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
 import { CalculatorSources } from "@/components/calculators/calculator-sources";
-
-function formatCOP(n: number): string {
-  return "$" + Math.round(n).toLocaleString("es-CO");
-}
+import { CalculatorBreadcrumb } from "@/components/calculators/calculator-breadcrumb";
+import { CalculatorActions } from "@/components/calculators/calculator-actions";
+import { CalculatorDisclaimer } from "@/components/calculators/calculator-disclaimer";
+import { RelatedCalculators } from "@/components/calculators/related-calculators";
+import { PrintWrapper } from "@/components/pdf/print-wrapper";
+import { usePrintExport } from "@/lib/pdf/use-print-export";
+import { formatCOP } from "@/lib/calculators/format";
+import {
+  buildShareUrl,
+  readNumberParam,
+  replaceUrlQuery,
+} from "@/lib/calculators/url-state";
+import { trackCalculatorUsage } from "@/lib/calculators/popularity";
 
 function CollapsibleSection({ title, defaultOpen = false, children }: {
   title: string; defaultOpen?: boolean; children: React.ReactNode;
@@ -34,25 +43,74 @@ function CollapsibleSection({ title, defaultOpen = false, children }: {
   );
 }
 
-export default function RetencionSalariosPage() {
-  const [ingresoBruto, setIngresoBruto] = useState(12000000);
-  const [aporteSalud, setAporteSalud] = useState(0);
-  const [aportePension, setAportePension] = useState(0);
-  const [aporteVoluntarioPension, setAporteVoluntarioPension] = useState(0);
-  const [aporteAFC, setAporteAFC] = useState(0);
-  const [numDependientes, setNumDependientes] = useState(1);
-  const [interesesVivienda, setInteresesVivienda] = useState(0);
-  const [medicinaPrepagada, setMedicinaPrepagada] = useState(0);
+function RetencionSalariosPageContent() {
+  const searchParams = useSearchParams();
+  const uvt = UVT_VALUES[CURRENT_UVT_YEAR];
 
-  // Pre-fill mandatory contributions
+  const initialValues = useMemo(() => {
+    return {
+      ingresoBruto: readNumberParam(searchParams, "ing", 12000000, { min: 0 }),
+      aporteSalud: readNumberParam(searchParams, "salud", 0, { min: 0 }),
+      aportePension: readNumberParam(searchParams, "pension", 0, { min: 0 }),
+      aporteVoluntarioPension: readNumberParam(searchParams, "vol", 0, { min: 0 }),
+      aporteAFC: readNumberParam(searchParams, "afc", 0, { min: 0 }),
+      numDependientes: readNumberParam(searchParams, "deps", 1, { min: 0, max: 4 }),
+      interesesVivienda: readNumberParam(searchParams, "viv", 0, { min: 0 }),
+      medicinaPrepagada: readNumberParam(searchParams, "med", 0, { min: 0 }),
+    };
+  }, [searchParams]);
+
+  const [ingresoBruto, setIngresoBruto] = useState(initialValues.ingresoBruto);
+  const [aporteSalud, setAporteSalud] = useState(initialValues.aporteSalud);
+  const [aportePension, setAportePension] = useState(initialValues.aportePension);
+  const [aporteVoluntarioPension, setAporteVoluntarioPension] = useState(initialValues.aporteVoluntarioPension);
+  const [aporteAFC, setAporteAFC] = useState(initialValues.aporteAFC);
+  const [numDependientes, setNumDependientes] = useState(initialValues.numDependientes);
+  const [interesesVivienda, setInteresesVivienda] = useState(initialValues.interesesVivienda);
+  const [medicinaPrepagada, setMedicinaPrepagada] = useState(initialValues.medicinaPrepagada);
+
+  // Auto-calculate health/pension if zero (only on first load or manual trigger? 
+  // Better to just calculate default if not provided, but user might want to override.
+  // The original code had a useEffect to auto-set them. 
+  // Let's keep that behavior but be careful with URL state conflict.
+  // If URL has values, initialValues uses them. If user changes income, we update contributions.
+  
   useEffect(() => {
+    // Only update if they match the standard 4% roughly, to allow manual override?
+    // Or just always update like the original.
+    // Original: 
+    // useEffect(() => {
+    //   setAporteSalud(Math.round(ingresoBruto * 0.04));
+    //   setAportePension(Math.round(ingresoBruto * 0.04));
+    // }, [ingresoBruto]);
+    
+    // We will keep this behavior for simplicity, as it's standard for employees.
+    // But we need to avoid overwriting if the user is typing (maybe debounce? or just let it be).
+    // React state updates are fast.
     setAporteSalud(Math.round(ingresoBruto * 0.04));
     setAportePension(Math.round(ingresoBruto * 0.04));
   }, [ingresoBruto]);
 
-  const results = useMemo(() => {
-    const uvt = UVT_VALUES[CURRENT_UVT_YEAR];
+  const { contentRef, handlePrint } = usePrintExport({ title: "Retencion Salarios" });
 
+  useEffect(() => {
+    trackCalculatorUsage("retencion-salarios");
+  }, []);
+
+  useEffect(() => {
+    replaceUrlQuery({
+      ing: ingresoBruto,
+      salud: aporteSalud,
+      pension: aportePension,
+      vol: aporteVoluntarioPension,
+      afc: aporteAFC,
+      deps: numDependientes,
+      viv: interesesVivienda,
+      med: medicinaPrepagada,
+    });
+  }, [ingresoBruto, aporteSalud, aportePension, aporteVoluntarioPension, aporteAFC, numDependientes, interesesVivienda, medicinaPrepagada]);
+
+  const results = useMemo(() => {
     // Step 1: Total pagos
     const totalPagos = ingresoBruto;
 
@@ -128,35 +186,98 @@ export default function RetencionSalariosPage() {
       bracketFound,
       interesesVivienda
     };
-  }, [ingresoBruto, aporteSalud, aportePension, aporteVoluntarioPension, aporteAFC, numDependientes, interesesVivienda, medicinaPrepagada]);
+  }, [ingresoBruto, aporteSalud, aportePension, aporteVoluntarioPension, aporteAFC, numDependientes, interesesVivienda, medicinaPrepagada, uvt]);
+
+  const shareUrl = buildShareUrl("/calculadoras/retencion-salarios", {
+    ing: ingresoBruto,
+    salud: aporteSalud,
+    pension: aportePension,
+    vol: aporteVoluntarioPension,
+    afc: aporteAFC,
+    deps: numDependientes,
+    viv: interesesVivienda,
+    med: medicinaPrepagada,
+  });
 
   return (
-    <div className="mx-auto max-w-4xl p-4 md:p-6">
-      <div className="mb-6">
-        <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver a calculadoras
-        </Link>
-        <h1 className="heading-serif text-3xl">Retención en la Fuente — Salarios</h1>
-        <p className="mt-2 text-base leading-relaxed text-muted-foreground">Depuración mensual completa según Procedimiento 1 (Art. 388 ET) para el año 2026.</p>
-      </div>
+    <>
+      <CalculatorBreadcrumb
+        items={[
+          { label: "Calculadoras", href: "/calculadoras" },
+          { label: "Retencion en la Fuente - Salarios" },
+        ]}
+      />
 
-      <div className="grid gap-6 md:grid-cols-2">
+      <h1 className="mb-2 heading-serif text-3xl">Retencion en la Fuente - Salarios</h1>
+      <p className="mb-6 text-sm text-muted-foreground">
+        Depuracion mensual completa segun Procedimiento 1 (Art. 383 y 388 ET).
+      </p>
+
+      <CalculatorActions
+        title="Retencion Salarios"
+        shareText="Consulta esta depuracion de retencion salarial"
+        shareUrl={shareUrl}
+        onExportPdf={handlePrint}
+      />
+
+      <div className="grid gap-6 md:grid-cols-2 mb-6">
         <div className="space-y-4">
-          <CurrencyInput id="ingreso" label="Ingreso mensual bruto laboral" value={ingresoBruto} onChange={setIngresoBruto} />
+          <CurrencyInput 
+            id="ingreso" 
+            label="Ingreso mensual bruto laboral" 
+            value={ingresoBruto} 
+            onChange={setIngresoBruto} 
+          />
 
           <div className="grid grid-cols-2 gap-4">
-            <CurrencyInput id="salud" label="Salud Oblig. (4%)" value={aporteSalud} onChange={setAporteSalud} />
-            <CurrencyInput id="pension" label="Pensión Oblig. (4%)" value={aportePension} onChange={setAportePension} />
+            <CurrencyInput 
+              id="salud" 
+              label="Salud Oblig. (4%)" 
+              value={aporteSalud} 
+              onChange={setAporteSalud} 
+            />
+            <CurrencyInput 
+              id="pension" 
+              label="Pension Oblig. (4%)" 
+              value={aportePension} 
+              onChange={setAportePension} 
+            />
           </div>
 
           <CollapsibleSection title="Deducciones y Exenciones" defaultOpen>
             <div className="space-y-3 pt-2">
-              <NumberInput id="deps" label="Número de dependientes" value={numDependientes} onChange={setNumDependientes} min={0} max={4} />
-              <CurrencyInput id="vivienda" label="Intereses Vivienda / Leasing" value={interesesVivienda} onChange={setInteresesVivienda} />
-              <CurrencyInput id="prepagada" label="Medicina Prepagada" value={medicinaPrepagada} onChange={setMedicinaPrepagada} />
-              <CurrencyInput id="vol" label="Aportes Voluntarios Pensión" value={aporteVoluntarioPension} onChange={setAporteVoluntarioPension} />
-              <CurrencyInput id="afc" label="Aportes AFC / AVC" value={aporteAFC} onChange={setAporteAFC} />
+              <NumberInput 
+                id="deps" 
+                label="Numero de dependientes" 
+                value={numDependientes} 
+                onChange={setNumDependientes} 
+                min={0} 
+                max={4} 
+              />
+              <CurrencyInput 
+                id="vivienda" 
+                label="Intereses Vivienda / Leasing" 
+                value={interesesVivienda} 
+                onChange={setInteresesVivienda} 
+              />
+              <CurrencyInput 
+                id="prepagada" 
+                label="Medicina Prepagada" 
+                value={medicinaPrepagada} 
+                onChange={setMedicinaPrepagada} 
+              />
+              <CurrencyInput 
+                id="vol" 
+                label="Aportes Voluntarios Pension" 
+                value={aporteVoluntarioPension} 
+                onChange={setAporteVoluntarioPension} 
+              />
+              <CurrencyInput 
+                id="afc" 
+                label="Aportes AFC / AVC" 
+                value={aporteAFC} 
+                onChange={setAporteAFC} 
+              />
             </div>
           </CollapsibleSection>
         </div>
@@ -166,7 +287,7 @@ export default function RetencionSalariosPage() {
             items={[
               { label: "Base Gravable", value: formatCOP(results.baseGravable) },
               { label: "Base en UVT", value: results.baseGravableUVT.toFixed(2) },
-              { label: "Retención Mensual", value: formatCOP(results.retencionCOP) },
+              { label: "Retencion Mensual", value: formatCOP(results.retencionCOP) },
               { label: "Tasa Efectiva", value: `${results.tasaEfectiva.toFixed(2)}%` },
             ]}
           />
@@ -193,7 +314,7 @@ export default function RetencionSalariosPage() {
                   <td className="px-4 py-3 text-right">{formatCOP(results.subtotal1)}</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3">(-) Deducción Dependientes</td>
+                  <td className="px-4 py-3">(-) Deduccion Dependientes</td>
                   <td className="px-4 py-3 text-right">-{formatCOP(results.dependienteDeduccion)}</td>
                 </tr>
                 <tr>
@@ -227,7 +348,7 @@ export default function RetencionSalariosPage() {
           {results.limitType && (
             <div className="text-foreground bg-muted/50 border border-border/60 rounded-lg p-4 flex gap-3 text-xs">
               <AlertTriangle className="h-4 w-4 shrink-0" />
-              <p>Las deducciones y rentas exentas superaron el límite de {results.limitType} del ingreso neto. Solo se aplicó el límite legal.</p>
+              <p>Las deducciones y rentas exentas superaron el limite de {results.limitType} del ingreso neto. Solo se aplico el limite legal.</p>
             </div>
           )}
 
@@ -242,7 +363,7 @@ export default function RetencionSalariosPage() {
       </div>
 
       <div className="mt-8 space-y-4">
-        <CollapsibleSection title="Tabla de Retención Art. 383 ET">
+        <CollapsibleSection title="Tabla de Retencion Art. 383 ET">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
               <thead className="bg-muted/30 border-b border-border/60 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">
@@ -267,16 +388,43 @@ export default function RetencionSalariosPage() {
           </div>
         </CollapsibleSection>
 
-        <CollapsibleSection title="Límites de la Ley 2277 de 2022">
-          <div className="space-y-2 text-sm text-muted-foreground">
-            <p><strong>Límite Global del 40%:</strong> La suma de deducciones y rentas exentas no puede superar el 40% del subtotal 1 (Ingreso bruto - INCRNGO).</p>
-            <p><strong>Límite Anual/Mensual en UVT:</strong> Además del 40%, existe un tope absoluto de 1,340 UVT anuales (aprox. 111.6 UVT mensuales) para el conjunto de beneficios tributarios.</p>
-            <p><strong>Renta Exenta del 25%:</strong> Se calcula sobre el neto después de deducciones, pero está limitada a 790 UVT anuales (aprox. 65.8 UVT mensuales).</p>
-          </div>
-        </CollapsibleSection>
-
         <CalculatorSources articles={["383", "387", "388", "206"]} />
       </div>
-    </div>
+
+      <CalculatorDisclaimer
+        references={["Art. 383 ET", "Art. 387 ET", "Art. 388 ET", "Art. 206 ET"]}
+      />
+
+      <RelatedCalculators currentId="retencion-salarios" />
+
+      <div className="hidden">
+        <div ref={contentRef}>
+          <PrintWrapper
+            title="Depuracion Retencion Salarios"
+            subtitle={`Ingreso Mensual: ${formatCOP(ingresoBruto)}`}
+          >
+            {results && (
+              <div className="space-y-2 text-sm">
+                <p>Ingreso Bruto: {formatCOP(ingresoBruto)}</p>
+                <p>INCRNGO: {formatCOP(results.incrngo)}</p>
+                <p>Deducciones: {formatCOP(results.totalDeducciones)}</p>
+                <p>Renta Exenta 25%: {formatCOP(results.rentaExenta25)}</p>
+                <p>Total Aplicado: {formatCOP(results.totalAplicado)}</p>
+                <p>Base Gravable: {formatCOP(results.baseGravable)}</p>
+                <p>Retencion: {formatCOP(results.retencionCOP)}</p>
+              </div>
+            )}
+          </PrintWrapper>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default function RetencionSalariosPage() {
+  return (
+    <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Cargando calculadora...</div>}>
+      <RetencionSalariosPageContent />
+    </Suspense>
   );
 }

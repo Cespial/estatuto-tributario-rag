@@ -19,6 +19,8 @@ import { ChatConversation, ChatPageContext } from "@/types/chat-history";
 import { ConversationSidebar } from "./conversation-sidebar";
 import { trackEvent } from "@/lib/telemetry/events";
 import { ChatBottomSheet } from "./chat-bottom-sheet";
+import { Download, FileJson, Copy as CopyIcon, Check } from "lucide-react";
+import { clsx } from "clsx";
 
 function getMessageText(message: { parts?: Array<{ type: string; text?: string }> }): string {
   return (
@@ -54,6 +56,7 @@ function parsePageContext(pathname: string): ChatPageContext {
 export function ChatContainer() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const isLanding = pathname === "/";
   const pageContext = useMemo(() => parsePageContext(pathname), [pathname]);
   const contextualQuestions = useMemo(() => getContextualQuestions(pathname), [pathname]);
   const prefilledInput = useMemo(() => {
@@ -68,6 +71,9 @@ export function ChatContainer() {
   const [libroFilter, setLibroFilter] = useState<string | undefined>(undefined);
   const [input, setInput] = useState(prefilledInput);
   const [selectedConversationId, setSelectedConversationId] = useState("");
+  const [typingLabel, setTypingLabel] = useState("Buscando en el Estatuto Tributario...");
+  const [exporting, setExporting] = useState(false);
+  const [copiedAll, setCopiedAll] = useState(false);
   const persistKeyRef = useRef("");
 
   const {
@@ -77,25 +83,6 @@ export function ChatContainer() {
     setFeedback,
     getFeedback,
   } = useChatHistory();
-
-  useEffect(() => {
-    if (selectedConversationId) return;
-    if (conversations.length > 0) {
-      queueMicrotask(() => setSelectedConversationId(conversations[0].id));
-      return;
-    }
-    const id = createConversationId();
-    saveConversation({
-      id,
-      title: "Nueva conversación",
-      createdAt: Date.now(),
-      updatedAt: Date.now(),
-      messages: [],
-      pageContext,
-      libroFilter: undefined,
-    });
-    queueMicrotask(() => setSelectedConversationId(id));
-  }, [selectedConversationId, conversations, saveConversation, pageContext]);
 
   const currentConversation = conversations.find(
     (conversation) => conversation.id === selectedConversationId
@@ -120,6 +107,59 @@ export function ChatContainer() {
     messages: currentConversation?.messages || [],
   });
 
+  const isLoading = status === "submitted" || status === "streaming";
+
+  useEffect(() => {
+    if (status === "submitted") {
+      const t1 = setTimeout(() => setTypingLabel("Analizando artículos relevantes..."), 1500);
+      const t2 = setTimeout(() => setTypingLabel("Redactando respuesta jurídica..."), 3500);
+      return () => {
+        clearTimeout(t1);
+        clearTimeout(t2);
+      };
+    } else if (status === "ready") {
+      setTypingLabel("Buscando en el Estatuto Tributario...");
+    }
+  }, [status]);
+
+  const handleExportJSON = () => {
+    const data = JSON.stringify(messages, null, 2);
+    const blob = new Blob([data], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `conversacion-${selectedConversationId}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setExporting(false);
+  };
+
+  const handleCopyAll = async () => {
+    const text = messages
+      .map((m) => `${m.role === "user" ? "Usuario" : "Asistente"}:\n${getMessageText(m)}`)
+      .join("\n\n---\n\n");
+    await navigator.clipboard.writeText(text);
+    setCopiedAll(true);
+    setTimeout(() => {
+      setCopiedAll(false);
+      setExporting(false);
+    }, 2000);
+  };
+
+  useEffect(() => {
+    const handleCustomQuery = (event: Event) => {
+      const customEvent = event as CustomEvent<{ query: string }>;
+      const query = customEvent.detail.query;
+      if (query && status !== "submitted" && status !== "streaming") {
+        setInput("");
+        sendMessage({ text: query });
+      }
+    };
+
+    window.addEventListener("superapp:chat-query", handleCustomQuery);
+    return () => window.removeEventListener("superapp:chat-query", handleCustomQuery);
+  }, [sendMessage, status, setInput]);
+
   useEffect(() => {
     if (!currentConversation) return;
     queueMicrotask(() => {
@@ -127,8 +167,6 @@ export function ChatContainer() {
       setLibroFilter(currentConversation.libroFilter);
     });
   }, [currentConversation, setMessages]);
-
-  const isLoading = status === "submitted" || status === "streaming";
 
   useEffect(() => {
     if (!selectedConversationId) return;
@@ -245,22 +283,58 @@ export function ChatContainer() {
   };
 
   return (
-    <div className="flex h-[calc(100vh-3.5rem)] overflow-hidden">
-      <ConversationSidebar
-        conversations={conversations}
-        selectedConversationId={selectedConversationId}
-        onSelectConversation={setSelectedConversationId}
-        onCreateConversation={handleNewConversation}
-        onDeleteConversation={handleDeleteConversation}
-      />
+    <div className={clsx(
+      "flex overflow-hidden transition-all duration-300",
+      isLanding ? "h-[360px] rounded-xl border border-border bg-card/50 shadow-sm" : "h-[calc(100vh-3.5rem)]"
+    )}>
+      {!isLanding && (
+        <ConversationSidebar
+          conversations={conversations}
+          selectedConversationId={selectedConversationId}
+          onSelectConversation={setSelectedConversationId}
+          onCreateConversation={handleNewConversation}
+          onDeleteConversation={handleDeleteConversation}
+        />
+      )}
 
       <div className="min-w-0 flex-1">
         <ChatBottomSheet>
           <div className="flex h-full flex-col">
-            <div className="border-b border-border/40 px-4 py-2">
-              <div className="mx-auto max-w-4xl">
+            <div className="flex items-center justify-between border-b border-border/40 px-4 py-2">
+              <div className="max-w-md flex-1">
                 <FilterChips selected={libroFilter} onChange={setLibroFilter} />
               </div>
+              
+              {!isEmpty && (
+                <div className="relative">
+                  <button
+                    onClick={() => setExporting(!exporting)}
+                    className="inline-flex items-center gap-1.5 rounded-md border border-border/60 bg-background/50 px-2.5 py-1.5 text-[11px] font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                  >
+                    <Download className="h-3.5 w-3.5" />
+                    Exportar
+                  </button>
+                  
+                  {exporting && (
+                    <div className="absolute right-0 top-full z-50 mt-1 w-48 rounded-md border border-border bg-popover p-1 shadow-lg animate-in fade-in zoom-in-95">
+                      <button
+                        onClick={handleExportJSON}
+                        className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-xs transition-colors hover:bg-muted"
+                      >
+                        <FileJson className="h-3.5 w-3.5" />
+                        Descargar JSON
+                      </button>
+                      <button
+                        onClick={handleCopyAll}
+                        className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-xs transition-colors hover:bg-muted"
+                      >
+                        {copiedAll ? <Check className="h-3.5 w-3.5 text-green-500" /> : <CopyIcon className="h-3.5 w-3.5" />}
+                        Copiar todo el chat
+                      </button>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
             {isEmpty ? (
@@ -274,7 +348,7 @@ export function ChatContainer() {
                   <h2 className="mb-2 heading-serif text-2xl">Asistente Tributario Colombia</h2>
                   <p className="mb-3 flex items-center justify-center gap-1.5 text-muted-foreground">
                     <BookOpen className="h-4 w-4" />
-                    Consulta los 1,294 artículos indexados
+                    Consulta los {UI_COPY.stats.articlesCount} artículos indexados
                   </p>
                   <p className="mx-auto max-w-xl text-sm text-muted-foreground">
                     {UI_COPY.chat.onboarding}
@@ -293,6 +367,7 @@ export function ChatContainer() {
                 messages={messages}
                 sources={sources}
                 isLoading={isLoading}
+                typingLabel={typingLabel}
                 conversationId={selectedConversationId}
                 onAskAgain={(text) =>
                   sendMessage({ text: `Responde de nuevo con otro enfoque profesional:\n\n${text}` })

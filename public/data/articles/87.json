@@ -1,1 +1,287 @@
-{"id_articulo": "Art. 87", "titulo": "Art. 87. Limitación de los costos a profesionales independientes y comisionistas.", "titulo_corto": "Limitación de los costos a profesionales independientes y comisionistas.", "slug": "87", "url_origen": "https://estatuto.co/87", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes. Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales. Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente. Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado\">Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">Parágrafo. </span> Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.</span></del></span></p>\n</span>", "modificaciones_raw": "* -Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 6 de 1992"], "texto_derogado": ["*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes.", "Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales.", "Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente.", "Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de ...", "full_length": 280}, {"index": 1, "snippet": "Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberá...", "full_length": 316}, {"index": 2, "snippet": "Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente...", "full_length": 278}, {"index": 3, "snippet": "Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.", "full_length": 106}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 87",
+  "titulo": "Art. 87. Limitación de los costos a profesionales independientes y comisionistas.",
+  "titulo_corto": "Limitación de los costos a profesionales independientes y comisionistas.",
+  "slug": "87",
+  "url_origen": "https://estatuto.co/87",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes. Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales. Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente. Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\">*</span><span class=\"tachado\">Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales. </span></del></span><br/>\n<span style=\"color: #339966;\"><del><span class=\"tachado\">Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">Parágrafo. </span> Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "* -Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [
+    "*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de los ingresos que por razón de su actividad propia perciban tales contribuyentes.",
+    "Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberán llevar libros de contabilidad registrados en la Cámara de Comercio o en la Administración de Impuestos Nacionales.",
+    "Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente. En este caso, se aceptarán los costos y deducciones que procedan legalmente.",
+    "Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los costos y deducciones imputables a la actividad propia de los profesionales independientes y de los comisionistas, que sean personas naturales, no podrán exceder del cincuenta por ciento (50%) de ...",
+      "full_length": 280
+    },
+    {
+      "index": 1,
+      "snippet": "Cuando se trate de contratos de construcción de bienes inmuebles y obras civiles ejecutados por arquitectos o ingenieros contratistas, el límite anterior será del noventa por ciento (90%), pero deberá...",
+      "full_length": 316
+    },
+    {
+      "index": 2,
+      "snippet": "Las anteriores limitaciones no se aplicarán cuando el contribuyente facture la totalidad de sus operaciones y sus ingresos hayan estado sometidos a retención en la fuente, cuando esta fuere procedente...",
+      "full_length": 278
+    },
+    {
+      "index": 3,
+      "snippet": "Parágrafo. Lo dispuesto en el presente artículo será aplicable a los concejales municipales y distritales.",
+      "full_length": 106
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13073 (2025-08-12): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13073-2025",
+      "tipo": "oficio",
+      "numero": "13073",
+      "fecha": "2025-08-12",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10321-2019",
+      "tipo": "oficio",
+      "numero": "10321",
+      "fecha": "2019-04-30",
+      "tema": "Interpretaci&oacute;n del art&iacute;culo 87 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10035-2019",
+      "tipo": "oficio",
+      "numero": "10035",
+      "fecha": "2019-04-29",
+      "tema": "Exenci&oacute;n en desembolsos de cr&eacute;dito y novaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0785-2018",
+      "tipo": "oficio",
+      "numero": "0785",
+      "fecha": "2018-05-22",
+      "tema": "Deducci&oacute;n por Deudas de Dif&iacute;cil Cobro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20770-2015",
+      "tipo": "oficio",
+      "numero": "20770",
+      "fecha": "2015-07-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4230-2015",
+      "tipo": "oficio",
+      "numero": "4230",
+      "fecha": "2015-02-16",
+      "tema": "&iquest;Una empresa es sujeto pasivo del Impuesto a la Riqueza por el a&ntilde;o gravable 2015, as&iacute; en el mismo a&ntilde;o entre en proceso de liquidaci&oacute;n, y finalmente en el a&ntilde;o 2016 se distribuya el patrimonio l&iacute;quido a los accionistas y se cumplan las dem&aacute;s formalidades?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002334-2015",
+      "tipo": "concepto",
+      "numero": "0002334",
+      "fecha": "2015-01-30",
+      "tema": "&iquest;Son deducibles del Impuesto de Renta y Complementarios, los pagos efectuados por concepto de auxilio de alimentaci&oacute;n, bonificaciones y auxilios de movilizaci&oacute;n por trabajo en campo realizados a un trabajador que devenga salario integral?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50947-2011",
+      "tipo": "oficio",
+      "numero": "50947",
+      "fecha": "2011-07-12",
+      "tema": "&iquest;La limitaci&oacute;n de los costos establecida en el art&iacute;culo 87 del Estatuto Tributario no se aplica a los profesionales independientes que tengan el deber legal de declarar el impuesto a la renta, cuando los terceros adquirentes de sus servicios hayan efectuado el respectivo documento equivalente a la factura dispuesto en el art&iacute;culo 3o del Decreto 522 de 2003, porque se entiende que facturaron la totalidad de sus operaciones, como lo dispone el INC. 3o del mismo art&iacute;culo 87?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87251-2009",
+      "tipo": "oficio",
+      "numero": "87251",
+      "fecha": "2009-10-23",
+      "tema": "Contrato de estabilidad jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-94075-2008",
+      "tipo": "oficio",
+      "numero": "94075",
+      "fecha": "2008-09-24",
+      "tema": "Solicita reconsideraci&oacute;n de la doctrina de esta Oficina, especialmente la contenida en los Conceptos n&uacute;meros 004490 de 1991, 039972 de 1996 y 14543 de 1998 en cuanto al tratamiento tributario de los vi&aacute;ticos para gastos de viaje y desplazamiento para contratistas, los cuales en su concepto no son honorarios y por ende no deben estar sometidos a retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57185-2008",
+      "tipo": "oficio",
+      "numero": "57185",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Vale el Concepto 009437 de 1999 y los art&iacute;culos 5 y 7 del Decreto 1372 de 1992 aunque sean anteriores a la Ley 675 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0050670-2005",
+      "tipo": "concepto",
+      "numero": "0050670",
+      "fecha": "2005-07-28",
+      "tema": "&iquest;son deducibles los pagos indirectos que realiza el empleador al trabajador por concepto de salud, educaci&oacute;n y alimentaci&oacute;n, a que hace referencia el art&iacute;culo 5 del decreto 3750 de 1986?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038463-2004",
+      "tipo": "concepto",
+      "numero": "0038463",
+      "fecha": "2004-06-24",
+      "tema": "&iquest;Es viable el desconocimiento de los gastos originados en la relaci&oacute;n laboral que no hayan formado parte de la base para la liquidaci&oacute;n y pago de los aportes parafiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072479-2003",
+      "tipo": "concepto",
+      "numero": "0072479",
+      "fecha": "2003-11-10",
+      "tema": "&iquest;Los pagos indirectos efectuados al trabajador de que trata el art&iacute;culo 5&ordm; del Decreto 3750 de 1986 deben estar sometidos a retenci&oacute;n en la fuente para ser deducibles por el empleador?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047552-1997",
+      "tipo": "concepto",
+      "numero": "0047552",
+      "fecha": "1997-06-10",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044608-1997",
+      "tipo": "concepto",
+      "numero": "0044608",
+      "fecha": "1997-05-28",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001580-1997",
+      "tipo": "concepto",
+      "numero": "0001580",
+      "fecha": "1997-01-13",
+      "tema": "Mediante los oficios de la referencia, solicita reconsideraci&oacute;n de los conceptos 57930 y 71587 de 1996, mediante los cuales se interpret&oacute; que los profesionales independientes pertenecientes al r&eacute;gimen com&uacute;n del impuesto sobre las ventas, est&aacute;n obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088328-1996",
+      "tipo": "concepto",
+      "numero": "0088328",
+      "fecha": "1996-11-20",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025520-1993",
+      "tipo": "concepto",
+      "numero": "0025520",
+      "fecha": "1993-01-01",
+      "tema": "Limitaci&oacute;n a las deducciones para los profesionales independientes",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-066-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "066",
+      "year": 2021,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-511-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    }
+  ]
+}

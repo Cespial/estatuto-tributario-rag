@@ -1,1 +1,109 @@
-{"id_articulo": "Art. 234", "titulo": "Art. 234. Las rentas exentas de las sociedades no son transferidas.", "titulo_corto": "Las rentas exentas de las sociedades no son transferidas.", "slug": "234", "url_origen": "https://estatuto.co/234", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En ningún caso serán trasladables a los socios, copartícipes, asociados, cooperados, accionistas, comuneros, suscriptores y similares, las rentas exentas de que gocen los entes de los cuales formen parte.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En ningún caso serán trasladables a los socios, copartícipes, asociados, cooperados, accionistas, comuneros, suscriptores y similares, las rentas exentas de que gocen los entes de los cuales formen parte.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 234",
+  "titulo": "Art. 234. Las rentas exentas de las sociedades no son transferidas.",
+  "titulo_corto": "Las rentas exentas de las sociedades no son transferidas.",
+  "slug": "234",
+  "url_origen": "https://estatuto.co/234",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En ningún caso serán trasladables a los socios, copartícipes, asociados, cooperados, accionistas, comuneros, suscriptores y similares, las rentas exentas de que gocen los entes de los cuales formen parte.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En ningún caso serán trasladables a los socios, copartícipes, asociados, cooperados, accionistas, comuneros, suscriptores y similares, las rentas exentas de que gocen los entes de los cuales formen parte.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 4554 (2015-02-18): Renta Exenta en Servicios Hoteleros Prestados en Nuevos Hoteles\noficio 82781 (2013-12-27): &iquest;C&oacute;mo se podr&iacute;a controlar la tributaci&oacute;n de servicios que se prestan en desde el exterior sin presencia local en el territorio Colombiano?&iquest;Ser&iacute;a m&aacute;s f&aacute;cil para el fisco Colombiano realizar dicha actividad con la presencia local de dicho prestador de servicios a trav&eacute;s de una oficina de representaci&oacute;n?\noficio 87004 (2007-10-25): Fondo Com&uacute;n Especial de Inversi&oacute;n Forestal\nconcepto 0067121 (2000-07-13): &iquest;El beneficio de exenci&oacute;n del impuesto sobre la renta y complementarios otorgado por la Ley 218 de 1995, aplica tanto para la empresa receptora de la inversi&oacute;n como para los inversionistas?\nconcepto 0003107 (1997-01-01): ",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4554-2015",
+      "tipo": "oficio",
+      "numero": "4554",
+      "fecha": "2015-02-18",
+      "tema": "Renta Exenta en Servicios Hoteleros Prestados en Nuevos Hoteles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82781-2013",
+      "tipo": "oficio",
+      "numero": "82781",
+      "fecha": "2013-12-27",
+      "tema": "&iquest;C&oacute;mo se podr&iacute;a controlar la tributaci&oacute;n de servicios que se prestan en desde el exterior sin presencia local en el territorio Colombiano?&iquest;Ser&iacute;a m&aacute;s f&aacute;cil para el fisco Colombiano realizar dicha actividad con la presencia local de dicho prestador de servicios a trav&eacute;s de una oficina de representaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87004-2007",
+      "tipo": "oficio",
+      "numero": "87004",
+      "fecha": "2007-10-25",
+      "tema": "Fondo Com&uacute;n Especial de Inversi&oacute;n Forestal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067121-2000",
+      "tipo": "concepto",
+      "numero": "0067121",
+      "fecha": "2000-07-13",
+      "tema": "&iquest;El beneficio de exenci&oacute;n del impuesto sobre la renta y complementarios otorgado por la Ley 218 de 1995, aplica tanto para la empresa receptora de la inversi&oacute;n como para los inversionistas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003107-1997",
+      "tipo": "concepto",
+      "numero": "0003107",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087338-1996",
+      "tipo": "concepto",
+      "numero": "0087338",
+      "fecha": "1996-11-18",
+      "tema": "&iquest;Cu&aacute;l es el n&uacute;mero de identificaci&oacute;n tributaria con que deben presentar las declaraciones de retenci&oacute;n las entidades de derecho p&uacute;blico por cada oficina retenedora teniendo en cuenta que la tarjeta de NIT, la posee la oficina principal?",
+      "vigente": true
+    }
+  ]
+}

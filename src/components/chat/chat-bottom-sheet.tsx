@@ -28,19 +28,18 @@ export function ChatBottomSheet({ children }: ChatBottomSheetProps) {
         {open && (
           <div className="fixed inset-0 z-40 bg-black/50" onClick={() => setOpen(false)}>
             <div
-              className="absolute bottom-0 left-0 right-0 h-[85vh] rounded-t-2xl border border-border bg-background"
+              className="absolute bottom-0 left-0 right-0 h-[85vh] rounded-t-2xl border border-border bg-background shadow-2xl animate-in slide-in-from-bottom"
               onClick={(event) => event.stopPropagation()}
             >
-              <div className="flex items-center justify-between border-b border-border/50 px-4 py-2">
-                <div className="mx-auto h-1.5 w-12 rounded-full bg-muted" />
+              <div className="flex items-center justify-end border-b border-border/50 px-4 py-2">
                 <button
                   onClick={() => setOpen(false)}
-                  className="rounded-md p-1 text-muted-foreground hover:bg-muted hover:text-foreground"
+                  className="rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
-                  <X className="h-4 w-4" />
+                  <X className="h-5 w-5" />
                 </button>
               </div>
-              <div className="h-[calc(85vh-42px)]">{children}</div>
+              <div className="h-[calc(85vh-45px)]">{children}</div>
             </div>
           </div>
         )}

@@ -1,1 +1,345 @@
-{"id_articulo": "Art. 480", "titulo": "Art. 480. Bienes donados exentos del impuesto sobre las ventas.", "titulo_corto": "Bienes donados exentos del impuesto sobre las ventas.", "slug": "480", "url_origen": "https://estatuto.co/480", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Estarán excluidos del impuesto sobre las ventas las importaciones de bienes y equipos destinados al deporte, a la salud, a la investigación científica y tecnológica, y a la educación, donados a favor de entidades oficiales o sin ánimo de lucro, por personas o entidades nacionales o por entidades, personas o gobiernos extranjeros, siempre y cuando obtengan calificación favorable en el comité previsto en el artículo 362. Así mismo, estarán excluidas del impuesto las importaciones de los bienes y equipos para la seguridad nacional con destino a la Fuerza Pública. También está excluida del impuesto sobre las ventas, la importación de bienes y equipos que se efectúen en desarrollo de convenios, tratados, acuerdos internacionales e interinstitucionales o proyectos de cooperación, donados a favor del Gobierno Nacional o entidades de derecho público del orden nacional por personas naturales o jurídicas, organismos multilaterales o gobiernos extranjeros, según reglamento que expida el Gobierno Nacional. **Parágrafo. La calificación de que trata este artículo, no se aplicará para las Entidades Oficiales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Estarán excluidos del impuesto sobre las ventas las importaciones de bienes y equipos destinados al deporte, a la salud, a la investigación científica y tecnológica, y a la educación, donados a favor de entidades oficiales o sin ánimo de lucro, por personas o entidades nacionales o por entidades, personas o gobiernos extranjeros, siempre y cuando obtengan calificación favorable en el comité previsto en el <a href=\"https://estatuto.co/362\" rel=\"noopener\" target=\"_blank\">artículo 362</a>. Así mismo, estarán excluidas del impuesto las importaciones de los bienes y equipos para la seguridad nacional con destino a la Fuerza Pública.</p>\n<p>También está excluida del impuesto sobre las ventas, la importación de bienes y equipos que se efectúen en desarrollo de convenios, tratados, acuerdos internacionales e interinstitucionales o proyectos de cooperación, donados a favor del Gobierno Nacional o entidades de derecho público del orden nacional por personas naturales o jurídicas, organismos multilaterales o gobiernos extranjeros, según reglamento que expida el Gobierno Nacional.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo.</span></strong> La calificación de que trata este artículo, no se aplicará para las Entidades Oficiales.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 633 de 2000 Art. 32. **Adicionado Ley 633 de 2000 Art. 112.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "32"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "112"}], "total_modificaciones": 2, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["362"], "referenced_by": ["363"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 480",
+  "titulo": "Art. 480. Bienes donados exentos del impuesto sobre las ventas.",
+  "titulo_corto": "Bienes donados exentos del impuesto sobre las ventas.",
+  "slug": "480",
+  "url_origen": "https://estatuto.co/480",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Estarán excluidos del impuesto sobre las ventas las importaciones de bienes y equipos destinados al deporte, a la salud, a la investigación científica y tecnológica, y a la educación, donados a favor de entidades oficiales o sin ánimo de lucro, por personas o entidades nacionales o por entidades, personas o gobiernos extranjeros, siempre y cuando obtengan calificación favorable en el comité previsto en el artículo 362. Así mismo, estarán excluidas del impuesto las importaciones de los bienes y equipos para la seguridad nacional con destino a la Fuerza Pública. También está excluida del impuesto sobre las ventas, la importación de bienes y equipos que se efectúen en desarrollo de convenios, tratados, acuerdos internacionales e interinstitucionales o proyectos de cooperación, donados a favor del Gobierno Nacional o entidades de derecho público del orden nacional por personas naturales o jurídicas, organismos multilaterales o gobiernos extranjeros, según reglamento que expida el Gobierno Nacional. **Parágrafo. La calificación de que trata este artículo, no se aplicará para las Entidades Oficiales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Estarán excluidos del impuesto sobre las ventas las importaciones de bienes y equipos destinados al deporte, a la salud, a la investigación científica y tecnológica, y a la educación, donados a favor de entidades oficiales o sin ánimo de lucro, por personas o entidades nacionales o por entidades, personas o gobiernos extranjeros, siempre y cuando obtengan calificación favorable en el comité previsto en el <a href=\"https://estatuto.co/362\" rel=\"noopener\" target=\"_blank\">artículo 362</a>. Así mismo, estarán excluidas del impuesto las importaciones de los bienes y equipos para la seguridad nacional con destino a la Fuerza Pública.</p>\n<p>También está excluida del impuesto sobre las ventas, la importación de bienes y equipos que se efectúen en desarrollo de convenios, tratados, acuerdos internacionales e interinstitucionales o proyectos de cooperación, donados a favor del Gobierno Nacional o entidades de derecho público del orden nacional por personas naturales o jurídicas, organismos multilaterales o gobiernos extranjeros, según reglamento que expida el Gobierno Nacional.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo.</span></strong> La calificación de que trata este artículo, no se aplicará para las Entidades Oficiales.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 633 de 2000 Art. 32. **Adicionado Ley 633 de 2000 Art. 112.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "32"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "112"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "362"
+  ],
+  "referenced_by": [
+    "363"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 9461 (2025-07-17): Otros Temas\noficio 8850 (2024-11-13): Impuesto a las ventas",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-9461-2025",
+      "tipo": "oficio",
+      "numero": "9461",
+      "fecha": "2025-07-17",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8850-2024",
+      "tipo": "oficio",
+      "numero": "8850",
+      "fecha": "2024-11-13",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901416-2021",
+      "tipo": "oficio",
+      "numero": "901416",
+      "fecha": "2021-02-24",
+      "tema": "&iquest;Es procedente-aplicable la exenci&oacute;n de que trata el art&iacute;culo 480 del Estatuto tributario cuando la solicitud elevada ante el Comit&eacute; de entidades sin &aacute;nimo de lucro tiene como objeto la importaci&oacute;n no de bienes y equipos donados como tal, sino de bienes y equipos que fueron adquiridos con dineros donados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1383-2020",
+      "tipo": "oficio",
+      "numero": "1383",
+      "fecha": "2020-01-23",
+      "tema": "Beneficios tributarios, programas de est&iacute;mulos y otros que tengan las instituciones de educaci&oacute;n para el trabajo y desarrollo humano, dentro del marco de ejecuci&oacute;n del PND y las normas complementarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22603-2019",
+      "tipo": "oficio",
+      "numero": "22603",
+      "fecha": "2019-09-09",
+      "tema": "&iquest;Los bienes adquiridos para la seguridad y convivencia, donados a la Polic&iacute;a Metropolitana de un municipio, con recursos de un fondo de creado por acuerdo municipal, est&aacute;n sometidos al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8755-2019",
+      "tipo": "oficio",
+      "numero": "8755",
+      "fecha": "2019-04-10",
+      "tema": "Determinaci&oacute;n del TRM del d&iacute;a de forma anticipada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6048-2018",
+      "tipo": "oficio",
+      "numero": "6048",
+      "fecha": "2018-03-12",
+      "tema": "Siendo Prosperidad Social una entidad p&uacute;blica que no realiza actividades gravadas con el impuesto sobre las ventas, y que, por lo tanto, no pertenece al r&eacute;gimen com&uacute;n, al realizar espor&aacute;dicamente operaciones aduaneras - importaci&oacute;n de bienes en calidad de donaciones lo hace responsable del r&eacute;gimen com&uacute;n, de acuerdo al literal d) del art&iacute;culo 437 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1014-2018",
+      "tipo": "oficio",
+      "numero": "1014",
+      "fecha": "2018-06-29",
+      "tema": "&iquest;Qu&eacute; se entiende y-o qu&eacute; alcance tiene la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7833-2017",
+      "tipo": "oficio",
+      "numero": "7833",
+      "fecha": "2017-04-05",
+      "tema": "Impuesto Sobre las Ventas - Exenci&oacute;n del Impuesto sobre las ventas en contratos celebrados por entidades sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34124-2015",
+      "tipo": "oficio",
+      "numero": "34124",
+      "fecha": "2015-11-27",
+      "tema": "Solicita se precise y d&eacute; alcance a la exenci&oacute;n prevista en el literal f) del art&iacute;culo 480 del Estatuto Tributario, a los cuadernos que se exporten desde la Rep&uacute;blica Popular China hacia la Rep&uacute;blica de Colombia, fundamenta esta solicitud de acuerdo a lo dispuesto en el art&iacute;culo III p&aacute;rrafos 1, 2 y 4 relativos al",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8203-2015",
+      "tipo": "oficio",
+      "numero": "8203",
+      "fecha": "2015-03-16",
+      "tema": "&iquest;Procede la exenci&oacute;n del impuesto sobre las ventas en la importaci&oacute;n de un",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1408-2015",
+      "tipo": "oficio",
+      "numero": "1408",
+      "fecha": "2015-01-21",
+      "tema": "Asociaciones sin &aacute;nimo de lucro",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0901-2015",
+      "tipo": "oficio",
+      "numero": "0901",
+      "fecha": "2015-07-21",
+      "tema": "Exclusi&oacute;n del impuesto sobre las ventas para las importaciones de bienes y equipos donados a favor de entidades sin &aacute;nimo de lucro, que trata el art&iacute;culo 480 del Estatuto Tributario y el art&iacute;culo 13 del Decreto n&uacute;mero 4400 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65873-2014",
+      "tipo": "oficio",
+      "numero": "65873",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Se encuentra exenta del impuesto sobre las ventas la importaci&oacute;n de libros y revistas de car&aacute;cter cient&iacute;fico y cultural para su posterior comercializaci&oacute;n a nivel nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62603-2014",
+      "tipo": "oficio",
+      "numero": "62603",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Se encuentra exenta del impuesto sobre las ventas la importaci&oacute;n de libros y revistas de car&aacute;cter cient&iacute;fico y cultural para su posterior comercializaci&oacute;n a nivel nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55679-2014",
+      "tipo": "oficio",
+      "numero": "55679",
+      "fecha": "2014-09-22",
+      "tema": "&iquest;La restituci&oacute;n de los bienes por parte de la entidad fiduciaria al constituyente del patrimonio aut&oacute;nomo es una operaci&oacute;n generadora de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39503-2014",
+      "tipo": "oficio",
+      "numero": "39503",
+      "fecha": "2014-07-04",
+      "tema": "Incentivos fiscales que existen para el sector salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32505-2014",
+      "tipo": "oficio",
+      "numero": "32505",
+      "fecha": "2014-05-29",
+      "tema": "Importaciones excluidas del impuesto del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26630-2014",
+      "tipo": "oficio",
+      "numero": "26630",
+      "fecha": "2014-04-30",
+      "tema": "&iquest;Es procedente conceder la exenci&oacute;n del impuesto sobre las ventas a una entidad sin &aacute;nimo de lucro que recibe peri&oacute;dicamente donaciones en dinero de otra entidad sin &aacute;nimo de lucro, que se encuentra bajo los presupuestos de subordinaci&oacute;n consagrados en los art&iacute;culos 260 y 261 del C&oacute;digo de Comercio y en desarrollo de su actividad solo genera recursos para ser donados a las entidades bajo las que se encuentra en estado de subordinaci&oacute;n?&iquest;Si para los efectos de la exenci&oacute;n objeto de estudio, la entidad donataria cuenta con un t&eacute;rmino espec&iacute;fico para ejecutar los recursos recibidos en donaci&oacute;n, o si por el contrario puede mantenerlos durante a&ntilde;os e ir solicitando las exenciones a medida que los va ejecutando?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45332-2013",
+      "tipo": "oficio",
+      "numero": "45332",
+      "fecha": "2013-07-23",
+      "tema": "Importaciones donadas a asociaciones de municipios, importaciones efectuadas por asociaciones de municipios - Deducci&oacute;n de renta por donaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96804-2009",
+      "tipo": "oficio",
+      "numero": "96804",
+      "fecha": "2009-11-23",
+      "tema": "&iquest;Se benefician con la exenci&oacute;n del IVA prevista en el art&iacute;culo 480 del E.T. y la exenci&oacute;n de gravamen arancelario prevista en el art&iacute;culo 9 literal b) del Decreto 255 de 1992; las importaciones de equipos de salud que efect&uacute;en las compa&ntilde;&iacute;as comerciales que representan y distribuyen los equipos en Colombia, cuando los mismos se importen para ser entregados inmediatamente y ser usados por un hospital que es una entidad sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83093-2009",
+      "tipo": "oficio",
+      "numero": "83093",
+      "fecha": "2009-10-09",
+      "tema": "Consulta con fundamento en los art&iacute;culos 480 del Estatuto Tributario, 13 del Decreto 4400 de 2004, en la Ley 115 de 1994 y en el Decreto 2888 de 2007, c&oacute;mo debe entenderse la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27476-2008",
+      "tipo": "oficio",
+      "numero": "27476",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;En la operaci&oacute;n de importaci&oacute;n de determinados bienes se pag&oacute; el respectivo impuesto sobre las ventas y la solicitud de exclusi&oacute;n de dicho impuesto se hace al Comit&eacute; de entidades sin &aacute;nimo de lucro con posterioridad, el valor en pesos colombianos que se sede indicar es el de la solicitud o el de la importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-87279-2007",
+      "tipo": "oficio",
+      "numero": "87279",
+      "fecha": "2007-01-01",
+      "tema": "Impuesto sobre las Ventas en operaci&oacute;n seg&uacute;n la cual, una casa de cambios env&iacute;a divisas en efectivo al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98421-2005",
+      "tipo": "oficio",
+      "numero": "98421",
+      "fecha": "2005-12-29",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento al que est&aacute;n sometidos los bienes importados, adquiridos por donaci&oacute;n con destino al Fondo de Inversiones para la paz (FIP)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53959-2003",
+      "tipo": "oficio",
+      "numero": "53959",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;La importaci&oacute;n de equipo automotor terrestre, fluvial y a&eacute;reo con destino a la fuerza p&uacute;blica est&aacute; excluida del IVA con base en el art&iacute;culo 480 del ET?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-84246-2001",
+      "tipo": "concepto",
+      "numero": "84246",
+      "fecha": "2001-09-14",
+      "tema": "Tratamiento que debe darse a las adquisiciones de bienes y de servicios con los recursos de una donaci&oacute;n efectuada en virtud de un Acuerdo de Cooperaci&oacute;n Econ&oacute;mica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008442-2001",
+      "tipo": "concepto",
+      "numero": "0008442",
+      "fecha": "2001-02-07",
+      "tema": "&iquest;La comisi&oacute;n cobrada por la Fiduciaria por la administraci&oacute;n de recursos provenientes de los acuerdos de reducci&oacute;n de la deuda suscritos entre Colombia y los Estados Unidos y entre Colombia y el gobierno de Canad&aacute;, causa el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014487-1999",
+      "tipo": "concepto",
+      "numero": "0014487",
+      "fecha": "1999-02-24",
+      "tema": "&iquest;Un distribuidor minorista del petr&oacute;leo que presta servicios gravados y pertenece al r&eacute;gimen com&uacute;n, que a su vez adquiere bienes gravados y como consecuencia presenta saldos a favor en la declaraci&oacute;n de IVA, puede solicitar devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013738-1999",
+      "tipo": "concepto",
+      "numero": "0013738",
+      "fecha": "1999-09-14",
+      "tema": "&iquest;Se causa el impuesto a las ventas en la importaci&oacute;n de un bien no producido en Colombia? &iquest;Qu&eacute; porcentaje se debe aplicar a t&iacute;tulo de impuesto de renta y de remesa al momento del pago de la importaci&oacute;n de bienes adquiridos en el exterior, a trav&eacute;s de una sociedad extranjera sin domicilio en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091661-1998",
+      "tipo": "concepto",
+      "numero": "0091661",
+      "fecha": "1998-11-30",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088311-1998",
+      "tipo": "concepto",
+      "numero": "0088311",
+      "fecha": "1998-11-17",
+      "tema": "&iquest;Un club social cre&oacute; un programa de salud para gente sin recursos, y presta servicios sin &aacute;nimo de lucro; qu&eacute; beneficios tributarios tienen quienes hagan donaciones al club con tal fin?&iquest;Cu&aacute;les son los beneficios tributarios que podr&iacute;a obtener el club social, la persona natural o empresa que quiere donar los equipos necesarios para una campa&ntilde;a y los importa, ya sea que estos sean usados o nuevos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039816-1994",
+      "tipo": "concepto",
+      "numero": "0039816",
+      "fecha": "1994-06-17",
+      "tema": "&iquest;Que efectos tributarios tiene para una empresa la recepci&oacute;n de donaciones que en efectivo o en bienes de capital haga un organismo internacional dentro del marco de un programa de reconversi&oacute;n industrial promovido para la conservaci&oacute;n de la capa de ozono? &iquest;Cu&aacute;l es el procedimiento de importaci&oacute;n que cobija a equipos industriales donados por un organismo internacional dentro del marco de un convenio multinacional con destino a programas espec&iacute;ficos de reconversi&oacute;n industrial? &iquest;C&oacute;mo se registran contablemente las donaciones de equipos industriales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012276-1993",
+      "tipo": "concepto",
+      "numero": "0012276",
+      "fecha": "1993-03-24",
+      "tema": "&iquest;En el caso de que reciba permanentemente donaciones de personas naturales o jur&iacute;dicas colombianas o de extranjeras con domicilio o residencia en el pa&iacute;s, se asume que en &eacute;stos valores est&aacute; incluido el IVA?&iquest;Si las donaciones se reciben ocasionalmente, la entidad beneficiaria de las donaciones debe asumir el IVA?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    }
+  ]
+}

@@ -262,6 +262,15 @@ body {
   overflow: hidden;
 }
 
+/* ─── Scrollbar Hide Utility ─── */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /* ─── Recharts responsive container fix ─── */
 .recharts-responsive-container {
   min-height: 0;

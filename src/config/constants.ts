@@ -9,6 +9,9 @@ export const RAG_CONFIG: RAGConfig = {
   useLLMRerank: false,
   useQueryExpansion: true,
   useSiblingRetrieval: true,
+  useMultiNamespace: true,
+  additionalNamespaces: ["doctrina", "jurisprudencia", "decretos", "resoluciones", "leyes"],
+  multiNamespaceTopK: 5,
 };
 
 export const EMBEDDING_MODEL = "multilingual-e5-large";
@@ -23,3 +26,19 @@ export const SUGGESTED_QUESTIONS = [
   "Que sancion aplica por declarar extemporaneo?",
   "Muestreme el articulo del ET sobre ganancias ocasionales.",
 ];
+
+/** Boost signals for multi-source reranking */
+export const MULTI_SOURCE_BOOST = {
+  // Graph-based boosts
+  pagerankHigh: 0.10,       // PageRank > 0.01
+  sameCommunity: 0.08,      // Same community as query articles
+  // Doctrina boosts
+  doctrinaVigente: 0.15,    // Vigente doctrina
+  doctrinaRevocada: -0.20,  // Revocada doctrina
+  // Jurisprudencia boosts
+  sentenciaUnificacion: 0.25, // SU- sentencias (highest authority)
+  sentenciaC: 0.20,         // C- sentencias (constitutional review)
+  sentenciaAntigua: -0.05,  // > 10 years old
+  // Decreto boosts
+  decretoReciente: 0.10,    // < 3 years old
+} as const;

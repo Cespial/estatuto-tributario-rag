@@ -1,1 +1,423 @@
-{"id_articulo": "Art. 506", "titulo": "Art. 506. Obligaciones para los responsables del régimen simplificado.", "titulo_corto": "Obligaciones para los responsables del régimen simplificado.", "slug": "506", "url_origen": "https://estatuto.co/506", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán: 1. Inscribirse en el Registro Único Tributario. 2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan. 3. Cumplir con los sistemas de control que determine el Gobierno Nacional. 4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado. Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">1. Inscribirse en el Registro Único Tributario.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">3. Cumplir con los sistemas de control que determine el Gobierno Nacional.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">Parágrafo. </span>Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo <a href=\"https://estatuto.co/?p=1238\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">555-2</a>.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": ""}], "total_modificaciones": 2, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018", "Ley 633 de 2000"], "texto_derogado": ["*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:", "1. Inscribirse en el Registro Único Tributario.", "2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan.", "3. Cumplir con los sistemas de control que determine el Gobierno Nacional.", "4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.", "Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:", "full_length": 82}, {"index": 1, "snippet": "1. Inscribirse en el Registro Único Tributario.", "full_length": 47}, {"index": 2, "snippet": "2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplifica...", "full_length": 222}, {"index": 3, "snippet": "3. Cumplir con los sistemas de control que determine el Gobierno Nacional.", "full_length": 74}, {"index": 4, "snippet": "4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.", "full_length": 138}, {"index": 5, "snippet": "Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2.", "full_length": 124}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["?p=1238"], "referenced_by": ["512-14"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 506",
+  "titulo": "Art. 506. Obligaciones para los responsables del régimen simplificado.",
+  "titulo_corto": "Obligaciones para los responsables del régimen simplificado.",
+  "slug": "506",
+  "url_origen": "https://estatuto.co/506",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán: 1. Inscribirse en el Registro Único Tributario. 2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan. 3. Cumplir con los sistemas de control que determine el Gobierno Nacional. 4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado. Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">1. Inscribirse en el Registro Único Tributario.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">3. Cumplir con los sistemas de control que determine el Gobierno Nacional.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">Parágrafo. </span>Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo <a href=\"https://estatuto.co/?p=1238\" rel=\"noopener\" style=\"color: #339966;\" target=\"_blank\">555-2</a>.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018",
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [
+    "*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:",
+    "1. Inscribirse en el Registro Único Tributario.",
+    "2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplificado, que así lo exijan.",
+    "3. Cumplir con los sistemas de control que determine el Gobierno Nacional.",
+    "4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.",
+    "Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los responsables del régimen simplificado del impuesto sobre las ventas, deberán:",
+      "full_length": 82
+    },
+    {
+      "index": 1,
+      "snippet": "1. Inscribirse en el Registro Único Tributario.",
+      "full_length": 47
+    },
+    {
+      "index": 2,
+      "snippet": "2. Entregar copia del documento en que conste su inscripción en el régimen simplificado, en la primera venta o prestación de servicios que realice a adquirentes no pertenecientes al régimen simplifica...",
+      "full_length": 222
+    },
+    {
+      "index": 3,
+      "snippet": "3. Cumplir con los sistemas de control que determine el Gobierno Nacional.",
+      "full_length": 74
+    },
+    {
+      "index": 4,
+      "snippet": "4. Exhibir en un lugar visible al público el documento en que conste su inscripción en el RUT, como perteneciente al régimen simplificado.",
+      "full_length": 138
+    },
+    {
+      "index": 5,
+      "snippet": "Parágrafo. Estas obligaciones operarán a partir de la fecha que establezca el reglamento a que se refiere el artículo 555-2.",
+      "full_length": 124
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "?p=1238"
+  ],
+  "referenced_by": [
+    "512-14"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000207 (2020-02-20): (Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?\noficio 26853 (2019-10-25): &iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?\noficio 20486 (2019-08-15): Formulario 300 de declaraci&oacute;n del impuesto sobre las ventas\noficio 17972 (2019-07-10): &iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?\noficio 7918 (2019-04-02): Soporte de costo o gasto para efectos de las operaciones celebradas entre representantes y-o responsables del impuesto a las ventas",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-338-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "338",
+      "year": 2002
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20486-2019",
+      "tipo": "oficio",
+      "numero": "20486",
+      "fecha": "2019-08-15",
+      "tema": "Formulario 300 de declaraci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7918-2019",
+      "tipo": "oficio",
+      "numero": "7918",
+      "fecha": "2019-04-02",
+      "tema": "Soporte de costo o gasto para efectos de las operaciones celebradas entre representantes y-o responsables del impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7609-2019",
+      "tipo": "oficio",
+      "numero": "7609",
+      "fecha": "2019-03-29",
+      "tema": "&iquest;Qu&eacute; documento equivalente a la factura elaboran los no responsables del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6512-2018",
+      "tipo": "oficio",
+      "numero": "6512",
+      "fecha": "2018-03-16",
+      "tema": "&iquest;El hecho de que el explotador minero de gravas y arenas-materiales de construcci&oacute;n- declare y pague las regal&iacute;as de Ley en boca de mina, lo exonera del IVA, cuando quiera que comercialice estos minerales? &iquest;Estuvieron las gravas y arenas resultantes de la explotaci&oacute;n minera en aluviones o canteras, que se hayan comercializado, exentas en el anterior Estatuto Tributario? Si esta no estuvieron exentas &iquest;Cu&aacute;l fue la tarifa que debieron pagar antes de la &uacute;ltima reforma tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21970-2017",
+      "tipo": "oficio",
+      "numero": "21970",
+      "fecha": "2017-10-20",
+      "tema": "R&eacute;gimen simplificado - Autorizaci&oacute;n de numeraci&oacute;n cuando opte por facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5983-2017",
+      "tipo": "oficio",
+      "numero": "5983",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2515-2017",
+      "tipo": "oficio",
+      "numero": "2515",
+      "fecha": "2017-02-03",
+      "tema": "devoluci&oacute;n del Impuesto Sobre las Ventas a Mineros de Subsistencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2213-2017",
+      "tipo": "oficio",
+      "numero": "2213",
+      "fecha": "2017-05-18",
+      "tema": "&iquest;Est&aacute;n obligados a expedir factura o documento equivalente los responsables del r&eacute;gimen simplificado del impuesto nacional al consumo de restaurantes y bares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1651-2017",
+      "tipo": "oficio",
+      "numero": "1651",
+      "fecha": "2017-10-13",
+      "tema": "&iquest;El procedimiento contemplado en el art&iacute;culo 506 del Estatuto Tributario aplica para el cambio del impuesto nacional al consumo al r&eacute;gimen simplificado del impuesto nacional al consumo de restaurantes y bares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1591-2017",
+      "tipo": "oficio",
+      "numero": "1591",
+      "fecha": "2017-10-05",
+      "tema": "Facturaci&oacute;n por parte de los prestadores de servicios exclusivos de restaurantes, bares y cafeter&iacute;as, cuya actividad de renta s&oacute;lo se circunscribe a la prestaci&oacute;n de estos servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14670-2014",
+      "tipo": "oficio",
+      "numero": "14670",
+      "fecha": "2014-12-03",
+      "tema": "Solicita la revocatoria del Concepto 106050 de 2001 mediante el cual esta dependencia se&ntilde;al&oacute; que la sanci&oacute;n de cierre del establecimiento que adicion&oacute; el art&iacute;culo 41 de la Ley 633 de 2000 no debe imponerse en todos los casos en que se ordene el decomiso de una mercanc&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3383-2014",
+      "tipo": "oficio",
+      "numero": "3383",
+      "fecha": "2014-01-22",
+      "tema": "Exoneraci&oacute;n del pago de la sanci&oacute;n de extemporaneidad por la no presentaci&oacute;n oportuna de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50628-2012",
+      "tipo": "oficio",
+      "numero": "50628",
+      "fecha": "2012-08-10",
+      "tema": "Retenci&oacute;n en la fuente - Trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91750-2007",
+      "tipo": "oficio",
+      "numero": "91750",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La obligaci&oacute;n de presentar la declaraci&oacute;n de retenci&oacute;n en la fuente es para todos los contribuyentes del R&eacute;gimen Com&uacute;n sin distinci&oacute;n, es decir sin consultar el criterio de habitualidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99598-2006",
+      "tipo": "oficio",
+      "numero": "99598",
+      "fecha": "2006-11-24",
+      "tema": "&iquest;Se consideran comerciantes los profesionales del cambio?&iquest;Los profesionales del cambio est&aacute;n obligados a inscribirse en el Registro &Uacute;nico Tributario?&iquest;Los profesionales del cambio pertenecen al r&eacute;gimen com&uacute;n o al simplificado del impuesto sobre las ventas? IVA. Procedimiento tributario. RUT - Inscripci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88182-2005",
+      "tipo": "oficio",
+      "numero": "88182",
+      "fecha": "2005-11-28",
+      "tema": "&iquest;Qu&eacute; requisitos deben cumplir las personas naturales que participan en procesos licitatorios y demanda de la DIAN el exigir el registro de los participantes en la C&aacute;mara de Comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79994-2005",
+      "tipo": "oficio",
+      "numero": "79994",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cu&aacute;l es la viabilidad o no de pagar por caja menor a personas naturales que no se encuentren inscritas en el Registro &Uacute;nico Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9664-2005",
+      "tipo": "oficio",
+      "numero": "9664",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Es posible exigir el traslado al r&eacute;gimen com&uacute;n a una persona natural que pertenece al r&eacute;gimen simplificado y que presta sus servicios a varias empresas de un mismo grupo econ&oacute;mico y que sumando la totalidad de los pagos acumulados de las empresas supera los topes de ingresos para pertenecer a dicho r&eacute;gimen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4611-2005",
+      "tipo": "oficio",
+      "numero": "4611",
+      "fecha": "2005-01-31",
+      "tema": "&iquest;Deben inscribirse en el registro Unico Tributario RUT, todas las personas llamadas a cumplir obligaciones tributarias ante la DIAN en calidad de contribuyentes del impuesto sobre la renta, respeonsables del IVA, agentes retenedores, importadores, exportadores, usuarios aduaneros y en general todos los sujetos pasivos de deberes ante esta entidad, independientemente de la actividad econ&oacute;mica que realicen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042364-2004",
+      "tipo": "concepto",
+      "numero": "0042364",
+      "fecha": "2004-07-13",
+      "tema": "&iquest;Son procedentes los costos, deducciones e impuestos descontables por operaciones realizadas con terceros no inscritos en el Rut, o que estando inscritos no aparecen como responsables del r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28967-2004",
+      "tipo": "oficio",
+      "numero": "28967",
+      "fecha": "2004-05-11",
+      "tema": "Qui&eacute;nes tienen la obligaci&oacute;n de inscribirse en el Registro &Uacute;nico Tributario RUT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28288-2004",
+      "tipo": "oficio",
+      "numero": "28288",
+      "fecha": "2004-05-07",
+      "tema": "Operaciones que se realizan con responsables del r&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28011-2004",
+      "tipo": "oficio",
+      "numero": "28011",
+      "fecha": "2004-05-06",
+      "tema": "&iquest;Celebraci&oacute;n de contratos de prestaci&oacute;n de servicios gravados con el impuesto sobre las ventas as&iacute; como el l&iacute;mite dispuesto por el art&iacute;culo 499 del Estatuto Tributario para pertenecer al R&eacute;gimen Simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27196-2004",
+      "tipo": "oficio",
+      "numero": "27196",
+      "fecha": "2004-05-03",
+      "tema": "&iquest;Se exige la presentaci&oacute;n del NIT para efectos de la deducci&oacute;n de costos y gastos, por pagos efectuados a personas que pertenecen al R&eacute;gimen Simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030309-2002",
+      "tipo": "concepto",
+      "numero": "0030309",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cuales son los soportes contables aceptados tributariamente para acreditar los pagos efectuados a profesionales independientes que presten servicios excluidos en una cooperativa de trabajo asociado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2002",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Quienes pertenecen al r&eacute;gimen simplificado del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0093418-2001",
+      "tipo": "concepto",
+      "numero": "0093418",
+      "fecha": "2001-10-22",
+      "tema": "Una persona natural, que no tiene la calidad de agente retenedor, no es comerciante ni declarante y ha celebrado un contrato de prestaci&oacute;n de servicios con un organismo internacional que no tiene la calidad de agente retenedor, debe autorretenerse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-61011-2001",
+      "tipo": "concepto",
+      "numero": "61011",
+      "fecha": "2001-07-04",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53022-2001",
+      "tipo": "concepto",
+      "numero": "53022",
+      "fecha": "2001-06-21",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    }
+  ]
+}

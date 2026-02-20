@@ -1,1 +1,643 @@
-{"id_articulo": "Art. 388", "titulo": "Art. 388. Depuración de la base del cálculo de la retención en la fuente.", "titulo_corto": "Depuración de la base del cálculo de la retención en la fuente.", "slug": "388", "url_origen": "https://estatuto.co/388", "libro": "Libro II - Retención", "libro_full": "II - Retención en la Fuente", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*Para obtener la base de retención en la fuente sobre los pagos o abonos en cuenta por concepto de rentas de trabajo efectuados a las personas naturales, se podrán detraer los siguientes factores: 1. Los ingresos que la ley de manera taxativa prevé como no constitutivos de renta ni ganancia ocasional. 2. Las deducciones a que se refiere el artículo 387 del Estatuto Tributaría y las rentas que la ley de manera taxativa prevé como exentas. En todo caso, la suma total de deducciones y rentas exentas no podrá superar el cuarenta por ciento (40%) del resultado de restar del monto del pago o abono en cuenta los ingresos no constitutivos de renta ni ganancia ocasional imputables. Esta limitación no aplicará en el caso del pago de pensiones de jubilación, invalidez, vejez, de sobrevivientes y sobre riesgos profesionales, las indemnizaciones sustitutivas de las pensiones y las devoluciones de ahorro pensional. La exención prevista en el numeral 10 del artículo 206 del Estatuto Tributario procede también para los pagos o abonos en cuenta por concepto de ingresos por honorarios y por compensación por servicios personales obtenidos por las personas que informen que no han contratado o vinculado dos (2) o más trabajadores asociados a la actividad. Los factores de depuración de la base de retención de los trabajadores cuyos ingresos no provengan de una relación laboral, o legal y reglamentaria, se determinarán mediante los soportes que adjunte el trabajador a la factura o documento equivalente o el documento expedido por las personas no obligadas a facturar en los términos del inciso 3 del artículo 771-2 del Estatuto Tributario. Parágrafo. Para efectos de la aplicación de la tabla de retención en la fuente señalada en el artículo 383 del Estatuto Tributario a las personas naturales cuyos pagos o abonos en cuenta no provengan de una relación laboral, o legal y reglamentaria, se deberá tener en cuenta la totalidad de los pagos o abonos en cuenta efectuados en el respetivo mes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Para obtener la base de retención en la fuente sobre los pagos o abonos en cuenta por concepto de rentas de trabajo efectuados a las personas naturales, se podrán detraer los siguientes factores:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Los ingresos que la ley de manera taxativa prevé como no constitutivos de renta ni ganancia ocasional.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Las deducciones a que se refiere el <a href=\"https://estatuto.co/387\" rel=\"noopener\" target=\"_blank\">artículo 387</a> del Estatuto Tributaría y las rentas que la ley de manera taxativa prevé como exentas. En todo caso, la suma total de deducciones y rentas exentas no podrá superar el cuarenta por ciento (40%) del resultado de restar del monto del pago o abono en cuenta los ingresos no constitutivos de renta ni ganancia ocasional imputables.</p>\n<p>Esta limitación no aplicará en el caso del pago de pensiones de jubilación, invalidez, vejez, de sobrevivientes y sobre riesgos profesionales, las indemnizaciones sustitutivas de las pensiones y las devoluciones de ahorro pensional.</p>\n<p>La exención prevista en el numeral 10 del <a href=\"https://estatuto.co/206\" rel=\"noopener\" target=\"_blank\">artículo 206</a> del Estatuto Tributario procede también para los pagos o abonos en cuenta por concepto de ingresos por honorarios y por compensación por servicios personales obtenidos por las personas que informen que no han contratado o vinculado dos (2) o más trabajadores asociados a la actividad.</p>\n<p>Los factores de depuración de la base de retención de los trabajadores cuyos ingresos no provengan de una relación laboral, o legal y reglamentaria, se determinarán mediante los soportes que adjunte el trabajador a la factura o documento equivalente o el documento expedido por las personas no obligadas a facturar en los términos del inciso 3 del <a href=\"https://estatuto.co/771-2\" rel=\"noopener\" target=\"_blank\">artículo 771-2</a> del Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Para efectos de la aplicación de la tabla de retención en la fuente señalada en el <a href=\"https://estatuto.co/383\" rel=\"noopener\" target=\"_blank\">artículo 383</a> del Estatuto Tributario a las personas naturales cuyos pagos o abonos en cuenta no provengan de una relación laboral, o legal y reglamentaria, se deberá tener en cuenta la totalidad de los pagos o abonos en cuenta efectuados en el respetivo mes.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 18.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "18"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["387", "206", "771-2", "383"], "referenced_by": [], "total_cross_references": 4, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 388",
+  "titulo": "Art. 388. Depuración de la base del cálculo de la retención en la fuente.",
+  "titulo_corto": "Depuración de la base del cálculo de la retención en la fuente.",
+  "slug": "388",
+  "url_origen": "https://estatuto.co/388",
+  "libro": "Libro II - Retención",
+  "libro_full": "II - Retención en la Fuente",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*Para obtener la base de retención en la fuente sobre los pagos o abonos en cuenta por concepto de rentas de trabajo efectuados a las personas naturales, se podrán detraer los siguientes factores: 1. Los ingresos que la ley de manera taxativa prevé como no constitutivos de renta ni ganancia ocasional. 2. Las deducciones a que se refiere el artículo 387 del Estatuto Tributaría y las rentas que la ley de manera taxativa prevé como exentas. En todo caso, la suma total de deducciones y rentas exentas no podrá superar el cuarenta por ciento (40%) del resultado de restar del monto del pago o abono en cuenta los ingresos no constitutivos de renta ni ganancia ocasional imputables. Esta limitación no aplicará en el caso del pago de pensiones de jubilación, invalidez, vejez, de sobrevivientes y sobre riesgos profesionales, las indemnizaciones sustitutivas de las pensiones y las devoluciones de ahorro pensional. La exención prevista en el numeral 10 del artículo 206 del Estatuto Tributario procede también para los pagos o abonos en cuenta por concepto de ingresos por honorarios y por compensación por servicios personales obtenidos por las personas que informen que no han contratado o vinculado dos (2) o más trabajadores asociados a la actividad. Los factores de depuración de la base de retención de los trabajadores cuyos ingresos no provengan de una relación laboral, o legal y reglamentaria, se determinarán mediante los soportes que adjunte el trabajador a la factura o documento equivalente o el documento expedido por las personas no obligadas a facturar en los términos del inciso 3 del artículo 771-2 del Estatuto Tributario. Parágrafo. Para efectos de la aplicación de la tabla de retención en la fuente señalada en el artículo 383 del Estatuto Tributario a las personas naturales cuyos pagos o abonos en cuenta no provengan de una relación laboral, o legal y reglamentaria, se deberá tener en cuenta la totalidad de los pagos o abonos en cuenta efectuados en el respetivo mes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Para obtener la base de retención en la fuente sobre los pagos o abonos en cuenta por concepto de rentas de trabajo efectuados a las personas naturales, se podrán detraer los siguientes factores:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Los ingresos que la ley de manera taxativa prevé como no constitutivos de renta ni ganancia ocasional.</p>\n<p><strong><span style=\"color: #339966;\">2.</span></strong> Las deducciones a que se refiere el <a href=\"https://estatuto.co/387\" rel=\"noopener\" target=\"_blank\">artículo 387</a> del Estatuto Tributaría y las rentas que la ley de manera taxativa prevé como exentas. En todo caso, la suma total de deducciones y rentas exentas no podrá superar el cuarenta por ciento (40%) del resultado de restar del monto del pago o abono en cuenta los ingresos no constitutivos de renta ni ganancia ocasional imputables.</p>\n<p>Esta limitación no aplicará en el caso del pago de pensiones de jubilación, invalidez, vejez, de sobrevivientes y sobre riesgos profesionales, las indemnizaciones sustitutivas de las pensiones y las devoluciones de ahorro pensional.</p>\n<p>La exención prevista en el numeral 10 del <a href=\"https://estatuto.co/206\" rel=\"noopener\" target=\"_blank\">artículo 206</a> del Estatuto Tributario procede también para los pagos o abonos en cuenta por concepto de ingresos por honorarios y por compensación por servicios personales obtenidos por las personas que informen que no han contratado o vinculado dos (2) o más trabajadores asociados a la actividad.</p>\n<p>Los factores de depuración de la base de retención de los trabajadores cuyos ingresos no provengan de una relación laboral, o legal y reglamentaria, se determinarán mediante los soportes que adjunte el trabajador a la factura o documento equivalente o el documento expedido por las personas no obligadas a facturar en los términos del inciso 3 del <a href=\"https://estatuto.co/771-2\" rel=\"noopener\" target=\"_blank\">artículo 771-2</a> del Estatuto Tributario.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo. </span></strong>Para efectos de la aplicación de la tabla de retención en la fuente señalada en el <a href=\"https://estatuto.co/383\" rel=\"noopener\" target=\"_blank\">artículo 383</a> del Estatuto Tributario a las personas naturales cuyos pagos o abonos en cuenta no provengan de una relación laboral, o legal y reglamentaria, se deberá tener en cuenta la totalidad de los pagos o abonos en cuenta efectuados en el respetivo mes.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1819 de 2016 Art. 18.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "18"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "387",
+    "206",
+    "771-2",
+    "383"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 4,
+  "concordancias": "Doctrina DIAN: 17 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 901232 (2020-04-23): Impuesto solidario y aporte solidario voluntario por el COVID 19\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-901232-2020",
+      "tipo": "oficio",
+      "numero": "901232",
+      "fecha": "2020-04-23",
+      "tema": "Impuesto solidario y aporte solidario voluntario por el COVID 19",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9394-2025",
+      "tipo": "oficio",
+      "numero": "9394",
+      "fecha": "2025-07-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7654-2025",
+      "tipo": "oficio",
+      "numero": "7654",
+      "fecha": "2025-06-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6997-2025",
+      "tipo": "oficio",
+      "numero": "6997",
+      "fecha": "2025-05-23",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5300-2025",
+      "tipo": "oficio",
+      "numero": "5300",
+      "fecha": "2025-04-24",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17535-2024",
+      "tipo": "oficio",
+      "numero": "17535",
+      "fecha": "2024-09-17",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15355-2024",
+      "tipo": "oficio",
+      "numero": "15355",
+      "fecha": "2024-08-13",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906761-2022",
+      "tipo": "oficio",
+      "numero": "906761",
+      "fecha": "2022-09-08",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905834-2022",
+      "tipo": "oficio",
+      "numero": "905834",
+      "fecha": "2022-07-29",
+      "tema": "Impuesto sobre la renta -- Rentas exentas - personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904129-2022",
+      "tipo": "oficio",
+      "numero": "904129",
+      "fecha": "2022-05-24",
+      "tema": "Rentas exentas - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913305-2021",
+      "tipo": "oficio",
+      "numero": "913305",
+      "fecha": "2021-10-26",
+      "tema": "Retenci&oacute;n en la fuente, Par&aacute;grafo 2 del art&iacute;culo 383 del Estatuto Tributario, el concepto de &iquest;pagos mensualizados, para efectos de la retenci&oacute;n en la fuente, se deben sumar cuando se presenten dos o m&aacute;s en un mes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909834-2021",
+      "tipo": "oficio",
+      "numero": "909834",
+      "fecha": "2021-09-15",
+      "tema": "Base de depuraci&oacute;n en materia de retenci&oacute;n en la fuente para el impuesto de industria y comercio y el impuesto de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902617-2021",
+      "tipo": "oficio",
+      "numero": "902617",
+      "fecha": "2021-03-26",
+      "tema": "Disminuci&oacute;n de la base de retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903291-2020",
+      "tipo": "oficio",
+      "numero": "903291",
+      "fecha": "2020-07-21",
+      "tema": "&iquest;Es procedente que, en cuanto al procedimiento de retenci&oacute;n en la fuente, un contribuyente pueda tomarse como dependiente econ&oacute;mico al hijo de crianza, y de ser as&iacute; qu&eacute; debe aportar para tal solicitud ante la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903073-2020",
+      "tipo": "oficio",
+      "numero": "903073",
+      "fecha": "2020-07-09",
+      "tema": "&iquest;El pago de vacaciones se debe incluir o no en la base gravable para aplicar el impuesto obligatorio y aporte solidario del Decreto 568 de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901429-2020",
+      "tipo": "oficio",
+      "numero": "901429",
+      "fecha": "2020-05-05",
+      "tema": "Impuesto solidario por COVID-19 Retenci&oacute;n en la fuente por rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901403-2020",
+      "tipo": "oficio",
+      "numero": "901403",
+      "fecha": "2020-05-06",
+      "tema": "Ingreso no constitutivo de renta ni ganancia ocasional - Impuesto solidario por el COVID 19",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900578-2020",
+      "tipo": "oficio",
+      "numero": "900578",
+      "fecha": "2020-03-04",
+      "tema": "Servicio de alimentaci&oacute;n bajo contrato",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000469-2020",
+      "tipo": "concepto",
+      "numero": "0000469",
+      "fecha": "2020-04-22",
+      "tema": "El hecho generador del impuesto solidario por el COVID 19 lo constituye el pago o abono en cuenta de salarios, honorarios y pensiones mensuales periodicos de 10 millones de pesos o m&aacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0359-2020",
+      "tipo": "oficio",
+      "numero": "0359",
+      "fecha": "2020-03-26",
+      "tema": "Deducci&oacute;n especial sobre el impuesto de renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0355-2020",
+      "tipo": "oficio",
+      "numero": "0355",
+      "fecha": "2020-01-01",
+      "tema": "Retenci&oacute;n en la Fuente por Pago de Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0351-2020",
+      "tipo": "oficio",
+      "numero": "0351",
+      "fecha": "2020-01-01",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0757-2019",
+      "tipo": "oficio",
+      "numero": "0757",
+      "fecha": "2019-04-11",
+      "tema": "(Int 757) Procedimiento 2 para Retenci&oacute;n de ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21843-2019",
+      "tipo": "oficio",
+      "numero": "21843",
+      "fecha": "2019-09-02",
+      "tema": "&iquest;Cu&aacute;l es el manejo que se le deben dar a los ingresos de que trata el art&iacute;culo 57-2 del Estatuto Tributario, para efectos de la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21757-2019",
+      "tipo": "oficio",
+      "numero": "21757",
+      "fecha": "2019-09-02",
+      "tema": "Tarifa de Retenci&oacute;n por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12876-2019",
+      "tipo": "oficio",
+      "numero": "12876",
+      "fecha": "2019-05-24",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10493-2019",
+      "tipo": "oficio",
+      "numero": "10493",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4358-2019",
+      "tipo": "oficio",
+      "numero": "4358",
+      "fecha": "2019-02-21",
+      "tema": "&iquest;Las cesant&iacute;as del r&eacute;gimen creado por la Ley 50 de 1990",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33257-2018",
+      "tipo": "oficio",
+      "numero": "33257",
+      "fecha": "2018-11-14",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33233-2018",
+      "tipo": "oficio",
+      "numero": "33233",
+      "fecha": "2018-11-14",
+      "tema": "Cuando se pagan dos o m&aacute;s cuentas, para efectos de practicar la retenci&oacute;n en la fuente &iquest;se suma la totalidad de los pagos mensuales o se toma cada pago de manera independiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32747-2018",
+      "tipo": "oficio",
+      "numero": "32747",
+      "fecha": "2018-11-09",
+      "tema": "&iquest;Cu&aacute;l es la base de las autorretenciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31512-2018",
+      "tipo": "oficio",
+      "numero": "31512",
+      "fecha": "2018-10-17",
+      "tema": "Naturaleza de los ingresos por bonificaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17162-2018",
+      "tipo": "oficio",
+      "numero": "17162",
+      "fecha": "2018-06-29",
+      "tema": "Declaraciones del CREE de los a&ntilde;os gravables 2015 y 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6459-2018",
+      "tipo": "oficio",
+      "numero": "6459",
+      "fecha": "2018-03-15",
+      "tema": "Retenci&oacute;n en el Impuesto Sobre la Renta - Personas naturales - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0541-2018",
+      "tipo": "oficio",
+      "numero": "0541",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Se encuentra vigente la exenci&oacute;n contenida en el art&iacute;culo 27 de la Ley 488 de 1998",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0285-2018",
+      "tipo": "oficio",
+      "numero": "0285",
+      "fecha": "2018-03-06",
+      "tema": "Obligaciones formales de facturar - concepto de retenci&oacute;n en la fuente que se debe aplicar y el tipo de impuestos que debe pagar - Intermediaci&oacute;n - Mensajeros independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902867-2017",
+      "tipo": "oficio",
+      "numero": "902867",
+      "fecha": "2017-05-23",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34091-2017",
+      "tipo": "oficio",
+      "numero": "34091",
+      "fecha": "2017-12-20",
+      "tema": "Para determinar el porcentaje fijo de retenci&oacute;n en la fuente aplicable a los pagos laborales, &iquest;se deben tener en cuenta los factores de depuraci&oacute;n de la renta ordinaria y de la retenci&oacute;n en la fuente modificados por Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28718-2017",
+      "tipo": "oficio",
+      "numero": "28718",
+      "fecha": "2017-10-23",
+      "tema": "Aportes a fondos de pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23054-2017",
+      "tipo": "oficio",
+      "numero": "23054",
+      "fecha": "2017-08-25",
+      "tema": "Retenci&oacute;n en la fuente - Empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21899-2017",
+      "tipo": "oficio",
+      "numero": "21899",
+      "fecha": "2017-08-15",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19453-2017",
+      "tipo": "oficio",
+      "numero": "19453",
+      "fecha": "2017-07-21",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10810-2017",
+      "tipo": "oficio",
+      "numero": "10810",
+      "fecha": "2017-05-08",
+      "tema": "Rentas de trabajo exentas- Gastos de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9809-2017",
+      "tipo": "oficio",
+      "numero": "9809",
+      "fecha": "2017-04-27",
+      "tema": "&iquest;Se puede disminuir la base de retenci&oacute;n en la fuente por salarios, con lo establecido en el art&iacute;culo 387-1 del E. T., en consideraci&oacute;n al art&iacute;culo 388 del E. T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7938-2017",
+      "tipo": "oficio",
+      "numero": "7938",
+      "fecha": "2017-04-05",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6216-2017",
+      "tipo": "oficio",
+      "numero": "6216",
+      "fecha": "2017-03-21",
+      "tema": "Retenci&oacute;n en la fuente - Cambio de procedimiento &iquest;El art&iacute;culo 384 del Estatuto Tributario derogado por la ley 1819 de 2016, aplica para los meses de enero y febrero de 2017 teniendo en cuenta lo dispuesto por el par&aacute;grafo transitorio del art&iacute;culo 383 del mismo estatuto?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-4773-2017",
+      "tipo": "oficio",
+      "numero": "4773",
+      "fecha": "2017-02-24",
+      "tema": "Retenci&oacute;n en la fuente &iquest;El t&eacute;rmino consagrado en el par&aacute;grafo transitorio del art&iacute;culo 17 de la Lev 1819, mediante el cual se modifica el art&iacute;culo 383 del Estatuto Tributario, tambi&eacute;n es aplicable a la depuraci&oacute;n de la base del c&aacute;lculo establecido en el art&iacute;culo 18 de la mencionada ley? &iquest;Con ocasi&oacute;n de lo mencionado en este par&aacute;grafo se debe aplicar por los meses de enero y febrero de 2017 lo contenido en el art&iacute;culo 384 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3697-2017",
+      "tipo": "oficio",
+      "numero": "3697",
+      "fecha": "2017-06-01",
+      "tema": "&iquest;Para establecer la base de retenci&oacute;n en la fuente de los ingresos de los funcionarios p&uacute;blicos cu&aacute;les son los ingresos no constitutivos de renta ni de ganancia ocasional, las rentas exentas y las deducciones con los que aquellos se depuran?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3514-2017",
+      "tipo": "oficio",
+      "numero": "3514",
+      "fecha": "2017-05-31",
+      "tema": "&iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo? y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1717-2017",
+      "tipo": "oficio",
+      "numero": "1717",
+      "fecha": "2017-10-23",
+      "tema": "Deducci&oacute;n por dependientes prevista en el art&iacute;culo 387 ET aplica a quienes obtengan rentas de trabajo, sin diferenciar si &eacute;stas fueron obtenidas por un contrato civil, o por uno laboral o por el desempe&ntilde;o de un cargo p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0580-2026",
+      "tipo": "oficio",
+      "numero": "0580",
+      "fecha": "",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22627-2015",
+      "tipo": "oficio",
+      "numero": "22627",
+      "fecha": "2015-01-01",
+      "tema": "&iquest;Es procedente la pr&aacute;ctica de retenci&oacute;n en la fuente en un contrato de prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11683-2015",
+      "tipo": "oficio",
+      "numero": "11683",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;La actividad de RSU (la desarrollada por una m&aacute;quina RSU - gr&uacute;a-), le es aplicable la retenci&oacute;n en la fuente por servicios o por honorarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8899-2015",
+      "tipo": "oficio",
+      "numero": "8899",
+      "fecha": "2015-03-24",
+      "tema": "Considerando que el par&aacute;grafo 3o del art&iacute;culo 135 de la Ley 100 de 1993, derog&oacute; el art&iacute;culo 388 del Estatuto Tributario, como se entiende el aparte del art&iacute;culo 22 del Decreto Reglamentario 841 de 1998, donde se lee:",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57035-2013",
+      "tipo": "oficio",
+      "numero": "57035",
+      "fecha": "2013-09-10",
+      "tema": "&iquest;Est&aacute; sometida al r&eacute;gimen de precios de transferencia una sociedad en Colombia que efect&uacute;a ventas a naves de bandera extranjera que atracan en puertos colombianos y cuyas contraprestaciones se derivan de las relaciones con las agencias mar&iacute;timas internacionales y que realiza el recaudo de sus ventas a trav&eacute;s de un trader o agentes de recaudo, con los que no tiene v&iacute;nculo comercial ni econ&oacute;mico?&iquest;Est&aacute; sometida al r&eacute;gimen de precios de transferencia la sociedad en Colombia que realiza la operaci&oacute;n de venta a una agencia mar&iacute;tima nacional, que representa al armador (due&ntilde;o del buque), quien es el beneficiario de la venta, no configur&aacute;ndose el hecho econ&oacute;mico de venta a una sociedad en el exterior, por no presentarse la figura de la exportaci&oacute;n propiamente dicha?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45740-2013",
+      "tipo": "oficio",
+      "numero": "45740",
+      "fecha": "2013-07-24",
+      "tema": "Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 22872 del 19 de abril de 2013, en el sentido de que se se&ntilde;ale que para efectos de la retenci&oacute;n en la fuente m&iacute;nima de los empleados, solo se tenga en cuenta del plan educacional la parte que exceda del promedio que el empleador reconoce al com&uacute;n de sus trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73425-2005",
+      "tipo": "oficio",
+      "numero": "73425",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;La Contralor&iacute;a General de la Rep&uacute;blica puede hacer aportes voluntarios a fondos de pensiones y cuentas AFC a nombre de sus contratistas de servicios para que estos se hagan acreedores a los beneficios tributarios.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017602-2005",
+      "tipo": "concepto",
+      "numero": "0017602",
+      "fecha": "2005-03-31",
+      "tema": "&iquest;Cu&aacute;l es el ingreso laboral que se debe tener en cuenta para determinar el ingreso mensual promedio de los trabajadores, a fin de calcular la parte exenta de las cesant&iacute;as e intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0038805-1998",
+      "tipo": "concepto",
+      "numero": "0038805",
+      "fecha": "1998-05-20",
+      "tema": "Para efectos de la retenci&oacute;n en la fuente como deben entenderse os denominados Servicios Integrales",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065688-1994",
+      "tipo": "concepto",
+      "numero": "0065688",
+      "fecha": "1994-11-15",
+      "tema": "&iquest;Deben ser objeto de Devoluci&oacute;n los Valores Retenidos bajo la vigencia de una norma declarada posteriormente inexequible?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025520-1993",
+      "tipo": "concepto",
+      "numero": "0025520",
+      "fecha": "1993-01-01",
+      "tema": "Limitaci&oacute;n a las deducciones para los profesionales independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003680-1991",
+      "tipo": "concepto",
+      "numero": "0003680",
+      "fecha": "1991-01-01",
+      "tema": "Aplicaci&oacute;n a bonificaciones por terminaci&oacute;n de contrato de trabajo por mutuo acuerdo a trav&eacute;s de conciliaci&oacute;n laboral",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019761-1989",
+      "tipo": "concepto",
+      "numero": "0019761",
+      "fecha": "1989-01-01",
+      "tema": "Diferencias en retenci&oacute;n con civiles",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

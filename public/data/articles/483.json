@@ -1,1 +1,518 @@
-{"id_articulo": "Art. 483", "titulo": "Art. 483. Determinación del impuesto para los responsables del régimen común.", "titulo_corto": "Determinación del impuesto para los responsables del régimen común.", "slug": "483", "url_origen": "https://estatuto.co/483", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "vigente", "complexity_score": 0, "contenido_texto": "El impuesto se determinará: a. En el caso de venta y prestación de servicios, por la diferencia entre el impuesto generado por las operaciones gravadas, y los impuestos descontables legalmente autorizados. b. En la importación, aplicando en cada operación la tarifa del impuesto sobre la base gravable correspondiente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto se determinará:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>En el caso de venta y prestación de servicios, por la diferencia entre el impuesto generado por las operaciones gravadas, y los impuestos descontables legalmente autorizados.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>En la importación, aplicando en cada operación la tarifa del impuesto sobre la base gravable correspondiente.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 483",
+  "titulo": "Art. 483. Determinación del impuesto para los responsables del régimen común.",
+  "titulo_corto": "Determinación del impuesto para los responsables del régimen común.",
+  "slug": "483",
+  "url_origen": "https://estatuto.co/483",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "El impuesto se determinará: a. En el caso de venta y prestación de servicios, por la diferencia entre el impuesto generado por las operaciones gravadas, y los impuestos descontables legalmente autorizados. b. En la importación, aplicando en cada operación la tarifa del impuesto sobre la base gravable correspondiente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>El impuesto se determinará:</p>\n<p><strong><span style=\"color: #339966;\">a.</span> </strong>En el caso de venta y prestación de servicios, por la diferencia entre el impuesto generado por las operaciones gravadas, y los impuestos descontables legalmente autorizados.</p>\n<p><strong><span style=\"color: #339966;\">b.</span> </strong>En la importación, aplicando en cada operación la tarifa del impuesto sobre la base gravable correspondiente.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 17934 (2025-12-24): Otros Temas\noficio 7762 (2025-06-13): Otras Disposiciones\noficio 7351 (2025-06-04): Impuesto Sobre las Ventas - IVA\noficio 22841 (2024-12-18): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-17934-2025",
+      "tipo": "oficio",
+      "numero": "17934",
+      "fecha": "2025-12-24",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7762-2025",
+      "tipo": "oficio",
+      "numero": "7762",
+      "fecha": "2025-06-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7351-2025",
+      "tipo": "oficio",
+      "numero": "7351",
+      "fecha": "2025-06-04",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22841-2024",
+      "tipo": "oficio",
+      "numero": "22841",
+      "fecha": "2024-12-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903153-2020",
+      "tipo": "oficio",
+      "numero": "903153",
+      "fecha": "2020-07-15",
+      "tema": "&iquest;Los sindicatos de Profesiones y Oficios de la salud, al desarrollar un contrato sindical, en materia de prestaci&oacute;n de servicios de salud p&uacute;blica, los hace responsables del impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16327-2019",
+      "tipo": "oficio",
+      "numero": "16327",
+      "fecha": "2019-06-21",
+      "tema": "Ejecuci&oacute;n de excedentes a cargo de las entidades del r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10025-2019",
+      "tipo": "oficio",
+      "numero": "10025",
+      "fecha": "2019-04-29",
+      "tema": "Oportunidad de los Descuentos en el R&eacute;gimen Com&uacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6289-2019",
+      "tipo": "oficio",
+      "numero": "6289",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8646-2017",
+      "tipo": "oficio",
+      "numero": "8646",
+      "fecha": "2017-04-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5327-2017",
+      "tipo": "oficio",
+      "numero": "5327",
+      "fecha": "2017-03-14",
+      "tema": "Un comerciante minorista que compra insumos para el ensamble de bicicletas al 19% y que, posteriormente realiza la venta. Seg&uacute;n la Ley 1819 de 2016 &iquest;a qu&eacute; tarifa debe aplicar el impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18745-2016",
+      "tipo": "oficio",
+      "numero": "18745",
+      "fecha": "2016-07-15",
+      "tema": "En un convenio de colaboraci&oacute;n entre CENASEL - Centro Nacional de Asesor&iacute;as Socio Econ&oacute;micas y la Alcald&iacute;a de San Crist&oacute;bal, para desarrollar acciones integrales que permitan el desarrollo, la convivencia sin violencia y la prevenci&oacute;n del delito en dicha localidad, &iquest;la primera puede facturar IVA al Fondo de Desarrollo Local de San Crist&oacute;bal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14909-2016",
+      "tipo": "oficio",
+      "numero": "14909",
+      "fecha": "2016-06-14",
+      "tema": "Iva - Venta -gasolina de aviaci&oacute;n y servicio de almacenamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1989-2016",
+      "tipo": "oficio",
+      "numero": "1989",
+      "fecha": "2016-02-10",
+      "tema": "Impuesto a las ventas - Retenci&oacute;n por Operaciones con Responsables del R&eacute;gimen Simplificado &iquest;C&oacute;mo ser&iacute;a la forma o el m&eacute;todo para llegar a reclamar alg&uacute;n saldo a favor en el caso que lo hubiere, ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31370-2015",
+      "tipo": "oficio",
+      "numero": "31370",
+      "fecha": "2015-11-17",
+      "tema": "&iquest;Es viable desconocer un saldo a favor, cuando con ocasi&oacute;n de un proceso de verificaci&oacute;n de una solicitud de devoluci&oacute;n y-o compensaci&oacute;n se observa que este es improcedente y que los periodos que dieron lugar al mismo se encuentran en firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23845-2015",
+      "tipo": "oficio",
+      "numero": "23845",
+      "fecha": "2015-08-18",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23070-2015",
+      "tipo": "oficio",
+      "numero": "23070",
+      "fecha": "2015-08-06",
+      "tema": "Solicita la aclaraci&oacute;n del Oficio n&uacute;mero 066587 del 16 de diciembre de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6412-2015",
+      "tipo": "oficio",
+      "numero": "6412",
+      "fecha": "2015-02-27",
+      "tema": "Impuesto a las ventas - Servicio de arrendamiento de inmuebles incautados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1174-2015",
+      "tipo": "oficio",
+      "numero": "1174",
+      "fecha": "2015-01-19",
+      "tema": "&iquest;Qu&eacute; parte de la relaci&oacute;n anteriormente descrita debe pagarle el IVA facturado a la Direcci&oacute;n de Impuestos y Aduanas Nacionales? La parte A que lo factura y recibe de los clientes? &iquest;Cada parte proporcional al porcentaje de participaci&oacute;n pactado en el contrato de colaboraci&oacute;n empresarial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0654-2015",
+      "tipo": "oficio",
+      "numero": "0654",
+      "fecha": "2015-07-23",
+      "tema": "Normatividad aplicable para el cobro del IVA por el servicio de cursos dictados en los Centros Integrales de Atenci&oacute;n al Conductor sobre normas de tr&aacute;nsito, para acceder a los descuentos en las infracciones de tr&aacute;nsito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61382-2014",
+      "tipo": "oficio",
+      "numero": "61382",
+      "fecha": "2014-10-31",
+      "tema": "&iquest;Tienen derecho a aplicar los impuestos descontables legalmente autorizados aquellos responsables del impuesto sobre las ventas obligados a declarar anualmente, con ocasi&oacute;n de la pauta establecida en el literal a) del art&iacute;culo 483 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51939-2014",
+      "tipo": "oficio",
+      "numero": "51939",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Los bloques, sardineles, tuber&iacute;as y postes en concreto, fabricados artesanalmente est&aacute;n gravados con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51928-2014",
+      "tipo": "oficio",
+      "numero": "51928",
+      "fecha": "2014-08-27",
+      "tema": "&iquest;Es viable iniciar un proceso declarativo de bien mostrenco, frente a unos saldos a favor por concepto de impuesto sobre las ventas, los cuales no fueron solicitados en devoluci&oacute;n o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50298-2014",
+      "tipo": "oficio",
+      "numero": "50298",
+      "fecha": "2014-08-20",
+      "tema": "Causaci&oacute;n y cobro en contrato de arrendamiento de inmueble diferente a vivienda y derecho a tomar como descontable el IVA pagado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41865-2014",
+      "tipo": "oficio",
+      "numero": "41865",
+      "fecha": "2014-07-16",
+      "tema": "&iquest;Para los productores de bienes exentos de que trata el art&iacute;culo 477 del Estatuto Tributario, la ley consagra alguna regla o limitaci&oacute;n para determinar el saldo a favor susceptible de devoluci&oacute;n en el periodo de causaci&oacute;n del IVA descontable, cuando solamente se tienen ingresos provenientes de operaciones exentas? &iquest;Existe alguna disposici&oacute;n legal que de manera clara e inequ&iacute;voca faculta a los funcionarios de la Administraci&oacute;n de Impuestos para devolver solamente la parte del saldo a favor imputable a los bienes que han sido consumidos en las diferentes etapas del proceso productivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36786-2014",
+      "tipo": "oficio",
+      "numero": "36786",
+      "fecha": "2014-06-19",
+      "tema": "Impuesto a las ventas - IVA - Cesi&oacute;n de contrato de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73615-2007",
+      "tipo": "oficio",
+      "numero": "73615",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Existe doble tributaci&oacute;n a t&iacute;tulo de impuesto sobre las ventas teniendo en cuenta que cuando las aerol&iacute;neas venden los tiquetes a&eacute;reos a las agencias de viajes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024234-2007",
+      "tipo": "concepto",
+      "numero": "0024234",
+      "fecha": "2007-03-28",
+      "tema": "&iquest;Puede devolverse al comprador el impuesto sobre las ventas pagado por la adquisici&oacute;n de un bien que al momento de la venta hab&iacute;a sido excluido, anular para ello la venta inicial y darle al IVA facturado por el proveedor el tratamiento de impuesto descontable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102252-2006",
+      "tipo": "oficio",
+      "numero": "102252",
+      "fecha": "2006-12-05",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del inciso 3 del art&iacute;culo 29 del Decreto 3050 de 1997?; &iquest;El mandatario no puede tomar el impuesto causado por compras al r&eacute;gimen simplificado como costo, gasto, ni impuesto descontable, puesto que este impuesto se retuvo por cuenta del mandante y no pertenece al mandatario?; &iquest;Las operaciones con el r&eacute;gimen simplificado las debe solicitar el mandante o el mandatario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55271-2006",
+      "tipo": "oficio",
+      "numero": "55271",
+      "fecha": "2006-07-05",
+      "tema": "Preguntas relacionadas con la retenci&oacute;n del impuesto sobre las ventas, en operaciones con responsables del r&eacute;gimen simplificado, cuando el agente retenedor es una empresa estatal de servicios p&uacute;blicos, que es responsable del impuesto sobre las ventas en raz&oacute;n de los ingresos gravados adicionales que percibe",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55240-2006",
+      "tipo": "oficio",
+      "numero": "55240",
+      "fecha": "2006-07-04",
+      "tema": "&iquest;En la adquisici&oacute;n de bienes y servicios a responsables del r&eacute;gimen simplificado se debe asumir la retenci&oacute;n del IVA conforme con las normas legales pertinentes, &iquest;Cu&aacute;ndo no se cumple con los requisitos para que &eacute;sta sea descontable, procede su deducci&oacute;n en el impuesto sobre a renta o se asimila a un impuesto asumido y por consiguiente no se puede deducir?&iquest;El impuesto sobre las ventas facturado por los responsables del r&eacute;gimen com&uacute;n que no cumplan los presupuestos para ser descontables en la declaraci&oacute;n bimestral y que constituye un mayor valor del costo o gasto respectivo, es deducible en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54812-2006",
+      "tipo": "oficio",
+      "numero": "54812",
+      "fecha": "2006-07-04",
+      "tema": "Con fundamento en el art&iacute;culo 4&ordm; del Decreto 540 de 2004, directrices acerca de la exenci&oacute;n del IVA que aplica para bienes adquiridos con recursos provenientes de donaci&oacute;n de la Comisi&oacute;n Europea, C.E.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92713-2005",
+      "tipo": "oficio",
+      "numero": "92713",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que se debe atender en materia del impuesto sobre las ventas, por las operaciones en Bolsa, en especial cuando en ellas intervienen responsables del R&eacute;gimen Simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47300-2005",
+      "tipo": "oficio",
+      "numero": "47300",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Un contratista, que en la fecha de celebraci&oacute;n del contrato de prestaci&oacute;n de servicios, se encontraba inscrito en el r&eacute;gimen simplificado, y que al momento de liquidar el contrato est&aacute; inscrito en el r&eacute;gimen com&uacute;n, &iquest;debe facturar el IVA sobre los honorarios y quien debe asumir este impuesto teniendo en cuenta que en el contrato no qued&oacute; estipulado ning&uacute;n tipo de gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012932-2005",
+      "tipo": "concepto",
+      "numero": "0012932",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Constituyen saldos a favor los valores retenidos por los responsables del r&eacute;gimen com&uacute;n cuando realizan operaciones con los del simplificado, para efectos de la disminuci&oacute;n del porcentaje de retenci&oacute;n en la fuente por concepto de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083622-2002",
+      "tipo": "concepto",
+      "numero": "0083622",
+      "fecha": "2002-12-31",
+      "tema": "&iquest;Pueden los distribuidores de licores destilados de producci&oacute;n nacional solicitar como devoluci&oacute;n o compensaci&oacute;n los saldos a favor determinados en las declaraciones del impuesto sobre las ventas por los bimestres anteriores o posteriores al 1o. de enero de 1999?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002959-2001",
+      "tipo": "concepto",
+      "numero": "0002959",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Para establecer la sanci&oacute;n por correcci&oacute;n de las declaraciones del IVA el responsable productor o distribuidor de licores no debe tener en cuenta los valores pagados a los Fondos de Salud?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100885-2000",
+      "tipo": "concepto",
+      "numero": "0100885",
+      "fecha": "2000-10-13",
+      "tema": "&iquest;La venta de productos homeop&aacute;ticos se encuentra excluida del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053884-2000",
+      "tipo": "concepto",
+      "numero": "0053884",
+      "fecha": "2000-06-07",
+      "tema": "&iquest;El impuesto sobre las ventas asumido en operaciones realizadas con responsables del r&eacute;gimen simplificado, es descontable en un 100% para el responsable del r&eacute;gimen com&uacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025671-2000",
+      "tipo": "concepto",
+      "numero": "0025671",
+      "fecha": "2000-03-22",
+      "tema": "IVA Cedido. Licores.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069051-1999",
+      "tipo": "concepto",
+      "numero": "0069051",
+      "fecha": "1999-07-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento a seguir, en los casos en los cuales el contribuyente importa al amparo de la Ley 191 de 1995, pero posteriormente vende a municipios que est&aacute;n por fuera de las Unidades de Desarrollo Fronterizo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007306-1999",
+      "tipo": "concepto",
+      "numero": "0007306",
+      "fecha": "1999-02-02",
+      "tema": "&iquest;Los exportadores de caf&eacute; est&aacute;n obligados a inscribirse en el r&eacute;gimen com&uacute;n, as&iacute; como tambi&eacute;n deben asumir la retenci&oacute;n en la fuente por IVA cuando adquieran bienes y servicios de quienes pertenecen al r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069996-1998",
+      "tipo": "concepto",
+      "numero": "0069996",
+      "fecha": "1998-09-07",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del Impuesto sobre las ventas liquidado sobre operaciones gravadas realizadas con responsables del r&eacute;gimen simplificado, teniendo en cuenta que el art&iacute;culo 5&ordm; del decreto 380 de 1996, fue anulado por el Consejo de Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0060455-1998",
+      "tipo": "concepto",
+      "numero": "0060455",
+      "fecha": "1998-08-03",
+      "tema": "&iquest;Cual es el R&eacute;gimen de Retenci&oacute;n en la Fuente aplicable a una persona dedicada a la confecci&oacute;n y venta de uniformes y ropa de trabajo, es por servicios o por compra?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049229-1998",
+      "tipo": "concepto",
+      "numero": "0049229",
+      "fecha": "1998-06-26",
+      "tema": "&iquest;Se puede cumplir el deber de facturar en la venta hecha en m&aacute;quina dispensadora, mediante el comprobante diario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047566-1998",
+      "tipo": "concepto",
+      "numero": "0047566",
+      "fecha": "1998-06-19",
+      "tema": "&iquest;El IVA que asume el contratista al celebrar subcontratos con responsables del r&eacute;gimen simplificado por efecto de la retenci&oacute;n del impuesto a las ventas, lo puede llevar como impuesto descontable en la declaraci&oacute;n de ventas? &iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas con respecto a los subcontratistas de contratos de construcci&oacute;n, se les puede trasladar la f&oacute;rmula del AIU se&ntilde;alada por el contratista para la base gravable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000726-1997",
+      "tipo": "concepto",
+      "numero": "0000726",
+      "fecha": "1997-01-09",
+      "tema": "&iquest;En la importaci&oacute;n y venta de gaseosas y similares, qui&eacute;n es el responsable del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094928-1996",
+      "tipo": "concepto",
+      "numero": "0094928",
+      "fecha": "1996-12-11",
+      "tema": "Cu&aacute;l es el manejo del IVA sobre productos derivados del petr&oacute;leo importados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091789-1996",
+      "tipo": "concepto",
+      "numero": "0091789",
+      "fecha": "1996-11-29",
+      "tema": "&iquest;Un establecimiento p&uacute;blico del orden nacional debe solicitar factura para el reconocimiento del gasto, cuando compra bienes o servicios a una persona natural con r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0086485-1996",
+      "tipo": "concepto",
+      "numero": "0086485",
+      "fecha": "1996-11-12",
+      "tema": "&iquest;Qu&eacute; tratamiento fiscal debe darse a la retenci&oacute;n en la fuente en IVA practicada por una sociedad extranjera sin representante legal en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0086465-1996",
+      "tipo": "concepto",
+      "numero": "0086465",
+      "fecha": "1996-11-12",
+      "tema": "&iquest;Qu&eacute; tratamiento fiscal debe darse a la retenci&oacute;n en la fuente en IVA practicada por una sociedad extranjera sin representante legal en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072589-1996",
+      "tipo": "concepto",
+      "numero": "0072589",
+      "fecha": "1996-09-16",
+      "tema": "Qu&eacute; tratamiento se da a la retenci&oacute;n en la fuente generada en operaciones con responsables del r&eacute;gimen simplificado cuando el agente retenedor tiene actividades gravadas y excluidas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0072579-1996",
+      "tipo": "concepto",
+      "numero": "0072579",
+      "fecha": "1996-09-16",
+      "tema": "&iquest;Hay lugar al desconocimiento del impuesto sobre las ventas asumido en las operaciones realizadas por los responsables del r&eacute;gimen com&uacute;n con responsables del r&eacute;gimen simplificado, si no se anexa a la solicitud de devoluci&oacute;n de los saldos a favor, fotocopia de la inscripci&oacute;n en el r&eacute;gimen simplificado de los proveedores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030882-1996",
+      "tipo": "concepto",
+      "numero": "0030882",
+      "fecha": "1996-04-15",
+      "tema": "&iquest;Es indispensable la facturaci&oacute;n para reconocimiento de costos y gastos, aun en vigencia del Decreto 2150 de 1995?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009144-1993",
+      "tipo": "concepto",
+      "numero": "0009144",
+      "fecha": "1993-07-30",
+      "tema": "&iquest;Cu&aacute;l es la manera de liquidar el IVA por los distribuidores oficiales de licores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007149-1992",
+      "tipo": "concepto",
+      "numero": "0007149",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Pueden llevarse los saldos a favor de la cuenta corriente del IVA, que son los valores que no le ser&aacute;n devueltos al comerciante, como gastos no deducibles para liquidar contablemente la verdadera utilidad? De qu&eacute; manera se puede explicar a la Administraci&oacute;n de impuestos, que a pesar de tener utilidad, las declaraciones del IVA, siempre presentan saldos a favor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002733-1991",
+      "tipo": "concepto",
+      "numero": "0002733",
+      "fecha": "1991-01-01",
+      "tema": "Iva en enajenaci&oacute;n de establecimiento de comercio",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

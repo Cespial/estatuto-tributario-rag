@@ -1,1 +1,551 @@
-{"id_articulo": "Art. 720", "titulo": "Art. 720. Recursos contra los actos de la administración tributaria.", "titulo_corto": "Recursos contra los actos de la administración tributaria.", "slug": "720", "url_origen": "https://estatuto.co/720", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Sin perjuicio de lo dispuesto en normas especiales de este Estatuto, contra las liquidaciones oficiales, resoluciones que impongan sanciones u ordenen el reintegro de sumas devueltas y demás actos producidos, en relación con los impuestos administrados por la Unidad Administrativa Especial Dirección General de Impuestos Nacionales, procede el Recurso de Reconsideración. El recurso de reconsideración, salvo norma expresa en contrario, deberá interponerse ante la oficina competente, para conocer los recursos tributarios, de la Administración de Impuestos que hubiere practicado el acto respectivo, dentro de los dos meses siguientes a la notificación del mismo. Cuando el acto haya sido proferido por el Administrador de Impuestos o sus delegados, el recurso de reconsideración deberá interponerse ante el mismo funcionario que lo profirió. **Parágrafo. Cuando se hubiere atendido en debida forma el requerimiento especial y no obstante se practique liquidación oficial, el contribuyente podrá prescindir del recurso de reconsideración y acudir directamente ante la jurisdicción contencioso administrativa dentro de los cuatro (4) meses siguientes a la notificación de la liquidación oficial.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Sin perjuicio de lo dispuesto en normas especiales de este Estatuto, contra las liquidaciones oficiales, resoluciones que impongan sanciones u ordenen el reintegro de sumas devueltas y demás actos producidos, en relación con los impuestos administrados por la Unidad Administrativa Especial Dirección General de Impuestos Nacionales, procede el Recurso de Reconsideración.</p>\n<p>El recurso de reconsideración, salvo norma expresa en contrario, deberá interponerse ante la oficina competente, para conocer los recursos tributarios, de la Administración de Impuestos que hubiere practicado el acto respectivo, dentro de los dos meses siguientes a la notificación del mismo.</p>\n<p>Cuando el acto haya sido proferido por el Administrador de Impuestos o sus delegados, el recurso de reconsideración deberá interponerse ante el mismo funcionario que lo profirió.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>Cuando se hubiere atendido en debida forma el requerimiento especial y no obstante se practique liquidación oficial, el contribuyente podrá prescindir del recurso de reconsideración y acudir directamente ante la jurisdicción contencioso administrativa dentro de los cuatro (4) meses siguientes a la notificación de la liquidación oficial.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 67. **Adicionado Ley 223 de 1995 Art 283.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "67"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "283"}], "total_modificaciones": 2, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 720",
+  "titulo": "Art. 720. Recursos contra los actos de la administración tributaria.",
+  "titulo_corto": "Recursos contra los actos de la administración tributaria.",
+  "slug": "720",
+  "url_origen": "https://estatuto.co/720",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Sin perjuicio de lo dispuesto en normas especiales de este Estatuto, contra las liquidaciones oficiales, resoluciones que impongan sanciones u ordenen el reintegro de sumas devueltas y demás actos producidos, en relación con los impuestos administrados por la Unidad Administrativa Especial Dirección General de Impuestos Nacionales, procede el Recurso de Reconsideración. El recurso de reconsideración, salvo norma expresa en contrario, deberá interponerse ante la oficina competente, para conocer los recursos tributarios, de la Administración de Impuestos que hubiere practicado el acto respectivo, dentro de los dos meses siguientes a la notificación del mismo. Cuando el acto haya sido proferido por el Administrador de Impuestos o sus delegados, el recurso de reconsideración deberá interponerse ante el mismo funcionario que lo profirió. **Parágrafo. Cuando se hubiere atendido en debida forma el requerimiento especial y no obstante se practique liquidación oficial, el contribuyente podrá prescindir del recurso de reconsideración y acudir directamente ante la jurisdicción contencioso administrativa dentro de los cuatro (4) meses siguientes a la notificación de la liquidación oficial.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Sin perjuicio de lo dispuesto en normas especiales de este Estatuto, contra las liquidaciones oficiales, resoluciones que impongan sanciones u ordenen el reintegro de sumas devueltas y demás actos producidos, en relación con los impuestos administrados por la Unidad Administrativa Especial Dirección General de Impuestos Nacionales, procede el Recurso de Reconsideración.</p>\n<p>El recurso de reconsideración, salvo norma expresa en contrario, deberá interponerse ante la oficina competente, para conocer los recursos tributarios, de la Administración de Impuestos que hubiere practicado el acto respectivo, dentro de los dos meses siguientes a la notificación del mismo.</p>\n<p>Cuando el acto haya sido proferido por el Administrador de Impuestos o sus delegados, el recurso de reconsideración deberá interponerse ante el mismo funcionario que lo profirió.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>Cuando se hubiere atendido en debida forma el requerimiento especial y no obstante se practique liquidación oficial, el contribuyente podrá prescindir del recurso de reconsideración y acudir directamente ante la jurisdicción contencioso administrativa dentro de los cuatro (4) meses siguientes a la notificación de la liquidación oficial.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 67. **Adicionado Ley 223 de 1995 Art 283.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "67"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "283"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 11 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 21021 (2025-12-30): Otros Temas\noficio 12126 (2025-09-09): Otras Disposiciones\noficio 9531 (2025-06-18): Procedimiento Tributario\noficio 7047 (2025-05-06): Otros Temas\noficio 6706 (2025-04-29): Procedimiento Tributario",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-21021-2025",
+      "tipo": "oficio",
+      "numero": "21021",
+      "fecha": "2025-12-30",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12126-2025",
+      "tipo": "oficio",
+      "numero": "12126",
+      "fecha": "2025-09-09",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9531-2025",
+      "tipo": "oficio",
+      "numero": "9531",
+      "fecha": "2025-06-18",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7047-2025",
+      "tipo": "oficio",
+      "numero": "7047",
+      "fecha": "2025-05-06",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6706-2025",
+      "tipo": "oficio",
+      "numero": "6706",
+      "fecha": "2025-04-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0225-2025",
+      "tipo": "oficio",
+      "numero": "0225",
+      "fecha": "2025-02-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11511-2024",
+      "tipo": "oficio",
+      "numero": "11511",
+      "fecha": "2024-06-13",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2483-2023",
+      "tipo": "oficio",
+      "numero": "2483",
+      "fecha": "2023-04-17",
+      "tema": "(Int 461) Recurso de reposici&oacute;n - Recurso de reconsideraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912759-2022",
+      "tipo": "oficio",
+      "numero": "912759",
+      "fecha": "2022-09-13",
+      "tema": "Procedimiento tributario. Notificaci&oacute;n electr&oacute;nica. Computo de t&eacute;rminos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913883-2021",
+      "tipo": "oficio",
+      "numero": "913883",
+      "fecha": "2021-11-10",
+      "tema": "&iquest;puede ser tenida en cuenta dentro de la categor&iacute;a dem&aacute;s actos o, por el contrario, ante una respuesta de derecho de petici&oacute;n denominada oficio externo no procede el recurso de reconsideraci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908626-2021",
+      "tipo": "oficio",
+      "numero": "908626",
+      "fecha": "2021-08-26",
+      "tema": "Procedimiento Tributario - Facilidades de pago, Intereses moratorios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0513-2020",
+      "tipo": "oficio",
+      "numero": "0513",
+      "fecha": "2020-08-28",
+      "tema": "Responsabilidades de la persona natural en el Registro &Uacute;nico Tributario -RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26357-2019",
+      "tipo": "oficio",
+      "numero": "26357",
+      "fecha": "2019-10-18",
+      "tema": "Acci&oacute;n Ante Lo Contencioso Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3024-2019",
+      "tipo": "oficio",
+      "numero": "3024",
+      "fecha": "2019-02-07",
+      "tema": "&iquest;Se puede solicitar devoluci&oacute;n y-o compensaci&oacute;n del SALDO IVA por VENTAS EXENTAS por productor y proveedor de SCI, sin haber realizado RETENCI&Oacute;N EN LA FUENTE EN EL IMPUESTO SOBRE LAS VENTAS, si se realiza en forma extempor&aacute;nea su pago, se declara bimestralmente el IVA? &iquest;Es procedente o no, que el contribuyente solicite nuevamente el saldo acumulado de IVA exento, despu&eacute;s de haber pagado la retenci&oacute;n IVA de per&iacute;odos anteriores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902659-2017",
+      "tipo": "oficio",
+      "numero": "902659",
+      "fecha": "2017-05-23",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1735-2017",
+      "tipo": "oficio",
+      "numero": "1735",
+      "fecha": "2017-11-02",
+      "tema": "Recurso de Reconsideraci&oacute;n - Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0655-2016",
+      "tipo": "oficio",
+      "numero": "0655",
+      "fecha": "2016-06-30",
+      "tema": "Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32965-2015",
+      "tipo": "oficio",
+      "numero": "32965",
+      "fecha": "2015-11-14",
+      "tema": "&iquest;Opera la excepci&oacute;n contemplada en el par&aacute;grafo del art&iacute;culo 720 del Estatuto Tributario, para la liquidaci&oacute;n de aforo generada por el emplazamiento para declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13031-2015",
+      "tipo": "oficio",
+      "numero": "13031",
+      "fecha": "2015-05-06",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12888-2015",
+      "tipo": "oficio",
+      "numero": "12888",
+      "fecha": "2015-05-05",
+      "tema": "&iquest;Contempla su legislaci&oacute;n dom&eacute;stica sanciones por incumplimiento a personas o entidades que no cumplan oportuna y-o satisfactoriamente con requerimientos de informaci&oacute;n que haga la administraci&oacute;n tributaria, en cumplimiento de convenios tributarios vigentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58092-2014",
+      "tipo": "oficio",
+      "numero": "58092",
+      "fecha": "2014-10-09",
+      "tema": "&iquest;Ejercida tal acci&oacute;n para el caso del inciso 2o, art&iacute;culo 2o Decreto 699 de 2013, cumpliendo con todos los requisitos y exigencias del art&iacute;culo 722 del Estatuto Tributario, cu&aacute;l es el t&eacute;rmino legal para resolverlo; cuando se entiende debidamente notificado, y cu&aacute;les son las normas de fundamento en que ustedes se apoyan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54753-2014",
+      "tipo": "oficio",
+      "numero": "54753",
+      "fecha": "2014-09-15",
+      "tema": "Comisi&oacute;n de presuntos actos constitutivos de falta disciplinaria - Proceso de tipificaci&oacute;n de una falta disciplinaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33450-2014",
+      "tipo": "oficio",
+      "numero": "33450",
+      "fecha": "2014-06-04",
+      "tema": "(Int 436) Competencia para el ejercicio de las funciones - Condici&oacute;n especial para el pago de impuestos, tasas y contribuciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22169-2014",
+      "tipo": "oficio",
+      "numero": "22169",
+      "fecha": "2014-04-07",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0235-2014",
+      "tipo": "oficio",
+      "numero": "0235",
+      "fecha": "2014-03-20",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82785-2013",
+      "tipo": "oficio",
+      "numero": "82785",
+      "fecha": "2013-12-24",
+      "tema": "Procedimiento tributario, Correcci&oacute;n de las declaraciones tributarias - Liquidaciones oficiales - Reducci&oacute;n de la sanci&oacute;n por inexactitud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48129-2013",
+      "tipo": "oficio",
+      "numero": "48129",
+      "fecha": "2013-08-02",
+      "tema": "&iquest;Se puede imputar el saldo a favor originado en una declaraci&oacute;n del impuesto sobre la renta que se encuentra en firme, mediante la correcci&oacute;n de la declaraci&oacute;n del periodo gravable inmediatamente siguiente? - &iquest;Cu&aacute;ndo la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria, procede su imputaci&oacute;n en la declaraci&oacute;n del periodo gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-67993-2012",
+      "tipo": "oficio",
+      "numero": "67993",
+      "fecha": "2012-01-01",
+      "tema": "Notificaci&oacute;n de los actos administrativos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15872-2011",
+      "tipo": "oficio",
+      "numero": "15872",
+      "fecha": "2011-03-07",
+      "tema": "&iquest;Los recursos, respuestas a requerimientos especiales, pliegos de cargos, y dem&aacute;s escritos que deban presentarse personalmente ante la Direcci&oacute;n de Impuestos y Aduanas Nacionales, se entienden presentados debidamente cuando la persona est&aacute; fuera del pa&iacute;s y utiliza medios electr&oacute;nicos con firma digital?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72334-2009",
+      "tipo": "oficio",
+      "numero": "72334",
+      "fecha": "2009-09-07",
+      "tema": "&iquest;Qu&eacute; acto administrativo que debe expedirse para negar la cancelaci&oacute;n del RUT cuando no se ajusta a los casos preceptuados en el art&iacute;culo 11 del Decreto 2788 de 2004 y los recursos que deben concederse al contribuyente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6184-2009",
+      "tipo": "oficio",
+      "numero": "6184",
+      "fecha": "2009-01-28",
+      "tema": "&iquest;Cu&aacute;l es la competencia para resolver un recurso de queja contra un acto administrativo de rechazo de una solicitud de devoluci&oacute;n y-o compensaci&oacute;n o contra el auto inadmisorio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-105195-2008",
+      "tipo": "oficio",
+      "numero": "105195",
+      "fecha": "2008-10-22",
+      "tema": "Procedimiento a seguir para resolver el recurso de reposici&oacute;n interpuesto contra las resoluciones que imponen las sanciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103124-2008",
+      "tipo": "oficio",
+      "numero": "103124",
+      "fecha": "2008-10-20",
+      "tema": "Solicita se aclare si lo manifestado en el Concepto Nro. 59993 de agosto 3 de 2007, cuando se refiere a solicitudes especiales del RUT, debe entenderse tambi&eacute;n aplicable para el cambio de r&eacute;gimen en el Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12691-2008",
+      "tipo": "oficio",
+      "numero": "12691",
+      "fecha": "2008-01-01",
+      "tema": "Cambio del r&eacute;gimen com&uacute;n al r&eacute;gimen simplificado - R&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12690-2008",
+      "tipo": "oficio",
+      "numero": "12690",
+      "fecha": "2008-01-01",
+      "tema": "Cambio del r&eacute;gimen com&uacute;n al r&eacute;gimen simplificado - R&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12689-2008",
+      "tipo": "oficio",
+      "numero": "12689",
+      "fecha": "2008-01-01",
+      "tema": "Cambio del r&eacute;gimen com&uacute;n al r&eacute;gimen simplificado - R&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35839-2007",
+      "tipo": "oficio",
+      "numero": "35839",
+      "fecha": "2007-01-01",
+      "tema": "solicitud sobre el cambio de r&eacute;gimen com&uacute;n al simplificado teniendo en cuenta la modificaci&oacute;n efectuada por el art&iacute;culo 39 de La ley 111 de 2007 al numeral 1 del art&iacute;culo 499 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33691-2007",
+      "tipo": "oficio",
+      "numero": "33691",
+      "fecha": "2007-05-07",
+      "tema": "&iquest;A la luz del art&iacute;culo 505 del Estatuto Tributario, y teniendo en cuenta la modificaci&oacute;n del numeral 1 del art&iacute;culo 499 del Estatuto Tributario, contenida en el art&iacute;culo 39 de la Ley 1111 de 2006, se puede cambiar del r&eacute;gimen com&uacute;n al simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21541-2007",
+      "tipo": "oficio",
+      "numero": "21541",
+      "fecha": "2007-03-16",
+      "tema": "&iquest;Los actos que resuelven las solicitudes de los contribuyentes referente al cambio de r&eacute;gimen com&uacute;n al simplificado del impuesto sobre las ventas o del cese de responsabilidades en este impuesto, se deben resolver mediante Resoluci&oacute;n?&iquest;Las peticiones o solicitudes que correspondan a id&eacute;nticas peticiones que se aceptan pueden resolverse en el mismo acto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0005203-2006",
+      "tipo": "concepto",
+      "numero": "0005203",
+      "fecha": "2006-01-18",
+      "tema": "&iquest;En qu&eacute; casos puede la administraci&oacute;n tributaria negar la autorizaci&oacute;n para efectuar el cruce de cuentas de que tratan la Ley 550 de 1999 y los decretos reglamentarios 2267 de 2001 y 2828 de 2004?&iquest;Cuando el acreedor de la entidad estatal del orden nacional solicita el cruce de cuentas de su acreencia con las obligaciones tributarias adeudadas por un tercero, debe la administraci&oacute;n tributaria compensar previamente las obligaciones tributarias del acreedor del estado, y luego, si existe un excedente en la acreencia, proceder al cruce del mismo con las obligaciones tributarias del tercero?&iquest;A qui&eacute;n se debe notificar la resoluci&oacute;n de autorizaci&oacute;n de cruce de cuentas expedida por la DIAN, cuando la autorizaci&oacute;n se profiere para el pago de obligaciones tributarias adeudadas por un tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92717-2005",
+      "tipo": "oficio",
+      "numero": "92717",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;La liquidaci&oacute;n oficial de correcci&oacute;n expedida por la Administraci&oacute;n de Impuestos sustituye la declaraci&oacute;n inicial, con todas sus consecuencias legales?&iquest;Puede la Administraci&oacute;n de Impuestos declarar la invalidez de una declaraci&oacute;n corregida mediante liquidaci&oacute;n oficial de correcci&oacute;n, sin que medie proceso o acto administrativo alguno, simplemente de oficio, a trav&eacute;s de un requerimiento sobre la declaraci&oacute;n de renta de un a&ntilde;o gravable diferente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28819-2005",
+      "tipo": "oficio",
+      "numero": "28819",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Si se cometi&oacute; un error en la solciitud de correcci&oacute;n y la DIAN mediante la liquidaci&oacute;n oficial de correcci&oacute;n la acept&oacute; en su momento poqu&eacute; se tienen que pagar unos mayores valores por el error?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002190-2003",
+      "tipo": "concepto",
+      "numero": "0002190",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Es procedente el retiro de la calidad de agente de retenci&oacute;n del impuesto sobre las ventas a un Gran Contribuyente que ha celebrado acuerdos de reestructuraci&oacute;n de pasivos con diferentes sociedades y entidades sin promoci&oacute;n oficiosa o sin aceptaci&oacute;n de la respectiva Superintendencia o C&aacute;mara de Comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000005-2003",
+      "tipo": "concepto",
+      "numero": "0000005",
+      "fecha": "2003-08-05",
+      "tema": "Cruce de cuentas - Compensaciones por sentencias y conciliaciones judiciales - Cruce de cuentas previsto en la Ley 550 de 1999 - Compensaci&oacute;n por sentencias y conciliaciones judiciales prevista en el Art&iacute;culo 29 de la Ley 344 de 1996",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0083627-2002",
+      "tipo": "concepto",
+      "numero": "0083627",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; Divisi&oacute;n debe conservar los expedientes del",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071043-2002",
+      "tipo": "concepto",
+      "numero": "0071043",
+      "fecha": "2002-10-31",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para que opere la compensaci&oacute;n de obligaciones tributarias a cargo de un acreedor de una empresa estatal del orden nacional con deudas originadas en obligaciones contractuales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054826-2002",
+      "tipo": "concepto",
+      "numero": "0054826",
+      "fecha": "2002-08-27",
+      "tema": "&iquest;La acci&oacute;n de tutela o de cumplimiento que se instaure en contra del t&iacute;tulo ejecutivo de un proceso administrativo de cobro coactivo, impide en este la realizaci&oacute;n del remate de bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-32601-2002",
+      "tipo": "concepto",
+      "numero": "32601",
+      "fecha": "2002-06-04",
+      "tema": "T&iacute;tulo Ejecutivo deudores solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0098933-2001",
+      "tipo": "concepto",
+      "numero": "0098933",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Es viable declarar una nulidad propuesta contra una liquidaci&oacute;n oficial o una resoluci&oacute;n que resuelve un recurso cuando se ha ejercitado la acci&oacute;n de nulidad y restablecimiento del derecho?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-98636-2001",
+      "tipo": "concepto",
+      "numero": "98636",
+      "fecha": "2001-11-09",
+      "tema": "Impuesto al oro y al platino - Fiscalizaci&oacute;n - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010355-1999",
+      "tipo": "concepto",
+      "numero": "0010355",
+      "fecha": "1999-02-11",
+      "tema": "&iquest;C&oacute;mo debe actuar la Administraci&oacute;n de Impuestos en relaci&oacute;n con la sanci&oacute;n por no enviar informaci&oacute;n de acuerdo con la Sentencia de la Corte Constitucional C-160 de abril 27 de 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035541-1998",
+      "tipo": "concepto",
+      "numero": "0035541",
+      "fecha": "1998-05-19",
+      "tema": "&iquest;Debe liquidarse una fracci&oacute;n de mes por concepto de intereses moratorios cuando el &uacute;ltimo d&iacute;a del mes objeto de contabilizaci&oacute;n de retardo corresponda un s&aacute;bado, domingo o festivo?&iquest;El sistema debe efectuar corte o liquidaci&oacute;n de intereses moratorios cuando se efect&uacute;e un pago que solamente cubre el valor de la sanci&oacute;n parcial o totalmente?&iquest;El sistema debe efectuar corte de intereses moratorios cuando se efect&uacute;e un pago que solamente alcanza a cubrir el valor de los intereses parcialmente?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0028184-1997",
+      "tipo": "concepto",
+      "numero": "0028184",
+      "fecha": "1997-11-25",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014273-1995",
+      "tipo": "concepto",
+      "numero": "0014273",
+      "fecha": "1995-03-16",
+      "tema": "&iquest;Las sanciones impuestas mediante resoluci&oacute;n independiente deben actualizarse a partir del vencimiento del t&eacute;rmino para interponer el recurso de reconsideraci&oacute;n cuando se ha solicitado la revocatoria directa del acto administrativo a trav&eacute;s de la cual se impuso la correspondiente sanci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074187-1994",
+      "tipo": "concepto",
+      "numero": "0074187",
+      "fecha": "1994-12-21",
+      "tema": "&iquest;Son aplicables los art&iacute;culos 12 y 13 del C&oacute;digo Contencioso Administrativo sobre las peticiones de correcci&oacute;n de las declaraciones tributarias para disminuir el impuesto a pagar, aumentar el saldo a favor o convalidar los requisitos que dan lugar a tenerla por no presentada? &iquest;Dentro del proceso de discusi&oacute;n pueden aplicarse os art&iacute;culos 12 y 13 del C&oacute;digo Contencioso Administrativo para subsanar los requisitos formales que condujeron al rechazo de la solicitud de correcci&oacute;n? &iquest;Puede presentarse una nueva solicitud de correcci&oacute;n para disminuir el valor a pagar o aumentar el saldo a favor cuando se encuentre en firme el acto administrativo que rechaz&oacute; la correcci&oacute;n solicitada por no interponerse contra &eacute;l recurso alguno?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000268-1990",
+      "tipo": "concepto",
+      "numero": "0000268",
+      "fecha": "1990-01-04",
+      "tema": "&iquest;Cu&aacute;l es la procedencia o no del silencio administrativo positivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023779-1989",
+      "tipo": "concepto",
+      "numero": "0023779",
+      "fecha": "1989-01-01",
+      "tema": "Competencia para resolver la solicitud de reducci&oacute;n de la sanci&oacute;n por correcci&oacute;n aritmetica",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1441-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1441",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ]
+}

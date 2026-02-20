@@ -1,1 +1,214 @@
-{"id_articulo": "Art. 314", "titulo": "Art. 314. Para personas naturales residentes.", "titulo_corto": "Para personas naturales residentes.", "slug": "314", "url_origen": "https://estatuto.co/314", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*La tarifa única del impuesto correspondiente a las ganancias ocasionales de las personas naturales residentes en el país, de las sucesiones de causantes personas naturales residentes en el país y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, es quince por ciento (15%).", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa única del impuesto correspondiente a las ganancias ocasionales de las personas naturales residentes en el país, de las sucesiones de causantes personas naturales residentes en el país y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, es quince por ciento (15%).</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 33. *Modificado Ley 1607 de 2012. Art. 107.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "33"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 1607 de 2012", "Ley 2277 de 2022"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 314",
+  "titulo": "Art. 314. Para personas naturales residentes.",
+  "titulo_corto": "Para personas naturales residentes.",
+  "slug": "314",
+  "url_origen": "https://estatuto.co/314",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*La tarifa única del impuesto correspondiente a las ganancias ocasionales de las personas naturales residentes en el país, de las sucesiones de causantes personas naturales residentes en el país y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, es quince por ciento (15%).",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La tarifa única del impuesto correspondiente a las ganancias ocasionales de las personas naturales residentes en el país, de las sucesiones de causantes personas naturales residentes en el país y de los bienes destinados a fines especiales, en virtud de donaciones o asignaciones modales, es quince por ciento (15%).</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 2277 de 2022 Art 33. *Modificado Ley 1607 de 2012. Art. 107.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "33"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012",
+    "Ley 2277 de 2022"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 907038 (2022-09-22): Ganancia Ocasional - Retenci&oacute;n en la fuente",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-907038-2022",
+      "tipo": "oficio",
+      "numero": "907038",
+      "fecha": "2022-09-22",
+      "tema": "Ganancia Ocasional - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000575-2020",
+      "tipo": "concepto",
+      "numero": "0000575",
+      "fecha": "2020-10-27",
+      "tema": "(Int 0575) Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902141-2020",
+      "tipo": "oficio",
+      "numero": "902141",
+      "fecha": "2020-06-08",
+      "tema": "Enajenaci&oacute;n de activos - Impuestos de competencia de la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0653-2018",
+      "tipo": "oficio",
+      "numero": "0653",
+      "fecha": "2018-05-04",
+      "tema": "&iquest;Se debe hacer retenci&oacute;n en la fuente a los ingresos por concepto de premios obtenidos por profesionales de Golf en Torneos organizados por la Federaci&oacute;n Colombiana de Golf, cuya celebraci&oacute;n est&aacute; reconocida por el Gobierno Nacional a trav&eacute;s de Coldeportes? &iquest;De ser as&iacute;, qu&eacute; tarifa se aplicar&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0281-2018",
+      "tipo": "oficio",
+      "numero": "0281",
+      "fecha": "2018-03-06",
+      "tema": "&iquest;Al no ser conforme la legislaci&oacute;n del otro pa&iacute;s de propiedad del beneficiario residente en el territorio nacional la cuenta de retiro heredada, se deber&aacute; incluir en la declaraci&oacute;n de activos del exterior y en la declaraci&oacute;n del impuesto sobre la renta del residente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27538-2017",
+      "tipo": "oficio",
+      "numero": "27538",
+      "fecha": "2017-08-10",
+      "tema": "Acuerdos de Pago",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20524-2017",
+      "tipo": "oficio",
+      "numero": "20524",
+      "fecha": "2017-08-02",
+      "tema": "Club deportivo fue sancionado con la imposibilidad de que sus aficionados asistieran a los encuentros que jugara de local. Sin embargo, el club decidi&oacute; poner a la venta boleter&iacute;a para dichos partidos, aun cuando la misma no otorgaba ninguna clase de beneficios. De acuerdo a lo anterior consulta: &iquest;Cu&aacute;l es el tratamiento tributario y contable de dicho ingreso?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24234-2016",
+      "tipo": "oficio",
+      "numero": "24234",
+      "fecha": "2016-09-06",
+      "tema": "Declaraci&oacute;n de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7779-2016",
+      "tipo": "oficio",
+      "numero": "7779",
+      "fecha": "2016-04-08",
+      "tema": "Alcance al Oficio 3249 de febrero 16 de 2016, mediante el cual este Despacho absolvi&oacute; su inquietud contenida en el radicado de la referencia, relativo a la tarifa del impuesto de ganancia ocasional de los premios en especie",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3249-2016",
+      "tipo": "oficio",
+      "numero": "3249",
+      "fecha": "2016-02-23",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para aplicar la tarifa del impuesto de ganancia ocasional, en el caso de un premio en especie, espec&iacute;ficamente un autom&oacute;vil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25529-2015",
+      "tipo": "oficio",
+      "numero": "25529",
+      "fecha": "2015-09-02",
+      "tema": "Regulaci&oacute;n y la forma en que se calcula el impuesto complementario de ganancia ocasional en el caso de las herencias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74527-2013",
+      "tipo": "oficio",
+      "numero": "74527",
+      "fecha": "2013-11-20",
+      "tema": "Giros al exterior en divisas extranjeras - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45336-2013",
+      "tipo": "oficio",
+      "numero": "45336",
+      "fecha": "2013-07-23",
+      "tema": "&iquest;Cu&aacute;l es la tarifa aplicable a las personas jur&iacute;dicas para el a&ntilde;o gravable 2012 por concepto de ganancia ocasional por activos omitidos y pasivos inexistentes consagrada en el par&aacute;grafo transitorio del art&iacute;culo 239-1 del Estatuto Tributario, par&aacute;grafo adicionado por el art&iacute;culo 163 de la Ley 1607 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045336-2013",
+      "tipo": "concepto",
+      "numero": "0045336",
+      "fecha": "2013-07-23",
+      "tema": "&iquest;Cu&aacute;l es la tarifa aplicable a las personas jur&iacute;dicas para el a&ntilde;o gravable 2012 por concepto de ganancia ocasional por activos omitidos y pasivos inexistentes consagrada en el par&aacute;grafo transitorio del art&iacute;culo 239-1 del Estatuto Tributario, par&aacute;grafo adicionado por el art&iacute;culo 163 de la Ley-1607 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066040-2000",
+      "tipo": "concepto",
+      "numero": "0066040",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;Los auxilios por calamidad domestica que un fondo de empleados realiza a sus asociados est&aacute;n sometidos a retenci&oacute;n en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-073-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "073",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-478-1992",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "478",
+      "year": 1992
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    }
+  ]
+}

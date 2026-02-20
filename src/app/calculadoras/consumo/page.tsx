@@ -1,24 +1,54 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { ArrowLeft, Tag } from "lucide-react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { Tag } from "lucide-react";
 import { SelectInput, CurrencyInput } from "@/components/calculators/shared-inputs";
 import { CalculatorResult } from "@/components/calculators/calculator-result";
 import { CalculatorSources } from "@/components/calculators/calculator-sources";
+import { CalculatorBreadcrumb } from "@/components/calculators/calculator-breadcrumb";
+import { CalculatorActions } from "@/components/calculators/calculator-actions";
+import { CalculatorDisclaimer } from "@/components/calculators/calculator-disclaimer";
+import { RelatedCalculators } from "@/components/calculators/related-calculators";
+import { PrintWrapper } from "@/components/pdf/print-wrapper";
+import { usePrintExport } from "@/lib/pdf/use-print-export";
+import { formatCOP } from "@/lib/calculators/format";
+import {
+  buildShareUrl,
+  readNumberParam,
+  readStringParam,
+  replaceUrlQuery,
+} from "@/lib/calculators/url-state";
+import { trackCalculatorUsage } from "@/lib/calculators/popularity";
 import { CONSUMO_TARIFAS } from "@/config/tax-data-wave4";
 
-function formatCOP(n: number): string {
-  return "$" + Math.round(n).toLocaleString("es-CO");
-}
+function ConsumoPageContent() {
+  const searchParams = useSearchParams();
 
-export default function ConsumoPage() {
-  const [tipo, setTipo] = useState("restaurantes");
-  const [valor, setValor] = useState(0);
+  const initialValues = useMemo(() => {
+    return {
+      tipo: readStringParam(searchParams, "t", "restaurantes"),
+      valor: readNumberParam(searchParams, "v", 0, { min: 0 }),
+    };
+  }, [searchParams]);
+
+  const [tipo, setTipo] = useState(initialValues.tipo);
+  const [valor, setValor] = useState(initialValues.valor);
+
+  const { contentRef, handlePrint } = usePrintExport({ title: "Impuesto Nacional al Consumo" });
+
+  useEffect(() => {
+    trackCalculatorUsage("consumo");
+  }, []);
+
+  useEffect(() => {
+    replaceUrlQuery({
+      t: tipo,
+      v: valor,
+    });
+  }, [tipo, valor]);
 
   const calculo = useMemo(() => {
-    if (!valor) return null;
-
     const selected = (CONSUMO_TARIFAS.find(t => t.tipo === tipo) || CONSUMO_TARIFAS[0]) as {
       tipo: string;
       label: string;
@@ -26,6 +56,9 @@ export default function ConsumoPage() {
       articulo: string;
       notas?: string;
     };
+    
+    if (!valor) return { selected, impuesto: 0, total: 0, tarifaLabel: (selected.tarifa * 100).toFixed(0) + "%" };
+
     const impuesto = valor * selected.tarifa;
     const total = valor + impuesto;
 
@@ -37,21 +70,48 @@ export default function ConsumoPage() {
     };
   }, [tipo, valor]);
 
+  const resultItems = useMemo(() => {
+    if (valor <= 0) return [];
+    return [
+      {
+        label: "Impuesto al Consumo",
+        value: formatCOP(calculo.impuesto),
+        sublabel: `Tarifa del ${calculo.tarifaLabel}`
+      },
+      {
+        label: "Total a pagar",
+        value: formatCOP(calculo.total)
+      }
+    ];
+  }, [calculo, valor]);
+
+  const shareUrl = buildShareUrl("/calculadoras/consumo", {
+    t: tipo,
+    v: valor,
+  });
+
   return (
-    <div className="mx-auto max-w-4xl py-10">
-      <Link href="/calculadoras" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-        <ArrowLeft className="mr-2 h-4 w-4" />
-        Volver a calculadoras
-      </Link>
+    <>
+      <CalculatorBreadcrumb
+        items={[
+          { label: "Calculadoras", href: "/calculadoras" },
+          { label: "Impuesto Nacional al Consumo" },
+        ]}
+      />
 
-      <div className="mb-8">
-        <h1 className="heading-serif text-3xl">Impuesto Nacional al Consumo</h1>
-        <p className="mt-2 mb-10 text-base leading-relaxed text-muted-foreground">
-          Calcula el INC para servicios de restaurante, telefonía y vehículos (Art. 512-1 ET).
-        </p>
-      </div>
+      <h1 className="mb-2 heading-serif text-3xl">Impuesto Nacional al Consumo</h1>
+      <p className="mb-6 text-sm text-muted-foreground">
+        Calcula el INC para servicios de restaurante, telefonia, vehiculos y otros hechos generadores (Art. 512-1 ET).
+      </p>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <CalculatorActions
+        title="Impuesto al Consumo"
+        shareText="Consulta este calculo de Impuesto al Consumo"
+        shareUrl={shareUrl}
+        onExportPdf={handlePrint}
+      />
+
+      <div className="grid gap-8 md:grid-cols-2 mb-6">
         <div className="space-y-6">
           <SelectInput
             id="tipo-consumo"
@@ -63,7 +123,7 @@ export default function ConsumoPage() {
 
           <CurrencyInput
             id="valor-base"
-            label="Valor de la operación (Base)"
+            label="Valor de la operacion (Base antes de impuestos)"
             value={valor}
             onChange={setValor}
             placeholder="Ej: 100.000"
@@ -72,11 +132,11 @@ export default function ConsumoPage() {
           <div className="rounded-lg border border-border/60 bg-muted/30 p-4">
             <h4 className="mb-2 text-sm font-semibold flex items-center gap-2">
               <Tag className="h-4 w-4 text-foreground/70" />
-              Información de Tarifa
+              Informacion de Tarifa
             </h4>
             {calculo?.selected && (
               <div className="space-y-1 text-xs text-muted-foreground">
-                <p><strong>Artículo:</strong> {calculo.selected.articulo} ET</p>
+                <p><strong>Articulo:</strong> {calculo.selected.articulo} ET</p>
                 <p><strong>Tarifa aplicable:</strong> {calculo.tarifaLabel}</p>
                 {calculo.selected.notas && <p className="italic mt-2">{calculo.selected.notas}</p>}
               </div>
@@ -85,28 +145,20 @@ export default function ConsumoPage() {
         </div>
 
         <div>
-          {calculo ? (
+          {valor > 0 ? (
             <div className="space-y-6">
-              <CalculatorResult
-                items={[
-                  {
-                    label: "Impuesto al Consumo",
-                    value: formatCOP(calculo.impuesto),
-                    sublabel: `Tarifa del ${calculo.tarifaLabel}`
-                  }
-                ]}
-              />
+              <CalculatorResult items={resultItems} />
 
               <div className="rounded-lg border border-border/60 bg-card p-6 shadow-sm">
-                <h3 className="mb-4 font-semibold tracking-tight">Resumen de Operación</h3>
+                <h3 className="mb-4 font-semibold tracking-tight">Resumen de Operacion</h3>
                 <div className="space-y-3 text-sm">
-                  <div className="flex justify-between border-b pb-2">
+                  <div className="flex justify-between border-b border-border/60 pb-2">
                     <span className="text-muted-foreground">Base gravable:</span>
-                    <span className="font-medium">{formatCOP(valor)}</span>
+                    <span className="font-medium text-foreground">{formatCOP(valor)}</span>
                   </div>
-                  <div className="flex justify-between border-b pb-2">
+                  <div className="flex justify-between border-b border-border/60 pb-2">
                     <span className="text-muted-foreground">Impuesto ({calculo.tarifaLabel}):</span>
-                    <span className="font-medium">{formatCOP(calculo.impuesto)}</span>
+                    <span className="font-medium text-foreground">{formatCOP(calculo.impuesto)}</span>
                   </div>
                   <div className="flex justify-between pt-2 text-lg font-bold text-foreground">
                     <span>Total a pagar:</span>
@@ -116,23 +168,23 @@ export default function ConsumoPage() {
               </div>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center rounded-lg border border-dashed p-10 text-center text-muted-foreground">
-              Selecciona el tipo de operación e ingresa el valor base
+            <div className="flex h-full items-center justify-center rounded-lg border border-dashed border-border p-10 text-center text-muted-foreground">
+              Selecciona el tipo de operacion e ingresa el valor base para calcular.
             </div>
           )}
         </div>
       </div>
 
-      <div className="mt-10 overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
+      <div className="mb-6 overflow-x-auto rounded-lg border border-border/60 bg-card shadow-sm">
         <table className="w-full text-left text-sm">
-          <thead className="bg-muted/30">
+          <thead className="bg-muted/30 border-b border-border/60">
             <tr>
               <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Hecho Generador</th>
               <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Tarifa</th>
               <th className="px-4 py-3 text-[11px] uppercase tracking-[0.05em] font-medium text-muted-foreground">Art. ET</th>
             </tr>
           </thead>
-          <tbody className="divide-y">
+          <tbody className="divide-y divide-border/60">
             {CONSUMO_TARIFAS.map((t, idx) => (
               <tr key={idx} className="hover:bg-muted/50 transition-colors">
                 <td className="px-4 py-3">{t.label}</td>
@@ -144,7 +196,47 @@ export default function ConsumoPage() {
         </table>
       </div>
 
-      <CalculatorSources articles={["512-1", "512-2", "512-3", "512-4"]} />
-    </div>
+      <CalculatorSources
+        articles={[
+          { id: "512-1", reason: "Hecho generador del INC." },
+          { id: "512-2", reason: "Bienes gravados a la tarifa del 8%." },
+          { id: "512-3", reason: "Bienes gravados a la tarifa del 16%." },
+          { id: "512-4", reason: "Servicio de telefonía móvil." },
+        ]}
+      />
+
+      <CalculatorDisclaimer
+        references={["Art. 512-1 ET", "Art. 512-2 ET", "Art. 512-3 ET"]}
+      />
+
+      <RelatedCalculators currentId="consumo" />
+
+      <div className="hidden">
+        <div ref={contentRef}>
+          <PrintWrapper
+            title="Liquidacion Impuesto Nacional al Consumo"
+            subtitle={`Concepto: ${calculo.selected.label}`}
+          >
+            {valor > 0 && (
+              <div className="space-y-2 text-sm">
+                <p>Concepto: {calculo.selected.label}</p>
+                <p>Base gravable: {formatCOP(valor)}</p>
+                <p>Tarifa: {calculo.tarifaLabel}</p>
+                <p>Impuesto: {formatCOP(calculo.impuesto)}</p>
+                <p>Total: {formatCOP(calculo.total)}</p>
+              </div>
+            )}
+          </PrintWrapper>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default function ConsumoPage() {
+  return (
+    <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Cargando calculadora...</div>}>
+      <ConsumoPageContent />
+    </Suspense>
   );
 }

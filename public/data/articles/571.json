@@ -1,1 +1,476 @@
-{"id_articulo": "Art. 571", "titulo": "Art. 571. Obligados a cumplir los deberes formales.", "titulo_corto": "Obligados a cumplir los deberes formales.", "slug": "571", "url_origen": "https://estatuto.co/571", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los contribuyentes o responsables directos del pago del tributo deberán cumplir los deberes formales señalados en la ley o en el reglamento, personalmente o por medio de sus representantes, y a falta de éstos, por el administrador del respectivo patrimonio.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes o responsables directos del pago del tributo deberán cumplir los deberes formales señalados en la ley o en el reglamento, personalmente o por medio de sus representantes, y a falta de éstos, por el administrador del respectivo patrimonio.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 571",
+  "titulo": "Art. 571. Obligados a cumplir los deberes formales.",
+  "titulo_corto": "Obligados a cumplir los deberes formales.",
+  "slug": "571",
+  "url_origen": "https://estatuto.co/571",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los contribuyentes o responsables directos del pago del tributo deberán cumplir los deberes formales señalados en la ley o en el reglamento, personalmente o por medio de sus representantes, y a falta de éstos, por el administrador del respectivo patrimonio.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los contribuyentes o responsables directos del pago del tributo deberán cumplir los deberes formales señalados en la ley o en el reglamento, personalmente o por medio de sus representantes, y a falta de éstos, por el administrador del respectivo patrimonio.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 12 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 17321 (2025-12-10): Retenci&oacute;n en la fuente\noficio 14516 (2025-09-16): Otros Temas\noficio 6375 (2025-04-23): Procedimiento Tributario\noficio 5626 (2025-05-06): Procedimiento Tributario\noficio 20776 (2024-11-15): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-17321-2025",
+      "tipo": "oficio",
+      "numero": "17321",
+      "fecha": "2025-12-10",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14516-2025",
+      "tipo": "oficio",
+      "numero": "14516",
+      "fecha": "2025-09-16",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6375-2025",
+      "tipo": "oficio",
+      "numero": "6375",
+      "fecha": "2025-04-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5626-2025",
+      "tipo": "oficio",
+      "numero": "5626",
+      "fecha": "2025-05-06",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20776-2024",
+      "tipo": "oficio",
+      "numero": "20776",
+      "fecha": "2024-11-15",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3633-2024",
+      "tipo": "oficio",
+      "numero": "3633",
+      "fecha": "2024-06-06",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3423-2023",
+      "tipo": "oficio",
+      "numero": "3423",
+      "fecha": "2023-06-05",
+      "tema": "(Int 634) R&eacute;gimen tributario especial - Responsabilidad solidaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906760-2022",
+      "tipo": "oficio",
+      "numero": "906760",
+      "fecha": "2022-09-07",
+      "tema": "Procedimiento tributario. Sanci&oacute;n por extemporaneidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903830-2022",
+      "tipo": "oficio",
+      "numero": "903830",
+      "fecha": "2022-05-18",
+      "tema": "Renta presuntiva - Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909575-2021",
+      "tipo": "oficio",
+      "numero": "909575",
+      "fecha": "2021-10-09",
+      "tema": "Descripci&oacute;n de algunas obligaciones tributarias a cargo de los establecimientos p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908199-2021",
+      "tipo": "oficio",
+      "numero": "908199",
+      "fecha": "2021-08-13",
+      "tema": "Suscripci&oacute;n de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906828-2021",
+      "tipo": "oficio",
+      "numero": "906828",
+      "fecha": "2021-07-09",
+      "tema": "Procedimiento tributario - Intervenci&oacute;n de la administraci&oacute;n de impuestos en procesos de sucesi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905989-2020",
+      "tipo": "oficio",
+      "numero": "905989",
+      "fecha": "2020-10-14",
+      "tema": "Presentaci&oacute;n extratemporal del impuesto al patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903788-2020",
+      "tipo": "oficio",
+      "numero": "903788",
+      "fecha": "2020-08-05",
+      "tema": "Obligaciones tributarias formales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26947-2019",
+      "tipo": "oficio",
+      "numero": "26947",
+      "fecha": "2019-10-28",
+      "tema": "Responsabilidad en el impuesto sobre las ventas de las personas jur&iacute;dicas originadas en la constituci&oacute;n de propiedad horizontal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21794-2019",
+      "tipo": "oficio",
+      "numero": "21794",
+      "fecha": "2019-09-02",
+      "tema": "Deberes Formales del Contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20680-2019",
+      "tipo": "oficio",
+      "numero": "20680",
+      "fecha": "2019-08-20",
+      "tema": "&iquest;C&oacute;mo debe manejarse en la declaraci&oacute;n de renta el pago de Min Transporte por el reconocimiento econ&oacute;mico por desintegraci&oacute;n de un veh&iacute;culo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19776-2019",
+      "tipo": "oficio",
+      "numero": "19776",
+      "fecha": "2019-08-08",
+      "tema": "Obligaci&oacute;n de presentar y pagar la declaraci&oacute;n del impuesto al patrimonio y del impuesto sobre la renta y complementarios de una persona natural, cuando los activos que ella posee est&aacute;n incursos en un proceso de extinci&oacute;n de dominio y a cargo de la Sociedad de Activos Especiales -SAE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8166-2019",
+      "tipo": "oficio",
+      "numero": "8166",
+      "fecha": "2019-04-05",
+      "tema": "&iquest;Las entidades de la Naci&oacute;n est&aacute;n obligadas a presentar las declaraciones firmadas por contador p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30893-2018",
+      "tipo": "oficio",
+      "numero": "30893",
+      "fecha": "2018-10-08",
+      "tema": "&iquest;Podr&iacute;an cumplirse las obligaciones que al Establecimiento Permanente le corresponden en materia tributaria a trav&eacute;s de una sucursal de la misma sociedad extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16601-2018",
+      "tipo": "oficio",
+      "numero": "16601",
+      "fecha": "2018-06-26",
+      "tema": "&iquest;Los fondos parafiscales est&aacute;n obligados a presentar declaraci&oacute;n de ingresos y patrimonio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11033-2018",
+      "tipo": "oficio",
+      "numero": "11033",
+      "fecha": "2018-04-27",
+      "tema": "En una liquidaci&oacute;n judicial del patrimonio de una persona natural, donde el liquidador no tiene la calidad de representante legal, &iquest;sobre qui&eacute;n recae la obligaci&oacute;n formal de presentar oportunamente las declaraciones de renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10939-2018",
+      "tipo": "oficio",
+      "numero": "10939",
+      "fecha": "2018-04-27",
+      "tema": "&iquest;Si en ausencia del Representante Legal principal podr&iacute;a eventualmente firmar las declaraciones Tributarias un suplente de la sociedad fiduciaria de la Sociedad Administradora o seria responsabilidad de un suplente de los suscriptores del acuerdo consorcial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8239-2017",
+      "tipo": "oficio",
+      "numero": "8239",
+      "fecha": "2017-04-07",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0655-2016",
+      "tipo": "oficio",
+      "numero": "0655",
+      "fecha": "2016-06-30",
+      "tema": "Administrativo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34765-2015",
+      "tipo": "oficio",
+      "numero": "34765",
+      "fecha": "2015-12-04",
+      "tema": "&iquest;En qu&eacute; casos son solidariamente responsables, por las obligaciones tributarias de sociedades extranjeras inversionistas en Colombia, los apoderados de las mismas o las sociedades receptoras de la inversi&oacute;n? - En caso de que no haya responsabilidad solidaria por parte de los apoderados o por las sociedades receptoras de inversi&oacute;n respecto de obligaciones pendientes por parte de sociedades extranjeras, &iquest;c&oacute;mo se hacen exigible dichas obligaciones, con base en qu&eacute; normas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28049-2015",
+      "tipo": "oficio",
+      "numero": "28049",
+      "fecha": "2015-09-25",
+      "tema": "(Int 1249) Obligados a cumplir los deberes formales - Registro &Uacute;nico Tributario (RUT)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-51017-2014",
+      "tipo": "oficio",
+      "numero": "51017",
+      "fecha": "2014-08-22",
+      "tema": "Requisitos generales para el cumplimiento de obligaciones formales por parte de inversionistas extranjeros en Colombia - Los inversionistas de capital del exterior de portafolio son contribuyentes del impuesto sobre la renta y complementarios por las utilidades obtenidas en desarrollo de sus actividades",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22169-2014",
+      "tipo": "oficio",
+      "numero": "22169",
+      "fecha": "2014-04-07",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14319-2014",
+      "tipo": "oficio",
+      "numero": "14319",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;El impuesto sobre la renta y CREE debe declararse y determinarse por parte de las sociedades intervenidas, quedando como una deuda reconocida para su correspondiente pago posterior?&iquest;En virtud de la toma de posesi&oacute;n puede una sociedad intervenida declarar y pagar el IVA, por un servicio prestado, s&oacute;lo en el momento en que le es efectivamente pagado por parte del tercero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11308-2014",
+      "tipo": "oficio",
+      "numero": "11308",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Una Fundaci&oacute;n que se encuentra en proceso de liquidaci&oacute;n est&aacute; obligada a presentar declaraciones tributarias? como hacer si no se cuenta con la informaci&oacute;n contable por falta de entrega de los registros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59000-2012",
+      "tipo": "oficio",
+      "numero": "59000",
+      "fecha": "2012-09-18",
+      "tema": "&iquest;El contador p&uacute;blico que no firma las declaraciones de una compa&ntilde;&iacute;a obligada a presentar las' declaraciones virtualmente, porque dicha funci&oacute;n la hace el revisor fiscal, est&aacute; obligado a presentar sus propias declaraciones virtualmente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29927-2010",
+      "tipo": "oficio",
+      "numero": "29927",
+      "fecha": "2010-04-29",
+      "tema": "&iquest;Los agentes interventores nombrados en desarrollo del Decreto 4334 de 2008 son responsables de las obligaciones fiscales de las personas jur&iacute;dicas y naturales sometidas a la medida de intervenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15895-2008",
+      "tipo": "oficio",
+      "numero": "15895",
+      "fecha": "2008-12-26",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones en materia tributaria y cambiaria que debe cumplir una persona natural sin domicilio en el pa&iacute;s que realiza a trav&eacute;s de un tercero inversiones de capital en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14315-2008",
+      "tipo": "oficio",
+      "numero": "14315",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Se causa el impuesto sobre las ventas en la prestaci&oacute;n del servicio de exhibici&oacute;n de videos y fotograf&iacute;as a trav&eacute;s de internet desde servidores ubicados en el exterior, por parte de empresas extranjeras sin residencia o domicilio en Colombia bajo la modalidad de utilizaci&oacute;n de tarjetas prepagadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13347-2008",
+      "tipo": "oficio",
+      "numero": "13347",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario al que est&aacute; sometida la compra de acciones a nombre de hijos mayores y menores de edad? &iquest;Qui&eacute;n debe declarar las acciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079065-2007",
+      "tipo": "concepto",
+      "numero": "0079065",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Las Secciones Especializadas de Ahorro y Cr&eacute;dito - SEAC - que por mandato de la Ley 920 de 2004 adelantan la actividad financiera de las Cajas de Compensaci&oacute;n familiar, con la naturaleza de patrimonios aut&oacute;nomos, deben cumplir obligaciones tributarias formales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61825-2007",
+      "tipo": "oficio",
+      "numero": "61825",
+      "fecha": "2007-08-13",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55805-2007",
+      "tipo": "oficio",
+      "numero": "55805",
+      "fecha": "2007-07-23",
+      "tema": "&iquest;Qu&eacute; interpretaci&oacute;n le da la DIAN al Inc. 3&ordm; del art&iacute;culo 23 del E.T., teniendo en consideraci&oacute;n el Decreto 841 de 1998?&iquest;C&oacute;mo se interpreta el numeral 7&ordm;. Del decreto 841 de 1998, &iquest;cu&aacute;l es su alcance?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54543-2007",
+      "tipo": "oficio",
+      "numero": "54543",
+      "fecha": "2007-07-17",
+      "tema": "&iquest;qui&eacute;n debe suscribir las declaraciones del Impuesto sobre las Ventas y de Retenci&oacute;n en la Fuente, en el caso de una sociedad de responsabilidad limitada en la cual el representante legal y el suplente fallecieron, pero est&aacute;n vivos tres socios minoritarios que no tienen ning&uacute;n cargo directivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23411-2007",
+      "tipo": "oficio",
+      "numero": "23411",
+      "fecha": "2007-03-26",
+      "tema": "&iquest;Existe alguna norma que regule el cumplimiento de las obligaciones tributarias de las personas secuestradas, entre ellas la presentaci&oacute;n de declaraciones de renta, inscripci&oacute;n y actualizaci&oacute;n del RUT?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-103690-2006",
+      "tipo": "oficio",
+      "numero": "103690",
+      "fecha": "2006-12-12",
+      "tema": "&iquest;Cu&aacute;l es la situaci&oacute;n jur&iacute;dica de las declaraciones tributarias de menores de edad hu&eacute;rfanos presentadas por un tercero que no ten&iacute;a la representaci&oacute;n legal? Auto declarativo, cobro administrativo coactivo, correcci&oacute;n de errores e inconsistencias en declaraciones tributarias, correcciones que disminuyen el valor a pagar o aumentan el saldo a favor, deberes formales del contribuyente, declaraciones tributarias que se tienen por no presentadas, obligaciones del contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61181-2005",
+      "tipo": "oficio",
+      "numero": "61181",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;En qu&eacute; obligaciones tributarias se encontrar&iacute;a la empresa administradora del sistema de capitalizaci&oacute;n en los principios Network Marketing frente a la DIAN, en este ejercicio de capitalizaci&oacute;n y si el sistema es aceptable tributariamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89040-2004",
+      "tipo": "oficio",
+      "numero": "89040",
+      "fecha": "2004-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento que debe otorgarse en t&eacute;rminos generales a la instituci&oacute;n jur&iacute;dica de la herencia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023225-2002",
+      "tipo": "concepto",
+      "numero": "0023225",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;En qu&eacute; regl&oacute;n del formulario de la declaraci&oacute;n de renta y complementarios, deben las entidades con r&eacute;gimen tributario especial registrar la suma del excedente del ejercicio econ&oacute;mico o beneficio neto y su tratamiento tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001663-2002",
+      "tipo": "concepto",
+      "numero": "0001663",
+      "fecha": "2002-01-14",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de la retenci&oacute;n en la fuente para los ingresos en moneda extranjera provenientes del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078028-2000",
+      "tipo": "concepto",
+      "numero": "0078028",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Desde qu&eacute; edad se encuentran habilitados o en capacidad de presentar declaraci&oacute;n de renta los menores y qu&eacute; requisitos se deben cumplir para los mismos?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0037730-1997",
+      "tipo": "concepto",
+      "numero": "0037730",
+      "fecha": "1997-05-06",
+      "tema": "&iquest;A partir de qu&eacute; momento los contribuyentes que por mandato de las normas legales deben tener revisor fiscal, est&aacute;n en la obligaci&oacute;n de presentar sus declaraciones tributarias con la firma del respectivo revisor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032819-1996",
+      "tipo": "concepto",
+      "numero": "0032819",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015417-1996",
+      "tipo": "concepto",
+      "numero": "0015417",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032894-1993",
+      "tipo": "concepto",
+      "numero": "0032894",
+      "fecha": "1993-12-15",
+      "tema": "&iquest;Una sociedad que fue liquidada debe presentar una declaraci&oacute;n de renta que omiti&oacute; hacerlo en el pasado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003866-1993",
+      "tipo": "concepto",
+      "numero": "0003866",
+      "fecha": "1993-02-03",
+      "tema": "&iquest;Una oficina de representaci&oacute;n que carece de personer&iacute;a jur&iacute;dica y no tiene ingresos de Fuente Nacional en el Pa&iacute;s, se encuentra obligada a presentar declaraciones de retenci&oacute;n en la fuente del 10% sobre los pagos que efectu&eacute; en Colombia por concepto de honorarios, comisiones o servicios? Solicita igualmente, se le indique si existen conceptos emitidos por este Despacho, respecto a las obligaciones tributarias de las oficinas de representaci&oacute;n de un banco extranjero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019635-1991",
+      "tipo": "concepto",
+      "numero": "0019635",
+      "fecha": "1991-06-28",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004649-1990",
+      "tipo": "concepto",
+      "numero": "0004649",
+      "fecha": "1990-01-01",
+      "tema": "&iquest;El impuesto cancelado lo puede deducir en su totalidad la sociedad colombiana, a pesar de que una parte del valor del contrato lo recibe el proveedor del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003522-1990",
+      "tipo": "concepto",
+      "numero": "0003522",
+      "fecha": "1990-02-12",
+      "tema": "&iquest;Podr&iacute;a una persona jur&iacute;dica a trav&eacute;s de un poder especial, suscribir declaraciones de renta pretendiendo obrar como mandatario especial?",
+      "vigente": true
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import { clsx } from "clsx";
 import { ResponsiveContainer, Tooltip, Treemap } from "recharts";
 
 interface LibroEntry {
@@ -9,6 +10,8 @@ interface LibroEntry {
 
 interface LibroTreemapChartProps {
   data: LibroEntry[];
+  selectedLibro?: string | null;
+  onSelect?: (name: string | null) => void;
 }
 
 const COLORS = [
@@ -21,7 +24,7 @@ const COLORS = [
   "hsl(0,0%,66%)",
 ];
 
-export function LibroTreemapChart({ data }: LibroTreemapChartProps) {
+export function LibroTreemapChart({ data, selectedLibro, onSelect }: LibroTreemapChartProps) {
   const payload = data.map((entry, index) => ({
     ...entry,
     fill: COLORS[index % COLORS.length],
@@ -29,7 +32,17 @@ export function LibroTreemapChart({ data }: LibroTreemapChartProps) {
 
   return (
     <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
-      <h3 className="heading-serif mb-4 text-lg">Distribución por libro (Treemap)</h3>
+      <div className="mb-4 flex items-center justify-between">
+        <h3 className="heading-serif text-lg">Distribución por libro</h3>
+        {selectedLibro && (
+          <button
+            onClick={() => onSelect?.(null)}
+            className="text-xs text-muted-foreground hover:text-foreground"
+          >
+            Limpiar filtro
+          </button>
+        )}
+      </div>
       <div className="h-80">
         <ResponsiveContainer width="100%" height="100%">
           <Treemap
@@ -38,6 +51,11 @@ export function LibroTreemapChart({ data }: LibroTreemapChartProps) {
             aspectRatio={4 / 3}
             stroke="var(--border)"
             fill="hsl(0,0%,15%)"
+            onClick={(node) => {
+              if (node && node.name) {
+                onSelect?.(node.name === selectedLibro ? null : node.name);
+              }
+            }}
           >
             <Tooltip
               contentStyle={{
@@ -53,15 +71,22 @@ export function LibroTreemapChart({ data }: LibroTreemapChartProps) {
       </div>
       <div className="mt-3 grid gap-1 text-xs text-muted-foreground sm:grid-cols-2">
         {payload.map((entry) => (
-          <div key={entry.name} className="flex items-center gap-1.5">
+          <button
+            key={entry.name}
+            onClick={() => onSelect?.(entry.name === selectedLibro ? null : entry.name)}
+            className={clsx(
+              "flex items-center gap-1.5 text-left transition-opacity",
+              selectedLibro && selectedLibro !== entry.name && "opacity-40"
+            )}
+          >
             <span
               className="h-2.5 w-2.5 rounded-full"
               style={{ backgroundColor: entry.fill }}
             />
-            <span>
+            <span className={clsx(selectedLibro === entry.name && "font-bold text-foreground")}>
               {entry.name}: {entry.value}
             </span>
-          </div>
+          </button>
         ))}
       </div>
     </div>

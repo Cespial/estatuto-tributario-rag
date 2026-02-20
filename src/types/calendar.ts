@@ -16,6 +16,7 @@ export interface CalendarDeadlineItem {
   calculadoraHref: string;
   relatedIndicatorIds: string[];
   relatedNovedadIds: string[];
+  articulosET?: string[];
   status: DeadlineStatus;
   daysToDeadline: number;
 }

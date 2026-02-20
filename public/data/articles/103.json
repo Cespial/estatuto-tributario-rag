@@ -1,1 +1,1151 @@
-{"id_articulo": "Art. 103", "titulo": "Art. 103. Rentas de trabajo", "titulo_corto": "Rentas de trabajo", "slug": "103", "url_origen": "https://estatuto.co/103", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Se consideran rentas exclusivas de trabajo, las obtenidas por personas naturales por concepto de salarios, comisiones, prestaciones sociales, viáticos, gastos de representación, honorarios, emolumentos eclesiásticos, compensaciones recibidas por el trabajo asociado cooperativo y, en general, las compensaciones por servicios personales. Parágrafo 1.Para que sean consideradas como rentas de trabajo las compensaciones recibidas por el trabajo asociado cooperativo, la precooperativa o cooperativa de trabajo asociado, deberá tener registrados sus regímenes de trabajo y compensaciones en el Ministerio de Trabajo y Seguridad Social y los trabajadores asociados de aquellas deberán estar vinculados a regímenes de seguridad social en salud y pensiones aceptados por la ley, o tener el carácter de pensionados o con asignación de retiro de acuerdo con los regímenes especiales establecidos por la ley. Igualmente, deberán estar vinculados al sistema general de riesgos profesionales. Parágrafo 2. Las compensaciones recibidas por el trabajo asociado cooperativo están gravadas con el impuesto a la renta y complementarios en los mismos términos, condiciones y excepciones establecidos en el Estatuto Tributario para las rentas exentas de trabajo provenientes de la relación laboral asalariada.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Se consideran rentas exclusivas de trabajo, las obtenidas por personas naturales por concepto de salarios, comisiones, prestaciones sociales, viáticos, gastos de representación, honorarios, emolumentos eclesiásticos, compensaciones recibidas por el trabajo asociado cooperativo y, en general, las compensaciones por servicios personales.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1.</span></strong>Para que sean consideradas como rentas de trabajo las compensaciones recibidas por el trabajo asociado cooperativo, la precooperativa o cooperativa de trabajo asociado, deberá tener registrados sus regímenes de trabajo y compensaciones en el Ministerio de Trabajo y Seguridad Social y los trabajadores asociados de aquellas deberán estar vinculados a regímenes de seguridad social en salud y pensiones aceptados por la ley, o tener el carácter de pensionados o con asignación de retiro de acuerdo con los regímenes especiales establecidos por la ley. Igualmente, deberán estar vinculados al sistema general de riesgos profesionales.</p>\n<p><strong><span class=\"verde\"><span class=\"verde\" style=\"color: #339966;\">Parágrafo 2.</span> </span></strong>Las compensaciones recibidas por el trabajo asociado cooperativo están gravadas con el impuesto a la renta y complementarios en los mismos términos, condiciones y excepciones establecidos en el Estatuto Tributario para las rentas exentas de trabajo provenientes de la relación laboral asalariada.</p>\n</span>", "modificaciones_raw": "* Modificado por la Ley 633 de 2000 Art. 21.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "633", "norma_year": 2000, "norma_articulo": "21"}], "total_modificaciones": 1, "ultima_modificacion_year": 2000, "leyes_modificatorias": ["Ley 633 de 2000"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["335"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 103",
+  "titulo": "Art. 103. Rentas de trabajo",
+  "titulo_corto": "Rentas de trabajo",
+  "slug": "103",
+  "url_origen": "https://estatuto.co/103",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Se consideran rentas exclusivas de trabajo, las obtenidas por personas naturales por concepto de salarios, comisiones, prestaciones sociales, viáticos, gastos de representación, honorarios, emolumentos eclesiásticos, compensaciones recibidas por el trabajo asociado cooperativo y, en general, las compensaciones por servicios personales. Parágrafo 1.Para que sean consideradas como rentas de trabajo las compensaciones recibidas por el trabajo asociado cooperativo, la precooperativa o cooperativa de trabajo asociado, deberá tener registrados sus regímenes de trabajo y compensaciones en el Ministerio de Trabajo y Seguridad Social y los trabajadores asociados de aquellas deberán estar vinculados a regímenes de seguridad social en salud y pensiones aceptados por la ley, o tener el carácter de pensionados o con asignación de retiro de acuerdo con los regímenes especiales establecidos por la ley. Igualmente, deberán estar vinculados al sistema general de riesgos profesionales. Parágrafo 2. Las compensaciones recibidas por el trabajo asociado cooperativo están gravadas con el impuesto a la renta y complementarios en los mismos términos, condiciones y excepciones establecidos en el Estatuto Tributario para las rentas exentas de trabajo provenientes de la relación laboral asalariada.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong>Se consideran rentas exclusivas de trabajo, las obtenidas por personas naturales por concepto de salarios, comisiones, prestaciones sociales, viáticos, gastos de representación, honorarios, emolumentos eclesiásticos, compensaciones recibidas por el trabajo asociado cooperativo y, en general, las compensaciones por servicios personales.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">Parágrafo 1.</span></strong>Para que sean consideradas como rentas de trabajo las compensaciones recibidas por el trabajo asociado cooperativo, la precooperativa o cooperativa de trabajo asociado, deberá tener registrados sus regímenes de trabajo y compensaciones en el Ministerio de Trabajo y Seguridad Social y los trabajadores asociados de aquellas deberán estar vinculados a regímenes de seguridad social en salud y pensiones aceptados por la ley, o tener el carácter de pensionados o con asignación de retiro de acuerdo con los regímenes especiales establecidos por la ley. Igualmente, deberán estar vinculados al sistema general de riesgos profesionales.</p>\n<p><strong><span class=\"verde\"><span class=\"verde\" style=\"color: #339966;\">Parágrafo 2.</span> </span></strong>Las compensaciones recibidas por el trabajo asociado cooperativo están gravadas con el impuesto a la renta y complementarios en los mismos términos, condiciones y excepciones establecidos en el Estatuto Tributario para las rentas exentas de trabajo provenientes de la relación laboral asalariada.</p>\n</span>",
+  "modificaciones_raw": "* Modificado por la Ley 633 de 2000 Art. 21.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "633",
+      "norma_year": 2000,
+      "norma_articulo": "21"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2000,
+  "leyes_modificatorias": [
+    "Ley 633 de 2000"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "335"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 25 concepto(s) relacionado(s). Jurisprudencia: 13 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)\noficio 19560 (2023-11-01): (Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,\noficio 11080 (2023-08-04): (Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022\noficio 17277 (2025-12-05): Impuesto sobre la Renta y Complementarios",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17277-2025",
+      "tipo": "oficio",
+      "numero": "17277",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9394-2025",
+      "tipo": "oficio",
+      "numero": "9394",
+      "fecha": "2025-07-17",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7654-2025",
+      "tipo": "oficio",
+      "numero": "7654",
+      "fecha": "2025-06-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15355-2024",
+      "tipo": "oficio",
+      "numero": "15355",
+      "fecha": "2024-08-13",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4429-2024",
+      "tipo": "oficio",
+      "numero": "4429",
+      "fecha": "2024-07-02",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3156-2024",
+      "tipo": "oficio",
+      "numero": "3156",
+      "fecha": "2024-05-15",
+      "tema": "(Int 350) &iquest;Qu&eacute; concepto se debe reportar en la casilla 48 del formulario 220",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0113-2024",
+      "tipo": "oficio",
+      "numero": "0113",
+      "fecha": "2024-01-10",
+      "tema": "(Int 34) Impuesto sobre la renta y complementarios - Vi&aacute;ticos - Reembolso de gastos - Prestaci&oacute;n de servicios - Rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0081-2023",
+      "tipo": "oficio",
+      "numero": "0081",
+      "fecha": "2023-01-10",
+      "tema": "Impuesto sobre la renta - Deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908750-2022",
+      "tipo": "oficio",
+      "numero": "908750",
+      "fecha": "2022-12-12",
+      "tema": "Ingresos gravados - Pago a teletrabajadores - Empleadores obligados a presentar declaraci&oacute;n de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906761-2022",
+      "tipo": "oficio",
+      "numero": "906761",
+      "fecha": "2022-09-08",
+      "tema": "Retenci&oacute;n en la fuente - Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906729-2022",
+      "tipo": "oficio",
+      "numero": "906729",
+      "fecha": "2022-09-06",
+      "tema": "Retenci&oacute;n en la fuente - Ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905834-2022",
+      "tipo": "oficio",
+      "numero": "905834",
+      "fecha": "2022-07-29",
+      "tema": "Impuesto sobre la renta -- Rentas exentas - personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900977-2022",
+      "tipo": "oficio",
+      "numero": "900977",
+      "fecha": "2022-02-09",
+      "tema": "Impuesto sobre la renta - Pagos basados en acciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915218-2021",
+      "tipo": "oficio",
+      "numero": "915218",
+      "fecha": "2021-12-13",
+      "tema": "Tratamiento tributario en materia de retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913305-2021",
+      "tipo": "oficio",
+      "numero": "913305",
+      "fecha": "2021-10-26",
+      "tema": "Retenci&oacute;n en la fuente, Par&aacute;grafo 2 del art&iacute;culo 383 del Estatuto Tributario, el concepto de &iquest;pagos mensualizados, para efectos de la retenci&oacute;n en la fuente, se deben sumar cuando se presenten dos o m&aacute;s en un mes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909834-2021",
+      "tipo": "oficio",
+      "numero": "909834",
+      "fecha": "2021-09-15",
+      "tema": "Base de depuraci&oacute;n en materia de retenci&oacute;n en la fuente para el impuesto de industria y comercio y el impuesto de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908123-2021",
+      "tipo": "oficio",
+      "numero": "908123",
+      "fecha": "2021-08-12",
+      "tema": "Requisitos de la obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908095-2021",
+      "tipo": "oficio",
+      "numero": "908095",
+      "fecha": "2021-08-11",
+      "tema": "Renta exenta - Aportes voluntarios fondo de pensiones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907102-2021",
+      "tipo": "oficio",
+      "numero": "907102",
+      "fecha": "2021-07-19",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907096-2021",
+      "tipo": "oficio",
+      "numero": "907096",
+      "fecha": "2021-07-17",
+      "tema": "Sistema de Facturaci&oacute;n electr&oacute;nica de Venta - N&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906390-2021",
+      "tipo": "oficio",
+      "numero": "906390",
+      "fecha": "2021-06-30",
+      "tema": "Determinaci&oacute;n del impuesto - Honorarios - Rentas exentas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902957-2021",
+      "tipo": "oficio",
+      "numero": "902957",
+      "fecha": "2021-04-07",
+      "tema": "Deducci&oacute;n por contribuciones a educaci&oacute;n de los empleados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901110-2021",
+      "tipo": "oficio",
+      "numero": "901110",
+      "fecha": "2021-02-12",
+      "tema": "&iquest;Cu&aacute;l es la base gravable para aplicar la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903511-2020",
+      "tipo": "oficio",
+      "numero": "903511",
+      "fecha": "2020-07-27",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente, establecido en el art&iacute;culo 255 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903297-2020",
+      "tipo": "oficio",
+      "numero": "903297",
+      "fecha": "2020-07-21",
+      "tema": "Implicaciones tributarias derivadas del reajuste salarial con base en el &iacute;ndice de precios al consumidor -IPC",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903073-2020",
+      "tipo": "oficio",
+      "numero": "903073",
+      "fecha": "2020-07-09",
+      "tema": "&iquest;El pago de vacaciones se debe incluir o no en la base gravable para aplicar el impuesto obligatorio y aporte solidario del Decreto 568 de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902031-2020",
+      "tipo": "oficio",
+      "numero": "902031",
+      "fecha": "2020-06-03",
+      "tema": "&iquest;C&oacute;mo deber&iacute;a realizarse la aplicaci&oacute;n del Decreto Legislativo 568 de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901429-2020",
+      "tipo": "oficio",
+      "numero": "901429",
+      "fecha": "2020-05-05",
+      "tema": "Impuesto solidario por COVID-19 Retenci&oacute;n en la fuente por rentas de trabajo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901007-2020",
+      "tipo": "oficio",
+      "numero": "901007",
+      "fecha": "2020-01-01",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000577-2020",
+      "tipo": "concepto",
+      "numero": "0000577",
+      "fecha": "2020-10-28",
+      "tema": "(9510) Persona natural no residente en el pa&iacute;s, obligada a presentar declaraci&oacute;n del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0454-2020",
+      "tipo": "oficio",
+      "numero": "0454",
+      "fecha": "2020-01-09",
+      "tema": "Disminuci&oacute;n de la Base de Retenci&oacute;n para Trabajadores Independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0359-2020",
+      "tipo": "oficio",
+      "numero": "0359",
+      "fecha": "2020-03-26",
+      "tema": "Deducci&oacute;n especial sobre el impuesto de renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0355-2020",
+      "tipo": "oficio",
+      "numero": "0355",
+      "fecha": "2020-01-01",
+      "tema": "Retenci&oacute;n en la Fuente por Pago de Honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0351-2020",
+      "tipo": "oficio",
+      "numero": "0351",
+      "fecha": "2020-01-01",
+      "tema": "Depuraci&oacute;n de la base del c&aacute;lculo de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2304-2019",
+      "tipo": "oficio",
+      "numero": "2304",
+      "fecha": "2019-10-22",
+      "tema": "(Int 2304) Renta Exenta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28562-2019",
+      "tipo": "oficio",
+      "numero": "28562",
+      "fecha": "2019-11-26",
+      "tema": "&iquest;Cu&aacute;l es el ingreso laboral que se debe tener en cuenta para determinar el ingreso mensual promedio de los trabajadores a fin de calcular la parte exenta de las cesant&iacute;as e intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28260-2019",
+      "tipo": "oficio",
+      "numero": "28260",
+      "fecha": "2019-11-14",
+      "tema": "Mecanismos para Efectuar la Devoluci&oacute;n de Saldos a Favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24697-2019",
+      "tipo": "oficio",
+      "numero": "24697",
+      "fecha": "2019-09-30",
+      "tema": "Renta l&iacute;quida cedular de las rentas no laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23292-2019",
+      "tipo": "oficio",
+      "numero": "23292",
+      "fecha": "2019-09-13",
+      "tema": "Disminuci&oacute;n de la Base de Retenci&oacute;n por Pagos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21762-2019",
+      "tipo": "oficio",
+      "numero": "21762",
+      "fecha": "2019-09-02",
+      "tema": "Usufructo legal de los padres de unos menores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21757-2019",
+      "tipo": "oficio",
+      "numero": "21757",
+      "fecha": "2019-09-02",
+      "tema": "Tarifa de Retenci&oacute;n por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20081-2019",
+      "tipo": "oficio",
+      "numero": "20081",
+      "fecha": "2019-08-08",
+      "tema": "&iquest;C&oacute;mo se catalogan los ingresos que por cuenta del Estado recibir&aacute;n las IPS para el pago a los residentes beneficiarios del apoyo de sostenimiento educativo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20047-2019",
+      "tipo": "oficio",
+      "numero": "20047",
+      "fecha": "2019-08-13",
+      "tema": "&iquest;C&oacute;mo funcionan los descuentos de impuestos para extranjeros en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19334-2019",
+      "tipo": "oficio",
+      "numero": "19334",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios Retenci&oacute;n en la fuente. Determinaci&oacute;n del impuesto sobre la renta de las personas naturales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17968-2019",
+      "tipo": "oficio",
+      "numero": "17968",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Debe considerarse como exento de renta y no constitutivo de salario la prima especial y la prima de costo de vida que devengan los Consejeros Comerciales y Asesores Comerciales al servicio del Ministerio de Comercio industria y Turismo que laboran en una planta del exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17951-2019",
+      "tipo": "oficio",
+      "numero": "17951",
+      "fecha": "2019-07-10",
+      "tema": "ITEM III sobre retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta en los contratos de prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16786-2019",
+      "tipo": "oficio",
+      "numero": "16786",
+      "fecha": "2019-06-28",
+      "tema": "&iquest;Se debe incluir la pensi&oacute;n como ingreso gravable en la declaraci&oacute;n del impuesto sobre la renta cuando el valor de la pensi&oacute;n en menor a la DTF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15472-2019",
+      "tipo": "oficio",
+      "numero": "15472",
+      "fecha": "2019-06-12",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 107-2 del Estatuto Tributario relacionado con salarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10493-2019",
+      "tipo": "oficio",
+      "numero": "10493",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6309-2019",
+      "tipo": "oficio",
+      "numero": "6309",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n - Determinaci&oacute;n de la Retenci&oacute;n para Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6279-2019",
+      "tipo": "oficio",
+      "numero": "6279",
+      "fecha": "2019-03-13",
+      "tema": "Hechos Generadores - Tarifa de IVA para los independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3446-2019",
+      "tipo": "oficio",
+      "numero": "3446",
+      "fecha": "2019-02-08",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3345-2019",
+      "tipo": "oficio",
+      "numero": "3345",
+      "fecha": "2019-02-08",
+      "tema": "Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1442-2019",
+      "tipo": "oficio",
+      "numero": "1442",
+      "fecha": "2019-01-15",
+      "tema": "&iquest;Las personas naturales (empleados y contratistas) que integran la renta cedular",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901555-2018",
+      "tipo": "oficio",
+      "numero": "901555",
+      "fecha": "2018-11-29",
+      "tema": "&iquest;Se pueden incluir como ingresos no constitutivos de renta ni ganancia ocasional los aportes adicionales y-o voluntarios a salud que se efect&uacute;en a una entidad del r&eacute;gimen de salud contemplado en la Ley 647 de 2001 que modific&oacute; el par&aacute;grafo del art&iacute;culo 57 de la Ley 30 de 1992, sobre la educaci&oacute;n superior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900405-2018",
+      "tipo": "oficio",
+      "numero": "900405",
+      "fecha": "2018-11-21",
+      "tema": "Vigencia de algunos apartes del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900402-2018",
+      "tipo": "oficio",
+      "numero": "900402",
+      "fecha": "2018-11-20",
+      "tema": "Retenci&oacute;n en la fuente en auxilios y subsidios a trabajadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34714-2018",
+      "tipo": "oficio",
+      "numero": "34714",
+      "fecha": "2018-12-13",
+      "tema": "Tarifa de Retenci&oacute;n en la Fuente por Emolumentos Eclesi&aacute;sticos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34283-2018",
+      "tipo": "oficio",
+      "numero": "34283",
+      "fecha": "2018-12-11",
+      "tema": "Clasificaci&oacute;n de las rentas cedulares de las personas naturales y sucesiones il&iacute;quidas residentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33257-2018",
+      "tipo": "oficio",
+      "numero": "33257",
+      "fecha": "2018-11-14",
+      "tema": "Retenci&oacute;n en la Fuente por Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32754-2018",
+      "tipo": "oficio",
+      "numero": "32754",
+      "fecha": "2018-11-09",
+      "tema": "&iquest;Es deducible para el empleador los pagos por compensaciones laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32487-2018",
+      "tipo": "oficio",
+      "numero": "32487",
+      "fecha": "2018-11-07",
+      "tema": "Tarifa de retenci&oacute;n en la fuente aplicable a una cesi&oacute;n de derechos de autor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31512-2018",
+      "tipo": "oficio",
+      "numero": "31512",
+      "fecha": "2018-10-17",
+      "tema": "Naturaleza de los ingresos por bonificaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29506-2018",
+      "tipo": "oficio",
+      "numero": "29506",
+      "fecha": "2018-10-04",
+      "tema": "Efectos en la aplicaci&oacute;n de la retenci&oacute;n en la fuente a t&iacute;tulo de renta derivados de la expedici&oacute;n del Decreto No. 1273 de 2018, por medio del cual se modific&oacute; y se adicion&oacute; el Decreto 780 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17162-2018",
+      "tipo": "oficio",
+      "numero": "17162",
+      "fecha": "2018-06-29",
+      "tema": "Declaraciones del CREE de los a&ntilde;os gravables 2015 y 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6459-2018",
+      "tipo": "oficio",
+      "numero": "6459",
+      "fecha": "2018-03-15",
+      "tema": "Retenci&oacute;n en el Impuesto Sobre la Renta - Personas naturales - Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5875-2018",
+      "tipo": "oficio",
+      "numero": "5875",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;Si una empresa realiza una inversi&oacute;n ambiental y logra el certificado de descuento tributario ante autoridad competente, podr&aacute; descontar de su impuesto de renta a cargo el 25% de la inversi&oacute;n, seg&uacute;n el art&iacute;culo 255 del E.T. y depreciar el 75%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1813-2018",
+      "tipo": "oficio",
+      "numero": "1813",
+      "fecha": "2018-10-22",
+      "tema": "Impuesto sobre la renta - Deducci&oacute;n por salarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0570-2018",
+      "tipo": "oficio",
+      "numero": "0570",
+      "fecha": "2018-04-26",
+      "tema": "Procedencia de la deducci&oacute;n prevista en el par&aacute;grafo 1 del art&iacute;culo 33-2 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0541-2018",
+      "tipo": "oficio",
+      "numero": "0541",
+      "fecha": "2018-04-24",
+      "tema": "&iquest;Se encuentra vigente la exenci&oacute;n contenida en el art&iacute;culo 27 de la Ley 488 de 1998",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0429-2018",
+      "tipo": "oficio",
+      "numero": "0429",
+      "fecha": "2018-01-05",
+      "tema": "Beneficios tributarios otorgados a usuarios por inversi&oacute;n en control y mejoramiento del ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0162-2018",
+      "tipo": "oficio",
+      "numero": "0162",
+      "fecha": "2018-02-12",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los trabajadores contratados mediante prestaci&oacute;n de servicios personales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34091-2017",
+      "tipo": "oficio",
+      "numero": "34091",
+      "fecha": "2017-12-20",
+      "tema": "Para determinar el porcentaje fijo de retenci&oacute;n en la fuente aplicable a los pagos laborales, &iquest;se deben tener en cuenta los factores de depuraci&oacute;n de la renta ordinaria y de la retenci&oacute;n en la fuente modificados por Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33253-2017",
+      "tipo": "oficio",
+      "numero": "33253",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;El ingreso de un asesor de corretaje que percibe ingresos por comisi&oacute;n de acuerdo a su colocaci&oacute;n de clientes potenciales para realizarles cr&eacute;dito a trav&eacute;s de un outsourcing de entidades financieras y cooperativas tiene tratamiento de rentas de trabajo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20257-2017",
+      "tipo": "oficio",
+      "numero": "20257",
+      "fecha": "2017-07-31",
+      "tema": "Depuraci&oacute;n de la base de retenci&oacute;n en la fuente por ingresos laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19453-2017",
+      "tipo": "oficio",
+      "numero": "19453",
+      "fecha": "2017-07-21",
+      "tema": "Retenci&oacute;n en la fuente por rentas de trabajo - honorarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10810-2017",
+      "tipo": "oficio",
+      "numero": "10810",
+      "fecha": "2017-05-08",
+      "tema": "Rentas de trabajo exentas- Gastos de representaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7135-2017",
+      "tipo": "oficio",
+      "numero": "7135",
+      "fecha": "2017-03-29",
+      "tema": "&iquest; Seg&uacute;n lo dispuesto por los art&iacute;culos 17 y 18 de la Ley 1819 de 2016, que modifica los art&iacute;culos 383 y 388 del Estatuto Tributario, existen dos procedimientos para establecer la base de retenci&oacute;n en la fuente para honorarios que son rentas laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7075-2017",
+      "tipo": "oficio",
+      "numero": "7075",
+      "fecha": "2017-03-29",
+      "tema": "&iquest;Con la reforma tributar&iacute;a expedida por el Gobierno Nacional a trav&eacute;s de la ley 1819 de 2016 de 2016, los trabajadores asalariados quedamos cobijados por la reforma?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5427-2017",
+      "tipo": "oficio",
+      "numero": "5427",
+      "fecha": "2017-03-14",
+      "tema": "&iquest;Los servicios t&eacute;cnicos, asistencia t&eacute;cnica y consultor&iacute;a prestada por personas naturales residentes en Colombia son consideradas rentas de trabajo seg&uacute;n lo establecido en el art&iacute;culo 103 del Estatuto Tributario? En caso afirmativo &iquest;Sus ingresos estar&iacute;an sometidos a la tabla de retenci&oacute;n del art&iacute;culo 383 del Estatuto Tributario en el hecho de que se cumpla con el requisito se&ntilde;alado en el inciso 2o del art&iacute;culo 340 del E.T?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3697-2017",
+      "tipo": "oficio",
+      "numero": "3697",
+      "fecha": "2017-06-01",
+      "tema": "&iquest;Para establecer la base de retenci&oacute;n en la fuente de los ingresos de los funcionarios p&uacute;blicos cu&aacute;les son los ingresos no constitutivos de renta ni de ganancia ocasional, las rentas exentas y las deducciones con los que aquellos se depuran?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3514-2017",
+      "tipo": "oficio",
+      "numero": "3514",
+      "fecha": "2017-05-31",
+      "tema": "&iquest;Cu&aacute;les son los ingresos no constitutivos de renta en c&eacute;dula denominada rentas de trabajo? y qu&eacute; paso con los art&iacute;culos del Estatuto Tributario, especialmente con los aportes del empleador a los fondos de cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1144-2017",
+      "tipo": "oficio",
+      "numero": "1144",
+      "fecha": "2017-07-28",
+      "tema": "Rentas exentas y deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1077-2017",
+      "tipo": "oficio",
+      "numero": "1077",
+      "fecha": "2017-10-18",
+      "tema": "&iquest;Qu&eacute; pasa con las deducciones en que incurran las personas naturales que contraten trabajadores y no se cumplan los dos condiciones del ac&aacute;pite anterior, debiendo estas declarar sus ingresos por honorarios en las rentas cedulares de trabajo, pudiendo solamente solicitar deducciones imputables a esta rentas y no los gastos procedentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30970-2016",
+      "tipo": "oficio",
+      "numero": "30970",
+      "fecha": "2016-11-15",
+      "tema": "Manifiesta su inconformidad frente a la interpretaci&oacute;n expuesta en el Oficio n&uacute;mero 014740 del 13 de junio de 2016, se&ntilde;alando que no la comparte, dado que seg&uacute;n su criterio, los art&iacute;culos 126-1, 126-4, 387 y 387-1 del Estatuto Tributario son aplicables a los trabajadores extranjeros sin residencia en Colombia, ya que estos no hacen distinci&oacute;n y deber&iacute;an aplicarse para cualquier individuo que perciba compensaci&oacute;n por sus servicios y de esta manera hacer uso de los mecanismos que la misma ley contempla para optimizar sus impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24223-2016",
+      "tipo": "oficio",
+      "numero": "24223",
+      "fecha": "2016-09-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20878-2016",
+      "tipo": "oficio",
+      "numero": "20878",
+      "fecha": "2016-09-27",
+      "tema": "Reconsideraci&oacute;n de los Oficios n&uacute;mero 60032 del 23 de septiembre de 2013 y n&uacute;mero 34321 del 6 de junio de 2014 de acuerdo con los siguientes argumentos, que fueran manifestados por un contribuyente que ha solicitado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14740-2016",
+      "tipo": "oficio",
+      "numero": "14740",
+      "fecha": "2016-06-13",
+      "tema": "Impuesto sobre la renta y complementarios &iquest;Si los empleados extranjeros sin residencia fiscal en Colombia, tienen derecho a las deducciones de la base mensual de retenci&oacute;n en la fuente previstas en los art&iacute;culos No. 387 y 387-1 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1043-2016",
+      "tipo": "oficio",
+      "numero": "1043",
+      "fecha": "2016-01-29",
+      "tema": "Impuesto sobre la Renta y Complementarios - &iquest;Las actividades de los vendedores independientes son comerciales o mercantiles?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1026-2016",
+      "tipo": "oficio",
+      "numero": "1026",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1020-2016",
+      "tipo": "oficio",
+      "numero": "1020",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0995-2016",
+      "tipo": "oficio",
+      "numero": "0995",
+      "fecha": "2016-02-01",
+      "tema": "Impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0058-2016",
+      "tipo": "oficio",
+      "numero": "0058",
+      "fecha": "2016-01-29",
+      "tema": "Impuesto sobre la renta y complementarios, deducciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25474-2015",
+      "tipo": "oficio",
+      "numero": "25474",
+      "fecha": "2015-09-02",
+      "tema": "Retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23817-2015",
+      "tipo": "oficio",
+      "numero": "23817",
+      "fecha": "2015-08-18",
+      "tema": "Obligados a inscribirse en el RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009179-2015",
+      "tipo": "concepto",
+      "numero": "0009179",
+      "fecha": "2015-03-26",
+      "tema": "&iquest;Los pagos o abonos en cuenta por concepto de pasajes y gastos de manutenci&oacute;n que se le reconocen a un contratista persona natural constituyen ingreso fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7121-2015",
+      "tipo": "oficio",
+      "numero": "7121",
+      "fecha": "2015-03-06",
+      "tema": "Impuesto sobre la renta - Ingresos gravados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64349-2014",
+      "tipo": "oficio",
+      "numero": "64349",
+      "fecha": "2014-11-26",
+      "tema": "&iquest;Cu&aacute;l es la forma de registrar en la declaraci&oacute;n de renta del a&ntilde;o gravable 2013 la adquisici&oacute;n de un inmueble, que se hizo por parte de una persona natural vinculada mediante contrato laboral con la fuerza a&eacute;rea de Colombia en el &aacute;rea administrativa, con recursos provenientes de ahorro obligatorio, cesant&iacute;as y subsidio para vivienda?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48258-2014",
+      "tipo": "oficio",
+      "numero": "48258",
+      "fecha": "2014-08-11",
+      "tema": "&iquest;Para la procedencia de la deducci&oacute;n por concepto de alquileres pagados a una persona natural propietaria de locales comerciales, el arrendatario debe verificar la afiliaci&oacute;n y el pago de las cotizaciones y aportes al Sistema General de Seguridad Social que le correspondan al arrendador seg&uacute;n la ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34321-2014",
+      "tipo": "oficio",
+      "numero": "34321",
+      "fecha": "2014-06-09",
+      "tema": "Reconsideraci&oacute;n del Oficio n&uacute;mero 60032 del 23 de septiembre de 2013, en el cual se concluy&oacute; que para la procedencia de la deducci&oacute;n por pagos realizados a una persona natural que presta servicios de transporte de carga, el contratante deber&aacute; verificar la afiliaci&oacute;n y el pago de las cotizaciones y aportes al Sistema General de Seguridad Social que le correspondan al contratista seg&uacute;n la ley",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2732-2014",
+      "tipo": "oficio",
+      "numero": "2732",
+      "fecha": "2014-09-15",
+      "tema": "&iquest;Cu&aacute;l es la norma de retenci&oacute;n en la fuente aplicable al pago efectuado por liquidaci&oacute;n ele sentencias judiciales, en casos de nivelaci&oacute;n salarial, reconocimiento y revisi&oacute;n de prima t&eacute;cnica y reintegros?&iquest;Qu&eacute; se debe entender por sueldo mensual?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50629-2012",
+      "tipo": "oficio",
+      "numero": "50629",
+      "fecha": "2012-08-10",
+      "tema": "&iquest;Qu&eacute; se entiende por trabajador independiente del r&eacute;gimen simplificado?&iquest;Las Empresas Sociales del Estado (ESE), est&aacute;n obligadas a facturar y solicitar resoluci&oacute;n de numeraci&oacute;n ante la DIAN?&iquest;La Asociaci&oacute;n M&eacute;dica Sindical Colombiana Seccional Cundinamarca (Asmedas), entidad sin &aacute;nimo de lucro, est&aacute; obligada a facturar con los requisitos de ley o por el contrario puede elaborar cuenta de cobro por los servicios prestados de m&eacute;dicos especializados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50627-2012",
+      "tipo": "oficio",
+      "numero": "50627",
+      "fecha": "2012-08-10",
+      "tema": "&iquest;Un asalariado que a su vez tiene contratos de prestaci&oacute;n de servicios como independiente puede acogerse al art&iacute;culo 13 de la Ley 1527 de 2012?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72272-2009",
+      "tipo": "oficio",
+      "numero": "72272",
+      "fecha": "2009-09-04",
+      "tema": "&iquest;Son aplicables a la Sociedad por Acciones Simplificada de que trata la Ley 1258 de 2008, los art&iacute;culos 60 y 62 del Estatuto Tributario, si todos los activos con que cuenta la sociedad corresponden a inventarios disponibles para la venta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3877-2006",
+      "tipo": "oficio",
+      "numero": "3877",
+      "fecha": "2006-01-13",
+      "tema": "&iquest;Antes de la expedici&oacute;n del Decreto 3595 de 2005 se hab&iacute;a reglamentado el concepto de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3875-2006",
+      "tipo": "oficio",
+      "numero": "3875",
+      "fecha": "2006-01-13",
+      "tema": "Manifiesta la inconformidad con la expedici&oacute;n del Decreto 3595 de 2005 relativo a los pagos o abonos en cuenta por concepto de emolumentos eclesi&aacute;sticos, en cuanto que, en su criterio, impone la obligaci&oacute;n de pagar retenci&oacute;n en la fuente sobre los servicios religiosos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89769-2005",
+      "tipo": "oficio",
+      "numero": "89769",
+      "fecha": "2005-12-02",
+      "tema": "&iquest;Los gastos realizados por concepto de alimentaci&oacute;n y alojamiento a trav&eacute;s de una tarjeta de cr&eacute;dito corporativa, facturados a nombre de una compa&ntilde;&iacute;a, con ocasi&oacute;n de los desplazamientos fuera de la sede de trabajo de los empleados, en cumplimiento de las funciones asignadas, deben ser certificadas como ingresos en cabeza del empleado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0078425-2005",
+      "tipo": "concepto",
+      "numero": "0078425",
+      "fecha": "2005-10-25",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario al que est&aacute;n sometidos los ingresos percibidos por una persona natural, nacional o extranjera, residente o no residente en el pa&iacute;s, por concepto de compensaci&oacute;n de servicios personales, cuando el tomador del servicio es una entidad del estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73425-2005",
+      "tipo": "oficio",
+      "numero": "73425",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;La Contralor&iacute;a General de la Rep&uacute;blica puede hacer aportes voluntarios a fondos de pensiones y cuentas AFC a nombre de sus contratistas de servicios para que estos se hagan acreedores a los beneficios tributarios.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64441-2005",
+      "tipo": "oficio",
+      "numero": "64441",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Para calcular el l&iacute;mite del 30% de los ingresos laborales del a&ntilde;o, respecto de aportes a las cuentas AFC tomados como ingresos no constitutivos de renta y ganancia ocasional, se incluyen los pagos por prestaciones sociales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38854-2005",
+      "tipo": "oficio",
+      "numero": "38854",
+      "fecha": "2005-06-23",
+      "tema": "Reconsideraci&oacute;n del Concepto No. 075788 de noviembre 26 de 2003 en virtud de la modificaci&oacute;n realizada por la Resoluci&oacute;n 01477 de febrero 25 de 2005, a la concepci&oacute;n de rentista de capital descrita en la actividad econ&oacute;mica 090",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29109-2005",
+      "tipo": "oficio",
+      "numero": "29109",
+      "fecha": "2005-01-01",
+      "tema": "El Concepto 007261 de febrero 11 de 2005, tienen efectos retroactivos y el procedimiento que debe seguirse para devolver los mayores valores retenidos a un funcionario que recibi&oacute; una indemnizaci&oacute;n por retiro definitivo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026979-2005",
+      "tipo": "concepto",
+      "numero": "0026979",
+      "fecha": "2005-05-11",
+      "tema": "&iquest;Est&aacute;n sometidos a retenci&oacute;n en la fuente los pagos que a t&iacute;tulo de la denominada pensi&oacute;n voluntaria efect&uacute;a un empleador a un trabajador que no cumple con los requisitos necesarios para acceder a la pensi&oacute;n de vejez de acuerdo con la Ley 100 de 1993?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017602-2005",
+      "tipo": "concepto",
+      "numero": "0017602",
+      "fecha": "2005-03-31",
+      "tema": "&iquest;Cu&aacute;l es el ingreso laboral que se debe tener en cuenta para determinar el ingreso mensual promedio de los trabajadores, a fin de calcular la parte exenta de las cesant&iacute;as e intereses a las cesant&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0043115-2004",
+      "tipo": "concepto",
+      "numero": "0043115",
+      "fecha": "2004-07-15",
+      "tema": "&iquest;C&oacute;mo se determina la base para el c&aacute;lculo de la retenci&oacute;n en la fuente por el pago de una indemnizaci&oacute;n por retiro injustificado de un trabajador que devengaba un salario m&iacute;nimo integral m&aacute;s el 30% de factor prestacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0020258-2003",
+      "tipo": "concepto",
+      "numero": "0020258",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Los pagos que hace una empresa asociativa de trabajo de profesionales a sus asociados tienen el mismo tratamiento que los pagos que efect&uacute;a una cooperativa de trabajo asociado a sus cooperados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030309-2002",
+      "tipo": "concepto",
+      "numero": "0030309",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cuales son los soportes contables aceptados tributariamente para acreditar los pagos efectuados a profesionales independientes que presten servicios excluidos en una cooperativa de trabajo asociado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000004-2002",
+      "tipo": "concepto",
+      "numero": "0000004",
+      "fecha": "2002-01-01",
+      "tema": "Concepto especial sobre incentivo al ahorro a largo plazo para el fomento de la construcci&oacute;n, AFC",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004592-2001",
+      "tipo": "concepto",
+      "numero": "0004592",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Las compensaciones canceladas por las cooperativas a sus asociados por el trabajo asociado, est&aacute; sometido a retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033459-1996",
+      "tipo": "concepto",
+      "numero": "0033459",
+      "fecha": "1996-04-23",
+      "tema": "&iquest;Se encuentran gravados con el impuesto sobre la renta y sus complementarios, las sumas que un Ministerio reconoce en favor de los mejores funcionarios como est&iacute;mulo a su eficiencia?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-521-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "521",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-553-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "553",
+      "year": 2019
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-637-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "637",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-261-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "261",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

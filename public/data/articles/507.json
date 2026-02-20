@@ -1,1 +1,701 @@
-{"id_articulo": "Art. 507", "titulo": "Art. 507. Obligación de inscribirse en el registro nacional de vendedores.", "titulo_corto": "Obligación de inscribirse en el registro nacional de vendedores.", "slug": "507", "url_origen": "https://estatuto.co/507", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 2, "contenido_texto": "*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores. Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones. <Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución. <Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.</del></span></p>\n<p><span style=\"color: #339966;\"><del>Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.</del></span></p>\n<p><span style=\"color: #339966;\"><del>&lt;Inciso adicionado por el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/ley_0006_1992_pr001.html#69\" style=\"color: #339966;\">69</a> de la Ley 6 de 1992. El nuevo texto es el siguiente:&gt; A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución.</del></span></p>\n<p><span style=\"color: #339966;\"><del>&lt;Inciso adicionado por el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/ley_0223_1995_pr002.html#129\" style=\"color: #339966;\">129</a> de la Ley 223 de 1995. El nuevo texto es el siguiente:&gt; Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*.</del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 1, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018"], "texto_derogado": ["*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.", "Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.", "<Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución.", "<Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.", "full_length": 141}, {"index": 1, "snippet": "Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.", "full_length": 132}, {"index": 2, "snippet": "<Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes d...", "full_length": 466}, {"index": 3, "snippet": "<Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores qu...", "full_length": 264}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["613", "668", "857"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 507",
+  "titulo": "Art. 507. Obligación de inscribirse en el registro nacional de vendedores.",
+  "titulo_corto": "Obligación de inscribirse en el registro nacional de vendedores.",
+  "slug": "507",
+  "url_origen": "https://estatuto.co/507",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 2,
+  "contenido_texto": "*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores. Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones. <Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución. <Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.</del></span></p>\n<p><span style=\"color: #339966;\"><del>Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.</del></span></p>\n<p><span style=\"color: #339966;\"><del>&lt;Inciso adicionado por el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/ley_0006_1992_pr001.html#69\" style=\"color: #339966;\">69</a> de la Ley 6 de 1992. El nuevo texto es el siguiente:&gt; A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución.</del></span></p>\n<p><span style=\"color: #339966;\"><del>&lt;Inciso adicionado por el artículo <a href=\"http://www.secretariasenado.gov.co/senado/basedoc/ley_0223_1995_pr002.html#129\" style=\"color: #339966;\">129</a> de la Ley 223 de 1995. El nuevo texto es el siguiente:&gt; Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*.</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art 122 y Ley 2010 de 2019 Art 160.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.",
+    "Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.",
+    "<Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes de devoluciones o compensaciones por los saldos del impuesto sobre las ventas, generados por operaciones efectuadas desde tal fecha, la inscripción en el 'Registro Nacional de Exportadores' previamente a la realización de las operaciones que dan derecho a devolución.",
+    "<Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores que lleve el Instituto Colombiano de Comercio Exterior -INCOMEX-*."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Todos los responsables del impuesto sobre las ventas, incluidos los exportadores, deberán inscribirse en el registro nacional de vendedores.",
+      "full_length": 141
+    },
+    {
+      "index": 1,
+      "snippet": "Quienes inicien actividades, deberán inscribirse dentro de los dos (2) meses siguientes a la fecha de iniciación de sus operaciones.",
+      "full_length": 132
+    },
+    {
+      "index": 2,
+      "snippet": "<Inciso adicionado por el artículo 69 de la Ley 6 de 1992. El nuevo texto es el siguiente:> A partir del 1o. de enero de 1993, constituirá requisito indispensable para los exportadores, solicitantes d...",
+      "full_length": 466
+    },
+    {
+      "index": 3,
+      "snippet": "<Inciso adicionado por el artículo 129 de la Ley 223 de 1995. El nuevo texto es el siguiente:> Para los efectos previstos en este artículo se tendrá en cuenta el registro** nacional de exportadores qu...",
+      "full_length": 264
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "613",
+    "668",
+    "857"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 2884 (2023-05-11): (Int 555) Solicitudes de Devoluci&oacute;n o Compensaci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-2884-2023",
+      "tipo": "oficio",
+      "numero": "2884",
+      "fecha": "2023-05-11",
+      "tema": "(Int 555) Solicitudes de Devoluci&oacute;n o Compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0344-2020",
+      "tipo": "oficio",
+      "numero": "0344",
+      "fecha": "2020-01-03",
+      "tema": "Excepci&oacute;n del impuesto a las ventas a bienes exportados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29754-2019",
+      "tipo": "oficio",
+      "numero": "29754",
+      "fecha": "2019-11-28",
+      "tema": "Responsables en la Venta de Productos Derivados del Petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27661-2019",
+      "tipo": "oficio",
+      "numero": "27661",
+      "fecha": "2019-11-05",
+      "tema": "Los usuarios de Zona Franca no pueden compran con IVA, &iquest;materia prima?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7918-2019",
+      "tipo": "oficio",
+      "numero": "7918",
+      "fecha": "2019-04-02",
+      "tema": "Soporte de costo o gasto para efectos de las operaciones celebradas entre representantes y-o responsables del impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7609-2019",
+      "tipo": "oficio",
+      "numero": "7609",
+      "fecha": "2019-03-29",
+      "tema": "&iquest;Qu&eacute; documento equivalente a la factura elaboran los no responsables del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13090-2018",
+      "tipo": "oficio",
+      "numero": "13090",
+      "fecha": "2018-05-18",
+      "tema": "Inscripci&oacute;n en el registro nacional de exportadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6512-2018",
+      "tipo": "oficio",
+      "numero": "6512",
+      "fecha": "2018-03-16",
+      "tema": "&iquest;El hecho de que el explotador minero de gravas y arenas-materiales de construcci&oacute;n- declare y pague las regal&iacute;as de Ley en boca de mina, lo exonera del IVA, cuando quiera que comercialice estos minerales? &iquest;Estuvieron las gravas y arenas resultantes de la explotaci&oacute;n minera en aluviones o canteras, que se hayan comercializado, exentas en el anterior Estatuto Tributario? Si esta no estuvieron exentas &iquest;Cu&aacute;l fue la tarifa que debieron pagar antes de la &uacute;ltima reforma tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4217-2018",
+      "tipo": "oficio",
+      "numero": "4217",
+      "fecha": "2018-02-21",
+      "tema": "&iquest;si el aceite",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0658-2018",
+      "tipo": "oficio",
+      "numero": "0658",
+      "fecha": "2018-05-04",
+      "tema": "Si una empresa colombiana se asocia con una empresa extranjera sin domicilio o representaci&oacute;n en Colombia para conformar un consorcio &iquest;el consorcio es declarante de IVA por las ventas y compras gravadas con este impuesto e inicia su presentaci&oacute;n en periodos bimestrales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0088-2018",
+      "tipo": "oficio",
+      "numero": "0088",
+      "fecha": "2018-12-27",
+      "tema": "&iquest;Las partes de un contrato de colaboraci&oacute;n empresarial &uacute;nicamente se deben registrar contablemente en forma independiente a los costos y gastos necesarios para cumplir con sus aportes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9810-2017",
+      "tipo": "oficio",
+      "numero": "9810",
+      "fecha": "2017-04-27",
+      "tema": "Contratos de colaboraci&oacute;n empresarial - Responsables del Impuesto Sobre las Ventas - Cuentas en Participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32982-2016",
+      "tipo": "oficio",
+      "numero": "32982",
+      "fecha": "2016-12-02",
+      "tema": "- Solicita usted reconsideraci&oacute;n de la doctrina seg&uacute;n la cual los proveedores que vendan a Sociedades de Comercializaci&oacute;n Internacional, con el objeto de que estas procedan a exportar los bienes vendidos, deben inscribirse como Exportadores para tener derecho a la devoluci&oacute;n del IVA, especialmente consagrada en el Oficio n&uacute;mero 4457 de 2015 y en el Concepto 33346 de 2004",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34421-2015",
+      "tipo": "oficio",
+      "numero": "34421",
+      "fecha": "2015-12-01",
+      "tema": "Impuesto a las ventas Impuesto Nacional al Consumo - Hecho generador - Responsables - Hecho Generador del Impuesto Sobre las Ventas - Responsables del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31476-2015",
+      "tipo": "oficio",
+      "numero": "31476",
+      "fecha": "2015-10-30",
+      "tema": "&iquest;Es viable frente a saldos a favor objeto de solicitud de devoluci&oacute;n, con rechazo definitivo en oportunidad anterior, por haber pagado extempor&aacute;neamente algunas declaraciones de retenci&oacute;n en la fuente y otros detalles de forma, imputar esos saldos en declaraciones siguientes y al encontrarse ya acreditadas las retenciones respectivas, si los mismos pueden ser objeto de solicitud de devoluci&oacute;n dentro de la declaraci&oacute;n en la cual se imputaron o si ante un rechazo definitivo de un saldo a favor, tiene lugar la p&eacute;rdida del mismo por esa situaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27300-2015",
+      "tipo": "oficio",
+      "numero": "27300",
+      "fecha": "2015-09-29",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4457-2015",
+      "tipo": "oficio",
+      "numero": "4457",
+      "fecha": "2015-02-16",
+      "tema": "&iquest;Es procedente resolver favorablemente una solicitud de devoluci&oacute;n y-o compensaci&oacute;n del IVA por ventas realizadas a comercializadoras internacionales, a pesar de que el proveedor no est&eacute; inscrito en el RUT como exportador?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-1089-2015",
+      "tipo": "oficio",
+      "numero": "1089",
+      "fecha": "2015-01-16",
+      "tema": "&iquest;Una sociedad cuya producci&oacute;n se vende en un 100% a una sociedad comercializadora internacional para su exportaci&oacute;n, tiene derecho a solicitar la devoluci&oacute;n y-o compensaci&oacute;n del impuesto sobre las ventas pagado por concepto de servicios integrales de administraci&oacute;n (legales, contables, inform&aacute;ticos y de comunicaciones, de recursos humanos, financieros, de representaci&oacute;n legal, servicios t&eacute;cnicos, asistencia t&eacute;cnica y consultor&iacute;a, en general administraci&oacute;n integral empresarial)?&iquest;Cu&aacute;l ser&iacute;a el porcentaje de la devoluci&oacute;n y-o compensaci&oacute;n sobre el total del IVA pagado a la tarifa del 16%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58201-2014",
+      "tipo": "oficio",
+      "numero": "58201",
+      "fecha": "2014-10-10",
+      "tema": "&iquest;Es v&aacute;lido que un funcionario de la DIAN rechace una solicitud de devoluci&oacute;n de saldo a favor en el impuesto sobre la renta,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54555-2014",
+      "tipo": "oficio",
+      "numero": "54555",
+      "fecha": "2014-09-12",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54487-2014",
+      "tipo": "oficio",
+      "numero": "54487",
+      "fecha": "2014-09-11",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52909-2014",
+      "tipo": "oficio",
+      "numero": "52909",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Cu&aacute;l es la forma de facturar, discriminar y contabilizar el IVA por las ventas de bienes muebles gravados con este impuesto, cuando la empresa que los comercializa, lo hace a trav&eacute;s de vendedores a quienes les paga una comisi&oacute;n sobre sus ventas; comisi&oacute;n que equivale a una parte del valor total del precio de venta del bien?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35858-2014",
+      "tipo": "oficio",
+      "numero": "35858",
+      "fecha": "2014-06-16",
+      "tema": "(Int 457) Impuesto a las ventas - Cuentas en participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14670-2014",
+      "tipo": "oficio",
+      "numero": "14670",
+      "fecha": "2014-12-03",
+      "tema": "Solicita la revocatoria del Concepto 106050 de 2001 mediante el cual esta dependencia se&ntilde;al&oacute; que la sanci&oacute;n de cierre del establecimiento que adicion&oacute; el art&iacute;culo 41 de la Ley 633 de 2000 no debe imponerse en todos los casos en que se ordene el decomiso de una mercanc&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76509-2013",
+      "tipo": "oficio",
+      "numero": "76509",
+      "fecha": "2013-11-27",
+      "tema": "Implicaciones fiscales del pago de dividendos a acciones y los contratos en participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48129-2013",
+      "tipo": "oficio",
+      "numero": "48129",
+      "fecha": "2013-08-02",
+      "tema": "&iquest;Se puede imputar el saldo a favor originado en una declaraci&oacute;n del impuesto sobre la renta que se encuentra en firme, mediante la correcci&oacute;n de la declaraci&oacute;n del periodo gravable inmediatamente siguiente? - &iquest;Cu&aacute;ndo la solicitud de devoluci&oacute;n y\\o compensaci&oacute;n de un saldo a favor es rechazada por la Administraci&oacute;n Tributaria, procede su imputaci&oacute;n en la declaraci&oacute;n del periodo gravable siguiente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7795-2013",
+      "tipo": "oficio",
+      "numero": "7795",
+      "fecha": "2013-02-12",
+      "tema": "&iquest;Procede la exenci&oacute;n del impuesto sobre la renta, consagrada en los numerales 3 y 4 del art&iacute;culo 207-2 del Estatuto Tributario, para el socio gestor en los contratos de cuentas en participaci&oacute;n, por la prestaci&oacute;n de servicios hoteleros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36046-2012",
+      "tipo": "oficio",
+      "numero": "36046",
+      "fecha": "2012-06-06",
+      "tema": "A la luz del Convenio para Evitar la Doble Imposici&oacute;n celebrado ente la Rep&uacute;blica de Colombia y el Reino de Espa&ntilde;a, cu&aacute;l es el tratamiento tributario aplicable a una sociedad con residencia en Espa&ntilde;a que percibe utilidades en su calidad de socio oculto de un contrato de cuentas en participaci&oacute;n, al que ha aportado un intangible",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12682-2009",
+      "tipo": "oficio",
+      "numero": "12682",
+      "fecha": "2009-02-13",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a comercializadora que exporta bienes que de venderse dentro del pa&iacute;s ser&iacute;an excluidos, puede descontarse el IVA que constituye costo de venta de los bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-99599-2006",
+      "tipo": "oficio",
+      "numero": "99599",
+      "fecha": "2006-11-24",
+      "tema": "&iquest;Puede una persona jur&iacute;dica prestadora de servicios, realizar aportes en servicios a una sociedad accidental o contrato de cuentas de participaci&oacute;n?&iquest;Dicho aporte estar&iacute;a gravado con el IVA?&iquest;Qu&eacute; retenci&oacute;n en la fuente se debe practicar?&iquest;Cuando se realicen las debidas devoluciones de los aportes de industria, c&oacute;mo debe contabilizarlos la persona jur&iacute;dica que los aport&oacute; o sea el socio oculto? IVA. Retenci&oacute;n en la fuente. Cuentas en participaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83020-2006",
+      "tipo": "oficio",
+      "numero": "83020",
+      "fecha": "2006-09-26",
+      "tema": "&iquest;El c&aacute;lculo de la exenci&oacute;n del IVA esta sujeto al tipo de r&eacute;gimen (simplificado o com&uacute;n)?&iquest;La exenci&oacute;n de la retenci&oacute;n en la fuente se realiza sobre la base gravable del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65556-2006",
+      "tipo": "oficio",
+      "numero": "65556",
+      "fecha": "2006-08-08",
+      "tema": "&iquest;Qu&eacute; de debe entender por el Certificado del Registro &Uacute;nico Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88177-2005",
+      "tipo": "oficio",
+      "numero": "88177",
+      "fecha": "2005-11-28",
+      "tema": "&iquest;Cu&aacute;les son los documentos soporte de una exportaci&oacute;n y cu&aacute;l es el tratamiento del impuesto sobre las ventas en una exportaci&oacute;n de bienes muebles usados donados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-41483-2004",
+      "tipo": "oficio",
+      "numero": "41483",
+      "fecha": "2004-07-06",
+      "tema": "&iquest;Cu&aacute;l es el manejo contable y tributario de los ingresos provenientes de la explotaci&oacute;n de los contratos de cuentas en participaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33346-2004",
+      "tipo": "oficio",
+      "numero": "33346",
+      "fecha": "2004-05-31",
+      "tema": "&iquest;Un comercializador que &uacute;nicamente vende bienes exentos, como es la venta a sociedades de comercializaci&oacute;n internacional, es o no responsable del impuesto sobre las ventas -IVA- y en tal sentido cu&aacute;les son las obligaciones sustanciales y formales y m&aacute;s espec&iacute;ficamente las relacionadas con la inscripci&oacute;n en el registro &uacute;nico tributario RUT?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0065305-2002",
+      "tipo": "concepto",
+      "numero": "0065305",
+      "fecha": "2002-10-08",
+      "tema": "&iquest;Procede la retenci&oacute;n en la fuente por renta y remesas cuando se enajena una inversi&oacute;n extranjera, si el cedente inversionista extranjero acredit&oacute; el pago del impuesto de la venta de acciones ante la Direcci&oacute;n General de Impuestos para el cambio de titular de la inversi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2002",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Quienes pertenecen al r&eacute;gimen simplificado del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-81714-2001",
+      "tipo": "concepto",
+      "numero": "81714",
+      "fecha": "2001-09-07",
+      "tema": "Presentaci&oacute;n de declaraci&oacute;n de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-61011-2001",
+      "tipo": "concepto",
+      "numero": "61011",
+      "fecha": "2001-07-04",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53022-2001",
+      "tipo": "concepto",
+      "numero": "53022",
+      "fecha": "2001-06-21",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042123-2001",
+      "tipo": "concepto",
+      "numero": "0042123",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;El Ejercito Nacional debe expedir factura por venta y-o prestaci&oacute; n de servicios a particulares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017938-2001",
+      "tipo": "concepto",
+      "numero": "0017938",
+      "fecha": "2001-01-01",
+      "tema": "Exportaci&oacute;n de servicios, requesitos reconsideraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010928-2001",
+      "tipo": "concepto",
+      "numero": "0010928",
+      "fecha": "2001-02-16",
+      "tema": "&iquest;Debe, previamente al emplazamiento para declarar el impuesto sobre las ventas, cuando se establece esa obligaci&oacute;n, inscribir oficiosamente al responsable en el registro nacional de vendedores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006327-2001",
+      "tipo": "concepto",
+      "numero": "0006327",
+      "fecha": "2001-02-01",
+      "tema": "&iquest;El licenciamiento de uso de un producto inform&aacute;tico a trav&eacute;s de Internet, est&aacute; excluido del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0102395-2000",
+      "tipo": "concepto",
+      "numero": "0102395",
+      "fecha": "2000-10-20",
+      "tema": "&iquest;La interposici&oacute;n del recurso de reconsideraci&oacute;n contra la resoluci&oacute;n de inscripci&oacute;n de oficio en el Registro Nacional de Vendedores, suspende el cumplimiento de obligaciones formales que de la inscripci&oacute;n se derivan?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095062-2000",
+      "tipo": "concepto",
+      "numero": "0095062",
+      "fecha": "2000-09-29",
+      "tema": "&iquest;En qu&eacute; momento debe comenzar a presentar la declaraci&oacute;n de IVA un responsable que se constituye como comerciante: en el momento de la inscripci&oacute;n en el registro mercantil, o en el momento de la inscripci&oacute;n en el registro nacional de vendedores o en la fecha de iniciaci&oacute;n de actividades?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0073638-2000",
+      "tipo": "concepto",
+      "numero": "0073638",
+      "fecha": "2000-08-03",
+      "tema": "&iquest;Se considera exento el servicio prestado en el pa&iacute;s en desarrollo de un contrato escrito y utilizado exclusivamente en el exterior por una empresa extranjera que es accionista de una sociedad colombiana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069066-2000",
+      "tipo": "concepto",
+      "numero": "0069066",
+      "fecha": "2000-07-21",
+      "tema": "&iquest;Puede exigirse el cumplimiento de las obligaciones de responsable del IVA a una persona que se inscribi&oacute; en el registro correspondiente pero nunca ha realizado alguno de los hechos generadores del impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040403-2000",
+      "tipo": "concepto",
+      "numero": "0040403",
+      "fecha": "2000-04-28",
+      "tema": "Responsabilidad solidaria de los consorciados por las operaciones del Consorcio.",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0040303-2000",
+      "tipo": "concepto",
+      "numero": "0040303",
+      "fecha": "2000-01-01",
+      "tema": "&iquest;Son responsables solidarios los consorciados por las obligaciones tributarias de los consorcios de los que forman parte?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0045076-1999",
+      "tipo": "concepto",
+      "numero": "0045076",
+      "fecha": "1999-05-14",
+      "tema": "&iquest;Es procedente solicitar devoluci&oacute;n de saldos consignados en la liquidaci&oacute;n privada presentada por un inversionista extranjero, a quien se le practic&oacute; retenci&oacute;n en la fuente del 14% por los pagos al exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087080-1998",
+      "tipo": "concepto",
+      "numero": "0087080",
+      "fecha": "1998-11-11",
+      "tema": "&iquest;Qu&eacute; clase de contribuyente es y qu&eacute; obligaciones tributaras le corresponden al Fondo Mixto de Promoci&oacute;n Cinematogr&aacute;fica IMAGENES EN MOVIMIENTO, creada como una corporaci&oacute;n Civil de participaci&oacute;n mixta si &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083957-1998",
+      "tipo": "concepto",
+      "numero": "0083957",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Deben cobrar el impuesto sobre las ventas las personas naturales pertenecientes al r&eacute;gimen simplificado que presten servicios de consultor&iacute;a e interventor&iacute;a a entidades estatales no responsables del tributo?. Dichas Entidades deben efectuar retenci&oacute;n en la fuente por IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070889-1998",
+      "tipo": "concepto",
+      "numero": "0070889",
+      "fecha": "1998-09-10",
+      "tema": "&iquest;En operaciones realizadas con responsables del r&eacute;gimen simplificado, que documento debe exig&iacute;rsele para comprobar que pertenece a dicho r&eacute;gimen? &iquest;Para efectos de soportar la procedencia de costos, deducciones e impuestos descontables por operaciones realizadas con responsables del r&eacute;gimen simplificado, el adquirente del bien o servicio puede: exigirle factura, hacer cuenta de cobro, elaborar la nota de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039543-1998",
+      "tipo": "concepto",
+      "numero": "0039543",
+      "fecha": "1998-06-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032498-1998",
+      "tipo": "concepto",
+      "numero": "0032498",
+      "fecha": "1998-05-08",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029656-1998",
+      "tipo": "concepto",
+      "numero": "0029656",
+      "fecha": "1998-04-28",
+      "tema": "&iquest;Para efectos de la exclusi&oacute;n del Impuesto sobre las ventas del servicio p&uacute;blico de gas domiciliario, puede considerarse actividad complementaria del mismo la construcci&oacute;n de un gasoducto urbano parte de un consorcio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029318-1998",
+      "tipo": "concepto",
+      "numero": "0029318",
+      "fecha": "1998-04-27",
+      "tema": "&iquest;Es responsable del impuesto sobre las ventas con derecho a devoluci&oacute;n del mismo, una sociedad de comercializaci&oacute;n internacional que compra bienes excluidos y los exporta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0094928-1996",
+      "tipo": "concepto",
+      "numero": "0094928",
+      "fecha": "1996-12-11",
+      "tema": "Cu&aacute;l es el manejo del IVA sobre productos derivados del petr&oacute;leo importados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091817-1996",
+      "tipo": "concepto",
+      "numero": "0091817",
+      "fecha": "1996-11-29",
+      "tema": "&iquest;Procede la inadmisi&oacute;n de las solicitudes de devoluci&oacute;n cuando el certificado de representaci&oacute;n expedido por la C&aacute;mara de Comercio contempla limitaciones a las facultades dadas al representante legal para contratar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042334-1996",
+      "tipo": "concepto",
+      "numero": "0042334",
+      "fecha": "1996-05-22",
+      "tema": "&iquest;Una sociedad colombiana dedicada a negocios de exportaci&oacute;n, est&aacute; sujeta al IVA y a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037591-1996",
+      "tipo": "concepto",
+      "numero": "0037591",
+      "fecha": "1996-05-09",
+      "tema": "&iquest;Cual es el r&eacute;gimen de retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta aplicable a la remuneraci&oacute;n que perciban las sociedades de Intermediaci&oacute;n Aduanera como contraprestaci&oacute;n por sus servicios prestados? &iquest;Se encuentran gravados con el impuesto sobre las ventas los servicios de intermediaci&oacute;n aduanera prestados por sociedades cuyo objeto social esta encaminado a la prestaci&oacute;n de tales servicios? &iquest;Se encuentran sometidos a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta, los pagos o abonos en cuenta efectuados por las sociedades de intermediaci&oacute;n aduanera en favor de los dep&oacute;sitos autorizados como contraprestaci&oacute;n por el servicio de almacenaje (bodegaje)? &iquest;Se encuentran sometidos a retenci&oacute;n en la fuente los pagos o abonos en cuenta efectuados en favor de las empresas a&eacute;reas como contraprestaci&oacute;n por os servicios de transporte internacional de mercanc&iacute;a para ser importada al pa&iacute;s? &iquest;Qui&eacute;n es el agente retenedor, cuando los pagos o abonos en cuenta sean efectuados como contraprestaci&oacute;n por los servicios de transporte a&eacute;reo internacional de carga, por un intermediario (mandatario) por cuenta y en nombre del importador (mandante) en favor de una empresa extranjera sin domicilio en el pa&iacute;s? &iquest;Se encuentran sometidos a la retenci&oacute;n en la fuente los pagos o abonos en cuenta efectuados como contraprestaci&oacute;n por los servicios de acarreos y montacargas? &iquest;Se encuentran sometidas a la retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre las ventas los pagos o abonos en cuenta efectuados como contraprestaci&oacute;n de los servicios de acarreo y montacargas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035411-1996",
+      "tipo": "concepto",
+      "numero": "0035411",
+      "fecha": "1996-05-02",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011274-1996",
+      "tipo": "concepto",
+      "numero": "0011274",
+      "fecha": "1996-02-15",
+      "tema": "&iquest;Teniendo en cuenta la Ley 223 de 1995, la venta de ladrillo contin&uacute;a excluida del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082699-1995",
+      "tipo": "concepto",
+      "numero": "0082699",
+      "fecha": "1995-11-23",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para que un responsable del impuesto sobre las ventas, pueda cambiar del r&eacute;gimen com&uacute;n al simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073991-1995",
+      "tipo": "concepto",
+      "numero": "0073991",
+      "fecha": "1995-10-12",
+      "tema": "&iquest;Si con ocasi&oacute;n del encargo, el Notario encargado debe presentar declaraci&oacute;n de ventas, debe &eacute;ste continuar declarando en ceros despu&eacute;s que dicho encargo termine? &iquest;Durante el lapso en que el Notario principal es reemplazado por el Notario encargado, quien debe llevar la cuenta de impuesto a las ventas por pagar?&iquest;&iquest;Cuando el Notario se encuentra obligado a llevar contabilidad por causaci&oacute;n respecto de las actividades Notariales y, aparte efect&uacute;a actividades diferentes aquellas, como refleja dicha informaci&oacute;n en la declaraci&oacute;n de renta, si se presenta una mezcla de actividades por causaci&oacute;n y otras por pago o caja?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074200-1994",
+      "tipo": "concepto",
+      "numero": "0074200",
+      "fecha": "1994-12-21",
+      "tema": "&iquest;Hay inconveniente para que el impuesto que facturen a los proveedores pueda descontarse finalmente en cabeza de las sociedades de comercializaci&oacute;n internacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028949-1993",
+      "tipo": "concepto",
+      "numero": "0028949",
+      "fecha": "1993-01-01",
+      "tema": "Servicios prestados por corresponsales de televisi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010452-1993",
+      "tipo": "concepto",
+      "numero": "0010452",
+      "fecha": "1993-03-11",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del impuesto a las ventas en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008445-1993",
+      "tipo": "concepto",
+      "numero": "0008445",
+      "fecha": "1993-07-27",
+      "tema": "Es necesario que una empresa instalada en ZONA FRANCA INDUSTRIAL y dedicada 100% a exportaci&oacute;n, que se abastece tanto del exterior como de proveedores nacionales, deba cumplir las obligaciones como responsable del IVA? &iquest;Var&iacute;a la situaci&oacute;n si la empresa destina parte de su producci&oacute;n a exportaci&oacute;n y parte al mercado nacional? &iquest;C&oacute;mo es la situaci&oacute;n frente a los servicios que recibe la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023479-1990",
+      "tipo": "concepto",
+      "numero": "0023479",
+      "fecha": "1990-01-01",
+      "tema": "Para efectos del impuesto sobre las ventas, el hecho de reconocerle una suma mensual al trabajador para el mantenimiento del veh&iacute;culo partiular le implica alguna obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003300-1990",
+      "tipo": "concepto",
+      "numero": "0003300",
+      "fecha": "1990-02-08",
+      "tema": "&iquest;Una sociedad recientemente constituida e inscrita como responsable del impuesto a las ventas, pero que transcurridos varios meses no ha iniciado actividades comerciales, est&aacute; obligada a elaborar y presentar declaraciones de impuestos a las ventas y de retenciones en la fuente? &iquest;Una sociedad en comandita simple que ha cesado en forma definitiva en sus actividades comerciales debe seguir elaborando y presentando declaraciones del impuesto a las ventas y retenciones en la fuente?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    }
+  ]
+}

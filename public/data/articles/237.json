@@ -1,1 +1,198 @@
-{"id_articulo": "Art. 237", "titulo": "Art. 237. Ajuste para el cálculo.", "titulo_corto": "Ajuste para el cálculo.", "slug": "237", "url_origen": "https://estatuto.co/237", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Para efectos de la determinación de la renta por comparación de patrimonios, a la renta gravable se adicionará el valor de la ganancia ocasional neta y las rentas exentas. De esta suma, se sustrae el valor de los impuestos de renta y complementarios pagados durante el año gravable. En lo concerniente al patrimonio se harán previamente los ajustes por valorizaciones y desvalorizaciones nominales.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos de la determinación de la renta por comparación de patrimonios, a la renta gravable se adicionará el valor de la ganancia ocasional neta y las rentas exentas. De esta suma, se sustrae el valor de los impuestos de renta y complementarios pagados durante el año gravable.</p>\n<p>En lo concerniente al patrimonio se harán previamente los ajustes por valorizaciones y desvalorizaciones nominales.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 237",
+  "titulo": "Art. 237. Ajuste para el cálculo.",
+  "titulo_corto": "Ajuste para el cálculo.",
+  "slug": "237",
+  "url_origen": "https://estatuto.co/237",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Para efectos de la determinación de la renta por comparación de patrimonios, a la renta gravable se adicionará el valor de la ganancia ocasional neta y las rentas exentas. De esta suma, se sustrae el valor de los impuestos de renta y complementarios pagados durante el año gravable. En lo concerniente al patrimonio se harán previamente los ajustes por valorizaciones y desvalorizaciones nominales.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos de la determinación de la renta por comparación de patrimonios, a la renta gravable se adicionará el valor de la ganancia ocasional neta y las rentas exentas. De esta suma, se sustrae el valor de los impuestos de renta y complementarios pagados durante el año gravable.</p>\n<p>En lo concerniente al patrimonio se harán previamente los ajustes por valorizaciones y desvalorizaciones nominales.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s). Jurisprudencia: 4 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 905821 (2022-08-03): Zonas M&aacute;s Afectadas por el Conflicto Armado (ZOMAC) - Obras por impuestos\noficio 909836 (2021-09-15): Sociedad en liquidaci&oacute;n, comparaci&oacute;n patrimonial\noficio 904241 (2021-06-12): Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-905821-2022",
+      "tipo": "oficio",
+      "numero": "905821",
+      "fecha": "2022-08-03",
+      "tema": "Zonas M&aacute;s Afectadas por el Conflicto Armado (ZOMAC) - Obras por impuestos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909836-2021",
+      "tipo": "oficio",
+      "numero": "909836",
+      "fecha": "2021-09-15",
+      "tema": "Sociedad en liquidaci&oacute;n, comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904241-2021",
+      "tipo": "oficio",
+      "numero": "904241",
+      "fecha": "2021-06-12",
+      "tema": "Pago de declaraciones en firme - Libro fiscal de registro de operaciones diarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29889-2019",
+      "tipo": "oficio",
+      "numero": "29889",
+      "fecha": "2019-11-28",
+      "tema": "Aplicaci&oacute;n de los nuevos incentivos tributarios para cerrar las brechas de desigualdad socioecon&oacute;mica en las zonas m&aacute;s afectadas por el conflicto armado (ZOMAC)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902565-2018",
+      "tipo": "oficio",
+      "numero": "902565",
+      "fecha": "2018-12-05",
+      "tema": "&iquest;Cu&aacute;les son las causas justificativas para la demostraci&oacute;n del aumento patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019193-2018",
+      "tipo": "concepto",
+      "numero": "0019193",
+      "fecha": "2018-08-13",
+      "tema": "&iquest;Para calcular la renta por comparaci&oacute;n patrimonial es procedente comparar el patrimonio l&iacute;quido del a&ntilde;o gravable determinado en la Liquidaci&oacute;n Oficial de Revisi&oacute;n, con el patrimonio l&iacute;quido declarado por el contribuyente en el a&ntilde;o gravable anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35259-2015",
+      "tipo": "oficio",
+      "numero": "35259",
+      "fecha": "2015-12-11",
+      "tema": "&iquest;El mayor valor generado por la diferencia en cambio se toma como renta gravable? - &iquest;Esta diferencia, se tomar&aacute; en cuenta en la declaraci&oacute;n del impuesto sobre la renta del a&ntilde;o 2015, para establecer la renta por comparaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34107-2014",
+      "tipo": "oficio",
+      "numero": "34107",
+      "fecha": "2014-06-06",
+      "tema": "&iquest;En la comparaci&oacute;n patrimonial, una vez obtenida la renta l&iacute;quida, el contribuyente puede descontar la retenci&oacute;n en la fuente que le practicaron a t&iacute;tulo de impuesto sobre la renta y tambi&eacute;n la retenci&oacute;n a t&iacute;tulo de impuesto sobre la renta para la equidad-CREE?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38337-2006",
+      "tipo": "oficio",
+      "numero": "38337",
+      "fecha": "2006-05-12",
+      "tema": "&iquest;En una devoluci&oacute;n se resuelve en forma inhibitoria por no haber demostrado con documento de fecha cierta una cuenta por cobrar, cu&aacute;l ser&iacute;a el patrimonio del a&ntilde;o siguiente para determinar la conciliaci&oacute;n patrimonial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011711-2005",
+      "tipo": "concepto",
+      "numero": "0011711",
+      "fecha": "2005-03-01",
+      "tema": "&iquest;Qui&eacute;n estando obligado a declarar por el a&ntilde;o gravable 2004 por poseer un patrimonio superior a Ps 80.000.000 lleve el patrimonio preexistente en el a&ntilde;o 2003 inferior a ciento cincuenta millones de pesos (Ps 150.000.000) por el cual no estuvo obligado a declarar, se le puede aplicar diferencia patrimonial en la primera declaraci&oacute;n correspondiente a 2004?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051651-2004",
+      "tipo": "concepto",
+      "numero": "0051651",
+      "fecha": "2004-08-17",
+      "tema": "&iquest;Un contribuyente obligado a llevar contabilidad por el sistema de causaci&oacute;n cuando toma la renta gravable para justificar la diferencia patrimonial &iquest;debe o no, restar la provisi&oacute;n de impuestos sin tener en cuenta los anticipos y la retenci&oacute;n en la fuente practicada?&iquest;Los contribuyentes obligados a realizar ajustes por inflaci&oacute;n &iquest;pueden, o no, justificar el incremento patrimonial con el ajuste por inflaci&oacute;n al patrimonio, es decir, con el incremento de la revalorizaci&oacute;n patrimonial, con base en el art&iacute;culo 236 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009117-2004",
+      "tipo": "concepto",
+      "numero": "0009117",
+      "fecha": "2004-02-16",
+      "tema": "&iquest;Constituye causa justificativa de la diferencia patrimonial la compensaci&oacute;n de p&eacute;rdidas fiscales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031190-1999",
+      "tipo": "concepto",
+      "numero": "0031190",
+      "fecha": "1999-04-06",
+      "tema": "&iquest; Para determinar la renta por comparaci&oacute;n patrimonial, cu&aacute;les rentas capitalizables se toman en cuenta: las del mismo a&ntilde;o o las del a&ntilde;o inmediatamente anterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019886-1997",
+      "tipo": "concepto",
+      "numero": "0019886",
+      "fecha": "1997-03-05",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0059378-1994",
+      "tipo": "concepto",
+      "numero": "0059378",
+      "fecha": "1994-10-07",
+      "tema": "&iquest;Los ingresos representados en la pensi&oacute;n de jubilaci&oacute;n y aquellos no constitutivos de renta ni de ganancia ocasional, no gravables, pierden esta condici&oacute;n cuando la renta es determinada por el sistema de comparaci&oacute;n patrimonial seg&uacute;n lo dispuesto por el art&iacute;culo 236 y 237 del Estatuto Tributario?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-131-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "131",
+      "year": 2009,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1625-art-1.2.1.19.4",
+      "decretoNumero": "1625",
+      "articuloNumero": "1.2.1.19.4",
+      "vigente": true
+    }
+  ]
+}

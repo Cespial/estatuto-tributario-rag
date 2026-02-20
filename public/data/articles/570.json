@@ -1,1 +1,76 @@
-{"id_articulo": "Art. 570", "titulo": "Art. 570. Constancia de los recursos.", "titulo_corto": "Constancia de los recursos.", "slug": "570", "url_origen": "https://estatuto.co/570", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "En el acto de notificación de las providencias se dejará constancia de los recursos que proceden contra el correspondiente acto administrativas.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En el acto de notificación de las providencias se dejará constancia de los recursos que proceden contra el correspondiente acto administrativas.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 570",
+  "titulo": "Art. 570. Constancia de los recursos.",
+  "titulo_corto": "Constancia de los recursos.",
+  "slug": "570",
+  "url_origen": "https://estatuto.co/570",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "En el acto de notificación de las providencias se dejará constancia de los recursos que proceden contra el correspondiente acto administrativas.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>En el acto de notificación de las providencias se dejará constancia de los recursos que proceden contra el correspondiente acto administrativas.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 5 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 0512 (2020-08-25): Vinculaci&oacute;n de Deudores Solidarios\noficio 18675 (2019-07-19): Procedimiento de envi&oacute; de citaci&oacute;n y notificaci&oacute;n personal de la decisi&oacute;n de un recurso de reconsideraci&oacute;n en materia tributaria\noficio 62799 (2014-11-13): Requisitos para expedir el RUT a sucesiones il&iacute;quidas\noficio 53699 (2014-09-05): &iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?\nconcepto 0046590 (2000-05-18): &iquest;Debe la entidad administradora del Fondo Nacional del Caf&eacute; pagar el impuesto de timbre en un contrato suscrito con una entidad exenta?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-0512-2020",
+      "tipo": "oficio",
+      "numero": "0512",
+      "fecha": "2020-08-25",
+      "tema": "Vinculaci&oacute;n de Deudores Solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18675-2019",
+      "tipo": "oficio",
+      "numero": "18675",
+      "fecha": "2019-07-19",
+      "tema": "Procedimiento de envi&oacute; de citaci&oacute;n y notificaci&oacute;n personal de la decisi&oacute;n de un recurso de reconsideraci&oacute;n en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-62799-2014",
+      "tipo": "oficio",
+      "numero": "62799",
+      "fecha": "2014-11-13",
+      "tema": "Requisitos para expedir el RUT a sucesiones il&iacute;quidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046590-2000",
+      "tipo": "concepto",
+      "numero": "0046590",
+      "fecha": "2000-05-18",
+      "tema": "&iquest;Debe la entidad administradora del Fondo Nacional del Caf&eacute; pagar el impuesto de timbre en un contrato suscrito con una entidad exenta?",
+      "vigente": false
+    }
+  ]
+}

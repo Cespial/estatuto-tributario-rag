@@ -1,1 +1,4251 @@
-{"id_articulo": "Art. 615", "titulo": "Art. 615. Obligación de expedir factura.", "titulo_corto": "Obligación de expedir factura.", "slug": "615", "url_origen": "https://estatuto.co/615", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "Para efectos tributarios, todas las personas o entidades que tengan la calidad de comerciantes, ejerzan profesiones liberales o presten servicios inherentes a éstas, o enajenen bienes producto de la actividad agrícola o ganadera, deberán expedir factura o documento equivalente, y conservar copia de la misma por cada una de las operaciones que realicen, independientemente de su calidad de contribuyentes o no contribuyentes de los impuestos administrados por la Dirección General de Impuestos Nacionales. Para quienes utilicen máquinas registradoras, el documento equivalente será el tiquete expedido por ésta. *Parágrafo. La boleta de ingreso a las salas de exhibición cinematográfica constituye el documento equivalente a la factura. **Parágrafo 2. Quienes tengan la calidad de agentes de retención del impuesto sobre las ventas, deberán expedir un certificado bimestral que cumpla los requisitos de que trata el artículo 381 del Estatuto Tributario. A solicitud del beneficiario del pago, el agente de retención expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado bimestral. En los demás aspectos se aplicarán las previsiones de los parágrafos 1 y 2 del artículo 381 del Estatuto Tributario.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos tributarios, todas las personas o entidades que tengan la calidad de comerciantes, ejerzan profesiones liberales o presten servicios inherentes a éstas, o enajenen bienes producto de la actividad agrícola o ganadera, deberán expedir factura o documento equivalente, y conservar copia de la misma por cada una de las operaciones que realicen, independientemente de su calidad de contribuyentes o no contribuyentes de los impuestos administrados por la Dirección General de Impuestos Nacionales.</p>\n<p>Para quienes utilicen máquinas registradoras, el documento equivalente será el tiquete expedido por ésta.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">*Parágrafo. </span></strong>La boleta de ingreso a las salas de exhibición cinematográfica constituye el documento equivalente a la factura.</p>\n<p><span class=\"verde\"><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo 2.</span></strong> </span>Quienes tengan la calidad de agentes de retención del impuesto sobre las ventas, deberán expedir un certificado bimestral que cumpla los requisitos de que trata el <a href=\"https://estatuto.co/381\" rel=\"noopener\" target=\"_blank\">artículo 381</a> del Estatuto Tributario. A solicitud del beneficiario del pago, el agente de retención expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado bimestral.</p>\n<p>En los demás aspectos se aplicarán las previsiones de los parágrafos 1 y 2 del <a href=\"https://estatuto.co/381\" rel=\"noopener\" target=\"_blank\">artículo 381</a> del Estatuto Tributario.</p>\n</span>", "modificaciones_raw": "*Adicionado Ley 49 de 1990 Art 64. **Adicionado Ley 223 de 1995 Art 34.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "49", "norma_year": 1990, "norma_articulo": "64"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "34"}], "total_modificaciones": 2, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995", "Ley 49 de 1990"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["381"], "referenced_by": ["615-1", "617"], "total_cross_references": 1, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 615",
+  "titulo": "Art. 615. Obligación de expedir factura.",
+  "titulo_corto": "Obligación de expedir factura.",
+  "slug": "615",
+  "url_origen": "https://estatuto.co/615",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "Para efectos tributarios, todas las personas o entidades que tengan la calidad de comerciantes, ejerzan profesiones liberales o presten servicios inherentes a éstas, o enajenen bienes producto de la actividad agrícola o ganadera, deberán expedir factura o documento equivalente, y conservar copia de la misma por cada una de las operaciones que realicen, independientemente de su calidad de contribuyentes o no contribuyentes de los impuestos administrados por la Dirección General de Impuestos Nacionales. Para quienes utilicen máquinas registradoras, el documento equivalente será el tiquete expedido por ésta. *Parágrafo. La boleta de ingreso a las salas de exhibición cinematográfica constituye el documento equivalente a la factura. **Parágrafo 2. Quienes tengan la calidad de agentes de retención del impuesto sobre las ventas, deberán expedir un certificado bimestral que cumpla los requisitos de que trata el artículo 381 del Estatuto Tributario. A solicitud del beneficiario del pago, el agente de retención expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado bimestral. En los demás aspectos se aplicarán las previsiones de los parágrafos 1 y 2 del artículo 381 del Estatuto Tributario.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos tributarios, todas las personas o entidades que tengan la calidad de comerciantes, ejerzan profesiones liberales o presten servicios inherentes a éstas, o enajenen bienes producto de la actividad agrícola o ganadera, deberán expedir factura o documento equivalente, y conservar copia de la misma por cada una de las operaciones que realicen, independientemente de su calidad de contribuyentes o no contribuyentes de los impuestos administrados por la Dirección General de Impuestos Nacionales.</p>\n<p>Para quienes utilicen máquinas registradoras, el documento equivalente será el tiquete expedido por ésta.</p>\n<p><strong><span class=\"verde\" style=\"color: #339966;\">*Parágrafo. </span></strong>La boleta de ingreso a las salas de exhibición cinematográfica constituye el documento equivalente a la factura.</p>\n<p><span class=\"verde\"><strong><span class=\"verde\" style=\"color: #339966;\">**Parágrafo 2.</span></strong> </span>Quienes tengan la calidad de agentes de retención del impuesto sobre las ventas, deberán expedir un certificado bimestral que cumpla los requisitos de que trata el <a href=\"https://estatuto.co/381\" rel=\"noopener\" target=\"_blank\">artículo 381</a> del Estatuto Tributario. A solicitud del beneficiario del pago, el agente de retención expedirá un certificado por cada retención efectuada, el cual deberá contener las mismas especificaciones del certificado bimestral.</p>\n<p>En los demás aspectos se aplicarán las previsiones de los parágrafos 1 y 2 del <a href=\"https://estatuto.co/381\" rel=\"noopener\" target=\"_blank\">artículo 381</a> del Estatuto Tributario.</p>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 49 de 1990 Art 64. **Adicionado Ley 223 de 1995 Art 34.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "49",
+      "norma_year": 1990,
+      "norma_articulo": "64"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "34"
+    }
+  ],
+  "total_modificaciones": 2,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995",
+    "Ley 49 de 1990"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "381"
+  ],
+  "referenced_by": [
+    "615-1",
+    "617"
+  ],
+  "total_cross_references": 1,
+  "concordancias": "Doctrina DIAN: 134 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "concepto 0000129 (2020-02-05): [129] General - Procedimiento TrIbutario - Factura electr&oacute;nica\noficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 915014 (2022-10-14): Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos\noficio 17665 (2025-12-15): Facturaci&oacute;n Electr&oacute;nica\noficio 17320 (2025-12-10): Impuesto Sobre las Ventas - IVA",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000129-2020",
+      "tipo": "concepto",
+      "numero": "0000129",
+      "fecha": "2020-02-05",
+      "tema": "[129] General - Procedimiento TrIbutario - Factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915014-2022",
+      "tipo": "oficio",
+      "numero": "915014",
+      "fecha": "2022-10-14",
+      "tema": "Compilaci&oacute;n de la doctrina tributaria vigente relevante en materia de criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17665-2025",
+      "tipo": "oficio",
+      "numero": "17665",
+      "fecha": "2025-12-15",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17320-2025",
+      "tipo": "oficio",
+      "numero": "17320",
+      "fecha": "2025-12-10",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17280-2025",
+      "tipo": "oficio",
+      "numero": "17280",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17279-2025",
+      "tipo": "oficio",
+      "numero": "17279",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17277-2025",
+      "tipo": "oficio",
+      "numero": "17277",
+      "fecha": "2025-12-05",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14522-2025",
+      "tipo": "oficio",
+      "numero": "14522",
+      "fecha": "2025-10-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12333-2025",
+      "tipo": "oficio",
+      "numero": "12333",
+      "fecha": "2025-09-15",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12073-2025",
+      "tipo": "oficio",
+      "numero": "12073",
+      "fecha": "2025-09-08",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12028-2025",
+      "tipo": "oficio",
+      "numero": "12028",
+      "fecha": "2025-09-04",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11864-2025",
+      "tipo": "oficio",
+      "numero": "11864",
+      "fecha": "2025-08-29",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11219-2025",
+      "tipo": "oficio",
+      "numero": "11219",
+      "fecha": "2025-08-21",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10722-2025",
+      "tipo": "oficio",
+      "numero": "10722",
+      "fecha": "2025-08-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10642-2025",
+      "tipo": "oficio",
+      "numero": "10642",
+      "fecha": "2025-08-08",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7551-2025",
+      "tipo": "oficio",
+      "numero": "7551",
+      "fecha": "2025-03-29",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6046-2025",
+      "tipo": "oficio",
+      "numero": "6046",
+      "fecha": "2025-05-12",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5480-2025",
+      "tipo": "oficio",
+      "numero": "5480",
+      "fecha": "2025-05-02",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5471-2025",
+      "tipo": "oficio",
+      "numero": "5471",
+      "fecha": "2025-04-30",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3213-2025",
+      "tipo": "oficio",
+      "numero": "3213",
+      "fecha": "2025-03-19",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1932-2025",
+      "tipo": "oficio",
+      "numero": "1932",
+      "fecha": "2025-02-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1475-2025",
+      "tipo": "oficio",
+      "numero": "1475",
+      "fecha": "2025-02-12",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0049-2025",
+      "tipo": "oficio",
+      "numero": "0049",
+      "fecha": "2025-01-07",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21189-2024",
+      "tipo": "oficio",
+      "numero": "21189",
+      "fecha": "2024-11-21",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13759-2024",
+      "tipo": "oficio",
+      "numero": "13759",
+      "fecha": "2024-12-27",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11043-2024",
+      "tipo": "oficio",
+      "numero": "11043",
+      "fecha": "2024-12-26",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10816-2024",
+      "tipo": "oficio",
+      "numero": "10816",
+      "fecha": "2024-12-20",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10815-2024",
+      "tipo": "oficio",
+      "numero": "10815",
+      "fecha": "2024-12-20",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10467-2024",
+      "tipo": "oficio",
+      "numero": "10467",
+      "fecha": "2024-12-12",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10215-2024",
+      "tipo": "oficio",
+      "numero": "10215",
+      "fecha": "2024-12-09",
+      "tema": "R&eacute;gimen Unificado de Tributaci&oacute;n SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10138-2024",
+      "tipo": "oficio",
+      "numero": "10138",
+      "fecha": "2024-12-06",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9035-2024",
+      "tipo": "oficio",
+      "numero": "9035",
+      "fecha": "2024-11-20",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8877-2024",
+      "tipo": "oficio",
+      "numero": "8877",
+      "fecha": "2024-11-18",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8331-2024",
+      "tipo": "oficio",
+      "numero": "8331",
+      "fecha": "2024-10-28",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6962-2024",
+      "tipo": "oficio",
+      "numero": "6962",
+      "fecha": "2024-09-25",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6737-2024",
+      "tipo": "oficio",
+      "numero": "6737",
+      "fecha": "2024-09-19",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6260-2024",
+      "tipo": "oficio",
+      "numero": "6260",
+      "fecha": "2024-09-06",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4135-2024",
+      "tipo": "oficio",
+      "numero": "4135",
+      "fecha": "2024-06-21",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3632-2024",
+      "tipo": "oficio",
+      "numero": "3632",
+      "fecha": "2024-06-04",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3548-2024",
+      "tipo": "oficio",
+      "numero": "3548",
+      "fecha": "2024-02-21",
+      "tema": "(Int 108) Retenci&oacute;n en la fuente - Cu&aacute;ndo no se efect&uacute;a la retenci&oacute;n - Retenci&oacute;n en la fuente en mandato - Retenci&oacute;n en la fuente por otros ingresos - Retenci&oacute;n en la fuente por pagos de fallos judiciales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3252-2024",
+      "tipo": "oficio",
+      "numero": "3252",
+      "fecha": "2024-05-29",
+      "tema": "(Int 404) Sujetos no obligados a expedir factura o documento equivalente - Prestaci&oacute;n de servicio de agua potable y saneamiento b&aacute;sico - Comunidades organizadas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0112-2024",
+      "tipo": "oficio",
+      "numero": "0112",
+      "fecha": "2024-01-09",
+      "tema": "(Int 007) Procedimiento tributario - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7690-2023",
+      "tipo": "oficio",
+      "numero": "7690",
+      "fecha": "2023-12-28",
+      "tema": "(Int 1289) Impuesto sobre las ventas - Bienes exentos con derecho a devoluci&oacute;n bimestral - Mercanc&iacute;as aprehendidas, decomisadas o abandonadas a favor de la Naci&oacute;n - Sociedades de comercializaci&oacute;n internacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5308-2023",
+      "tipo": "oficio",
+      "numero": "5308",
+      "fecha": "2023-09-19",
+      "tema": "(Int 992) R&eacute;gimen de facturaci&oacute;n electr&oacute;nica - Obligaci&oacute;n formal de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1424-2023",
+      "tipo": "oficio",
+      "numero": "1424",
+      "fecha": "2023-03-08",
+      "tema": "(293) Impuesto sobre las ventas - Procedimiento tributario - Tratamientos exceptivos - Facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908584-2022",
+      "tipo": "oficio",
+      "numero": "908584",
+      "fecha": "2022-11-23",
+      "tema": "Factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908087-2022",
+      "tipo": "oficio",
+      "numero": "908087",
+      "fecha": "2022-11-09",
+      "tema": "Impuesto sobre las ventas - Sociedad arrendadora est&aacute; obligada a facturar el servicio de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907655-2022",
+      "tipo": "oficio",
+      "numero": "907655",
+      "fecha": "2022-10-21",
+      "tema": "Facturaci&oacute;n en mandato Notas d&eacute;bito y cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907545-2022",
+      "tipo": "oficio",
+      "numero": "907545",
+      "fecha": "2022-10-06",
+      "tema": "Deducci&oacute;n de costos y gastos en el impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906997-2022",
+      "tipo": "oficio",
+      "numero": "906997",
+      "fecha": "2022-09-19",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica. Obligaci&oacute;n de expedir factura o documento equivalente Procedencia de las notas cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906996-2022",
+      "tipo": "oficio",
+      "numero": "906996",
+      "fecha": "2022-09-19",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. Periodicidad para la declaraci&oacute;n y pago del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906936-2022",
+      "tipo": "oficio",
+      "numero": "906936",
+      "fecha": "2022-09-15",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica. Obligaci&oacute;n de expedir factura o documento equivalente Procedencia de las notas cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906802-2022",
+      "tipo": "oficio",
+      "numero": "906802",
+      "fecha": "2022-09-08",
+      "tema": "Procedimiento tributario. Sistema de facturaci&oacute;n electr&oacute;nica. Factura electr&oacute;nica de venta en retiro de inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906771-2022",
+      "tipo": "oficio",
+      "numero": "906771",
+      "fecha": "2022-09-08",
+      "tema": "Impuesto sobre la renta y complementarios. Impuesto sobre las ventas. Procedimiento tributario. Sistema de facturaci&oacute;n electr&oacute;nica. Servicio de promoci&oacute;n y publicidad. Descuentos condicionados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906444-2022",
+      "tipo": "oficio",
+      "numero": "906444",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre las ventas - Procedimiento tributario Sistema de facturaci&oacute;n electr&oacute;nica Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906440-2022",
+      "tipo": "oficio",
+      "numero": "906440",
+      "fecha": "2022-08-22",
+      "tema": "Procedimiento tributario - Sistema de facturaci&oacute;n electr&oacute;nica Obligaci&oacute;n de facturar Procedencia de la expedici&oacute;n de factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906401-2022",
+      "tipo": "oficio",
+      "numero": "906401",
+      "fecha": "2022-08-24",
+      "tema": "Procedimiento tributario - Obligaci&oacute;n de expedir factura o documento equivalente Sistema de facturaci&oacute;n Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906175-2022",
+      "tipo": "oficio",
+      "numero": "906175",
+      "fecha": "2022-08-10",
+      "tema": "Procedimiento tributario Retenci&oacute;n en la fuente - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905444-2022",
+      "tipo": "oficio",
+      "numero": "905444",
+      "fecha": "2022-07-15",
+      "tema": "Factura electr&oacute;nica de venta - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905199-2022",
+      "tipo": "oficio",
+      "numero": "905199",
+      "fecha": "2022-07-06",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905165-2022",
+      "tipo": "oficio",
+      "numero": "905165",
+      "fecha": "2022-07-07",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904920-2022",
+      "tipo": "oficio",
+      "numero": "904920",
+      "fecha": "2022-06-23",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente, sujetos obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904850-2022",
+      "tipo": "oficio",
+      "numero": "904850",
+      "fecha": "2022-06-21",
+      "tema": "Procedimiento tributario Retenci&oacute;n en la fuente - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta - Retenci&oacute;n en la fuente a t&iacute;tulo de IVA Retenci&oacute;n en la fuente a t&iacute;tulo de renta Convenios de Doble Tributaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904519-2022",
+      "tipo": "oficio",
+      "numero": "904519",
+      "fecha": "2022-06-09",
+      "tema": "Obligados a expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904262-2022",
+      "tipo": "oficio",
+      "numero": "904262",
+      "fecha": "2022-05-31",
+      "tema": "Obligaci&oacute;n de expedir factura o documento equivalente Inconveniente tecnol&oacute;gico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904261-2022",
+      "tipo": "oficio",
+      "numero": "904261",
+      "fecha": "2022-05-31",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Obligaci&oacute;n de expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904140-2022",
+      "tipo": "oficio",
+      "numero": "904140",
+      "fecha": "2022-05-25",
+      "tema": "Factura electr&oacute;nica de venta - Obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904138-2022",
+      "tipo": "oficio",
+      "numero": "904138",
+      "fecha": "2022-05-25",
+      "tema": "Procedencia de la factura electr&oacute;nica de venta - Obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904122-2022",
+      "tipo": "oficio",
+      "numero": "904122",
+      "fecha": "2022-05-24",
+      "tema": "Factura electr&oacute;nica de venta Requisitos de moneda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903868-2022",
+      "tipo": "oficio",
+      "numero": "903868",
+      "fecha": "2022-05-20",
+      "tema": "Obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903749-2022",
+      "tipo": "oficio",
+      "numero": "903749",
+      "fecha": "2022-05-13",
+      "tema": "Retenci&oacute;n en la fuente - Contrato de fiducia mercantil",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903534-2022",
+      "tipo": "oficio",
+      "numero": "903534",
+      "fecha": "2022-05-06",
+      "tema": "Impuesto sobre las ventas - Servicio de expendio de comidas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903514-2022",
+      "tipo": "oficio",
+      "numero": "903514",
+      "fecha": "2022-05-06",
+      "tema": "Impuesto sobre la renta y complementarios - Realizaci&oacute;n del ingreso",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903230-2022",
+      "tipo": "oficio",
+      "numero": "903230",
+      "fecha": "2022-04-26",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Obligaciones formales Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903174-2022",
+      "tipo": "oficio",
+      "numero": "903174",
+      "fecha": "2022-04-22",
+      "tema": "Procedimiento tributario - Factura - obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903171-2022",
+      "tipo": "oficio",
+      "numero": "903171",
+      "fecha": "2022-04-22",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Obligaciones formales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902939-2022",
+      "tipo": "oficio",
+      "numero": "902939",
+      "fecha": "2022-04-07",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario al que est&aacute; sujeto una sociedad de calificaci&oacute;n de riesgos y valores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902030-2022",
+      "tipo": "oficio",
+      "numero": "902030",
+      "fecha": "2022-03-14",
+      "tema": "Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902022-2022",
+      "tipo": "oficio",
+      "numero": "902022",
+      "fecha": "2022-03-14",
+      "tema": "Impuesto sobre las ventas, servicio de publicidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901868-2022",
+      "tipo": "oficio",
+      "numero": "901868",
+      "fecha": "2022-03-10",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - &iquest;Existe norma que exima a empresas de telefon&iacute;a celular de emitir facturas cuando sea recuado por prepago?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901334-2022",
+      "tipo": "oficio",
+      "numero": "901334",
+      "fecha": "2022-02-21",
+      "tema": "Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901212-2022",
+      "tipo": "oficio",
+      "numero": "901212",
+      "fecha": "2022-02-17",
+      "tema": "C&oacute;digo &Uacute;nico de Factura Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901044-2022",
+      "tipo": "oficio",
+      "numero": "901044",
+      "fecha": "2022-02-11",
+      "tema": "Factura de venta - Obligaci&oacute;n formal de expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900986-2022",
+      "tipo": "oficio",
+      "numero": "900986",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900758-2022",
+      "tipo": "oficio",
+      "numero": "900758",
+      "fecha": "2022-02-03",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Operaciones de mandato trat&aacute;ndose de servicios de transporte",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900757-2022",
+      "tipo": "oficio",
+      "numero": "900757",
+      "fecha": "2022-02-03",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900734-2022",
+      "tipo": "oficio",
+      "numero": "900734",
+      "fecha": "2022-01-01",
+      "tema": "Documento soporte de pago de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900407-2022",
+      "tipo": "oficio",
+      "numero": "900407",
+      "fecha": "2022-01-21",
+      "tema": "Factura electr&oacute;nica de venta como t&iacute;tulo valor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900221-2022",
+      "tipo": "oficio",
+      "numero": "900221",
+      "fecha": "2022-01-13",
+      "tema": "Devoluci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915925-2021",
+      "tipo": "oficio",
+      "numero": "915925",
+      "fecha": "2021-12-29",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Tiquete de m&aacute;quina registradora con sistema P.O.S",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915822-2021",
+      "tipo": "oficio",
+      "numero": "915822",
+      "fecha": "2021-12-27",
+      "tema": "Factura electr&oacute;nica de venta Retiro de inventario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915815-2021",
+      "tipo": "oficio",
+      "numero": "915815",
+      "fecha": "2021-12-23",
+      "tema": "- (Tributario) Obligaci&oacute;n formal de facturar - Criptoactivos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-915615-2021",
+      "tipo": "oficio",
+      "numero": "915615",
+      "fecha": "2021-12-28",
+      "tema": "- (Tributario) Naturaleza jur&iacute;dica de los Criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915472-2021",
+      "tipo": "oficio",
+      "numero": "915472",
+      "fecha": "2021-12-17",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914983-2021",
+      "tipo": "oficio",
+      "numero": "914983",
+      "fecha": "2021-12-06",
+      "tema": "Factura electr&oacute;nica de venta - Facturaci&oacute;n en reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914808-2021",
+      "tipo": "oficio",
+      "numero": "914808",
+      "fecha": "2021-01-01",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913886-2021",
+      "tipo": "oficio",
+      "numero": "913886",
+      "fecha": "2021-11-10",
+      "tema": "&iquest;Los prestadores de servicios desde el exterior, diferentes a electr&oacute;nicos y digitales, no est&aacute;n obligados a expedir ning&uacute;n tipo de factura en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913423-2021",
+      "tipo": "oficio",
+      "numero": "913423",
+      "fecha": "2021-10-29",
+      "tema": "Obligaciones formales de facturar, informar y presentar declaraciones, ejecuci&oacute;n de proyectos de inversi&oacute;n financiados con recursos de SGR",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913059-2021",
+      "tipo": "oficio",
+      "numero": "913059",
+      "fecha": "2021-10-20",
+      "tema": "Factura electr&oacute;nica de venta, documento soporte en adquisici&oacute;nes efectuadas a sujetos no obligados a expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912971-2021",
+      "tipo": "oficio",
+      "numero": "912971",
+      "fecha": "2021-10-19",
+      "tema": "Obligaciones formales de facturar, informar y presentar declaraciones, ejecuci&oacute;n de proyectos de inversi&oacute;n financiados con recursos de SGR",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912929-2021",
+      "tipo": "oficio",
+      "numero": "912929",
+      "fecha": "2021-01-01",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica, factura en contratos de mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912928-2021",
+      "tipo": "oficio",
+      "numero": "912928",
+      "fecha": "2021-10-15",
+      "tema": "Obligaci&oacute;n de facturar en contratos de mandato, sistema de facturaci&oacute;n electr&oacute;nica factura en contratos de mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912878-2021",
+      "tipo": "oficio",
+      "numero": "912878",
+      "fecha": "2021-10-14",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta, propiedad horizontal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912860-2021",
+      "tipo": "oficio",
+      "numero": "912860",
+      "fecha": "2021-10-13",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912699-2021",
+      "tipo": "oficio",
+      "numero": "912699",
+      "fecha": "2021-10-11",
+      "tema": "Identificaci&oacute;n del adquirente en IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912417-2021",
+      "tipo": "oficio",
+      "numero": "912417",
+      "fecha": "2021-10-06",
+      "tema": "Factura electr&oacute;nica de venta en los coasegurados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912414-2021",
+      "tipo": "oficio",
+      "numero": "912414",
+      "fecha": "2021-10-06",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente, causaci&oacute;n del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912397-2021",
+      "tipo": "oficio",
+      "numero": "912397",
+      "fecha": "2021-10-06",
+      "tema": "Las entidades bancarias est&aacute;n excluidas de la obligaci&oacute;n de facturar porque el art&iacute;culo 612, 2 del Estatuto Tributario y el art&iacute;culo 1.6.1.4.3 as&iacute; lo determinan y, hasta tanto la ley no sea modificada, estos sujetos seguir&aacute;n siendo considerados como no obligados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910503-2021",
+      "tipo": "oficio",
+      "numero": "910503",
+      "fecha": "2021-09-23",
+      "tema": "Funcionalidad de registro de la factura electr&oacute;nica de venta como t&iacute;tulo valor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909585-2021",
+      "tipo": "oficio",
+      "numero": "909585",
+      "fecha": "2021-10-09",
+      "tema": "NIT, facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909578-2021",
+      "tipo": "oficio",
+      "numero": "909578",
+      "fecha": "2021-10-10",
+      "tema": "Generalidades sobre sanciones en materia de obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909492-2021",
+      "tipo": "oficio",
+      "numero": "909492",
+      "fecha": "2021-09-09",
+      "tema": "&iquest;Cu&aacute;les son los documentos que debe expedir para el i) cobro del servicio de arrendamiento del &aacute;rea de cafeter&iacute;a y ii) el cobro del servicio de acueducto de la unidad de cuidados intensivos UCI que es operada por un tercero)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909036-2021",
+      "tipo": "oficio",
+      "numero": "909036",
+      "fecha": "2021-09-01",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908371-2021",
+      "tipo": "oficio",
+      "numero": "908371",
+      "fecha": "2021-08-19",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica, requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908126-2021",
+      "tipo": "oficio",
+      "numero": "908126",
+      "fecha": "2021-08-12",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica - Desconocimiento de costos, deducciones o impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908123-2021",
+      "tipo": "oficio",
+      "numero": "908123",
+      "fecha": "2021-08-12",
+      "tema": "Requisitos de la obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907957-2021",
+      "tipo": "oficio",
+      "numero": "907957",
+      "fecha": "2021-08-10",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907358-2021",
+      "tipo": "oficio",
+      "numero": "907358",
+      "fecha": "2021-07-26",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente Criptoactivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907280-2021",
+      "tipo": "oficio",
+      "numero": "907280",
+      "fecha": "2021-07-22",
+      "tema": "Factura electr&oacute;nica de venta - Documento soporte en adquisiciones con sujetos no obligados a expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906994-2021",
+      "tipo": "oficio",
+      "numero": "906994",
+      "fecha": "2021-07-15",
+      "tema": "Obligaci&oacute;n de expedir factura o documento equivalente(Tributario)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906990-2021",
+      "tipo": "oficio",
+      "numero": "906990",
+      "fecha": "2021-07-15",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906988-2021",
+      "tipo": "oficio",
+      "numero": "906988",
+      "fecha": "2021-07-15",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906707-2021",
+      "tipo": "oficio",
+      "numero": "906707",
+      "fecha": "2021-07-07",
+      "tema": "Factura Electr&oacute;nica de Venta - Obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906484-2021",
+      "tipo": "oficio",
+      "numero": "906484",
+      "fecha": "2021-07-01",
+      "tema": "Documentos soporte de costos, deducciones e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906481-2021",
+      "tipo": "oficio",
+      "numero": "906481",
+      "fecha": "2021-07-01",
+      "tema": "Sistema de factura electr&oacute;nica - Facturaci&oacute;n en el retiro de inventarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906385-2021",
+      "tipo": "oficio",
+      "numero": "906385",
+      "fecha": "2021-06-30",
+      "tema": "Requisitos de la factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906209-2021",
+      "tipo": "oficio",
+      "numero": "906209",
+      "fecha": "2021-06-28",
+      "tema": "(962) Factura Electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906181-2021",
+      "tipo": "oficio",
+      "numero": "906181",
+      "fecha": "2021-06-28",
+      "tema": "Facturaci&oacute;n-Transacciones por internet",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906180-2021",
+      "tipo": "oficio",
+      "numero": "906180",
+      "fecha": "2021-06-28",
+      "tema": "Servicios de terminales de transporte de pasajeros - Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905603-2021",
+      "tipo": "oficio",
+      "numero": "905603",
+      "fecha": "2021-06-17",
+      "tema": "Impuesto sobre la renta - Obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905169-2021",
+      "tipo": "oficio",
+      "numero": "905169",
+      "fecha": "2021-05-31",
+      "tema": "Obligaci&oacute;n de expedir factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904866-2021",
+      "tipo": "oficio",
+      "numero": "904866",
+      "fecha": "2021-05-28",
+      "tema": "Hecho generador del impuesto sobre las ventas - Obligaci&oacute;n de expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904336-2021",
+      "tipo": "oficio",
+      "numero": "904336",
+      "fecha": "2021-05-14",
+      "tema": "Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903873-2021",
+      "tipo": "oficio",
+      "numero": "903873",
+      "fecha": "2021-05-03",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903872-2021",
+      "tipo": "oficio",
+      "numero": "903872",
+      "fecha": "2021-05-03",
+      "tema": "Impuesto a las ventas - Descuentos condicionados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903261-2021",
+      "tipo": "oficio",
+      "numero": "903261",
+      "fecha": "2021-01-01",
+      "tema": "Requisitos de la factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903010-2021",
+      "tipo": "oficio",
+      "numero": "903010",
+      "fecha": "2021-01-01",
+      "tema": "Impuesto sobre las ventas - Facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902997-2021",
+      "tipo": "oficio",
+      "numero": "902997",
+      "fecha": "2021-04-08",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta y la posibilidad de anularla",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901949-2021",
+      "tipo": "oficio",
+      "numero": "901949",
+      "fecha": "2021-03-11",
+      "tema": "Obligaci&oacute;n de expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901948-2021",
+      "tipo": "oficio",
+      "numero": "901948",
+      "fecha": "2021-03-11",
+      "tema": "Documento soporte de adquisiciones con sujetos no obligados a expedir factura de venta o documento equivalente",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-901945-2021",
+      "tipo": "oficio",
+      "numero": "901945",
+      "fecha": "2021-03-11",
+      "tema": "Cancelaci&oacute;n del Registro &Uacute;nico Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901012-2021",
+      "tipo": "oficio",
+      "numero": "901012",
+      "fecha": "2021-02-10",
+      "tema": "Distribuci&oacute;n de los ingresos en el transporte terrestre automotor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901008-2021",
+      "tipo": "oficio",
+      "numero": "901008",
+      "fecha": "2021-02-10",
+      "tema": "Factura electr&oacute;nica de venta en un convenio interinstitucional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901000-2021",
+      "tipo": "oficio",
+      "numero": "901000",
+      "fecha": "2021-02-10",
+      "tema": "&iquest;Cu&aacute;les son los documentos requeridos para la expedici&oacute;n del certificado de donaci&oacute;n cuando el bien donado no form&oacute; parte de los inventarios del donante, sino que est&aacute; catalogado como un activo biol&oacute;gico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900919-2021",
+      "tipo": "oficio",
+      "numero": "900919",
+      "fecha": "2021-02-05",
+      "tema": "Operaciones de Factoring",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900819-2021",
+      "tipo": "oficio",
+      "numero": "900819",
+      "fecha": "2021-02-03",
+      "tema": "Generaci&oacute;n del impuesto sobre las ventas en comisiones pagadas desde el exterior y su facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900712-2021",
+      "tipo": "oficio",
+      "numero": "900712",
+      "fecha": "2021-02-01",
+      "tema": "Facturaci&oacute;n y generaci&oacute;n del impuesto sobre las ventas en la enajenaci&oacute;n de activos por parte de una sociedad en liquidaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900454-2021",
+      "tipo": "oficio",
+      "numero": "900454",
+      "fecha": "2021-01-25",
+      "tema": "Obligaci&oacute;n de expedir factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900366-2021",
+      "tipo": "oficio",
+      "numero": "900366",
+      "fecha": "2021-01-21",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta - Reembolso de gastos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900334-2021",
+      "tipo": "oficio",
+      "numero": "900334",
+      "fecha": "2021-01-20",
+      "tema": "Factura de venta - Agentes de carga internacional - Facturaci&oacute;n en mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3979-2021",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2021-08-04",
+      "tema": "Contrato de Concesi&oacute;n Mercantil - Contrato de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-916620-2020",
+      "tipo": "oficio",
+      "numero": "916620",
+      "fecha": "2020-12-14",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910865-2020",
+      "tipo": "oficio",
+      "numero": "910865",
+      "fecha": "2020-12-17",
+      "tema": "Obligaci&oacute;n de expedir factura o documento equivalente por parte de las entidades sin &aacute;nimo de lucro - ESAL",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910753-2020",
+      "tipo": "oficio",
+      "numero": "910753",
+      "fecha": "2020-12-16",
+      "tema": "Aproximaci&oacute;n del IVA - Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910626-2020",
+      "tipo": "oficio",
+      "numero": "910626",
+      "fecha": "2020-12-14",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta o documento equivalente como requisito para la procedencia de la exenci&oacute;n del impuesto sobre las ventas-IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-910620-2020",
+      "tipo": "oficio",
+      "numero": "910620",
+      "fecha": "2020-12-14",
+      "tema": "&iquest;El servicio de transporte est&aacute; excluido del impuesto a las ventas y por tanto no estar&iacute;a obligado a expedir la factura electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907979-2020",
+      "tipo": "oficio",
+      "numero": "907979",
+      "fecha": "2020-12-10",
+      "tema": "Sujetos no obligados a expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907976-2020",
+      "tipo": "oficio",
+      "numero": "907976",
+      "fecha": "2020-12-10",
+      "tema": "Requisito de informar la direcci&oacute;n del adquiriente de los bienes y servicios en la factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907532-2020",
+      "tipo": "oficio",
+      "numero": "907532",
+      "fecha": "2020-11-27",
+      "tema": "Factura electr&oacute;nica de venta en empresa absorbida tras proceso de fusi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907319-2020",
+      "tipo": "oficio",
+      "numero": "907319",
+      "fecha": "2020-11-23",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas BASE GRAVABLE Exclusi&oacute;n servicio de transporte de carga",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907056-2020",
+      "tipo": "oficio",
+      "numero": "907056",
+      "fecha": "2020-11-12",
+      "tema": "Resposables del Impuesto sobre las ventas -IVA Hecho Generador del Impuesto Sobre las Ventas Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906987-2020",
+      "tipo": "oficio",
+      "numero": "906987",
+      "fecha": "2020-11-11",
+      "tema": "Factura electr&oacute;nica de venta Obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906745-2020",
+      "tipo": "oficio",
+      "numero": "906745",
+      "fecha": "2020-11-04",
+      "tema": "Factura de venta. Facturaci&oacute;n en contratos de mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906586-2020",
+      "tipo": "oficio",
+      "numero": "906586",
+      "fecha": "2020-10-29",
+      "tema": "Retenci&oacute;n en la fuente Costos y Deducciones - Procedencia Bienes Gravados Documento equivalente a la factura Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura Responsables del impuesto a las ventas Deberes y obligaciones de informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906542-2020",
+      "tipo": "oficio",
+      "numero": "906542",
+      "fecha": "2020-10-28",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906509-2020",
+      "tipo": "oficio",
+      "numero": "906509",
+      "fecha": "2020-10-27",
+      "tema": "&iquest;Son las Corporaciones Aut&oacute;nomas Regionales y las Corporaciones de Desarrollo Sostenible entidades obligadas a expedir factura electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906396-2020",
+      "tipo": "oficio",
+      "numero": "906396",
+      "fecha": "2020-10-23",
+      "tema": "Proveedor digital de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906393-2020",
+      "tipo": "oficio",
+      "numero": "906393",
+      "fecha": "2020-10-23",
+      "tema": "Obligaci&oacute;n de expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906259-2020",
+      "tipo": "oficio",
+      "numero": "906259",
+      "fecha": "2020-10-21",
+      "tema": "Obligaci&oacute;n de facturar electr&oacute;nicamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906242-2020",
+      "tipo": "oficio",
+      "numero": "906242",
+      "fecha": "2020-10-23",
+      "tema": "Factura electr&oacute;nica de venta. Impuesto sobre las ventas Obligaci&oacute;n de expedir factura electr&oacute;nica de venta Hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906159-2020",
+      "tipo": "oficio",
+      "numero": "906159",
+      "fecha": "2020-10-21",
+      "tema": "Obligaci&oacute;n de Exigir Factura Factura Electronica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906049-2020",
+      "tipo": "oficio",
+      "numero": "906049",
+      "fecha": "2020-10-15",
+      "tema": "Servicios gravados - Contratos de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905682-2020",
+      "tipo": "oficio",
+      "numero": "905682",
+      "fecha": "2020-10-07",
+      "tema": "El art&iacute;culo 621 del C&oacute;digo de Comercio menciona que, para que la factura se constituya como t&iacute;tulo valor se debe reflejar la firma de quien la crea, &iquest;para el caso de la factura electr&oacute;nica c&oacute;mo se soporta este requisito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905681-2020",
+      "tipo": "oficio",
+      "numero": "905681",
+      "fecha": "2020-10-07",
+      "tema": "Obligaci&oacute;n de expedir documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente de las entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905420-2020",
+      "tipo": "oficio",
+      "numero": "905420",
+      "fecha": "2020-09-30",
+      "tema": "Documentos equivalentes a la factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905192-2020",
+      "tipo": "oficio",
+      "numero": "905192",
+      "fecha": "2020-09-25",
+      "tema": "Obligaci&oacute;n de facturar enmarcada en el caso de la Direcci&oacute;n de Gesti&oacute;n de Comercio Exterior del Ministerio de Comercio Industria y Turismo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905191-2020",
+      "tipo": "oficio",
+      "numero": "905191",
+      "fecha": "2020-09-23",
+      "tema": "Obligaci&oacute;n de facturar enmarcada en la prestaci&oacute;n de servicios en el sector salud",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904796-2020",
+      "tipo": "oficio",
+      "numero": "904796",
+      "fecha": "2020-08-09",
+      "tema": "Celebraci&oacute;n de contratos sindicales que derivan en el pago de compensaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904792-2020",
+      "tipo": "oficio",
+      "numero": "904792",
+      "fecha": "2020-08-09",
+      "tema": "Calendario de implementaci&oacute;n de la factura electr&oacute;nica de venta para empresas prestadoras de servicios p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904653-2020",
+      "tipo": "oficio",
+      "numero": "904653",
+      "fecha": "2020-09-04",
+      "tema": "&iquest;La aplicaci&oacute;n del documento soporte en adquisiciones con sujetos no obligados a expedir factura de venta se puede dar de manera f&iacute;sica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904645-2020",
+      "tipo": "oficio",
+      "numero": "904645",
+      "fecha": "2020-09-04",
+      "tema": "&iquest;Es obligaci&oacute;n de todo comerciante expedir factura electr&oacute;nica por todas las operaciones que realice, es decir, no solo sobre las operaciones de venta de bienes y prestaci&oacute;n de servicios sino cualquier otra operaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904407-2020",
+      "tipo": "oficio",
+      "numero": "904407",
+      "fecha": "2020-08-27",
+      "tema": "Reglas establecidas para pago anticipado en los t&eacute;rminos de la Resoluci&oacute;n DIAN 42 del 5 de mayo de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904305-2020",
+      "tipo": "oficio",
+      "numero": "904305",
+      "fecha": "2020-08-25",
+      "tema": "Obligaci&oacute;n de facturar electr&oacute;nicamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904304-2020",
+      "tipo": "oficio",
+      "numero": "904304",
+      "fecha": "2020-08-25",
+      "tema": "cobro de matr&iacute;culas y pensiones mensuales de estudio por parte de entidades de educaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904302-2020",
+      "tipo": "oficio",
+      "numero": "904302",
+      "fecha": "2020-08-25",
+      "tema": "Obligaci&oacute;n de facturar por parte del Ministerio de Cultura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904299-2020",
+      "tipo": "oficio",
+      "numero": "904299",
+      "fecha": "2020-08-25",
+      "tema": "Obligaci&oacute;n de facturar enmarcada en el caso del Instituto Colombiano de Bienestar Familiar - ICBF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904280-2020",
+      "tipo": "oficio",
+      "numero": "904280",
+      "fecha": "2020-08-21",
+      "tema": "Obligaci&oacute;n de Expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904164-2020",
+      "tipo": "oficio",
+      "numero": "904164",
+      "fecha": "2020-08-20",
+      "tema": "Exigibilidad del sistema de facturaci&oacute;n electr&oacute;nica de venta o documento soporte para las operaciones de pagos de n&oacute;mina",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903948-2020",
+      "tipo": "oficio",
+      "numero": "903948",
+      "fecha": "2020-08-13",
+      "tema": "Factura Electronica Obligaci&oacute;n de Expedir Facturas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903781-2020",
+      "tipo": "oficio",
+      "numero": "903781",
+      "fecha": "2020-08-04",
+      "tema": "Responsables del Impuesto Sobre las Venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903541-2020",
+      "tipo": "oficio",
+      "numero": "903541",
+      "fecha": "2020-07-29",
+      "tema": "Factura electr&oacute;nica de venta por concepto de suministro de gasolina y biodiesel",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903438-2020",
+      "tipo": "oficio",
+      "numero": "903438",
+      "fecha": "2020-07-23",
+      "tema": "Obligaci&oacute;n de expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903159-2020",
+      "tipo": "oficio",
+      "numero": "903159",
+      "fecha": "2020-07-15",
+      "tema": "Obligaci&oacute;n de expedir factura en hospitales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903153-2020",
+      "tipo": "oficio",
+      "numero": "903153",
+      "fecha": "2020-07-15",
+      "tema": "&iquest;Los sindicatos de Profesiones y Oficios de la salud, al desarrollar un contrato sindical, en materia de prestaci&oacute;n de servicios de salud p&uacute;blica, los hace responsables del impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902604-2020",
+      "tipo": "oficio",
+      "numero": "902604",
+      "fecha": "2020-06-24",
+      "tema": "Aplicaci&oacute;n de la obligaci&oacute;n de facturar para las propiedades horizontales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902531-2020",
+      "tipo": "oficio",
+      "numero": "902531",
+      "fecha": "2020-06-19",
+      "tema": "Sanci&oacute;n de Clausura del Establecimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902446-2020",
+      "tipo": "oficio",
+      "numero": "902446",
+      "fecha": "2020-06-17",
+      "tema": "Factura - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902337-2020",
+      "tipo": "oficio",
+      "numero": "902337",
+      "fecha": "2020-06-12",
+      "tema": "Obligaci&oacute;n de Expedir Facturas Factura Electronica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902298-2020",
+      "tipo": "oficio",
+      "numero": "902298",
+      "fecha": "2020-06-11",
+      "tema": "(Int 700) Exportaciones exentas - Tr&aacute;mite especial para la exportaci&oacute;n de joyas, oro, esmeraldas y dem&aacute;s piedras preciosas, as&iacute; como sus derivados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901634-2020",
+      "tipo": "oficio",
+      "numero": "901634",
+      "fecha": "2020-05-16",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901628-2020",
+      "tipo": "oficio",
+      "numero": "901628",
+      "fecha": "2020-05-16",
+      "tema": "Aplicaci&oacute;n del art&iacute;culo 1.2.4.6.10. del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901579-2020",
+      "tipo": "oficio",
+      "numero": "901579",
+      "fecha": "2020-05-15",
+      "tema": "Factura Factura Electronica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901578-2020",
+      "tipo": "oficio",
+      "numero": "901578",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;Est&aacute; la propiedad horizontal obligada a facturar electr&oacute;nicamente no solo los ingresos que generan IVA sino tambi&eacute;n las cuotas de administraci&oacute;n que no est&aacute;n gravadas con este impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901544-2020",
+      "tipo": "oficio",
+      "numero": "901544",
+      "fecha": "2020-05-13",
+      "tema": "Obligaci&oacute;n de expedir factura por parte de vendedor extranjero con filial en Colombia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901543-2020",
+      "tipo": "oficio",
+      "numero": "901543",
+      "fecha": "2020-05-13",
+      "tema": "Factura de venta y los documentos equivalentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901428-2020",
+      "tipo": "oficio",
+      "numero": "901428",
+      "fecha": "2020-05-06",
+      "tema": "Obligaci&oacute;n de expedir factura electr&oacute;nica de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901377-2020",
+      "tipo": "oficio",
+      "numero": "901377",
+      "fecha": "2020-05-04",
+      "tema": "Interpretaci&oacute;n de la necesidad de solicitar autorizaci&oacute;n de numeraci&oacute;n que deben efectuar los facturadores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901212-2020",
+      "tipo": "oficio",
+      "numero": "901212",
+      "fecha": "2020-04-21",
+      "tema": "Facturaci&oacute;n por el servicio de arrendamiento de un bien inmueble cuando este se ejecuta a trav&eacute;s de una agencia inmobiliaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901193-2020",
+      "tipo": "oficio",
+      "numero": "901193",
+      "fecha": "2020-04-20",
+      "tema": "Servicios integrales de aseo y cafeter&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901189-2020",
+      "tipo": "oficio",
+      "numero": "901189",
+      "fecha": "2020-04-20",
+      "tema": "Aplicaci&oacute;n del par&aacute;grafo 6 del art&iacute;culo 657 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901164-2020",
+      "tipo": "oficio",
+      "numero": "901164",
+      "fecha": "2020-04-16",
+      "tema": "Requisitos para el cumplimiento de la obligaci&oacute;n de expedir factura electr&oacute;nica de venta con validaci&oacute;n previa",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901083-2020",
+      "tipo": "oficio",
+      "numero": "901083",
+      "fecha": "2020-04-13",
+      "tema": "Declaraci&oacute;n de la retenci&oacute;n en la fuente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901042-2020",
+      "tipo": "oficio",
+      "numero": "901042",
+      "fecha": "2020-04-13",
+      "tema": "&iquest;Un hospital est&aacute; obligado, por la prestaci&oacute;n de los servicios de salud de hospitalizaci&oacute;n, urgencias, consulta externa, terapias y dem&aacute;s servicios ambulatorios y de apoyo diagn&oacute;stico, a entregar factura individual a los pacientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901008-2020",
+      "tipo": "oficio",
+      "numero": "901008",
+      "fecha": "2020-04-01",
+      "tema": "&iquest;Puede el administrador de una zona franca (usuario operador) hacer el cobro de servicios de la copropiedad que por ley se encuentran gravados con IVA, empleando solamente la certificaci&oacute;n expedida por &eacute;l mismo como administrador de la copropiedad apoyado en el art&iacute;culo 48 de la Ley 675 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901006-2020",
+      "tipo": "oficio",
+      "numero": "901006",
+      "fecha": "2020-04-01",
+      "tema": "Responsables del IVA bajo el R&eacute;gimen SIMPLE de tributaci&oacute;n y obligaciones exigibles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5535-2020",
+      "tipo": "oficio",
+      "numero": "5535",
+      "fecha": "2020-03-13",
+      "tema": "Manejo del IVA en peluquer&iacute;as",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5281-2020",
+      "tipo": "oficio",
+      "numero": "5281",
+      "fecha": "2020-03-10",
+      "tema": "&iquest;De acuerdo con la Resoluci&oacute;n de Factura Electr&oacute;nica, para determinar los obligados a facturar se tienen en cuenta algunos topes y-o el hecho de no estar obligado a llevar contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5169-2020",
+      "tipo": "oficio",
+      "numero": "5169",
+      "fecha": "2020-03-09",
+      "tema": "Obligaci&oacute;n de expedir factura de venta por parte de los distribuidores minoristas de combustibles derivados del petr&oacute;leo y gas natural comprimido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4381-2020",
+      "tipo": "oficio",
+      "numero": "4381",
+      "fecha": "2020-02-28",
+      "tema": "Facturaci&oacute;n electr&oacute;nica de servicios p&uacute;blicos domiciliarios en el &aacute;rea urbana y rural",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4360-2020",
+      "tipo": "oficio",
+      "numero": "4360",
+      "fecha": "2020-02-28",
+      "tema": "&iquest;Un proyecto con facturaci&oacute;n POS el cual no genera operaciones exentas y excluidas deben estar identificados en el reporte diario identificado bajo valor Ps0 o los mismos pueden ser omitidos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4303-2020",
+      "tipo": "oficio",
+      "numero": "4303",
+      "fecha": "2020-02-28",
+      "tema": "&iquest;Las empresas comercializadoras de energ&iacute;a tienen la obligaci&oacute;n de solicitar facturas de venta y cuentas de cobro para poder reconocer los excedentes de energ&iacute;a a usuarios generadores que entregan o venden energ&iacute;a a la red?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3595-2020",
+      "tipo": "oficio",
+      "numero": "3595",
+      "fecha": "2020-01-01",
+      "tema": "Factura de Venta – Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3040-2020",
+      "tipo": "oficio",
+      "numero": "3040",
+      "fecha": "2020-02-11",
+      "tema": "&iquest;Puede negarse la liquidaci&oacute;n del contrato por la no presentaci&oacute;n de los soportes tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2675-2020",
+      "tipo": "oficio",
+      "numero": "2675",
+      "fecha": "2020-02-06",
+      "tema": "Documento soporte de costos y gastos en operaciones con no obligados a expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2532-2020",
+      "tipo": "oficio",
+      "numero": "2532",
+      "fecha": "2020-02-07",
+      "tema": "Obligaci&oacute;n de Expedir Facturas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1977-2020",
+      "tipo": "oficio",
+      "numero": "1977",
+      "fecha": "2020-01-31",
+      "tema": "Factura electr&oacute;nica y Factura de servicios p&uacute;blicos domiciliarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1247-2020",
+      "tipo": "oficio",
+      "numero": "1247",
+      "fecha": "2020-01-22",
+      "tema": "Tratamiento del tiquete de m&aacute;quina registradora POS y la obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0752-2019",
+      "tipo": "oficio",
+      "numero": "0752",
+      "fecha": "2019-04-11",
+      "tema": "(Int 752) Manejo que un contribuyente le debe dar a los impuestos descontables del Impuesto sobre las Ventas y-o a los costos o deducciones del Impuesto sobre la Renta y Complementarios, en la adquisici&oacute;n de insumos o materias primas para su actividad comercial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0112-2019",
+      "tipo": "oficio",
+      "numero": "0112",
+      "fecha": "2019-02-14",
+      "tema": "(Int 112) &iquest;Cuando por medio de conciliaci&oacute;n con aseguradora se decreta cobrar una indemnizaci&oacute;n que incluye intereses a un proveedor por el incumplimiento en el contrato, esos intereses se deben facturar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0055-2019",
+      "tipo": "oficio",
+      "numero": "0055",
+      "fecha": "2019-02-14",
+      "tema": "(Int 55) Contrato de arrendamiento a trav&eacute;s de mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0012-2019",
+      "tipo": "oficio",
+      "numero": "0012",
+      "fecha": "2019-02-01",
+      "tema": "(Int 12) Expedici&oacute;n de factura de venta por el concepto de expensas de cuotas de administraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32158-2019",
+      "tipo": "oficio",
+      "numero": "32158",
+      "fecha": "2019-12-31",
+      "tema": "Factura en Contratos de Mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30470-2019",
+      "tipo": "oficio",
+      "numero": "30470",
+      "fecha": "2019-12-11",
+      "tema": "- (Tributario) Criptoactivos - Causaci&oacute;n de la Retenci&oacute;n",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-30286-2019",
+      "tipo": "oficio",
+      "numero": "30286",
+      "fecha": "2019-12-03",
+      "tema": "Impuestos que comprenden e integran el impuesto unificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28245-2019",
+      "tipo": "oficio",
+      "numero": "28245",
+      "fecha": "2019-11-12",
+      "tema": "C&oacute;digo de Actividad Econ&oacute;mica del Contribuyente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27943-2019",
+      "tipo": "oficio",
+      "numero": "27943",
+      "fecha": "2019-11-07",
+      "tema": "Calendario de implementaci&oacute;n para sujetos obligados de acuerdo con la actividad econ&oacute;mica principal inscrita en el Registro &Uacute;nico Tributario -RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27662-2019",
+      "tipo": "oficio",
+      "numero": "27662",
+      "fecha": "2019-11-05",
+      "tema": "Realizaci&oacute;n del costo para los no obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27630-2019",
+      "tipo": "oficio",
+      "numero": "27630",
+      "fecha": "2019-11-05",
+      "tema": "Factura - Anticipos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27300-2019",
+      "tipo": "oficio",
+      "numero": "27300",
+      "fecha": "2019-10-29",
+      "tema": "Obligaci&oacute;n de Expedir Facturas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26947-2019",
+      "tipo": "oficio",
+      "numero": "26947",
+      "fecha": "2019-10-28",
+      "tema": "Responsabilidad en el impuesto sobre las ventas de las personas jur&iacute;dicas originadas en la constituci&oacute;n de propiedad horizontal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26851-2019",
+      "tipo": "oficio",
+      "numero": "26851",
+      "fecha": "2019-10-24",
+      "tema": "Factura - Factura de venta o documento equivalente - Factura electr&oacute;nica en los contratos de mandato, consorcio y uniones temporales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26847-2019",
+      "tipo": "oficio",
+      "numero": "26847",
+      "fecha": "2019-10-24",
+      "tema": "Facturaci&oacute;n e inclusi&oacute;n del IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26648-2019",
+      "tipo": "oficio",
+      "numero": "26648",
+      "fecha": "2019-10-23",
+      "tema": "Obligaci&oacute;n de facturar electr&oacute;nicamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26379-2019",
+      "tipo": "oficio",
+      "numero": "26379",
+      "fecha": "2019-10-17",
+      "tema": "Proyecto de factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26375-2019",
+      "tipo": "oficio",
+      "numero": "26375",
+      "fecha": "2019-10-17",
+      "tema": "Expedici&oacute;n de nueva factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26043-2019",
+      "tipo": "oficio",
+      "numero": "26043",
+      "fecha": "2019-10-16",
+      "tema": "Otros documentos equivalentes a la factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26025-2019",
+      "tipo": "oficio",
+      "numero": "26025",
+      "fecha": "2019-04-16",
+      "tema": "&iquest;C&oacute;mo se debe facturar y cobrar el IVA en la venta de un kit compuesto por un computador de un valor inferior a 50 UVT y por lo tanto excluido del IVA y un disco de estado s&oacute;lido gravado al 19%?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25098-2019",
+      "tipo": "oficio",
+      "numero": "25098",
+      "fecha": "2019-10-04",
+      "tema": "&iquest;Con ocasi&oacute;n de la liquidaci&oacute;n de un consorcio se puede emitir factura para trasladar la propiedad de dichos bienes a los consorciados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24713-2019",
+      "tipo": "oficio",
+      "numero": "24713",
+      "fecha": "2019-09-30",
+      "tema": "Acuse de recibo factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24652-2019",
+      "tipo": "oficio",
+      "numero": "24652",
+      "fecha": "2019-10-01",
+      "tema": "Obligaci&oacute;n de facturar de las cooperativas, entidades sin &aacute;nimo de lucro, instituciones educativas y en general los sujetos que no se mencionan en el art&iacute;culo 616-2 del Estatuto Tributario (ET) y 1.6.1.4.2 del Decreto 1625 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24562-2019",
+      "tipo": "oficio",
+      "numero": "24562",
+      "fecha": "2019-09-26",
+      "tema": "&iquest;C&oacute;mo se debe facturar un kit escolar compuesto de un l&aacute;piz, dos borradores, tres lapiceros y cinco cuadernos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23983-2019",
+      "tipo": "oficio",
+      "numero": "23983",
+      "fecha": "2019-09-23",
+      "tema": "Obligaci&oacute;n d&eacute; expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23153-2019",
+      "tipo": "oficio",
+      "numero": "23153",
+      "fecha": "2019-09-13",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22620-2019",
+      "tipo": "oficio",
+      "numero": "22620",
+      "fecha": "2019-09-09",
+      "tema": "Ingresos brutos para distribuidores minoristas de combustibles liquidos y derivados del petroleo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22617-2019",
+      "tipo": "oficio",
+      "numero": "22617",
+      "fecha": "2019-09-09",
+      "tema": "Normatividad vigente sobre facturaci&oacute;n electr&oacute;nica para productos del petr&oacute;leo para las estaciones de servicio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22577-2019",
+      "tipo": "oficio",
+      "numero": "22577",
+      "fecha": "2019-09-09",
+      "tema": "Ingreso constitutivo de renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22512-2019",
+      "tipo": "oficio",
+      "numero": "22512",
+      "fecha": "2019-09-05",
+      "tema": "&iquest;El ICETEX est&aacute; en la obligaci&oacute;n de emitir factura electr&oacute;nica en todos los casos o &uacute;nicamente en lo relacionado con las comisiones que generan IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21928-2019",
+      "tipo": "oficio",
+      "numero": "21928",
+      "fecha": "2019-09-03",
+      "tema": "&iquest;Una cooperativa de trasporte est&aacute; obligada a facturar electr&oacute;nicamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21924-2019",
+      "tipo": "oficio",
+      "numero": "21924",
+      "fecha": "2019-09-03",
+      "tema": "Cobro del impuesto sobre la renta y complementario de ganancia ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20424-2019",
+      "tipo": "oficio",
+      "numero": "20424",
+      "fecha": "2019-08-15",
+      "tema": "Factura por la expedici&oacute;n de tarjetas profesionales a los contadores p&uacute;blicos y dem&aacute;s actos relacionados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20422-2019",
+      "tipo": "oficio",
+      "numero": "20422",
+      "fecha": "2019-08-08",
+      "tema": "Emisi&oacute;n de notas cr&eacute;dito",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20419-2019",
+      "tipo": "oficio",
+      "numero": "20419",
+      "fecha": "2019-08-04",
+      "tema": "- (Tributario) Criptomonedas declaradas en la declaraci&oacute;n de renta",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-20076-2019",
+      "tipo": "oficio",
+      "numero": "20076",
+      "fecha": "2019-08-13",
+      "tema": "Servicios gravados con IVA que involucran utilizaci&oacute;n de inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19687-2019",
+      "tipo": "oficio",
+      "numero": "19687",
+      "fecha": "2019-08-08",
+      "tema": "&iquest;Para un contribuyente usuario de zona franca obligatorio abrir un establecimiento o sede, diferente al lugar en que actualmente ejecuta su actividad comercial, para cumplir los requerimientos que permitan la autorizaci&oacute;n de la factura electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19362-2019",
+      "tipo": "oficio",
+      "numero": "19362",
+      "fecha": "2019-08-02",
+      "tema": "Procedimiento Tributario. Factura en Contratos de Mandato",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19352-2019",
+      "tipo": "oficio",
+      "numero": "19352",
+      "fecha": "2019-08-02",
+      "tema": "Procedimiento Tributario. Factura Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19316-2019",
+      "tipo": "oficio",
+      "numero": "19316",
+      "fecha": "2019-08-02",
+      "tema": "Procedimiento Tributario. Factura – Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18314-2019",
+      "tipo": "oficio",
+      "numero": "18314",
+      "fecha": "2019-07-16",
+      "tema": "Factura electr&oacute;nica por parte de las empresas catalogadas como grandes contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18297-2019",
+      "tipo": "oficio",
+      "numero": "18297",
+      "fecha": "2019-07-16",
+      "tema": "Agentes de Retenci&oacute;n del Impuesto Sobre las Ventas - Facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17202-2019",
+      "tipo": "oficio",
+      "numero": "17202",
+      "fecha": "2019-07-03",
+      "tema": "Facturaci&oacute;n del servicio de alquiler de equipos para la realizaci&oacute;n de artes esc&eacute;nicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16315-2019",
+      "tipo": "oficio",
+      "numero": "16315",
+      "fecha": "2019-06-21",
+      "tema": "Bienes exentos con derecho a devoluci&oacute;n bimestral",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16302-2019",
+      "tipo": "oficio",
+      "numero": "16302",
+      "fecha": "2019-06-21",
+      "tema": "&iquest;Cu&aacute;l es la fecha para la emisi&oacute;n de la factura y para la causaci&oacute;n del IVA en relaci&oacute;n con la venta de bonos en establecimientos dedicados a venta de art&iacute;culos de fonograf&iacute;a?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15491-2019",
+      "tipo": "oficio",
+      "numero": "15491",
+      "fecha": "2019-06-12",
+      "tema": "&iquest;El servicio de plantaci&oacute;n del sistema arb&oacute;reo, que dentro de sus costos incluye material vegetal (&aacute;rbol), mano de obra, fertilizantes, tierra, riego, costo de herramientas y otros insumos, se encuentra gravado con IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15475-2019",
+      "tipo": "oficio",
+      "numero": "15475",
+      "fecha": "2019-06-12",
+      "tema": "&iquest;Cu&aacute;l ser&iacute;a el procedimiento para la facturaci&oacute;n electr&oacute;nica de las compa&ntilde;&iacute;as exportadoras y la factura comercial que soporta la negociaci&oacute;n de las mercanc&iacute;as exportadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13733-2019",
+      "tipo": "oficio",
+      "numero": "13733",
+      "fecha": "2019-05-29",
+      "tema": "- (Tributario) &iquest;Cu&aacute;l debe ser el soporte por el cual se demuestre el valor patrimonial a declarar y-o costo fiscal en las enajenaciones, entendiendo que las monedas virtuales se pueden comprar de billetera a billetera o a un Exchange Virtual operado desde el exterior?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-12738-2019",
+      "tipo": "oficio",
+      "numero": "12738",
+      "fecha": "2019-05-23",
+      "tema": "Procedimiento Tributario. Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12571-2019",
+      "tipo": "oficio",
+      "numero": "12571",
+      "fecha": "2019-05-21",
+      "tema": "&iquest;Para una empresa de transporte, las facturas emitidas por estaciones de gasolina, empresas de lavado, parqueaderos, como sucede con las emitidas por el sistema POS, son descontables en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12535-2019",
+      "tipo": "oficio",
+      "numero": "12535",
+      "fecha": "2019-05-21",
+      "tema": "Sistemas t&eacute;cnicos de control, maquinas registradoras con sistema POS, dispositivos m&oacute;viles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10467-2019",
+      "tipo": "oficio",
+      "numero": "10467",
+      "fecha": "2019-05-03",
+      "tema": "Factura electr&oacute;nica y facturaci&oacute;n en Zona Aduanera Especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10463-2019",
+      "tipo": "oficio",
+      "numero": "10463",
+      "fecha": "2019-05-02",
+      "tema": "Retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta al momento del pago a un tercero (cesionario) del canon de arrendamiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9218-2019",
+      "tipo": "oficio",
+      "numero": "9218",
+      "fecha": "2019-04-12",
+      "tema": "En la Ley de financiamiento art. 16 par&aacute;grafo 6, &iquest;c&oacute;mo funciona la factura electr&oacute;nica para pagos de n&oacute;mina e importaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9151-2019",
+      "tipo": "oficio",
+      "numero": "9151",
+      "fecha": "2019-04-12",
+      "tema": "Realizaci&oacute;n de factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9146-2019",
+      "tipo": "oficio",
+      "numero": "9146",
+      "fecha": "2019-04-12",
+      "tema": "Contribuyentes con bienes afectos a procesos de extinci&oacute;n de dominio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8760-2019",
+      "tipo": "oficio",
+      "numero": "8760",
+      "fecha": "2019-04-10",
+      "tema": "Exclusi&oacute;n del impuesto sobre las ventas en la prestaci&oacute;n de servicios m&eacute;dicos y odontol&oacute;gicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7922-2019",
+      "tipo": "oficio",
+      "numero": "7922",
+      "fecha": "2019-04-02",
+      "tema": "&iquest;Las empresas que ejecutan contratos de obra p&uacute;blica con entidades p&uacute;blicas (municipios) est&aacute;n obligados a facturar IVA sobre la utilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7918-2019",
+      "tipo": "oficio",
+      "numero": "7918",
+      "fecha": "2019-04-02",
+      "tema": "Soporte de costo o gasto para efectos de las operaciones celebradas entre representantes y-o responsables del impuesto a las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7911-2019",
+      "tipo": "oficio",
+      "numero": "7911",
+      "fecha": "2019-04-02",
+      "tema": "&iquest;Con la nueva ley de financiaci&oacute;n la gravilla y la arena est&aacute;n exentas de IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7609-2019",
+      "tipo": "oficio",
+      "numero": "7609",
+      "fecha": "2019-03-29",
+      "tema": "&iquest;Qu&eacute; documento equivalente a la factura elaboran los no responsables del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6827-2019",
+      "tipo": "oficio",
+      "numero": "6827",
+      "fecha": "2019-03-20",
+      "tema": "&iquest;Corresponde al Honorable Senado de la Rep&uacute;blica, dada la calidad de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6694-2019",
+      "tipo": "oficio",
+      "numero": "6694",
+      "fecha": "2019-03-18",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo - Aclaraci&oacute;n sobre la retenci&oacute;n en la fuente por enajenaci&oacute;n de inmuebles de personas naturales o por personas jur&iacute;dicas - Aclaraci&oacute;n en el Impuesto sobre las Ventas y del Impuesto Nacional al Consumo en la venta de bienes inmuebles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6320-2019",
+      "tipo": "oficio",
+      "numero": "6320",
+      "fecha": "2019-03-13",
+      "tema": "Factura Electr&oacute;nica Registro &Uacute;nico Tributario Rut",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6309-2019",
+      "tipo": "oficio",
+      "numero": "6309",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n - Determinaci&oacute;n de la Retenci&oacute;n para Ingresos Laborales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6289-2019",
+      "tipo": "oficio",
+      "numero": "6289",
+      "fecha": "2019-03-13",
+      "tema": "Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6277-2019",
+      "tipo": "oficio",
+      "numero": "6277",
+      "fecha": "2019-03-13",
+      "tema": "Ingreso Tributario del A&ntilde;o Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5915-2019",
+      "tipo": "oficio",
+      "numero": "5915",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo. Explicaci&oacute;n sobre la factura POS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5914-2019",
+      "tipo": "oficio",
+      "numero": "5914",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo. Aclaraci&oacute;n facturaci&oacute;n de la factura PLU",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5908-2019",
+      "tipo": "oficio",
+      "numero": "5908",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo. Aclaraci&oacute;n facturaci&oacute;n estaciones de gasolina, peajes y POS",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5836-2019",
+      "tipo": "oficio",
+      "numero": "5836",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4o adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio del mismo art&iacute;culo. Aclaraci&oacute;n habilitaci&oacute;n facturaci&oacute;n para un gran volumen de ventas en restaurante",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5835-2019",
+      "tipo": "oficio",
+      "numero": "5835",
+      "fecha": "2019-03-07",
+      "tema": "Factura de Venta - Aceptaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5822-2019",
+      "tipo": "oficio",
+      "numero": "5822",
+      "fecha": "2019-03-06",
+      "tema": "&iquest;El impuesto SIMPLE es susceptible de compensaci&oacute;n con otros impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5784-2019",
+      "tipo": "oficio",
+      "numero": "5784",
+      "fecha": "2019-03-07",
+      "tema": "Aclaraci&oacute;n sobre transacciones efectuadas por no ser responsables del IVA, en lo relacionado con el par&aacute;grafo 4 adicionado al art&iacute;culo 616-1 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5757-2019",
+      "tipo": "oficio",
+      "numero": "5757",
+      "fecha": "2019-03-05",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4 adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio 1 del mismo art&iacute;culo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5756-2019",
+      "tipo": "oficio",
+      "numero": "5756",
+      "fecha": "2019-03-05",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4 adicionado al art&iacute;culo 616-1 del Estatuto Tributario, y el par&aacute;grafo transitorio 1 del mismo art&iacute;culo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5754-2019",
+      "tipo": "oficio",
+      "numero": "5754",
+      "fecha": "2019-03-05",
+      "tema": "Aclaraci&oacute;n respecto del par&aacute;grafo 4 adicionado al art&iacute;culo 616-1 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5707-2019",
+      "tipo": "oficio",
+      "numero": "5707",
+      "fecha": "2019-03-06",
+      "tema": "Validez de factura PDF",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4924-2019",
+      "tipo": "oficio",
+      "numero": "4924",
+      "fecha": "2019-02-27",
+      "tema": "Cuentas de cobro emitidas por el r&eacute;gimen simplificado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4923-2019",
+      "tipo": "oficio",
+      "numero": "4923",
+      "fecha": "2019-02-27",
+      "tema": "Obligatoriedad de los comerciantes para la expedici&oacute;n de facturas o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4922-2019",
+      "tipo": "oficio",
+      "numero": "4922",
+      "fecha": "2019-02-27",
+      "tema": "Vigencia y naturaleza del art&iacute;culo 16 de la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4920-2019",
+      "tipo": "oficio",
+      "numero": "4920",
+      "fecha": "2019-02-27",
+      "tema": "&iquest;Los documentos POS pueden ser tenidos en cuenta para la aceptaci&oacute;n de costos, deducciones y descuentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4918-2019",
+      "tipo": "oficio",
+      "numero": "4918",
+      "fecha": "2019-02-27",
+      "tema": "Vigencia del no-descontable en el IVA como en el Impuesto de renta expuesto en la Ley 1943 de 2018",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4908-2019",
+      "tipo": "oficio",
+      "numero": "4908",
+      "fecha": "2019-02-27",
+      "tema": "&iquest;C&oacute;mo hacer para que las personas no obligadas a facturar, que emiten documentos POS, expidan factura de venta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4905-2019",
+      "tipo": "oficio",
+      "numero": "4905",
+      "fecha": "2019-02-27",
+      "tema": "&iquest;Qu&eacute; deben hacer las personas que tienen autorizaci&oacute;n de facturar POS en el momento que el cliente les solicite la factura normal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4904-2019",
+      "tipo": "oficio",
+      "numero": "4904",
+      "fecha": "2019-02-27",
+      "tema": "&iquest;Qu&eacute; deben hacer las personas que tienen autorizaci&oacute;n de facturar POS en el momento que el cliente les solicite la factura normal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4413-2019",
+      "tipo": "oficio",
+      "numero": "4413",
+      "fecha": "2019-02-21",
+      "tema": "&iquest;Una factura POS de venta y que se encuentra personalizada con el nombre del cliente sirve como deducible?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3958-2019",
+      "tipo": "oficio",
+      "numero": "3958",
+      "fecha": "2019-02-15",
+      "tema": "Facturaci&oacute;n a turistas no residentes cuando la empresa operadora es nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3836-2019",
+      "tipo": "oficio",
+      "numero": "3836",
+      "fecha": "2019-02-14",
+      "tema": "&iquest;Las personas que vendan bienes o servicios gravados, pero que por su magnitud de peque&ntilde;os quedan en condici&oacute;n de no responsables de IVA, deben seguir emitiendo el documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3817-2019",
+      "tipo": "oficio",
+      "numero": "3817",
+      "fecha": "2019-02-14",
+      "tema": "R&eacute;gimen de responsabilidad - Ley de financiamiento - Documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2750-2019",
+      "tipo": "oficio",
+      "numero": "2750",
+      "fecha": "2019-02-05",
+      "tema": "Aplicaci&oacute;n de la facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2210-2019",
+      "tipo": "oficio",
+      "numero": "2210",
+      "fecha": "2019-01-29",
+      "tema": "&iquest;Se debe emitir factura a los cr&eacute;ditos otorgados por una caja de compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1416-2019",
+      "tipo": "oficio",
+      "numero": "1416",
+      "fecha": "2019-01-15",
+      "tema": "Facturaci&oacute;n en mandato para la modalidad de venta por reducci&oacute;n de demanda",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1119-2019",
+      "tipo": "oficio",
+      "numero": "1119",
+      "fecha": "2019-01-15",
+      "tema": "&iquest;Una empresa que no est&aacute; obligada a declarar IVA ni el impuesto al consumo, porque su actividad es excluida, tiene la opci&oacute;n de esperar a que la DIAN ponga a disposici&oacute;n la soluci&oacute;n gratuita, para facturar electr&oacute;nicamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902916-2018",
+      "tipo": "oficio",
+      "numero": "902916",
+      "fecha": "2018-12-06",
+      "tema": "Realizaci&oacute;n del ingreso para los obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902729-2018",
+      "tipo": "oficio",
+      "numero": "902729",
+      "fecha": "2018-12-05",
+      "tema": "Aplicaci&oacute;n del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34905-2018",
+      "tipo": "oficio",
+      "numero": "34905",
+      "fecha": "2018-12-19",
+      "tema": "&iquest;C&oacute;mo se pueden manejar las contingencias que se presentan en puntos de venta y que por necesidad operativa del negocio se facturan por sistema P.O.S., una vez se implemente el sistema de factura electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33517-2018",
+      "tipo": "oficio",
+      "numero": "33517",
+      "fecha": "2018-11-16",
+      "tema": "&iquest;Es posible utilizar factura por talonario para solucionar temporalmente una contingencia en la expedici&oacute;n de tiquetes de m&aacute;quinas registradoras POS, cuando quiera que el facturador tenga simult&aacute;neamente la obligaci&oacute;n de facturar electr&oacute;nicamente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32474-2018",
+      "tipo": "oficio",
+      "numero": "32474",
+      "fecha": "2018-11-07",
+      "tema": "&iquest;Los servicios hoteleros facturados en moneda extranjera se deben expresar tambi&eacute;n en pesos colombianos en el cuerpo de la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32428-2018",
+      "tipo": "oficio",
+      "numero": "32428",
+      "fecha": "2018-11-07",
+      "tema": "Obligaci&oacute;n de expedir factura por parte de los responsables de IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32083-2018",
+      "tipo": "oficio",
+      "numero": "32083",
+      "fecha": "2018-10-23",
+      "tema": "Prueba documental-valor probatorio de facturas escaneadas para efectos de la procedencia de costos y gastos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30890-2018",
+      "tipo": "oficio",
+      "numero": "30890",
+      "fecha": "2018-10-08",
+      "tema": "Entidades no contribuyentes del impuesto sobre la renta y complementario que no deben presentar declaraci&oacute;n de renta ni de ingresos y patrimonio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29725-2018",
+      "tipo": "oficio",
+      "numero": "29725",
+      "fecha": "2018-10-05",
+      "tema": "&iquest;Constituye una conducta sancionable, en los t&eacute;rminos del art&iacute;culo 657 del Estatuto Tributario, la inclusi&oacute;n de una abreviatura espaciada del consecutivo de facturaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26959-2018",
+      "tipo": "oficio",
+      "numero": "26959",
+      "fecha": "2018-10-23",
+      "tema": "Procedencia de Costos - Deducciones Descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19952-2018",
+      "tipo": "oficio",
+      "numero": "19952",
+      "fecha": "2018-07-30",
+      "tema": "Autorizaci&oacute;n de numeraci&oacute;n - Obligatoriedad y control",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1800-2026",
+      "tipo": "oficio",
+      "numero": "1800",
+      "fecha": "",
+      "tema": "&iquest;Desde el punto de vista fiscal, una compa&ntilde;&iacute;a puede seguir generando NOTAS DE D&Eacute;BITO para el reconocimiento de los ingresos cuando el cliente haya aprobado los servicios y no se haya podido emitir la factura de venta en el respectivo mes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13086-2018",
+      "tipo": "oficio",
+      "numero": "13086",
+      "fecha": "2018-05-18",
+      "tema": "Facturaci&oacute;n en contratos de obra p&uacute;blica, construcci&oacute;n de obra, vigilancia y prestaci&oacute;n de servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12660-2018",
+      "tipo": "oficio",
+      "numero": "12660",
+      "fecha": "2018-05-16",
+      "tema": "Documento soporte de costos y gastos en operaciones con no obligados a expedir factura o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6453-2018",
+      "tipo": "oficio",
+      "numero": "6453",
+      "fecha": "2018-03-15",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5699-2018",
+      "tipo": "oficio",
+      "numero": "5699",
+      "fecha": "2018-03-07",
+      "tema": "Contratos celebrados con entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1849-2018",
+      "tipo": "oficio",
+      "numero": "1849",
+      "fecha": "2018-10-17",
+      "tema": "Causaci&oacute;n en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1837-2018",
+      "tipo": "oficio",
+      "numero": "1837",
+      "fecha": "2018-10-17",
+      "tema": "Hecho generador del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1821-2018",
+      "tipo": "oficio",
+      "numero": "1821",
+      "fecha": "2018-10-22",
+      "tema": "&iquest;En un hostal cu&aacute;ndo se tendr&iacute;a que expedir la factura, al momento de efectuar el check-in (al ingresar), o al momento de que se realice el check-out salir del hotel?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1755-2018",
+      "tipo": "oficio",
+      "numero": "1755",
+      "fecha": "2018-10-08",
+      "tema": "Tratamiento tributario de las instituciones educativas de car&aacute;cter p&uacute;blico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1721-2018",
+      "tipo": "oficio",
+      "numero": "1721",
+      "fecha": "2018-09-28",
+      "tema": "&iquest;Es obligaci&oacute;n de los contribuyentes en la Isla de San Andr&eacute;s Isla Y Providencia facturar electr&oacute;nicamente, a partir de la normatividad que as&iacute; lo dispone?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0735-2018",
+      "tipo": "oficio",
+      "numero": "0735",
+      "fecha": "2018-05-15",
+      "tema": "&iquest;Las entidades sin &aacute;nimo de lucro deben expedir factura o documento equivalente cuando reciban aportes de sus afiliados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0620-2018",
+      "tipo": "oficio",
+      "numero": "0620",
+      "fecha": "2018-04-30",
+      "tema": "&iquest;Un prestador de servicios domiciliarios regulado por la Ley 142 de 1994, debe expedir factura por servicios excluidos e incluir el NIT del cliente (usuario) en la factura electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0480-2018",
+      "tipo": "oficio",
+      "numero": "0480",
+      "fecha": "2018-04-16",
+      "tema": "&iquest;La Obligaci&oacute;n de expedir factura corresponde a todas las personas o entidades que tengan calidad de comerciantes (Art 615 ET) y esto aplica independientemente de la calidad de contribuyentes o no de los impuestos nacionales (DUR 1625-16 Art 1.6.1.4.1). Es decir, que de no encontrarse expresamente excluida la persona o entidad debido a su calidad, la obligaci&oacute;n de facturar continua?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0420-2018",
+      "tipo": "oficio",
+      "numero": "0420",
+      "fecha": "2018-03-28",
+      "tema": "&iquest;Son los procesos de evaluaci&oacute;n de la educaci&oacute;n superior, prestados por los comisionados que pertenecen a la Comisi&oacute;n Nacional Intersectorial de Aseguramiento de la Calidad de la Educaci&oacute;n Superior (CO&Ntilde;ACES) definidos en los hechos de este escrito, exentos del impuesto sobre las ventas IVA, conforme a lo establecido en el art&iacute;culo 476 del Estatuto Tributario, numeral 6?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0299-2018",
+      "tipo": "oficio",
+      "numero": "0299",
+      "fecha": "2018-03-06",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas - Obligaciones del Contribuyente - Omisi&oacute;n del agente retenedor o recaudador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0034-2018",
+      "tipo": "oficio",
+      "numero": "0034",
+      "fecha": "2018-01-24",
+      "tema": "Tipos de contratos en las compraventas del r&eacute;gimen com&uacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34074-2017",
+      "tipo": "oficio",
+      "numero": "34074",
+      "fecha": "2017-12-20",
+      "tema": "Servicios gravados con la tarifa del cinco porciento (5%)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33242-2017",
+      "tipo": "oficio",
+      "numero": "33242",
+      "fecha": "2017-12-12",
+      "tema": "Casos en los cuales no se requiere autorizaci&oacute;n de la numeraci&oacute;n de facturaci&oacute;n como sistema t&eacute;cnico de control",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29751-2017",
+      "tipo": "oficio",
+      "numero": "29751",
+      "fecha": "2017-11-02",
+      "tema": "Facturaci&oacute;n de los servicios exequibles prestados por cooperativas o mutuales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27789-2017",
+      "tipo": "oficio",
+      "numero": "27789",
+      "fecha": "2017-10-11",
+      "tema": "Servicios Gravados Factura - Obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24646-2017",
+      "tipo": "oficio",
+      "numero": "24646",
+      "fecha": "2017-09-13",
+      "tema": "Retenci&oacute;n en la fuente, obligaciones formales - No Contribuyentes - Sindicatos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20935-2017",
+      "tipo": "oficio",
+      "numero": "20935",
+      "fecha": "2017-08-15",
+      "tema": "Facturaci&oacute;n - requisitos - Identificaci&oacute;n del adquiriente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20507-2017",
+      "tipo": "oficio",
+      "numero": "20507",
+      "fecha": "2017-08-02",
+      "tema": "Obligaci&oacute;n de expedir factura o documento equivalente-entidades p&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2213-2017",
+      "tipo": "oficio",
+      "numero": "2213",
+      "fecha": "2017-05-18",
+      "tema": "&iquest;Est&aacute;n obligados a expedir factura o documento equivalente los responsables del r&eacute;gimen simplificado del impuesto nacional al consumo de restaurantes y bares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2085-2017",
+      "tipo": "oficio",
+      "numero": "2085",
+      "fecha": "2017-04-03",
+      "tema": "Procedimiento Tributario - Factura - Documentos equivalentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1831-2017",
+      "tipo": "oficio",
+      "numero": "1831",
+      "fecha": "2017-12-19",
+      "tema": "&iquest;Los clubes sociales pueden facturar directamente las cuotas de sostenimiento del titular de la acci&oacute;n, a las empresas a las que estos se encuentran vinculados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36488-2016",
+      "tipo": "oficio",
+      "numero": "36488",
+      "fecha": "2016-12-28",
+      "tema": "Impuesto a las ventas - Obligaciones de los Responsables del Impuesto Sobre las Ventas - Factura - Responsables en la Prestaci&oacute;n de Servicios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36484-2016",
+      "tipo": "oficio",
+      "numero": "36484",
+      "fecha": "2016-12-28",
+      "tema": "Contribuci&oacute;n Especial - Contribuci&oacute;n especial sobre contratos de obra p&uacute;blica - Causaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36468-2016",
+      "tipo": "oficio",
+      "numero": "36468",
+      "fecha": "2016-12-28",
+      "tema": "Impuesto a las ventas - Causaci&oacute;n del Impuesto Sobre las Ventas en Contratos Celebrados con Entidades P&uacute;blicas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29622-2016",
+      "tipo": "oficio",
+      "numero": "29622",
+      "fecha": "2016-10-31",
+      "tema": "Viabilidad al manifiesto de carga terrestre como un documento equivalente a la factura comercial para el cobro del servicio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26176-2016",
+      "tipo": "oficio",
+      "numero": "26176",
+      "fecha": "2016-09-20",
+      "tema": "Sistemas de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24223-2016",
+      "tipo": "oficio",
+      "numero": "24223",
+      "fecha": "2016-09-06",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22768-2016",
+      "tipo": "oficio",
+      "numero": "22768",
+      "fecha": "2016-08-24",
+      "tema": "Aclaraci&oacute;n del Oficio n&uacute;mero 12572 del 20 de mayo de 2016, requiere que se precise",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18751-2016",
+      "tipo": "oficio",
+      "numero": "18751",
+      "fecha": "2016-07-15",
+      "tema": "Factura - Requisitos - Obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18743-2016",
+      "tipo": "oficio",
+      "numero": "18743",
+      "fecha": "2016-07-15",
+      "tema": "Documentos Equivalentes a la Factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18731-2016",
+      "tipo": "oficio",
+      "numero": "18731",
+      "fecha": "2016-07-15",
+      "tema": "Factura - Exenci&oacute;n del Impuesto Sobre las Ventas en los Tratados - Convenios Convenciones o Acuerdos Internacionales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15034-2016",
+      "tipo": "oficio",
+      "numero": "15034",
+      "fecha": "2016-06-14",
+      "tema": "Procedimiento Tributario - Boleta de ingreso a espect&aacute;culos p&uacute;blicos - documentos equivalentes a la factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14922-2016",
+      "tipo": "oficio",
+      "numero": "14922",
+      "fecha": "2016-06-14",
+      "tema": "&iquest;C&oacute;mo facturar en el caso de una compraventa cuyo vendedor est&aacute; fuera de Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12572-2016",
+      "tipo": "oficio",
+      "numero": "12572",
+      "fecha": "2016-05-20",
+      "tema": "Alcance de los Oficios 21723 del 24 de julio de 2015 y 36311 del 23 de diciembre de 2015, que analizan la obligaci&oacute;n de facturar en las ventas realizadas a trav&eacute;s de m&aacute;quinas vending",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009857-2016",
+      "tipo": "concepto",
+      "numero": "0009857",
+      "fecha": "2016-04-27",
+      "tema": "Con fundamento en los principios de justicia y equidad, &iquest;Es procedente que un contratante tome como impuesto descontable en el impuesto sobre las ventas y como deducible en el impuesto sobre la renta, un gasto correspondiente a un servicio suministrado, y que no es facturado por el contratista?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9332-2016",
+      "tipo": "oficio",
+      "numero": "9332",
+      "fecha": "2016-04-22",
+      "tema": "&iquest;Cu&aacute;ntas facturas originales puede el operador log&iacute;stico con la misma numeraci&oacute;n cuando la factura es electr&oacute;nica y c&oacute;mo diferenciar las originales de las copias? - &iquest;Se pueden expedir facturas con el mismo n&uacute;mero pero diferente fecha de expedici&oacute;n y misma fecha de prestaci&oacute;n del servicio? &iquest;Son v&aacute;lidas dos facturas con el mismo n&uacute;mero pero una es de cobro general y otra se presenta el discriminado (SIC), las dos por el mismo valor y con fechas de expedici&oacute;n diferentes? - &iquest;Se pueden expedir dos facturas con un mismo n&uacute;mero y diferente valor? - &iquest;Cuando existan diferencias de valores entre factura y soportes entregados, ser&iacute;a suficiente ajustar la operaci&oacute;n con notas contables? - &iquest;Cu&aacute;l ser&iacute;a el procedimiento a realizar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8894-2016",
+      "tipo": "oficio",
+      "numero": "8894",
+      "fecha": "2016-04-18",
+      "tema": "Impuesto a las ventas - Descriptores - Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6090-2016",
+      "tipo": "oficio",
+      "numero": "6090",
+      "fecha": "2016-03-17",
+      "tema": "Factura t&iacute;tulo valor - Soporte de costos y gastos - Procedimiento",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1990-2016",
+      "tipo": "oficio",
+      "numero": "1990",
+      "fecha": "2016-02-10",
+      "tema": "&iquest;Son aplicables las normas tributarias del mandato a la cl&aacute;usula de un contrato de fiducia mercantil en la cual se pacta que la sociedad administradora pagara por cuenta del fideicomitente o beneficiarios, los impuestos de car&aacute;cter municipal - distrital (impuesto predial o impuesto de industria y comercio) que se causan en cabeza de aquellos? - &iquest;Es la certificaci&oacute;n el documento id&oacute;neo y suficiente que permite soportar los costos, deducciones, impuestos descontables y pagos en general para las partes que en virtud de un contrato diferente al mandato tienen la calidad de mandante?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36311-2015",
+      "tipo": "oficio",
+      "numero": "36311",
+      "fecha": "2015-12-23",
+      "tema": "Aclaraci&oacute;n del Oficio 21723 del 24 de julio de 2015 en lo que respecta a la obligaci&oacute;n de facturar en las ventas realizadas a trav&eacute;s de m&aacute;quinas vending, considerando que el documento sustitutivo establecido en el art&iacute;culo 1o del Decreto 1514 de 1998, tambi&eacute;n podr&iacute;a ser utilizado para soportar este tipo de ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34421-2015",
+      "tipo": "oficio",
+      "numero": "34421",
+      "fecha": "2015-12-01",
+      "tema": "Impuesto a las ventas Impuesto Nacional al Consumo - Hecho generador - Responsables - Hecho Generador del Impuesto Sobre las Ventas - Responsables del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24117-2015",
+      "tipo": "oficio",
+      "numero": "24117",
+      "fecha": "2015-08-20",
+      "tema": "&iquest;Una sociedad que se constituy&oacute; a partir de diciembre de 2011 y que ha cumplido con las condiciones para los beneficios de progresividad en el impuesto de renta de la ley 1429 de 2010, pero que en el primer a&ntilde;o 2011 no tuvo utilidad sino una perdida fiscal, por tanto, no se benefici&oacute; con la progresividad en ese a&ntilde;o, puede en el a&ntilde;o 2012 donde si obtuvo una renta l&iacute;quida tomar ese a&ntilde;o 2012 como su a&ntilde;o uno para el beneficio de progresividad en el impuesto de renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23482-2015",
+      "tipo": "oficio",
+      "numero": "23482",
+      "fecha": "2015-08-12",
+      "tema": "&iquest;Las propiedades horizontales est&aacute;n obligadas a implementar las NIIF y cu&aacute;les son las consecuencias de no hacerlo?&iquest;Las copropiedades de uso residencial que cobran a los residentes o sus visitantes el uso eventual de los parqueaderos comunales, son responsables del impuesto sobre las ventas? si es as&iacute;, requiere saber cu&aacute;l es la tarifa, periodo de declaraci&oacute;n, sanciones por incumplimiento y en general lo relacionado con esta responsabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22788-2015",
+      "tipo": "oficio",
+      "numero": "22788",
+      "fecha": "2015-08-04",
+      "tema": "&iquest;Es contribuyente del impuesto sobre la renta y complementarios la sociedad extranjera en comento y, por tanto, est&aacute; obligada a presentar declaraci&oacute;n de renta y liquidar renta presuntiva, advirtiendo que sus ingresos no fueron sometidos a retenci&oacute;n en la fuente?&iquest;Una empresa se encuentra obligada a pagar el impuesto sobre la renta sobre el porcentaje de ventas brutas recibidas durante el respectivo a&ntilde;o o sobre la renta presuntiva calculado sobre su patrimonio l&iacute;quido?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21723-2015",
+      "tipo": "oficio",
+      "numero": "21723",
+      "fecha": "2015-07-24",
+      "tema": "&iquest;Tienen obligaci&oacute;n las empresas de expedir factura en las ventas que realizan en m&aacute;quinas vending y dispensadoras autom&aacute;ticas, as&iacute; como si por tratarse de ventas de baja nominaci&oacute;n hay alguna legislaci&oacute;n que permita vender sin expedir factura y, en caso afirmativo los valores que no requieren la expedici&oacute;n de factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21470-2015",
+      "tipo": "oficio",
+      "numero": "21470",
+      "fecha": "2015-07-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20297-2015",
+      "tipo": "oficio",
+      "numero": "20297",
+      "fecha": "2015-07-10",
+      "tema": "&iquest;Qu&eacute; tipo de facturaci&oacute;n debe utilizar para implementar la venta de boletas por internet, para que un usuario a trav&eacute;s de la p&aacute;gina web pueda comprar una boleta con una ubicaci&oacute;n determinada en un teatro y ciudad espec&iacute;fica, la imprima y luego la presente directamente en los teatros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14505-2015",
+      "tipo": "oficio",
+      "numero": "14505",
+      "fecha": "2015-05-19",
+      "tema": "&iquest;Qu&eacute; autorizaciones por parte de la DIAN deb&iacute;a tener un fabricante de software de facturaci&oacute;n tipo P.O.S para realizar su comercializaci&oacute;n?&iquest;Cu&aacute;l es el procedimiento a seguir para solicitar la resoluci&oacute;n de autorizaci&oacute;n para comerciar el software?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11868-2015",
+      "tipo": "oficio",
+      "numero": "11868",
+      "fecha": "2015-04-27",
+      "tema": "&iquest;Para obtener el pago de productos que fueron correctamente exportados, es posible anular las facturas expedidas que no fueron canceladas por un error del cliente en el exterior y proceder a expedir nuevas facturas que amparen la operaci&oacute;n ya realizada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9699-2015",
+      "tipo": "oficio",
+      "numero": "9699",
+      "fecha": "2015-03-31",
+      "tema": "Obligaci&oacute;n de facturar por parte de las EPS - Las EPS se pueden considerar personas jur&iacute;dicas no obligados a facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9245-2015",
+      "tipo": "oficio",
+      "numero": "9245",
+      "fecha": "2015-03-27",
+      "tema": "Factura - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3051-2015",
+      "tipo": "oficio",
+      "numero": "3051",
+      "fecha": "2015-02-05",
+      "tema": "&iquest;Al momento de realizar el pago, se debe practicar retenci&oacute;n en la fuente a t&iacute;tulo del impuesto de renta?&iquest;qui&eacute;n es el sujeto pasivo de la retenci&oacute;n?&iquest;La factura es soporte de costos y gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64353-2014",
+      "tipo": "oficio",
+      "numero": "64353",
+      "fecha": "2014-11-26",
+      "tema": "Procedimiento Tributario - Factura Expedici&oacute;n - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64325-2014",
+      "tipo": "oficio",
+      "numero": "64325",
+      "fecha": "2014-11-26",
+      "tema": "Documento equivalente a una factura de venta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64185-2014",
+      "tipo": "oficio",
+      "numero": "64185",
+      "fecha": "2014-11-26",
+      "tema": "Impuesto a las ventas - Factura - Expedici&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58064-2014",
+      "tipo": "oficio",
+      "numero": "58064",
+      "fecha": "2014-10-09",
+      "tema": "&iquest;Permite el ordenamiento tributario que la p&oacute;liza de seguro como documento equivalente se expida y posteriormente entregue al adquirente en un archivo electr&oacute;nico PDF a condici&oacute;n que de ese documento contenga todos los datos se&ntilde;alados en el Decreto 1165 de 1996. En el caso que no sea as&iacute;, si existe alguna modalidad bajo la cual las p&oacute;lizas de seguro se puedan expedir y entregar de manera electr&oacute;nica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57331-2014",
+      "tipo": "oficio",
+      "numero": "57331",
+      "fecha": "2014-10-06",
+      "tema": "&iquest;A qui&eacute;n se debe realizar el pago en cheque o transferencia cuando en la factura est&aacute; estipulado que los ingresos son ingresos recibidos para terceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53402-2014",
+      "tipo": "oficio",
+      "numero": "53402",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Est&aacute; destinando bienes o &aacute;reas comunes para la explotaci&oacute;n comercial, y como consecuencia perder&iacute;a la calidad de no contribuyente de los impuestos nacionales, seg&uacute;n lo previsto por el art&iacute;culo 186 de la Ley 1607 de 2012?&iquest;Tiene la obligaci&oacute;n de facturar y liquidar el IVA sobre el arrendamiento de esas &aacute;reas comunes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52909-2014",
+      "tipo": "oficio",
+      "numero": "52909",
+      "fecha": "2014-08-29",
+      "tema": "&iquest;Cu&aacute;l es la forma de facturar, discriminar y contabilizar el IVA por las ventas de bienes muebles gravados con este impuesto, cuando la empresa que los comercializa, lo hace a trav&eacute;s de vendedores a quienes les paga una comisi&oacute;n sobre sus ventas; comisi&oacute;n que equivale a una parte del valor total del precio de venta del bien?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-48031-2014",
+      "tipo": "oficio",
+      "numero": "48031",
+      "fecha": "2014-08-08",
+      "tema": "Factura - Requisitos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47868-2014",
+      "tipo": "oficio",
+      "numero": "47868",
+      "fecha": "2014-08-08",
+      "tema": "&iquest;Cu&aacute;l es la forma m&aacute;s pr&aacute;ctica de facturar a un gran n&uacute;mero de proveedores de servicios para terceros, quienes pagan a la empresa mensualmente haciendo uso de medios de pago como baloto, efecty, entre otros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45304-2014",
+      "tipo": "oficio",
+      "numero": "45304",
+      "fecha": "2014-07-29",
+      "tema": "Autorretenci&oacute;n en el impuesto sobre la renta para la equidad-CREE en el caso del transporte automotor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34322-2014",
+      "tipo": "oficio",
+      "numero": "34322",
+      "fecha": "2014-06-06",
+      "tema": "&iquest;Sayco y Acodem al momento de remitir cotizaciones en excel por el cobro de los derechos autorales debe cobrar IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17321-2014",
+      "tipo": "oficio",
+      "numero": "17321",
+      "fecha": "2014-01-01",
+      "tema": "Mecanismo id&oacute;neo para el recaudo del Impuesto social a las municiones y explosivos, creado por la Ley 100 de 1993 y modificada por la Ley 1448 de 2011",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2377-2014",
+      "tipo": "oficio",
+      "numero": "2377",
+      "fecha": "2014-01-09",
+      "tema": "&iquest;Qu&eacute; debe entenderse por alimentos sin transformaciones o preparaciones adicionales?&iquest;Dividir un alimento para servirse como acompa&ntilde;ante significa una transformaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77394-2013",
+      "tipo": "oficio",
+      "numero": "77394",
+      "fecha": "2013-12-03",
+      "tema": "Retenci&oacute;n en la fuente aplicable a los pagos efectuados como resultado de una conciliaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-77297-2013",
+      "tipo": "oficio",
+      "numero": "77297",
+      "fecha": "2013-12-02",
+      "tema": "&iquest;El",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071633-2013",
+      "tipo": "concepto",
+      "numero": "0071633",
+      "fecha": "2013-01-01",
+      "tema": "&iquest;Qu&eacute; requisitos debe cumplir la factura que se diligencia por una persona que presta sus servicios a empresas o personas sin negocios o actividades en el pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70845-2013",
+      "tipo": "oficio",
+      "numero": "70845",
+      "fecha": "2013-11-06",
+      "tema": "&iquest;A nombre de qu&eacute; ente jur&iacute;dico p&uacute;blico debe expedirse la facturaci&oacute;n de los proveedores y contratistas, derivada de la ejecuci&oacute;n de los recursos de fiscalizaci&oacute;n del SGR?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70383-2013",
+      "tipo": "oficio",
+      "numero": "70383",
+      "fecha": "2013-11-01",
+      "tema": "Deber de expedir factura y su reglamentaci&oacute;n en la ley - Utilizaci&oacute;n del NIT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52276-2013",
+      "tipo": "oficio",
+      "numero": "52276",
+      "fecha": "2013-08-21",
+      "tema": "Obligaciones tributarias que corresponden por la prestaci&oacute;n de servicios de una sociedad an&oacute;nima simplificada que se constituye en Colombia, la cual tiene una relaci&oacute;n comercial con una empresa extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50328-2013",
+      "tipo": "oficio",
+      "numero": "50328",
+      "fecha": "2013-08-10",
+      "tema": "Obligaci&oacute;n de Exigir Factura - Obligaci&oacute;n de Expedir Facturas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45334-2013",
+      "tipo": "oficio",
+      "numero": "45334",
+      "fecha": "2013-07-23",
+      "tema": "Norma aplicable para facturar servicios que ser&aacute;n utilizados total y exclusivamente en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26847-2013",
+      "tipo": "oficio",
+      "numero": "26847",
+      "fecha": "2013-05-06",
+      "tema": "&iquest;Es viable para una persona natural extranjera residente en Colombia desde hace un a&ntilde;o, facturar a trav&eacute;s de una empresa colombiana de la cual es soda, los servicios de consultor&iacute;a empresarial prestados en el exterior como independiente, y qu&eacute; impuestos puede incluir en la factura por esta operaci&oacute;n o si se considera una exportaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21443-2013",
+      "tipo": "oficio",
+      "numero": "21443",
+      "fecha": "2013-04-15",
+      "tema": "Obligaci&oacute;n de emitir factura cuando la AEROCIVIL recibe de los concesionarios la contraprestaci&oacute;n pactada dentro de los contratos de Concesi&oacute;n para la construcci&oacute;n, explotaci&oacute;n y administraci&oacute;n de la infraestructura del aeropuerto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16780-2013",
+      "tipo": "oficio",
+      "numero": "16780",
+      "fecha": "2013-03-20",
+      "tema": "&iquest;Est&aacute; permitido que una IPS p&uacute;blica o privada, despu&eacute;s de transcurridos m&aacute;s de cinco (5) a&ntilde;os de prestado el servicio proceda a facturarlo con fecha reciente y cobrar la prestaci&oacute;n de un servicio con factura expedida al momento de la prestaci&oacute;n del servicio, despu&eacute;s de transcurridos m&aacute;s de tres a&ntilde;os?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76739-2012",
+      "tipo": "oficio",
+      "numero": "76739",
+      "fecha": "2012-12-10",
+      "tema": "Solicita aclarar el Concepto n&uacute;mero 45414 emitido el de julio 17 de 2012, &iquest;C&oacute;mo debe ser la facturaci&oacute;n tanto de las IPS como de las EPS, para el caso tanto de la expedici&oacute;n de la misma por los servicios prestados, como para las solicitudes de recobro que las EPS hacen ante el Fosyga por la prestaci&oacute;n de servicios m&eacute;dicos y prestaci&oacute;n de servicios de salud no incluidos en el Plan Obligatorio de Salud (POS)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68500-2012",
+      "tipo": "oficio",
+      "numero": "68500",
+      "fecha": "2012-10-31",
+      "tema": "&iquest;Qui&eacute;n debe cumplir con las obligaciones formales de car&aacute;cter tributario, trat&aacute;ndose de contratos de fiducia mercantil contratados para la administraci&oacute;n de patrimonios aut&oacute;nomos conformados con recursos p&uacute;blicos, cuya constituci&oacute;n es ordenada por la Ley, y de cuyos rendimientos debe pagarse la auditor&iacute;a integral igualmente ordenada para dichos patrimonios, por parte de las sociedades administradoras?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52677-2012",
+      "tipo": "oficio",
+      "numero": "52677",
+      "fecha": "2012-08-17",
+      "tema": "Alcance de la palabra",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-50629-2012",
+      "tipo": "oficio",
+      "numero": "50629",
+      "fecha": "2012-08-10",
+      "tema": "&iquest;Qu&eacute; se entiende por trabajador independiente del r&eacute;gimen simplificado?&iquest;Las Empresas Sociales del Estado (ESE), est&aacute;n obligadas a facturar y solicitar resoluci&oacute;n de numeraci&oacute;n ante la DIAN?&iquest;La Asociaci&oacute;n M&eacute;dica Sindical Colombiana Seccional Cundinamarca (Asmedas), entidad sin &aacute;nimo de lucro, est&aacute; obligada a facturar con los requisitos de ley o por el contrario puede elaborar cuenta de cobro por los servicios prestados de m&eacute;dicos especializados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-46115-2012",
+      "tipo": "oficio",
+      "numero": "46115",
+      "fecha": "2012-07-19",
+      "tema": "Factura de venta - Realizaci&oacute;n de operaciones de comercio exterior donde inicialmente se debe expedir una factura proforma, que es con la que el comprador en el exterior diligencia la carta de cr&eacute;dito, e inicia sus tr&aacute;mites aduaneros en el pa&iacute;s de destino de la exportaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-45414-2012",
+      "tipo": "oficio",
+      "numero": "45414",
+      "fecha": "2012-07-17",
+      "tema": "&iquest;Pueden las Instituciones Prestadoras de Servicios de Salud IPS expedir cuentas de cobro por los servicios de salud que prestan y-o facturar utilizando el mismo NIT de una EPS (Caja de Compensaci&oacute;n Familiar) con habilitaci&oacute;n de la Superintendencia Nacional de Salud para operar con diferentes Unidades de Servicio y Consultorios Empresariales a los que la Secretar&iacute;a de Salud les otorg&oacute; el respectivo c&oacute;digo de prestador de servicios de salud (IPS)?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-37547-2012",
+      "tipo": "oficio",
+      "numero": "37547",
+      "fecha": "2012-06-12",
+      "tema": "&iquest;Un N&uacute;mero de Identificaci&oacute;n Tributaria -NIT- debe tener asociada exclusivamente una sola raz&oacute;n social?&iquest;El d&iacute;gito de verificaci&oacute;n es parte integral o residual del NIT?&iquest;Cu&aacute;l es la fecha de vigencia o vencimiento de un manifiesto de aduana?&iquest;Con que par&aacute;metros se constata la autenticidad de un manifiesto de aduana?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28192-2012",
+      "tipo": "oficio",
+      "numero": "28192",
+      "fecha": "2012-05-02",
+      "tema": "Consulta en el escrito de la referencia, si por el solo hecho de que una sociedad incluya en las facturas que expide, su calidad de gran contribuyente as&iacute; como la identificaci&oacute;n de la resoluci&oacute;n expedida por la DIAN que le otorga esa calidad, se entiende cumplido con el requisito previsto en el literal i) del art&iacute;culo 617 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16054-2010",
+      "tipo": "oficio",
+      "numero": "16054",
+      "fecha": "2010-03-08",
+      "tema": "&iquest;La cesi&oacute;n de los derechos de compra efectuada por una sociedad prometiente compradora de un inmueble, la cual le genera un",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089685-2009",
+      "tipo": "concepto",
+      "numero": "0089685",
+      "fecha": "2009-11-03",
+      "tema": "&iquest;Cu&aacute;l es el documento id&oacute;neo para soportar ante la Administraci&oacute;n Tributar&iacute;a los costos correspondientes al pago de regal&iacute;as a una entidad p&uacute;blica por la explotaci&oacute;n de recursos naturales no renovables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-88871-2009",
+      "tipo": "oficio",
+      "numero": "88871",
+      "fecha": "2009-10-29",
+      "tema": "&iquest;Es procedente la utilizaci&oacute;n de la denominada factura cambiaria de transporte, para el reconocimiento de costos y deducciones en el impuesto a la renta, as&iacute; como de los impuestos descontables en el impuesto a las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-75265-2009",
+      "tipo": "oficio",
+      "numero": "75265",
+      "fecha": "2009-09-15",
+      "tema": "&iquest;Al momento de vender productos de importaci&oacute;n directa a un operador de Transformaci&oacute;n y Ensamble, la venta puede estar soportada en una factura local y si dicha factura debe o no incluir el valor del IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-42227-2009",
+      "tipo": "oficio",
+      "numero": "42227",
+      "fecha": "2009-05-26",
+      "tema": "&iquest;Una empresa que presta un servicio excluido del impuesto sobre las ventas, y por el cual expide factura cambiaria de transporte, est&aacute; en la obligaci&oacute;n de expedir factura y liquidar el correspondiente impuesto en el evento en que preste otro servicio que est&eacute; gravado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-39080-2009",
+      "tipo": "oficio",
+      "numero": "39080",
+      "fecha": "2009-05-15",
+      "tema": "independiente de la forma de pago, sea en efectivo, con cheque o d&eacute;bito autom&aacute;tico, las obligaciones de facturar, liquidar, cobrar y retener el IVA (si hay lugar), deber&aacute;n cumplirse",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17660-2009",
+      "tipo": "oficio",
+      "numero": "17660",
+      "fecha": "2009-03-02",
+      "tema": "Impuesto sobre las ventas y la obligaci&oacute;n de facturar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12682-2009",
+      "tipo": "oficio",
+      "numero": "12682",
+      "fecha": "2009-02-13",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a comercializadora que exporta bienes que de venderse dentro del pa&iacute;s ser&iacute;an excluidos, puede descontarse el IVA que constituye costo de venta de los bienes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93079-2008",
+      "tipo": "oficio",
+      "numero": "93079",
+      "fecha": "2008-09-22",
+      "tema": "&iquest;Los distribuidores minoristas del combustibles que actualmente no expiden factura, deben hacerlo con ocasi&oacute;n de la expedici&oacute;n de la Ley 1231 de 2008 del 17 de julio de 2008, mediante la cual se unifica la factura como t&iacute;tulo valor como mecanismo de financiaci&oacute;n para el micro, peque&ntilde;o y medianos empresarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86467-2008",
+      "tipo": "oficio",
+      "numero": "86467",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del good will en la determinaci&oacute;n del impuesto sobre la renta y la causaci&oacute;n del impuesto sobre las ventas en la explotaci&oacute;n del mismo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-83850-2008",
+      "tipo": "oficio",
+      "numero": "83850",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;El servicio de gr&uacute;as y parqueaderos prestado en cumplimiento de un contrato de concesi&oacute;n se encuentra gravado con el impuesto sobre las ventas y si en el comprobante de pago emitido por el concesionario se debe discriminar dicho impuesto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36678-2008",
+      "tipo": "oficio",
+      "numero": "36678",
+      "fecha": "2008-04-11",
+      "tema": "&iquest;Cu&aacute;l es la viabilidad o no, en su car&aacute;cter de empresa editorial exportadora, de expedirle una factura adicional a otro pa&iacute;s distinto del de destino original del contratado, cuando ya se ha facturado el material encargado a los pa&iacute;ses de destino previamente acordados. Pregunta si ello Implica una doble facturaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24924-2008",
+      "tipo": "oficio",
+      "numero": "24924",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Deben facturar las instituciones educativas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13811-2008",
+      "tipo": "oficio",
+      "numero": "13811",
+      "fecha": "2008-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11706-2008",
+      "tipo": "oficio",
+      "numero": "11706",
+      "fecha": "2008-01-01",
+      "tema": "Obligados a expedir factura - Factura Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11705-2008",
+      "tipo": "oficio",
+      "numero": "11705",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el documento para la causaci&oacute;n de los ingresos y el soporte de los costos, deducciones e impuestos descontables de terceros que realizan operaciones con una sociedad cuya actividad es la concesi&oacute;n de cr&eacute;ditos a trav&eacute;s de la utilizaci&oacute;n de tarjetas de cr&eacute;dito cuya emisi&oacute;n ella realiza?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55805-2007",
+      "tipo": "oficio",
+      "numero": "55805",
+      "fecha": "2007-07-23",
+      "tema": "&iquest;Qu&eacute; interpretaci&oacute;n le da la DIAN al Inc. 3&ordm; del art&iacute;culo 23 del E.T., teniendo en consideraci&oacute;n el Decreto 841 de 1998?&iquest;C&oacute;mo se interpreta el numeral 7&ordm;. Del decreto 841 de 1998, &iquest;cu&aacute;l es su alcance?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47259-2007",
+      "tipo": "oficio",
+      "numero": "47259",
+      "fecha": "2007-06-25",
+      "tema": "&iquest;Teniendo en cuenta la exclusi&oacute;n del IVA, contenida en el numeral 21 del art&iacute;culo 476 del Estatuto Tributario, se excluye el servicio de publicidad, prestado por progamadoras de canales regionales de televisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32712-2007",
+      "tipo": "oficio",
+      "numero": "32712",
+      "fecha": "2007-05-03",
+      "tema": "&iquest;Un usuario industrial de zona franca desee ingresar insumos con exenci&oacute;n de IVA acogi&eacute;ndose a Ley 1004 de 2005 y la factura que presentan al usuario operador cita dicha ley, tales bienes se pueden ingresar como una compraventa nacional sin necesidad de cargar estos insumos al inventario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26802-2007",
+      "tipo": "oficio",
+      "numero": "26802",
+      "fecha": "2007-04-10",
+      "tema": "&iquest;Se requiere expedir factura comercial para el proceso de exportaci&oacute;n cuando la mercanc&iacute;a es entregada a un agente comercial en el exterior quien se encarga de promover la venta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14750-2007",
+      "tipo": "oficio",
+      "numero": "14750",
+      "fecha": "2007-02-23",
+      "tema": "Facturaci&oacute;n a trav&eacute;s de m&aacute;quina registradora P.O.S., temas que ser&aacute;n atendidos en el mismo orden en que fueron propuestos",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-12523-2007",
+      "tipo": "oficio",
+      "numero": "12523",
+      "fecha": "2007-02-19",
+      "tema": "Venta de tiquetes para la prestaci&oacute;n de servicios de transporte a&eacute;reo de pasajeros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12517-2007",
+      "tipo": "oficio",
+      "numero": "12517",
+      "fecha": "2007-02-19",
+      "tema": "&iquest;Est&aacute;n obligados a presentar declaraci&oacute;n de renta y complementarios los no obligados a facturar que tienen documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-102249-2006",
+      "tipo": "oficio",
+      "numero": "102249",
+      "fecha": "2006-12-05",
+      "tema": "&iquest;Dado que el Fondo de Ventas Populares, como establecimiento p&uacute;blico adscrito a la Secretar&iacute;a de Gobierno, actualmente est&aacute; recaudando el IVA en un t&iacute;tulo valor denominado por ellos BONO EXITO, cu&aacute;l es la facultad para dicho recaudo, la autorizaci&oacute;n para emitir los n&uacute;meros consecutivos del t&iacute;tulo valor, los requisitos legales de tales documentos, y el r&eacute;gimen sancionatorio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95077-2006",
+      "tipo": "oficio",
+      "numero": "95077",
+      "fecha": "2006-11-08",
+      "tema": "&iquest;Cu&aacute;l es la tarifa de retenci&oacute;n aplicable a un contrato en el cual se estipula que integralmente el objeto del mismo es la adquisici&oacute;n de suministros e insumos en los componente de escuela saludable, implementaci&oacute;n de pol&iacute;ticas de salud sexual y reproductiva, prestaci&oacute;n de servicios de asistencia t&eacute;cnica, capacitaci&oacute;n, investigaci&oacute;n componente de fortalecimiento plan departamental de alimentaci&oacute;n y nutrici&oacute;n, toda vez que en la facturaci&oacute;n presentada no se estipula un concepto desglosado, sino que se estipula un porcentaje del contrato?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65554-2006",
+      "tipo": "oficio",
+      "numero": "65554",
+      "fecha": "2006-08-08",
+      "tema": "&iquest;En el caso de comisiones por concepto de transacciones realizadas en la bolsa agropecuaria seg&uacute;n el art&iacute;culo 393 del Estatuto Tributario, la retenci&oacute;n de IVA, debe ser efectuada por la respectiva bolsa?&iquest;Qu&eacute; pasa cu&aacute;ndo una firma comisionista factura comisiones por concepto de transacciones realizadas en la bolsa nacional agropecuaria a una empresa que es gran contribuyente, qui&eacute;n debe realizar la retenci&oacute;n de IVA, la bolsa nacional agropecuaria o la empresa a quien se le est&aacute; facturando?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55271-2006",
+      "tipo": "oficio",
+      "numero": "55271",
+      "fecha": "2006-07-05",
+      "tema": "Preguntas relacionadas con la retenci&oacute;n del impuesto sobre las ventas, en operaciones con responsables del r&eacute;gimen simplificado, cuando el agente retenedor es una empresa estatal de servicios p&uacute;blicos, que es responsable del impuesto sobre las ventas en raz&oacute;n de los ingresos gravados adicionales que percibe",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22238-2006",
+      "tipo": "oficio",
+      "numero": "22238",
+      "fecha": "2006-03-15",
+      "tema": "&iquest;C&oacute;mo se determina el impuesto sobre las ventas cuando se participa en licitaciones p&uacute;blicas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21286-2006",
+      "tipo": "oficio",
+      "numero": "21286",
+      "fecha": "2006-03-13",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones tributarias de los agentes mar&iacute;timos, respecto de las divisas recibidas desde el exterior para la atenci&oacute;n de gastos generados por las motonaves al momento de arribar a puertos en Colombia y en relaci&oacute;n con el servicio de entrega de dinero a los capitanes de las motonaves o barcos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2856-2006",
+      "tipo": "oficio",
+      "numero": "2856",
+      "fecha": "2006-01-06",
+      "tema": "&iquest;Aplica el Decreto 540 de 2004, a un contratista el cual afirma que al estar exento de IVA, tampoco est&aacute; obligado a presentar factura as&iacute; est&eacute; inscrito como responsable del r&eacute;gimen com&uacute;n en el RUT?&iquest;Qu&eacute; se entiende por Programas de Utilidad Com&uacute;n, contemplado en el citado decreto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-96617-2005",
+      "tipo": "oficio",
+      "numero": "96617",
+      "fecha": "2005-12-27",
+      "tema": ", de facturar a los usuarios por concepto del pago de las cuotas moderadoras y copagos que realicen los usuarios afiliados al sistema",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-95875-2005",
+      "tipo": "oficio",
+      "numero": "95875",
+      "fecha": "2005-12-22",
+      "tema": "&iquest;La factura de venta expedida por el proveedor, que en este caso en una empresa social del estado, para efectos de acceder al recobro de medicamentos no incluidos en el POS, cumple con los requisitos exigidos en el literal c) del art&iacute;culo 617 del estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64448-2005",
+      "tipo": "oficio",
+      "numero": "64448",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;A partir de qu&eacute; momento est&aacute; autorizado para no facturar un particular que celebr&oacute; un contrato de arrendamiento de un inmueble con la Procuradur&iacute;a y que present&oacute; una solicitud ante la Direcci&oacute;n de Impuestos y Aduanas Nacionales, para cambiarse del r&eacute;gimen com&uacute;n al simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58884-2005",
+      "tipo": "oficio",
+      "numero": "58884",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;La contraprestaci&oacute;n que percibe una comercializadora internacional por la venta en Colombia de productos de empresas extranjeras se encuentra sujeta al IVA y si debe expedirse factura por tal concepto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049955-2005",
+      "tipo": "concepto",
+      "numero": "0049955",
+      "fecha": "2005-01-01",
+      "tema": "El documento equivalente previsto en el Art&iacute;culo 3o. del Decreto 522 de 2003 &iquest;es v&aacute;lido como soporte de costos y deducciones, en el caso de las adquisiciones efectuadas por un responsable del r&eacute;gimen com&uacute;n a personas naturales no comerciantes que vendan bienes excluidos del IVA y superen los topes de ingresos y patrimonio exigidos a los responsables del r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-47300-2005",
+      "tipo": "oficio",
+      "numero": "47300",
+      "fecha": "2005-07-14",
+      "tema": "&iquest;Un contratista, que en la fecha de celebraci&oacute;n del contrato de prestaci&oacute;n de servicios, se encontraba inscrito en el r&eacute;gimen simplificado, y que al momento de liquidar el contrato est&aacute; inscrito en el r&eacute;gimen com&uacute;n, &iquest;debe facturar el IVA sobre los honorarios y quien debe asumir este impuesto teniendo en cuenta que en el contrato no qued&oacute; estipulado ning&uacute;n tipo de gravamen?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019955-2005",
+      "tipo": "concepto",
+      "numero": "0019955",
+      "fecha": "2005-01-01",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8609-2005",
+      "tipo": "oficio",
+      "numero": "8609",
+      "fecha": "2005-02-16",
+      "tema": "&iquest;Por el arrendamiento de un local comercial que tiene secuestrada la Direcci&oacute;n Nacional de Estupefacientes, dicha entidad est&aacute; obligada a expedir factura o documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2005",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2005-02-08",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Decreto 2788 de 2004 por medio del cual se reglamenta el registro Unico Tributario RUT, referido espec&iacute;ficamente a los sujetos obligados a la inscripci&oacute;n y a los formularios utilizados por la Administraci&oacute;n para tal efefcto?&iquest;Est&aacute;n obligadas formalmente las personas naturales comerciantes a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89577-2004",
+      "tipo": "oficio",
+      "numero": "89577",
+      "fecha": "2004-12-22",
+      "tema": "&iquest;Una empresa que pertenece al r&eacute;gimen com&uacute;n, que realiza ventas de grandes vol&uacute;menes de productos a los clientes que normalmente son tiendas o supermercados, raz&oacute;n por la cual le resulta complejo expedir facturas por cada unidad que vende, puede elaborar el comprobante establecido en el art&iacute;culo 1 del Decreto 1514 de 1998?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89481-2004",
+      "tipo": "oficio",
+      "numero": "89481",
+      "fecha": "2004-12-21",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones tributarias para una sociedad colombiana por la realizaci&oacute;n de operaciones comerciales en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079027-2004",
+      "tipo": "concepto",
+      "numero": "0079027",
+      "fecha": "2004-11-18",
+      "tema": "&iquest;Est&aacute;n obligados a expedir factura de venta los agricultores y ganaderos que vendan bienes excluidos del Impuesto sobre las ventas si superan los montos para pertenecer al r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33346-2004",
+      "tipo": "oficio",
+      "numero": "33346",
+      "fecha": "2004-05-31",
+      "tema": "&iquest;Un comercializador que &uacute;nicamente vende bienes exentos, como es la venta a sociedades de comercializaci&oacute;n internacional, es o no responsable del impuesto sobre las ventas -IVA- y en tal sentido cu&aacute;les son las obligaciones sustanciales y formales y m&aacute;s espec&iacute;ficamente las relacionadas con la inscripci&oacute;n en el registro &uacute;nico tributario RUT?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0049135-2003",
+      "tipo": "concepto",
+      "numero": "0049135",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Se debe expedir factura en la venta que se efect&uacute;a de una mercanc&iacute;a en puerto proveniente del exterior, antes de su nacionalizaci&oacute;n? se debe liquidar en la misma el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074151-2002",
+      "tipo": "concepto",
+      "numero": "0074151",
+      "fecha": "2002-11-18",
+      "tema": "&iquest;En que momento debe expedir factura una empresa prestadora del servicio de televisi&oacute;n por cable, que cobra anticipadamente el servicio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070219-2002",
+      "tipo": "concepto",
+      "numero": "0070219",
+      "fecha": "2002-10-28",
+      "tema": "&iquest;Cu&aacute;ndo una empresa con domicilio en el territorio nacional introduce una mercanc&iacute;a a zona franca, a trav&eacute;s de un usuario industrial de servicios y la somete a un procesamiento parcial tanto en la zona franca como en el territorio nacional para ser vendida en el exterior, c&oacute;mo se debe facturar y qu&eacute; documento soporta la exportaci&oacute;n del componente nacional a zona franca para poder acceder a los beneficios tributarios generados por dicha operaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048314-2002",
+      "tipo": "concepto",
+      "numero": "0048314",
+      "fecha": "2002-08-02",
+      "tema": "&iquest;Pueden las empresas prestadoras del servicio de telefon&iacute;a celular facturar los servicios prestados a trav&eacute;s de medios electr&oacute;nicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029119-2002",
+      "tipo": "concepto",
+      "numero": "0029119",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen fiscal aplicable a Colombia a las asociaciones culturales sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026397-2002",
+      "tipo": "concepto",
+      "numero": "0026397",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;La venta de bienes productos de la actividad agr&iacute;cola o ganadera efectuada por personas naturales requiere de factura o documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026393-2002",
+      "tipo": "concepto",
+      "numero": "0026393",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Una persona natural que intermedia en la comercializaci&oacute;n de computadores ensamblados en el pa&iacute;s, y de partes de los mismos, que documentos debe expedir al realizar las ventas y cu&aacute;les debe solicitar a sus proveedores?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013737-2002",
+      "tipo": "concepto",
+      "numero": "0013737",
+      "fecha": "2002-03-06",
+      "tema": "&iquest;Cu&aacute;ndo se pagan unos incentivos en efectivo se debe expedir factura o documento equivalente como soporte de los gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011727-2002",
+      "tipo": "concepto",
+      "numero": "0011727",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cu&aacute;l es la forma de facturar por parte de una distribuidora de loter&iacute;a que entrega en horas de la ma&ntilde;ana los billetes, y en en horas de la tarde recibe devoluciones de los billetes no vendidos, consolidando la venta real?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009174-2002",
+      "tipo": "concepto",
+      "numero": "0009174",
+      "fecha": "2002-02-14",
+      "tema": "&iquest;Para efectos fiscales, resulta procedente que las empresas se nieguen a recibir facturas cuando han publicado o informado a los proveedores o prestadores de servicios de una fecha m&aacute;xima de recepci&oacute;n de facturas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091328-2001",
+      "tipo": "concepto",
+      "numero": "0091328",
+      "fecha": "2001-10-11",
+      "tema": "&iquest;Los pagos correspondientes a capital e intereses a los cuales es condenada una entidad del orden nacional mediante una sentencia judicial proferida dentro de una acci&oacute;n contractual relativa a operaciones gravadas, est&aacute;n sometidos al impuesto sobre las ventas? &iquest;La retenci&oacute;n en la fuente a titulo del impuesto sobre la renta sobre los valores reconocidos a favor del contratista en un fallo judicial, debe practicarse antes de la compensaci&oacute;n ordenada por el art&iacute;culo 29 de la ley 344 de 1996? &iquest;Al hacer el pago de las sumas ordenadas en el fallo judicial, debe el contratista expedir factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062367-2001",
+      "tipo": "concepto",
+      "numero": "0062367",
+      "fecha": "2001-07-09",
+      "tema": "&iquest;las empresas asociativas de trabajo est&aacute;n obligadas a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0042123-2001",
+      "tipo": "concepto",
+      "numero": "0042123",
+      "fecha": "2001-05-23",
+      "tema": "&iquest;El Ejercito Nacional debe expedir factura por venta y-o prestaci&oacute; n de servicios a particulares?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015705-2001",
+      "tipo": "concepto",
+      "numero": "0015705",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Hay lugar a facturar los intereses moratorios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000374-2001",
+      "tipo": "concepto",
+      "numero": "0000374",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Las ventas que se realizan al exterior desde zonas francas de mercanc&iacute;as no nacionalizadas deben facturarse?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0111495-2000",
+      "tipo": "concepto",
+      "numero": "0111495",
+      "fecha": "2000-11-15",
+      "tema": "&iquest;Un lit&oacute;grafo que elabora facturas o documentos equivalentes se encuentra obligado a suministrar informaci&oacute;n sobre sus clientes cuando un tercero es quien encarga su producci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0111379-2000",
+      "tipo": "concepto",
+      "numero": "0111379",
+      "fecha": "2000-11-14",
+      "tema": "&iquest;Las Aerol&iacute;neas que prestan el servicio de transporte de carga a los",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0097608-2000",
+      "tipo": "concepto",
+      "numero": "0097608",
+      "fecha": "2000-10-06",
+      "tema": "&iquest;Debe expedirse factura al adquirente del servicio y a sus beneficiarios por las cuotas de inscripci&oacute;n y cuotas mensuales pagadas para la adquisici&oacute;n de servicios exequiales y de alquiler de tumbas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0087970-2000",
+      "tipo": "concepto",
+      "numero": "0087970",
+      "fecha": "2000-09-11",
+      "tema": "&iquest;La resoluci&oacute;n de sanci&oacute;n por no declarar, debe estar precedida del pliego de cargos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074997-2000",
+      "tipo": "concepto",
+      "numero": "0074997",
+      "fecha": "2000-08-09",
+      "tema": "&iquest;Cu&aacute;les soportes respaldan la declaraci&oacute;n de renta cuando no se est&aacute; obligado a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066030-2000",
+      "tipo": "concepto",
+      "numero": "0066030",
+      "fecha": "2000-07-11",
+      "tema": "&iquest;Debe expedirse factura sobre comisiones de ingresos recibidos para terceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039139-2000",
+      "tipo": "concepto",
+      "numero": "0039139",
+      "fecha": "2000-04-25",
+      "tema": "&iquest;Existe disposici&oacute;n que exija el cambio de la fecha de una factura.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052677-1999",
+      "tipo": "concepto",
+      "numero": "0052677",
+      "fecha": "1999-06-04",
+      "tema": "&iquest;Est&aacute; obligada una empresa a expedir factura por operaciones diferentes a las del objeto social, y cobrar impuesto sobre las ventas sobre ellas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051177-1999",
+      "tipo": "concepto",
+      "numero": "0051177",
+      "fecha": "1999-06-30",
+      "tema": "&iquest;Cuando se trate de remisi&oacute;n de las mercanc&iacute;as a los clientes, resulta procedente la retenci&oacute;n de las mercanc&iacute;as al adquirente que no exhiba la factura o documento equivalente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035154-1999",
+      "tipo": "concepto",
+      "numero": "0035154",
+      "fecha": "1999-04-13",
+      "tema": "&iquest;Los servicios de aseo y lavado de carrocer&iacute;as, chasises, motores, y dem&aacute;s derivados de ellos, est&aacute;n gravados con el impuesto sobre las ventas? La comercializaci&oacute;n en las islas de las estaciones de servicio de algunos productos como bayetillas, gaseosa, l&iacute;quido para frenos, etc., requiere la expedici&oacute;n de factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034448-1999",
+      "tipo": "concepto",
+      "numero": "0034448",
+      "fecha": "1999-11-05",
+      "tema": "Inquiere la consultante si puede una empresa generar una factura por cada ciudad en la que se involucren la totalidad de ingresos que no han sido identificados y si se permite emitir una sola factura mensual en cada ciudad por la totalidad de los ingresos de cuant&iacute;as menores",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031194-1999",
+      "tipo": "concepto",
+      "numero": "0031194",
+      "fecha": "1999-04-04",
+      "tema": "&iquest;Una empresa puede despachar mercanc&iacute;a mediante una remisi&oacute;n y realizar a factura correspondiente cada 10 d&iacute;as? &iquest;Qu&eacute; influencia tendr&iacute;a sobre sus inventarios frente a la obligaci&oacute;n tributaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012094-1999",
+      "tipo": "concepto",
+      "numero": "0012094",
+      "fecha": "1999-02-17",
+      "tema": "&iquest;Las sociedades corredoras de reaseguros se encuentran obligadas a expedir facturas por los corretajes de intermediaci&oacute;n, concepto que constituye su principal fuente de ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0006459-1999",
+      "tipo": "concepto",
+      "numero": "0006459",
+      "fecha": "1999-08-24",
+      "tema": "&iquest;Pueden las diferentes dependencias de una empresa facturar entre s&iacute; los servicios prestados sin tener efectos tributarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082986-1998",
+      "tipo": "concepto",
+      "numero": "0082986",
+      "fecha": "1998-10-23",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal en materia de renta, IVA y timbre nacional en un contrato efectuado por una sociedad nacional con una entidad ubicada en el exterior la cual no tiene domicilio en Colombia, tomando en cuenta que el objeto del contrato es: el arrendamiento de un segmento satelital, acceso a un telepuerto de comunicaciones en una ciudad del exterior propiedad del arrendador y acceso a su red de Internet a trav&eacute;s de un sat&eacute;lite?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0076214-1998",
+      "tipo": "concepto",
+      "numero": "0076214",
+      "fecha": "1998-09-28",
+      "tema": "&iquest;Se encuentra obligado a facturar e incluir el IVA, una Universidad por los servicios profesionales prestados, diferentes a los de educaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069293-1998",
+      "tipo": "concepto",
+      "numero": "0069293",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;En los t&eacute;rminos del art&iacute;culo 29 del decreto 3050 de 1997, cuando una compa&ntilde;&iacute;a contrata con una agencia la realizaci&oacute;n del servicio de publicidad, es suficiente soporte para el reconocimiento de costos y deducciones, la factura que &eacute;sta le expida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069265-1998",
+      "tipo": "concepto",
+      "numero": "0069265",
+      "fecha": "1998-09-03",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0068086-1998",
+      "tipo": "concepto",
+      "numero": "0068086",
+      "fecha": "1998-08-31",
+      "tema": "&iquest;Seg&uacute;n el Decreto 1165 de 1996, las p&oacute;lizas de seguros son documentos equivalentes a la factura; si se implementa un sistema de expedici&oacute;n de p&oacute;lizas de seguros por computador, es necesario solicitar la autorizaci&oacute;n del Software Aplicativo de Facturaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0055915-1998",
+      "tipo": "concepto",
+      "numero": "0055915",
+      "fecha": "1998-07-14",
+      "tema": "&iquest;Se encuentran excluidos del impuesto sobre las ventas servicios conexos al de televisi&oacute;n tales como instalaciones, reconexiones, derivaciones, reparaciones, etc.? &iquest;Est&aacute;n gravados con el impuesto sobre las ventas los intereses que se generan por la mora en el pago del servicio de televisi&oacute;n? &iquest;C&oacute;mo opera la facturaci&oacute;n en la prestaci&oacute;n de servicios de televisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051935-1998",
+      "tipo": "concepto",
+      "numero": "0051935",
+      "fecha": "1998-07-02",
+      "tema": "&iquest;Solicita con base en el Concepto 28587 del 4 de abril de 1997, se ratifique o rectifique lo all&iacute; manifestado? &iquest;Se solicita manifestar si las conclusiones del consultante en los puntos 1o, 4o, 5o y 6o son correctas, o si por el contrario son equivocadas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051574-1998",
+      "tipo": "concepto",
+      "numero": "0051574",
+      "fecha": "1998-07-01",
+      "tema": "&iquest;En los contratos de promesa de compraventa de unidades de vivienda de inter&eacute;s social entre empresas constructoras y Cajas de Compensaci&oacute;n Familiar, &iquest;se genera impuesto sobre las ventas y debe facturarse y discriminarse impuesto sobre las ventas? &iquest;Qu&eacute; tratamiento debe hacerse al impuesto sobre las ventas pagado en la compra de materiales para la construcci&oacute;n de viviendas de inter&eacute;s social por parte de una empresa constructora? &iquest;Es descontable para una empresa constructora el impuesto sobre las ventas cancelado por servicios prestados con cargo a una obra que se desarrolla por administraci&oacute;n delegada? &iquest;Hay obligaci&oacute;n de expedir factura para el pago o cobro de anticipos pactados en un contrato? &iquest;En los contratos de compraventa de bienes inmuebles a Cajas de Compensaci&oacute;n Familiar, la factura debe expedirse al momento de expedici&oacute;n de la escritura p&uacute;blica a los beneficiarios o con cada vencimiento de pago pactado con la Caja de Compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0037933-1998",
+      "tipo": "concepto",
+      "numero": "0037933",
+      "fecha": "1998-05-27",
+      "tema": "&iquest;Es posible incluir en las facturas que soportan costos y deducciones el nombre social a cambio de la raz&oacute;n social, toda vez que &eacute;sta por su extensi&oacute;n no cabe en los campos que usualmente est&aacute;n destinados para ello, adem&aacute;s nuestra empresa es conocida comercialmente por su abreviatura o nombre comercial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0033300-1998",
+      "tipo": "concepto",
+      "numero": "0033300",
+      "fecha": "1998-05-12",
+      "tema": "Al pagar los servicios a una empresa, esta opta por cambiar las facturas para presentar unas nuevas en las cuales s&oacute;lo incluyen el valor neto del pago, despu&eacute;s de impuestos, quedando un remanente que corresponde a los impuestos descontados. &iquest;Esta la empresa exenta del pago de impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031563-1998",
+      "tipo": "concepto",
+      "numero": "0031563",
+      "fecha": "1998-05-06",
+      "tema": "&iquest;La informaci&oacute;n que seg&uacute;n la Resoluci&oacute;n 1768 de 1997, debe suministrarse con relaci&oacute;n a la facturaci&oacute;n, debe ser cumplida por quienes elaboran, o por quienes expiden facturas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004286-1998",
+      "tipo": "concepto",
+      "numero": "0004286",
+      "fecha": "1998-01-27",
+      "tema": "&iquest;Respecto de los gastos de funcionamiento &iquest;el tiquete de la casa registradora tiene la calidad de documento equivalente a la factura o es necesario la expedici&oacute;n de factura? &iquest;Qui&eacute;n es responsable por el impuesto a las ventas en las operaciones realizadas bajo la figura de las ventas en consignaci&oacute;n? &iquest;Qui&eacute;n debe expedir la factura de venta cuando existe un contrato de consignaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019878-1997",
+      "tipo": "concepto",
+      "numero": "0019878",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019158-1997",
+      "tipo": "concepto",
+      "numero": "0019158",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0095408-1996",
+      "tipo": "concepto",
+      "numero": "0095408",
+      "fecha": "1996-12-12",
+      "tema": "&iquest;Se deben cumplir los requisitos exigidos para la factura en el caso de donaciones de entidades privadas para fundaciones sin &aacute;nimo de lucro?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091789-1996",
+      "tipo": "concepto",
+      "numero": "0091789",
+      "fecha": "1996-11-29",
+      "tema": "&iquest;Un establecimiento p&uacute;blico del orden nacional debe solicitar factura para el reconocimiento del gasto, cuando compra bienes o servicios a una persona natural con r&eacute;gimen simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082663-1996",
+      "tipo": "concepto",
+      "numero": "0082663",
+      "fecha": "1996-07-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030882-1996",
+      "tipo": "concepto",
+      "numero": "0030882",
+      "fecha": "1996-04-15",
+      "tema": "&iquest;Es indispensable la facturaci&oacute;n para reconocimiento de costos y gastos, aun en vigencia del Decreto 2150 de 1995?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025418-1996",
+      "tipo": "concepto",
+      "numero": "0025418",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070683-1995",
+      "tipo": "concepto",
+      "numero": "0070683",
+      "fecha": "1995-10-05",
+      "tema": "&iquest;Constituye un ingreso sometido a retenci&oacute;n en la fuente a t&iacute;tulo del impuesto sobre la renta, la suma total que una empresa le paga a una agencia de publicidad y que comprende adem&aacute;s de la comisi&oacute;n los Costos y gastos en que incurre esta &uacute;ltima, en el desarrollo de una campa&ntilde;a publicitaria para los productos de la primera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0065383-1994",
+      "tipo": "concepto",
+      "numero": "0065383",
+      "fecha": "1994-11-11",
+      "tema": "&iquest;Un contribuyente puede utilizar en su contabilidad las facturas como notas d&eacute;bito o notas cr&eacute;dito anexando a las mismas un escrito en uno u otro sentido? &iquest;La correcci&oacute;n de una declaraci&oacute;n suscitada con ocasi&oacute;n de la modificaci&oacute;n en las instrucciones oficiales relativas al correcto diligenciamiento de la declaraci&oacute;n acarrea sanci&oacute;n por correcci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010550-1993",
+      "tipo": "concepto",
+      "numero": "0010550",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Retenci&oacute;n a la intermediaria, base para efectuarla cuando se incluyen gastos y honorarios, forma de registrar el pago, soportes fiscales, forma de gestionar los cheques y qu&eacute; otras precauciones debe tomar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004139-1993",
+      "tipo": "concepto",
+      "numero": "0004139",
+      "fecha": "1993-02-04",
+      "tema": "&iquest;Se encuentra vigente el art&iacute;culo 461 del Estatuto Tributario en relaci&oacute;n con el transporte internacional de pasajeros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014511-1991",
+      "tipo": "concepto",
+      "numero": "0014511",
+      "fecha": "1991-01-01",
+      "tema": "Pautas de interpretaci&oacute;n y aplicaci&oacute;n de las normas legales y reglamentarias vigentes en materia de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023479-1990",
+      "tipo": "concepto",
+      "numero": "0023479",
+      "fecha": "1990-01-01",
+      "tema": "Para efectos del impuesto sobre las ventas, el hecho de reconocerle una suma mensual al trabajador para el mantenimiento del veh&iacute;culo partiular le implica alguna obligaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015876-1990",
+      "tipo": "concepto",
+      "numero": "0015876",
+      "fecha": "1990-01-01",
+      "tema": "Documento equivalente a la factura, sanci&oacute;n cuando no se anota la raz&oacute;n social completa y n&uacute;mero consecutivo de la factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008343-1990",
+      "tipo": "concepto",
+      "numero": "0008343",
+      "fecha": "1990-04-09",
+      "tema": "&iquest;Toda actividad desarrollada por los profesionales independientes, que como tal reviste la calidad de operaci&oacute;n, conlleva la obligaci&oacute;n de expedir factura o documento equivalente, aunque o recibido en la operaci&oacute;n sea para un tercero, pues la norma expresamente indica que se expida la factura independientemente de su calidad de contribuyente o no contribuyente. Como en el literal c) del art&iacute;culo 617 del Estatuto Tributario incluye como requisito de la factura la descripci&oacute;n espec&iacute;fica o gen&eacute;rica de los servicios prestados, si el profesional recibe para su mandante, puede explicarlo as&iacute; en la facturo o documento equivalente ya que lo est&aacute; sustituyendo en el momento del recibo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003300-1990",
+      "tipo": "concepto",
+      "numero": "0003300",
+      "fecha": "1990-02-08",
+      "tema": "&iquest;Una sociedad recientemente constituida e inscrita como responsable del impuesto a las ventas, pero que transcurridos varios meses no ha iniciado actividades comerciales, est&aacute; obligada a elaborar y presentar declaraciones de impuestos a las ventas y de retenciones en la fuente? &iquest;Una sociedad en comandita simple que ha cesado en forma definitiva en sus actividades comerciales debe seguir elaborando y presentando declaraciones del impuesto a las ventas y retenciones en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027002-1989",
+      "tipo": "concepto",
+      "numero": "0027002",
+      "fecha": "1989-01-01",
+      "tema": "&iquest;Cu&aacute;l consecutivo y numeraci&oacute;n debe llevar las facturas que expiden los concesionarios?",
+      "vigente": true
+    }
+  ]
+}

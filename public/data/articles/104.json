@@ -1,1 +1,414 @@
-{"id_articulo": "Art. 104", "titulo": "Art. 104. Realización de las deducciones para los no obligados a llevar contabilidad", "titulo_corto": "Realización de las deducciones para los no obligados a llevar contabilidad", "slug": "104", "url_origen": "https://estatuto.co/104", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 0, "contenido_texto": "*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados las deducciones legalmente aceptables cuando se paguen efectivamente en dinero o en especie o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago. Por consiguiente, las deducciones incurridas por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o se venda el bien.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los contribuyentes no obligados a llevar contabilidad se entienden realizados las deducciones legalmente aceptables cuando se paguen efectivamente en dinero o en especie o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago.</p>\n<p>Por consiguiente, las deducciones incurridas por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o se venda el bien.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado- Ley 1819 de 2016 Art. 60.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["888"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 104",
+  "titulo": "Art. 104. Realización de las deducciones para los no obligados a llevar contabilidad",
+  "titulo_corto": "Realización de las deducciones para los no obligados a llevar contabilidad",
+  "slug": "104",
+  "url_origen": "https://estatuto.co/104",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "*Para los contribuyentes no obligados a llevar contabilidad se entienden realizados las deducciones legalmente aceptables cuando se paguen efectivamente en dinero o en especie o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago. Por consiguiente, las deducciones incurridas por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o se venda el bien.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>Para los contribuyentes no obligados a llevar contabilidad se entienden realizados las deducciones legalmente aceptables cuando se paguen efectivamente en dinero o en especie o cuando su exigibilidad termine por cualquier otro modo que equivalga legalmente a un pago.</p>\n<p>Por consiguiente, las deducciones incurridas por anticipado sólo se deducen en el año o período gravable en que se preste el servicio o se venda el bien.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado- Ley 1819 de 2016 Art. 60.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "888"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 4 concepto(s) relacionado(s). Jurisprudencia: 7 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3979 (2023-03-31): (Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior\noficio 2060 (2025-02-18): Impuesto sobre la Renta y Complementarios\noficio 2590 (2024-04-23): Impuesto sobre la Renta y Complementarios\noficio 908475 (2021-08-23): Impuesto sobre la Renta - Costos para no obligados a llevar contabilidad",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3979-2023",
+      "tipo": "oficio",
+      "numero": "3979",
+      "fecha": "2023-03-31",
+      "tema": "(Int 415) Concepto general – Consideraciones tributarias y aduaneras sobre las ventas de bienes efectuadas a trav&eacute;s del comercio electr&oacute;nico desde Colombia al exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2060-2025",
+      "tipo": "oficio",
+      "numero": "2060",
+      "fecha": "2025-02-18",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2590-2024",
+      "tipo": "oficio",
+      "numero": "2590",
+      "fecha": "2024-04-23",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908475-2021",
+      "tipo": "oficio",
+      "numero": "908475",
+      "fecha": "2021-08-23",
+      "tema": "Impuesto sobre la Renta - Costos para no obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902652-2021",
+      "tipo": "oficio",
+      "numero": "902652",
+      "fecha": "2021-03-29",
+      "tema": "Deducci&oacute;n por salarios y pagos a trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906810-2020",
+      "tipo": "oficio",
+      "numero": "906810",
+      "fecha": "2020-10-05",
+      "tema": "Impuesto sobre la Renta y Complementarios, procedimiento tributario. Contratos de colaboraci&oacute;n empresarial. R&eacute;gimen Especial Tributario ZESE Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906025-2020",
+      "tipo": "oficio",
+      "numero": "906025",
+      "fecha": "2020-10-14",
+      "tema": "Aportes a seguridad social - Base de retenci&oacute;n en la fuente trabajadores independientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23332-2019",
+      "tipo": "oficio",
+      "numero": "23332",
+      "fecha": "2019-09-13",
+      "tema": "Soporte de gastos en el comercio electr&oacute;nico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19364-2019",
+      "tipo": "oficio",
+      "numero": "19364",
+      "fecha": "2019-08-02",
+      "tema": "Impuesto sobre la Renta y Complementarios. Deductores",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19354-2019",
+      "tipo": "oficio",
+      "numero": "19354",
+      "fecha": "2019-08-05",
+      "tema": "Deducciones - Impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2887-2019",
+      "tipo": "oficio",
+      "numero": "2887",
+      "fecha": "2019-02-05",
+      "tema": "&iquest;Qu&eacute; exenciones tributarias existen en el pa&iacute;s para los mipymes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6017-2017",
+      "tipo": "oficio",
+      "numero": "6017",
+      "fecha": "2017-03-13",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3051-2015",
+      "tipo": "oficio",
+      "numero": "3051",
+      "fecha": "2015-02-05",
+      "tema": "&iquest;Al momento de realizar el pago, se debe practicar retenci&oacute;n en la fuente a t&iacute;tulo del impuesto de renta?&iquest;qui&eacute;n es el sujeto pasivo de la retenci&oacute;n?&iquest;La factura es soporte de costos y gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-65926-2014",
+      "tipo": "oficio",
+      "numero": "65926",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;La sociedad debe causar como ingresos el 100% de las facturas y pagar la totalidad de los impuestos aunque estas no sean pagadas en el 100% de su valor por parte del deudor?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58755-2014",
+      "tipo": "oficio",
+      "numero": "58755",
+      "fecha": "2014-10-15",
+      "tema": "Inversiones o actividades mineras deducci&oacute;n renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57331-2014",
+      "tipo": "oficio",
+      "numero": "57331",
+      "fecha": "2014-10-06",
+      "tema": "&iquest;A qui&eacute;n se debe realizar el pago en cheque o transferencia cuando en la factura est&aacute; estipulado que los ingresos son ingresos recibidos para terceros?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0049410-2014",
+      "tipo": "concepto",
+      "numero": "0049410",
+      "fecha": "2014-08-15",
+      "tema": "&iquest;A las ganancias ocasionales percibidas por los herederos testamentarios que no son legitimarios, les aplica la exenci&oacute;n se&ntilde;alada en el numeral 3o del art&iacute;culo 307 del Estatuto Tributario, que es m&aacute;s favorable que la del numeral 4o?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-40882-2014",
+      "tipo": "oficio",
+      "numero": "40882",
+      "fecha": "2014-07-10",
+      "tema": "Reconsideraci&oacute;n de los Conceptos 20297 de 13 de octubre de 1999, 28651 de mayo de 2003 y 39728 de 30 de junio de 2004 - Tratamiento fiscal asociado a los descuentos otorgados en las operaciones de negociaci&oacute;n de cartera, ello en atenci&oacute;n a las disposiciones de la Ley 1231 de 2008, y en particular, bajo la consideraci&oacute;n del factoring como una operaci&oacute;n financiera consistente en la cesi&oacute;n de cartera con descuento a partir de t&iacute;tulos valores, facturas emitidas al comprador del bien o servicio y la cesi&oacute;n de las mismas al factor quien al pagar antes del vencimiento hace un descuento, de donde se desprende este como un mecanismo de financiaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-93130-2011",
+      "tipo": "oficio",
+      "numero": "93130",
+      "fecha": "2011-11-28",
+      "tema": "Solicita reconsiderar el Concepto 263 de noviembre 16 de 2006, respecto de la respuesta dada al interrogante n&uacute;mero tres (3), en cuanto se concluy&oacute; que los responsables de IVA no obligados a llevar contabilidad, solo podr&aacute;n registrar los impuestos descontables en el per&iacute;odo fiscal correspondiente a la fecha de pago o en uno de los dos per&iacute;odos bimestrales inmediatamente siguientes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-31849-2010",
+      "tipo": "oficio",
+      "numero": "31849",
+      "fecha": "2010-05-05",
+      "tema": "Tratamiento tributario del subsidio a la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0517-2010",
+      "tipo": "oficio",
+      "numero": "0517",
+      "fecha": "2010-10-21",
+      "tema": "Solicita en su escrito la reconsideraci&oacute;n del Oficio 31849 del 5 de mayo de 2010, porque a su juicio no consulta la realidad econ&oacute;mica del sector agropecuario y efect&uacute;a interpretaciones que desmejoran la operaci&oacute;n comercial del sector, haciendo nugatorio el prop&oacute;sito que inspir&oacute; la creaci&oacute;n del seguro previsto en la Ley 69 de 1993, de alentar la producci&oacute;n y exportaci&oacute;n agr&iacute;cola del pa&iacute;s",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11326-2008",
+      "tipo": "oficio",
+      "numero": "11326",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;En el caso de los contribuyentes obligados a llevar libros de contabilidad por el sistema de causaci&oacute;n, se debe entender que la t&eacute;sis jur&iacute;dica del Concepto No. 068244 del 3 de septiembre de 2007 aplica no solo para lo pagado, sino tambi&eacute;n para lo causado y abonado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-106689-2007",
+      "tipo": "oficio",
+      "numero": "106689",
+      "fecha": "2007-12-28",
+      "tema": "Reconsiderar el Concepto n&uacute;mero 078709 del 2 de octubre de 2007 relacionado con la aplicaci&oacute;n del r&eacute;gimen de precios de transferencia en el caso excepcional de entidades sin fines de lucro, que en el &aacute;nimo de obtener fondos para cumplir su objeto social, venden bienes o prestan servicios a instituciones del exterior, quienes en la pr&aacute;ctica cumplen el papel de benefactoras",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101625-2006",
+      "tipo": "oficio",
+      "numero": "101625",
+      "fecha": "2006-12-01",
+      "tema": "&iquest;Es v&aacute;lido que una sociedad efect&uacute;e deducci&oacute;n y-o descuento por innovaci&oacute;n tecnol&oacute;gica de un proyecto aprobado por Conciencias?&iquest;Est&aacute; vigente tal beneficio por un proyecto sin llevar a cabo con innovaci&oacute;n tecnol&oacute;gica declarada en el a&ntilde;o 2001? 3. Es v&aacute;lida la cesi&oacute;n o venta del proyecto y su beneficio tributario a favor de otra sociedad?&iquest;Es v&aacute;lida la deducci&oacute;n o descuento por innovaci&oacute;n tecnol&oacute;gica, cuando &eacute;ste es adquirido por otra sociedad? La deducci&oacute;n y el per&iacute;odo gravable en que se realiz&oacute; la inversi&oacute;n o la donaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101333-2006",
+      "tipo": "oficio",
+      "numero": "101333",
+      "fecha": "2006-11-30",
+      "tema": "El reajuste de un honorario condicionado su reconocimiento a un monto m&iacute;nimo de ingresos consolidados en determinado periodo gravable, ser&aacute; deducible cuando se cause, es decir en el a&ntilde;o en que se cumple la condici&oacute;n porque surge la obligaci&oacute;n de pagarlo, sin perjuicio del cumplimiento de los dem&aacute;s requisitos de forma y de fondo previstos en la ley para la procedencia de la deducci&oacute;n.",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38859-2006",
+      "tipo": "oficio",
+      "numero": "38859",
+      "fecha": "2006-05-15",
+      "tema": "&iquest;Cu&aacute;l es la base de retenci&oacute;n en la fuente por emolumentos eclesi&aacute;sticos y el tratamiento dispuesto para los pagos en especie?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0031615-2004",
+      "tipo": "concepto",
+      "numero": "0031615",
+      "fecha": "2004-05-21",
+      "tema": "Consultar Documento Jur&iacute;dico",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023039-2004",
+      "tipo": "concepto",
+      "numero": "0023039",
+      "fecha": "2004-04-20",
+      "tema": "&iquest;es deducible del impuesto sobre la renta la tasa aeroportuaria que obligatoriamente debe pagarse al utilizar un pasaje?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028651-2003",
+      "tipo": "concepto",
+      "numero": "0028651",
+      "fecha": "2003-05-22",
+      "tema": "&iquest;Para efectos fiscales relativos a la determinaci&oacute;n del Impuesto sobre la Renta y Complementarios, los descuentos que se conceden en la enagenaci&oacute;n de activos pueden tratarse como un gasto financiero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016746-2003",
+      "tipo": "concepto",
+      "numero": "0016746",
+      "fecha": "2003-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento tributario que debe darse a las aeronaves de servicio p&uacute;blico importadas bajo contrato de leasing internacional financiero?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-48783-2002",
+      "tipo": "concepto",
+      "numero": "48783",
+      "fecha": "2002-08-05",
+      "tema": "&iquest;Para el reconocimiento de la deducci&oacute;n por salarios causados se requiere haber efectuado los aportes parafiscales sobre el valor total de los causados as&iacute; no se hayan pagado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048461-2002",
+      "tipo": "concepto",
+      "numero": "0048461",
+      "fecha": "2002-08-02",
+      "tema": "&iquest;Se pueden determinar gastos presuntos en la prestaci&oacute;n de servicios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066018-2000",
+      "tipo": "concepto",
+      "numero": "0066018",
+      "fecha": "2000-01-01",
+      "tema": "Determinaci&oacute;n de si los valores pagados por concepto de mantenimiento y gasolina de motos de propiedad de sus mensajeros que es utilizada para el desarrollo de sus labores es deducible y se debe practicar retenci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0092625-1998",
+      "tipo": "concepto",
+      "numero": "0092625",
+      "fecha": "1998-12-02",
+      "tema": "&iquest;Cu&aacute;les son los requisitos de la deducci&oacute;n por concepto de salarios pagados al gerente de una empresa que a la vez es propietario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054304-1998",
+      "tipo": "concepto",
+      "numero": "0054304",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Qu&eacute; incentivos o beneficios tributarios se conceden por el pago trimestral de regal&iacute;as al Gobierno?&iquest;Qu&eacute; beneficios tributarios se concede por el pago del impuesto de industria y comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0034197-1998",
+      "tipo": "concepto",
+      "numero": "0034197",
+      "fecha": "1998-05-14",
+      "tema": "&iquest;Sobre qu&eacute; valor se calcula la deducci&oacute;n del 125% de que trata la Ley 383 de 1997, cuando se trata de inversiones en innovaci&oacute;n tecnol&oacute;gica? &iquest;Si la inversi&oacute;n va a ser pagada en 1998 y 1999, se tendr&iacute;a que fraccionar el valor invertido para efectos de calcular la deducci&oacute;n que corresponde a cada periodo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021619-1997",
+      "tipo": "concepto",
+      "numero": "0021619",
+      "fecha": "1997-10-29",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009600-1997",
+      "tipo": "concepto",
+      "numero": "0009600",
+      "fecha": "1997-09-15",
+      "tema": "&iquest;Los intereses que se reconocen a favor de entidades financieras vigiladas por la Superintendencia Bancaria, susceptibles de ser deducibles, son los efectivamente pagados o los causados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0088328-1996",
+      "tipo": "concepto",
+      "numero": "0088328",
+      "fecha": "1996-11-20",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028188-1996",
+      "tipo": "concepto",
+      "numero": "0028188",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1515-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1515",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ]
+}

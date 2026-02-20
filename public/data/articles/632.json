@@ -1,1 +1,923 @@
-{"id_articulo": "Art. 632", "titulo": "Art. 632. Deber de conservar informaciones y pruebas.", "titulo_corto": "Deber de conservar informaciones y pruebas.", "slug": "632", "url_origen": "https://estatuto.co/632", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 3, "contenido_texto": "Para efectos del control de los impuestos administrados por la Dirección General de Impuestos Nacionales, (Hoy UAE Dirección de Impuestos y Aduanas Nacionales) las personas o entidades, contribuyentes o no contribuyentes de los mismos, deberán conservar por un período mínimo de cinco (5) años, contados a partir del 1o. de enero del año siguiente al de su elaboración, expedición o recibo, los siguientes documentos, informaciones y pruebas, que deberán ponerse a disposición de la Administración de Impuestos, cuando ésta así lo requiera: 1. Cuando se trate de personas o entidades obligadas a llevar contabilidad, los libros de contabilidad junto con los comprobantes de orden interno y externo que dieron origen a los registros contables, de tal forma que sea posible verificar la exactitud de los activos, pasivos, patrimonio, ingresos, costos, deducciones, rentas exentas, descuentos, impuestos y retenciones consignados en ellos. Cuando la contabilidad se lleve en computador, adicionalmente, se deben conservar los medios magnéticos que contengan la información, así como los programas respectivos. 2. Las informaciones y pruebas específicas contempladas en las normas vigentes, que dan derecho o permiten acreditar los ingresos, costos, deducciones, descuentos, exenciones y demás beneficios tributarios, créditos activos y pasivos, retenciones y demás factores necesarios para establecer el patrimonio líquido y la renta líquida de los contribuyentes, y en general, para fijar correctamente las bases gravables y liquidar los impuestos correspondientes. 3. La prueba de la consignación de las retenciones en la fuente practicadas en su calidad de agente retenedor. 4. Copia de las declaraciones tributarias presentadas, así como de los recibos de pago correspondientes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos del control de los impuestos administrados por la Dirección General de Impuestos Nacionales, (Hoy UAE Dirección de Impuestos y Aduanas Nacionales) las personas o entidades, contribuyentes o no contribuyentes de los mismos, deberán conservar por un período mínimo de cinco (5) años, contados a partir del 1o. de enero del año siguiente al de su elaboración, expedición o recibo, los siguientes documentos, informaciones y pruebas, que deberán ponerse a disposición de la Administración de Impuestos, cuando ésta así lo requiera:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Cuando se trate de personas o entidades obligadas a llevar contabilidad, los libros de contabilidad junto con los comprobantes de orden interno y externo que dieron origen a los registros contables, de tal forma que sea posible verificar la exactitud de los activos, pasivos, patrimonio, ingresos, costos, deducciones, rentas exentas, descuentos, impuestos y retenciones consignados en ellos.</p>\n<p>Cuando la contabilidad se lleve en computador, adicionalmente, se deben conservar los medios magnéticos que contengan la información, así como los programas respectivos.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Las informaciones y pruebas específicas contempladas en las normas vigentes, que dan derecho o permiten acreditar los ingresos, costos, deducciones, descuentos, exenciones y demás beneficios tributarios, créditos activos y pasivos, retenciones y demás factores necesarios para establecer el patrimonio líquido y la renta líquida de los contribuyentes, y en general, para fijar correctamente las bases gravables y liquidar los impuestos correspondientes.</p>\n<p><strong><span style=\"color: #339966;\">3.</span></strong> La prueba de la consignación de las retenciones en la fuente practicadas en su calidad de agente retenedor.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Copia de las declaraciones tributarias presentadas, así como de los recibos de pago correspondientes.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": ["*Plazo modificado por Ley 962 de 2005 Art. 46 \" El período de conservación de informaciones y pruebas a que se refiere el artículo 632 del Estatuto Tributario, será por el plazo que transcurra hasta que quede en firme la declaración de renta que se soporta en los documentos allí enunciados. La conservación de informaciones y pruebas deberá efectuarse en el domicilio principal del contribuyente.\""]}, "total_normas": 1, "cross_references": [], "referenced_by": ["177", "283", "476"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 632",
+  "titulo": "Art. 632. Deber de conservar informaciones y pruebas.",
+  "titulo_corto": "Deber de conservar informaciones y pruebas.",
+  "slug": "632",
+  "url_origen": "https://estatuto.co/632",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 3,
+  "contenido_texto": "Para efectos del control de los impuestos administrados por la Dirección General de Impuestos Nacionales, (Hoy UAE Dirección de Impuestos y Aduanas Nacionales) las personas o entidades, contribuyentes o no contribuyentes de los mismos, deberán conservar por un período mínimo de cinco (5) años, contados a partir del 1o. de enero del año siguiente al de su elaboración, expedición o recibo, los siguientes documentos, informaciones y pruebas, que deberán ponerse a disposición de la Administración de Impuestos, cuando ésta así lo requiera: 1. Cuando se trate de personas o entidades obligadas a llevar contabilidad, los libros de contabilidad junto con los comprobantes de orden interno y externo que dieron origen a los registros contables, de tal forma que sea posible verificar la exactitud de los activos, pasivos, patrimonio, ingresos, costos, deducciones, rentas exentas, descuentos, impuestos y retenciones consignados en ellos. Cuando la contabilidad se lleve en computador, adicionalmente, se deben conservar los medios magnéticos que contengan la información, así como los programas respectivos. 2. Las informaciones y pruebas específicas contempladas en las normas vigentes, que dan derecho o permiten acreditar los ingresos, costos, deducciones, descuentos, exenciones y demás beneficios tributarios, créditos activos y pasivos, retenciones y demás factores necesarios para establecer el patrimonio líquido y la renta líquida de los contribuyentes, y en general, para fijar correctamente las bases gravables y liquidar los impuestos correspondientes. 3. La prueba de la consignación de las retenciones en la fuente practicadas en su calidad de agente retenedor. 4. Copia de las declaraciones tributarias presentadas, así como de los recibos de pago correspondientes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Para efectos del control de los impuestos administrados por la Dirección General de Impuestos Nacionales, (Hoy UAE Dirección de Impuestos y Aduanas Nacionales) las personas o entidades, contribuyentes o no contribuyentes de los mismos, deberán conservar por un período mínimo de cinco (5) años, contados a partir del 1o. de enero del año siguiente al de su elaboración, expedición o recibo, los siguientes documentos, informaciones y pruebas, que deberán ponerse a disposición de la Administración de Impuestos, cuando ésta así lo requiera:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>Cuando se trate de personas o entidades obligadas a llevar contabilidad, los libros de contabilidad junto con los comprobantes de orden interno y externo que dieron origen a los registros contables, de tal forma que sea posible verificar la exactitud de los activos, pasivos, patrimonio, ingresos, costos, deducciones, rentas exentas, descuentos, impuestos y retenciones consignados en ellos.</p>\n<p>Cuando la contabilidad se lleve en computador, adicionalmente, se deben conservar los medios magnéticos que contengan la información, así como los programas respectivos.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>Las informaciones y pruebas específicas contempladas en las normas vigentes, que dan derecho o permiten acreditar los ingresos, costos, deducciones, descuentos, exenciones y demás beneficios tributarios, créditos activos y pasivos, retenciones y demás factores necesarios para establecer el patrimonio líquido y la renta líquida de los contribuyentes, y en general, para fijar correctamente las bases gravables y liquidar los impuestos correspondientes.</p>\n<p><strong><span style=\"color: #339966;\">3.</span></strong> La prueba de la consignación de las retenciones en la fuente practicadas en su calidad de agente retenedor.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Copia de las declaraciones tributarias presentadas, así como de los recibos de pago correspondientes.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": [
+      "*Plazo modificado por Ley 962 de 2005 Art. 46 \" El período de conservación de informaciones y pruebas a que se refiere el artículo 632 del Estatuto Tributario, será por el plazo que transcurra hasta que quede en firme la declaración de renta que se soporta en los documentos allí enunciados. La conservación de informaciones y pruebas deberá efectuarse en el domicilio principal del contribuyente.\""
+    ]
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [
+    "177",
+    "283",
+    "476"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 42 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 3298 (2023-05-30): (Int 729) Reconsideraciones del Concepto General 2390 - interno 255 en materia del impuesto nacional sobre productos pl&aacute;sticos de un solo uso utilizados para envasar, embalar o empacar bienes\noficio 2390 (2023-03-01): (255) Impuestos ambientales - Adici&oacute;n al Concepto General sobre el impuesto nacional sobre productos pl&aacute;sticos de un solo uso utilizados para envasar, embalar o empacar bienes\noficio 0641 (2023-01-20): Cocepto General sobre el Impuesto nacional sobre productos pl&aacute;sticos de un solo uso - Impuestos ambientales\noficio 8717 (2024-04-29): Impuesto sobre la Renta y Complementarios\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-3298-2023",
+      "tipo": "oficio",
+      "numero": "3298",
+      "fecha": "2023-05-30",
+      "tema": "(Int 729) Reconsideraciones del Concepto General 2390 - interno 255 en materia del impuesto nacional sobre productos pl&aacute;sticos de un solo uso utilizados para envasar, embalar o empacar bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2390-2023",
+      "tipo": "oficio",
+      "numero": "2390",
+      "fecha": "2023-03-01",
+      "tema": "(255) Impuestos ambientales - Adici&oacute;n al Concepto General sobre el impuesto nacional sobre productos pl&aacute;sticos de un solo uso utilizados para envasar, embalar o empacar bienes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0641-2023",
+      "tipo": "oficio",
+      "numero": "0641",
+      "fecha": "2023-01-20",
+      "tema": "Cocepto General sobre el Impuesto nacional sobre productos pl&aacute;sticos de un solo uso - Impuestos ambientales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8717-2024",
+      "tipo": "oficio",
+      "numero": "8717",
+      "fecha": "2024-04-29",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13759-2024",
+      "tipo": "oficio",
+      "numero": "13759",
+      "fecha": "2024-12-27",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5201-2024",
+      "tipo": "oficio",
+      "numero": "5201",
+      "fecha": "2024-07-29",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2269-2024",
+      "tipo": "oficio",
+      "numero": "2269",
+      "fecha": "2024-04-05",
+      "tema": "Facturaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1533-2024",
+      "tipo": "oficio",
+      "numero": "1533",
+      "fecha": "2024-03-01",
+      "tema": "(Int 137) Facturaci&oacute;n Electr&oacute;nica - Facturaci&oacute;n - Regal&iacute;as, impuestos, tasas, contribuciones, contraprestaciones econ&oacute;micas - Soporte costos, deducciones e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0304-2024",
+      "tipo": "oficio",
+      "numero": "0304",
+      "fecha": "2024-01-23",
+      "tema": "(Int 106) Retenci&oacute;n en la fuente - Agentes de retenci&oacute;n - Obligaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0183-2024",
+      "tipo": "oficio",
+      "numero": "0183",
+      "fecha": "2024-01-15",
+      "tema": "(Int 022) Impuesto sobre la renta y complementarios - Impuesto sobre las ventas - Aduanas - Donaciones de gobiernos o entidades extranjeras - Hecho generador del impuesto sobre la renta y complementarios - Hecho generador del impuesto sobre las ventas - Exenci&oacute;n del IVA - Rentas exentas - Tributos aduaneros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8197-2023",
+      "tipo": "oficio",
+      "numero": "8197",
+      "fecha": "2023-07-05",
+      "tema": "(Int 739) Impuesto sobre la Renta y Complementarios - Para efectos de lo dispuesto en el literal a) del numeral 4 del art&iacute;culo 235-2 del Estatuto Tributario &iquest;se exige contar con la licencia de construcci&oacute;n del proyecto de VIS o VIP antes de la enajenaci&oacute;n de los predios destinados a dichos proyectos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4531-2023",
+      "tipo": "oficio",
+      "numero": "4531",
+      "fecha": "2023-08-02",
+      "tema": "(Int 1134) Reconsideraci&oacute;n al Of. 906434 de 2022 - Exclusi&oacute;n del IVA de que trata el art&iacute;culo 12 de la Ley 1715 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2562-2023",
+      "tipo": "oficio",
+      "numero": "2562",
+      "fecha": "2023-04-26",
+      "tema": "(Int 487) Aplicaci&oacute;n del R&eacute;gimen Simple de Tributaci&oacute;n (en adelante SIMPLE)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1502-2023",
+      "tipo": "oficio",
+      "numero": "1502",
+      "fecha": "2023-03-09",
+      "tema": "(294) Impuesto sobre la renta y complementarios - Pasivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1387-2023",
+      "tipo": "oficio",
+      "numero": "1387",
+      "fecha": "2023-03-07",
+      "tema": "(286) Impuesto sobre la renta y complementarios - Descuento para inversiones realizadas en control, conservaci&oacute;n y mejoramiento del medio ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0786-2023",
+      "tipo": "oficio",
+      "numero": "0786",
+      "fecha": "2023-02-10",
+      "tema": "(175) Impuesto sobre la renta y complementarios - Renta exenta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0085-2023",
+      "tipo": "oficio",
+      "numero": "0085",
+      "fecha": "2023-01-10",
+      "tema": "Impuesto sobre las ventas - Incentivos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908744-2022",
+      "tipo": "oficio",
+      "numero": "908744",
+      "fecha": "2022-12-02",
+      "tema": "Deducciones Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908576-2022",
+      "tipo": "oficio",
+      "numero": "908576",
+      "fecha": "2022-11-25",
+      "tema": "Impuesto sobre la renta - Obligaci&oacute;n de declarar - Contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907545-2022",
+      "tipo": "oficio",
+      "numero": "907545",
+      "fecha": "2022-10-06",
+      "tema": "Deducci&oacute;n de costos y gastos en el impuesto sobre la renta y complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907542-2022",
+      "tipo": "oficio",
+      "numero": "907542",
+      "fecha": "2022-10-06",
+      "tema": "Bienes excluidos - Beneficios tributarios asociados a la Gesti&oacute;n Eficiente de la Energ&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906938-2022",
+      "tipo": "oficio",
+      "numero": "906938",
+      "fecha": "2022-09-15",
+      "tema": "Depreciaci&oacute;n acelerada de activos por actividades de generaci&oacute;n a partir de fuentes no convencionales de energ&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906434-2022",
+      "tipo": "oficio",
+      "numero": "906434",
+      "fecha": "2022-08-22",
+      "tema": "Impuesto sobre las ventas - Exclusi&oacute;n del impuesto a las ventas (IVA) en la adquisici&oacute;n de bienes y servicios para el desarrollo de proyectos de generaci&oacute;n con FNCE y gesti&oacute;n eficiente de la energ&iacute;a",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905867-2022",
+      "tipo": "oficio",
+      "numero": "905867",
+      "fecha": "2022-08-02",
+      "tema": "Impuesto sobre las ventas - Hecho generador",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-905865-2022",
+      "tipo": "oficio",
+      "numero": "905865",
+      "fecha": "2022-08-02",
+      "tema": "Impuesto sobre la renta -- Renta por comparaci&oacute;n patrimonial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904851-2022",
+      "tipo": "oficio",
+      "numero": "904851",
+      "fecha": "2022-06-21",
+      "tema": "Exclusi&oacute;n del impuesto sobre las ventas y aranceles incentivos tributarios Exenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-904845-2022",
+      "tipo": "oficio",
+      "numero": "904845",
+      "fecha": "2022-06-17",
+      "tema": "Impuesto sobre la renta y complementarios - Renta exenta - Vivienda de Inter&eacute;s Prioritario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901821-2022",
+      "tipo": "oficio",
+      "numero": "901821",
+      "fecha": "2022-03-09",
+      "tema": "Impuesto sobre la renta y complementarios, Zonas Francas, Obligaciones Formales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901706-2022",
+      "tipo": "oficio",
+      "numero": "901706",
+      "fecha": "2022-03-07",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica, documento soporte de pago de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901476-2022",
+      "tipo": "oficio",
+      "numero": "901476",
+      "fecha": "2022-02-17",
+      "tema": "Documento soporte de pago de n&oacute;mina electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900983-2022",
+      "tipo": "oficio",
+      "numero": "900983",
+      "fecha": "2022-02-09",
+      "tema": "Sistema de facturaci&oacute;n electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-915942-2021",
+      "tipo": "oficio",
+      "numero": "915942",
+      "fecha": "2021-12-30",
+      "tema": "Impuesto sobre la renta - Inversi&oacute;n extranjera",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-914800-2021",
+      "tipo": "oficio",
+      "numero": "914800",
+      "fecha": "2021-12-03",
+      "tema": "Procedimiento tributario - Factura electr&oacute;nica de venta empresa transportadora",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908203-2021",
+      "tipo": "oficio",
+      "numero": "908203",
+      "fecha": "2021-08-13",
+      "tema": "Correcci&oacute;n de las declaraciones tributarias - Impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907288-2021",
+      "tipo": "oficio",
+      "numero": "907288",
+      "fecha": "2021-07-22",
+      "tema": "Factura de venta - Documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907280-2021",
+      "tipo": "oficio",
+      "numero": "907280",
+      "fecha": "2021-07-22",
+      "tema": "Factura electr&oacute;nica de venta - Documento soporte en adquisiciones con sujetos no obligados a expedir factura",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906916-2021",
+      "tipo": "oficio",
+      "numero": "906916",
+      "fecha": "2021-07-13",
+      "tema": "Enajenaciones indirectas - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906705-2021",
+      "tipo": "oficio",
+      "numero": "906705",
+      "fecha": "2021-07-07",
+      "tema": "Sistema de factura electr&oacute;nica de venta - Sujetos no obligados a expedir factura de venta o documento equivalente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902616-2021",
+      "tipo": "oficio",
+      "numero": "902616",
+      "fecha": "2021-03-26",
+      "tema": "Firmeza de declaraci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906514-2020",
+      "tipo": "oficio",
+      "numero": "906514",
+      "fecha": "2020-10-28",
+      "tema": "Exclusi&oacute;n de bienes y servicios destinados a la adecuaci&oacute;n de tierras a la producci&oacute;n agropecuaria y pesquera y a la comercializaci&oacute;n de los respectivos productos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902293-2020",
+      "tipo": "oficio",
+      "numero": "902293",
+      "fecha": "2020-06-11",
+      "tema": "Devoluciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2130-2020",
+      "tipo": "oficio",
+      "numero": "2130",
+      "fecha": "2020-02-03",
+      "tema": "Computaci&oacute;n en la Nube (Cloud Computing)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3831-2019",
+      "tipo": "oficio",
+      "numero": "3831",
+      "fecha": "2019-02-13",
+      "tema": "Informaci&oacute;n del Contribuyente para Cruces de Informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2738-2019",
+      "tipo": "oficio",
+      "numero": "2738",
+      "fecha": "2019-02-05",
+      "tema": "&iquest;El servicio de alimentaci&oacute;n de aprendices se encuentra exceptuada de IVA e IPOCONSUMO en raz&oacute;n a lo dispuesto a lo dispuesto en el art&iacute;culo 476 del Estatuto Tributario, por ser un servicio de alimentaci&oacute;n contratado con recursos p&uacute;blicos y destinada a los aprendices?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1169-2019",
+      "tipo": "oficio",
+      "numero": "1169",
+      "fecha": "2019-01-16",
+      "tema": "Capitalizaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902730-2018",
+      "tipo": "oficio",
+      "numero": "902730",
+      "fecha": "2018-12-05",
+      "tema": "&iquest;C&oacute;mo ha concebido o definido la DIAN (o las autoridades colombianas), la expresi&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33637-2018",
+      "tipo": "oficio",
+      "numero": "33637",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32083-2018",
+      "tipo": "oficio",
+      "numero": "32083",
+      "fecha": "2018-10-23",
+      "tema": "Prueba documental-valor probatorio de facturas escaneadas para efectos de la procedencia de costos y gastos e impuestos descontables",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25580-2018",
+      "tipo": "oficio",
+      "numero": "25580",
+      "fecha": "2018-09-12",
+      "tema": "Adquirentes no obligados a facturar electr&oacute;nicamente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18347-2018",
+      "tipo": "oficio",
+      "numero": "18347",
+      "fecha": "2018-07-12",
+      "tema": "&iquest;Las facturas deben ser conservadas en los t&eacute;rminos del art&iacute;culo 28 de la Ley 962 de 2005 y &eacute;stas pueden ser conservadas en cualquier medio t&eacute;cnico, magn&eacute;tico o electr&oacute;nico que garantice su reproducci&oacute;n exacta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10611-2018",
+      "tipo": "oficio",
+      "numero": "10611",
+      "fecha": "2018-04-25",
+      "tema": "Procedencia de la exclusi&oacute;n prevista en el numeral 24 del art&iacute;culo 476 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1782-2018",
+      "tipo": "oficio",
+      "numero": "1782",
+      "fecha": "2018-10-08",
+      "tema": "Deducci&oacute;n por Donaciones a la Red Nacional de Bibliotecas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0645-2018",
+      "tipo": "oficio",
+      "numero": "0645",
+      "fecha": "2018-05-04",
+      "tema": "Actividad excluida del impuesto sobre las ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0618-2018",
+      "tipo": "oficio",
+      "numero": "0618",
+      "fecha": "2018-04-25",
+      "tema": "Ingreso Constitutivo de Ganancia Ocasional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0346-2018",
+      "tipo": "oficio",
+      "numero": "0346",
+      "fecha": "2018-01-05",
+      "tema": "Facturaci&oacute;n electr&oacute;nica, notas de cr&eacute;dito y conservaci&oacute;n de la factura electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29382-2017",
+      "tipo": "oficio",
+      "numero": "29382",
+      "fecha": "2017-10-31",
+      "tema": "Beneficios o incentivos tributarios que podr&iacute;an promover la inversi&oacute;n en el sector agroindustrial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0278-2016",
+      "tipo": "oficio",
+      "numero": "0278",
+      "fecha": "2016-04-11",
+      "tema": "&iquest;Se hace exigible que el beneficiario obtenga el RUT para su reconocimiento tributario y que a la urbanizadora no se le desconozcan los gastos o deducciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-12489-2014",
+      "tipo": "oficio",
+      "numero": "12489",
+      "fecha": "2014-01-01",
+      "tema": "&iquest;Las entidades bancarias colombianas que recaudan el Gravamen a los Movimientos Financieros sin que se hubiera causado, estar&iacute;an obligadas a reintegrarlo al afectado que lo solicite por escrito?&iquest;Tiene facultades la Direcci&oacute;n de Impuestos y Aduanas Nacionales para exigir a los Agentes de retenci&oacute;n del Gravamen a los Movimientos Financieros, que restituyan a los contribuyentes, los valores que les hubieran retenido indebidamente por este concepto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-70391-2013",
+      "tipo": "oficio",
+      "numero": "70391",
+      "fecha": "2013-11-01",
+      "tema": "Solicita se precise la respuesta entregada para el radicado 38353 del 06-06-2013, atendido por la Coordinaci&oacute;n de Relator&iacute;a quien remiti&oacute; la Doctrina Vigente No. 049693 del 3 de agosto de 2012",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0070237-2013",
+      "tipo": "concepto",
+      "numero": "0070237",
+      "fecha": "2013-01-01",
+      "tema": "&iquest;Aplica la exenci&oacute;n del GMF contemplada en el numeral 12 del art&iacute;culo 879 del Estatuto Tributario, cuando no se identifica la cuenta en la cual se manejan los recursos objeto de la exenci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10758-2013",
+      "tipo": "oficio",
+      "numero": "10758",
+      "fecha": "2013-02-25",
+      "tema": "&iquest;Como consecuencia de lo previsto en el art&iacute;culo 137 de la Ley 1607 de 2012, que modific&oacute; el art&iacute;culo 580-1 del Estatuto Tributario, queda sin efecto lo dispuesto en los art&iacute;culos 632, 634, 642 666 y 667 del Estatuto Tributario, respecto de la responsabilidad tanto penal como administrativa del agente retenedor y las consecuentes sanciones derivadas del incumplimiento de sus obligaciones?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0450-2013",
+      "tipo": "oficio",
+      "numero": "0450",
+      "fecha": "2013-04-17",
+      "tema": "Est&iacute;mulos tributarios y arancelarios que existen para fortalecer el sector agrario colombiano",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49693-2012",
+      "tipo": "oficio",
+      "numero": "49693",
+      "fecha": "2012-08-03",
+      "tema": "&iquest;En materia tributaria, aduanera y cambiaria es aplicable el contenido de los art&iacute;culos 12 de la Ley 527 de 1999, art&iacute;culo 26 y parte final del art&iacute;culo 28, ambos de la Ley 962 de 2005, en lo que se relaciona con la conservaci&oacute;n de documentos en un medio distinto del f&iacute;sico (papel), vale decir, en cualquier medio t&eacute;cnico, magn&eacute;tico o electr&oacute;nico que garantice su reproducci&oacute;n exacta; y si utilizado dicho medio t&eacute;cnico, magn&eacute;tico o electr&oacute;nico es posible acudir a la destrucci&oacute;n f&iacute;sica de los documentos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-72275-2009",
+      "tipo": "oficio",
+      "numero": "72275",
+      "fecha": "2009-09-07",
+      "tema": "&iquest;El operador del MIO al comprar el derecho de chatarrizaci&oacute;n y-o desvinculaci&oacute;n al propietario del veh&iacute;culo, debe efectuar retenci&oacute;n en la fuente, que tarifa debe aplicar y si se debe hacer retenci&oacute;n en el caso que dicho valor se cancele a trav&eacute;s de una cooperativa de transporte?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53175-2009",
+      "tipo": "oficio",
+      "numero": "53175",
+      "fecha": "2009-07-03",
+      "tema": "Solicita se revoque el Concepto n&uacute;mero 92805 del 14 de diciembre de 2005, y subsidiariamente, en caso de que la revocaci&oacute;n no sea acogida, solicita se aclare manifestando que los inversionistas extranjeros no residentes en Colombia que realicen operaciones con vinculados econ&oacute;micos en el exterior mediante la cual se produzca cambio de titular de la inversi&oacute;n extranjera no est&aacute;n obligados a cumplir con las obligaciones formales del r&eacute;gimen de precios de transferencia y, en consecuencia, no deben presentar declaraci&oacute;n informativa y documentaci&oacute;n comprobatoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27363-2009",
+      "tipo": "oficio",
+      "numero": "27363",
+      "fecha": "2009-04-03",
+      "tema": "Factura cambiaria de compraventa Ley 1281 de 2009",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101018-2008",
+      "tipo": "oficio",
+      "numero": "101018",
+      "fecha": "2008-10-10",
+      "tema": "&iquest;Puesto que en las normas que regulan la materia no se precisa si es el emisor de la factura o el receptor de la factura por computador quien debe imprimir la factura, es v&aacute;lida la posici&oacute;n seg&uacute;n la cual la impresi&oacute;n puede llevarla cualquiera de las dos partes, seg&uacute;n se requiera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19402-2008",
+      "tipo": "oficio",
+      "numero": "19402",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento fiscal en convenios interadministrativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15496-2008",
+      "tipo": "oficio",
+      "numero": "15496",
+      "fecha": "2008-12-24",
+      "tema": "Vigencia de los art&iacute;culos 420, 421-1, 431, 461 y 476 del Estatuto Tributario as&iacute; como de los oficios n&uacute;meros 073050 del 29 de agosto de 2006, 064446 de septiembre 12 de 2005, 089576 de diciembre 22 de 2004, y del concepto 12506 de diciembre 27 de 2000",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91982-2007",
+      "tipo": "oficio",
+      "numero": "91982",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Se mantienen las rentas exentas en el aprovechamiento de nuevos cultivos de tard&iacute;o rendimiento contemplada en la ley 939 de 2004, cuando la empresa beneficiaria es objeto de una transformaci&oacute;n de tipo societario subsistiendo la persona jur&iacute;dica?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55805-2007",
+      "tipo": "oficio",
+      "numero": "55805",
+      "fecha": "2007-07-23",
+      "tema": "&iquest;Qu&eacute; interpretaci&oacute;n le da la DIAN al Inc. 3&ordm; del art&iacute;culo 23 del E.T., teniendo en consideraci&oacute;n el Decreto 841 de 1998?&iquest;C&oacute;mo se interpreta el numeral 7&ordm;. Del decreto 841 de 1998, &iquest;cu&aacute;l es su alcance?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20796-2006",
+      "tipo": "oficio",
+      "numero": "20796",
+      "fecha": "2006-03-10",
+      "tema": "&iquest;Est&aacute;n obligados a llevar libros de contabilidad los comerciantes y cu&aacute;l es su periodo de conservaci&oacute;n antes y despu&eacute;s de la expedici&oacute;n de la Ley 962 de 2005?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-90688-2005",
+      "tipo": "oficio",
+      "numero": "90688",
+      "fecha": "2005-12-07",
+      "tema": "&iquest;Cu&aacute;les son las obligaciones que deben cumplir las personas a quienes se contrate para la prestaci&oacute;n de servicios en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2005",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2005-02-08",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Decreto 2788 de 2004 por medio del cual se reglamenta el registro Unico Tributario RUT, referido espec&iacute;ficamente a los sujetos obligados a la inscripci&oacute;n y a los formularios utilizados por la Administraci&oacute;n para tal efefcto?&iquest;Est&aacute;n obligadas formalmente las personas naturales comerciantes a llevar libros de contabilidad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0080158-2002",
+      "tipo": "concepto",
+      "numero": "0080158",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;El Banco de la Rep&uacute;blica fija los c&oacute;digos para la utilizaci&oacute;n de la cuenta de Dep&oacute;sito por parte de los usuarios de la misma? &iquest;Qu&eacute; pruebas debe aportar un intermediario del mercado cambiario para demostrar ante el Banco de la Rep&uacute;blica que los d&eacute;bitos efectuados en sus cuentas de dep&oacute;sitos corresponden a operaciones de compra y venta de divisas exentas? &iquest;Cu&aacute;les son las obligaciones de un agente retenedor del Gravamen a los Movimientos Financieros y cu&aacute;l el procedimiento para efectos de la devoluci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030309-2002",
+      "tipo": "concepto",
+      "numero": "0030309",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Cuales son los soportes contables aceptados tributariamente para acreditar los pagos efectuados a profesionales independientes que presten servicios excluidos en una cooperativa de trabajo asociado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000001-2002",
+      "tipo": "concepto",
+      "numero": "0000001",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Quienes pertenecen al r&eacute;gimen simplificado del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-61011-2001",
+      "tipo": "concepto",
+      "numero": "61011",
+      "fecha": "2001-07-04",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-53022-2001",
+      "tipo": "concepto",
+      "numero": "53022",
+      "fecha": "2001-06-21",
+      "tema": "Concepto especial sobre el r&eacute;gimen simplificado y la expedici&oacute;n de la boleta fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0012409-2001",
+      "tipo": "concepto",
+      "numero": "0012409",
+      "fecha": "2001-02-20",
+      "tema": "&iquest;Es suficiente tener como soportes contables y para conservaci&oacute;n en los archivos de una empresa, el comprobante de informe diario, o por el contrario, se debe conservar copia de la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008770-2001",
+      "tipo": "concepto",
+      "numero": "0008770",
+      "fecha": "2001-02-08",
+      "tema": "&iquest;Se puede conservar las facturas y dem&aacute;s documentos expedidos antes de la Ley 527 de 1999 en medios magn&eacute;ticos y destruir los documentos f&iacute;sicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051929-2000",
+      "tipo": "concepto",
+      "numero": "0051929",
+      "fecha": "2000-05-21",
+      "tema": "&iquest;Los comprobantes internos y externos de la contabilidad pueden ser almacenados por medio t&eacute;cnicos que cumplan con los requisitos establecidos en el art&iacute;culo 12 de la Ley 527 de 1999?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069041-1999",
+      "tipo": "concepto",
+      "numero": "0069041",
+      "fecha": "1999-07-29",
+      "tema": "&iquest;Una asociaci&oacute;n de exalumnos que utilizando los servicios profesionales de sus asociados presta servicios de asistencia t&eacute;cnica al sector agropecuario, es contribuyente de r&eacute;gimen tributario especial? &iquest;Una asociaci&oacute;n de exalumnos debe presentar las declaraciones firmadas por revisor fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035146-1999",
+      "tipo": "concepto",
+      "numero": "0035146",
+      "fecha": "1999-04-13",
+      "tema": "&iquest;La obligaci&oacute;n de presentar a la Direcci&oacute;n de Impuestos y Aduanas Nacionales sus estados financieros consolidados se predica respecto de los grupos econ&oacute;micos y-o empresariales en los que su matriz o controlante es una sociedad extranjera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0100443-1998",
+      "tipo": "concepto",
+      "numero": "0100443",
+      "fecha": "1998-12-30",
+      "tema": "&iquest;Debe un agente naviero mandatario de una l&iacute;nea mar&iacute;tima extranjera conservar las facturas originales por las compras que realice, cuando la legislaci&oacute;n extranjera est&aacute; exigiendo tambi&eacute;n al mandante las facturas originales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039683-1998",
+      "tipo": "concepto",
+      "numero": "0039683",
+      "fecha": "1998-06-02",
+      "tema": "&iquest;Las personas naturales del r&eacute;gimen simplificado del impuesto sobre las ventas est&aacute;n obligadas a presentar declaraci&oacute;n de renta? &iquest;Los profesionales independientes pertenecientes al r&eacute;gimen com&uacute;n del impuesto sobre las ventas, est&aacute;n obligados a llevar contabilidad, teniendo en cuenta que dicha obligaci&oacute;n no es exigencia propia del r&eacute;gimen legal tributario, sino que emana del C&oacute;digo de Comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001580-1997",
+      "tipo": "concepto",
+      "numero": "0001580",
+      "fecha": "1997-01-13",
+      "tema": "Mediante los oficios de la referencia, solicita reconsideraci&oacute;n de los conceptos 57930 y 71587 de 1996, mediante los cuales se interpret&oacute; que los profesionales independientes pertenecientes al r&eacute;gimen com&uacute;n del impuesto sobre las ventas, est&aacute;n obligados a llevar contabilidad",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0096721-1996",
+      "tipo": "concepto",
+      "numero": "0096721",
+      "fecha": "1996-12-03",
+      "tema": "predio(s) o finca (s), este hecho afecta los incentivos tributarios correspondientes a las inversiones en reforestaci&oacute;n sobre los cuales no se ha percibido el CIF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0092721-1996",
+      "tipo": "concepto",
+      "numero": "0092721",
+      "fecha": "1996-12-03",
+      "tema": "&iquest;Cu&aacute;les son los incentivos o exenciones tributarios para la actividad forestal a que se refiere el literal a) del art&iacute;culo 8o de la Ley 139 de 1994 que resultan incompatibles con el Certificado de Incentivo Forestal CIF? &iquest;Si un contribuyente solicita el CIF para la reforestaci&oacute;n de un determinado (s) predios (s) o finca (s), este hecho afecta los incentivos tributarios correspondientes a las inversiones en reforestaci&oacute;n sobre los cuales no se ha percibido el CIF?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082663-1996",
+      "tipo": "concepto",
+      "numero": "0082663",
+      "fecha": "1996-07-22",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062467-1996",
+      "tipo": "concepto",
+      "numero": "0062467",
+      "fecha": "1996-08-06",
+      "tema": "&iquest;Cu&aacute;l es el per&iacute;odo en que debe contabilizarse la retenci&oacute;n en la fuente?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036440-1996",
+      "tipo": "concepto",
+      "numero": "0036440",
+      "fecha": "1996-05-07",
+      "tema": "&iquest;Hay lugar a imponer sanci&oacute;n por no enviar informaci&oacute;n, cuando el contribuyente es renuente en contestar requerimientos en que se solicita por la Administraci&oacute;n informaci&oacute;n o documentos que deben reposar en sus archivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062796-1995",
+      "tipo": "concepto",
+      "numero": "0062796",
+      "fecha": "1995-09-08",
+      "tema": "&iquest;Correspondiendo el costo de ventas de una vigencia fiscal al inventario declarado en el a&ntilde;o inmediatamente anterior, es necesaria la comprobaci&oacute;n de las compras que corresponden a una vigencia fiscal diferente a la investigada? &iquest;La sanci&oacute;n dispuesta en el art&iacute;culo 650-1 del E.T.,procede cuando en la declaraci&oacute;n, en el rengl&oacute;n correspondiente a",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007995-1995",
+      "tipo": "concepto",
+      "numero": "0007995",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Se encuentran excluidos del impuesto sobre las ventas, de acuerdo a lo dispuesto en el Decreto 621 de 1994, los servicios t&eacute;cnicos y la asesor&iacute;a a la floricultura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062601-1994",
+      "tipo": "concepto",
+      "numero": "0062601",
+      "fecha": "1994-01-01",
+      "tema": "Aclaraci&oacute;n en prestaci&oacute;n de servicios en la construcci&oacute;n de pozos profundos para la extracci&oacute;n de agua, con miras a que se le defina si quienes prestan los servicios de que trata el Decreto 621 de 1994, deben o no cobrar iva",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017793-1993",
+      "tipo": "concepto",
+      "numero": "0017793",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Se causa impuesto de timbre de la misma forma como se genera cuando la fiduciaria act&uacute;a por cuenta de una entidad privada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017256-1993",
+      "tipo": "concepto",
+      "numero": "0017256",
+      "fecha": "1993-01-01",
+      "tema": "Previendo ahora la posibilidad de adquirir bienes en Colombia con lo capitalizado en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010550-1993",
+      "tipo": "concepto",
+      "numero": "0010550",
+      "fecha": "1993-01-01",
+      "tema": "&iquest;Retenci&oacute;n a la intermediaria, base para efectuarla cuando se incluyen gastos y honorarios, forma de registrar el pago, soportes fiscales, forma de gestionar los cheques y qu&eacute; otras precauciones debe tomar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004397-1993",
+      "tipo": "concepto",
+      "numero": "0004397",
+      "fecha": "1993-01-01",
+      "tema": "Servicios gravados en contratos relacionados con pozos petroleros son de construcci&oacute;n de obra material",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014511-1991",
+      "tipo": "concepto",
+      "numero": "0014511",
+      "fecha": "1991-01-01",
+      "tema": "Pautas de interpretaci&oacute;n y aplicaci&oacute;n de las normas legales y reglamentarias vigentes en materia de facturaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004517-1990",
+      "tipo": "concepto",
+      "numero": "0004517",
+      "fecha": "1990-01-01",
+      "tema": "P&eacute;rdidas sufridas por los contribuyentes, originadas por los atentados terroristas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000505-1990",
+      "tipo": "concepto",
+      "numero": "0000505",
+      "fecha": "1990-01-05",
+      "tema": "Solicita, la deducci&oacute;n de las p&eacute;rdidas concernientes a los bienes usados en el negocio o actividad productora de renta, ocurridas por fuerza mayor, al igual que la deducci&oacute;n proporcional de la renta presuntiva en tal evento, de conformidad con lo establecido en los art&iacute;culos 148 y 181 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0029942-1989",
+      "tipo": "concepto",
+      "numero": "0029942",
+      "fecha": "1989-12-26",
+      "tema": "&iquest;Es posible aplicar la sanci&oacute;n por no informar prevista en el art&iacute;culo 651 del Estatuto Tributario, al contribuyente investigado que se niega a contestar requerimiento ordinario u otras solicitudes de informaci&oacute;n que se le formulen dentro de un proceso investigativo tributario?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-160-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "160",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

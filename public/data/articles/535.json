@@ -1,1 +1,112 @@
-{"id_articulo": "Art. 535", "titulo": "Art. 535. El impuesto se paga al momento de presentar la declaración.", "titulo_corto": "El impuesto se paga al momento de presentar la declaración.", "slug": "535", "url_origen": "https://estatuto.co/535", "libro": "Libro IV - Timbre", "libro_full": "IV - Impuesto de Timbre Nacional", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente.</del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 6 de 1992 Art. 140.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "140"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": ["*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente."], "texto_derogado_parsed": [{"index": 0, "snippet": "*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual con...", "full_length": 228}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 535",
+  "titulo": "Art. 535. El impuesto se paga al momento de presentar la declaración.",
+  "titulo_corto": "El impuesto se paga al momento de presentar la declaración.",
+  "slug": "535",
+  "url_origen": "https://estatuto.co/535",
+  "libro": "Libro IV - Timbre",
+  "libro_full": "IV - Impuesto de Timbre Nacional",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del>*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente.</del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 6 de 1992 Art. 140.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "140"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [
+    "*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual conste el pago correspondiente."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*El impuesto de timbre nacional, así como sus sanciones e intereses, se harán efectivos mediante su pago y deberán acreditarse con la prestación de la declaración del impuesto de timbre en la cual con...",
+      "full_length": 228
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0077605 (2000-08-16): &iquest;Un Contrato de Transacci&oacute;n donde se obliga una de las partes a ceder unos derechos, causa el Impuesto de Timbre Nacional?\nconcepto 0053892 (2000-06-07): &iquest;Est&aacute; gravada con el impuesto de timbre nacional una donaci&oacute;n de acciones elevada a escritura p&uacute;blica y protocolizada?\nconcepto 0008453 (1999-08-31): &iquest;Causaba impuesto de timbre un contrato de mutuo con garant&iacute;a hipotecada suscrito en febrero de 1992?\nconcepto 0013901 (1992-01-01): Impuesto de Timbre nacional, disposiciones generales y correcci&oacute;n y pago del impuesto para que se tenga como prueba un documento\nconcepto 0004052 (1992-01-01): &iquest;La regla general de causaci&oacute;n del impuesto de timbre es aplicable a los contratos de prenda celebrados con la Caja Agraria cuya cuant&iacute;a exceda de tres millones de pesos (Ps. 3.000.000), tanto para su constituci&oacute;n como su extinci&oacute;n y en caso afirmativo qu&eacute; documento debe exigirse para acreditar el pago de impuestos?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1714-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1714",
+      "year": 2000,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0077605-2000",
+      "tipo": "concepto",
+      "numero": "0077605",
+      "fecha": "2000-08-16",
+      "tema": "&iquest;Un Contrato de Transacci&oacute;n donde se obliga una de las partes a ceder unos derechos, causa el Impuesto de Timbre Nacional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053892-2000",
+      "tipo": "concepto",
+      "numero": "0053892",
+      "fecha": "2000-06-07",
+      "tema": "&iquest;Est&aacute; gravada con el impuesto de timbre nacional una donaci&oacute;n de acciones elevada a escritura p&uacute;blica y protocolizada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008453-1999",
+      "tipo": "concepto",
+      "numero": "0008453",
+      "fecha": "1999-08-31",
+      "tema": "&iquest;Causaba impuesto de timbre un contrato de mutuo con garant&iacute;a hipotecada suscrito en febrero de 1992?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0013901-1992",
+      "tipo": "concepto",
+      "numero": "0013901",
+      "fecha": "1992-01-01",
+      "tema": "Impuesto de Timbre nacional, disposiciones generales y correcci&oacute;n y pago del impuesto para que se tenga como prueba un documento",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004052-1992",
+      "tipo": "concepto",
+      "numero": "0004052",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;La regla general de causaci&oacute;n del impuesto de timbre es aplicable a los contratos de prenda celebrados con la Caja Agraria cuya cuant&iacute;a exceda de tres millones de pesos (Ps. 3.000.000), tanto para su constituci&oacute;n como su extinci&oacute;n y en caso afirmativo qu&eacute; documento debe exigirse para acreditar el pago de impuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004649-1990",
+      "tipo": "concepto",
+      "numero": "0004649",
+      "fecha": "1990-01-01",
+      "tema": "&iquest;El impuesto cancelado lo puede deducir en su totalidad la sociedad colombiana, a pesar de que una parte del valor del contrato lo recibe el proveedor del exterior?",
+      "vigente": true
+    }
+  ]
+}

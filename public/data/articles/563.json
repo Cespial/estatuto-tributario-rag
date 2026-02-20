@@ -1,1 +1,355 @@
-{"id_articulo": "Art. 563", "titulo": "Art. 563. Dirección para notificaciones.", "titulo_corto": "Dirección para notificaciones.", "slug": "563", "url_origen": "https://estatuto.co/563", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 4, "contenido_texto": "*La notificación de las actuaciones de la Administración Tributaria deberá efectuarse a la dirección informada por el contribuyente, responsable, agente retenedor o declarante, en su última declaración de renta o de ingresos y patrimonio, según el caso, o mediante formato oficial de cambio de dirección; la antigua dirección continuará siendo válida durante los tres (3) meses siguientes, sin perjuicio de la validez de la nueva dirección informada. Cuando el contribuyente, responsable, agente retenedor o declarante, no hubiere informado una dirección a la Administración de impuestos, la actuación administrativa correspondiente se podrá notificar a la que establezca la Administración mediante verificación directa o mediante la utilización de guías telefónicas, directorios y en general de información oficial, comercial o bancaria. Cuando no haya sido posible establecer la dirección del contribuyente, responsable, agente retenedor o declarante, por ninguno de los medios señalados en el inciso anterior, los actos de la Administración le serán notificados por medio de publicación en un diario de amplia circulación. **Cuando el contribuyente, responsable, agente retenedor y/o declarante informe a la Dirección de Impuestos y Aduanas Nacionales -DIAN a través del Registro Único Tributario RUT una dirección de correo electrónico, todos los actos administrativos le serán notificados a la misma. La notificación por medios electrónicos, será el mecanismo preferente de notificación de los actos de la Dirección de Impuestos y Aduanas Nacionales -DIAN. **Parágrafo. Lo dispuesto en este artículo aplica para la notificación de los actos administrativos expedidos por la Unidad de Gestión Pensional y Parafiscales -UGPP y será el mecanismo preferente de notificación.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La notificación de las actuaciones de la Administración Tributaria deberá efectuarse a la dirección informada por el contribuyente, responsable, agente retenedor o declarante, en su última declaración de renta o de ingresos y patrimonio, según el caso, o mediante formato oficial de cambio de dirección; la antigua dirección continuará siendo válida durante los tres (3) meses siguientes, sin perjuicio de la validez de la nueva dirección informada.</p>\n<p>Cuando el contribuyente, responsable, agente retenedor o declarante, no hubiere informado una dirección a la Administración de impuestos, la actuación administrativa correspondiente se podrá notificar a la que establezca la Administración mediante verificación directa o mediante la utilización de guías telefónicas, directorios y en general de información oficial, comercial o bancaria.</p>\n<p>Cuando no haya sido posible establecer la dirección del contribuyente, responsable, agente retenedor o declarante, por ninguno de los medios señalados en el inciso anterior, los actos de la Administración le serán notificados por medio de publicación en un diario de amplia circulación.</p>\n<p><b>**</b>Cuando el contribuyente, responsable, agente retenedor y/o declarante informe a la Dirección de Impuestos y Aduanas Nacionales -DIAN a través del Registro Único Tributario RUT una dirección de correo electrónico, todos los actos administrativos le serán notificados a la misma. La notificación por medios electrónicos, será el mecanismo preferente de notificación de los actos de la Dirección de Impuestos y Aduanas Nacionales -DIAN.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">**Parágrafo.</span> </strong>Lo dispuesto en este artículo aplica para la notificación de los actos administrativos expedidos por la Unidad de Gestión Pensional y Parafiscales -UGPP y será el mecanismo preferente de notificación. </span></p>\n</span>", "modificaciones_raw": "*Modificado Decreto 19 de 2012 Art 59. **Modificado Ley 2010 de 2019 Art. 103.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Decreto", "norma_numero": "19", "norma_year": 2012, "norma_articulo": "59"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "103"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2019, "leyes_modificatorias": ["Decreto 19 de 2012", "Ley 1943 de 2018", "Ley 2010 de 2019"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["566-1", "612"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 563",
+  "titulo": "Art. 563. Dirección para notificaciones.",
+  "titulo_corto": "Dirección para notificaciones.",
+  "slug": "563",
+  "url_origen": "https://estatuto.co/563",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 4,
+  "contenido_texto": "*La notificación de las actuaciones de la Administración Tributaria deberá efectuarse a la dirección informada por el contribuyente, responsable, agente retenedor o declarante, en su última declaración de renta o de ingresos y patrimonio, según el caso, o mediante formato oficial de cambio de dirección; la antigua dirección continuará siendo válida durante los tres (3) meses siguientes, sin perjuicio de la validez de la nueva dirección informada. Cuando el contribuyente, responsable, agente retenedor o declarante, no hubiere informado una dirección a la Administración de impuestos, la actuación administrativa correspondiente se podrá notificar a la que establezca la Administración mediante verificación directa o mediante la utilización de guías telefónicas, directorios y en general de información oficial, comercial o bancaria. Cuando no haya sido posible establecer la dirección del contribuyente, responsable, agente retenedor o declarante, por ninguno de los medios señalados en el inciso anterior, los actos de la Administración le serán notificados por medio de publicación en un diario de amplia circulación. **Cuando el contribuyente, responsable, agente retenedor y/o declarante informe a la Dirección de Impuestos y Aduanas Nacionales -DIAN a través del Registro Único Tributario RUT una dirección de correo electrónico, todos los actos administrativos le serán notificados a la misma. La notificación por medios electrónicos, será el mecanismo preferente de notificación de los actos de la Dirección de Impuestos y Aduanas Nacionales -DIAN. **Parágrafo. Lo dispuesto en este artículo aplica para la notificación de los actos administrativos expedidos por la Unidad de Gestión Pensional y Parafiscales -UGPP y será el mecanismo preferente de notificación.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*La notificación de las actuaciones de la Administración Tributaria deberá efectuarse a la dirección informada por el contribuyente, responsable, agente retenedor o declarante, en su última declaración de renta o de ingresos y patrimonio, según el caso, o mediante formato oficial de cambio de dirección; la antigua dirección continuará siendo válida durante los tres (3) meses siguientes, sin perjuicio de la validez de la nueva dirección informada.</p>\n<p>Cuando el contribuyente, responsable, agente retenedor o declarante, no hubiere informado una dirección a la Administración de impuestos, la actuación administrativa correspondiente se podrá notificar a la que establezca la Administración mediante verificación directa o mediante la utilización de guías telefónicas, directorios y en general de información oficial, comercial o bancaria.</p>\n<p>Cuando no haya sido posible establecer la dirección del contribuyente, responsable, agente retenedor o declarante, por ninguno de los medios señalados en el inciso anterior, los actos de la Administración le serán notificados por medio de publicación en un diario de amplia circulación.</p>\n<p><b>**</b>Cuando el contribuyente, responsable, agente retenedor y/o declarante informe a la Dirección de Impuestos y Aduanas Nacionales -DIAN a través del Registro Único Tributario RUT una dirección de correo electrónico, todos los actos administrativos le serán notificados a la misma. La notificación por medios electrónicos, será el mecanismo preferente de notificación de los actos de la Dirección de Impuestos y Aduanas Nacionales -DIAN.</p>\n<p><span class=\"verde\"><strong><span style=\"color: #339966;\">**Parágrafo.</span> </strong>Lo dispuesto en este artículo aplica para la notificación de los actos administrativos expedidos por la Unidad de Gestión Pensional y Parafiscales -UGPP y será el mecanismo preferente de notificación. </span></p>\n</span>",
+  "modificaciones_raw": "*Modificado Decreto 19 de 2012 Art 59. **Modificado Ley 2010 de 2019 Art. 103.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Decreto",
+      "norma_numero": "19",
+      "norma_year": 2012,
+      "norma_articulo": "59"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "103"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2019,
+  "leyes_modificatorias": [
+    "Decreto 19 de 2012",
+    "Ley 1943 de 2018",
+    "Ley 2010 de 2019"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "566-1",
+    "612"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 2 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7165 (2025-05-06): Procedimiento Tributario\noficio 6375 (2025-04-23): Procedimiento Tributario\noficio 3957 (2025-03-05): Otras Disposiciones\noficio 9481 (2024-05-10): (Int 328) Direcci&oacute;n procesal electr&oacute;nica - Suministro de m&aacute;s de un correo electr&oacute;nico como direcci&oacute;n procesal\noficio 9452 (2024-05-10): (Int 329) Notificaci&oacute;n de la resoluci&oacute;n que resuelve el recurso de reconsideraci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7165-2025",
+      "tipo": "oficio",
+      "numero": "7165",
+      "fecha": "2025-05-06",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6375-2025",
+      "tipo": "oficio",
+      "numero": "6375",
+      "fecha": "2025-04-23",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3957-2025",
+      "tipo": "oficio",
+      "numero": "3957",
+      "fecha": "2025-03-05",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9481-2024",
+      "tipo": "oficio",
+      "numero": "9481",
+      "fecha": "2024-05-10",
+      "tema": "(Int 328) Direcci&oacute;n procesal electr&oacute;nica - Suministro de m&aacute;s de un correo electr&oacute;nico como direcci&oacute;n procesal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9452-2024",
+      "tipo": "oficio",
+      "numero": "9452",
+      "fecha": "2024-05-10",
+      "tema": "(Int 329) Notificaci&oacute;n de la resoluci&oacute;n que resuelve el recurso de reconsideraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0411-2023",
+      "tipo": "oficio",
+      "numero": "0411",
+      "fecha": "2023-01-30",
+      "tema": "Notificaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907359-2021",
+      "tipo": "oficio",
+      "numero": "907359",
+      "fecha": "2021-07-26",
+      "tema": "Suspensi&oacute;n de t&eacute;rminos - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906182-2020",
+      "tipo": "oficio",
+      "numero": "906182",
+      "fecha": "2020-10-19",
+      "tema": "Notificaci&oacute;n Electronica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000529-2020",
+      "tipo": "concepto",
+      "numero": "0000529",
+      "fecha": "2020-05-13",
+      "tema": "Resoluci&oacute;n n&uacute;mero 000038 del 30 de abril de 2020",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901483-2020",
+      "tipo": "oficio",
+      "numero": "901483",
+      "fecha": "2020-05-10",
+      "tema": "Notificaci&oacute;n Electronica Liquidaci&oacute;n provisional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0512-2020",
+      "tipo": "oficio",
+      "numero": "0512",
+      "fecha": "2020-08-25",
+      "tema": "Vinculaci&oacute;n de Deudores Solidarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-485-2020",
+      "tipo": "concepto",
+      "numero": "485",
+      "fecha": "2020-07-29",
+      "tema": "Implementaci&oacute;n de la notificaci&oacute;n Electr&oacute;nica",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20989-2019",
+      "tipo": "oficio",
+      "numero": "20989",
+      "fecha": "2019-08-23",
+      "tema": "Procedimiento de notificaci&oacute;n id&oacute;neo de los actos de administraci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18675-2019",
+      "tipo": "oficio",
+      "numero": "18675",
+      "fecha": "2019-07-19",
+      "tema": "Procedimiento de envi&oacute; de citaci&oacute;n y notificaci&oacute;n personal de la decisi&oacute;n de un recurso de reconsideraci&oacute;n en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34722-2016",
+      "tipo": "oficio",
+      "numero": "34722",
+      "fecha": "2016-12-20",
+      "tema": "- Solicita la reconsideraci&oacute;n del Oficio n&uacute;mero 20372 del 2 de agosto de 2016 ya que considera que dicho pronunciamiento viola los art&iacute;culos 481 y 600 del Estatuto Tributario, as&iacute; como los art&iacute;culos 395 del Decreto n&uacute;mero 2685 de 1999 y 34 del Decreto n&uacute;mero 390 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015796-2016",
+      "tipo": "concepto",
+      "numero": "0015796",
+      "fecha": "2016-07-26",
+      "tema": "&iquest;Se debe notificar el aviso de citaci&oacute;n para la notificaci&oacute;n personal cuando es devuelta por el correo? - &iquest;Se deben publicar en la p&aacute;gina web de la entidad los oficios y dem&aacute;s comunicaciones, que son devueltos por el correo? Y, en caso afirmativo, cuando contienen informaci&oacute;n de reserva legal &iquest;qu&eacute; se debe publicar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54603-2014",
+      "tipo": "oficio",
+      "numero": "54603",
+      "fecha": "2014-09-12",
+      "tema": "&iquest;En el proceso Coactivo de la DIAN se le aplica la ley 1581 del 2012?&iquest;Cu&aacute;nto es el termino m&aacute;ximo legalmente establecido para que la DIAN reporte el levantamiento de un embargo por proceso coactivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53699-2014",
+      "tipo": "oficio",
+      "numero": "53699",
+      "fecha": "2014-09-05",
+      "tema": "&iquest;Es posible, solicitarle a la DIAN que empresas paga el impuesto de IVA por un servicio gravado por regla general? &iquest;Qu&eacute; norma as&iacute; lo establece?&iquest;Qu&eacute; informaci&oacute;n se considera de reserva legal para la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54355-2013",
+      "tipo": "oficio",
+      "numero": "54355",
+      "fecha": "2013-08-29",
+      "tema": "Viabilidad de lograr un intercambio de informaci&oacute;n en l&iacute;nea con el fin de reducir los tr&aacute;mites en que deben, incurrir los ciudadanos para adelantar el proceso de definici&oacute;n de su situaci&oacute;n militar y liquidar la respectiva cuota de compensaci&oacute;n militar",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61419-2012",
+      "tipo": "oficio",
+      "numero": "61419",
+      "fecha": "2012-09-28",
+      "tema": "&iquest;A qui&eacute;n se debe notificar los actos administrativos a una sociedad que se encuentra disuelta y liquidada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-98917-2011",
+      "tipo": "oficio",
+      "numero": "98917",
+      "fecha": "2011-12-19",
+      "tema": "Por ser los art&iacute;culos 563 y 565 del Estatuto Tributario normas de procedimiento, dichas normas pueden ser aplicadas en los procesos de fiscalizaci&oacute;n en los Derechos de Explotaci&oacute;n y Gastos de Administraci&oacute;n de Juegos de Suerte y Azar que en virtud de lo establecido en el art&iacute;culo 20 de la ley 1393 de 2010 debe adelantar la DIAN",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0010270-2010",
+      "tipo": "concepto",
+      "numero": "0010270",
+      "fecha": "2010-02-15",
+      "tema": "&iquest;Desde qu&eacute; momento se cuentan los diez d&iacute;as del aviso de citaci&oacute;n para que comparezca el contribuyente a notificarse personalmente de las providencias que resuelvan recursos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-97256-2007",
+      "tipo": "oficio",
+      "numero": "97256",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;Trat&aacute;ndose de deudores subsidiarios, a qui&eacute;n se debe dirigir la comunicaci&oacute;n a la que se refiere la circular No. 140 de 2004?&iquest;La comunicaci&oacute;n de que trata la Circular No. 140, se debe dirigir a los socios o part&iacute;cipes que formaron parte de la sociedad durante el periodo gravable a la cual se refiere la actuaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91748-2007",
+      "tipo": "oficio",
+      "numero": "91748",
+      "fecha": "2007-01-01",
+      "tema": "y por el art&iacute;culo 555-2 del mismo ordenamiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13326-2007",
+      "tipo": "oficio",
+      "numero": "13326",
+      "fecha": "2007-02-21",
+      "tema": "Se encuentran vigentes de los Conceptos n&uacute;meros 011647 del 25 de mayo de 1989 y 011226 del 15 de abril de 1991, en los que se interpreta que no es procedente aplicar la sanci&oacute;n por no declarar prevista en los art&iacute;culos 643 y 716 del Estatuto Tributario si con posterioridad al emplazamiento previo a la sanci&oacute;n por no declarar pero antes de la notificaci&oacute;n de la resoluci&oacute;n mediante la cual se impone la sanci&oacute;n, el obligado presenta la correspondiente declaraci&oacute;n autoliquid&aacute;ndose la sanci&oacute;n por extemporaneidad agravada prevista en el art&iacute;culo 642",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082229-2005",
+      "tipo": "concepto",
+      "numero": "0082229",
+      "fecha": "2005-11-08",
+      "tema": "&iquest;Es v&aacute;lido entender que los art&iacute;culos 596, numeral 2; 599, num. 2; 602, num. 2; 606 num. 2; as&iacute; como el art&iacute;culo 563 del estatuto tributario fueron t&aacute;citamente derogados por el art&iacute;culo 555-2 ib&iacute;dem (norma posterior) que expresamente defini&oacute; al Rut como mecanismo &uacute;nico de ubicaci&oacute;n de los sujetos obligados ante la direcci&oacute;n de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0019476-2005",
+      "tipo": "concepto",
+      "numero": "0019476",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Cuando una persona jur&iacute;dica cambia su domicilio principal es necesario protocolizar tal cambio para efectos de la presentaci&oacute;n de las declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051405-2002",
+      "tipo": "concepto",
+      "numero": "0051405",
+      "fecha": "2002-08-14",
+      "tema": "&iquest;Cu&aacute;ndo una sociedad cambi&oacute; su domicilio social, al presentar la declaraci&oacute;n de correcci&oacute;n en el lugar donde deb&iacute;a cumplir el deber legal de declarar, los datos generales que se deben diligenciar espec&iacute;ficamente en la direcci&oacute;n, c&oacute;digo de la administraci&oacute;n, c&oacute;digo del municipio deben ser los que ten&iacute;a antes del cambio de domicilio o los que tiene en el nuevo domicilio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-97571-2001",
+      "tipo": "concepto",
+      "numero": "97571",
+      "fecha": "2001-11-06",
+      "tema": "Procedimiento - Notificaci&oacute;n devuelta por correo",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0110432-2000",
+      "tipo": "concepto",
+      "numero": "0110432",
+      "fecha": "2000-11-10",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento adelantado por la Administraci&oacute;n en el evento de no ser posible la notificaci&oacute;n por correo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0076216-2000",
+      "tipo": "concepto",
+      "numero": "0076216",
+      "fecha": "2000-01-01",
+      "tema": "Aplicabilidad del Articulo 15 (correcci&oacute;n de errores e inconsistencias en las declaraciones y recibos de pago) del Decreto 266 de 2000 en materia tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062796-1995",
+      "tipo": "concepto",
+      "numero": "0062796",
+      "fecha": "1995-09-08",
+      "tema": "&iquest;Correspondiendo el costo de ventas de una vigencia fiscal al inventario declarado en el a&ntilde;o inmediatamente anterior, es necesaria la comprobaci&oacute;n de las compras que corresponden a una vigencia fiscal diferente a la investigada? &iquest;La sanci&oacute;n dispuesta en el art&iacute;culo 650-1 del E.T.,procede cuando en la declaraci&oacute;n, en el rengl&oacute;n correspondiente a",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001309-1995",
+      "tipo": "concepto",
+      "numero": "0001309",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Cuando un contribuyente informa en sus declaraciones presentadas a partir de la vigencia del Decreto 2511 de 1993, una direcci&oacute;n que corresponde a su domicilio, pero que no se encuentra previamente registrada en el RUT, incurre en inconsistencias que al tenor de los Art&iacute;culos 650-1 y 580 del Estatuto Tributario implique tener sus declaraciones como no presentadas?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    }
+  ]
+}

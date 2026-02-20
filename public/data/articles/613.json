@@ -1,1 +1,104 @@
-{"id_articulo": "Art. 613", "titulo": "Art. 613. Inscripción en el registro nacional de vendedores.", "titulo_corto": "Inscripción en el registro nacional de vendedores.", "slug": "613", "url_origen": "https://estatuto.co/613", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 1, "contenido_texto": "Los responsables del impuesto sobre las ventas, deberán inscribirse de conformidad con lo señalado en el artículo 507. Quienes se acojan al régimen simplificado deberán informarlo según lo señalado en el artículo 508.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los responsables del impuesto sobre las ventas, deberán inscribirse de conformidad con lo señalado en el <a href=\"https://estatuto.co/507\" rel=\"noopener\" target=\"_blank\">artículo 507</a>.</p>\n<p>Quienes se acojan al régimen simplificado deberán informarlo según lo señalado en el <a href=\"https://estatuto.co/508\" rel=\"noopener\" target=\"_blank\">artículo 508</a>.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["507", "508"], "referenced_by": [], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 613",
+  "titulo": "Art. 613. Inscripción en el registro nacional de vendedores.",
+  "titulo_corto": "Inscripción en el registro nacional de vendedores.",
+  "slug": "613",
+  "url_origen": "https://estatuto.co/613",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 1,
+  "contenido_texto": "Los responsables del impuesto sobre las ventas, deberán inscribirse de conformidad con lo señalado en el artículo 507. Quienes se acojan al régimen simplificado deberán informarlo según lo señalado en el artículo 508.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los responsables del impuesto sobre las ventas, deberán inscribirse de conformidad con lo señalado en el <a href=\"https://estatuto.co/507\" rel=\"noopener\" target=\"_blank\">artículo 507</a>.</p>\n<p>Quienes se acojan al régimen simplificado deberán informarlo según lo señalado en el <a href=\"https://estatuto.co/508\" rel=\"noopener\" target=\"_blank\">artículo 508</a>.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "507",
+    "508"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 2,
+  "concordancias": "Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 54555 (2014-09-12): Impuesto sobre las ventas, renta - Servicios mineros\noficio 54487 (2014-09-11): Impuesto sobre las ventas, renta - Servicios mineros\noficio 27196 (2004-05-03): &iquest;Se exige la presentaci&oacute;n del NIT para efectos de la deducci&oacute;n de costos y gastos, por pagos efectuados a personas que pertenecen al R&eacute;gimen Simplificado?\nconcepto 0083957 (1998-01-01): &iquest;Deben cobrar el impuesto sobre las ventas las personas naturales pertenecientes al r&eacute;gimen simplificado que presten servicios de consultor&iacute;a e interventor&iacute;a a entidades estatales no responsables del tributo?. Dichas Entidades deben efectuar retenci&oacute;n en la fuente por IVA?\nconcepto 0001489 (1995-01-01): &iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-54555-2014",
+      "tipo": "oficio",
+      "numero": "54555",
+      "fecha": "2014-09-12",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54487-2014",
+      "tipo": "oficio",
+      "numero": "54487",
+      "fecha": "2014-09-11",
+      "tema": "Impuesto sobre las ventas, renta - Servicios mineros",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27196-2004",
+      "tipo": "oficio",
+      "numero": "27196",
+      "fecha": "2004-05-03",
+      "tema": "&iquest;Se exige la presentaci&oacute;n del NIT para efectos de la deducci&oacute;n de costos y gastos, por pagos efectuados a personas que pertenecen al R&eacute;gimen Simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083957-1998",
+      "tipo": "concepto",
+      "numero": "0083957",
+      "fecha": "1998-01-01",
+      "tema": "&iquest;Deben cobrar el impuesto sobre las ventas las personas naturales pertenecientes al r&eacute;gimen simplificado que presten servicios de consultor&iacute;a e interventor&iacute;a a entidades estatales no responsables del tributo?. Dichas Entidades deben efectuar retenci&oacute;n en la fuente por IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001489-1995",
+      "tipo": "concepto",
+      "numero": "0001489",
+      "fecha": "1995-01-01",
+      "tema": "&iquest;Los bienes introducidos a las Zonas Francas Industriales procedentes del pa&iacute;s obtienen los beneficios de los incentivos otorgados a las exportaciones colombianas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008445-1993",
+      "tipo": "concepto",
+      "numero": "0008445",
+      "fecha": "1993-07-27",
+      "tema": "Es necesario que una empresa instalada en ZONA FRANCA INDUSTRIAL y dedicada 100% a exportaci&oacute;n, que se abastece tanto del exterior como de proveedores nacionales, deba cumplir las obligaciones como responsable del IVA? &iquest;Var&iacute;a la situaci&oacute;n si la empresa destina parte de su producci&oacute;n a exportaci&oacute;n y parte al mercado nacional? &iquest;C&oacute;mo es la situaci&oacute;n frente a los servicios que recibe la empresa?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023479-1990",
+      "tipo": "concepto",
+      "numero": "0023479",
+      "fecha": "1990-01-01",
+      "tema": "Para efectos del impuesto sobre las ventas, el hecho de reconocerle una suma mensual al trabajador para el mantenimiento del veh&iacute;culo partiular le implica alguna obligaci&oacute;n",
+      "vigente": true
+    }
+  ]
+}

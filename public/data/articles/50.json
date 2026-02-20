@@ -1,1 +1,371 @@
-{"id_articulo": "Art. 50", "titulo": "Art. 50. Utilidades en ajustes por inflación o por componente inflacionario.", "titulo_corto": "Utilidades en ajustes por inflación o por componente inflacionario.", "slug": "50", "url_origen": "https://estatuto.co/50", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "vigente", "complexity_score": 2, "contenido_texto": "La parte de las utilidades generadas por las sociedades nacionales en exceso de las que se pueden distribuir con el carácter de no gravables, conforme a lo previsto en el artículo 48 y artículo 49, se podrá distribuir en acciones o cuotas de interés social o llevar directamente a la cuenta de capital, sin que constituya renta ni ganancia ocasional, en cuanto provenga de -ajustes integrales por inflación- efectuados a los activos, o de utilidades provenientes del componente inflacionario no gravable de los rendimientos financieros percibidos. Los ajustes por inflación a que se refiere este artículo, comprenden todos los permitidos en la legislación para el costo de los bienes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La parte de las utilidades generadas por las sociedades nacionales en exceso de las que se pueden distribuir con el carácter de no gravables, conforme a lo previsto en el <a href=\"https://estatuto.co/48\" rel=\"noopener\" target=\"_blank\">artículo 48</a> y <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a>, se podrá distribuir en acciones o cuotas de interés social o llevar directamente a la cuenta de capital, sin que constituya renta ni ganancia ocasional, en cuanto provenga de -ajustes integrales por inflación- efectuados a los activos, o de utilidades provenientes del componente inflacionario no gravable de los rendimientos financieros percibidos.</p>\n<p>Los ajustes por inflación a que se refiere este artículo, comprenden todos los permitidos en la legislación para el costo de los bienes.</p>\n</span>", "modificaciones_raw": "*Los Ajustes Integrales por inflación fueron eliminados Ley 1111 de 2006 Art. 78.", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["48", "49"], "referenced_by": [], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 50",
+  "titulo": "Art. 50. Utilidades en ajustes por inflación o por componente inflacionario.",
+  "titulo_corto": "Utilidades en ajustes por inflación o por componente inflacionario.",
+  "slug": "50",
+  "url_origen": "https://estatuto.co/50",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "vigente",
+  "complexity_score": 2,
+  "contenido_texto": "La parte de las utilidades generadas por las sociedades nacionales en exceso de las que se pueden distribuir con el carácter de no gravables, conforme a lo previsto en el artículo 48 y artículo 49, se podrá distribuir en acciones o cuotas de interés social o llevar directamente a la cuenta de capital, sin que constituya renta ni ganancia ocasional, en cuanto provenga de -ajustes integrales por inflación- efectuados a los activos, o de utilidades provenientes del componente inflacionario no gravable de los rendimientos financieros percibidos. Los ajustes por inflación a que se refiere este artículo, comprenden todos los permitidos en la legislación para el costo de los bienes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La parte de las utilidades generadas por las sociedades nacionales en exceso de las que se pueden distribuir con el carácter de no gravables, conforme a lo previsto en el <a href=\"https://estatuto.co/48\" rel=\"noopener\" target=\"_blank\">artículo 48</a> y <a href=\"https://estatuto.co/49\" rel=\"noopener\" target=\"_blank\">artículo 49</a>, se podrá distribuir en acciones o cuotas de interés social o llevar directamente a la cuenta de capital, sin que constituya renta ni ganancia ocasional, en cuanto provenga de -ajustes integrales por inflación- efectuados a los activos, o de utilidades provenientes del componente inflacionario no gravable de los rendimientos financieros percibidos.</p>\n<p>Los ajustes por inflación a que se refiere este artículo, comprenden todos los permitidos en la legislación para el costo de los bienes.</p>\n</span>",
+  "modificaciones_raw": "*Los Ajustes Integrales por inflación fueron eliminados Ley 1111 de 2006 Art. 78.",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "48",
+    "49"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 24 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 914969 (2021-12-06): Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-914969-2021",
+      "tipo": "oficio",
+      "numero": "914969",
+      "fecha": "2021-12-06",
+      "tema": "Ingresos no constitutivos de renta ni ganancia ocasional - Impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5875-2020",
+      "tipo": "oficio",
+      "numero": "5875",
+      "fecha": "2020-03-18",
+      "tema": "Capitalizaciones no Gravadas para los Socios - Capitalizaciones no Gravadas para los Accionistas Ingresos no Constitutivas de Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32473-2018",
+      "tipo": "oficio",
+      "numero": "32473",
+      "fecha": "2018-11-07",
+      "tema": "Aplicaci&oacute;n del numeral 6 del art&iacute;culo 476 del E.T. a los servidores de educaci&oacute;n universitaria, y educaci&oacute;n continuada y complementaria, prestados por los Hospitales Universitarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0782-2018",
+      "tipo": "oficio",
+      "numero": "0782",
+      "fecha": "2018-03-22",
+      "tema": "Impuesto sobre la renta y complementarios - Ajuste al costo de los activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3348-2016",
+      "tipo": "oficio",
+      "numero": "3348",
+      "fecha": "2016-03-01",
+      "tema": "&iquest;Cu&aacute;l es el tiempo por el cual deben proponerse las sanciones a contador y-o revisor fiscal de que trata el art&iacute;culo 660 del Estatuto Tributario, cuando en contra de un mismo contador cursan expedientes simult&aacute;neos por 6 periodos de Impuesto sobre las Ventas, uno de Impuesto sobre la renta y no existe ninguna sanci&oacute;n ejecutoriada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3237-2014",
+      "tipo": "oficio",
+      "numero": "3237",
+      "fecha": "2014-01-22",
+      "tema": "Solicita reconsideraci&oacute;n del pronunciamiento efectuado por esta Direcci&oacute;n con ocasi&oacute;n del problema jur&iacute;dico No. 6 del concepto 045073 del 22 de julio de 2013, en el cual se plantea como tesis jur&iacute;dica la no procedencia de la acumulaci&oacute;n de procesos para la aplicaci&oacute;n de la sanci&oacute;n establecida en el art&iacute;culo 660 del Estatuto Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15176-2013",
+      "tipo": "oficio",
+      "numero": "15176",
+      "fecha": "2013-03-12",
+      "tema": "&iquest;Cu&aacute;l es la base sobre la que se debe efectuar la autorretenci&oacute;n por exportaciones de una C.I. de hidrocarburos y dem&aacute;s productos mineros, cuando las compras se hacen a proveedores a los que no se les efectu&oacute; retenci&oacute;n por tratarse de empresas beneficiadas por la Ley 1429 de 2010?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29428-2012",
+      "tipo": "oficio",
+      "numero": "29428",
+      "fecha": "2012-05-08",
+      "tema": "&iquest;De conformidad con el Decreto 1505 de 2011, la obligaci&oacute;n de actuar como autorretenedores recae en cabeza de los exportadores de derivados de hidrocarburos. Lo anterior teniendo en cuenta que la norma hace alusi&oacute;n a los hidrocarburos y no a los derivados?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-86579-2008",
+      "tipo": "oficio",
+      "numero": "86579",
+      "fecha": "2008-01-01",
+      "tema": "Retenci&oacute;n en la fuente sobre los remanentes pagados como resultado de la liquidaci&oacute;n del Banco del Estado S.A., al Fondo de Garant&iacute;as de Instituciones Financieras - FOGAFIN, en su condici&oacute;n de accionista del mismo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11704-2008",
+      "tipo": "oficio",
+      "numero": "11704",
+      "fecha": "2008-01-01",
+      "tema": "Vigencia del decreto 187 de 1975 (art&iacute;culo 67)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59993-2007",
+      "tipo": "oficio",
+      "numero": "59993",
+      "fecha": "2007-08-03",
+      "tema": "&iquest;Para efectos de Cancelaci&oacute;n de Asignaci&oacute;n de NIT errado o de Reactivaci&oacute;n de NIT cancelado con el fin de hacer correcci&oacute;n por error cometido en un proceso interno de la entidad, en la plataforma segmento para el RUT, Debe efectuarse notificaci&oacute;n de ellas? Y de ser as&iacute;, &iquest;cu&aacute;l recurso procede?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30734-2007",
+      "tipo": "oficio",
+      "numero": "30734",
+      "fecha": "2007-01-01",
+      "tema": "&iquest;La prestaci&oacute;n del servicio de ingenier&iacute;a se puede soportar en el Tratado Grupo de los Tres y si una empresa extranjera debe pagar impuestos en Colombia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-84970-2005",
+      "tipo": "oficio",
+      "numero": "84970",
+      "fecha": "2005-11-16",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento cambiario y tributario que del que debe ser objeto una transacci&oacute;n realizada en Colombia por colombianos, respecto de la venta de unos bienes que no ingresan al pa&iacute;s?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74957-2005",
+      "tipo": "oficio",
+      "numero": "74957",
+      "fecha": "2005-01-01",
+      "tema": "los ingresos provenientes de exportaciones a Ecuador son tratados como ingresos no constitutivos de Renta ni de Ganancia Ocasional?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-20073-2002",
+      "tipo": "concepto",
+      "numero": "20073",
+      "fecha": "2002-04-05",
+      "tema": "Impuesto a las ventas. Hechos que se consideran venta. &iquest;Se considera hecho generador del impuesto sobre las ventas la incubaci&oacute;n del huevo f&eacute;rtil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066937-1998",
+      "tipo": "concepto",
+      "numero": "0066937",
+      "fecha": "1998-08-26",
+      "tema": "&iquest;Cu&aacute;ndo una sociedad de responsabilidad limitada se liquida, el valor de la cuenta revalorizaci&oacute;n del patrimonio y las utilidades provenientes de los ajustes integrales por inflaci&oacute;n, se pueden distribuir como ingresos no constitutivos de renta ni de ganancia ocasional?&iquest;El valor del saneamiento de bienes ra&iacute;ces, es decir la diferencia entre el costo fiscal ajustado y el valor comercial a 31 de diciembre de 1995, solicitado en la &uacute;ltima declaraci&oacute;n de renta de una sociedad que se liquida, se puede distribuir como un ingreso no constitutivo de renta ni de ganancia ocasional, si a&uacute;n no se han enajenado los bienes objeto del saneamiento?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0024032-1997",
+      "tipo": "concepto",
+      "numero": "0024032",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0014110-1988",
+      "tipo": "concepto",
+      "numero": "0014110",
+      "fecha": "1988-01-01",
+      "tema": "Renta presuntiva sobre ingresos",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-481-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "481",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-061-2021",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "061",
+      "year": 2021
+    },
+    {
+      "id": "cc-c-053-2023",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "053",
+      "year": 2023,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-550-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "550",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-571-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "571",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-247-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "247",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-181-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "181",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-354-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "354",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-557-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "557",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-202-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "202",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-025-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "025",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-t-762-2015",
+      "corte": "constitucional",
+      "tipo": "T",
+      "numero": "762",
+      "year": 2015
+    },
+    {
+      "id": "cc-c-936-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "936",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-259-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "259",
+      "year": 2016,
+      "decision": "exequible condicionada"
+    }
+  ]
+}

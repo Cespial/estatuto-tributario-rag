@@ -1,1 +1,82 @@
-{"id_articulo": "Art. 594-2", "titulo": "Art. 594-2. Declaraciones tributarias presentadas por los no obligados.", "titulo_corto": "Declaraciones tributarias presentadas por los no obligados.", "slug": "594-2", "url_origen": "https://estatuto.co/594-2", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Las declaraciones tributarias presentadas por los no obligados a declarar no producirán efecto legal alguno.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las declaraciones tributarias presentadas por los no obligados a declarar no producirán efecto legal alguno.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 30.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "223", "norma_year": 1995, "norma_articulo": "30"}], "total_modificaciones": 1, "ultima_modificacion_year": 1995, "leyes_modificatorias": ["Ley 223 de 1995"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": ["298-7"], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 594-2",
+  "titulo": "Art. 594-2. Declaraciones tributarias presentadas por los no obligados.",
+  "titulo_corto": "Declaraciones tributarias presentadas por los no obligados.",
+  "slug": "594-2",
+  "url_origen": "https://estatuto.co/594-2",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Las declaraciones tributarias presentadas por los no obligados a declarar no producirán efecto legal alguno.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Las declaraciones tributarias presentadas por los no obligados a declarar no producirán efecto legal alguno.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 223 de 1995 Art 30.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "223",
+      "norma_year": 1995,
+      "norma_articulo": "30"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1995,
+  "leyes_modificatorias": [
+    "Ley 223 de 1995"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [
+    "298-7"
+  ],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 12126 (2025-09-09): Otras Disposiciones\noficio 0225 (2025-02-13): Otras Disposiciones",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-12126-2025",
+      "tipo": "oficio",
+      "numero": "12126",
+      "fecha": "2025-09-09",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0225-2025",
+      "tipo": "oficio",
+      "numero": "0225",
+      "fecha": "2025-02-13",
+      "tema": "Otras Disposiciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6463-2005",
+      "tipo": "oficio",
+      "numero": "6463",
+      "fecha": "2005-02-08",
+      "tema": "&iquest;Cu&aacute;l es la aplicaci&oacute;n del Decreto 2788 de 2004 por medio del cual se reglamenta el registro Unico Tributario RUT, referido espec&iacute;ficamente a los sujetos obligados a la inscripci&oacute;n y a los formularios utilizados por la Administraci&oacute;n para tal efefcto?&iquest;Est&aacute;n obligadas formalmente las personas naturales comerciantes a llevar libros de contabilidad?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ]
+}

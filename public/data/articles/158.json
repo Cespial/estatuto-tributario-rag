@@ -1,1 +1,559 @@
-{"id_articulo": "Art. 158", "titulo": "Art. 158. Deducción por amortización en el sector agropecuario.", "titulo_corto": "Deducción por amortización en el sector agropecuario.", "slug": "158", "url_origen": "https://estatuto.co/158", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales. ** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">** -Declarado Exequible- </span>El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": ["*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales.", "** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los t...", "full_length": 425}, {"index": 1, "snippet": "** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.", "full_length": 145}], "normas_parsed": {"jurisprudencia": ["**Sentencia C-1647/00 Dr. José Gregorio Hernández Galindo. Declarar EXEQUIBLE el artículo 158 del Decreto 624 de 1989 -Estatuto Tributario-, en el entendido de que la deducción aplicable a los gastos por impuesto sobre la renta en inversiones efectuadas en el sector agropecuario en sus coeficientes de amortización, en cuanto toca con desmontes y obras de desecación, solamente podrá ser reconocida por la administración tributaria previa certificación específica del Ministerio del Medio Ambiente o de las corporaciones autónomas regionales en el sentido de que los desmontes y la desecación que se adelanten no perjudican el ambiente ni el desarrollo sostenible de los recursos naturales."], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 1, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 158",
+  "titulo": "Art. 158. Deducción por amortización en el sector agropecuario.",
+  "titulo_corto": "Deducción por amortización en el sector agropecuario.",
+  "slug": "158",
+  "url_origen": "https://estatuto.co/158",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales. ** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"verde\"><strong>*</strong></span><span class=\"tachado\">Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\"><span class=\"verde\">** -Declarado Exequible- </span>El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1819 de 2016. Parte II Art.376",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [
+    "*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los trabajadores; igualmente, los desmontes, obras de riego y de desecación; la titulación de baldíos; construcción de acueductos, cercas, bañaderas y demás inversiones en la fundación, ampliación y mejoramiento de fincas rurales.",
+    "** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Serán considerados como gastos deducibles del impuesto sobre la renta, en sus coeficientes de amortización, las inversiones en construcción y reparación de viviendas en el campo en beneficio de los t...",
+      "full_length": 425
+    },
+    {
+      "index": 1,
+      "snippet": "** -Declarado Exequible- El Gobierno fijará las inversiones a que se refiere este artículo y reglamentará la forma de ejecutar estas deducciones.",
+      "full_length": 145
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [
+      "**Sentencia C-1647/00 Dr. José Gregorio Hernández Galindo. Declarar EXEQUIBLE el artículo 158 del Decreto 624 de 1989 -Estatuto Tributario-, en el entendido de que la deducción aplicable a los gastos por impuesto sobre la renta en inversiones efectuadas en el sector agropecuario en sus coeficientes de amortización, en cuanto toca con desmontes y obras de desecación, solamente podrá ser reconocida por la administración tributaria previa certificación específica del Ministerio del Medio Ambiente o de las corporaciones autónomas regionales en el sentido de que los desmontes y la desecación que se adelanten no perjudican el ambiente ni el desarrollo sostenible de los recursos naturales."
+    ],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 1,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 45 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 906347 (2022-08-23): Impuesto sobre la renta - Deducciones y descuentos tributarios, investigaci&oacute;n y desarrollo tecnol&oacute;gico",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-906347-2022",
+      "tipo": "oficio",
+      "numero": "906347",
+      "fecha": "2022-08-23",
+      "tema": "Impuesto sobre la renta - Deducciones y descuentos tributarios, investigaci&oacute;n y desarrollo tecnol&oacute;gico",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21835-2019",
+      "tipo": "oficio",
+      "numero": "21835",
+      "fecha": "2019-09-02",
+      "tema": "Ingreso por Diferencia en Cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5700-2018",
+      "tipo": "oficio",
+      "numero": "5700",
+      "fecha": "2018-03-07",
+      "tema": "&iquest;La derogatoria del inciso 1 del Art&iacute;culo 36-1 del Estatuto Tributario aplica a partir del 1 de enero de 2017 sin afectar el car&aacute;cter de ingreso no constitutivo de renta o ganancia ocasional de las utilidades obtenidas con anterioridad a la derogatoria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0429-2018",
+      "tipo": "oficio",
+      "numero": "0429",
+      "fecha": "2018-01-05",
+      "tema": "Beneficios tributarios otorgados a usuarios por inversi&oacute;n en control y mejoramiento del ambiente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901801-2017",
+      "tipo": "oficio",
+      "numero": "901801",
+      "fecha": "2017-03-08",
+      "tema": "Impuesto Nacional al Consumo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30540-2015",
+      "tipo": "oficio",
+      "numero": "30540",
+      "fecha": "2015-10-09",
+      "tema": "Vigencia de las pautas del Cap&iacute;tulo III de la Ley 1715 de 2014",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-91504-2006",
+      "tipo": "oficio",
+      "numero": "91504",
+      "fecha": "2006-10-25",
+      "tema": "&iquest;Procede la deducci&oacute;n del art&iacute;culo 68 de la Ley 863 de 2003, cuando el activo fijo, se encuentra en tr&aacute;nsito aduanero al cierre del ejercicio fiscal?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083393-2006",
+      "tipo": "concepto",
+      "numero": "0083393",
+      "fecha": "2006-09-26",
+      "tema": "&iquest;Tienen derecho a solicitar la deducci&oacute;n especial de que trata el art&iacute;culo 158-3 del estatuto Tributario las personas naturales asalariadas que adquieran un activo fijo real productivo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80216-2006",
+      "tipo": "oficio",
+      "numero": "80216",
+      "fecha": "2006-09-19",
+      "tema": "&iquest;El IVA que se genera en la adquisici&oacute;n de la maquinaria importada, se puede llevar como IVA descontable en el propio bimestre de la importaci&oacute;n?, o debe llevarse el 50% el primer a&ntilde;o, 25% el segundo a&ntilde;o, y el 25% restante el tercer a&ntilde;o?&iquest;Los servicios de alquiler de montacargas prestados a una zona franca, deben ser o no facturados con el IVA?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0079679-2006",
+      "tipo": "concepto",
+      "numero": "0079679",
+      "fecha": "2006-09-18",
+      "tema": "&iquest;Se conserva el beneficio consagrado en el art&iacute;culo 158-3 del Estatuto Tributario en cabeza de la sociedad que adquiri&oacute; el activo fijo real productivo, y que solicit&oacute; la deducci&oacute;n del 30% del valor de la inversi&oacute;n, cuando dicho bien es transferido a otra sociedad como resultado de un proceso de escisi&oacute;n?&iquest;Se pierde el beneficio consagrado en el art&iacute;culo 158-3 del estatuto Tributario cuando la sociedad que adquiri&oacute; el activo fijo real productivo, y que solicit&oacute; la deducci&oacute;n especial del 30% del valor de la inversi&oacute;n, lo transfiere a otra sociedad como resultado de un proceso de fusi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0052980-2006",
+      "tipo": "concepto",
+      "numero": "0052980",
+      "fecha": "2006-06-22",
+      "tema": "&iquest;Para efectos fiscales, qu&eacute; mecanismo se deb utilizar, para la recuperaci&oacute;n de las inversiones cuando se adquieren semovientes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025646-2005",
+      "tipo": "concepto",
+      "numero": "0025646",
+      "fecha": "2005-05-04",
+      "tema": "&iquest;Cu&aacute;ndo son concurrentes las deducciones por donaci&oacute;n e inversi&oacute;n, cu&aacute;l es la base, para el c&aacute;lculo de una y otra? &iquest;El diligenciamiento err&oacute;neo y el no diligenciamiento del c&oacute;digo del municipio, son causales para tener como no presentada una declaraci&oacute;n tributaria ?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091645-2004",
+      "tipo": "concepto",
+      "numero": "0091645",
+      "fecha": "2004-12-30",
+      "tema": "&iquest;Procede la deducci&oacute;n del 30% del valor de las erogaciones relativas al levante de gallinas ponedoras hasta tanto se inicia la etapa de postura?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-87701-2004",
+      "tipo": "oficio",
+      "numero": "87701",
+      "fecha": "2004-12-13",
+      "tema": "Solicita aclaraci&oacute;n sobre el efecto del pronunciamiento de la Corte Constitucional (Sentencia C-370 del 27 de abril de 2004) referente al IVA descontable por adquisici&oacute;n de maquinaria industrial a trav&eacute;s del sistema de arrendamiento financiero (leasing) y adicionalmente, a conocer los beneficios que puede obtener tanto en el Impuesto a la Renta como en el Impuesto Sobre las Ventas por la adquisici&oacute;n de dicha maquinaria mediante arrendamiento financiero o cr&eacute;dito bancario, a la luz del pronunciamiento de la Corte",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028188-1996",
+      "tipo": "concepto",
+      "numero": "0028188",
+      "fecha": "1996-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023136-1995",
+      "tipo": "concepto",
+      "numero": "0023136",
+      "fecha": "1995-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2055-1991",
+      "tipo": "oficio",
+      "numero": "2055",
+      "fecha": "1991-09-20",
+      "tema": "&iquest;Las aves de postura en un ciclo productivo, pueden considerarse activos fijos y por lo tanto el valor de levante amortizable como un costo mas en la producci&oacute;n del huevo, y qu&eacute; par&aacute;metros, en el evento de ser viable clasificarlas as&iacute;, se tomar&iacute;an para amortizar; si la vida &uacute;til, o un determinado n&uacute;mero de posturas, y si al terminar su ciclo productivo podr&iacute;a clasificarse el ave como un activo corriente, y los ingresos producto de su venta considerarse como una recuperaci&oacute;n de deducciones?",
+      "vigente": false
+    },
+    {
+      "id": "dian-concepto-0002055-1991",
+      "tipo": "concepto",
+      "numero": "0002055",
+      "fecha": "1991-09-20",
+      "tema": "&iquest;Las aves de postura en un ciclo productivo, pueden considerarse activos fijos y por tanto el valor de levante amortizable como un costo m&aacute;s en en la producci&oacute;n de huevo, y si al terminar su ciclo productivo podr&iacute;a clasificarse el ave como un activo corriente, y los ingresos producto de su venta considerarse como una recuperaci&oacute;n de deducciones?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1647-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1647",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-002-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "002",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-520-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "520",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-465-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "465",
+      "year": 2014,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-886-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "886",
+      "year": 2002
+    },
+    {
+      "id": "cc-c-318-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "318",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-832-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "832",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-486-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "486",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-073-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "073",
+      "year": 2010,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-230-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "230",
+      "year": 2008,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-714-2008",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "714",
+      "year": 2008
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-523-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "523",
+      "year": 1995
+    },
+    {
+      "id": "cc-c-245-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "245",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-501-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "501",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-511-1996",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "511",
+      "year": 1996
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-748-2009",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "748",
+      "year": 2009,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-850-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "850",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-537-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "537",
+      "year": 2012,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-784-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "784",
+      "year": 2014,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-044-2015",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "044",
+      "year": 2015,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-332-2017",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "332",
+      "year": 2017,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-112-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2019,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-141-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "141",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-305-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "305",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-737-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "737",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-453-2006",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "453",
+      "year": 2006,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-155-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "155",
+      "year": 1998,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-084-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "084",
+      "year": 2018,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-872-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "872",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-816-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "816",
+      "year": 2004,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-298-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "298",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-751-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "751",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-226-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "226",
+      "year": 2002,
+      "decision": "exequible"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ interface TopArticle {
 
 interface TopModifiedTableProps {
   articles: TopArticle[];
+  title?: string;
 }
 
 const ESTADO_DOT: Record<string, string> = {
@@ -19,12 +20,12 @@ const ESTADO_DOT: Record<string, string> = {
   derogado: "bg-foreground/30",
 };
 
-export function TopModifiedTable({ articles }: TopModifiedTableProps) {
+export function TopModifiedTable({ articles, title }: TopModifiedTableProps) {
   if (articles.length === 0) return null;
 
   return (
     <div className="rounded-lg border border-border/60 bg-card p-4 shadow-sm">
-      <h3 className="heading-serif mb-3 text-lg">Top 10 mas modificados</h3>
+      <h3 className="heading-serif mb-3 text-lg">{title || "Top 10 más modificados"}</h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead className="bg-muted/50">

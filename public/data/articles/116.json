@@ -1,1 +1,434 @@
-{"id_articulo": "Art. 116", "titulo": "Art. 116. Deducción de impuestos, regalías y contribuciones pagados por los organismos descentralizados.", "titulo_corto": "Deducción de impuestos, regalías y contribuciones pagados por los organismos descentralizados.", "slug": "116", "url_origen": "https://estatuto.co/116", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes. *Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">*<span class=\"verde\"><strong>Parágrafo 1</strong>.</span> Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.</span></del></span></p>\n</span>", "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art. 122. Ley 2010 de 2019 Art. 160. *Parágrafo adicionado Ley 1430 2010 Art. 57", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}], "total_modificaciones": 1, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1943 de 2018"], "texto_derogado": ["*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes.", "*Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta."], "texto_derogado_parsed": [{"index": 0, "snippet": "*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta b...", "full_length": 328}, {"index": 1, "snippet": "*Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.", "full_length": 100}], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 116",
+  "titulo": "Art. 116. Deducción de impuestos, regalías y contribuciones pagados por los organismos descentralizados.",
+  "titulo_corto": "Deducción de impuestos, regalías y contribuciones pagados por los organismos descentralizados.",
+  "slug": "116",
+  "url_origen": "https://estatuto.co/116",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes. *Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span style=\"color: #339966;\"><del><span class=\"tachado\">*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes.</span></del></span></p>\n<p><span style=\"color: #339966;\"><del><span class=\"tachado\">*<span class=\"verde\"><strong>Parágrafo 1</strong>.</span> Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.</span></del></span></p>\n</span>",
+  "modificaciones_raw": "*Derogado Ley 1943 de 2018 Art. 122. Ley 2010 de 2019 Art. 160. *Parágrafo adicionado Ley 1430 2010 Art. 57",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [
+    "*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta bruta del respectivo contribuyente, siempre y cuando cumplan los requisitos que para su deducibilidad exigen las normas vigentes.",
+    "*Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta."
+  ],
+  "texto_derogado_parsed": [
+    {
+      "index": 0,
+      "snippet": "*Los impuestos, regalías y contribuciones, que los organismos descentralizados deban pagar conforme a disposiciones vigentes a la Nación u otras entidades territoriales, serán deducibles de la renta b...",
+      "full_length": 328
+    },
+    {
+      "index": 1,
+      "snippet": "*Parágrafo 1. Las cuotas de afiliación pagadas a los gremios serán deducibles del impuesto de renta.",
+      "full_length": 100
+    }
+  ],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Jurisprudencia: 19 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "concepto 0000207 (2020-02-20): (Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?\noficio 26853 (2019-10-25): &iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?\noficio 18086 (2019-07-12): &iquest;El Costo de Producci&oacute;n de los Barriles de Crudo entregados por los contribuyentes a la Agencia Nacional de Hidrocarburos a t&iacute;tulo de Regal&iacute;as en Especie o Monetizadas es deducible del Impuesto de Renta?\noficio 17972 (2019-07-10): &iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?\noficio 15905 (2019-06-18): Conforme con el art&iacute;culo 115 del estatuto tributario, son deducibles del impuesto sobre la renta las cuotas de afiliaci&oacute;n pagadas por un contribuyente a una Corporaci&oacute;n (ESAL)",
+  "notas_editoriales": "",
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-1114-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1114",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-910-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "910",
+      "year": 2004,
+      "decision": "inhibitoria"
+    },
+    {
+      "id": "cc-c-593-2019",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "593",
+      "year": 2019,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-543-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "543",
+      "year": 2005,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-485-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "485",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-657-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "657",
+      "year": 2003,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-939-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "939",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-776-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "776",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1149-2003",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1149",
+      "year": 2003,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-760-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "760",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1039-2004",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1039",
+      "year": 2004
+    },
+    {
+      "id": "cc-c-685-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "685",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-252-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "252",
+      "year": 2012
+    },
+    {
+      "id": "cc-c-699-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "699",
+      "year": 2016,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-1190-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "1190",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-117-2018",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "117",
+      "year": 2018,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-368-2014",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "368",
+      "year": 2014,
+      "decision": "exequible"
+    }
+  ],
+  "doctrina_vinculada": [
+    {
+      "id": "dian-concepto-0000207-2020",
+      "tipo": "concepto",
+      "numero": "0000207",
+      "fecha": "2020-02-20",
+      "tema": "(Int 0207) &iquest;La venta o importaci&oacute;n de las materias primas qu&iacute;micas con destino a la producci&oacute;n de medicamentos de las posiciones 29.36, 29.41, 30.01, 30.03, 30.04 y 30.06, tienen la categor&iacute;a de excluidas, exentas, gravadas o no sujetas del Impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18086-2019",
+      "tipo": "oficio",
+      "numero": "18086",
+      "fecha": "2019-07-12",
+      "tema": "&iquest;El Costo de Producci&oacute;n de los Barriles de Crudo entregados por los contribuyentes a la Agencia Nacional de Hidrocarburos a t&iacute;tulo de Regal&iacute;as en Especie o Monetizadas es deducible del Impuesto de Renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-15905-2019",
+      "tipo": "oficio",
+      "numero": "15905",
+      "fecha": "2019-06-18",
+      "tema": "Conforme con el art&iacute;culo 115 del estatuto tributario, son deducibles del impuesto sobre la renta las cuotas de afiliaci&oacute;n pagadas por un contribuyente a una Corporaci&oacute;n (ESAL)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10616-2018",
+      "tipo": "oficio",
+      "numero": "10616",
+      "fecha": "2018-04-25",
+      "tema": "Base Gravable en la venta de productos Derivados del Petr&oacute;leo",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3705-2018",
+      "tipo": "oficio",
+      "numero": "3705",
+      "fecha": "2018-02-15",
+      "tema": "&iquest;Siendo las regal&iacute;as deducibles para las empresas mineras privadas que exploten recursos naturales no renovables en la medida en que cumplan los requisitos del art&iacute;culo 107 del Estatuto Tributario el cual establece de manera general las condiciones para la deducibilidad de las expensas, &iquest;cu&aacute;l ser&iacute;a el mecanismo de verificaci&oacute;n que se realice caso a caso para establecer el cumplimiento de lo previsto en el art&iacute;culo 107? &iquest;Las actuaciones de los contribuyentes que se hayan fundamento en lo dispuesto en el Concepto No. 15766 del 17 de marzo de 2005 de la Subdirecci&oacute;n de Gesti&oacute;n Normativa y Doctrina de la Direcci&oacute;n de Gesti&oacute;n Jur&iacute;dica de la DIAN. hasta antes de la expedici&oacute;n y notificaci&oacute;n de la sentencia del Consejo de Estado que lo anul&oacute;, no pueden ser objetadas por las autoridades tributarias de acuerdo con lo dispuesto en art&iacute;culo 264 de la Ley 223 de 1995 y en la Circular 175 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0007-2018",
+      "tipo": "oficio",
+      "numero": "0007",
+      "fecha": "2018-01-04",
+      "tema": "Tributos del sector hidrocarburos y telecomunicaciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-36796-2016",
+      "tipo": "oficio",
+      "numero": "36796",
+      "fecha": "2016-12-30",
+      "tema": "Las entidades descentralizadas pueden deducir la contribuci&oacute;n por valorizaci&oacute;n en los t&eacute;rminos del art&iacute;culo 116 del Estatuto Tributario. Cita, para el efecto el Oficio N&deg; 0345 de 2016 (corresponde al N&deg; externo 009870 de 27 de abril de 2016), en el cual se manifest&oacute; que si es procedente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-9870-2016",
+      "tipo": "oficio",
+      "numero": "9870",
+      "fecha": "2016-04-27",
+      "tema": "&iquest;Para un contribuyente persona natural, de conformidad con el art&iacute;culo 107 del Estatuto Tributario, es deducible del impuesto sobre la renta, el pago de la contribuci&oacute;n por valorizaci&oacute;n de inmuebles, decretada en un municipio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-58755-2014",
+      "tipo": "oficio",
+      "numero": "58755",
+      "fecha": "2014-10-15",
+      "tema": "Inversiones o actividades mineras deducci&oacute;n renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-54608-2014",
+      "tipo": "oficio",
+      "numero": "54608",
+      "fecha": "2014-11-12",
+      "tema": "&iquest;Es posible que la subcontrataci&oacute;n para labores de extracci&oacute;n de carb&oacute;n establecida en el art&iacute;culo 27 del C&oacute;digo de Minas sea gravada con el impuesto de IVA?&iquest;Cu&aacute;les son los Impuestos Nacionales a que se encuentran sometidos los Operadores Mineros cuando son contratados por Titulares Mineros de conformidad con lo establecido en el Art&iacute;culo 27 del C&oacute;digo de Minas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-79040-2013",
+      "tipo": "oficio",
+      "numero": "79040",
+      "fecha": "2013-12-10",
+      "tema": "&iquest;De conformidad con lo dispuesto en el par&aacute;grafo del art&iacute;culo 116 del Estatuto Tributario, se pueden entender como deducibles del impuesto sobre la renta las cuotas de sostenimiento mensual con las que los afiliados contribuyen al sustento de los Gremios a los cuales se encuentran vinculados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68202-2013",
+      "tipo": "oficio",
+      "numero": "68202",
+      "fecha": "2013-10-24",
+      "tema": "&iquest;En los procesos de cobro coactivo adelantados contra los municipios debe darse aplicaci&oacute;n al art&iacute;culo 47 de la Ley 1551 de 2012, toda vez que informa que pese a la expedici&oacute;n del Oficio 017856 del 26 de marzo de 2013, existe diversidad de criterios entre la Procuradur&iacute;a General de la Naci&oacute;n y la Contralor&iacute;a General de la Naci&oacute;n sobre la vigencia de la norma, toda vez que el art&iacute;culo 613 de la Ley 1564 de 2012, C&oacute;digo General del proceso modific&oacute; los eventos en los cuales se requiere agotar la conciliaci&oacute;n extrajudicial como requisito de procedibilidad en los asuntos contencioso administrativos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4830-2013",
+      "tipo": "oficio",
+      "numero": "4830",
+      "fecha": "2013-01-28",
+      "tema": "&iquest;Porqu&eacute; las empresas mineras, a trav&eacute;s del Concepto DIAN 15766 de 2005, deducen del impuesto las regal&iacute;as?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21716-2011",
+      "tipo": "oficio",
+      "numero": "21716",
+      "fecha": "2011-03-25",
+      "tema": "Deducibilidad de las cuotas de afiliaci&oacute;n pagadas a los gremios como costo deducible del impuesto de renta - Debe entenderse que las cuotas de afiliaci&oacute;n pagadas a los gremios podr&aacute;n ser deducidas en la determinaci&oacute;n del impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23640-2009",
+      "tipo": "oficio",
+      "numero": "23640",
+      "fecha": "2009-03-20",
+      "tema": "&iquest;Para efectos de la Reducci&oacute;n del Gravamen a los Movimientos Financieros, las Entidades Descentralizadas se rigen por lo dispuesto en el art&iacute;culo 116 del Estatuto Tributario y en consecuencia tienen derecho a deducir el 100% del impuesto efectivamente pagado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-64693-2008",
+      "tipo": "oficio",
+      "numero": "64693",
+      "fecha": "2008-01-01",
+      "tema": "- (Tributario) Solicita aclaraci&oacute;n del Oficio No. 050378 del d&iacute;a 20 de mayo de 2008",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-38521-2008",
+      "tipo": "oficio",
+      "numero": "38521",
+      "fecha": "2008-04-18",
+      "tema": "&iquest; Para efectos de determinar la renta o ganancia ocasional, seg&uacute;n el caso, cuando un predio es desenglobado para efectuar una venta parcial, a los ingresos obtenidos por la porci&oacute;n que se vende puede imputarse como costo fiscal la parte proporcional del aval&uacute;o o autoaval&uacute;o del predio que se desengloba que figure en la declaraci&oacute;n del impuesto predial unificado del a&ntilde;o anterior y-o en la declaraci&oacute;n de renta del a&ntilde;o anterior al de enajenaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044842-2006",
+      "tipo": "concepto",
+      "numero": "0044842",
+      "fecha": "2006-04-20",
+      "tema": "&iquest;Son deducibles, para efectos de la determinaci&oacute;n de la renta, las transferencias que por mandato del art&iacute;culo 45 de la Ley 99 de 1993 deben realizar las empresas generadoras de energ&iacute;a hidroel&eacute;ctrica y t&eacute;rmica, de un porcentaje de las ventas brutas de energ&iacute;a por generaci&oacute;n propia?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0015766-2005",
+      "tipo": "concepto",
+      "numero": "0015766",
+      "fecha": "2005-03-17",
+      "tema": "- (Tributario) &iquest;Son deducibles las regal&iacute;as que los contribuyentes diferentes a las entidades descentralizadas, pagan por la explotaci&oacute;n de recursos naturales no renovables?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-89041-2004",
+      "tipo": "oficio",
+      "numero": "89041",
+      "fecha": "2004-12-20",
+      "tema": "&iquest;El pago por regal&iacute;as que acredita el exportador de esmeraldas al realizar la exportaci&oacute;n es deducible en el impuesto de renta, bajo los enunciados de los art&iacute;culos 107, 115 y 116 del estatuto tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0076644-2003",
+      "tipo": "concepto",
+      "numero": "0076644",
+      "fecha": "2003-11-28",
+      "tema": "&iquest;Constituyen ingreso no constitutivo de renta, en cabeza de la persona que explota recursos naturales no renovables, las regal&iacute;as que se deben trasladar al Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0044274-2000",
+      "tipo": "concepto",
+      "numero": "0044274",
+      "fecha": "2000-05-11",
+      "tema": "&iquest; Son principios de la tributaci&oacute;n, la equidad, la eficiencia y la progresividad?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0025680-2000",
+      "tipo": "concepto",
+      "numero": "0025680",
+      "fecha": "2000-03-22",
+      "tema": "&iquest;Est&aacute;n gravados con el impuesto de timbre nacional los contratos de prestaci&oacute;n de servicios de mensajer&iacute;a especializada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008464-1999",
+      "tipo": "concepto",
+      "numero": "0008464",
+      "fecha": "1999-08-31",
+      "tema": "&iquest;Se causa el impuesto de timbre nacional respecto de contratos de cuant&iacute;a indeterminada, suscritos por empresas industriales y comerciales del Estado'?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0054304-1998",
+      "tipo": "concepto",
+      "numero": "0054304",
+      "fecha": "1998-07-09",
+      "tema": "&iquest;Qu&eacute; incentivos o beneficios tributarios se conceden por el pago trimestral de regal&iacute;as al Gobierno?&iquest;Qu&eacute; beneficios tributarios se concede por el pago del impuesto de industria y comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0009842-1992",
+      "tipo": "concepto",
+      "numero": "0009842",
+      "fecha": "1992-01-01",
+      "tema": "Si bien contablemente constituye un gasto, &eacute;ste tributariamente no es deducible, con una excepci&oacute;n expresamente se&ntilde;alada en la ley tributaria para los organismos descentralizados",
+      "vigente": true
+    }
+  ]
+}

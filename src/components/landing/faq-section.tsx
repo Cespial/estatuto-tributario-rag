@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ChevronDown } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 
 interface FaqItem {
@@ -22,19 +23,22 @@ export function FaqSection({ items }: FaqSectionProps) {
           Preguntas frecuentes antes de empezar.
         </h2>
 
-        <div className="mt-8 space-y-3">
+        <div className="mt-10 space-y-4">
           {items.map((item, index) => (
             <details
               key={item.question}
-              className="rounded-xl border border-border bg-card p-5 open:border-foreground/25"
+              className="group rounded-xl border border-border bg-card transition-all duration-300 open:border-foreground/20 open:shadow-sm"
               open={index === 0}
             >
-              <summary className="cursor-pointer list-none text-base font-semibold text-foreground">
+              <summary className="flex cursor-pointer list-none items-center justify-between p-5 text-base font-semibold text-foreground transition-colors hover:text-foreground/80">
                 {item.question}
+                <ChevronDown className="h-5 w-5 text-muted-foreground transition-transform duration-300 group-open:rotate-180" />
               </summary>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                {item.answer}
-              </p>
+              <div className="px-5 pb-5">
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {item.answer}
+                </p>
+              </div>
             </details>
           ))}
         </div>

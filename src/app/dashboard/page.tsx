@@ -24,6 +24,7 @@ interface DashboardStats {
 }
 
 interface DashboardTimeSeries {
+  generated_at?: string;
   latest_year: number;
   granularity_notice: string;
   ranges: Array<{
@@ -63,9 +64,10 @@ export const metadata = {
 };
 
 export default async function DashboardPage() {
-  const [stats, timeseries] = await Promise.all([
+  const [stats, timeseries, articleIndex] = await Promise.all([
     readJsonFile<DashboardStats>("dashboard-stats.json"),
     readJsonFile<DashboardTimeSeries>("dashboard-timeseries.json"),
+    readJsonFile<any[]>("articles-index.json"),
   ]);
 
   if (!stats || !timeseries) {
@@ -99,7 +101,12 @@ export default async function DashboardPage() {
           Indicadores accionables, tendencias de reforma y distribución del ET.
         </p>
 
-        <DashboardClient stats={stats} timeseries={timeseries} />
+        <DashboardClient
+          stats={stats}
+          timeseries={timeseries}
+          articleIndex={articleIndex || []}
+          lastUpdate={timeseries.generated_at}
+        />
       </main>
     </div>
   );

@@ -1,1 +1,70 @@
-{"id_articulo": "Art. 756", "titulo": "Art. 756. Las presunciones sirven para determinar las obligaciones tributarias.", "titulo_corto": "Las presunciones sirven para determinar las obligaciones tributarias.", "slug": "756", "url_origen": "https://estatuto.co/756", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*Los funcionarios competentes para la determinación de los impuestos, podrán adicionar ingresos para efectos de los impuestos sobre la renta y complementarios y sobre las ventas, dentro del proceso de determinación oficial previsto en el Título IV del Libro V del Estatuto Tributario, aplicando las presunciones de los artículos siguientes.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los funcionarios competentes para la determinación de los impuestos, podrán adicionar ingresos para efectos de los impuestos sobre la renta y complementarios y sobre las ventas, dentro del proceso de determinación oficial previsto en el Título IV del Libro V del Estatuto Tributario, aplicando las presunciones de los artículos siguientes.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 58.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "6", "norma_year": 1992, "norma_articulo": "58"}], "total_modificaciones": 1, "ultima_modificacion_year": 1992, "leyes_modificatorias": ["Ley 6 de 1992"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 756",
+  "titulo": "Art. 756. Las presunciones sirven para determinar las obligaciones tributarias.",
+  "titulo_corto": "Las presunciones sirven para determinar las obligaciones tributarias.",
+  "slug": "756",
+  "url_origen": "https://estatuto.co/756",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*Los funcionarios competentes para la determinación de los impuestos, podrán adicionar ingresos para efectos de los impuestos sobre la renta y complementarios y sobre las ventas, dentro del proceso de determinación oficial previsto en el Título IV del Libro V del Estatuto Tributario, aplicando las presunciones de los artículos siguientes.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>*Los funcionarios competentes para la determinación de los impuestos, podrán adicionar ingresos para efectos de los impuestos sobre la renta y complementarios y sobre las ventas, dentro del proceso de determinación oficial previsto en el Título IV del Libro V del Estatuto Tributario, aplicando las presunciones de los artículos siguientes.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 6 de 1992 Art 58.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "6",
+      "norma_year": 1992,
+      "norma_articulo": "58"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 1992,
+  "leyes_modificatorias": [
+    "Ley 6 de 1992"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 4303 (2020-02-28): &iquest;Las empresas comercializadoras de energ&iacute;a tienen la obligaci&oacute;n de solicitar facturas de venta y cuentas de cobro para poder reconocer los excedentes de energ&iacute;a a usuarios generadores que entregan o venden energ&iacute;a a la red?\nconcepto 0067802 (2002-10-17): &iquest;Para aplicar la presunci&oacute;n de ingresos por omisi&oacute;n del registro de compras debe tenerse en cuenta el total de compras, o sea las gravadas y las excluidas del impuesto sobre las ventas?\nconcepto 0067224 (2002-10-16): &iquest;Es procedente tomar como base para el c&aacute;lculo de la sanci&oacute;n por no declarar la presunci&oacute;n contenida en el art&iacute;culo 760 del Estatuto Tributario?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4303-2020",
+      "tipo": "oficio",
+      "numero": "4303",
+      "fecha": "2020-02-28",
+      "tema": "&iquest;Las empresas comercializadoras de energ&iacute;a tienen la obligaci&oacute;n de solicitar facturas de venta y cuentas de cobro para poder reconocer los excedentes de energ&iacute;a a usuarios generadores que entregan o venden energ&iacute;a a la red?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067802-2002",
+      "tipo": "concepto",
+      "numero": "0067802",
+      "fecha": "2002-10-17",
+      "tema": "&iquest;Para aplicar la presunci&oacute;n de ingresos por omisi&oacute;n del registro de compras debe tenerse en cuenta el total de compras, o sea las gravadas y las excluidas del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0067224-2002",
+      "tipo": "concepto",
+      "numero": "0067224",
+      "fecha": "2002-10-16",
+      "tema": "&iquest;Es procedente tomar como base para el c&aacute;lculo de la sanci&oacute;n por no declarar la presunci&oacute;n contenida en el art&iacute;culo 760 del Estatuto Tributario?",
+      "vigente": true
+    }
+  ]
+}

@@ -1,1 +1,605 @@
-{"id_articulo": "Art. 596", "titulo": "Art. 596. Contenido de la declaración de renta.", "titulo_corto": "Contenido de la declaración de renta.", "slug": "596", "url_origen": "https://estatuto.co/596", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "La declaración del impuesto sobre la renta y complementarios deberá presentarse en el formulario que para tal efecto señale la Dirección General de Impuestos Nacionales. Esta declaración deberá contener: 1. El formulario que para el efecto señale la Dirección General de Impuestos Nacionales debidamente diligenciado. 2. La información necesaria para la identificación y ubicación del contribuyente. 3. La discriminación de los factores necesarios para determinar las bases gravables del impuesto sobre la renta y complementarios. 4. La liquidación privada del impuesto sobre la renta y complementarios, incluidos el anticipo y las sanciones, cuando fuere del caso. *5. La firma de quien cumpla el deber formal de declarar, o la identificación en el caso de las personas naturales, a través de los medios que establezca el Gobierno Nacional. 6. La firma del revisor fiscal cuando se trate de contribuyentes obligados a llevar libros de contabilidad y que de conformidad con el Código de Comercio y demás normas vigentes sobre la materia, estén obligados a tener Revisor Fiscal. Los demás contribuyentes y entidades obligadas a llevar libros de contabilidad, deberán presentar la declaración de renta y complementarios o de ingresos y patrimonio, según sea el caso, firmada por contador público, vinculado o no laboralmente a la empresa o entidad , cuando el patrimonio bruto en el último día del año o período gravable, o los ingresos brutos del respectivo año, sean superiores a 100.000 UVT. Cuando se diere aplicación a lo dispuesto en el presente numeral, deberá informarse en la declaración de renta el nombre completo y número de matrícula del contador público o revisor fiscal que firma la declaración.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La declaración del impuesto sobre la renta y complementarios deberá presentarse en el formulario que para tal efecto señale la Dirección General de Impuestos Nacionales. Esta declaración deberá contener:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>El formulario que para el efecto señale la Dirección General de Impuestos Nacionales debidamente diligenciado.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La información necesaria para la identificación y ubicación del contribuyente.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>La discriminación de los factores necesarios para determinar las bases gravables del impuesto sobre la renta y complementarios.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>La liquidación privada del impuesto sobre la renta y complementarios, incluidos el anticipo y las sanciones, cuando fuere del caso.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*</span>5.</span> </strong>La firma de quien cumpla el deber formal de declarar, o la identificación en el caso de las personas naturales, a través de los medios que establezca el Gobierno Nacional.</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>La firma del revisor fiscal cuando se trate de contribuyentes obligados a llevar libros de contabilidad y que de conformidad con el Código de Comercio y demás normas vigentes sobre la materia, estén obligados a tener Revisor Fiscal.</p>\n<p>Los demás contribuyentes y entidades obligadas a llevar libros de contabilidad, deberán presentar la declaración de renta y complementarios o de ingresos y patrimonio, según sea el caso, firmada por contador público, vinculado o no laboralmente a la empresa o entidad , cuando el patrimonio bruto en el último día del año o período gravable, o los ingresos brutos del respectivo año, sean superiores a 100.000 UVT.</p>\n<p>Cuando se diere aplicación a lo dispuesto en el presente numeral, deberá informarse en la declaración de renta el nombre completo y número de matrícula del contador público o revisor fiscal que firma la declaración.</p>\n</span>", "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art 19.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1607", "norma_year": 2012, "norma_articulo": "19"}], "total_modificaciones": 1, "ultima_modificacion_year": 2012, "leyes_modificatorias": ["Ley 1607 de 2012"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 596",
+  "titulo": "Art. 596. Contenido de la declaración de renta.",
+  "titulo_corto": "Contenido de la declaración de renta.",
+  "slug": "596",
+  "url_origen": "https://estatuto.co/596",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "La declaración del impuesto sobre la renta y complementarios deberá presentarse en el formulario que para tal efecto señale la Dirección General de Impuestos Nacionales. Esta declaración deberá contener: 1. El formulario que para el efecto señale la Dirección General de Impuestos Nacionales debidamente diligenciado. 2. La información necesaria para la identificación y ubicación del contribuyente. 3. La discriminación de los factores necesarios para determinar las bases gravables del impuesto sobre la renta y complementarios. 4. La liquidación privada del impuesto sobre la renta y complementarios, incluidos el anticipo y las sanciones, cuando fuere del caso. *5. La firma de quien cumpla el deber formal de declarar, o la identificación en el caso de las personas naturales, a través de los medios que establezca el Gobierno Nacional. 6. La firma del revisor fiscal cuando se trate de contribuyentes obligados a llevar libros de contabilidad y que de conformidad con el Código de Comercio y demás normas vigentes sobre la materia, estén obligados a tener Revisor Fiscal. Los demás contribuyentes y entidades obligadas a llevar libros de contabilidad, deberán presentar la declaración de renta y complementarios o de ingresos y patrimonio, según sea el caso, firmada por contador público, vinculado o no laboralmente a la empresa o entidad , cuando el patrimonio bruto en el último día del año o período gravable, o los ingresos brutos del respectivo año, sean superiores a 100.000 UVT. Cuando se diere aplicación a lo dispuesto en el presente numeral, deberá informarse en la declaración de renta el nombre completo y número de matrícula del contador público o revisor fiscal que firma la declaración.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>La declaración del impuesto sobre la renta y complementarios deberá presentarse en el formulario que para tal efecto señale la Dirección General de Impuestos Nacionales. Esta declaración deberá contener:</p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>El formulario que para el efecto señale la Dirección General de Impuestos Nacionales debidamente diligenciado.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La información necesaria para la identificación y ubicación del contribuyente.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>La discriminación de los factores necesarios para determinar las bases gravables del impuesto sobre la renta y complementarios.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>La liquidación privada del impuesto sobre la renta y complementarios, incluidos el anticipo y las sanciones, cuando fuere del caso.</p>\n<p><strong><span style=\"color: #339966;\"><span class=\"verde\">*</span>5.</span> </strong>La firma de quien cumpla el deber formal de declarar, o la identificación en el caso de las personas naturales, a través de los medios que establezca el Gobierno Nacional.</p>\n<p><strong><span style=\"color: #339966;\">6.</span> </strong>La firma del revisor fiscal cuando se trate de contribuyentes obligados a llevar libros de contabilidad y que de conformidad con el Código de Comercio y demás normas vigentes sobre la materia, estén obligados a tener Revisor Fiscal.</p>\n<p>Los demás contribuyentes y entidades obligadas a llevar libros de contabilidad, deberán presentar la declaración de renta y complementarios o de ingresos y patrimonio, según sea el caso, firmada por contador público, vinculado o no laboralmente a la empresa o entidad , cuando el patrimonio bruto en el último día del año o período gravable, o los ingresos brutos del respectivo año, sean superiores a 100.000 UVT.</p>\n<p>Cuando se diere aplicación a lo dispuesto en el presente numeral, deberá informarse en la declaración de renta el nombre completo y número de matrícula del contador público o revisor fiscal que firma la declaración.</p>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1607 de 2012 Art 19.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1607",
+      "norma_year": 2012,
+      "norma_articulo": "19"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2012,
+  "leyes_modificatorias": [
+    "Ley 1607 de 2012"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 7 concepto(s) relacionado(s). Jurisprudencia: 3 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 13304 (2025-08-27): Procedimiento Tributario\noficio 13294 (2025-10-01): Procedimiento Tributario\noficio 0057 (2025-01-08): Impuesto sobre la Renta y Complementarios\noficio 6467 (2024-09-10): Procedimiento Tributario\noficio 5272 (2023-09-14): (Int 978) Impuesto sobre la Renta y Complementarios - Ingreso por enajenaci&oacute;n de acciones - Informaci&oacute;n ex&oacute;gena",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-13304-2025",
+      "tipo": "oficio",
+      "numero": "13304",
+      "fecha": "2025-08-27",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13294-2025",
+      "tipo": "oficio",
+      "numero": "13294",
+      "fecha": "2025-10-01",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0057-2025",
+      "tipo": "oficio",
+      "numero": "0057",
+      "fecha": "2025-01-08",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5272-2023",
+      "tipo": "oficio",
+      "numero": "5272",
+      "fecha": "2023-09-14",
+      "tema": "(Int 978) Impuesto sobre la Renta y Complementarios - Ingreso por enajenaci&oacute;n de acciones - Informaci&oacute;n ex&oacute;gena",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908271-2022",
+      "tipo": "oficio",
+      "numero": "908271",
+      "fecha": "2022-11-15",
+      "tema": "Inscripci&oacute;n en el Registro &Uacute;nico Tributario - RUT",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906179-2021",
+      "tipo": "oficio",
+      "numero": "906179",
+      "fecha": "2021-06-28",
+      "tema": "Impuesto sobre la renta y complementarios - Establecimientos Permanentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906584-2020",
+      "tipo": "oficio",
+      "numero": "906584",
+      "fecha": "2020-10-29",
+      "tema": "Revisor Fiscal Concepto de sociedades y entidades nacionales para efectos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901253-2020",
+      "tipo": "oficio",
+      "numero": "901253",
+      "fecha": "2020-04-24",
+      "tema": "En el caso de una entidad sin &aacute;nimo de lucro, no se realizaron los tr&aacute;mites para continuar en el R&eacute;gimen Tributario Especial, al pertenecer al r&eacute;gimen ordinario del impuesto sobre la renta desde el a&ntilde;o 2018 &iquest;tiene la obligaci&oacute;n de tener revisor fiscal por el monto de sus ingresos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5038-2020",
+      "tipo": "oficio",
+      "numero": "5038",
+      "fecha": "2020-03-09",
+      "tema": "Correcci&oacute;n de Errores e Inconsistencias en Declaraciones - Declaraci&oacute;n del Impuesto Sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1264-2020",
+      "tipo": "oficio",
+      "numero": "1264",
+      "fecha": "2020-01-23",
+      "tema": "Formulario para Declarar Impuestos Sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0537-2020",
+      "tipo": "oficio",
+      "numero": "0537",
+      "fecha": "2020-09-29",
+      "tema": "Requisitos especiales en las solicitudes de devoluci&oacute;n y-o compensaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0779-2019",
+      "tipo": "oficio",
+      "numero": "0779",
+      "fecha": "2019-04-05",
+      "tema": "(Int 779) Ajustes por diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24716-2019",
+      "tipo": "oficio",
+      "numero": "24716",
+      "fecha": "2019-09-30",
+      "tema": "Devoluci&oacute;n autom&aacute;tica de saldos a favor",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7330-2019",
+      "tipo": "oficio",
+      "numero": "7330",
+      "fecha": "2019-03-27",
+      "tema": "&iquest;El art&iacute;culo 90 del Estatuto Tributario, modificado por la Ley 1943 de 2018 es aplicable para el a&ntilde;o 2019?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5818-2019",
+      "tipo": "oficio",
+      "numero": "5818",
+      "fecha": "2019-03-06",
+      "tema": "Si una entidad extranjera sin &aacute;nimo de lucro ha decidido contar con revisores fiscales, c&oacute;mo debe procederse con el registro ante C&aacute;mara de Comercio del nombramiento si esta entidad manifiesta la imposibilidad de realizar el mismo, por no tratarse de los actos sujetos a registro seg&uacute;n circular &uacute;nica de la Superintendencia de Industria y Comercio? - Teniendo en cuenta la negativa de la C&aacute;mara de Comercio, &iquest;c&oacute;mo presentar&aacute; la entidad sus declaraciones de renta, teniendo en cuenta la exigencia de la autoridad tributaria de que los revisores fiscales deben estar inscritos en el certificado de existencia y representaci&oacute;n legal de la entidad para que puedan ser incluidos en el RUT y de esta manera presentar sus declaraciones tributarias?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1188-2019",
+      "tipo": "oficio",
+      "numero": "1188",
+      "fecha": "2019-01-16",
+      "tema": "Revisor Fiscal",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33661-2018",
+      "tipo": "oficio",
+      "numero": "33661",
+      "fecha": "2018-11-19",
+      "tema": "Ingreso susceptible de producir un incremento neto en el patrimonio en el momento de su percepci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8229-2018",
+      "tipo": "oficio",
+      "numero": "8229",
+      "fecha": "2018-03-27",
+      "tema": "&iquest;Las sociedades extranjeras con sede efectiva de administraci&oacute;n en Colombia est&aacute;n obligadas a tener revisor&iacute;a fiscal para efectos de la suscripci&oacute;n de declaraciones tributarias o solicitudes de devoluci&oacute;n o compensaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0327-2018",
+      "tipo": "oficio",
+      "numero": "0327",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Puede el ciudadano colombiano informar las cuentas bancarias que tienen en el exterior para que la Dian ordene su embargo y de all&iacute; cancelar los tributos generados en la declaraci&oacute;n de Normalizaci&oacute;n con ocasi&oacute;n a lo establecido en la Ley 1739 de 2014 y dejar de pagar intereses de mora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016180-2016",
+      "tipo": "concepto",
+      "numero": "0016180",
+      "fecha": "2016-06-22",
+      "tema": "Solicita revocar el Oficio 97942 de diciembre 24 de 2010 y Concepto 43950 de julio 16 de 2002 - Firma de Revisor Fiscal en Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23029-2015",
+      "tipo": "oficio",
+      "numero": "23029",
+      "fecha": "2015-08-05",
+      "tema": "&iquest;Debe incluirse en la declaraci&oacute;n del impuesto de renta y complementario el denominado o llamado",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11767-2015",
+      "tipo": "oficio",
+      "numero": "11767",
+      "fecha": "2015-04-24",
+      "tema": "&iquest;A qu&eacute; obligaciones tributarias est&aacute; sometida la sucursal de una sociedad extranjera? - Precios de Transferencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-61360-2014",
+      "tipo": "oficio",
+      "numero": "61360",
+      "fecha": "2014-10-31",
+      "tema": "Concepto de sociedades y entidades nacionales para efectos tributarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53361-2014",
+      "tipo": "oficio",
+      "numero": "53361",
+      "fecha": "2014-09-02",
+      "tema": "Sanciones - Sanciones Tributarias - Deberes Formales del Contribuyente - Evasi&oacute;n fiscal - Imposici&oacute;n de tributos - Competencia",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-52431-2014",
+      "tipo": "oficio",
+      "numero": "52431",
+      "fecha": "2014-08-28",
+      "tema": "&iquest;La DIAN puede desconocer los pagos efectuados a las personas naturales residentes por la prestaci&oacute;n de servicios, en aquellos casos en que no est&eacute; demostrado el pago de los aportes a la seguridad social por parte del contratista sobre una base del 40% del valor mensualizado del contrato?&iquest;El Oficio n&uacute;mero 72394 de noviembre 13 de 2013, est&aacute; vigente en cuanto a que solo en los contratos de duraci&oacute;n superior a tres meses se debe verificar el pago de los aportes al Sistema de Seguridad Social?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-49488-2014",
+      "tipo": "oficio",
+      "numero": "49488",
+      "fecha": "2014-08-15",
+      "tema": "Vigencia Decreto 535 de 1987",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33723-2014",
+      "tipo": "oficio",
+      "numero": "33723",
+      "fecha": "2014-06-05",
+      "tema": "Requisitos establecidos por la DIAN, para acceder a los beneficios tributarios contenidos en el art&iacute;culo 31 de la Ley 361 de 1997",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76735-2012",
+      "tipo": "oficio",
+      "numero": "76735",
+      "fecha": "2012-12-10",
+      "tema": "M&eacute;todo de valoraci&oacute;n de inventarios autorizaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-53020-2012",
+      "tipo": "oficio",
+      "numero": "53020",
+      "fecha": "2012-08-21",
+      "tema": "Certificado de ingresos y retenciones",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13940-2011",
+      "tipo": "oficio",
+      "numero": "13940",
+      "fecha": "2011-02-28",
+      "tema": "- (Tributario) Solicita la reconsideraci&oacute;n del Concepto n&uacute;mero 68351 del 23 de septiembre de 2005 y del Oficio n&uacute;mero 54184 del 29 de junio de 2006",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-57805-2007",
+      "tipo": "oficio",
+      "numero": "57805",
+      "fecha": "2007-07-27",
+      "tema": "&iquest;A la luz de la Resoluci&oacute;n 0057 del 4 de enero de 2007 emanada de la DIAN, si un contribuyente que es contador de profesi&oacute;n, obligado a presentar sus declaraciones virtualmente puede firmarlas tambi&eacute;n como contador o si debe contratar a otro contador para que se las firme?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-101626-2006",
+      "tipo": "oficio",
+      "numero": "101626",
+      "fecha": "2006-12-01",
+      "tema": "&iquest;La p&eacute;rdida arrojada en la ejecuci&oacute;n de un contrato de fiducia de administraci&oacute;n, garant&iacute;a y pago es computable como un gasto deducible para el beneficiario? No es posible hablar de p&eacute;rdida, por cuanto la p&eacute;rdida fiscal se obtiene una vez depurados la totalidad de los ingresos percibidos por el fideicomitente",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-82051-2006",
+      "tipo": "oficio",
+      "numero": "82051",
+      "fecha": "2006-09-22",
+      "tema": "&iquest;Cu&aacute;l es el alcance del art&iacute;culo 2o de la Resoluci&oacute;n 12800 del 28 de diciembre de 2005, teniendo en cuenta que la firma del Contador P&uacute;blico o Revisor Fiscal certifica que los datos consignados en las declaraciones tributarias son reflejo de la contabilidad de la empresa llevada en debida forma y de acuerdo con la Ley?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-73048-2006",
+      "tipo": "oficio",
+      "numero": "73048",
+      "fecha": "2006-08-29",
+      "tema": "&iquest;Qu&eacute; consecuencias tiene haber firmado la declaraci&oacute;n el contador en raz&oacute;n a que el revisor fiscal no estaba inscrito en c&aacute;mara y comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0082229-2005",
+      "tipo": "concepto",
+      "numero": "0082229",
+      "fecha": "2005-11-08",
+      "tema": "&iquest;Es v&aacute;lido entender que los art&iacute;culos 596, numeral 2; 599, num. 2; 602, num. 2; 606 num. 2; as&iacute; como el art&iacute;culo 563 del estatuto tributario fueron t&aacute;citamente derogados por el art&iacute;culo 555-2 ib&iacute;dem (norma posterior) que expresamente defini&oacute; al Rut como mecanismo &uacute;nico de ubicaci&oacute;n de los sujetos obligados ante la direcci&oacute;n de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081534-2005",
+      "tipo": "concepto",
+      "numero": "0081534",
+      "fecha": "2005-11-04",
+      "tema": "&iquest;Se entiende cumplido el deber de presentar la declaraci&oacute;n tributaria, cuando &eacute;sta firmada por el administrador de un Conjunto Residencial, cuyo nombramiento y aceptaci&oacute;n, no se encuentran inscritos en la alcald&iacute;a Municipal o Distrital del lugar de ubicaci&oacute;n del edificio o Conjunto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-80835-2005",
+      "tipo": "oficio",
+      "numero": "80835",
+      "fecha": "2005-01-01",
+      "tema": "&iquest;Las cuentas por pagar y por cobrar originadas por la percepci&oacute;n de ingresos para terceros deben ajustarse por diferencia en cambio?.- (...) si el saldo de estos ajustes es negativo puede este valor deducirse en la determinaci&oacute;n del impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071502-2005",
+      "tipo": "concepto",
+      "numero": "0071502",
+      "fecha": "2005-10-04",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento para subsanar el incumplimiento del deber de presentar la declaraci&oacute;n del impuesto sobre la renta y complementarios en el formulario que se&ntilde;ala la direcci&oacute;n de impuestos y aduanas nacionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0017312-2004",
+      "tipo": "concepto",
+      "numero": "0017312",
+      "fecha": "2004-03-24",
+      "tema": "&iquest;Para la procedencia de la deducci&oacute;n por salarios, el pago de los aportes parafiscales puede realizarse hasta antes de la presentaci&oacute;n de la declaraci&oacute;n de correcci&oacute;n provocada por el requerimiento especial o por la liquidaci&oacute;n de revisi&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028031-2003",
+      "tipo": "concepto",
+      "numero": "0028031",
+      "fecha": "2003-01-01",
+      "tema": "Se encuentran obligadas a presentar la declaraci&oacute;n tributaria firmada por Revisor Fiscal las entidades privadas sin &aacute;nimo de lucro de educaci&oacute;n superios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0075934-2002",
+      "tipo": "concepto",
+      "numero": "0075934",
+      "fecha": "2002-11-23",
+      "tema": "Firma de Revisor Fiscal en Declaraciones Tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-49432-2002",
+      "tipo": "concepto",
+      "numero": "49432",
+      "fecha": "2002-08-08",
+      "tema": "T&eacute;rmino de exigibilidad de las declaraciones tributarias. T&eacute;rmino de exigibilidad de los mayores valores determinados en las declaraciones de correcci&oacute;n presentadas por los contribuyentes",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0035333-2002",
+      "tipo": "concepto",
+      "numero": "0035333",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Las declaraciones tributarias presentadas en formulario no autorizado por la Direcci&oacute;n de Impuestos y Aduanas Nacionales, pero diferente al indicado, se tiene como no presentada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027172-2002",
+      "tipo": "concepto",
+      "numero": "0027172",
+      "fecha": "2002-05-07",
+      "tema": "&iquest;C&oacute;mo opera la obligatoriedad del revisor fiscal en la Junta de Copropietarios, para efecto de las declaraciones tributarias presentadas en el periodo de transici&oacute;n establecido en la Ley 675 de 2001?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026736-2002",
+      "tipo": "concepto",
+      "numero": "0026736",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Qu&eacute; direcci&oacute;n debe informar una empresa ubicada en un corregimiento donde no existe ning&uacute;n tipo de nomenclatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0026192-2002",
+      "tipo": "concepto",
+      "numero": "0026192",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;Es procedente que se except&uacute;en de la obligaci&oacute;n de la firma de los revisores fiscales en las declaraciones tributarias de las sociedades, cuando por problemas econ&oacute;micos estos se niegan a hacerlo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0023225-2002",
+      "tipo": "concepto",
+      "numero": "0023225",
+      "fecha": "2002-01-01",
+      "tema": "&iquest;En qu&eacute; regl&oacute;n del formulario de la declaraci&oacute;n de renta y complementarios, deben las entidades con r&eacute;gimen tributario especial registrar la suma del excedente del ejercicio econ&oacute;mico o beneficio neto y su tratamiento tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0077986-2001",
+      "tipo": "concepto",
+      "numero": "0077986",
+      "fecha": "2001-08-27",
+      "tema": "En los contratos de mandato, quien debe presentar la declaraci&oacute;n del impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0018792-2001",
+      "tipo": "concepto",
+      "numero": "0018792",
+      "fecha": "2001-01-01",
+      "tema": "&iquest;Deben estar firmadas por revisor fiscal las declaraciones tributarias que presentan las asociaciones de pensionados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0074985-2000",
+      "tipo": "concepto",
+      "numero": "0074985",
+      "fecha": "2000-08-09",
+      "tema": "&iquest;Qui&eacute;n es el competente para declarar que una declaraci&oacute;n tributaria se tiene como no presentada?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0039144-2000",
+      "tipo": "concepto",
+      "numero": "0039144",
+      "fecha": "2000-04-25",
+      "tema": "&iquest;Qui&eacute;n debe firmar las declaraciones tributarias de una compa&ntilde;&iacute;a, cuando las Superintendencia Bancaria, toma posesi&oacute;n de sus bienes, haberes y negocios, para proceder a su liquidaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0089256-1998",
+      "tipo": "concepto",
+      "numero": "0089256",
+      "fecha": "1998-03-20",
+      "tema": "&iquest;Las declaraciones de retenci&oacute;n en la fuente presentadas por un conjunto residencial no deben ir firmadas por revisor fiscal, siempre y cuando no ejerza actividades de comercio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0083925-1998",
+      "tipo": "concepto",
+      "numero": "0083925",
+      "fecha": "1998-10-28",
+      "tema": "&iquest;Se encuentran obligadas a tener revisor fiscal las estaciones de servicio de gasolina?&iquest;Deben las Estaciones de Servicio pagar el impuesto sobre las ventas cuando adquieran productos derivados del petr&oacute;leo de un distribuidor?&iquest;Est&aacute;n obligadas las estaciones de gasolina a llevar el sistema de inventariIos permanentes?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069296-1998",
+      "tipo": "concepto",
+      "numero": "0069296",
+      "fecha": "1998-09-03",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen tributario para las empresas editoriales en Colombia, frente a la retenci&oacute;n en la fuente y al impuesto sobre las ventas?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0063056-1998",
+      "tipo": "concepto",
+      "numero": "0063056",
+      "fecha": "1998-08-12",
+      "tema": "&iquest;Una persona natural cuya actividad econ&oacute;mica es el cultivo de cereales y oleaginosas, est&aacute; obligada a llevar libros de contabilidad? &iquest;Si, a pesar de no estar obligado a llevar contabilidad, la declaraci&oacute;n de renta supera los topes de ingresos o patrimonio brutos, debe ser firmada por contador p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0047554-1998",
+      "tipo": "concepto",
+      "numero": "0047554",
+      "fecha": "1998-06-19",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036977-1998",
+      "tipo": "concepto",
+      "numero": "0036977",
+      "fecha": "1998-05-26",
+      "tema": "&iquest;La asociaci&oacute;n de copropietarios de un centro comercial, est&aacute; obligada a presentar declaraci&oacute;n de ingresos y patrimonio? &iquest;Las asociaciones de copropietarios administradoras de edificios organizados en propiedad horizontal, para efectos fiscales est&aacute;n obligadas a tener revisor fiscal que sea contador p&uacute;blico?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0032572-1998",
+      "tipo": "concepto",
+      "numero": "0032572",
+      "fecha": "1998-05-08",
+      "tema": "&iquest;El Representante legal y el revisor fiscal de la sociedad absorbente, pueden firmar las declaraciones tributarias que &eacute;sta &uacute;ltima deba presentar para cumplir obligaciones de la sociedad absorbida? &iquest;Las declaraciones tributarias correspondientes a periodos concluidos despu&eacute;s de la fusi&oacute;n debe contener los datos consolidados de las sociedades fusionadas? &iquest;La informaci&oacute;n tributaria que debe entregarse despu&eacute;s de la fusi&oacute;n, en medios magn&eacute;ticos correspondiente al a&ntilde;o gravable de 1997, debe ser presentada por la sociedad absorbente en forma separada o consolidando los datos de las fusionadas? &iquest;Las declaraciones y la informaci&oacute;n tributaria que la sociedad absorbente deba presentar a nombre de la absorbida, deben presentarse en el domicilio que &eacute;sta ten&iacute;a antes de la fusi&oacute;n o en el de la Sociedad absorbente? &iquest;Cuando se debe solicitar la cancelaci&oacute;n del NIT y del Registro Nacional de vendedores de la Sociedad absorbida?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0028226-1997",
+      "tipo": "concepto",
+      "numero": "0028226",
+      "fecha": "1997-01-01",
+      "tema": "",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0071536-1995",
+      "tipo": "concepto",
+      "numero": "0071536",
+      "fecha": "1995-10-09",
+      "tema": "&iquest;En los negocios de la construcci&oacute;n qu&eacute; sistema se aplica para determinar el costo de los inventarios, si la declaraci&oacute;n tributaria debe estar firmada por Contador P&uacute;blico o Revisor fiscal? &iquest;Los contratos de obra material deben llevar la autenticaci&oacute;n de firmas de quienes intervienen en el acto, o &uacute;nicamente los que no est&eacute;n sujetos al pago del impuesto de timbre, o basta con la suscripci&oacute;n ante testigos? &iquest;Se causa el IVA en los contratos de obras civiles y consultor&iacute;a, celebrados entre particulares y los Departamentos y Municipios? &iquest;C&oacute;mo deben tratarse en la declaraci&oacute;n de ventas las compras de materiales para el desarrollo de los contratos ya que &eacute;stas no dan derecho a impuesto descontable?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0062637-1995",
+      "tipo": "concepto",
+      "numero": "0062637",
+      "fecha": "1995-09-08",
+      "tema": "&iquest;Quien debe firmar las declaraciones tributarias que presenten los consorcios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0053004-1995",
+      "tipo": "concepto",
+      "numero": "0053004",
+      "fecha": "1995-07-31",
+      "tema": "&iquest;una sociedad en comandita por acciones de car&aacute;cter civil puede ser considerada como comerciante? &iquest;Qu&eacute; obligaciones de car&aacute;cter tributario debe cumplir una sociedad que a la mitad del per&iacute;odo fiscal se transform&oacute; de una sociedad de responsabilidad limitada en una sociedad en comandita por acciones de car&aacute;cter civil?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0036002-1993",
+      "tipo": "concepto",
+      "numero": "0036002",
+      "fecha": "1993-12-31",
+      "tema": "&iquest;Al presentarse una declaraci&oacute;n y entenderse como no presentada, puede la Administraci&oacute;n tomar bases distintas a las declaradas por el contribuyente para imponer la sanci&oacute;n por no declarar?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0021434-1990",
+      "tipo": "concepto",
+      "numero": "0021434",
+      "fecha": "1990-01-01",
+      "tema": "Correci&oacute;n de las declaraciones tributarias de que tratan los art&iacute;culos 588 y 589 del Estatuto Tributario y sus implicaciones cuando hay arrastre de saldos",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-506-2002",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "506",
+      "year": 2002,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-992-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "992",
+      "year": 2001
+    },
+    {
+      "id": "cc-c-105-1994",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "105",
+      "year": 1994,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-1.6.1.13.2.5",
+      "decretoNumero": "1778",
+      "articuloNumero": "1.6.1.13.2.5",
+      "vigente": true
+    }
+  ]
+}

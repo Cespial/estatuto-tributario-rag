@@ -1,1 +1,78 @@
-{"id_articulo": "Art. 796", "titulo": "Art. 796. Solidaridad de las entidades publicas por el impuesto sobre las ventas.", "titulo_corto": "Solidaridad de las entidades publicas por el impuesto sobre las ventas.", "slug": "796", "url_origen": "https://estatuto.co/796", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Los representantes legales de las entidades del sector público, responden solidariamente con la entidad por el impuesto sobre las ventas no consignado oportunamente que se cause a partir de diciembre 24 de 1986, y por sus correspondientes sanciones.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los representantes legales de las entidades del sector público, responden solidariamente con la entidad por el impuesto sobre las ventas no consignado oportunamente que se cause a partir de diciembre 24 de 1986, y por sus correspondientes sanciones.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 796",
+  "titulo": "Art. 796. Solidaridad de las entidades publicas por el impuesto sobre las ventas.",
+  "titulo_corto": "Solidaridad de las entidades publicas por el impuesto sobre las ventas.",
+  "slug": "796",
+  "url_origen": "https://estatuto.co/796",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Los representantes legales de las entidades del sector público, responden solidariamente con la entidad por el impuesto sobre las ventas no consignado oportunamente que se cause a partir de diciembre 24 de 1986, y por sus correspondientes sanciones.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Los representantes legales de las entidades del sector público, responden solidariamente con la entidad por el impuesto sobre las ventas no consignado oportunamente que se cause a partir de diciembre 24 de 1986, y por sus correspondientes sanciones.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 19007 (2025-11-24): Otros Temas\noficio 909575 (2021-10-09): Descripci&oacute;n de algunas obligaciones tributarias a cargo de los establecimientos p&uacute;blicos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-19007-2025",
+      "tipo": "oficio",
+      "numero": "19007",
+      "fecha": "2025-11-24",
+      "tema": "Otros Temas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909575-2021",
+      "tipo": "oficio",
+      "numero": "909575",
+      "fecha": "2021-10-09",
+      "tema": "Descripci&oacute;n de algunas obligaciones tributarias a cargo de los establecimientos p&uacute;blicos",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004572-1994",
+      "tipo": "concepto",
+      "numero": "0004572",
+      "fecha": "1994-02-01",
+      "tema": "&iquest;El art&iacute;culo 794 puede interpretarse en el sentido de hacer responsable a los socios, en la prorrata all&iacute; indicada, por el pago de intereses y sanciones? &iquest;Si una compa&ntilde;&iacute;a aseguradora, a quien se le solicita el pago de una p&oacute;liza con ocasi&oacute;n de la declaratoria de improcedencia de una devoluci&oacute;n que con ella se garantizaba, est&aacute; obligada a cancelar o no los intereses moratorios a que alude el art&iacute;culo 670 del Estatuto Tributario, no obstante no haberse estipulado expresamente que ella garantiza el reintegro de la suma devuelta m&aacute;s sus intereses correspondientes, como lo indica el art&iacute;culo 6o literal c) del art&iacute;culo 6o del Decreto Reglamentario 2314 de 1989?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0008108-1991",
+      "tipo": "concepto",
+      "numero": "0008108",
+      "fecha": "1991-01-01",
+      "tema": "Cesi&oacute;n de contratos e impuesto sobre las ventas",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-112-2022",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2022,
+      "decision": "exequible"
+    }
+  ]
+}

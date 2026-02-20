@@ -1,1 +1,78 @@
-{"id_articulo": "Art. 630", "titulo": "Art. 630. Información de los jueces civiles.", "titulo_corto": "Información de los jueces civiles.", "slug": "630", "url_origen": "https://estatuto.co/630", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "vigente", "complexity_score": 0, "contenido_texto": "Es obligación del juez, en todo proceso ejecutivo de mayor cuantía, dar cuenta a la Administración de Impuestos, de los títulos valores que hayan sido presentados, mediante oficio en el cual se relacionará la clase de título, su cuantía, la fecha de su exigibilidad, el nombre del acreedor y del deudor con su identificación. La omisión por parte del juez de lo dispuesto en este artículo, constituye causal de mala conducta.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Es obligación del juez, en todo proceso ejecutivo de mayor cuantía, dar cuenta a la Administración de Impuestos, de los títulos valores que hayan sido presentados, mediante oficio en el cual se relacionará la clase de título, su cuantía, la fecha de su exigibilidad, el nombre del acreedor y del deudor con su identificación.</p>\n<p>La omisión por parte del juez de lo dispuesto en este artículo, constituye causal de mala conducta.</p>\n</span>", "modificaciones_raw": "", "modificaciones_parsed": [], "total_modificaciones": 0, "ultima_modificacion_year": null, "leyes_modificatorias": [], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 630",
+  "titulo": "Art. 630. Información de los jueces civiles.",
+  "titulo_corto": "Información de los jueces civiles.",
+  "slug": "630",
+  "url_origen": "https://estatuto.co/630",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "vigente",
+  "complexity_score": 0,
+  "contenido_texto": "Es obligación del juez, en todo proceso ejecutivo de mayor cuantía, dar cuenta a la Administración de Impuestos, de los títulos valores que hayan sido presentados, mediante oficio en el cual se relacionará la clase de título, su cuantía, la fecha de su exigibilidad, el nombre del acreedor y del deudor con su identificación. La omisión por parte del juez de lo dispuesto en este artículo, constituye causal de mala conducta.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p>Es obligación del juez, en todo proceso ejecutivo de mayor cuantía, dar cuenta a la Administración de Impuestos, de los títulos valores que hayan sido presentados, mediante oficio en el cual se relacionará la clase de título, su cuantía, la fecha de su exigibilidad, el nombre del acreedor y del deudor con su identificación.</p>\n<p>La omisión por parte del juez de lo dispuesto en este artículo, constituye causal de mala conducta.</p>\n</span>",
+  "modificaciones_raw": "",
+  "modificaciones_parsed": [],
+  "total_modificaciones": 0,
+  "ultima_modificacion_year": null,
+  "leyes_modificatorias": [],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 1 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 909577 (2021-10-09): &iquest;Deben los centros de conciliaci&oacute;n privados de c&aacute;maras de comercio y notarias cumplir con el deber de informar a la autoridad tributaria sobre la existencia de los t&iacute;tulos valores contentivos de acreencia quirografaria?",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-909577-2021",
+      "tipo": "oficio",
+      "numero": "909577",
+      "fecha": "2021-10-09",
+      "tema": "&iquest;Deben los centros de conciliaci&oacute;n privados de c&aacute;maras de comercio y notarias cumplir con el deber de informar a la autoridad tributaria sobre la existencia de los t&iacute;tulos valores contentivos de acreencia quirografaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1166-2019",
+      "tipo": "oficio",
+      "numero": "1166",
+      "fecha": "2019-01-16",
+      "tema": "Informaci&oacute;n del Contribuyente para Cruces de Informaci&oacute;n de los Jueces Civiles",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16191-2018",
+      "tipo": "oficio",
+      "numero": "16191",
+      "fecha": "2018-06-21",
+      "tema": "Hecho Generador del Impuesto Sobre las Ventas",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048967-2005",
+      "tipo": "concepto",
+      "numero": "0048967",
+      "fecha": "2005-07-21",
+      "tema": "&iquest;Cu&aacute;l es el alcance de la informaci&oacute;n exigida en el art&iacute;culo 630 del estatuto tributario?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-981-2005",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "981",
+      "year": 2005,
+      "decision": "exequible"
+    }
+  ]
+}

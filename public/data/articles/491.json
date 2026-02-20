@@ -1,1 +1,416 @@
-{"id_articulo": "Art. 491", "titulo": "Art. 491. En la adquisición de activo fijo no hay descuento.", "titulo_corto": "En la adquisición de activo fijo no hay descuento.", "slug": "491", "url_origen": "https://estatuto.co/491", "libro": "Libro III - IVA", "libro_full": "III - Impuesto sobre las Ventas", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*El impuesto sobre las ventas por la adquisición o importación de activos fijos no otorgará descuento, excepto en el caso establecido en el artículo 485-2\". Parágrafo. En ningún caso el beneficio previsto en este artículo podrá ser utilizado en forma concurrente con el que consagra el artículo 258-2 del Estatuto Tributario.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El impuesto sobre las ventas por la adquisición o importación de activos fijos no otorgará descuento, excepto en el caso establecido en el <a href=\"https://estatuto.co/485-2\" rel=\"noopener\" target=\"_blank\">artículo 485-2</a>\".</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo. </span></strong>En ningún caso el beneficio previsto en este artículo podrá ser utilizado en forma concurrente con el que consagra el <a href=\"https://estatuto.co/258-2\" rel=\"noopener\" target=\"_blank\">artículo 258-2</a> del Estatuto Tributario.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Reviviscencia expresa declarada por la Ley 2010 de 2019 Art 160. *Derogado Ley 1943 de 2018 Art 122. *Modificado Ley 1819 de 2016 Art. 191.", "modificaciones_parsed": [{"tipo": "derogado", "norma_tipo": "Ley", "norma_numero": "1943", "norma_year": 2018, "norma_articulo": "122"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "191"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": ""}], "total_modificaciones": 3, "ultima_modificacion_year": 2018, "leyes_modificatorias": ["Ley 1819 de 2016", "Ley 1943 de 2018"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": ["485-2", "258-2"], "referenced_by": [], "total_cross_references": 2, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 491",
+  "titulo": "Art. 491. En la adquisición de activo fijo no hay descuento.",
+  "titulo_corto": "En la adquisición de activo fijo no hay descuento.",
+  "slug": "491",
+  "url_origen": "https://estatuto.co/491",
+  "libro": "Libro III - IVA",
+  "libro_full": "III - Impuesto sobre las Ventas",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*El impuesto sobre las ventas por la adquisición o importación de activos fijos no otorgará descuento, excepto en el caso establecido en el artículo 485-2\". Parágrafo. En ningún caso el beneficio previsto en este artículo podrá ser utilizado en forma concurrente con el que consagra el artículo 258-2 del Estatuto Tributario.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El impuesto sobre las ventas por la adquisición o importación de activos fijos no otorgará descuento, excepto en el caso establecido en el <a href=\"https://estatuto.co/485-2\" rel=\"noopener\" target=\"_blank\">artículo 485-2</a>\".</p>\n<p><strong><span style=\"color: #339966;\">Parágrafo. </span></strong>En ningún caso el beneficio previsto en este artículo podrá ser utilizado en forma concurrente con el que consagra el <a href=\"https://estatuto.co/258-2\" rel=\"noopener\" target=\"_blank\">artículo 258-2</a> del Estatuto Tributario.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Reviviscencia expresa declarada por la Ley 2010 de 2019 Art 160. *Derogado Ley 1943 de 2018 Art 122. *Modificado Ley 1819 de 2016 Art. 191.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "derogado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1943",
+      "norma_year": 2018,
+      "norma_articulo": "122"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "191"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": ""
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2018,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016",
+    "Ley 1943 de 2018"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [
+    "485-2",
+    "258-2"
+  ],
+  "referenced_by": [],
+  "total_cross_references": 2,
+  "concordancias": "Doctrina DIAN: 3 concepto(s) relacionado(s)",
+  "doctrina_dian_scrape": "oficio 8857 (2025-07-08): Impuesto Sobre las Ventas - IVA\noficio 901983 (2022-03-15): (Int 030) Retenci&oacute;n en la Fuente P&eacute;rdida de Fuerza Ejecutoria\noficio 901870 (2022-03-10): Impuesto sobre las ventas - Activos fijos",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-8857-2025",
+      "tipo": "oficio",
+      "numero": "8857",
+      "fecha": "2025-07-08",
+      "tema": "Impuesto Sobre las Ventas - IVA",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901983-2022",
+      "tipo": "oficio",
+      "numero": "901983",
+      "fecha": "2022-03-15",
+      "tema": "(Int 030) Retenci&oacute;n en la Fuente P&eacute;rdida de Fuerza Ejecutoria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901870-2022",
+      "tipo": "oficio",
+      "numero": "901870",
+      "fecha": "2022-03-10",
+      "tema": "Impuesto sobre las ventas - Activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907486-2020",
+      "tipo": "oficio",
+      "numero": "907486",
+      "fecha": "2020-11-26",
+      "tema": "Descuento del Impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903650-2020",
+      "tipo": "oficio",
+      "numero": "903650",
+      "fecha": "2020-07-31",
+      "tema": "&iquest;Podr&iacute;a una compa&ntilde;&iacute;a cuyo objeto social principal y actividad econ&oacute;mica es la explotaci&oacute;n y exploraci&oacute;n de hidrocarburos, dentro del territorio nacional, solicitar el saldo a favor presentado en sus declaraciones de impuesto sobre las ventas, ateniendo lo consagrado en el art&iacute;culo 485-2 del E.T.?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0357-2020",
+      "tipo": "oficio",
+      "numero": "0357",
+      "fecha": "2020-01-01",
+      "tema": "&iquest;A partir de qu&eacute; a&ntilde;o gravable aplica la reviviscencia expresa de que trata el inciso 3 del art&iacute;culo 160 de la Ley 2010 de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1869-2019",
+      "tipo": "oficio",
+      "numero": "1869",
+      "fecha": "2019-07-29",
+      "tema": "(Int 1869) Descuento del impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26853-2019",
+      "tipo": "oficio",
+      "numero": "26853",
+      "fecha": "2019-10-25",
+      "tema": "&iquest;Los facturadores electr&oacute;nicos no estar&iacute;an en la obligaci&oacute;n de hacer el registro de las facturas electr&oacute;nicas REFEL que trata en la resoluci&oacute;n 2215 de 2017?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-26388-2019",
+      "tipo": "oficio",
+      "numero": "26388",
+      "fecha": "2019-10-17",
+      "tema": "&iquest;Se puede adoptar la definici&oacute;n de los activos fijos reales productivos, contenida en el concepto 1-2019-016916 del 31 de mayo de 2019 del CTCP?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25130-2019",
+      "tipo": "oficio",
+      "numero": "25130",
+      "fecha": "2019-10-04",
+      "tema": "Descuento del impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-18954-2019",
+      "tipo": "oficio",
+      "numero": "18954",
+      "fecha": "2019-07-23",
+      "tema": "Aplicaci&oacute;n de los activos fijos y el manejo del IVA como descontable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17972-2019",
+      "tipo": "oficio",
+      "numero": "17972",
+      "fecha": "2019-07-10",
+      "tema": "&iquest;Se encuentra vigente la renta exenta en favor de los jueces, procuradores, magistrados de tribunales, magistrados auxiliares de las altas cortes y magistrados de los consejos seccionales de la judicatura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-17131-2019",
+      "tipo": "oficio",
+      "numero": "17131",
+      "fecha": "2019-07-03",
+      "tema": "Con posterioridad a la vigencia de la Ley de financiamiento, &iquest;Cu&aacute;l es el manejo que se debe dar al impuesto sobre las ventas en los activos bil&oacute;gicos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16327-2019",
+      "tipo": "oficio",
+      "numero": "16327",
+      "fecha": "2019-06-21",
+      "tema": "Ejecuci&oacute;n de excedentes a cargo de las entidades del r&eacute;gimen tributario especial",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-16292-2019",
+      "tipo": "oficio",
+      "numero": "16292",
+      "fecha": "2019-06-21",
+      "tema": "&iquest;Cu&aacute;l es la posici&oacute;n actual de la DIAN (conforme a la norma) respecto del IVA descontable en la adquisici&oacute;n de activos fijos reales productivos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0011458-2019",
+      "tipo": "concepto",
+      "numero": "0011458",
+      "fecha": "2019-05-14",
+      "tema": "Reconsideraci&oacute;n Oficio 100208221-853 del 5 de abril de 2019",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10049-2019",
+      "tipo": "oficio",
+      "numero": "10049",
+      "fecha": "2019-04-29",
+      "tema": "Descuento del Impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8180-2019",
+      "tipo": "oficio",
+      "numero": "8180",
+      "fecha": "2019-04-05",
+      "tema": "&iquest;Es descontable en el impuesto sobre las ventas el IVA pagado en la adquisici&oacute;n, formaci&oacute;n, construcci&oacute;n o adquisici&oacute;n de activos fijos reales productivos que no hayan sido tratados como descuento en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6236-2019",
+      "tipo": "oficio",
+      "numero": "6236",
+      "fecha": "2019-03-13",
+      "tema": "Descuento del Impuesto a las Ventas por Adquisici&oacute;n de Activos Fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5831-2019",
+      "tipo": "oficio",
+      "numero": "5831",
+      "fecha": "2019-03-06",
+      "tema": "&iquest;Con la derogatoria del art&iacute;culo 491 del Estatuto Tributario por el art&iacute;culo 122 de la Ley 1943 de 2018, &iquest;podr&iacute;a entenderse que el IVA pagado en la adquisici&oacute;n o importaci&oacute;n de activos fijos ser&aacute; descontable en la declaraci&oacute;n respectiva a partir del 1o de enero de 2019 y no que dicha posibilidad solo es posible para los activos del art&iacute;culo 485-2 del mismo estatuto?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-4429-2019",
+      "tipo": "oficio",
+      "numero": "4429",
+      "fecha": "2019-02-22",
+      "tema": "&iquest;El valor del IVA pagado en la compra o importaci&oacute;n de activos fijos se debe tratar como descontable o mayor valor del bien?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2784-2019",
+      "tipo": "oficio",
+      "numero": "2784",
+      "fecha": "2019-02-05",
+      "tema": "Tratamiento tributario aplicable a los arrendamientos financieros o leasing",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0259-2018",
+      "tipo": "oficio",
+      "numero": "0259",
+      "fecha": "2018-03-06",
+      "tema": "El descuento del IVA en la base gravable de renta de que trata el art&iacute;culo 115-2 del E.T. solamente es aplicable en caso de que la importaci&oacute;n o adquisici&oacute;n se haga por medio de leasing con opci&oacute;n de compra, o es extensible a&uacute;n as&iacute; no se haga por leasing tal como lo expresa el par&aacute;grafo 2o del Art. 115-2 del E.T. (Art&iacute;culo 67ley 1819 de 2016) Este beneficio tambi&eacute;n es extensible a los repuestos de esos bienes de capital? &iquest;Si solicito la deducci&oacute;n del IVA en Renta en aplicaci&oacute;n de Art. 115-2 E.T. entonces el saldo de IVA no recuperado por este medio ya no puedo recuperarlo v&iacute;a depreciaci&oacute;n y autom&aacute;ticamente se vuelve costo? Ser&iacute;a una manera de beneficio concurrente? O puedo elegir descontarlos todo v&iacute;a depreciaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-21931-2017",
+      "tipo": "oficio",
+      "numero": "21931",
+      "fecha": "2017-08-16",
+      "tema": "&iquest;De conformidad con lo establecido en el art&iacute;culo 115-2 del Estatuto Tributario, adicionado por la ley 1819 de 2016, el contribuyente que adquiera o importe bienes de capital puede tomar el IVA pagado, como deducible en el impuesto sobre la renta del a&ntilde;o de su adquisici&oacute;n, o puede continuar con el tratamiento anterior de llevar el Iva pagado como un mayor valor del costo del activo adquirido? &iquest;Para la deducci&oacute;n del impuesto sobre las ventas pagado en la adquisici&oacute;n de bienes de capital, el IVA pagado debe ser llevado en un 100% al estado de resultados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1989-2016",
+      "tipo": "oficio",
+      "numero": "1989",
+      "fecha": "2016-02-10",
+      "tema": "Impuesto a las ventas - Retenci&oacute;n por Operaciones con Responsables del R&eacute;gimen Simplificado &iquest;C&oacute;mo ser&iacute;a la forma o el m&eacute;todo para llegar a reclamar alg&uacute;n saldo a favor en el caso que lo hubiere, ante la DIAN?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-28629-2015",
+      "tipo": "oficio",
+      "numero": "28629",
+      "fecha": "2015-10-02",
+      "tema": "(Int 1264) Impuesto a las ventas - Impuestos descontables - Impuesto sobre las ventas no descontable - Activos fijos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-7213-2013",
+      "tipo": "oficio",
+      "numero": "7213",
+      "fecha": "2013-02-08",
+      "tema": "&iquest;Los licores que se exporten o vendan en el pa&iacute;s a las sociedades de comercializaci&oacute;n internacional conservan la calidad de exentos con derecho a devoluci&oacute;n de los impuestos a las ventas pagados en las adquisiciones de bienes y servicios gravados incorporados o vinculados directamente a los licores exportados?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-76868-2009",
+      "tipo": "oficio",
+      "numero": "76868",
+      "fecha": "2009-09-21",
+      "tema": "Solicita se aclare y complemente la interpretaci&oacute;n al art&iacute;culo 6 del Decreto 1766 de 2004, contenida en el Concepto 68194 del 16 de julio de 2008",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-74475-2008",
+      "tipo": "oficio",
+      "numero": "74475",
+      "fecha": "2008-01-01",
+      "tema": "&iquest;Pueden las f&aacute;bricas de licores oficiales descontar el IVA pagado en la importaci&oacute;n de alcohol et&iacute;lico potable sin desnaturalizar, que venden a los productores nacionales, para no trasladarlo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0081471-2006",
+      "tipo": "concepto",
+      "numero": "0081471",
+      "fecha": "2006-09-21",
+      "tema": "&iquest;Es descontable el IVA pagado en la importaci&oacute;n ordinaria de repuestos, inicialmente introducidos al pa&iacute;s bajo la modalidad de Plan Vallejo e incorporados a maquinaria industrial, en los t&eacute;rminos de lo dispuesto en el art&iacute;culo 485-2 del Estatuto Tributario?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55271-2006",
+      "tipo": "oficio",
+      "numero": "55271",
+      "fecha": "2006-07-05",
+      "tema": "Preguntas relacionadas con la retenci&oacute;n del impuesto sobre las ventas, en operaciones con responsables del r&eacute;gimen simplificado, cuando el agente retenedor es una empresa estatal de servicios p&uacute;blicos, que es responsable del impuesto sobre las ventas en raz&oacute;n de los ingresos gravados adicionales que percibe",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-55240-2006",
+      "tipo": "oficio",
+      "numero": "55240",
+      "fecha": "2006-07-04",
+      "tema": "&iquest;En la adquisici&oacute;n de bienes y servicios a responsables del r&eacute;gimen simplificado se debe asumir la retenci&oacute;n del IVA conforme con las normas legales pertinentes, &iquest;Cu&aacute;ndo no se cumple con los requisitos para que &eacute;sta sea descontable, procede su deducci&oacute;n en el impuesto sobre a renta o se asimila a un impuesto asumido y por consiguiente no se puede deducir?&iquest;El impuesto sobre las ventas facturado por los responsables del r&eacute;gimen com&uacute;n que no cumplan los presupuestos para ser descontables en la declaraci&oacute;n bimestral y que constituye un mayor valor del costo o gasto respectivo, es deducible en el impuesto sobre la renta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-35437-2006",
+      "tipo": "oficio",
+      "numero": "35437",
+      "fecha": "2006-05-04",
+      "tema": "&iquest;En desarrollo de un contrato de construcci&oacute;n en donde se genera un IVA sobre la utilidad, es viable descontar el 100% del IVA facturado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33784-2006",
+      "tipo": "oficio",
+      "numero": "33784",
+      "fecha": "2006-04-25",
+      "tema": "&iquest;Es descontable el IVA pagado en la compra de una licencia de software?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-92713-2005",
+      "tipo": "oficio",
+      "numero": "92713",
+      "fecha": "2005-12-14",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que se debe atender en materia del impuesto sobre las ventas, por las operaciones en Bolsa, en especial cuando en ellas intervienen responsables del R&eacute;gimen Simplificado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048966-2005",
+      "tipo": "concepto",
+      "numero": "0048966",
+      "fecha": "2005-07-21",
+      "tema": "&iquest;Procede el descuento especialdel IVA consagrado en el art&iacute;culo 485-2 del Estatuto Tributario, por lanacionalizaci&oacute;n, durante los a&ntilde;os 2003, 2004 &oacute; 2005, de maquinaria industrialque originalmente fue introducida al pa&iacute;s antes de la vigencia de la norma, enaplicaci&oacute;n de los sistemas especiales de importaci&oacute;n-exportaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-85534-2004",
+      "tipo": "oficio",
+      "numero": "85534",
+      "fecha": "2004-12-03",
+      "tema": "&iquest;Los responsables del r&eacute;gimen com&uacute;n pueden solicitar como descontable el 50% del IVA pagado en la adquisici&oacute;n o importaci&oacute;n de activos fijos, de que trata el art&iacute;culo 485-2 del Estatuto Tributario, en el mismo bimestre de su adquisici&oacute;n y-o en los cinco bimestres siguientes que abarcan el primer a&ntilde;o contado a partir de su adquisici&oacute;n o importaci&oacute;n?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0073630-2000",
+      "tipo": "concepto",
+      "numero": "0073630",
+      "fecha": "2000-08-03",
+      "tema": "&iquest;En relaci&oacute;n con maquinaria pesada, qu&eacute; normatividad est&aacute; vigente para solicitar exenci&oacute;n del IVA bajo la modalidad de importaci&oacute;n ordinaria?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0066555-1999",
+      "tipo": "concepto",
+      "numero": "0066555",
+      "fecha": "1999-07-22",
+      "tema": "&iquest;Es posible tomar como descontable el impuesto sobre las ventas pagado en la importaci&oacute;n de repuestos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0069996-1998",
+      "tipo": "concepto",
+      "numero": "0069996",
+      "fecha": "1998-09-07",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del Impuesto sobre las ventas liquidado sobre operaciones gravadas realizadas con responsables del r&eacute;gimen simplificado, teniendo en cuenta que el art&iacute;culo 5&ordm; del decreto 380 de 1996, fue anulado por el Consejo de Estado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0048609-1998",
+      "tipo": "concepto",
+      "numero": "0048609",
+      "fecha": "1998-06-24",
+      "tema": "&iquest;Una compa&ntilde;&iacute;a que se encuentra en per&iacute;odo improductivo y carga sus costos y gastos a activos diferidos amortizables:&iquest;Puede descontar el IVA de tales rubros en el bimestre correspondiente, o comenzar a descontar cuando se comiencen a generar ingresos y la amortizaci&oacute;n de tales costos y gastos?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001245-1992",
+      "tipo": "concepto",
+      "numero": "0001245",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;Cu&aacute;l es el tratamiento del impuesto sobre las ventas descontable en el proceso de adecuaci&oacute;n e implantaci&oacute;n de una finca bananera?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0030643-1990",
+      "tipo": "concepto",
+      "numero": "0030643",
+      "fecha": "1990-12-06",
+      "tema": "Una sociedad comercial, todos los bienes que compra en el pa&iacute;s o los importa, los registra como inventarios, descontando el IVA en el momento de la adquisici&oacute;n, y posteriormente cuando retira de sus bodegas para ser utilizados como gasto o como activos fijos revierte el IVA. Del mismo modo dice que hay bienes que compra como activos fijos y no se descuenta el IVA, pero posteriormente son utilizados como gastos. &iquest;Puede descontar el IVA en fecha posterior dentro de los dos bimestres posteriores a la factura?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0003302-1990",
+      "tipo": "concepto",
+      "numero": "0003302",
+      "fecha": "1990-01-01",
+      "tema": "Se entiende por activos fijos los bienes corporales muebles o inmuebles y los incorporados que no se enajenen dentro del giro ordinario de los negocios",
+      "vigente": true
+    }
+  ]
+}

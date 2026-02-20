@@ -1,1 +1,486 @@
-{"id_articulo": "Art. 607", "titulo": "Art. 607. Contenido de la declaración anual de activos en el exterior.", "titulo_corto": "Contenido de la declaración anual de activos en el exterior.", "slug": "607", "url_origen": "https://estatuto.co/607", "libro": "Libro V - Procedimiento", "libro_full": "V - Procedimiento Tributario", "estado": "modificado", "complexity_score": 3, "contenido_texto": "*Los contribuyentes del impuesto sobre la renta y complementarios sujetos a este impuesto respecto de sus ingresos de fuente nacional y extranjera, y de su patrimonio poseído dentro y fuera del país, que posean activos en el exterior de cualquier naturaleza, estarán obligados a presentar la declaración anual de activos en el exterior. También estarán obligados los contribuyentes de regímenes sustitutivos del impuesto sobre la renta. El contenido de esta declaración será el siguiente: 1. El formulario que para el efecto ordene la UAE Dirección de Impuestos y Aduanas Nacionales (DIAN) debidamente diligenciado. 2. La información necesaria para la identificación del contribuyente. 3. La discriminación, el valor patrimonial la jurisdicción donde estén localizados, la naturaleza y él tipo de todos los activos poseídos a primero (1º) de enero de cada año cuyo valor patrimonial sea superior a tres mil quinientos ochenta (3.580) UVT. 4. Los activos poseídos a primero (1º) de enero de cada año que no cumplan con el límite señalado en el numeral anterior, deberán declararse de manera agregada de acuerdo con la jurisdicción donde estén localizados, por su valor patrimonial. 5. La firma de quien cumpla el deber formal de declarar. **Parágrafo. La obligación de presentar declaración de activos en el exterior solamente será aplicable cuando el valor patrimonial de los activos del exterior poseídos a 1 de enero de cada año sea superior a dos mil (2.000) UVT.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong><span style=\"font-weight: 400;\">Los contribuyentes del impuesto sobre la renta y complementarios sujetos a este impuesto respecto de sus ingresos de fuente nacional y extranjera, y de su patrimonio poseído dentro y fuera del país, que posean activos en el exterior de cualquier naturaleza, estarán obligados a presentar la declaración anual de activos en el exterior. También estarán obligados los contribuyentes de regímenes sustitutivos del impuesto sobre la renta. </span></p>\n<p><span style=\"font-weight: 400;\">El contenido de esta declaración será el siguiente:</span></p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>El formulario que para el efecto ordene la UAE Dirección de Impuestos y Aduanas Nacionales (DIAN) debidamente diligenciado.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La información necesaria para la identificación del contribuyente.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>La discriminación, el valor patrimonial la jurisdicción donde estén localizados, la naturaleza y él tipo de todos los activos poseídos a primero (1º) de enero de cada año cuyo valor patrimonial sea superior a tres mil quinientos ochenta (3.580) UVT.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Los activos poseídos a primero (1º) de enero de cada año que no cumplan con el límite señalado en el numeral anterior, deberán declararse de manera agregada de acuerdo con la jurisdicción donde estén localizados, por su valor patrimonial.</p>\n<p><strong><span style=\"color: #339966;\">5.</span> </strong>La firma de quien cumpla el deber formal de declarar.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>La obligación de presentar declaración de activos en el exterior solamente será aplicable cuando el valor patrimonial de los activos del exterior poseídos a 1 de enero de cada año sea superior a dos mil (2.000) UVT.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Adicionado Ley 1739 de 2014 Art 43. *Modificado Ley 2277 de 2022 Art 63. **Adicionado Ley 2010 de 2019 Art. 109.", "modificaciones_parsed": [{"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "1739", "norma_year": 2014, "norma_articulo": "43"}, {"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "2277", "norma_year": 2022, "norma_articulo": "63"}, {"tipo": "adicionado", "norma_tipo": "Ley", "norma_numero": "2010", "norma_year": 2019, "norma_articulo": "109"}], "total_modificaciones": 3, "ultima_modificacion_year": 2022, "leyes_modificatorias": ["Ley 1739 de 2014", "Ley 2010 de 2019", "Ley 2277 de 2022"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 607",
+  "titulo": "Art. 607. Contenido de la declaración anual de activos en el exterior.",
+  "titulo_corto": "Contenido de la declaración anual de activos en el exterior.",
+  "slug": "607",
+  "url_origen": "https://estatuto.co/607",
+  "libro": "Libro V - Procedimiento",
+  "libro_full": "V - Procedimiento Tributario",
+  "estado": "modificado",
+  "complexity_score": 3,
+  "contenido_texto": "*Los contribuyentes del impuesto sobre la renta y complementarios sujetos a este impuesto respecto de sus ingresos de fuente nacional y extranjera, y de su patrimonio poseído dentro y fuera del país, que posean activos en el exterior de cualquier naturaleza, estarán obligados a presentar la declaración anual de activos en el exterior. También estarán obligados los contribuyentes de regímenes sustitutivos del impuesto sobre la renta. El contenido de esta declaración será el siguiente: 1. El formulario que para el efecto ordene la UAE Dirección de Impuestos y Aduanas Nacionales (DIAN) debidamente diligenciado. 2. La información necesaria para la identificación del contribuyente. 3. La discriminación, el valor patrimonial la jurisdicción donde estén localizados, la naturaleza y él tipo de todos los activos poseídos a primero (1º) de enero de cada año cuyo valor patrimonial sea superior a tres mil quinientos ochenta (3.580) UVT. 4. Los activos poseídos a primero (1º) de enero de cada año que no cumplan con el límite señalado en el numeral anterior, deberán declararse de manera agregada de acuerdo con la jurisdicción donde estén localizados, por su valor patrimonial. 5. La firma de quien cumpla el deber formal de declarar. **Parágrafo. La obligación de presentar declaración de activos en el exterior solamente será aplicable cuando el valor patrimonial de los activos del exterior poseídos a 1 de enero de cada año sea superior a dos mil (2.000) UVT.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><strong><span class=\"verde\">*</span></strong><span style=\"font-weight: 400;\">Los contribuyentes del impuesto sobre la renta y complementarios sujetos a este impuesto respecto de sus ingresos de fuente nacional y extranjera, y de su patrimonio poseído dentro y fuera del país, que posean activos en el exterior de cualquier naturaleza, estarán obligados a presentar la declaración anual de activos en el exterior. También estarán obligados los contribuyentes de regímenes sustitutivos del impuesto sobre la renta. </span></p>\n<p><span style=\"font-weight: 400;\">El contenido de esta declaración será el siguiente:</span></p>\n<p><strong><span style=\"color: #339966;\">1.</span> </strong>El formulario que para el efecto ordene la UAE Dirección de Impuestos y Aduanas Nacionales (DIAN) debidamente diligenciado.</p>\n<p><strong><span style=\"color: #339966;\">2.</span> </strong>La información necesaria para la identificación del contribuyente.</p>\n<p><strong><span style=\"color: #339966;\">3.</span> </strong>La discriminación, el valor patrimonial la jurisdicción donde estén localizados, la naturaleza y él tipo de todos los activos poseídos a primero (1º) de enero de cada año cuyo valor patrimonial sea superior a tres mil quinientos ochenta (3.580) UVT.</p>\n<p><strong><span style=\"color: #339966;\">4.</span> </strong>Los activos poseídos a primero (1º) de enero de cada año que no cumplan con el límite señalado en el numeral anterior, deberán declararse de manera agregada de acuerdo con la jurisdicción donde estén localizados, por su valor patrimonial.</p>\n<p><strong><span style=\"color: #339966;\">5.</span> </strong>La firma de quien cumpla el deber formal de declarar.</p>\n<p><strong><span class=\"verde\"><span style=\"color: #339966;\">**Parágrafo.</span> </span></strong>La obligación de presentar declaración de activos en el exterior solamente será aplicable cuando el valor patrimonial de los activos del exterior poseídos a 1 de enero de cada año sea superior a dos mil (2.000) UVT.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Adicionado Ley 1739 de 2014 Art 43. *Modificado Ley 2277 de 2022 Art 63. **Adicionado Ley 2010 de 2019 Art. 109.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1739",
+      "norma_year": 2014,
+      "norma_articulo": "43"
+    },
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2277",
+      "norma_year": 2022,
+      "norma_articulo": "63"
+    },
+    {
+      "tipo": "adicionado",
+      "norma_tipo": "Ley",
+      "norma_numero": "2010",
+      "norma_year": 2019,
+      "norma_articulo": "109"
+    }
+  ],
+  "total_modificaciones": 3,
+  "ultima_modificacion_year": 2022,
+  "leyes_modificatorias": [
+    "Ley 1739 de 2014",
+    "Ley 2010 de 2019",
+    "Ley 2277 de 2022"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 20 concepto(s) relacionado(s). Jurisprudencia: 1 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 4077 (2024-06-24): Procedimiento Tributario\noficio 3054 (2023-03-14): (Int 325) Sujetos Pasivos - Interpretaci&oacute;n y aplicaci&oacute;n del Impuesto Unificado bajo el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE\noficio 0977 (2023-01-30): Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022\noficio 11383 (2024-06-11): (Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)\noficio 3028 (2024-02-14): (Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-4077-2024",
+      "tipo": "oficio",
+      "numero": "4077",
+      "fecha": "2024-06-24",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3054-2023",
+      "tipo": "oficio",
+      "numero": "3054",
+      "fecha": "2023-03-14",
+      "tema": "(Int 325) Sujetos Pasivos - Interpretaci&oacute;n y aplicaci&oacute;n del Impuesto Unificado bajo el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0977-2023",
+      "tipo": "oficio",
+      "numero": "0977",
+      "fecha": "2023-01-30",
+      "tema": "Concepto General sobre el R&eacute;gimen Simple de Tributaci&oacute;n - SIMPLE con motivo de la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11383-2024",
+      "tipo": "oficio",
+      "numero": "11383",
+      "fecha": "2024-06-11",
+      "tema": "(Int 433) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (4o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-3028-2024",
+      "tipo": "oficio",
+      "numero": "3028",
+      "fecha": "2024-02-14",
+      "tema": "(Int 087) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022 (3o versi&oacute;n)",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-19560-2023",
+      "tipo": "oficio",
+      "numero": "19560",
+      "fecha": "2023-11-01",
+      "tema": "(Int 1126) Compilaci&oacute;n de la doctrina oficial sobre la Ley 2277 de 2022,",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-11080-2023",
+      "tipo": "oficio",
+      "numero": "11080",
+      "fecha": "2023-08-04",
+      "tema": "(Int 849) Compilaci&oacute;n de la Doctrina oficial sobre la Ley 2277 de 2022",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0033-2025",
+      "tipo": "oficio",
+      "numero": "0033",
+      "fecha": "2025-01-07",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6467-2024",
+      "tipo": "oficio",
+      "numero": "6467",
+      "fecha": "2024-09-10",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-5343-2024",
+      "tipo": "oficio",
+      "numero": "5343",
+      "fecha": "2024-07-31",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902143-2022",
+      "tipo": "oficio",
+      "numero": "902143",
+      "fecha": "2022-03-17",
+      "tema": "Devoluciones de saldos a favor - Declaraciones informativas de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901358-2022",
+      "tipo": "oficio",
+      "numero": "901358",
+      "fecha": "2022-02-22",
+      "tema": "Inversi&oacute;n en sociedad extranjera sin operaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-900210-2022",
+      "tipo": "oficio",
+      "numero": "900210",
+      "fecha": "2022-01-13",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior. Obligaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-913688-2021",
+      "tipo": "oficio",
+      "numero": "913688",
+      "fecha": "2021-11-08",
+      "tema": "Inversi&oacute;n colombiana en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-912395-2021",
+      "tipo": "oficio",
+      "numero": "912395",
+      "fecha": "2021-10-06",
+      "tema": "R&eacute;gimen de Entidades Controladas del Exterior (ECE) Declaraci&oacute;n Anual de Activos en el Exterior - Impuesto sobre la Renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909482-2021",
+      "tipo": "oficio",
+      "numero": "909482",
+      "fecha": "2021-09-09",
+      "tema": "- (Tributario) Impuesto sobre la renta - Tratamiento de compra y venta de divisas, valores y otros activos como criptomonedas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-909039-2021",
+      "tipo": "oficio",
+      "numero": "909039",
+      "fecha": "2021-09-01",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - Diferencia en cambio",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-908676-2021",
+      "tipo": "oficio",
+      "numero": "908676",
+      "fecha": "2021-08-26",
+      "tema": "Impuesto sobre la renta - Declaraci&oacute;n de activos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-907960-2021",
+      "tipo": "oficio",
+      "numero": "907960",
+      "fecha": "2021-08-10",
+      "tema": "Declaraci&oacute;n de activos en el exterior - Procedimiento tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906389-2021",
+      "tipo": "oficio",
+      "numero": "906389",
+      "fecha": "2021-06-30",
+      "tema": "- (Tributario) Tratamiento de compra y venta de divisas, valores y otros activos como criptomonedas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906852-2020",
+      "tipo": "oficio",
+      "numero": "906852",
+      "fecha": "2020-11-11",
+      "tema": "Impuesto complementario de normalizaci&oacute;n tributaria. Hecho generador. Base gravable",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-906392-2020",
+      "tipo": "oficio",
+      "numero": "906392",
+      "fecha": "2020-10-23",
+      "tema": "Reporte de una cuenta bancaria en el extranjero cuando &eacute;sta fue abierta por dos personas",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903301-2020",
+      "tipo": "oficio",
+      "numero": "903301",
+      "fecha": "2020-07-21",
+      "tema": "Diligenciamiento de la declaraci&oacute;n de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901475-2020",
+      "tipo": "oficio",
+      "numero": "901475",
+      "fecha": "2020-05-11",
+      "tema": "Declaraci&oacute;n de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0000514-2020",
+      "tipo": "concepto",
+      "numero": "0000514",
+      "fecha": "2020-05-04",
+      "tema": "(Int 514) Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-30290-2019",
+      "tipo": "oficio",
+      "numero": "30290",
+      "fecha": "2019-12-03",
+      "tema": "Pagos dentro y fuera del territorio nacional",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-24033-2019",
+      "tipo": "oficio",
+      "numero": "24033",
+      "fecha": "2019-09-23",
+      "tema": "Nuevo Impuesto Complementario de Normalizaci&oacute;n tributaria",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-22458-2019",
+      "tipo": "oficio",
+      "numero": "22458",
+      "fecha": "2019-09-05",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-14755-2019",
+      "tipo": "oficio",
+      "numero": "14755",
+      "fecha": "2019-06-07",
+      "tema": "Vigencia y aplicabilidad del art&iacute;culo 1 del Decreto 187 de 1975",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0002299-2019",
+      "tipo": "concepto",
+      "numero": "0002299",
+      "fecha": "2019-09-20",
+      "tema": "Aclaraci&oacute;n de oficio del tratamiento tributario aplicable a la presentaci&oacute;n de la declaraci&oacute;n del Impuesto complementario de Normalizaci&oacute;n Tributaria y la declaraci&oacute;n anual de Activos en el Exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-902731-2018",
+      "tipo": "oficio",
+      "numero": "902731",
+      "fecha": "2018-12-05",
+      "tema": "Valor patrimonial que se debe consignar en la declaraci&oacute;n de activos en el exterior de las inversiones financieras en t&iacute;tulos emitidos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901553-2018",
+      "tipo": "oficio",
+      "numero": "901553",
+      "fecha": "2018-11-29",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior-contenido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-27992-2018",
+      "tipo": "oficio",
+      "numero": "27992",
+      "fecha": "2018-09-27",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-1373-2018",
+      "tipo": "oficio",
+      "numero": "1373",
+      "fecha": "2018-08-10",
+      "tema": "Declaraci&oacute;n Anual de Activos en el Exterior - Obligados",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0327-2018",
+      "tipo": "oficio",
+      "numero": "0327",
+      "fecha": "2018-01-05",
+      "tema": "&iquest;Puede el ciudadano colombiano informar las cuentas bancarias que tienen en el exterior para que la Dian ordene su embargo y de all&iacute; cancelar los tributos generados en la declaraci&oacute;n de Normalizaci&oacute;n con ocasi&oacute;n a lo establecido en la Ley 1739 de 2014 y dejar de pagar intereses de mora?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33254-2017",
+      "tipo": "oficio",
+      "numero": "33254",
+      "fecha": "2017-12-12",
+      "tema": "&iquest;Una persona natural contribuyente que normalizo activos en el exterior v&iacute;a impuesto a la riqueza formulario 440 en Mayo de 2017 cuando debe reportar o declarar en el formato 160 declaraci&oacute;n anual de activos en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-29746-2017",
+      "tipo": "oficio",
+      "numero": "29746",
+      "fecha": "2017-11-02",
+      "tema": "Impuesto sobre la renta y complementario. Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-20876-2017",
+      "tipo": "oficio",
+      "numero": "20876",
+      "fecha": "2017-08-04",
+      "tema": "Sanci&oacute;n por extemporaneidad en la presentaci&oacute;n de las declaraciones tributarias",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-10197-2017",
+      "tipo": "oficio",
+      "numero": "10197",
+      "fecha": "2017-04-27",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0197-2017",
+      "tipo": "oficio",
+      "numero": "0197",
+      "fecha": "2017-05-02",
+      "tema": "Declaraci&oacute;n anual de activos en el exterior - contenido",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-34404-2015",
+      "tipo": "oficio",
+      "numero": "34404",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Qui&eacute;nes posean acciones de Pacific Rubiales o de Canacol Energy o de cualquier sociedad extranjera, las cuales se adquieren en la bolsa de valores de Colombia, debe presentar la declaraci&oacute;n de activos pose&iacute;dos en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32963-2015",
+      "tipo": "oficio",
+      "numero": "32963",
+      "fecha": "2015-11-12",
+      "tema": "Una sociedad domiciliada en Colombia que posee una sucursal en el exterior, &iquest;debe reportar en el Formulario 160 solamente el monto de la",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-32709-2015",
+      "tipo": "oficio",
+      "numero": "32709",
+      "fecha": "2015-12-01",
+      "tema": "&iquest;Es obligatorio para los establecimientos permanentes presentar la declaraci&oacute;n anual de activos en el exterior?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0027751-2015",
+      "tipo": "concepto",
+      "numero": "0027751",
+      "fecha": "2015-10-07",
+      "tema": "&iquest;Est&aacute;n obligados a presentar la Declaraci&oacute;n Anual de Activos en el Exterior los residentes en Colombia para efectos fiscales del periodo gravable 2014 y\\o 2015? - &iquest;C&oacute;mo debe determinarse el valor patrimonial de los bienes inmuebles que se posean en el exterior? - &iquest;Debe registrarse la obligaci&oacute;n de Declaraci&oacute;n Anual de Activos en el Exterior en el Registro &Uacute;nico Tributario (RUT), antes de la presentaci&oacute;n de dicha declaraci&oacute;n? - &iquest;Qu&eacute; c&oacute;digo &uacute;nico correspondiente a la identificaci&oacute;n del bien debe registrarse en la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;C&oacute;mo deben declararse los derechos fiduciarios que se posean en patrimonios aut&oacute;nomos cuyos subyacentes son activos en el exterior? - &iquest;Las inversiones temporales, las cuentas bancarias, los anticipos y los dep&oacute;sitos en el exterior deben declararse? - &iquest;Los desembolsos de cr&eacute;dito y cuentas por cobrar son objeto de la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;Se deben declarar las mercanc&iacute;as - inventarios- en tr&aacute;nsito de las cuales se tiene factura, no obstante no ha operado la entrega material? - &iquest;A qu&eacute; se refiere la casilla 38",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-25581-2015",
+      "tipo": "oficio",
+      "numero": "25581",
+      "fecha": "2015-09-02",
+      "tema": "&iquest;Qui&eacute;n es el obligado a declarar una cuenta corriente de Compensaci&oacute;n que se tiene ante el Banco de la Rep&uacute;blica registrada con el NIT, de uno de los consorciados pero el titular de la cuenta en el exterior es el Consorcio?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23763-2015",
+      "tipo": "oficio",
+      "numero": "23763",
+      "fecha": "2015-08-10",
+      "tema": "Impuesto Nacional a la Gasolina y al ACPM",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13515-2015",
+      "tipo": "oficio",
+      "numero": "13515",
+      "fecha": "2015-05-12",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n por extemporaneidad o la sanci&oacute;n por no presentar nunca la declaraci&oacute;n anual de activos en el exterior o la sanci&oacute;n por corregirla?",
+      "vigente": false
+    },
+    {
+      "id": "dian-oficio-0760-2015",
+      "tipo": "oficio",
+      "numero": "0760",
+      "fecha": "2015-08-19",
+      "tema": "&iquest;Cu&aacute;l es la sanci&oacute;n aplicable cuando no se presenta, o se presenta de forma extempor&aacute;nea la Declaraci&oacute;n Anual de Activos en el Exterior? - &iquest;Cu&aacute;l es el patrimonio de referencia para la declaraci&oacute;n de activos en el Exterior? - &iquest;Cu&aacute;l es el alcance de la discriminaci&oacute;n de los activos de que trata los numerales 3 y 4 de la Ley 1739 de 2014? -&iquest;Los saldos a favor del Impuesto Sobre la Renta para la Equidad (CREE) por el a&ntilde;o gravable 2014 pueden ser compensados con el anticipo de este impuesto y la Sobretasa del CREE para el a&ntilde;o 2015?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0016944-1992",
+      "tipo": "concepto",
+      "numero": "0016944",
+      "fecha": "1992-01-01",
+      "tema": "&iquest;forma de calcular el valor del impuesto de timbre del contrato que adjunta?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0004649-1990",
+      "tipo": "concepto",
+      "numero": "0004649",
+      "fecha": "1990-01-01",
+      "tema": "&iquest;El impuesto cancelado lo puede deducir en su totalidad la sociedad colombiana, a pesar de que una parte del valor del contrato lo recibe el proveedor del exterior?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-015-2016",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "015",
+      "year": 2016,
+      "decision": "exequible"
+    }
+  ],
+  "decretos_vinculados": [
+    {
+      "id": "dur-1778-art-189",
+      "decretoNumero": "1778",
+      "articuloNumero": "189",
+      "vigente": true
+    },
+    {
+      "id": "dur-1778-art-1.6.1.13.2.5",
+      "decretoNumero": "1778",
+      "articuloNumero": "1.6.1.13.2.5",
+      "vigente": true
+    }
+  ]
+}

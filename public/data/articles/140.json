@@ -1,1 +1,293 @@
-{"id_articulo": "Art. 140", "titulo": "Art. 140. Depreciación acelerada para fines fiscales.", "titulo_corto": "Depreciación acelerada para fines fiscales.", "slug": "140", "url_origen": "https://estatuto.co/140", "libro": "Libro I - Renta", "libro_full": "I - Impuesto sobre la Renta y Complementarios", "estado": "modificado", "complexity_score": 1, "contenido_texto": "*El contribuyente puede aumentar la alícuota de depreciación determinada en el artículo 137 de este estatuto en un veinticinco por ciento (25%), si el bien depreciable se utiliza diariamente por 16 horas y proporcionalmente en fracciones superiores, siempre y cuando esto se demuestre. El tratamiento aquí previsto no será aplicable respecto de los bienes inmuebles.", "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El contribuyente puede aumentar la alícuota de depreciación determinada en el artículo 137 de este estatuto en un veinticinco por ciento (25%), si el bien depreciable se utiliza diariamente por 16 horas y proporcionalmente en fracciones superiores, siempre y cuando esto se demuestre.</p>\n<p>El tratamiento aquí previsto no será aplicable respecto de los bienes inmuebles.</p>\n<div class=\"trigger\"></div>\n</span>", "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 83.", "modificaciones_parsed": [{"tipo": "modificado", "norma_tipo": "Ley", "norma_numero": "1819", "norma_year": 2016, "norma_articulo": "83"}], "total_modificaciones": 1, "ultima_modificacion_year": 2016, "leyes_modificatorias": ["Ley 1819 de 2016"], "texto_derogado": [], "texto_derogado_parsed": [], "normas_parsed": {"jurisprudencia": [], "decretos": [], "doctrina_dian": [], "notas": [], "otros": []}, "total_normas": 0, "cross_references": [], "referenced_by": [], "total_cross_references": 0, "concordancias": "", "doctrina_dian_scrape": "", "notas_editoriales": ""}
+{
+  "id_articulo": "Art. 140",
+  "titulo": "Art. 140. Depreciación acelerada para fines fiscales.",
+  "titulo_corto": "Depreciación acelerada para fines fiscales.",
+  "slug": "140",
+  "url_origen": "https://estatuto.co/140",
+  "libro": "Libro I - Renta",
+  "libro_full": "I - Impuesto sobre la Renta y Complementarios",
+  "estado": "modificado",
+  "complexity_score": 1,
+  "contenido_texto": "*El contribuyente puede aumentar la alícuota de depreciación determinada en el artículo 137 de este estatuto en un veinticinco por ciento (25%), si el bien depreciable se utiliza diariamente por 16 horas y proporcionalmente en fracciones superiores, siempre y cuando esto se demuestre. El tratamiento aquí previsto no será aplicable respecto de los bienes inmuebles.",
+  "contenido_html": "<span class=\"ct-span oxy-stock-content-styles\" id=\"span-8-7\"><p><span class=\"verde\"><strong>*</strong></span>El contribuyente puede aumentar la alícuota de depreciación determinada en el artículo 137 de este estatuto en un veinticinco por ciento (25%), si el bien depreciable se utiliza diariamente por 16 horas y proporcionalmente en fracciones superiores, siempre y cuando esto se demuestre.</p>\n<p>El tratamiento aquí previsto no será aplicable respecto de los bienes inmuebles.</p>\n<div class=\"trigger\"></div>\n</span>",
+  "modificaciones_raw": "*Modificado Ley 1819 de 2016 Art. 83.",
+  "modificaciones_parsed": [
+    {
+      "tipo": "modificado",
+      "norma_tipo": "Ley",
+      "norma_numero": "1819",
+      "norma_year": 2016,
+      "norma_articulo": "83"
+    }
+  ],
+  "total_modificaciones": 1,
+  "ultima_modificacion_year": 2016,
+  "leyes_modificatorias": [
+    "Ley 1819 de 2016"
+  ],
+  "texto_derogado": [],
+  "texto_derogado_parsed": [],
+  "normas_parsed": {
+    "jurisprudencia": [],
+    "decretos": [],
+    "doctrina_dian": [],
+    "notas": [],
+    "otros": []
+  },
+  "total_normas": 0,
+  "cross_references": [],
+  "referenced_by": [],
+  "total_cross_references": 0,
+  "concordancias": "Doctrina DIAN: 2 concepto(s) relacionado(s). Jurisprudencia: 10 sentencia(s) relacionada(s)",
+  "doctrina_dian_scrape": "oficio 7036 (2024-09-27): Procedimiento Tributario\noficio 901687 (2022-03-04): (122) Deberes y obligaciones formales - Estados financieros consolidados y combinados - Obligaci&oacute;n de reportar informaci&oacute;n",
+  "notas_editoriales": "",
+  "doctrina_vinculada": [
+    {
+      "id": "dian-oficio-7036-2024",
+      "tipo": "oficio",
+      "numero": "7036",
+      "fecha": "2024-09-27",
+      "tema": "Procedimiento Tributario",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-901687-2022",
+      "tipo": "oficio",
+      "numero": "901687",
+      "fecha": "2022-03-04",
+      "tema": "(122) Deberes y obligaciones formales - Estados financieros consolidados y combinados - Obligaci&oacute;n de reportar informaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-903259-2021",
+      "tipo": "oficio",
+      "numero": "903259",
+      "fecha": "2021-01-01",
+      "tema": "Deducci&oacute;n por Depreciaci&oacute;n - Depreciaci&oacute;n Acelerada",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6738-2019",
+      "tipo": "oficio",
+      "numero": "6738",
+      "fecha": "2019-03-19",
+      "tema": "&iquest;Es posible que un activo (planta de tratamiento de lixiviados) que se usa m&aacute;s de 16 horas diarias pueda ser objeto de la depreciaci&oacute;n acelerada prevista en el art&iacute;culo 140 del Estatuto Tributario y si en el caso que la depreciaci&oacute;n fiscal sea menor que la depreciaci&oacute;n contable, el exceso de este &uacute;ltimo sea deducible en el impuesto sobre la renta",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-2217-2019",
+      "tipo": "oficio",
+      "numero": "2217",
+      "fecha": "2019-01-29",
+      "tema": "&iquest;Cu&aacute;l es el procedimiento que fiscalmente se debe seguir para depreciar motores de transporte fluvial?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-13469-2018",
+      "tipo": "oficio",
+      "numero": "13469",
+      "fecha": "2018-05-22",
+      "tema": "Depreciaci&oacute;n acelerada para fines fiscales",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-8230-2018",
+      "tipo": "oficio",
+      "numero": "8230",
+      "fecha": "2018-03-28",
+      "tema": "&iquest;Diferencia en cambio para el efectivo: Deber&iacute;a entenderse siempre realizado y permitirse a TRM de cierre, ya que se presentan inconvenientes por las distintas entradas y salidas de divisas, que estar&iacute;an a distintas tasas, lo que en la pr&aacute;ctica har&iacute;a que se lleve una especie de",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-0819-2018",
+      "tipo": "oficio",
+      "numero": "0819",
+      "fecha": "2018-05-24",
+      "tema": "&iquest;Cu&aacute;l es el r&eacute;gimen aplicable para entidades sin &aacute;nimo de lucro para el impuesto sobre la renta y complementarios?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-33240-2017",
+      "tipo": "oficio",
+      "numero": "33240",
+      "fecha": "2017-12-12",
+      "tema": "Limitaci&oacute;n de la deducci&oacute;n a aplicar en la tasa de depreciaci&oacute;n fiscal anual establecida en la Ley 1819 de 2016",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-23106-2017",
+      "tipo": "oficio",
+      "numero": "23106",
+      "fecha": "2017-08-28",
+      "tema": "Impuesto sobre la Renta y Complementarios",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-59724-2014",
+      "tipo": "oficio",
+      "numero": "59724",
+      "fecha": "2014-10-23",
+      "tema": "Solicita revocar lo expuesto en los Puntos 8 y 9 del Concepto n&uacute;mero 357 del 28 de marzo de 2014, en relaci&oacute;n a la posibilidad de deducir de los ingresos netos la depreciaci&oacute;n y las amortizaciones previstas en los art&iacute;culos 127, 128 a 131 y 134 a 144 del Estatuto Tributario en el caso del CREE y el tratamiento del activo o la inversi&oacute;n, teniendo en cuenta que se trata de un impuesto nuevo y distinto",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-6156-2014",
+      "tipo": "oficio",
+      "numero": "6156",
+      "fecha": "2014-01-01",
+      "tema": "Vigencia del par&aacute;grafo del art&iacute;culo 134 del Estatuto Tributario, adicionado por el art&iacute;culo 159 de la Ley 1607 de 2012, para efectos de aplicar la limitaci&oacute;n respecto al m&iacute;nimo admitido como valor residual o valor de salvamento del costo de los activos fijos para los casos en que se opte por utilizar el sistema de depreciaci&oacute;n de reducci&oacute;n de saldos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-68292-2013",
+      "tipo": "oficio",
+      "numero": "68292",
+      "fecha": "2013-10-25",
+      "tema": "&iquest;Dado que la prima m&iacute;nima de servicios o de navidad debe tomarse por separado de los dem&aacute;s pagos salariales para efectos del c&aacute;lculo de retenci&oacute;n en la fuente en los procedimientos 1 y 2, seg&uacute;n lo establece el art&iacute;culo 385 del ET, significa esto que para el c&aacute;lculo de la retenci&oacute;n alternativa del art&iacute;culo 384 del ET (norma que est&aacute; antes del art&iacute;culo 385, as&iacute; se haya introducido en una ley posterior) &iquest;tambi&eacute;n debe liquidarse por separado?",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-86136-2008",
+      "tipo": "oficio",
+      "numero": "86136",
+      "fecha": "2008-01-01",
+      "tema": "Deducci&oacute;n por inversi&oacute;n en activos fijos reales productivos",
+      "vigente": true
+    },
+    {
+      "id": "dian-oficio-81704-2008",
+      "tipo": "oficio",
+      "numero": "81704",
+      "fecha": "2008-01-01",
+      "tema": "Contrato de estabilidad Jur&iacute;dica",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-35325-2002",
+      "tipo": "concepto",
+      "numero": "35325",
+      "fecha": "2002-06-17",
+      "tema": "Impuesto de renta y complementarios. M&eacute;todos de depreciaci&oacute;n",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0091306-2001",
+      "tipo": "concepto",
+      "numero": "0091306",
+      "fecha": "2001-10-11",
+      "tema": "&iquest;En que momento debe practicarse la retenci&oacute;n en la fuente sobre salarios y dem&aacute;s pagos laborales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0051913-2000",
+      "tipo": "concepto",
+      "numero": "0051913",
+      "fecha": "2000-05-31",
+      "tema": "&iquest;Se puede prolongar la vida &uacute;til de los activos fijos, cuando a pesar de estar en uso, el contribuyente 0pta por no depreciarlos en un periodo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0007629-1996",
+      "tipo": "concepto",
+      "numero": "0007629",
+      "fecha": "1996-02-07",
+      "tema": "&iquest;C&oacute;mo se determina la depreciaci&oacute;n de un bien sometido a turnos adicionales?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0046688-1994",
+      "tipo": "concepto",
+      "numero": "0046688",
+      "fecha": "1994-07-29",
+      "tema": "&iquest;Es Posible aumentar la al&iacute;cuota de depreciaci&oacute;n por cada turno adicional que se demuestre, teniendo en cuenta que la depreciaci&oacute;n flexible fue eliminada a partir del a&ntilde;o gravable 1992? &iquest;Puede un contribuyente en su declaraci&oacute;n de renta y complementarios registrar tambi&eacute;n la deducci&oacute;n por depreciaci&oacute;n correspondiente al per&iacute;odo gravable anterior, cuando no lo hizo en la declaraci&oacute;n correspondiente a tal per&iacute;odo?",
+      "vigente": true
+    },
+    {
+      "id": "dian-concepto-0001853-1990",
+      "tipo": "concepto",
+      "numero": "0001853",
+      "fecha": "1990-01-23",
+      "tema": "&iquest;El ajuste por inflaci&oacute;n efectuado al bien puede contabilizarse en una cuenta de super&aacute;vit de capital, que puede denominarse ajuste por inflaci&oacute;n de activos fijos? &iquest;Puede utilizarse para depreciar el ajuste por inflaci&oacute;n el sistema de tasas variables contemplado en el art&iacute;culo 1o del Decreto 1649 de 1976, y adem&aacute;s si es aplicable a este ajuste el incremento por turno establecido en el numeral 7 del art&iacute;culo 59 del Decreto 2053 de 1974?",
+      "vigente": true
+    }
+  ],
+  "jurisprudencia_vinculada": [
+    {
+      "id": "cc-c-833-2013",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "833",
+      "year": 2013,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-831-2010",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "831",
+      "year": 2010,
+      "decision": "exequible condicionada"
+    },
+    {
+      "id": "cc-c-222-1995",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "222",
+      "year": 1995,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-877-2011",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "877",
+      "year": 2011,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-318-1998",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "318",
+      "year": 1998
+    },
+    {
+      "id": "cc-c-533-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "533",
+      "year": 2000
+    },
+    {
+      "id": "cc-c-477-1999",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "477",
+      "year": 1999
+    },
+    {
+      "id": "cc-c-646-2001",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "646",
+      "year": 2001,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-112-2000",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "112",
+      "year": 2000,
+      "decision": "exequible"
+    },
+    {
+      "id": "cc-c-027-2012",
+      "corte": "constitucional",
+      "tipo": "C",
+      "numero": "027",
+      "year": 2012,
+      "decision": "exequible"
+    }
+  ]
+}
