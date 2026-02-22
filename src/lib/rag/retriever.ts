@@ -4,6 +4,7 @@ import { EnhancedQuery, RetrievalResult, PineconeNamespace } from "@/types/rag";
 import { ScoredChunk, ChunkMetadata, ScoredMultiSourceChunk, MultiSourceChunkMetadata } from "@/types/pinecone";
 import { RAG_CONFIG } from "@/config/constants";
 import { ChatPageContext } from "@/types/chat-history";
+import { prioritizeNamespaces } from "./namespace-router";
 
 interface RetrieveOptions {
   topK?: number;
@@ -110,14 +111,16 @@ export async function retrieve(
     (a, b) => b.score - a.score
   );
 
-  // Multi-namespace retrieval for external sources
+  // Multi-namespace retrieval for external sources — prioritized by query intent
   let multiSourceChunks: ScoredMultiSourceChunk[] | undefined;
   if (RAG_CONFIG.useMultiNamespace && RAG_CONFIG.additionalNamespaces.length > 0) {
-    // Use rewritten query embedding (index 1) for better semantic alignment, fallback to original
     const bestEmbedding = embeddings[1] || embeddings[0];
+    const prioritized = prioritizeNamespaces(query.original);
+    // Use prioritized namespaces (excluding default ""), falling back to config
+    const namespacesToSearch = prioritized.filter((ns) => ns !== "");
     multiSourceChunks = await retrieveMultiNamespace(
       bestEmbedding,
-      RAG_CONFIG.additionalNamespaces,
+      namespacesToSearch.length > 0 ? namespacesToSearch : RAG_CONFIG.additionalNamespaces,
       dynamicThreshold
     );
   }

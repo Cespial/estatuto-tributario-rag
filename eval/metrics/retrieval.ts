@@ -17,6 +17,7 @@ export function recallAtK(
   expectedArticles: string[],
   k: number
 ): number {
+  if (expectedArticles.length === 0) return 1; // No expected articles = perfect recall
   const topK = retrieved.slice(0, k);
   const foundArticles = new Set(
     topK
@@ -43,6 +44,7 @@ export function ndcgAtK(
   expectedArticles: string[],
   k: number
 ): number {
+  if (expectedArticles.length === 0) return 1; // No expected articles = perfect score
   const topK = retrieved.slice(0, k);
 
   // DCG

@@ -95,44 +95,32 @@ async function fetchSiblingChunks(
   const articlesToExpand = new Set<string>();
   const existingIds = new Set(chunks.map((c) => c.id));
 
-  // Collect a representative vector for each article (from the highest-scored chunk)
-  const articleVectors = new Map<string, number[]>();
-
   for (const chunk of chunks) {
     if (chunk.metadata.total_chunks > 1) {
       articlesToExpand.add(chunk.metadata.id_articulo);
     }
   }
 
-  if (articlesToExpand.size === 0) return chunks;
-
-  // Build representative vectors: use the highest-scored chunk's ID to get its embedding
-  // Since we already have the chunks, use a metadata-filtered query with a real vector
-  // Find the best chunk per article to use as query vector
-  for (const chunk of chunks) {
-    const artId = chunk.metadata.id_articulo;
-    if (!articlesToExpand.has(artId)) continue;
-    if (!articleVectors.has(artId) || chunk.rerankedScore > (chunks.find(c => c.metadata.id_articulo === artId && articleVectors.has(artId))?.rerankedScore ?? 0)) {
-      // We don't have the actual vector, so we'll query with metadata filter
-      // but use the original query embedding passed via the pipeline
-    }
-  }
+  if (articlesToExpand.size === 0) return [...chunks];
 
   // For each article needing expansion, fetch all its chunks by metadata filter
-  // Use the first chunk's vector from the retrieval (avoids zero vector issue)
   const siblingPromises = Array.from(articlesToExpand).map(async (artId) => {
-    // Find the best existing chunk for this article to use its embedding
     const bestChunk = chunks
       .filter(c => c.metadata.id_articulo === artId)
       .sort((a, b) => b.rerankedScore - a.rerankedScore)[0];
 
-    const result = await index.query({
-      id: bestChunk.id, // Use the existing vector by ID instead of zero vector
-      topK: 30,
-      includeMetadata: true,
-      filter: { id_articulo: { $eq: artId } },
-    });
-    return result.matches || [];
+    try {
+      const result = await index.query({
+        id: bestChunk.id,
+        topK: 30,
+        includeMetadata: true,
+        filter: { id_articulo: { $eq: artId } },
+      });
+      return result.matches || [];
+    } catch (error) {
+      console.warn(`[sibling-retrieval] Failed for ${artId}:`, error);
+      return [];
+    }
   });
 
   const siblingResults = await Promise.all(siblingPromises);
@@ -147,11 +135,11 @@ async function fetchSiblingChunks(
     );
   }
 
-  // Add siblings not already present, limited per article
+  // Build result as a NEW array (don't mutate input)
+  const result: RerankedChunk[] = [...chunks];
   const siblingsAdded = new Map<string, number>();
 
   for (const matches of siblingResults) {
-    // Sort by chunk_index for coherent ordering
     const sorted = [...matches].sort((a, b) => {
       const aIdx = (a.metadata as unknown as ChunkMetadata)?.chunk_index ?? 0;
       const bIdx = (b.metadata as unknown as ChunkMetadata)?.chunk_index ?? 0;
@@ -168,11 +156,11 @@ async function fetchSiblingChunks(
 
         const artScore = articleScores.get(artId) ?? 0;
 
-        chunks.push({
+        result.push({
           id: match.id,
           score: match.score ?? 0,
           metadata: meta,
-          rerankedScore: artScore * 0.9, // Siblings get slightly lower score
+          rerankedScore: artScore * 0.9,
         });
         existingIds.add(match.id);
         siblingsAdded.set(artId, added + 1);
@@ -180,7 +168,7 @@ async function fetchSiblingChunks(
     }
   }
 
-  return chunks;
+  return result;
 }
 
 function dedup(chunks: RerankedChunk[]): RerankedChunk[] {
@@ -280,12 +268,14 @@ function applyTokenBudget(
   }
 
   // "Lost in the middle" mitigation: most relevant at start AND end
-  if (selected.length > 2) {
-    const [first, ...rest] = selected;
-    const last = rest.pop()!;
-    // Sort middle by ascending score (least relevant in the middle)
-    rest.sort((a, b) => a.maxScore - b.maxScore);
-    return { articles: [first, ...rest, last], totalTokens };
+  if (selected.length >= 3) {
+    // Re-sort by score descending to pick best positions
+    const sorted = [...selected].sort((a, b) => b.maxScore - a.maxScore);
+    const first = sorted[0];   // Best → start
+    const second = sorted[1];  // Second best → end
+    const middle = sorted.slice(2); // Rest → middle, sorted ascending (least relevant center)
+    middle.sort((a, b) => a.maxScore - b.maxScore);
+    return { articles: [first, ...middle, second], totalTokens };
   }
 
   return { articles: selected, totalTokens };
@@ -318,8 +308,8 @@ export function formatArticleForContext(group: ArticleGroup): string {
         // Clean up related ID for readability (e.g., "ley-2277-2022" -> "Ley 2277 de 2022")
         let relatedDisplay = c.relatedId;
         if (c.relatedId.startsWith("ley-")) {
-            const parts = c.relatedId.split("-");
-            if (parts.length >= 3) relatedDisplay = `Ley ${parts[1]} de ${parts[2]}`;
+            const segments = c.relatedId.split("-");
+            if (segments.length >= 3) relatedDisplay = `Ley ${segments[1]} de ${segments[2]}`;
         } else if (c.relatedId.startsWith("dur-")) {
             relatedDisplay = `Decreto Único Reglamentario (DUR) ${c.relatedId.replace("dur-", "")}`;
         }

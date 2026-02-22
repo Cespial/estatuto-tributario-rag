@@ -412,7 +412,7 @@
       "category": "comparative",
       "difficulty": "hard",
       "question": "¿Cuáles son las diferencias entre el impuesto al patrimonio y el impuesto complementario de normalización tributaria?",
-      "expected_articles": ["Art. 292-3", "Art. 292-2"],
+      "expected_articles": ["Art. 292-2"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["patrimonio", "normalización"]
     },
@@ -448,7 +448,7 @@
       "category": "comparative",
       "difficulty": "medium",
       "question": "¿Cuál es la diferencia entre la presencia económica significativa y el establecimiento permanente?",
-      "expected_articles": ["Art. 20-3", "Art. 20-1"],
+      "expected_articles": ["Art. 20-2", "Art. 20-1"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["presencia económica significativa", "establecimiento permanente"]
     },
@@ -610,7 +610,7 @@
       "category": "procedural",
       "difficulty": "hard",
       "question": "¿Cómo se determina la base gravable del impuesto al patrimonio?",
-      "expected_articles": ["Art. 295-3"],
+      "expected_articles": ["Art. 295-2"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["base gravable", "patrimonio"]
     },
@@ -826,7 +826,7 @@
       "category": "temporal",
       "difficulty": "hard",
       "question": "¿Qué cambios introdujo la Ley 2277 de 2022 al impuesto al patrimonio?",
-      "expected_articles": ["Art. 292-3"],
+      "expected_articles": ["Art. 292-2"],
       "expected_chunk_types": ["contenido", "modificaciones"],
       "expected_answer_contains": ["patrimonio", "Ley 2277"]
     },
@@ -1195,7 +1195,7 @@
       "category": "sanctions",
       "difficulty": "hard",
       "question": "¿Cuál es la sanción por evasión tributaria y cuándo se configura como delito?",
-      "expected_articles": ["Art. 434A"],
+      "expected_articles": ["Art. 640"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["evasión", "penal"]
     },

@@ -110,8 +110,7 @@ export interface RAGConfig {
 
 export interface PipelineTimings {
   queryEnhancement: number;
-  embedding: number;
-  retrieval: number;
+  retrieval: number; // Includes embedding time
   reranking: number;
   contextAssembly: number;
   promptBuilding: number;

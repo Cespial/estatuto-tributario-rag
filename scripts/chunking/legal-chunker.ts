@@ -61,6 +61,10 @@ function getSemanticOverlap(previousChunk: string, maxChars: number = 263): stri
     if ((overlap + sentences[i]).length > maxChars) break;
     overlap = sentences[i] + " " + overlap;
   }
+  // Fallback: if no complete sentence fits, take last maxChars characters
+  if (overlap.trim().length === 0 && previousChunk.length > 0) {
+    return previousChunk.slice(-maxChars).trim();
+  }
   return overlap.trim();
 }
 

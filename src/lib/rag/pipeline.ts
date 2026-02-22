@@ -33,7 +33,6 @@ export async function runRAGPipeline(
   const pipelineStart = performance.now();
   const timings: PipelineTimings = {
     queryEnhancement: 0,
-    embedding: 0,
     retrieval: 0,
     reranking: 0,
     contextAssembly: 0,
@@ -130,10 +129,10 @@ export async function runRAGPipeline(
     topScore: allScores[0] ?? 0,
     medianScore: allScores[Math.floor(allScores.length / 2)] ?? 0,
     dynamicThreshold: retrievalResult.dynamicThreshold ?? RAG_CONFIG.similarityThreshold,
-    siblingChunksAdded: context.articles.reduce(
+    siblingChunksAdded: Math.max(0, context.articles.reduce(
       (sum, a) => sum + a.contenido.length + a.modificaciones.length + a.textoAnterior.length,
       0
-    ) - reranked.length,
+    ) - reranked.length),
     contextTokensUsed: context.totalTokensEstimate,
     contextTokensBudget: RAG_CONFIG.maxContextTokens,
     queryEnhanced: enhancedQuery.rewritten !== query,

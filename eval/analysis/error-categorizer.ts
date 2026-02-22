@@ -1,5 +1,5 @@
 import { ScoredChunk } from "../../src/types/pinecone";
-import { AssembledContext, SourceCitation } from "../../src/types/rag";
+import { AssembledContext } from "../../src/types/rag";
 
 export enum ErrorCategory {
   MISSING_ARTICLE = "article_not_retrieved",
