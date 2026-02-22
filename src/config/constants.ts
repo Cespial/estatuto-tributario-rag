@@ -1,17 +1,17 @@
 import { RAGConfig } from "@/types/rag";
 
 export const RAG_CONFIG: RAGConfig = {
-  topK: 15,
-  similarityThreshold: 0.30,
-  maxContextTokens: 8000,
-  maxRerankedResults: 8,
+  topK: 20,
+  similarityThreshold: 0.28,
+  maxContextTokens: 12000,
+  maxRerankedResults: 10,
   useHyDE: true,
-  useLLMRerank: false,
+  useLLMRerank: true,
   useQueryExpansion: true,
   useSiblingRetrieval: true,
   useMultiNamespace: true,
   additionalNamespaces: ["doctrina", "jurisprudencia", "decretos", "resoluciones", "leyes"],
-  multiNamespaceTopK: 5,
+  multiNamespaceTopK: 8,
   externalSourceBudgetRatio: 0.30,
 };
 

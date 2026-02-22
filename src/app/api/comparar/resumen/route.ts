@@ -53,7 +53,7 @@ export async function POST(req: Request) {
 
   try {
     const { text } = await generateText({
-      model: anthropic(process.env.CHAT_MODEL || "claude-sonnet-4-5-20250929"),
+      model: anthropic(process.env.CHAT_MODEL || "claude-sonnet-4-6-20250514"),
       maxOutputTokens: 180,
       system:
         "Eres un abogado tributarista colombiano. Redacta un resumen ejecutivo profesional, en un solo párrafo, sobre cambios entre dos textos normativos. Sé preciso, neutral y accionable. No uses viñetas.",

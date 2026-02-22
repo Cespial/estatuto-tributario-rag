@@ -51,21 +51,24 @@ export async function llmRerank(
 ): Promise<RerankedChunk[]> {
   if (chunks.length <= 1) return chunks;
 
-  // We only rerank the top 8 chunks to save tokens and time
-  const candidates = chunks.slice(0, 8);
-  const remaining = chunks.slice(8);
+  // Rerank top 10 candidates for better coverage
+  const candidates = chunks.slice(0, 10);
+  const remaining = chunks.slice(10);
 
   try {
     const { text } = await generateText({
       model: anthropic("claude-haiku-4-5-20251001"),
+      maxOutputTokens: 200,
       system:
-        "Eres un experto legal analizando el Estatuto Tributario colombiano. " +
-        "Tu tarea es ordenar los siguientes fragmentos de artículos del más relevante al menos relevante para responder la consulta del usuario. " +
-        "Responde SOLAMENTE con una lista de IDs separados por comas, sin explicaciones. " +
-        "IDs disponibles: " +
+        "Eres un experto en derecho tributario colombiano con profundo conocimiento del Estatuto Tributario. " +
+        "Ordena los siguientes fragmentos del MÁS relevante al MENOS relevante para responder la consulta. " +
+        "Prioriza: (1) artículos que responden directamente la pregunta, (2) artículos con tarifas/valores si la pregunta involucra cálculos, " +
+        "(3) parágrafos y excepciones relevantes, (4) artículos relacionados que complementan la respuesta. " +
+        "Responde SOLAMENTE con los IDs separados por comas, sin explicaciones. " +
+        "IDs: " +
         candidates.map((c) => c.id).join(", "),
-      prompt: `Consulta: ${query}\n\nFragmentos:\n${candidates
-        .map((c) => `[ID: ${c.id}] Art. ${c.metadata.id_articulo}: ${c.metadata.text.slice(0, 400)}`)
+      prompt: `Consulta del usuario: ${query}\n\nFragmentos:\n${candidates
+        .map((c) => `[ID: ${c.id}] ${c.metadata.id_articulo} - ${c.metadata.titulo}: ${c.metadata.text.slice(0, 500)}`)
         .join("\n\n")}`,
     });
 
