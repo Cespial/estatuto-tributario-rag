@@ -80,7 +80,9 @@ function shouldUseHyDE(
 ): boolean {
   if (forceHyDE !== undefined) return forceHyDE;
   if (detectedArticles.length > 0) return false;
-  // Enable HyDE for short queries (< 50 chars) since they benefit most from expansion
+  if (query.length < 15) return false;
+  // Skip HyDE for direct article queries (e.g., "qué dice el artículo 240")
+  if (/^(qu[eé]|cu[aá]l)\s+(dice|establece|se[nñ]ala)\s+/i.test(query)) return false;
   return true;
 }
 
@@ -88,7 +90,7 @@ async function generateHyDE(query: string): Promise<string> {
   try {
     const { text } = await generateText({
       model: anthropic("claude-haiku-4-5-20251001"),
-      maxOutputTokens: 300,
+      maxOutputTokens: 200,
       system:
         "Eres un experto en el Estatuto Tributario colombiano. Genera un párrafo hipotético que podría ser el texto de un artículo del Estatuto Tributario que respondería esta pregunta. Escribe SOLO el párrafo, sin preámbulos.",
       prompt: query,

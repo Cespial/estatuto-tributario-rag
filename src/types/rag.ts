@@ -14,6 +14,8 @@ export interface RetrievalResult {
   query: EnhancedQuery;
   /** Multi-source chunks from additional namespaces */
   multiSourceChunks?: ScoredMultiSourceChunk[];
+  /** Dynamic threshold computed during retrieval */
+  dynamicThreshold?: number;
 }
 
 export interface RerankedChunk extends ScoredChunk {
@@ -102,4 +104,40 @@ export interface RAGConfig {
   additionalNamespaces: PineconeNamespace[];
   /** Top-K for each additional namespace */
   multiNamespaceTopK: number;
+  /** Ratio of token budget for external sources (0-1) */
+  externalSourceBudgetRatio: number;
+}
+
+export interface PipelineTimings {
+  queryEnhancement: number;
+  embedding: number;
+  retrieval: number;
+  reranking: number;
+  contextAssembly: number;
+  promptBuilding: number;
+  totalPipeline: number;
+}
+
+export interface RAGDebugInfo {
+  // Retrieval
+  chunksRetrieved: number;
+  chunksAfterReranking: number;
+  uniqueArticles: number;
+  namespacesSearched: string[];
+  // Quality signals
+  topScore: number;
+  medianScore: number;
+  dynamicThreshold: number;
+  siblingChunksAdded: number;
+  // Tokens
+  contextTokensUsed: number;
+  contextTokensBudget: number;
+  // Enhancement
+  queryEnhanced: boolean;
+  hydeGenerated: boolean;
+  subQueriesCount: number;
+  // Timing
+  timings: PipelineTimings;
+  // Cache
+  embeddingCacheHitRate: number;
 }

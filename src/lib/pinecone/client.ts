@@ -24,4 +24,25 @@ export function getIndex(): Index {
   return pineconeIndex;
 }
 
+/**
+ * Retry with exponential backoff for Pinecone operations.
+ */
+export async function withRetry<T>(
+  fn: () => Promise<T>,
+  maxRetries = 3,
+  baseDelay = 1000
+): Promise<T> {
+  for (let i = 0; i <= maxRetries; i++) {
+    try {
+      return await fn();
+    } catch (e) {
+      if (i === maxRetries) throw e;
+      const delay = baseDelay * Math.pow(2, i) + Math.random() * 500;
+      console.warn(`[pinecone] Retry ${i + 1}/${maxRetries} after ${Math.round(delay)}ms`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
+  }
+  throw new Error("Unreachable");
+}
+
 export { getPineconeClient };

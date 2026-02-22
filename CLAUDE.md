@@ -378,7 +378,7 @@ npx tsc --noEmit     # Type check sin emitir
 ```
 UVT 2026:    $52,374
 SMLMV 2026:  $1,750,905
-Auxilio transporte: $227,618
+Auxilio transporte: $249,095 (Decreto 1470 de 2025)
 ```
 
 ---

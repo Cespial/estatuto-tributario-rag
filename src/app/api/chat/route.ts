@@ -131,8 +131,15 @@ export async function POST(req: Request) {
           conversationId,
           ragMetadata: {
             chunksRetrieved: debugInfo?.chunksRetrieved,
-            tokensUsed: debugInfo?.tokensUsed,
+            chunksAfterReranking: debugInfo?.chunksAfterReranking,
+            uniqueArticles: debugInfo?.uniqueArticles,
+            tokensUsed: debugInfo?.contextTokensUsed,
             queryEnhanced: debugInfo?.queryEnhanced,
+            hydeGenerated: debugInfo?.hydeGenerated,
+            topScore: debugInfo?.topScore,
+            pipelineMs: debugInfo?.timings?.totalPipeline
+              ? Math.round(debugInfo.timings.totalPipeline)
+              : undefined,
           },
         };
       }

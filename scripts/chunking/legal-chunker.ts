@@ -1,10 +1,10 @@
 /**
- * Phase 5 — Legal Chunker
+ * Phase 5 — Legal Chunker (Optimized)
  *
  * Intelligent chunking for Colombian legal text that respects document structure:
  * - Never cuts mid-paragraph, mid-numeral, mid-literal
- * - Chunk size: 500-800 tokens
- * - Overlap: 100 tokens (last paragraph of previous chunk)
+ * - Chunk size: 512 target, 768 max tokens (aligned with e5-large 512 token window)
+ * - Overlap: 75 tokens (semantic: last complete sentence)
  * - Respects hierarchy: Artículo > Parágrafo > Numeral > Literal > Inciso
  */
 
@@ -16,16 +16,16 @@ export interface LegalChunk {
 }
 
 export interface ChunkOptions {
-  /** Target chunk size in tokens (default: 600) */
+  /** Target chunk size in tokens (default: 512) */
   targetTokens?: number;
-  /** Maximum chunk size in tokens (default: 800) */
+  /** Maximum chunk size in tokens (default: 768) */
   maxTokens?: number;
-  /** Overlap in tokens (default: 100) */
+  /** Overlap in tokens (default: 75) */
   overlapTokens?: number;
 }
 
-// Approximate: 1 token ≈ 4 characters for Spanish legal text
-const CHARS_PER_TOKEN = 4;
+// Calibrated for Spanish legal text (~3.2-3.8 chars/token with multilingual-e5-large)
+const CHARS_PER_TOKEN = 3.5;
 
 /**
  * Legal boundary patterns, ordered by hierarchy (highest priority first).
@@ -49,6 +49,19 @@ const BOUNDARY_PATTERNS = [
 
 function estimateTokens(text: string): number {
   return Math.ceil(text.length / CHARS_PER_TOKEN);
+}
+
+/**
+ * Get semantic overlap: last complete sentence(s) from previous chunk.
+ */
+function getSemanticOverlap(previousChunk: string, maxChars: number = 263): string {
+  const sentences = previousChunk.split(/(?<=[.;:])\s+/);
+  let overlap = "";
+  for (let i = sentences.length - 1; i >= 0; i--) {
+    if ((overlap + sentences[i]).length > maxChars) break;
+    overlap = sentences[i] + " " + overlap;
+  }
+  return overlap.trim();
 }
 
 /**
@@ -87,6 +100,16 @@ function findBestSplit(text: string, targetChars: number): number {
 }
 
 /**
+ * Validate a chunk meets minimum quality standards.
+ */
+function validateChunk(text: string): boolean {
+  const trimmed = text.trim();
+  if (trimmed.length < 50) return false;           // Too short
+  if (/^[\d\s.,;:]+$/.test(trimmed)) return false; // Only numbers/punctuation
+  return true;
+}
+
+/**
  * Chunk legal text respecting document structure.
  */
 export function chunkLegalText(
@@ -95,18 +118,20 @@ export function chunkLegalText(
   options: ChunkOptions = {}
 ): LegalChunk[] {
   const {
-    targetTokens = 600,
-    maxTokens = 800,
-    overlapTokens = 100,
+    targetTokens = 512,
+    maxTokens = 768,
+    overlapTokens = 75,
   } = options;
 
   const totalTokens = estimateTokens(text);
 
-  // If text fits in one chunk, return as-is
+  // If text fits in one chunk, return as-is (no overlap needed for single chunks)
   if (totalTokens <= maxTokens) {
+    const trimmed = text.trim();
+    if (!validateChunk(trimmed)) return [];
     return [
       {
-        text: text.trim(),
+        text: trimmed,
         index: 0,
         totalChunks: 1,
         metadata: { ...baseMetadata },
@@ -115,7 +140,6 @@ export function chunkLegalText(
   }
 
   const targetChars = targetTokens * CHARS_PER_TOKEN;
-  const overlapChars = overlapTokens * CHARS_PER_TOKEN;
   const chunks: LegalChunk[] = [];
   let position = 0;
 
@@ -124,12 +148,15 @@ export function chunkLegalText(
 
     // If remaining fits in max, take it all
     if (remaining <= maxTokens * CHARS_PER_TOKEN) {
-      chunks.push({
-        text: text.slice(position).trim(),
-        index: chunks.length,
-        totalChunks: 0, // Will be set after
-        metadata: { ...baseMetadata },
-      });
+      const chunkText = text.slice(position).trim();
+      if (validateChunk(chunkText)) {
+        chunks.push({
+          text: chunkText,
+          index: chunks.length,
+          totalChunks: 0, // Will be set after
+          metadata: { ...baseMetadata },
+        });
+      }
       break;
     }
 
@@ -137,7 +164,7 @@ export function chunkLegalText(
     const splitAt = findBestSplit(text, position + targetChars);
     const chunkText = text.slice(position, splitAt).trim();
 
-    if (chunkText.length > 0) {
+    if (chunkText.length > 0 && validateChunk(chunkText)) {
       chunks.push({
         text: chunkText,
         index: chunks.length,
@@ -146,8 +173,12 @@ export function chunkLegalText(
       });
     }
 
-    // Advance position with overlap
-    position = Math.max(position + 1, splitAt - overlapChars);
+    // Advance position with semantic overlap
+    const overlapText = getSemanticOverlap(
+      text.slice(position, splitAt),
+      overlapTokens * CHARS_PER_TOKEN
+    );
+    position = Math.max(position + 1, splitAt - overlapText.length);
   }
 
   // Set totalChunks on all chunks
@@ -160,6 +191,7 @@ export function chunkLegalText(
 
 /**
  * Chunk a doctrina document into pieces suitable for embedding.
+ * Separate chunk for conclusionClave if available.
  */
 export function chunkDoctrina(
   doc: {
@@ -190,11 +222,28 @@ export function chunkDoctrina(
     fuente_sitio: doc.fuenteSitio,
   };
 
-  return chunkLegalText(doc.sintesis, metadata, options);
+  const chunks = chunkLegalText(doc.sintesis, metadata, options);
+
+  // Add conclusion as separate chunk with enriched metadata
+  if (doc.conclusionClave && doc.conclusionClave.trim().length >= 50) {
+    chunks.push({
+      text: doc.conclusionClave.trim(),
+      index: chunks.length,
+      totalChunks: chunks.length + 1,
+      metadata: { ...metadata, chunk_type: "conclusion" },
+    });
+    // Update totalChunks
+    for (const chunk of chunks) {
+      chunk.totalChunks = chunks.length;
+    }
+  }
+
+  return chunks;
 }
 
 /**
  * Chunk a sentencia document.
+ * Separate chunks for ratioDecidendi and salvamentoVoto if available.
  */
 export function chunkSentencia(
   doc: {
@@ -205,6 +254,7 @@ export function chunkSentencia(
     year: number;
     tema: string;
     ratioDecidendi?: string;
+    salvamentoVoto?: string;
     decision?: string;
     resumen: string;
     articulosSlugs: string[];
@@ -228,7 +278,22 @@ export function chunkSentencia(
 
   // Prefer ratio decidendi for embedding, fall back to resumen
   const textToChunk = doc.ratioDecidendi || doc.resumen;
-  return chunkLegalText(textToChunk, metadata, options);
+  const chunks = chunkLegalText(textToChunk, metadata, options);
+
+  // Add salvamento de voto as separate chunk if available
+  if (doc.salvamentoVoto && doc.salvamentoVoto.trim().length >= 50) {
+    chunks.push({
+      text: doc.salvamentoVoto.trim(),
+      index: chunks.length,
+      totalChunks: chunks.length + 1,
+      metadata: { ...metadata, chunk_type: "salvamento_voto" },
+    });
+    for (const chunk of chunks) {
+      chunk.totalChunks = chunks.length;
+    }
+  }
+
+  return chunks;
 }
 
 /**
@@ -304,6 +369,7 @@ export function chunkLey(
     numero: string;
     year: number;
     titulo: string;
+    fecha?: string;
     articulos: Array<{
       numero: string;
       texto: string;
@@ -321,7 +387,7 @@ export function chunkLey(
       doc_id: `${doc.id}-art-${art.numero}`,
       doc_type: "ley",
       numero: doc.numero,
-      fecha: `${doc.year}-01-01`,
+      fecha: doc.fecha || `${doc.year}-01-01`, // Use real date if available
       tema: doc.titulo,
       articulos_et: art.articulosETModificados.map((s) => `Art. ${s}`),
       articulos_slugs: art.articulosETModificados,

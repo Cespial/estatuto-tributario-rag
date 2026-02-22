@@ -2,8 +2,8 @@ import { RAGConfig } from "@/types/rag";
 
 export const RAG_CONFIG: RAGConfig = {
   topK: 15,
-  similarityThreshold: 0.35,
-  maxContextTokens: 6000,
+  similarityThreshold: 0.30,
+  maxContextTokens: 8000,
   maxRerankedResults: 8,
   useHyDE: true,
   useLLMRerank: false,
@@ -12,6 +12,7 @@ export const RAG_CONFIG: RAGConfig = {
   useMultiNamespace: true,
   additionalNamespaces: ["doctrina", "jurisprudencia", "decretos", "resoluciones", "leyes"],
   multiNamespaceTopK: 5,
+  externalSourceBudgetRatio: 0.30,
 };
 
 export const EMBEDDING_MODEL = "multilingual-e5-large";

@@ -4,29 +4,46 @@ import { RAG_CONFIG, MULTI_SOURCE_BOOST } from "@/config/constants";
 import { generateText } from "ai";
 import { anthropic } from "@ai-sdk/anthropic";
 
-// Configurable boost values for heuristic reranking.
-// These control how much each signal adjusts a chunk's relevance score.
+// Spanish stop words — used instead of length-based filtering to preserve
+// important short terms like "IVA", "GMF", "UVT", "DUR"
+const STOP_WORDS = new Set([
+  "el", "la", "los", "las", "de", "del", "en", "un", "una", "que",
+  "por", "con", "para", "es", "son", "se", "al", "lo", "su", "más",
+  "no", "si", "como", "qué", "cual", "cuál", "este", "esta", "ese",
+  "esa", "hay", "ser", "sobre", "entre", "tiene", "todos", "todo",
+]);
+
+// Rebalanced boost values — more uniform distribution,
+// directArticle no longer dominates over semantic relevance
 const BOOST = {
-  // Chunk type boosts: prefer content > modifications > old text
-  chunkContenido: 0.15,
-  chunkModificaciones: 0.10,
-  chunkTextoAnterior: 0.05,
-  // Direct article mention in query (e.g., "artículo 240")
-  directArticleMention: 0.30,
-  // Title word overlap with query (per word, capped at titleMatchMax)
-  titleMatchPerWord: 0.05,
-  titleMatchMax: 0.15,
-  // Penalty for derogated text when not asking about history
-  derogatedPenalty: -0.15,
-  // Boost for derogated text when asking about history
-  derogatedHistoryBoost: 0.20,
-  // Prefer vigente articles for non-history queries
-  vigenteBoost: 0.05,
-  // Boost when query mentions a specific law and article was modified by it
-  leyMatchBoost: 0.15,
-  // Minor boost for complex articles (complexity >= 5)
-  complexityBoost: 0.02,
+  chunkContenido: 0.12,
+  chunkModificaciones: 0.08,
+  chunkTextoAnterior: 0.03,
+  directArticleMention: 0.20,
+  titleMatchPerWord: 0.04,
+  titleMatchMax: 0.12,
+  derogatedPenalty: -0.10,
+  derogatedHistoryBoost: 0.15,
+  vigenteBoost: 0.06,
+  leyMatchBoost: 0.12,
+  complexityBoost: 0.03,
 } as const;
+
+// Extended law patterns for better matching
+const LEY_PATTERNS = [
+  /ley\s+(\d+)\s+de\s+(\d{4})/i,          // "Ley 2277 de 2022"
+  /ley\s+(\d+)\/(\d{4})/i,                 // "Ley 2277/2022"
+  /ley\s+(\d+)/i,                           // "Ley 2277"
+  /reforma\s+tributaria\s+(?:de\s+)?(\d{4})/i, // "reforma tributaria 2022"
+];
+
+function extractLeyFromQuery(query: string): string | null {
+  for (const pattern of LEY_PATTERNS) {
+    const match = query.match(pattern);
+    if (match) return match[1];
+  }
+  return null;
+}
 
 export async function llmRerank(
   chunks: RerankedChunk[],
@@ -78,9 +95,8 @@ export function heuristicRerank(
   // Detect history-related queries with broader pattern matching
   const isHistoryQuery = /histor|evoluci[oó]n|anteri|derogad|cambio|modificac|reform|trayectoria/i.test(queryLower);
 
-  // Detect if query mentions a specific law
-  const leyMatch = queryLower.match(/ley\s+(\d+)/);
-  const queryLey = leyMatch ? leyMatch[1] : null;
+  // Detect if query mentions a specific law (expanded patterns)
+  const queryLey = extractLeyFromQuery(queryLower);
 
   const reranked: RerankedChunk[] = chunks.map((chunk) => {
     let boost = 0;
@@ -101,7 +117,7 @@ export function heuristicRerank(
 
     // Boost if title terms match query
     const titleWords = meta.titulo.toLowerCase().split(/\s+/);
-    const queryWords = queryLower.split(/\s+/).filter((w) => w.length > 3);
+    const queryWords = queryLower.split(/\s+/).filter((w) => !STOP_WORDS.has(w));
     const titleMatches = queryWords.filter((w) => titleWords.some((tw) => tw.includes(w)));
     if (titleMatches.length > 0) {
       boost += Math.min(titleMatches.length * BOOST.titleMatchPerWord, BOOST.titleMatchMax);
@@ -137,15 +153,32 @@ export function heuristicRerank(
       boost += BOOST.complexityBoost;
     }
 
+    // Multiplicative + additive scoring: preserves relative ranking better
+    const multiplier = 1 + (boost > 0 ? boost * 0.3 : 0);
+    const rerankedScore = chunk.score * multiplier + boost * 0.7;
+
     return {
       ...chunk,
-      rerankedScore: chunk.score + boost,
+      rerankedScore,
     };
   });
 
-  return reranked
-    .sort((a, b) => b.rerankedScore - a.rerankedScore)
-    .slice(0, maxResults);
+  // Sort by reranked score
+  reranked.sort((a, b) => b.rerankedScore - a.rerankedScore);
+
+  // Adaptive filtering: remove chunks significantly below the distribution
+  if (reranked.length > 2) {
+    const scores = reranked.map((r) => r.rerankedScore);
+    const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+    const std = Math.sqrt(
+      scores.reduce((a, b) => a + (b - mean) ** 2, 0) / scores.length
+    );
+    const minScore = mean - std;
+    const filtered = reranked.filter((r) => r.rerankedScore >= minScore);
+    return filtered.slice(0, maxResults);
+  }
+
+  return reranked.slice(0, maxResults);
 }
 
 /**

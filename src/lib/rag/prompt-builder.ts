@@ -31,7 +31,7 @@ export function buildMessages(
 
   const contextBlock = contextString
     ? `${pageContextBlock}<context>\n${contextString}\n</context>\n\nPregunta del usuario: ${userQuery}`
-    : `${pageContextBlock}No se encontraron artículos relevantes en el Estatuto Tributario para esta consulta.\n\nPregunta del usuario: ${userQuery}`;
+    : `${pageContextBlock}No se encontraron artículos relevantes en las fuentes consultadas para esta consulta.\n\nPregunta del usuario: ${userQuery}`;
 
   // Add citation instructions when external sources are present
   const citationBlock = hasExternalSources ? CITATION_INSTRUCTIONS : "";

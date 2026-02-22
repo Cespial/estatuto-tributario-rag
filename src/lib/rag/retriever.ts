@@ -1,4 +1,4 @@
-import { getIndex } from "@/lib/pinecone/client";
+import { getIndex, withRetry } from "@/lib/pinecone/client";
 import { embedQueries } from "@/lib/pinecone/embedder";
 import { EnhancedQuery, RetrievalResult, PineconeNamespace } from "@/types/rag";
 import { ScoredChunk, ChunkMetadata, ScoredMultiSourceChunk, MultiSourceChunkMetadata } from "@/types/pinecone";
@@ -23,17 +23,16 @@ export async function retrieve(
   const topK = determineTopK(query, options.topK);
   const filter = buildFilter(query, options.libroFilter, options.pageContext);
 
-  // Build all query texts for parallel embedding
-  const queryTexts: string[] = [query.original];
-  if (query.rewritten !== query.original) {
-    queryTexts.push(query.rewritten);
-  }
-  if (query.hyde) {
-    queryTexts.push(query.hyde);
-  }
-  if (query.subQueries?.length) {
-    queryTexts.push(...query.subQueries);
-  }
+  // Build all query texts for parallel embedding — filter empty/duplicate
+  const queryTexts: string[] = [
+    query.original,
+    query.rewritten !== query.original ? query.rewritten : "",
+    query.hyde ?? "",
+    ...(query.subQueries ?? []),
+  ]
+    .filter(Boolean)
+    .filter((t) => t.trim().length > 5)
+    .filter((t, i, arr) => arr.indexOf(t) === i); // dedup
 
   // Embed all queries in parallel
   const embeddings = await embedQueries(queryTexts);
@@ -41,35 +40,47 @@ export async function retrieve(
   // Query Pinecone default namespace with each embedding in parallel
   const index = getIndex();
   const queryPromises = embeddings.map((vector) =>
-    index.query({
-      vector,
-      topK,
-      includeMetadata: true,
-      filter: filter || undefined,
-    })
+    withRetry(() =>
+      index.query({
+        vector,
+        topK,
+        includeMetadata: true,
+        filter: filter || undefined,
+      })
+    )
   );
 
   // If specific articles detected, also fetch by metadata
   if (query.detectedArticles.length > 0) {
     for (const artId of query.detectedArticles) {
       queryPromises.push(
-        index.query({
-          vector: embeddings[0],
-          topK: 25,
-          includeMetadata: true,
-          filter: { id_articulo: { $eq: artId } },
-        })
+        withRetry(() =>
+          index.query({
+            vector: embeddings[0],
+            topK: 25,
+            includeMetadata: true,
+            filter: { id_articulo: { $eq: artId } },
+          })
+        )
       );
     }
   }
 
   const results = await Promise.all(queryPromises);
 
-  // Dynamic threshold adjustment: use the top score of the first query result as anchor
+  // Improved dynamic threshold: use median of top-5 scores across ALL queries
+  const allScores = results
+    .flatMap((r) => (r.matches || []).map((m) => m.score ?? 0))
+    .sort((a, b) => b - a);
+
   let dynamicThreshold = similarityThreshold;
-  const firstResultMatches = results[0]?.matches || [];
-  if (firstResultMatches.length > 0) {
-    const topScore = firstResultMatches[0].score ?? 0;
+  if (allScores.length >= 5) {
+    const medianTop5 = allScores[2]; // median of top-5
+    if (medianTop5 > 0.70) dynamicThreshold = 0.38;
+    else if (medianTop5 > 0.55) dynamicThreshold = 0.30;
+    else dynamicThreshold = 0.22;
+  } else if (allScores.length > 0) {
+    const topScore = allScores[0];
     if (topScore > 0.75) dynamicThreshold = 0.35;
     else if (topScore < 0.60) dynamicThreshold = 0.25;
   }
@@ -102,14 +113,16 @@ export async function retrieve(
   // Multi-namespace retrieval for external sources
   let multiSourceChunks: ScoredMultiSourceChunk[] | undefined;
   if (RAG_CONFIG.useMultiNamespace && RAG_CONFIG.additionalNamespaces.length > 0) {
+    // Use rewritten query embedding (index 1) for better semantic alignment, fallback to original
+    const bestEmbedding = embeddings[1] || embeddings[0];
     multiSourceChunks = await retrieveMultiNamespace(
-      embeddings[0],
+      bestEmbedding,
       RAG_CONFIG.additionalNamespaces,
       dynamicThreshold
     );
   }
 
-  return { chunks, query, multiSourceChunks };
+  return { chunks, query, multiSourceChunks, dynamicThreshold };
 }
 
 /**
@@ -128,11 +141,13 @@ async function retrieveMultiNamespace(
     .map(async (ns) => {
       try {
         const nsIndex = index.namespace(ns);
-        const result = await nsIndex.query({
-          vector,
-          topK,
-          includeMetadata: true,
-        });
+        const result = await withRetry(() =>
+          nsIndex.query({
+            vector,
+            topK,
+            includeMetadata: true,
+          })
+        );
 
         return (result.matches || [])
           .filter((m) => m.metadata && (m.score ?? 0) >= threshold)
@@ -149,9 +164,18 @@ async function retrieveMultiNamespace(
     });
 
   const allResults = await Promise.all(nsPromises);
-  return allResults
-    .flat()
-    .sort((a, b) => b.score - a.score);
+
+  // Deduplicate across namespaces by doc_id, keeping the highest score
+  const dedupMap = new Map<string, ScoredMultiSourceChunk>();
+  for (const chunk of allResults.flat()) {
+    const key = `${chunk.metadata.doc_id}::${chunk.metadata.chunk_index}`;
+    const existing = dedupMap.get(key);
+    if (!existing || chunk.score > existing.score) {
+      dedupMap.set(key, chunk);
+    }
+  }
+
+  return Array.from(dedupMap.values()).sort((a, b) => b.score - a.score);
 }
 
 function determineTopK(query: EnhancedQuery, override?: number): number {

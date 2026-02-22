@@ -113,8 +113,8 @@ export const EXPERIMENT_GRID: ExperimentConfig[] = [
   // Threshold variations
   {
     name: "threshold-low",
-    description: "Lower similarity threshold (0.25)",
-    ragConfig: { similarityThreshold: 0.25 },
+    description: "Lower similarity threshold (0.22)",
+    ragConfig: { similarityThreshold: 0.22 },
     promptVariant: "default",
   },
   {
@@ -124,16 +124,61 @@ export const EXPERIMENT_GRID: ExperimentConfig[] = [
     promptVariant: "default",
   },
 
-  // Best combination (to be updated after initial experiments)
+  // Context budget variations
   {
-    name: "best-combined",
-    description: "Best configuration from experiments",
+    name: "context-10k",
+    description: "Larger context budget (10000 tokens)",
+    ragConfig: { maxContextTokens: 10000 },
+    promptVariant: "default",
+  },
+  {
+    name: "context-5k",
+    description: "Smaller context budget (5000 tokens)",
+    ragConfig: { maxContextTokens: 5000 },
+    promptVariant: "default",
+  },
+
+  // Optimized combination (Phase 1-6 improvements)
+  {
+    name: "optimized-v2",
+    description: "All Phase 1-6 optimizations applied",
     ragConfig: {
       topK: 15,
+      similarityThreshold: 0.30,
+      maxContextTokens: 8000,
+      maxRerankedResults: 8,
       useHyDE: true,
       useQueryExpansion: true,
       useSiblingRetrieval: true,
-      maxRerankedResults: 8,
+      useMultiNamespace: true,
+      externalSourceBudgetRatio: 0.30,
+    },
+    promptVariant: "default",
+  },
+
+  // Aggressive retrieval
+  {
+    name: "aggressive-retrieval",
+    description: "More aggressive retrieval: higher topK, lower threshold, bigger context",
+    ragConfig: {
+      topK: 25,
+      similarityThreshold: 0.22,
+      maxContextTokens: 10000,
+      maxRerankedResults: 12,
+    },
+    promptVariant: "default",
+  },
+
+  // LLM rerank with optimizations
+  {
+    name: "optimized-llm-rerank",
+    description: "Optimized config + LLM reranking",
+    ragConfig: {
+      topK: 15,
+      similarityThreshold: 0.30,
+      maxContextTokens: 8000,
+      useLLMRerank: true,
+      externalSourceBudgetRatio: 0.30,
     },
     promptVariant: "default",
   },

@@ -2,9 +2,23 @@ import { getPineconeClient } from "./client";
 import { EMBEDDING_MODEL } from "@/config/constants";
 import crypto from "crypto";
 
-// Simple LRU Cache for embeddings
-const CACHE_LIMIT = 100;
+// LRU Cache for embeddings — 500 covers ~5 concurrent sessions
+const CACHE_LIMIT = 500;
 const embeddingCache = new Map<string, number[]>();
+
+// Cache metrics
+let cacheHits = 0;
+let cacheMisses = 0;
+
+export function getCacheStats() {
+  const total = cacheHits + cacheMisses;
+  return {
+    hits: cacheHits,
+    misses: cacheMisses,
+    hitRate: total > 0 ? cacheHits / total : 0,
+    size: embeddingCache.size,
+  };
+}
 
 function getHash(text: string): string {
   return crypto.createHash("md5").update(text).digest("hex");
@@ -14,9 +28,12 @@ function getFromCache(text: string): number[] | undefined {
   const hash = getHash(text);
   const cached = embeddingCache.get(hash);
   if (cached) {
+    cacheHits++;
     // Move to end (most recent)
     embeddingCache.delete(hash);
     embeddingCache.set(hash, cached);
+  } else {
+    cacheMisses++;
   }
   return cached;
 }

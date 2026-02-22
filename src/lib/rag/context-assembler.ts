@@ -3,7 +3,7 @@ import { RerankedChunk, RerankedMultiSourceChunk, ArticleGroup, ExternalSourceGr
 import { ChunkMetadata } from "@/types/pinecone";
 import { estimateTokens } from "@/lib/utils/article-parser";
 import { RAG_CONFIG } from "@/config/constants";
-import { getRelatedContext } from "./graph-retriever";
+import { getRelatedContext, normalizeGraphId } from "./graph-retriever";
 
 export async function assembleContext(
   chunks: RerankedChunk[],
@@ -35,10 +35,15 @@ export async function assembleContext(
   // Sort groups by max score
   groups.sort((a, b) => b.maxScore - a.maxScore);
 
-  // Reserve ~30% of token budget for external sources if available
-  const externalBudget = multiSourceChunks.length > 0
-    ? Math.floor(maxTokens * 0.3)
-    : 0;
+  // Dynamic external budget: scale based on external source quality
+  let externalRatio = 0;
+  if (multiSourceChunks.length > 0) {
+    const highScoreCount = multiSourceChunks.filter((c) => c.rerankedScore > 0.7).length;
+    externalRatio = highScoreCount > 3
+      ? 0.40
+      : RAG_CONFIG.externalSourceBudgetRatio;
+  }
+  const externalBudget = Math.floor(maxTokens * externalRatio);
   const articleBudget = maxTokens - externalBudget;
 
   // Apply token budget for articles
@@ -83,11 +88,15 @@ export async function assembleContext(
 async function fetchSiblingChunks(
   chunks: RerankedChunk[]
 ): Promise<RerankedChunk[]> {
+  const MAX_SIBLINGS_PER_ARTICLE = 4;
   const index = getIndex();
 
   // Find articles that have multiple chunks (total_chunks > 1)
   const articlesToExpand = new Set<string>();
   const existingIds = new Set(chunks.map((c) => c.id));
+
+  // Collect a representative vector for each article (from the highest-scored chunk)
+  const articleVectors = new Map<string, number[]>();
 
   for (const chunk of chunks) {
     if (chunk.metadata.total_chunks > 1) {
@@ -97,10 +106,28 @@ async function fetchSiblingChunks(
 
   if (articlesToExpand.size === 0) return chunks;
 
-  // For each article needing expansion, fetch all its chunks by querying metadata
+  // Build representative vectors: use the highest-scored chunk's ID to get its embedding
+  // Since we already have the chunks, use a metadata-filtered query with a real vector
+  // Find the best chunk per article to use as query vector
+  for (const chunk of chunks) {
+    const artId = chunk.metadata.id_articulo;
+    if (!articlesToExpand.has(artId)) continue;
+    if (!articleVectors.has(artId) || chunk.rerankedScore > (chunks.find(c => c.metadata.id_articulo === artId && articleVectors.has(artId))?.rerankedScore ?? 0)) {
+      // We don't have the actual vector, so we'll query with metadata filter
+      // but use the original query embedding passed via the pipeline
+    }
+  }
+
+  // For each article needing expansion, fetch all its chunks by metadata filter
+  // Use the first chunk's vector from the retrieval (avoids zero vector issue)
   const siblingPromises = Array.from(articlesToExpand).map(async (artId) => {
+    // Find the best existing chunk for this article to use its embedding
+    const bestChunk = chunks
+      .filter(c => c.metadata.id_articulo === artId)
+      .sort((a, b) => b.rerankedScore - a.rerankedScore)[0];
+
     const result = await index.query({
-      vector: new Array(1024).fill(0),
+      id: bestChunk.id, // Use the existing vector by ID instead of zero vector
       topK: 30,
       includeMetadata: true,
       filter: { id_articulo: { $eq: artId } },
@@ -120,12 +147,26 @@ async function fetchSiblingChunks(
     );
   }
 
-  // Add siblings not already present
+  // Add siblings not already present, limited per article
+  const siblingsAdded = new Map<string, number>();
+
   for (const matches of siblingResults) {
-    for (const match of matches) {
+    // Sort by chunk_index for coherent ordering
+    const sorted = [...matches].sort((a, b) => {
+      const aIdx = (a.metadata as unknown as ChunkMetadata)?.chunk_index ?? 0;
+      const bIdx = (b.metadata as unknown as ChunkMetadata)?.chunk_index ?? 0;
+      return aIdx - bIdx;
+    });
+
+    for (const match of sorted) {
       if (!existingIds.has(match.id) && match.metadata) {
         const meta = match.metadata as unknown as ChunkMetadata;
-        const artScore = articleScores.get(meta.id_articulo) ?? 0;
+        const artId = meta.id_articulo;
+        const added = siblingsAdded.get(artId) ?? 0;
+
+        if (added >= MAX_SIBLINGS_PER_ARTICLE) continue;
+
+        const artScore = articleScores.get(artId) ?? 0;
 
         chunks.push({
           id: match.id,
@@ -134,6 +175,7 @@ async function fetchSiblingChunks(
           rerankedScore: artScore * 0.9, // Siblings get slightly lower score
         });
         existingIds.add(match.id);
+        siblingsAdded.set(artId, added + 1);
       }
     }
   }
@@ -212,12 +254,38 @@ function applyTokenBudget(
     const articleText = formatArticleForContext(group);
     const tokens = estimateTokens(articleText);
 
-    if (totalTokens + tokens > maxTokens && selected.length > 0) {
-      break;
-    }
+    if (totalTokens + tokens <= maxTokens) {
+      selected.push(group);
+      totalTokens += tokens;
+    } else if (selected.length > 0) {
+      // Bin-packing: try to fit a minimal version (content only, no modifications/history)
+      const minimalGroup: ArticleGroup = {
+        ...group,
+        modificaciones: [],
+        textoAnterior: [],
+      };
+      const minimalText = formatArticleForContext(minimalGroup);
+      const minTokens = estimateTokens(minimalText);
 
-    selected.push(group);
-    totalTokens += tokens;
+      if (totalTokens + minTokens <= maxTokens) {
+        selected.push(minimalGroup);
+        totalTokens += minTokens;
+      }
+      // If even minimal doesn't fit, skip and try next (don't break — smaller articles might fit)
+    } else {
+      // First article always included even if it overflows
+      selected.push(group);
+      totalTokens += tokens;
+    }
+  }
+
+  // "Lost in the middle" mitigation: most relevant at start AND end
+  if (selected.length > 2) {
+    const [first, ...rest] = selected;
+    const last = rest.pop()!;
+    // Sort middle by ascending score (least relevant in the middle)
+    rest.sort((a, b) => a.maxScore - b.maxScore);
+    return { articles: [first, ...rest, last], totalTokens };
   }
 
   return { articles: selected, totalTokens };
@@ -236,17 +304,7 @@ export function formatArticleForContext(group: ArticleGroup): string {
 
   // GRAPH ENRICHMENT: Add structural connections
   try {
-    // Normalize ID for graph lookup (e.g. "art-240" -> "et-art-240")
-    // Graph nodes are stored as "et-art-NUM"
-    let graphId = group.idArticulo;
-    if (!graphId.startsWith("et-")) {
-      // If it's just "art-240" or similar
-      const match = graphId.match(/(\d+(?:-\d+)?)/);
-      if (match) {
-        graphId = `et-art-${match[1]}`;
-      }
-    }
-
+    const graphId = normalizeGraphId(group.idArticulo);
     const connections = getRelatedContext([graphId]);
     
     if (connections.length > 0) {
@@ -273,9 +331,8 @@ export function formatArticleForContext(group: ArticleGroup): string {
       parts.push(uniqueLines.join("\n"));
       parts.push("");
     }
-  } catch (e) {
+  } catch {
     // Fail silently if graph not loaded or ID format mismatch
-    // console.warn("Graph lookup failed:", e);
   }
 
   if (group.contenido.length > 0) {

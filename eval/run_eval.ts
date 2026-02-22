@@ -13,6 +13,8 @@ import {
   sourcePresence,
   answerContainsExpected,
 } from "./metrics/answer-quality";
+import { quickHallucinationCheck } from "./metrics/faithfulness";
+import { analyzeErrors, aggregateErrors, ErrorAnalysis } from "./analysis/error-categorizer";
 import { EXPERIMENT_GRID, ExperimentConfig } from "./experiments/config-grid";
 import { RAG_CONFIG } from "../src/config/constants";
 
@@ -30,12 +32,15 @@ interface EvalResult {
   questionId: string;
   question: string;
   category: string;
+  difficulty: string;
   retrievalMetrics: RetrievalMetrics;
   citationAcc: number;
   sourcePresenceScore: number;
   containsExpected: number;
   numChunksRetrieved: number;
   numArticlesInContext: number;
+  errorAnalysis: ErrorAnalysis;
+  hallucinationCheck: { citedArticles: string[]; uncitedArticles: string[] };
   timestamp: string;
 }
 
@@ -51,6 +56,7 @@ interface ExperimentResult {
     avgCitationAcc: number;
     avgSourcePresence: number;
     avgContainsExpected: number;
+    errorAnalysis: ReturnType<typeof aggregateErrors>;
   };
   timestamp: string;
 }
@@ -88,7 +94,7 @@ async function runSingleQuestion(
     maxTokens: mergedConfig.maxContextTokens,
   });
 
-  // 6. Simple metrics (no LLM call for speed)
+  // 6. Metrics (no LLM call for speed)
   const contextString = buildContextString(context);
   const citationAcc = citationAccuracy(
     contextString,
@@ -103,16 +109,32 @@ async function runSingleQuestion(
     question.expected_answer_contains
   );
 
+  // 7. Error analysis
+  const errorAnalysis = analyzeErrors(
+    question.id,
+    question.expected_articles,
+    chunks,
+    context,
+    contextString
+  );
+
+  // 8. Quick hallucination check
+  const contextArticleIds = context.sources.map((s) => s.idArticulo);
+  const hallucinationCheck = quickHallucinationCheck(contextString, contextArticleIds);
+
   return {
     questionId: question.id,
     question: question.question,
     category: question.category,
+    difficulty: question.difficulty,
     retrievalMetrics,
     citationAcc,
     sourcePresenceScore,
     containsExpected,
     numChunksRetrieved: chunks.length,
     numArticlesInContext: context.articles.length,
+    errorAnalysis,
+    hallucinationCheck,
     timestamp: new Date().toISOString(),
   };
 }
@@ -133,7 +155,7 @@ async function runExperiment(
       const result = await runSingleQuestion(q, experimentConfig);
       results.push(result);
       console.log(
-        ` MRR=${result.retrievalMetrics.mrr.toFixed(2)} Recall@5=${result.retrievalMetrics["recall@5"].toFixed(2)}`
+        ` MRR=${result.retrievalMetrics.mrr.toFixed(2)} Recall@5=${result.retrievalMetrics["recall@5"].toFixed(2)} Errors=${result.errorAnalysis.errors.length}`
       );
     } catch (err) {
       console.log(` ERROR: ${err}`);
@@ -144,6 +166,8 @@ async function runExperiment(
   const avg = (arr: number[]) =>
     arr.length > 0 ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
 
+  const errorAgg = aggregateErrors(results.map((r) => r.errorAnalysis));
+
   const aggregated = {
     avgPrecisionAt5: avg(results.map((r) => r.retrievalMetrics["precision@5"])),
     avgRecallAt5: avg(results.map((r) => r.retrievalMetrics["recall@5"])),
@@ -152,6 +176,7 @@ async function runExperiment(
     avgCitationAcc: avg(results.map((r) => r.citationAcc)),
     avgSourcePresence: avg(results.map((r) => r.sourcePresenceScore)),
     avgContainsExpected: avg(results.map((r) => r.containsExpected)),
+    errorAnalysis: errorAgg,
   };
 
   console.log(`\n  AGGREGATED:`);
@@ -161,6 +186,8 @@ async function runExperiment(
   console.log(`    NDCG@5:      ${aggregated.avgNDCGAt5.toFixed(3)}`);
   console.log(`    Source Pres:  ${aggregated.avgSourcePresence.toFixed(3)}`);
   console.log(`    Contains Exp: ${aggregated.avgContainsExpected.toFixed(3)}`);
+  console.log(`    Error Rate:   ${aggregated.errorAnalysis.errorRate.toFixed(3)}`);
+  console.log(`    Errors by category:`, JSON.stringify(aggregated.errorAnalysis.byCategory));
 
   return {
     experiment: experimentConfig.name,
@@ -182,7 +209,15 @@ async function main() {
   const dataset = JSON.parse(fs.readFileSync(datasetPath, "utf-8"));
   const questions: EvalQuestion[] = dataset.questions;
 
-  console.log(`Loaded ${questions.length} evaluation questions`);
+  // Optional category filter
+  const categoryFlag = args.indexOf("--category");
+  const categoryFilter = categoryFlag >= 0 ? args[categoryFlag + 1] : null;
+
+  const filteredQuestions = categoryFilter
+    ? questions.filter((q) => q.category === categoryFilter)
+    : questions;
+
+  console.log(`Loaded ${filteredQuestions.length} evaluation questions${categoryFilter ? ` (category: ${categoryFilter})` : ""}`);
 
   // Find experiment(s)
   let experiments: ExperimentConfig[];
@@ -202,7 +237,7 @@ async function main() {
   // Run experiments
   const allResults: ExperimentResult[] = [];
   for (const exp of experiments) {
-    const result = await runExperiment(exp, questions);
+    const result = await runExperiment(exp, filteredQuestions);
     allResults.push(result);
 
     // Save incrementally
@@ -223,9 +258,10 @@ async function main() {
         "MRR".padEnd(8) +
         "NDCG@5".padEnd(8) +
         "SrcPres".padEnd(8) +
-        "Contains".padEnd(8)
+        "Contains".padEnd(8) +
+        "ErrRate".padEnd(8)
     );
-    console.log("-".repeat(73));
+    console.log("-".repeat(81));
     for (const r of allResults) {
       console.log(
         r.experiment.padEnd(25) +
@@ -234,9 +270,18 @@ async function main() {
           r.aggregated.avgMRR.toFixed(3).padEnd(8) +
           r.aggregated.avgNDCGAt5.toFixed(3).padEnd(8) +
           r.aggregated.avgSourcePresence.toFixed(3).padEnd(8) +
-          r.aggregated.avgContainsExpected.toFixed(3).padEnd(8)
+          r.aggregated.avgContainsExpected.toFixed(3).padEnd(8) +
+          r.aggregated.errorAnalysis.errorRate.toFixed(3).padEnd(8)
       );
     }
+  }
+
+  // Save baseline if running optimized-v2
+  if (experimentName === "optimized-v2" || experimentName === "baseline") {
+    const baselinePath = path.join(__dirname, "baseline-results.json");
+    const baselineResult = allResults[0];
+    fs.writeFileSync(baselinePath, JSON.stringify(baselineResult.aggregated, null, 2));
+    console.log(`\nBaseline saved to ${baselinePath}`);
   }
 }
 

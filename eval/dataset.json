@@ -75,6 +75,51 @@
       "expected_answer_contains": ["sinónimos"]
     },
     {
+      "id": "factual-9",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Cuál es la tarifa del impuesto de timbre?",
+      "expected_articles": ["Art. 519"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["timbre"]
+    },
+    {
+      "id": "factual-10",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Qué es la renta líquida gravable?",
+      "expected_articles": ["Art. 178"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta líquida"]
+    },
+    {
+      "id": "factual-11",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Qué es la base gravable del IVA en la venta de bienes?",
+      "expected_articles": ["Art. 447"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["base gravable"]
+    },
+    {
+      "id": "factual-12",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Cuál es la tarifa de retención en la fuente por honorarios?",
+      "expected_articles": ["Art. 392"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retención"]
+    },
+    {
+      "id": "factual-13",
+      "category": "factual",
+      "difficulty": "easy",
+      "question": "¿Qué es el impuesto sobre la renta según el Estatuto Tributario?",
+      "expected_articles": ["Art. 5"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta"]
+    },
+    {
       "id": "comparative-1",
       "category": "comparative",
       "difficulty": "hard",
@@ -129,6 +174,312 @@
       "expected_answer_contains": ["deducciones"]
     },
     {
+      "id": "comparative-7",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre la renta gravable y la renta exenta?",
+      "expected_articles": ["Art. 178", "Art. 206"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta gravable", "renta exenta"]
+    },
+    {
+      "id": "comparative-8",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre renta ordinaria y ganancia ocasional?",
+      "expected_articles": ["Art. 26", "Art. 299"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta ordinaria", "ganancia ocasional"]
+    },
+    {
+      "id": "comparative-9",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Qué diferencias existen entre el procedimiento tributario sancionatorio y el de liquidación oficial?",
+      "expected_articles": ["Art. 637", "Art. 702"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sancionatorio", "liquidación"]
+    },
+    {
+      "id": "comparative-10",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre impuestos directos e indirectos según el Estatuto Tributario?",
+      "expected_articles": ["Art. 5", "Art. 420"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta", "IVA"]
+    },
+    {
+      "id": "comparative-11",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿En qué se diferencia la retención en la fuente a título de renta y a título de IVA?",
+      "expected_articles": ["Art. 365", "Art. 437-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retención", "renta", "IVA"]
+    },
+    {
+      "id": "comparative-12",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencias hay entre los descuentos tributarios y las deducciones?",
+      "expected_articles": ["Art. 107", "Art. 254"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["descuentos", "deducciones"]
+    },
+    {
+      "id": "comparative-13",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre contribuyentes del régimen ordinario y los no contribuyentes del impuesto de renta?",
+      "expected_articles": ["Art. 22", "Art. 23"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no contribuyentes"]
+    },
+    {
+      "id": "comparative-14",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cómo se comparan los métodos de depreciación aceptados fiscalmente en el Estatuto Tributario?",
+      "expected_articles": ["Art. 134", "Art. 135"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["depreciación"]
+    },
+    {
+      "id": "comparative-15",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre la factura electrónica y el documento equivalente según el ET?",
+      "expected_articles": ["Art. 615", "Art. 616-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["factura", "documento equivalente"]
+    },
+    {
+      "id": "comparative-16",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia entre el requerimiento especial y la liquidación de revisión?",
+      "expected_articles": ["Art. 703", "Art. 710"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["requerimiento especial", "liquidación de revisión"]
+    },
+    {
+      "id": "comparative-17",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre los ingresos de fuente nacional y los de fuente extranjera?",
+      "expected_articles": ["Art. 24", "Art. 25"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["fuente nacional", "fuente extranjera"]
+    },
+    {
+      "id": "comparative-18",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿En qué se diferencian las rentas cedulares de trabajo y las de capital?",
+      "expected_articles": ["Art. 330", "Art. 338"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["trabajo", "capital"]
+    },
+    {
+      "id": "comparative-19",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia entre la conciliación contable y fiscal en la determinación de la renta?",
+      "expected_articles": ["Art. 772-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["conciliación", "fiscal"]
+    },
+    {
+      "id": "comparative-20",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre el recurso de reconsideración y la revocatoria directa en materia tributaria?",
+      "expected_articles": ["Art. 720", "Art. 736"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["reconsideración", "revocatoria"]
+    },
+    {
+      "id": "comparative-21",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las diferencias entre los dividendos gravados y no gravados para personas naturales?",
+      "expected_articles": ["Art. 48", "Art. 242"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["dividendos", "gravados"]
+    },
+    {
+      "id": "comparative-22",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre patrimonio bruto y patrimonio líquido en el impuesto de renta?",
+      "expected_articles": ["Art. 261", "Art. 282"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["patrimonio bruto", "patrimonio líquido"]
+    },
+    {
+      "id": "comparative-23",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿En qué se diferencian los servicios gravados y los servicios excluidos del IVA?",
+      "expected_articles": ["Art. 420", "Art. 476"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["gravados", "excluidos"]
+    },
+    {
+      "id": "comparative-24",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia entre el impuesto diferido y el impuesto corriente en el contexto del ET?",
+      "expected_articles": ["Art. 772-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["diferido", "corriente"]
+    },
+    {
+      "id": "comparative-25",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre la sanción por inexactitud y la sanción por corrección?",
+      "expected_articles": ["Art. 644", "Art. 647"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["inexactitud", "corrección"]
+    },
+    {
+      "id": "comparative-26",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia entre los responsables del IVA en el régimen común y el régimen simple?",
+      "expected_articles": ["Art. 437", "Art. 903"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["responsables", "IVA"]
+    },
+    {
+      "id": "comparative-27",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre la renta presuntiva y la renta líquida?",
+      "expected_articles": ["Art. 178", "Art. 188"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["renta presuntiva", "renta líquida"]
+    },
+    {
+      "id": "comparative-28",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las diferencias entre el régimen SIMPLE y el régimen ordinario del impuesto de renta?",
+      "expected_articles": ["Art. 903", "Art. 905"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["SIMPLE", "ordinario"]
+    },
+    {
+      "id": "comparative-29",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre la enajenación directa e indirecta de activos para efectos de ganancias ocasionales?",
+      "expected_articles": ["Art. 90", "Art. 300"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["enajenación", "ganancia ocasional"]
+    },
+    {
+      "id": "comparative-30",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre el valor patrimonial de los bienes y su costo fiscal?",
+      "expected_articles": ["Art. 267", "Art. 69"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["valor patrimonial", "costo fiscal"]
+    },
+    {
+      "id": "comparative-31",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿En qué se diferencian las normas de subcapitalización y las de precios de transferencia?",
+      "expected_articles": ["Art. 118-1", "Art. 260-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["subcapitalización", "precios de transferencia"]
+    },
+    {
+      "id": "comparative-32",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre la inspección tributaria y la inspección contable?",
+      "expected_articles": ["Art. 779", "Art. 782"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["inspección tributaria", "inspección contable"]
+    },
+    {
+      "id": "comparative-33",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las diferencias entre el impuesto al patrimonio y el impuesto complementario de normalización tributaria?",
+      "expected_articles": ["Art. 292-3", "Art. 292-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["patrimonio", "normalización"]
+    },
+    {
+      "id": "comparative-34",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre la declaración de renta y la declaración de ingresos y patrimonio?",
+      "expected_articles": ["Art. 591", "Art. 599"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["declaración", "ingresos y patrimonio"]
+    },
+    {
+      "id": "comparative-35",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿En qué se diferencia la autorretención del impuesto de renta de la retención ordinaria?",
+      "expected_articles": ["Art. 365", "Art. 366-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["autorretención", "retención"]
+    },
+    {
+      "id": "comparative-36",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la diferencia entre los establecimientos permanentes y las sucursales para efectos tributarios?",
+      "expected_articles": ["Art. 20-1", "Art. 20-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["establecimiento permanente", "sucursal"]
+    },
+    {
+      "id": "comparative-37",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Cuál es la diferencia entre la presencia económica significativa y el establecimiento permanente?",
+      "expected_articles": ["Art. 20-3", "Art. 20-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["presencia económica significativa", "establecimiento permanente"]
+    },
+    {
+      "id": "comparative-38",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿Qué diferencia hay entre la corrección de declaraciones que aumentan el impuesto y las que lo disminuyen?",
+      "expected_articles": ["Art. 588", "Art. 589"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["corrección", "mayor valor", "menor valor"]
+    },
+    {
+      "id": "comparative-39",
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las diferencias entre las tarifas de ganancias ocasionales para residentes y no residentes?",
+      "expected_articles": ["Art. 313", "Art. 314"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["ganancias ocasionales", "tarifa"]
+    },
+    {
+      "id": "comparative-40",
+      "category": "comparative",
+      "difficulty": "medium",
+      "question": "¿En qué se diferencian los aportes a pensiones obligatorias de los aportes a pensiones voluntarias para efectos de renta?",
+      "expected_articles": ["Art. 55", "Art. 126-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["pensiones obligatorias", "pensiones voluntarias"]
+    },
+    {
       "id": "procedural-1",
       "category": "procedural",
       "difficulty": "hard",
@@ -181,6 +532,222 @@
       "expected_articles": ["Art. 375"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["agente retenedor"]
+    },
+    {
+      "id": "procedural-7",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para que una deducción sea procedente?",
+      "expected_articles": ["Art. 107"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["deducción", "relación de causalidad"]
+    },
+    {
+      "id": "procedural-8",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para interponer el recurso de reconsideración?",
+      "expected_articles": ["Art. 720"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["recurso de reconsideración", "plazo"]
+    },
+    {
+      "id": "procedural-9",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se determina el costo fiscal de los activos fijos?",
+      "expected_articles": ["Art. 69"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["costo fiscal", "activos"]
+    },
+    {
+      "id": "procedural-10",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para obtener la calificación al régimen tributario especial?",
+      "expected_articles": ["Art. 19"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["régimen tributario especial", "calificación"]
+    },
+    {
+      "id": "procedural-11",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para la compensación de pérdidas fiscales?",
+      "expected_articles": ["Art. 147"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["pérdidas fiscales", "compensación"]
+    },
+    {
+      "id": "procedural-12",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se calcula el impuesto de renta por el sistema cedular para personas naturales?",
+      "expected_articles": ["Art. 330", "Art. 241"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["cedular", "personas naturales"]
+    },
+    {
+      "id": "procedural-13",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cómo se debe expedir la factura electrónica según el Estatuto Tributario?",
+      "expected_articles": ["Art. 616-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["factura electrónica"]
+    },
+    {
+      "id": "procedural-14",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para solicitar la prescripción de la obligación tributaria?",
+      "expected_articles": ["Art. 817"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["prescripción"]
+    },
+    {
+      "id": "procedural-15",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se determina la base gravable del impuesto al patrimonio?",
+      "expected_articles": ["Art. 295-3"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["base gravable", "patrimonio"]
+    },
+    {
+      "id": "procedural-16",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los pasos para corregir una declaración tributaria?",
+      "expected_articles": ["Art. 588", "Art. 589"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["corrección", "declaración"]
+    },
+    {
+      "id": "procedural-17",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se aplican los precios de transferencia en operaciones con vinculados económicos?",
+      "expected_articles": ["Art. 260-1", "Art. 260-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["precios de transferencia", "vinculados"]
+    },
+    {
+      "id": "procedural-18",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cómo se determina el valor patrimonial de las inversiones en acciones?",
+      "expected_articles": ["Art. 272"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["valor patrimonial", "acciones"]
+    },
+    {
+      "id": "procedural-19",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para la deducción de donaciones?",
+      "expected_articles": ["Art. 125"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["donaciones", "deducción"]
+    },
+    {
+      "id": "procedural-20",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se realiza la liquidación provisional de impuestos?",
+      "expected_articles": ["Art. 764-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["liquidación provisional"]
+    },
+    {
+      "id": "procedural-21",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para que procedan las exenciones del impuesto de renta por rentas de trabajo?",
+      "expected_articles": ["Art. 206"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["exención", "rentas de trabajo"]
+    },
+    {
+      "id": "procedural-22",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cómo se debe registrar el RUT según el Estatuto Tributario?",
+      "expected_articles": ["Art. 555-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["RUT", "registro"]
+    },
+    {
+      "id": "procedural-23",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cuál es el procedimiento para la declaración y pago del impuesto de renta por establecimiento permanente?",
+      "expected_articles": ["Art. 20-1", "Art. 20-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["establecimiento permanente", "declaración"]
+    },
+    {
+      "id": "procedural-24",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cómo se determina la depreciación fiscal de activos fijos?",
+      "expected_articles": ["Art. 128", "Art. 137"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["depreciación", "activos fijos"]
+    },
+    {
+      "id": "procedural-25",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo se calcula el anticipo del impuesto de renta?",
+      "expected_articles": ["Art. 807"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["anticipo", "renta"]
+    },
+    {
+      "id": "procedural-26",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para inscribirse como responsable del IVA?",
+      "expected_articles": ["Art. 507"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["responsable", "inscripción", "IVA"]
+    },
+    {
+      "id": "procedural-27",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para aplicar el descuento tributario por impuestos pagados en el exterior?",
+      "expected_articles": ["Art. 254"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["descuento tributario", "impuestos pagados en el exterior"]
+    },
+    {
+      "id": "procedural-28",
+      "category": "procedural",
+      "difficulty": "hard",
+      "question": "¿Cómo opera el término de firmeza de las declaraciones tributarias?",
+      "expected_articles": ["Art. 714"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["firmeza", "declaración"]
+    },
+    {
+      "id": "procedural-29",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los medios de prueba admisibles en materia tributaria?",
+      "expected_articles": ["Art. 742"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["prueba", "medios"]
+    },
+    {
+      "id": "procedural-30",
+      "category": "procedural",
+      "difficulty": "medium",
+      "question": "¿Cuáles son los requisitos para que un gasto sea deducible en el impuesto de renta?",
+      "expected_articles": ["Art. 107", "Art. 771-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["deducible", "requisitos"]
     },
     {
       "id": "temporal-1",
@@ -246,6 +813,123 @@
       "expected_answer_contains": ["inflación"]
     },
     {
+      "id": "temporal-8",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo cambió la tarifa de ganancias ocasionales con la Ley 2277 de 2022?",
+      "expected_articles": ["Art. 313", "Art. 314"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["ganancias ocasionales", "tarifa"]
+    },
+    {
+      "id": "temporal-9",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Qué cambios introdujo la Ley 2277 de 2022 al impuesto al patrimonio?",
+      "expected_articles": ["Art. 292-3"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["patrimonio", "Ley 2277"]
+    },
+    {
+      "id": "temporal-10",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo se modificó el régimen de zonas francas con la Ley 2277 de 2022?",
+      "expected_articles": ["Art. 240-1"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["zona franca", "Ley 2277"]
+    },
+    {
+      "id": "temporal-11",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Qué modificaciones ha tenido el artículo sobre retención en la fuente por salarios?",
+      "expected_articles": ["Art. 383"],
+      "expected_chunk_types": ["modificaciones"],
+      "expected_answer_contains": ["retención", "salarios"]
+    },
+    {
+      "id": "temporal-12",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo ha evolucionado el tratamiento fiscal de los dividendos en Colombia?",
+      "expected_articles": ["Art. 242", "Art. 245"],
+      "expected_chunk_types": ["contenido", "modificaciones", "texto_anterior"],
+      "expected_answer_contains": ["dividendos", "tarifa"]
+    },
+    {
+      "id": "temporal-13",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Qué reformas han modificado las rentas exentas de personas naturales?",
+      "expected_articles": ["Art. 206"],
+      "expected_chunk_types": ["modificaciones"],
+      "expected_answer_contains": ["rentas exentas", "ley"]
+    },
+    {
+      "id": "temporal-14",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo cambió el régimen de entidades controladas del exterior (ECE) con la Ley 1819 de 2016?",
+      "expected_articles": ["Art. 882"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["entidades controladas del exterior"]
+    },
+    {
+      "id": "temporal-15",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Qué modificaciones ha tenido el GMF (gravamen a los movimientos financieros)?",
+      "expected_articles": ["Art. 871"],
+      "expected_chunk_types": ["modificaciones"],
+      "expected_answer_contains": ["GMF", "movimientos financieros"]
+    },
+    {
+      "id": "temporal-16",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo ha cambiado la normativa de precios de transferencia en Colombia?",
+      "expected_articles": ["Art. 260-1"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["precios de transferencia"]
+    },
+    {
+      "id": "temporal-17",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Qué cambios introdujo la Ley 2010 de 2019 al régimen SIMPLE?",
+      "expected_articles": ["Art. 903", "Art. 905"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["SIMPLE", "Ley 2010"]
+    },
+    {
+      "id": "temporal-18",
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "¿Cuándo fue creada la factura electrónica como obligación tributaria?",
+      "expected_articles": ["Art. 616-1"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["factura electrónica"]
+    },
+    {
+      "id": "temporal-19",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Cómo ha evolucionado la renta presuntiva en Colombia y cuál es su tarifa actual?",
+      "expected_articles": ["Art. 188", "Art. 189"],
+      "expected_chunk_types": ["contenido", "modificaciones", "texto_anterior"],
+      "expected_answer_contains": ["renta presuntiva"]
+    },
+    {
+      "id": "temporal-20",
+      "category": "temporal",
+      "difficulty": "hard",
+      "question": "¿Qué modificaciones ha tenido la norma de subcapitalización en el Estatuto Tributario?",
+      "expected_articles": ["Art. 118-1"],
+      "expected_chunk_types": ["contenido", "modificaciones"],
+      "expected_answer_contains": ["subcapitalización"]
+    },
+    {
       "id": "edge-1",
       "category": "edge_case",
       "difficulty": "hard",
@@ -291,6 +975,141 @@
       "expected_answer_contains": ["dividendos"]
     },
     {
+      "id": "edge-6",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cómo se aplica el impuesto en operaciones de leasing o arrendamiento financiero?",
+      "expected_articles": ["Art. 127-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["leasing", "arrendamiento financiero"]
+    },
+    {
+      "id": "edge-7",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cuál es el tratamiento tributario de las operaciones con criptoactivos según el Estatuto Tributario?",
+      "expected_articles": ["Art. 338"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["criptoactivos"]
+    },
+    {
+      "id": "edge-8",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Qué tratamiento tributario tienen las fusiones y escisiones de sociedades?",
+      "expected_articles": ["Art. 319-4", "Art. 319-6"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["fusión", "escisión"]
+    },
+    {
+      "id": "edge-9",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cómo se gravan los servicios digitales prestados desde el exterior en Colombia?",
+      "expected_articles": ["Art. 437-2"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["servicios digitales", "exterior"]
+    },
+    {
+      "id": "edge-10",
+      "category": "edge_case",
+      "difficulty": "hard",
+      "question": "¿Cuál es el tratamiento tributario de los contratos de concesión y asociaciones público-privadas?",
+      "expected_articles": ["Art. 32"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["concesión"]
+    },
+    {
+      "id": "negative-1",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿El Estatuto Tributario regula el impuesto predial?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "municipal", "territorial"]
+    },
+    {
+      "id": "negative-2",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la tarifa del impuesto de industria y comercio (ICA) en el Estatuto Tributario?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "municipal"]
+    },
+    {
+      "id": "negative-3",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿El Estatuto Tributario regula las contribuciones parafiscales del SENA e ICBF?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "parafiscal"]
+    },
+    {
+      "id": "negative-4",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿Qué dice el Estatuto Tributario sobre la sobretasa al impuesto de alumbrado público?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "municipal"]
+    },
+    {
+      "id": "negative-5",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿El Estatuto Tributario regula los aranceles aduaneros?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "arancel", "aduanero"]
+    },
+    {
+      "id": "negative-6",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la regulación del impuesto de registro y anotación en el Estatuto Tributario?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "departamental"]
+    },
+    {
+      "id": "negative-7",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿El Estatuto Tributario establece normas sobre la estampilla pro-universidad?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "territorial", "estampilla"]
+    },
+    {
+      "id": "negative-8",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿Qué dice el Estatuto Tributario sobre la tasa por uso de agua?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "tasa", "ambiental"]
+    },
+    {
+      "id": "negative-9",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿El Estatuto Tributario regula la contribución de valorización?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "valorización", "municipal"]
+    },
+    {
+      "id": "negative-10",
+      "category": "negative",
+      "difficulty": "hard",
+      "question": "¿Cuál es la regulación del impuesto de vehículos en el Estatuto Tributario?",
+      "expected_articles": [],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["no", "departamental", "vehículos"]
+    },
+    {
       "id": "sanction-1",
       "category": "sanctions",
       "difficulty": "medium",
@@ -316,6 +1135,222 @@
       "expected_articles": ["Art. 639"],
       "expected_chunk_types": ["contenido"],
       "expected_answer_contains": ["sanción mínima", "UVT"]
+    },
+    {
+      "id": "sanction-4",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por corrección de declaraciones?",
+      "expected_articles": ["Art. 644"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["sanción", "corrección"]
+    },
+    {
+      "id": "sanction-5",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por inexactitud en la declaración tributaria?",
+      "expected_articles": ["Art. 647"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["inexactitud"]
+    },
+    {
+      "id": "sanction-6",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por no expedir factura o expedirla sin requisitos?",
+      "expected_articles": ["Art. 652"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["factura", "sanción"]
+    },
+    {
+      "id": "sanction-7",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no informar o informar con errores en medios magnéticos?",
+      "expected_articles": ["Art. 651"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["información", "medios magnéticos"]
+    },
+    {
+      "id": "sanction-8",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por no llevar contabilidad o llevarla irregularmente?",
+      "expected_articles": ["Art. 654", "Art. 655"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["contabilidad", "sanción"]
+    },
+    {
+      "id": "sanction-9",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no inscribirse en el RUT?",
+      "expected_articles": ["Art. 658-3"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["RUT", "sanción"]
+    },
+    {
+      "id": "sanction-10",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por evasión tributaria y cuándo se configura como delito?",
+      "expected_articles": ["Art. 434A"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["evasión", "penal"]
+    },
+    {
+      "id": "sanction-11",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no practicar retención en la fuente estando obligado?",
+      "expected_articles": ["Art. 665"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retención", "sanción"]
+    },
+    {
+      "id": "sanction-12",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por extemporaneidad en la declaración del IVA?",
+      "expected_articles": ["Art. 641"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["extemporaneidad", "IVA"]
+    },
+    {
+      "id": "sanction-13",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por uso fraudulento de cédulas y NIT ajenos?",
+      "expected_articles": ["Art. 658-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["fraudulento", "sanción"]
+    },
+    {
+      "id": "sanction-14",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no declarar el impuesto al patrimonio?",
+      "expected_articles": ["Art. 643"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["patrimonio", "sanción"]
+    },
+    {
+      "id": "sanction-15",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la responsabilidad solidaria del agente retenedor que no consigna las retenciones?",
+      "expected_articles": ["Art. 370", "Art. 665"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["agente retenedor", "responsabilidad"]
+    },
+    {
+      "id": "sanction-16",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por hechos irregulares en la contabilidad?",
+      "expected_articles": ["Art. 654"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["irregulares", "contabilidad"]
+    },
+    {
+      "id": "sanction-17",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no enviar información tributaria o enviarla con errores?",
+      "expected_articles": ["Art. 651"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["información", "sanción"]
+    },
+    {
+      "id": "sanction-18",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Qué sanción aplica por omisión de activos o inclusión de pasivos inexistentes?",
+      "expected_articles": ["Art. 239-1"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["activos", "pasivos inexistentes"]
+    },
+    {
+      "id": "sanction-19",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la reducción de sanciones por corrección voluntaria de declaraciones?",
+      "expected_articles": ["Art. 640"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["reducción", "sanción"]
+    },
+    {
+      "id": "sanction-20",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por no certificar correctamente las retenciones en la fuente?",
+      "expected_articles": ["Art. 667"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["certificar", "retenciones"]
+    },
+    {
+      "id": "sanction-21",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por declarar retenciones y no consignarlas?",
+      "expected_articles": ["Art. 665"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["retenciones", "consignar"]
+    },
+    {
+      "id": "sanction-22",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿En qué casos se puede cerrar el establecimiento de comercio por sanción tributaria?",
+      "expected_articles": ["Art. 657"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["clausura", "establecimiento"]
+    },
+    {
+      "id": "sanction-23",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por extemporaneidad en la presentación de la declaración de retención en la fuente?",
+      "expected_articles": ["Art. 641"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["extemporaneidad", "retención"]
+    },
+    {
+      "id": "sanction-24",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuál es la sanción por abuso en materia tributaria según el Estatuto Tributario?",
+      "expected_articles": ["Art. 869"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["abuso", "tributario"]
+    },
+    {
+      "id": "sanction-25",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es la sanción por no reportar la dirección o actividad económica correcta en el RUT?",
+      "expected_articles": ["Art. 658-3"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["RUT", "dirección"]
+    },
+    {
+      "id": "sanction-26",
+      "category": "sanctions",
+      "difficulty": "hard",
+      "question": "¿Cuáles son las sanciones aplicables a los funcionarios de la DIAN por irregularidades?",
+      "expected_articles": ["Art. 669"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["funcionarios", "sanción"]
+    },
+    {
+      "id": "sanction-27",
+      "category": "sanctions",
+      "difficulty": "medium",
+      "question": "¿Cuál es el procedimiento para la imposición de sanciones según el artículo 637?",
+      "expected_articles": ["Art. 637"],
+      "expected_chunk_types": ["contenido"],
+      "expected_answer_contains": ["imposición", "sanciones"]
     }
   ]
 }

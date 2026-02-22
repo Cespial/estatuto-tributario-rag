@@ -1,6 +1,6 @@
 /**
  * Graph Retriever
- * 
+ *
  * Provides semantic connections for retrieved documents using the Tax Knowledge Graph.
  * When a vector search finds "Art. 240", this module finds "Decree 1625 Art. 1.2..."
  */
@@ -49,46 +49,105 @@ function loadGraph(): TaxGraph {
   }
 }
 
+// Relation weights for scoring — higher weight = more relevant connection
+const RELATION_WEIGHTS: Record<string, number> = {
+  MODIFIES: 1.0,
+  REGULATES: 0.8,
+  INTERPRETS: 0.6,
+  REFERENCES: 0.4,
+  CITED_IN: 0.3,
+};
+
 export interface GraphContext {
   sourceId: string;
   relatedId: string;
   relation: string;
   snippet?: string;
+  depth: number;
+  weight: number;
 }
 
 /**
- * Given a list of document IDs (e.g., "et-art-240"), find related documents in the graph.
+ * Centralized graph ID normalization.
+ * Converts various ID formats to the graph's "et-art-NUM" format.
  */
-export function getRelatedContext(docIds: string[]): GraphContext[] {
-  const graph = loadGraph();
-  const related: GraphContext[] = [];
-  
-  // Create a set for O(1) lookup
-  const targetIds = new Set(docIds);
+export function normalizeGraphId(idArticulo: string): string {
+  // Already normalized
+  if (idArticulo.startsWith("et-art-")) return idArticulo;
 
-  for (const edge of graph.edges) {
-    // Check outgoing edges (Source -> Target)
-    if (targetIds.has(edge.source)) {
-      related.push({
-        sourceId: edge.source,
-        relatedId: edge.target,
-        relation: edge.relation,
-        snippet: edge.context
-      });
+  // Clean prefixes and extract the number(s)
+  const cleaned = idArticulo
+    .replace(/^Art\.\s*/i, "")
+    .replace(/^art-/i, "")
+    .trim();
+
+  // Extract number pattern (handles "240", "240-1", "23-1", etc.)
+  const match = cleaned.match(/^(\d+(?:-\d+)?)$/);
+  if (match) return `et-art-${match[1]}`;
+
+  // If it's already in a complex format, try to extract number
+  const numMatch = cleaned.match(/(\d+(?:-\d+)?)/);
+  if (numMatch) return `et-art-${numMatch[1]}`;
+
+  return `et-art-${cleaned.toLowerCase().replace(/\s+/g, "-")}`;
+}
+
+/**
+ * Given a list of document IDs, find related documents in the graph.
+ * Supports BFS traversal up to configurable depth with decay.
+ */
+export function getRelatedContext(docIds: string[], maxDepth = 2): GraphContext[] {
+  const graph = loadGraph();
+  if (graph.edges.length === 0) return [];
+
+  const visited = new Set<string>();
+  const results: GraphContext[] = [];
+  let currentLevel = [...docIds];
+
+  for (let depth = 0; depth < maxDepth; depth++) {
+    const nextLevel: string[] = [];
+    const decayFactor = Math.pow(0.7, depth);
+
+    for (const id of currentLevel) {
+      if (visited.has(id)) continue;
+      visited.add(id);
+
+      for (const edge of graph.edges) {
+        // Check outgoing edges (Source -> Target)
+        if (edge.source === id && !visited.has(edge.target)) {
+          const weight = (RELATION_WEIGHTS[edge.relation] ?? 0.3) * decayFactor;
+          results.push({
+            sourceId: edge.source,
+            relatedId: edge.target,
+            relation: edge.relation,
+            snippet: edge.context,
+            depth,
+            weight,
+          });
+          nextLevel.push(edge.target);
+        }
+
+        // Check incoming edges (Target <- Source)
+        if (edge.target === id && !visited.has(edge.source)) {
+          const weight = (RELATION_WEIGHTS[edge.relation] ?? 0.3) * decayFactor;
+          results.push({
+            sourceId: edge.target,
+            relatedId: edge.source,
+            relation: `INVERSE_${edge.relation}`,
+            snippet: edge.context,
+            depth,
+            weight,
+          });
+          nextLevel.push(edge.source);
+        }
+      }
     }
-    // Check incoming edges (Target <- Source)
-    // Example: We found Art. 240 (Target), we want the Law that modifies it (Source)
-    if (targetIds.has(edge.target)) {
-      related.push({
-        sourceId: edge.target,
-        relatedId: edge.source,
-        relation: `INVERSE_${edge.relation}`, // e.g. IS_MODIFIED_BY
-        snippet: edge.context
-      });
-    }
+
+    currentLevel = nextLevel;
   }
 
-  return related;
+  // Sort by weight descending
+  return results.sort((a, b) => b.weight - a.weight);
 }
 
 /**
@@ -97,8 +156,8 @@ export function getRelatedContext(docIds: string[]): GraphContext[] {
 export function getRegulations(articleId: string): string[] {
   const graph = loadGraph();
   return graph.edges
-    .filter(e => e.target === articleId && e.relation === "REGULATES")
-    .map(e => e.source);
+    .filter((e) => e.target === articleId && e.relation === "REGULATES")
+    .map((e) => e.source);
 }
 
 /**
@@ -107,6 +166,6 @@ export function getRegulations(articleId: string): string[] {
 export function getModifications(articleId: string): string[] {
   const graph = loadGraph();
   return graph.edges
-    .filter(e => e.target === articleId && e.relation === "MODIFIES")
-    .map(e => e.source);
+    .filter((e) => e.target === articleId && e.relation === "MODIFIES")
+    .map((e) => e.source);
 }
